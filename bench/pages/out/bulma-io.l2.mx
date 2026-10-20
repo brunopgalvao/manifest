@@ -1,0 +1,574 @@
+@bulma_io rev=0 @0,0,728,7036
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/ @17,17,694,20
+badge CSS Variables warning @17,49,694,20
+button "Dark Mode Light Mode" primary @17,81,694,37
+badge Dart Sass info @17,130,694,20
+badge Flexbox success @17,162,694,20
+badge Modular primary @17,194,694,20
+badge Open Source danger @17,226,694,20
+badge Responsive danger @17,258,694,20
+badge Free success @17,290,694,20
+badge Smart Grid primary @17,322,694,20
+badge Auto Color danger @17,354,694,20
+badge Skeletons success @17,386,694,20
+badge Themes success @17,418,694,20
+text The most beautifully written framework I've ever had the pleasure of working with. danger @17,450,694,20
+row @17,482,694,20
+  image https://bulma.io/assets/images/twitter/axbom.jpg "Avatar of Per Axbom" @17,482,0,0
+  text Per Axbom @29,482,73,20
+text Bulma CSS by @jgthms is just perfect. success @17,514,694,21
+row @17,547,694,20
+  image https://bulma.io/assets/images/twitter/ale_codes.jpg "Avatar of Alejandro Barrera A." @17,547,0,0
+  text Alejandro Barrera A. @29,547,134,20
+text After 5 minutes I have working. It's a miracle!!!! @jgthms primary #bulmaio @17,579,694,20
+row @17,611,694,20
+  image https://bulma.io/assets/images/twitter/MyTopSecretName.jpg "Avatar of Jamie" @17,611,0,0
+  text Jamie @29,611,40,20
+text Bulma, I think I'm in love. primary @17,643,694,21
+row @17,676,694,20
+  image https://bulma.io/assets/images/twitter/jesseschoff.jpg "Avatar of Jesse Schoff" @17,676,0,0
+  text Jesse Schoff @29,676,88,20
+text We're very happy that @jgthms created the Bulma CSS framework. success @17,708,694,20
+row @17,740,694,21
+  image https://bulma.io/assets/images/twitter/infinitysearch.jpg "Avatar of Infinity Search" @17,740,0,0
+  text Infinity Search @29,740,96,21
+text With Bulma, I was able to make each one of my pages on my website’s templates in one single day with no prior knowledge on how to use it. danger @17,773,694,40
+row @17,825,694,20
+  image https://bulma.io/assets/images/twitter/bruhandle.jpg "Avatar of Bruh" @17,825,0,0
+  text Bruh @29,825,31,20
+row @17,857,694,212
+  link https://bulma.io/ https://bulma.io/ @17,953,55,20
+  row @84,864,424,198
+    link "Docs Documentation" https://bulma.io/documentation/ @84,943,67,40
+    link Expo https://bulma.io/expo/ @163,953,16,20
+    link Love https://bulma.io/love/ @191,953,16,20
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/ @219,953,27,20
+    row @258,864,250,198
+      link "Open Source on GitHub" https://github.com/jgthms/bulma @258,922,63,82
+      link "Follow me on Twitter" https://twitter.com/jgthms @333,933,56,61
+      button button @401,945,48,36
+      col @461,864,47,198
+        link "Made with Bulma" https://bulma.io/made-with-bulma/ @461,864,47,61
+        link Backers https://bulma.io/backers/ @461,937,47,20
+        link "Bulma Brand" https://bulma.io/brand/ @461,969,47,41
+        link "Bulma Extensions" https://bulma.io/extensions/ @461,1022,47,40
+  col @520,857,80,212
+    button button @520,857,80,37
+    card @520,906,80,163
+      button "Light mode" @537,921,46,36
+      button "Dark mode" @537,969,46,36
+      button "System mode" success @537,1017,46,37
+  col @612,886,53,154
+    button button @612,886,53,37
+    card @612,935,53,105
+      field "search input" @629,950,19,75
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @677,953,34,20
+h1 The Modern CSS Framework @17,1081,694,25
+text Bulma is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces. @17,1118,694,40
+text No CSS knowledge required! success @17,1170,694,21
+row @17,1203,694,20
+  link "Get Started" https://bulma.io/documentation @17,1203,76,20
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @105,1203,67,20
+row @17,1235,694,41
+  link "100% Responsive Designed mobile-first" /documentation/start/responsiveness/ @17,1235,184,41
+  link "Modern Flexbox + Grid + CSS Variables" /documentation/features/ @213,1235,183,41
+  link "Easy Download. Customize. Done." /documentation/customize/ @408,1235,158,41
+  link "Free Open Source on GitHub" https://github.com/jgthms/bulma @578,1235,133,41
+row @17,1288,694,1038
+  col @17,1338,52,937
+    link "Alejandro Barrera A. @ale_codes" https://twitter.com/ale_codes/status/1126857886599122949 @17,1338,52,81
+    text Bulma CSS by is just perfect. Simple, easily customizable and doesn't impose Javascript implementations.After experimenting with and finding that utility first css is just not my thing, Bulma felt like a breath of fresh air. @17,1431,52,589
+    link @jgthms https://twitter.com/jgthms @17,2032,52,20
+    link @tailwindcss https://twitter.com/tailwindcss @17,2064,52,21
+    link #webdevelopment https://twitter.com/search?q=%23webdevelopment @17,2097,52,20
+    link #CSS https://twitter.com/search?q=%23CSS @17,2129,52,20
+    link "3:33 PM - 10 May 2019" https://twitter.com/ale_codes/status/1126857886599122949 @17,2161,52,82
+    row @17,2255,52,20
+      link https://x.com/intent/tweet?in_reply_to=1126857886599122949 https://x.com/intent/tweet?in_reply_to=1126857886599122949 @17,2255,27,20
+      link 6 https://x.com/intent/retweet?tweet_id=1126857886599122949 @56,2255,0,20
+      link 34 https://x.com/intent/like?tweet_id=1126857886599122949&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1126857886599122949&tw_p=tweetembed @68,2255,1,20
+  col @81,1391,38,831
+    link "Jamie @MyTopSecretName" https://twitter.com/MyTopSecretName/status/1339242817919590404 @81,1391,38,40
+    text Omg I've been fighting with bootstrap and foundation, trying to get them to work with my rails app, for days. After 5 minutes I have working. It's a miracle!!!! @81,1443,38,569
+    link #bulmaio https://twitter.com/search?q=%23bulmaio @81,2024,38,20
+    link @jgthms https://twitter.com/jgthms @81,2056,38,20
+    link "4:15 PM - 16 Dec 2020" https://twitter.com/MyTopSecretName/status/1339242817919590404 @81,2088,38,102
+    row @81,2202,38,20
+      link https://x.com/intent/tweet?in_reply_to=1339242817919590404 https://x.com/intent/tweet?in_reply_to=1339242817919590404 @81,2202,13,20
+      link 2 https://x.com/intent/retweet?tweet_id=1339242817919590404 @106,2202,1,20
+      link 24 https://x.com/intent/like?tweet_id=1339242817919590404&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1339242817919590404&tw_p=tweetembed @119,2202,0,20
+  link https://bulma.io/expo https://bulma.io/expo @131,1796,5,21
+  col @148,1584,17,445
+    link "Jesse Schoff @jesseschoff" https://twitter.com/jesseschoff/status/869284735440363520 @148,1584,17,61
+    text Bulma, I think I'm in love. via @148,1657,17,142
+    link bulma.io https://t.co/APYefmC1Bs @148,1811,17,20
+    link @jgthms https://twitter.com/jgthms @148,1843,17,20
+    link "9:10 PM - 29 May 2017" https://twitter.com/jesseschoff/status/869284735440363520 @148,1875,17,122
+    row @148,2009,17,20
+      link https://x.com/intent/tweet?in_reply_to=869284735440363520 https://x.com/intent/tweet?in_reply_to=869284735440363520 @148,2009,0,20
+      link 1 https://x.com/intent/retweet?tweet_id=869284735440363520 @160,2009,0,20
+      link 25 https://x.com/intent/like?tweet_id=869284735440363520&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=869284735440363520&tw_p=tweetembed @172,2009,0,20
+  col @177,1377,42,860
+    link "Per Axbom @axbom" https://twitter.com/axbom/status/966731525709619200 @177,1377,42,60
+    text I've spent a few hours now with the Bulma CSS framework and I have to say it's the most beautifully written framework I've ever had the pleasure of working with. Nice work 👊 @177,1449,42,609
+    row @177,2070,42,21
+      link @jgthms https://twitter.com/jgthms @177,2070,6,21
+      link bulma.io https://t.co/W9GKZ0GZoV @195,2070,6,21
+      link #bulmaio https://twitter.com/search?q=%23bulmaio @213,2070,6,21
+    link "5:48 PM - 22 Feb 2018" https://twitter.com/axbom/status/966731525709619200 @177,2103,42,101
+    row @177,2216,42,21
+      link https://x.com/intent/tweet?in_reply_to=966731525709619200 https://x.com/intent/tweet?in_reply_to=966731525709619200 @177,2216,17,21
+      link 4 https://x.com/intent/retweet?tweet_id=966731525709619200 @206,2216,1,21
+      link 17 https://x.com/intent/like?tweet_id=966731525709619200&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=966731525709619200&tw_p=tweetembed @219,2216,0,21
+  link https://bulma.io/expo https://bulma.io/expo @231,1796,6,21
+  col @249,1288,51,1038
+    link "@redrapids@genserver.social (Bruce Tate mastodon) @redrapids" https://twitter.com/redrapids/status/1254050448711057410 @249,1288,51,101
+    text One of the main contributors to our success at : the Bulma framework by . His work is brilliant. It’s very low JavaScript, and it plays very well with . In short, Bulma provides its value and gets out of the way. Thanks! @249,1401,51,670
+    link grox.io https://t.co/VjDhdf1Y6u @249,2083,51,20
+    link @jgthms https://twitter.com/jgthms @249,2115,51,21
+    link @elixirphoenix https://twitter.com/elixirphoenix @249,2148,51,20
+    link #liveview https://twitter.com/search?q=%23liveview @249,2180,51,20
+    link "3:11 PM - 25 Apr 2020" https://twitter.com/redrapids/status/1254050448711057410 @249,2212,51,81
+    row @249,2305,51,21
+      link https://x.com/intent/tweet?in_reply_to=1254050448711057410 https://x.com/intent/tweet?in_reply_to=1254050448711057410 @249,2305,26,21
+      link 3 https://x.com/intent/retweet?tweet_id=1254050448711057410 @287,2305,0,21
+      link 19 https://x.com/intent/like?tweet_id=1254050448711057410&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1254050448711057410&tw_p=tweetembed @299,2305,1,21
+  col @312,1421,32,771
+    link "Infinity Search @InfinitySearch1" https://twitter.com/InfinitySearch1/status/1240347595106549762 @312,1421,32,61
+    text We're very happy that created the Bulma CSS framework. It has saved us a ton of time and made our site responsive on all devices! @312,1494,32,487
+    link @jgthms https://twitter.com/jgthms @312,1993,32,21
+    link pic.twitter.com/lvEM7uhcLn https://t.co/lvEM7uhcLn @312,2026,32,20
+    link "6:41 PM - 18 Mar 2020" https://twitter.com/InfinitySearch1/status/1240347595106549762 @312,2058,32,102
+    row @312,2172,32,20
+      link https://x.com/intent/tweet?in_reply_to=1240347595106549762 https://x.com/intent/tweet?in_reply_to=1240347595106549762 @312,2172,8,20
+      link 1 https://x.com/intent/retweet?tweet_id=1240347595106549762 @332,2172,0,20
+      link 10 https://x.com/intent/like?tweet_id=1240347595106549762&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1240347595106549762&tw_p=tweetembed @344,2172,0,20
+  link https://bulma.io/expo https://bulma.io/expo @356,1796,5,21
+  col @373,1371,52,872
+    link "Bruh @bruhandle" https://twitter.com/bruhandle/status/1140839283692982274 @373,1371,52,40
+    text Okay so with ’s Bulma, I was able to make each one of my pages on my website’s templates in one single day with no prior knowledge on how to use it, the docs are super easy to understand and it’s a great library. @373,1423,52,629
+    link @jgthms https://twitter.com/jgthms @373,2064,52,21
+    link #css https://twitter.com/search?q=%23css @373,2097,52,20
+    link "5:30 AM - 18 Jun 2019" https://twitter.com/bruhandle/status/1140839283692982274 @373,2129,52,81
+    row @373,2222,52,21
+      link https://x.com/intent/tweet?in_reply_to=1140839283692982274 https://x.com/intent/tweet?in_reply_to=1140839283692982274 @373,2222,26,21
+      link 4 https://x.com/intent/retweet?tweet_id=1140839283692982274 @411,2222,1,21
+      link 10 https://x.com/intent/like?tweet_id=1140839283692982274&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1140839283692982274&tw_p=tweetembed @424,2222,1,21
+  col @437,1482,25,649
+    link "scottgallant 💙💛 @scottgallant" https://twitter.com/scottgallant/status/835834634655174658 @437,1482,25,61
+    text is an impressive CSS framework. Flexbox grid, no JS, modular components (use what you need), Sass.💯 . @437,1555,25,345
+    link bulma.io https://t.co/ClYmBd8tGR @437,1912,25,21
+    link @jgthms https://twitter.com/jgthms @437,1945,25,20
+    link "12:51 PM - 26 Feb 2017" https://twitter.com/scottgallant/status/835834634655174658 @437,1977,25,122
+    row @437,2111,25,20
+      link https://x.com/intent/tweet?in_reply_to=835834634655174658 https://x.com/intent/tweet?in_reply_to=835834634655174658 @437,2111,1,20
+      link 1 https://x.com/intent/retweet?tweet_id=835834634655174658 @450,2111,0,20
+      link 17 https://x.com/intent/like?tweet_id=835834634655174658&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=835834634655174658&tw_p=tweetembed @462,2111,0,20
+  link https://bulma.io/expo https://bulma.io/expo @474,1796,5,21
+  col @491,1338,53,937
+    link "Alejandro Barrera A. @ale_codes" https://twitter.com/ale_codes/status/1126857886599122949 @491,1338,53,81
+    text Bulma CSS by is just perfect. Simple, easily customizable and doesn't impose Javascript implementations.After experimenting with and finding that utility first css is just not my thing, Bulma felt like a breath of fresh air. @491,1431,53,589
+    link @jgthms https://twitter.com/jgthms @491,2032,53,20
+    link @tailwindcss https://twitter.com/tailwindcss @491,2064,53,21
+    link #webdevelopment https://twitter.com/search?q=%23webdevelopment @491,2097,53,20
+    link #CSS https://twitter.com/search?q=%23CSS @491,2129,53,20
+    link "3:33 PM - 10 May 2019" https://twitter.com/ale_codes/status/1126857886599122949 @491,2161,53,82
+    row @491,2255,53,20
+      link https://x.com/intent/tweet?in_reply_to=1126857886599122949 https://x.com/intent/tweet?in_reply_to=1126857886599122949 @491,2255,27,20
+      link 6 https://x.com/intent/retweet?tweet_id=1126857886599122949 @530,2255,1,20
+      link 34 https://x.com/intent/like?tweet_id=1126857886599122949&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1126857886599122949&tw_p=tweetembed @543,2255,1,20
+  col @556,1391,37,831
+    link "Jamie @MyTopSecretName" https://twitter.com/MyTopSecretName/status/1339242817919590404 @556,1391,37,40
+    text Omg I've been fighting with bootstrap and foundation, trying to get them to work with my rails app, for days. After 5 minutes I have working. It's a miracle!!!! @556,1443,37,569
+    link #bulmaio https://twitter.com/search?q=%23bulmaio @556,2024,37,20
+    link @jgthms https://twitter.com/jgthms @556,2056,37,20
+    link "4:15 PM - 16 Dec 2020" https://twitter.com/MyTopSecretName/status/1339242817919590404 @556,2088,37,102
+    row @556,2202,37,20
+      link https://x.com/intent/tweet?in_reply_to=1339242817919590404 https://x.com/intent/tweet?in_reply_to=1339242817919590404 @556,2202,13,20
+      link 2 https://x.com/intent/retweet?tweet_id=1339242817919590404 @581,2202,0,20
+      link 24 https://x.com/intent/like?tweet_id=1339242817919590404&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1339242817919590404&tw_p=tweetembed @593,2202,0,20
+  link https://bulma.io/expo https://bulma.io/expo @605,1796,6,21
+  col @623,1584,17,445
+    link "Jesse Schoff @jesseschoff" https://twitter.com/jesseschoff/status/869284735440363520 @623,1584,17,61
+    text Bulma, I think I'm in love. via @623,1657,17,142
+    link bulma.io https://t.co/APYefmC1Bs @623,1811,17,20
+    link @jgthms https://twitter.com/jgthms @623,1843,17,20
+    link "9:10 PM - 29 May 2017" https://twitter.com/jesseschoff/status/869284735440363520 @623,1875,17,122
+    row @623,2009,17,20
+      link https://x.com/intent/tweet?in_reply_to=869284735440363520 https://x.com/intent/tweet?in_reply_to=869284735440363520 @623,2009,0,20
+      link 1 https://x.com/intent/retweet?tweet_id=869284735440363520 @635,2009,0,20
+      link 25 https://x.com/intent/like?tweet_id=869284735440363520&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=869284735440363520&tw_p=tweetembed @647,2009,0,20
+  col @652,1377,42,860
+    link "Per Axbom @axbom" https://twitter.com/axbom/status/966731525709619200 @652,1377,42,60
+    text I've spent a few hours now with the Bulma CSS framework and I have to say it's the most beautifully written framework I've ever had the pleasure of working with. Nice work 👊 @652,1449,42,609
+    row @652,2070,42,21
+      link @jgthms https://twitter.com/jgthms @652,2070,6,21
+      link bulma.io https://t.co/W9GKZ0GZoV @670,2070,5,21
+      link #bulmaio https://twitter.com/search?q=%23bulmaio @687,2070,7,21
+    link "5:48 PM - 22 Feb 2018" https://twitter.com/axbom/status/966731525709619200 @652,2103,42,101
+    row @652,2216,42,21
+      link https://x.com/intent/tweet?in_reply_to=966731525709619200 https://x.com/intent/tweet?in_reply_to=966731525709619200 @652,2216,17,21
+      link 4 https://x.com/intent/retweet?tweet_id=966731525709619200 @681,2216,0,21
+      link 17 https://x.com/intent/like?tweet_id=966731525709619200&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=966731525709619200&tw_p=tweetembed @693,2216,1,21
+  link https://bulma.io/expo https://bulma.io/expo @706,1796,5,21
+row @17,2338,694,53
+  col @17,2338,382,53
+    h2 Dark Mode @17,2338,382,21
+    text Choose a dark theme automatically or by user preference primary @17,2371,382,20
+  link "See Dark Mode docs" https://bulma.io/documentation/features/dark-mode/ @411,2354,139,21
+row @17,2403,694,451
+  col @17,2403,36,451
+    h1 Bulma @17,2403,36,25
+    text Modern CSS framework based on @17,2440,36,102
+    link Flexbox https://bulma.io @17,2554,36,20
+    text Changes successfully saved success @17,2586,36,61
+    field "Your Name" @17,2659,36,75
+    select Select *"Select dropdown" @17,2746,36,55
+    row @17,2813,36,41
+      text Save Changes @17,2813,16,41
+      text Cancel @45,2823,8,20
+  col @65,2533,646,191
+    text <div data-theme="dark"> <h1 class="title">Bulma</h1> <p class="subtitle"> Modern CSS framework based on <a href="https://bulma.io">Flexbox</a> </p> <div class="message is-success"> <div class="message-body"> Changes successfully saved </div> </div> <div class="field"> <input class="input" type="text" placeholder="Your Name"> </div> <div class="field"> <div class="select"> <select><option>Select dropdown</option></select> </div> </div> <div class="buttons"> <a class="button is-link is-soft">Save Changes</a> <a class="button is-danger is-soft">Cancel</a> </div> </div> @65,2533,646,142
+    button Copy primary @65,2687,646,37
+row @17,2866,694,73
+  col @17,2866,574,73
+    h2 Bulma is thankful to its sponsors @17,2866,574,21
+    text Their support contributes to the continuous development of Bulma and other open source software danger @17,2899,574,40
+  link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/ @603,2882,108,41
+row @17,2951,694,143
+  link "Lemon Casino" https://lemon-casino-pl.net.pl/ @17,3002,11,41
+  link "buy tiktok followers" https://www.socialfollowers.uk/buy-tiktok-followers/ @40,2992,16,61
+  link celebian https://celebian.com/ @68,3012,6,21
+  link "Humanize AI Text with UnAIMyText" https://unaimytext.com/ @86,2972,28,101
+  link "Rolex Super Clone" https://superluxuryreps.is/ @126,2992,15,61
+  link "SocialWick is a Top Source to Buy YouTube Subscribers" https://www.socialwick.com/youtube/subscribers @153,2951,45,143
+  link "Top Cazinouri Online" https://casinolegal.ro/ @210,2992,16,61
+  link "Buy Facebook Likes for Post & Page" https://www.fbpostlikes.com/ @238,2951,29,143
+  link "casino online chile" https://chilecasinoonline.cl/ @279,2992,14,61
+  link "Casinos Online Chile 2025" https://www.acee.cl/ @305,2982,21,81
+  link "Listado de casinos internacionales online en CasinoEnLíneaHEX" https://casinoenlineahex.com/ @338,2951,51,143
+  link "Beste online Casino Österreich" https://besteonlinecasinosoesterreich.at/ @401,2982,24,81
+  link "CS2 gambling sites" https://hellagood.marketing/cs2-gambling-sites/ @437,2992,15,61
+  link BuyCheapestFollowers https://buycheapestfollowers.com/ @464,3012,18,21
+  link chudovo https://www.c19.cl/ @494,3012,7,21
+  link "Sister Sites" https://www.sister-sites.co.uk/ @513,3002,9,41
+  link BairesDev https://www.bairesdev.com/sponsoring-open-source-projects/ @534,3012,8,21
+  link "Nieuw Online Casino" https://nieuwe-casinos.net/ @554,2992,17,61
+  link "casino zonder cruks" https://onlinecasinosspelen.com/casino-zonder-cruks @583,2992,16,61
+  link "The World's #1 Source for Free Spins!" https://freespinny.io/ @611,2951,30,143
+  link casinoutansvensklicens https://casinoutansvensklicens.co/ @653,3012,19,21
+  link "check the highest cricket live rates" https://parimatch.in/en/cricket/live @684,2962,27,121
+row @17,3106,694,53
+  col @17,3106,304,53
+    h2 The simplest grid system @17,3106,304,21
+    text Just add columns, they will resize themselves primary @17,3139,304,20
+  link "See columns docs" https://bulma.io/documentation/columns/ @333,3122,122,20
+row @17,3171,694,20
+  text 1 @17,3171,6,20
+  text 2 @35,3171,9,20
+  text 3 @56,3171,9,20
+  text 4 @77,3171,10,20
+  text 5 @99,3171,9,20
+row @17,3203,694,110
+  row @17,3238,151,40
+    text Add column @17,3238,32,40
+    text Remove @61,3248,21,20
+    region 187.5x81.25 @94,3242,74,32 [2 shapes, 0 labelled]
+  col @180,3203,531,110
+    text <div class="columns"> <div class="column">1</div> <div class="column">2</div> <div class="column">3</div> <div class="column">4</div> <div class="column">5</div> </div> @180,3203,531,61
+    button Copy primary @180,3276,531,37
+row @17,3325,694,53
+  col @17,3325,234,53
+    h2 So easy to learn @17,3325,234,21
+    text Get a design started within minutes success @17,3358,234,20
+  link "See modifiers syntax" https://bulma.io/documentation/start/syntax/ @263,3341,139,20
+row @17,3390,694,287
+  col @17,3413,534,242
+    link "Francisco Cruz @atFranCruz" https://twitter.com/atFranCruz/status/868829487072464897 @17,3413,534,20
+    text So, I was making an exam and in a matter of 30 minutes I had my structure complete with responsive, Bulma is crazy. Thanks @17,3445,534,41
+    link @jgthms https://twitter.com/jgthms @17,3498,534,20
+    link "3:01 PM - 28 May 2017" https://twitter.com/atFranCruz/status/868829487072464897 @17,3530,534,20
+    row @17,3562,534,21
+      link https://x.com/intent/tweet?in_reply_to=868829487072464897 https://x.com/intent/tweet?in_reply_to=868829487072464897 @17,3562,253,21
+      link https://x.com/intent/retweet?tweet_id=868829487072464897 https://x.com/intent/retweet?tweet_id=868829487072464897 @282,3562,251,21
+      link 8 https://x.com/intent/like?tweet_id=868829487072464897&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=868829487072464897&tw_p=tweetembed @545,3562,6,21
+    region 135x60 @17,3595,135,60 [2 shapes, 0 labelled]
+  col @563,3390,148,287
+    text button @563,3390,148,20
+    text Button @563,3422,148,21
+    text button is-primary @563,3455,148,20
+    text Button @563,3487,148,20
+    text button is-primary is-large @563,3519,148,41
+    text Button @563,3572,148,20
+    text button is-primary is-large is-loading @563,3604,148,41
+    text Button @563,3657,148,20
+row @17,3689,694,54
+  col @17,3689,393,54
+    h2 So quick to customize @17,3689,393,21
+    text Simply set your own Sass variables before importing Bulma info @17,3722,393,21
+  link "See customization docs" https://bulma.io/documentation/customize/ @422,3706,159,20
+card @17,3755,694,414
+  link "Lars @LarsPeterke" https://twitter.com/LarsPeterke/status/1070320154452656128 @34,3770,660,20
+  text Wanted a dark mode and discovered that in my build steps for inverting the values for , and greyscales and setting a bg-color for the html element is 90% of the work done. Relly great work by to make stuff like this SO easy! @34,3802,660,61
+  link @bulmaio https://twitter.com/bulmaio @34,3875,660,20
+  link $black https://twitter.com/search?q=%23black @34,3907,660,20
+  link $white https://twitter.com/search?q=%23white @34,3939,660,21
+  link @jgthms https://twitter.com/jgthms @34,3972,660,20
+  link #coding https://twitter.com/search?q=%23coding @34,4004,660,20
+  link #webdev https://twitter.com/search?q=%23webdev @34,4036,660,21
+  link pic.twitter.com/nm84fBXcbU https://t.co/nm84fBXcbU @34,4069,660,20
+  link "2:13 PM - 5 Dec 2018" https://twitter.com/LarsPeterke/status/1070320154452656128 @34,4101,660,20
+  row @34,4133,660,21
+    link https://x.com/intent/tweet?in_reply_to=1070320154452656128 https://x.com/intent/tweet?in_reply_to=1070320154452656128 @34,4133,415,21
+    link 1 https://x.com/intent/retweet?tweet_id=1070320154452656128 @461,4133,6,21
+    link 30 https://x.com/intent/like?tweet_id=1070320154452656128&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1070320154452656128&tw_p=tweetembed @479,4133,18,21
+row @17,4181,694,756
+  col @17,4385,649,348
+    card @17,4385,649,241
+      text @use "sass:color"; // Set your brand colors $purple: #8a4d76; $pink: #fa7c91; $brown: #757763; $beige-light: #d0d1cd; $beige-lighter: #eff0eb; // Path to Bulma's sass folder @use "path/to/bulma/sass" with ( $family-primary: '"Nunito", sans-serif', $grey-dark: $brown, $grey-light: $beige-light, $primary: $purple, $link: $pink, $control-border-width: 2px, $input-h: color.hue($beige-lighter), $input-s: color.saturation($beige-lighter), $input-background-l: color.lightness($beige-lighter), $input-border-l: color.lightness($beige-lighter), $input-shadow: none ); // Import the Google Font @import url("https://fonts.googleapis.com/css?family=Nunito:400,700"); @34,4400,615,162
+      button Copy info @34,4574,615,37
+    region 190x95 @17,4638,190,95 [2 shapes, 0 labelled]
+  col @678,4181,33,756
+    text Before @678,4181,33,20
+    h1 Bulma @678,4213,33,25
+    text Modern CSS framework based on @678,4250,33,101
+    link Flexbox https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox @678,4363,33,21
+    field Input @678,4396,33,57
+    select Select *"Select dropdown" @678,4465,33,55
+    row @678,4532,33,21
+      text Primary @678,4532,14,21
+      text Link @704,4532,7,21
+    text After @678,4565,33,20
+    h1 Bulma @678,4597,33,25
+    text Modern CSS framework based on @678,4634,33,101
+    link Flexbox https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox @678,4747,33,21
+    field Input @678,4780,33,57
+    select Select *"Select dropdown" @678,4849,33,55
+    row @678,4916,33,21
+      text Primary @678,4916,14,21
+      text Link @704,4916,7,21
+row @17,4949,694,53
+  col @17,4949,318,53
+    h2 No JavaScript required @17,4949,318,21
+    text CSS only, so it integrates in any JS environment success @17,4982,318,20
+  link "See installation docs" https://bulma.io/documentation/start/overview/ @347,4965,137,21
+row @17,5014,694,227
+  col @17,5014,597,227
+    link "Robert Stuttaford @rost@mas.to @RobStuttaford" https://twitter.com/RobStuttaford/status/860885116909998080 @17,5014,597,21
+    text -- a CSS framework by -- is lovely! No JS included, which means no JS opinions included! @17,5047,597,20
+    row @17,5079,597,20
+      link bulma.io https://t.co/vY1ZsRScYM @17,5079,57,20
+      link @jgthms https://twitter.com/jgthms @86,5079,59,20
+    link "4:53 PM - 6 May 2017" https://twitter.com/RobStuttaford/status/860885116909998080 @17,5111,597,21
+    row @17,5144,597,20
+      link https://x.com/intent/tweet?in_reply_to=860885116909998080 https://x.com/intent/tweet?in_reply_to=860885116909998080 @17,5144,410,20
+      link 27 https://x.com/intent/retweet?tweet_id=860885116909998080 @439,5144,17,20
+      link 109 https://x.com/intent/like?tweet_id=860885116909998080&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=860885116909998080&tw_p=tweetembed @468,5144,24,20
+    region 190x65 @17,5176,190,65 [2 shapes, 0 labelled]
+row @17,5253,694,53
+  col @17,5253,266,53
+    h2 Beautified by everyone @17,5253,266,21
+    text See what Bulma developers are building warning @17,5286,266,20
+  link "Visit the expo" https://bulma.io/expo/ @295,5269,91,21
+row @17,5318,694,21
+  link https://bulma.io/expo https://bulma.io/expo @17,5318,106,21
+  link https://bulma.io/expo https://bulma.io/expo @135,5318,105,21
+  link https://bulma.io/expo https://bulma.io/expo @252,5318,106,21
+  link https://bulma.io/expo https://bulma.io/expo @370,5318,106,21
+  link https://bulma.io/expo https://bulma.io/expo @488,5318,105,21
+  link https://bulma.io/expo https://bulma.io/expo @605,5318,106,21
+row @17,5351,694,53
+  col @17,5351,226,53
+    h2 Loved by the community @17,5351,226,21
+    text See what Bulma fans are tweeting danger @17,5384,226,20
+  link "See more love" /love/ @255,5367,96,21
+row @17,5416,694,961
+  col @17,5603,22,587
+    link "Chris Sev @chris__sev" https://twitter.com/chris__sev/status/910956939886043136 @17,5603,22,61
+    text Want a change of pace from Bootstrap? Try Bulma. It's my BFF right now @17,5676,22,284
+    link #bestframeworkforever https://twitter.com/search?q=%23bestframeworkforever @17,5972,22,20
+    link scotch.io/bar-talk/get-t… https://t.co/5s3H1kU5rZ @17,6004,22,20
+    link "9:00 PM - 21 Sep 2017" https://twitter.com/chris__sev/status/910956939886043136 @17,6036,22,122
+    row @17,6170,22,20
+      link https://x.com/intent/tweet?in_reply_to=910956939886043136 https://x.com/intent/tweet?in_reply_to=910956939886043136 @17,6170,0,20
+      link 15 https://x.com/intent/retweet?tweet_id=910956939886043136 @29,6170,0,20
+      link 86 https://x.com/intent/like?tweet_id=910956939886043136&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=910956939886043136&tw_p=tweetembed @41,6170,0,20
+  col @51,5522,26,749
+    link "KwesForms @kwesforms" https://twitter.com/kwesforms/status/1313236270617972740 @51,5522,26,40
+    text Rebuilt our entire frontend in Bulma! Loved every minute of it. Our dashboard is next 😁. @51,5574,26,325
+    link @jgthms https://twitter.com/jgthms @51,5911,26,21
+    link #javascript https://twitter.com/search?q=%23javascript @51,5944,26,20
+    link #CSS https://twitter.com/search?q=%23CSS @51,5976,26,20
+    link #Bulma https://twitter.com/search?q=%23Bulma @51,6008,26,20
+    link #100DaysOfCode https://twitter.com/search?q=%23100DaysOfCode @51,6040,26,21
+    link #DEVCommunity https://twitter.com/search?q=%23DEVCommunity @51,6073,26,20
+    link #html https://twitter.com/search?q=%23html @51,6105,26,20
+    link "10:55 PM - 5 Oct 2020" https://twitter.com/kwesforms/status/1313236270617972740 @51,6137,26,102
+    row @51,6251,26,20
+      link https://x.com/intent/tweet?in_reply_to=1313236270617972740 https://x.com/intent/tweet?in_reply_to=1313236270617972740 @51,6251,2,20
+      link 5 https://x.com/intent/retweet?tweet_id=1313236270617972740 @65,6251,0,20
+      link 7 https://x.com/intent/like?tweet_id=1313236270617972740&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1313236270617972740&tw_p=tweetembed @77,6251,0,20
+  col @89,5416,64,961
+    link "Luca Crea @Luca_Crea" https://twitter.com/Luca_Crea/status/1067168440333606912 @89,5416,64,61
+    text Just dropped for my next project PureCSS – which I love – to try by 🤝 I'm already 100% in 💚 with it.So many classes. Super cool elements. A complete documentation. I mean, if you didn't try Bulma yet, check it out 👉 @89,5489,64,589
+    link #Bulma https://twitter.com/search?q=%23Bulma @89,6090,64,20
+    link @jgthms https://twitter.com/jgthms @89,6122,64,20
+    link #UI https://twitter.com/search?q=%23UI @89,6154,64,21
+    link #Opensource https://twitter.com/search?q=%23Opensource @89,6187,64,20
+    link #css https://twitter.com/search?q=%23css @89,6219,64,20
+    link bulma.io https://t.co/jt5nPFhQaU @89,6251,64,21
+    link "10:29 PM - 26 Nov 2018" https://twitter.com/Luca_Crea/status/1067168440333606912 @89,6284,64,61
+    row @89,6357,64,20
+      link https://x.com/intent/tweet?in_reply_to=1067168440333606912 https://x.com/intent/tweet?in_reply_to=1067168440333606912 @89,6357,38,20
+      link 8 https://x.com/intent/retweet?tweet_id=1067168440333606912 @139,6357,1,20
+      link 31 https://x.com/intent/like?tweet_id=1067168440333606912&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1067168440333606912&tw_p=tweetembed @152,6357,1,20
+  col @165,5463,71,867
+    link "Thomas Dubosc @Repraze" https://twitter.com/Repraze/status/1106622513159856131 @165,5463,71,61
+    text I've been working on some layouts components along with some extensions to from - Featuring side panels, collapsible/flexible boxes and popout window that stay in sync through react portals! I can create desktop like web apps now 👍 @165,5536,71,528
+    link @reactjs https://twitter.com/reactjs @165,6076,71,20
+    link #CSS https://twitter.com/search?q=%23CSS @165,6108,71,20
+    link #bulmaio https://twitter.com/search?q=%23bulmaio @165,6140,71,20
+    link @jgthms https://twitter.com/jgthms @165,6172,71,21
+    link pic.twitter.com/G7OqZD7XSn https://t.co/G7OqZD7XSn @165,6205,71,20
+    link "6:25 PM - 15 Mar 2019" https://twitter.com/Repraze/status/1106622513159856131 @165,6237,71,61
+    row @165,6310,71,20
+      link https://x.com/intent/tweet?in_reply_to=1106622513159856131 https://x.com/intent/tweet?in_reply_to=1106622513159856131 @165,6310,44,20
+      link 3 https://x.com/intent/retweet?tweet_id=1106622513159856131 @221,6310,1,20
+      link 17 https://x.com/intent/like?tweet_id=1106622513159856131&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1106622513159856131&tw_p=tweetembed @234,6310,2,20
+  col @248,5507,37,779
+    link "Raid Boss Killer Prance (She/Her) @pranceTheDeer" https://twitter.com/pranceTheDeer/status/1148364620714958848 @248,5507,37,122
+    text Building a new site right now that I can't wait to show off soon. makes it easy thanks to Loving working with it on this project. @248,5641,37,487
+    row @248,6140,37,20
+      link @jgthms https://twitter.com/jgthms @248,6140,13,20
+      link bulma.io https://t.co/QGgJgr7vaq @273,6140,12,20
+    link "11:53 PM - 8 Jul 2019" https://twitter.com/pranceTheDeer/status/1148364620714958848 @248,6172,37,82
+    row @248,6266,37,20
+      link https://x.com/intent/tweet?in_reply_to=1148364620714958848 https://x.com/intent/tweet?in_reply_to=1148364620714958848 @248,6266,13,20
+      link 3 https://x.com/intent/retweet?tweet_id=1148364620714958848 @273,6266,0,20
+      link 11 https://x.com/intent/like?tweet_id=1148364620714958848&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1148364620714958848&tw_p=tweetembed @285,6266,0,20
+  col @297,5447,53,899
+    link "gebsystems @gebsystems" https://twitter.com/gebsystems/status/1161404522331344896 @297,5447,53,40
+    text Bloody hell.... To think that I was using my own simple framework for all of the . Here is a my old login page vs framework... Me so dumb. Why reinvent the wheel? Amazing job @297,5499,53,528
+    link #Frontend https://twitter.com/search?q=%23Frontend @297,6039,53,20
+    link #webdevelopment https://twitter.com/search?q=%23webdevelopment @297,6071,53,21
+    link #bulmaio https://twitter.com/search?q=%23bulmaio @297,6104,53,20
+    link @jgthms https://twitter.com/jgthms @297,6136,53,20
+    link #CSS https://twitter.com/search?q=%23CSS @297,6168,53,21
+    link pic.twitter.com/X5NnKZxyQq https://t.co/X5NnKZxyQq @297,6201,53,20
+    link "11:29 PM - 13 Aug 2019" https://twitter.com/gebsystems/status/1161404522331344896 @297,6233,53,81
+    row @297,6326,53,20
+      link https://x.com/intent/tweet?in_reply_to=1161404522331344896 https://x.com/intent/tweet?in_reply_to=1161404522331344896 @297,6326,27,20
+      link 4 https://x.com/intent/retweet?tweet_id=1161404522331344896 @336,6326,1,20
+      link 22 https://x.com/intent/like?tweet_id=1161404522331344896&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1161404522331344896&tw_p=tweetembed @349,6326,1,20
+  col @362,5459,64,875
+    link "@redrapids@genserver.social (Bruce Tate mastodon) @redrapids" https://twitter.com/redrapids/status/1254050448711057410 @362,5459,64,101
+    text One of the main contributors to our success at : the Bulma framework by . His work is brilliant. It’s very low JavaScript, and it plays very well with . In short, Bulma provides its value and gets out of the way. Thanks! @362,5572,64,528
+    link grox.io https://t.co/VjDhdf1Y6u @362,6112,64,20
+    link @jgthms https://twitter.com/jgthms @362,6144,64,21
+    link @elixirphoenix https://twitter.com/elixirphoenix @362,6177,64,20
+    link #liveview https://twitter.com/search?q=%23liveview @362,6209,64,20
+    link "3:11 PM - 25 Apr 2020" https://twitter.com/redrapids/status/1254050448711057410 @362,6241,64,61
+    row @362,6314,64,20
+      link https://x.com/intent/tweet?in_reply_to=1254050448711057410 https://x.com/intent/tweet?in_reply_to=1254050448711057410 @362,6314,37,20
+      link 3 https://x.com/intent/retweet?tweet_id=1254050448711057410 @411,6314,1,20
+      link 19 https://x.com/intent/like?tweet_id=1254050448711057410&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1254050448711057410&tw_p=tweetembed @424,6314,2,20
+  col @438,5453,63,887
+    link "Martin Verbic @martin_verbic" https://twitter.com/martin_verbic/status/1176845849629995009 @438,5453,63,61
+    text The Bulma () and for building a blog is so remarkable. Bulma takes care of the design and Ghost of writing. And both can be/are minimalistic - exactly what you need for simple blogging without design restrictions. @438,5526,63,548
+    link @jgthms https://twitter.com/jgthms @438,6086,63,20
+    link @Ghost https://twitter.com/Ghost @438,6118,63,20
+    link #Bulma https://twitter.com/search?q=%23Bulma @438,6150,63,21
+    link #blog https://twitter.com/search?q=%23blog @438,6183,63,20
+    link martinverbic.com https://t.co/67dwH4KPfK @438,6215,63,20
+    link "2:08 PM - 25 Sep 2019" https://twitter.com/martin_verbic/status/1176845849629995009 @438,6247,63,61
+    row @438,6320,63,20
+      link https://x.com/intent/tweet?in_reply_to=1176845849629995009 https://x.com/intent/tweet?in_reply_to=1176845849629995009 @438,6320,37,20
+      link 3 https://x.com/intent/retweet?tweet_id=1176845849629995009 @487,6320,1,20
+      link 12 https://x.com/intent/like?tweet_id=1176845849629995009&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1176845849629995009&tw_p=tweetembed @500,6320,1,20
+  col @513,5592,32,609
+    link "scottgallant 💙💛 @scottgallant" https://twitter.com/scottgallant/status/835834634655174658 @513,5592,32,61
+    text is an impressive CSS framework. Flexbox grid, no JS, modular components (use what you need), Sass.💯 . @513,5665,32,325
+    link bulma.io https://t.co/ClYmBd8tGR @513,6002,32,20
+    link @jgthms https://twitter.com/jgthms @513,6034,32,21
+    link "12:51 PM - 26 Feb 2017" https://twitter.com/scottgallant/status/835834634655174658 @513,6067,32,101
+    row @513,6180,32,21
+      link https://x.com/intent/tweet?in_reply_to=835834634655174658 https://x.com/intent/tweet?in_reply_to=835834634655174658 @513,6180,7,21
+      link 1 https://x.com/intent/retweet?tweet_id=835834634655174658 @532,6180,0,21
+      link 17 https://x.com/intent/like?tweet_id=835834634655174658&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=835834634655174658&tw_p=tweetembed @544,6180,1,21
+  col @557,5674,25,445
+    link "ninan kara @ninankara" https://twitter.com/ninankara/status/1310481068886118400 @557,5674,25,61
+    text thanks Bulma for saving my day. when-a-developer-is-asked-to-design-a-website @557,5747,25,142
+    link @jgthms https://twitter.com/jgthms @557,5901,25,20
+    link pic.twitter.com/i44O1nDMNd https://t.co/i44O1nDMNd @557,5933,25,20
+    link "8:26 AM - 28 Sep 2020" https://twitter.com/ninankara/status/1310481068886118400 @557,5965,25,122
+    row @557,6099,25,20
+      link https://x.com/intent/tweet?in_reply_to=1310481068886118400 https://x.com/intent/tweet?in_reply_to=1310481068886118400 @557,6099,1,20
+      link 2 https://x.com/intent/retweet?tweet_id=1310481068886118400 @570,6099,0,20
+      link 20 https://x.com/intent/like?tweet_id=1310481068886118400&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=1310481068886118400&tw_p=tweetembed @582,6099,0,20
+  col @594,5658,39,478
+    link "Amir Azimi @azimidev" https://twitter.com/azimidev/status/903629781744439297 @594,5658,39,60
+    text Still like , more than . Even the syntax is cleaner. @594,5730,39,183
+    link #bulma https://twitter.com/search?q=%23bulma @594,5925,39,20
+    link #bootstrap https://twitter.com/search?q=%23bootstrap @594,5957,39,21
+    link @jgthms https://twitter.com/jgthms @594,5990,39,20
+    link "3:45 PM - 1 Sep 2017" https://twitter.com/azimidev/status/903629781744439297 @594,6022,39,81
+    row @594,6115,39,21
+      link https://x.com/intent/tweet?in_reply_to=903629781744439297 https://x.com/intent/tweet?in_reply_to=903629781744439297 @594,6115,7,21
+      link https://x.com/intent/retweet?tweet_id=903629781744439297 https://x.com/intent/retweet?tweet_id=903629781744439297 @613,6115,7,21
+      link 14 https://x.com/intent/like?tweet_id=903629781744439297&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=903629781744439297&tw_p=tweetembed @632,6115,1,21
+  col @645,5426,66,941
+    link "Jeroen Coussement @coussej" https://twitter.com/coussej/status/922849122008354817 @645,5426,66,61
+    text Spent months comparing frontend frameworks for both and . Settled on 's for CSS and 's for Javascript. Works great, there is a clear separation of look and function, and the resulting code is super clean. Perfect combo ! 🚀 @645,5499,66,569
+    link #css https://twitter.com/search?q=%23css @645,6080,66,20
+    link #javascript https://twitter.com/search?q=%23javascript @645,6112,66,20
+    link @jgthms https://twitter.com/jgthms @645,6144,66,21
+    link #bulmaio https://twitter.com/search?q=%23bulmaio @645,6177,66,20
+    link @Rich_Harris https://twitter.com/Rich_Harris @645,6209,66,20
+    link @sveltejs https://twitter.com/sveltejs @645,6241,66,20
+    link "4:35 PM - 24 Oct 2017" https://twitter.com/coussej/status/922849122008354817 @645,6273,66,61
+    row @645,6346,66,21
+      link https://x.com/intent/tweet?in_reply_to=922849122008354817 https://x.com/intent/tweet?in_reply_to=922849122008354817 @645,6346,39,21
+      link 7 https://x.com/intent/retweet?tweet_id=922849122008354817 @696,6346,1,21
+      link 22 https://x.com/intent/like?tweet_id=922849122008354817&ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fbulma.io%2F&original_referer=http%3A%2F%2Fbulma.io%2F&tw_i=922849122008354817&tw_p=tweetembed @709,6346,2,21
+h3 And so much more @17,6389,694,19
+h3 Join more than 200,000 developers @17,6420,694,18
+row @17,6450,694,21
+  link "Get started" https://bulma.io @17,6450,74,21
+  link Contribute https://github.com/jgthms/bulma @103,6450,70,21
+h3 How to support Bulma @17,6483,694,18
+row @17,6513,694,90
+  col @17,6513,124,90
+    text One-time donation @17,6513,124,21
+    field submit @17,6546,124,57
+  col @153,6532,197,53
+    text Browser testing via @153,6532,197,20
+    link https://www.lambdatest.com/ https://www.lambdatest.com/ @153,6564,197,21
+  col @362,6532,121,53
+    text Visit our Sponsors @362,6532,121,20
+    link celebian https://celebian.com/ @362,6564,121,21
+  col @495,6532,124,53
+    text Monthly donation @495,6532,124,20
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/ @495,6564,124,21
+link ".native-js { background: linear-gradient(-30deg, #f5f8fbE5, #f5f8fbE5 45%, #f5f8fb 45%) #fff; } .native-details { color: #181f25 !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #FFF; background-color: #3966d5; } .native-cta:hover { color: undefined; background-color: undefined; } BugHerd Deliver website design projects faster with BugHerd. Get 20% off your first 3 months. Try Now" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITK3YCE7IEZ3JCAAI627ICE7ITK7KCEAIKKQECYYIK27UCTYI427NC67DL2QKC6SILKJWCA7DVK3EHJNCLSIZ @17,6615,694,102
+row @17,6729,694,51
+  col @17,6729,195,51
+    h3 Bulma by Jeremy Thomas. @17,6729,195,19
+    link "Follow @jgthms" https://twitter.com/jgthms @17,6760,195,20
+  col @224,6745,155,19
+    h3 Contribute on GitHub @224,6745,155,19
+  col @391,6729,161,51
+    h3 Share on social media @391,6729,161,19
+    row @391,6760,161,20
+      link Twitter https://twitter.com/share @391,6760,47,20
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io @450,6760,66,20
+text Source code licensed . Website content licensed @17,6792,694,20
+row @17,6824,694,20
+  link MIT https://opensource.org/licenses/mit-license.php @17,6824,26,20
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/ @55,6824,122,20
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer @17,6856,694,163
+!overflow button 46/73px
+!overflow light 44/104px
+!overflow dark2 44/102px
+!overflow system 44/121px
+!overflow button3 51/73px
+!tiny search 22x37px

@@ -18,5 +18,5 @@ for n in NAMES:
 out = ["| visual | MX v2 | HTML + SVG + ARIA | A2UI v1.0, paint catalog |", "|---|---|---|---|", *rows, f"| **six visuals** | **{tot[0]:,}** | **{tot[1]:,} ({tot[1]/tot[0]:.1f}×)** | **{tot[2]:,} ({tot[2]/tot[0]:.1f}×)** |"]
 (B / "out/tables_v2.md").write_text("\n".join(out) + "\n")
 json.dump({"model": MODEL, "mx": tot[0], "html": tot[1], "a2ui": tot[2]}, (B / "out/results_v2.json").open("w"))
-count_claude.CACHE.write_text(json.dumps({"\u0000".join(k): v for k, v in count_claude._cache.items()}))
+count_claude.CACHE.write_text(json.dumps(count_claude._cache))
 print("\n".join(out))

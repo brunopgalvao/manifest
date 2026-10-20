@@ -1,0 +1,85 @@
+@www_usa_gov_disasters_and_emergencies
+link "Skip to main content" #skip-to-h1
+row
+  text An official website of the United States government
+  button "Here's how you know"
+text Home Close Search 1-844-USAGOV1 Disasters and emergencies Financial assistance after a disaster Find housing after a disaster Help survivors after a disaster What to do before and after a natural disaster or emergency State emergency management agencies Government benefits
+row
+  region "Information" 300x150
+  text Visit  to learn how to register to vote or to update your registration.
+  link vote.gov https://www.vote.gov
+row
+  link "USAGov Logo" /
+  col
+    button Español primary
+    row
+      link "Call us at 1-844-USAGOV1" /phone
+      row
+        text Search
+        field Search search
+        button Search primary
+row
+  link "All topics and services" /#all-topics-header
+  link "The U.S. and its government" /about-the-us
+  link "Government benefits" /benefits
+  link "Immigration and U.S. citizenship" /immigration-and-citizenship
+  link "Money and credit" /money
+  link Travel /travel
+  link "Voting and elections" /voting-and-elections
+row
+  col
+    row
+      link Home /
+      text Disasters and emergencies
+    h1 Disasters and emergencies
+    h2 Most popular
+    link "Get emergency financial help like disaster assistance and D-SNAP" /disaster-financial-help
+    link "Find your state's emergency management agency" /state-emergency-management
+    link "Visit Ready.gov to learn what to do before or after a natural disaster" https://www.ready.gov/
+    text Learn about disaster assistance and find government benefits for other emergencies.
+    row
+      link "Financial assistance after a disaster Learn how to get emergency government aid after a natural disaster." /disaster-financial-help
+      link "How to find housing after a disaster Find a shelter and see if you qualify for help paying for housing after a disaster." /disaster-housing-shelter
+      link "How to help survivors after a disaster Learn how to donate money or items to disaster survivors and the best way to volunteer in person. Find family members after a disaster." /help-disaster-survivors
+      link "What to do before and after a natural disaster or emergency Learn how to prepare for a natural disaster or emergency." https://www.ready.gov/
+      link "State emergency management agencies Find your state's emergency management agency." /state-emergency-management
+      link "Government benefits Find government programs that may help pay for food, housing, health care, and more." /benefits
+    row
+      text Looking for something else?
+      link "Explore all topics and services" /#all-topics-header
+    row
+      text SHARE THIS PAGE:
+      row
+        link "https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/disasters-and-emergencies&v=3" https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/disasters-and-emergencies&v=3
+        link "https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fdisasters-and-emergencies" https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fdisasters-and-emergencies
+        link "mailto:?subject=https://www.usa.gov/disasters-and-emergencies" mailto:?subject=https://www.usa.gov/disasters-and-emergencies
+  link "Back to top" #main-content
+row
+  col
+    h3 Government information
+    link "All topics and services" /#all-topics-header
+    link "Directory of U.S. government agencies and departments" /agency-index
+    link "Branches of government" /branches-of-government
+  col
+    h3 About us
+    link "About USAGov" /about
+    link "Report a website issue" /site-issue-report-form
+    link "Website usage data" /website-analytics/
+  col
+    h3 For federal agencies
+    link "Partner with us" /partner-with-usagov
+    link "Read our blog" /blog
+row
+  col
+    h3 USAGov Contact Center
+    text Ask USA.gov a question at
+    link "1-844-USAGOV1 (1-844-872-4681)" /phone
+text USAGov is the official guide to government information and services
+text An official website of the
+link "U.S. General Services Administration" https://www.gsa.gov/
+text This website complies with Executive Order . English is the official language of the U.S. Government, and the English-language version of this website is the authoritative source for all federal information contained herein.
+link 14224 https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states
+row
+  link "Accessibility policy" /accessibility-policy
+  link "Privacy and security policies" /privacy-security
+  link "FOIA requests" https://www.gsa.gov/reference/freedom-of-information-act-foia

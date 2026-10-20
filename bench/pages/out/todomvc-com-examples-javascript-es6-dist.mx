@@ -5,9 +5,11 @@ link Source https://github.com/tastejs/todomvc/tree/gh-pages/examples/javascript
 card
   text The ECMAScript 6 (ES2015) standard was ratified in 2015 following years of work standardizing improvements to ECMAScript 3. The committee introduced a wide variety of improvements such as arrow functions, const declarations, and native Promises.
   link "JavaScript ES6" http://developer.mozilla.org/en-US/docs/JavaScript
+text If you have other helpful links to share, or find any of the links above no longer work, please .
 link "let us know" https://github.com/tastejs/todomvc/issues
 h1 todos
 field "What needs to be done?"
 text Double-click to edit a todo
 text Created by the TodoMVC Team
+text Part of
 link TodoMVC http://todomvc.com

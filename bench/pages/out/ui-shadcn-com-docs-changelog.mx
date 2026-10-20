@@ -1,0 +1,514 @@
+@ui_shadcn_com_docs_changelog
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+    row
+      link New /create
+row
+  col
+    text Sections
+    link Introduction /docs
+    link Components /docs/components
+    link "AI Elements" /docs/ai-elements
+    link Installation /docs/installation
+    link Theming /docs/theming
+    link CLI /docs/cli
+    link Typeset /docs/typeset
+    link Skills /docs/skills
+    link Registry /docs/registry
+    link Changelog /docs/changelog
+    text Components
+    link Accordion /docs/components/base/accordion
+    link Alert /docs/components/base/alert
+    link "Alert Dialog" /docs/components/base/alert-dialog
+    link "Aspect Ratio" /docs/components/base/aspect-ratio
+    link Attachment /docs/components/base/attachment
+    link Avatar /docs/components/base/avatar
+    link Badge /docs/components/base/badge
+    link Breadcrumb /docs/components/base/breadcrumb
+    link Bubble /docs/components/base/bubble
+    link Button /docs/components/base/button
+    link "Button Group" /docs/components/base/button-group
+    link Calendar /docs/components/base/calendar
+    link Card /docs/components/base/card
+    link Carousel /docs/components/base/carousel
+    link Chart /docs/components/base/chart
+    link Checkbox /docs/components/base/checkbox
+    link "Code Block" /docs/components/base/code-block
+    link Collapsible /docs/components/base/collapsible
+    link Combobox /docs/components/base/combobox
+    link Command /docs/components/base/command
+    link "Context Menu" /docs/components/base/context-menu
+    link "Data Table" /docs/components/base/data-table
+    link "Date Picker" /docs/components/base/date-picker
+    link Dialog /docs/components/base/dialog
+    link Direction /docs/components/base/direction
+    link Drawer /docs/components/base/drawer
+    link "Dropdown Menu" /docs/components/base/dropdown-menu
+    link Empty /docs/components/base/empty
+    link Field /docs/components/base/field
+    link "Hover Card" /docs/components/base/hover-card
+    link Input /docs/components/base/input
+    link "Input Group" /docs/components/base/input-group
+    link "Input OTP" /docs/components/base/input-otp
+    link Item /docs/components/base/item
+    link Kbd /docs/components/base/kbd
+    link Label /docs/components/base/label
+    link Marker /docs/components/base/marker
+    link Menubar /docs/components/base/menubar
+    link Message /docs/components/base/message
+    link "Message Scroller" /docs/components/base/message-scroller
+    link "Native Select" /docs/components/base/native-select
+    link "Navigation Menu" /docs/components/base/navigation-menu
+    link Pagination /docs/components/base/pagination
+    link Popover /docs/components/base/popover
+    link Progress /docs/components/base/progress
+    link Questionnaire /docs/components/base/questionnaire
+    link "Radio Group" /docs/components/base/radio-group
+    link Resizable /docs/components/base/resizable
+    link "Scroll Area" /docs/components/base/scroll-area
+    link Select /docs/components/base/select
+    link Separator /docs/components/base/separator
+    link Sheet /docs/components/base/sheet
+    link Sidebar /docs/components/base/sidebar
+    link Skeleton /docs/components/base/skeleton
+    link Slider /docs/components/base/slider
+    link Spinner /docs/components/base/spinner
+    link Switch /docs/components/base/switch
+    link Table /docs/components/base/table
+    link Tabs /docs/components/base/tabs
+    link Textarea /docs/components/base/textarea
+    link Toast /docs/components/base/toast
+    link Toggle /docs/components/base/toggle
+    link "Toggle Group" /docs/components/base/toggle-group
+    link Tooltip /docs/components/base/tooltip
+    link Trace /docs/components/base/trace
+    link Typography /docs/components/base/typography
+    text AI Elements
+    link Introduction /docs/ai-elements
+    link "Chain of Thought" /docs/ai-elements/base/chain-of-thought
+    link Chat /docs/ai-elements/base/chat
+    link Checkpoint /docs/ai-elements/base/checkpoint
+    link Confirmation /docs/ai-elements/base/confirmation
+    link Context /docs/ai-elements/base/context
+    link "File Tree" /docs/ai-elements/base/file-tree
+    link "Inline Citation" /docs/ai-elements/base/inline-citation
+    link Message /docs/ai-elements/base/message
+    link "Model Selector" /docs/ai-elements/base/model-selector
+    link Plan /docs/ai-elements/base/plan
+    link "Prompt Input" /docs/ai-elements/base/prompt-input
+    link Queue /docs/ai-elements/base/queue
+    link Reasoning /docs/ai-elements/base/reasoning
+    link Sources /docs/ai-elements/base/sources
+    link "Stack Trace" /docs/ai-elements/base/stack-trace
+    link Subagent /docs/ai-elements/base/subagent
+    link Suggestion /docs/ai-elements/base/suggestion
+    link Task /docs/ai-elements/base/task
+    link Terminal /docs/ai-elements/base/terminal
+    link "Test Results" /docs/ai-elements/base/test-results
+    link Tool /docs/ai-elements/base/tool
+    text Get Started
+    link Installation /docs/installation
+    link components.json /docs/components-json
+    link "Package Imports" /docs/package-imports
+    link Theming /docs/theming
+    link Typeset /docs/typeset
+    link "Dark Mode" /docs/dark-mode
+    link CLI /docs/cli
+    link Monorepo /docs/monorepo
+    link Skills /docs/skills
+    link JavaScript /docs/javascript
+    link Figma /docs/figma
+    link llms.txt /llms.txt
+    link "Legacy Docs" /docs/legacy
+    text @shadcn/react
+    link "Message Scroller" /docs/react/message-scroller
+    link Questionnaire /docs/react/questionnaire
+    text @shadcn/helpers
+    link "AI SDK" /docs/helpers/ai-sdk
+    link "TanStack AI" /docs/helpers/tanstack-ai
+    text Forms
+    link "React Hook Form" /docs/forms/react-hook-form
+    link "TanStack Form" /docs/forms/tanstack-form
+    link Formisch /docs/forms/formisch
+    text Utilities
+    link scroll-fade /docs/utils/scroll-fade
+    link shimmer /docs/utils/shimmer
+    text Registry
+    link Introduction /docs/registry
+    link "Getting Started" /docs/registry/getting-started
+    link "GitHub Registries" /docs/registry/github
+    link "Registry Directory" /docs/registry/registry-index
+    link "Registry Health" /docs/registry/health
+    link Examples /docs/registry/examples
+    link Namespaces /docs/registry/namespace
+    link Authentication /docs/registry/authentication
+    link "Dynamic Search" /docs/registry/dynamic-search
+    link "MCP Server" /docs/registry/mcp
+    link "Open in v0" /docs/registry/open-in-v0
+    link FAQ /docs/registry/faq
+    link "API Reference" /docs/registry/api-reference
+    link registry.json /docs/registry/registry-json
+    link registry-item.json /docs/registry/registry-item-json
+  row
+    col
+      row
+        h1 Changelog
+        link RSS /rss.xml
+      text Latest updates and announcements.
+      h2 October 2026 - Trace, Code Block and AI Elements
+      text Today, we are releasing two new components,  and , and , a set of patterns for agentic interfaces built from shadcn/ui components.
+      row
+        link Trace /docs/components/base/trace
+        link "Code Block" /docs/components/base/code-block
+        link "AI Elements" /docs/ai-elements
+      text Trace and Code Block are available for Base UI, React Aria and Radix across all eight styles.
+      h2 Trace#
+      text Trace is a list of lines for the steps an agent takes. We built it by studying hundreds of components from agentic interfaces and distilling what they share into one composition you can reuse.
+      card
+        text Why does pnpm install fail in CI?
+        button "Thought for 5s"
+        button "Ran pnpm --version"
+        button "Ran git diff --stat HEAD~1 -- package.json pnpm-lock.yaml"
+        card
+          text package.json | 2 +- 1 file changed, 1 insertion(+), 1 deletion(-)
+        button "Failed to run pnpm install --frozen-lockfile"
+        button "Used 2 sources"
+        text The last commit bumped a version in package.json without updating pnpm-lock.yaml, so the frozen install fails. Run pnpm install locally and commit the lockfile.
+        button Replay
+        text "\"use client\" import * as React from \"react\""
+        button "View Code"
+      text Reasoning, tool calls, sources, plans and subagent runs all have the same shape: something the agent did, and what happened. In Trace, each one is a line with an icon, a title, and an optional description and status. A line can expand to show more detail, link to a page, or open a dialog or sheet, so every step looks and behaves the same in your interface.
+      text running, error and pending states, with a shimmer while a step runs.
+      text Lines that expand, link out, or open a dialog, sheet, drawer or popover.
+      text Nested lines, so a summary expands into steps and a step into its output.
+      text Works with the reasoning, tool and source parts from the AI SDK.
+      text Keyboard and screen reader support from the trigger that wraps each line.
+      card
+        row
+          tabs
+            tab *pnpm
+            tab npm
+            tab yarn
+            tab bun
+        button Copy
+      h2 Code Block#
+      text CodeBlock displays code, terminal output, logs and diffs. It has a header with a title and actions, line numbers, wrapping, diff and highlighted lines, and a small size for tool output in a Trace.
+      card
+        card
+          row
+            text app/api/chat/route.ts
+            row
+              button "Wrap lines"
+              button Download
+              button Copy
+          text "import { streamText } from \"ai\" export async function POST(request: Request) { const { messages } = await request.json() const result = streamText({ model: \"anthropic/claude-sonnet-4.5\", system: \"You are a helpful assistant. Answer in one short paragraph.\", messages, }) return result.toUIMessageStreamResponse()}"
+        text "\"use client\" import * as React from \"react\""
+        button "View Code"
+      card
+        row
+          tabs
+            tab *pnpm
+              text pnpm dlx shadcn@latest add trace
+            tab npm
+            tab yarn
+            tab bun
+        button Copy
+      h2 Building agentic interfaces#
+      text Trace and Code Block join the  we released in June. Together, they cover every part of an agentic interface:
+      link "components for chat interfaces" /docs/changelog/2026-06-chat-components
+      text holds the thread. It anchors each turn, follows the reply while it streams and loads history without jumping.
+      link "Message Scroller" /docs/components/base/message-scroller
+      text is one turn, with an avatar, a header and a footer for actions.
+      link Message /docs/components/base/message
+      text holds what the person sends.
+      link Bubble /docs/components/base/bubble
+      text shows the steps the agent takes inside a turn.
+      link Trace /docs/components/base/trace
+      text shows the code, commands and output those steps produce.
+      link "Code Block" /docs/components/base/code-block
+      text adds notes and dividers between turns.
+      link Marker /docs/components/base/marker
+      text shows the files that come with a message.
+      link Attachment /docs/components/base/attachment
+      text asks the person to clarify before the agent continues.
+      link Questionnaire /docs/components/base/questionnaire
+      h2 AI Elements#
+      text are patterns for agentic interfaces built from these components. There is no package to install. Each pattern is a composition you copy into your project, and the code is yours.
+      link "AI Elements" /docs/ai-elements
+      card
+        row
+          col
+            text New Thread
+            text Ask the agent to change your code.
+          button "Reset conversation"
+        card
+        text What should we build?
+        text The agent can read your code, run commands and make changes. Press send to start.
+        card
+          field Message
+          row
+            button "Add context"
+            button Send primary
+        text "\"use client\" import * as React from \"react\""
+        button "View Code"
+      text There are 21 patterns, from  and  to , ,  and . Each page shows how to render the pattern from AI SDK message parts.
+      row
+        link Chat /docs/ai-elements/base/chat
+        link "Prompt Input" /docs/ai-elements/base/prompt-input
+        link Reasoning /docs/ai-elements/base/reasoning
+        link Tool /docs/ai-elements/base/tool
+        link Plan /docs/ai-elements/base/plan
+        link Subagent /docs/ai-elements/base/subagent
+      text Every page is also available as Markdown, so you can point your coding agent at it:
+      card
+        text Prompt
+        button Copy
+        text "Add the Reasoning pattern from https://ui.shadcn.com/docs/ai-elements/base/reasoning.md to my chat."
+      h2 Migrating from AI SDK Elements#
+      text AI Elements replaces , and we are going to deprecate AI SDK Elements.
+      link "AI SDK Elements" https://elements.ai-sdk.dev
+      text You do not need to migrate right away. The components you installed from AI SDK Elements were copied into your project, so they keep working.
+      text When you are ready, each pattern page has a migration prompt. Paste it into your coding agent, and it rebuilds the wrapper in components/ai-elements on Trace, Code Block and the other shadcn/ui components. Every export keeps its name and props, so the code that uses it does not change.
+      text See  for the element that replaces each file, and for the elements we did not rebuild. If you still need one of those,  and we will help you build it.
+      link "Migrating from AI SDK Elements" /docs/ai-elements#migrating-from-ai-sdk-elements
+      link "open an issue" https://github.com/shadcn-ui/ui/issues/new?template=feature_request.yml
+      link "Read the Docs" /docs/ai-elements
+      h2 September 2026 - cn
+      text Every shadcn component now imports cn from the cn package.
+      text For years, every shadcn project started with the same five lines in lib/utils.ts: import clsx, import twMerge, wrap one in the other, export it as cn. It worked, but it meant two dependencies and a helper you had to copy into every project and every registry.
+      text We have moved that into a package.  is a drop-in replacement for . It is smaller, faster and ships the same API, so nothing changes at the call site.
+      row
+        link cn https://github.com/shadcn-ui/cn
+        text twMerge(clsx(...))
+      card
+        button Copy
+        text "import { cn } from \"cn\" ;<div className={cn(\"flex items-center\", className)} />"
+      h2 What changed#
+      text Registry components, blocks and examples import cn from cn instead of @/lib/utils.
+      text npx shadcn init installs cn and generates a one-line lib/utils.ts.
+      text Every registry item that uses cn declares it as a dependency, so npx shadcn add installs it in projects created before this change.
+      h2 lib/utils.ts#
+      text The utils registry item still exists. It now re-exports cn so your own code keeps working and you still have a single place for project helpers.
+      card
+        text lib/utils.ts
+        button Copy
+        text "export { cn } from \"cn\""
+      h2 Existing projects#
+      text Nothing breaks. Your lib/utils.ts keeps working and new components install cn next to it. To move the rest of your project over and drop clsx and tailwind-merge, run the migration:
+      card
+        row
+          tabs
+            tab *pnpm
+              text pnpm dlx shadcn@latest add code-block
+            tab npm
+            tab yarn
+            tab bun
+        button Copy
+      text It rewrites imports, replaces  calls and removes the old packages when nothing references them anymore. See the  for details.
+      text twMerge(clsx(...))
+      link "CLI docs" /docs/cli#migrate-cn
+      h2 August 2026 - Private GitHub Registries
+      text GitHub registries now work with private repositories.
+      text In June, we made it possible to turn any public GitHub repository into a registry. Teams asked for the same thing for their internal code: design systems, feature kits, agent rules and conventions that should not be public.
+      text You can now install from private repositories. If you can read the repository, the CLI can install from it.
+      card
+        row
+          tabs
+            tab *pnpm
+              text pnpm dlx shadcn@latest migrate cn
+            tab npm
+            tab yarn
+            tab bun
+        button Copy
+      h2 Zero configuration#
+      text If you are logged in to the GitHub CLI, there is nothing to set up.
+      card
+        button Copy
+        text gh auth login
+      text When a repository is not publicly readable, the CLI reads it through gh using your stored credentials. The token stays inside the GitHub CLI. It never enters the shadcn process.
+      card
+        button Copy
+        text ✔ Using gh credentials. ✔ Checking registry. ✔ Created 1 file: - lib/auth.ts
+      h2 CI support#
+      text Where the GitHub CLI is not installed, set GH_TOKEN or GITHUB_TOKEN:
+      card
+        button Copy
+        text GH_TOKEN=github_pat_xxx npx shadcn@latest add acme/internal-toolkit/auth-kit
+      text We recommend a fine-grained personal access token scoped to the repository with Contents: Read-only access.
+      h2 Works with every command#
+      text Private repositories work with the same commands as public GitHub registries.
+      card
+        row
+          tabs
+            tab *pnpm
+              text pnpm dlx shadcn@latest add acme/internal-toolkit/auth-kit
+            tab npm
+            tab yarn
+            tab bun
+        button Copy
+      card
+        row
+          tabs
+            tab *pnpm
+              text pnpm dlx shadcn@latest list acme/internal-toolkit
+            tab npm
+            tab yarn
+            tab bun
+        button Copy
+      card
+        row
+          tabs
+            tab *pnpm
+              text pnpm dlx shadcn@latest search acme/internal-toolkit --query auth
+            tab npm
+            tab yarn
+            tab bun
+        button Copy
+      card
+        row
+          tabs
+            tab *pnpm
+              text pnpm dlx shadcn@latest view acme/internal-toolkit/auth-kit
+            tab npm
+            tab yarn
+            tab bun
+        button Copy
+      h2 How it works#
+      text Public repositories are read anonymously, exactly as before. No credentials are used and the GitHub CLI is never invoked.
+      text The CLI tries anonymous access first and only uses your credentials when the repository is not publicly readable.
+      text Private files are read through GitHub's Contents API, pinned to the resolved commit SHA.
+      text A token from GH_TOKEN is only ever sent to api.github.com. Stored GitHub CLI credentials are read by gh, not by the CLI.
+      text See the  docs for the full guide.
+      link "Private repositories" /docs/registry/github#private-repositories
+      h2 August 2026 - Human in the Loop
+      text @shadcn/helpers can now mock human-in-the-loop flows for the AI SDK. A scripted conversation can pause for real user input, wait for an approval, and continue with whatever the user decided.
+      text Everything streams through the real useChat lifecycle, so your tool cards, approval prompts, and question flows behave exactly as they would in production.
+      card
+        button Copy
+        text "import { createChat } from \"@shadcn/helpers/ai-sdk\" const chat = createChat<ChatMessage>() .user(\"Help me plan the next prototype.\") .assistant(({ writer }) => { writer.text(\"A couple of questions before I start.\") writer.tool(\"askQuestions\", { input: { questions } }) }) .assistant(({ writer, toolCall }) => { writer.text( toolCall?.name === \"askQuestions\" && toolCall.output ? `Starting with ${toolCall.output.answers.direction}.` : \"Starting now.\" ) })"
+      text Pass needsApproval to pause behind the user's decision. The scripted output streams after approval, and denial streams automatically.
+      card
+        button Copy
+        text "chat .assistant(({ writer }) => { writer.text(\"That will archive 3 drafts. I need your approval.\") writer.tool(\"archiveDrafts\", { input: { count: 3 }, needsApproval: true, output: { archived: 3 }, }) }) .assistant(({ writer, toolCall }) => { writer.text( toolCall?.approved ? \"Archived 3 drafts.\" : \"Okay, leaving them in place.\" ) })"
+      link "Read the Docs" /docs/helpers/ai-sdk#human-in-the-loop
+      h2 August 2026 - Questionnaire
+      text Today, we're releasing , a new component for multi-step question flows. Use it for agent clarification prompts, onboarding, surveys, intake forms, and configuration.
+      link Questionnaire /docs/components/base/questionnaire
+      text Questionnaire is available for Base UI, React Aria, and Radix across all eight styles.
+      card
+        text Questionnaire progress
+        text What should the agent build next?
+        text Choose a direction or describe another task.
+        row
+          field "Another agent feature"
+        button Next primary
+        text "\"use client\" import * as React from \"react\""
+        button "View Code"
+      h2 Features#
+      text Single and multiple selection with native radios and checkboxes.
+      text Freeform answers alongside fixed choices.
+      text Explicit skipping for optional questions.
+      text Previous, next, submit, and custom progress controls.
+      text Required and custom validation.
+      text Controlled navigation, saved defaults, and conditional questions.
+      text Keyboard navigation with optional letter or number shortcuts.
+      text Native form serialization and server-rendered collection state.
+      text Standalone, Card, and Dialog composition.
+      h2 Installation#
+      card
+        row
+          tabs
+            tab *pnpm
+              text pnpm dlx shadcn@latest registry validate acme/internal-toolkit
+            tab npm
+            tab yarn
+            tab bun
+        button Copy
+      h2 @shadcn/react#
+      text The  component is also available as an unstyled headless primitive in .  to learn more.
+      text <Questionnaire />
+      text @shadcn/react
+      link "Read the docs" /docs/react/questionnaire
+      link "View Questionnaire" /docs/components/base/questionnaire
+      h2 More Updates
+      row
+        link "July 2026Dynamic Search" /docs/changelog/2026-07-dynamic-search
+        link "July 2026Toast" /docs/changelog/2026-07-toast
+        link "July 2026React Aria" /docs/changelog/2026-07-react-aria
+        link "July 2026Introducing @shadcn/helpers" /docs/changelog/2026-07-helpers
+        link "July 2026Introducing shadcn/typeset" /docs/changelog/2026-07-typeset
+        link "July 2026Base UI as the Default" /docs/changelog/2026-07-base-ui-default
+        link "June 2026Components for Chat Interfaces" /docs/changelog/2026-06-chat-components
+        link "June 2026GitHub Registries" /docs/changelog/2026-06-github-registries
+        link "May 2026shadcn eject" /docs/changelog/2026-05-shadcn-eject
+        link "May 2026Introducing Rhea" /docs/changelog/2026-05-rhea
+        link "May 2026Registry Include and Validate" /docs/changelog/2026-05-registry-include
+        link "May 2026Package Imports and Target Aliases" /docs/changelog/2026-05-package-imports-target-aliases
+        link "April 2026shadcn preset" /docs/changelog/2026-04-preset-commands
+        link "April 2026Pointer Cursor" /docs/changelog/2026-04-pointer-cursor
+        link "April 2026Partial Preset Apply" /docs/changelog/2026-04-partial-preset-apply
+        link "April 2026Introducing Sera" /docs/changelog/2026-04-sera
+        link "April 2026shadcn apply" /docs/changelog/2026-04-shadcn-apply
+        link "April 2026Component Composition" /docs/changelog/2026-04-component-composition
+        link "March 2026Introducing Luma" /docs/changelog/2026-03-luma
+        link "March 2026shadcn/cli v4" /docs/changelog/2026-03-cli-v4
+        link "February 2026Blocks for Radix and Base UI" /docs/changelog/2026-02-blocks
+        link "February 2026Unified Radix UI Package" /docs/changelog/2026-02-radix-ui
+        link "January 2026RTL Support" /docs/changelog/2026-01-rtl
+        link "January 2026Inline Start and End Styles" /docs/changelog/2026-01-inline-side-styles
+        link "January 2026Base UI Documentation" /docs/changelog/2026-01-base-ui
+        link "December 2025npx shadcn create" /docs/changelog/2025-12-shadcn-create
+        link "October 2025Registry Directory" /docs/changelog/2025-10-registry-directory
+        link "October 2025New Components" /docs/changelog/2025-10-new-components
+        link "September 2025Registry Index" /docs/changelog/2025-09-registry-index
+        link "August 2025shadcn CLI 3.0 and MCP Server" /docs/changelog/2025-08-cli-3-mcp
+        link "July 2025Universal Registry Items" /docs/changelog/2025-07-universal-registry
+        link "July 2025Local File Support" /docs/changelog/2025-07-local-file-support
+        link "June 2025radix-ui Migration" /docs/changelog/2025-06-radix-ui
+        link "June 2025Calendar Component" /docs/changelog/2025-06-calendar
+        link "May 2025New Site" /docs/changelog/2025-05-new-site
+        link "April 2025MCP" /docs/changelog/2025-04-mcp
+        link "April 2025shadcn 2.5.0" /docs/changelog/2025-04-shadcn-2-5
+        link "April 2025Cross-framework Route Support" /docs/changelog/2025-04-cross-framework
+        link "February 2025Tailwind v4" /docs/changelog/2025-02-tailwind-v4
+        link "February 2025Updated Registry Schema" /docs/changelog/2025-02-registry-schema
+        link "January 2025Blocks Community" /docs/changelog/2025-01-blocks
+        link "December 2024Monorepo Support" /docs/changelog/2024-12-monorepo
+        link "November 2024Icons" /docs/changelog/2024-11-icons
+        link "October 2024React 19" /docs/changelog/2024-10-react-19
+        link "October 2024Sidebar" /docs/changelog/2024-10-sidebar
+        link "August 2024npx shadcn init" /docs/changelog/2024-08-npx-shadcn-init
+        link "April 2024Lift Mode" /docs/changelog/2024-04-lift-mode
+        link "March 2024Introducing Blocks" /docs/changelog/2024-03-blocks
+        link "March 2024Breadcrumb and Input OTP" /docs/changelog/2024-03-breadcrumb-otp
+        link "December 2023New Components" /docs/changelog/2023-12-new-components
+        link "July 2023JavaScript" /docs/changelog/2023-07-javascript
+        link "June 2023New CLI, Styles and more" /docs/changelog/2023-06-new-cli
+    col
+      text On This Page
+      link "October 2026 - Trace, Code Block and AI Elements" /docs/changelog/2026-10-ai-elements
+      link "September 2026 - cn" /docs/changelog/2026-09-cn
+      link "August 2026 - Private GitHub Registries" /docs/changelog/2026-08-private-github-registries
+      link "August 2026 - Human in the Loop" /docs/changelog/2026-08-helpers-human-in-the-loop
+      link "August 2026 - Questionnaire" /docs/changelog/2026-08-questionnaire
+      link "More Updates" #more-updates
+      card
+        text Deploy your shadcn/ui app on Vercel
+        text Trusted by OpenAI, Sonos, Adobe, and more.
+        text Vercel provides tools and infrastructure to deploy apps and features at scale.
+        button "Deploy Now"
+        link "Deploy to Vercel" https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+text Notifications alt+T
+text Notifications

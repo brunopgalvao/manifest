@@ -1,0 +1,144 @@
+@docs_python_org_3_15
+link index genindex.html
+text |
+link modules py-modindex.html
+image https://docs.python.org/3.15/_static/py.svg "Python logo"
+text »
+link Python https://www.python.org/
+row
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文"
+  select "Python version" "dev (3.16)" *3.15.0 3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6
+text »
+link "3.15.0 Documentation" #
+text |
+row
+  field "Quick search" search
+  button button
+text |
+select Theme *Auto Light Dark
+row
+  col
+    h1 Python 3.15.0 documentation
+    text Welcome! This is the official documentation for Python 3.15.0.
+    text Documentation sections:
+    row
+      col
+        link "What's new in Python 3.15?" whatsnew/3.15.html
+        text Or
+        link "all \"What's new\" documents since Python 2.0" whatsnew/index.html
+        link Tutorial tutorial/index.html
+        text Start here: a tour of Python's syntax and features
+        link "Built-ins reference" builtins/index.html
+        text Built-in functions and classes
+        link "Library reference" library/index.html
+        text Standard library modules
+        link "Language reference" reference/index.html
+        text Syntax and language elements
+        link "Python setup and usage" using/index.html
+        text How to install, configure, and use Python
+      col
+        link "Python HOWTOs" howto/index.html
+        text In-depth topic manuals
+        link "Installing Python modules" installing/index.html
+        text Third-party modules and PyPI.org
+        link "Extending and embedding" extending/index.html
+        text For C/C++ programmers
+        link "Python's C API" c-api/index.html
+        text C API reference
+        link FAQs faq/index.html
+        text Frequently asked questions (with answers!)
+        link Deprecations deprecations/index.html
+        text Deprecated functionality
+    text Other resources:
+    row
+      col
+        link "Python developer's guide" https://devguide.python.org
+        text Information on contributing to Python
+        link "Python Packaging User Guide" https://packaging.python.org
+        text Resources relating to Python packaging
+        link "Audio/visual talks" https://www.python.org/doc/av/
+        text Podcasts, talks, and video presentations from the community
+      col
+        link "Python Enhancement Proposals" https://peps.python.org/
+        text Index of proposed improvements to Python
+        link "Static Typing with Python" https://typing.python.org
+        text Information and guides about Python type safety
+    text Indices, glossary, and search:
+    row
+      col
+        link "Global module index" py-modindex.html
+        text All modules and libraries
+        link "General index" genindex.html
+        text All functions, classes, and terms
+        link Glossary glossary.html
+        text Terms explained
+      col
+        link "Search page" search.html
+        text Search this documentation
+        link "Complete table of contents" contents.html
+        text All sections and subsections
+    text Project information:
+    row
+      col
+        link "Reporting issues" bugs.html
+        link "Contributing to docs" https://devguide.python.org/documentation/help-documenting/
+        link "Download the documentation" download.html
+      col
+        link "History and license of Python" license.html
+        link Copyright copyright.html
+        link "About the documentation" about.html
+  row
+    col
+      h3 Download
+      link "Download these documents" download.html
+      h3 Docs by version
+      link "Python 3.16 (in development)" https://docs.python.org/3.16/
+      link "Python 3.15 (stable)" https://docs.python.org/3.15/
+      link "Python 3.14 (stable)" https://docs.python.org/3.14/
+      link "Python 3.13 (security-fixes)" https://docs.python.org/3.13/
+      link "Python 3.12 (security-fixes)" https://docs.python.org/3.12/
+      link "Python 3.11 (security-fixes)" https://docs.python.org/3.11/
+      link "Python 3.10 (EOL)" https://docs.python.org/3.10/
+      link "Python 3.9 (EOL)" https://docs.python.org/3.9/
+      link "Python 3.8 (EOL)" https://docs.python.org/3.8/
+      link "Python 3.7 (EOL)" https://docs.python.org/3.7/
+      link "Python 3.6 (EOL)" https://docs.python.org/3.6/
+      link "Python 3.5 (EOL)" https://docs.python.org/3.5/
+      link "Python 3.4 (EOL)" https://docs.python.org/3.4/
+      link "Python 3.3 (EOL)" https://docs.python.org/3.3/
+      link "Python 3.2 (EOL)" https://docs.python.org/3.2/
+      link "Python 3.1 (EOL)" https://docs.python.org/3.1/
+      link "Python 3.0 (EOL)" https://docs.python.org/3.0/
+      link "Python 2.7 (EOL)" https://docs.python.org/2.7/
+      link "Python 2.6 (EOL)" https://docs.python.org/2.6/
+      link "All versions" https://www.python.org/doc/versions/
+      h3 Other resources
+      link "PEP Index" https://peps.python.org/
+      link "Beginner's Guide" https://wiki.python.org/moin/BeginnersGuide
+      link "Book List" https://wiki.python.org/moin/PythonBooks
+      link "Audio/Visual Talks" https://www.python.org/doc/av/
+      link "Python Developer’s Guide" https://devguide.python.org/
+    text «
+link index genindex.html
+text |
+link modules py-modindex.html
+image https://docs.python.org/3.15/_static/py.svg "Python logo"
+text »
+link Python https://www.python.org/
+row
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文"
+  select "Python version" "dev (3.16)" *3.15.0 3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6
+text »
+link "3.15.0 Documentation" #
+text |
+row
+  field "Quick search" search
+  button button
+text |
+select Theme *Auto Light Dark
+text ©  2001 Python Software Foundation.  This page is licensed under the Python Software Foundation License Version 2.  Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.  See  for more information.  The Python Software Foundation is a non-profit corporation.    Last updated on Oct 20, 2026 (04:53 UTC). ?  Created using  8.2.3.
+link Copyright copyright.html
+link "History and License" /license.html
+link "Please donate." https://www.python.org/psf/donations/
+link "Found a bug" /bugs.html
+link Sphinx https://www.sphinx-doc.org/

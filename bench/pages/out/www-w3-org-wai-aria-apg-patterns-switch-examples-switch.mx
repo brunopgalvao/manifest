@@ -30,12 +30,15 @@ row
     card
       text The code in this example is not intended for production environments. Before using it for any purpose, read this to understand why. warning
     h2 About This Example
+    text This example illustrates implementation of the  for a notification preferences control. It uses a  element for the switch and CSS borders to provide graphical rendering of switch states.
     link "Switch Pattern" ../../
     text div primary
     text Similar examples include:
+    text : A group of 2 switches based on HTML  elements that turn lights on and off.
     row
       link "Switch Example Using HTML Button" ../switch-button/
       text button primary
+    text : A group of 2 switches based on HTML  elements that turn accessibility preferences on and off.
     link "Switch Example Using HTML Checkbox Input" ../switch-checkbox/
     text "input[type=\"checkbox\"]" primary
     h2 Example
@@ -44,13 +47,16 @@ row
     toggle "Notifications On Off" off
     text End of
     h2 Accessibility Features
+    text To make understanding the state of the switch easier for users with visual or cognitive disabilities, a text equivalent of the state ( or ) is displayed adjacent to the graphical state indicator. CSS attribute selectors ensure the label displayed is synchronized with the value of the  attribute.  To prevent redundant announcement of the state by screen readers, the text indicators of state are hidden from assistive technologies with .
     text on
     text off
     text aria-checked primary
     text NOTE:
     text aria-hidden primary
+    text Spacing, border widths and fill are important to ensure the graphical states are visible and discernible to people with visual impairments, including when browser or operating system high contrast settings are enabled:
     text To make the graphical representation of the state of a switch readily perceivable, two pixel borders are used for the switch state container and a solid color is used for the fill of the circles indicating the on and off states.
     text To ensure users can perceive the difference between the container and the circles used to indicate the state of the switch, there are two pixels of space between the container border and the circles.
+    text To enhance perceivability when operating the switches, visual keyboard focus and hover are styled using the CSS  and  pseudo-classes:
     text :hover primary
     text :focus primary
     text To make it easier to perceive focus and the relationship between a label and its associated switch, focus creates a border around both the switch and the label and also changes the background color.
@@ -71,7 +77,9 @@ row
     h2 Assistive Technology Support
     link "Learn how to interpret and use assistive technology support data" ../../../../about/at-support-tables/
     h2 JavaScript and CSS Source Code
+    text CSS:
     link switch.css ../../../../../../content-assets/wai-aria-practices/patterns/switch/examples/css/switch.css
+    text JavaScript:
     link switch.js ../../../../../../content-assets/wai-aria-practices/patterns/switch/examples/js/switch.js
     h2 HTML Source Code
     text To copy the following HTML code, please open it in CodePen.
@@ -80,8 +88,8 @@ row
     text "<div role=\"switch\" aria-checked=\"false\" tabindex=\"0\"> <span class=\"label\"> Notifications </span> <span class=\"switch\"> <span></span> </span> <span class=\"on\" aria-hidden=\"true\"> On </span> <span class=\"off\" aria-hidden=\"true\"> Off </span> </div>"
     text End of
 row
-  region 16x16
   h2 Help improve this page
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list  or via GitHub.
 link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
 row
   link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
@@ -106,6 +114,7 @@ row
   link "Accessibility statement" /WAI/about/accessibility-statement/
   link "All Translations" /WAI/translations/
   link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
 link "World Wide Web Consortium" https://www.w3.org/
 text W3C
 text ®

@@ -1,0 +1,105 @@
+@bulma_io_extensions rev=0 @0,0,728,1190
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/ @17,17,694,20
+row @17,49,694,212
+  link https://bulma.io/ https://bulma.io/ @17,145,55,20
+  row @84,56,424,198
+    link "Docs Documentation" https://bulma.io/documentation/ @84,135,67,40
+    link Expo https://bulma.io/expo/ @163,145,16,20
+    link Love https://bulma.io/love/ @191,145,16,20
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/ @219,145,27,20
+    row @258,56,250,198
+      link "Open Source on GitHub" https://github.com/jgthms/bulma @258,114,63,82
+      link "Follow me on Twitter" https://twitter.com/jgthms @333,124,56,61
+      button button @401,137,48,36
+      col @461,56,47,198
+        link "Made with Bulma" https://bulma.io/made-with-bulma/ @461,56,47,61
+        link Backers https://bulma.io/backers/ @461,129,47,20
+        link "Bulma Brand" https://bulma.io/brand/ @461,161,47,41
+        link "Bulma Extensions" https://bulma.io/extensions/ @461,214,47,40
+  col @520,49,80,212
+    button button @520,49,80,37
+    card @520,98,80,163
+      button "Light mode" @537,113,46,36
+      button "Dark mode" @537,161,46,36
+      button "System mode" success @537,209,46,37
+  col @612,78,53,154
+    button button @612,78,53,37
+    card @612,127,53,105
+      field "search input" @629,142,19,75
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @677,145,34,20
+h1 Bulma extensions @17,273,694,25
+h2 Side projects to enhance your Bulma experience. @17,310,694,21
+card @17,343,694,82
+  link https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQMCAYDEZ3JCAAI627ICEAI4K7KC6SDCKQMF6YDTKJMCYYIVK7EFTSI45Q7HEYI55QLCESI623ECTNCYBZ52K https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQMCAYDEZ3JCAAI627ICEAI4K7KC6SDCKQMF6YDTKJMCYYIVK7EFTSI45Q7HEYI55QLCESI623ECTNCYBZ52K @34,358,660,20
+  link "AMD EPYC 4005 Dedicated Server, in Minuten bereit, mit 99,95 % SLA. Jetzt konfigurieren." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQMCAYDEZ3JCAAI627ICEAI4K7KC6SDCKQMF6YDTKJMCYYIVK7EFTSI45Q7HEYI55QLCESI623ECTNCYBZ52K @34,390,660,20
+link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @17,437,694,21
+card @17,470,694,82
+  text Have an extension to share with the community? primary @34,485,660,20
+  link "Submit a Pull Request" https://github.com/jgthms/bulma/pulls @34,517,660,20
+row @17,564,694,61
+  link "bulma-o-steps octoshrimpy.github.io/bulma-o-steps/" https://octoshrimpy.github.io/bulma-o-steps/ @17,574,12,41
+  link "bulma-accordion wikiki.github.io/components/accordion" https://wikiki.github.io/components/accordion @41,574,14,41
+  link "bulma-carousel wikiki.github.io/components/carousel" https://wikiki.github.io/components/carousel @67,574,12,41
+  link "bulma-quickview wikiki.github.io/components/quickview" https://wikiki.github.io/components/quickview @91,574,13,41
+  link "bulma-iconpicker wikiki.github.io/form/iconpicker" https://wikiki.github.io/form/iconpicker @116,574,12,41
+  link "bulma-tagsinput wikiki.github.io/form/tagsinput" https://wikiki.github.io/form/tagsinput @140,574,11,41
+  link "bulma-tagsfield github.com/vyachkonovalov/bulma-tagsfield" https://github.com/vyachkonovalov/bulma-tagsfield @163,574,14,41
+  link "bulma-pricingtable wikiki.github.io/components/pricingtable" https://wikiki.github.io/components/pricingtable @189,574,14,41
+  link "bulma-megamenu github.com/hunzaboy/bulma-megamenu" https://github.com/hunzaboy/bulma-megamenu @215,574,14,41
+  link "bulma-coolcheckboxes github.com/hunzaboy/Cool-Checkboxes-for-Bulma.io" https://github.com/hunzaboy/Cool-Checkboxes-for-Bulma.io @241,574,18,41
+  link "bulma-slider wikiki.github.io/form/slider" https://wikiki.github.io/form/slider @271,574,9,41
+  link "bulma.io-axure github.com/AGmakonts/Bulma.io-axure" https://github.com/AGmakonts/Bulma.io-axure @292,574,13,41
+  link "bulma-checkradio wikiki.github.io/form/checkradio" https://wikiki.github.io/form/checkradio @317,574,12,41
+  link "bulma-switch wikiki.github.io/form/switch" https://wikiki.github.io/form/switch @341,574,10,41
+  link "bulma-steps (alternative) aramvisser.github.io/bulma-steps/" https://aramvisser.github.io/bulma-steps/ @363,564,14,61
+  link "bulma-divider wikiki.github.io/layout/divider" https://wikiki.github.io/layout/divider @389,574,10,41
+  link "bulma-calendar wikiki.github.io/components/calendar" https://wikiki.github.io/components/calendar @411,574,12,41
+  link "bulma-pageloader wikiki.github.io/elements/pageloader" https://wikiki.github.io/elements/pageloader @435,574,13,41
+  link "bulma-ribbon github.com/Wikiki/bulma-ribbon" https://github.com/Wikiki/bulma-ribbon @460,574,11,41
+  link "bulma-badge wikiki.github.io/elements/badge" https://wikiki.github.io/elements/badge @483,574,11,41
+  link "bulma-steps wikiki.github.io/components/steps" https://wikiki.github.io/components/steps @506,574,11,41
+  link "bulma-tooltip wikiki.github.io/elements/tooltip" https://wikiki.github.io/elements/tooltip @529,574,10,41
+  link "bulma-timeline wikiki.github.io/components/timeline" https://wikiki.github.io/components/timeline @551,574,12,41
+  link "bulma-toast rfoel.github.io/bulma-toast/" https://rfoel.github.io/bulma-toast/ @575,574,10,41
+  link "bulma-dashboard github.com/lucperkins/bulma-dashboard" https://github.com/lucperkins/bulma-dashboard @597,574,14,41
+  link "bulma-block-list github.com/chrisrhymes/bulma-block-list" https://github.com/chrisrhymes/bulma-block-list @623,574,13,41
+  link "bulma-spacing github.com/kaangokdemir/bulma-spacing" https://github.com/kaangokdemir/bulma-spacing @648,574,13,41
+  link "bulma-list bluefantail.github.io/bulma-list" https://bluefantail.github.io/bulma-list @673,574,10,41
+  link "bulma-jumbo-tiny thirstyape.github.io/Bulma-Jumbo-Tiny/index.html" https://thirstyape.github.io/Bulma-Jumbo-Tiny/index.html @695,574,16,41
+h3 How to support Bulma @17,637,694,19
+row @17,668,694,90
+  col @17,668,124,90
+    text One-time donation @17,668,124,20
+    field submit @17,700,124,58
+  col @153,687,197,52
+    text Browser testing via @153,687,197,20
+    link https://www.lambdatest.com/ https://www.lambdatest.com/ @153,719,197,20
+  col @362,687,121,52
+    text Visit our Sponsors @362,687,121,20
+    link celebian https://celebian.com/ @362,719,121,20
+  col @495,687,124,52
+    text Monthly donation @495,687,124,20
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/ @495,719,124,20
+link ".native-js { background: linear-gradient(-30deg, #ffffffE5, #ffffffE5 45%, #ffffff 45%) #fff; } .native-details { color: #000000 !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #ffffff; background-color: #000000; } .native-cta:hover { color: undefined; background-color: undefined; } Wegic Modern, dynamic and visually stunning websites created from a simple business description. Try Now" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITK3YCEBD4Z3JCAAI627ICE7D52JKC6BDVKJLFTYDCK3LF6BD52QWCV7DL277HEYI55QLCESI623ECTNCYBZ52K @17,770,694,101
+row @17,883,694,51
+  col @17,883,195,51
+    h3 Bulma by Jeremy Thomas. @17,883,195,19
+    link "Follow @jgthms" https://twitter.com/jgthms @17,914,195,20
+  col @224,900,155,18
+    h3 Contribute on GitHub @224,900,155,18
+  col @391,883,161,51
+    h3 Share on social media @391,883,161,19
+    row @391,914,161,20
+      link Twitter https://twitter.com/share @391,914,47,20
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io @450,914,66,20
+text Source code licensed . Website content licensed @17,946,694,21
+row @17,979,694,20
+  link MIT https://opensource.org/licenses/mit-license.php @17,979,26,20
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/ @55,979,122,20
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer @17,1011,694,162
+!overflow button 46/73px
+!overflow light 44/104px
+!overflow dark 44/102px
+!overflow system 44/121px
+!overflow button3 51/73px
+!tiny search 22x37px

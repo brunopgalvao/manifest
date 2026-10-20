@@ -1,0 +1,326 @@
+@bulma_io_documentation_components_pagina rev=0 @0,0,728,5258
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/ @17,17,694,20
+row @17,49,694,212
+  link https://bulma.io/ https://bulma.io/ @17,145,55,20
+  row @84,56,424,198
+    link "Docs Documentation" https://bulma.io/documentation/ @84,135,67,40
+    link Expo https://bulma.io/expo/ @163,145,16,20
+    link Love https://bulma.io/love/ @191,145,16,20
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/ @219,145,27,20
+    row @258,56,250,198
+      link "Open Source on GitHub" https://github.com/jgthms/bulma @258,114,63,82
+      link "Follow me on Twitter" https://twitter.com/jgthms @333,124,56,61
+      button button @401,137,48,36
+      col @461,56,47,198
+        link "Made with Bulma" https://bulma.io/made-with-bulma/ @461,56,47,61
+        link Backers https://bulma.io/backers/ @461,129,47,20
+        link "Bulma Brand" https://bulma.io/brand/ @461,161,47,41
+        link "Bulma Extensions" https://bulma.io/extensions/ @461,214,47,40
+  col @520,49,80,212
+    button button @520,49,80,37
+    card @520,98,80,163
+      button "Light mode" @537,113,46,36
+      button "Dark mode" @537,161,46,36
+      button "System mode" success @537,209,46,37
+  col @612,78,53,154
+    button button @612,78,53,37
+    card @612,127,53,105
+      field "search input" @629,142,19,75
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @677,145,34,20
+row @17,273,694,4419
+  col @17,817,24,3331
+    h3 Start Here @17,817,24,38
+    link Overview https://bulma.io/documentation/start/overview/ @17,867,24,20
+    link Installation https://bulma.io/documentation/start/installation/ @17,899,24,20
+    link "Alternative Versions" https://bulma.io/documentation/start/alternative-versions/ @17,931,24,41
+    link Syntax https://bulma.io/documentation/start/syntax/ @17,984,24,20
+    link Modularity https://bulma.io/documentation/start/modular/ @17,1016,24,20
+    link Responsiveness https://bulma.io/documentation/start/responsiveness/ @17,1048,24,21
+    link "Migrating to v1" https://bulma.io/documentation/start/migrating-to-v1/ @17,1081,24,61
+    h3 Features @17,1154,24,18
+    link "CSS Variables" https://bulma.io/documentation/features/css-variables/ @17,1184,24,41
+    link Themes https://bulma.io/documentation/features/themes/ @17,1237,24,20
+    link "Dark Mode" https://bulma.io/documentation/features/dark-mode/ @17,1269,24,41
+    link "Color Palettes" https://bulma.io/documentation/features/color-palettes/ @17,1322,24,40
+    link Skeletons https://bulma.io/documentation/features/skeletons/ @17,1374,24,21
+    h3 Sass Tools @17,1407,24,37
+    link Mixins https://bulma.io/documentation/sass/mixins/ @17,1456,24,20
+    link "Responsive mixins" https://bulma.io/documentation/sass/responsive-mixins/ @17,1488,24,41
+    link "Form Control mixins" https://bulma.io/documentation/sass/form-control-mixins/ @17,1541,24,61
+    link Extends https://bulma.io/documentation/sass/extends/ @17,1614,24,20
+    h3 Customization @17,1646,24,19
+    link Concepts https://bulma.io/documentation/customize/concepts/ @17,1677,24,20
+    link "With Sass" https://bulma.io/documentation/customize/with-sass/ @17,1709,24,41
+    link "With Modular Sass" https://bulma.io/documentation/customize/with-modular-sass/ @17,1762,24,61
+    link "With CSS Variables" https://bulma.io/documentation/customize/with-css-variables/ @17,1835,24,61
+    link "List of Sass variables" https://bulma.io/documentation/customize/list-of-sass-variables/ @17,1908,24,81
+    h3 CSS Library @17,2001,24,37
+    link Elements https://bulma.io/documentation/elements/ @17,2050,24,21
+    link Block https://bulma.io/documentation/elements/block/ @17,2083,24,20
+    link Box https://bulma.io/documentation/elements/box/ @17,2115,24,20
+    link Button https://bulma.io/documentation/elements/button/ @17,2147,24,21
+    link Content https://bulma.io/documentation/elements/content/ @17,2180,24,20
+    link Delete https://bulma.io/documentation/elements/delete/ @17,2212,24,20
+    link Icon https://bulma.io/documentation/elements/icon/ @17,2244,24,21
+    link Image https://bulma.io/documentation/elements/image/ @17,2277,24,20
+    link Notification https://bulma.io/documentation/elements/notification/ @17,2309,24,20
+    link "Progress bars" https://bulma.io/documentation/elements/progress/ @17,2341,24,41
+    link Table https://bulma.io/documentation/elements/table/ @17,2394,24,20
+    link Tag https://bulma.io/documentation/elements/tag/ @17,2426,24,20
+    link Title https://bulma.io/documentation/elements/title/ @17,2458,24,21
+    link Components https://bulma.io/documentation/components/ @17,2491,24,20
+    link Breadcrumb https://bulma.io/documentation/components/breadcrumb/ @17,2523,24,20
+    link Card https://bulma.io/documentation/components/card/ @17,2555,24,21
+    link Dropdown https://bulma.io/documentation/components/dropdown/ @17,2588,24,20
+    link Menu https://bulma.io/documentation/components/menu/ @17,2620,24,20
+    link Message https://bulma.io/documentation/components/message/ @17,2652,24,20
+    link Modal https://bulma.io/documentation/components/modal/ @17,2684,24,21
+    link Navbar https://bulma.io/documentation/components/navbar/ @17,2717,24,20
+    link Pagination https://bulma.io/documentation/components/pagination/ @17,2749,24,20
+    link Panel https://bulma.io/documentation/components/panel/ @17,2781,24,21
+    link Tabs https://bulma.io/documentation/components/tabs/ @17,2814,24,20
+    link Form https://bulma.io/documentation/form/ @17,2846,24,20
+    link General https://bulma.io/documentation/form/general/ @17,2878,24,21
+    link Input https://bulma.io/documentation/form/input/ @17,2911,24,20
+    link Textarea https://bulma.io/documentation/form/textarea/ @17,2943,24,20
+    link Select https://bulma.io/documentation/form/select/ @17,2975,24,20
+    link Checkbox https://bulma.io/documentation/form/checkbox/ @17,3007,24,21
+    link Radio https://bulma.io/documentation/form/radio/ @17,3040,24,20
+    link File https://bulma.io/documentation/form/file/ @17,3072,24,20
+    link Columns https://bulma.io/documentation/columns/ @17,3104,24,21
+    link Basics https://bulma.io/documentation/columns/basics/ @17,3137,24,20
+    link Sizes https://bulma.io/documentation/columns/sizes/ @17,3169,24,20
+    link Responsiveness https://bulma.io/documentation/columns/responsiveness/ @17,3201,24,21
+    link Nesting https://bulma.io/documentation/columns/nesting/ @17,3234,24,20
+    link Gap https://bulma.io/documentation/columns/gap/ @17,3266,24,20
+    link Options https://bulma.io/documentation/columns/options/ @17,3298,24,20
+    link Grid https://bulma.io/documentation/grid/ @17,3330,24,21
+    link "Smart Grid" https://bulma.io/documentation/grid/smart-grid/ @17,3363,24,40
+    link "Fixed Grid" https://bulma.io/documentation/grid/fixed-grid/ @17,3415,24,41
+    link "Grid Cells" https://bulma.io/documentation/grid/grid-cells/ @17,3468,24,41
+    link Playground https://bulma.io/documentation/grid/playground/ @17,3521,24,20
+    link Layout https://bulma.io/documentation/layout/ @17,3553,24,20
+    link Container https://bulma.io/documentation/layout/container/ @17,3585,24,20
+    link Hero https://bulma.io/documentation/layout/hero/ @17,3617,24,21
+    link Section https://bulma.io/documentation/layout/section/ @17,3650,24,20
+    link Level https://bulma.io/documentation/layout/level/ @17,3682,24,20
+    link "Media Object" https://bulma.io/documentation/layout/media-object/ @17,3714,24,41
+    link Footer https://bulma.io/documentation/layout/footer/ @17,3767,24,20
+    h3 CSS Helpers @17,3799,24,38
+    link Color https://bulma.io/documentation/helpers/color-helpers/ @17,3849,24,20
+    link "Color Palette" https://bulma.io/documentation/helpers/palette-helpers/ @17,3881,24,41
+    link Spacing https://bulma.io/documentation/helpers/spacing-helpers/ @17,3934,24,20
+    link Typography https://bulma.io/documentation/helpers/typography-helpers/ @17,3966,24,20
+    link Visibility https://bulma.io/documentation/helpers/visibility-helpers/ @17,3998,24,21
+    link Flexbox https://bulma.io/documentation/helpers/flexbox-helpers/ @17,4031,24,20
+    link Other https://bulma.io/documentation/helpers/other-helpers/ @17,4063,24,20
+    text Sponsor @17,4095,24,20
+    link https://www.route4me.com/ https://www.route4me.com/ @17,4127,24,21
+  col @53,273,658,4419
+    row @53,273,658,135
+      col @53,279,145,122
+        h1 Pagination @53,279,145,25
+        h2 A responsive, usable, and flexible pagination @53,316,145,85
+      col @210,273,501,135
+        card @210,273,501,102
+          link https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTAI5KJKC6YIVKJUCT7IT53ECAYDC23JCW7DP23IHEYI55QLCESI623ECTNCYBZ52K https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTAI5KJKC6YIVKJUCT7IT53ECAYDC23JCW7DP23IHEYI55QLCESI623ECTNCYBZ52K @227,288,467,20
+          link "$200 in credits. 6 months. Try the new Free Plan now. Start free on AWS." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTAI5KJKC6YIVKJUCT7IT53ECAYDC23JCW7DP23IHEYI55QLCESI623ECTNCYBZ52K @227,320,467,40
+        link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @210,387,501,21
+    text The pagination component consists of several elements: @53,420,658,20
+    text pagination-previous and pagination-next for incremental navigation @53,452,658,20
+    text which displays page items: @53,484,658,21
+    text pagination-list danger @53,517,658,20
+    text pagination-link for the page numbers @53,549,658,20
+    text pagination-ellipsis for range separators @53,581,658,21
+    text All elements are optional so you can compose your pagination as you wish. @53,614,658,20
+    text Example @53,646,658,20
+    row @53,678,658,20
+      link Previous # @53,678,58,20
+      link "Next page" # @123,678,69,20
+      row @204,678,467,20
+        link "Goto page 1" # @204,678,79,20
+        text … @295,678,13,20
+        link "Goto page 45" # @320,678,91,20
+        text 46 @423,678,18,20
+        link "Goto page 47" # @453,678,90,20
+        text … @555,678,13,20
+        link "Goto page 86" # @580,678,91,20
+    text HTML @53,710,658,21
+    button "Show code" danger @53,743,658,36
+    text <nav class="pagination" role="navigation" aria-label="pagination"> <a href="#" class="pagination-previous">Previous</a> <a href="#" class="pagination-next">Next page</a> <ul class="pagination-list"> <li> <a href="#" class="pagination-link" aria-label="Goto page 1">1</a> </li> <li> <span class="pagination-ellipsis">&hellip;</span> </li> <li> <a href="#" class="pagination-link" aria-label="Goto page 45">45</a> </li> <li> <a class="pagination-link is-current" aria-label="Page 46" aria-current="page" >46</a > </li> <li> <a href="#" class="pagination-link" aria-label="Goto page 47">47</a> </li> <li> <span class="pagination-ellipsis">&hellip;</span> </li> <li> <a href="#" class="pagination-link" aria-label="Goto page 86">86</a> </li> </ul> </nav> @53,791,658,183
+    button Copy danger @53,986,658,36
+    text You can disable some links if they are not active, or change the amount of page numbers available. @53,1034,658,20
+    text Example @53,1066,658,21
+    row @53,1099,658,20
+      text Previous @53,1099,58,20
+      link "Next page" # @123,1099,69,20
+      row @204,1099,194,20
+        text 1 @204,1099,6,20
+        link "Goto page 2" # @222,1099,82,20
+        link "Goto page 3" # @316,1099,82,20
+    text HTML @53,1131,658,20
+    button "Show code" danger @53,1163,658,37
+    text <nav class="pagination" role="navigation" aria-label="pagination"> <a class="pagination-previous is-disabled" title="This is the first page" >Previous</a > <a href="#" class="pagination-next">Next page</a> <ul class="pagination-list"> <li> <a class="pagination-link is-current" aria-label="Page 1" aria-current="page" >1</a > </li> <li> <a href="#" class="pagination-link" aria-label="Goto page 2">2</a> </li> <li> <a href="#" class="pagination-link" aria-label="Goto page 3">3</a> </li> </ul> </nav> @53,1211,658,122
+    button Copy danger @53,1345,658,37
+    text By default on tablet, the list is located on the left, and the previous/next buttons on the right. But you can change the order of these elements by using the is-centered and is-right modifiers. @53,1394,658,40
+    text Example @53,1446,658,21
+    row @53,1479,658,20
+      link Previous # @53,1479,58,20
+      link "Next page" # @123,1479,69,20
+      row @204,1479,467,20
+        link "Goto page 1" # @204,1479,79,20
+        text … @295,1479,13,20
+        link "Goto page 45" # @320,1479,91,20
+        text 46 @423,1479,18,20
+        link "Goto page 47" # @453,1479,90,20
+        text … @555,1479,13,20
+        link "Goto page 86" # @580,1479,91,20
+    text HTML @53,1511,658,20
+    button "Show code" danger @53,1543,658,36
+    text <nav class="pagination is-centered" role="navigation" aria-label="pagination"> <a href="#" class="pagination-previous">Previous</a> <a href="#" class="pagination-next">Next page</a> <ul class="pagination-list"> <li><a href="#" class="pagination-link" aria-label="Goto page 1">1</a></li> <li><span class="pagination-ellipsis">&hellip;</span></li> <li><a href="#" class="pagination-link" aria-label="Goto page 45">45</a></li> <li> <a class="pagination-link is-current" aria-label="Page 46" aria-current="page" >46</a > </li> <li><a href="#" class="pagination-link" aria-label="Goto page 47">47</a></li> <li><span class="pagination-ellipsis">&hellip;</span></li> <li><a href="#" class="pagination-link" aria-label="Goto page 86">86</a></li> </ul> </nav> @53,1591,658,183
+    button Copy danger @53,1786,658,36
+    text Example @53,1834,658,21
+    row @53,1867,658,20
+      link Previous # @53,1867,58,20
+      link "Next page" # @123,1867,69,20
+      row @204,1867,467,20
+        link "Goto page 1" # @204,1867,79,20
+        text … @295,1867,13,20
+        link "Goto page 45" # @320,1867,91,20
+        text 46 @423,1867,18,20
+        link "Goto page 47" # @453,1867,90,20
+        text … @555,1867,13,20
+        link "Goto page 86" # @580,1867,91,20
+    text HTML @53,1899,658,20
+    button "Show code" danger @53,1931,658,37
+    text <nav class="pagination is-right" role="navigation" aria-label="pagination"> <a href="#" class="pagination-previous">Previous</a> <a href="#" class="pagination-next">Next page</a> <ul class="pagination-list"> <li><a href="#" class="pagination-link" aria-label="Goto page 1">1</a></li> <li><span class="pagination-ellipsis">&hellip;</span></li> <li><a href="#" class="pagination-link" aria-label="Goto page 45">45</a></li> <li> <a class="pagination-link is-current" aria-label="Page 46" aria-current="page" >46</a > </li> <li><a href="#" class="pagination-link" aria-label="Goto page 47">47</a></li> <li><span class="pagination-ellipsis">&hellip;</span></li> <li><a href="#" class="pagination-link" aria-label="Goto page 86">86</a></li> </ul> </nav> @53,1980,658,182
+    button Copy danger @53,2174,658,37
+    h3 "Styles #" @53,2223,658,18
+    text Add the is-rounded modifier to have rounded pagination items. @53,2253,658,21
+    text Example @53,2286,658,20
+    row @53,2318,658,20
+      link Previous # @53,2318,58,20
+      link "Next page" # @123,2318,69,20
+      row @204,2318,467,20
+        link "Goto page 1" # @204,2318,79,20
+        text … @295,2318,13,20
+        link "Goto page 45" # @320,2318,91,20
+        text 46 @423,2318,18,20
+        link "Goto page 47" # @453,2318,90,20
+        text … @555,2318,13,20
+        link "Goto page 86" # @580,2318,91,20
+    text HTML @53,2350,658,21
+    button "Show code" danger @53,2383,658,36
+    text <nav class="pagination is-rounded" role="navigation" aria-label="pagination"> <a href="#" class="pagination-previous">Previous</a> <a href="#" class="pagination-next">Next page</a> <ul class="pagination-list"> <li><a href="#" class="pagination-link" aria-label="Goto page 1">1</a></li> <li><span class="pagination-ellipsis">&hellip;</span></li> <li><a href="#" class="pagination-link" aria-label="Goto page 45">45</a></li> <li> <a class="pagination-link is-current" aria-label="Page 46" aria-current="page" >46</a > </li> <li><a href="#" class="pagination-link" aria-label="Goto page 47">47</a></li> <li><span class="pagination-ellipsis">&hellip;</span></li> <li><a href="#" class="pagination-link" aria-label="Goto page 86">86</a></li> </ul> </nav> @53,2431,658,183
+    button Copy danger @53,2626,658,36
+    h3 "Sizes #" @53,2674,658,19
+    text The pagination comes in 3 additional sizes. You only need to append the modifier is-small, is-medium, or is-large to the pagination component. @53,2705,658,40
+    text Example @53,2757,658,21
+    row @53,2790,658,20
+      link Previous # @53,2790,58,20
+      link "Next page" # @123,2790,69,20
+      row @204,2790,467,20
+        link "Goto page 1" # @204,2790,79,20
+        text … @295,2790,13,20
+        link "Goto page 45" # @320,2790,91,20
+        text 46 @423,2790,18,20
+        link "Goto page 47" # @453,2790,90,20
+        text … @555,2790,13,20
+        link "Goto page 86" # @580,2790,91,20
+    text HTML @53,2822,658,20
+    button "Show code" danger @53,2854,658,36
+    text <nav class="pagination is-small" role="navigation" aria-label="pagination"> <a href="#" class="pagination-previous">Previous</a> <a href="#" class="pagination-next">Next page</a> <ul class="pagination-list"> <li><a href="#" class="pagination-link" aria-label="Goto page 1">1</a></li> <li><span class="pagination-ellipsis">&hellip;</span></li> <li><a href="#" class="pagination-link" aria-label="Goto page 45">45</a></li> <li> <a class="pagination-link is-current" aria-label="Page 46" aria-current="page" >46</a > </li> <li><a href="#" class="pagination-link" aria-label="Goto page 47">47</a></li> <li><span class="pagination-ellipsis">&hellip;</span></li> <li><a href="#" class="pagination-link" aria-label="Goto page 86">86</a></li> </ul> </nav> @53,2902,658,183
+    button Copy danger @53,3097,658,36
+    text Example @53,3145,658,21
+    row @53,3178,658,20
+      link Previous # @53,3178,58,20
+      link "Next page" # @123,3178,69,20
+      row @204,3178,467,20
+        link "Goto page 1" # @204,3178,79,20
+        text … @295,3178,13,20
+        link "Goto page 45" # @320,3178,91,20
+        text 46 @423,3178,18,20
+        link "Goto page 47" # @453,3178,90,20
+        text … @555,3178,13,20
+        link "Goto page 86" # @580,3178,91,20
+    text HTML @53,3210,658,20
+    button "Show code" danger @53,3242,658,37
+    text <nav class="pagination is-medium" role="navigation" aria-label="pagination"> <a href="#" class="pagination-previous">Previous</a> <a href="#" class="pagination-next">Next page</a> <ul class="pagination-list"> <li><a href="#" class="pagination-link" aria-label="Goto page 1">1</a></li> <li><span class="pagination-ellipsis">&hellip;</span></li> <li><a href="#" class="pagination-link" aria-label="Goto page 45">45</a></li> <li> <a class="pagination-link is-current" aria-label="Page 46" aria-current="page" >46</a > </li> <li><a href="#" class="pagination-link" aria-label="Goto page 47">47</a></li> <li><span class="pagination-ellipsis">&hellip;</span></li> <li><a href="#" class="pagination-link" aria-label="Goto page 86">86</a></li> </ul> </nav> @53,3291,658,182
+    button Copy danger @53,3485,658,37
+    text Example @53,3534,658,20
+    row @53,3566,658,20
+      link Previous # @53,3566,58,20
+      link "Next page" # @123,3566,69,20
+      row @204,3566,467,20
+        link "Goto page 1" # @204,3566,79,20
+        text … @295,3566,13,20
+        link "Goto page 45" # @320,3566,91,20
+        text 46 @423,3566,18,20
+        link "Goto page 47" # @453,3566,90,20
+        text … @555,3566,13,20
+        link "Goto page 86" # @580,3566,91,20
+    text HTML @53,3598,658,21
+    button "Show code" danger @53,3631,658,36
+    text <nav class="pagination is-large" role="navigation" aria-label="pagination"> <a href="#" class="pagination-previous">Previous</a> <a href="#" class="pagination-next">Next page</a> <ul class="pagination-list"> <li><a href="#" class="pagination-link" aria-label="Goto page 1">1</a></li> <li><span class="pagination-ellipsis">&hellip;</span></li> <li><a href="#" class="pagination-link" aria-label="Goto page 45">45</a></li> <li> <a class="pagination-link is-current" aria-label="Page 46" aria-current="page" >46</a > </li> <li><a href="#" class="pagination-link" aria-label="Goto page 47">47</a></li> <li><span class="pagination-ellipsis">&hellip;</span></li> <li><a href="#" class="pagination-link" aria-label="Goto page 86">86</a></li> </ul> </nav> @53,3679,658,183
+    button Copy danger @53,3874,658,36
+    h3 "Sass and CSS variables #" @53,3922,658,19
+    card @53,3953,658,707
+      table "Sass Variable:badge" "CSS Variable:badge" Value:badge @70,3968,624,677
+        $pagination-marginCopy | var(--bulma-pagination-margin)Copy | -0.25remCopy
+        $pagination-min-widthCopy | var(--bulma-pagination-min-width)Copy | var(--bulma-control-height)Copy
+        $pagination-item-border-styleCopy | var(--bulma-pagination-item-border-style)Copy | solidCopy
+        $pagination-item-border-widthCopy | var(--bulma-pagination-item-border-width)Copy | var(--bulma-control-border-width)Copy
+        $pagination-item-font-sizeCopy | var(--bulma-pagination-item-font-size)Copy | 1emCopy
+        $pagination-item-marginCopy | var(--bulma-pagination-item-margin)Copy | 0.25remCopy
+        $pagination-item-padding-leftCopy | var(--bulma-pagination-item-padding-left)Copy | 0.5emCopy
+        $pagination-item-padding-rightCopy | var(--bulma-pagination-item-padding-right)Copy | 0.5emCopy
+        $pagination-nav-padding-leftCopy | var(--bulma-pagination-nav-padding-left)Copy | 0.75emCopy
+        $pagination-nav-padding-rightCopy | var(--bulma-pagination-nav-padding-right)Copy | 0.75emCopy
+        $pagination-disabled-colorCopy | var(--bulma-pagination-disabled-color)Copy | var(--bulma-text-weak)Copy
+        $pagination-disabled-background-colorCopy | var(--bulma-pagination-disabled-background-color)Copy | var(--bulma-border)Copy
+        $pagination-disabled-border-colorCopy | var(--bulma-pagination-disabled-border-color)Copy | var(--bulma-border)Copy
+        $pagination-current-colorCopy | var(--bulma-pagination-current-color)Copy | var(--bulma-link-invert)Copy
+        $pagination-current-background-colorCopy | var(--bulma-pagination-current-background-color)Copy | var(--bulma-link)Copy
+        $pagination-current-border-colorCopy | var(--bulma-pagination-current-border-color)Copy | var(--bulma-link)Copy
+        $pagination-ellipsis-colorCopy | var(--bulma-pagination-ellipsis-color)Copy | var(--bulma-text-weak)Copy
+        $pagination-shadow-insetCopy | var(--bulma-pagination-shadow-inset)Copy | inset 0 0.0625em 0.125em hsla( var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-scheme-invert-l), 0.2 )Copy
+    row @53,4672,658,20
+      link "← components: Navbar" https://bulma.io/documentation/components/navbar/ @53,4672,156,20
+      link "components: Panel →" https://bulma.io/documentation/components/panel/ @221,4672,145,20
+h3 How to support Bulma @17,4704,694,19
+row @17,4735,694,90
+  col @17,4735,124,90
+    text One-time donation @17,4735,124,20
+    field submit @17,4767,124,58
+  col @153,4754,197,52
+    text Browser testing via @153,4754,197,20
+    link https://www.lambdatest.com/ https://www.lambdatest.com/ @153,4786,197,20
+  col @362,4754,121,52
+    text Visit our Sponsors @362,4754,121,20
+    link celebian https://celebian.com/ @362,4786,121,20
+  col @495,4754,124,52
+    text Monthly donation @495,4754,124,20
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/ @495,4786,124,20
+link ".native-js { background: linear-gradient(-30deg, #FFFFFFE5, #FFFFFFE5 45%, #FFFFFF 45%) #fff; } .native-details { color: #000E9C !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #FFFFFF; background-color: #000E9C; } .native-cta:hover { color: undefined; background-color: undefined; } OVHcloud In Minuten bereit, mit 99,95 % SLA. Konfigurieren Sie Ihren Advance-Cluster. Jetzt entdecken" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQMCAYI5Z3JCAAI627ICEAI42JKCVYDCKQMCW7D4K3UCESDT2QEC6ADTZ3JCAAI623UCVBDTK3K2JWNABY @17,4837,694,102
+row @17,4951,694,51
+  col @17,4951,195,51
+    h3 Bulma by Jeremy Thomas. @17,4951,195,18
+    link "Follow @jgthms" https://twitter.com/jgthms @17,4981,195,21
+  col @224,4967,155,18
+    h3 Contribute on GitHub @224,4967,155,18
+  col @391,4951,161,51
+    h3 Share on social media @391,4951,161,18
+    row @391,4981,161,21
+      link Twitter https://twitter.com/share @391,4981,47,21
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io @450,4981,66,21
+text Source code licensed . Website content licensed @17,5014,694,20
+row @17,5046,694,20
+  link MIT https://opensource.org/licenses/mit-license.php @17,5046,26,20
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/ @55,5046,122,20
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer @17,5078,694,163
+!overflow button 46/73px
+!overflow light 44/104px
+!overflow dark 44/102px
+!overflow system 44/121px
+!overflow button3 51/73px
+!tiny search 22x37px

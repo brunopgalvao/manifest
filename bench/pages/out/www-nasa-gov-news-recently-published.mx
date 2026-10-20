@@ -1,0 +1,269 @@
+@www_nasa_gov_news_recently_published
+row
+  row
+    button Explore
+    row
+      text Search
+      field Search search
+  link "https://www.nasa.gov/" https://www.nasa.gov/
+  row
+    button "News & Events"
+    button Multimedia
+    link NASA+ https://plus.nasa.gov/
+row
+  link "News Releases" https://www.nasa.gov/2026-news-releases/
+  link "Recently Published" https://www.nasa.gov/news/recently-published/
+  link Blogs https://www.nasa.gov/nasa-blogs/
+  link Newsletters https://www.nasa.gov/newsletters/
+  button "Social Media"
+  link "Budgets and Reports" https://www.nasa.gov/budgets-plans-and-reports/
+  button More
+h2 Recently Published
+text Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.
+row
+  link "https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/" https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/
+  col
+    link "APOD: 2026 October 20 – An Anticrepuscular Rainbow Fan" https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/
+    text 1 min read
+    text APOD Science APOD APOD: 2026 October 20 – An… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating…
+    text Image Article
+row
+  link "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/" https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/
+  col
+    link "The Human Fingerprint on Earth’s Water Cycle" https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/
+    text 6 min read
+    text Human activities have become intertwined with how water is distributed across the continents. A new study brings their effects into sharper focus.
+    text October 20, 2026
+    text Article
+row
+  link "https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/" https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/
+  col
+    link "Curiosity Blog, Sols 5036-5042: Watching the Clouds Go By" https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/
+    text 3 min read
+    text Written by Alex Innanen, Atmospheric Scientist at York University Earth planning date: Friday, Oct. 9, 2026 Happy New Mars Year! We mark the start of a new year on Mars at the beginning of the northern hemisphere spring, or the…
+    text October 19, 2026
+    text Article
+row
+  link "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/" https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/
+  col
+    link "NASA Improves Shock, Vibration Analysis" https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/
+    text 4 min read
+    text Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces. Before any rocket leaves the ground, NASA engineers work to predict how those stresses will affect every part…
+    text October 19, 2026
+    text Article
+row
+  link "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/" https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/
+  col
+    link Software https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/
+    text 5 min read
+    text Research teams at NASA’s Glenn Research Center are involved in developing theory and software to predict the noise from aircraft engines. This software helps engineers to design and analyze new and improved aircraft propulsion systems. Copies of our software can…
+    text October 19, 2026
+    text Article
+row
+  link "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities/" https://www.nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities/
+  col
+    link "Experimental Facilities" https://www.nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities/
+    text 8 min read
+    text Research teams at the NASA Glenn Research Center perform experiments in world-class facilities such as the 9- by 15-Foot Low-Speed Wind Tunnel (9 x15 LSWT), the Aero-Acoustic Propulsion Laboratory (AAPL), the Small Hot Jet Acoustic Rig (SHJAR), the Nozzle Acoustic…
+    text October 19, 2026
+    text Article
+row
+  link "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/" https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/
+  col
+    link "NASA’s Simulated Mars Crew Marks One Year Inside Habitat" https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/
+    text 3 min read
+    text The four crew members in NASA’s simulated Mars mission have spent the past year living and working in isolation in a confined habitat at NASA’s Johnson Space Center in Houston.
+    text October 19, 2026
+    text Article
+row
+  link "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-instrumentation/" https://www.nasa.gov/centers-and-facilities/glenn/acoustics-instrumentation/
+  col
+    link Instrumentation https://www.nasa.gov/centers-and-facilities/glenn/acoustics-instrumentation/
+    text 3 min read
+    text To measure airflow and sound, research teams at the NASA Glenn Research Center use special instrumentation like particle image velocimetry, hot wire anemometry, Raman spectroscopy, microphones in phased arrays or continuously rotating rakes. The global aviation noise reduction community relies…
+    text October 19, 2026
+    text Article
+row
+  link "https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/" https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/
+  col
+    link "Spacewalk Preps and Advanced Biomedical Research Begin Week" https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/
+    text 3 min read
+    text Spacewalk preparations kicked off the week aboard the International Space Station as two astronauts get ready to install a roll-out solar array at the end of October. Biomedical research, including portable biological sampling in microgravity and 3D cell printing, topped…
+    text Blog
+row
+  link "https://www.nasa.gov/image-article/martian-dawn/" https://www.nasa.gov/image-article/martian-dawn/
+  col
+    link "Martian Dawn" https://www.nasa.gov/image-article/martian-dawn/
+    text 1 min read
+    text NASA’s Curiosity captures the dawn on Mars – as well as elongated ridges formed by wind erosion, or yardangs – in this close-up from a panorama released on Oct. 6, 2026. This is the most detailed view yet of distant,…
+    text Image Article
+row
+  link "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/" https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/
+  col
+    link "APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source" https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/
+    text 1 min read
+    text APOD Science APOD APOD: 2026 October 19 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe…
+    text Image Article
+row
+  link "https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/" https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/
+  col
+    link "Autumn Paints Poland’s Bieszczady Mountains" https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/
+    text 3 min read
+    text Fall color covers the forested slopes of Bieszczady National Park, while patches of polonina, a type of high-mountain meadow, have turned tan.
+    text October 19, 2026
+    text Article
+row
+  link "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/" https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/
+  col
+    link "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars" https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/
+    text 1 min read
+    text APOD Science APOD APOD: 2026 October 18 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe…
+    text Image Article
+row
+  link "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/" https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/
+  col
+    link "APOD: 2026 October 17 – 3D 67P" https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/
+    text 1 min read
+    text APOD Science APOD APOD: 2026 October 17… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is…
+    text Image Article
+row
+  link "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/" https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/
+  col
+    link "NASA Names Stephen Cash Marshall Space Flight Center Director" https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/
+    text 4 min read
+    text NASA Administrator Jared Isaacman has named Stephen Cash director of the agency’s Marshall Space Flight Center in Huntsville, Alabama, effective Monday, Oct. 19. Cash, a veteran NASA engineer and aerospace executive, returns to lead the center where he began his…
+    text News Release
+row
+  link "https://www.nasa.gov/blogs/spacestation/2026/10/16/crew-unpacks-dragon-and-begins-activating-new-science-experiments/" https://www.nasa.gov/blogs/spacestation/2026/10/16/crew-unpacks-dragon-and-begins-activating-new-science-experiments/
+  col
+    link "Crew Unpacks Dragon and Begins Activating New Science Experiments" https://www.nasa.gov/blogs/spacestation/2026/10/16/crew-unpacks-dragon-and-begins-activating-new-science-experiments/
+    text 3 min read
+    text Five spacecraft are docked at the International Space Station following the arrival of a cargo-packed SpaceX Dragon on Thursday. The Expedition 75 crew members have begun unloading Dragon and are activating new science experiments to benefit life on and off…
+    text Blog
+row
+  link "https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/" https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/
+  col
+    link "Diving into Maintenance with NASA’s X-59" https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/
+    text 4 min read
+    text In the California desert, as NASA’s quiet supersonic X-59 paused between its 11th and 12th flights, mechanic Jonathan Reynaga climbed a ladder to the top of the aircraft. Reynaga strode down the plane’s wing until he reached the distinctive air…
+    text Blog
+row
+  link "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/" https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/
+  col
+    link "Artemis II Heat Shield After Splashdown" https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/
+    text 1 min read
+    text Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield. In the months after, the agency measured whether the thermal protection system effectively safeguarded the crew…
+    text Image Article
+row
+  link "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/" https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/
+  col
+    link "I Am Artemis: Allison Mjoen" https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/
+    text 3 min read
+    text As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agency’s Exploration Ground Systems Program,…
+    text October 16, 2026
+    text Article
+row
+  link "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/reflections-after-artemis-ii/" https://www.nasa.gov/podcasts/houston-we-have-a-podcast/reflections-after-artemis-ii/
+  col
+    link "Reflections After Artemis II" https://www.nasa.gov/podcasts/houston-we-have-a-podcast/reflections-after-artemis-ii/
+    text 61 min read
+    text Artemis II astronauts Victor Glover and Jeremy Hansen reflect on memorable mission moments, new perspectives, and what comes next after their historic journey around the Moon. Episode 441.
+row
+  link "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/" https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/
+  col
+    link "NASA’s Hubble Spies Spiral’s Edge" https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/
+    text 2 min read
+    text This NASA Hubble Space Telescope image features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove.
+    text October 16, 2026
+    text Article
+row
+  link "https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/" https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/
+  col
+    link "APOD: 2026 October 16 – Chasing the International Space Station" https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/
+    text 1 min read
+    text APOD Science APOD APOD: 2026 October 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe…
+    text Image Article
+row
+  link "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/" https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/
+  col
+    link "Isaias Dims the Gulf Coast" https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/
+    text 4 min read
+    text High-definition images of nighttime lights show where the hurricane knocked out power along the Florida Panhandle and how quickly the lights came back.
+    text October 16, 2026
+    text Article
+row
+  link "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/" https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/
+  col
+    link "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission" https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/
+    text 4 min read
+    text NASA is playing an important role in JAXA’s (Japan Aerospace Exploration Agency) MMX (Martian Moons eXploration) mission, to advance our understanding of Mars’ moons and build on the agency’s long history of exploring the Red Planet. The mission aims to…
+    text October 15, 2026
+    text Article
+row
+  link "https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/" https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/
+  col
+    link "NASA Satellites Observe Historic 2026 El Niño" https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/
+    text 6 min read
+    text A phenomenon rarer than a solar eclipse and more powerful than any single storm system is unfolding this fall, and NASA is tracking it closely. El Niño is a natural climate pattern that emerges roughly every two to seven years…
+    text October 15, 2026
+    text Article
+row
+  text Current Page, Page 1
+  link "Goto Page 2" #
+  link "Goto Page 3" #
+  text …
+  link "Goto Page 4059" #
+  link "Goto Next Page" #
+image https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg "NASA Logo"
+row
+  col
+    h3 National Aeronautics and Space Administration
+    text NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.
+    link "About NASA's Mission" https://www.nasa.gov/about/
+    link "Join Us" https://www.nasa.gov/get-involved/
+  col
+    link Home https://www.nasa.gov/
+    link "News & Events" https://www.nasa.gov/news/
+    link Multimedia https://www.nasa.gov/multimedia/
+    link NASA+ https://plus.nasa.gov/
+    link Missions https://www.nasa.gov/nasa-missions/
+    link "Humans in Space" https://www.nasa.gov/humans-in-space/
+    link Earth https://science.nasa.gov/earth/
+    link "The Solar System" https://science.nasa.gov/solar-system/
+    link "The Universe" https://science.nasa.gov/universe/
+    link Science https://science.nasa.gov/
+    link Aeronautics https://www.nasa.gov/aeronautics/
+    link Technology https://www.nasa.gov/technology/
+    link "Learning Resources" https://www.nasa.gov/learning-resources/
+    link "About NASA" https://www.nasa.gov/about/
+    link "NASA en Español (opens in new tab)" https://www.nasa.gov/es/
+  col
+    h3 Follow NASA
+    row
+      link "NASA on Facebook (opens in new tab)" https://www.facebook.com/NASA
+      link "NASA on Instagram (opens in new tab)" https://www.instagram.com/nasa/
+      link "NASA on X (opens in new tab)" https://x.com/NASA
+      link "NASA on YouTube (opens in new tab)" https://www.youtube.com/@NASA
+    link "More NASA Social Accounts" https://www.nasa.gov/social-media/
+    link "NASA Newsletters" https://www.nasa.gov/nasa-newsletters/
+  col
+    link Sitemap https://www.nasa.gov/sitemap/
+    link "For Media" https://www.nasa.gov/news/nasa-media-contacts/
+    link "Privacy Policy" https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/
+    link FOIA https://www.nasa.gov/foia/
+    link "No FEAR Act" https://www.nasa.gov/no-fear-act/
+    link "Office of the IG (opens in new tab)" http://oig.nasa.gov/
+    link "Budget & Annual Reports" https://www.nasa.gov/budgets-plans-and-reports/
+    link "Agency Financial Reports" https://www.nasa.gov/organizations/budget-annual-reports/agency-financial-reports/
+    link "Contact NASA" https://www.nasa.gov/contact-nasa/
+    link Accessibility https://www.nasa.gov/accessibility/
+  row
+    row
+      text Page Last Updated:
+      text Jun 17, 2025
+    row
+      text Page Editor:
+      text Dacia Massengill
+    row
+      text Responsible NASA Official:
+      text Abigail Bowman

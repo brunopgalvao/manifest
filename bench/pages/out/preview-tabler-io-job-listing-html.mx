@@ -51,19 +51,9 @@ row
           h3 Lead Tailwind Developer
           row
             row
-              region 16x16
-                path "M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" fill:none stroke:#737373 width:1.5
-                path "M13 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 11l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 15l0 .01" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M15 21h-9a3 3 0 0 1 -3 -3v-1h10v2a2 2 0 0 0 4 0v-14a2 2 0 1 1 2 2h-2m2 -4h-11a3 3 0 0 0 -3 3v11" fill:none stroke:#737373 width:1.5
-                path "M9 7l4 0" fill:none stroke:#737373 width:1.5
-                path "M9 11l4 0" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" fill:none stroke:#737373 width:1.5
-                path "M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" fill:none stroke:#737373 width:1.5
+              text CMS Max
+              text Full-time
+              text Remote / USA
             row
               link PHP #
               link Laravel #
@@ -79,19 +69,9 @@ row
             text $140,000 - $180,000 success
           row
             row
-              region 16x16
-                path "M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" fill:none stroke:#737373 width:1.5
-                path "M13 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 11l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 15l0 .01" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M15 21h-9a3 3 0 0 1 -3 -3v-1h10v2a2 2 0 0 0 4 0v-14a2 2 0 1 1 2 2h-2m2 -4h-11a3 3 0 0 0 -3 3v11" fill:none stroke:#737373 width:1.5
-                path "M9 7l4 0" fill:none stroke:#737373 width:1.5
-                path "M9 11l4 0" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" fill:none stroke:#737373 width:1.5
-                path "M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" fill:none stroke:#737373 width:1.5
+              text Center Pixel, Inc
+              text Full-time or Contract
+              text Remote / Palo Alto, CA
             row
               link HTML #
               link CSS #
@@ -105,19 +85,9 @@ row
           h3 Principal Web Application Developer
           row
             row
-              region 16x16
-                path "M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" fill:none stroke:#737373 width:1.5
-                path "M13 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 11l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 15l0 .01" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M15 21h-9a3 3 0 0 1 -3 -3v-1h10v2a2 2 0 0 0 4 0v-14a2 2 0 1 1 2 2h-2m2 -4h-11a3 3 0 0 0 -3 3v11" fill:none stroke:#737373 width:1.5
-                path "M9 7l4 0" fill:none stroke:#737373 width:1.5
-                path "M9 11l4 0" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" fill:none stroke:#737373 width:1.5
-                path "M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" fill:none stroke:#737373 width:1.5
+              text Chicago Botanic Garden
+              text Full-time
+              text Hybrid / Chicago Botanic Garden
             row
               link HTML #
               link PHP #
@@ -130,19 +100,9 @@ row
           h3 Front-End Developer
           row
             row
-              region 16x16
-                path "M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" fill:none stroke:#737373 width:1.5
-                path "M13 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 11l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 15l0 .01" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M15 21h-9a3 3 0 0 1 -3 -3v-1h10v2a2 2 0 0 0 4 0v-14a2 2 0 1 1 2 2h-2m2 -4h-11a3 3 0 0 0 -3 3v11" fill:none stroke:#737373 width:1.5
-                path "M9 7l4 0" fill:none stroke:#737373 width:1.5
-                path "M9 11l4 0" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" fill:none stroke:#737373 width:1.5
-                path "M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" fill:none stroke:#737373 width:1.5
+              text Simple Focus
+              text Full-time
+              text Remote / USA
             row
               link HTML #
               link PHP #
@@ -156,19 +116,9 @@ row
           h3 Senior Front-End Engineer
           row
             row
-              region 16x16
-                path "M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" fill:none stroke:#737373 width:1.5
-                path "M13 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 11l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 15l0 .01" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M15 21h-9a3 3 0 0 1 -3 -3v-1h10v2a2 2 0 0 0 4 0v-14a2 2 0 1 1 2 2h-2m2 -4h-11a3 3 0 0 0 -3 3v11" fill:none stroke:#737373 width:1.5
-                path "M9 7l4 0" fill:none stroke:#737373 width:1.5
-                path "M9 11l4 0" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" fill:none stroke:#737373 width:1.5
-                path "M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" fill:none stroke:#737373 width:1.5
+              text Infinia ML
+              text Full-time
+              text Durham, NC
             row
               link HTML #
               link PHP #
@@ -182,19 +132,9 @@ row
           h3 Senior Web Developer, Open Source
           row
             row
-              region 16x16
-                path "M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" fill:none stroke:#737373 width:1.5
-                path "M13 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 11l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 15l0 .01" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M15 21h-9a3 3 0 0 1 -3 -3v-1h10v2a2 2 0 0 0 4 0v-14a2 2 0 1 1 2 2h-2m2 -4h-11a3 3 0 0 0 -3 3v11" fill:none stroke:#737373 width:1.5
-                path "M9 7l4 0" fill:none stroke:#737373 width:1.5
-                path "M9 11l4 0" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" fill:none stroke:#737373 width:1.5
-                path "M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" fill:none stroke:#737373 width:1.5
+              text Crowd Favorite
+              text Full-time
+              text Remote / USA
             row
               link HTML #
               link JavaScript #
@@ -210,19 +150,9 @@ row
             text $95,000 – $145,000 USD success
           row
             row
-              region 16x16
-                path "M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" fill:none stroke:#737373 width:1.5
-                path "M13 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 11l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 15l0 .01" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M15 21h-9a3 3 0 0 1 -3 -3v-1h10v2a2 2 0 0 0 4 0v-14a2 2 0 1 1 2 2h-2m2 -4h-11a3 3 0 0 0 -3 3v11" fill:none stroke:#737373 width:1.5
-                path "M9 7l4 0" fill:none stroke:#737373 width:1.5
-                path "M9 11l4 0" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" fill:none stroke:#737373 width:1.5
-                path "M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" fill:none stroke:#737373 width:1.5
+              text Spear AI
+              text Full-time
+              text Washington D.C.
             row
               link HTML #
               link JavaScript #
@@ -236,19 +166,9 @@ row
           h3 Web Developer
           row
             row
-              region 16x16
-                path "M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" fill:none stroke:#737373 width:1.5
-                path "M13 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 11l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 15l0 .01" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M15 21h-9a3 3 0 0 1 -3 -3v-1h10v2a2 2 0 0 0 4 0v-14a2 2 0 1 1 2 2h-2m2 -4h-11a3 3 0 0 0 -3 3v11" fill:none stroke:#737373 width:1.5
-                path "M9 7l4 0" fill:none stroke:#737373 width:1.5
-                path "M9 11l4 0" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" fill:none stroke:#737373 width:1.5
-                path "M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" fill:none stroke:#737373 width:1.5
+              text Third Time Games
+              text Full-time
+              text Remote / North America
             row
               link PHP #
               link Laravel #
@@ -262,19 +182,9 @@ row
           h3 Laravel Developer
           row
             row
-              region 16x16
-                path "M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" fill:none stroke:#737373 width:1.5
-                path "M13 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 7l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 11l0 .01" fill:none stroke:#737373 width:1.5
-                path "M17 15l0 .01" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M15 21h-9a3 3 0 0 1 -3 -3v-1h10v2a2 2 0 0 0 4 0v-14a2 2 0 1 1 2 2h-2m2 -4h-11a3 3 0 0 0 -3 3v11" fill:none stroke:#737373 width:1.5
-                path "M9 7l4 0" fill:none stroke:#737373 width:1.5
-                path "M9 11l4 0" fill:none stroke:#737373 width:1.5
-              region 16x16
-                path "M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" fill:none stroke:#737373 width:1.5
-                path "M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" fill:none stroke:#737373 width:1.5
+              text Mindsize
+              text Full-time
+              text Remote / USA
             row
               link PHP #
               link Laravel #
@@ -285,6 +195,7 @@ row
     link "Source code" https://github.com/tabler/tabler
     link Sponsor https://github.com/sponsors/codecalm
   row
+    text Copyright © 2026 . All rights reserved.
     link Tabler .
     link v1.6.1 ./changelog.html
 button Customize primary

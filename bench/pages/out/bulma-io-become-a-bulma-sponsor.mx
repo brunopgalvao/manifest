@@ -1,0 +1,108 @@
+@bulma_io_become_a_bulma_sponsor
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/
+row
+  link "https://bulma.io/" https://bulma.io/
+  row
+    link "Docs Documentation" https://bulma.io/documentation/
+    link Expo https://bulma.io/expo/
+    link Love https://bulma.io/love/
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/
+    row
+      link "Open Source on GitHub" https://github.com/jgthms/bulma
+      link "Follow me on Twitter" https://twitter.com/jgthms
+      button button
+      col
+        link "Made with Bulma" https://bulma.io/made-with-bulma/
+        link Backers https://bulma.io/backers/
+        link "Bulma Brand" https://bulma.io/brand/
+        link "Bulma Extensions" https://bulma.io/extensions/
+  col
+    button button
+    card
+      button "Light mode"
+      button "Dark mode"
+      button "System mode" success
+  col
+    button button
+    card
+      field "search input"
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip
+h1 Become a Bulma Sponsor
+h2 Help the development of Open Source.
+card
+  link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IL2JKC6SDL2JLCVADCKJUCESDT277F6BI52QLHEYI55QLCESI623ECTNCYBZ52K" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IL2JKC6SDL2JLCVADCKJUCESDT277F6BI52QLHEYI55QLCESI623ECTNCYBZ52K
+  link "Learn AWS from the people who built it. Start learning." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IL2JKC6SDL2JLCVADCKJUCESDT277F6BI52QLHEYI55QLCESI623ECTNCYBZ52K
+link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+row
+  col
+    link "https://www.patreon.com/jgthms" https://www.patreon.com/jgthms
+    link "Become a Patron" https://www.patreon.com/jgthms
+  col
+    link github https://github.com/jgthms/bulma
+    link "Sponsor on GitHub" https://github.com/jgthms/bulma
+row
+  text $1
+  text a month
+  text Thank you for supporting Bulma and open source!
+row
+  text $10
+  text a month
+  text Your name will be put on the Bulma website’s backers page, and in backers.md in the Bulma repository.
+row
+  text $30
+  text a month
+  text Your name will be put at the top of the Bulma website’s backers page, and at the top of backers.md in the Bulma repository.
+row
+  text $100
+  text a month
+  text Your name or company logo will appear on the Bulma homepage.
+row
+  text $200
+  text a month
+  text Two of your names or company logos will appear on the Bulma homepage.
+row
+  text $300
+  text a month
+  text Your name or company logo will appear on the Bulma homepage and in the footer of each page of the website.
+row
+  text $500
+  text a month
+  text Your name or company logo will appear on the Bulma documentation sidebar.
+row
+  text What is the difference between Patreon and Github?
+  col
+    text There is no difference in terms of rewards.
+    text The main difference is that Patreon charges VAT based on your location.
+    text If you already have a GitHub account, your sponsorship will be billed at the same time as your GitHub subscription.
+    text In any case, choose the easiest option for you.
+h3 How to support Bulma
+row
+  col
+    text One-time donation
+    field submit
+  col
+    text Browser testing via
+    link "https://www.lambdatest.com/" https://www.lambdatest.com/
+  col
+    text Visit our Sponsors
+    link celebian https://celebian.com/
+  col
+    text Monthly donation
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
+link ".native-js { background: linear-gradient(-30deg, #000000E5, #000000E5 45%, #000000 45%) #fff; } .native-details { color: #FFFFFF !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #000000; background-color: #FFFFFF; } .native-cta:hover { color: undefined; background-color: undefined; } Mozilla Festival Gather. Share. Connect. Imagine with developers and creatives in Barcelona, Oct. 28-30. Get your tickets" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQWCV7DVZ3JCAAI653NF6YDEKQKCASDCKJJCEYI52QNCTSDCKQUCESI4K3KC6SILKJWCA7DVK3EHJNCLSIZ
+row
+  col
+    h3 Bulma by Jeremy Thomas.
+    link "Follow @jgthms" https://twitter.com/jgthms
+  col
+    h3 Contribute on GitHub
+  col
+    h3 Share on social media
+    row
+      link Twitter https://twitter.com/share
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+text Source code licensed . Website content licensed
+row
+  link MIT https://opensource.org/licenses/mit-license.php
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer

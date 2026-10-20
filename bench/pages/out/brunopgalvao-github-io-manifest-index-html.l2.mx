@@ -1,0 +1,78 @@
+@brunopgalvao_github_io_manifest_index_ht rev=0 @0,0,728,2360
+row @17,17,694,20
+  link Manifest index.html @17,17,58,20
+  link Playground playground.html @87,17,76,20
+  link Overview overview.html @175,17,63,20
+  link Spec spec.html @250,17,34,20
+  link Benchmark results.html @296,17,75,20
+  link "A2UI proposal" a2ui-extension.html @383,17,95,20
+  link GitHub https://github.com/brunopgalvao/manifest @490,17,46,20
+h1 Manifest @17,49,694,25
+text One tree that the model writes, the screen renders and the model reads back. @17,86,694,21
+text MX is a text format for anything on a screen. An agent writes it, patches it and observes it in the same syntax, with the engine's own layout boxes and diagnostics. One vocabulary of roles with a default look (button "Export CSV" disabled, metric Revenue $308k +14%), and any node may take a position, a size and paint children, so the same tree draws a funnel, a floor plan or a gauge down to the pixel while every painted thing keeps a label and a role. One engine, in Rust, lays out, paints, takes input and answers perception with no browser: a native window, headless, or WebAssembly in the browser. An importer turns rendered HTML into MX. @17,119,694,142
+text Site and playground: @17,273,694,20
+link https://brunopgalvao.github.io/manifest/ https://brunopgalvao.github.io/manifest/ @17,305,694,20
+text @dash h1 Revenue overview row metric Revenue $308k +14% metric Churn 2.1% +0.4pt danger bar "Monthly revenue (k$)" Apr:38 May:42 Jun:51 *Sep:73 region "Pipeline" 640x120 rect @0,0 560x48 fill:primary radius:6 "Leads 1,240" button "Export PNG" @520,80 100x32 rect @0,0 100x32 fill:primary radius:16 text @50,21 "Export PNG" fill:white anchor:middle toggle Live on @20,80 @17,337,694,82
+h2 Measured @17,431,694,21
+text Counted with Claude's tokenizer; read back by fresh Haiku readers that saw only the text. Tables and method in . @17,464,694,40
+link bench/results.md results.html @17,516,694,21
+table Col MX "next best" HTML @17,549,694,241
+  Six everyday visuals, tokens to create | 788 | 1,762 (A2UI Atom) | 4,521
+  Sixteen edits | 238 | 622 (find and replace) | 12,506 (regenerate)
+  Read back, level 1 | 876 tokens, 30 of 30 questions | 1,544, 27 of 30 (cropped screenshots) | 1,415, 22 of 30 (accessibility tree)
+  Six paint-heavy visuals | 2,661 | 6,104 (HTML + SVG + ARIA) | 6,685 (A2UI, paint catalog)
+  A page imported from HTML | 1,158 | 1,463 (accessibility snapshot) | 4,569
+  A hundred real pages imported | 736,715 |  | 6,510,211 (8.8×)
+text Fidelity: a screenshot comes back pixel for pixel; a photo under positioned, labelled nodes comes back with 0 differing pixels and those nodes take input; a figure drawn by another rasterizer, rebuilt from primitives, differs on 0.62% of pixels at anti-aliased edges. The engine reproduces Chromium's layout of the same stylesheet within 2 px on every box. @17,802,694,81
+h2 Layout @17,895,694,21
+table Path What @17,928,694,383
+  spec/mx.md | The format: nodes, ids, geometry, buffers, lifecycle, patches, events, perception, transport
+  spec/cheatsheet.md | The one-page version the MCP server sends as its instructions
+  engine/mx | The core: parser, ids, patches, diff, perception
+  engine/render | Layout (taffy), paint (tiny-skia, Inter bundled), spaces and primitives, the host with lifecycle and input, screen composition; builds to WebAssembly with a plain C ABI
+  engine/mcp | manifest-mcp: the MCP server over stdio with a native window (winit) or --headless
+  web/ | manifest.js, the JavaScript glue for the wasm build (browser and Node), the playground, the site build
+  import/ | The HTML importer and its scorer
+  bench/ | The corpus in every format, token accounting, reader accuracy, fidelity references, import scores, the report
+  bench/pages/ | A hundred real pages imported into MX: the URL list with licences, the MX files, the index and the report
+  docs/ | The overview and the A2UI v1.0 extension proposal
+h2 Use it from an agent @17,1323,694,21
+text cd engine && cargo build --release ./target/release/manifest-mcp # MCP over stdio; a window shows the surfaces ./target/release/manifest-mcp --headless # no window: layout, perception and look still work @17,1356,694,61
+text .mcp.json registers it for Claude Code when you run Claude Code from this directory. For any other MCP client: @17,1429,694,40
+text { "mcpServers": { "manifest": { "command": "/path/to/manifest/engine/target/release/manifest-mcp" } } } @17,1481,694,41
+text Tools: manifest.render, patch, observe (levels 0 to 3, since=, focus=, wait=), look (a PNG of one node), dissolve. Every result starts with the user events since the last call. The agent gets the cheat sheet as the server's instructions and the spec as the resource manifest://spec. @17,1534,694,61
+h2 The engine on the command line and in the browser @17,1607,694,21
+text ./target/release/mxr render ../bench/corpus/dash.mx dash.png # paint (add --dark for the dark palette) ./target/release/mxr observe ../bench/corpus/funnel.mx 3 # perception from the engine's own layout ./target/release/mxr boxes ../bench/corpus/dash.mx # boxes and diagnostics as JSON cargo test --release # parity, host, stdio, paint, fidelity cargo build --release --target wasm32-unknown-unknown -p mx-render # the engine for the browser cd ../web && npm install && node build.mjs # the site, playground included, into web/dist @17,1640,694,122
+text From JavaScript, in a page or in Node: @17,1774,694,20
+text import { loadManifest } from "./manifest.js"; const m = await loadManifest("mx_render.wasm"); m.render(mx); m.observe("dash", 2); m.compose(w, h, devicePixelRatio); m.click("dash", x, y); @17,1806,694,41
+h2 Import a page @17,1859,694,21
+text cd import && npm install node src/import.ts ../bench/corpus/dash.html --id dash # MX on stdout node src/score.ts imported.mx reference.mx import.json # recall, text runs, round trip node src/batch.ts ../bench/pages/urls.txt ../bench/pages/out # the dataset: a page record per URL @17,1892,694,61
+h2 Documents @17,1965,694,21
+text : what Manifest is, how it works, what it costs, where it sits, limits. @17,1998,694,21
+link docs/overview.md overview.html @17,2031,694,20
+text : proposal for A2UI v1.0: perception, lifecycle, revisions, MX as an inference format. @17,2063,694,20
+link docs/a2ui-extension.md a2ui-extension.html @17,2095,694,21
+text : the benchmark report. @17,2128,694,20
+link bench/results.md results.html @17,2160,694,20
+text HANDOFF.md: state of the project and next steps. @17,2192,694,20
+h2 License @17,2224,694,22
+text Apache-2.0. See LICENSE. @17,2258,694,20
+text Manifest is Apache-2.0. @17,2290,694,20
+link "Source, issues and discussion on GitHub." https://github.com/brunopgalvao/manifest @17,2322,694,21
+!overflow table.Six everyday visuals, tokens to create.Col 174/267px
+!overflow table.Read back, level 1.MX 173/223px
+!overflow table.Read back, level 1.next best 174/271px
+!overflow table.Read back, level 1.HTML 173/239px
+!overflow table.Six paint-heavy visuals.next best 174/202px
+!overflow table.Six paint-heavy visuals.HTML 173/195px
+!overflow table.A page imported from HTML.Col 174/205px
+!overflow table.A page imported from HTML.next best 174/213px
+!overflow table.A hundred real pages imported.Col 174/222px
+!overflow table2.spec/mx.md.What 347/617px
+!overflow table2.spec/cheatsheet.md.What 347/433px
+!overflow table2.engine/render.What 347/1106px
+!overflow table2.engine/mcp.What 347/571px
+!overflow table2.web/.What 347/688px
+!overflow table2.bench/.What 347/736px
+!overflow table2.bench/pages/.What 347/703px
+!overflow table2.docs/.What 347/357px

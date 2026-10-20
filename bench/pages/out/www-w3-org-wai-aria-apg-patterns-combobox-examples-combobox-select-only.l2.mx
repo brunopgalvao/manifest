@@ -1,0 +1,190 @@
+@www_w3_org_wai_aria_apg_patterns_combobo rev=0 @0,0,728,4643
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+row @17,102,694,3889
+  col @17,1734,57,625
+    h2 Page Contents @17,1734,57,42
+    link "Read This First" #support-notice-header @17,1788,57,61
+    link "About This Example" #aboutthisexample @17,1861,57,61
+    link Example #ex_label @17,1934,57,20
+    link "Accessibility Features" #accessibilityfeatures @17,1966,57,41
+    link "Keyboard Support" #kbd_label @17,2019,57,41
+    link "Role, Property, State, and Tabindex Attributes" #rps_label @17,2072,57,121
+    link "JavaScript and CSS Source Code" #javascriptandcsssourcecode @17,2205,57,82
+    link "HTML Source Code" #sc1_label @17,2299,57,60
+  col @86,102,625,3889
+    h1 Select-Only Combobox Example @86,102,625,25
+    h2 Read This First @86,139,625,21
+    card @86,172,625,71
+      text The code in this example is not intended for production environments. Before using it for any purpose, read this to understand why. warning @103,187,591,41
+    h2 About This Example @86,255,625,21
+    text The following example implementation of the demonstrates a single-select combobox widget that is functionally similar to an HTML element. Unlike the editable combobox examples, this select-only combobox is not made with an element, and it does not accept freeform user input. However, like an HTML , users can type characters to select matching options. @86,288,625,81
+    link "Combobox Pattern" ../../ @86,381,625,21
+    text select primary @86,414,625,20
+    text <input> primary @86,446,625,20
+    text <select> primary @86,478,625,20
+    text Similar examples include: @86,510,625,21
+    text : An editable combobox that demonstrates the autocomplete behavior known as . @86,543,625,20
+    link "Editable Combobox with Both List and Inline Autocomplete" ../combobox-autocomplete-both/ @86,575,625,20
+    text list with inline autocomplete @86,607,625,21
+    text : An editable combobox that demonstrates the autocomplete behavior known as . @86,640,625,20
+    link "Editable Combobox with List Autocomplete" ../combobox-autocomplete-list/ @86,672,625,20
+    text list with manual selection @86,704,625,20
+    text : An editable combobox that demonstrates the behavior associated with . @86,736,625,21
+    link "Editable Combobox Without Autocomplete" ../combobox-autocomplete-none/ @86,769,625,20
+    text primary @86,801,625,20
+    text : An editable combobox that presents suggestions in a grid, enabling users to navigate descriptive information about each suggestion. @86,833,625,41
+    link "Editable Combobox with Grid Popup" ../grid-combo/ @86,886,625,20
+    text : An editable date input combobox that opens a dialog containing a calendar grid and buttons for navigating by month and year. @86,918,625,41
+    link "Date Picker Combobox" ../combobox-datepicker/ @86,971,625,20
+    h2 Example @86,1003,625,21
+    button "Open In CodePen" primary @86,1036,625,37
+    text Start of @86,1085,625,20
+    text Favorite Fruit @86,1117,625,20
+    text Favorite Fruit @86,1149,625,21
+    text End of @86,1182,625,20
+    h2 Accessibility Features @86,1214,625,21
+    text While the functionality and user experience of this example are nearly equivalent to an HTML select element with the attribute size="1", the following differences in behavior are implemented to improve both accessibility and general usability. @86,1247,625,61
+    text If the combobox is collapsed and the user types printable characters, the listbox is displayed and receives accessibility focus via aria-activedescendant. This enables users to perceive the presence of the options, and enables assistive technology users to comprehend the size of the list of options. @86,1320,625,81
+    text Navigating the list of options does not set the value of the input. This gives screen reader users, who need to navigate among the options to perceive them, the ability to explore options without losing the current value of the input. The value is set when users press , , or , or when focus moves out of the combobox. The current value is retained if the listbox is closed with or if the user collapses the list by clicking the input. @86,1413,625,102
+    text Space @86,1527,625,20
+    text Enter @86,1559,625,20
+    text Tab @86,1591,625,21
+    text Escape @86,1624,625,20
+    text Browsers do not manage visibility of elements referenced by aria-activedescendant like they do for elements with focus. When a keyboard event changes the active option in the listbox, the JavaScript scrolls the option referenced by aria-activedescendant into view. Managing aria-activedescendant visibility is essential to accessibility for people who use a browser's zoom feature to increase the size of content. @86,1656,625,102
+    h2 Keyboard Support @86,1770,625,21
+    text The example combobox on this page implements the following keyboard interface. Other variations and options for the keyboard interface are described in the @86,1803,625,40
+    link "Keyboard Interaction section of the combobox pattern." ../../#keyboard_interaction @86,1855,625,21
+    h3 Closed Combobox @86,1888,625,18
+    table Key Function @86,1918,625,312
+      Down Arrow | Opens the listbox if it is not already displayed without moving focus or changing selection. DOM focus remains on the combobox.
+      Alt + Down Arrow | Opens the listbox without moving focus or changing selection.
+      Up Arrow | First opens the listbox if it is not already displayed and then moves visual focus to the first option. DOM focus remains on the combobox.
+      Enter | Opens the listbox without moving focus or changing selection.
+      Space | Opens the listbox without moving focus or changing selection.
+      Home | Opens the listbox and moves visual focus to the first option.
+      End | Opens the listbox and moves visual focus to the last option.
+      Printable Characters | First opens the listbox if it is not already displayed and then moves visual focus to the first option that matches the typed character. If multiple keys are typed in quick succession, visual focus moves to the first option that matches the full string. If the same character is typed in succession, visual focus cycles among the options starting with that character.
+    h3 Listbox Popup @86,2242,625,19
+    text When visual focus is in the listbox, DOM focus remains on the combobox and the value of on the combobox is set to a value that refers to the listbox option that is visually indicated as focused. Where the following descriptions of keyboard commands mention focus, they are referring to the visual focus indicator. For more information about this focus management technique, see . @86,2273,625,101
+    text NOTE: @86,2386,625,21
+    text aria-activedescendant primary @86,2419,625,20
+    link "Managing Focus in Composites Using aria-activedescendant" ../../../../practices/keyboard-interface/#kbd_focus_activedescendant @86,2451,625,20
+    table Key Function @86,2483,625,453
+      Enter | Sets the value to the content of the focused option in the listbox. Closes the listbox. Sets visual focus on the combobox.
+      Space | Sets the value to the content of the focused option in the listbox. Closes the listbox. Sets visual focus on the combobox.
+      Tab | Sets the value to the content of the focused option in the listbox. Closes the listbox. Performs the default action, moving focus to the next focusable element. Note: the native <select> element closes the listbox but does not move focus on tab. This pattern matches the behavior of the other comboboxes rather than the native element in this case.
+      Escape | Closes the listbox. Sets visual focus on the combobox.
+      Down Arrow | Moves visual focus to the next option. If visual focus is on the last option, visual focus does not move.
+      Up Arrow | Moves visual focus to the previous option. If visual focus is on the first option, visual focus does not move.
+      Alt + Up Arrow | Sets the value to the content of the focused option in the listbox. Closes the listbox. Sets visual focus on the combobox.
+      Home | Moves visual focus to the first option.
+      End | Moves visual focus to the last option.
+      PageUp | Jumps visual focus up 10 options (or to first option).
+      PageDown | Jumps visual focus down 10 options (or to last option).
+      Printable Characters | First opens the listbox if it is not already displayed and then moves visual focus to the first option that matches the typed character. If multiple keys are typed in quick succession, visual focus moves to the first option that matches the full string. If the same character is typed in succession, visual focus cycles among the options starting with that character.
+    h2 Role, Property, State, and Tabindex Attributes @86,2948,625,22
+    text The example combobox on this page implements the following ARIA roles, states, and properties. Information about other ways of applying ARIA roles, states, and properties is available in the . @86,2982,625,61
+    link "Roles, States, and Properties section of the Combobox Pattern" ../../#roles_states_properties @86,3055,625,20
+    h3 Combobox @86,3087,625,19
+    table Role Attribute Element Usage @86,3118,625,241
+      combobox |  | div | Identifies the input as a combobox.
+       | aria-labelledby="#IDREF" | div | Identifies the element that labels the combobox.
+       | aria-controls="#IDREF" | div | Identifies the element that serves as the popup.
+       | aria-expanded="false" | div | Indicates that the popup element is not displayed.
+       | aria-expanded="true" | div | Indicates that the popup element is displayed.
+       | aria-activedescendant="IDREF" | div | When an option in the listbox is visually indicated as having keyboard focus, refers to that option. When navigation keys, such as Down Arrow, are pressed, the JavaScript changes the value. Enables assistive technologies to know which element the application regards as focused while DOM focus remains on the input element. For more information about this focus management technique, see Managing Focus in Composites Using aria-activedescendant.
+    h3 Listbox Popup @86,3371,625,19
+    table Role Attribute Element Usage @86,3402,625,135
+      listbox |  | div | Identifies the element as a listbox.
+      option |  | div | Identifies the element as a listbox option. The text content of the element provides the accessible name of the option.
+       | aria-selected="true" | li | Specified on an option in the listbox when it is visually highlighted as selected. Occurs only when an option in the list is referenced by aria-activedescendant.
+    h2 JavaScript and CSS Source Code @86,3549,625,21
+    text CSS: @86,3582,625,20
+    link select-only.css ../../../../../../content-assets/wai-aria-practices/patterns/combobox/examples/css/select-only.css @86,3614,625,21
+    text JavaScript: @86,3647,625,20
+    link select-only.js ../../../../../../content-assets/wai-aria-practices/patterns/combobox/examples/js/select-only.js @86,3679,625,20
+    h2 HTML Source Code @86,3711,625,22
+    text To copy the following HTML code, please open it in CodePen. @86,3745,625,20
+    button "Open In CodePen" primary @86,3777,625,36
+    text Start of @86,3825,625,20
+    text <div class="combo js-select"> <div id="combo1-label" class="combo-label"> Favorite Fruit </div> <div aria-controls="listbox1" aria-expanded="false" aria-haspopup="listbox" aria-labelledby="combo1-label" id="combo1" class="combo-input" role="combobox" tabindex="0"></div> <div class="combo-menu" role="listbox" id="listbox1" aria-labelledby="combo1-label" tabindex="-1"> </div> </div> @86,3857,625,102
+    text End of @86,3971,625,20
+row @17,4003,694,21
+  h2 Help improve this page @17,4003,192,21
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,4036,694,21
+link public-aria-practices@w3.org @17,4069,694,20
+row @17,4101,694,20
+  link E-mail @17,4101,42,20
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/combobox/examples/combobox-select-only.html @71,4101,142,20
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-select-only/ @225,4101,119,20
+link "Back to Top" #top @17,4133,694,21
+link "View issues related to this example" https://github.com/orgs/w3c/projects/118 @17,4166,694,20
+text Page last updated: 12 August 2025 @17,4198,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,4230,694,21
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,4263,694,20
+row @17,4295,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,4295,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,4295,57,20
+  link Mastodon https://w3c.social/@wai @218,4295,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,4295,61,20
+row @17,4327,694,41
+  link Home /WAI/ @17,4337,37,21
+  link Contact /WAI/about/contacting/ @66,4337,48,21
+  link "Site map" /WAI/sitemap/ @126,4327,54,41
+  link "Support WAI" /WAI/about/support/ @192,4327,78,41
+  link News /WAI/news/ @282,4337,36,21
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,4327,142,41
+  link "All Translations" /WAI/translations/ @484,4327,94,41
+  link "Resources for roles" /WAI/roles/ @590,4327,121,41
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,4380,694,20
+link "World Wide Web Consortium" https://www.w3.org/ @17,4412,694,20
+text W3C @17,4444,694,21
+text ® @17,4477,694,20
+link liability https://www.w3.org/policies/#disclaimers @17,4509,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,4541,694,21
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,4574,694,20
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,4606,694,20
+!overflow table.Down Arrow.Function 312/873px
+!overflow table.Alt + Down Arrow.Function 312/429px
+!overflow table.Up Arrow.Function 312/921px
+!overflow table.Enter.Function 312/429px
+!overflow table.Space.Function 312/429px
+!overflow table.Home.Function 312/413px
+!overflow table.End.Function 312/410px
+!overflow table.Printable Characters.Function 312/2370px
+!overflow table2.Enter.Function 312/809px
+!overflow table2.Space.Function 312/809px
+!overflow table2.Tab.Function 312/2307px
+!overflow table2.Escape.Function 312/378px
+!overflow table2.Down Arrow.Function 312/691px
+!overflow table2.Up Arrow.Function 312/722px
+!overflow table2.Alt + Up Arrow.Function 312/809px
+!overflow table2.PageUp.Function 312/361px
+!overflow table2.PageDown.Function 312/378px
+!overflow table2.Printable Characters.Function 312/2370px
+!overflow table3.combobox.Usage 156/249px
+!overflow table3..Attribute 157/186px
+!overflow table3..Usage 156/334px
+!overflow table3..Attribute 157/172px
+!overflow table3..Usage 156/331px
+!overflow table3..Attribute 157/167px
+!overflow table3..Usage 156/346px
+!overflow table3..Attribute 157/162px
+!overflow table3..Usage 156/320px
+!overflow table3..Attribute 157/227px
+!overflow table3..Usage 156/3043px
+!overflow table4.listbox.Usage 156/242px
+!overflow table4.option.Usage 156/792px
+!overflow table4..Usage 156/1055px

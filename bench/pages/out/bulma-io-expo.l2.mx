@@ -1,0 +1,237 @@
+@bulma_io_expo rev=0 @0,0,728,1242
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/ @17,17,694,20
+row @17,49,694,212
+  link https://bulma.io/ https://bulma.io/ @17,145,55,20
+  row @84,56,424,198
+    link "Docs Documentation" https://bulma.io/documentation/ @84,135,67,40
+    link Expo https://bulma.io/expo/ @163,145,16,20
+    link Love https://bulma.io/love/ @191,145,16,20
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/ @219,145,27,20
+    row @258,56,250,198
+      link "Open Source on GitHub" https://github.com/jgthms/bulma @258,114,63,82
+      link "Follow me on Twitter" https://twitter.com/jgthms @333,124,56,61
+      button button @401,137,48,36
+      col @461,56,47,198
+        link "Made with Bulma" https://bulma.io/made-with-bulma/ @461,56,47,61
+        link Backers https://bulma.io/backers/ @461,129,47,20
+        link "Bulma Brand" https://bulma.io/brand/ @461,161,47,41
+        link "Bulma Extensions" https://bulma.io/extensions/ @461,214,47,40
+  col @520,49,80,212
+    button button @520,49,80,37
+    card @520,98,80,163
+      button "Light mode" @537,113,46,36
+      button "Dark mode" @537,161,46,36
+      button "System mode" success @537,209,46,37
+  col @612,78,53,154
+    button button @612,78,53,37
+    card @612,127,53,105
+      field "search input" @629,142,19,75
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @677,145,34,20
+h1 Made with Bulma @17,273,694,25
+h2 Gorgeous websites built with Bulma. @17,310,694,21
+card @17,343,694,82
+  link https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTADEKJKC6YIK2QUFTYDC27MCK7D523ECKBDPK3UHEYI55QLCESI623ECTNCYBZ52K https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTADEKJKC6YIK2QUFTYDC27MCK7D523ECKBDPK3UHEYI55QLCESI623ECTNCYBZ52K @34,358,660,20
+  link "Solve problems faster with builders who've already shipped. Join builders." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTADEKJKC6YIK2QUFTYDC27MCK7D523ECKBDPK3UHEYI55QLCESI623ECTNCYBZ52K @34,390,660,20
+link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @17,437,694,21
+card @17,470,694,82
+  text Did you design a gorgeous website with Bulma too? Tell us about it! 🤗 primary @34,485,660,20
+  link #madewithbulma https://twitter.com/intent/tweet?text=Hereismylovelywebsite!&hashtags=madewithbulma @34,517,660,20
+row @17,564,694,64
+  col @17,586,0,21
+    h2 mullvad @17,586,0,21
+  col @29,586,0,21
+    h2 klevgrand @29,586,0,21
+  col @41,575,0,42
+    h2 Starbucks Concept @41,575,0,42
+  col @53,586,0,21
+    h2 signal @53,586,0,21
+  col @65,586,0,21
+    h2 tinystore @65,586,0,21
+  col @77,586,0,21
+    h2 searchcity @77,586,0,21
+  col @89,586,0,21
+    h2 Vinetos @89,586,0,21
+  col @101,575,0,42
+    h2 Infinity Search @101,575,0,42
+  col @113,586,0,21
+    h2 Pentos @113,586,0,21
+  col @125,575,0,42
+    h2 Vivo Hostel @125,575,0,42
+  col @137,586,0,21
+    h2 romes @137,586,0,21
+  col @149,586,0,21
+    h2 formalfounder @149,586,0,21
+  col @161,586,0,21
+    h2 klimchuk @161,586,0,21
+  col @173,586,0,21
+    h2 oneprofile @173,586,0,21
+  col @185,586,0,21
+    h2 pagespeed @185,586,0,21
+  col @197,586,0,21
+    h2 rydesignsstuff @197,586,0,21
+  col @209,586,0,21
+    h2 Divjoy @209,586,0,21
+  col @221,586,0,21
+    h2 Spike @221,586,0,21
+  col @233,586,0,21
+    h2 FTW @233,586,0,21
+  col @245,586,0,21
+    h2 Runlet @245,586,0,21
+  col @257,575,0,42
+    h2 Bulma Play @257,575,0,42
+  col @269,586,0,21
+    h2 FileGator @269,586,0,21
+  col @281,575,0,42
+    h2 Counter Network @281,575,0,42
+  col @293,586,0,21
+    h2 Sinuous @293,586,0,21
+  col @305,586,0,21
+    h2 Agilox @305,586,0,21
+  col @317,586,0,21
+    h2 Pingstack @317,586,0,21
+  col @329,586,0,21
+    h2 mynameismirko @329,586,0,21
+  col @341,586,0,21
+    h2 pwn @341,586,0,21
+  col @353,586,0,21
+    h2 SaaSHub @353,586,0,21
+  col @365,575,0,42
+    h2 Snipper App @365,575,0,42
+  col @377,575,0,42
+    h2 SME summit @377,575,0,42
+  col @389,575,0,42
+    h2 Jethro May @389,575,0,42
+  col @401,575,0,42
+    h2 GreenPeace Uncut @401,575,0,42
+  col @413,575,0,42
+    h2 Reception Halls @413,575,0,42
+  col @425,575,0,42
+    h2 Daniel FR @425,575,0,42
+  col @437,586,0,21
+    h2 faulthero @437,586,0,21
+  col @449,586,0,21
+    h2 adilmania @449,586,0,21
+  col @461,586,0,21
+    h2 mattfarley @461,586,0,21
+  col @473,586,0,21
+    h2 griko @473,586,0,21
+  col @485,586,0,21
+    h2 shecodes @485,586,0,21
+  col @497,586,0,21
+    h2 jgthms @497,586,0,21
+  col @509,586,0,21
+    h2 uigoodies @509,586,0,21
+  col @521,586,0,21
+    h2 favicon @521,586,0,21
+  col @533,586,0,21
+    h2 whiterabbitexpress @533,586,0,21
+  col @545,586,0,21
+    h2 primative @545,586,0,21
+  col @557,586,0,21
+    h2 getbedtimestories @557,586,0,21
+  col @569,586,0,21
+    h2 mod @569,586,0,21
+  col @581,586,0,21
+    h2 jobees @581,586,0,21
+  col @593,586,0,21
+    h2 mythril @593,586,0,21
+  col @605,586,0,21
+    h2 immunizationacademy @605,586,0,21
+  col @617,586,0,21
+    h2 cssninja @617,586,0,21
+  col @629,586,0,21
+    h2 planhr @629,586,0,21
+  col @641,586,0,21
+    h2 hodlfund @641,586,0,21
+  col @653,586,0,21
+    h2 cronhub @653,586,0,21
+  col @665,586,0,21
+    h2 pollygot @665,586,0,21
+  col @677,586,0,21
+    h2 reportz @677,586,0,21
+  col @689,586,0,21
+    h2 mynameismirko @689,586,0,21
+  col @701,586,0,21
+    h2 anyshortcut @701,586,0,21
+  col @713,586,0,21
+    h2 ysimplicity @713,586,0,21
+  col @725,586,0,21
+    h2 bongoutindonesia @725,586,0,21
+  col @737,586,0,21
+    h2 uploadme @737,586,0,21
+  col @749,586,0,21
+    h2 Gustav @749,586,0,21
+  col @761,586,0,21
+    h2 Penmob @761,586,0,21
+  col @773,575,0,42
+    h2 Brújula Turística @773,575,0,42
+  col @785,586,0,21
+    h2 LottieFiles @785,586,0,21
+  col @797,586,0,21
+    h2 Smileonthetiles @797,586,0,21
+  col @809,564,0,64
+    h2 Sketch for Designrs @809,564,0,64
+  col @821,575,0,42
+    h2 Bashful Birdie @821,575,0,42
+  col @833,575,0,42
+    h2 Bugcraft Studio @833,575,0,42
+  col @845,586,0,21
+    h2 Booknshelf @845,586,0,21
+  col @857,586,0,21
+    h2 MD5 @857,586,0,21
+  col @869,586,0,21
+    h2 Driftrock @869,586,0,21
+  col @881,586,0,21
+    h2 Jubiwee @881,586,0,21
+  col @893,586,0,21
+    h2 Pragonauts @893,586,0,21
+  col @905,586,0,21
+    h2 Kappamon @905,586,0,21
+  col @917,586,0,21
+    h2 Elevo @917,586,0,21
+  col @929,586,0,21
+    h2 Oneday @929,586,0,21
+  col @941,586,0,21
+    h2 Buefy @941,586,0,21
+  col @953,575,0,42
+    h2 Alt Three @953,575,0,42
+h3 How to support Bulma @17,640,694,19
+row @17,671,694,90
+  col @17,671,124,90
+    text One-time donation @17,671,124,20
+    field submit @17,703,124,58
+  col @153,689,197,53
+    text Browser testing via @153,689,197,21
+    link https://www.lambdatest.com/ https://www.lambdatest.com/ @153,722,197,20
+  col @362,689,121,53
+    text Visit our Sponsors @362,689,121,21
+    link celebian https://celebian.com/ @362,722,121,20
+  col @495,689,124,53
+    text Monthly donation @495,689,124,21
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/ @495,722,124,20
+link ".native-js { background: linear-gradient(-30deg, #FFFFFFE5, #FFFFFFE5 45%, #FFFFFF 45%) #fff; } .native-details { color: #000E9C !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #FFFFFF; background-color: #000E9C; } .native-cta:hover { color: undefined; background-color: undefined; } OVHcloud In Minuten bereit, mit 99,95 % SLA. Konfigurieren Sie Ihren Advance-Cluster. Jetzt entdecken" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQMCAYI5Z3JCAAI627ICEAI42JKFT7DE2JNCVAI423LC6ADPKQJCE7DC23KC6SILKJWCA7DVK3EHJNCLSIZ @17,773,694,101
+row @17,886,694,51
+  col @17,886,195,51
+    h3 Bulma by Jeremy Thomas. @17,886,195,19
+    link "Follow @jgthms" https://twitter.com/jgthms @17,917,195,20
+  col @224,902,155,19
+    h3 Contribute on GitHub @224,902,155,19
+  col @391,886,161,51
+    h3 Share on social media @391,886,161,19
+    row @391,917,161,20
+      link Twitter https://twitter.com/share @391,917,47,20
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io @450,917,66,20
+text Source code licensed . Website content licensed @17,949,694,21
+row @17,982,694,20
+  link MIT https://opensource.org/licenses/mit-license.php @17,982,26,20
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/ @55,982,122,20
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer @17,1014,694,162
+row @17,1188,694,37
+  link "Get started for Free Get started for Free" https://cssmasterclass.io/ @17,1196,265,21
+  button close @294,1188,67,37
+!overflow button 46/73px
+!overflow light 44/104px
+!overflow dark 44/102px
+!overflow system 44/121px
+!overflow button3 51/73px
+!tiny search 22x37px

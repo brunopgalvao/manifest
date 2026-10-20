@@ -1,0 +1,124 @@
+@doc_rust_lang_org_proc_macro_index_html rev=0 @0,0,728,1398
+row @17,17,694,1364
+  link "Skip to main content" #main-content @17,659,13,81
+  col @42,402,31,594
+    row @42,402,31,21
+      link ../proc_macro/index.html ../proc_macro/index.html @42,402,10,21
+      h2 proc_macro1.99.1 @64,402,9,21
+    text (58cf8f9c3 2026-10-13) @42,435,31,41
+    link "All Items" all.html @42,488,31,40
+    h3 Crate Items @42,540,31,38
+    link Modules #modules @42,590,31,20
+    link Macros #macros @42,622,31,21
+    link Structs #structs @42,655,31,20
+    link Enums #enums @42,687,31,20
+    link Traits #traits @42,719,31,20
+    link Functions #functions @42,751,31,21
+    h3 Crates @42,784,31,18
+    link alloc ../alloc/index.html @42,814,31,21
+    link core ../core/index.html @42,847,31,20
+    link proc_macro ../proc_macro/index.html @42,879,31,20
+    link std ../std/index.html @42,911,31,21
+    link std_detect ../std_detect/index.html @42,944,31,20
+    link test ../test/index.html @42,976,31,20
+  col @85,17,626,1364
+    row @85,17,626,50
+      h1 Crate proc_macro Copy item path @85,17,279,50
+      text · @376,32,4,20
+      row @392,32,83,20
+        text 1.15.0 @392,32,31,20
+        link Source ../src/proc_macro/lib.rs.html#1-1926 @435,32,40,20
+      row @487,24,224,36
+        link Search https://doc.rust-lang.org/proc_macro/index.html?search= @487,32,38,20
+        link Settings ../settings.html @537,32,43,20
+        link Help ../help.html @592,32,25,20
+        button Summary @629,24,82,36
+    row @85,79,626,178
+      text Expand description @85,148,40,40
+      col @137,79,574,178
+        text A support library for macro authors when defining new macros. @137,79,574,20
+        text "This library, provided by the standard distribution, provides the types consumed in the interfaces of procedurally defined macro definitions such as function-like macros #[proc_macro], macro attributes #[proc_macro_attribute] and custom derive attributes #[proc_macro_derive]." @137,111,574,82
+        text See for more. @137,205,574,20
+        link "the book" ../book/ch19-06-macros.html#procedural-macros-for-generating-code-from-attributes @137,237,574,20
+    h2 Modules§ @85,269,626,21
+    row @85,302,626,61
+      link token_stream token_stream/index.html @85,323,44,20
+      text Public implementation details for the TokenStream type, such as iterators. @141,302,239,61
+      row @392,323,73,20
+        link tracked tracked/index.html @392,323,23,20
+        text Experimental @427,323,38,20
+      text Functionality for adding environment state to the build dependency info. @477,302,234,61
+    h2 Macros§ @85,375,626,22
+    row @85,409,626,60
+      row @85,429,49,20
+        link quote macro.quote.html @85,429,11,20
+        text Experimental @108,429,26,20
+      text quote!(..) accepts arbitrary tokens and expands into a TokenStream describing the input. For example, quote!(a + b) will produce an expression, that, when evaluated, constructs the TokenStream [Ident("a"), Punct('+', Alone), Ident("b")]. @146,409,565,60
+    h2 Structs§ @85,481,626,22
+    row @85,515,626,385
+      link Group struct.Group.html @85,697,3,21
+      text A delimited token stream. @100,667,11,81
+      link Ident struct.Ident.html @123,697,2,21
+      text An identifier (ident). @137,677,9,61
+      link LexError struct.LexError.html @158,697,4,21
+      text Error returned from TokenStream::from_str. @174,667,19,81
+      link Literal struct.Literal.html @205,697,2,21
+      text A literal string ("hello"), byte string (b"hello"), C string (c"hello"), character ('a'), byte character (b'a'), an integer or floating point number with or without a suffix (1, 1u8, 2.3, 2.3f32). Boolean literals like true and false do not belong here, they are Idents. @219,525,111,365
+      link Punct struct.Punct.html @342,697,2,21
+      text "A Punct is a single punctuation character such as +, - or #." @356,596,26,223
+      link Span struct.Span.html @394,697,2,21
+      text A region of source code, along with macro expansion information. @408,606,29,203
+      link TokenStream struct.TokenStream.html @449,697,6,21
+      text The main type provided by this crate, representing an abstract stream of tokens, or, more specifically, a sequence of token trees. The type provides interfaces for iterating over those token trees and, conversely, collecting a number of token trees into one stream. @467,515,116,385
+      row @595,697,11,21
+        link Diagnostic struct.Diagnostic.html @595,697,0,21
+        text Experimental @607,697,0,21
+      text A structure representing a diagnostic message and associated children messages. @618,606,36,203
+      row @666,697,12,21
+        link ExpandError struct.ExpandError.html @666,697,0,21
+        text Experimental @678,697,0,21
+      text Error returned from TokenStream::expand_expr. @690,667,21,81
+    h2 Enums§ @85,912,626,22
+    row @85,946,626,182
+      link Delimiter enum.Delimiter.html @85,1027,8,20
+      text Describes how a sequence of token trees is delimited. @105,966,52,142
+      link Spacing enum.Spacing.html @169,1027,8,20
+      text Indicates whether a Punct token can join with the following token to form a multi-character operator. @189,946,95,182
+      link TokenTree enum.TokenTree.html @296,1027,11,20
+      text A single token or a delimited sequence of token trees (e.g., [1, (), ..]). @319,946,65,182
+      row @396,1027,34,20
+        link ConversionErrorKind enum.ConversionErrorKind.html @396,1027,13,20
+        text Experimental @421,1027,9,20
+      text Errors returned when trying to retrieve a literal unescaped value. @442,956,61,162
+      row @515,1027,26,20
+        link EscapeError enum.EscapeError.html @515,1027,7,20
+        text Experimental @534,1027,7,20
+      text Mostly relating to malformed escape sequences, but also a few other problems. @553,956,76,162
+      row @641,1027,19,20
+        link Level enum.Level.html @641,1027,2,20
+        text Experimental @655,1027,5,20
+      text An enum representing a diagnostic level. @672,976,39,122
+    h2 Traits§ @85,1140,626,22
+    row @85,1174,626,60
+      row @85,1194,81,20
+        link MultiSpan trait.MultiSpan.html @85,1194,30,20
+        text Experimental @127,1194,39,20
+      text Trait implemented by types that can be converted into a set of Spans. @178,1174,229,60
+      row @419,1194,81,20
+        link ToTokens trait.ToTokens.html @419,1194,30,20
+        text Experimental @461,1194,39,20
+      text Types that can be interpolated inside a invocation. @512,1174,166,60
+      link quote! macro.quote.html @690,1194,21,20
+    h2 Functions§ @85,1246,626,22
+    row @85,1280,626,101
+      link is_available fn.is_available.html @85,1320,19,21
+      text Determines whether proc_macro has been made accessible to the currently running program. @116,1280,158,101
+      row @286,1320,35,21
+        link quote fn.quote.html @286,1320,7,21
+        text Experimental @305,1320,16,21
+      text Quote a TokenStream into a TokenStream. This is the actual implementation of the quote!() proc macro. @333,1280,174,101
+      row @519,1320,44,21
+        link quote_span fn.quote_span.html @519,1320,15,21
+        text Experimental @546,1320,17,21
+      text Quote a Span into a TokenStream. This is needed to implement a custom quoter. @575,1280,136,101
+!overflow summary 80/93px

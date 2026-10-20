@@ -1,0 +1,118 @@
+@bulma_io_made_with_bulma
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/
+row
+  link "https://bulma.io/" https://bulma.io/
+  row
+    link "Docs Documentation" https://bulma.io/documentation/
+    link Expo https://bulma.io/expo/
+    link Love https://bulma.io/love/
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/
+    row
+      link "Open Source on GitHub" https://github.com/jgthms/bulma
+      link "Follow me on Twitter" https://twitter.com/jgthms
+      button button
+      col
+        link "Made with Bulma" https://bulma.io/made-with-bulma/
+        link Backers https://bulma.io/backers/
+        link "Bulma Brand" https://bulma.io/brand/
+        link "Bulma Extensions" https://bulma.io/extensions/
+  col
+    button button
+    card
+      button "Light mode"
+      button "Dark mode"
+      button "System mode" success
+  col
+    button button
+    card
+      field "search input"
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip
+h1 Made with Bulma
+h2 The official community badge.
+card
+  link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYILKJKC6YIVKJNCKSIT5QNCWYIL2Q7CWADK23JHEYI55QLCESI623ECTNCYBZ52K" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYILKJKC6YIVKJNCKSIT5QNCWYIL2Q7CWADK23JHEYI55QLCESI623ECTNCYBZ52K
+  link "Roles change. AWS credentials travel with you. Get certified" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYILKJKC6YIVKJNCKSIT5QNCWYIL2Q7CWADK23JHEYI55QLCESI623ECTNCYBZ52K
+link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+text The Made with Bulma badge is available in 6 different versions:
+table Type Preview Description Download
+  Default |  | White boxed | Download image
+  Dark |  | Dark boxed | Download image
+  Semi white |  | Transparent white and turquoise | Download image
+  White |  | Transparent white | Download image
+  Semiblack |  | Transparent black and turquoise | Download image
+  Black |  | Transparent black | Download image
+  All 6 | made-with-bulma-badges.zip | Download all 6 badges
+h3 "Usage #"
+text "Ideally the image is displayed at 128x24 pixels, and links back to the Bulma website:"
+text Example
+link "https://bulma.io" https://bulma.io
+text HTML
+text "<a href=\"https://bulma.io\"> <img src=\"https://bulma.io/assets/images/made-with-bulma.png\" alt=\"Made with Bulma\" width=\"128\" height=\"24\"> </a>"
+button Copy danger
+text "Since the original image dimensions are 512x96 pixels, you can also display it at 256x48 without losing any quality:"
+text Example
+link "https://bulma.io" https://bulma.io
+text HTML
+text "<a href=\"https://bulma.io\"> <img src=\"https://bulma.io/assets/images/made-with-bulma.png\" alt=\"Made with Bulma\" width=\"256\" height=\"48\"> </a>"
+button Copy danger
+h3 "Badge snippets #"
+text You can simply embed an image directly on your website by using one of the following snippets.
+link "https://bulma.io" https://bulma.io
+card
+  text "<a href=\"https://bulma.io\"> <img src=\"https://bulma.io/assets/images/made-with-bulma.png\" alt=\"Made with Bulma\" width=\"128\" height=\"24\"> </a>"
+  button Copy warning
+card
+  link "https://bulma.io" https://bulma.io
+card
+  text "<a href=\"https://bulma.io\"> <img src=\"https://bulma.io/assets/images/made-with-bulma.png\" alt=\"Made with Bulma\" width=\"128\" height=\"24\"> </a>"
+  button Copy warning
+link "https://bulma.io" https://bulma.io
+card
+  text "<a href=\"https://bulma.io\"> <img src=\"https://bulma.io/assets/images/made-with-bulma.png\" alt=\"Made with Bulma\" width=\"128\" height=\"24\"> </a>"
+  button Copy warning
+link "https://bulma.io" https://bulma.io
+card
+  text "<a href=\"https://bulma.io\"> <img src=\"https://bulma.io/assets/images/made-with-bulma.png\" alt=\"Made with Bulma\" width=\"128\" height=\"24\"> </a>"
+  button Copy warning
+link "https://bulma.io" https://bulma.io
+card
+  text "<a href=\"https://bulma.io\"> <img src=\"https://bulma.io/assets/images/made-with-bulma.png\" alt=\"Made with Bulma\" width=\"128\" height=\"24\"> </a>"
+  button Copy warning
+link "https://bulma.io" https://bulma.io
+card
+  text "<a href=\"https://bulma.io\"> <img src=\"https://bulma.io/assets/images/made-with-bulma.png\" alt=\"Made with Bulma\" width=\"128\" height=\"24\"> </a>"
+  button Copy warning
+h3 How to support Bulma
+row
+  col
+    text One-time donation
+    field submit
+  col
+    text Browser testing via
+    link "https://www.lambdatest.com/" https://www.lambdatest.com/
+  col
+    text Visit our Sponsors
+    link celebian https://celebian.com/
+  col
+    text Monthly donation
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
+link ".native-js { background: linear-gradient(-30deg, #FFFFFFE5, #FFFFFFE5 45%, #FFFFFF 45%) #fff; } .native-details { color: #181A1C !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #181A1C; background-color: #32E6E2; } .native-cta:hover { color: undefined; background-color: undefined; } Netlify One gateway for every AI model Explore AI Gateway" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITK3YCE7ILZ3JCAAI627ICE7D5K7KC6BD62QMCE7IC5QNF6AIE2Q7CK7DL2Q7HEYI55QLCESI623ECTNCYBZ52K
+row
+  col
+    h3 Bulma by Jeremy Thomas.
+    link "Follow @jgthms" https://twitter.com/jgthms
+  col
+    h3 Contribute on GitHub
+  col
+    h3 Share on social media
+    row
+      link Twitter https://twitter.com/share
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+text Source code licensed . Website content licensed
+row
+  link MIT https://opensource.org/licenses/mit-license.php
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer
+row
+  link "Get started for Free Get started for Free" https://cssmasterclass.io/
+  button close

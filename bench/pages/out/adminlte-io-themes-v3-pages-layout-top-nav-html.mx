@@ -1,0 +1,46 @@
+@adminlte_io_themes_v3_pages_layout_top_n
+row
+  link "AdminLTE 3" ../../index3.html
+  row
+    row
+      link Home index3.html
+      link Contact #
+      link Dropdown #
+    row
+      field Search search
+      button button
+  row
+    link 3 #
+    link 15 #
+    button button
+row
+  h1 Top Navigation Example 3.0
+  row
+    link Home #
+    link Layout #
+    text Top Navigation
+row
+  col
+    h3 Card title
+    text Some quick example text to build on the card title and make up the bulk of the card's content.
+    link "Card link" #
+    link "Another link" #
+    card
+      h3 Card title
+      text Some quick example text to build on the card title and make up the bulk of the card's content.
+      link "Card link" #
+      link "Another link" #
+  col
+    h3 Featured
+    h3 Special title treatment
+    text With supporting text below as a natural lead-in to additional content.
+    link "Go somewhere" #
+    card
+      h3 Featured
+      h3 Special title treatment
+      text With supporting text below as a natural lead-in to additional content.
+      link "Go somewhere" #
+text All rights reserved.
+text Anything you want
+text Copyright © 2014-2021 .
+link AdminLTE.io https://adminlte.io

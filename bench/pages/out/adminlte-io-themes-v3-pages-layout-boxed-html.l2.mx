@@ -1,0 +1,70 @@
+@adminlte_io_themes_v3_pages_layout_boxed rev=0 @0,0,728,1582
+row @17,17,694,36
+  row @17,17,191,36
+    button button @17,17,75,36
+    link Home ../../index3.html @104,25,40,20
+    link Contact # @156,25,52,20
+  row @220,17,296,36
+    button button @220,17,75,36
+    link 3 # @307,25,9,20
+    link 15 # @328,25,14,20
+    button button @354,17,75,36
+    button button @441,17,75,36
+link "AdminLTE 3" ../../index3.html @17,65,694,21
+row @17,98,694,20
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image" @17,98,0,0
+  link "Alexander Pierce" # @29,98,113,20
+row @17,130,694,58
+  field Search search @17,130,40,58
+  button button primary @69,141,75,36
+link Dashboard # @17,200,694,20
+link "Widgets New" ../widgets.html @17,232,694,20
+link "Layout Options 6" # @17,264,694,21
+link "Top Navigation" ../layout/top-nav.html @17,297,694,20
+link "Top Navigation + Sidebar" ../layout/top-nav-sidebar.html @17,329,694,20
+link Boxed ../layout/boxed.html @17,361,694,20
+link "Fixed Sidebar" ../layout/fixed-sidebar.html @17,393,694,21
+link "Fixed Sidebar + Custom Area" ../layout/fixed-sidebar-custom.html @17,426,694,20
+link "Fixed Navbar" ../layout/fixed-topnav.html @17,458,694,20
+link "Fixed Footer" ../layout/fixed-footer.html @17,490,694,21
+link "Collapsed Sidebar" ../layout/collapsed-sidebar.html @17,523,694,20
+link Charts # @17,555,694,20
+link "UI Elements" # @17,587,694,20
+link Forms # @17,619,694,21
+link Tables # @17,652,694,20
+text EXAMPLES @17,684,694,20
+link "Calendar 2" ../calendar.html @17,716,694,21
+link Gallery ../gallery.html @17,749,694,20
+link "Kanban Board" ../kanban.html @17,781,694,20
+link Mailbox # @17,813,694,21
+link Pages # @17,846,694,20
+link Extras # @17,878,694,20
+link Search # @17,910,694,20
+text MISCELLANEOUS @17,942,694,21
+link "Tabbed IFrame Plugin" ../../iframe.html @17,975,694,20
+link Documentation https://adminlte.io/docs/3.1/ @17,1007,694,20
+text MULTI LEVEL EXAMPLE @17,1039,694,21
+link "Level 1" # @17,1072,694,20
+link "Level 1" # @17,1104,694,20
+link "Level 1" # @17,1136,694,21
+text LABELS @17,1169,694,20
+link Important # @17,1201,694,20
+link Warning # @17,1233,694,21
+link Informational # @17,1266,694,20
+row @17,1298,694,25
+  h1 Boxed Layout @17,1298,134,25
+  row @163,1300,200,20
+    link Home # @163,1300,40,20
+    link Layout # @215,1300,45,20
+    text Boxed Layout @272,1300,91,20
+row @17,1335,694,36
+  h3 Title @17,1344,33,18
+  row @62,1335,187,36
+    button Collapse @62,1335,89,36
+    button Remove @163,1335,86,36
+text Start creating your amazing application! @17,1383,694,20
+text Footer @17,1415,694,21
+text All rights reserved. @17,1448,694,20
+text Version 3.2.0 @17,1480,694,20
+text Copyright © 2014-2021 . @17,1512,694,21
+link AdminLTE.io https://adminlte.io @17,1545,694,20

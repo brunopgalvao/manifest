@@ -1,0 +1,1852 @@
+@html_spec_whatwg_org_multipage_common_do rev=0 @0,0,728,37404
+link https://whatwg.org/ https://whatwg.org/ @17,17,694,20
+h1 HTML @17,49,694,25
+text Living Standard — Last Updated 19 October 2026 success @17,86,694,21
+text — — @17,119,694,20
+row @17,151,694,20
+  link "← 2.4 URLs" urls-and-fetching.html @17,151,78,20
+  link "Table of Contents" ./ @107,151,119,20
+  link "2.7 Safe passing of structured data →" structured-data.html @238,151,250,20
+link "2.6 Common DOM interfaces" common-dom-interfaces.html#common-dom-interfaces @17,183,694,21
+link "2.6.1 Reflecting content attributes in IDL attributes" common-dom-interfaces.html#reflecting-content-attributes-in-idl-attributes @17,216,694,20
+link "2.6.2 Using reflect via IDL extended attributes" common-dom-interfaces.html#using-reflect-via-idl-extended-attributes @17,248,694,20
+link "2.6.3 Using reflect in specifications" common-dom-interfaces.html#using-reflect-in-specifications @17,280,694,20
+link "2.6.4 Collections" common-dom-interfaces.html#collections @17,312,694,21
+link "2.6.4.1 The HTMLAllCollection interface" common-dom-interfaces.html#the-htmlallcollection-interface @17,345,694,20
+link "2.6.4.1.1 [[Call]] ( thisArgument, argumentsList )" common-dom-interfaces.html#HTMLAllCollection-call @17,377,694,20
+link "2.6.4.2 The HTMLFormControlsCollection interface" common-dom-interfaces.html#the-htmlformcontrolscollection-interface @17,409,694,21
+link "2.6.4.3 The HTMLOptionsCollection interface" common-dom-interfaces.html#the-htmloptionscollection-interface @17,442,694,20
+link "2.6.5 The DOMStringList interface" common-dom-interfaces.html#the-domstringlist-interface @17,474,694,20
+h3 2.6 Common DOM interfaces @17,506,694,19
+h3 2.6.1 Reflecting content attributes in IDL attributes @17,537,694,19
+text The building blocks for reflecting are as follows: @17,568,694,20
+text A is an element or object. It is typically clear from context and typically identical to the interface of the . It is always identical to that interface when it is an object. @17,600,694,41
+text reflected target @17,653,694,20
+link ElementInternals custom-elements.html#elementinternals @17,685,694,20
+link "reflected IDL attribute" #reflected-idl-attribute @17,717,694,20
+link ElementInternals custom-elements.html#elementinternals @17,749,694,21
+text A is an attribute interface member. @17,782,694,20
+text reflected IDL attribute @17,814,694,20
+text A is a string. When the is an element, it represents the local name of a content attribute whose namespace is null. When the is an object, it represents a key of the 's 's . @17,846,694,41
+text reflected content attribute name @17,899,694,20
+link "reflected target" #reflected-target @17,931,694,21
+link "reflected target" #reflected-target2 @17,964,694,20
+link ElementInternals custom-elements.html#elementinternals @17,996,694,20
+link "reflected target" #reflected-target3 @17,1028,694,20
+link "target element" custom-elements.html#internals-target @17,1060,694,21
+link "internal content attribute map" custom-elements.html#internal-content-attribute-map @17,1093,694,20
+text A can be defined to a of a . In general this means that the IDL attribute getter returns the current value of the content attribute, and the setter changes the value of the content attribute to the given value. @17,1125,694,41
+row @17,1178,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute2 @17,1178,145,20
+  text reflect @174,1178,43,20
+  link "reflected content attribute name" #reflected-content-attribute-name @229,1178,214,20
+  link "reflected target" #reflected-target4 @455,1178,103,20
+text have these associated algorithms: @17,1210,694,20
+link "Reflected targets" #reflected-target5 @17,1242,694,21
+text : takes no arguments; returns an element. @17,1275,694,20
+text get the element @17,1307,694,20
+text : takes no arguments; returns null or a string. @17,1339,694,21
+text get the content attribute @17,1372,694,20
+text : takes a string ; returns nothing. @17,1404,694,20
+row @17,1436,694,20
+  text set the content attribute @17,1436,159,20
+  text value @188,1436,36,20
+text : takes no arguments; returns nothing. @17,1468,694,21
+text delete the content attribute @17,1501,694,20
+text For a that is an element , these are defined as follows: @17,1533,694,20
+row @17,1565,694,21
+  link "reflected target" #reflected-target6 @17,1565,103,21
+  text element @132,1565,53,21
+link "get the element" #get-the-element @17,1598,694,20
+text Return . @17,1630,694,20
+text element @17,1662,694,21
+link "get the content attribute" #get-the-content-attribute @17,1695,694,20
+text Let be the result of given null, the , and . @17,1727,694,20
+row @17,1759,694,20
+  text attribute @17,1759,56,20
+  link "getting an attribute by namespace and local name" https://dom.spec.whatwg.org/#concept-element-attributes-get-by-namespace @85,1759,331,20
+  link "reflected content attribute name" #reflected-content-attribute-name2 @428,1759,214,20
+  text element @654,1759,53,20
+text If is null, then return null. @17,1791,694,21
+text attribute @17,1824,694,20
+text Return 's . @17,1856,694,20
+row @17,1888,694,21
+  text attribute @17,1888,56,21
+  link value https://dom.spec.whatwg.org/#concept-attribute-value @85,1888,36,21
+text with a string @17,1921,694,20
+row @17,1953,694,20
+  link "set the content attribute" #set-the-content-attribute @17,1953,159,20
+  text value @188,1953,36,20
+text given , the , and . @17,1985,694,21
+row @17,2018,694,20
+  link "Set an attribute value" https://dom.spec.whatwg.org/#concept-element-attributes-set-value @17,2018,141,20
+  text element @170,2018,53,20
+  link "reflected content attribute name" #reflected-content-attribute-name3 @235,2018,214,20
+  text value @461,2018,36,20
+link "delete the content attribute" #delete-the-content-attribute @17,2050,694,20
+text given null, the , and . @17,2082,694,20
+row @17,2114,694,21
+  link "Remove an attribute by namespace and local name" https://dom.spec.whatwg.org/#concept-element-attributes-remove-by-namespace @17,2114,339,21
+  link "reflected content attribute name" #reflected-content-attribute-name4 @368,2114,214,21
+  text element @594,2114,53,21
+text For a that is an object , they are defined as follows: @17,2147,694,20
+row @17,2179,694,20
+  link "reflected target" #reflected-target7 @17,2179,103,20
+  link ElementInternals custom-elements.html#elementinternals @132,2179,111,20
+  text elementInternals @255,2179,110,20
+link "get the element" #get-the-element2 @17,2211,694,21
+text Return 's . @17,2244,694,20
+row @17,2276,694,20
+  text elementInternals @17,2276,110,20
+  link "target element" custom-elements.html#internals-target @139,2276,96,20
+link "get the content attribute" #get-the-content-attribute2 @17,2308,694,21
+text If 's 's [the ] , then return null. @17,2341,694,20
+row @17,2373,694,40
+  text elementInternals @17,2383,100,20
+  link "target element" custom-elements.html#internals-target @129,2373,88,40
+  link "internal content attribute map" custom-elements.html#internal-content-attribute-map @229,2373,178,40
+  link "reflected content attribute name" #reflected-content-attribute-name5 @419,2373,195,40
+  link "does not exist" https://infra.spec.whatwg.org/#map-exists @626,2373,85,40
+text Return 's 's [the ]. @17,2425,694,21
+row @17,2458,694,20
+  text elementInternals @17,2458,110,20
+  link "target element" custom-elements.html#internals-target @139,2458,96,20
+  link "internal content attribute map" custom-elements.html#internal-content-attribute-map @247,2458,196,20
+  link "reflected content attribute name" #reflected-content-attribute-name6 @455,2458,214,20
+text with a string @17,2490,694,20
+row @17,2522,694,21
+  link "set the content attribute" #set-the-content-attribute2 @17,2522,159,21
+  text value @188,2522,36,21
+text 's 's [the ] to . @17,2555,694,20
+row @17,2587,694,41
+  link Set https://infra.spec.whatwg.org/#map-set @17,2597,21,20
+  text elementInternals @50,2597,103,20
+  link "target element" custom-elements.html#internals-target @165,2587,90,41
+  link "internal content attribute map" custom-elements.html#internal-content-attribute-map @267,2587,185,41
+  link "reflected content attribute name" #reflected-content-attribute-name7 @464,2587,201,41
+  text value @677,2597,34,20
+link "delete the content attribute" #delete-the-content-attribute2 @17,2640,694,20
+text 's 's [the ]. @17,2672,694,20
+row @17,2704,694,41
+  link Remove https://infra.spec.whatwg.org/#map-remove @17,2714,52,21
+  text elementInternals @81,2714,106,21
+  link "target element" custom-elements.html#internals-target @199,2704,93,41
+  link "internal content attribute map" custom-elements.html#internal-content-attribute-map @304,2704,189,41
+  link "reflected content attribute name" #reflected-content-attribute-name8 @505,2704,206,41
+text This results in somewhat redundant data structures for objects as their 's cannot be directly manipulated and as such reflection is only happening in a single direction. This approach was nevertheless chosen to make it less error-prone to define IDL attributes that are shared between and benefit from common API semantics. success @17,2757,694,81
+link ElementInternals custom-elements.html#elementinternals @17,2850,694,20
+link "target element" custom-elements.html#internals-target @17,2882,694,21
+link "internal content attribute map" custom-elements.html#internal-content-attribute-map @17,2915,694,20
+link "reflected targets" #reflected-target8 @17,2947,694,20
+text IDL attributes of type or that content attributes can be . Per the processing models below, those will cause the getters for such IDL attributes to only return keywords for those enumerated attributes, or the empty string or null. @17,2979,694,61
+row @17,3052,694,20
+  link DOMString https://webidl.spec.whatwg.org/#idl-DOMString @17,3052,73,20
+  text ? @102,3052,8,20
+  link DOMString https://webidl.spec.whatwg.org/#idl-DOMString @122,3052,73,20
+  link reflect #reflect2 @207,3052,43,20
+  link enumerated common-microsyntaxes.html#enumerated-attribute @262,3052,80,20
+  text limited to only known values @354,3052,188,20
+text If a has the type : @17,3084,694,21
+row @17,3117,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute3 @17,3117,145,20
+  link DOMString https://webidl.spec.whatwg.org/#idl-DOMString @174,3117,73,20
+text The getter steps are: @17,3149,694,20
+text Let be the result of running 's . @17,3181,694,21
+row @17,3214,694,20
+  text element @17,3214,53,20
+  link this https://webidl.spec.whatwg.org/#this @82,3214,24,20
+  link "get the element" #get-the-element3 @118,3214,104,20
+text Let be the result of running 's . @17,3246,694,20
+row @17,3278,694,20
+  text contentAttributeValue @17,3278,145,20
+  link this https://webidl.spec.whatwg.org/#this @174,3278,24,20
+  link "get the content attribute" #get-the-content-attribute3 @210,3278,160,20
+text Let be the attribute definition of 's content attribute whose namespace is null and local name is the . @17,3310,694,21
+text attributeDefinition @17,3343,694,20
+text element @17,3375,694,20
+link "reflected content attribute name" #reflected-content-attribute-name9 @17,3407,694,21
+text If indicates it is an and the is defined to be : @17,3440,694,20
+row @17,3472,694,20
+  text attributeDefinition @17,3472,119,20
+  link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute @148,3472,139,20
+  link "reflected IDL attribute" #reflected-idl-attribute4 @299,3472,145,20
+  link "limited to only known values" #limited-to-only-known-values @456,3472,188,20
+text If does not correspond to any state of (e.g., it is null and there is no ), or if it is in a state of with no associated keyword value, then return the empty string. @17,3504,694,41
+text contentAttributeValue @17,3557,694,20
+text attributeDefinition @17,3589,694,20
+link "missing value default" common-microsyntaxes.html#missing-value-default @17,3621,694,21
+text attributeDefinition @17,3654,694,20
+text Return the for the state of that corresponds to. @17,3686,694,20
+row @17,3718,694,21
+  link "canonical keyword" common-microsyntaxes.html#canonical-keyword @17,3718,125,21
+  text attributeDefinition @154,3718,119,21
+  text contentAttributeValue @285,3718,145,21
+text If is null, then return the empty string. @17,3751,694,20
+text contentAttributeValue @17,3783,694,20
+text Return . @17,3815,694,21
+text contentAttributeValue @17,3848,694,20
+text The setter steps are to run 's with the given value. @17,3880,694,20
+row @17,3912,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,3912,24,20
+  link "set the content attribute" #set-the-content-attribute3 @53,3912,159,20
+text If a has the type : @17,3944,694,21
+row @17,3977,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute5 @17,3977,145,20
+  text ? @174,3977,8,20
+  link DOMString https://webidl.spec.whatwg.org/#idl-DOMString @194,3977,73,20
+text The getter steps are: @17,4009,694,20
+text Let be the result of running 's . @17,4041,694,21
+row @17,4074,694,20
+  text element @17,4074,53,20
+  link this https://webidl.spec.whatwg.org/#this @82,4074,24,20
+  link "get the element" #get-the-element4 @118,4074,104,20
+text Let be the result of running 's . @17,4106,694,20
+row @17,4138,694,21
+  text contentAttributeValue @17,4138,145,21
+  link this https://webidl.spec.whatwg.org/#this @174,4138,24,21
+  link "get the content attribute" #get-the-content-attribute4 @210,4138,160,21
+text Let be the attribute definition of 's content attribute whose namespace is null and local name is the . @17,4171,694,20
+text attributeDefinition @17,4203,694,20
+text element @17,4235,694,20
+link "reflected content attribute name" #reflected-content-attribute-name10 @17,4267,694,21
+text If indicates it is an : @17,4300,694,20
+row @17,4332,694,20
+  text attributeDefinition @17,4332,119,20
+  link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute @148,4332,139,20
+text : the is . @17,4364,694,21
+row @17,4397,694,20
+  link Assert https://infra.spec.whatwg.org/#assert @17,4397,43,20
+  link "reflected IDL attribute" #reflected-idl-attribute6 @72,4397,145,20
+  link "limited to only known values" #limited-to-only-known-values2 @229,4397,188,20
+text : corresponds to a state of . @17,4429,694,20
+row @17,4461,694,21
+  link Assert https://infra.spec.whatwg.org/#assert @17,4461,43,21
+  text contentAttributeValue @72,4461,145,21
+  text attributeDefinition @229,4461,119,21
+text If corresponds to a state of with no associated keyword value, then return null. @17,4494,694,20
+row @17,4526,694,20
+  text contentAttributeValue @17,4526,145,20
+  text attributeDefinition @174,4526,119,20
+text Return the for the state of that corresponds to. @17,4558,694,20
+row @17,4590,694,21
+  link "canonical keyword" common-microsyntaxes.html#canonical-keyword @17,4590,125,21
+  text attributeDefinition @154,4590,119,21
+  text contentAttributeValue @285,4590,145,21
+text Return . @17,4623,694,20
+text contentAttributeValue @17,4655,694,20
+text The setter steps are: @17,4687,694,21
+text If the given value is null, then run 's . @17,4720,694,20
+row @17,4752,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,4752,24,20
+  link "delete the content attribute" #delete-the-content-attribute3 @53,4752,180,20
+text Otherwise, run 's with the given value. @17,4784,694,20
+row @17,4816,694,21
+  link this https://webidl.spec.whatwg.org/#this @17,4816,24,21
+  link "set the content attribute" #set-the-content-attribute4 @53,4816,159,21
+text If a has the type , optionally : @17,4849,694,20
+row @17,4881,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute7 @17,4881,145,20
+  link USVString https://webidl.spec.whatwg.org/#idl-USVString @174,4881,69,20
+  text treated as a URL @255,4881,110,20
+text The getter steps are: @17,4913,694,21
+text Let be the result of running 's . @17,4946,694,20
+row @17,4978,694,20
+  text element @17,4978,53,20
+  link this https://webidl.spec.whatwg.org/#this @82,4978,24,20
+  link "get the element" #get-the-element5 @118,4978,104,20
+text Let be the result of running 's . @17,5010,694,21
+row @17,5043,694,20
+  text contentAttributeValue @17,5043,145,20
+  link this https://webidl.spec.whatwg.org/#this @174,5043,24,20
+  link "get the content attribute" #get-the-content-attribute5 @210,5043,160,20
+text If the is : @17,5075,694,20
+row @17,5107,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute8 @17,5107,145,20
+  link "treated as a URL" #treated-as-a-url @174,5107,110,20
+text If is null, then return the empty string. @17,5139,694,21
+text contentAttributeValue @17,5172,694,20
+text Let be the result of given , relative to 's . @17,5204,694,20
+text urlString @17,5236,694,21
+link "encoding-parsing-and-serializing a URL" urls-and-fetching.html#encoding-parsing-and-serializing-a-url @17,5269,694,20
+text contentAttributeValue @17,5301,694,20
+text element @17,5333,694,21
+link "node document" https://dom.spec.whatwg.org/#concept-node-document @17,5366,694,20
+text If is not failure, then return . @17,5398,694,20
+row @17,5430,694,20
+  text urlString @17,5430,57,20
+  text urlString @86,5430,57,20
+text Return , . @17,5462,694,21
+row @17,5495,694,20
+  text contentAttributeValue @17,5495,145,20
+  link "converted to a scalar value string" https://infra.spec.whatwg.org/#javascript-string-convert @174,5495,221,20
+text The setter steps are to run 's with the given value. @17,5527,694,20
+row @17,5559,694,21
+  link this https://webidl.spec.whatwg.org/#this @17,5559,24,21
+  link "set the content attribute" #set-the-content-attribute5 @53,5559,159,21
+text If a has the type : @17,5592,694,20
+row @17,5624,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute9 @17,5624,145,20
+  link boolean https://webidl.spec.whatwg.org/#idl-boolean @174,5624,54,20
+text The getter steps are: @17,5656,694,21
+text Let be the result of running 's . @17,5689,694,20
+row @17,5721,694,20
+  text contentAttributeValue @17,5721,145,20
+  link this https://webidl.spec.whatwg.org/#this @174,5721,24,20
+  link "get the content attribute" #get-the-content-attribute6 @210,5721,160,20
+text If is null, then return false. @17,5753,694,20
+text contentAttributeValue @17,5785,694,21
+text Return true. @17,5818,694,20
+text The setter steps are: @17,5850,694,20
+text If the given value is false, then run 's . @17,5882,694,21
+row @17,5915,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,5915,24,20
+  link "delete the content attribute" #delete-the-content-attribute4 @53,5915,180,20
+text If the given value is true, then run 's with the empty string. @17,5947,694,20
+row @17,5979,694,21
+  link this https://webidl.spec.whatwg.org/#this @17,5979,24,21
+  link "set the content attribute" #set-the-content-attribute6 @53,5979,159,21
+text This corresponds to the rules for . success @17,6012,694,20
+link "boolean content attributes" common-microsyntaxes.html#boolean-attribute @17,6044,694,20
+text If a has the type , optionally and optionally with a : @17,6076,694,20
+row @17,6108,694,21
+  link "reflected IDL attribute" #reflected-idl-attribute10 @17,6108,145,21
+  link long https://webidl.spec.whatwg.org/#idl-long @174,6108,29,21
+  text limited to only non-negative numbers @215,6108,247,21
+  text default value @474,6108,86,21
+  text defaultValue @572,6108,84,21
+text The getter steps are: @17,6141,694,20
+text Let be the result of running 's . @17,6173,694,20
+row @17,6205,694,21
+  text contentAttributeValue @17,6205,145,21
+  link this https://webidl.spec.whatwg.org/#this @174,6205,24,21
+  link "get the content attribute" #get-the-content-attribute7 @210,6205,160,21
+text If is not null: @17,6238,694,20
+text contentAttributeValue @17,6270,694,20
+text Let be the result of if the is not ; otherwise the result of . @17,6302,694,21
+text parsedValue @17,6335,694,20
+link "integer parsing" common-microsyntaxes.html#rules-for-parsing-integers @17,6367,694,20
+text contentAttributeValue @17,6399,694,20
+link "reflected IDL attribute" #reflected-idl-attribute11 @17,6431,694,21
+link "limited to only non-negative numbers" #limited-to-only-non-negative-numbers @17,6464,694,20
+link "non-negative integer parsing" common-microsyntaxes.html#rules-for-parsing-non-negative-integers @17,6496,694,20
+text contentAttributeValue @17,6528,694,21
+text If is not an error and is within the range, then return . @17,6561,694,20
+row @17,6593,694,20
+  text parsedValue @17,6593,84,20
+  link long https://webidl.spec.whatwg.org/#idl-long @113,6593,29,20
+  text parsedValue @154,6593,84,20
+text If the has a , then return . @17,6625,694,21
+row @17,6658,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute12 @17,6658,145,20
+  link "default value" #default-value @174,6658,86,20
+  text defaultValue @272,6658,84,20
+text If the is , then return −1. @17,6690,694,20
+row @17,6722,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute13 @17,6722,145,20
+  link "limited to only non-negative numbers" #limited-to-only-non-negative-numbers2 @174,6722,247,20
+text Return 0. @17,6754,694,21
+text The setter steps are: @17,6787,694,20
+text If the is and the given value is negative, then throw an . @17,6819,694,20
+link "reflected IDL attribute" #reflected-idl-attribute14 @17,6851,694,21
+link "limited to only non-negative numbers" #limited-to-only-non-negative-numbers3 @17,6884,694,20
+link "\"IndexSizeError\"" https://webidl.spec.whatwg.org/#indexsizeerror @17,6916,694,20
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @17,6948,694,21
+text Run 's with the given value converted to the shortest possible string representing the number as a . @17,6981,694,20
+row @17,7013,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,7013,24,20
+  link "set the content attribute" #set-the-content-attribute7 @53,7013,159,20
+  link "valid integer" common-microsyntaxes.html#valid-integer @224,7013,82,20
+text If a has the type , optionally , , or [, ], and optionally with a : @17,7045,694,20
+link "reflected IDL attribute" #reflected-idl-attribute15 @17,7077,694,21
+link "unsigned long" https://webidl.spec.whatwg.org/#idl-unsigned-long @17,7110,694,20
+text limited to only positive numbers @17,7142,694,20
+text limited to only positive numbers with fallback @17,7174,694,21
+text clamped to the range @17,7207,694,20
+text clampedMin @17,7239,694,20
+text clampedMax @17,7271,694,21
+link "default value" #default-value2 @17,7304,694,20
+text defaultValue @17,7336,694,20
+text The getter steps are: @17,7368,694,20
+text Let be the result of running 's . @17,7400,694,21
+row @17,7433,694,20
+  text contentAttributeValue @17,7433,145,20
+  link this https://webidl.spec.whatwg.org/#this @174,7433,24,20
+  link "get the content attribute" #get-the-content-attribute8 @210,7433,160,20
+text Let be 0. @17,7465,694,20
+text minimum @17,7497,694,21
+text If the is or , then set to 1. @17,7530,694,20
+row @17,7562,694,41
+  link "reflected IDL attribute" #reflected-idl-attribute16 @17,7562,133,41
+  link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero @162,7562,195,41
+  link "limited to only positive numbers with fallback" #limited-to-only-non-negative-numbers-greater-than-zero-with-fallback @369,7562,274,41
+  text minimum @655,7572,56,20
+text If the is , then set to . @17,7615,694,20
+row @17,7647,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute17 @17,7647,145,20
+  link "clamped to the range" #clamped-to-the-range @174,7647,141,20
+  text minimum @327,7647,61,20
+  text clampedMin @400,7647,82,20
+text Let be 2147483647 if the is not ; otherwise . @17,7679,694,20
+row @17,7711,694,21
+  text maximum @17,7711,64,21
+  link "reflected IDL attribute" #reflected-idl-attribute18 @93,7711,145,21
+  link "clamped to the range" #clamped-to-the-range2 @250,7711,141,21
+  text clampedMax @403,7711,85,21
+text If is not null: @17,7744,694,20
+text contentAttributeValue @17,7776,694,20
+text Let be the result of . @17,7808,694,21
+row @17,7841,694,20
+  text parsedValue @17,7841,84,20
+  link "non-negative integer parsing" common-microsyntaxes.html#rules-for-parsing-non-negative-integers @113,7841,192,20
+  text contentAttributeValue @317,7841,145,20
+text If is not an error and is in the range to , inclusive, then return . @17,7873,694,20
+row @17,7905,694,21
+  text parsedValue @17,7905,84,21
+  text minimum @113,7905,61,21
+  text maximum @186,7905,64,21
+  text parsedValue @262,7905,84,21
+text If is not an error and the is : @17,7938,694,20
+row @17,7970,694,20
+  text parsedValue @17,7970,84,20
+  link "reflected IDL attribute" #reflected-idl-attribute19 @113,7970,145,20
+  link "clamped to the range" #clamped-to-the-range3 @270,7970,141,20
+text If is less than , then return . @17,8002,694,20
+row @17,8034,694,21
+  text parsedValue @17,8034,84,21
+  text minimum @113,8034,61,21
+  text minimum @186,8034,61,21
+text Return . @17,8067,694,20
+text maximum @17,8099,694,20
+text If the has a , then return . @17,8131,694,21
+row @17,8164,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute20 @17,8164,145,20
+  link "default value" #default-value3 @174,8164,86,20
+  text defaultValue @272,8164,84,20
+text Return . @17,8196,694,20
+text minimum @17,8228,694,21
+text The setter steps are: @17,8261,694,20
+text If the is and the given value is 0, then throw an . @17,8293,694,20
+row @17,8325,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute21 @17,8325,145,20
+  link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero2 @174,8325,211,20
+  link "\"IndexSizeError\"" https://webidl.spec.whatwg.org/#indexsizeerror @397,8325,111,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @520,8325,99,20
+text Let be 0. @17,8357,694,21
+text minimum @17,8390,694,20
+text If the is or , then set to 1. @17,8422,694,20
+row @17,8454,694,41
+  link "reflected IDL attribute" #reflected-idl-attribute22 @17,8454,133,41
+  link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero3 @162,8454,195,41
+  link "limited to only positive numbers with fallback" #limited-to-only-non-negative-numbers-greater-than-zero-with-fallback2 @369,8454,274,41
+  text minimum @655,8465,56,20
+text Let be . @17,8507,694,20
+row @17,8539,694,21
+  text newValue @17,8539,66,21
+  text minimum @95,8539,61,21
+text If the has a , then set to . @17,8572,694,20
+row @17,8604,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute23 @17,8604,145,20
+  link "default value" #default-value4 @174,8604,86,20
+  text newValue @272,8604,66,20
+  text defaultValue @350,8604,84,20
+text If the given value is in the range to 2147483647, inclusive, then set to it. @17,8636,694,20
+row @17,8668,694,21
+  text minimum @17,8668,61,21
+  text newValue @90,8668,66,21
+text Run 's with converted to the shortest possible string representing the number as a . @17,8701,694,20
+link this https://webidl.spec.whatwg.org/#this @17,8733,694,20
+link "set the content attribute" #set-the-content-attribute8 @17,8765,694,21
+text newValue @17,8798,694,20
+link "valid non-negative integer" common-microsyntaxes.html#valid-non-negative-integer @17,8830,694,20
+text has no effect on the setter steps. success @17,8862,694,21
+link "Clamped to the range" #clamped-to-the-range4 @17,8895,694,20
+text If a has the type , optionally and optionally with a : @17,8927,694,20
+row @17,8959,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute24 @17,8959,145,20
+  link double https://webidl.spec.whatwg.org/#idl-double @174,8959,46,20
+  link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero4 @232,8959,211,20
+  link "default value" #default-value5 @455,8959,86,20
+  text defaultValue @553,8959,84,20
+text The getter steps are: @17,8991,694,21
+text Let be the result of running 's . @17,9024,694,20
+row @17,9056,694,20
+  text contentAttributeValue @17,9056,145,20
+  link this https://webidl.spec.whatwg.org/#this @174,9056,24,20
+  link "get the content attribute" #get-the-content-attribute9 @210,9056,160,20
+text If is not null: @17,9088,694,21
+text contentAttributeValue @17,9121,694,20
+text Let be the result of . @17,9153,694,20
+row @17,9185,694,21
+  text parsedValue @17,9185,84,21
+  link "floating-point number parsing" common-microsyntaxes.html#rules-for-parsing-floating-point-number-values @113,9185,198,21
+  text contentAttributeValue @323,9185,145,21
+text If is not an error and is greater than 0, then return . @17,9218,694,20
+row @17,9250,694,20
+  text parsedValue @17,9250,84,20
+  text parsedValue @113,9250,84,20
+text If is not an error and the is not , then return . @17,9282,694,20
+row @17,9314,694,21
+  text parsedValue @17,9314,84,21
+  link "reflected IDL attribute" #reflected-idl-attribute25 @113,9314,145,21
+  link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero5 @270,9314,211,21
+  text parsedValue @493,9314,84,21
+text If the has a , then return . @17,9347,694,20
+row @17,9379,694,20
+  link "reflected IDL attribute" #reflected-idl-attribute26 @17,9379,145,20
+  link "default value" #default-value6 @174,9379,86,20
+  text defaultValue @272,9379,84,20
+text Return 0. @17,9411,694,21
+text The setter steps are: @17,9444,694,20
+text If the is and the given value is not greater than 0, then return. @17,9476,694,20
+row @17,9508,694,21
+  link "reflected IDL attribute" #reflected-idl-attribute27 @17,9508,145,21
+  link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero6 @174,9508,211,21
+text Run 's with the given value, converted to the . @17,9541,694,20
+row @17,9573,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,9573,24,20
+  link "set the content attribute" #set-the-content-attribute9 @53,9573,159,20
+  link "best representation of the number as a floating-point number" common-microsyntaxes.html#best-representation-of-the-number-as-a-floating-point-number @224,9573,406,20
+text The values Infinity and Not-a-Number (NaN) values throw an exception on setting, as defined in . success @17,9605,694,20
+row @17,9637,694,21
+  text Web IDL success @17,9637,57,21
+  link [WEBIDL] references.html#refsWEBIDL @86,9637,64,21
+text If a has the type , then its getter steps are to return a object whose associated element is and associated attribute's local name is the . Specification authors cannot reflect IDL attributes of this type on . @17,9670,694,40
+link "reflected IDL attribute" #reflected-idl-attribute28 @17,9722,694,21
+link DOMTokenList https://dom.spec.whatwg.org/#interface-domtokenlist @17,9755,694,20
+link DOMTokenList https://dom.spec.whatwg.org/#interface-domtokenlist @17,9787,694,20
+link this https://webidl.spec.whatwg.org/#this @17,9819,694,21
+link "reflected content attribute name" #reflected-content-attribute-name11 @17,9852,694,20
+link ElementInternals custom-elements.html#elementinternals @17,9884,694,20
+text If a has the type , where is either or an interface that inherits from , then with being the : @17,9916,694,20
+link "reflected IDL attribute" #reflected-idl-attribute29 @17,9948,694,21
+text ? @17,9981,694,20
+text T @17,10013,694,20
+text T @17,10045,694,21
+link Element https://dom.spec.whatwg.org/#interface-element @17,10078,694,20
+link Element https://dom.spec.whatwg.org/#interface-element @17,10110,694,20
+text attr @17,10142,694,21
+link "reflected content attribute name" #reflected-content-attribute-name12 @17,10175,694,20
+text Its has an , which is a weak reference to an element or null. It is initially null. @17,10207,694,20
+row @17,10239,694,20
+  link "reflected target" #reflected-target9 @17,10239,103,20
+  text explicitly set -element @132,10239,146,20
+  text attr @290,10239,23,20
+text Its has a algorithm, that runs these steps: @17,10271,694,21
+row @17,10304,694,20
+  link "reflected target" #reflected-target10 @17,10304,103,20
+  text reflectedTarget @132,10304,103,20
+  text get the -associated element @247,10304,186,20
+  text attr @445,10304,23,20
+text Let be the result of running 's . @17,10336,694,20
+row @17,10368,694,21
+  text element @17,10368,53,21
+  text reflectedTarget @82,10368,103,21
+  link "get the element" #get-the-element6 @197,10368,104,21
+text Let be the result of running 's . @17,10401,694,20
+row @17,10433,694,20
+  text contentAttributeValue @17,10433,145,20
+  text reflectedTarget @174,10433,103,20
+  link "get the content attribute" #get-the-content-attribute10 @289,10433,160,20
+text If 's is not null: @17,10465,694,21
+row @17,10498,694,20
+  text reflectedTarget @17,10498,103,20
+  link "explicitly set attr-element" #explicitly-set-attr-element @132,10498,169,20
+text If 's is a of any of 's , then return 's . @17,10530,694,20
+text reflectedTarget @17,10562,694,20
+link "explicitly set attr-element" #explicitly-set-attr-element2 @17,10594,694,21
+link descendant https://dom.spec.whatwg.org/#concept-tree-descendant @17,10627,694,20
+text element @17,10659,694,20
+link "shadow-including ancestors" https://dom.spec.whatwg.org/#concept-shadow-including-ancestor @17,10691,694,21
+text reflectedTarget @17,10724,694,20
+link "explicitly set attr-element" #explicitly-set-attr-element3 @17,10756,694,20
+text Return null. @17,10788,694,21
+text Otherwise, if is not null, return the first element , in , that meets the following criteria: @17,10821,694,20
+row @17,10853,694,20
+  text contentAttributeValue @17,10853,145,20
+  text candidate @174,10853,66,20
+  link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @252,10853,66,20
+text 's is the same as 's ; @17,10885,694,20
+row @17,10917,694,21
+  text candidate @17,10917,66,21
+  link root https://dom.spec.whatwg.org/#concept-tree-root @0,0,728,37404
+  text element @134,10917,53,21
+  link root https://dom.spec.whatwg.org/#concept-tree-root @199,10917,27,21
+text 's is ; and @17,10950,694,20
+row @17,10982,694,20
+  text candidate @17,10982,66,20
+  link ID https://dom.spec.whatwg.org/#concept-id @95,10982,14,20
+  text contentAttributeValue @121,10982,145,20
+text . @17,11014,694,21
+row @17,11047,694,20
+  text candidate @17,11047,66,20
+  link implements https://webidl.spec.whatwg.org/#implements @95,11047,77,20
+  text T @184,11047,10,20
+text If no such element exists, then return null. @17,11079,694,20
+text Return null. @17,11111,694,21
+text The getter steps are to return the result of running 's . @17,11144,694,20
+row @17,11176,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,11176,24,20
+  link "get the attr-associated element" #attr-associated-element @53,11176,208,20
+text The setter steps are: @17,11208,694,20
+text If the given value is null: @17,11240,694,21
+text Set 's to null. @17,11273,694,20
+row @17,11305,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,11305,24,20
+  link "explicitly set attr-element" #explicitly-set-attr-element4 @53,11305,169,20
+text Run 's . @17,11337,694,21
+row @17,11370,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,11370,24,20
+  link "delete the content attribute" #delete-the-content-attribute5 @53,11370,180,20
+text Return. @17,11402,694,20
+text Run 's with the empty string. @17,11434,694,21
+row @17,11467,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,11467,24,20
+  link "set the content attribute" #set-the-content-attribute10 @53,11467,159,20
+text Set 's to a weak reference to the given value. @17,11499,694,20
+row @17,11531,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,11531,24,20
+  link "explicitly set attr-element" #explicitly-set-attr-element5 @53,11531,169,20
+text For element only: the following , given , , , , and , are used to synchronize between the content attribute and the IDL attribute: @17,11563,694,41
+row @17,11616,694,20
+  link "reflected targets" #reflected-target11 @17,11616,110,20
+  link "attribute change steps" https://dom.spec.whatwg.org/#concept-element-attributes-change-ext @139,11616,149,20
+  text element @300,11616,53,20
+  text localName @365,11616,70,20
+  text oldValue @447,11616,58,20
+  text value @517,11616,36,20
+  text namespace @565,11616,77,20
+text If is not or is not null, then return. @17,11648,694,21
+row @17,11681,694,20
+  text localName @17,11681,70,20
+  text attr @99,11681,23,20
+  text namespace @134,11681,77,20
+text Set 's to null. @17,11713,694,20
+row @17,11745,694,21
+  text element @17,11745,53,21
+  link "explicitly set attr-element" #explicitly-set-attr-element6 @82,11745,169,21
+text of this type are strongly encouraged to have their identifier end in "" for consistency. success @17,11778,694,20
+row @17,11810,694,20
+  link "Reflected IDL attributes" #reflected-idl-attribute30 @17,11810,156,20
+  text Element @185,11810,54,20
+text If a has the type , where is either or an interface that inherits from , then with being the : @17,11842,694,20
+link "reflected IDL attribute" #reflected-idl-attribute31 @17,11874,694,21
+text FrozenArray<>? @17,11907,694,20
+text T @17,11939,694,20
+text T @17,11971,694,21
+link Element https://dom.spec.whatwg.org/#interface-element @17,12004,694,20
+link Element https://dom.spec.whatwg.org/#interface-element @17,12036,694,20
+text attr @17,12068,694,21
+link "reflected content attribute name" #reflected-content-attribute-name13 @17,12101,694,20
+text Its has an , which is either a of weak references to elements or null. It is initially null. @17,12133,694,20
+row @17,12165,694,20
+  link "reflected target" #reflected-target12 @17,12165,103,20
+  text explicitly set -elements @132,12165,154,20
+  text attr @298,12165,23,20
+  link list https://infra.spec.whatwg.org/#list @333,12165,19,20
+text Its has a , which is a of elements. It is initially « ». @17,12197,694,21
+row @17,12230,694,20
+  link "reflected target" #reflected-target13 @17,12230,103,20
+  text cached -associated elements @132,12230,196,20
+  text attr @340,12230,23,20
+  link list https://infra.spec.whatwg.org/#list @375,12230,19,20
+text Its has a , which is a . It is initially null. @17,12262,694,20
+row @17,12294,694,21
+  link "reflected target" #reflected-target14 @17,12294,103,21
+  text cached -associated elements object @132,12294,241,21
+  text attr @385,12294,23,21
+  text FrozenArray<>? @420,12294,108,21
+  text T @540,12294,10,21
+text Its has a algorithm, which runs these steps: @17,12327,694,20
+row @17,12359,694,20
+  link "reflected target" #reflected-target15 @17,12359,103,20
+  text reflectedTarget @132,12359,103,20
+  text get the -associated elements @247,12359,193,20
+  text attr @452,12359,23,20
+text Let be an empty . @17,12391,694,21
+row @17,12424,694,20
+  text elements @17,12424,61,20
+  link list https://infra.spec.whatwg.org/#list @90,12424,19,20
+text Let be the result of running 's . @17,12456,694,20
+row @17,12488,694,20
+  text element @17,12488,53,20
+  text reflectedTarget @82,12488,103,20
+  link "get the element" #get-the-element7 @197,12488,104,20
+text If 's is not null: @17,12520,694,21
+row @17,12553,694,20
+  text reflectedTarget @17,12553,103,20
+  link "explicitly set attr-elements" #explicitly-set-attr-elements @132,12553,176,20
+text in 's : @17,12585,694,20
+row @17,12617,694,21
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,12617,59,21
+  text attrElement @88,12617,76,21
+  text reflectedTarget @176,12617,103,21
+  link "explicitly set attr-elements" #explicitly-set-attr-elements2 @291,12617,176,21
+text If is not a of any of 's , then . @17,12650,694,20
+row @17,12682,694,20
+  text attrElement @17,12682,76,20
+  link descendant https://dom.spec.whatwg.org/#concept-tree-descendant @105,12682,78,20
+  text element @195,12682,53,20
+  link "shadow-including ancestors" https://dom.spec.whatwg.org/#concept-shadow-including-ancestor @260,12682,188,20
+  link continue https://infra.spec.whatwg.org/#iteration-continue @460,12682,58,20
+text to . @17,12714,694,21
+row @17,12747,694,20
+  link Append https://infra.spec.whatwg.org/#list-append @17,12747,52,20
+  text attrElement @81,12747,76,20
+  text elements @169,12747,61,20
+text Otherwise: @17,12779,694,20
+text Let be the result of running 's . @17,12811,694,20
+row @17,12843,694,21
+  text contentAttributeValue @17,12843,145,21
+  text reflectedTarget @174,12843,103,21
+  link "get the content attribute" #get-the-content-attribute11 @289,12843,160,21
+text If is null, then return null. @17,12876,694,20
+text contentAttributeValue @17,12908,694,20
+text Let be , . @17,12940,694,21
+row @17,12973,694,20
+  text tokens @17,12973,45,20
+  text contentAttributeValue @74,12973,145,20
+  link "split on ASCII whitespace" https://infra.spec.whatwg.org/#split-on-ascii-whitespace @231,12973,169,20
+text of : @17,13005,694,20
+row @17,13037,694,21
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,13037,59,21
+  text id @88,13037,12,21
+  text tokens @112,13037,45,21
+text Let be the first element, in , that meets the following criteria: @17,13070,694,20
+row @17,13102,694,20
+  text candidate @17,13102,66,20
+  link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @95,13102,66,20
+text 's is the same as 's ; @17,13134,694,20
+row @17,13166,694,21
+  text candidate @17,13166,66,21
+  link root https://dom.spec.whatwg.org/#concept-tree-root @95,13166,27,21
+  text element @134,13166,53,21
+  link root https://dom.spec.whatwg.org/#concept-tree-root @199,13166,27,21
+text 's is ; and @17,13199,694,20
+row @17,13231,694,20
+  text candidate @17,13231,66,20
+  link ID https://dom.spec.whatwg.org/#concept-id @95,13231,14,20
+  text id @121,13231,12,20
+text . @17,13263,694,21
+row @17,13296,694,20
+  text candidate @17,13296,66,20
+  link implements https://webidl.spec.whatwg.org/#implements @95,13296,77,20
+  text T @184,13296,10,20
+text If no such element exists, then . @17,13328,694,20
+link continue https://infra.spec.whatwg.org/#iteration-continue @17,13360,694,21
+text to . @17,13393,694,20
+row @17,13425,694,20
+  link Append https://infra.spec.whatwg.org/#list-append @17,13425,52,20
+  text candidate @81,13425,66,20
+  text elements @159,13425,61,20
+text Return . @17,13457,694,20
+text elements @17,13489,694,21
+text The getter steps are: @17,13522,694,20
+text Let be the result of running 's . @17,13554,694,20
+row @17,13586,694,21
+  text elements @17,13586,61,21
+  link this https://webidl.spec.whatwg.org/#this @90,13586,24,21
+  link "get the attr-associated elements" #attr-associated-elements @126,13586,215,21
+text If the contents of is equal to the contents of 's , then return 's . @17,13619,694,20
+text elements @17,13651,694,20
+link this https://webidl.spec.whatwg.org/#this @17,13683,694,21
+link "cached attr-associated elements" #cached-attr-associated-elements @17,13716,694,20
+link this https://webidl.spec.whatwg.org/#this @17,13748,694,20
+link "cached attr-associated elements object" #cached-attr-associated-elements-object @17,13780,694,20
+text Let be , to a . @17,13812,694,21
+row @17,13845,694,20
+  text elementsAsFrozenArray @17,13845,160,20
+  text elements @189,13845,61,20
+  link converted https://webidl.spec.whatwg.org/#es-type-mapping @262,13845,68,20
+  text FrozenArray<>? @342,13845,108,20
+  text T @462,13845,10,20
+text Set 's to . @17,13877,694,20
+row @17,13909,694,21
+  link this https://webidl.spec.whatwg.org/#this @17,13909,24,21
+  link "cached attr-associated elements" #cached-attr-associated-elements2 @53,13909,218,21
+  text elements @283,13909,61,21
+text Set 's to . @17,13942,694,20
+row @17,13974,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,13974,24,20
+  link "cached attr-associated elements object" #cached-attr-associated-elements-object2 @53,13974,263,20
+  text elementsAsFrozenArray @328,13974,160,20
+text Return . @17,14006,694,21
+text elementsAsFrozenArray @17,14039,694,20
+text This extra caching layer is necessary to preserve the invariant that element.reflectedElements == element.reflectedElements. success @17,14071,694,40
+text The setter steps are: @17,14123,694,21
+text If the given value is null: @17,14156,694,20
+text Set 's to null. @17,14188,694,20
+row @17,14220,694,21
+  link this https://webidl.spec.whatwg.org/#this @17,14220,24,21
+  link "explicitly set attr-elements" #explicitly-set-attr-elements3 @53,14220,176,21
+text Run 's . @17,14253,694,20
+row @17,14285,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,14285,24,20
+  link "delete the content attribute" #delete-the-content-attribute6 @53,14285,180,20
+text Return. @17,14317,694,21
+text Run 's with the empty string. @17,14350,694,20
+row @17,14382,694,20
+  link this https://webidl.spec.whatwg.org/#this @17,14382,24,20
+  link "set the content attribute" #set-the-content-attribute11 @53,14382,159,20
+text Let be an empty . @17,14414,694,20
+row @17,14446,694,21
+  text elements @17,14446,61,21
+  link list https://infra.spec.whatwg.org/#list @90,14446,19,21
+text in the given value: @17,14479,694,20
+row @17,14511,694,20
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,14511,59,20
+  text element @88,14511,53,20
+text a weak reference to to . @17,14543,694,21
+row @17,14576,694,20
+  link Append https://infra.spec.whatwg.org/#list-append @17,14576,52,20
+  text element @81,14576,53,20
+  text elements @146,14576,61,20
+text Set 's to . @17,14608,694,20
+row @17,14640,694,21
+  link this https://webidl.spec.whatwg.org/#this @17,14640,24,21
+  link "explicitly set attr-elements" #explicitly-set-attr-elements4 @53,14640,176,21
+  text elements @241,14640,61,21
+text For element only: the following , given , , , , and , are used to synchronize between the content attribute and the IDL attribute: @17,14673,694,40
+row @17,14725,694,20
+  link "reflected targets" #reflected-target16 @17,14725,110,20
+  link "attribute change steps" https://dom.spec.whatwg.org/#concept-element-attributes-change-ext @139,14725,149,20
+  text element @300,14725,53,20
+  text localName @365,14725,70,20
+  text oldValue @447,14725,58,20
+  text value @517,14725,36,20
+  text namespace @565,14725,77,20
+text If is not or is not null, then return. @17,14757,694,21
+row @17,14790,694,20
+  text localName @17,14790,70,20
+  text attr @99,14790,23,20
+  text namespace @134,14790,77,20
+text Set 's to null. @17,14822,694,20
+row @17,14854,694,21
+  text element @17,14854,53,21
+  link "explicitly set attr-elements" #explicitly-set-attr-elements5 @82,14854,176,21
+text of this type are strongly encouraged to have their identifier end in "" for consistency. success @17,14887,694,20
+row @17,14919,694,20
+  link "Reflected IDL attributes" #reflected-idl-attribute32 @17,14919,156,20
+  text Elements @185,14919,61,20
+h3 2.6.2 Using reflect via IDL extended attributes @17,14951,694,19
+text can be used from IDL through . , , , , , and all trigger . These must either take no arguments, or take a string; they must not appear on anything other than an interface member attribute; and only one of these can be used at a time. @17,14982,694,61
+link Reflection #reflect3 @17,15055,694,20
+link "extended attributes" https://webidl.spec.whatwg.org/#dfn-extended-attribute @17,15087,694,20
+text [Reflect] @17,15119,694,21
+text [ReflectSetter] @17,15152,694,20
+text [ReflectURL] @17,15184,694,20
+text [ReflectNonNegative] @17,15216,694,21
+text [ReflectPositive] @17,15249,694,20
+text [ReflectPositiveWithFallback] @17,15281,694,20
+link reflection #reflect5 @17,15313,694,21
+text For one of these primary reflection , its is the string value it takes, if one is provided; otherwise it is the IDL attribute name . @17,15346,694,40
+link "extended attributes" https://webidl.spec.whatwg.org/#dfn-extended-attribute @17,15398,694,20
+link "reflected content attribute name" #reflected-content-attribute-name14 @17,15430,694,21
+link "converted to ASCII lowercase" https://infra.spec.whatwg.org/#ascii-lowercase @17,15463,694,20
+text IDL attributes with the must 's . @17,15495,694,20
+row @17,15527,694,21
+  link [Reflect] #xattr-reflect @17,15527,57,21
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @86,15527,122,21
+  link reflect #reflect6 @220,15527,43,21
+  link [Reflect] #xattr-reflect2 @275,15527,57,21
+  link "reflected content attribute name" #reflected-content-attribute-name15 @344,15527,214,21
+text IDL attributes with the on setting must 's . @17,15560,694,20
+row @17,15592,694,20
+  link [ReflectSetter] #xattr-reflectsetter @17,15592,97,20
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @126,15592,122,20
+  link reflect #reflect7 @260,15592,43,20
+  link [ReflectSetter] #xattr-reflectsetter2 @315,15592,97,20
+  link "reflected content attribute name" #reflected-content-attribute-name16 @424,15592,214,20
+text The must only appear on attributes with a type of . @17,15624,694,21
+row @17,15657,694,20
+  link [ReflectURL] #xattr-reflecturl @17,15657,85,20
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @114,15657,122,20
+  link USVString https://webidl.spec.whatwg.org/#idl-USVString @248,15657,69,20
+text IDL attributes with the must , , 's . @17,15689,694,20
+row @17,15721,694,20
+  link [ReflectURL] #xattr-reflecturl2 @17,15721,85,20
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @114,15721,122,20
+  link reflect #reflect8 @248,15721,43,20
+  link "as a URL" #treated-as-a-url2 @303,15721,59,20
+  link [ReflectURL] #xattr-reflecturl3 @374,15721,85,20
+  link "reflected content attribute name" #reflected-content-attribute-name17 @471,15721,214,20
+text The must only appear on attributes with a type of . @17,15753,694,21
+row @17,15786,694,20
+  link [ReflectNonNegative] #xattr-reflectnonnegative @17,15786,144,20
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @173,15786,122,20
+  link long https://webidl.spec.whatwg.org/#idl-long @307,15786,29,20
+text IDL attributes with the must , , 's . @17,15818,694,20
+link [ReflectNonNegative] #xattr-reflectnonnegative2 @17,15850,694,21
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @17,15883,694,20
+link reflect #reflect9 @17,15915,694,20
+link "limited to only non-negative numbers" #limited-to-only-non-negative-numbers4 @17,15947,694,21
+link [ReflectNonNegative] #xattr-reflectnonnegative3 @17,15980,694,20
+link "reflected content attribute name" #reflected-content-attribute-name18 @17,16012,694,20
+text The and must only appear on attributes with a type of or . @17,16044,694,20
+link [ReflectPositive] #xattr-reflectpositive @17,16076,694,21
+link [ReflectPositiveWithFallback] #xattr-reflectpositivewithfallback @17,16109,694,20
+link "extended attributes" https://webidl.spec.whatwg.org/#dfn-extended-attribute @17,16141,694,20
+link double https://webidl.spec.whatwg.org/#idl-double @17,16173,694,21
+link "unsigned long" https://webidl.spec.whatwg.org/#idl-unsigned-long @17,16206,694,20
+text IDL attributes with the must , , 's . @17,16238,694,20
+link [ReflectPositive] #xattr-reflectpositive2 @17,16270,694,21
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @17,16303,694,20
+link reflect #reflect10 @17,16335,694,20
+link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero7 @17,16367,694,20
+link [ReflectPositive] #xattr-reflectpositive3 @17,16399,694,21
+link "reflected content attribute name" #reflected-content-attribute-name19 @17,16432,694,20
+text IDL attributes with the must , , 's . @17,16464,694,20
+link [ReflectPositiveWithFallback] #xattr-reflectpositivewithfallback2 @17,16496,694,21
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @17,16529,694,20
+link reflect #reflect11 @17,16561,694,20
+link "limited to only positive numbers with fallback" #limited-to-only-non-negative-numbers-greater-than-zero-with-fallback3 @17,16593,694,21
+link [ReflectPositiveWithFallback] #xattr-reflectpositivewithfallback3 @17,16626,694,20
+link "reflected content attribute name" #reflected-content-attribute-name20 @17,16658,694,20
+text To supplement the above we also introduce , and . These augment how works and also must only appear on interface member attributes. @17,16690,694,41
+row @17,16743,694,20
+  link "extended attributes" https://webidl.spec.whatwg.org/#dfn-extended-attribute @17,16743,129,20
+  text [ReflectRange] @158,16743,99,20
+  text [ReflectDefault] @269,16743,105,20
+  link reflection #reflect12 @386,16743,63,20
+text The must take an integer list limited to two values. It must only be used on attributes with a type of . Additionally, it must also only appear alongside . @17,16775,694,41
+link [ReflectRange] #xattr-reflectrange @17,16828,694,20
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @17,16860,694,20
+link "unsigned long" https://webidl.spec.whatwg.org/#idl-unsigned-long @17,16892,694,21
+link [Reflect] #xattr-reflect3 @17,16925,694,20
+text IDL attributes with the are [, ] where is the first, and is the second argument to the list provided to . @17,16957,694,20
+link [ReflectRange] #xattr-reflectrange2 @17,16989,694,20
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @17,17021,694,21
+link "clamped to the range" #clamped-to-the-range5 @17,17054,694,20
+text clampedMin @17,17086,694,20
+text clampedMax @17,17118,694,21
+text clampedMin @17,17151,694,20
+text clampedMax @17,17183,694,20
+link [ReflectRange] #xattr-reflectrange3 @17,17215,694,21
+text The must only be used on attributes with a type of , , or . When used on an attribute of type , it must take a decimal; otherwise it must take an integer. Additionally, it must also only appear alongside , , , or . @17,17248,694,40
+link [ReflectDefault] #xattr-reflectdefault @17,17300,694,20
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @17,17332,694,21
+link double https://webidl.spec.whatwg.org/#idl-double @17,17365,694,20
+link long https://webidl.spec.whatwg.org/#idl-long @17,17397,694,20
+link "unsigned long" https://webidl.spec.whatwg.org/#idl-unsigned-long @17,17429,694,21
+link double https://webidl.spec.whatwg.org/#idl-double @17,17462,694,20
+link [Reflect] #xattr-reflect4 @17,17494,694,20
+link [ReflectNonNegative] #xattr-reflectnonnegative4 @17,17526,694,21
+link [ReflectPositive] #xattr-reflectpositive4 @17,17559,694,20
+link [ReflectPositiveWithFallback] #xattr-reflectpositivewithfallback4 @17,17591,694,20
+text IDL attributes with the have a provided by the argument provided to . @17,17623,694,21
+row @17,17656,694,20
+  link [ReflectDefault] #xattr-reflectdefault2 @17,17656,105,20
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @134,17656,122,20
+  link "default value" #default-value7 @268,17656,86,20
+  link [ReflectDefault] #xattr-reflectdefault3 @366,17656,105,20
+h3 2.6.3 Using reflect in specifications @17,17688,694,19
+text is primarily about improving web developer ergonomics by giving them typed access to content attributes through . The ultimate source of truth, which the web platform builds upon, is the content attributes themselves. That is, specification authors must not use the getter or setter steps, but instead must use the content attribute presence and value. (Or an abstraction on top, such as the state of an .) @17,17719,694,81
+link Reflection #reflect13 @17,17812,694,20
+link "reflected IDL attributes" #reflected-idl-attribute33 @17,17844,694,20
+link "reflected IDL attribute" #reflected-idl-attribute34 @17,17876,694,21
+link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute @17,17909,694,20
+text Two important exceptions to this are whose type is one of the following: @17,17941,694,20
+link "reflected IDL attributes" #reflected-idl-attribute35 @17,17973,694,21
+text , where is either or an interface that inherits from @17,18006,694,20
+row @17,18038,694,20
+  text ? @17,18038,8,20
+  text T @37,18038,10,20
+  text T @59,18038,10,20
+  link Element https://dom.spec.whatwg.org/#interface-element @81,18038,54,20
+  link Element https://dom.spec.whatwg.org/#interface-element @147,18038,54,20
+text , where is either or an interface that inherits from @17,18070,694,20
+row @17,18102,694,21
+  text FrozenArray<>? @17,18102,108,21
+  text T @137,18102,10,21
+  text T @159,18102,10,21
+  link Element https://dom.spec.whatwg.org/#interface-element @181,18102,54,21
+  link Element https://dom.spec.whatwg.org/#interface-element @247,18102,54,21
+text For those, specification authors must use the 's and , respectively. The content attribute presence and value must not be used as they cannot be fully synchronized with the . @17,18135,694,40
+link "reflected target" #reflected-target17 @17,18187,694,21
+link "get the attr-associated element" #attr-associated-element2 @17,18220,694,20
+link "get the attr-associated elements" #attr-associated-elements2 @17,18252,694,20
+link "reflected IDL attribute" #reflected-idl-attribute36 @17,18284,694,21
+text A 's , , , and are to be treated as internal implementation details and not to be built upon. @17,18317,694,20
+link "reflected target" #reflected-target18 @17,18349,694,20
+link "explicitly set attr-element" #explicitly-set-attr-element7 @17,18381,694,20
+link "explicitly set attr-elements" #explicitly-set-attr-elements6 @17,18413,694,21
+link "cached attr-associated elements" #cached-attr-associated-elements3 @17,18446,694,20
+link "cached attr-associated elements object" #cached-attr-associated-elements-object3 @17,18478,694,20
+h3 2.6.4 Collections @17,18510,694,19
+text The and interfaces are derived from the interface. The interface is a , but is not so derived. @17,18541,694,20
+link HTMLFormControlsCollection #htmlformcontrolscollection @17,18573,694,21
+link HTMLOptionsCollection #htmloptionscollection @17,18606,694,20
+link collections https://dom.spec.whatwg.org/#concept-collection @17,18638,694,20
+link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection @17,18670,694,21
+link HTMLAllCollection #htmlallcollection @17,18703,694,20
+link collection https://dom.spec.whatwg.org/#concept-collection @17,18735,694,20
+h3 2.6.4.1 The HTMLAllCollection interface @17,18767,694,19
+text The interface is used for the legacy attribute. It operates similarly to ; the main differences are that it allows a staggering variety of different (ab)uses of its methods to all end up returning something, and that it can be called as a function as an alternative to property access. @17,18798,694,61
+row @17,18871,694,20
+  link HTMLAllCollection #htmlallcollection2 @17,18871,123,20
+  link document.all obsolete.html#dom-document-all @152,18871,86,20
+  link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection @250,18871,107,20
+text All objects are rooted at a and have a filter that matches all elements, so the elements of an object consist of all the descendant elements of the root . success @17,18903,694,41
+link HTMLAllCollection #htmlallcollection3 @17,18956,694,20
+link Document dom.html#document @17,18988,694,20
+link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection @17,19020,694,21
+link HTMLAllCollection #htmlallcollection4 @17,19053,694,20
+link Document dom.html#document @17,19085,694,20
+text Objects that implement the interface are with an additional [[Call]] internal method described in the . They also have an internal slot. @17,19117,694,41
+link HTMLAllCollection #htmlallcollection5 @17,19170,694,20
+link "legacy platform objects" https://webidl.spec.whatwg.org/#dfn-legacy-platform-object @17,19202,694,20
+link "section below" #HTMLAllCollection-call @17,19234,694,21
+link [[IsHTMLDDA]] https://tc39.es/ecma262/#sec-IsHTMLDDA-internal-slot @17,19267,694,20
+text Objects that implement the interface have several unusual behaviors, due of the fact that they have an internal slot: success @17,19299,694,41
+row @17,19352,694,20
+  link HTMLAllCollection #htmlallcollection6 @17,19352,123,20
+  link [[IsHTMLDDA]] https://tc39.es/ecma262/#sec-IsHTMLDDA-internal-slot @152,19352,102,20
+text The abstract operation in JavaScript returns false when given objects implementing the interface. success @17,19384,694,20
+row @17,19416,694,21
+  link ToBoolean https://tc39.es/ecma262/#sec-toboolean @17,19416,72,21
+  link HTMLAllCollection #htmlallcollection7 @101,19416,123,21
+text The abstract operation, when given objects implementing the interface, returns true when compared to the and values. (Comparisons using the abstract operation, and IsLooselyEqual comparisons to other values such as strings or objects, are unaffected.) success @17,19449,694,60
+link IsLooselyEqual https://tc39.es/ecma262/#sec-islooselyequal @17,19521,694,21
+link HTMLAllCollection #htmlallcollection8 @17,19554,694,20
+text undefined @17,19586,694,20
+text null @17,19618,694,21
+link IsStrictlyEqual https://tc39.es/ecma262/#sec-isstrictlyequal @17,19651,694,20
+text The operator in JavaScript returns the string when applied to objects implementing the interface. success @17,19683,694,20
+row @17,19715,694,21
+  link typeof https://tc39.es/ecma262/#sec-typeof-operator @17,19715,43,21
+  text "undefined" @72,19715,80,21
+  link HTMLAllCollection #htmlallcollection9 @164,19715,123,21
+text These special behaviors are motivated by a desire for compatibility with two classes of legacy content: one that uses the presence of as a way to detect legacy user agents, and one that only supports those legacy user agents and uses the object without testing for its presence first. success @17,19748,694,60
+link document.all obsolete.html#dom-document-all @17,19820,694,21
+link document.all obsolete.html#dom-document-all @17,19853,694,20
+link [JAVASCRIPT] references.html#refsJAVASCRIPT @17,19885,694,20
+text ] { ; ( ); ( )? ( ); ( )? ( ); // Note: HTMLAllCollection objects have a and an internal slot. }; @17,19917,694,21
+text Exposed @17,19950,694,20
+text Window primary @17,19982,694,20
+link LegacyUnenumerableNamedProperties https://webidl.spec.whatwg.org/#LegacyUnenumerableNamedProperties @17,20014,694,21
+text interface danger @17,20047,694,20
+text HTMLAllCollection @17,20079,694,20
+text readonly danger @17,20111,694,21
+text attribute danger @17,20144,694,20
+text unsigned danger @17,20176,694,20
+text long danger @17,20208,694,20
+link length #dom-htmlallcollection-length @17,20240,694,21
+text getter danger @17,20273,694,20
+link Element https://dom.spec.whatwg.org/#interface-element @17,20305,694,20
+text unsigned danger @17,20337,694,21
+text long danger @17,20370,694,20
+text index @17,20402,694,20
+text getter danger @17,20434,694,21
+link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection @17,20467,694,20
+text or danger @17,20499,694,20
+link Element https://dom.spec.whatwg.org/#interface-element @17,20531,694,20
+link namedItem #dom-htmlallcollection-nameditem @17,20563,694,21
+text DOMString danger @17,20596,694,20
+text name @17,20628,694,20
+link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection @17,20660,694,21
+text or danger @17,20693,694,20
+link Element https://dom.spec.whatwg.org/#interface-element @17,20725,694,20
+link item #dom-htmlallcollection-item @17,20757,694,21
+text optional danger @17,20790,694,20
+text DOMString danger @17,20822,694,20
+text nameOrIndex @17,20854,694,20
+link "custom [[Call]] internal method" #HTMLAllCollection-call2 @17,20886,694,21
+link [[IsHTMLDDA]] https://tc39.es/ecma262/#sec-IsHTMLDDA-internal-slot @17,20919,694,20
+text The object's are as defined for objects. @17,20951,694,20
+row @17,20983,694,21
+  link "supported property indices" https://webidl.spec.whatwg.org/#dfn-supported-property-indices @17,20983,180,21
+  link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection @209,20983,107,21
+text The consist of the non-empty values of all the attributes of all the elements , and the non-empty values of all the attributes of all the , in , ignoring later duplicates, with the of an element preceding its if it contributes both, they differ from each other, and neither is the duplicate of an earlier entry. @17,21016,694,61
+link "supported property names" https://webidl.spec.whatwg.org/#dfn-supported-property-names @17,21089,694,20
+link id dom.html#the-id-attribute @17,21121,694,20
+link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection @17,21153,694,20
+text name @17,21185,694,21
+link "\"all\"-named elements" #all-named-elements @17,21218,694,20
+link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection @17,21250,694,20
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @17,21282,694,21
+link id dom.html#the-id-attribute @17,21315,694,20
+text name @17,21347,694,20
+text The getter steps are to return the number of nodes . @17,21379,694,21
+row @17,21412,694,20
+  text length @17,21412,42,20
+  link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection @71,21412,194,20
+text The indexed property getter must return the result of from given the passed index. @17,21444,694,20
+row @17,21476,694,20
+  link "getting the \"all\"-indexed element" #concept-get-all-indexed @17,21476,219,20
+  link this https://webidl.spec.whatwg.org/#this @248,21476,24,20
+text The method steps are to return the result of from given . @17,21508,694,21
+row @17,21541,694,20
+  text namedItem() danger @17,21541,85,20
+  text name danger @114,21541,37,20
+  link "getting the \"all\"-named element(s)" #concept-get-all-named @163,21541,229,20
+  link this https://webidl.spec.whatwg.org/#this @404,21541,24,20
+  text name @440,21541,37,20
+text The method steps are: @17,21573,694,20
+text item() danger @17,21605,694,21
+text nameOrIndex danger @17,21638,694,20
+text If was not provided, return null. @17,21670,694,20
+text nameOrIndex @17,21702,694,21
+text Return the result of from , given . @17,21735,694,20
+row @17,21767,694,20
+  link "getting the \"all\"-indexed or named element(s)" #concept-get-all-indexed-or-named @17,21767,304,20
+  link this https://webidl.spec.whatwg.org/#this @333,21767,24,20
+  text nameOrIndex @369,21767,89,20
+text The following elements are : , , , , , , , , , , , , , and @17,21799,694,20
+text "all"-named elements @17,21831,694,21
+link a text-level-semantics.html#the-a-element @17,21864,694,20
+link button form-elements.html#the-button-element @17,21896,694,20
+link embed iframe-embed-object.html#the-embed-element @17,21928,694,21
+link form forms.html#the-form-element @17,21961,694,20
+link frame obsolete.html#frame @17,21993,694,20
+link frameset obsolete.html#frameset @17,22025,694,21
+link iframe iframe-embed-object.html#the-iframe-element @17,22058,694,20
+link img embedded-content.html#the-img-element @17,22090,694,20
+link input input.html#the-input-element @17,22122,694,20
+link map image-maps.html#the-map-element @17,22154,694,21
+link meta semantics.html#the-meta-element @17,22187,694,20
+link object iframe-embed-object.html#the-object-element @17,22219,694,20
+link select form-elements.html#the-select-element @17,22251,694,21
+link textarea form-elements.html#the-textarea-element @17,22284,694,20
+text To from an given an index , return the element in , or null if there is no such element. @17,22316,694,20
+text get the "all"-indexed element @17,22348,694,21
+link HTMLAllCollection #htmlallcollection11 @17,22381,694,20
+text collection @17,22413,694,20
+text index @17,22445,694,20
+text index @17,22477,694,21
+text th @17,22510,694,20
+text collection @17,22542,694,20
+text index @17,22574,694,21
+text th @17,22607,694,20
+text To from an given a name , perform the following steps: @17,22639,694,20
+row @17,22671,694,21
+  text get the "all"-named element(s) @17,22671,205,21
+  link HTMLAllCollection #htmlallcollection12 @234,22671,123,21
+  text collection @369,22671,64,21
+  text name @445,22671,37,21
+text If is the empty string, return null. @17,22704,694,20
+text name @17,22736,694,20
+text Let be an object rooted at the same as , whose filter matches only elements that are either: @17,22768,694,20
+row @17,22800,694,21
+  text subCollection @17,22800,91,21
+  link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection @120,22800,107,21
+  link Document dom.html#document @239,22800,69,21
+  text collection @320,22800,64,21
+text with a attribute equal to , or @17,22833,694,20
+row @17,22865,694,20
+  link "\"all\"-named elements" #all-named-elements2 @17,22865,144,20
+  text name @173,22865,37,20
+  text name @222,22865,37,20
+text elements with an equal to . @17,22897,694,21
+row @17,22930,694,20
+  link ID https://dom.spec.whatwg.org/#concept-id @17,22930,14,20
+  text name @43,22930,37,20
+text If there is exactly one element in , then return that element. @17,22962,694,20
+text subCollection @17,22994,694,21
+text Otherwise, if is empty, return null. @17,23027,694,20
+text subCollection @17,23059,694,20
+text Otherwise, return . @17,23091,694,20
+text subCollection @17,23123,694,21
+text To from an given : @17,23156,694,20
+row @17,23188,694,20
+  text get the "all"-indexed or named element(s) @17,23188,279,20
+  link HTMLAllCollection #htmlallcollection13 @308,23188,123,20
+  text collection @443,23188,64,20
+  text nameOrIndex @519,23188,89,20
+text If , to a JavaScript String value, is an , return the result of from given the number represented by . @17,23220,694,21
+text nameOrIndex @17,23253,694,20
+link converted https://webidl.spec.whatwg.org/#es-type-mapping @17,23285,694,20
+link "array index property name" https://webidl.spec.whatwg.org/#dfn-array-index-property-name @17,23317,694,21
+link "getting the \"all\"-indexed element" #concept-get-all-indexed2 @17,23350,694,20
+text collection @17,23382,694,20
+text nameOrIndex @17,23414,694,20
+text Return the result of from given . @17,23446,694,21
+row @17,23479,694,20
+  link "getting the \"all\"-named element(s)" #concept-get-all-named2 @17,23479,229,20
+  text collection @258,23479,64,20
+  text nameOrIndex @334,23479,89,20
+h3 2.6.4.1.1 [[Call]] ( thisArgument, argumentsList ) @17,23511,694,19
+text If 's is zero, or if [0] is undefined, return null. @17,23542,694,20
+row @17,23574,694,20
+  text argumentsList @17,23574,94,20
+  link size https://infra.spec.whatwg.org/#list-size @123,23574,27,20
+  text argumentsList @162,23574,94,20
+text Let be the result of [0] to a . @17,23606,694,21
+row @17,23639,694,20
+  text nameOrIndex @17,23639,89,20
+  link converting https://webidl.spec.whatwg.org/#es-type-mapping @118,23639,71,20
+  text argumentsList @201,23639,94,20
+  link DOMString https://webidl.spec.whatwg.org/#idl-DOMString @307,23639,73,20
+text Let be the result of from this given . @17,23671,694,20
+row @17,23703,694,21
+  text result @17,23703,38,21
+  link "getting the \"all\"-indexed or named element(s)" #concept-get-all-indexed-or-named2 @67,23703,304,21
+  link HTMLAllCollection #htmlallcollection14 @383,23703,123,21
+  text nameOrIndex @518,23703,89,21
+text Return the result of to an ECMAScript value. @17,23736,694,20
+row @17,23768,694,20
+  link converting https://webidl.spec.whatwg.org/#es-type-mapping @17,23768,71,20
+  text result @100,23768,38,20
+text The is ignored, and thus code such as will still search for elements. ( does not exist, since does not inherit from .) success @17,23800,694,41
+text thisArgument success @17,23853,694,20
+text Function.prototype.call.call(document.all, null, "x") @17,23885,694,20
+text document.all.call @17,23917,694,21
+text document.all @17,23950,694,20
+text Function.prototype @17,23982,694,20
+h3 2.6.4.2 The HTMLFormControlsCollection interface @17,24014,694,19
+text The interface is used for of in elements. @17,24045,694,20
+row @17,24077,694,21
+  link HTMLFormControlsCollection #htmlformcontrolscollection2 @17,24077,197,21
+  link collections https://dom.spec.whatwg.org/#concept-collection @226,24077,72,21
+  link "listed elements" forms.html#category-listed @310,24077,100,21
+  link form forms.html#the-form-element @422,24077,32,21
+button ✔MDN @17,24110,694,36
+text : { // inherits and () ( )? ( ); // shadows inherited }; : { ; }; @17,24158,694,20
+text Exposed @17,24190,694,21
+text Window primary @17,24223,694,20
+text interface danger @17,24255,694,20
+text HTMLFormControlsCollection @17,24287,694,20
+link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection @17,24319,694,21
+link length https://dom.spec.whatwg.org/#dom-htmlcollection-length @17,24352,694,20
+link item https://dom.spec.whatwg.org/#dom-htmlcollection-item @17,24384,694,20
+text getter danger @17,24416,694,21
+link RadioNodeList #radionodelist @17,24449,694,20
+text or danger @17,24481,694,20
+link Element https://dom.spec.whatwg.org/#interface-element @17,24513,694,21
+link namedItem #dom-htmlformcontrolscollection-nameditem @17,24546,694,20
+text DOMString danger @17,24578,694,20
+text name @17,24610,694,21
+link namedItem() https://dom.spec.whatwg.org/#dom-htmlcollection-nameditem @17,24643,694,20
+text Exposed @17,24675,694,20
+text Window primary @17,24707,694,20
+text interface danger @17,24739,694,21
+text RadioNodeList @17,24772,694,20
+link NodeList https://dom.spec.whatwg.org/#interface-nodelist @17,24804,694,20
+text attribute danger @17,24836,694,21
+text DOMString danger @17,24869,694,20
+link value #dom-radionodelist-value @17,24901,694,20
+text . @17,24933,694,21
+row @17,24966,694,20
+  text collection @17,24966,64,20
+  link length https://dom.spec.whatwg.org/#dom-htmlcollection-length @93,24966,42,20
+text Returns the number of elements in . success @17,24998,694,20
+text collection success @17,25030,694,20
+text  .() @17,25062,694,21
+row @17,25095,694,20
+  text element @17,25095,53,20
+  text collection @82,25095,64,20
+  link item https://dom.spec.whatwg.org/#dom-htmlcollection-item @158,25095,29,20
+  text index @199,25095,37,20
+text  [] @17,25127,694,20
+row @17,25159,694,21
+  text element @17,25159,53,21
+  text collection @82,25159,64,21
+  text index @158,25159,37,21
+text Returns the item at index in . The items are sorted in . success @17,25192,694,20
+row @17,25224,694,20
+  text index success @17,25224,37,20
+  text collection success @66,25224,64,20
+  link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @142,25224,66,20
+row @17,25256,694,37
+  text  .() @17,25264,15,21
+  row @44,25264,264,21
+    text element @44,25264,53,21
+    text collection @109,25264,64,21
+    link namedItem #dom-htmlformcontrolscollection-nameditem2 @185,25264,74,21
+    text name @271,25264,37,21
+  button ✔MDN @320,25256,73,37
+text  .() @17,25305,694,20
+row @17,25337,694,20
+  text radioNodeList @17,25337,93,20
+  text collection @122,25337,64,20
+  link namedItem #dom-htmlformcontrolscollection-nameditem3 @198,25337,74,20
+  text name @284,25337,37,20
+text  [] @17,25369,694,20
+row @17,25401,694,21
+  text element @17,25401,53,21
+  text collection @82,25401,64,21
+  text name @158,25401,37,21
+text  [] @17,25434,694,20
+row @17,25466,694,20
+  text radioNodeList @17,25466,93,20
+  text collection @122,25466,64,20
+  text name @198,25466,37,20
+text Returns the item with or from . success @17,25498,694,21
+row @17,25531,694,20
+  link ID https://dom.spec.whatwg.org/#concept-id @17,25531,14,20
+  link name form-control-infrastructure.html#attr-fe-name @43,25531,37,20
+  text name success @92,25531,37,20
+  text collection success @141,25531,64,20
+text If there are multiple matching items, then a object containing all those elements is returned. success @17,25563,694,20
+link RadioNodeList #radionodelist5 @17,25595,694,21
+text . @17,25628,694,20
+row @17,25660,694,20
+  text radioNodeList @17,25660,93,20
+  link value #dom-radionodelist-value2 @122,25660,36,20
+text Returns the value of the first checked radio button represented by . success @17,25692,694,20
+text radioNodeList success @17,25724,694,21
+text .  @17,25757,694,20
+row @17,25789,694,20
+  text radioNodeList @17,25789,93,20
+  link value #dom-radionodelist-value3 @122,25789,36,20
+  text value @170,25789,36,20
+text Checks the first radio button represented by that has value . success @17,25821,694,21
+row @17,25854,694,20
+  text radioNodeList success @17,25854,93,20
+  text value success @122,25854,36,20
+text The object's are as defined for objects. @17,25886,694,20
+row @17,25918,694,21
+  link "supported property indices" https://webidl.spec.whatwg.org/#dfn-supported-property-indices @17,25918,180,21
+  link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection @209,25918,107,21
+text The consist of the non-empty values of all the and attributes of all the elements , in , ignoring later duplicates, with the of an element preceding its if it contributes both, they differ from each other, and neither is the duplicate of an earlier entry. @17,25951,694,60
+link "supported property names" https://webidl.spec.whatwg.org/#dfn-supported-property-names @17,26023,694,21
+link id dom.html#the-id-attribute @17,26056,694,20
+link name form-control-infrastructure.html#attr-fe-name @17,26088,694,20
+link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection @17,26120,694,21
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @17,26153,694,20
+link id dom.html#the-id-attribute @17,26185,694,20
+link name form-control-infrastructure.html#attr-fe-name @17,26217,694,21
+text The method must act according to the following algorithm: @17,26250,694,20
+text namedItem() danger @17,26282,694,20
+text name danger @17,26314,694,20
+text If is the empty string, return null and stop the algorithm. @17,26346,694,21
+text name @17,26379,694,20
+text If, at the time the method is called, there is exactly one node in the collection that has either an attribute or a attribute equal to , then return that node and stop the algorithm. @17,26411,694,41
+row @17,26464,694,20
+  link id dom.html#the-id-attribute @17,26464,12,20
+  link name form-control-infrastructure.html#attr-fe-name @41,26464,37,20
+  text name @90,26464,37,20
+text Otherwise, if there are no nodes in the collection that have either an attribute or a attribute equal to , then return null and stop the algorithm. @17,26496,694,41
+row @17,26549,694,20
+  link id dom.html#the-id-attribute @17,26549,12,20
+  link name form-control-infrastructure.html#attr-fe-name @41,26549,37,20
+  text name @90,26549,37,20
+text Otherwise, create a new object representing a view of the object, further filtered so that the only nodes in the object are those that have either an attribute or a attribute equal to . The nodes in the object must be sorted in . @17,26581,694,61
+link RadioNodeList #radionodelist10 @17,26654,694,20
+link live infrastructure.html#live @17,26686,694,20
+link HTMLFormControlsCollection #htmlformcontrolscollection4 @17,26718,694,21
+link RadioNodeList #radionodelist11 @17,26751,694,20
+link id dom.html#the-id-attribute @17,26783,694,20
+link name form-control-infrastructure.html#attr-fe-name @17,26815,694,21
+text name @17,26848,694,20
+link RadioNodeList #radionodelist12 @17,26880,694,20
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @17,26912,694,20
+text Return that object. @17,26944,694,21
+link RadioNodeList #radionodelist13 @17,26977,694,20
+text Members of the interface inherited from the interface must behave as they would on a object. @17,27009,694,20
+row @17,27041,694,21
+  link RadioNodeList #radionodelist14 @17,27041,97,21
+  link NodeList https://dom.spec.whatwg.org/#interface-nodelist @126,27041,59,21
+  link NodeList https://dom.spec.whatwg.org/#interface-nodelist @197,27041,59,21
+button ✔MDN @17,27074,694,36
+text The IDL attribute on the object, on getting, must return the value returned by running the following steps: @17,27122,694,20
+row @17,27154,694,21
+  text value @17,27154,36,21
+  link RadioNodeList #radionodelist15 @65,27154,97,21
+text Let be the first element in represented by the object that is an element whose attribute is in the state and whose is true. Otherwise, let it be null. @17,27187,694,40
+text element @17,27239,694,20
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @17,27271,694,21
+link RadioNodeList #radionodelist16 @17,27304,694,20
+link input input.html#the-input-element @17,27336,694,20
+link type input.html#attr-input-type @17,27368,694,21
+link "Radio Button" @17,27401,694,20
+link checkedness form-control-infrastructure.html#concept-fe-checked @17,27433,694,20
+text If is null, return the empty string. @17,27465,694,21
+text element @17,27498,694,20
+text If  is an element with no  attribute, return the string "". @17,27530,694,20
+row @17,27562,694,20
+  text element @17,27562,53,20
+  link value input.html#attr-input-value @82,27562,36,20
+  text on @130,27562,17,20
+text Otherwise, return the value of 's attribute. @17,27594,694,21
+row @17,27627,694,20
+  text element @17,27627,53,20
+  link value input.html#attr-input-value @82,27627,36,20
+text On setting, the IDL attribute must run the following steps: @17,27659,694,20
+link value #dom-radionodelist-value4 @17,27691,694,21
+text If the new value is the string "": let  be the first element in  represented by the  object that is an  element whose  attribute is in the  state and whose  content attribute is either absent, or present and equal to the new value, if any. If no such element exists, then instead let  be null. @17,27724,694,61
+text on @17,27797,694,20
+text element @17,27829,694,20
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @17,27861,694,20
+link RadioNodeList #radionodelist17 @17,27893,694,21
+link input input.html#the-input-element @17,27926,694,20
+link type input.html#attr-input-type @17,27958,694,20
+link "Radio Button" @17,27990,694,21
+link value input.html#attr-input-value @17,28023,694,20
+text element @17,28055,694,20
+text Otherwise: let be the first element in represented by the object that is an element whose attribute is in the state and whose content attribute is present and equal to the new value, if any. If no such element exists, then instead let be null. @17,28087,694,61
+text element @17,28160,694,20
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @17,28192,694,21
+link RadioNodeList #radionodelist18 @17,28225,694,20
+link input input.html#the-input-element @17,28257,694,20
+link type input.html#attr-input-type @17,28289,694,21
+link "Radio Button" @17,28322,694,20
+link value input.html#attr-input-value @17,28354,694,20
+text element @17,28386,694,21
+text If is not null, then set its to true. @17,28419,694,20
+row @17,28451,694,20
+  text element @17,28451,53,20
+  link checkedness form-control-infrastructure.html#concept-fe-checked @82,28451,89,20
+h3 2.6.4.3 The HTMLOptionsCollection interface @17,28483,694,19
+button ✔MDN @17,28514,694,36
+text The interface is used for of elements. It is always rooted on a element and has attributes and methods that manipulate that element's descendants. @17,28562,694,41
+row @17,28615,694,20
+  link HTMLOptionsCollection #htmloptionscollection2 @17,28615,158,20
+  link collections https://dom.spec.whatwg.org/#concept-collection @187,28615,72,20
+  link option form-elements.html#the-option-element @271,28615,42,20
+  link select form-elements.html#the-select-element @325,28615,40,20
+text : { // inherits (), () [] ; // shadows inherited [] ( , ? ); [] (( ) , ( )?  ); [] ( ); [] ; }; @17,28647,694,20
+text Exposed @17,28679,694,21
+text Window primary @17,28712,694,20
+text interface danger @17,28744,694,20
+text HTMLOptionsCollection @17,28776,694,21
+link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection @17,28809,694,20
+link item https://dom.spec.whatwg.org/#dom-htmlcollection-item @17,28841,694,20
+link namedItem https://dom.spec.whatwg.org/#dom-htmlcollection-nameditem @17,28873,694,21
+link CEReactions custom-elements.html#cereactions @17,28906,694,20
+text attribute danger @17,28938,694,20
+text unsigned danger @17,28970,694,20
+text long danger @17,29002,694,21
+link length #dom-htmloptionscollection-length @17,29035,694,20
+link length https://dom.spec.whatwg.org/#dom-htmlcollection-length @17,29067,694,20
+link CEReactions custom-elements.html#cereactions @17,29099,694,21
+link setter #dom-htmloptionscollection-setter @17,29132,694,20
+text undefined danger @17,29164,694,20
+text unsigned danger @17,29196,694,21
+text long danger @17,29229,694,20
+text index @17,29261,694,20
+link HTMLOptionElement form-elements.html#htmloptionelement @17,29293,694,20
+text option @17,29325,694,21
+link CEReactions custom-elements.html#cereactions @17,29358,694,20
+text undefined danger @17,29390,694,20
+link add #dom-htmloptionscollection-add @17,29422,694,21
+link HTMLOptionElement form-elements.html#htmloptionelement @17,29455,694,20
+text or danger @17,29487,694,20
+link HTMLOptGroupElement form-elements.html#htmloptgroupelement @17,29519,694,21
+text element @17,29552,694,20
+text optional danger @17,29584,694,20
+link HTMLElement dom.html#htmlelement @17,29616,694,20
+text or danger @17,29648,694,21
+text long danger @17,29681,694,20
+text before @17,29713,694,20
+text null danger @17,29745,694,21
+link CEReactions custom-elements.html#cereactions @17,29778,694,20
+text undefined danger @17,29810,694,20
+link remove #dom-htmloptionscollection-remove @17,29842,694,21
+text long danger @17,29875,694,20
+text index @17,29907,694,20
+link CEReactions custom-elements.html#cereactions @17,29939,694,20
+text attribute danger @17,29971,694,21
+text long danger @17,30004,694,20
+link selectedIndex #dom-htmloptionscollection-selectedindex @17,30036,694,20
+text . @17,30068,694,21
+row @17,30101,694,20
+  text collection @17,30101,64,20
+  link length #dom-htmloptionscollection-length2 @93,30101,42,20
+text Returns the number of elements in . success @17,30133,694,20
+text collection success @17,30165,694,21
+text .  @17,30198,694,20
+row @17,30230,694,20
+  text collection @17,30230,64,20
+  link length #dom-htmloptionscollection-length3 @93,30230,42,20
+  text value @147,30230,36,20
+text When set to a smaller number than the existing length, truncates the number of elements in the container corresponding to . success @17,30262,694,41
+link option form-elements.html#the-option-element @17,30315,694,20
+text collection success @17,30347,694,20
+text When set to a greater number than the existing length, if that number is less than or equal to 100000, adds new blank elements to the container corresponding to . success @17,30379,694,41
+link option form-elements.html#the-option-element @17,30432,694,20
+text collection success @17,30464,694,21
+text  .() @17,30497,694,20
+row @17,30529,694,20
+  text element @17,30529,53,20
+  text collection @82,30529,64,20
+  link item https://dom.spec.whatwg.org/#dom-htmlcollection-item @158,30529,29,20
+  text index @199,30529,37,20
+text  [] @17,30561,694,20
+row @17,30593,694,21
+  text element @17,30593,53,21
+  text collection @82,30593,64,21
+  text index @158,30593,37,21
+text Returns the item at index in . The items are sorted in . success @17,30626,694,20
+row @17,30658,694,20
+  text index success @17,30658,37,20
+  text collection success @66,30658,64,20
+  link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @142,30658,66,20
+text []  @17,30690,694,21
+row @17,30723,694,20
+  text collection @17,30723,64,20
+  text index @93,30723,37,20
+  text element @142,30723,53,20
+text When is a greater number than the number of items in , adds new blank elements in the corresponding container. success @17,30755,694,41
+row @17,30808,694,20
+  text index success @17,30808,37,20
+  text collection success @66,30808,64,20
+  link option form-elements.html#the-option-element @142,30808,42,20
+text When set to null, removes the item at index from . success @17,30840,694,20
+row @17,30872,694,20
+  text index success @17,30872,37,20
+  text collection success @66,30872,64,20
+text When set to an element, adds or replaces it at index in . success @17,30904,694,21
+row @17,30937,694,20
+  link option form-elements.html#the-option-element @17,30937,42,20
+  text index success @71,30937,37,20
+  text collection success @120,30937,64,20
+text  .() @17,30969,694,20
+row @17,31001,694,21
+  text element @17,31001,53,21
+  text collection @82,31001,64,21
+  link namedItem https://dom.spec.whatwg.org/#dom-htmlcollection-nameditem @158,31001,74,21
+  text name @244,31001,37,21
+text  [] @17,31034,694,20
+row @17,31066,694,20
+  text element @17,31066,53,20
+  text collection @82,31066,64,20
+  text name @158,31066,37,20
+text Returns the item with or from . success @17,31098,694,21
+row @17,31131,694,20
+  link ID https://dom.spec.whatwg.org/#concept-id @17,31131,14,20
+  link name obsolete.html#attr-option-name @43,31131,37,20
+  text name success @92,31131,37,20
+  text collection success @141,31131,64,20
+text If there are multiple matching items, then the first is returned. success @17,31163,694,20
+text .([, ]) @17,31195,694,20
+row @17,31227,694,21
+  text collection @17,31227,64,21
+  link add #dom-htmloptionscollection-add2 @93,31227,26,21
+  text element @131,31227,53,21
+  text before @196,31227,44,21
+text Inserts before the node given by . success @17,31260,694,20
+row @17,31292,694,20
+  text element success @17,31292,53,20
+  text before success @82,31292,44,20
+text The argument can be a number, in which case is inserted before the item with that number, or an element from , in which case is inserted before that element. success @17,31324,694,41
+text before success @17,31377,694,20
+text element success @17,31409,694,21
+text collection success @17,31442,694,20
+text element success @17,31474,694,20
+text If is omitted, null, or a number out of range, then will be added at the end of the list. success @17,31506,694,21
+row @17,31539,694,20
+  text before success @17,31539,44,20
+  text element success @73,31539,53,20
+text Throws a if is an ancestor of the element into which it is to be inserted. success @17,31571,694,20
+row @17,31603,694,20
+  link "\"HierarchyRequestError\"" https://webidl.spec.whatwg.org/#hierarchyrequesterror @17,31603,165,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @194,31603,99,20
+  text element success @305,31603,53,20
+text .() @17,31635,694,21
+row @17,31668,694,20
+  text collection @17,31668,64,20
+  link remove #dom-htmloptionscollection-remove2 @93,31668,51,20
+  text index @156,31668,37,20
+text Removes the item with index from . success @17,31700,694,20
+row @17,31732,694,21
+  text index success @17,31732,37,21
+  text collection success @66,31732,64,21
+text . @17,31765,694,20
+row @17,31797,694,20
+  text collection @17,31797,64,20
+  link selectedIndex #dom-htmloptionscollection-selectedindex2 @93,31797,93,20
+text Returns the index of the first selected item, if any, or −1 if there is no selected item. success @17,31829,694,21
+text .  @17,31862,694,20
+row @17,31894,694,20
+  text collection @17,31894,64,20
+  link selectedIndex #dom-htmloptionscollection-selectedindex3 @93,31894,93,20
+  text index @198,31894,37,20
+text Changes the selection to the element at index in . success @17,31926,694,20
+row @17,31958,694,21
+  link option form-elements.html#the-option-element @17,31958,42,21
+  text index success @71,31958,37,21
+  text collection success @120,31958,64,21
+text The object's are as defined for objects. @17,31991,694,20
+row @17,32023,694,20
+  link "supported property indices" https://webidl.spec.whatwg.org/#dfn-supported-property-indices @17,32023,180,20
+  link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection @209,32023,107,20
+text The getter steps are to return the number of nodes . @17,32055,694,21
+row @17,32088,694,20
+  text length @17,32088,42,20
+  link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection @71,32088,194,20
+text The setter steps are: @17,32120,694,20
+link length #dom-htmloptionscollection-length4 @17,32152,694,21
+text Let be the number of nodes . @17,32185,694,20
+row @17,32217,694,20
+  text current @17,32217,48,20
+  link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection @77,32217,194,20
+text If the given value is greater than : @17,32249,694,20
+text current @17,32281,694,21
+text If the given value is greater than 100,000, then return. @17,32314,694,20
+text Let be − . @17,32346,694,20
+row @17,32378,694,21
+  text n @17,32378,9,21
+  text value @38,32378,36,21
+  text current @86,32378,48,21
+text to the element on which is rooted given . @17,32411,694,20
+row @17,32443,694,20
+  link "Append new option elements" #append-new-option-elements @17,32443,194,20
+  link select form-elements.html#the-select-element @223,32443,40,20
+  link this https://webidl.spec.whatwg.org/#this @275,32443,24,20
+  text n @311,32443,9,20
+text If the given value is less than : @17,32475,694,21
+text current @17,32508,694,20
+text Let be − . @17,32540,694,20
+row @17,32572,694,20
+  text n @17,32572,9,20
+  text current @38,32572,48,20
+  text value @98,32572,36,20
+text Remove the last nodes in the collection from their parent nodes. @17,32604,694,21
+text n @17,32637,694,20
+text Setting never removes or adds any elements, and never adds new children to existing elements (though it can remove children from them). success @17,32669,694,41
+row @17,32722,694,20
+  link length #dom-htmloptionscollection-length5 @17,32722,42,20
+  link optgroup form-elements.html#the-optgroup-element @71,32722,61,20
+  link optgroup form-elements.html#the-optgroup-element @144,32722,61,20
+text The consist of the non-empty values of all the and attributes of all the elements , in , ignoring later duplicates, with the of an element preceding its if it contributes both, they differ from each other, and neither is the duplicate of an earlier entry. @17,32754,694,61
+link "supported property names" https://webidl.spec.whatwg.org/#dfn-supported-property-names @17,32827,694,20
+link id dom.html#the-id-attribute @17,32859,694,20
+link name obsolete.html#attr-option-name @17,32891,694,21
+link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection @17,32924,694,20
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @17,32956,694,20
+link id dom.html#the-id-attribute @17,32988,694,21
+link name obsolete.html#attr-option-name @17,33021,694,20
+text To to a element given a non-negative integer : @17,33053,694,20
+row @17,33085,694,21
+  text append new option elements @17,33085,192,21
+  link select form-elements.html#the-select-element @221,33085,40,21
+  text select @273,33085,40,21
+  text count @325,33085,38,21
+text Let be the result of given 's . @17,33118,694,20
+row @17,33150,694,20
+  text fragment @17,33150,61,20
+  link "creating a document fragment" https://dom.spec.whatwg.org/#create-a-document-fragment @90,33150,201,20
+  text select @303,33150,40,20
+  link "node document" https://dom.spec.whatwg.org/#concept-node-document @355,33150,104,20
+text Append new elements to . @17,33182,694,20
+row @17,33214,694,21
+  text count @17,33214,38,21
+  link option form-elements.html#the-option-element @67,33214,42,21
+  text fragment @121,33214,61,21
+text to . @17,33247,694,20
+row @17,33279,694,20
+  link Append https://dom.spec.whatwg.org/#concept-node-append @17,33279,52,20
+  text fragment @81,33279,61,20
+  text select @154,33279,40,20
+text To or for an , given a property index and a new value : @17,33311,694,21
+link "set the value of a new indexed property" https://webidl.spec.whatwg.org/#dfn-set-the-value-of-a-new-indexed-property @17,33344,694,20
+link "set the value of an existing indexed property" https://webidl.spec.whatwg.org/#dfn-set-the-value-of-an-existing-indexed-property @17,33376,694,20
+link HTMLOptionsCollection #htmloptionscollection4 @17,33408,694,21
+text collection @17,33441,694,20
+text index @17,33473,694,20
+text value @17,33505,694,20
+text If is null, then from given and return. @17,33537,694,21
+row @17,33570,694,20
+  text value @17,33570,36,20
+  link "remove an option" #htmloptionscollection-remove-an-option @65,33570,116,20
+  text collection @193,33570,64,20
+  text index @269,33570,37,20
+text Let be the number of nodes by . @17,33602,694,20
+row @17,33634,694,21
+  text length @17,33634,42,21
+  link represented https://dom.spec.whatwg.org/#represented-by-the-collection @71,33634,81,21
+  text collection @164,33634,64,21
+text Let be − . @17,33667,694,20
+row @17,33699,694,20
+  text delta @17,33699,33,20
+  text index @62,33699,37,20
+  text length @111,33699,42,20
+text If is greater than 0, then to the element on which is rooted given . @17,33731,694,21
+row @17,33764,694,20
+  text delta @17,33764,33,20
+  link "append new option elements" #append-new-option-elements2 @62,33764,192,20
+  link select form-elements.html#the-select-element @266,33764,40,20
+  text collection @318,33764,64,20
+  text delta @394,33764,33,20
+text If is greater than or equal to 0, then to the element on which is rooted. Otherwise, the th element in by . @17,33796,694,20
+text delta @17,33828,694,20
+link append https://dom.spec.whatwg.org/#concept-node-append @17,33860,694,21
+text value @17,33893,694,20
+link select form-elements.html#the-select-element @17,33925,694,20
+text collection @17,33957,694,21
+link replace https://dom.spec.whatwg.org/#concept-node-replace @17,33990,694,20
+text index @17,34022,694,20
+text collection @17,34054,694,21
+text value @17,34087,694,20
+text The method steps are: @17,34119,694,20
+text add(, ) danger @17,34151,694,20
+row @17,34183,694,21
+  text element danger @17,34183,53,21
+  text before danger @82,34183,44,21
+text If is an ancestor of the element on which is rooted, then throw a . @17,34216,694,20
+row @17,34248,694,20
+  text element @17,34248,53,20
+  link select form-elements.html#the-select-element @82,34248,40,20
+  link this https://webidl.spec.whatwg.org/#this @134,34248,24,20
+  link "\"HierarchyRequestError\"" https://webidl.spec.whatwg.org/#hierarchyrequesterror @170,34248,165,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @347,34248,99,20
+text If is an element, but that element isn't a descendant of the element on which is rooted, then throw a . @17,34280,694,21
+text before @17,34313,694,20
+link select form-elements.html#the-select-element @17,34345,694,20
+link this https://webidl.spec.whatwg.org/#this @17,34377,694,21
+link "\"NotFoundError\"" https://webidl.spec.whatwg.org/#notfounderror @17,34410,694,20
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @17,34442,694,20
+text If and are the same element, then return. @17,34474,694,20
+row @17,34506,694,21
+  text element @17,34506,53,21
+  text before @82,34506,44,21
+text Let be null. @17,34539,694,20
+text reference @17,34571,694,20
+text If is a node, then set to . Otherwise, if is an integer and there is a th node in , then set to that node. @17,34603,694,21
+row @17,34636,694,20
+  text before @17,34636,44,20
+  text reference @73,34636,65,20
+  text before @150,34636,44,20
+  text before @206,34636,44,20
+  text before @262,34636,44,20
+  link this https://webidl.spec.whatwg.org/#this @318,34636,24,20
+  text reference @354,34636,65,20
+text Let be 's parent node if is not null; otherwise the element on which is rooted. @17,34668,694,20
+row @17,34700,694,21
+  text parent @17,34700,43,21
+  text reference @72,34700,65,21
+  text reference @149,34700,65,21
+  link select form-elements.html#the-select-element @226,34700,40,21
+  link this https://webidl.spec.whatwg.org/#this @278,34700,24,21
+text into node before . @17,34733,694,20
+row @17,34765,694,20
+  link Pre-insert https://dom.spec.whatwg.org/#concept-node-pre-insert @17,34765,66,20
+  text element @95,34765,53,20
+  text parent @160,34765,43,20
+  text reference @215,34765,65,20
+text To from an given an integer : @17,34797,694,20
+row @17,34829,694,21
+  text remove an option @17,34829,116,21
+  link HTMLOptionsCollection #htmloptionscollection5 @145,34829,158,21
+  text collection @315,34829,64,21
+  text index @391,34829,37,21
+text If the number of nodes by is 0, then return. @17,34862,694,20
+row @17,34894,694,20
+  link represented https://dom.spec.whatwg.org/#represented-by-the-collection @17,34894,81,20
+  text collection @110,34894,64,20
+text If is not a number greater than or equal to 0 and less than the number of nodes by , then return. @17,34926,694,21
+row @17,34959,694,20
+  text index @17,34959,37,20
+  link represented https://dom.spec.whatwg.org/#represented-by-the-collection @66,34959,81,20
+  text collection @159,34959,64,20
+text Let be the th element in . @17,34991,694,20
+row @17,35023,694,21
+  text element @17,35023,53,21
+  text index @82,35023,37,21
+  text collection @131,35023,64,21
+text Remove from its parent node. @17,35056,694,20
+text element @17,35088,694,20
+text The method steps are to from given . @17,35120,694,20
+row @17,35152,694,21
+  text remove() danger @17,35152,61,21
+  text index danger @90,35152,37,21
+  link "remove an option" #htmloptionscollection-remove-an-option2 @139,35152,116,21
+  link this https://webidl.spec.whatwg.org/#this @267,35152,24,21
+  text index @303,35152,37,21
+text The getter steps are to return the of the element on which is rooted. @17,35185,694,20
+row @17,35217,694,20
+  text selectedIndex @17,35217,93,20
+  link "selected index" form-elements.html#select-selected-index @122,35217,97,20
+  link select form-elements.html#the-select-element @231,35217,40,20
+  link this https://webidl.spec.whatwg.org/#this @283,35217,24,20
+text The setter steps are to of the element on which is rooted to the given value. @17,35249,694,21
+row @17,35282,694,20
+  link selectedIndex #dom-htmloptionscollection-selectedindex4 @17,35282,93,20
+  link "set the selected index" form-elements.html#set-the-selected-index @122,35282,146,20
+  link select form-elements.html#the-select-element @280,35282,40,20
+  link this https://webidl.spec.whatwg.org/#this @332,35282,24,20
+h3 2.6.5 The DOMStringList interface @17,35314,694,19
+button ✔MDN @17,35345,694,36
+text The interface is a non-fashionable retro way of representing a list of strings. @17,35393,694,20
+link DOMStringList #domstringlist @17,35425,694,21
+text { ; ? ( ); ( ); }; @17,35458,694,20
+text Exposed @17,35490,694,20
+text Window primary @17,35522,694,21
+text Worker primary @17,35555,694,20
+text interface danger @17,35587,694,20
+text DOMStringList @17,35619,694,20
+text readonly danger @17,35651,694,21
+text attribute danger @17,35684,694,20
+text unsigned danger @17,35716,694,20
+text long danger @17,35748,694,21
+link length #dom-domstringlist-length @17,35781,694,20
+text getter danger @17,35813,694,20
+text DOMString danger @17,35845,694,21
+link item #dom-domstringlist-item @17,35878,694,20
+text unsigned danger @17,35910,694,20
+text long danger @17,35942,694,20
+text index @17,35974,694,21
+text boolean danger @17,36007,694,20
+link contains #dom-domstringlist-contains @17,36039,694,20
+text DOMString danger @17,36071,694,21
+text string @17,36104,694,20
+text New APIs must use or equivalent rather than . danger @17,36136,694,20
+row @17,36168,694,21
+  text sequence<DOMString> @17,36168,157,21
+  link DOMStringList #domstringlist3 @186,36168,96,21
+text . @17,36201,694,20
+row @17,36233,694,20
+  text strings @17,36233,45,20
+  link length #dom-domstringlist-length2 @74,36233,42,20
+text Returns the number of strings in . success @17,36265,694,20
+text strings success @17,36297,694,21
+text [] @17,36330,694,20
+row @17,36362,694,20
+  text strings @17,36362,45,20
+  text index @74,36362,37,20
+text .() @17,36394,694,21
+row @17,36427,694,20
+  text strings @17,36427,45,20
+  link item #dom-domstringlist-item2 @74,36427,29,20
+  text index @115,36427,37,20
+text Returns the string with index from . success @17,36459,694,20
+row @17,36491,694,21
+  text index success @17,36491,37,21
+  text strings success @66,36491,45,21
+text .() @17,36524,694,20
+row @17,36556,694,20
+  text strings @17,36556,45,20
+  link contains #dom-domstringlist-contains2 @74,36556,57,20
+  text string @143,36556,38,20
+text Returns true if contains , and false otherwise. success @17,36588,694,20
+row @17,36620,694,21
+  text strings success @17,36620,45,21
+  text string success @74,36620,38,21
+text Each object has an associated . @17,36653,694,20
+row @17,36685,694,20
+  link DOMStringList #domstringlist4 @17,36685,96,20
+  link list https://infra.spec.whatwg.org/#list @125,36685,19,20
+text The interface . The are the of 's associated list. @17,36717,694,21
+row @17,36750,694,20
+  link DOMStringList #domstringlist5 @17,36750,96,20
+  link "supports indexed properties" https://webidl.spec.whatwg.org/#dfn-support-indexed-properties @125,36750,187,20
+  link "supported property indices" https://webidl.spec.whatwg.org/#dfn-supported-property-indices @324,36750,180,20
+  link indices https://infra.spec.whatwg.org/#list-get-the-indices @516,36750,48,20
+  link this https://webidl.spec.whatwg.org/#this @576,36750,24,20
+button ✔MDN @17,36782,694,36
+text The getter steps are to return 's associated list's . @17,36830,694,21
+row @17,36863,694,20
+  text length @17,36863,42,20
+  link this https://webidl.spec.whatwg.org/#this @71,36863,24,20
+  link size https://infra.spec.whatwg.org/#list-size @107,36863,27,20
+button ✔MDN @17,36895,694,36
+text The method steps are to return the th item in 's associated list, or null if plus one is greater than 's associated list's . @17,36943,694,41
+text item() danger @17,36996,694,20
+text index danger @17,37028,694,20
+text index @17,37060,694,21
+link this https://webidl.spec.whatwg.org/#this @17,37093,694,20
+text index @17,37125,694,20
+link this https://webidl.spec.whatwg.org/#this @17,37157,694,21
+link size https://infra.spec.whatwg.org/#list-size @17,37190,694,20
+button ✔MDN @17,37222,694,36
+text The method steps are to return true if 's associated list , and false otherwise. @17,37270,694,20
+row @17,37302,694,21
+  text contains() danger @17,37302,67,21
+  text string danger @96,37302,38,21
+  link this https://webidl.spec.whatwg.org/#this @146,37302,24,21
+  link contains https://infra.spec.whatwg.org/#list-contain @182,37302,57,21
+  text string @251,37302,38,21
+text — — @17,37335,694,20
+row @17,37367,694,20
+  link "← 2.4 URLs" urls-and-fetching.html @17,37367,78,20
+  link "Table of Contents" ./ @107,37367,119,20
+  link "2.7 Safe passing of structured data →" structured-data.html @238,37367,250,20

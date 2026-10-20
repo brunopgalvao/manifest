@@ -1,0 +1,160 @@
+@picocss_com_docs_v2 rev=0 @0,0,728,3816
+row @17,17,694,3782
+  button "Skip to content" primary @17,1890,39,36
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @68,1827,27,162
+  row @107,1867,57,81
+    link "Pico CSS homepage" / @107,1877,10,61
+    row @129,1867,35,81
+      row @129,1898,8,20
+        text v2.1.1 @129,1898,0,20
+        link Examples /examples @141,1898,0,20
+        link Docs /docs @153,1898,0,20
+      row @149,1867,15,81
+        link "GitHub repository" https://github.com/picocss/pico @149,1888,0,40
+        link Twitter https://x.com/picocss @161,1898,0,20
+        link "Turn on dark mode" /docs/v2 @173,1867,0,81
+  row @176,17,323,3782
+    col @176,1643,10,530
+      text Getting started @176,1643,10,41
+      text Customization @176,1696,10,20
+      text Layout @176,1728,10,20
+      text Content @176,1760,10,21
+      text Forms @176,1793,10,20
+      text Components @176,1825,10,20
+      text About @176,1857,10,20
+      link Maintenance /docs/maintenance @176,1889,10,21
+      link "What’s new in v2?" /docs/v2 @176,1922,10,81
+      link Mission /docs/mission @176,2015,10,20
+      link "Usage scenarios" /docs/usage-scenarios @176,2047,10,41
+      link Brand /docs/brand @176,2100,10,20
+      link "Built With" /docs/built-with @176,2132,10,41
+    col @198,1698,111,419
+      text About danger @198,1698,111,21
+      h1 What’s new in v2? @198,1731,111,50
+      text Pico v2.0 features better accessibility, easier customization with SASS, a complete color palette, a new group component, and 20 precompiled color themes totaling over 100 combinations accessible via CDN. @198,1793,111,324
+    col @321,1667,12,482
+      text Content @321,1667,12,20
+      link "New look and feel" /docs/v2 @321,1699,12,82
+      link "Easier customization" /docs/v2#easier-customisation @321,1793,12,40
+      link "Color palette" /docs/v2#color-palette @321,1845,12,41
+      link "Better breakpoints" /docs/v2#better-breakpoints @321,1898,12,40
+      link "Group component" /docs/v2#group-component @321,1950,12,41
+      link "Conditional Styling" /docs/v2#conditional-styling @321,2003,12,41
+      link "Version picker" /docs/v2#version-picker @321,2056,12,40
+      link "Breaking changes" /docs/v2#breaking-changes @321,2108,12,41
+    col @345,17,154,3782
+      h2 New look and feel @345,17,154,21
+      text All colors have been carefully and manually redefined for a more contrasted, neutral (less bluish) look and feel. @345,50,154,122
+      text The default color theme is much more accessible. Most colors now follow the WCAG 2.1 AAA standard, and some secondary muted colors follow the WCAG 2.1 AA standard. @345,184,154,203
+      text Focus states have been improved for more consistency and contrast, and spacings have been reduced for a sleeker and more neutral style. @345,399,154,142
+      h2 Easier customization# @345,553,154,43
+      text We have refactored all files to make it easier for you to compile your version of Pico with . All modules can now be enabled or disabled using . @345,608,154,142
+      text .scss @345,762,154,20
+      link SASS /docs/sass @345,794,154,20
+      link @use https://sass-lang.com/documentation/at-rules/use @345,826,154,21
+      text We added more , now totaling over 130, to easily create a unique look and feel, enhancing design flexibility. @345,859,154,121
+      link "CSS variables" /docs/css-variables @345,992,154,21
+      h2 Color palette# @345,1025,154,21
+      text Pico v2 comes with to help you personalize your brand design system. The colors can be imported into any file, and a new stylesheet with all the color utilities is provided. @345,1058,154,183
+      link "380 manually crafted colors" /docs/colors @345,1253,154,40
+      text .scss @345,1305,154,21
+      h2 Better breakpoints# @345,1338,154,42
+      text We have updated the to follow the width of standard devices and added a new breakpoint for larger screens. @345,1392,154,122
+      link breakpoints /docs/container @345,1526,154,20
+      h2 Group component# @345,1558,154,43
+      text With (), you can now stack forms elements and buttons horizontally. @345,1613,154,81
+      row @345,1706,154,20
+        link group /docs/group @345,1706,40,20
+        text role="group" @397,1706,87,20
+      h2 Conditional Styling# @345,1738,154,43
+      text is a powerful feature that allows you to apply styles selectively by wrapping elements in containers, which is ideal for mixed-style environments. This method restricts styling to designated sections, making it particularly useful for combining multiple stylesheets or components seamlessly. @345,1793,154,304
+      link "Conditional Styling" /docs/conditional @345,2109,154,21
+      text .pico @345,2142,154,20
+      h2 Version picker# @345,2174,154,21
+      text Play with the , which offers 20 precompiled color themes accessible via CDN for all Pico versions. The total number of combinations is over 100. @345,2207,154,162
+      link "Version Picker" /docs/version-picker @345,2381,154,21
+      h2 Breaking changes# @345,2414,154,42
+      h3 CSS Vars @345,2468,154,19
+      text All are prefixed with to avoid collisions with other CSS frameworks or your vars. We also added new CSS variables and renamed some to follow a consistent pattern. @345,2499,154,162
+      link "CSS custom properties" /docs/css-variables @345,2673,154,21
+      text pico- @345,2706,154,20
+      text {component}-{state}-{property} @345,2738,154,20
+      h3 SCSS files @345,2770,154,19
+      text We renamed and moved many .scss files. If you import Pico modules, you need to update your paths. @345,2801,154,102
+      h3 Buttons @345,2915,154,18
+      text are not by default anymore. Only form buttons are full-width to be consistent with other form elements. @345,2945,154,102
+      row @345,3059,154,20
+        link Buttons /docs/button @345,3059,51,20
+        text width: 100%; @408,3059,86,20
+      h3 Table @345,3091,154,19
+      text The class is now used for the striped ’s style. @345,3122,154,40
+      row @345,3174,154,21
+        text .striped @345,3174,50,21
+        link table /docs/table @407,3174,33,21
+      h3 Dropdowns @345,3207,154,19
+      text While are still classless, now use. We also removed the experimental syntax that allowed dropdowns in the nav using nested lists. @345,3238,154,142
+      row @345,3392,154,20
+        link accordions /docs/accordion @345,3392,43,20
+        link dropdowns /docs/dropdown @400,3392,44,20
+        text .dropdown @456,3392,43,20
+      h3 Grid @345,3424,154,19
+      text columns now collapse on small devices (). @345,3455,154,40
+      row @345,3507,154,21
+        link Grid /docs/grid @345,3507,28,21
+        text <768px @385,3507,51,21
+      h3 Figure @345,3540,154,18
+      text We removed the from and introduced a new utility class,, to enable horizontal scrolling on any element. @345,3570,154,102
+      text overflow-x: auto; @345,3684,154,20
+      text <figure> @345,3716,154,20
+      card @345,3748,154,51
+        link .overflow-auto /docs/v2/docs/overflow-auto @362,3763,120,21
+  col @511,1770,200,276
+    row @511,1770,200,203
+      region 49.34000015258789x45 @511,1870,3,3 [3 shapes, 0 labelled]
+      row @526,1851,107,41
+        row @526,1851,23,41
+          text About @526,1861,0,21
+          link Maintenance /docs/maintenance @538,1861,0,21
+          link "What’s new?" /docs/v2 @550,1851,0,41
+          link Brand /docs/brand @562,1861,0,21
+          link Mission /docs/mission @574,1861,0,21
+          link "Usage scenarios" /docs/usage-scenarios @586,1851,0,41
+        row @561,1851,22,41
+          text Docs @561,1861,0,21
+          link "Quick start" /docs @573,1851,0,41
+          link "Version picker" /docs/version-picker @585,1851,0,41
+          link "Class-less version" /docs/classless @597,1851,0,41
+          link "Form elements" /docs/forms @609,1851,0,41
+        row @595,1861,13,21
+          text Community @595,1861,0,21
+          link Issues https://github.com/picocss/pico/issues @607,1861,0,21
+          link Discussions https://github.com/picocss/pico/discussions @619,1861,0,21
+          link Help https://github.com/picocss/pico/discussions/categories/help @631,1861,0,21
+        row @620,1861,13,21
+          text Examples @620,1861,0,21
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @632,1861,0,21
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @644,1861,0,21
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @656,1861,0,21
+          link All /examples @668,1861,0,21
+      text Designed and built by with the help of our . @645,1770,20,203
+      col @677,1835,7,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @677,1835,7,41
+        link contributors https://github.com/picocss/pico/graphs/contributors @677,1888,7,20
+      row @696,1861,15,21
+        link GitHub https://github.com/picocss/pico @696,1861,0,21
+        link Twitter https://x.com/picocss @708,1861,0,21
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @720,1861,0,21
+        link NPM https://www.npmjs.com/package/@picocss/pico @732,1861,0,21
+    row @511,1985,200,61
+      text Code licensed , docs . @511,1985,67,61
+      row @590,1985,60,61
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @590,2005,11,21
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @613,1985,37,61
+      text Currently v2.1.1. @662,1995,49,41
+!overflow skip 37/130px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

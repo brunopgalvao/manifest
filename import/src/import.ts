@@ -41,7 +41,7 @@ export interface SvgNode {
 }
 
 /** Runs in the page: the rendered tree with boxes, computed styles and roles. */
-function capture(): El {
+export function capture(): El {
   const implicit: Record<string, string> = { h1: "heading", h2: "heading", h3: "heading", h4: "heading", h5: "heading", h6: "heading", p: "paragraph", a: "link", button: "button", img: "img", table: "table", select: "combobox", textarea: "textbox", ul: "list", ol: "list", li: "listitem", nav: "navigation", main: "main", header: "banner", footer: "contentinfo", section: "region", article: "article", form: "form", label: "label", svg: "img", canvas: "img" };
   // any CSS colour (rgb, lab, oklab, color-mix) to hex through a canvas; transparent stays empty
   const cctx = document.createElement("canvas").getContext("2d", { willReadFrequently: true })!;
@@ -66,7 +66,27 @@ function capture(): El {
   const nameOf = (el: Element): string => {
     const aria = el.getAttribute("aria-label");
     if (aria !== null && el.getAttribute("role") === "img" && el.tagName.toLowerCase() !== "svg") return "";
-    if (el.tagName.toLowerCase() === "svg") return (aria ?? el.querySelector(":scope > title")?.textContent ?? "").trim();
+    if (el.tagName.toLowerCase() === "svg") {
+      const title = (aria ?? el.querySelector(":scope > title")?.textContent ?? "").trim();
+      if (title) return title;
+      const use = el.querySelector("use")?.getAttribute("href") ?? el.querySelector("use")?.getAttribute("xlink:href") ?? "";
+      if (use.startsWith("#")) return use.slice(1).replace(/[-_]/g, " ");
+      const cls = (el.getAttribute("class") ?? "").split(/\s+/).find((c) => /^(icon-tabler-|bi-|lucide-|fa-|icon-)/.test(c) && !/^(icon-tabler|bi|lucide|fa|icon)$/.test(c));
+      if (cls) return cls.replace(/^(icon-tabler-|bi-|lucide-|fa-|icon-)/, "").replace(/[-_]/g, " ");
+      // nameless icons: a few shapes every icon set draws the same way
+      const d = [...el.querySelectorAll("path, polyline")].map((p) => (p.getAttribute("d") ?? p.getAttribute("points") ?? "").replace(/\s+/g, "")).join("|");
+      const SIG: Array<[RegExp, string]> = [
+        [/^M5?12l55l10-10$|^M2012917l-5-5$|^20,69,174,12$|^M4\.?5?12\.?75l66L19\.?57$/i, "check"],
+        [/^M186l-1212\|M66l1212$|^M186L618\|M66l1212$|^M18L6M6L18$|^M6\.?18L18\.?6M6\.?6l1212$/i, "x"],
+        [/^M1217\.75l-6\.1723\.245|^M1217\.75l-6\.172|^M12\.?2.*l.*star|^M12\.?9?2(?:l|L)/i, "star"],
+        [/^M69l66l6-6$|^m69666-6$|^M1591-1$/i, "chevron down"],
+        [/^M615l6-6l66$|^m615666-6$/i, "chevron up"],
+        [/^M96l6-6l66$|^m9666-66$/i, "chevron right"],
+        [/^M156l-66l66$|^m156-666$/i, "chevron left"],
+      ];
+      for (const [re, name] of SIG) if (re.test(d)) return name;
+      return "";
+    }
     if (aria) return aria.trim();
     const lb = el.getAttribute("aria-labelledby");
     if (lb) return (document.getElementById(lb)?.textContent ?? "").trim();
@@ -91,7 +111,8 @@ function capture(): El {
       tx = m.e; ty = m.f; sc = Math.sqrt(Math.abs(m.a * m.d - m.b * m.c)) || 1;
     }
     const r = (el as SVGGraphicsElement).getBoundingClientRect(); const rr = root.getBoundingClientRect();
-    return { tag: el.tagName.toLowerCase(), attrs, text: el.tagName.toLowerCase() === "text" ? (el.textContent ?? "").trim() : "", tx, ty, sc, box: { x: r.x - rr.x, y: r.y - rr.y, w: r.width, h: r.height }, children: [...el.children].filter((c) => !["defs", "title", "desc", "style", "script"].includes(c.tagName.toLowerCase())).map((c) => svgWalk(root, c)) };
+    const ownText = (x: Element): string => [...x.childNodes].map((n) => (n.nodeType === 3 ? n.textContent! : n.nodeType === 1 && !["title", "desc"].includes((n as Element).tagName.toLowerCase()) ? ownText(n as Element) : "")).join("").replace(/\s+/g, " ").trim();
+    return { tag: el.tagName.toLowerCase(), attrs, text: el.tagName.toLowerCase() === "text" ? ownText(el) : "", tx, ty, sc, box: { x: r.x - rr.x, y: r.y - rr.y, w: r.width, h: r.height }, children: [...el.children].filter((c) => !["defs", "title", "desc", "style", "script"].includes(c.tagName.toLowerCase())).map((c) => svgWalk(root, c)) };
   };
   const walk = (el: Element): El | null => {
     const tag = el.tagName.toLowerCase();
@@ -147,6 +168,7 @@ export class Importer {
   /** source boxes for every emitted node line, in emission order, for the round-trip score */
   boxes: Array<{ line: number; box: El["box"]; text: string }> = [];
   stats = { semantic: 0, painted: 0, demoted: 0, textRuns: 0 };
+  lastField = "";
   /** pictures the page held as data URLs or canvases, written next to the MX by the caller */
   assets: Array<{ name: string; bytes: Buffer }> = [];
   prefix = "page";
@@ -189,10 +211,16 @@ export class Importer {
     return el.name;
   }
 
+  /** An icon: an inline SVG no bigger than a line of text. It is decoration next to words. */
+  isIcon(el: El): boolean {
+    return !!el.svg && el.box.w <= 28 && el.box.h <= 28;
+  }
+
   isTextOnly(el: El): boolean {
-    if (el.svg || el.dataUrl || el.options) return false;
+    if (el.dataUrl || el.options) return false;
+    if (el.svg) return this.isIcon(el) && !el.name;
     if (["input", "button", "select", "a", "img", "table"].includes(el.tag)) return false;
-    return el.children.every((c) => ["span", "b", "i", "em", "strong", "small", "code", "br", "sup", "sub", "time"].includes(c.tag) && this.isTextOnly(c));
+    return el.children.every((c) => (["span", "b", "i", "em", "strong", "small", "code", "br", "sup", "sub", "time", "svg"].includes(c.tag) && this.isTextOnly(c)));
   }
 
   /** A metric: a small label, a big number, an optional delta, in a box. */
@@ -222,7 +250,10 @@ export class Importer {
     const t = el.tag, role = el.role;
     if (!el.name && !el.children.length && !el.svg && !el.dataUrl && !el.style.bg && !el.style.border) return;
     // paint: inline SVG, canvas elements
-    if (el.svg) { this.canvasFromSvg(el, indent); return; }
+    if (el.svg) {
+      if (this.isIcon(el)) { if (el.name) { this.push(indent, `figure ${q(el.name)}`, el); this.stats.semantic++; } return; }
+      this.canvasFromSvg(el, indent); return;
+    }
     if (el.dataUrl) { this.space(indent, el.box.w, el.box.h, undefined, el); this.push(indent + 1, `image @0,0 ${fmt(el.box.w)}x${fmt(el.box.h)} ${this.src(el.dataUrl)} "Canvas"`); this.stats.painted++; return; }
     // semantic roles
     if (role === "heading") { this.push(indent, this.heading(el), el); this.stats.semantic++; return; }
@@ -238,11 +269,11 @@ export class Importer {
     }
     if (role === "textbox" || (t === "input" && ["text", "email", "date", "number", "search", "password", "tel", "url"].includes(el.attrs.type ?? "text"))) {
       const kind = ({ email: " email", date: " date", number: " number", search: " search", password: " password" } as Record<string, string>)[el.attrs.type ?? ""] ?? "";
-      this.push(indent, `field ${q(el.name || "Field")}${kind}${el.attrs.value ? " =" + q(el.attrs.value) : ""}${el.attrs.required ? " required" : ""}`, el); this.stats.semantic++; return;
+      this.push(indent, `field ${q(el.name || "Field")}${kind}${el.attrs.value ? " =" + q(el.attrs.value) : ""}${el.attrs.required ? " required" : ""}`, el); this.stats.semantic++; this.lastField = el.name; return;
     }
     if (role === "combobox" && el.options) { this.push(indent, `select ${q(el.name || "Select")} ${el.options.map((o) => (o.selected ? "*" : "") + q(o.label)).join(" ")}`, el); this.stats.semantic++; return; }
-    if (role === "checkbox") { this.push(indent, `check ${q(el.name || "Option")} ${el.attrs.checked ? "on" : "off"}`, el); this.stats.semantic++; return; }
-    if (role === "switch") { this.push(indent, `toggle ${q(el.name || "Option")} ${el.attrs.checked ? "on" : "off"}`, el); this.stats.semantic++; return; }
+    if (role === "checkbox") { this.push(indent, `check ${q(el.name || "Option")} ${el.attrs.checked ? "on" : "off"}`, el); this.stats.semantic++; this.lastField = el.name; return; }
+    if (role === "switch") { this.push(indent, `toggle ${q(el.name || "Option")} ${el.attrs.checked ? "on" : "off"}`, el); this.stats.semantic++; this.lastField = el.name; return; }
     if (role === "slider") { this.push(indent, `slider ${q(el.name || "Value")} ${el.attrs.value ?? 0} ${el.attrs.min ?? 0}..${el.attrs.max ?? 100}`, el); this.stats.semantic++; return; }
     if (role === "img" && t === "img") {
       const src = this.src(el.attrs.src ?? "");
@@ -258,6 +289,8 @@ export class Importer {
       const input = el.children.find((c) => ["input", "select", "textarea"].includes(c.tag));
       if (input) { for (const c of el.children) if (c !== input && c.name && !this.isTextOnly(c)) this.emit(c, indent, inRow); this.emit(input, indent, inRow); for (const c of el.children) if (c !== input && c.name && this.isTextOnly(c) && c.name !== input.name && !input.name.includes(c.name)) this.push(indent, `text ${this.plain(c.name)}${toneOf(c.style.color) ? " " + toneOf(c.style.color) : ""}`, c); return; }
     }
+    // a floating label that names the input just emitted is already that input's label
+    if (t === "label" && el.name === this.lastField) return;
     // text-only subtrees: badge, text
     if (this.isTextOnly(el) && el.name) {
       if (el.name.length <= 24 && el.style.radius >= 8 && el.style.bg) { this.push(indent, `badge ${this.plain(el.name)}${toneOf(el.style.color) ? " " + toneOf(el.style.color) : ""}`, el); this.stats.semantic++; return; }
@@ -279,7 +312,9 @@ export class Importer {
     const first = shown[0];
     const title = bordered && first && first.role === "heading" && first.style.fs <= 17 ? first.name : null;
     const kids = title ? shown.slice(1) : shown;
-    this.panels = kids.filter((c) => c.role === "tabpanel");
+    const panels = kids.filter((c) => c.role === "tabpanel");
+    if (panels.length) this.panels = panels; // the tablist may sit deeper than the panels' parent
+    if (el.text && !this.isIcon(el)) { this.push(indent, `text ${this.plain(el.text)}${toneOf(el.style.color) ? " " + toneOf(el.style.color) : ""}`, el); this.stats.semantic++; this.stats.textRuns++; }
     if (bordered) { this.push(indent, `card${title ? " " + q(title) : ""}`, el); this.stats.semantic++; }
     else if (row) this.push(indent, "row", el);
     else if (inRow && kids.length > 1) this.push(indent, "col", el);
@@ -292,11 +327,14 @@ export class Importer {
     const trs = rows(el);
     if (!trs.length) return;
     const header = trs.find((r) => r.children.some((c) => c.tag === "th")) ?? trs[0];
-    const cols = header.children.map((c) => c.name.split(" ")[0] || "Col");
+    const cols = header.children.map((c) => c.name.replace(/[|:]/g, " ").replace(/\s+/g, " ").trim() || "Col");
     const body = trs.filter((r) => r !== header);
     const badgeCols = cols.map((_, i) => body.length > 0 && body.every((r) => r.children[i] && r.children[i].children.length === 1 && r.children[i].children[0].style.radius >= 8));
-    this.push(indent, `table ${cols.map((c, i) => c + (badgeCols[i] ? ":badge" : "")).join(" ")}`, el);
-    for (const r of body) this.push(indent + 1, r.children.map((c) => c.name.replace(/\|/g, "/")).join(" | "));
+    const col = (c: string, i: number) => { const full = c + (badgeCols[i] ? ":badge" : ""); return /\s/.test(c) ? JSON.stringify(full) : full; };
+    this.push(indent, `table ${cols.map(col).join(" ")}`, el);
+    // a cell's text, or the name of the icon it holds (a check mark in a comparison table)
+    const cell = (c: El): string => (c.name || c.children.filter((x) => x.svg && x.name).map((x) => x.name).join(" ")).replace(/\|/g, "/");
+    for (const r of body) this.push(indent + 1, r.children.map(cell).join(" | "));
     this.stats.semantic += 1 + body.length;
   }
 
@@ -331,6 +369,11 @@ export class Importer {
       if (x.text) {
         this.push(indent + 1, `text @${fmt(b.x - ox)},${fmt(b.y - oy + x.style.fs * 0.8)} ${qq(x.text)} size:${fmt(x.style.fs)}${x.style.fw >= 600 ? " weight:" + x.style.fw : ""}${x.style.color && x.style.color !== "#000000" ? " fill:" + x.style.color : ""}`, x);
         this.stats.painted++; this.stats.textRuns++;
+      }
+      if (x.svg) {
+        // an inline SVG inside the subtree: a positioned figure holding its shapes
+        this.push(indent + 1, `figure${x.name ? " " + qq(x.name) : ""} @${fmt(b.x - ox)},${fmt(b.y - oy)} ${fmt(b.w)}x${fmt(b.h)}`, x);
+        this.svgPrimitives(x, indent + 2);
       }
       for (const c of x.children) walk(c);
     };
@@ -410,6 +453,11 @@ export class Importer {
   canvasFromSvg(el: El, indent: number) {
     if (this.asFlow(el, indent)) return;
     this.space(indent, el.box.w, el.box.h, el.name || undefined, el);
+    this.svgPrimitives(el, indent + 1);
+  }
+
+  /** The shapes of an inline SVG, one primitive per element, transforms baked in. */
+  svgPrimitives(el: El, indent: number) {
     const color = (v?: string) => (v === undefined || v === "none" ? "none" : v.startsWith("#") ? v : v.startsWith("rgb") ? "#" + v.match(/[\d.]+/g)!.slice(0, 3).map((x) => Math.round(Number(x)).toString(16).padStart(2, "0")).join("") : v);
     const num = (v: string | undefined, d = 0) => (v === undefined ? d : parseFloat(v));
     const style = (a: Record<string, string>, isText = false): string => {
@@ -467,7 +515,7 @@ export class Importer {
       }
       if (line) { this.push(ind, line.replace(/\s+$/, "").replace(/  +/g, " ")); this.stats.painted++; if (n.tag === "text") this.stats.textRuns++; }
     };
-    for (const c of el.svg ?? []) walk(c, indent + 1, null);
+    for (const c of el.svg ?? []) walk(c, indent, null);
   }
 }
 

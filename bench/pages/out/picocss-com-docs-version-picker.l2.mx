@@ -1,0 +1,141 @@
+@picocss_com_docs_version_picker rev=0 @0,0,728,2066
+row @17,17,694,2032
+  button "Skip to content" primary @17,1015,40,36
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @69,952,28,162
+  row @109,993,60,81
+    link "Pico CSS homepage" / @109,1003,10,61
+    row @131,993,38,81
+      row @131,1023,9,20
+        text v2.1.1 @131,1023,0,20
+        link Examples /examples @143,1023,0,20
+        link Docs /docs @155,1023,0,20
+      row @152,993,17,81
+        link "GitHub repository" https://github.com/picocss/pico @152,1013,0,41
+        link Twitter https://x.com/picocss @164,1023,0,20
+        link "Turn on dark mode" /docs/version-picker @176,993,0,81
+  row @181,17,308,2032
+    col @181,748,14,570
+      text Getting started @181,748,14,41
+      link "Quick start" /docs @181,801,14,40
+      link "Version picker New" /docs/version-picker @181,853,14,61
+      link "Color schemes" /docs/color-schemes @181,926,14,41
+      link "Class-less version" /docs/classless @181,979,14,40
+      link "Conditional styling New" /docs/conditional @181,1031,14,61
+      link RTL /docs/rtl @181,1104,14,21
+      text Customization @181,1137,14,20
+      text Layout @181,1169,14,20
+      text Content @181,1201,14,20
+      text Forms @181,1233,14,21
+      text Components @181,1266,14,20
+      text About @181,1298,14,20
+    metric "Getting started" "Version picker" "Easily select the ideal Pico CSS version variant to match your project's needs." @207,17,30,2032
+    col @249,881,13,304
+      text Content @249,881,13,21
+      link Theme /docs/version-picker @249,914,13,20
+      link Configuration /docs/version-picker#configuration @249,946,13,20
+      link "Usage from CDN" /docs/version-picker#usage-from-cdn @249,978,13,61
+      link "Usage with Sass" /docs/version-picker#usage-with-sass @249,1051,13,61
+      link "Starter HTML template" /docs/version-picker#starter-html-template @249,1124,13,61
+    col @274,17,215,2032
+      h2 Theme color @274,17,215,21
+      card @274,50,215,664
+        link Azure /docs/version-picker/red @291,65,181,21
+        link Azure /docs/version-picker/pink @291,98,181,20
+        link Azure /docs/version-picker/fuchsia @291,130,181,20
+        link Azure /docs/version-picker/purple @291,162,181,20
+        link Azure /docs/version-picker/violet @291,194,181,21
+        link Azure /docs/version-picker/indigo @291,227,181,20
+        link Azure /docs/version-picker/blue @291,259,181,20
+        link Azure /docs/version-picker @291,291,181,21
+        link Azure /docs/version-picker/cyan @291,324,181,20
+        link Azure /docs/version-picker/jade @291,356,181,20
+        link Azure /docs/version-picker/green @291,388,181,21
+        link Azure /docs/version-picker/lime @291,421,181,20
+        link Azure /docs/version-picker/yellow @291,453,181,20
+        link Azure /docs/version-picker/amber @291,485,181,20
+        link Azure /docs/version-picker/pumpkin @291,517,181,21
+        link Azure /docs/version-picker/orange @291,550,181,20
+        link Azure /docs/version-picker/sand @291,582,181,20
+        link Azure /docs/version-picker/grey @291,614,181,21
+        link Azure /docs/version-picker/zinc @291,647,181,20
+        link Azure /docs/version-picker/slate @291,679,181,20
+      h2 Azure @274,726,215,21
+      text Form example with an azure theme. @274,759,215,41
+      row @274,812,215,58
+        field Login @274,812,32,58
+        field Password password @318,812,56,58
+        button "Log in" primary @386,823,71,36
+      link "Privacy Policy" /docs/version-picker @274,882,215,20
+      toggle "I agree to the" on @274,914,215,36
+      link "Copy code" /docs/version-picker @274,962,215,20
+      text <link rel="stylesheet" href="css/pico.min.css"> @274,994,215,41
+      h2 Configuration# @274,1047,215,21
+      select configuration *"Regular, with classes" "Class-less, with centered viewports" "Class-less, with fluid viewport" @274,1080,215,55
+      text The default version of Pico CSS, with all components and classes. @274,1147,215,61
+      toggle "Conditional Styling" off @274,1220,215,36
+      text The default version applies Pico styles to every HTML element. @274,1268,215,41
+      h2 Usage from CDN# @274,1321,215,21
+      card @274,1354,215,123
+        link "Copy code" /docs/version-picker @291,1369,181,20
+        text <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" > @291,1401,181,61
+      h2 Usage with Sass# @274,1489,215,21
+      card @274,1522,215,83
+        link "Copy code" /docs/version-picker @291,1537,181,21
+        text @use "pico"; @291,1570,181,20
+      h2 Starter HTML template# @274,1617,215,21
+      card @274,1650,215,367
+        link "Copy code" /docs/version-picker @291,1665,181,21
+        text <!doctype html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="color-scheme" content="light dark"> <link rel="stylesheet" href="css/pico.min.css"> <title>Hello world!</title> </head> <body> <main class="container"> <h1>Hello world!</h1> </main> </body> </html> @291,1698,181,304
+      link "Edit this page on GitHub" https://github.com/picocss/picocss.com/blob/main/app/routes/docs.version-picker.jsx @274,2029,215,20
+  col @501,895,210,276
+    row @501,895,210,203
+      region 49.34000015258789x45 @501,995,4,3 [3 shapes, 0 labelled]
+      row @517,976,113,41
+        row @517,976,24,41
+          text About @517,987,0,20
+          link Maintenance /docs/maintenance @529,987,0,20
+          link "What’s new?" /docs/v2 @541,976,0,41
+          link Brand /docs/brand @553,987,0,20
+          link Mission /docs/mission @565,987,0,20
+          link "Usage scenarios" /docs/usage-scenarios @577,976,0,41
+        row @553,976,25,41
+          text Docs @553,987,0,20
+          link "Quick start" /docs @565,976,0,41
+          link "Version picker" /docs/version-picker @577,976,0,41
+          link "Class-less version" /docs/classless @589,976,0,41
+          link "Form elements" /docs/forms @601,976,0,41
+        row @590,987,14,20
+          text Community @590,987,0,20
+          link Issues https://github.com/picocss/pico/issues @602,987,0,20
+          link Discussions https://github.com/picocss/pico/discussions @614,987,0,20
+          link Help https://github.com/picocss/pico/discussions/categories/help @626,987,0,20
+        row @616,987,14,20
+          text Examples @616,987,0,20
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @628,987,0,20
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @640,987,0,20
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @652,987,0,20
+          link All /examples @664,987,0,20
+      text Designed and built by with the help of our . @642,895,22,203
+      col @676,960,7,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @676,960,7,41
+        link contributors https://github.com/picocss/pico/graphs/contributors @676,1013,7,20
+      row @695,987,16,20
+        link GitHub https://github.com/picocss/pico @695,987,0,20
+        link Twitter https://x.com/picocss @707,987,0,20
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @719,987,0,20
+        link NPM https://www.npmjs.com/package/@picocss/pico @731,987,0,20
+    row @501,1110,210,61
+      text Code licensed , docs . @501,1110,71,61
+      row @584,1110,64,61
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @584,1131,11,20
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @607,1110,41,61
+      text Currently v2.1.1. @660,1120,51,41
+!overflow skip 38/130px
+!overflow getting2 0/85px
+!overflow getting2 0/157px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

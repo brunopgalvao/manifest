@@ -1,0 +1,163 @@
+@www_nasa_gov_nasa_blogs rev=0 @0,0,728,1651
+row @17,17,694,58
+  row @17,17,193,58
+    button Explore @17,28,82,36
+    row @111,17,99,58
+      text Search @111,36,47,20
+      field Search search @170,17,40,58
+  link https://www.nasa.gov/ https://www.nasa.gov/ @222,36,152,20
+  row @386,28,310,36
+    button "News & Events" @386,28,131,36
+    button Multimedia @529,28,106,36
+    link NASA+ https://plus.nasa.gov/ @647,36,49,20
+row @17,87,694,40
+  link "News Releases" https://www.nasa.gov/2026-news-releases/ @17,87,94,40
+  link "Recently Published" https://www.nasa.gov/news/recently-published/ @123,87,118,40
+  link Blogs https://www.nasa.gov/nasa-blogs/ @253,97,34,20
+  link Newsletters https://www.nasa.gov/newsletters/ @299,97,74,20
+  button "Social Media" @385,89,110,36
+  link "Budgets and Reports" https://www.nasa.gov/budgets-plans-and-reports/ @507,87,129,40
+  button More @648,89,63,36
+row @17,139,694,37
+  col @17,139,118,37
+    h1 NASA Blogs @17,139,118,25
+    row @17,176,118,0
+      row @17,176,0,0
+      row @29,176,0,0
+row @17,188,694,22
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,188,0,0
+  h2 Artemis @29,188,66,22
+  link Artemis https://www.nasa.gov/blogs/artemis/ @107,189,51,20
+row @17,222,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,222,0,0
+  h2 Commercial Crew Program @29,222,224,21
+  link "Commercial Crew Program" https://www.nasa.gov/blogs/commercialcrew/ @265,222,179,20
+row @17,255,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,255,0,0
+  h2 Commercial Resupply @29,255,182,21
+  link "Commercial Resupply" https://www.nasa.gov/blogs/commercialresupply/ @223,255,145,21
+row @17,288,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,288,0,0
+  h2 EZIE Mission @29,288,106,21
+  link "EZIE Mission" https://blogs.nasa.gov/ezie/2025/03/24/nasa-science-live-event-to-discuss-newly-launched-ezie-mission/ @147,289,85,20
+row @17,321,694,22
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,321,0,0
+  h2 International Space Station @29,321,225,22
+  link "International Space Station" https://www.nasa.gov/blogs/spacestation/ @266,322,178,20
+row @17,355,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,355,0,0
+  h2 James Webb Space Telescope @29,355,256,21
+  link "James Webb Space Telescope" https://blogs.nasa.gov/webb/2025/04/02/nasas-webb-finds-asteroid-2024-yr4-is-building-sized/ @297,355,206,20
+row @17,388,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,388,0,0
+  h2 NEO Surveyor @29,388,117,21
+  link "NEO Surveyor" https://blogs.nasa.gov/neosurveyor/ @158,388,94,21
+row @17,421,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,421,0,0
+  h2 NASA Science News @29,421,172,21
+  link "NASA Science News" https://science.nasa.gov/blogs/science-news/ @213,422,138,20
+row @17,454,694,22
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,454,0,0
+  h2 NISAR Mission @29,454,122,22
+  link "NISAR Mission" https://blogs.nasa.gov/nisar/ @163,455,97,20
+row @17,488,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,488,0,0
+  h2 Orion Spacecraft @29,488,142,21
+  link "Orion Spacecraft" https://www.nasa.gov/blogs/orion/ @183,488,113,20
+row @17,521,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,521,0,0
+  h2 Parker Solar Probe @29,521,155,21
+  link "Parker Solar Probe" https://blogs.nasa.gov/parkersolarprobe/ @196,521,125,21
+row @17,554,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,554,0,0
+  h2 PUNCH @29,554,62,21
+  link PUNCH https://science.nasa.gov/blogs/punch/ @103,555,51,20
+row @17,587,694,22
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,587,0,0
+  h2 Quesst @29,587,60,22
+  link Quesst https://www.nasa.gov/blogs/quesst/ @101,588,47,20
+row @17,621,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,621,0,0
+  h2 Small Satellite Missions @29,621,196,21
+  link "Small Satellite Missions" https://www.nasa.gov/blogs/smallsatellites/ @237,621,155,20
+row @17,654,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,654,0,0
+  h2 Solar Cycle 25 @29,654,120,21
+  link "Solar Cycle 25" https://blogs.nasa.gov/solarcycle25/2025/03/28/sun-releases-strong-flare-6/ @161,654,97,21
+row @17,687,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,687,0,0
+  h2 SPHEREx Mission @29,687,146,21
+  link "SPHEREx Mission" https://blogs.nasa.gov/spherex/2025/03/20/nasas-recently-launched-spherex-ejects-dust-cover-from-telescope/ @187,688,117,20
+row @17,720,694,22
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,720,0,0
+  h2 The Sun Spot @29,720,111,22
+  link "The Sun Spot" https://blogs.nasa.gov/sunspot/ @152,721,90,20
+row @17,754,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,754,0,0
+  h2 Watch the Skies @29,754,135,21
+  link "Watch the Skies" https://www.nasa.gov/blogs/watch-the-skies/ @176,754,108,20
+row @17,787,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,787,0,0
+  h2 Workforce Updates @29,787,163,21
+  link "Workforce Updates" https://www.nasa.gov/blogs/workforce-updates/ @204,787,130,21
+h2 Discover More @17,820,694,21
+row @17,853,694,21
+  link "Games and Interactives" https://www.nasa.gov/interactives/ @17,853,156,21
+  link e-Books https://www.nasa.gov/ebooks/ @185,853,56,21
+  link Newsletters https://www.nasa.gov/newsletters/ @253,853,80,21
+  link "Mobile and Desktop Apps" https://www.nasa.gov/apps/ @345,853,171,21
+image https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg "NASA Logo" @17,886,0,0
+row @17,898,694,736
+  col @17,1138,176,255
+    h3 National Aeronautics and Space Administration @17,1138,176,57
+    text NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery. @17,1207,176,122
+    link "About NASA's Mission" https://www.nasa.gov/about/ @17,1341,176,20
+    link "Join Us" https://www.nasa.gov/get-involved/ @17,1373,176,20
+  col @205,898,51,736
+    link Home https://www.nasa.gov/ @205,898,51,20
+    link "News & Events" https://www.nasa.gov/news/ @205,930,51,40
+    link Multimedia https://www.nasa.gov/multimedia/ @205,983,51,20
+    link NASA+ https://plus.nasa.gov/ @205,1015,51,20
+    link Missions https://www.nasa.gov/nasa-missions/ @205,1047,51,20
+    link "Humans in Space" https://www.nasa.gov/humans-in-space/ @205,1079,51,61
+    link Earth https://science.nasa.gov/earth/ @205,1152,51,21
+    link "The Solar System" https://science.nasa.gov/solar-system/ @205,1185,51,61
+    link "The Universe" https://science.nasa.gov/universe/ @205,1258,51,40
+    link Science https://science.nasa.gov/ @205,1310,51,20
+    link Aeronautics https://www.nasa.gov/aeronautics/ @205,1342,51,21
+    link Technology https://www.nasa.gov/technology/ @205,1375,51,20
+    link "Learning Resources" https://www.nasa.gov/learning-resources/ @205,1407,51,41
+    link "About NASA" https://www.nasa.gov/about/ @205,1460,51,40
+    link "NASA en Español (opens in new tab)" https://www.nasa.gov/es/ @205,1512,51,122
+  col @268,1157,211,217
+    h3 Follow NASA @268,1157,211,19
+    row @268,1188,211,122
+      link "NASA on Facebook (opens in new tab)" https://www.facebook.com/NASA @268,1188,47,122
+      link "NASA on Instagram (opens in new tab)" https://www.instagram.com/nasa/ @327,1188,46,122
+      link "NASA on X (opens in new tab)" https://x.com/NASA @385,1188,37,122
+      link "NASA on YouTube (opens in new tab)" https://www.youtube.com/@NASA @434,1188,45,122
+    link "More NASA Social Accounts" https://www.nasa.gov/social-media/ @268,1322,211,20
+    link "NASA Newsletters" https://www.nasa.gov/nasa-newsletters/ @268,1354,211,20
+  col @491,958,49,616
+    link Sitemap https://www.nasa.gov/sitemap/ @491,958,49,20
+    link "For Media" https://www.nasa.gov/news/nasa-media-contacts/ @491,990,49,41
+    link "Privacy Policy" https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/ @491,1043,49,41
+    link FOIA https://www.nasa.gov/foia/ @491,1096,49,20
+    link "No FEAR Act" https://www.nasa.gov/no-fear-act/ @491,1128,49,61
+    link "Office of the IG (opens in new tab)" http://oig.nasa.gov/ @491,1201,49,122
+    link "Budget & Annual Reports" https://www.nasa.gov/budgets-plans-and-reports/ @491,1335,49,81
+    link "Agency Financial Reports" https://www.nasa.gov/organizations/budget-annual-reports/agency-financial-reports/ @491,1428,49,61
+    link "Contact NASA" https://www.nasa.gov/contact-nasa/ @491,1501,49,40
+    link Accessibility https://www.nasa.gov/accessibility/ @491,1553,49,21
+  row @552,1235,159,61
+    row @552,1235,42,61
+      text Page Last Updated: @552,1235,18,61
+      text Jun 16, 2026 @582,1235,12,61
+    row @606,1246,38,40
+      text Page Editor: @606,1246,11,40
+      text Dacia Massengill @629,1246,15,40
+    row @656,1235,55,61
+      text Responsible NASA Official: @656,1235,27,61
+      text Abigail Bowman @695,1246,16,40
+!overflow social 108/115px
+!overflow more 61/64px

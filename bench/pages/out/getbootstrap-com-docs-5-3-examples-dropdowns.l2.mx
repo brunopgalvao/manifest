@@ -1,0 +1,225 @@
+@getbootstrap_com_docs_5_3_examples_dropd rev=0 @0,0,728,806
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,41
+  row @17,65,341,41
+    link Action # @17,75,35,21
+    link "Another action" # @64,65,81,41
+    link "Something else here" # @157,65,111,41
+    link "Separated link" # @280,65,78,41
+  row @370,65,341,41
+    link Action # @370,75,35,21
+    link "Another action" # @417,65,81,41
+    link "Something else here" # @510,65,111,41
+    link "Separated link" # @633,65,78,41
+row @17,118,694,187
+  col @17,118,136,187
+    field "Type to filter..." search @17,118,136,58
+    link Action # @17,188,136,20
+    link "Another action" # @17,220,136,20
+    link "Something else here" # @17,252,136,21
+    link "Separated link" # @17,285,136,20
+  col @165,118,136,187
+    field "Type to filter..." search @165,118,136,58
+    link Action # @165,188,136,20
+    link "Another action" # @165,220,136,20
+    link "Something else here" # @165,252,136,21
+    link "Separated link" # @165,285,136,20
+row @17,317,694,182
+  col @17,317,76,182
+    link Documents # @17,317,76,20
+    link Photos # @17,349,76,20
+    link Movies # @17,381,76,21
+    link Music # @17,414,76,20
+    link Games # @17,446,76,20
+    link Trash # @17,478,76,21
+  col @105,317,76,182
+    link Documents # @105,317,76,20
+    link Photos # @105,349,76,20
+    link Movies # @105,381,76,21
+    link Music # @105,414,76,20
+    link Games # @105,446,76,20
+    link Trash # @105,478,76,21
+row @17,511,694,117
+  col @17,511,341,117
+    row @17,511,341,36
+      button "previous month" @17,511,136,36
+      text June @165,519,33,20
+      button "next month" @210,511,107,36
+    row @17,559,341,20
+      text Sun @17,559,26,20
+      text Mon @55,559,30,20
+      text Tue @97,559,26,20
+      text Wed @135,559,31,20
+      text Thu @178,559,26,20
+      text Fri @216,559,17,20
+      text Sat @245,559,22,20
+    row @17,591,341,37
+      button 30 disabled @17,591,30,37
+      button 31 disabled @59,591,30,37
+      button 1 @101,591,30,37
+      button 2 @143,591,30,37
+      button 3 @185,591,30,37
+      button 4 @227,591,30,37
+      button 5 @269,591,30,37
+      button 6 @311,591,30,37
+      button 7 @353,591,30,37
+      button 8 @395,591,30,37
+      button 9 @437,591,30,37
+      button 10 @479,591,30,37
+      button 11 @521,591,30,37
+      button 12 @563,591,30,37
+      button 13 @605,591,30,37
+      button 14 @647,591,30,37
+      button 15 @689,591,30,37
+      button 16 @731,591,30,37
+      button 17 @773,591,30,37
+      button 18 @815,591,30,37
+      button 19 @857,591,30,37
+      button 20 @899,591,30,37
+      button 21 @941,591,30,37
+      button 22 @983,591,30,37
+      button 23 @1025,591,30,37
+      button 24 @1067,591,30,37
+      button 25 @1109,591,30,37
+      button 26 @1151,591,30,37
+      button 27 @1193,591,30,37
+      button 28 @1235,591,30,37
+      button 29 @1277,591,30,37
+      button 30 @1319,591,30,37
+      button 31 @1361,591,30,37
+  col @370,511,341,117
+    row @370,511,341,36
+      button "previous month" @370,511,136,36
+      text June @518,519,33,20
+      button "next month" @563,511,107,36
+    row @370,559,341,20
+      text Sun @370,559,26,20
+      text Mon @408,559,30,20
+      text Tue @450,559,26,20
+      text Wed @488,559,31,20
+      text Thu @531,559,26,20
+      text Fri @569,559,17,20
+      text Sat @598,559,22,20
+    row @370,591,341,37
+      button 30 disabled @370,591,30,37
+      button 31 disabled @412,591,30,37
+      button 1 @454,591,30,37
+      button 2 @496,591,30,37
+      button 3 @538,591,30,37
+      button 4 @580,591,30,37
+      button 5 @622,591,30,37
+      button 6 @664,591,30,37
+      button 7 @706,591,30,37
+      button 8 @748,591,30,37
+      button 9 @790,591,30,37
+      button 10 @832,591,30,37
+      button 11 @874,591,30,37
+      button 12 @916,591,30,37
+      button 13 @958,591,30,37
+      button 14 @1000,591,30,37
+      button 15 @1042,591,30,37
+      button 16 @1084,591,30,37
+      button 17 @1126,591,30,37
+      button 18 @1168,591,30,37
+      button 19 @1210,591,30,37
+      button 20 @1252,591,30,37
+      button 21 @1294,591,30,37
+      button 22 @1336,591,30,37
+      button 23 @1378,591,30,37
+      button 24 @1420,591,30,37
+      button 25 @1462,591,30,37
+      button 26 @1504,591,30,37
+      button 27 @1546,591,30,37
+      button 28 @1588,591,30,37
+      button 29 @1630,591,30,37
+      button 30 @1672,591,30,37
+      button 31 @1714,591,30,37
+row @17,640,694,149
+  row @17,640,341,149
+    col @17,641,254,146
+      link "Main product Take a tour through the product" # @17,641,254,41
+      link "Another product Explore this other product we offer" # @17,694,254,41
+      link "Support Get help from our support crew" # @17,747,254,40
+    col @283,640,75,149
+      link Documentation # @283,640,75,20
+      link "Use cases" # @283,672,75,20
+      link "API status" # @283,704,75,20
+      link Partners # @283,736,75,21
+      link Resources # @283,769,75,20
+  row @370,640,341,149
+    col @370,641,254,146
+      link "Main product Take a tour through the product" # @370,641,254,41
+      link "Another product Explore this other product we offer" # @370,694,254,41
+      link "Support Get help from our support crew" # @370,747,254,40
+    col @636,640,75,149
+      link Documentation # @636,640,75,20
+      link "Use cases" # @636,672,75,20
+      link "API status" # @636,704,75,20
+      link Partners # @636,736,75,21
+      link Resources # @636,769,75,20
+!overflow 30 28/47px
+!overflow 31 28/43px
+!overflow 1 28/34px
+!overflow 2 28/37px
+!overflow 3 28/37px
+!overflow 4 28/38px
+!overflow 5 28/37px
+!overflow 6 28/37px
+!overflow 7 28/37px
+!overflow 8 28/37px
+!overflow 9 28/37px
+!overflow 10 28/44px
+!overflow 11 28/40px
+!overflow 12 28/43px
+!overflow 13 28/43px
+!overflow 14 28/44px
+!overflow 15 28/43px
+!overflow 16 28/43px
+!overflow 17 28/42px
+!overflow 18 28/43px
+!overflow 19 28/43px
+!overflow 20 28/46px
+!overflow 21 28/43px
+!overflow 22 28/46px
+!overflow 23 28/46px
+!overflow 24 28/47px
+!overflow 25 28/46px
+!overflow 26 28/46px
+!overflow 27 28/45px
+!overflow 28 28/46px
+!overflow 29 28/46px
+!overflow 302 28/47px
+!overflow 312 28/43px
+!overflow 303 28/47px
+!overflow 313 28/43px
+!overflow 110 28/34px
+!overflow 210 28/37px
+!overflow 32 28/37px
+!overflow 42 28/38px
+!overflow 52 28/37px
+!overflow 62 28/37px
+!overflow 72 28/37px
+!overflow 82 28/37px
+!overflow 92 28/37px
+!overflow 102 28/44px
+!overflow 112 28/40px
+!overflow 122 28/43px
+!overflow 132 28/43px
+!overflow 142 28/44px
+!overflow 152 28/43px
+!overflow 162 28/43px
+!overflow 172 28/42px
+!overflow 182 28/43px
+!overflow 192 28/43px
+!overflow 202 28/46px
+!overflow 212 28/43px
+!overflow 222 28/46px
+!overflow 232 28/46px
+!overflow 242 28/47px
+!overflow 252 28/46px
+!overflow 262 28/46px
+!overflow 272 28/45px
+!overflow 282 28/46px
+!overflow 292 28/46px
+!overflow 304 28/47px
+!overflow 314 28/43px

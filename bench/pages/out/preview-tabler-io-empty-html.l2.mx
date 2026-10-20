@@ -1,0 +1,229 @@
+@preview_tabler_io_empty_html rev=0 @0,0,728,2284
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,41
+  link Tabler . @17,59,39,21
+  row @68,49,643,41
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle @68,49,71,41
+    row @151,49,448,41
+      link "Enable dark mode" @151,49,108,41
+      link "Show notifications" # @271,49,111,41
+      link "Show app menu" # @394,49,97,41
+      link "Select language" # @503,49,96,41
+    link "Open user menu" # @611,49,100,41
+row @17,102,694,36
+  row @17,102,593,36
+    button Dashboards @17,102,85,36
+    button Interface @114,102,71,36
+    button Forms @197,102,58,36
+    button Extra @267,102,54,36
+    button Layout @333,102,61,36
+    button Plugins @406,102,63,36
+    button Addons @481,102,65,36
+    button Help @558,102,52,36
+  button Customize @622,102,89,36
+row @17,150,694,25
+  h1 Empty page @17,150,116,25
+  link Docs https://docs.tabler.io/ui/components/empty @145,153,34,20
+row @17,187,694,41
+  row @17,187,325,41
+    link Documentation https://docs.tabler.io @17,197,99,21
+    link License ./license.html @128,197,52,21
+    link "Source code" https://github.com/tabler/tabler @192,187,83,41
+    link Sponsor https://github.com/sponsors/codecalm @287,197,55,21
+  row @354,187,357,41
+    text Copyright © 2026 . All rights reserved. @354,187,254,41
+    link Tabler . @620,197,43,21
+    link v1.6.1 ./changelog.html @675,197,36,21
+button Customize primary @17,240,694,36
+card @17,288,694,1979
+  button Close primary @34,303,660,36
+  region 160x120 @34,351,160,120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own @34,483,660,22
+  text Pick the look and layout of this preview. Your choices are saved in this browser. @34,517,660,20
+  h3 Appearance @34,549,660,19
+  text Color scheme @34,580,660,20
+  text The page and its navigation, in one pick. @34,612,660,20
+  row @34,644,660,97
+    col @34,644,96,97
+      region 96x64 @34,644,96,64 [8 shapes, 0 labelled]
+      text Auto @34,720,96,21
+    col @142,644,96,97
+      region 96x64 @142,644,96,64 [8 shapes, 0 labelled]
+      text Light @142,720,96,21
+    col @250,644,96,97
+      region 96x64 @250,644,96,64 [8 shapes, 0 labelled]
+      text Dark @250,720,96,21
+    col @358,644,96,97
+      region 96x64 @358,644,96,64 [8 shapes, 0 labelled]
+      text Dark nav @358,720,96,21
+    col @466,644,96,97
+      region 96x64 @466,644,96,64 [8 shapes, 0 labelled]
+      text Colored @466,720,96,21
+  text Accent color @34,753,660,20
+  text The accent color used across the app. @34,785,660,20
+  row @34,817,660,0
+  text Font family @34,829,660,21
+  text The typeface used across the app. @34,862,660,20
+  row @34,894,660,20
+    text Aa Sans-serif @34,894,90,20
+    text Aa Serif @136,894,53,20
+    text Aa Monospace @201,894,100,20
+    text Aa Comic @313,894,64,20
+  text Theme base @34,926,660,20
+  text The gray palette behind every surface. @34,958,660,21
+  row @34,991,660,96
+    col @34,991,96,96
+      region 96x64 @34,991,96,64 [6 shapes, 0 labelled]
+      text Slate @34,1067,96,20
+    col @142,991,96,96
+      region 96x64 @142,991,96,64 [6 shapes, 0 labelled]
+      text Gray @142,1067,96,20
+    col @250,991,96,96
+      region 96x64 @250,991,96,64 [6 shapes, 0 labelled]
+      text Zinc @250,1067,96,20
+    col @358,991,96,96
+      region 96x64 @358,991,96,64 [6 shapes, 0 labelled]
+      text Neutral @358,1067,96,20
+    col @466,991,96,96
+      region 96x64 @466,991,96,64 [6 shapes, 0 labelled]
+      text Stone @466,1067,96,20
+  text Corner radius @34,1099,660,20
+  text How round corners are drawn. @34,1131,660,21
+  row @34,1164,660,96
+    col @34,1164,96,96
+      region 96x64 @34,1164,96,64 [2 shapes, 0 labelled]
+      text 0 @34,1240,96,20
+    col @142,1164,96,96
+      region 96x64 @142,1164,96,64 [2 shapes, 0 labelled]
+      text 0.5 @142,1240,96,20
+    col @250,1164,96,96
+      region 96x64 @250,1164,96,64 [2 shapes, 0 labelled]
+      text 1 @250,1240,96,20
+    col @358,1164,96,96
+      region 96x64 @358,1164,96,64 [2 shapes, 0 labelled]
+      text 1.5 @358,1240,96,20
+    col @466,1164,96,96
+      region 96x64 @466,1164,96,64 [2 shapes, 0 labelled]
+      text 2 @466,1240,96,20
+  h3 Layout @34,1272,660,19
+  text Navigation @34,1303,660,20
+  text Where the main menu lives. @34,1335,660,20
+  row @34,1367,660,97
+    col @34,1367,96,97
+      region 96x64 @34,1367,96,64 [10 shapes, 0 labelled]
+      text Navbar @34,1443,96,21
+    col @142,1367,96,97
+      region 96x64 @142,1367,96,64 [11 shapes, 0 labelled]
+      text Sidebar @142,1443,96,21
+  text Container width @34,1476,660,20
+  text How wide the page content runs. @34,1508,660,20
+  row @34,1540,660,96
+    col @34,1540,96,96
+      region 96x64 @34,1540,96,64 [6 shapes, 0 labelled]
+      text Default @34,1616,96,20
+    col @142,1540,96,96
+      region 96x64 @142,1540,96,64 [6 shapes, 0 labelled]
+      text Fluid @142,1616,96,20
+    col @250,1540,96,96
+      region 96x64 @250,1540,96,64 [7 shapes, 0 labelled]
+      text Boxed @250,1616,96,20
+  text Navbar behavior @34,1648,660,21
+  text Keep the navbar visible while scrolling. @34,1681,660,20
+  row @34,1713,660,96
+    col @34,1713,96,96
+      region 96x64 @34,1713,96,64 [8 shapes, 0 labelled]
+      text Default @34,1789,96,20
+    col @142,1713,96,96
+      region 96x64 @142,1713,96,64 [10 shapes, 0 labelled]
+      text Sticky @142,1789,96,20
+  text Navigation style @34,1821,660,21
+  text Attach the navigation to the edges, or let it float. @34,1854,660,20
+  row @34,1886,660,96
+    col @34,1886,96,96
+      region 96x64 @34,1886,96,64 [10 shapes, 0 labelled]
+      text Attached @34,1962,96,20
+    col @142,1886,96,96
+      region 96x64 @142,1886,96,64 [9 shapes, 0 labelled]
+      text Floating @142,1962,96,20
+  text Offcanvas style @34,1994,660,21
+  text Attach side panels to the edges, or let them float. @34,2027,660,20
+  row @34,2059,660,96
+    col @34,2059,96,96
+      region 96x64 @34,2059,96,64 [11 shapes, 0 labelled]
+      text Attached @34,2135,96,20
+    col @142,2059,96,96
+      region 96x64 @142,2059,96,64 [10 shapes, 0 labelled]
+      text Floating @142,2135,96,20
+  button "Reset changes" @34,2167,660,36
+  button Save primary @34,2215,660,37
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3
+!offcanvas region5
+!offcanvas path4
+!offcanvas region6
+!offcanvas path5
+!offcanvas region7
+!offcanvas path6
+!offcanvas region8
+!offcanvas path7
+!offcanvas region9
+!offcanvas path8
+!offcanvas region10
+!offcanvas path9
+!offcanvas region11
+!offcanvas path10
+!offcanvas region12
+!offcanvas path11
+!offcanvas region13
+!offcanvas path12
+!offcanvas region14
+!offcanvas path13
+!offcanvas region15
+!offcanvas path14
+!offcanvas region16
+!offcanvas path15
+!offcanvas region17
+!offcanvas path16
+!offcanvas region18
+!offcanvas path17
+!offcanvas region19
+!offcanvas path18
+!offcanvas region20
+!offcanvas path19
+!offcanvas region21
+!offcanvas path20
+!offcanvas region22
+!offcanvas path21
+!offcanvas region23
+!offcanvas path22
+!offcanvas region24
+!offcanvas path23
+!offcanvas region25
+!offcanvas path24
+!offcanvas region26
+!offcanvas path25
+!offcanvas region27
+!offcanvas path26
+!offcanvas region28
+!offcanvas path27
+!offcanvas region29
+!offcanvas path28
+!offcanvas region30
+!offcanvas path29
+!offcanvas region31
+!offcanvas path30
+!offcanvas region32
+!offcanvas path31

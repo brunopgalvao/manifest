@@ -78,9 +78,11 @@ row
   col
     h2 Invoices
     row
+      text Show  entries
       field "Invoices count" =8
+      text Search:
       field "Search invoice"
-    table Col No. Invoice Client VAT Created Status:badge Price Col
+    table Col No. "Invoice Subject" Client "VAT No." Created Status:badge Price Col
        | 001401 | Design Works | Carlson Limited | 87956621 | 15 Dec 2017 | Paid | $887 | Actions Action Another action
        | 001402 | UX Wireframes | Adobe | 87956421 | 12 Apr 2017 | Pending | $1200 | Actions Action Another action
        | 001403 | New Dashboard | Bluewolf | 87952621 | 23 Oct 2017 | Pending | $534 | Actions Action Another action
@@ -106,15 +108,12 @@ row
         text Table description.
       row
         row
-          region 20x20
-            path "M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" fill:none stroke:#737373 width:1.5
-            path "M21 21l-6 -6" fill:none stroke:#737373 width:1.5
           field Field
           text ctrl + K
         button "More actions"
         button Download
         button Button
-    table Col Name:badge City Status Start Tags Category
+    table Col Name:badge City Status "Start date" Tags Category
        | Paweł Kuna | Peimei, China | Active | December 08, 2024 | EventTickets | Individual
        | Jeffie Lewzey | Indaial, Brazil | Inactive | January 01, 2024 | QTAEvent | Agencies
        | Mallory Hulme | Cimuncang, Indonesia | Requested | January 01, 2024 | Tickets | Agencies
@@ -138,6 +137,9 @@ row
     row
       button "20 records"
       row
+        text 1
+        text 2
+        text 3
 row
   row
     link Documentation https://docs.tabler.io
@@ -145,6 +147,7 @@ row
     link "Source code" https://github.com/tabler/tabler
     link Sponsor https://github.com/sponsors/codecalm
   row
+    text Copyright © 2026 . All rights reserved.
     link Tabler .
     link v1.6.1 ./changelog.html
 button Customize primary

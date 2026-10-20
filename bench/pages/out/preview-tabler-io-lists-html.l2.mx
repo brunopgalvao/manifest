@@ -1,0 +1,679 @@
+@preview_tabler_io_lists_html rev=0 @0,0,728,8422
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,41
+  link Tabler . @17,59,39,21
+  row @68,49,643,41
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle @68,49,71,41
+    row @151,49,448,41
+      link "Enable dark mode" @151,49,108,41
+      link "Show notifications" # @271,49,111,41
+      link "Show app menu" # @394,49,97,41
+      link "Select language" # @503,49,96,41
+    link "Open user menu" # @611,49,100,41
+row @17,102,694,36
+  row @17,102,593,36
+    button Dashboards @17,102,85,36
+    button Interface @114,102,71,36
+    button Forms @197,102,58,36
+    button Extra @267,102,54,36
+    button Layout @333,102,61,36
+    button Plugins @406,102,63,36
+    button Addons @481,102,65,36
+    button Help @558,102,52,36
+  button Customize @622,102,89,36
+row @17,150,694,58
+  col @17,150,554,58
+    h1 Lists @17,150,554,25
+    text Lists of users, contacts, and links — built from list-group items or a plain card body. @17,187,554,21
+  link Docs https://docs.tabler.io/ui/components/list-group @583,169,34,20
+row @17,220,694,6094
+  row @17,2581,400,1371
+    col @17,3193,259,147
+      h2 Top users @17,3193,259,21
+      row @17,3226,259,114
+        row @17,3226,13,114
+          link # # @17,3273,0,20
+          col @29,3226,1,114
+            link "Paweł Kuna" # @29,3226,1,41
+            text 2 days ago @29,3279,1,61
+        row @42,3247,15,73
+          link # # @42,3273,0,20
+          col @54,3247,3,73
+            link "Jeffie Lewzey" # @54,3247,3,40
+            text now @54,3299,3,21
+        row @69,3247,15,73
+          link # # @69,3273,0,20
+          col @81,3247,3,73
+            link "Mallory Hulme" # @81,3247,3,40
+            text now @81,3299,3,21
+        row @96,3226,13,114
+          link # # @96,3273,0,20
+          col @108,3226,1,114
+            link "Dunn Slane" # @108,3226,1,41
+            text 6 days ago @108,3279,1,61
+        row @121,3247,13,73
+          link # # @121,3273,0,20
+          col @133,3247,1,73
+            link "Emmy Levet" # @133,3247,1,40
+            text now @133,3299,1,21
+        row @146,3226,17,114
+          link # # @146,3273,0,20
+          col @158,3226,5,114
+            link "Maryjo Lebarree" # @158,3226,5,41
+            text 2 days ago @158,3279,5,61
+        row @175,3226,12,114
+          link # # @175,3273,0,20
+          col @187,3226,0,114
+            link "Egan Poetz" # @187,3226,0,41
+            text 4 days ago @187,3279,0,61
+        row @199,3226,16,114
+          link # # @199,3273,1,20
+          col @212,3226,3,114
+            link "Kellie Skingley" # @212,3226,3,41
+            text 6 days ago @212,3279,3,61
+        row @227,3247,21,73
+          link # # @227,3273,0,20
+          col @239,3247,9,73
+            link "Christabel Charlwood" # @239,3247,9,40
+            text now @239,3299,9,21
+        row @260,3247,16,73
+          link # # @260,3273,0,20
+          col @272,3247,4,73
+            link "Haskel Shelper" # @272,3247,4,40
+            text now @272,3299,4,21
+    col @288,2581,87,1371
+      h2 Contacts @288,2581,87,22
+      row @288,2615,87,154
+        check Option off @288,2680,12,24
+        link # # @312,2682,1,20
+        col @325,2615,50,154
+          link "Christabel Charlwood" # @325,2615,50,40
+          text Compressed Sass output support (#29702) @325,2667,50,102
+      row @288,2781,87,154
+        check Option on @288,2846,11,24
+        link # # @311,2848,1,20
+        col @324,2781,51,154
+          link "Haskel Shelper" # @324,2781,51,40
+          text Set vertical-align on .form-check-input (#29521) @324,2833,51,102
+      row @288,2947,87,174
+        check Option off @288,3022,12,24
+        link # # @312,3024,1,20
+        col @325,2947,50,174
+          link "Lorry Mion" # @325,2947,50,40
+          text Keep themed appearance for print (#29714) @325,2999,50,122
+      row @288,3133,87,175
+        check Option off @288,3208,12,24
+        link # # @312,3210,1,21
+        col @325,3133,50,175
+          link "Leesa Beaty" # @325,3133,50,41
+          text Use double quotes in `.stylelintrc` (#29709) @325,3186,50,122
+      row @288,3320,87,113
+        check Option on @288,3364,12,24
+        link # # @312,3366,2,21
+        col @326,3320,49,113
+          link "Perren Keemar" # @326,3320,49,40
+          text Regenerate package-lock.json (#29695) @326,3372,49,61
+      row @288,3445,87,154
+        check Option off @288,3510,12,24
+        link SA # @312,3512,4,20
+        col @328,3445,47,154
+          link "Sunny Airey" # @328,3445,47,41
+          text Switch to the Coveralls Action (#29478) @328,3498,47,101
+      row @288,3611,87,154
+        check Option off @288,3676,14,24
+        link # # @314,3678,1,20
+        col @327,3611,48,154
+          link "Geoffry Flaunders" # @327,3611,48,41
+          text Fix npm audit vulnerability (#29677) @327,3664,48,101
+      row @288,3777,87,175
+        check Option on @288,3853,11,24
+        link # # @311,3854,1,21
+        col @324,3777,51,175
+          link "Thatcher Keel" # @324,3777,51,41
+          text config.yml: update popper.js to v1.16.0 (#29624) @324,3830,51,122
+    col @387,3002,30,529
+      h2 Links and buttons @387,3002,30,63
+      link "The current link item" # @387,3077,30,82
+      link "A second link item" # @387,3171,30,81
+      link "A third link item" # @387,3264,30,81
+      link "A fourth link item" # @387,3357,30,81
+      text A disabled link item @387,3450,30,81
+  row @429,220,282,6094
+    col @429,2693,129,1147
+      h2 Last commits @429,2693,129,21
+      row @429,2726,129,195
+        region 24x20 @429,2822,4,3 [1 shapes, 0 labelled]
+        link # # @445,2814,1,20
+        col @458,2726,71,195
+          link "Paweł Kuna" # @458,2726,71,41
+          text Change deprecated html tags to text decoration classes (#29604) @458,2779,71,142
+        link "Add to favorites" # @541,2793,17,61
+      row @429,2933,129,134
+        region 24x20 @429,2998,4,4 [1 shapes, 0 labelled]
+        link # # @445,2990,1,20
+        col @458,2933,71,134
+          link "Jeffie Lewzey" # @458,2933,71,41
+          text justify-content:between ⇒ justify-content:space-between (#29734) @458,2986,71,81
+        link "Add to favorites" # @541,2969,17,61
+      row @429,3079,129,113
+        region 24x20 @429,3133,6,5 [1 shapes, 0 labelled]
+        link # # @447,3125,2,21
+        col @461,3079,59,113
+          link "Mallory Hulme" # @461,3079,59,40
+          text Update change-version.js (#29736) @461,3131,59,61
+        link "Add to favorites" # @532,3105,26,61
+      row @429,3204,129,114
+        region 24x20 @429,3259,5,4 [1 shapes, 0 labelled]
+        link # # @446,3251,2,20
+        col @460,3204,62,114
+          link "Dunn Slane" # @460,3204,62,41
+          text Regenerate package-lock.json (#29730) @460,3257,62,61
+        link "Add to favorites" # @534,3231,24,61
+      row @429,3330,129,134
+        region 24x20 @429,3394,7,6 [1 shapes, 0 labelled]
+        link # # @448,3387,3,20
+        col @463,3330,50,134
+          link "Emmy Levet" # @463,3330,50,40
+          text Some minor text tweaks @463,3382,50,82
+        link "Add to favorites" # @525,3366,33,61
+      row @429,3476,129,113
+        region 24x20 @429,3529,7,7 [1 shapes, 0 labelled]
+        link # # @448,3522,3,21
+        col @463,3476,49,113
+          link "Maryjo Lebarree" # @463,3476,49,40
+          text Link to versioned docs @463,3528,49,61
+        link "Add to favorites" # @524,3502,34,61
+      row @429,3601,129,93
+        region 24x20 @429,3644,8,7 [1 shapes, 0 labelled]
+        link # # @449,3638,4,20
+        col @465,3601,42,93
+          link "Egan Poetz" # @465,3601,42,41
+          text Copywriting edits @465,3654,42,40
+        link "Add to favorites" # @519,3617,39,61
+      row @429,3706,129,134
+        region 24x20 @429,3770,7,6 [1 shapes, 0 labelled]
+        link # # @448,3763,2,20
+        col @462,3706,54,134
+          link "Kellie Skingley" # @462,3706,54,41
+          text Enable RFS for font resizing @462,3759,54,81
+        link "Add to favorites" # @528,3743,30,61
+    col @570,220,141,6094
+      h2 People @570,220,141,21
+      text A @570,253,141,20
+      row @570,285,141,134
+        link SA # @570,342,6,20
+        col @588,285,123,134
+          link "Sunny Airey" # @588,285,123,20
+          text Change deprecated html tags to text decoration classes (#29604) @588,317,123,102
+      row @570,431,141,113
+        link AA # @570,477,6,21
+        col @588,431,123,113
+          link "Arlie Armstead" # @588,431,123,20
+          text justify-content:between ⇒ justify-content:space-between (#29734) @588,463,123,81
+      text B @570,556,141,21
+      row @570,589,141,93
+        link # # @570,625,5,20
+        col @587,589,124,93
+          link "Cary Baleine" # @587,589,124,20
+          text Update change-version.js (#29736) @587,621,124,61
+      row @570,694,141,93
+        link # # @570,730,4,21
+        col @586,694,125,93
+          link "Leesa Beaty" # @586,694,125,20
+          text Regenerate package-lock.json (#29730) @586,726,125,61
+      row @570,799,141,73
+        link TB # @570,825,14,21
+        col @596,799,115,73
+          link "Tallie Bettis" # @596,799,115,20
+          text Some minor text tweaks @596,831,115,41
+      row @570,884,141,73
+        link EB # @570,910,14,21
+        col @596,884,115,73
+          link "Errol Blackley" # @596,884,115,20
+          text Link to versioned docs @596,916,115,41
+      text C @570,969,141,20
+      row @570,1001,141,53
+        link # # @570,1017,9,21
+        col @591,1001,117,53
+          link "Delaney Cairney" # @591,1001,117,20
+          text Copywriting edits @591,1033,117,21
+      row @570,1066,141,73
+        link # # @570,1092,6,20
+        col @588,1066,123,73
+          link "Rooney Cassy" # @588,1066,123,20
+          text Enable RFS for font resizing @588,1098,123,41
+      row @570,1151,141,113
+        link # # @570,1197,4,21
+        col @586,1151,125,113
+          link "Christabel Charlwood" # @586,1151,125,40
+          text Compressed Sass output support (#29702) @586,1203,125,61
+      row @570,1276,141,114
+        link # # @570,1323,4,20
+        col @586,1276,125,114
+          link "Portie Christou" # @586,1276,125,20
+          text Set vertical-align on .form-check-input (#29521) @586,1308,125,82
+      row @570,1402,141,93
+        link # # @570,1438,4,20
+        col @586,1402,125,93
+          link "Mata Codlin" # @586,1402,125,20
+          text Keep themed appearance for print (#29714) @586,1434,125,61
+      row @570,1507,141,93
+        link # # @570,1543,4,21
+        col @586,1507,125,93
+          link "Julietta Coke" # @586,1507,125,20
+          text Use double quotes in `.stylelintrc` (#29709) @586,1539,125,61
+      row @570,1612,141,93
+        link # # @570,1649,4,20
+        col @586,1612,125,93
+          link "Tessie Curzon" # @586,1612,125,20
+          text Regenerate package-lock.json (#29695) @586,1644,125,61
+      text D @570,1717,141,21
+      row @570,1750,141,93
+        link # # @570,1786,4,20
+        col @586,1750,125,93
+          link "Ninon Don" # @586,1750,125,20
+          text Switch to the Coveralls Action (#29478) @586,1782,125,61
+      row @570,1855,141,93
+        link # # @570,1891,5,21
+        col @587,1855,124,93
+          link "Emmott Dowsett" # @587,1855,124,20
+          text Fix npm audit vulnerability (#29677) @587,1887,124,61
+      text E @570,1960,141,20
+      row @570,1992,141,93
+        link # # @570,2029,4,20
+        col @586,1992,125,93
+          link "Carroll Erat" # @586,1992,125,21
+          text config.yml: update popper.js to v1.16.0 (#29624) @586,2025,125,60
+      row @570,2097,141,73
+        link # # @570,2124,5,20
+        col @587,2097,124,73
+          link "Peria Errichiello" # @587,2097,124,21
+          text Update anchor.js to v4.2.1 (#29662) @587,2130,124,40
+      row @570,2182,141,53
+        link # # @570,2199,9,20
+        col @591,2182,92,53
+          link "Dyann Escala" # @591,2182,92,21
+          text Dist (#29638) @591,2215,92,20
+      text F @570,2247,141,20
+      row @570,2279,141,114
+        link # # @570,2326,4,20
+        col @586,2279,125,114
+          link "Geoffry Flaunders" # @586,2279,125,21
+          text Make check label cursor customizable (#29654) @586,2312,125,81
+      text G @570,2405,141,20
+      row @570,2437,141,154
+        link # # @570,2504,3,20
+        col @585,2437,126,154
+          link "Merrily Garforth" # @585,2437,126,20
+          text Fixed input-height-sm and input-height-lg calculations (#29653) @585,2469,126,122
+      row @570,2603,141,93
+        link # # @570,2640,4,20
+        col @586,2603,125,93
+          link "Johnnie Gilby" # @586,2603,125,20
+          text package.json: Add funding property (#29646) @586,2635,125,61
+      row @570,2708,141,73
+        link # # @570,2735,7,20
+        col @589,2708,122,73
+          link "Gratia Gooley" # @589,2708,122,21
+          text Remove shx. (#29636) @589,2741,122,40
+      row @570,2793,141,114
+        link # # @570,2840,3,20
+        col @585,2793,126,114
+          link "Leigha Gorce" # @585,2793,126,21
+          text dashboard/index.html: update tabler-icons to v4.24.1 (#29651) @585,2826,126,81
+      text H @570,2919,141,20
+      row @570,2951,141,73
+        link # # @570,2977,6,21
+        col @588,2951,123,73
+          link "Haze Hubbert" # @588,2951,123,20
+          text Regenerate package-lock.json. @588,2983,123,41
+      row @570,3036,141,93
+        link # # @570,3072,3,21
+        col @585,3036,126,93
+          link "Mallory Hulme" # @585,3036,126,20
+          text site/assets/js/search.js: ignore the LGTM alert (#29634) @585,3068,126,61
+      text I @570,3141,141,20
+      row @570,3173,141,175
+        link # # @570,3251,2,20
+        col @584,3173,127,175
+          link "Reynold Indgs" # @584,3173,127,21
+          text Tighten regex a bit. If we need to make this more robust in the future, we can revert this as needed. @584,3206,127,142
+      text K @570,3360,141,20
+      row @570,3392,141,73
+        link # # @570,3418,5,21
+        col @587,3392,124,73
+          link "Thatcher Keel" # @587,3392,124,20
+          text example.html: use double quotes @587,3424,124,41
+      row @570,3477,141,114
+        link # # @570,3524,4,20
+        col @586,3477,125,114
+          link "Perren Keemar" # @586,3477,125,20
+          text Example shortcode: use a regex and simplify logic. @586,3509,125,82
+      row @570,3603,141,93
+        link # # @570,3639,5,20
+        col @587,3603,124,93
+          link "Sandi Keys" # @587,3603,124,20
+          text Move docs JS one folder up. (#29632) @587,3635,124,61
+      row @570,3708,141,93
+        link # # @570,3744,5,20
+        col @587,3708,124,93
+          link "Paweł Kuna" # @587,3708,124,20
+          text progress: Fix IE overflow (#29629) @587,3740,124,61
+      text L @570,3813,141,20
+      row @570,3845,141,114
+        link # # @570,3892,3,20
+        col @585,3845,126,114
+          link "Marsha Labat" # @585,3845,126,21
+          text removing last occurences of _fixTitle in our docs (#29631) @585,3878,126,81
+      row @570,3971,141,73
+        link # # @570,3997,5,20
+        col @587,3971,124,73
+          link "Maryjo Lebarree" # @587,3971,124,20
+          text Update modal.md (#29621) Fix typo @587,4003,124,41
+      row @570,4056,141,93
+        link # # @570,4092,3,20
+        col @585,4056,126,93
+          link "Emmy Levet" # @585,4056,126,20
+          text Update stylelint-config-twbs-bootstrap to 0.9.0 (#29612) @585,4088,126,61
+      row @570,4161,141,93
+        link # # @570,4197,5,21
+        col @587,4161,124,93
+          link "Jeffie Lewzey" # @587,4161,124,20
+          text Remove calc function from docs @587,4193,124,61
+      text M @570,4266,141,20
+      row @570,4298,141,73
+        link # # @570,4325,6,20
+        col @588,4298,123,73
+          link "Odelinda McCosh" # @588,4298,123,21
+          text Add calc() to function blacklist @588,4331,123,40
+      row @570,4383,141,53
+        link # # @570,4399,9,21
+        col @591,4383,94,53
+          link "Riane Milward" # @591,4383,94,21
+          text Doc tweaks. @591,4416,94,20
+      row @570,4448,141,73
+        link # # @570,4474,6,20
+        col @588,4448,123,73
+          link "Lorry Mion" # @588,4448,123,20
+          text Revert complex calculation @588,4480,123,41
+      row @570,4533,141,93
+        link # # @570,4569,6,20
+        col @588,4533,123,93
+          link "Parke Moneypenny" # @588,4533,123,40
+          text Add add and subtract function @588,4585,123,41
+      row @570,4638,141,113
+        link # # @570,4685,3,20
+        col @585,4638,126,113
+          link "Elston Muffett" # @585,4638,126,20
+          text Update normalizeDataKey to match the spec (#29609) @585,4670,126,81
+      row @570,4763,141,114
+        link # # @570,4810,3,20
+        col @585,4763,126,114
+          link "Avivah Mugleston" # @585,4763,126,21
+          text Remove redundant "Navbar divider" from "Contents" (#29601) @585,4796,126,81
+      text O @570,4889,141,20
+      row @570,4921,141,134
+        link # # @570,4978,2,20
+        col @584,4921,127,134
+          link "Parker Oaten" # @584,4921,127,21
+          text Update .form-check to properly support gradients when enabled (#29338) @584,4954,127,101
+      text P @570,5067,141,20
+      row @570,5099,141,154
+        link # # @570,5166,3,21
+        col @585,5099,126,154
+          link "Johannes Paternoster" # @585,5099,126,41
+          text v5: Simplify navbars by requiring containers (#29339) @585,5152,126,101
+      row @570,5265,141,134
+        link # # @570,5322,3,20
+        col @585,5265,126,134
+          link "Egan Poetz" # @585,5265,126,21
+          text Remove unneeded ESLint suppression and regenerate lock file (#29593) @585,5298,126,101
+      text R @570,5411,141,21
+      row @570,5444,141,113
+        link # # @570,5490,4,20
+        col @586,5444,125,113
+          link "Ban Rzehor" # @586,5444,125,20
+          text remove superflous transition parameter (#29595) @586,5476,125,81
+      text S @570,5569,141,20
+      row @570,5601,141,114
+        link # # @570,5648,3,20
+        col @585,5601,126,114
+          link "Haskel Shelper" # @585,5601,126,21
+          text Added animation when modal backdrop is static (#29516) @585,5634,126,81
+      row @570,5727,141,113
+        link # # @570,5773,4,21
+        col @586,5727,125,113
+          link "Wilburt Siegertsz" # @586,5727,125,20
+          text Add configurable button text wrapping (#29554) @586,5759,125,81
+      row @570,5852,141,114
+        link # # @570,5899,3,20
+        col @585,5852,126,114
+          link "Kellie Skingley" # @585,5852,126,21
+          text Enable eslint no-console rule except for build directory (#29585) @585,5885,126,81
+      row @570,5978,141,93
+        link # # @570,6014,4,21
+        col @586,5978,125,93
+          link "Dunn Slane" # @586,5978,125,20
+          text Regenerate package-lock.json (#29571) @586,6010,125,61
+      row @570,6083,141,93
+        link # # @570,6119,4,21
+        col @586,6083,125,93
+          link "Cesya Spritt" # @586,6083,125,20
+          text Fix one dev npm vulnerability. (#29568) @586,6115,125,61
+      text U @570,6188,141,21
+      row @570,6221,141,93
+        link # # @570,6257,3,20
+        col @585,6221,126,93
+          link "Flossi Uttley" # @585,6221,126,20
+          text Update hugo-bin to v0.47.0 (Hugo 0.59.0) (#29562) @585,6253,126,61
+row @17,6326,694,40
+  row @17,6326,325,40
+    link Documentation https://docs.tabler.io @17,6336,99,20
+    link License ./license.html @128,6336,52,20
+    link "Source code" https://github.com/tabler/tabler @192,6326,83,40
+    link Sponsor https://github.com/sponsors/codecalm @287,6336,55,20
+  row @354,6326,357,40
+    text Copyright © 2026 . All rights reserved. @354,6326,254,40
+    link Tabler . @620,6336,43,20
+    link v1.6.1 ./changelog.html @675,6336,36,20
+button Customize primary @17,6378,694,37
+card @17,6427,694,1978
+  button Close primary @34,6442,660,36
+  region 160x120 @34,6490,160,120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own @34,6622,660,21
+  text Pick the look and layout of this preview. Your choices are saved in this browser. @34,6655,660,20
+  h3 Appearance @34,6687,660,19
+  text Color scheme @34,6718,660,21
+  text The page and its navigation, in one pick. @34,6751,660,20
+  row @34,6783,660,96
+    col @34,6783,96,96
+      region 96x64 @34,6783,96,64 [8 shapes, 0 labelled]
+      text Auto @34,6859,96,20
+    col @142,6783,96,96
+      region 96x64 @142,6783,96,64 [8 shapes, 0 labelled]
+      text Light @142,6859,96,20
+    col @250,6783,96,96
+      region 96x64 @250,6783,96,64 [8 shapes, 0 labelled]
+      text Dark @250,6859,96,20
+    col @358,6783,96,96
+      region 96x64 @358,6783,96,64 [8 shapes, 0 labelled]
+      text Dark nav @358,6859,96,20
+    col @466,6783,96,96
+      region 96x64 @466,6783,96,64 [8 shapes, 0 labelled]
+      text Colored @466,6859,96,20
+  text Accent color @34,6891,660,20
+  text The accent color used across the app. @34,6923,660,21
+  row @34,6956,660,0
+  text Font family @34,6968,660,20
+  text The typeface used across the app. @34,7000,660,20
+  row @34,7032,660,21
+    text Aa Sans-serif @34,7032,90,21
+    text Aa Serif @136,7032,53,21
+    text Aa Monospace @201,7032,100,21
+    text Aa Comic @313,7032,64,21
+  text Theme base @34,7065,660,20
+  text The gray palette behind every surface. @34,7097,660,20
+  row @34,7129,660,97
+    col @34,7129,96,97
+      region 96x64 @34,7129,96,64 [6 shapes, 0 labelled]
+      text Slate @34,7205,96,21
+    col @142,7129,96,97
+      region 96x64 @142,7129,96,64 [6 shapes, 0 labelled]
+      text Gray @142,7205,96,21
+    col @250,7129,96,97
+      region 96x64 @250,7129,96,64 [6 shapes, 0 labelled]
+      text Zinc @250,7205,96,21
+    col @358,7129,96,97
+      region 96x64 @358,7129,96,64 [6 shapes, 0 labelled]
+      text Neutral @358,7205,96,21
+    col @466,7129,96,97
+      region 96x64 @466,7129,96,64 [6 shapes, 0 labelled]
+      text Stone @466,7205,96,21
+  text Corner radius @34,7238,660,20
+  text How round corners are drawn. @34,7270,660,20
+  row @34,7302,660,96
+    col @34,7302,96,96
+      region 96x64 @34,7302,96,64 [2 shapes, 0 labelled]
+      text 0 @34,7378,96,20
+    col @142,7302,96,96
+      region 96x64 @142,7302,96,64 [2 shapes, 0 labelled]
+      text 0.5 @142,7378,96,20
+    col @250,7302,96,96
+      region 96x64 @250,7302,96,64 [2 shapes, 0 labelled]
+      text 1 @250,7378,96,20
+    col @358,7302,96,96
+      region 96x64 @358,7302,96,64 [2 shapes, 0 labelled]
+      text 1.5 @358,7378,96,20
+    col @466,7302,96,96
+      region 96x64 @466,7302,96,64 [2 shapes, 0 labelled]
+      text 2 @466,7378,96,20
+  h3 Layout @34,7410,660,19
+  text Navigation @34,7441,660,20
+  text Where the main menu lives. @34,7473,660,21
+  row @34,7506,660,96
+    col @34,7506,96,96
+      region 96x64 @34,7506,96,64 [10 shapes, 0 labelled]
+      text Navbar @34,7582,96,20
+    col @142,7506,96,96
+      region 96x64 @142,7506,96,64 [11 shapes, 0 labelled]
+      text Sidebar @142,7582,96,20
+  text Container width @34,7614,660,20
+  text How wide the page content runs. @34,7646,660,21
+  row @34,7679,660,96
+    col @34,7679,96,96
+      region 96x64 @34,7679,96,64 [6 shapes, 0 labelled]
+      text Default @34,7755,96,20
+    col @142,7679,96,96
+      region 96x64 @142,7679,96,64 [6 shapes, 0 labelled]
+      text Fluid @142,7755,96,20
+    col @250,7679,96,96
+      region 96x64 @250,7679,96,64 [7 shapes, 0 labelled]
+      text Boxed @250,7755,96,20
+  text Navbar behavior @34,7787,660,20
+  text Keep the navbar visible while scrolling. @34,7819,660,21
+  row @34,7852,660,96
+    col @34,7852,96,96
+      region 96x64 @34,7852,96,64 [8 shapes, 0 labelled]
+      text Default @34,7928,96,20
+    col @142,7852,96,96
+      region 96x64 @142,7852,96,64 [10 shapes, 0 labelled]
+      text Sticky @142,7928,96,20
+  text Navigation style @34,7960,660,20
+  text Attach the navigation to the edges, or let it float. @34,7992,660,20
+  row @34,8024,660,97
+    col @34,8024,96,97
+      region 96x64 @34,8024,96,64 [10 shapes, 0 labelled]
+      text Attached @34,8100,96,21
+    col @142,8024,96,97
+      region 96x64 @142,8024,96,64 [9 shapes, 0 labelled]
+      text Floating @142,8100,96,21
+  text Offcanvas style @34,8133,660,20
+  text Attach side panels to the edges, or let them float. @34,8165,660,20
+  row @34,8197,660,97
+    col @34,8197,96,97
+      region 96x64 @34,8197,96,64 [11 shapes, 0 labelled]
+      text Attached @34,8273,96,21
+    col @142,8197,96,97
+      region 96x64 @142,8197,96,64 [10 shapes, 0 labelled]
+      text Floating @142,8273,96,21
+  button "Reset changes" @34,8306,660,36
+  button Save primary @34,8354,660,36
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!tiny option 12x24px
+!tiny option2 11x24px
+!tiny option3 12x24px
+!tiny option4 12x24px
+!tiny option5 12x24px
+!tiny option6 12x24px
+!tiny option7 14x24px
+!tiny option8 11x24px
+!offcanvas region10
+!offcanvas path
+!offcanvas region11
+!offcanvas path2
+!offcanvas region12
+!offcanvas path3
+!offcanvas region13
+!offcanvas path4
+!offcanvas region14
+!offcanvas path5
+!offcanvas region15
+!offcanvas path6
+!offcanvas region16
+!offcanvas path7
+!offcanvas region17
+!offcanvas path8
+!offcanvas region18
+!offcanvas path9
+!offcanvas region19
+!offcanvas path10
+!offcanvas region20
+!offcanvas path11
+!offcanvas region21
+!offcanvas path12
+!offcanvas region22
+!offcanvas path13
+!offcanvas region23
+!offcanvas path14
+!offcanvas region24
+!offcanvas path15
+!offcanvas region25
+!offcanvas path16
+!offcanvas region26
+!offcanvas path17
+!offcanvas region27
+!offcanvas path18
+!offcanvas region28
+!offcanvas path19
+!offcanvas region29
+!offcanvas path20
+!offcanvas region30
+!offcanvas path21
+!offcanvas region31
+!offcanvas path22
+!offcanvas region32
+!offcanvas path23
+!offcanvas region33
+!offcanvas path24
+!offcanvas region34
+!offcanvas path25
+!offcanvas region35
+!offcanvas path26
+!offcanvas region36
+!offcanvas path27
+!offcanvas region37
+!offcanvas path28
+!offcanvas region38
+!offcanvas path29
+!offcanvas region39
+!offcanvas path30
+!offcanvas region40
+!offcanvas path31

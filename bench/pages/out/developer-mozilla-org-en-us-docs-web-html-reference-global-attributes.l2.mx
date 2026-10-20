@@ -1,0 +1,88 @@
+@developer_mozilla_org_en_us_docs_web_htm rev=0 @0,0,728,2096
+row @17,17,694,2062
+  col @17,971,25,154
+    link "Skip to main content" #content @17,971,25,81
+    link "Skip to search" #mdn-search @17,1064,25,61
+  region 1280x91 @54,1039,236,17 [1 shapes, 0 labelled]
+  col @302,1011,53,73
+    link MDN /en-US/ @302,1011,53,21
+    row @302,1044,53,40
+      link Web /en-US/docs/Web @302,1054,2,20
+      link HTML /en-US/docs/Web/HTML @316,1054,3,20
+      link Reference /en-US/docs/Web/HTML/Reference @331,1054,4,20
+      link "Global attributes" /en-US/docs/Web/HTML/Reference/Global_attributes @347,1044,8,40
+  col @367,17,40,2062
+    link HTML /en-US/docs/Web/HTML @367,17,40,20
+    link Guides /en-US/docs/Web/HTML/Guides @367,49,40,21
+    link "How to" /en-US/docs/Web/HTML/How_to @367,82,40,40
+    link "Define terms with HTML" /en-US/docs/Web/HTML/How_to/Define_terms_with_HTML @367,134,40,81
+    link "Use data attributes" /en-US/docs/Web/HTML/How_to/Use_data_attributes @367,227,40,61
+    link "Use cross-origin images" /en-US/docs/Web/HTML/How_to/CORS_enabled_image @367,300,40,61
+    link "Add a hitmap on top of an image" /en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image @367,373,40,122
+    link "Author fast-loading HTML pages" /en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages @367,507,40,81
+    link "Add JavaScript" /en-US/docs/Web/HTML/How_to/Add_JavaScript_to_your_web_page @367,600,40,41
+    link Reference /en-US/docs/Web/HTML/Reference @367,653,40,20
+    link Elements /en-US/docs/Web/HTML/Reference/Elements @367,685,40,20
+    link Attributes /en-US/docs/Web/HTML/Reference/Attributes @367,717,40,21
+    link "Global attributes" /en-US/docs/Web/HTML/Reference/Global_attributes @367,750,40,40
+    link accesskey /en-US/docs/Web/HTML/Reference/Global_attributes/accesskey @367,802,40,21
+    link anchor /en-US/docs/Web/HTML/Reference/Global_attributes/anchor @367,835,40,20
+    link autocapitalize /en-US/docs/Web/HTML/Reference/Global_attributes/autocapitalize @367,867,40,20
+    link autocorrect /en-US/docs/Web/HTML/Reference/Global_attributes/autocorrect @367,899,40,20
+    link autofocus /en-US/docs/Web/HTML/Reference/Global_attributes/autofocus @367,931,40,21
+    link class /en-US/docs/Web/HTML/Reference/Global_attributes/class @367,964,40,20
+    link contenteditable /en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable @367,996,40,20
+    link data-* /en-US/docs/Web/HTML/Reference/Global_attributes/data-* @367,1028,40,21
+    link dir /en-US/docs/Web/HTML/Reference/Global_attributes/dir @367,1061,40,20
+    link draggable /en-US/docs/Web/HTML/Reference/Global_attributes/draggable @367,1093,40,20
+    link enterkeyhint /en-US/docs/Web/HTML/Reference/Global_attributes/enterkeyhint @367,1125,40,21
+    link exportparts /en-US/docs/Web/HTML/Reference/Global_attributes/exportparts @367,1158,40,20
+    link headingoffset /en-US/docs/Web/HTML/Reference/Global_attributes/headingoffset @367,1190,40,20
+    link headingreset /en-US/docs/Web/HTML/Reference/Global_attributes/headingreset @367,1222,40,21
+    link hidden /en-US/docs/Web/HTML/Reference/Global_attributes/hidden @367,1255,40,20
+    link id /en-US/docs/Web/HTML/Reference/Global_attributes/id @367,1287,40,20
+    link inert /en-US/docs/Web/HTML/Reference/Global_attributes/inert @367,1319,40,20
+    link inputmode /en-US/docs/Web/HTML/Reference/Global_attributes/inputmode @367,1351,40,21
+    link is /en-US/docs/Web/HTML/Reference/Global_attributes/is @367,1384,40,20
+    link itemid /en-US/docs/Web/HTML/Reference/Global_attributes/itemid @367,1416,40,20
+    link itemprop /en-US/docs/Web/HTML/Reference/Global_attributes/itemprop @367,1448,40,21
+    link itemref /en-US/docs/Web/HTML/Reference/Global_attributes/itemref @367,1481,40,20
+    link itemscope /en-US/docs/Web/HTML/Reference/Global_attributes/itemscope @367,1513,40,20
+    link itemtype /en-US/docs/Web/HTML/Reference/Global_attributes/itemtype @367,1545,40,21
+    link lang /en-US/docs/Web/HTML/Reference/Global_attributes/lang @367,1578,40,20
+    link nonce /en-US/docs/Web/HTML/Reference/Global_attributes/nonce @367,1610,40,20
+    link part /en-US/docs/Web/HTML/Reference/Global_attributes/part @367,1642,40,20
+    link popover /en-US/docs/Web/HTML/Reference/Global_attributes/popover @367,1674,40,21
+    link slot /en-US/docs/Web/HTML/Reference/Global_attributes/slot @367,1707,40,20
+    link spellcheck /en-US/docs/Web/HTML/Reference/Global_attributes/spellcheck @367,1739,40,20
+    link style /en-US/docs/Web/HTML/Reference/Global_attributes/style @367,1771,40,21
+    link tabindex /en-US/docs/Web/HTML/Reference/Global_attributes/tabindex @367,1804,40,20
+    link title /en-US/docs/Web/HTML/Reference/Global_attributes/title @367,1836,40,20
+    link translate /en-US/docs/Web/HTML/Reference/Global_attributes/translate @367,1868,40,21
+    link virtualkeyboardpolicy /en-US/docs/Web/HTML/Reference/Global_attributes/virtualkeyboardpolicy @367,1901,40,20
+    link writingsuggestions /en-US/docs/Web/HTML/Reference/Global_attributes/writingsuggestions @367,1933,40,20
+    text Attributes by element @367,1965,40,61
+    text Attribute values @367,2038,40,41
+  col @419,910,292,276
+    row @419,910,292,101
+      row @419,910,70,101
+        link "MDN logo" / @419,940,13,41
+        text Your blueprint for a better internet. @444,910,45,101
+      row @501,920,133,81
+        link "MDN on GitHub" https://github.com/mdn/ @501,930,17,61
+        link "MDN on Bluesky" https://bsky.app/profile/developer.mozilla.org @530,930,17,61
+        link "MDN on X" https://x.com/mozdevnet @559,930,11,61
+        link "MDN on Mastodon" https://mastodon.social/@mdn @582,930,19,61
+        link "MDN blog RSS feed" /en-US/blog/rss.xml @613,920,21,81
+      text MDN @646,950,8,21
+      text Contribute @666,950,16,21
+      text Developers @694,950,17,21
+    row @419,1023,292,163
+      link "Mozilla logo" https://www.mozilla.org/ @419,1084,13,41
+      row @444,1074,97,61
+        link "Website Privacy Notice" https://www.mozilla.org/privacy/websites/ @444,1074,17,61
+        link "Telemetry Settings" https://www.mozilla.org/en-US/privacy/websites/data-preferences/ @473,1084,14,41
+        link Legal https://www.mozilla.org/about/legal/terms/mozilla @499,1094,4,21
+        link "Community Participation Guidelines" https://www.mozilla.org/about/governance/policies/participation/ @515,1074,26,61
+      text Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under . @553,1023,115,163
+      link "a Creative Commons license" /docs/MDN/Writing_guidelines/Attrib_copyright_license @680,1064,31,81

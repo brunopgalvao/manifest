@@ -1,0 +1,73 @@
+@adminlte_io_themes_v3_pages_layout_colla
+row
+  row
+    button button
+    link Home ../../index3.html
+    link Contact #
+  row
+    button button
+    link 3 #
+    link 15 #
+    button button
+    button button
+link "AdminLTE 3" ../../index3.html
+row
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image"
+  link "Alexander Pierce" #
+link Dashboard #
+link "Widgets New" ../widgets.html
+link "Layout Options 6" #
+link "Top Navigation" ../layout/top-nav.html
+link "Top Navigation + Sidebar" ../layout/top-nav-sidebar.html
+link Boxed ../layout/boxed.html
+link "Fixed Sidebar" ../layout/fixed-sidebar.html
+link "Fixed Sidebar + Custom Area" ../layout/fixed-sidebar-custom.html
+link "Fixed Navbar" ../layout/fixed-topnav.html
+link "Fixed Footer" ../layout/fixed-footer.html
+link "Collapsed Sidebar" ../layout/collapsed-sidebar.html
+link Charts #
+link "UI Elements" #
+link Forms #
+link Tables #
+link "Calendar 2" ../calendar.html
+link Gallery ../gallery.html
+link "Kanban Board" ../kanban.html
+link Mailbox #
+link Pages #
+link Extras #
+link "Login & Register v1" #
+link "Login & Register v2" #
+link Lockscreen ../examples/lockscreen.html
+link "Legacy User Menu" ../examples/legacy-user-menu.html
+link "Language Menu" ../examples/language-menu.html
+link "Error 404" ../examples/404.html
+link "Error 500" ../examples/500.html
+link Pace ../examples/pace.html
+link "Blank Page" ../examples/blank.html
+link "Starter Page" ../../starter.html
+link Search #
+link "Tabbed IFrame Plugin" ../../iframe.html
+link Documentation https://adminlte.io/docs/3.1/
+link "Level 1" #
+link "Level 1" #
+link "Level 1" #
+link Important #
+link Warning #
+link Informational #
+row
+  h1 Collapsed Sidebar
+  row
+    link Home #
+    link Layout #
+    text Collapsed Sidebar
+row
+  h3 Title
+  row
+    button Collapse
+    button Remove
+text Start creating your amazing application!
+text Footer
+text All rights reserved.
+text Version 3.2.0
+text Copyright © 2014-2021 .
+link AdminLTE.io https://adminlte.io

@@ -1,0 +1,23 @@
+@getbootstrap_com_docs_5_3_examples_start rev=0 @0,0,728,524
+button "Toggle theme (light)" primary @17,17,694,36
+link "Starter template" / @17,65,694,21
+h1 Get started with Bootstrap @17,98,694,25
+text Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started. @17,135,694,40
+link "Download examples" /docs/5.3/examples @17,187,694,21
+row @17,220,694,255
+  col @17,236,415,223
+    h2 Starter projects @17,236,415,21
+    text Ready to go beyond the starter template? Check out these open source projects that you can quickly duplicate to a new GitHub repository. @17,269,415,61
+    link "Bootstrap npm starter" https://github.com/twbs/examples/tree/main/icons-font @17,342,415,20
+    link "Bootstrap Parcel starter" https://github.com/twbs/examples/tree/main/parcel @17,374,415,20
+    link "Bootstrap Vite starter" https://github.com/twbs/examples/tree/main/vite @17,406,415,21
+    link "Bootstrap Webpack starter" https://github.com/twbs/examples/tree/main/webpack @17,439,415,20
+  col @444,220,267,255
+    h2 Guides @444,220,267,21
+    text Read more detailed instructions and documentation on using or contributing to Bootstrap. @444,253,267,61
+    link "Bootstrap quick start guide" /docs/5.3/getting-started/introduction @444,326,267,20
+    link "Bootstrap Webpack guide" /docs/5.3/getting-started/webpack @444,358,267,20
+    link "Bootstrap Parcel guide" /docs/5.3/getting-started/parcel @444,390,267,21
+    link "Bootstrap Vite guide" /docs/5.3/getting-started/vite @444,423,267,20
+    link "Contributing to Bootstrap" /docs/5.3/getting-started/contribute @444,455,267,20
+text Created by the Bootstrap team · © 2025 @17,487,694,20

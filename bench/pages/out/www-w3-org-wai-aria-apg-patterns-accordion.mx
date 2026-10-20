@@ -1,0 +1,114 @@
+@www_w3_org_wai_aria_apg_patterns_accordi
+row
+  row
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/
+    text How to build accessibility semantics into web patterns and widgets
+  row
+    link "W3C homepage" https://www.w3.org/
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/
+row
+  link "APG Home" /WAI/ARIA/apg/
+  link Patterns /WAI/ARIA/apg/patterns/
+  link Practices /WAI/ARIA/apg/practices/
+  link Index /WAI/ARIA/apg/example-index/
+  link About /WAI/ARIA/apg/about/
+row
+  col
+    h2 Page Contents
+    link "About This Pattern" #aboutthispattern
+    link Example #example
+    link "Keyboard Interaction" #keyboardinteraction
+    link "WAI-ARIA Roles, States, and Properties" #wai-ariaroles,states,andproperties
+  col
+    h1 Accordion Pattern (Sections With Show/Hide Functionality)
+    card
+      h2 Read This First
+      text No ARIA is better than Bad ARIA. Before using any ARIA, .
+      link "Read this to understand why no ARIA is better than bad ARIA" /WAI/content-assets/wai-aria-practices/../../ARIA/apg/practices/read-me-first/
+    h2 About This Pattern
+    text An accordion is a vertically stacked set of interactive headings that each contain a title, content snippet, or thumbnail representing a section of content. The headings function as controls that enable users to reveal or hide their associated sections of content. Accordions are commonly used to reduce the need to scroll when presenting multiple sections of content on a single page.
+    text Terms for understanding accordions include:
+    text Accordion Header:
+    text Label for or thumbnail representing a section of content that also serves as a control for showing, and in some implementations, hiding the section of content.
+    text Accordion Panel:
+    text Section of content associated with an accordion header.
+    text In some accordions, there are additional elements that are always visible adjacent to the accordion header. For instance, a menubutton may accompany each accordion header to provide access to actions that apply to that section. And, in some cases, a snippet of the hidden content may also be visually persistent.
+    card
+      h2 Example
+      text : demonstrates using an accordion to divide a form into three expandable sections.
+      link "Accordion Example" examples/accordion/
+    h2 Keyboard Interaction
+    text or :
+    text Enter
+    text Space
+    text When focus is on the accordion header for a collapsed panel, expands the associated panel. If the implementation allows only one panel to be expanded, and if another panel is expanded, collapses that panel.
+    text When focus is on the accordion header for an expanded panel, collapses the panel if the implementation supports collapsing. Some implementations require one panel to be expanded at all times and allow only one panel to be expanded; so, they do not support a collapse function.
+    text : Moves focus to the next focusable element; all focusable elements in the accordion are included in the page  sequence.
+    text Tab
+    text Tab
+    text + : Moves focus to the previous focusable element; all focusable elements in the accordion are included in the page  sequence.
+    text Shift
+    text Tab
+    text Tab
+    h2 WAI-ARIA Roles, States, and Properties
+    text The title of each accordion header is contained in an element with role .
+    link button https://w3c.github.io/aria/#button
+    text Each accordion header  is wrapped in an element with role  that has a value set for  that is appropriate for the information architecture of the page.
+    text button primary
+    link heading https://w3c.github.io/aria/#heading
+    link aria-level https://w3c.github.io/aria/#aria-level
+    text If the native host language has an element with an implicit heading and aria-level, such as an HTML heading tag, a native host language element may be used.
+    text The button element is the only element inside the heading element. That is, if there are other visually persistent elements, they are not included inside the heading element.
+    text If the accordion panel associated with an accordion header is visible, the header  element has  set to . If the panel is not visible,  is set to .
+    text button primary
+    link aria-expanded https://w3c.github.io/aria/#aria-expanded
+    text true primary
+    link aria-expanded https://w3c.github.io/aria/#aria-expanded
+    text false primary
+    text The accordion header  element has  set to the ID of the element containing the accordion panel content.
+    row
+      text button primary
+      link aria-controls https://w3c.github.io/aria/#aria-controls
+    text If the accordion panel associated with an accordion header is visible, and if the accordion does not permit the panel to be collapsed, the header  element has  set to .
+    row
+      text button primary
+      link aria-disabled https://w3c.github.io/aria/#aria-disabled
+      text true primary
+    text Optionally, each element that serves as a container for panel content has role  and  with a value that refers to the button that controls display of the panel.
+    link region https://w3c.github.io/aria/#region
+    link aria-labelledby https://w3c.github.io/aria/#aria-labelledby
+    text Avoid using the region role in circumstances that create landmark region proliferation, e.g., in an accordion that contains more than approximately 6 panels that can be expanded at the same time.
+    text Role region is especially helpful to the perception of structure by screen reader users when panels contain heading elements or a nested accordion.
+row
+  h2 Help improve this page
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list  or via GitHub.
+link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+row
+  link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/accordion/accordion-pattern.html
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/accordion/
+link "Back to Top" #top
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/
+text Strategies, standards, resources to make the Web accessible to people with disabilities
+row
+  link "Get News in Email" /WAI/news/subscribe/
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/
+  link Mastodon https://w3c.social/@wai
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+row
+  link Home /WAI/
+  link Contact /WAI/about/contacting/
+  link "Site map" /WAI/sitemap/
+  link "Support WAI" /WAI/about/support/
+  link News /WAI/news/
+  link "Accessibility statement" /WAI/about/accessibility-statement/
+  link "All Translations" /WAI/translations/
+  link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/software-license/
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/

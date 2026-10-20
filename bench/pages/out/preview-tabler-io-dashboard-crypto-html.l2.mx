@@ -1,0 +1,459 @@
+@preview_tabler_io_dashboard_crypto_html rev=0 @0,0,728,2761
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,41
+  link Tabler . @17,59,39,21
+  row @68,49,643,41
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle @68,49,71,41
+    row @151,49,448,41
+      link "Enable dark mode" @151,49,108,41
+      link "Show notifications" # @271,49,111,41
+      link "Show app menu" # @394,49,97,41
+      link "Select language" # @503,49,96,41
+    link "Open user menu" # @611,49,100,41
+row @17,102,694,36
+  row @17,102,593,36
+    button Dashboards @17,102,85,36
+    button Interface @114,102,71,36
+    button Forms @197,102,58,36
+    button Extra @267,102,54,36
+    button Layout @333,102,61,36
+    button Plugins @406,102,63,36
+    button Addons @481,102,65,36
+    button Help @558,102,52,36
+  button Customize @622,102,89,36
+h1 Crypto Dashboard @17,150,694,25
+row @17,187,694,465
+  row @17,295,194,249
+    col @17,295,38,249
+      row @17,295,38,43
+        h2 Total balance @17,295,38,43
+      text $253,545 2.3 BTC @17,350,38,61
+      text No change, 0% Since last week @17,423,38,121
+    col @67,357,31,126
+      row @67,357,31,21
+        h2 USD/BTC @67,357,31,21
+      text 0.00000907 $110,237 @67,390,31,40
+      text Volume: $34,042,670,971 @67,442,31,41
+    col @110,357,24,126
+      row @110,357,24,21
+        h2 LTC/BTC @110,357,24,21
+      text 0.00089444 $98.6 @110,390,24,40
+      text Volume: 618,605,108 @110,442,24,41
+    col @146,357,29,126
+      row @146,357,29,21
+        h2 ETH/BTC @146,357,29,21
+      text 0.03528906 $3,890.16 @146,390,29,40
+      text Volume: 18,899,881,132 @146,442,29,41
+    col @187,357,24,126
+      row @187,357,24,21
+        h2 XMR/BTC @187,357,24,21
+      text 0.00310313 $342.08 @187,390,24,40
+      text Volume: 151,720,448 @187,442,24,41
+  row @223,204,230,431
+    col @223,204,89,431
+      row @223,204,89,37
+        h2 Markets @223,212,21,21
+        button "More actions" @256,204,56,37
+      table Col Coin Price Volume Change @223,253,89,382
+         | ETH | 0.03530991 | 168,726.341 | Increased by +1.11%
+         | XRP | 0.00002269 | 22,843.185 | Decreased by -0.98%
+         | ETC | 0.00014852 | 529.209 | Increased by +2.35%
+         | LTC | 0.00089821 | 5,928.536 | Increased by +3.89%
+         | XMR | 0.00310306 | 1,382.046 | Increased by +4.42%
+         | BSC | 0.00989344 | 12,531.037 | Increased by +0.79%
+         | ABC | 0.02613303 | 21.597 | Decreased by -3.20%
+         | TRX | 0.0000027 | 4,250.916 | Increased by +0.44%
+         | SC | 0.00000002 | 48.092 | Increased by +2.23%
+         | OMG | 0.00000102 | 9.695 | Increased by +0.30%
+    col @324,344,129,151
+      row @324,344,129,21
+        h2 LTC/BTC @324,344,40,21
+        row @376,345,77,20
+          text 1m @376,345,6,20
+          text 5m @394,345,6,20
+          text 30m @412,345,9,20
+          text 1h @433,345,4,20
+          text 1d @449,345,4,20
+      region LTC/BTC 597.6599731445313x448 @324,399,129,96 [79 shapes, 17 labelled]
+        figure "candlestick chart with 1 data series: LTC/BTC" @0,0 598x448 @324,399,129,97
+          text @55.77000045776367,13.670000076293945 anchor:end size:11 "110000.00" @324,400,12,3
+          text @55.77000045776367,115.91999816894531 anchor:end size:11 "100000.00" @324,422,12,3
+          text @55.77000045776367,218.1699981689453 anchor:end size:11 "90000.00" @325,444,11,3
+          text @55.77000045776367,320.4200134277344 anchor:end size:11 "80000.00" @325,466,11,3
+          text @55.77000045776367,422.6700134277344 anchor:end size:11 "70000.00" @325,488,11,3
+          text @82.70999908447266,443 anchor:middle size:12 "Jan 2025" @336,492,12,3
+          text @150.67999267578125,443 anchor:middle size:12 "Apr 2025" @351,492,11,3
+          text @219.39999389648438,443 anchor:middle size:12 "Jul 2025" @366,492,11,3
+          text @288.8800048828125,443 anchor:middle size:12 "Oct 2025" @381,492,11,3
+          text @358.3599853515625,443 anchor:middle size:12 "Jan 2026" @396,492,12,3
+          text @426.3299865722656,443 anchor:middle size:12 "Apr 2026" @410,492,11,3
+          text @495.05999755859375,443 anchor:middle size:12 "Jul 2026" @425,492,11,3
+          text @564.5399780273438,443 anchor:middle size:12 "Oct 2026" @440,492,11,3
+        text @480,46.599998474121094 fill:#404040 size:12 "Download SVG" @428,407,18,3
+        text @480,75.73999786376953 fill:#404040 size:12 "Download PNG" @428,413,19,3
+        text @480,104.87999725341797 fill:#404040 size:12 "Download CSV" @428,419,18,3
+  row @465,187,246,465
+    col @465,187,100,465
+      row @465,187,100,21
+        h2 Operations @465,187,41,21
+        row @518,188,47,20
+          text Buy @518,188,7,20
+          text Sell @537,188,6,20
+          text Send @555,188,10,20
+      text Place new order: @465,220,100,41
+      row @465,273,100,58
+        text Amount @465,292,22,20
+        select Currency *BTC ETH XRP BCH ADA LTC EOS XEM XLM NEO MIOTA DASH XMR TRX BTG ICX QTUM ETC LSK VET @499,274,35,55
+        field Amount ="0.25" @546,273,19,58
+      row @465,343,100,57
+        text Price @465,361,34,21
+        field Price ="23,077.05" @511,343,29,57
+        text $ @552,361,9,21
+      row @465,412,100,58
+        text Total @465,431,34,20
+        field Total ="5,769.27" @511,412,29,58
+        text $ @552,431,9,20
+      button "Process to wallet" primary @465,482,100,36
+      text The final amount could change depending on current market conditions. @465,530,100,122
+    col @577,201,60,437
+      row @577,201,60,43
+        h2 Sell Orders @577,201,12,43
+        button "View all" @601,204,36,37
+      table Price BTC Sum(BTC) @577,256,60,382
+        0.00091279 | 0.55002151 | 0.55002151
+        0.00092146 | 1.97294243 | 2.52296394
+        0.00094672 | 0.67387767 | 3.19684161
+        0.00095269 | 0.93727595 | 4.13411756
+        0.00095926 | 0.8976753 | 5.03179286
+        0.00097736 | 0.94088124 | 5.9726741
+        0.00100026 | 0.51299752 | 6.48567162
+        0.00102267 | 1.18050103 | 7.66617265
+        0.00104506 | 1.17318909 | 8.83936174
+        0.00104974 | 2.19498873 | 11.03435047
+    col @649,201,62,437
+      row @649,201,62,43
+        h2 Buy Orders @649,201,13,43
+        button "View all" @674,204,37,37
+      table Price BTC Sum(BTC) @649,256,62,382
+        0.00088217 | 2.59949934 | 2.59949934
+        0.00085874 | 0.9852387 | 3.58473804
+        0.00084954 | 2.39434245 | 5.97908049
+        0.0008322 | 2.31112332 | 8.29020381
+        0.00081524 | 2.66443099 | 10.9546348
+        0.00080303 | 1.79223619 | 12.74687099
+        0.00077858 | 1.61051825 | 14.35738924
+        0.00075508 | 0.71279599 | 15.07018523
+        0.00073013 | 0.89425132 | 15.96443655
+        0.00071941 | 1.85521536 | 17.81965191
+row @17,664,694,41
+  row @17,664,325,41
+    link Documentation https://docs.tabler.io @17,674,99,21
+    link License ./license.html @128,674,52,21
+    link "Source code" https://github.com/tabler/tabler @192,664,83,41
+    link Sponsor https://github.com/sponsors/codecalm @287,674,55,21
+  row @354,664,357,41
+    text Copyright © 2026 . All rights reserved. @354,664,254,41
+    link Tabler . @620,674,43,21
+    link v1.6.1 ./changelog.html @675,674,36,21
+button Customize primary @17,717,694,36
+card @17,765,694,1979
+  button Close primary @34,780,660,36
+  region 160x120 @34,828,160,120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own @34,960,660,22
+  text Pick the look and layout of this preview. Your choices are saved in this browser. @34,994,660,20
+  h3 Appearance @34,1026,660,19
+  text Color scheme @34,1057,660,20
+  text The page and its navigation, in one pick. @34,1089,660,20
+  row @34,1121,660,97
+    col @34,1121,96,97
+      region 96x64 @34,1121,96,64 [8 shapes, 0 labelled]
+      text Auto @34,1197,96,21
+    col @142,1121,96,97
+      region 96x64 @142,1121,96,64 [8 shapes, 0 labelled]
+      text Light @142,1197,96,21
+    col @250,1121,96,97
+      region 96x64 @250,1121,96,64 [8 shapes, 0 labelled]
+      text Dark @250,1197,96,21
+    col @358,1121,96,97
+      region 96x64 @358,1121,96,64 [8 shapes, 0 labelled]
+      text Dark nav @358,1197,96,21
+    col @466,1121,96,97
+      region 96x64 @466,1121,96,64 [8 shapes, 0 labelled]
+      text Colored @466,1197,96,21
+  text Accent color @34,1230,660,20
+  text The accent color used across the app. @34,1262,660,20
+  row @34,1294,660,0
+  text Font family @34,1306,660,21
+  text The typeface used across the app. @34,1339,660,20
+  row @34,1371,660,20
+    text Aa Sans-serif @34,1371,90,20
+    text Aa Serif @136,1371,53,20
+    text Aa Monospace @201,1371,100,20
+    text Aa Comic @313,1371,64,20
+  text Theme base @34,1403,660,20
+  text The gray palette behind every surface. @34,1435,660,21
+  row @34,1468,660,96
+    col @34,1468,96,96
+      region 96x64 @34,1468,96,64 [6 shapes, 0 labelled]
+      text Slate @34,1544,96,20
+    col @142,1468,96,96
+      region 96x64 @142,1468,96,64 [6 shapes, 0 labelled]
+      text Gray @142,1544,96,20
+    col @250,1468,96,96
+      region 96x64 @250,1468,96,64 [6 shapes, 0 labelled]
+      text Zinc @250,1544,96,20
+    col @358,1468,96,96
+      region 96x64 @358,1468,96,64 [6 shapes, 0 labelled]
+      text Neutral @358,1544,96,20
+    col @466,1468,96,96
+      region 96x64 @466,1468,96,64 [6 shapes, 0 labelled]
+      text Stone @466,1544,96,20
+  text Corner radius @34,1576,660,20
+  text How round corners are drawn. @34,1608,660,21
+  row @34,1641,660,96
+    col @34,1641,96,96
+      region 96x64 @34,1641,96,64 [2 shapes, 0 labelled]
+      text 0 @34,1717,96,20
+    col @142,1641,96,96
+      region 96x64 @142,1641,96,64 [2 shapes, 0 labelled]
+      text 0.5 @142,1717,96,20
+    col @250,1641,96,96
+      region 96x64 @250,1641,96,64 [2 shapes, 0 labelled]
+      text 1 @250,1717,96,20
+    col @358,1641,96,96
+      region 96x64 @358,1641,96,64 [2 shapes, 0 labelled]
+      text 1.5 @358,1717,96,20
+    col @466,1641,96,96
+      region 96x64 @466,1641,96,64 [2 shapes, 0 labelled]
+      text 2 @466,1717,96,20
+  h3 Layout @34,1749,660,19
+  text Navigation @34,1780,660,20
+  text Where the main menu lives. @34,1812,660,20
+  row @34,1844,660,97
+    col @34,1844,96,97
+      region 96x64 @34,1844,96,64 [10 shapes, 0 labelled]
+      text Navbar @34,1920,96,21
+    col @142,1844,96,97
+      region 96x64 @142,1844,96,64 [11 shapes, 0 labelled]
+      text Sidebar @142,1920,96,21
+  text Container width @34,1953,660,20
+  text How wide the page content runs. @34,1985,660,20
+  row @34,2017,660,97
+    col @34,2017,96,97
+      region 96x64 @34,2017,96,64 [6 shapes, 0 labelled]
+      text Default @34,2093,96,21
+    col @142,2017,96,97
+      region 96x64 @142,2017,96,64 [6 shapes, 0 labelled]
+      text Fluid @142,2093,96,21
+    col @250,2017,96,97
+      region 96x64 @250,2017,96,64 [7 shapes, 0 labelled]
+      text Boxed @250,2093,96,21
+  text Navbar behavior @34,2126,660,20
+  text Keep the navbar visible while scrolling. @34,2158,660,20
+  row @34,2190,660,96
+    col @34,2190,96,96
+      region 96x64 @34,2190,96,64 [8 shapes, 0 labelled]
+      text Default @34,2266,96,20
+    col @142,2190,96,96
+      region 96x64 @142,2190,96,64 [10 shapes, 0 labelled]
+      text Sticky @142,2266,96,20
+  text Navigation style @34,2298,660,21
+  text Attach the navigation to the edges, or let it float. @34,2331,660,20
+  row @34,2363,660,96
+    col @34,2363,96,96
+      region 96x64 @34,2363,96,64 [10 shapes, 0 labelled]
+      text Attached @34,2439,96,20
+    col @142,2363,96,96
+      region 96x64 @142,2363,96,64 [9 shapes, 0 labelled]
+      text Floating @142,2439,96,20
+  text Offcanvas style @34,2471,660,21
+  text Attach side panels to the edges, or let them float. @34,2504,660,20
+  row @34,2536,660,96
+    col @34,2536,96,96
+      region 96x64 @34,2536,96,64 [11 shapes, 0 labelled]
+      text Attached @34,2612,96,20
+    col @142,2536,96,96
+      region 96x64 @142,2536,96,64 [10 shapes, 0 labelled]
+      text Floating @142,2612,96,20
+  button "Reset changes" @34,2644,660,37
+  button Save primary @34,2693,660,36
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!overflow more 54/117px
+!overflow table..Coin 18/44px
+!overflow table..Price 18/96px
+!overflow table..Volume 18/96px
+!overflow table..Change 17/150px
+!overflow table..Coin 18/44px
+!overflow table..Price 18/99px
+!overflow table..Volume 18/91px
+!overflow table..Change 17/163px
+!overflow table..Coin 18/44px
+!overflow table..Price 18/96px
+!overflow table..Volume 18/72px
+!overflow table..Change 17/159px
+!overflow table..Coin 18/44px
+!overflow table..Price 18/96px
+!overflow table..Volume 18/84px
+!overflow table..Change 17/159px
+!overflow table..Coin 18/48px
+!overflow table..Price 18/96px
+!overflow table..Volume 18/83px
+!overflow table..Change 17/160px
+!overflow table..Coin 18/45px
+!overflow table..Price 18/100px
+!overflow table..Volume 18/87px
+!overflow table..Change 17/159px
+!overflow table..Coin 18/46px
+!overflow table..Price 18/96px
+!overflow table..Volume 18/60px
+!overflow table..Change 17/163px
+!overflow table..Coin 18/44px
+!overflow table..Price 18/90px
+!overflow table..Volume 18/82px
+!overflow table..Change 17/160px
+!overflow table..Coin 18/36px
+!overflow table..Price 18/100px
+!overflow table..Volume 18/64px
+!overflow table..Change 17/159px
+!overflow table..Coin 18/50px
+!overflow table..Price 18/97px
+!overflow table..Volume 18/55px
+!overflow table..Change 17/160px
+!overflow amount2 20/50px
+!overflow price2 27/88px
+!overflow total2 27/79px
+!overflow process 98/144px
+!overflow view 34/81px
+!overflow table2.0.00091279.Price 20/95px
+!overflow table2.0.00091279.BTC 20/92px
+!overflow table2.0.00091279.Sum(BTC) 20/92px
+!overflow table2.0.00092146.Price 20/97px
+!overflow table2.0.00092146.BTC 20/95px
+!overflow table2.0.00092146.Sum(BTC) 20/98px
+!overflow table2.0.00094672.Price 20/99px
+!overflow table2.0.00094672.BTC 20/96px
+!overflow table2.0.00094672.Sum(BTC) 20/90px
+!overflow table2.0.00095269.Price 20/99px
+!overflow table2.0.00095269.BTC 20/96px
+!overflow table2.0.00095269.Sum(BTC) 20/89px
+!overflow table2.0.00095926.Price 20/99px
+!overflow table2.0.00095926.BTC 20/88px
+!overflow table2.0.00095926.Sum(BTC) 20/94px
+!overflow table2.0.00097736.Price 20/98px
+!overflow table2.0.00097736.BTC 20/97px
+!overflow table2.0.00097736.Sum(BTC) 20/85px
+!overflow table2.0.00100026.Price 20/96px
+!overflow table2.0.00100026.BTC 20/94px
+!overflow table2.0.00100026.Sum(BTC) 20/95px
+!overflow table2.0.00102267.Price 20/95px
+!overflow table2.0.00102267.BTC 20/90px
+!overflow table2.0.00102267.Sum(BTC) 20/94px
+!overflow table2.0.00104506.Price 20/96px
+!overflow table2.0.00104506.BTC 20/89px
+!overflow table2.0.00104506.Sum(BTC) 20/95px
+!overflow table2.0.00104974.Price 20/96px
+!overflow table2.0.00104974.BTC 20/95px
+!overflow table2.0.00104974.Sum(BTC) 20/101px
+!overflow view2 35/81px
+!overflow table3.0.00088217.Price 21/95px
+!overflow table3.0.00088217.BTC 20/99px
+!overflow table3.0.00088217.Sum(BTC) 21/99px
+!overflow table3.0.00085874.Price 21/98px
+!overflow table3.0.00085874.BTC 20/89px
+!overflow table3.0.00085874.Sum(BTC) 21/98px
+!overflow table3.0.00084954.Price 21/100px
+!overflow table3.0.00084954.BTC 20/99px
+!overflow table3.0.00084954.Sum(BTC) 21/98px
+!overflow table3.0.0008322.Price 21/90px
+!overflow table3.0.0008322.BTC 20/89px
+!overflow table3.0.0008322.Sum(BTC) 21/96px
+!overflow table3.0.00081524.Price 21/96px
+!overflow table3.0.00081524.BTC 20/99px
+!overflow table3.0.00081524.Sum(BTC) 21/96px
+!overflow table3.0.00080303.Price 21/99px
+!overflow table3.0.00080303.BTC 20/92px
+!overflow table3.0.00080303.Sum(BTC) 21/103px
+!overflow table3.0.00077858.Price 21/97px
+!overflow table3.0.00077858.BTC 20/89px
+!overflow table3.0.00077858.Sum(BTC) 21/104px
+!overflow table3.0.00075508.Price 21/98px
+!overflow table3.0.00075508.BTC 20/94px
+!overflow table3.0.00075508.Sum(BTC) 21/100px
+!overflow table3.0.00073013.Price 21/96px
+!overflow table3.0.00073013.BTC 20/95px
+!overflow table3.0.00073013.Sum(BTC) 21/104px
+!overflow table3.0.00071941.Price 21/93px
+!overflow table3.0.00071941.BTC 20/91px
+!overflow table3.0.00071941.Sum(BTC) 21/94px
+!tiny amount2 22x37px
+!offcanvas rect3
+!offcanvas region24
+!offcanvas path34
+!offcanvas region25
+!offcanvas path35
+!offcanvas region26
+!offcanvas path36
+!offcanvas region27
+!offcanvas path37
+!offcanvas region28
+!offcanvas path38
+!offcanvas region29
+!offcanvas path39
+!offcanvas region30
+!offcanvas path40
+!offcanvas region31
+!offcanvas path41
+!offcanvas region32
+!offcanvas path42
+!offcanvas region33
+!offcanvas path43
+!offcanvas region34
+!offcanvas path44
+!offcanvas region35
+!offcanvas path45
+!offcanvas region36
+!offcanvas path46
+!offcanvas region37
+!offcanvas path47
+!offcanvas region38
+!offcanvas path48
+!offcanvas region39
+!offcanvas path49
+!offcanvas region40
+!offcanvas path50
+!offcanvas region41
+!offcanvas path51
+!offcanvas region42
+!offcanvas path52
+!offcanvas region43
+!offcanvas path53
+!offcanvas region44
+!offcanvas path54
+!offcanvas region45
+!offcanvas path55
+!offcanvas region46
+!offcanvas path56
+!offcanvas region47
+!offcanvas path57
+!offcanvas region48
+!offcanvas path58
+!offcanvas region49
+!offcanvas path59
+!offcanvas region50
+!offcanvas path60
+!offcanvas region51
+!offcanvas path61
+!offcanvas region52
+!offcanvas path62
+!offcanvas region53
+!offcanvas path63
+!offcanvas region54
+!offcanvas path64

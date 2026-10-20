@@ -1,0 +1,769 @@
+@getbootstrap_com_docs_5_3_components_nav rev=0 @0,0,728,20335
+row @17,17,694,20
+  link "Skip to main content" #content @17,17,136,20
+  link "Skip to docs navigation" #bd-docs-nav @165,17,155,20
+row @17,49,694,82
+  link Bootstrap / @17,80,35,20
+  row @64,49,647,82
+    row @64,80,108,20
+      link Docs /docs/5.3/getting-started/introduction/ @64,80,15,20
+      link Examples /docs/5.3/examples/ @91,80,28,20
+      link Icons https://icons.getbootstrap.com/ @131,80,16,20
+      link Blog https://blog.getbootstrap.com/ @159,80,13,20
+    row @184,49,527,82
+      link "GitHub GitHub" https://github.com/twbs @184,70,44,40
+      link "X X" https://x.com/getbootstrap @240,70,12,40
+      link "Open Collective Open Collective" https://opencollective.com/bootstrap @264,49,100,82
+      region 17x40 @376,81,8,18 [1 shapes, 0 labelled]
+      button "BootstrapBootstrap v5.3 (switch to other versions)" @396,72,189,36
+      region 17x40 @597,81,8,18 [1 shapes, 0 labelled]
+      button "Toggle theme (light)" @617,72,94,36
+row @17,143,694,19852
+  col @17,7927,6,4283
+    text Getting started @17,7927,6,41
+    link Introduction /docs/5.3/getting-started/introduction @17,7980,6,20
+    link Download /docs/5.3/getting-started/download @17,8012,6,21
+    link Contents /docs/5.3/getting-started/contents @17,8045,6,20
+    link "Browsers & devices" /docs/5.3/getting-started/browsers-devices @17,8077,6,61
+    link JavaScript /docs/5.3/getting-started/javascript @17,8150,6,20
+    link Webpack /docs/5.3/getting-started/webpack @17,8182,6,20
+    link Parcel /docs/5.3/getting-started/parcel @17,8214,6,21
+    link Vite /docs/5.3/getting-started/vite @17,8247,6,20
+    link Accessibility /docs/5.3/getting-started/accessibility @17,8279,6,20
+    link RFS /docs/5.3/getting-started/rfs @17,8311,6,21
+    link RTL /docs/5.3/getting-started/rtl @17,8344,6,20
+    link Contribute /docs/5.3/getting-started/contribute @17,8376,6,20
+    text Customize @17,8408,6,21
+    link Overview /docs/5.3/customize/overview @17,8441,6,20
+    link Sass /docs/5.3/customize/sass @17,8473,6,20
+    link Options /docs/5.3/customize/options @17,8505,6,20
+    link Color /docs/5.3/customize/color @17,8537,6,21
+    link "Color modes" /docs/5.3/customize/color-modes @17,8570,6,40
+    link Components /docs/5.3/customize/components @17,8622,6,21
+    link "CSS variables" /docs/5.3/customize/css-variables @17,8655,6,40
+    link Optimize /docs/5.3/customize/optimize @17,8707,6,21
+    text Layout @17,8740,6,20
+    link Breakpoints /docs/5.3/layout/breakpoints @17,8772,6,20
+    link Containers /docs/5.3/layout/containers @17,8804,6,20
+    link Grid /docs/5.3/layout/grid @17,8836,6,21
+    link Columns /docs/5.3/layout/columns @17,8869,6,20
+    link Gutters /docs/5.3/layout/gutters @17,8901,6,20
+    link Utilities /docs/5.3/layout/utilities @17,8933,6,21
+    link Z-index /docs/5.3/layout/z-index @17,8966,6,20
+    link "CSS Grid" /docs/5.3/layout/css-grid @17,8998,6,41
+    text Content @17,9051,6,20
+    link Reboot /docs/5.3/content/reboot @17,9083,6,20
+    link Typography /docs/5.3/content/typography @17,9115,6,20
+    link Images /docs/5.3/content/images @17,9147,6,21
+    link Tables /docs/5.3/content/tables @17,9180,6,20
+    link Figures /docs/5.3/content/figures @17,9212,6,20
+    text Forms @17,9244,6,21
+    link Overview /docs/5.3/forms/overview @17,9277,6,20
+    link "Form control" /docs/5.3/forms/form-control @17,9309,6,41
+    link Select /docs/5.3/forms/select @17,9362,6,20
+    link "Checks & radios" /docs/5.3/forms/checks-radios @17,9394,6,61
+    link Range /docs/5.3/forms/range @17,9467,6,20
+    link "Input group" /docs/5.3/forms/input-group @17,9499,6,41
+    link "Floating labels" /docs/5.3/forms/floating-labels @17,9552,6,40
+    link Layout /docs/5.3/forms/layout @17,9604,6,21
+    link Validation /docs/5.3/forms/validation @17,9637,6,20
+    text Components @17,9669,6,20
+    link Accordion /docs/5.3/components/accordion @17,9701,6,20
+    link Alerts /docs/5.3/components/alerts @17,9733,6,21
+    link Badge /docs/5.3/components/badge @17,9766,6,20
+    link Breadcrumb /docs/5.3/components/breadcrumb @17,9798,6,20
+    link Buttons /docs/5.3/components/buttons @17,9830,6,21
+    link "Button group" /docs/5.3/components/button-group @17,9863,6,40
+    link Card /docs/5.3/components/card @17,9915,6,21
+    link Carousel /docs/5.3/components/carousel @17,9948,6,20
+    link "Close button" /docs/5.3/components/close-button @17,9980,6,40
+    link Collapse /docs/5.3/components/collapse @17,10032,6,21
+    link Dropdowns /docs/5.3/components/dropdowns @17,10065,6,20
+    link "List group" /docs/5.3/components/list-group @17,10097,6,41
+    link Modal /docs/5.3/components/modal @17,10150,6,20
+    link Navbar /docs/5.3/components/navbar @17,10182,6,20
+    link "Navs & tabs" /docs/5.3/components/navs-tabs @17,10214,6,61
+    link Offcanvas /docs/5.3/components/offcanvas @17,10287,6,20
+    link Pagination /docs/5.3/components/pagination @17,10319,6,21
+    link Placeholders /docs/5.3/components/placeholders @17,10352,6,20
+    link Popovers /docs/5.3/components/popovers @17,10384,6,20
+    link Progress /docs/5.3/components/progress @17,10416,6,21
+    link Scrollspy /docs/5.3/components/scrollspy @17,10449,6,20
+    link Spinners /docs/5.3/components/spinners @17,10481,6,20
+    link Toasts /docs/5.3/components/toasts @17,10513,6,21
+    link Tooltips /docs/5.3/components/tooltips @17,10546,6,20
+    text Helpers @17,10578,6,20
+    link Clearfix /docs/5.3/helpers/clearfix @17,10610,6,20
+    link "Color & background" /docs/5.3/helpers/color-background @17,10642,6,61
+    link "Colored links" /docs/5.3/helpers/colored-links @17,10715,6,41
+    link "Focus ring" /docs/5.3/helpers/focus-ring @17,10768,6,41
+    link "Icon link" /docs/5.3/helpers/icon-link @17,10821,6,40
+    link Position /docs/5.3/helpers/position @17,10873,6,20
+    link Ratio /docs/5.3/helpers/ratio @17,10905,6,21
+    link Stacks /docs/5.3/helpers/stacks @17,10938,6,20
+    link "Stretched link" /docs/5.3/helpers/stretched-link @17,10970,6,41
+    link "Text truncation" /docs/5.3/helpers/text-truncation @17,11023,6,40
+    link "Vertical rule" /docs/5.3/helpers/vertical-rule @17,11075,6,41
+    link "Visually hidden" /docs/5.3/helpers/visually-hidden @17,11128,6,40
+    text Utilities @17,11180,6,21
+    link API /docs/5.3/utilities/api @17,11213,6,20
+    link Background /docs/5.3/utilities/background @17,11245,6,20
+    link Borders /docs/5.3/utilities/borders @17,11277,6,21
+    link Colors /docs/5.3/utilities/colors @17,11310,6,20
+    link Display /docs/5.3/utilities/display @17,11342,6,20
+    link Flex /docs/5.3/utilities/flex @17,11374,6,21
+    link Float /docs/5.3/utilities/float @17,11407,6,20
+    link Interactions /docs/5.3/utilities/interactions @17,11439,6,20
+    link Link /docs/5.3/utilities/link @17,11471,6,20
+    link "Object fit" /docs/5.3/utilities/object-fit @17,11503,6,41
+    link Opacity /docs/5.3/utilities/opacity @17,11556,6,20
+    link Overflow /docs/5.3/utilities/overflow @17,11588,6,21
+    link Position /docs/5.3/utilities/position @17,11621,6,20
+    link Shadows /docs/5.3/utilities/shadows @17,11653,6,20
+    link Sizing /docs/5.3/utilities/sizing @17,11685,6,21
+    link Spacing /docs/5.3/utilities/spacing @17,11718,6,20
+    link Text /docs/5.3/utilities/text @17,11750,6,20
+    link "Vertical align" /docs/5.3/utilities/vertical-align @17,11782,6,41
+    link Visibility /docs/5.3/utilities/visibility @17,11835,6,20
+    link Z-index /docs/5.3/utilities/z-index @17,11867,6,20
+    text Extend @17,11899,6,21
+    link Approach /docs/5.3/extend/approach @17,11932,6,20
+    link Icons /docs/5.3/extend/icons @17,11964,6,20
+    text About @17,11996,6,21
+    link Overview /docs/5.3/about/overview @17,12029,6,20
+    link Team /docs/5.3/about/team @17,12061,6,20
+    link Brand /docs/5.3/about/brand @17,12093,6,20
+    link License /docs/5.3/about/license @17,12125,6,21
+    link Translations /docs/5.3/about/translations @17,12158,6,20
+    link Migration /docs/5.3/migration/ @17,12190,6,20
+  row @35,143,676,19852
+    col @35,9799,59,540
+      row @35,9799,59,61
+        link "View on GitHub" https://github.com/twbs/bootstrap/blob/v5.3.8/site/src/content/docs/components/navbar.mdx @35,9799,27,61
+        h1 Navbar @74,9817,20,25
+      text Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin. @35,9872,59,467
+    col @106,9473,58,1191
+      text On this page @106,9473,58,41
+      link "How it works" #how-it-works @106,9526,58,41
+      link "Supported content" #supported-content @106,9579,58,40
+      link Brand #brand2 @106,9631,58,21
+      link Text #text3 @106,9664,58,20
+      link Image #image @106,9696,58,20
+      link "Image and text" #image-and-text @106,9728,58,41
+      link Nav #nav @106,9781,58,20
+      link Forms #forms2 @106,9813,58,20
+      link Text #text-1 @106,9845,58,21
+      link "Color schemes" #color-schemes @106,9878,58,40
+      link Containers #containers2 @106,9930,58,21
+      link Placement #placement @106,9963,58,20
+      link Scrolling #scrolling @106,9995,58,20
+      link "Responsive behaviors" #responsive-behaviors @106,10027,58,41
+      link Toggler #toggler @106,10080,58,20
+      link "External content" #external-content @106,10112,58,41
+      link Offcanvas #offcanvas2 @106,10165,58,20
+      link CSS #css3 @106,10197,58,20
+      link Variables #variables @106,10229,58,21
+      link "Sass variables" #sass-variables @106,10262,58,40
+      link "Sass loops" #sass-loops @106,10314,58,41
+      card @106,10367,58,245
+        link https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI653UCTYILK7KF6BIK2QNCE7IT277CWSDKK3ICYYD4KJKC6SILKJWCA7DVK3EHJNCLSIZ https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI653UCTYILK7KF6BIK2QNCE7IT277CWSDKK3ICYYD4KJKC6SILKJWCA7DVK3EHJNCLSIZ @123,10382,24,20
+        link "Your agent. Your model. Your rules. Try it free" https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI653UCTYILK7KF6BIK2QNCE7IT277CWSDKK3ICYYD4KJKC6SILKJWCA7DVK3EHJNCLSIZ @123,10414,24,183
+      link "ads via Carbon" http://carbonads.net/?utm_source=getbootstrapcom&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @106,10624,58,40
+    col @176,143,535,19852
+      h2 How it works @176,143,535,21
+      text Here’s what you need to know before getting started with the navbar: @176,176,535,20
+      text Navbars require a wrapping with for responsive collapsing and classes. @176,208,535,20
+      text .navbar danger @176,240,535,21
+      text .navbar-expand{-sm|-md|-lg|-xl|-xxl} danger @176,273,535,20
+      link "color scheme" #color-schemes2 @176,305,535,20
+      text Navbars and their contents are fluid by default. Change the to limit their horizontal width in different ways. @176,337,535,41
+      link container #containers3 @176,390,535,20
+      text Use our and utility classes for controlling spacing and alignment within navbars. @176,422,535,20
+      row @176,454,535,21
+        link spacing /docs/5.3/utilities/spacing @176,454,53,21
+        link flex /docs/5.3/utilities/flex @241,454,25,21
+      text Navbars are responsive by default, but you can easily modify them to change that. Responsive behavior depends on our Collapse JavaScript plugin. @176,487,535,40
+      text Ensure accessibility by using a <nav> element or, if using a more generic element such as a <div>, add a role="navigation" to every navbar to explicitly identify it as a landmark region for users of assistive technologies. @176,539,535,61
+      text Indicate the current item by using aria-current="page" for the current page or aria-current="true" for the current item in a set. @176,612,535,41
+      text New in v5.2.0: Navbars can be themed with CSS variables that are scoped to the .navbar base class. .navbar-light has been deprecated and .navbar-dark has been rewritten to override CSS variables instead of adding additional styles. @176,665,535,61
+      text The animation effect of this component is dependent on the media query. See the . primary @176,738,535,40
+      text prefers-reduced-motion danger @176,790,535,21
+      link "reduced motion section of our accessibility documentation" /docs/5.3/getting-started/accessibility/#reduced-motion @176,823,535,20
+      h2 Supported content @176,855,535,21
+      text Navbars come with built-in support for a handful of sub-components. Choose from the following as needed: @176,888,535,41
+      text .navbar-brand for your company, product, or project name. @176,941,535,20
+      text .navbar-nav for a full-height and lightweight navigation (including support for dropdowns). @176,973,535,41
+      text for use with our collapse plugin and other behaviors. @176,1026,535,20
+      row @176,1058,535,20
+        text .navbar-toggler danger @176,1058,104,20
+        link "navigation toggling" #responsive-behaviors2 @292,1058,127,20
+      text Flex and spacing utilities for any form controls and actions. @176,1090,535,21
+      text .navbar-text for adding vertically centered strings of text. @176,1123,535,20
+      text .collapse.navbar-collapse for grouping and hiding navbar contents by a parent breakpoint. @176,1155,535,40
+      text Add an optional to set a and . @176,1207,535,21
+      row @176,1240,535,20
+        text .navbar-nav-scroll danger @176,1240,123,20
+        text max-height danger @311,1240,76,20
+        link "scroll expanded navbar content" #scrolling2 @399,1240,210,20
+      text Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the lg (large) breakpoint. @176,1272,535,41
+      card @176,1325,535,706
+        row @193,1340,501,57
+          link Navbar # @193,1358,48,21
+          row @253,1340,405,57
+            row @253,1350,263,37
+              link Home # @253,1358,40,21
+              link Link # @305,1358,28,21
+              button Dropdown @345,1350,101,37
+              text Disabled @458,1358,58,21
+            row @528,1340,130,57
+              field Search search @528,1340,40,57
+              button Search @580,1350,78,37
+        row @193,1409,501,37
+          text html @193,1417,29,21
+          row @234,1409,320,37
+            button "Try it on StackBlitz" @234,1409,157,37
+            button "Copy to clipboard" @403,1409,151,37
+        card @193,1458,501,558
+          text <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Navbar</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarSupportedContent"> <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a> <ul class="dropdown-menu"> <li><a class="dropdown-item" href="#">Action</a></li> <li><a class="dropdown-item" href="#">Another action</a></li> <li><hr class="dropdown-divider"></li> <li><a class="dropdown-item" href="#">Something else here</a></li> </ul> </li> <li class="nav-item"> <a class="nav-link disabled" aria-disabled="true">Disabled</a> </li> </ul> <form class="d-flex" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> <button class="btn btn-outline-success" type="submit">Search</button> </form> </div> </div> </nav> @210,1473,467,528
+      text This example uses () and (, , , ) utility classes. @176,2043,535,20
+      row @176,2075,535,20
+        link background /docs/5.3/utilities/background @176,2075,80,20
+        text bg-body-tertiary danger @268,2075,111,20
+        link spacing /docs/5.3/utilities/spacing @391,2075,53,20
+        text me-auto danger @456,2075,56,20
+        text mb-2 danger @524,2075,36,20
+        text mb-lg-0 danger @572,2075,55,20
+        text me-2 danger @639,2075,36,20
+      h3 Brand @176,2107,535,19
+      text The .navbar-brand can be applied to most elements, but an anchor works best, as some elements might require utility classes or custom styles. @176,2138,535,40
+      h3 Text @176,2190,535,19
+      text Add your text within an element with the .navbar-brand class. @176,2221,535,21
+      card @176,2254,535,274
+        link Navbar # @193,2269,501,20
+        text Navbar @193,2301,501,20
+        row @193,2333,501,36
+          text html @193,2341,29,20
+          row @234,2333,320,36
+            button "Try it on StackBlitz" @234,2333,157,36
+            button "Copy to clipboard" @403,2333,151,36
+        card @193,2381,501,132
+          text <!-- As a link --> <nav class="navbar bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Navbar</a> </div> </nav> <!-- As a heading --> <nav class="navbar bg-body-tertiary"> <div class="container-fluid"> <span class="navbar-brand mb-0 h1">Navbar</span> </div> </nav> @210,2396,467,102
+      h3 Image @176,2540,535,19
+      text You can replace the text within the .navbar-brand with an <img>. @176,2571,535,20
+      card @176,2603,535,222
+        link # # @193,2618,501,20
+        row @193,2650,501,37
+          text html @193,2658,29,21
+          row @234,2650,320,37
+            button "Try it on StackBlitz" @234,2650,157,37
+            button "Copy to clipboard" @403,2650,151,37
+        card @193,2699,501,111
+          text <nav class="navbar bg-body-tertiary"> <div class="container"> <a class="navbar-brand" href="#"> <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24"> </a> </div> </nav> @210,2714,467,81
+      h3 Image and text @176,2837,535,19
+      text You can also make use of some additional utilities to add an image and text at the same time. Note the addition of .d-inline-block and .align-text-top on the <img>. @176,2868,535,60
+      card @176,2940,535,243
+        link Bootstrap # @193,2955,501,21
+        row @193,2988,501,36
+          text html @193,2996,29,20
+          row @234,2988,320,36
+            button "Try it on StackBlitz" @234,2988,157,36
+            button "Copy to clipboard" @403,2988,151,36
+        card @193,3036,501,132
+          text <nav class="navbar bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#"> <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> Bootstrap </a> </div> </nav> @210,3051,467,102
+      h3 Nav @176,3195,535,18
+      text Navbar navigation links build on our options with their own modifier class and require the use of for proper responsive styling. to keep your navbar contents securely aligned. @176,3225,535,61
+      text .nav danger @176,3298,535,20
+      link "toggler classes" #toggler2 @176,3330,535,21
+      text Navigation in navbars will also grow to occupy as much horizontal space as possible @176,3363,535,40
+      text Add the .active class on .nav-link to indicate the current page. @176,3415,535,21
+      text Please note that you should also add the aria-current attribute on the active .nav-link. @176,3448,535,40
+      card @176,3500,535,405
+        row @193,3515,501,21
+          link Navbar # @193,3515,48,21
+          row @253,3515,238,21
+            link Home # @253,3515,40,21
+            link Features # @305,3515,58,21
+            link Pricing # @375,3515,46,21
+            text Disabled @433,3515,58,21
+        row @193,3548,501,36
+          text html @193,3556,29,20
+          row @234,3548,320,36
+            button "Try it on StackBlitz" @234,3548,157,36
+            button "Copy to clipboard" @403,3548,151,36
+        card @193,3596,501,294
+          text <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Navbar</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarNav"> <ul class="navbar-nav"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Features</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li> <li class="nav-item"> <a class="nav-link disabled" aria-disabled="true">Disabled</a> </li> </ul> </div> </div> </nav> @210,3611,467,264
+      text And because we use classes for our navs, you can avoid the list-based approach entirely if you like. @176,3917,535,40
+      card @176,3969,535,385
+        row @193,3984,501,21
+          link Navbar # @193,3984,48,21
+          row @253,3984,238,21
+            link Home # @253,3984,40,21
+            link Features # @305,3984,58,21
+            link Pricing # @375,3984,46,21
+            text Disabled @433,3984,58,21
+        row @193,4017,501,36
+          text html @193,4025,29,20
+          row @234,4017,320,36
+            button "Try it on StackBlitz" @234,4017,157,36
+            button "Copy to clipboard" @403,4017,151,36
+        card @193,4065,501,274
+          text <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Navbar</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> <div class="navbar-nav"> <a class="nav-link active" aria-current="page" href="#">Home</a> <a class="nav-link" href="#">Features</a> <a class="nav-link" href="#">Pricing</a> <a class="nav-link disabled" aria-disabled="true">Disabled</a> </div> </div> </div> </nav> @210,4080,467,244
+      text You can also use dropdowns in your navbar. Dropdown menus require a wrapping element for positioning, so be sure to use separate and nested elements for .nav-item and .nav-link as shown below. @176,4366,535,60
+      card @176,4438,535,563
+        row @193,4453,501,37
+          link Navbar # @193,4461,48,21
+          row @253,4453,308,37
+            link Home # @253,4461,40,21
+            link Features # @305,4461,58,21
+            link Pricing # @375,4461,46,21
+            button "Dropdown link" @433,4453,128,37
+        row @193,4502,501,36
+          text html @193,4510,29,20
+          row @234,4502,320,36
+            button "Try it on StackBlitz" @234,4502,157,36
+            button "Copy to clipboard" @403,4502,151,36
+        card @193,4550,501,436
+          text <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Navbar</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarNavDropdown"> <ul class="navbar-nav"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Features</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown link </a> <ul class="dropdown-menu"> <li><a class="dropdown-item" href="#">Action</a></li> <li><a class="dropdown-item" href="#">Another action</a></li> <li><a class="dropdown-item" href="#">Something else here</a></li> </ul> </li> </ul> </div> </div> </nav> @210,4565,467,406
+      h3 Forms @176,5013,535,19
+      text Place various form controls and components within a navbar: @176,5044,535,20
+      card @176,5076,535,280
+        row @193,5091,501,58
+          field Search search @193,5091,40,58
+          button Search @245,5102,78,36
+        row @193,5161,501,36
+          text html @193,5169,29,20
+          row @234,5161,320,36
+            button "Try it on StackBlitz" @234,5161,157,36
+            button "Copy to clipboard" @403,5161,151,36
+        card @193,5209,501,132
+          text <nav class="navbar bg-body-tertiary"> <div class="container-fluid"> <form class="d-flex" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> <button class="btn btn-outline-success" type="submit">Search</button> </form> </div> </nav> @210,5224,467,102
+      text Immediate child elements of use flex layout and will default to . Use additional as needed to adjust this behavior. @176,5368,535,40
+      text .navbar danger @176,5420,535,21
+      text justify-content: space-between danger @176,5453,535,20
+      link "flex utilities" /docs/5.3/utilities/flex @176,5485,535,20
+      card @176,5517,535,300
+        row @193,5532,501,58
+          text Navbar @193,5551,48,20
+          row @253,5532,130,58
+            field Search search @253,5532,40,58
+            button Search @305,5543,78,36
+        row @193,5602,501,36
+          text html @193,5610,29,20
+          row @234,5602,320,36
+            button "Try it on StackBlitz" @234,5602,157,36
+            button "Copy to clipboard" @403,5602,151,36
+        card @193,5650,501,152
+          text <nav class="navbar bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand">Navbar</a> <form class="d-flex" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> <button class="btn btn-outline-success" type="submit">Search</button> </form> </div> </nav> @210,5665,467,122
+      text Input groups work, too. If your navbar is an entire form, or mostly a form, you can use the <form> element as the container and save some HTML. @176,5829,535,41
+      card @176,5882,535,299
+        row @193,5897,501,57
+          text @ @193,5915,14,21
+          field Username @219,5897,59,57
+        row @193,5966,501,37
+          text html @193,5974,29,21
+          row @234,5966,320,37
+            button "Try it on StackBlitz" @234,5966,157,37
+            button "Copy to clipboard" @403,5966,151,37
+        card @193,6015,501,151
+          text <nav class="navbar bg-body-tertiary"> <form class="container-fluid"> <div class="input-group"> <span class="input-group-text" id="basic-addon1">@</span> <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/> </div> </form> </nav> @210,6030,467,121
+      text Various buttons are supported as part of these navbar forms, too. This is also a great reminder that vertical alignment utilities can be used to align different sized elements. @176,6193,535,61
+      card @176,6266,535,258
+        row @193,6281,501,36
+          button "Main button" @193,6281,111,36
+          button "Smaller button" @316,6281,129,36
+        row @193,6329,501,37
+          text html @193,6337,29,21
+          row @234,6329,320,37
+            button "Try it on StackBlitz" @234,6329,157,37
+            button "Copy to clipboard" @403,6329,151,37
+        card @193,6378,501,131
+          text <nav class="navbar bg-body-tertiary"> <form class="container-fluid justify-content-start"> <button class="btn btn-outline-success me-2" type="button">Main button</button> <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button> </form> </nav> @210,6393,467,101
+      h3 Text @176,6536,535,19
+      text Navbars may contain bits of text with the help of .navbar-text. This class adjusts vertical alignment and horizontal spacing for strings of text. @176,6567,535,41
+      card @176,6620,535,201
+        text Navbar text with an inline element @193,6635,501,20
+        row @193,6667,501,36
+          text html @193,6675,29,20
+          row @234,6667,320,36
+            button "Try it on StackBlitz" @234,6667,157,36
+            button "Copy to clipboard" @403,6667,151,36
+        card @193,6715,501,91
+          text <nav class="navbar bg-body-tertiary"> <div class="container-fluid"> <span class="navbar-text"> Navbar text with an inline element </span> </div> </nav> @210,6730,467,61
+      text Mix and match with other components and utilities as needed. @176,6833,535,20
+      card @176,6865,535,446
+        row @193,6880,501,41
+          link "Navbar w/ text" # @193,6880,95,41
+          row @300,6880,394,41
+            row @300,6891,164,20
+              link Home # @300,6891,39,20
+              link Features # @351,6891,56,20
+              link Pricing # @419,6891,45,20
+            text Navbar text with an inline element @476,6880,218,41
+        row @193,6933,501,36
+          text html @193,6941,29,20
+          row @234,6933,320,36
+            button "Try it on StackBlitz" @234,6933,157,36
+            button "Copy to clipboard" @403,6933,151,36
+        card @193,6981,501,315
+          text <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Navbar w/ text</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarText"> <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Features</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li> </ul> <span class="navbar-text"> Navbar text with an inline element </span> </div> </div> </nav> @210,6996,467,285
+      h2 Color schemes @176,7323,535,21
+      text We’ve deprecated in favor of the new . Add to the to enable a component-specific color mode. warning @176,7356,535,40
+      text New dark navbars in v5.3.0 — warning @176,7408,535,21
+      text .navbar-dark danger @176,7441,535,20
+      text data-bs-theme="dark" danger @176,7473,535,20
+      text data-bs-theme="dark" danger @176,7505,535,21
+      text .navbar danger @176,7538,535,20
+      link "Learn more about our color modes." /docs/5.3/customize/color-modes @176,7570,535,20
+      text New in v5.2.0 — Navbar theming is now powered by CSS variables and .navbar-light has been deprecated. CSS variables are applied to .navbar, defaulting to the “light” appearance, and can be overridden with .navbar-dark. warning @176,7602,535,61
+      text Navbar themes are easier than ever thanks to Bootstrap’s combination of Sass and CSS variables. The default is our “light navbar” for use with light background colors, but you can also apply data-bs-theme="dark" to the .navbar parent for dark background colors. Then, customize with .bg-* and additional utilities. @176,7675,535,102
+      card @176,7789,535,227
+        row @193,7804,501,57
+          link Navbar # @193,7822,48,21
+          row @253,7804,362,57
+            row @253,7822,220,21
+              link Home # @253,7822,40,21
+              link Features # @305,7822,58,21
+              link Pricing # @375,7822,46,21
+              link About # @433,7822,40,21
+            row @485,7804,130,57
+              field Search search @485,7804,40,57
+              button Search @537,7814,78,37
+        row @193,7873,501,58
+          link Navbar # @193,7892,48,20
+          row @253,7873,362,58
+            row @253,7892,220,20
+              link Home # @253,7892,40,20
+              link Features # @305,7892,58,20
+              link Pricing # @375,7892,46,20
+              link About # @433,7892,40,20
+            row @485,7873,130,58
+              field Search search @485,7873,40,58
+              button Search @537,7884,78,36
+        row @193,7943,501,58
+          link Navbar # @193,7962,48,20
+          row @253,7943,362,58
+            row @253,7962,220,20
+              link Home # @253,7962,40,20
+              link Features # @305,7962,58,20
+              link Pricing # @375,7962,46,20
+              link About # @433,7962,40,20
+            row @485,7943,130,58
+              field Search search @485,7943,40,58
+              button Search @537,7954,78,36
+      card @176,8028,535,209
+        button Copy @193,8043,501,36
+        card @193,8091,501,131
+          text <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark"> <!-- Navbar content --> </nav> <nav class="navbar bg-primary" data-bs-theme="dark"> <!-- Navbar content --> </nav> <nav class="navbar" style="background-color: #e3f2fd;" data-bs-theme="light"> <!-- Navbar content --> </nav> @210,8106,467,101
+      h2 Containers @176,8249,535,22
+      text Although it’s not required, you can wrap a navbar in a to center it on a page–though note that an inner container is still required. Or you can add a container inside the to only center the contents of a . @176,8283,535,61
+      text .container danger @176,8356,535,20
+      text .navbar danger @176,8388,535,20
+      link "fixed or static top navbar" #placement2 @176,8420,535,21
+      card @176,8453,535,201
+        link Navbar # @193,8468,501,20
+        row @193,8500,501,36
+          text html @193,8508,29,20
+          row @234,8500,320,36
+            button "Try it on StackBlitz" @234,8500,157,36
+            button "Copy to clipboard" @403,8500,151,36
+        card @193,8548,501,91
+          text <div class="container"> <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Navbar</a> </div> </nav> </div> @210,8563,467,61
+      text Use any of the responsive containers to change how wide the content in your navbar is presented. @176,8666,535,41
+      card @176,8719,535,201
+        link Navbar # @193,8734,501,20
+        row @193,8766,501,36
+          text html @193,8774,29,20
+          row @234,8766,320,36
+            button "Try it on StackBlitz" @234,8766,157,36
+            button "Copy to clipboard" @403,8766,151,36
+        card @193,8814,501,91
+          text <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-md"> <a class="navbar-brand" href="#">Navbar</a> </div> </nav> @210,8829,467,61
+      h2 Placement @176,8932,535,21
+      text Use our to place navbars in non-static positions. Choose from fixed to the top, fixed to the bottom, stickied to the top (scrolls with the page until it reaches the top, then stays there), or stickied to the bottom (scrolls with the page until it reaches the bottom, then stays there). @176,8965,535,82
+      link "position utilities" /docs/5.3/utilities/position @176,9059,535,20
+      text Fixed navbars use position: fixed, meaning they’re pulled from the normal flow of the DOM and may require custom CSS (e.g., padding-top on the <body>) to prevent overlap with other elements. @176,9091,535,61
+      card @176,9164,535,181
+        link Default # @193,9179,501,20
+        row @193,9211,501,36
+          text html @193,9219,29,20
+          row @234,9211,320,36
+            button "Try it on StackBlitz" @234,9211,157,36
+            button "Copy to clipboard" @403,9211,151,36
+        card @193,9259,501,71
+          text <nav class="navbar bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Default</a> </div> </nav> @210,9274,467,41
+      card @176,9357,535,201
+        link "Fixed top" # @193,9372,501,20
+        row @193,9404,501,37
+          text html @193,9412,29,21
+          row @234,9404,320,37
+            button "Try it on StackBlitz" @234,9404,157,37
+            button "Copy to clipboard" @403,9404,151,37
+        card @193,9453,501,90
+          text <nav class="navbar fixed-top bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Fixed top</a> </div> </nav> @210,9468,467,60
+      card @176,9570,535,202
+        link "Fixed bottom" # @193,9585,501,21
+        row @193,9618,501,36
+          text html @193,9626,29,20
+          row @234,9618,320,36
+            button "Try it on StackBlitz" @234,9618,157,36
+            button "Copy to clipboard" @403,9618,151,36
+        card @193,9666,501,91
+          text <nav class="navbar fixed-bottom bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Fixed bottom</a> </div> </nav> @210,9681,467,61
+      card @176,9784,535,201
+        link "Sticky top" # @193,9799,501,20
+        row @193,9831,501,37
+          text html @193,9839,29,21
+          row @234,9831,320,37
+            button "Try it on StackBlitz" @234,9831,157,37
+            button "Copy to clipboard" @403,9831,151,37
+        card @193,9880,501,90
+          text <nav class="navbar sticky-top bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Sticky top</a> </div> </nav> @210,9895,467,60
+      card @176,9997,535,202
+        link "Sticky bottom" # @193,10012,501,21
+        row @193,10045,501,36
+          text html @193,10053,29,20
+          row @234,10045,320,36
+            button "Try it on StackBlitz" @234,10045,157,36
+            button "Copy to clipboard" @403,10045,151,36
+        card @193,10093,501,91
+          text <nav class="navbar sticky-bottom bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Sticky bottom</a> </div> </nav> @210,10108,467,61
+      h2 Scrolling @176,10211,535,21
+      text Add .navbar-nav-scroll to a .navbar-nav (or other navbar sub-component) to enable vertical scrolling within the toggleable contents of a collapsed navbar. By default, scrolling kicks in at 75vh (or 75% of the viewport height), but you can override that with the local CSS custom property --bs-navbar-height or custom styles. At larger viewports when the navbar is expanded, content will appear as it does in a default navbar. @176,10244,535,122
+      text Please note that this behavior comes with a potential drawback of overflow—when setting overflow-y: auto (required to scroll the content here), overflow-x is the equivalent of auto, which will crop some horizontal content. @176,10378,535,61
+      text Here’s an example navbar using .navbar-nav-scroll with style="--bs-scroll-height: 100px;", with some extra margin utilities for optimum spacing. @176,10451,535,61
+      card @176,10524,535,706
+        row @193,10539,501,58
+          link "Navbar scroll" # @193,10558,88,20
+          row @293,10539,333,58
+            row @293,10550,191,36
+              link Home # @293,10558,40,20
+              link Link # @345,10558,28,20
+              button Link @385,10550,59,36
+              text Link @456,10558,28,20
+            row @496,10539,130,58
+              field Search search @496,10539,40,58
+              button Search @548,10550,78,36
+        row @193,10609,501,36
+          text html @193,10617,29,20
+          row @234,10609,320,36
+            button "Try it on StackBlitz" @234,10609,157,36
+            button "Copy to clipboard" @403,10609,151,36
+        card @193,10657,501,558
+          text <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Navbar scroll</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarScroll"> <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Link </a> <ul class="dropdown-menu"> <li><a class="dropdown-item" href="#">Action</a></li> <li><a class="dropdown-item" href="#">Another action</a></li> <li><hr class="dropdown-divider"></li> <li><a class="dropdown-item" href="#">Something else here</a></li> </ul> </li> <li class="nav-item"> <a class="nav-link disabled" aria-disabled="true">Link</a> </li> </ul> <form class="d-flex" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> <button class="btn btn-outline-success" type="submit">Search</button> </form> </div> </div> </nav> @210,10672,467,528
+      h2 Responsive behaviors @176,11242,535,21
+      text Navbars can use .navbar-toggler, .navbar-collapse, and .navbar-expand{-sm|-md|-lg|-xl|-xxl} classes to determine when their content collapses behind a button. In combination with other utilities, you can easily choose when to show or hide particular elements. @176,11275,535,81
+      text For navbars that never collapse, add the .navbar-expand class on the navbar. For navbars that always collapse, don’t add any .navbar-expand class. @176,11368,535,41
+      h3 Toggler @176,11421,535,18
+      text Navbar togglers are left-aligned by default, but should they follow a sibling element like a .navbar-brand, they’ll automatically be aligned to the far right. Reversing your markup will reverse the placement of the toggler. Below are examples of different toggle styles. @176,11451,535,82
+      text With no .navbar-brand shown at the smallest breakpoint: @176,11545,535,20
+      card @176,11577,535,543
+        row @193,11592,501,58
+          link "Hidden brand" # @193,11611,90,20
+          row @295,11611,150,20
+            link Home # @295,11611,40,20
+            link Link # @347,11611,28,20
+            text Disabled @387,11611,58,20
+          row @457,11592,130,58
+            field Search search @457,11592,40,58
+            button Search @509,11603,78,36
+        row @193,11662,501,36
+          text html @193,11670,29,20
+          row @234,11662,320,36
+            button "Try it on StackBlitz" @234,11662,157,36
+            button "Copy to clipboard" @403,11662,151,36
+        card @193,11710,501,395
+          text <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-fluid"> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarTogglerDemo01"> <a class="navbar-brand" href="#">Hidden brand</a> <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li> <li class="nav-item"> <a class="nav-link disabled" aria-disabled="true">Disabled</a> </li> </ul> <form class="d-flex" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> <button class="btn btn-outline-success" type="submit">Search</button> </form> </div> </div> </nav> @210,11725,467,365
+      text With a brand name shown on the left and toggler on the right: @176,12132,535,21
+      card @176,12165,535,523
+        row @193,12180,501,57
+          link Navbar # @193,12198,48,21
+          row @253,12180,292,57
+            row @253,12198,150,21
+              link Home # @253,12198,40,21
+              link Link # @305,12198,28,21
+              text Disabled @345,12198,58,21
+            row @415,12180,130,57
+              field Search search @415,12180,40,57
+              button Search @467,12190,78,37
+        row @193,12249,501,37
+          text html @193,12257,29,21
+          row @234,12249,320,37
+            button "Try it on StackBlitz" @234,12249,157,37
+            button "Copy to clipboard" @403,12249,151,37
+        card @193,12298,501,375
+          text <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-fluid"> <a class="navbar-brand" href="#">Navbar</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarTogglerDemo02"> <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li> <li class="nav-item"> <a class="nav-link disabled" aria-disabled="true">Disabled</a> </li> </ul> <form class="d-flex" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> <button class="btn btn-outline-success" type="submit">Search</button> </form> </div> </div> </nav> @210,12313,467,345
+      text With a toggler on the left and brand name on the right: @176,12700,535,20
+      card @176,12732,535,543
+        row @193,12747,501,58
+          link Navbar # @193,12766,48,20
+          row @253,12747,292,58
+            row @253,12766,150,20
+              link Home # @253,12766,40,20
+              link Link # @305,12766,28,20
+              text Disabled @345,12766,58,20
+            row @415,12747,130,58
+              field Search search @415,12747,40,58
+              button Search @467,12758,78,36
+        row @193,12817,501,36
+          text html @193,12825,29,20
+          row @234,12817,320,36
+            button "Try it on StackBlitz" @234,12817,157,36
+            button "Copy to clipboard" @403,12817,151,36
+        card @193,12865,501,395
+          text <nav class="navbar navbar-expand-lg bg-body-tertiary"> <div class="container-fluid"> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <a class="navbar-brand" href="#">Navbar</a> <div class="collapse navbar-collapse" id="navbarTogglerDemo03"> <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li> <li class="nav-item"> <a class="nav-link disabled" aria-disabled="true">Disabled</a> </li> </ul> <form class="d-flex" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> <button class="btn btn-outline-success" type="submit">Search</button> </form> </div> </div> </nav> @210,12880,467,365
+      h3 External content @176,13287,535,19
+      text Sometimes you want to use the collapse plugin to trigger a container element for content that structurally sits outside of the .navbar . Because our plugin works on the id and data-bs-target matching, that’s easily done! @176,13318,535,61
+      card @176,13391,535,380
+        button "Toggle navigation" @193,13406,501,36
+        row @193,13454,501,37
+          text html @193,13462,29,21
+          row @234,13454,320,37
+            button "Try it on StackBlitz" @234,13454,157,37
+            button "Copy to clipboard" @403,13454,151,37
+        card @193,13503,501,253
+          text <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark"> <div class="bg-dark p-4"> <h5 class="text-body-emphasis h4">Collapsed content</h5> <span class="text-body-secondary">Toggleable via the navbar brand.</span> </div> </div> <nav class="navbar navbar-dark bg-dark"> <div class="container-fluid"> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> </div> </nav> @210,13518,467,223
+      text When you do this, we recommend including additional JavaScript to move the focus programmatically to the container when it is opened. Otherwise, keyboard users and users of assistive technologies will likely have a hard time finding the newly revealed content - particularly if the container that was opened comes before the toggler in the document’s structure. We also recommend making sure that the toggler has the aria-controls attribute, pointing to the id of the content container. In theory, this allows assistive technology users to jump directly from the toggler to the container it controls–but support for this is currently quite patchy. @176,13783,535,183
+      h3 Offcanvas @176,13978,535,18
+      text Transform your expanding and collapsing navbar into an offcanvas drawer with the . We extend both the offcanvas default styles and use our classes to create a dynamic and flexible navigation sidebar. @176,14008,535,61
+      link "offcanvas component" /docs/5.3/components/offcanvas @176,14081,535,21
+      text .navbar-expand-* danger @176,14114,535,20
+      text In the example below, to create an offcanvas navbar that is always collapsed across all breakpoints, omit the .navbar-expand-* class entirely. @176,14146,535,41
+      card @176,14199,535,927
+        row @193,14214,501,218
+          link "Offcanvas navbar" # @193,14313,118,20
+          button "Toggle navigation" @323,14305,152,36
+          col @487,14214,158,218
+            row @487,14214,158,36
+              h3 Offcanvas @487,14222,77,19
+              button Close @576,14214,69,36
+            link Home # @487,14262,158,20
+            link Link # @487,14294,158,20
+            button Dropdown @487,14326,158,37
+            row @487,14375,158,57
+              field Search search @487,14375,40,57
+              button Search @539,14385,78,37
+        row @193,14444,501,37
+          text html @193,14452,29,21
+          row @234,14444,320,37
+            button "Try it on StackBlitz" @234,14444,157,37
+            button "Copy to clipboard" @403,14444,151,37
+        card @193,14493,501,618
+          text <nav class="navbar bg-body-tertiary fixed-top"> <div class="container-fluid"> <a class="navbar-brand" href="#">Offcanvas navbar</a> <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"> <div class="offcanvas-header"> <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> </div> <div class="offcanvas-body"> <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a> <ul class="dropdown-menu"> <li><a class="dropdown-item" href="#">Action</a></li> <li><a class="dropdown-item" href="#">Another action</a></li> <li> <hr class="dropdown-divider"> </li> <li><a class="dropdown-item" href="#">Something else here</a></li> </ul> </li> </ul> <form class="d-flex mt-3" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> <button class="btn btn-outline-success" type="submit">Search</button> </form> </div> </div> </div> </nav> @210,14508,467,588
+      text To create an offcanvas navbar that expands into a normal navbar at a specific breakpoint like lg, use .navbar-expand-lg. @176,15138,535,41
+      card @176,15191,535,291
+        button Copy @193,15206,501,36
+        card @193,15254,501,213
+          text <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top"> <a class="navbar-brand" href="#">Offcanvas navbar</a> <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel"> ... </div> </nav> @210,15269,467,183
+      text When using offcanvas in a dark navbar, be aware that you may need to have a dark background on the offcanvas content to avoid the text becoming illegible. In the example below, we add .navbar-dark and .bg-dark to the .navbar, .text-bg-dark to the .offcanvas, .dropdown-menu-dark to .dropdown-menu, and .btn-close-white to .btn-close for proper styling with a dark offcanvas. @176,15494,535,102
+      card @176,15608,535,949
+        row @193,15623,501,220
+          link "Offcanvas dark navbar" # @193,15712,145,41
+          button "Toggle navigation" @350,15714,147,37
+          col @509,15623,185,220
+            row @509,15623,185,37
+              h3 Dark offcanvas @509,15623,106,37
+              button Close @627,15623,67,36
+            link Home # @509,15672,185,20
+            link Link # @509,15704,185,21
+            button Dropdown @509,15737,185,36
+            row @509,15785,185,58
+              field Search search @509,15785,40,58
+              button Search success @561,15796,78,36
+        row @193,15855,501,36
+          text html @193,15863,29,20
+          row @234,15855,320,36
+            button "Try it on StackBlitz" @234,15855,157,36
+            button "Copy to clipboard" @403,15855,151,36
+        card @193,15903,501,639
+          text <nav class="navbar navbar-dark bg-dark fixed-top"> <div class="container-fluid"> <a class="navbar-brand" href="#">Offcanvas dark navbar</a> <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel"> <div class="offcanvas-header"> <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5> <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button> </div> <div class="offcanvas-body"> <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"> <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li> <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a> <ul class="dropdown-menu dropdown-menu-dark"> <li><a class="dropdown-item" href="#">Action</a></li> <li><a class="dropdown-item" href="#">Another action</a></li> <li> <hr class="dropdown-divider"> </li> <li><a class="dropdown-item" href="#">Something else here</a></li> </ul> </li> </ul> <form class="d-flex mt-3" role="search"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> <button class="btn btn-success" type="submit">Search</button> </form> </div> </div> </div> </nav> @210,15918,467,609
+      h2 CSS @176,16569,535,21
+      h3 Variables @176,16602,535,19
+      text Added in v5.2.0 @176,16633,535,20
+      text As part of Bootstrap’s evolving CSS variables approach, navbars now use local CSS variables on .navbar for enhanced real-time customization. Values for the CSS variables are set via Sass, so Sass customization is still supported, too. @176,16665,535,61
+      card @176,16738,535,628
+        card @193,16753,501,99
+          link scss/_navbar.scss https://github.com/twbs/bootstrap/blob/v5.3.8/scss/_navbar.scss @210,16768,467,20
+          button "Copy to clipboard" @210,16800,467,37
+        text "--#{$prefix}navbar-padding-x: #{if($navbar-padding-x == null, 0, $navbar-padding-x)}; --#{$prefix}navbar-padding-y: #{$navbar-padding-y}; --#{$prefix}navbar-color: #{$navbar-light-color}; --#{$prefix}navbar-hover-color: #{$navbar-light-hover-color}; --#{$prefix}navbar-disabled-color: #{$navbar-light-disabled-color}; --#{$prefix}navbar-active-color: #{$navbar-light-active-color}; --#{$prefix}navbar-brand-padding-y: #{$navbar-brand-padding-y}; --#{$prefix}navbar-brand-margin-end: #{$navbar-brand-margin-end}; --#{$prefix}navbar-brand-font-size: #{$navbar-brand-font-size}; --#{$prefix}navbar-brand-color: #{$navbar-light-brand-color}; --#{$prefix}navbar-brand-hover-color: #{$navbar-light-brand-hover-color}; --#{$prefix}navbar-nav-link-padding-x: #{$navbar-nav-link-padding-x}; --#{$prefix}navbar-toggler-padding-y: #{$navbar-toggler-padding-y}; --#{$prefix}navbar-toggler-padding-x: #{$navbar-toggler-padding-x}; --#{$prefix}navbar-toggler-font-size: #{$navbar-toggler-font-size}; --#{$prefix}navbar-toggler-icon-bg: #{escape-svg($navbar-light-toggler-icon-bg)}; --#{$prefix}navbar-toggler-border-color: #{$navbar-light-toggler-border-color}; --#{$prefix}navbar-toggler-border-radius: #{$navbar-toggler-border-radius}; --#{$prefix}navbar-toggler-focus-width: #{$navbar-toggler-focus-width}; --#{$prefix}navbar-toggler-transition: #{$navbar-toggler-transition};" @193,16864,501,487
+      text Some additional CSS variables are also present on .navbar-nav: @176,17378,535,20
+      card @176,17410,535,263
+        card @193,17425,501,99
+          link scss/_navbar.scss https://github.com/twbs/bootstrap/blob/v5.3.8/scss/_navbar.scss @210,17440,467,21
+          button "Copy to clipboard" @210,17473,467,36
+        text --#{$prefix}nav-link-padding-x: 0; --#{$prefix}nav-link-padding-y: @include rfs($nav-link-font-size, --#{$prefix}nav-link-font-size); --#{$prefix}nav-link-font-weight: --#{$prefix}nav-link-color: var(--#{$prefix}navbar-color); --#{$prefix}nav-link-hover-color: var(--#{$prefix}navbar-hover-color); --#{$prefix}nav-link-disabled-color: var(--#{$prefix}navbar-disabled-color); #{$nav-link-font-weight}; @193,17536,501,122
+      text Customization through CSS variables can be seen on the .navbar-dark class where we override specific values without adding duplicate CSS selectors. @176,17685,535,40
+      card @176,17737,535,364
+        card @193,17752,501,99
+          link scss/_navbar.scss https://github.com/twbs/bootstrap/blob/v5.3.8/scss/_navbar.scss @210,17767,467,21
+          button "Copy to clipboard" @210,17800,467,36
+        text "--#{$prefix}navbar-color: #{$navbar-dark-color}; --#{$prefix}navbar-hover-color: #{$navbar-dark-hover-color}; --#{$prefix}navbar-disabled-color: #{$navbar-dark-disabled-color}; --#{$prefix}navbar-active-color: #{$navbar-dark-active-color}; --#{$prefix}navbar-brand-color: #{$navbar-dark-brand-color}; --#{$prefix}navbar-brand-hover-color: #{$navbar-dark-brand-hover-color}; --#{$prefix}navbar-toggler-border-color: #{$navbar-dark-toggler-border-color}; --#{$prefix}navbar-toggler-icon-bg: #{escape-svg($navbar-dark-toggler-icon-bg)};" @193,17863,501,223
+      h3 Sass variables @176,18113,535,19
+      text Variables for all navbars: @176,18144,535,20
+      card @176,18176,535,648
+        card @193,18191,501,99
+          link scss/_variables.scss https://github.com/twbs/bootstrap/blob/v5.3.8/scss/_variables.scss @210,18206,467,21
+          button "Copy to clipboard" @210,18239,467,36
+        text $navbar-padding-y: $spacer * .5; $navbar-padding-x: null; $navbar-nav-link-padding-x: .5rem; $navbar-brand-font-size: $font-size-lg; // Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link $nav-link-height: $font-size-base * $line-height-base + $nav-link-padding-y * 2; $navbar-brand-height: $navbar-brand-font-size * $line-height-base; $navbar-brand-padding-y: ($nav-link-height - $navbar-brand-height) * .5; $navbar-brand-margin-end: 1rem; $navbar-toggler-padding-y: .25rem; $navbar-toggler-padding-x: .75rem; $navbar-toggler-font-size: $font-size-lg; $navbar-toggler-border-radius: $btn-border-radius; $navbar-toggler-focus-width: $btn-focus-width; $navbar-toggler-transition: box-shadow .15s ease-in-out; $navbar-light-color: rgba(var(--#{$prefix}emphasis-color-rgb), .65); $navbar-light-hover-color: rgba(var(--#{$prefix}emphasis-color-rgb), .8); $navbar-light-active-color: rgba(var(--#{$prefix}emphasis-color-rgb), 1); $navbar-light-disabled-color: rgba(var(--#{$prefix}emphasis-color-rgb), .3); $navbar-light-icon-color: rgba($body-color, .75); $navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-icon-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"); $navbar-light-toggler-border-color: rgba(var(--#{$prefix}emphasis-color-rgb), .15); $navbar-light-brand-color: $navbar-light-active-color; $navbar-light-brand-hover-color: $navbar-light-active-color; @193,18302,501,507
+      text Variables for the : @176,18836,535,21
+      link "dark navbar" #color-schemes3 @176,18869,535,20
+      card @176,18901,535,344
+        card @193,18916,501,99
+          link scss/_variables.scss https://github.com/twbs/bootstrap/blob/v5.3.8/scss/_variables.scss @210,18931,467,20
+          button "Copy to clipboard" @210,18963,467,37
+        text $navbar-dark-color: rgba($white, .55); $navbar-dark-hover-color: rgba($white, .75); $navbar-dark-active-color: $white; $navbar-dark-disabled-color: rgba($white, .25); $navbar-dark-icon-color: $navbar-dark-color; $navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-icon-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>"); $navbar-dark-toggler-border-color: rgba($white, .1); $navbar-dark-brand-color: $navbar-dark-active-color; $navbar-dark-brand-hover-color: $navbar-dark-active-color; @193,19027,501,203
+      h3 Sass loops @176,19257,535,18
+      text (e.g., ) are combined with the map and generated through a loop in . @176,19287,535,21
+      link "Responsive navbar expand/collapse classes" #responsive-behaviors3 @176,19320,535,20
+      text .navbar-expand-lg danger @176,19352,535,20
+      text $breakpoints danger @176,19384,535,20
+      text scss/_navbar.scss danger @176,19416,535,21
+      card @176,19449,535,546
+        card @193,19464,501,98
+          link scss/_navbar.scss https://github.com/twbs/bootstrap/blob/v5.3.8/scss/_navbar.scss @210,19479,467,20
+          button "Copy to clipboard" @210,19511,467,36
+        text // Generate series of `.navbar-expand-*` responsive classes for configuring // where your navbar collapses. .navbar-expand { @each $breakpoint in map-keys($grid-breakpoints) { $next: breakpoint-next($breakpoint, $grid-breakpoints); $infix: breakpoint-infix($next, $grid-breakpoints); // stylelint-disable-next-line scss/selector-no-union-class-name &#{$infix} { @include media-breakpoint-up($next) { flex-wrap: nowrap; justify-content: flex-start; .navbar-nav { flex-direction: row; .dropdown-menu { position: absolute; } .nav-link { padding-right: var(--#{$prefix}navbar-nav-link-padding-x); padding-left: var(--#{$prefix}navbar-nav-link-padding-x); } } .navbar-nav-scroll { overflow: visible; } .navbar-collapse { display: flex !important; // stylelint-disable-line declaration-no-important flex-basis: auto; } .navbar-toggler { display: none; } .offcanvas { // stylelint-disable declaration-no-important position: static; z-index: auto; flex-grow: 1; width: auto !important; height: auto !important; visibility: visible !important; background-color: transparent !important; border: 0 !important; transform: none !important; @include box-shadow(none); @include transition(none); // stylelint-enable declaration-no-important .offcanvas-header { display: none; } .offcanvas-body { display: flex; flex-grow: 0; padding: 0; overflow-y: visible; } } } } } } @193,19574,501,406
+row @17,20007,694,242
+  col @17,20011,344,234
+    link Bootstrap / @17,20011,344,20
+    text Designed and built with all the love in the world by the with the help of . @17,20043,344,41
+    link "Bootstrap team" /docs/5.3/about/team @17,20096,344,20
+    link "our contributors" https://github.com/twbs/bootstrap/graphs/contributors @17,20128,344,20
+    text Code licensed , docs . @17,20160,344,21
+    row @17,20193,344,20
+      link MIT https://github.com/twbs/bootstrap/blob/main/LICENSE @17,20193,26,20
+      link "CC BY 3.0" https://creativecommons.org/licenses/by/3.0/ @55,20193,69,20
+    text Currently v5.3.8. @17,20225,344,20
+  col @373,20012,56,232
+    h3 Links @373,20012,56,18
+    link Home / @373,20042,56,21
+    link Docs /docs/5.3/ @373,20075,56,20
+    link Examples /docs/5.3/examples @373,20107,56,20
+    link Icons https://icons.getbootstrap.com/ @373,20139,56,20
+    link Blog https://blog.getbootstrap.com/ @373,20171,56,21
+    link "Swag Store" https://cottonbureau.com/people/bootstrap @373,20204,56,40
+  col @441,20018,78,220
+    h3 Guides @441,20018,78,18
+    link "Getting started" /docs/5.3/getting-started @441,20048,78,41
+    link "Starter template" /docs/5.3/examples/starter-template @441,20101,78,40
+    link Webpack /docs/5.3/getting-started/webpack @441,20153,78,21
+    link Parcel /docs/5.3/getting-started/parcel @441,20186,78,20
+    link Vite /docs/5.3/getting-started/vite @441,20218,78,20
+  col @531,20007,72,242
+    h3 Projects @531,20007,72,19
+    link "Bootstrap 5" https://github.com/twbs/bootstrap @531,20038,72,41
+    link "Bootstrap 4" https://github.com/twbs/bootstrap/tree/v4-dev @531,20091,72,40
+    link Icons https://github.com/twbs/icons @531,20143,72,21
+    link RFS https://github.com/twbs/rfs @531,20176,72,20
+    link "Examples repo" https://github.com/twbs/examples @531,20208,72,41
+  col @615,20007,96,242
+    h3 Community @615,20007,96,19
+    link Issues https://github.com/twbs/bootstrap/issues @615,20038,96,20
+    link Discussions https://github.com/twbs/bootstrap/discussions @615,20070,96,21
+    link "Corporate sponsors" https://github.com/sponsors/twbs @615,20103,96,40
+    link "Open Collective" https://opencollective.com/bootstrap @615,20155,96,41
+    link "Stack Overflow" https://stackoverflow.com/questions/tagged/bootstrap-5 @615,20208,96,41
+field Field @17,20261,694,57
+!overflow bootstrapbootstrap 187/371px
+!overflow toggle 92/165px
+!overflow toggle4 145/150px
+!overflow close3 65/67px

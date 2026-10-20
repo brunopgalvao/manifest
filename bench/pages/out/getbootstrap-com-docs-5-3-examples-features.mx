@@ -24,19 +24,16 @@ row
 h2 Hanging icons
 row
   row
-    region 24x24
     col
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.
       link "Primary button" #
   row
-    region 24x24
     col
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.
       link "Primary button" #
   row
-    region 24x24
     col
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.
@@ -76,42 +73,34 @@ row
 h2 Icon grid
 row
   row
-    region 28x28
     col
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading.
   row
-    region 28x28
     col
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading.
   row
-    region 28x28
     col
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading.
   row
-    region 28x28
     col
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading.
   row
-    region 28x28
     col
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading.
   row
-    region 28x28
     col
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading.
   row
-    region 28x28
     col
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading.
   row
-    region 28x28
     col
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading.
@@ -124,21 +113,17 @@ row
   row
     col
       card
-        region 24x24
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading.
     col
       card
-        region 24x24
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading.
     col
       card
-        region 24x24
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading.
     col
       card
-        region 24x24
       h3 Featured title
       text Paragraph of text beneath the heading to explain the heading.

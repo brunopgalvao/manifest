@@ -1,0 +1,123 @@
+@ui_shadcn_com_charts_area rev=0 @0,0,728,441
+row @17,17,694,36
+  row @17,25,346,20
+    link Home / @17,25,26,20
+    link Docs /docs/installation @55,25,21,20
+    link Components /docs/components @88,25,55,20
+    link Blocks /blocks @155,25,28,20
+    link Charts /charts/area @195,25,29,20
+    link Directory /docs/directory @236,25,39,20
+    link Typeset /typeset @287,25,35,20
+    link Create /create @334,25,29,20
+  row @375,17,336,36
+    button "Search documentation...Search..." @375,17,172,36
+    link 126k https://github.com/shadcn-ui/ui @559,25,20,20
+    button "Toggle theme" @591,17,89,36
+    row @692,25,19,20
+      link New /create @692,25,19,20
+link "Trace, Code Block and AI Elements" /docs/changelog @17,65,694,21
+h1 Beautiful Charts & Graphs @17,98,694,25
+text A collection of ready-to-use chart components built with Recharts. From basic charts to rich data displays, copy and paste into your apps. @17,135,694,40
+row @17,187,694,21
+  link "Browse Charts" #charts2 @17,187,98,21
+  link Documentation /docs/components/chart @127,187,101,21
+row @17,220,694,20
+  link "Area Charts" /charts/area#charts @17,220,79,20
+  link "Bar Charts" /charts/bar#charts @108,220,70,20
+  link "Line Charts" /charts/line#charts @190,220,76,20
+  link "Pie Charts" /charts/pie#charts @278,220,69,20
+  link "Radar Charts" /charts/radar#charts @359,220,87,20
+  link "Radial Charts" /charts/radial#charts @458,220,88,20
+  link Tooltips /charts/tooltip#charts @558,220,54,20
+row @17,252,694,42
+  h2 Area Charts @17,252,24,42
+  row @53,253,658,40
+    col @53,253,55,40
+      row @53,253,55,40
+        text Area Chart @53,253,12,40
+        row @77,255,31,36
+          button Copy @77,255,30,36
+          button "View Code" @119,255,30,36
+    col @120,253,55,40
+      row @120,253,55,40
+        text Area Chart @120,253,12,40
+        row @144,255,31,36
+          button Copy @144,255,30,36
+          button "View Code" @186,255,30,36
+    col @187,253,55,40
+      row @187,253,55,40
+        text Area Chart @187,253,12,40
+        row @211,255,31,36
+          button Copy @211,255,30,36
+          button "View Code" @253,255,30,36
+    col @254,253,55,40
+      row @254,253,55,40
+        text Area Chart @254,253,12,40
+        row @278,255,31,36
+          button Copy @278,255,30,36
+          button "View Code" @320,255,30,36
+    col @321,253,55,40
+      row @321,253,55,40
+        text Area Chart @321,253,12,40
+        row @345,255,31,36
+          button Copy @345,255,30,36
+          button "View Code" @387,255,30,36
+    col @388,253,55,40
+      row @388,253,55,40
+        text Area Chart @388,253,12,40
+        row @412,255,31,36
+          button Copy @412,255,30,36
+          button "View Code" @454,255,30,36
+    col @455,253,55,40
+      row @455,253,55,40
+        text Area Chart @455,253,12,40
+        row @479,255,31,36
+          button Copy @479,255,30,36
+          button "View Code" @521,255,30,36
+    col @522,253,55,40
+      row @522,253,55,40
+        text Area Chart @522,253,12,40
+        row @546,255,31,36
+          button Copy @546,255,30,36
+          button "View Code" @588,255,30,36
+    col @589,253,55,40
+      row @589,253,55,40
+        text Area Chart @589,253,12,40
+        row @613,255,31,36
+          button Copy @613,255,30,36
+          button "View Code" @655,255,30,36
+    col @656,253,55,40
+      row @656,253,55,40
+        text Area Chart @656,253,12,40
+        row @680,255,31,36
+          button Copy @680,255,30,36
+          button "View Code" @722,255,30,36
+text Built by at . The source code is available on . @17,306,694,21
+row @17,339,694,20
+  link shadcn https://twitter.com/shadcn @17,339,49,20
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout @78,339,43,20
+  link GitHub https://github.com/shadcn-ui/ui @133,339,46,20
+text Notifications alt+T @17,371,694,20
+text Notifications @17,403,694,21
+!overflow search 170/256px
+!overflow toggle 87/122px
+!overflow copy 28/64px
+!overflow view 28/102px
+!overflow copy2 28/64px
+!overflow view2 28/102px
+!overflow copy3 28/64px
+!overflow view3 28/102px
+!overflow copy4 28/64px
+!overflow view4 28/102px
+!overflow copy5 28/64px
+!overflow view5 28/102px
+!overflow copy6 28/64px
+!overflow view6 28/102px
+!overflow copy7 28/64px
+!overflow view7 28/102px
+!overflow copy8 28/64px
+!overflow view8 28/102px
+!overflow copy9 28/64px
+!overflow view9 28/102px
+!overflow copy10 28/64px
+!overflow view10 28/102px

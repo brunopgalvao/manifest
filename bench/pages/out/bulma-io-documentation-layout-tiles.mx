@@ -3,9 +3,11 @@ h1 404
 text File not found
 text The site configured at this address does not contain the requested file.
 text "If this is your site, make sure that the filename case matches the URL as well as any file permissions. For root URLs (like http://example.com/) you must provide an index.html file."
+text for more information about using .
 row
   link "Read the full documentation" https://help.github.com/pages/
   text GitHub Pages
+text —
 row
   link "GitHub Status" https://githubstatus.com
   link "@githubstatus" https://twitter.com/githubstatus

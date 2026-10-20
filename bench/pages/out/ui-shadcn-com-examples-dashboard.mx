@@ -33,8 +33,6 @@ row
     text Theme
     row
       text Neutral
-      region 16x16
-        path "m6 9 6 6 6-6" fill:none stroke:#737373 width:2
     button "Copy Code"
 card
   row
@@ -64,65 +62,66 @@ card
         button "Quick Create" primary
       row
         col
-          row
-            text Total Revenue
-            text $1,250.00
-            region 12x12
-              path "M3 17l6 -6l4 4l8 -8" fill:none stroke:#000000 width:2
-              path "M14 7l7 0l0 7" fill:none stroke:#000000 width:2
-          region 16x16
-            path "M3 17l6 -6l4 4l8 -8" fill:none stroke:#000000 width:2
-            path "M14 7l7 0l0 7" fill:none stroke:#000000 width:2
+          metric "Total Revenue" $1,250.00 "+12.5%"
+          text Trending up this month
           text Visitors for the last 6 months
         col
-          row
-            text New Customers
-            text 1,234
-            region 12x12
-              path "M3 7l6 6l4 -4l8 8" fill:none stroke:#000000 width:2
-              path "M21 10l0 7l-7 0" fill:none stroke:#000000 width:2
-          region 16x16
-            path "M3 7l6 6l4 -4l8 8" fill:none stroke:#000000 width:2
-            path "M21 10l0 7l-7 0" fill:none stroke:#000000 width:2
+          metric "New Customers" 1,234 "-20%"
+          text Down 20% this period
           text Acquisition needs attention
         col
-          row
-            text Active Accounts
-            text 45,678
-            region 12x12
-              path "M3 17l6 -6l4 4l8 -8" fill:none stroke:#000000 width:2
-              path "M14 7l7 0l0 7" fill:none stroke:#000000 width:2
-          region 16x16
-            path "M3 17l6 -6l4 4l8 -8" fill:none stroke:#000000 width:2
-            path "M14 7l7 0l0 7" fill:none stroke:#000000 width:2
+          metric "Active Accounts" 45,678 "+12.5%"
+          text Strong user retention
           text Engagement exceed targets
         col
-          row
-            text Growth Rate
-            text 4.5%
-            region 12x12
-              path "M3 17l6 -6l4 4l8 -8" fill:none stroke:#000000 width:2
-              path "M14 7l7 0l0 7" fill:none stroke:#000000 width:2
-          region 16x16
-            path "M3 17l6 -6l4 4l8 -8" fill:none stroke:#000000 width:2
-            path "M14 7l7 0l0 7" fill:none stroke:#000000 width:2
+          metric "Growth Rate" 4.5% "+4.5%"
+          text Steady performance increase
           text Meets growth projections
       card
         row
           text Total Visitors
           text Total for the last 3 monthsLast 3 months
           row
+            text Last 3 months
+            text Last 30 days
+            text Last 7 days
         text Jun 30Mobile400Desktop446Jun 24Jun 25Jun 26Jun 27Jun 28Jun 29Jun 30
       row
         text View
         tabs
           tab *Outline
+            card
+              table Col:badge Col Header:badge "Section Type" Status:badge Target Limit Reviewer Col:badge
+                Drag to reorder |  | Cover page | Cover page | In Process | Target | Limit | Eddie Lake | Open menu
+                Drag to reorder |  | Table of contents | Table of contents | Done | Target | Limit | Eddie Lake | Open menu
+                Drag to reorder |  | Executive summary | Narrative | Done | Target | Limit | Eddie Lake | Open menu
+                Drag to reorder |  | Technical approach | Narrative | Done | Target | Limit | Jamik Tashpulatov | Open menu
+                Drag to reorder |  | Design | Narrative | In Process | Target | Limit | Jamik Tashpulatov | Open menu
+                Drag to reorder |  | Capabilities | Narrative | In Process | Target | Limit | Jamik Tashpulatov | Open menu
+                Drag to reorder |  | Integration with existing systems | Narrative | In Process | Target | Limit | Jamik Tashpulatov | Open menu
+                Drag to reorder |  | Innovation and Advantages | Narrative | Done | Target | Limit | ReviewerAssign reviewer | Open menu
+                Drag to reorder |  | Overview of EMR's Innovative Solutions | Technical content | Done | Target | Limit | ReviewerAssign reviewer | Open menu
+                Drag to reorder |  | Advanced Algorithms and Machine Learning | Narrative | Done | Target | Limit | ReviewerAssign reviewer | Open menu
+            row
+              text 0 of 68 row(s) selected.
+              row
+                row
+                  text Rows per page
+                  row
+                    text 10
+                text Page 1 of 7
+                row
+                  button "Go to first page" disabled
+                  button "Go to previous page" disabled
+                  button "Go to next page"
+                  button "Go to last page"
           tab "Past Performance 3"
           tab "Key Personnel 2"
           tab "Focus Documents"
         row
           button "Customize ColumnsColumns"
           button "Add Section"
+text Built by  at . The source code is available on .
 row
   link shadcn https://twitter.com/shadcn
   link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout

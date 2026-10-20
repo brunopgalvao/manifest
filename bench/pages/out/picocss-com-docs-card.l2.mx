@@ -1,0 +1,104 @@
+@picocss_com_docs_card rev=0 @0,0,728,702
+row @17,17,694,668
+  button "Skip to content" primary @17,333,43,36
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @72,280,39,142
+  row @123,310,83,82
+    link "Pico CSS homepage" / @123,321,16,61
+    row @151,310,55,82
+      row @151,341,14,20
+        text v2.1.1 @151,341,0,20
+        link Examples /examples @163,341,0,20
+        link Docs /docs @175,341,0,20
+      row @177,310,29,82
+        link "GitHub repository" https://github.com/picocss/pico @177,331,2,40
+        link Twitter https://x.com/picocss @191,341,1,20
+        link "Turn on dark mode" /docs/card @204,310,2,82
+  row @218,17,191,668
+    col @218,78,17,546
+      text Getting started @218,78,17,41
+      text Customization @218,131,17,20
+      text Layout @218,163,17,21
+      text Content @218,196,17,20
+      text Forms @218,228,17,20
+      text Components @218,260,17,20
+      link Accordion /docs/accordion @218,292,17,21
+      link Card /docs/card @218,325,17,20
+      link Dropdown /docs/dropdown @218,357,17,20
+      link "Group New" /docs/group @218,389,17,41
+      link Loading /docs/loading @218,442,17,20
+      link Modal /docs/modal @218,474,17,21
+      link Nav /docs/nav @218,507,17,20
+      link Progress /docs/progress @218,539,17,20
+      link Tooltip /docs/tooltip @218,571,17,20
+      text About @218,603,17,21
+    metric Components Card "Create flexible cards with a semantic markup that provides graceful spacings across various devices and viewports." @247,17,30,668
+    col @289,309,12,85
+      text Content @289,309,12,20
+      link Syntax /docs/card @289,341,12,20
+      link Sectioning /docs/card#sectioning @289,373,12,21
+    col @313,17,96,668
+      text Card example @313,17,96,20
+      card @313,49,96,144
+        link "Copy code" /docs/card @330,64,62,41
+        text <article>I’m a card!</article> @330,117,62,61
+      text You can use <header> and <footer> inside <article>. @313,205,96,101
+      h2 Sectioning# @313,318,96,22
+      text Body @313,352,96,20
+      text Header @313,384,96,20
+      text Footer @313,416,96,20
+      card @313,448,96,185
+        link "Copy code" /docs/card @330,463,62,41
+        text <article> <header>Header</header> Body <footer>Footer</footer> </article> @330,516,62,102
+      link "Edit this page on GitHub" https://github.com/picocss/picocss.com/blob/main/app/routes/docs.card.jsx @313,645,96,40
+  col @421,223,290,256
+    row @421,223,290,183
+      region 49.34000015258789x45 @421,312,6,5 [3 shapes, 0 labelled]
+      row @439,294,169,41
+        row @439,294,42,41
+          text About @439,304,0,21
+          link Maintenance /docs/maintenance @451,304,0,21
+          link "What’s new?" /docs/v2 @463,294,0,41
+          link Brand /docs/brand @475,304,0,21
+          link Mission /docs/mission @487,304,0,21
+          link "Usage scenarios" /docs/usage-scenarios @499,294,0,41
+        row @493,294,43,41
+          text Docs @493,304,0,21
+          link "Quick start" /docs @505,294,0,41
+          link "Version picker" /docs/version-picker @517,294,0,41
+          link "Class-less version" /docs/classless @529,294,0,41
+          link "Form elements" /docs/forms @541,294,0,41
+        row @548,304,23,21
+          text Community @548,304,0,21
+          link Issues https://github.com/picocss/pico/issues @560,304,0,21
+          link Discussions https://github.com/picocss/pico/discussions @572,304,0,21
+          link Help https://github.com/picocss/pico/discussions/categories/help @584,304,0,21
+        row @583,304,25,21
+          text Examples @583,304,0,21
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @595,304,0,21
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @607,304,0,21
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @619,304,0,21
+          link All /examples @631,304,0,21
+      text Designed and built by with the help of our . @620,223,32,183
+      col @664,278,12,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @664,278,12,41
+        link contributors https://github.com/picocss/pico/graphs/contributors @664,331,12,20
+      row @688,304,23,21
+        link GitHub https://github.com/picocss/pico @688,304,0,21
+        link Twitter https://x.com/picocss @700,304,0,21
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @712,304,0,21
+        link NPM https://www.npmjs.com/package/@picocss/pico @724,304,0,21
+    row @421,418,290,61
+      text Code licensed , docs . @421,428,102,41
+      row @535,418,91,61
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @535,438,17,21
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @564,418,62,61
+      text Currently v2.1.1. @638,428,73,41
+!overflow skip 41/130px
+!overflow components2 0/73px
+!overflow components2 0/52px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

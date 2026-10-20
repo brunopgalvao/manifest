@@ -1,0 +1,1170 @@
+@html_spec_whatwg_org_multipage_introduct rev=0 @0,0,728,41203
+link https://whatwg.org/ https://whatwg.org/ @17,17,694,20
+h1 HTML @17,49,694,25
+text Living Standard — Last Updated 19 October 2026 success @17,86,694,21
+text — @17,119,694,20
+row @17,151,694,20
+  link "Table of Contents" ./ @17,151,119,20
+  link "2 Common infrastructure →" infrastructure.html @148,151,184,20
+link "1 Introduction" introduction.html#introduction @17,183,694,21
+link "1.1 Where does this specification fit?" introduction.html#abstract @17,216,694,20
+link "1.2 Is this HTML5?" introduction.html#is-this-html5? @17,248,694,20
+link "1.3 Background" introduction.html#background @17,280,694,20
+link "1.4 Audience" introduction.html#audience @17,312,694,21
+link "1.5 Scope" introduction.html#scope @17,345,694,20
+link "1.6 History" introduction.html#history-2 @17,377,694,20
+link "1.7 Design notes" introduction.html#design-notes @17,409,694,21
+link "1.7.1 Serializability of script execution" introduction.html#serialisability-of-script-execution @17,442,694,20
+link "1.7.2 Extensibility" introduction.html#extensibility @17,474,694,20
+link "1.8 HTML vs XML syntax" introduction.html#html-vs-xhtml @17,506,694,20
+link "1.9 Structure of this specification" introduction.html#structure-of-this-specification @17,538,694,21
+link "1.9.1 How to read this specification" introduction.html#how-to-read-this-specification @17,571,694,20
+link "1.9.2 Typographic conventions" introduction.html#typographic-conventions @17,603,694,20
+link "1.10 A quick introduction to HTML" introduction.html#a-quick-introduction-to-html @17,635,694,21
+link "1.10.1 Writing secure applications with HTML" introduction.html#writing-secure-applications-with-html @17,668,694,20
+link "1.10.2 Common pitfalls to avoid when using the scripting APIs" introduction.html#common-pitfalls-to-avoid-when-using-the-scripting-apis @17,700,694,20
+link "1.10.3 How to catch mistakes when writing HTML: validators and conformance checkers" introduction.html#how-to-catch-mistakes-when-writing-html:-validators-and-conformance-checkers @17,732,694,21
+link "1.11 Conformance requirements for authors" introduction.html#conformance-requirements-for-authors @17,765,694,20
+link "1.11.1 Presentational markup" introduction.html#presentational-markup @17,797,694,20
+link "1.11.2 Syntax errors" introduction.html#syntax-errors @17,829,694,20
+link "1.11.3 Restrictions on content models and on attribute values" introduction.html#restrictions-on-content-models-and-on-attribute-values @17,861,694,21
+link "1.12 Suggested reading" introduction.html#suggested-reading @17,894,694,20
+h2 1 Introduction @17,926,694,21
+h3 1.1 Where does this specification fit? @17,959,694,19
+text This specification defines a big part of the web platform, in lots of detail. Its place in the web platform specification stack relative to other specifications can be best summed up as follows: @17,990,694,41
+region "It consists of everything else, above such core technologies as HTTP, TLS, DOM, Unicode, Web IDL, MIME, URL, XML, JavaScript, and Encoding; below higher-level technologies like CSS, SVG, MathML, and Service Workers; and to the side of technologies like IndexedDB, Fetch, CSP, AV1, Opus, and PNG." 398x359 @17,1099,398,359 [10 shapes, 7 labelled]
+  text @199,45 anchor:middle fill:#ffffff size:18 "CSS SVG MathML Service Workers" @66,1127,299,22
+  text @25,173.5 anchor:middle fill:#ffffff size:18 "IDB Fetch CSP" @-20,1255,124,22
+  text @50,173.5 anchor:middle fill:#ffffff size:18 "AV1 Opus PNG" @4,1255,126,22
+  image /images/abstract.jpeg @72,85 326x177 "image" @89,1184,326,177
+  text @130,250 fill:#ffffff size:25 "THIS SPECIFICATION" @147,1325,254,30
+  text @199,300 anchor:middle fill:#ffffff size:18 "HTTP TLS DOM Unicode Web IDL" @72,1382,288,22
+  text @199,330 anchor:middle fill:#ffffff size:18 "MIME URL XML JavaScript Encoding" @60,1412,312,22
+h3 1.2 Is this HTML5? @17,1470,694,19
+text This section is non-normative. @17,1501,694,20
+text In short: Yes. @17,1533,694,20
+text In more length: the term "HTML5" is widely used as a buzzword to refer to modern web technologies, many of which (though by no means all) are developed at the WHATWG. This document is one such; others are available from . @17,1565,694,61
+link "the WHATWG Standards overview" https://spec.whatwg.org/ @17,1638,694,20
+h3 1.3 Background @17,1670,694,19
+text This section is non-normative. @17,1701,694,21
+text HTML is the World Wide Web's core markup language. Originally, HTML was primarily designed as a language for semantically describing scientific documents. Its general design, however, has enabled it to be adapted, over the subsequent years, to describe a number of other types of documents and even applications. @17,1734,694,81
+h3 1.4 Audience @17,1827,694,18
+text This section is non-normative. @17,1857,694,21
+text This specification is intended for authors of documents and scripts that use the features defined in this specification, implementers of tools that operate on pages that use the features defined in this specification, and individuals wishing to establish the correctness of documents or implementations with respect to the requirements of this specification. @17,1890,694,81
+text This document is probably not suited to readers who do not already have at least a passing familiarity with web technologies, as in places it sacrifices clarity for precision, and brevity for completeness. More approachable tutorials and authoring guides can provide a gentler introduction to the topic. @17,1983,694,61
+text In particular, familiarity with the basics of DOM is necessary for a complete understanding of some of the more technical parts of this specification. An understanding of Web IDL, HTTP, XML, Unicode, character encodings, JavaScript, and CSS will also be helpful in places but is not essential. @17,2056,694,61
+h3 1.5 Scope @17,2129,694,19
+text This section is non-normative. @17,2160,694,20
+text This specification is limited to providing a semantic-level markup language and associated semantic-level scripting APIs for authoring accessible pages on the web ranging from static documents to dynamic applications. @17,2192,694,61
+text The scope of this specification does not include providing mechanisms for media-specific customization of presentation (although default rendering rules for web browsers are included at the end of this specification, and several mechanisms for hooking into CSS are provided as part of the language). @17,2265,694,61
+text The scope of this specification is not to describe an entire operating system. In particular, hardware configuration software, image manipulation tools, and applications that users would be expected to use with high-end workstations on a daily basis are out of scope. In terms of applications, this specification is targeted specifically at applications that would be expected to be used by users on an occasional basis, or regularly but from disparate locations, with low CPU requirements. Examples of such applications include online purchasing systems, searching systems, games (especially multiplayer online games), public telephone books or address books, communications software (email clients, instant messaging clients, discussion software), document editing software, etc. @17,2338,694,162
+h3 1.6 History @17,2512,694,19
+text This section is non-normative. @17,2543,694,20
+text For its first five years (1990-1995), HTML went through a number of revisions and experienced a number of extensions, primarily hosted first at CERN, and then at the IETF. @17,2575,694,41
+text With the creation of the W3C, HTML's development changed venue again. A first abortive attempt at extending HTML in 1995 known as HTML 3.0 then made way to a more pragmatic approach known as HTML 3.2, which was completed in 1997. HTML4 quickly followed later that same year. @17,2628,694,61
+text The following year, the W3C membership decided to stop evolving HTML and instead begin work on an XML-based equivalent, called XHTML. This effort started with a reformulation of HTML4 in XML, known as XHTML 1.0, which added no new features except the new serialization, and which was completed in 2000. After XHTML 1.0, the W3C's focus turned to making it easier for other working groups to extend XHTML, under the banner of XHTML Modularization. In parallel with this, the W3C also worked on a new language that was not compatible with the earlier HTML and XHTML languages, calling it XHTML2. @17,2701,694,121
+text Around the time that HTML's evolution was stopped in 1998, parts of the API for HTML developed by browser vendors were specified and published under the name DOM Level 1 (in 1998) and DOM Level 2 Core and DOM Level 2 HTML (starting in 2000 and culminating in 2003). These efforts then petered out, with some DOM Level 3 specifications published in 2004 but the working group being closed before all the Level 3 drafts were completed. @17,2834,694,102
+text In 2003, the publication of XForms, a technology which was positioned as the next generation of web forms, sparked a renewed interest in evolving HTML itself, rather than finding replacements for it. This interest was borne from the realization that XML's deployment as a web technology was limited to entirely new technologies (like RSS and later Atom), rather than as a replacement for existing deployed technologies (like HTML). @17,2948,694,101
+text A proof of concept to show that it was possible to extend HTML4's forms to provide many of the features that XForms 1.0 introduced, without requiring browsers to implement rendering engines that were incompatible with existing HTML web pages, was the first result of this renewed interest. At this early stage, while the draft was already publicly available, and input was already being solicited from all sources, the specification was only under Opera Software's copyright. @17,3061,694,102
+text The idea that HTML's evolution should be reopened was tested at a W3C workshop in 2004, where some of the principles that underlie the HTML5 work (described below), as well as the aforementioned early draft proposal covering just forms-related features, were presented to the W3C jointly by Mozilla and Opera. The proposal was rejected on the grounds that the proposal conflicted with the previously chosen direction for the web's evolution; the W3C staff and membership voted to continue developing XML-based replacements instead. @17,3175,694,122
+text Shortly thereafter, Apple, Mozilla, and Opera jointly announced their intent to continue working on the effort under the umbrella of a new venue called the WHATWG. A public mailing list was created, and the draft was moved to the WHATWG site. The copyright was subsequently amended to be jointly owned by all three vendors, and to allow reuse of the specification. @17,3309,694,81
+text The WHATWG was based on several core principles, in particular that technologies need to be backwards compatible, that specifications and implementations need to match even if this means changing the specification rather than the implementations, and that specifications need to be detailed enough that implementations can achieve complete interoperability without reverse-engineering each other. @17,3402,694,101
+text The latter requirement in particular required that the scope of the HTML5 specification include what had previously been specified in three separate documents: HTML4, XHTML1, and DOM2 HTML. It also meant including significantly more detail than had previously been considered the norm. @17,3515,694,61
+text In 2006, the W3C indicated an interest to participate in the development of HTML5 after all, and in 2007 formed a working group chartered to work with the WHATWG on the development of the HTML5 specification. Apple, Mozilla, and Opera allowed the W3C to publish the specification under the W3C copyright, while keeping a version with the less restrictive license on the WHATWG site. @17,3588,694,81
+text For a number of years, both groups then worked together. In 2011, however, the groups came to the conclusion that they had different goals: the W3C wanted to publish a "finished" version of "HTML5", while the WHATWG wanted to continue working on a Living Standard for HTML, continuously maintaining the specification rather than freezing it in a state with known problems, and adding new features as needed to evolve the platform. @17,3681,694,102
+text In 2019, the WHATWG and W3C to collaborate on a single version of HTML going forward: this document. @17,3795,694,41
+link "signed an agreement" https://www.w3.org/blog/news/archives/7753 @17,3848,694,20
+h3 1.7 Design notes @17,3880,694,19
+text This section is non-normative. @17,3911,694,20
+text It must be admitted that many aspects of HTML appear at first glance to be nonsensical and inconsistent. @17,3943,694,41
+text HTML, its supporting DOM APIs, as well as many of its supporting technologies, have been developed over a period of several decades by a wide array of people with different priorities who, in many cases, did not know of each other's existence. @17,3996,694,60
+text Features have thus arisen from many sources, and have not always been designed in especially consistent ways. Furthermore, because of the unique characteristics of the web, implementation bugs have often become de-facto, and now de-jure, standards, as content is often unintentionally written in ways that rely on them before they can be fixed. @17,4068,694,82
+text Despite all this, efforts have been made to adhere to certain design goals. These are described in the next few subsections. @17,4162,694,40
+h3 1.7.1 Serializability of script execution @17,4214,694,19
+text This section is non-normative. @17,4245,694,20
+text To avoid exposing web authors to the complexities of multithreading, the HTML and DOM APIs are designed such that no script can ever detect the simultaneous execution of other scripts. Even with , the intent is that the behavior of implementations can be thought of as completely serializing the execution of all scripts in all globals. @17,4277,694,81
+link workers workers.html#worker @17,4370,694,21
+text The exception to this general design principle is the JavaScript class. Using objects, it can in fact be observed that scripts in other are executing simultaneously. Furthermore, due to the JavaScript memory model, there are situations which not only are un-representable via serialized execution, but also un-representable via serialized execution among those scripts. @17,4403,694,81
+link SharedArrayBuffer https://tc39.es/ecma262/#sec-sharedarraybuffer-objects @17,4496,694,20
+link SharedArrayBuffer https://tc39.es/ecma262/#sec-sharedarraybuffer-objects @17,4528,694,21
+link agents https://tc39.es/ecma262/#sec-agents @17,4561,694,20
+text script @17,4593,694,20
+text statement @17,4625,694,20
+h3 1.7.2 Extensibility @17,4657,694,19
+text This section is non-normative. @17,4688,694,20
+text HTML has a wide array of extensibility mechanisms that can be used for adding semantics in a safe manner: @17,4720,694,41
+text Authors can use the  attribute to extend elements, effectively creating their own elements, while using the most applicable existing "real" HTML element, so that browsers and other tools that don't know of the extension can still support it somewhat well. This is the tack used by microformats, for example. @17,4773,694,61
+link class dom.html#classes @17,4846,694,20
+text Authors can include data for inline client-side scripts or server-side site-wide scripts to process using the attributes. These are guaranteed to never be touched by browsers, and allow scripts to include data on HTML elements that scripts can then look for and process. @17,4878,694,61
+link "data-*=\"\"" dom.html#attr-data-* @17,4951,694,20
+text Authors can use the mechanism to include page-wide metadata. @17,4983,694,21
+link "<meta name=\"\" content=\"\">" semantics.html#the-meta-element @17,5016,694,20
+text Authors can use the mechanism to annotate links with specific meanings by registering . This is also used by microformats. @17,5048,694,41
+row @17,5101,694,20
+  link "rel=\"\"" links.html#attr-hyperlink-rel @17,5101,40,20
+  link "extensions to the predefined set of link types" links.html#concept-rel-extensions @69,5101,299,20
+text Authors can embed raw data using the mechanism with a custom type, for further handling by inline or server-side scripts. @17,5133,694,41
+link "<script type=\"\">" scripting.html#the-script-element @17,5186,694,20
+text Authors can extend APIs using the JavaScript prototyping mechanism. This is widely used by script libraries, for instance. @17,5218,694,40
+text Authors can use the microdata feature (the and attributes) to embed nested name-value pairs of data to be shared with other applications and sites. @17,5270,694,41
+row @17,5323,694,20
+  link "itemscope=\"\"" microdata.html#attr-itemscope @17,5323,92,20
+  link "itemprop=\"\"" microdata.html#names:-the-itemprop-attribute @121,5323,82,20
+text Authors can define, share, and use to extend the vocabulary of HTML. The requirements of ensure forward compatibility (since no elements will be added to HTML, SVG, or MathML with hyphen-containing local names in the future). @17,5355,694,61
+row @17,5428,694,21
+  link "custom elements" custom-elements.html#custom-element @17,5428,114,21
+  link "valid custom element names" custom-elements.html#valid-custom-element-name @143,5428,189,21
+h3 1.8 HTML vs XML syntax @17,5461,694,18
+text This section is non-normative. @17,5491,694,21
+text This specification defines an abstract language for describing documents and applications, and some APIs for interacting with in-memory representations of resources that use this language. @17,5524,694,40
+text The in-memory representation is known as "DOM HTML", or "the DOM" for short. @17,5576,694,21
+text There are various concrete syntaxes that can be used to transmit resources that use this abstract language, two of which are defined in this specification. @17,5609,694,40
+text The first such concrete syntax is the HTML syntax. This is the format suggested for most authors. It is compatible with most legacy web browsers. If a document is transmitted with the  , then it will be processed as an HTML document by web browsers. This specification defines the latest HTML syntax, known simply as "HTML". @17,5661,694,81
+row @17,5754,694,21
+  link text/html iana.html#text/html @17,5754,59,21
+  link "MIME type" https://mimesniff.spec.whatwg.org/#mime-type @88,5754,71,21
+text The second concrete syntax is XML. When a document is transmitted with an , such as , then it is treated as an XML document by web browsers, to be parsed by an XML processor. Authors are reminded that the processing for XML and HTML differs; in particular, even minor syntax errors will prevent a document labeled as XML from being rendered fully, whereas they would be ignored in the HTML syntax. @17,5787,694,101
+row @17,5900,694,20
+  link "XML MIME type" https://mimesniff.spec.whatwg.org/#xml-mime-type @17,5900,105,20
+  link application/xhtml+xml iana.html#application/xhtml+xml @134,5900,147,20
+text The XML syntax for HTML was formerly referred to as "XHTML", but this specification does not use that term (among other reasons, because no such term is used for the HTML syntaxes of MathML and SVG). success @17,5932,694,41
+text The DOM, the HTML syntax, and the XML syntax cannot all represent the same content. For example, namespaces cannot be represented using the HTML syntax, but they are supported in the DOM and in the XML syntax. Similarly, documents that use the  feature can be represented using the HTML syntax, but cannot be represented with the DOM or in the XML syntax. Comments that contain the string "" can only be represented in the DOM, not in the HTML and XML syntaxes. @17,5985,694,102
+link noscript scripting.html#the-noscript-element @17,6099,694,20
+text --> @17,6131,694,20
+h3 1.9 Structure of this specification @17,6163,694,19
+text This section is non-normative. @17,6194,694,20
+text This specification is divided into the following major sections: @17,6226,694,20
+link Introduction #introduction @17,6258,694,21
+text Non-normative materials providing a context for the HTML standard. @17,6291,694,20
+link "Common infrastructure" infrastructure.html#infrastructure @17,6323,694,20
+text The conformance classes, algorithms, definitions, and the common underpinnings of the rest of the specification. @17,6355,694,41
+link "Semantics, structure, and APIs of HTML documents" dom.html#dom @17,6408,694,20
+text Documents are built from elements. These elements form a tree using the DOM. This section defines the features of this DOM, as well as introducing the features common to all elements, and the concepts used in defining elements. @17,6440,694,61
+link "The elements of HTML" semantics.html#semantics @17,6513,694,20
+text Each element has a predefined meaning, which is explained in this section. Rules for authors on how to use the element, along with user agent requirements for how to handle each element, are also given. This includes large signature features of HTML such as video playback and subtitles, form controls and form submission, and a 2D graphics API known as the HTML canvas. @17,6545,694,82
+link Microdata microdata.html#microdata @17,6639,694,20
+text This specification introduces a mechanism for adding machine-readable annotations to documents, so that tools can extract trees of name-value pairs from the document. This section describes this mechanism and some algorithms that can be used to convert HTML documents into other formats. This section also defines some sample Microdata vocabularies for contact information, calendar events, and licensing works. @17,6671,694,101
+link "User interaction" interaction.html#editing @17,6784,694,21
+text HTML documents can provide a number of mechanisms for users to interact with and modify content, which are described in this section, such as how focus works, and drag-and-drop. @17,6817,694,40
+link "Loading web pages" browsers.html#browsers @17,6869,694,21
+text HTML documents do not exist in a vacuum — this section defines many of the features that affect environments that deal with multiple pages, such as web browsers. @17,6902,694,40
+link "Web application APIs" webappapis.html#webappapis @17,6954,694,21
+text This section introduces basic features for scripting of applications in HTML. @17,6987,694,20
+link "Web workers" workers.html#workers @17,7019,694,20
+text This section defines an API for background threads in JavaScript. @17,7051,694,20
+link Worklets worklets.html#worklets @17,7083,694,21
+text This section defines infrastructure for APIs that need to run JavaScript separately from the main JavaScript execution environment. @17,7116,694,40
+link "The communication APIs" comms.html#comms @17,7168,694,21
+text This section describes some mechanisms that applications written in HTML can use to communicate with other applications from different domains running on the same client. It also introduces a server-push event stream mechanism known as Server Sent Events or , and a two-way full-duplex socket protocol for scripts known as Web Sockets. @17,7201,694,81
+link EventSource server-sent-events.html#eventsource @17,7294,694,20
+link "Web storage" webstorage.html#webstorage @17,7326,694,20
+text This section defines a client-side storage mechanism based on name-value pairs. @17,7358,694,21
+link "The HTML syntax" syntax.html#syntax @17,7391,694,20
+link "The XML syntax" xhtml.html#xhtml @17,7423,694,20
+text All of these features would be for naught if they couldn't be represented in a serialized form and sent to other people, and so these sections define the syntaxes of HTML and XML, along with rules for how to parse content using those syntaxes. @17,7455,694,61
+link Rendering rendering.html#rendering @17,7528,694,21
+text This section defines the default rendering rules for web browsers. @17,7561,694,20
+text There are also some appendices, listing and , and several indices. @17,7593,694,20
+row @17,7625,694,20
+  link "obsolete features" obsolete.html#obsolete @17,7625,116,20
+  link "IANA considerations" iana.html#iana @145,7625,135,20
+h3 1.9.1 How to read this specification @17,7657,694,19
+text This specification should be read like all other specifications. First, it should be read cover-to-cover, multiple times. Then, it should be read backwards at least once. Then it should be read by picking random sections from the contents list and following all the cross-references. @17,7688,694,61
+text As described in the conformance requirements section below, this specification describes conformance criteria for a variety of conformance classes. In particular, there are conformance requirements that apply to producers, for example authors and the documents they create, and there are conformance requirements that apply to consumers, for example web browsers. They can be distinguished by what they are requiring: a requirement on a producer states what is allowed, while a requirement on a consumer states how software is to act. @17,7761,694,122
+text For example, "the  attribute's value must be a " is a requirement on producers, as it lays out the allowed values; in contrast, the requirement "the  attribute's value must be parsed using the " is a requirement on consumers, as it describes how to process the content. @17,7895,694,61
+text foo @17,7968,694,20
+link "valid integer" common-microsyntaxes.html#valid-integer @17,8000,694,20
+text foo @17,8032,694,21
+link "rules for parsing integers" common-microsyntaxes.html#rules-for-parsing-integers @17,8065,694,20
+text Requirements on producers have no bearing whatsoever on consumers. @17,8097,694,20
+text Continuing the above example, a requirement stating that a particular attribute's value is constrained to being a emphatically does imply anything about the requirements on consumers. It might be that the consumers are in fact required to treat the attribute as an opaque string, completely unaffected by whether the value conforms to the requirements or not. It might be (as in the previous example) that the consumers are required to parse the value using specific rules that define how invalid (non-numeric in this case) values are to be processed. @17,8129,694,122
+row @17,8263,694,20
+  link "valid integer" common-microsyntaxes.html#valid-integer @17,8263,82,20
+  text not @111,8263,22,20
+h3 1.9.2 Typographic conventions @17,8295,694,19
+text This is a definition, requirement, or explanation. @17,8326,694,20
+text This is a note. success @17,8358,694,21
+text This is an example. @17,8391,694,20
+text This is an open issue. danger @17,8423,694,20
+text This is a warning. danger @17,8455,694,21
+text { // this is an IDL definition }; @17,8488,694,20
+text Exposed @17,8520,694,20
+text Window primary @17,8552,694,21
+text interface danger @17,8585,694,20
+text Example @17,8617,694,20
+text  .([]) @17,8649,694,20
+row @17,8681,694,21
+  text variable @17,8681,53,21
+  text object @82,8681,42,21
+  link method #x-that @136,8681,51,21
+  text optionalArgument @199,8681,118,21
+text This is a note to authors describing the usage of an interface. success @17,8714,694,20
+text /* this is a CSS fragment */ @17,8746,694,20
+text The defining instance of a term is marked up like . Uses of that term are marked up like or like . @17,8778,694,21
+row @17,8811,694,20
+  text this @17,8811,24,20
+  link this #x-this @53,8811,24,20
+  link this #x-this2 @89,8811,24,20
+text The defining instance of an element, attribute, or API is marked up like . References to that element, attribute, or API are marked up like . @17,8843,694,41
+row @17,8896,694,20
+  text this @17,8896,24,20
+  link this #x-that2 @53,8896,24,20
+text Other code fragments are marked up like this. @17,8928,694,20
+text Variables are marked up like . @17,8960,694,20
+text this @17,8992,694,21
+text In an algorithm, steps in are marked with ⌛. @17,9025,694,20
+link "synchronous sections" webappapis.html#synchronous-section @17,9057,694,20
+text In some cases, requirements are given in the form of lists with conditions and corresponding requirements. In such cases, the requirements that apply to a condition are always the first set of requirements that follow the condition, even in the case of there being multiple sets of conditions for those requirements. Such cases are presented as follows: @17,9089,694,82
+text This is a condition @17,9183,694,20
+text This is another condition @17,9215,694,20
+text This is the requirement that applies to the conditions above. @17,9247,694,20
+text This is a third condition @17,9279,694,21
+text This is the requirement that applies to the third condition. @17,9312,694,20
+h3 1.10 A quick introduction to HTML @17,9344,694,19
+text This section is non-normative. @17,9375,694,20
+text A basic HTML document looks like this: @17,9407,694,20
+text Sample page Sample page This is a simple sample. @17,9439,694,21
+card @17,9472,694,1633
+  text <!DOCTYPE html> @34,9487,660,20
+  text < @34,9519,660,20
+  text html success @34,9551,660,21
+  text lang primary @34,9584,660,20
+  text = @34,9616,660,20
+  text "en" warning @34,9648,660,21
+  text > @34,9681,660,20
+  text < @34,9713,660,20
+  text head success @34,9745,660,20
+  text > @34,9777,660,21
+  text < @34,9810,660,20
+  text title success @34,9842,660,20
+  text > @34,9874,660,21
+  text </ @34,9907,660,20
+  text title success @34,9939,660,20
+  text > @34,9971,660,21
+  text </ @34,10004,660,20
+  text head success @34,10036,660,20
+  text > @34,10068,660,20
+  text < @34,10100,660,21
+  text body success @34,10133,660,20
+  text > @34,10165,660,20
+  text < @34,10197,660,21
+  text h1 success @34,10230,660,20
+  text > @34,10262,660,20
+  text </ @34,10294,660,21
+  text h1 success @34,10327,660,20
+  text > @34,10359,660,20
+  text < @34,10391,660,20
+  text p success @34,10423,660,21
+  text > @34,10456,660,20
+  text < @34,10488,660,20
+  text a success @34,10520,660,21
+  text href primary @34,10553,660,20
+  text = @34,10585,660,20
+  text "demo.html" warning @34,10617,660,21
+  text > @34,10650,660,20
+  text </ @34,10682,660,20
+  text a success @34,10714,660,20
+  text > @34,10746,660,21
+  text </ @34,10779,660,20
+  text p success @34,10811,660,20
+  text > @34,10843,660,21
+  text <!-- this is a comment --> @34,10876,660,20
+  text </ @34,10908,660,20
+  text body success @34,10940,660,21
+  text > @34,10973,660,20
+  text </ @34,11005,660,20
+  text html success @34,11037,660,20
+  text > @34,11069,660,21
+text HTML documents consist of a tree of elements and text. Each element is denoted in the source by a , such as "", and an , such as "". (Certain start tags and end tags can in certain cases be  and are implied by other tags.) @17,11117,694,61
+link "start tag" syntax.html#syntax-start-tag @17,11190,694,20
+text <body> @17,11222,694,20
+link "end tag" syntax.html#syntax-end-tag @17,11254,694,21
+text </body> @17,11287,694,20
+link omitted syntax.html#syntax-tag-omission @17,11319,694,20
+text Tags have to be nested such that elements are all completely within each other, without overlapping: @17,11351,694,20
+text This is very wrong! @17,11383,694,21
+card @17,11416,694,567
+  text < @34,11431,660,20
+  text p @34,11463,660,20
+  text > @34,11495,660,21
+  text < @34,11528,660,20
+  text em @34,11560,660,20
+  text > @34,11592,660,21
+  text < @34,11625,660,20
+  text strong @34,11657,660,20
+  text > @34,11689,660,20
+  text </ @34,11721,660,21
+  text em @34,11754,660,20
+  text > @34,11786,660,20
+  text </ @34,11818,660,21
+  text strong @34,11851,660,20
+  text ></ @34,11883,660,20
+  text p @34,11915,660,21
+  text > @34,11948,660,20
+text This is correct. @17,11995,694,20
+card @17,12027,694,567
+  text < @34,12042,660,20
+  text p success @34,12074,660,21
+  text > @34,12107,660,20
+  text < @34,12139,660,20
+  text em success @34,12171,660,21
+  text > @34,12204,660,20
+  text < @34,12236,660,20
+  text strong success @34,12268,660,21
+  text > @34,12301,660,20
+  text </ @34,12333,660,20
+  text strong success @34,12365,660,20
+  text > @34,12397,660,21
+  text </ @34,12430,660,20
+  text em success @34,12462,660,20
+  text ></ @34,12494,660,21
+  text p success @34,12527,660,20
+  text > @34,12559,660,20
+text This specification defines a set of elements that can be used in HTML, along with rules about the ways in which the elements can be nested. @17,12606,694,41
+text Elements can have attributes, which control how the elements work. In the example below, there is a , formed using the element and its attribute: @17,12659,694,40
+link hyperlink links.html#hyperlink @17,12711,694,21
+link a text-level-semantics.html#the-a-element @17,12744,694,20
+link href links.html#attr-hyperlink-href @17,12776,694,20
+text simple @17,12808,694,21
+card @17,12841,694,308
+  text < @34,12856,660,20
+  text a success @34,12888,660,20
+  text href primary @34,12920,660,21
+  text = @34,12953,660,20
+  text "demo.html" warning @34,12985,660,20
+  text > @34,13017,660,20
+  text </ @34,13049,660,21
+  text a success @34,13082,660,20
+  text > @34,13114,660,20
+text are placed inside the start tag, and consist of a  and a , separated by an "" character. The attribute value can remain  if it doesn't contain  or any of      or . Otherwise, it has to be quoted using either single or double quotes. The value, along with the "" character, can be omitted altogether if the value is the empty string. @17,13161,694,82
+link Attributes syntax.html#syntax-attributes @17,13255,694,20
+link name syntax.html#syntax-attribute-name @17,13287,694,20
+link value syntax.html#syntax-attribute-value @17,13319,694,20
+text = @17,13351,694,21
+link unquoted syntax.html#unquoted @17,13384,694,20
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,13416,694,20
+text " @17,13448,694,21
+text ' @17,13481,694,20
+text ` @17,13513,694,20
+text = @17,13545,694,21
+text < @17,13578,694,20
+text > @17,13610,694,20
+text = @17,13642,694,20
+card @17,13674,694,1472
+  text <!-- empty attributes --> @34,13689,660,21
+  text < @34,13722,660,20
+  text input success @34,13754,660,20
+  text name primary @34,13786,660,21
+  text = @34,13819,660,20
+  text address warning @34,13851,660,20
+  text disabled primary @34,13883,660,21
+  text > @34,13916,660,20
+  text < @34,13948,660,20
+  text input success @34,13980,660,20
+  text name primary @34,14012,660,21
+  text = @34,14045,660,20
+  text address warning @34,14077,660,20
+  text disabled primary @34,14109,660,21
+  text = @34,14142,660,20
+  text "" warning @34,14174,660,20
+  text > @34,14206,660,21
+  text <!-- attributes with a value --> @34,14239,660,20
+  text < @34,14271,660,20
+  text input success @34,14303,660,20
+  text name primary @34,14335,660,21
+  text = @34,14368,660,20
+  text address warning @34,14400,660,20
+  text maxlength primary @34,14432,660,21
+  text = @34,14465,660,20
+  text 200 warning @34,14497,660,20
+  text > @34,14529,660,21
+  text < @34,14562,660,20
+  text input success @34,14594,660,20
+  text name primary @34,14626,660,20
+  text = @34,14658,660,21
+  text address warning @34,14691,660,20
+  text maxlength primary @34,14723,660,20
+  text = @34,14755,660,21
+  text '200' warning @34,14788,660,20
+  text > @34,14820,660,20
+  text < @34,14852,660,21
+  text input success @34,14885,660,20
+  text name primary @34,14917,660,20
+  text = @34,14949,660,20
+  text address warning @34,14981,660,21
+  text maxlength primary @34,15014,660,20
+  text = @34,15046,660,20
+  text "200" warning @34,15078,660,21
+  text > @34,15111,660,20
+text HTML user agents (e.g., web browsers) then parse this markup, turning it into a DOM (Document Object Model) tree. A DOM tree is an in-memory representation of a document. @17,15158,694,41
+text DOM trees contain several kinds of nodes, in particular a node, nodes, nodes, nodes, and in some cases nodes. @17,15211,694,40
+link DocumentType https://dom.spec.whatwg.org/#interface-documenttype @17,15263,694,20
+link Element https://dom.spec.whatwg.org/#interface-element @17,15295,694,21
+link Text https://dom.spec.whatwg.org/#interface-text @17,15328,694,20
+link Comment https://dom.spec.whatwg.org/#interface-comment @17,15360,694,20
+link ProcessingInstruction https://dom.spec.whatwg.org/#interface-processinginstruction @17,15392,694,21
+text The would be turned into the following DOM tree: @17,15425,694,20
+link "markup snippet at the top of this section" #intro-early-example @17,15457,694,20
+text DOCTYPE: html @17,15489,694,21
+link html semantics.html#the-html-element @17,15522,694,20
+text ="" @17,15554,694,20
+row @17,15586,694,20
+  link lang dom.html#attr-lang @17,15586,29,20
+  text en primary @58,15586,17,20
+link head semantics.html#the-head-element @17,15618,694,21
+text : @17,15651,694,20
+row @17,15683,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,15683,34,20
+  text ⏎␣␣ @63,15683,35,20
+link title semantics.html#the-title-element @17,15715,694,21
+text : @17,15748,694,20
+row @17,15780,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,15780,34,20
+  text Sample page @63,15780,87,20
+text : @17,15812,694,21
+row @17,15845,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,15845,34,20
+  text ⏎␣ @63,15845,24,20
+text : @17,15877,694,20
+row @17,15909,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,15909,34,20
+  text ⏎␣ @63,15909,24,20
+link body sections.html#the-body-element @17,15941,694,21
+text : @17,15974,694,20
+row @17,16006,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,16006,34,20
+  text ⏎␣␣ @63,16006,35,20
+link h1 sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements @17,16038,694,21
+text : @17,16071,694,20
+row @17,16103,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,16103,34,20
+  text Sample page @63,16103,87,20
+text : @17,16135,694,21
+row @17,16168,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,16168,34,20
+  text ⏎␣␣ @63,16168,35,20
+link p grouping-content.html#the-p-element @17,16200,694,20
+text : @17,16232,694,20
+row @17,16264,694,21
+  link #text https://dom.spec.whatwg.org/#interface-text @17,16264,34,21
+  text This is a @63,16264,55,21
+link a text-level-semantics.html#the-a-element @17,16297,694,20
+text ="" @17,16329,694,20
+row @17,16361,694,21
+  link href links.html#attr-hyperlink-href @17,16361,27,21
+  text demo.html primary @56,16361,70,21
+text : @17,16394,694,20
+row @17,16426,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,16426,34,20
+  text simple @63,16426,44,20
+text : @17,16458,694,21
+row @17,16491,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,16491,34,20
+  text sample. @63,16491,52,20
+text : @17,16523,694,20
+row @17,16555,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,16555,34,20
+  text ⏎␣␣ @63,16555,35,20
+text : @17,16587,694,21
+row @17,16620,694,20
+  link #comment https://dom.spec.whatwg.org/#interface-comment @17,16620,71,20
+  text this is a comment @100,16620,117,20
+text : @17,16652,694,20
+row @17,16684,694,21
+  link #text https://dom.spec.whatwg.org/#interface-text @17,16684,34,21
+  text ⏎␣⏎ @63,16684,38,21
+text The of this tree is the element, which is the element always found in that position in HTML documents. It contains two elements, and , as well as a node between them. @17,16717,694,40
+link "document element" https://dom.spec.whatwg.org/#document-element @17,16769,694,21
+link html semantics.html#the-html-element @17,16802,694,20
+link head semantics.html#the-head-element @17,16834,694,20
+link body sections.html#the-body-element @17,16866,694,20
+link Text https://dom.spec.whatwg.org/#interface-text @17,16898,694,21
+text There are many more  nodes in the DOM tree than one would initially expect, because the source contains a number of spaces (represented here by "␣") and line breaks ("⏎") that all end up as  nodes in the DOM. However, for historical reasons not all of the spaces and line breaks in the original markup appear in the DOM. In particular, all the whitespace before  start tag ends up being dropped silently, and all the whitespace after the  end tag ends up placed at the end of the . @17,16931,694,101
+link Text https://dom.spec.whatwg.org/#interface-text @17,17044,694,21
+link Text https://dom.spec.whatwg.org/#interface-text @17,17077,694,20
+link head semantics.html#the-head-element @17,17109,694,20
+link body sections.html#the-body-element @17,17141,694,20
+link body sections.html#the-body-element @17,17173,694,21
+text The  element contains a  element, which itself contains a  node with the text "Sample page". Similarly, the  element contains an  element, a  element, and a comment. @17,17206,694,40
+link head semantics.html#the-head-element @17,17258,694,21
+link title semantics.html#the-title-element @17,17291,694,20
+link Text https://dom.spec.whatwg.org/#interface-text @17,17323,694,20
+link body sections.html#the-body-element @17,17355,694,21
+link h1 sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements @17,17388,694,20
+link p grouping-content.html#the-p-element @17,17420,694,20
+text This DOM tree can be manipulated from scripts in the page. Scripts (typically in JavaScript) are small programs that can be embedded using the  element or using . For example, here is a form with a script that sets the value of the form's  element to say "Hello World": @17,17452,694,61
+row @17,17525,694,20
+  link script scripting.html#the-script-element @17,17525,38,20
+  link "event handler content attributes" webappapis.html#event-handler-content-attributes @67,17525,212,20
+  link output form-elements.html#the-output-element @291,17525,43,20
+text Result: mainresult @17,17557,694,21
+card @17,17590,694,1148
+  text < @34,17605,660,20
+  link form forms.html#the-form-element @34,17637,660,20
+  link name forms.html#attr-form-name @34,17669,660,21
+  text = @34,17702,660,20
+  text "main" warning @34,17734,660,20
+  text > @34,17766,660,20
+  text < @34,17798,660,21
+  link output form-elements.html#the-output-element @34,17831,660,20
+  link name form-control-infrastructure.html#attr-fe-name @34,17863,660,20
+  text = @34,17895,660,21
+  text "result" warning @34,17928,660,20
+  text ></ @34,17960,660,20
+  text output success @34,17992,660,21
+  text > @34,18025,660,20
+  text < @34,18057,660,20
+  link script scripting.html#the-script-element @34,18089,660,20
+  text > @34,18121,660,21
+  link document dom.html#document @34,18154,660,20
+  text . @34,18186,660,20
+  link forms dom.html#dom-document-forms @34,18218,660,21
+  text . @34,18251,660,20
+  text . @34,18283,660,20
+  link elements forms.html#dom-form-elements @34,18315,660,21
+  text . @34,18348,660,20
+  text . @34,18380,660,20
+  link value form-elements.html#dom-output-value @34,18412,660,20
+  text = @34,18444,660,21
+  text 'Hello World' warning @34,18477,660,20
+  text ; @34,18509,660,20
+  text </ @34,18541,660,21
+  text script success @34,18574,660,20
+  text > @34,18606,660,20
+  text </ @34,18638,660,21
+  text form success @34,18671,660,20
+  text > @34,18703,660,20
+text Each element in the DOM tree is represented by an object, and these objects have APIs so that they can be manipulated. For instance, a link (e.g. the  element in the tree above) can have its "" attribute changed in several ways: @17,18750,694,61
+link a text-level-semantics.html#the-a-element @17,18823,694,20
+link href links.html#attr-hyperlink-href @17,18855,694,21
+text a a a asetAttribute @17,18888,694,20
+card @17,18920,694,922
+  text var danger @34,18935,660,20
+  text = @34,18967,660,21
+  link document dom.html#document @34,19000,660,20
+  text . @34,19032,660,20
+  link links dom.html#dom-document-links @34,19064,660,20
+  text [ @34,19096,660,21
+  text 0 @34,19129,660,20
+  text ]; @34,19161,660,20
+  text // obtain the first link in the document @34,19193,660,21
+  text . @34,19226,660,20
+  link href links.html#dom-hyperlink-href @34,19258,660,20
+  text = @34,19290,660,21
+  text 'sample.html' warning @34,19323,660,20
+  text ; @34,19355,660,20
+  text // change the destination URL of the link @34,19387,660,20
+  text . @34,19419,660,21
+  link protocol links.html#dom-hyperlink-protocol @34,19452,660,20
+  text = @34,19484,660,20
+  text 'https' warning @34,19516,660,21
+  text ; @34,19549,660,20
+  text // change just the scheme part of the URL @34,19581,660,20
+  text . @34,19613,660,21
+  text ( @34,19646,660,20
+  text 'href' warning @34,19678,660,20
+  text , @34,19710,660,20
+  text 'https://example.com/' warning @34,19742,660,21
+  text ); @34,19775,660,20
+  text // change the content attribute directly @34,19807,660,20
+text Since DOM trees are used as the way to represent HTML documents when they are processed and presented by implementations (especially interactive implementations like web browsers), this specification is mostly phrased in terms of DOM trees, instead of the markup described above. @17,19854,694,61
+text HTML documents represent a media-independent description of interactive content. HTML documents might be rendered to a screen, or through a speech synthesizer, or on a braille display. To influence exactly how such rendering takes place, authors can use a styling language such as CSS. @17,19927,694,61
+text In the following example, the page has been made yellow-on-blue using CSS. @17,20000,694,20
+text Sample styled page Sample styled page This page is just a demo. @17,20032,694,21
+card @17,20065,694,1859
+  text <!DOCTYPE html> @34,20080,660,20
+  text < @34,20112,660,20
+  text html success @34,20144,660,21
+  text lang primary @34,20177,660,20
+  text = @34,20209,660,20
+  text "en" warning @34,20241,660,21
+  text > @34,20274,660,20
+  text < @34,20306,660,20
+  text head success @34,20338,660,20
+  text > @34,20370,660,21
+  text < @34,20403,660,20
+  text title success @34,20435,660,20
+  text > @34,20467,660,21
+  text </ @34,20500,660,20
+  text title success @34,20532,660,20
+  text > @34,20564,660,21
+  text < @34,20597,660,20
+  text style success @34,20629,660,20
+  text > @34,20661,660,20
+  text body success @34,20693,660,21
+  text { @34,20726,660,20
+  text background danger @34,20758,660,20
+  text : @34,20790,660,21
+  text navy danger @34,20823,660,20
+  text ; @34,20855,660,20
+  text color danger @34,20887,660,21
+  text : @34,20920,660,20
+  text yellow danger @34,20952,660,20
+  text ; @34,20984,660,20
+  text } @34,21016,660,21
+  text </ @34,21049,660,20
+  text style success @34,21081,660,20
+  text > @34,21113,660,21
+  text </ @34,21146,660,20
+  text head success @34,21178,660,20
+  text > @34,21210,660,21
+  text < @34,21243,660,20
+  text body success @34,21275,660,20
+  text > @34,21307,660,20
+  text < @34,21339,660,21
+  text h1 success @34,21372,660,20
+  text > @34,21404,660,20
+  text </ @34,21436,660,21
+  text h1 success @34,21469,660,20
+  text > @34,21501,660,20
+  text < @34,21533,660,21
+  text p success @34,21566,660,20
+  text > @34,21598,660,20
+  text </ @34,21630,660,20
+  text p success @34,21662,660,21
+  text > @34,21695,660,20
+  text </ @34,21727,660,20
+  text body success @34,21759,660,21
+  text > @34,21792,660,20
+  text </ @34,21824,660,20
+  text html success @34,21856,660,21
+  text > @34,21889,660,20
+text For more details on how to use HTML, authors are encouraged to consult tutorials and guides. Some of the examples included in this specification might also be of use, but the novice author is cautioned that this specification, by necessity, defines the language with a level of detail that might be difficult to understand at first. @17,21936,694,81
+h3 1.10.1 Writing secure applications with HTML @17,22029,694,19
+text This section is non-normative. @17,22060,694,20
+text When HTML is used to create interactive sites, care needs to be taken to avoid introducing vulnerabilities through which attackers can compromise the integrity of the site itself or of the site's users. @17,22092,694,61
+text A comprehensive study of this matter is beyond the scope of this document, and authors are strongly encouraged to study the matter in more detail. However, this section attempts to provide a quick introduction to some common pitfalls in HTML application development. @17,22165,694,61
+text The security model of the web is based on the concept of "origins", and correspondingly many of the potential attacks on the web involve cross-origin actions. @17,22238,694,40
+link [ORIGIN] references.html#refsORIGIN @17,22290,694,21
+text Not validating user input @17,22323,694,20
+text Cross-site scripting (XSS) @17,22355,694,20
+text SQL injection @17,22387,694,21
+text When accepting untrusted input, e.g. user-generated content such as text comments, values in URL parameters, messages from third-party sites, etc, it is imperative that the data be validated before use, and properly escaped when displayed. Failing to do this can allow a hostile user to perform a variety of attacks, ranging from the potentially benign, such as providing bogus user information like a negative age, to the serious, such as running scripts every time a user looks at a page that includes the information, potentially propagating the attack in the process, to the catastrophic, such as deleting all data in the server. @17,22420,694,142
+text When writing filters to validate user input, it is imperative that filters always be safelist-based, allowing known-safe constructs and disallowing all other input. Blocklist-based filters that disallow known-bad inputs and allow everything else are not secure, as not everything that is bad is yet known (for example, because it might be invented in the future). @17,22574,694,81
+text For example, suppose a page looked at its URL's query string to determine what to display, and the site then redirected the user to that page to display a message, as in: @17,22667,694,41
+text Say Hello Say Welcome Say Kittens @17,22720,694,20
+card @17,22752,694,1278
+  text < @34,22767,660,20
+  text ul success @34,22799,660,21
+  text > @34,22832,660,20
+  text < @34,22864,660,20
+  text li success @34,22896,660,20
+  text >< @34,22928,660,21
+  text a success @34,22961,660,20
+  text href primary @34,22993,660,20
+  text = @34,23025,660,21
+  text "message.cgi?say=Hello" warning @34,23058,660,20
+  text > @34,23090,660,20
+  text </ @34,23122,660,21
+  text a success @34,23155,660,20
+  text > @34,23187,660,20
+  text < @34,23219,660,20
+  text li success @34,23251,660,21
+  text >< @34,23284,660,20
+  text a success @34,23316,660,20
+  text href primary @34,23348,660,21
+  text = @34,23381,660,20
+  text "message.cgi?say=Welcome" warning @34,23413,660,20
+  text > @34,23445,660,21
+  text </ @34,23478,660,20
+  text a success @34,23510,660,20
+  text > @34,23542,660,20
+  text < @34,23574,660,21
+  text li success @34,23607,660,20
+  text >< @34,23639,660,20
+  text a success @34,23671,660,21
+  text href primary @34,23704,660,20
+  text = @34,23736,660,20
+  text "message.cgi?say=Kittens" warning @34,23768,660,21
+  text > @34,23801,660,20
+  text </ @34,23833,660,20
+  text a success @34,23865,660,20
+  text > @34,23897,660,21
+  text </ @34,23930,660,20
+  text ul success @34,23962,660,20
+  text > @34,23994,660,21
+text If the message was just displayed to the user without escaping, a hostile attacker could then craft a URL that contained a script element: @17,24042,694,40
+text https://example.com/message.cgi?say=%3Cscript%3Ealert%28%27Oh%20no%21%27%29%3C/script%3E @17,24094,694,21
+text If the attacker then convinced a victim user to visit this page, a script of the attacker's choosing would run on the page. Such a script could do any number of hostile actions, limited only by what the site offers: if the site is an e-commerce shop, for instance, such a script could cause the user to unknowingly make arbitrarily many unwanted purchases. @17,24127,694,81
+text This is called a cross-site scripting attack. @17,24220,694,20
+text There are many constructs that can be used to try to trick a site into executing code. Here are some that authors are encouraged to consider when writing safelist filters: @17,24252,694,41
+text When allowing harmless-seeming elements like , it is important to safelist any provided attributes as well. If one allowed all attributes then an attacker could, for instance, use the attribute to run arbitrary script. @17,24305,694,61
+link img embedded-content.html#the-img-element @17,24378,694,20
+link onload webappapis.html#handler-onload @17,24410,694,20
+text When allowing URLs to be provided (e.g. for links), the scheme of each URL also needs to be explicitly safelisted, as there are many schemes that can be abused. The most prominent example is "", but user agents can implement (and indeed, have historically implemented) others. @17,24442,694,61
+link javascript: browsing-the-web.html#the-javascript:-url-special-case @17,24515,694,20
+text Allowing a element to be inserted means any elements in the page with relative links can be hijacked, and similarly that any form submissions can get redirected to a hostile site. @17,24547,694,41
+row @17,24600,694,20
+  link base semantics.html#the-base-element @17,24600,32,20
+  link script scripting.html#the-script-element @61,24600,38,20
+text Cross-site request forgery (CSRF) @17,24632,694,21
+text If a site allows a user to make form submissions with user-specific side-effects, for example posting messages on a forum under the user's name, making purchases, or applying for a passport, it is important to verify that the request was made by the user intentionally, rather than by another site tricking the user into making the request unknowingly. @17,24665,694,81
+text This problem exists because HTML forms can be submitted to other origins. @17,24758,694,20
+text Sites can prevent such attacks by populating forms with user-specific hidden tokens, or by checking `` headers on all requests. @17,24790,694,41
+link Origin https://fetch.spec.whatwg.org/#http-origin @17,24843,694,20
+text Clickjacking @17,24875,694,20
+text A page that provides users with an interface to perform actions that the user might not wish to perform needs to be designed so as to avoid the possibility that users can be tricked into activating the interface. @17,24907,694,41
+text One way that a user could be so tricked is if a hostile site places the victim site in a small and then convinces the user to click, for instance by having the user play a reaction game. Once the user is playing the game, the hostile site can quickly position the iframe under the mouse cursor just as the user is about to click, thus tricking the user into clicking the victim site's interface. @17,24960,694,81
+link iframe iframe-embed-object.html#the-iframe-element @17,25053,694,20
+text To avoid this, sites that do not expect to be used in frames are encouraged to only enable their interface if they detect that they are not in a frame (e.g. by comparing the object to the value of the attribute). @17,25085,694,41
+row @17,25138,694,20
+  link window nav-history-apis.html#dom-window @17,25138,52,20
+  link top nav-history-apis.html#dom-top @81,25138,22,20
+h3 1.10.2 Common pitfalls to avoid when using the scripting APIs @17,25170,694,19
+text This section is non-normative. @17,25201,694,20
+text Scripts in HTML have "run-to-completion" semantics, meaning that the browser will generally run the script uninterrupted before doing anything else, such as firing further events or continuing to parse the document. @17,25233,694,61
+text On the other hand, parsing of HTML files happens incrementally, meaning that the parser can pause at any point to let scripts run. This is generally a good thing, but it does mean that authors need to be careful to avoid hooking event handlers after the events could have possibly fired. @17,25306,694,61
+text There are two techniques for doing this reliably: use , or create the element and add the event handlers in the same script. The latter is safe because, as mentioned earlier, scripts are run to completion before further events can fire. @17,25379,694,61
+link "event handler content attributes" webappapis.html#event-handler-content-attributes @17,25452,694,20
+text One way this could manifest itself is with elements and the event. The event could fire as soon as the element has been parsed, especially if the image has already been cached (which is common). @17,25484,694,41
+row @17,25537,694,20
+  link img embedded-content.html#the-img-element @17,25537,25,20
+  link load indices.html#event-load @54,25537,29,20
+text Here, the author uses the handler on an element to catch the event: @17,25569,694,20
+row @17,25601,694,21
+  link onload webappapis.html#handler-onload @17,25601,45,21
+  link img embedded-content.html#the-img-element @74,25601,25,21
+  link load indices.html#event-load @111,25601,29,21
+card @17,25634,694,405
+  text < @34,25649,660,20
+  text img success @34,25681,660,20
+  text src primary @34,25713,660,21
+  text = @34,25746,660,20
+  text "games.png" warning @34,25778,660,20
+  text alt primary @34,25810,660,21
+  text = @34,25843,660,20
+  text "Games" warning @34,25875,660,20
+  text onload primary @34,25907,660,20
+  text = @34,25939,660,21
+  text "gamesLogoHasLoaded(event)" warning @34,25972,660,20
+  text > @34,26004,660,20
+text If the element is being added by script, then so long as the event handlers are added in the same script, the event will still not be missed: @17,26051,694,41
+text img Image imgsrc imgalt imgonload gamesLogoHasLoaded @17,26104,694,20
+card @17,26136,694,729
+  text < @34,26151,660,21
+  text script success @34,26184,660,20
+  text > @34,26216,660,20
+  text var danger @34,26248,660,20
+  text = @34,26280,660,21
+  text new danger @34,26313,660,20
+  text (); @34,26345,660,20
+  text . @34,26377,660,21
+  text = @34,26410,660,20
+  text 'games.png' warning @34,26442,660,20
+  text ; @34,26474,660,21
+  text . @34,26507,660,20
+  text = @34,26539,660,20
+  text 'Games' warning @34,26571,660,20
+  text ; @34,26603,660,21
+  text . @34,26636,660,20
+  text = @34,26668,660,20
+  text ; @34,26700,660,21
+  text // img.addEventListener('load', gamesLogoHasLoaded, false); // would work also @34,26733,660,20
+  text </ @34,26765,660,20
+  text script success @34,26797,660,21
+  text > @34,26830,660,20
+text However, if the author first created the element and then in a separate script added the event listeners, there's a chance that the event would be fired in between, leading it to be missed: @17,26877,694,40
+row @17,26929,694,21
+  link img embedded-content.html#the-img-element @17,26929,25,21
+  link load indices.html#event-load @54,26929,29,21
+text img documentgetElementById imgonload gamesLogoHasLoaded @17,26962,694,20
+card @17,26994,694,1019
+  text <!-- Do not use this style, it has a race condition! --> @34,27009,660,20
+  text < @34,27041,660,21
+  text img @34,27074,660,20
+  text id @34,27106,660,20
+  text = @34,27138,660,21
+  text "games" @34,27171,660,20
+  text src @34,27203,660,20
+  text = @34,27235,660,20
+  text "games.png" @34,27267,660,21
+  text alt @34,27300,660,20
+  text = @34,27332,660,20
+  text "Games" @34,27364,660,21
+  text > @34,27397,660,20
+  text <!-- the 'load' event might fire here while the parser is taking a @34,27429,660,20
+  text break, in which case you will not see it! --> @34,27461,660,21
+  text < @34,27494,660,20
+  text script @34,27526,660,20
+  text > @34,27558,660,20
+  text var @34,27590,660,21
+  text = @34,27623,660,20
+  text . @34,27655,660,20
+  text ( @34,27687,660,21
+  text 'games' @34,27720,660,20
+  text ); @34,27752,660,20
+  text . @34,27784,660,21
+  text = @34,27817,660,20
+  text ; @34,27849,660,20
+  text // might never fire! @34,27881,660,20
+  text </ @34,27913,660,21
+  text script @34,27946,660,20
+  text > @34,27978,660,20
+h3 1.10.3 How to catch mistakes when writing HTML: validators and conformance checkers @17,28025,694,19
+text This section is non-normative. @17,28056,694,20
+text Authors are encouraged to make use of conformance checkers (also known as ) to catch common mistakes. The WHATWG maintains a list of such tools at: @17,28088,694,41
+text validators @17,28141,694,20
+link https://whatwg.org/validator/ https://whatwg.org/validator/ @17,28173,694,21
+h3 1.11 Conformance requirements for authors @17,28206,694,18
+text This section is non-normative. @17,28236,694,21
+text Unlike previous versions of the HTML specification, this specification defines in some detail the required processing for invalid documents as well as valid documents. @17,28269,694,40
+text However, even though the processing of invalid content is in most cases well-defined, conformance requirements for documents are still important: in practice, interoperability (the situation in which all implementations process particular content in a reliable and identical or equivalent way) is not the only goal of document conformance requirements. This section details some of the more common reasons for still distinguishing between a conforming document and one with errors. @17,28321,694,102
+h3 1.11.1 Presentational markup @17,28435,694,19
+text This section is non-normative. @17,28466,694,20
+text The majority of presentational features from previous versions of HTML are no longer allowed. Presentational markup in general has been found to have a number of problems: @17,28498,694,40
+text The use of presentational elements leads to poorer accessibility @17,28550,694,21
+text While it is possible to use presentational markup in a way that provides users of assistive technologies (ATs) with an acceptable experience (e.g. using ARIA), doing so is significantly more difficult than doing so when using semantically-appropriate markup. Furthermore, even using such techniques doesn't help make pages accessible for non-AT non-graphical users, such as users of text-mode browsers. @17,28583,694,81
+text Using media-independent markup, on the other hand, provides an easy way for documents to be authored in such a way that they work for more users (e.g. users of text browsers). @17,28676,694,41
+text Higher cost of maintenance @17,28729,694,20
+text It is significantly easier to maintain a site written in such a way that the markup is style-independent. For example, changing the color of a site that uses <font color=""> throughout requires changes across the entire site, whereas a similar change to a site based on CSS can be done by changing a single file. @17,28761,694,61
+text Larger document sizes @17,28834,694,20
+text Presentational markup tends to be much more redundant, and thus results in larger document sizes. @17,28866,694,20
+text For those reasons, presentational markup has been removed from HTML in this version. This change should not come as a surprise; HTML4 deprecated presentational markup many years ago and provided a mode (HTML4 Transitional) to help authors move away from presentational markup; later, XHTML 1.1 went further and obsoleted those features altogether. @17,28898,694,82
+text The only remaining presentational markup features in HTML are the attribute and the element. Use of the attribute is somewhat discouraged in production environments, but it can be useful for rapid prototyping (where its rules can be directly moved into a separate style sheet later) and for providing specific styles in unusual cases where a separate style sheet would be inconvenient. Similarly, the element can be useful in syndication or for page-specific styles, but in general an external style sheet is likely to be more convenient when the styles apply to multiple pages. @17,28992,694,121
+link style dom.html#attr-style @17,29125,694,21
+link style semantics.html#the-style-element @17,29158,694,20
+link style dom.html#attr-style @17,29190,694,20
+link style semantics.html#the-style-element @17,29222,694,21
+text It is also worth noting that some elements that were previously presentational have been redefined in this specification to be media-independent: , , , , , and . @17,29255,694,40
+link b text-level-semantics.html#the-b-element @17,29307,694,20
+link i text-level-semantics.html#the-i-element @17,29339,694,21
+link hr grouping-content.html#the-hr-element @17,29372,694,20
+link s text-level-semantics.html#the-s-element @17,29404,694,20
+link small text-level-semantics.html#the-small-element @17,29436,694,21
+link u text-level-semantics.html#the-u-element @17,29469,694,20
+h3 1.11.2 Syntax errors @17,29501,694,19
+text This section is non-normative. @17,29532,694,20
+text The syntax of HTML is constrained to avoid a wide variety of problems. @17,29564,694,20
+text Unintuitive error-handling behavior @17,29596,694,21
+text Certain invalid syntax constructs, when parsed, result in DOM trees that are highly unintuitive. @17,29629,694,20
+text For example, the following markup fragment results in a DOM with an element that is an sibling of the corresponding element: @17,29661,694,40
+row @17,29713,694,21
+  link hr grouping-content.html#the-hr-element @17,29713,14,21
+  text earlier @43,29713,42,21
+  link table tables.html#the-table-element @97,29713,33,21
+text ... @17,29746,694,20
+card @17,29778,694,180
+  text < @34,29793,660,20
+  text table @34,29825,660,21
+  text >< @34,29858,660,20
+  text hr @34,29890,660,20
+  text > @34,29922,660,21
+text Errors with optional error recovery @17,29970,694,20
+text To allow user agents to be used in controlled environments without having to implement the more bizarre and convoluted error handling rules, user agents are permitted to fail whenever encountering a . @17,30002,694,40
+link "parse error" parsing.html#parse-errors @17,30054,694,21
+text Errors where the error-handling behavior is not compatible with streaming user agents @17,30087,694,20
+text Some error-handling behavior, such as the behavior for the <table><hr>... example mentioned above, are incompatible with streaming user agents (user agents that process HTML files in one pass, without storing state). To avoid interoperability problems with such user agents, any syntax resulting in such behavior is considered invalid. @17,30119,694,81
+text Errors that can result in infoset coercion @17,30212,694,21
+text When a user agent based on XML is connected to an HTML parser, it is possible that certain invariants that XML enforces, such as element or attribute names never contain multiple colons, will be violated by an HTML file. Handling this can require that the parser coerce the HTML DOM into an XML-compatible infoset. Most syntax constructs that require such handling are considered invalid. (Comments containing two consecutive hyphens, or ending with a hyphen, are exceptions that are allowed in the HTML syntax.) @17,30245,694,101
+text Errors that result in disproportionately poor performance @17,30358,694,20
+text Certain syntax constructs can result in disproportionately poor performance. To discourage the use of such constructs, they are typically made non-conforming. @17,30390,694,41
+text For example, the following markup results in poor performance, since all the unclosed elements have to be reconstructed in each paragraph, resulting in progressively more elements in each paragraph: @17,30443,694,41
+link i text-level-semantics.html#the-i-element @17,30496,694,20
+text She dreamt. She dreamt that she ate breakfast. Then lunch. And finally dinner. @17,30528,694,20
+card @17,30560,694,664
+  text < @34,30575,660,20
+  text p @34,30607,660,21
+  text >< @34,30640,660,20
+  text i @34,30672,660,20
+  text > @34,30704,660,21
+  text < @34,30737,660,20
+  text p @34,30769,660,20
+  text >< @34,30801,660,21
+  text i @34,30834,660,20
+  text > @34,30866,660,20
+  text < @34,30898,660,20
+  text p @34,30930,660,21
+  text >< @34,30963,660,20
+  text i @34,30995,660,20
+  text > @34,31027,660,21
+  text < @34,31060,660,20
+  text p @34,31092,660,20
+  text >< @34,31124,660,21
+  text i @34,31157,660,20
+  text > @34,31189,660,20
+text The resulting DOM for this fragment would be: @17,31236,694,20
+link p grouping-content.html#the-p-element @17,31268,694,21
+link i text-level-semantics.html#the-i-element @17,31301,694,20
+text : @17,31333,694,20
+row @17,31365,694,21
+  link #text https://dom.spec.whatwg.org/#interface-text @17,31365,34,21
+  text She dreamt. @63,31365,81,21
+link p grouping-content.html#the-p-element @17,31398,694,20
+link i text-level-semantics.html#the-i-element @17,31430,694,20
+link i text-level-semantics.html#the-i-element @17,31462,694,21
+text : @17,31495,694,20
+row @17,31527,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,31527,34,20
+  text She dreamt that she ate breakfast. @63,31527,229,20
+link p grouping-content.html#the-p-element @17,31559,694,20
+link i text-level-semantics.html#the-i-element @17,31591,694,21
+link i text-level-semantics.html#the-i-element @17,31624,694,20
+link i text-level-semantics.html#the-i-element @17,31656,694,20
+text : @17,31688,694,21
+row @17,31721,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,31721,34,20
+  text Then lunch. @63,31721,78,20
+link p grouping-content.html#the-p-element @17,31753,694,20
+link i text-level-semantics.html#the-i-element @17,31785,694,21
+link i text-level-semantics.html#the-i-element @17,31818,694,20
+link i text-level-semantics.html#the-i-element @17,31850,694,20
+link i text-level-semantics.html#the-i-element @17,31882,694,20
+text : @17,31914,694,21
+row @17,31947,694,20
+  link #text https://dom.spec.whatwg.org/#interface-text @17,31947,34,20
+  text And finally dinner. @63,31947,120,20
+text Errors involving fragile syntax constructs @17,31979,694,20
+text There are syntax constructs that, for historical reasons, are relatively fragile. To help reduce the number of users who accidentally run into such problems, they are made non-conforming. @17,32011,694,41
+text For example, the parsing of certain named character references in attributes happens even with the closing semicolon being omitted. It is safe to include an ampersand followed by letters that do not form a named character reference, but if the letters are changed to a string that does form a named character reference, they will be interpreted as that character instead. @17,32064,694,81
+text In this fragment, the attribute's value is "?bill&ted": @17,32157,694,20
+text Bill and Ted @17,32189,694,21
+card @17,32222,694,308
+  text < @34,32237,660,20
+  text a @34,32269,660,20
+  text href @34,32301,660,21
+  text = @34,32334,660,20
+  text "?bill&ted" @34,32366,660,20
+  text > @34,32398,660,21
+  text </ @34,32431,660,20
+  text a @34,32463,660,20
+  text > @34,32495,660,21
+text In the following fragment, however, the attribute's value is actually "?art©", not the intended "?art&copy", because even without the final semicolon, "&copy" is handled the same as "&copy;" and thus gets interpreted as "©": @17,32542,694,61
+text Art and Copy @17,32615,694,21
+card @17,32648,694,308
+  text < @34,32663,660,20
+  text a @34,32695,660,20
+  text href @34,32727,660,21
+  text = @34,32760,660,20
+  text "?art&copy" @34,32792,660,20
+  text > @34,32824,660,21
+  text </ @34,32857,660,20
+  text a @34,32889,660,20
+  text > @34,32921,660,20
+text To avoid this problem, all named character references are required to end with a semicolon, and uses of named character references without a semicolon are flagged as errors. @17,32968,694,41
+text Thus, the correct way to express the above cases is as follows: @17,33021,694,20
+text Bill and Ted @17,33053,694,21
+card @17,33086,694,341
+  text < @34,33101,660,20
+  text a success @34,33133,660,20
+  text href primary @34,33165,660,21
+  text = @34,33198,660,20
+  text "?bill&ted" warning @34,33230,660,20
+  text > @34,33262,660,20
+  text </ @34,33294,660,21
+  text a success @34,33327,660,20
+  text > @34,33359,660,20
+  text <!-- &ted is ok, since it's not a named character reference --> @34,33391,660,21
+text Art and Copy @17,33439,694,20
+card @17,33471,694,406
+  text < @34,33486,660,20
+  text a success @34,33518,660,21
+  text href primary @34,33551,660,20
+  text = @34,33583,660,20
+  text "?art&amp;copy" warning @34,33615,660,20
+  text > @34,33647,660,21
+  text </ @34,33680,660,20
+  text a success @34,33712,660,20
+  text > @34,33744,660,21
+  text <!-- the & has to be escaped, since &copy @34,33777,660,20
+  text is @34,33809,660,20
+  text a named character reference --> @34,33841,660,21
+text Errors involving known interoperability problems in legacy user agents @17,33889,694,20
+text Certain syntax constructs are known to cause especially subtle or serious problems in legacy user agents, and are therefore marked as non-conforming to help authors avoid them. @17,33921,694,40
+text For example, this is why the U+0060 GRAVE ACCENT character (`) is not allowed in unquoted attributes. In certain legacy user agents, it is sometimes treated as a quote character. @17,33973,694,41
+text Another example of this is the DOCTYPE, which is required to trigger , because the behavior of legacy user agents in is often largely undocumented. @17,34026,694,41
+link "no-quirks mode" https://dom.spec.whatwg.org/#concept-document-no-quirks @17,34079,694,20
+link "quirks mode" https://dom.spec.whatwg.org/#concept-document-quirks @17,34111,694,20
+text Errors that risk exposing authors to security attacks @17,34143,694,21
+text Certain restrictions exist purely to avoid known security problems. @17,34176,694,20
+text For example, the restriction on using UTF-7 exists purely to avoid authors falling prey to a known cross-site-scripting attack using UTF-7. @17,34208,694,40
+link [UTF7] references.html#refsUTF7 @17,34260,694,21
+text Cases where the author's intent is unclear @17,34293,694,20
+text Markup where the author's intent is very unclear is often made non-conforming. Correcting these errors early makes later maintenance easier. @17,34325,694,41
+text For example, it is unclear whether the author intended the following to be an heading or an heading: @17,34378,694,20
+row @17,34410,694,20
+  link h1 sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements @17,34410,14,20
+  link h2 sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements @43,34410,17,20
+text Contact details @17,34442,694,21
+card @17,34475,694,211
+  text < @34,34490,660,20
+  text h1 @34,34522,660,20
+  text > @34,34554,660,20
+  text </ @34,34586,660,21
+  text h2 @34,34619,660,20
+  text > @34,34651,660,20
+text Cases that are likely to be typos @17,34698,694,21
+text When a user makes a simple typo, it is helpful if the error can be caught early, as this can save the author a lot of debugging time. This specification therefore usually considers it an error to use element names, attribute names, and so forth, that do not match the names defined in this specification. @17,34731,694,61
+text For example, if the author typed <capton> instead of <caption>, this would be flagged as an error and the author could correct the typo immediately. @17,34804,694,40
+text Errors that could interfere with new syntax in the future @17,34856,694,20
+text In order to allow the language syntax to be extended in the future, certain otherwise harmless features are disallowed. @17,34888,694,41
+text For example, "attributes" in end tags are ignored currently, but they are invalid, in case a future change to the language makes use of that syntax feature without conflicting with already-deployed (and valid!) content. @17,34941,694,61
+text Some authors find it helpful to be in the practice of always quoting all attributes and always including all optional tags, preferring the consistency derived from such custom over the minor benefits of terseness afforded by making use of the flexibility of the HTML syntax. To aid such authors, conformance checkers can provide modes of operation wherein such conventions are enforced. @17,35014,694,81
+h3 1.11.3 Restrictions on content models and on attribute values @17,35107,694,19
+text This section is non-normative. @17,35138,694,20
+text Beyond the syntax of the language, this specification also places restrictions on how elements and attributes can be specified. These restrictions are present for similar reasons: @17,35170,694,41
+text Errors involving content with dubious semantics @17,35223,694,20
+text To avoid misuse of elements with defined meanings, content models are defined that restrict how elements can be nested when such nestings would be of dubious value. @17,35255,694,41
+text For example, this specification disallows nesting a element inside a element, since it is highly unlikely for an author to indicate that an entire section should be keyed in. @17,35308,694,40
+row @17,35360,694,21
+  link section sections.html#the-section-element @17,35360,49,21
+  link kbd text-level-semantics.html#the-kbd-element @78,35360,25,21
+text Errors that involve a conflict in expressed semantics @17,35393,694,20
+text Similarly, to draw the author's attention to mistakes in the use of elements, clear contradictions in the semantics expressed are also considered conformance errors. @17,35425,694,40
+text In the fragments below, for example, the semantics are nonsensical: a separator cannot simultaneously be a cell, nor can a radio button be a progress bar. @17,35477,694,41
+card @17,35530,694,212
+  text < @34,35545,660,20
+  text hr @34,35577,660,21
+  text role @34,35610,660,20
+  text = @34,35642,660,20
+  text "cell" @34,35674,660,21
+  text > @34,35707,660,20
+card @17,35754,694,309
+  text < @34,35769,660,20
+  text input @34,35801,660,20
+  text type @34,35833,660,21
+  text = @34,35866,660,20
+  text radio @34,35898,660,20
+  text role @34,35930,660,21
+  text = @34,35963,660,20
+  text progressbar @34,35995,660,20
+  text > @34,36027,660,21
+text Another example is the restrictions on the content models of the element, which only allows element children. Lists by definition consist just of zero or more list items, so if a element contains something other than an element, it's not clear what was meant. @17,36075,694,60
+link ul grouping-content.html#the-ul-element @17,36147,694,21
+link li grouping-content.html#the-li-element @17,36180,694,20
+link ul grouping-content.html#the-ul-element @17,36212,694,20
+link li grouping-content.html#the-li-element @17,36244,694,21
+text Cases where the default styles are likely to lead to confusion @17,36277,694,20
+text Certain elements have default styles or behaviors that make certain combinations likely to lead to confusion. Where these have equivalent alternatives without this problem, the confusing combinations are disallowed. @17,36309,694,61
+text For example, elements are rendered as , and elements as . Putting a in an is unnecessarily confusing; since either nesting just elements, or nesting just elements, or nesting elements inside elements all serve the same purpose as nesting a element in a element, but only the latter involves a in an , the latter combination is disallowed. @17,36382,694,81
+link div grouping-content.html#the-div-element @17,36475,694,20
+link "block boxes" https://drafts.csswg.org/css2/#block-boxes%E2%91%A0 @17,36507,694,21
+link span text-level-semantics.html#the-span-element @17,36540,694,20
+link "inline boxes" https://drafts.csswg.org/css2/#inline-box @17,36572,694,20
+link "block box" https://drafts.csswg.org/css2/#block-boxes%E2%91%A0 @17,36604,694,21
+link "inline box" https://drafts.csswg.org/css2/#inline-box @17,36637,694,20
+link div grouping-content.html#the-div-element @17,36669,694,20
+link span text-level-semantics.html#the-span-element @17,36701,694,20
+link span text-level-semantics.html#the-span-element @17,36733,694,21
+link div grouping-content.html#the-div-element @17,36766,694,20
+link div grouping-content.html#the-div-element @17,36798,694,20
+link span text-level-semantics.html#the-span-element @17,36830,694,21
+link "block box" https://drafts.csswg.org/css2/#block-boxes%E2%91%A0 @17,36863,694,20
+link "inline box" https://drafts.csswg.org/css2/#inline-box @17,36895,694,20
+text Another example would be the way cannot be nested. For example, a element cannot contain a element. This is because the default behavior of such nesting interactive elements would be highly confusing to users. Instead of nesting these elements, they can be placed side by side. @17,36927,694,61
+row @17,37000,694,20
+  link "interactive content" dom.html#interactive-content-2 @17,37000,124,20
+  link button form-elements.html#the-button-element @153,37000,43,20
+  link textarea form-elements.html#the-textarea-element @208,37000,55,20
+text Errors that indicate a likely misunderstanding of the specification @17,37032,694,21
+text Sometimes, something is disallowed because allowing it would likely cause author confusion. @17,37065,694,20
+text For example, setting the  attribute to the value "" is disallowed, because despite the appearance of meaning that the element is enabled, it in fact means that the element is  (what matters for implementations is the presence of the attribute, not its value). @17,37097,694,61
+link disabled form-control-infrastructure.html#attr-fe-disabled @17,37170,694,20
+text false @17,37202,694,21
+text disabled @17,37235,694,20
+text Errors involving limits that have been imposed merely to simplify the language @17,37267,694,20
+text Some conformance errors simplify the language that authors need to learn. @17,37299,694,20
+text For example, the element's attribute, despite accepting both and values in practice as synonyms, disallows the use of the value, so as to simplify tutorials and other learning aids. There would be no benefit to allowing both, but it would cause extra confusion when teaching the language. @17,37331,694,61
+link area image-maps.html#the-area-element @17,37404,694,21
+link shape image-maps.html#attr-area-shape @17,37437,694,20
+link circ image-maps.html#attr-area-shape-keyword-circ @17,37469,694,20
+link circle image-maps.html#attr-area-shape-keyword-circle @17,37501,694,21
+link circ image-maps.html#attr-area-shape-keyword-circ @17,37534,694,20
+text Errors that involve peculiarities of the parser @17,37566,694,20
+text Certain elements are parsed in somewhat eccentric ways (typically for historical reasons), and their content model restrictions are intended to avoid exposing the author to these issues. @17,37598,694,41
+text For example, a element isn't allowed inside , because when parsed as HTML, a element's start tag will imply a element's end tag. Thus, the following markup results in two , not one: @17,37651,694,40
+link form forms.html#the-form-element @17,37703,694,21
+link "phrasing content" dom.html#phrasing-content-2 @17,37736,694,20
+link form forms.html#the-form-element @17,37768,694,20
+link p grouping-content.html#the-p-element @17,37800,694,21
+link paragraphs dom.html#paragraph @17,37833,694,20
+text Welcome. Name: @17,37865,694,20
+card @17,37897,694,535
+  text < @34,37912,660,21
+  text p success @34,37945,660,20
+  text > @34,37977,660,20
+  text < @34,38009,660,20
+  text form success @34,38041,660,21
+  text >< @34,38074,660,20
+  text label success @34,38106,660,20
+  text > @34,38138,660,21
+  text </ @34,38171,660,20
+  text label success @34,38203,660,20
+  text > @34,38235,660,21
+  text < @34,38268,660,20
+  text input success @34,38300,660,20
+  text ></ @34,38332,660,20
+  text form success @34,38364,660,21
+  text > @34,38397,660,20
+text It is parsed exactly like the following: @17,38444,694,20
+text Welcome. Name: @17,38476,694,21
+card @17,38509,694,599
+  text < @34,38524,660,20
+  text p success @34,38556,660,20
+  text > @34,38588,660,21
+  text </ @34,38621,660,20
+  text p success @34,38653,660,20
+  text >< @34,38685,660,20
+  text form success @34,38717,660,21
+  text >< @34,38750,660,20
+  text label success @34,38782,660,20
+  text > @34,38814,660,21
+  text </ @34,38847,660,20
+  text label success @34,38879,660,20
+  text > @34,38911,660,21
+  text < @34,38944,660,20
+  text input success @34,38976,660,20
+  text ></ @34,39008,660,20
+  text form success @34,39040,660,21
+  text > @34,39073,660,20
+text Errors that would likely result in scripts failing in hard-to-debug ways @17,39120,694,20
+text Some errors are intended to help prevent script problems that would be hard to debug. @17,39152,694,21
+text This is why, for instance, it is non-conforming to have two attributes with the same value. Duplicate IDs lead to the wrong element being selected, with sometimes disastrous effects whose cause is hard to determine. @17,39185,694,61
+link id dom.html#the-id-attribute @17,39258,694,20
+text Errors that waste authoring time @17,39290,694,20
+text Some constructs are disallowed because historically they have been the cause of a lot of wasted authoring time, and by encouraging authors to avoid making them, authors can save time in future efforts. @17,39322,694,61
+text For example, a element's attribute causes the element's contents to be ignored. However, this isn't obvious, especially if the element's contents appear to be executable script — which can lead to authors spending a lot of time trying to debug the inline script without realizing that it is not executing. To reduce this problem, this specification makes it non-conforming to have executable script in a element when the attribute is present. This means that authors who are validating their documents are less likely to waste time with this kind of mistake. @17,39395,694,122
+link script scripting.html#the-script-element @17,39529,694,20
+link src scripting.html#attr-script-src @17,39561,694,20
+link script scripting.html#the-script-element @17,39593,694,21
+link src scripting.html#attr-script-src @17,39626,694,20
+text Errors that involve areas that affect authors migrating between the HTML and XML syntaxes @17,39658,694,20
+text Some authors like to write files that can be interpreted as both XML and HTML with similar results. Though this practice is discouraged in general due to the myriad of subtle complications involved (especially when involving scripting, styling, or any kind of automated serialization), this specification has a few restrictions intended to at least somewhat mitigate the difficulties. This makes it easier for authors to use this as a transitionary step when migrating between the HTML and XML syntaxes. @17,39690,694,102
+text For example, there are somewhat complicated rules surrounding the and attributes intended to keep the two synchronized. @17,39804,694,40
+row @17,39856,694,21
+  link lang dom.html#attr-lang @17,39856,29,21
+  link xml:lang https://www.w3.org/TR/xml/#sec-lang-tag @58,39856,56,21
+text Another example would be the restrictions on the values of xmlns attributes in the HTML serialization, which are intended to ensure that elements in conforming documents end up in the same namespaces whether processed as HTML or XML. @17,39889,694,61
+text Errors that involve areas reserved for future expansion @17,39962,694,20
+text As with the restrictions on the syntax intended to allow for new syntax in future revisions of the language, some restrictions on the content models of elements and values of attributes are intended to allow for future expansion of the HTML vocabulary. @17,39994,694,61
+text For example, limiting the values of the attribute that start with an U+005F LOW LINE character (_) to only specific predefined values allows new predefined values to be introduced at a future time without conflicting with author-defined values. @17,40067,694,61
+link target links.html#attr-hyperlink-target @17,40140,694,20
+text Errors that indicate a mis-use of other specifications @17,40172,694,20
+text Certain restrictions are intended to support the restrictions made by other specifications. @17,40204,694,21
+text For example, requiring that attributes that take media query lists use only valid media query lists reinforces the importance of following the conformance rules of that specification. @17,40237,694,40
+h3 1.12 Suggested reading @17,40289,694,19
+text This section is non-normative. @17,40320,694,20
+text The following documents might be of interest to readers of this specification. @17,40352,694,21
+row @17,40385,694,20
+  text Character Model for the World Wide Web 1.0: Fundamentals @17,40385,398,20
+  link [CHARMOD] references.html#refsCHARMOD @427,40385,83,20
+text This Architectural Specification provides authors of specifications, software developers, and content developers with a common reference for interoperable text manipulation on the World Wide Web, building on the Universal Character Set, defined jointly by the Unicode Standard and ISO/IEC 10646. Topics addressed include use of the terms 'character', 'encoding' and 'string', a reference processing model, choice and identification of character encodings, character escaping, and string indexing. @17,40417,694,101
+row @17,40530,694,21
+  text Unicode Security Considerations @17,40530,218,21
+  link [UTR36] references.html#refsUTR36 @247,40530,57,21
+text Because Unicode contains such a large number of characters and incorporates the varied writing systems of the world, incorrect usage can expose programs or systems to possible security attacks. This is especially important as more and more products are internationalized. This document describes some of the security considerations that programmers, system analysts, standards developers, and users should take into account, and provides specific recommendations to reduce the risk of problems. @17,40563,694,101
+row @17,40676,694,20
+  text Web Content Accessibility Guidelines (WCAG) @17,40676,306,20
+  link [WCAG] references.html#refsWCAG @335,40676,55,20
+text Web Content Accessibility Guidelines (WCAG) covers a wide range of recommendations for making web content more accessible. Following these guidelines will make content accessible to a wider range of people with disabilities, including blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech disabilities, photosensitivity and combinations of these. Following these guidelines will also often make your web content more usable to users in general. @17,40708,694,122
+row @17,40842,694,21
+  text Authoring Tool Accessibility Guidelines (ATAG) 2.0 @17,40842,337,21
+  link [ATAG] references.html#refsATAG @366,40842,50,21
+text This specification provides guidelines for designing web content authoring tools that are more accessible for people with disabilities. An authoring tool that conforms to these guidelines will promote accessibility by providing an accessible user interface to authors with disabilities as well as by enabling, supporting, and promoting the production of accessible web content by all authors. @17,40875,694,81
+row @17,40968,694,20
+  text User Agent Accessibility Guidelines (UAAG) 2.0 @17,40968,315,20
+  link [UAAG] references.html#refsUAAG @344,40968,51,20
+text This document provides guidelines for designing user agents that lower barriers to web accessibility for people with disabilities. User agents include browsers and other types of software that retrieve and render web content. A user agent that conforms to these guidelines will promote accessibility through its own user interface and through other internal facilities, including its ability to communicate with other technologies (especially assistive technologies). Furthermore, all users, not just users with disabilities, should find conforming user agents to be more usable. @17,41000,694,122
+text — @17,41134,694,20
+row @17,41166,694,20
+  link "Table of Contents" ./ @17,41166,119,20
+  link "2 Common infrastructure →" infrastructure.html @148,41166,184,20

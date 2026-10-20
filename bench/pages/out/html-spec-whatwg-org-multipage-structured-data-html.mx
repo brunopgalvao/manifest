@@ -1,0 +1,1485 @@
+@html_spec_whatwg_org_multipage_structure
+link "https://whatwg.org/" https://whatwg.org/
+h1 HTML
+text Living Standard — Last Updated 19 October 2026 success
+text —  —
+row
+  link "← 2.6 Common DOM interfaces" common-dom-interfaces.html
+  link "Table of Contents" ./
+  link "3 Semantics, structure, and APIs of HTML documents →" dom.html
+link "2.7 Safe passing of structured data" structured-data.html#safe-passing-of-structured-data
+link "2.7.1 Serializable objects" structured-data.html#serializable-objects
+link "2.7.2 Transferable objects" structured-data.html#transferable-objects
+link "2.7.3 Restricting to the same agent cluster" structured-data.html#restricting-to-the-same-agent-cluster
+link "2.7.4 StructuredSerializeInternal ( value, forStorage [ , memory ] )" structured-data.html#structuredserializeinternal
+link "2.7.5 StructuredSerialize ( value )" structured-data.html#structuredserialize
+link "2.7.6 StructuredSerializeForStorage ( value )" structured-data.html#structuredserializeforstorage
+link "2.7.7 StructuredDeserialize ( serialized, targetRealm [ , memory ] )" structured-data.html#structureddeserialize
+link "2.7.8 StructuredSerializeWithTransfer ( value, transferList )" structured-data.html#structuredserializewithtransfer
+link "2.7.9 StructuredDeserializeWithTransfer ( serializeWithTransferResult, targetRealm )" structured-data.html#structureddeserializewithtransfer
+link "2.7.10 Performing serialization and transferring from other specifications" structured-data.html#performing-structured-clones-from-other-specifications
+link "2.7.11 Structured cloning API" structured-data.html#structured-cloning
+h3 2.7 Safe passing of structured data
+text "To support passing JavaScript objects, including , across  boundaries, this specification defines the following infrastructure for serializing and deserializing objects, including in some cases transferring the underlying data instead of copying it. Collectively this serialization/deserialization process is known as \"structured cloning\", although most APIs perform separate serialization and deserialization steps. (With the notable exception being the  method.)"
+link "platform objects" https://webidl.spec.whatwg.org/#dfn-platform-object
+link realm https://tc39.es/ecma262/#sec-code-realms
+link structuredClone() #dom-structuredclone
+text This section uses the terminology and typographic conventions from the JavaScript specification.
+link [JAVASCRIPT] references.html#refsJAVASCRIPT
+h3 2.7.1 Serializable objects
+button MDN
+text support being serialized, and later deserialized, in a way that is independent of any given . This allows them to be stored on disk and later restored, or cloned across  and even  boundaries.
+link "Serializable objects" #serializable-objects
+link realm https://tc39.es/ecma262/#sec-code-realms
+link agent https://tc39.es/ecma262/#sec-agents
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters
+text Not all objects are , and not all aspects of objects that are  are necessarily preserved when they are serialized.
+row
+  link "serializable objects" #serializable-objects
+  link "serializable objects" #serializable-objects
+text can be  if their  is decorated with the  IDL . Such interfaces must also define the following algorithms:
+row
+  link "Platform objects" https://webidl.spec.whatwg.org/#dfn-platform-object
+  link "serializable objects" #serializable-objects
+  link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface
+  text [Serializable]
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+text , taking a  , a  , and a boolean
+row
+  text serialization steps
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+  text value
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+  text serialized
+  text forStorage
+text A set of steps that serializes the data in  into fields of . The resulting data serialized into  must be independent of any . If  is  to the same , then it may also refer to data that is only accessible within that agent cluster.
+text value
+text serialized
+text serialized
+link realm https://tc39.es/ecma262/#sec-code-realms
+text serialized
+link restricted #restrict-to-the-same-agent-cluster
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters
+text has an [[AgentCluster]] field, which is null unless  is restricted to the same agent cluster.
+row
+  text serialized
+  text serialized
+text These steps may throw an exception if serialization is not possible.
+text These steps may perform a  to serialize nested data structures. They should not call  directly, as doing so will omit the important  argument.
+link sub-serialization #sub-serialization
+link StructuredSerialize #structuredserialize
+text memory
+text The introduction of these steps should omit mention of the  argument if it is not relevant to the algorithm.
+text forStorage
+text , taking a  , a  , and a
+row
+  text deserialization steps
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+  text serialized
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+  text value
+  link realm https://tc39.es/ecma262/#sec-code-realms
+  text targetRealm
+text A set of steps that deserializes the data in , using it to set up  as appropriate.  will be a newly-created instance of the  type in question, with none of its internal data set up; setting that up is the job of these steps.
+text serialized
+text value
+text value
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+text These steps may throw an exception if deserialization is not possible.
+text These steps may perform a  to deserialize nested data structures. They should not call  directly, as doing so will omit the important  and  arguments.
+link sub-deserialization #sub-deserialization
+link StructuredDeserialize #structureddeserialize
+text targetRealm
+text memory
+text It is up to the definition of individual platform objects to determine what data is serialized and deserialized by these steps. Typically the steps are very symmetric.
+text The  extended attribute must take no arguments, and must only appear on an interface. It must not appear more than once on an interface.
+link [Serializable] #serializable
+text For a given , only the object's  is considered during the (de)serialization process. Thus, if inheritance is involved in defining the interface, each -annotated interface in the inheritance chain needs to define standalone  and , including taking into account any important data that might come from inherited interfaces.
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface
+link [Serializable] #serializable
+link "serialization steps" #serialization-steps
+link "deserialization steps" #deserialization-steps
+text Let's say we were defining a platform object Person, which had associated with it two pieces of associated data:
+text a name value, which is a string; and
+text a best friend value, which is either another Person instance or null.
+text We could then define  instances to be  by annotating the  interface with the  , and defining the following accompanying algorithms:
+text Person
+link "serializable objects" #serializable-objects
+text Person
+link [Serializable] #serializable
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+text Their , given  and :
+row
+  link "serialization steps" #serialization-steps
+  text value
+  text serialized
+text Set .[[Name]] to 's associated name value.
+row
+  text serialized
+  text value
+text Let  be the  of 's associated best friend value.
+row
+  text serializedBestFriend
+  link sub-serialization #sub-serialization
+  text value
+text Set .[[BestFriend]] to .
+row
+  text serialized
+  text serializedBestFriend
+text Their , given , , and :
+row
+  link "deserialization steps" #deserialization-steps
+  text serialized
+  text value
+  text targetRealm
+text Set 's associated name value to .[[Name]].
+row
+  text value
+  text serialized
+text Let  be the  of .[[BestFriend]].
+row
+  text deserializedBestFriend
+  link sub-deserialization #sub-deserialization
+  text serialized
+text Set 's associated best friend value to .
+row
+  text value
+  text deserializedBestFriend
+text Objects defined in the JavaScript specification are handled by the  abstract operation directly.
+link StructuredSerialize #structuredserialize
+text "Originally, this specification defined the concept of \"cloneable objects\", which could be cloned from one  to another. However, to better specify the behavior of certain more complex situations, the model was updated to make the serialization and deserialization explicit." success
+link realm https://tc39.es/ecma262/#sec-code-realms
+h3 2.7.2 Transferable objects
+text support being transferred across . Transferring is effectively recreating the object while sharing a reference to the underlying data and then detaching the object being transferred. This is useful to transfer ownership of expensive resources. Not all objects are  and not all aspects of objects that are  are necessarily preserved when transferred.
+link "Transferable objects" #transferable-objects
+link agents https://tc39.es/ecma262/#sec-agents
+link "transferable objects" #transferable-objects
+link "transferable objects" #transferable-objects
+text Transferring is an irreversible and non-idempotent operation. Once an object has been transferred, it cannot be transferred, or indeed used, again. success
+text can be  if their  is decorated with the  IDL . Such interfaces must also define the following algorithms:
+row
+  link "Platform objects" https://webidl.spec.whatwg.org/#dfn-platform-object
+  link "transferable objects" #transferable-objects
+  link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface
+  text [Transferable]
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+text , taking a   and a
+row
+  text transfer steps
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+  text value
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+  text dataHolder
+text A set of steps that transfers the data in  into fields of . The resulting data held in  must be independent of any . If  is  to the same , then it may also refer to data that is only accessible within that agent cluster.
+text value
+text dataHolder
+text dataHolder
+link realm https://tc39.es/ecma262/#sec-code-realms
+text dataHolder
+link restricted #restrict-to-the-same-agent-cluster
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters
+text has an [[AgentCluster]] field, which is null unless  is restricted to the same agent cluster.
+row
+  text dataHolder
+  text dataHolder
+text These steps may throw an exception if transferral is not possible.
+text , taking a   and a
+row
+  text transfer-receiving steps
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+  text dataHolder
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+  text value
+text A set of steps that receives the data in , using it to set up  as appropriate.  will be a newly-created instance of the  type in question, with none of its internal data set up; setting that up is the job of these steps.
+text dataHolder
+text value
+text value
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+text These steps may throw an exception if it is not possible to receive the transfer.
+text It is up to the definition of individual platform objects to determine what data is transferred by these steps. Typically the steps are very symmetric.
+text The  extended attribute must take no arguments, and must only appear on an interface. It must not appear more than once on an interface.
+link [Transferable] #transferable
+text For a given , only the object's  is considered during the transferring process. Thus, if inheritance is involved in defining the interface, each -annotated interface in the inheritance chain needs to define standalone  and , including taking into account any important data that might come from inherited interfaces.
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface
+link [Transferable] #transferable
+link "transfer steps" #transfer-steps
+link "transfer-receiving steps" #transfer-receiving-steps
+text that are  have a  internal slot. This is used to ensure that once a platform object has been transferred, it cannot be transferred again.
+row
+  link "Platform objects" https://webidl.spec.whatwg.org/#dfn-platform-object
+  link "transferable objects" #transferable-objects
+  text [[Detached]]
+text Objects defined in the JavaScript specification are handled by the  abstract operation directly.
+link StructuredSerializeWithTransfer #structuredserializewithtransfer
+h3 2.7.3 Restricting to the same agent cluster
+text Some objects, such as  objects, are restricted to the same : they can only be deserialized or received in the agent cluster they were serialized or transferred from. Such objects also cannot be serialized for storage. For example, when  is used to send one to a cross-site , a shared worker, or a service worker, a  event is fired instead of a  event.
+link SharedArrayBuffer https://tc39.es/ecma262/#sec-sharedarraybuffer-objects
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters
+text postMessage()
+link iframe iframe-embed-object.html#the-iframe-element
+link messageerror indices.html#event-messageerror
+link message indices.html#event-message
+text are restricted to the same  when they are serialized or transferred if their  is decorated with the  IDL .
+link "Platform objects" https://webidl.spec.whatwg.org/#dfn-platform-object
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters
+link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface
+text [SameAgentCluster]
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+text The  extended attribute must take no arguments, and must only appear on an interface that is also decorated with the  extended attribute or the  extended attribute. It must not appear more than once on an interface.
+link [SameAgentCluster] #sameagentcluster
+link [Serializable] #serializable
+link [Transferable] #transferable
+text For a given , only the object's  is considered. Thus, if inheritance is involved in defining the interface, each interface in the inheritance chain whose objects are to be restricted to the same agent cluster needs to be decorated with the  extended attribute.
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface
+link [SameAgentCluster] #sameagentcluster
+text The  and  of other interfaces can restrict their result to the same agent cluster themselves, for instance when only some of their objects need it:
+row
+  link "serialization steps" #serialization-steps
+  link "transfer steps" #transfer-steps
+text To  a   to the same , set .[[AgentCluster]] to the 's .
+row
+  text restrict
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+  text record
+  link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters
+  text record
+  link "surrounding agent" https://tc39.es/ecma262/#surrounding-agent
+  link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters
+h3 2.7.4 StructuredSerializeInternal ( value, forStorage [ , memory ] )
+text The  abstract operation takes as input a JavaScript value  and serializes it to a -independent form, represented here as a . This serialized form has all the information necessary to later deserialize into a new JavaScript value in a different realm.
+link StructuredSerializeInternal #structuredserializeinternal
+text value
+link realm https://tc39.es/ecma262/#sec-code-realms
+link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text This process can throw an exception, for example when trying to serialize un-serializable objects.
+text If  was not supplied, let  be an empty .
+row
+  text memory
+  text memory
+  link map https://infra.spec.whatwg.org/#ordered-map
+text The purpose of the  map is to avoid serializing objects twice. This ends up preserving cycles and the identity of duplicate objects in graphs. success
+text memory success
+text If [] , then return [].
+row
+  text memory
+  text value
+  link exists https://infra.spec.whatwg.org/#map-exists
+  text memory
+  text value
+text Let  be false.
+text deep
+text Let  be false.
+text sameAgentCluster
+text "If  is undefined, null, , , , or , then return { [[Type]]: \"primitive\", [[Value]]:  }."
+row
+  text value
+  link "a Boolean" https://tc39.es/ecma262/#sec-ecmascript-language-types-boolean-type
+  link "a Number" https://tc39.es/ecma262/#sec-ecmascript-language-types-number-type
+  link "a BigInt" https://tc39.es/ecma262/#sec-ecmascript-language-types-bigint-type
+  link "a String" https://tc39.es/ecma262/#sec-ecmascript-language-types-string-type
+  text value
+text If  , then throw a  .
+row
+  text value
+  link "is a Symbol" https://tc39.es/ecma262/#sec-ecmascript-language-types-symbol-type
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text Let  be an uninitialized value.
+text serialized
+text "If  has a [[BooleanData]] internal slot, then set  to { [[Type]]: \"Boolean\", [[BooleanData]]: .[[BooleanData]] }."
+row
+  text value
+  text serialized
+  text value
+text "Otherwise, if  has a [[NumberData]] internal slot, then set  to { [[Type]]: \"Number\", [[NumberData]]: .[[NumberData]] }."
+row
+  text value
+  text serialized
+  text value
+text "Otherwise, if  has a [[BigIntData]] internal slot, then set  to { [[Type]]: \"BigInt\", [[BigIntData]]: .[[BigIntData]] }."
+row
+  text value
+  text serialized
+  text value
+text "Otherwise, if  has a [[StringData]] internal slot, then set  to { [[Type]]: \"String\", [[StringData]]: .[[StringData]] }."
+row
+  text value
+  text serialized
+  text value
+text "Otherwise, if  has a [[DateValue]] internal slot, then set  to { [[Type]]: \"Date\", [[DateValue]]: .[[DateValue]] }."
+row
+  text value
+  text serialized
+  text value
+text "Otherwise, if  has a [[RegExpMatcher]] internal slot, then set  to { [[Type]]: \"RegExp\", [[RegExpMatcher]]: .[[RegExpMatcher]], [[OriginalSource]]: .[[OriginalSource]], [[OriginalFlags]]: .[[OriginalFlags]] }."
+text value
+text serialized
+text value
+text value
+text value
+text Otherwise, if  has an [[ArrayBufferData]] internal slot:
+text value
+text If () is true:
+row
+  link IsSharedArrayBuffer https://tc39.es/ecma262/#sec-issharedarraybuffer
+  text value
+text If the 's  is false, then throw a  .
+row
+  link "current settings object" webappapis.html#current-settings-object
+  link "cross-origin isolated capability" webappapis.html#concept-settings-object-cross-origin-isolated-capability
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text This check is only needed when serializing (and not when deserializing) as the  cannot change over time and a  cannot leave an . success
+link "cross-origin isolated capability" webappapis.html#concept-settings-object-cross-origin-isolated-capability
+link SharedArrayBuffer https://tc39.es/ecma262/#sec-sharedarraybuffer-objects
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters
+text "If  has an [[ArrayBufferMaxByteLength]] internal slot, then set  to { [[Type]]: \"GrowableSharedArrayBuffer\", [[ArrayBufferData]]: .[[ArrayBufferData]], [[ArrayBufferByteLengthData]]: .[[ArrayBufferByteLengthData]], [[ArrayBufferMaxByteLength]]: .[[ArrayBufferMaxByteLength]] }."
+text value
+text serialized
+text value
+text value
+text value
+text "Otherwise, set  to { [[Type]]: \"SharedArrayBuffer\", [[ArrayBufferData]]: .[[ArrayBufferData]], [[ArrayBufferByteLength]]: .[[ArrayBufferByteLength]] }."
+text serialized
+text value
+text value
+text Set  to true.
+text sameAgentCluster
+text Otherwise:
+text If () is true, then throw a  .
+row
+  link IsDetachedBuffer https://tc39.es/ecma262/#sec-isdetachedbuffer
+  text value
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text Let  be .[[ArrayBufferByteLength]].
+row
+  text size
+  text value
+text Let  be ? ().
+row
+  text dataCopy
+  link CreateByteDataBlock https://tc39.es/ecma262/#sec-createbytedatablock
+  text size
+text This can throw a  exception upon allocation failure. success
+link RangeError https://tc39.es/ecma262/#sec-native-error-types-used-in-this-standard-rangeerror
+text Perform (, 0, .[[ArrayBufferData]], 0, ).
+row
+  link CopyDataBlockBytes https://tc39.es/ecma262/#sec-copydatablockbytes
+  text dataCopy
+  text value
+  text size
+text "If  has an [[ArrayBufferMaxByteLength]] internal slot, then set  to { [[Type]]: \"ResizableArrayBuffer\", [[ArrayBufferData]]: , [[ArrayBufferByteLength]]: , [[ArrayBufferMaxByteLength]]: .[[ArrayBufferMaxByteLength]] }."
+text value
+text serialized
+text dataCopy
+text size
+text value
+text "Otherwise, set  to { [[Type]]: \"ArrayBuffer\", [[ArrayBufferData]]: , [[ArrayBufferByteLength]]:  }."
+row
+  text serialized
+  text dataCopy
+  text size
+text Otherwise, if  has a [[ViewedArrayBuffer]] internal slot:
+text value
+text If () is true, then throw a  .
+row
+  link IsArrayBufferViewOutOfBounds https://tc39.es/ecma262/#sec-isarraybufferviewoutofbounds
+  text value
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text Let  be the value of 's [[ViewedArrayBuffer]] internal slot.
+row
+  text buffer
+  text value
+text Let  be ? (, , ).
+row
+  text bufferSerialized
+  link StructuredSerializeInternal #structuredserializeinternal
+  text buffer
+  text forStorage
+  text memory
+text ": .[[Type]] is \"ArrayBuffer\", \"ResizableArrayBuffer\", \"SharedArrayBuffer\", or \"GrowableSharedArrayBuffer\"."
+row
+  link Assert https://infra.spec.whatwg.org/#assert
+  text bufferSerialized
+text "If  has a [[DataView]] internal slot, then set  to { [[Type]]: \"ArrayBufferView\", [[Constructor]]: \"DataView\", [[ArrayBufferSerialized]]: , [[ByteLength]]: .[[ByteLength]], [[ByteOffset]]: .[[ByteOffset]] }."
+text value
+text serialized
+text bufferSerialized
+text value
+text value
+text Otherwise:
+text :  has a [[TypedArrayName]] internal slot.
+row
+  link Assert https://infra.spec.whatwg.org/#assert
+  text value
+text "Set  to { [[Type]]: \"ArrayBufferView\", [[Constructor]]: .[[TypedArrayName]], [[ArrayBufferSerialized]]: , [[ByteLength]]: .[[ByteLength]], [[ByteOffset]]: .[[ByteOffset]], [[ArrayLength]]: .[[ArrayLength]] }."
+text serialized
+text value
+text bufferSerialized
+text value
+text value
+text value
+text Otherwise, if  has a [[MapData]] internal slot:
+text value
+text "Set  to { [[Type]]: \"Map\", [[MapData]]: a new empty  }."
+row
+  text serialized
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text Set  to true.
+text deep
+text Otherwise, if  has a [[SetData]] internal slot:
+text value
+text "Set  to { [[Type]]: \"Set\", [[SetData]]: a new empty  }."
+row
+  text serialized
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text Set  to true.
+text deep
+text Otherwise, if  has an [[ErrorData]] internal slot and  is not a :
+row
+  text value
+  text value
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+text "Let  be ? (, \"name\")."
+row
+  text name
+  link Get https://tc39.es/ecma262/#sec-get-o-p
+  text value
+text "If  is not one of \"Error\", \"EvalError\", \"RangeError\", \"ReferenceError\", \"SyntaxError\", \"TypeError\", or \"URIError\", then set  to \"Error\"."
+row
+  text name
+  text name
+text "Let  be ? .[[GetOwnProperty]](\"\")."
+row
+  text valueMessageDesc
+  text value
+  text message
+text Let  be undefined if () is false, and ? (.[[Value]]) otherwise.
+row
+  text message
+  link IsDataDescriptor https://tc39.es/ecma262/#sec-isdatadescriptor
+  text valueMessageDesc
+  link ToString https://tc39.es/ecma262/#sec-tostring
+  text valueMessageDesc
+text Let  be an  string that represents .[[Stack]].
+row
+  text stack
+  link implementation-defined https://infra.spec.whatwg.org/#implementation-defined
+  text value
+  link [JSERRORSTACKACCESSOR] references.html#refsJSERRORSTACKACCESSOR
+  link [JSERRORSTACKS] references.html#refsJSERRORSTACKS
+text "Set  to { [[Type]]: \"Error\", [[Name]]: , [[Message]]: , [[Stack]]:  }."
+row
+  text serialized
+  text name
+  text message
+  text stack
+text User agents should attach a serialized representation of any interesting accompanying data which are not yet specified to .
+text serialized
+text Otherwise, if  is an Array exotic object:
+text value
+text "Let  be ? (, \"\")."
+row
+  text valueLenDescriptor
+  link OrdinaryGetOwnProperty https://tc39.es/ecma262/#sec-ordinarygetownproperty
+  text value
+  text length
+text Let  be .[[Value]].
+row
+  text valueLen
+  text valueLenDescriptor
+text "Set  to { [[Type]]: \"Array\", [[Length]]: , [[Properties]]: a new empty  }."
+row
+  text serialized
+  text valueLen
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text Set  to true.
+text deep
+text Otherwise, if  is a  that is a :
+row
+  text value
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+  link "serializable object" #serializable-objects
+text If  has a  internal slot whose value is true, then throw a  .
+row
+  text value
+  link [[Detached]] #detached
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text Let  be the identifier of the  of .
+row
+  text typeString
+  link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface
+  text value
+text Set  to { [[Type]]:  }.
+row
+  text serialized
+  text typeString
+text If 's  is decorated with , then set  to true.
+row
+  text value
+  link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface
+  link [SameAgentCluster] #sameagentcluster
+  text sameAgentCluster
+text Set  to true.
+text deep
+text Otherwise, if  is a , then throw a  .
+row
+  text value
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text Otherwise, if () is true, then throw a  .
+row
+  link IsCallable https://tc39.es/ecma262/#sec-iscallable
+  text value
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text Otherwise, if  has any internal slot other than [[Prototype]], [[Extensible]], or [[PrivateElements]], then throw a  .
+text value
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text For instance, a [[PromiseState]] or [[WeakMapData]] internal slot.
+text Otherwise, if  is an exotic object and  is not the  intrinsic object associated with any , then throw a  .
+text value
+text value
+link %Object.prototype% https://tc39.es/ecma262/#sec-properties-of-the-object-prototype-object
+link realm https://tc39.es/ecma262/#sec-code-realms
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text For instance, a proxy object.
+text Otherwise:
+text "Set  to { [[Type]]: \"Object\", [[Properties]]: a new empty  }."
+row
+  text serialized
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text Set  to true.
+text deep
+text will end up being handled via this step and subsequent steps. The end result is that its exoticness is ignored, and after deserialization the result will be an empty object (not an ). success
+link %Object.prototype% https://tc39.es/ecma262/#sec-properties-of-the-object-prototype-object
+link "immutable prototype exotic object" https://tc39.es/ecma262/#immutable-prototype-exotic-object
+text If  is true, then   to the same agent cluster; otherwise, set .[[AgentCluster]] to null.
+row
+  text sameAgentCluster
+  link restrict #restrict-to-the-same-agent-cluster
+  text serialized
+  text serialized
+text [] to .
+row
+  link Set https://infra.spec.whatwg.org/#map-set
+  text memory
+  text value
+  text serialized
+text If  is true:
+text deep
+text If  has a [[MapData]] internal slot:
+text value
+text Let  be a new empty .
+row
+  text copiedList
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text { [[Key]], [[Value]] }  of .[[MapData]]:
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+  text entry
+  text value
+text Let  be a new  { [[Key]]: .[[Key]], [[Value]]: .[[Value]] }.
+row
+  text copiedEntry
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+  text entry
+  text entry
+text If .[[Key]] is not the special value ,   to .
+row
+  text copiedEntry
+  text empty
+  link append https://infra.spec.whatwg.org/#list-append
+  text copiedEntry
+  text copiedList
+text { [[Key]], [[Value]] }  of :
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+  text entry
+  text copiedList
+text Let  be ? (.[[Key]], , ).
+row
+  text serializedKey
+  link StructuredSerializeInternal #structuredserializeinternal
+  text entry
+  text forStorage
+  text memory
+text Let  be ? (.[[Value]], , ).
+row
+  text serializedValue
+  link StructuredSerializeInternal #structuredserializeinternal
+  text entry
+  text forStorage
+  text memory
+text { [[Key]]: , [[Value]]:  } to .[[MapData]].
+row
+  link Append https://infra.spec.whatwg.org/#list-append
+  text serializedKey
+  text serializedValue
+  text serialized
+text Otherwise, if  has a [[SetData]] internal slot:
+text value
+text Let  be a new empty .
+row
+  text copiedList
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text of .[[SetData]]:
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  text entry
+  text value
+text If  is not the special value ,   to .
+row
+  text entry
+  text empty
+  link append https://infra.spec.whatwg.org/#list-append
+  text entry
+  text copiedList
+text of :
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  text entry
+  text copiedList
+text Let  be ? (, , ).
+row
+  text serializedEntry
+  link StructuredSerializeInternal #structuredserializeinternal
+  text entry
+  text forStorage
+  text memory
+text to .[[SetData]].
+row
+  link Append https://infra.spec.whatwg.org/#list-append
+  text serializedEntry
+  text serialized
+text Otherwise, if  is a  that is a , then perform the  for 's , given , , and .
+text value
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+link "serializable object" #serializable-objects
+link "serialization steps" #serialization-steps
+text value
+link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface
+text value
+text serialized
+text forStorage
+text The  may need to perform a . This is an operation which takes as input a value , and returns (, , ). (In other words, a  is a specialization of  to be consistent within this invocation.)
+link "serialization steps" #serialization-steps
+text sub-serialization
+text subValue
+link StructuredSerializeInternal #structuredserializeinternal
+text subValue
+text forStorage
+text memory
+link sub-serialization #sub-serialization
+link StructuredSerializeInternal #structuredserializeinternal
+text Otherwise, for each  in ! (, key):
+row
+  text key
+  link EnumerableOwnProperties https://tc39.es/ecma262/#sec-enumerableownproperties
+  text value
+text If ! (, ) is true:
+row
+  link HasOwnProperty https://tc39.es/ecma262/#sec-hasownproperty
+  text value
+  text key
+text Let  be ? .[[Get]](, ).
+row
+  text inputValue
+  text value
+  text key
+  text value
+text Let  be ? (, , ).
+row
+  text outputValue
+  link StructuredSerializeInternal #structuredserializeinternal
+  text inputValue
+  text forStorage
+  text memory
+text { [[Key]]: , [[Value]]:  } to .[[Properties]].
+row
+  link Append https://infra.spec.whatwg.org/#list-append
+  text key
+  text outputValue
+  text serialized
+text If  is true and .[[AgentCluster]] is not null, then throw a  .
+row
+  text forStorage
+  text serialized
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text This happens after the  have run, as they can   to the same agent cluster too. success
+row
+  link "serialization steps" #serialization-steps
+  link restrict #restrict-to-the-same-agent-cluster
+  text serialized success
+text Return .
+text serialized
+text "It's important to realize that the  produced by  might contain \"pointers\" to other records that create circular references. For example, when we pass the following JavaScript object into :"
+link Records https://tc39.es/ecma262/#sec-list-and-record-specification-type
+link StructuredSerializeInternal #structuredserializeinternal
+link StructuredSerializeInternal #structuredserializeinternal
+text o   omyself  o
+card
+  text const danger
+  text =
+  text {};
+  text .
+  text =
+  text ;
+text it produces the following result:
+text "{ [[Type]]: \"Object\", [[Properties]]: « { [[Key]]: \"myself\", [[Value]]: <a pointer to this whole structure> } » }"
+h3 2.7.5 StructuredSerialize ( value )
+text Return ? (, false).
+row
+  link StructuredSerializeInternal #structuredserializeinternal
+  text value
+h3 2.7.6 StructuredSerializeForStorage ( value )
+text Return ? (, true).
+row
+  link StructuredSerializeInternal #structuredserializeinternal
+  text value
+h3 2.7.7 StructuredDeserialize ( serialized, targetRealm [ , memory ] )
+text The  abstract operation takes as input a  , which was previously produced by  or , and deserializes it into a new JavaScript value, created in .
+link StructuredDeserialize #structureddeserialize
+link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text serialized
+link StructuredSerialize #structuredserialize
+link StructuredSerializeForStorage #structuredserializeforstorage
+text targetRealm
+text This process can throw an exception, for example when trying to allocate memory for the new objects (especially ArrayBuffer objects).
+text If  was not supplied, let  be an empty .
+row
+  text memory
+  text memory
+  link map https://infra.spec.whatwg.org/#ordered-map
+text The purpose of the  map is to avoid deserializing objects twice. This ends up preserving cycles and the identity of duplicate objects in graphs. success
+text memory success
+text If [] , then return [].
+row
+  text memory
+  text serialized
+  link exists https://infra.spec.whatwg.org/#map-exists
+  text memory
+  text serialized
+text "If .[[Type]] is \"primitive\", then return .[[Value]]."
+row
+  text serialized
+  text serialized
+text If .[[AgentCluster]] is not null and 's corresponding  is not .[[AgentCluster]], then throw a  .
+text serialized
+text targetRealm
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters
+text serialized
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text Let  be false.
+text deep
+text Let  be an uninitialized value.
+text value
+text "If .[[Type]] is \"Boolean\", then set  to a new Boolean object in  whose [[BooleanData]] internal slot value is .[[BooleanData]]."
+row
+  text serialized
+  text value
+  text targetRealm
+  text serialized
+text "Otherwise, if .[[Type]] is \"Number\", then set  to a new Number object in  whose [[NumberData]] internal slot value is .[[NumberData]]."
+text serialized
+text value
+text targetRealm
+text serialized
+text "Otherwise, if .[[Type]] is \"BigInt\", then set  to a new BigInt object in  whose [[BigIntData]] internal slot value is .[[BigIntData]]."
+row
+  text serialized
+  text value
+  text targetRealm
+  text serialized
+text "Otherwise, if .[[Type]] is \"String\", then set  to a new String object in  whose [[StringData]] internal slot value is .[[StringData]]."
+row
+  text serialized
+  text value
+  text targetRealm
+  text serialized
+text "Otherwise, if .[[Type]] is \"Date\", then set  to a new Date object in  whose [[DateValue]] internal slot value is .[[DateValue]]."
+row
+  text serialized
+  text value
+  text targetRealm
+  text serialized
+text "Otherwise, if .[[Type]] is \"RegExp\", then set  to a new RegExp object in  whose [[RegExpMatcher]] internal slot value is .[[RegExpMatcher]], whose [[OriginalSource]] internal slot value is .[[OriginalSource]], and whose [[OriginalFlags]] internal slot value is .[[OriginalFlags]]."
+text serialized
+text value
+text targetRealm
+text serialized
+text serialized
+text serialized
+text "Otherwise, if .[[Type]] is \"SharedArrayBuffer\", then set  to a new SharedArrayBuffer object in  whose [[ArrayBufferData]] internal slot value is .[[ArrayBufferData]] and whose [[ArrayBufferByteLength]] internal slot value is .[[ArrayBufferByteLength]]."
+text serialized
+text value
+text targetRealm
+text serialized
+text serialized
+text "Otherwise, if .[[Type]] is \"GrowableSharedArrayBuffer\", then set  to a new SharedArrayBuffer object in  whose [[ArrayBufferData]] internal slot value is .[[ArrayBufferData]], whose [[ArrayBufferByteLengthData]] internal slot value is .[[ArrayBufferByteLengthData]], and whose [[ArrayBufferMaxByteLength]] internal slot value is .[[ArrayBufferMaxByteLength]]."
+text serialized
+text value
+text targetRealm
+text serialized
+text serialized
+text serialized
+text "Otherwise, if .[[Type]] is \"ArrayBuffer\", then set  to a new ArrayBuffer object in  whose [[ArrayBufferData]] internal slot value is .[[ArrayBufferData]], and whose [[ArrayBufferByteLength]] internal slot value is .[[ArrayBufferByteLength]]."
+text serialized
+text value
+text targetRealm
+text serialized
+text serialized
+text If this throws an exception, catch it, and then throw a  .
+row
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text This step might throw an exception if there is not enough memory available to create such an ArrayBuffer object. success
+text "Otherwise, if .[[Type]] is \"ResizableArrayBuffer\", then set  to a new ArrayBuffer object in  whose [[ArrayBufferData]] internal slot value is .[[ArrayBufferData]], whose [[ArrayBufferByteLength]] internal slot value is .[[ArrayBufferByteLength]], and whose [[ArrayBufferMaxByteLength]] internal slot value is .[[ArrayBufferMaxByteLength]]."
+text serialized
+text value
+text targetRealm
+text serialized
+text serialized
+text serialized
+text If this throws an exception, catch it, and then throw a  .
+row
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text This step might throw an exception if there is not enough memory available to create such an ArrayBuffer object. success
+text "Otherwise, if .[[Type]] is \"ArrayBufferView\":"
+text serialized
+text Let  be ? (.[[ArrayBufferSerialized]], , ).
+row
+  text deserializedArrayBuffer
+  link StructuredDeserialize #structureddeserialize
+  text serialized
+  text targetRealm
+  text memory
+text "If .[[Constructor]] is \"DataView\", then set  to a new DataView object in  whose [[ViewedArrayBuffer]] internal slot value is , whose [[ByteLength]] internal slot value is .[[ByteLength]], and whose [[ByteOffset]] internal slot value is .[[ByteOffset]]."
+text serialized
+text value
+text targetRealm
+text deserializedArrayBuffer
+text serialized
+text serialized
+text Otherwise, set  to a new typed array object in , using the constructor given by .[[Constructor]], whose [[ViewedArrayBuffer]] internal slot value is , whose [[TypedArrayName]] internal slot value is .[[Constructor]], whose [[ByteLength]] internal slot value is .[[ByteLength]], whose [[ByteOffset]] internal slot value is .[[ByteOffset]], and whose [[ArrayLength]] internal slot value is .[[ArrayLength]].
+text value
+text targetRealm
+text serialized
+text deserializedArrayBuffer
+text serialized
+text serialized
+text serialized
+text serialized
+text "Otherwise, if .[[Type]] is \"Map\":"
+text serialized
+text Set  to a new Map object in  whose [[MapData]] internal slot value is a new empty .
+row
+  text value
+  text targetRealm
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text Set  to true.
+text deep
+text "Otherwise, if .[[Type]] is \"Set\":"
+text serialized
+text Set  to a new Set object in  whose [[SetData]] internal slot value is a new empty .
+row
+  text value
+  text targetRealm
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text Set  to true.
+text deep
+text "Otherwise, if .[[Type]] is \"Array\":"
+text serialized
+text Let  be .[[Intrinsics]].[[]].
+row
+  text outputProto
+  text targetRealm
+  link %Array.prototype% https://tc39.es/ecma262/#sec-properties-of-the-array-prototype-object
+text Set  to ! (.[[Length]], ).
+row
+  text value
+  link ArrayCreate https://tc39.es/ecma262/#sec-arraycreate
+  text serialized
+  text outputProto
+text Set  to true.
+text deep
+text "Otherwise, if .[[Type]] is \"Object\":"
+text serialized
+text Set  to a new Object in .
+row
+  text value
+  text targetRealm
+text Set  to true.
+text deep
+text "Otherwise, if .[[Type]] is \"Error\":"
+text serialized
+text Let  be .
+row
+  text prototype
+  link %Error.prototype% https://tc39.es/ecma262/#sec-properties-of-the-error-prototype-object
+text "If .[[Name]] is \"EvalError\", then set  to ."
+row
+  text serialized
+  text prototype
+  link %EvalError.prototype% infrastructure.html#evalerror.prototype
+text "If .[[Name]] is \"RangeError\", then set  to ."
+row
+  text serialized
+  text prototype
+  link %RangeError.prototype% infrastructure.html#rangeerror.prototype
+text "If .[[Name]] is \"ReferenceError\", then set  to ."
+row
+  text serialized
+  text prototype
+  link %ReferenceError.prototype% infrastructure.html#referenceerror.prototype
+text "If .[[Name]] is \"SyntaxError\", then set  to ."
+row
+  text serialized
+  text prototype
+  link %SyntaxError.prototype% infrastructure.html#syntaxerror.prototype
+text "If .[[Name]] is \"TypeError\", then set  to ."
+row
+  text serialized
+  text prototype
+  link %TypeError.prototype% infrastructure.html#typeerror.prototype
+text "If .[[Name]] is \"URIError\", then set  to ."
+row
+  text serialized
+  text prototype
+  link %URIError.prototype% infrastructure.html#urierror.prototype
+text Let  be .[[Message]].
+row
+  text message
+  text serialized
+text Set  to (, « [[ErrorData]], [[Stack]] »).
+row
+  text value
+  link OrdinaryObjectCreate https://tc39.es/ecma262/#sec-objectcreate
+  text prototype
+text Let  be  { [[Value]]: , [[Writable]]: true, [[Enumerable]]: false, [[Configurable]]: true }.
+row
+  text messageDesc
+  link PropertyDescriptor https://tc39.es/ecma262/#sec-property-descriptor-specification-type
+  text message
+text "If  is not undefined, then perform ! (, \"\", )."
+row
+  text message
+  link OrdinaryDefineOwnProperty https://tc39.es/ecma262/#sec-ordinarydefineownproperty
+  text value
+  text message
+  text messageDesc
+text Set .[[Stack]] to .[[Stack]].
+row
+  text value
+  text serialized
+text Any interesting accompanying data attached to  should be deserialized and attached to .
+row
+  text serialized
+  text value
+text Otherwise:
+text Let  be .[[Type]].
+row
+  text interfaceName
+  text serialized
+text If the interface identified by  is not  in , then throw a  .
+row
+  text interfaceName
+  link exposed https://webidl.spec.whatwg.org/#dfn-exposed
+  text targetRealm
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text Set  to a new instance of the interface identified by , created in .
+row
+  text value
+  text interfaceName
+  text targetRealm
+text Set  to true.
+text deep
+text [] to .
+row
+  link Set https://infra.spec.whatwg.org/#map-set
+  text memory
+  text serialized
+  text value
+text If  is true:
+text deep
+text "If .[[Type]] is \"Map\":"
+text serialized
+text { [[Key]], [[Value]] }  of .[[MapData]]:
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+  text entry
+  text serialized
+text Let  be ? (.[[Key]], , ).
+row
+  text deserializedKey
+  link StructuredDeserialize #structureddeserialize
+  text entry
+  text targetRealm
+  text memory
+text Let  be ? (.[[Value]], , ).
+row
+  text deserializedValue
+  link StructuredDeserialize #structureddeserialize
+  text entry
+  text targetRealm
+  text memory
+text { [[Key]]: , [[Value]]:  } to .[[MapData]].
+row
+  link Append https://infra.spec.whatwg.org/#list-append
+  text deserializedKey
+  text deserializedValue
+  text value
+text "Otherwise, if .[[Type]] is \"Set\":"
+text serialized
+text of .[[SetData]]:
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  text entry
+  text serialized
+text Let  be ? (, , ).
+row
+  text deserializedEntry
+  link StructuredDeserialize #structureddeserialize
+  text entry
+  text targetRealm
+  text memory
+text to .[[SetData]].
+row
+  link Append https://infra.spec.whatwg.org/#list-append
+  text deserializedEntry
+  text value
+text "Otherwise, if .[[Type]] is \"Array\" or \"Object\":"
+text serialized
+text { [[Key]], [[Value]] }  of .[[Properties]]:
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+  text entry
+  text serialized
+text Let  be ? (.[[Value]], , ).
+row
+  text deserializedValue
+  link StructuredDeserialize #structureddeserialize
+  text entry
+  text targetRealm
+  text memory
+text Let  be ! (, .[[Key]], ).
+row
+  text result
+  link CreateDataProperty https://tc39.es/ecma262/#sec-createdataproperty
+  text value
+  text entry
+  text deserializedValue
+text :  is true.
+row
+  link Assert https://infra.spec.whatwg.org/#assert
+  text result
+text Otherwise:
+text Perform the appropriate  for the interface identified by .[[Type]], given , , and .
+row
+  link "deserialization steps" #deserialization-steps
+  text serialized
+  text serialized
+  text value
+  text targetRealm
+text The  may need to perform a . This is an operation which takes as input a previously-serialized  , and returns (, , ). (In other words, a  is a specialization of  to be consistent within this invocation.)
+link "deserialization steps" #deserialization-steps
+text sub-deserialization
+link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text subSerialized
+link StructuredDeserialize #structureddeserialize
+text subSerialized
+text targetRealm
+text memory
+link sub-deserialization #sub-deserialization
+link StructuredDeserialize #structureddeserialize
+text Return .
+text value
+h3 2.7.8 StructuredSerializeWithTransfer ( value, transferList )
+text Let  be an empty .
+row
+  text memory
+  link map https://infra.spec.whatwg.org/#ordered-map
+text In addition to how it is used normally by , in this algorithm  is also used to ensure that  ignores items in , and let us do our own handling instead. success
+link StructuredSerializeInternal #structuredserializeinternal
+text memory success
+link StructuredSerializeInternal #structuredserializeinternal
+text transferList success
+text of :
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  text transferable
+  text transferList
+text If  has neither an [[ArrayBufferData]] internal slot nor a  internal slot, then throw a  .
+text transferable
+link [[Detached]] #detached
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text If  has an [[ArrayBufferData]] internal slot and () is true, then throw a  .
+text transferable
+link IsSharedArrayBuffer https://tc39.es/ecma262/#sec-issharedarraybuffer
+text transferable
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text If [] , then throw a  .
+row
+  text memory
+  text transferable
+  link exists https://infra.spec.whatwg.org/#map-exists
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text [] to { [[Type]]: an uninitialized value, [[AgentCluster]]: null }.
+row
+  link Set https://infra.spec.whatwg.org/#map-set
+  text memory
+  text transferable
+text is not transferred yet as transferring has side effects and  needs to be able to throw first. success
+row
+  text transferable success
+  link StructuredSerializeInternal #structuredserializeinternal
+text Let  be ? (, false, ).
+row
+  text serialized
+  link StructuredSerializeInternal #structuredserializeinternal
+  text value
+  text memory
+text Let  be a new empty .
+row
+  text transferDataHolders
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text of :
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  text transferable
+  text transferList
+text If  has an [[ArrayBufferData]] internal slot and () is true, then throw a  .
+text transferable
+link IsDetachedBuffer https://tc39.es/ecma262/#sec-isdetachedbuffer
+text transferable
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text If  has a  internal slot and . is true, then throw a  .
+row
+  text transferable
+  link [[Detached]] #detached
+  text transferable
+  link [[Detached]] #detached
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text Let  be [].
+row
+  text dataHolder
+  text memory
+  text transferable
+text If  has an [[ArrayBufferData]] internal slot:
+text transferable
+text If  has an [[ArrayBufferMaxByteLength]] internal slot:
+text transferable
+text "Set .[[Type]] to \"ResizableArrayBuffer\"."
+text dataHolder
+text Set .[[ArrayBufferData]] to .[[ArrayBufferData]].
+row
+  text dataHolder
+  text transferable
+text Set .[[ArrayBufferByteLength]] to .[[ArrayBufferByteLength]].
+row
+  text dataHolder
+  text transferable
+text Set .[[ArrayBufferMaxByteLength]] to .[[ArrayBufferMaxByteLength]].
+row
+  text dataHolder
+  text transferable
+text Otherwise:
+text "Set .[[Type]] to \"ArrayBuffer\"."
+text dataHolder
+text Set .[[ArrayBufferData]] to .[[ArrayBufferData]].
+row
+  text dataHolder
+  text transferable
+text Set .[[ArrayBufferByteLength]] to .[[ArrayBufferByteLength]].
+row
+  text dataHolder
+  text transferable
+text Perform ? ().
+row
+  link DetachArrayBuffer https://tc39.es/ecma262/#sec-detacharraybuffer
+  text transferable
+text Specifications can use the [[ArrayBufferDetachKey]] internal slot to prevent s from being detached. This is used in , for example. success
+link ArrayBuffer https://webidl.spec.whatwg.org/#idl-ArrayBuffer
+text WebAssembly JavaScript Interface success
+link [WASMJS] references.html#refsWASMJS
+text Otherwise:
+text :  is a  that is a .
+row
+  link Assert https://infra.spec.whatwg.org/#assert
+  text transferable
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+  link "transferable object" #transferable-objects
+text Let  be the identifier of the  of .
+row
+  text interfaceName
+  link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface
+  text transferable
+text Set .[[Type]] to .
+row
+  text dataHolder
+  text interfaceName
+text If 's  is decorated with , then   to the same agent cluster.
+row
+  text transferable
+  link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface
+  link [SameAgentCluster] #sameagentcluster
+  link restrict #restrict-to-the-same-agent-cluster
+  text dataHolder
+text Perform the appropriate  for the interface identified by , given  and .
+row
+  link "transfer steps" #transfer-steps
+  text interfaceName
+  text transferable
+  text dataHolder
+text Set . to true.
+row
+  text transferable
+  link [[Detached]] #detached
+text to .
+row
+  link Append https://infra.spec.whatwg.org/#list-append
+  text dataHolder
+  text transferDataHolders
+text Let  be { [[Serialized]]: , [[TransferDataHolders]]: , [[InterfaceNames]]: an empty , [[AgentCluster]]: null }.
+row
+  text result
+  text serialized
+  text transferDataHolders
+  link "ordered set" https://infra.spec.whatwg.org/#ordered-set
+text →  of :
+row
+  link "For each" https://infra.spec.whatwg.org/#map-iterate
+  text object
+  text record
+  text memory
+text If  is a , then  .[[Type]] to .[[InterfaceNames]].
+row
+  text object
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+  link append https://infra.spec.whatwg.org/#set-append
+  text record
+  text result
+text If .[[AgentCluster]] is not null, then   to the same agent cluster.
+row
+  text record
+  link restrict #restrict-to-the-same-agent-cluster
+  text result
+text Return .
+text result
+h3 2.7.9 StructuredDeserializeWithTransfer ( serializeWithTransferResult, targetRealm )
+text Let  be an empty .
+row
+  text memory
+  link map https://infra.spec.whatwg.org/#ordered-map
+text Analogous to , in addition to how it is used normally by , in this algorithm  is also used to ensure that  ignores items in .[[TransferDataHolders]], and let us do our own handling instead. success
+link StructuredSerializeWithTransfer #structuredserializewithtransfer
+link StructuredDeserialize #structureddeserialize
+text memory success
+link StructuredDeserialize #structureddeserialize
+text serializeWithTransferResult success
+text If .[[AgentCluster]] is not null and 's corresponding  is not .[[AgentCluster]], then throw a  .
+text serializeWithTransferResult
+text targetRealm
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters
+text serializeWithTransferResult
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text of .[[InterfaceNames]]:
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  text interfaceName
+  text serializeWithTransferResult
+text If the interface identified by  is not  in , then throw a  .
+row
+  text interfaceName
+  link exposed https://webidl.spec.whatwg.org/#dfn-exposed
+  text targetRealm
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text Let  be a new empty .
+row
+  text transferredValues
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type
+text of .[[TransferDataHolders]]:
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  text transferDataHolder
+  text serializeWithTransferResult
+text Let  be an uninitialized value.
+text value
+text "If .[[Type]] is \"ArrayBuffer\", then set  to a new ArrayBuffer object in  whose [[ArrayBufferData]] internal slot value is .[[ArrayBufferData]], and whose [[ArrayBufferByteLength]] internal slot value is .[[ArrayBufferByteLength]]."
+text transferDataHolder
+text value
+text targetRealm
+text transferDataHolder
+text transferDataHolder
+text In cases where the original memory occupied by [[ArrayBufferData]] is accessible during the deserialization, this step is unlikely to throw an exception, as no new memory needs to be allocated: the memory occupied by [[ArrayBufferData]] is instead just getting transferred into the new ArrayBuffer. This could be true, for example, when both the source and target realms are in the same process. success
+text "Otherwise, if .[[Type]] is \"ResizableArrayBuffer\", then set  to a new ArrayBuffer object in  whose [[ArrayBufferData]] internal slot value is .[[ArrayBufferData]], whose [[ArrayBufferByteLength]] internal slot value is .[[ArrayBufferByteLength]], and whose [[ArrayBufferMaxByteLength]] internal slot value is .[[ArrayBufferMaxByteLength]]."
+text transferDataHolder
+text value
+text targetRealm
+text transferDataHolder
+text transferDataHolder
+text transferDataHolder
+text For the same reason as the previous step, this step is also unlikely to throw an exception. success
+text Otherwise:
+text Let  be .[[Type]].
+row
+  text interfaceName
+  text transferDataHolder
+text Set  to a new instance of the interface identified by , created in .
+row
+  text value
+  text interfaceName
+  text targetRealm
+text Perform the appropriate  for the interface identified by  given  and .
+row
+  link "transfer-receiving steps" #transfer-receiving-steps
+  text interfaceName
+  text transferDataHolder
+  text value
+text [] to .
+row
+  link Set https://infra.spec.whatwg.org/#map-set
+  text memory
+  text transferDataHolder
+  text value
+text to .
+row
+  link Append https://infra.spec.whatwg.org/#list-append
+  text value
+  text transferredValues
+text Let  be ? (.[[Serialized]], , ).
+row
+  text deserialized
+  link StructuredDeserialize #structureddeserialize
+  text serializeWithTransferResult
+  text targetRealm
+  text memory
+text Return { [[Deserialized]]: , [[TransferredValues]]:  }.
+row
+  text deserialized
+  text transferredValues
+h3 2.7.10 Performing serialization and transferring from other specifications
+text Other specifications may use the abstract operations defined here. The following provides some guidance on when each abstract operation is typically useful, with examples.
+link StructuredSerializeWithTransfer #structuredserializewithtransfer
+link StructuredDeserializeWithTransfer #structureddeserializewithtransfer
+text Cloning a value to another , with a transfer list, but where the target realm is not known ahead of time. In this case the serialization step can be performed immediately, with the deserialization step delayed until the target realm becomes known.
+link realm https://tc39.es/ecma262/#sec-code-realms
+text uses this pair of abstract operations, as the destination realm is not known until the  .
+link messagePort.postMessage() web-messaging.html#dom-messageport-postmessage
+link MessagePort web-messaging.html#messageport
+link "has been shipped" web-messaging.html#has-been-shipped
+link StructuredSerialize #structuredserialize
+link StructuredSerializeForStorage #structuredserializeforstorage
+link StructuredDeserialize #structureddeserialize
+text Creating a -independent snapshot of a given value which can be saved for an indefinite amount of time, and then reified back into a JavaScript value later, possibly multiple times.
+link realm https://tc39.es/ecma262/#sec-code-realms
+text can be used for situations where the serialization is anticipated to be stored in a persistent manner, instead of passed between realms. It throws when attempting to serialize objects that are  to the same , such as  objects, since storing shared memory or other data that cannot leave an agent cluster does not make sense. Similarly, it can throw or possibly have different behavior when given a  with custom  when the  argument is true.
+link StructuredSerializeForStorage #structuredserializeforstorage
+link restricted #restrict-to-the-same-agent-cluster
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters
+link SharedArrayBuffer https://tc39.es/ecma262/#sec-sharedarraybuffer-objects
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object
+link "serialization steps" #serialization-steps
+text forStorage
+text and  use  on author-supplied state objects, storing them as  in the appropriate . Then,  is used so that the  property can return a clone of the originally-supplied state object.
+link history.pushState() nav-history-apis.html#dom-history-pushstate
+link history.replaceState() nav-history-apis.html#dom-history-replacestate
+link StructuredSerializeForStorage #structuredserializeforstorage
+link "serialized state" browsing-the-web.html#serialized-state
+link "session history entry" browsing-the-web.html#session-history-entry
+link StructuredDeserialize #structureddeserialize
+link history.state nav-history-apis.html#dom-history-state
+text uses  on its input, then uses  multiple times on the result to produce a fresh clone for each destination being broadcast to. Note that transferring does not make sense in multi-destination situations.
+row
+  link broadcastChannel.postMessage() web-messaging.html#dom-broadcastchannel-postmessage
+  link StructuredSerialize #structuredserialize
+  link StructuredDeserialize #structureddeserialize
+text Any API for persisting JavaScript values to the filesystem would also use  on its input and  on its output.
+link StructuredSerializeForStorage #structuredserializeforstorage
+link StructuredDeserialize #structureddeserialize
+text In general, call sites may pass in Web IDL values instead of JavaScript values; this is to be understood to perform an implicit  to the JavaScript value before invoking these algorithms.
+link conversion https://webidl.spec.whatwg.org/#es-type-mapping
+text Call sites that are not invoked as a result of author code synchronously calling into a user agent method must take care to properly  and  before invoking , , or  abstract operations, if they are being performed on arbitrary objects. This is necessary because the serialization process can invoke author-defined accessors as part of its final deep-serialization steps, and these accessors could call into operations that rely on the  and  concepts being properly set up.
+link "prepare to run script" webappapis.html#prepare-to-run-script
+link "prepare to run a callback" webappapis.html#prepare-to-run-a-callback
+link StructuredSerialize #structuredserialize
+link StructuredSerializeForStorage #structuredserializeforstorage
+link StructuredSerializeWithTransfer #structuredserializewithtransfer
+link entry webappapis.html#concept-entry-everything
+link incumbent webappapis.html#concept-incumbent-everything
+text performs  on its arguments, but is careful to do so immediately, inside the synchronous portion of its algorithm. Thus it is able to use the algorithms without needing to  and .
+link window.postMessage() web-messaging.html#dom-window-postmessage
+link StructuredSerializeWithTransfer #structuredserializewithtransfer
+link "prepare to run script" webappapis.html#prepare-to-run-script
+link "prepare to run a callback" webappapis.html#prepare-to-run-a-callback
+text In contrast, a hypothetical API that used  to serialize some author-supplied object periodically, directly from a  on the , would need to ensure it performs the appropriate preparations beforehand. As of this time, we know of no such APIs on the platform; usually it is simpler to perform the serialization ahead of time, as a synchronous consequence of author code.
+link StructuredSerialize #structuredserialize
+link task webappapis.html#concept-task
+link "event loop" webappapis.html#event-loop
+h3 2.7.11 Structured cloning API
+text = self.([, {  }])
+row
+  text result
+  link structuredClone #dom-structuredclone
+  text value
+  link transfer web-messaging.html#dom-structuredserializeoptions-transfer
+text Takes the input value and returns a deep copy by performing the structured clone algorithm.  listed in the  array are transferred, not just cloned, meaning that they are no longer usable in the input value. success
+row
+  link "Transferable objects" #transferable-objects
+  link transfer web-messaging.html#dom-structuredserializeoptions-transfer
+text Throws a   if any part of the input value is not . success
+row
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+  link serializable #serializable-objects
+button ✔MDN
+text The  method steps are:
+text structuredClone(, ) danger
+row
+  text value danger
+  text options danger
+text "Let  be ? (, [\"\"])."
+row
+  text serialized
+  link StructuredSerializeWithTransfer #structuredserializewithtransfer
+  text value
+  text options
+  link transfer web-messaging.html#dom-structuredserializeoptions-transfer
+text Let  be ? (, 's ).
+row
+  text deserializeRecord
+  link StructuredDeserializeWithTransfer #structureddeserializewithtransfer
+  text serialized
+  link this https://webidl.spec.whatwg.org/#this
+  link "relevant realm" webappapis.html#concept-relevant-realm
+text Return .[[Deserialized]].
+text deserializeRecord
+text —  —
+row
+  link "← 2.6 Common DOM interfaces" common-dom-interfaces.html
+  link "Table of Contents" ./
+  link "3 Semantics, structure, and APIs of HTML documents →" dom.html

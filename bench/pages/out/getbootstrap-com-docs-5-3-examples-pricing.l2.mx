@@ -1,0 +1,69 @@
+@getbootstrap_com_docs_5_3_examples_prici rev=0 @0,0,728,978
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,21
+  link "Bootstrap Pricing example" / @17,65,174,21
+  row @203,65,261,21
+    link Features # @203,65,58,21
+    link Enterprise # @273,65,68,21
+    link Support # @353,65,53,21
+    link Pricing # @418,65,46,21
+h1 Pricing @17,98,694,25
+text Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization. @17,135,694,40
+row @17,187,694,263
+  col @17,187,136,263
+    card @17,187,136,49
+      h3 Free @34,202,102,19
+    h1 $0/mo @17,248,136,25
+    text 10 users included @17,285,136,20
+    text 2 GB of storage @17,317,136,21
+    text Email support @17,350,136,20
+    text Help center access @17,382,136,20
+    button "Sign up for free" @17,414,136,36
+  col @165,187,142,263
+    card @165,187,142,49
+      h3 Pro @182,202,108,19
+    h1 $15/mo @165,248,142,25
+    text 20 users included @165,285,142,20
+    text 10 GB of storage @165,317,142,21
+    text Priority email support @165,350,142,20
+    text Help center access @165,382,142,20
+    button "Get started" primary @165,414,142,36
+  col @319,187,165,263
+    card @319,187,165,49
+      h3 Enterprise @336,202,131,19
+    h1 $29/mo @319,248,165,25
+    text 30 users included @319,285,165,20
+    text 15 GB of storage @319,317,165,21
+    text Phone and email support @319,350,165,20
+    text Help center access @319,382,165,20
+    button "Contact us" primary @319,414,165,36
+h2 Compare plans @17,462,694,22
+table Col Free Pro Enterprise @17,496,694,241
+  Public | Included | Included | Included
+  Private |  | Included | Included
+  Permissions | Included | Included | Included
+  Sharing |  | Included | Included
+  Unlimited members |  | Included | Included
+  Extra security |  |  | Included
+row @17,749,694,212
+  text © 2017–2025 @17,845,89,20
+  col @118,749,133,212
+    h3 Features @118,749,133,19
+    link "Cool stuff" # @118,780,133,20
+    link "Random feature" # @118,812,133,20
+    link "Team feature" # @118,844,133,21
+    link "Stuff for developers" # @118,877,133,20
+    link "Another one" # @118,909,133,20
+    link "Last time" # @118,941,133,20
+  col @263,781,116,148
+    h3 Resources @263,781,116,19
+    link Resource # @263,812,116,20
+    link "Resource name" # @263,844,116,21
+    link "Another resource" # @263,877,116,20
+    link "Final resource" # @263,909,116,20
+  col @391,781,65,148
+    h3 About @391,781,65,19
+    link Team # @391,812,65,20
+    link Locations # @391,844,65,21
+    link Privacy # @391,877,65,20
+    link Terms # @391,909,65,20

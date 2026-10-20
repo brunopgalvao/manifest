@@ -1,0 +1,74 @@
+@getbootstrap_com_docs_5_3_examples_produ rev=0 @0,0,728,1841
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,21
+  link Aperture # @17,65,58,21
+  link Tour # @87,65,31,21
+  link Product # @130,65,53,21
+  link Features # @195,65,58,21
+  link Enterprise # @265,65,68,21
+  link Support # @345,65,53,21
+  link Pricing # @410,65,46,21
+  link Cart # @468,65,28,21
+region 1248x529.1900024414063 @17,98,694,294 [6 shapes, 4 labelled]
+  text @384,195.1999969482422 fill:#212529 size:64 weight:700 "Designed for engineers" @231,172,407,43
+  text @384,327.989990234375 fill:#212529 size:28 "Build anything you want with Aperture" @231,265,280,19
+  text @528.72998046875,371.19000244140625 fill:#0d6efd size:20 "Learn more" @311,294,60,13
+  text @664.7000122070313,371.19000244140625 fill:#0d6efd size:20 "Buy" @387,294,20,13
+row @17,404,694,290
+  region 616x523.5900268554688 @17,404,341,290 [3 shapes, 2 labelled]
+    text @48,118.4000015258789 fill:#ffffff size:48 "Another headline" @44,444,214,32
+    text @48,161.58999633789063 fill:#ffffff size:20 "And an even wittier subheading." @44,483,169,13
+  region 616x523.5900268554688 @370,404,341,290 [3 shapes, 2 labelled]
+    text @64,118.4000015258789 fill:#212529 size:48 "Another headline" @405,444,214,32
+    text @64,161.58999633789063 fill:#212529 size:20 "And an even wittier subheading." @405,483,169,13
+row @17,706,694,290
+  region 616x523.5900268554688 @17,706,341,290 [3 shapes, 2 labelled]
+    text @64,118.4000015258789 fill:#212529 size:48 "Another headline" @52,746,214,32
+    text @64,161.58999633789063 fill:#212529 size:20 "And an even wittier subheading." @52,785,169,13
+  region 616x523.5900268554688 @370,706,341,290 [3 shapes, 2 labelled]
+    text @48,118.4000015258789 fill:#ffffff size:48 "Another headline" @397,746,214,32
+    text @48,161.58999633789063 fill:#ffffff size:20 "And an even wittier subheading." @397,785,169,13
+row @17,1008,694,289
+  region 616x523.5900268554688 @17,1008,341,289 [3 shapes, 2 labelled]
+    text @64,118.4000015258789 fill:#212529 size:48 "Another headline" @52,1048,214,32
+    text @64,161.58999633789063 fill:#212529 size:20 "And an even wittier subheading." @52,1087,169,13
+  region 616x523.5900268554688 @370,1008,341,289 [3 shapes, 2 labelled]
+    text @48,118.4000015258789 fill:#212529 size:48 "Another headline" @397,1048,214,32
+    text @48,161.58999633789063 fill:#212529 size:20 "And an even wittier subheading." @397,1087,169,13
+row @17,1309,694,290
+  region 616x523.5900268554688 @17,1309,341,290 [3 shapes, 2 labelled]
+    text @64,118.4000015258789 fill:#212529 size:48 "Another headline" @52,1349,214,32
+    text @64,161.58999633789063 fill:#212529 size:20 "And an even wittier subheading." @52,1388,169,13
+  region 616x523.5900268554688 @370,1309,341,290 [3 shapes, 2 labelled]
+    text @48,118.4000015258789 fill:#212529 size:48 "Another headline" @397,1349,214,32
+    text @48,161.58999633789063 fill:#212529 size:20 "And an even wittier subheading." @397,1388,169,13
+row @17,1611,694,213
+  col @17,1679,89,77
+    region Product 24x24 @17,1700,24,24 [2 shapes, 0 labelled]
+    text © 2017–2025 @17,1736,89,20
+  col @118,1611,133,213
+    h3 Features @118,1611,133,19
+    link "Cool stuff" # @118,1642,133,20
+    link "Random feature" # @118,1674,133,21
+    link "Team feature" # @118,1707,133,20
+    link "Stuff for developers" # @118,1739,133,20
+    link "Another one" # @118,1771,133,21
+    link "Last time" # @118,1804,133,20
+  col @263,1644,116,148
+    h3 Resources @263,1644,116,18
+    link "Resource name" # @263,1674,116,21
+    link Resource # @263,1707,116,20
+    link "Another resource" # @263,1739,116,20
+    link "Final resource" # @263,1771,116,21
+  col @391,1644,82,148
+    h3 Resources @391,1644,82,18
+    link Business # @391,1674,82,21
+    link Education # @391,1707,82,20
+    link Government # @391,1739,82,20
+    link Gaming # @391,1771,82,21
+  col @485,1644,65,148
+    h3 About @485,1644,65,18
+    link Team # @485,1674,65,21
+    link Locations # @485,1707,65,20
+    link Privacy # @485,1739,65,20
+    link Terms # @485,1771,65,21

@@ -1,0 +1,18 @@
+@getbootstrap_com_docs_5_3_examples_cover rev=0 @0,0,728,241
+row @17,17,694,207
+  button "Toggle theme (light)" primary @17,102,101,37
+  col @130,17,581,207
+    row @130,17,581,20
+      h3 Cover @130,18,45,19
+      row @187,17,174,20
+        link Home # @187,17,40,20
+        link Features # @239,17,58,20
+        link Contact # @309,17,52,20
+    h1 Cover your page. @130,49,581,25
+    text Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own. @130,86,581,41
+    link "Learn more" # @130,139,581,20
+    text Cover template for , by . @130,171,581,21
+    row @130,204,581,20
+      link Bootstrap https://getbootstrap.com/ @130,204,65,20
+      link @mdo https://x.com/mdo @207,204,43,20
+!overflow toggle 99/165px

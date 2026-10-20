@@ -6,6 +6,7 @@ row
     row
       link Home #
       link Link #
+      text Disabled
     row
       field Search search
       button Search
@@ -61,6 +62,7 @@ row
     rect @0,0 100x100
     text @50,50 "500x500" size:56 anchor:middle
 link "Back to top" #
+text © 2017–2025 Company, Inc. ·  ·
 row
   link Privacy #
   link Terms #

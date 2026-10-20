@@ -1,0 +1,101 @@
+@ui_shadcn_com_charts_area
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+    row
+      link New /create
+link "Trace, Code Block and AI Elements" /docs/changelog
+h1 Beautiful Charts & Graphs
+text A collection of ready-to-use chart components built with Recharts. From basic charts to rich data displays, copy and paste into your apps.
+row
+  link "Browse Charts" #charts
+  link Documentation /docs/components/chart
+row
+  link "Area Charts" /charts/area#charts
+  link "Bar Charts" /charts/bar#charts
+  link "Line Charts" /charts/line#charts
+  link "Pie Charts" /charts/pie#charts
+  link "Radar Charts" /charts/radar#charts
+  link "Radial Charts" /charts/radial#charts
+  link Tooltips /charts/tooltip#charts
+row
+  h2 Area Charts
+  row
+    col
+      row
+        text Area Chart
+        row
+          button Copy
+          button "View Code"
+    col
+      row
+        text Area Chart
+        row
+          button Copy
+          button "View Code"
+    col
+      row
+        text Area Chart
+        row
+          button Copy
+          button "View Code"
+    col
+      row
+        text Area Chart
+        row
+          button Copy
+          button "View Code"
+    col
+      row
+        text Area Chart
+        row
+          button Copy
+          button "View Code"
+    col
+      row
+        text Area Chart
+        row
+          button Copy
+          button "View Code"
+    col
+      row
+        text Area Chart
+        row
+          button Copy
+          button "View Code"
+    col
+      row
+        text Area Chart
+        row
+          button Copy
+          button "View Code"
+    col
+      row
+        text Area Chart
+        row
+          button Copy
+          button "View Code"
+    col
+      row
+        text Area Chart
+        row
+          button Copy
+          button "View Code"
+text Built by  at . The source code is available on .
+row
+  link shadcn https://twitter.com/shadcn
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+  link GitHub https://github.com/shadcn-ui/ui
+text Notifications alt+T
+text Notifications

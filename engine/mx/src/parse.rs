@@ -442,9 +442,16 @@ pub fn parse_node(line: &str) -> Result<Node> {
             }
         }
     } else if ts == "table" {
-        for w in &rest {
-            if w.starts_with('"') {
+        // a quoted first word is the caption; later quoted words are column names with spaces
+        for (i, w) in rest.iter().enumerate() {
+            if w.starts_with('"') && i == 0 {
                 nd.label = Some(unq(w));
+            } else if w.starts_with('"') {
+                let full = unq(w);
+                match full.rfind(':') {
+                    Some(j) if is_tone(&full[j + 1..]) || &full[j + 1..] == "badge" => nd.args.cols.push((full[..j].to_string(), Some(full[j + 1..].to_string()))),
+                    _ => nd.args.cols.push((full, None)),
+                }
             } else {
                 match w.find(':') {
                     None => nd.args.cols.push((w.clone(), None)),

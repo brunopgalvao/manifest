@@ -16,6 +16,7 @@ row
     row
       link Home #
       link Link #
+      text Disabled
       link Dropdown #
     field Search search
 row
@@ -24,6 +25,7 @@ row
     row
       link Home #
       link Link #
+      text Disabled
       link Dropdown #
     field Search search
 row
@@ -32,6 +34,7 @@ row
     row
       link Home #
       link Link #
+      text Disabled
       link Dropdown #
     field Search search
 row
@@ -40,6 +43,7 @@ row
     row
       link Home #
       link Link #
+      text Disabled
       link Dropdown #
     field Search search
 row
@@ -51,6 +55,7 @@ row
     row
       link Home #
       link Link #
+      text Disabled
       link Dropdown #
     field Search search
 row
@@ -59,12 +64,14 @@ row
     row
       link Home #
       link Link #
+      text Disabled
       link Dropdown #
     field Search search
 text Matching .container-xl...
 row
   link "Centered nav only" #
   link Link #
+  text Disabled
   link Dropdown #
 card
   row
@@ -73,12 +80,14 @@ card
       row
         link Home #
         link Link #
+        text Disabled
         link Dropdown #
       field Search search
 card
   row
     link "Centered nav only" #
     link Link #
+    text Disabled
     link Dropdown #
 card
   row
@@ -86,10 +95,12 @@ card
     row
       link Home #
       link Link #
+      text Disabled
       link Dropdown #
     button Button primary
 card
   h1 Navbar examples
+  text This example is a quick exercise to illustrate how the navbar and its contents work. Some navbars extend the width of the viewport, others are confined within a . For positioning of navbars, checkout the  and  examples.
   text .container danger
   link top /docs/5.3/examples/navbar-static/
   link "fixed top" /docs/5.3/examples/navbar-fixed/

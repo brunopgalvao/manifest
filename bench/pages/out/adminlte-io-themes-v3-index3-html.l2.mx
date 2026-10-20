@@ -1,0 +1,109 @@
+@adminlte_io_themes_v3_index3_html rev=0 @0,0,728,1718
+row @17,17,694,36
+  row @17,17,191,36
+    button button @17,17,75,36
+    link Home index3.html @104,25,40,20
+    link Contact # @156,25,52,20
+  row @220,17,296,36
+    button button @220,17,75,36
+    link 3 # @307,25,9,20
+    link 15 # @328,25,14,20
+    button button @354,17,75,36
+    button button @441,17,75,36
+link "AdminLTE 3" index3.html @17,65,694,21
+row @17,98,694,20
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image" @17,98,0,0
+  link "Alexander Pierce" # @29,98,113,20
+row @17,130,694,58
+  field Search search @17,130,40,58
+  button button primary @69,141,75,36
+link Dashboard # @17,200,694,20
+link "Dashboard v1" ./index.html @17,232,694,20
+link "Dashboard v2" ./index2.html @17,264,694,21
+link "Dashboard v3" ./index3.html @17,297,694,20
+link "Widgets New" pages/widgets.html @17,329,694,20
+link "Layout Options 6" # @17,361,694,20
+link Charts # @17,393,694,21
+link "UI Elements" # @17,426,694,20
+link Forms # @17,458,694,20
+link Tables # @17,490,694,21
+text EXAMPLES @17,523,694,20
+link "Calendar 2" pages/calendar.html @17,555,694,20
+link Gallery pages/gallery.html @17,587,694,20
+link "Kanban Board" pages/kanban.html @17,619,694,21
+link Mailbox # @17,652,694,20
+link Pages # @17,684,694,20
+link Extras # @17,716,694,21
+link Search # @17,749,694,20
+text MISCELLANEOUS @17,781,694,20
+link "Tabbed IFrame Plugin" iframe.html @17,813,694,21
+link Documentation https://adminlte.io/docs/3.1/ @17,846,694,20
+text MULTI LEVEL EXAMPLE @17,878,694,20
+link "Level 1" # @17,910,694,20
+link "Level 1" # @17,942,694,21
+link "Level 1" # @17,975,694,20
+text LABELS @17,1007,694,20
+link Important # @17,1039,694,21
+link Warning # @17,1072,694,20
+link Informational # @17,1104,694,20
+row @17,1136,694,25
+  h1 Dashboard v3 @17,1136,137,25
+  row @166,1139,145,20
+    link Home # @166,1139,40,20
+    text Dashboard v3 @218,1139,93,20
+row @17,1173,694,463
+  col @17,1173,341,463
+    row @17,1173,341,21
+      h3 Online Store Visitors @17,1174,151,19
+      link "View Report" javascript:void(0); @180,1173,81,21
+    row @17,1206,341,20
+      text 820 Visitors Over Time @17,1206,153,20
+      text 12.5% Since last week @182,1206,148,20
+    region 452x200 @17,1238,341,151 [1 shapes, 1 labelled]
+      image adminlte_io_themes_v3_index3_html-1.png @0,0 452x200 "Canvas" @17,1238,341,151
+    text This Week Last Week @17,1401,341,20
+    row @17,1433,341,20
+      h3 Products @17,1434,67,19
+      row @96,1433,30,20
+        link # # @96,1433,9,20
+        link # # @117,1433,9,20
+    table Product Price Sales More @17,1465,341,171
+      Some Product | $13 USD | 12% 12,000 Sold | 
+      Another Product | $29 USD | 0.5% 123,234 Sold | 
+      Amazing Product | $1,230 USD | 3% 198 Sold | 
+      Perfect Item NEW | $199 USD | 63% 87 Sold | 
+  col @370,1206,341,397
+    row @370,1206,341,20
+      h3 Sales @370,1207,40,19
+      link "View Report" javascript:void(0); @422,1206,81,20
+    row @370,1238,341,41
+      text $18,230.00 Sales Over Time @370,1238,180,41
+      text 33.1% Since last month @562,1238,149,41
+    region 452x200 @370,1291,341,151 [1 shapes, 1 labelled]
+      image adminlte_io_themes_v3_index3_html-2.png @0,0 452x200 "Canvas" @370,1291,341,151
+    text This year Last year @370,1454,341,20
+    row @370,1486,341,20
+      h3 Online Store Overview @370,1487,165,19
+      row @547,1486,30,20
+        link # # @547,1486,9,20
+        link # # @568,1486,9,20
+    row @370,1518,341,21
+      text 12% CONVERSION RATE @370,1518,165,21
+    row @370,1551,341,20
+      text 0.8% SALES RATE @370,1551,124,20
+    row @370,1583,341,20
+      text 1% REGISTRATION RATE @370,1583,166,20
+text All rights reserved. @17,1648,694,20
+row @17,1680,694,21
+  text Copyright © 2014-2021 . @17,1680,164,21
+  link AdminLTE.io https://adminlte.io @193,1680,84,21
+  text Version 3.2.0 @289,1680,89,21
+!overflow table.Some Product.Product 85/110px
+!overflow table.Some Product.Sales 85/126px
+!overflow table.Another Product.Product 85/125px
+!overflow table.Another Product.Sales 85/142px
+!overflow table.Amazing Product.Product 85/130px
+!overflow table.Amazing Product.Price 86/95px
+!overflow table.Amazing Product.Sales 85/99px
+!overflow table.Perfect Item NEW.Product 85/134px
+!overflow table.Perfect Item NEW.Sales 85/101px

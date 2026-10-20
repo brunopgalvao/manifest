@@ -1,0 +1,76 @@
+@www_w3_org_wai_aria_apg_patterns_alert rev=0 @0,0,728,1543
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+row @17,102,694,854
+  col @17,372,58,314
+    h2 Page Contents @17,372,58,42
+    link "About This Pattern" #aboutthispattern @17,426,58,61
+    link Example #example @17,499,58,21
+    link "Keyboard Interaction" #keyboardinteraction @17,532,58,40
+    link "WAI-ARIA Roles, States, and Properties" #wai-ariaroles,states,andproperties @17,584,58,102
+  col @87,102,624,854
+    h1 Alert Pattern @87,102,624,25
+    card @87,139,624,116
+      h2 Read This First @104,154,590,21
+      text No ARIA is better than Bad ARIA. Before using any ARIA, . @104,187,590,20
+      link "Read this to understand why no ARIA is better than bad ARIA" /WAI/content-assets/wai-aria-practices/../../ARIA/apg/practices/read-me-first/ @104,219,590,21
+    h2 About This Pattern @87,267,624,21
+    text An is an element that displays a brief, important message in a way that attracts the user's attention without interrupting the user's task. Dynamically rendered alerts are automatically announced by most screen readers, and in some operating systems, they may trigger an alert sound. It is important to note that, at this time, screen readers do not inform users of alerts that are present on the page before page load completes. @87,300,624,102
+    link alert https://w3c.github.io/aria/#alert @87,414,624,20
+    text Because alerts are intended to provide important and potentially time-sensitive information without interfering with the user's ability to continue working, it is crucial they do not affect keyboard focus. The is designed for situations where interrupting work flow is necessary. @87,446,624,61
+    link "Alert Dialog Pattern" ../alertdialog/ @87,519,624,20
+    text It is also important to avoid designing alerts that disappear automatically. An alert that disappears too quickly can lead to failure to meet . Another critical design consideration is the frequency of interruption caused by alerts. Frequent interruptions inhibit usability for people with visual and cognitive disabilities, which makes meeting the requirements of more difficult. @87,551,624,81
+    link "WCAG 2.0 success criterion 2.2.3" https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-no-exceptions.html @87,644,624,21
+    link "WCAG 2.0 success criterion 2.2.4" https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-postponed.html @87,677,624,20
+    card @87,709,624,83
+      h2 Example @104,724,590,21
+      link "Alert Example" examples/alert/ @104,757,590,20
+    h2 Keyboard Interaction @87,804,624,22
+    text Not applicable. @87,838,624,20
+    h2 WAI-ARIA Roles, States, and Properties @87,870,624,21
+    text The widget has a role of . @87,903,624,20
+    link alert https://w3c.github.io/aria/#alert @87,935,624,21
+row @17,968,694,21
+  h2 Help improve this page @17,968,192,21
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,1001,694,20
+link public-aria-practices@w3.org @17,1033,694,21
+row @17,1066,694,20
+  link E-mail @17,1066,42,20
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/alert/alert-pattern.html @71,1066,142,20
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/alert/ @225,1066,119,20
+link "Back to Top" #top @17,1098,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,1130,694,21
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,1163,694,20
+row @17,1195,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,1195,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,1195,57,20
+  link Mastodon https://w3c.social/@wai @218,1195,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,1195,61,20
+row @17,1227,694,41
+  link Home /WAI/ @17,1237,37,21
+  link Contact /WAI/about/contacting/ @66,1237,48,21
+  link "Site map" /WAI/sitemap/ @126,1227,54,41
+  link "Support WAI" /WAI/about/support/ @192,1227,78,41
+  link News /WAI/news/ @282,1237,36,21
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,1227,142,41
+  link "All Translations" /WAI/translations/ @484,1227,94,41
+  link "Resources for roles" /WAI/roles/ @590,1227,121,41
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,1280,694,20
+link "World Wide Web Consortium" https://www.w3.org/ @17,1312,694,20
+text W3C @17,1344,694,21
+text ® @17,1377,694,20
+link liability https://www.w3.org/policies/#disclaimers @17,1409,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,1441,694,21
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,1474,694,20
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,1506,694,20

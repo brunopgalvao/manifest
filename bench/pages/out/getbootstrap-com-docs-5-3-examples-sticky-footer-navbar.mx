@@ -6,10 +6,12 @@ row
     row
       link Home #
       link Link #
+      text Disabled
     row
       field Search search
       button Search
 h1 Sticky footer with fixed navbar
 text Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.
+text Back to  minus the navbar.
 link "the default sticky footer" /docs/5.3/examples/sticky-footer/
 text Place sticky footer content here.

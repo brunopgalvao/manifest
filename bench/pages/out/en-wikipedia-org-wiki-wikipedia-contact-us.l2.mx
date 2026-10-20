@@ -1,0 +1,166 @@
+@en_wikipedia_org_wiki_wikipedia_contact_ rev=0 @0,0,728,2223
+link "Jump to content" #bodyContent @17,17,694,20
+row @17,49,694,541
+  row @17,49,345,541
+    col @17,49,245,541
+      button "Main menu" @17,49,245,37
+      text Main menu @17,98,245,20
+      row @17,130,245,41
+        text Main menu @17,130,57,41
+        button "Move Main menu to sidebar" @86,132,176,36
+      link "Main page" /wiki/Main_Page @17,183,245,20
+      link Contents /wiki/Wikipedia:Contents @17,215,245,20
+      link "Current events" /wiki/Portal:Current_events @17,247,245,20
+      link "Random article" /wiki/Special:Random @17,279,245,21
+      link "About Wikipedia" /wiki/Wikipedia:About @17,312,245,20
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us @17,344,245,20
+      text Contribute @17,376,245,21
+      link Help /wiki/Help:Contents @17,409,245,20
+      link "Learn to edit" /wiki/Help:Introduction @17,441,245,20
+      link "Community portal" /wiki/Wikipedia:Community_portal @17,473,245,20
+      link "Recent changes" /wiki/Special:RecentChanges @17,505,245,21
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard @17,538,245,20
+      link "Special pages" /wiki/Special:SpecialPages @17,570,245,20
+    link /wiki/Main_Page /wiki/Main_Page @274,310,88,20
+  row @374,282,337,75
+    row @374,282,152,75
+      col @374,282,74,75
+        field "Search Wikipedia" search @374,282,74,75
+      button Search @460,302,66,36
+    row @538,300,173,40
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en @538,310,37,20
+      link "Create account" @587,300,80,40
+      link "Log in" @679,300,32,40
+row @17,602,694,1604
+  row @17,602,500,1604
+    row @17,1360,53,89
+      h1 Wikipedia:Contact us @17,1379,26,50
+      col @55,1360,15,89
+        button "84 languages" @55,1360,30,36
+        text 84 languages primary @55,1408,15,41
+    row @82,814,93,1181
+      row @82,1384,17,41
+        link "Project page" /wiki/Wikipedia:Contact_us @82,1384,4,41
+        link Talk /wiki/Wikipedia_talk:Contact_us @98,1394,1,20
+      row @111,814,64,1181
+        row @111,1384,26,41
+          link Read /wiki/Wikipedia:Contact_us @111,1394,0,20
+          link "View source" @123,1384,1,41
+          link "View history" @136,1384,1,41
+        col @149,814,26,1181
+          button Tools @149,814,30,36
+          text Tools @149,862,26,20
+          row @149,894,26,37
+            text Tools @149,902,0,21
+            button "Move Tools to sidebar" @161,894,30,37
+          text General @149,943,26,20
+          link "What links here" /wiki/Special:WhatLinksHere/Wikipedia:Contact_us @149,975,26,61
+          link "Related changes" /wiki/Special:RecentChangesLinked/Wikipedia:Contact_us @149,1048,26,41
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Wikipedia:Contact_us&oldid=1347765143 @149,1101,26,40
+          link "Page information" @149,1153,26,41
+          link "Get shortened URL" @149,1206,26,61
+          link "Switch to legacy parser" @149,1279,26,81
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q4654783#sitelinks-wikipedia @149,1372,26,61
+          text Print/export @149,1445,26,20
+          link "Download as PDF" @149,1477,26,61
+          link "Printable version" javascript:print(); @149,1550,26,41
+          text In other projects @149,1603,26,60
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Commons:Contact_us @149,1675,26,41
+          link Meta-Wiki https://meta.wikimedia.org/wiki/Answers @149,1728,26,20
+          link Wikibooks https://en.wikibooks.org/wiki/Wikibooks:Contact_us @149,1760,26,21
+          link Wikinews https://en.wikinews.org/wiki/Wikinews:Contact_us @149,1793,26,20
+          link Wikiquote https://en.wikiquote.org/wiki/Wikiquote:Contact_us @149,1825,26,20
+          link Wikiversity https://en.wikiversity.org/wiki/Wikiversity:Contact @149,1857,26,21
+          link Wikivoyage https://en.wikivoyage.org/wiki/Wikivoyage:Contact_us @149,1890,26,20
+          link Wiktionary https://en.wiktionary.org/wiki/Wiktionary:Contact_us @149,1922,26,20
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q4654783 @149,1954,26,41
+    col @187,1209,37,391
+      row @187,1209,37,36
+        text Appearance @187,1217,0,20
+        button "Hide Appearance" @199,1209,30,36
+      text Text @187,1257,37,20
+      text Small @187,1289,37,20
+      text Standard @187,1321,37,21
+      text Large @187,1354,37,20
+      text Width @187,1386,37,20
+      text Standard @187,1418,37,21
+      text Wide @187,1451,37,20
+      text Color @187,1483,37,20
+      text Automatic @187,1515,37,21
+      text Light @187,1548,37,20
+      text Dark @187,1580,37,20
+    col @236,602,281,1604
+      text From Wikipedia, the free encyclopedia @236,602,281,21
+      row @236,635,281,1486
+        col @236,845,99,1066
+          link Introduction https://en.wikipedia.org/wiki/Wikipedia:Contact_us @236,845,99,20
+          text How to report a problem with an article, or find out more information. @236,877,99,102
+          link Readers https://en.wikipedia.org/wiki/Wikipedia:Contact_us/Readers @236,991,99,20
+          text Problems with articles about you, your company, or somebody you represent. @236,1023,99,122
+          link "Article subjects" https://en.wikipedia.org/wiki/Wikipedia:Contact_us/Article_subjects @236,1157,99,41
+          text How to copy Wikipedia's information, donate your own, or report unlicensed use of your information. @236,1210,99,162
+          link Licensing https://en.wikipedia.org/wiki/Wikipedia:Contact_us/Licensing @236,1384,99,20
+          text Find out about the process, how to donate, and information about how your money is spent. @236,1416,99,163
+          link Donors https://en.wikipedia.org/wiki/Wikipedia:Contact_us/Donors @236,1591,99,20
+          text If you're a member of the press looking to contact Wikipedia, or have a business proposal for us. @236,1623,99,183
+          link "Press and partnerships" https://en.wikipedia.org/wiki/Wikipedia:Contact_us/Press_and_partnerships @236,1818,99,40
+          link "Back to main page" https://en.wikipedia.org/wiki/Wikipedia:Main @236,1870,99,41
+        col @347,635,170,1486
+          link https://en.wikipedia.org/wiki/File:Contactus-wmcolors.svg https://en.wikipedia.org/wiki/File:Contactus-wmcolors.svg @347,635,170,20
+          text Thank you for your interest in contacting Wikipedia. Before proceeding, some important disclaimers: @347,667,170,101
+          text Contributions are made by a large number of volunteers at their own discretion. Edits are neither the responsibility of the (the organisation that hosts the site) nor of its staff. @347,780,170,163
+          text Wikipedia has no central editorial board. @347,955,170,40
+          link "Wikimedia Foundation" https://foundation.wikimedia.org/wiki/Home @347,1008,170,20
+          text Generally, the agent who responds to an email request will not make edits on your behalf. @347,1040,170,81
+          text Disagreements with content will not be resolved via email. Use the to propose specific changes to an article. @347,1133,170,102
+          link "Edit Request Wizard" https://en.wikipedia.org/wiki/Wikipedia:Edit_Request_Wizard @347,1247,170,20
+          text Although Wikipedia was co-founded by , he is not personally responsible for our content. @347,1279,170,81
+          link "Jimmy Wales" https://en.wikipedia.org/wiki/Jimmy_Wales @347,1372,170,20
+          text If you have questions about the of Wikipedia rather than a specific problem, the page may help. @347,1404,170,102
+          text concept @347,1518,170,20
+          link "About Wikipedia" https://en.wikipedia.org/wiki/Wikipedia:About @347,1550,170,20
+          text If you want to ask other users for help with editing or using Wikipedia, stop by the , Wikipedia's , or the to ask someone for assistance. @347,1582,170,142
+          row @347,1737,170,40
+            link Teahouse https://en.wikipedia.org/wiki/Wikipedia:Teahouse @347,1747,40,20
+            link "live help channel" https://en.wikipedia.org/wiki/Wikipedia:IRC_help_disclaimer @399,1737,67,40
+            link "help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk @478,1737,39,40
+          text If you disagree with an article's content, or are involved in a content dispute, see . @347,1789,170,81
+          link "Dispute resolution" https://en.wikipedia.org/wiki/Wikipedia:Dispute_resolution @347,1882,170,21
+          text The links on the left should direct you to how to contact us or resolve problems. If you cannot find your issue listed there, you can email helpful, experienced volunteers at . @347,1915,170,162
+          text info-enwikimedia.org @347,2089,170,20
+          image https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/At_sign.svg/20px-At_sign.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail @ @347,2121,0,0
+      text : @236,2133,281,21
+      row @236,2166,281,40
+        link Categories /wiki/Help:Category @236,2176,49,20
+        row @297,2166,220,40
+          link "Wikipedia tutorials" /wiki/Category:Wikipedia_tutorials @297,2166,79,40
+          link "Wikipedia quick introductions" /wiki/Category:Wikipedia_quick_introductions @388,2166,129,40
+  col @529,1117,182,575
+    text This page was last edited on 8 April 2026, at 17:21 (UTC). @529,1117,182,61
+    text Page was rendered with . @529,1190,182,20
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid @529,1222,182,20
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the and . Wikipedia® is a registered trademark of the , a non-profit organization. @529,1254,182,142
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License @529,1408,182,61
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use @529,1481,182,21
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @529,1514,182,20
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/ @529,1546,182,20
+    row @529,1578,182,81
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @529,1599,7,40
+      link "About Wikipedia" /wiki/Wikipedia:About @548,1599,8,40
+      link Disclaimers /wiki/Wikipedia:General_disclaimer @568,1609,5,20
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us @585,1599,9,40
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information @606,1578,12,81
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct @630,1588,8,61
+      link Developers https://developer.wikimedia.org @650,1609,6,20
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org @668,1609,4,20
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement @684,1599,9,40
+      link "Mobile view" @705,1599,6,40
+    row @529,1671,182,21
+      link https://www.wikimedia.org/ https://www.wikimedia.org/ @529,1671,85,21
+      link https://www.mediawiki.org/ https://www.mediawiki.org/ @626,1671,85,21
+!overflow move 174/216px
+!overflow search2 64/76px
+!overflow 84 28/121px
+!overflow tools 28/66px
+!overflow move2 28/179px
+!overflow hide 28/146px

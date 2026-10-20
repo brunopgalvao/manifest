@@ -1,0 +1,61 @@
+@developer_mozilla_org_en_us_docs_web_htm rev=0 @0,0,728,1406
+row @17,17,694,1372
+  col @17,626,25,154
+    link "Skip to main content" #content @17,626,25,81
+    link "Skip to search" #mdn-search @17,719,25,61
+  region 1280x91 @54,695,240,17 [1 shapes, 0 labelled]
+  col @306,677,43,52
+    link MDN /en-US/ @306,677,43,20
+    row @306,709,43,20
+      link Web /en-US/docs/Web @306,709,1,20
+      link HTML /en-US/docs/Web/HTML @319,709,2,20
+      link Guides /en-US/docs/Web/HTML/Guides @333,709,2,20
+      link Cheatsheet /en-US/docs/Web/HTML/Guides/Cheatsheet @347,709,2,20
+  col @361,17,41,1372
+    link HTML /en-US/docs/Web/HTML @361,17,41,20
+    link Guides /en-US/docs/Web/HTML/Guides @361,49,41,21
+    link Cheatsheet /en-US/docs/Web/HTML/Guides/Cheatsheet @361,82,41,20
+    link Comments /en-US/docs/Web/HTML/Guides/Comments @361,114,41,20
+    link "Constraint validation" /en-US/docs/Web/HTML/Guides/Constraint_validation @361,146,41,41
+    link "Content categories" /en-US/docs/Web/HTML/Guides/Content_categories @361,199,41,40
+    link "Date and time formats" /en-US/docs/Web/HTML/Guides/Date_and_time_formats @361,251,41,82
+    link Microdata /en-US/docs/Web/HTML/Guides/Microdata @361,345,41,20
+    link Microformats /en-US/docs/Web/HTML/Guides/Microformats @361,377,41,20
+    link "Quirks and standards modes" /en-US/docs/Web/HTML/Guides/Quirks_mode_and_standards_mode @361,409,41,81
+    link "Responsive images" /en-US/docs/Web/HTML/Guides/Responsive_images @361,502,41,41
+    link "How to" /en-US/docs/Web/HTML/How_to @361,555,41,41
+    link "Define terms with HTML" /en-US/docs/Web/HTML/How_to/Define_terms_with_HTML @361,608,41,81
+    link "Use data attributes" /en-US/docs/Web/HTML/How_to/Use_data_attributes @361,701,41,61
+    link "Use cross-origin images" /en-US/docs/Web/HTML/How_to/CORS_enabled_image @361,774,41,61
+    link "Add a hitmap on top of an image" /en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image @361,847,41,121
+    link "Author fast-loading HTML pages" /en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages @361,980,41,82
+    link "Add JavaScript" /en-US/docs/Web/HTML/How_to/Add_JavaScript_to_your_web_page @361,1074,41,40
+    link Reference /en-US/docs/Web/HTML/Reference @361,1126,41,21
+    link Elements /en-US/docs/Web/HTML/Reference/Elements @361,1159,41,20
+    link Attributes /en-US/docs/Web/HTML/Reference/Attributes @361,1191,41,20
+    link "Global attributes" /en-US/docs/Web/HTML/Reference/Global_attributes @361,1223,41,41
+    text Attributes by element @361,1276,41,61
+    text Attribute values @361,1349,41,40
+  col @414,565,297,276
+    row @414,565,297,102
+      row @414,565,72,102
+        link "MDN logo" / @414,596,14,40
+        text Your blueprint for a better internet. @440,565,46,102
+      row @498,575,135,82
+        link "MDN on GitHub" https://github.com/mdn/ @498,585,17,61
+        link "MDN on Bluesky" https://bsky.app/profile/developer.mozilla.org @527,585,18,61
+        link "MDN on X" https://x.com/mozdevnet @557,585,11,61
+        link "MDN on Mastodon" https://mastodon.social/@mdn @580,585,20,61
+        link "MDN blog RSS feed" /en-US/blog/rss.xml @612,575,21,82
+      text MDN @645,606,8,20
+      text Contribute @665,606,16,20
+      text Developers @693,606,18,20
+    row @414,679,297,162
+      link "Mozilla logo" https://www.mozilla.org/ @414,740,14,40
+      row @440,729,99,61
+        link "Website Privacy Notice" https://www.mozilla.org/privacy/websites/ @440,729,17,61
+        link "Telemetry Settings" https://www.mozilla.org/en-US/privacy/websites/data-preferences/ @469,740,15,40
+        link Legal https://www.mozilla.org/about/legal/terms/mozilla @496,750,4,20
+        link "Community Participation Guidelines" https://www.mozilla.org/about/governance/policies/participation/ @512,729,27,61
+      text Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under . @551,679,116,162
+      link "a Creative Commons license" /docs/MDN/Writing_guidelines/Attrib_copyright_license @679,719,32,81

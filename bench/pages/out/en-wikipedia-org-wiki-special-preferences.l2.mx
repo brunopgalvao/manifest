@@ -1,0 +1,97 @@
+@en_wikipedia_org_wiki_special_preference rev=0 @0,0,728,1276
+link "Jump to content" #bodyContent @17,17,694,20
+row @17,49,694,541
+  row @17,49,397,541
+    col @17,49,206,541
+      button "Main menu" @17,49,206,37
+      text Main menu @17,98,206,20
+      row @17,130,206,41
+        text Main menu @17,130,46,41
+        button "Move Main menu to sidebar" @75,132,148,36
+      link "Main page" https://en.wikipedia.org/wiki/Main_Page @17,183,206,20
+      link Contents https://en.wikipedia.org/wiki/Wikipedia:Contents @17,215,206,20
+      link "Current events" https://en.wikipedia.org/wiki/Portal:Current_events @17,247,206,20
+      link "Random article" https://en.wikipedia.org/wiki/Special:Random @17,279,206,21
+      link "About Wikipedia" https://en.wikipedia.org/wiki/Wikipedia:About @17,312,206,20
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us @17,344,206,20
+      text Contribute @17,376,206,21
+      link Help https://en.wikipedia.org/wiki/Help:Contents @17,409,206,20
+      link "Learn to edit" https://en.wikipedia.org/wiki/Help:Introduction @17,441,206,20
+      link "Community portal" https://en.wikipedia.org/wiki/Wikipedia:Community_portal @17,473,206,20
+      link "Recent changes" https://en.wikipedia.org/wiki/Special:RecentChanges @17,505,206,21
+      link "Upload file" https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard @17,538,206,20
+      link "Special pages" https://en.wikipedia.org/wiki/Special:SpecialPages @17,570,206,20
+    link https://en.wikipedia.org/wiki/Main_Page https://en.wikipedia.org/wiki/Main_Page @235,310,179,20
+  row @426,282,285,75
+    row @426,282,128,75
+      col @426,282,58,75
+        field "Search Wikipedia" search @426,282,58,75
+      button Search @496,302,58,36
+    row @566,300,145,40
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=auth.wikimedia.org&uselang=en @566,310,30,20
+      link "Create account" @608,300,65,40
+      link "Log in" @685,300,26,40
+row @17,602,694,657
+  row @17,602,332,657
+    h1 Log in @17,906,17,50
+    col @46,751,67,360
+      text English @46,751,67,20
+      button Tools @46,783,67,37
+      text Tools @46,832,67,20
+      row @46,864,67,36
+        text Tools @46,872,5,20
+        button "Move Tools to sidebar" @63,864,50,36
+      text General @46,912,67,21
+      link "Upload file" //en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard @46,945,67,40
+      link "Printable version" javascript:print(); @46,997,67,41
+      link "Get shortened URL" https://en.wikipedia.org/wiki/Special:UrlShortener?url=https%3A%2F%2Fauth.wikimedia.org%2Fenwiki%2Fw%2Findex.php%3Ftitle%3DSpecial%3AUserLogin%26centralauthLoginToken%3D93e4968a20205e8624a832e530dcdbe1%26returnto%3DSpecial%253APreferences%26returntoquery%3D%26useformat%3Ddesktop%26usesul3%3D1%26warning%3Dprefsnologintext2 @46,1050,67,61
+    col @125,688,73,485
+      row @125,688,73,37
+        text Appearance @125,696,13,21
+        button "Hide Appearance" @150,688,48,37
+      text Text @125,737,73,20
+      text Small @125,769,73,20
+      text Standard @125,801,73,21
+      text Large @125,834,73,20
+      text This page always uses small font size @125,866,73,81
+      text Width @125,959,73,20
+      text Standard @125,991,73,21
+      text Wide @125,1024,73,20
+      text Color @125,1056,73,20
+      text Automatic @125,1088,73,21
+      text Light @125,1121,73,20
+      text Dark @125,1153,73,20
+    col @210,602,139,657
+      region 448x52 @210,602,139,17 [2 shapes, 1 labelled]
+        text @39,26.200000762939453 fill:#202122 size:14 "Please log in to change your preferences." @222,606,86,5
+      text Username @210,631,139,20
+      field Username @210,663,139,58
+      text Password @210,733,139,20
+      field Password password @210,765,139,58
+      check "Keep me logged in (for up to one year)" off @210,835,139,60
+      text Keep me logged in (for up to one year) @210,907,139,41
+      text <input type="hidden" value="1" name="wmevents_userlogin_noscript"> @210,960,139,81
+      button "Log in" primary @210,1053,139,37
+      link "Help with logging in" https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Logging_in @210,1102,139,20
+      link "Forgot your password?" @210,1134,139,40
+      text Don't have an account? @210,1186,139,41
+      link "Join Wikipedia" @210,1239,139,20
+  col @361,874,350,114
+    row @361,874,350,81
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @361,894,22,41
+      link "About Wikipedia" https://en.wikipedia.org/wiki/Wikipedia:About @395,894,27,41
+      link Disclaimers https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer @434,905,18,20
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us @464,894,30,41
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information @506,874,37,81
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct @555,884,27,61
+      link Developers https://developer.wikimedia.org @594,905,19,20
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org @625,905,14,20
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement @651,894,29,41
+      link "Mobile view" @692,894,19,41
+    row @361,967,350,21
+      link https://www.wikimedia.org/ https://www.wikimedia.org/ @361,967,169,21
+      link https://www.mediawiki.org/ https://www.mediawiki.org/ @542,967,169,21
+!overflow move 146/216px
+!overflow search2 56/76px
+!overflow move2 48/179px
+!overflow hide 46/146px

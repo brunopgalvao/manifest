@@ -1,0 +1,144 @@
+@www_w3_org_wai_aria_apg_patterns_tabs_ex rev=0 @0,0,728,3934
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+row @17,102,694,3180
+  col @17,1369,11,646
+    h2 Page Contents @17,1369,11,42
+    link "Read This First" #support-notice-header @17,1423,11,61
+    link "About This Example" #aboutthisexample @17,1496,11,61
+    link Example #ex_label @17,1569,11,20
+    link "Accessibility Features" #accessibilityfeatures @17,1601,11,41
+    link "Keyboard Support" #kbd_label @17,1654,11,41
+    link "Role, Property, State, and Tabindex Attributes" #rps_label @17,1707,11,121
+    link "JavaScript and CSS Source Code" #javascriptandcsssourcecode @17,1840,11,102
+    link "HTML Source Code" #sc1_label @17,1954,11,61
+  col @40,102,671,3180
+    h1 Example of Tabs with Automatic Activation @40,102,671,25
+    h2 Read This First @40,139,671,21
+    card @40,172,671,71
+      text The code in this example is not intended for production environments. Before using it for any purpose, read this to understand why. warning @57,187,637,41
+    h2 About This Example @40,255,671,21
+    text This example section demonstrates a tabs widget that implements the . In this example, a tab is automatically activated and its associated panel is displayed when the tab receives focus. It is recommended that authors consider implementing automatic activation of tabs circumstances where panels can be displayed instantly, i.e., all panel content is present in the DOM. For additional guidance, see . @40,288,671,102
+    link "Tabs Pattern" ../../ @40,402,671,20
+    text only in @40,434,671,20
+    link "Deciding When to Make Selection Automatically Follow Focus" ../../../../practices/keyboard-interface/#kbd_selection_follows_focus @40,466,671,20
+    text Similar examples include: @40,498,671,21
+    text : A tabs widget where users activate a tab and display its panel by pressing or . @40,531,671,20
+    link "Example of Tabs with Manual Activation" ../tabs-manual/ @40,563,671,20
+    text Space @40,595,671,21
+    text Enter @40,628,671,20
+    h2 Example @40,660,671,21
+    button "Open In CodePen" primary @40,693,671,36
+    text Start of @40,741,671,21
+    h3 Danish Composers @40,774,671,18
+    tabs @40,804,671,132
+      tab *"Maria Ahlefeldt" @40,804,128,39
+        text Maria Theresia Ahlefeldt (16 January 1755 – 20 December 1810) was a Danish, (originally German), composer. She is known as the first female composer in Denmark. Maria Theresia composed music for several ballets, operas, and plays of the royal theatre. She was given good critic as a composer and described as a “virkelig Tonekunstnerinde” ('a True Artist of Music'). @40,855,671,81
+      tab "Carl Andersen" @172,804,119,39 [0 hidden]
+      tab "Ida da Fonseca" @295,804,125,39 [0 hidden]
+      tab "Peter Müller" @424,804,105,39 [0 hidden]
+    text End of @40,948,671,20
+    h2 Accessibility Features @40,980,671,22
+    text To make it easy for screen reader users to navigate from a tab to the beginning of content in the active , the element has to include the panel in the page sequence. It is recommended that all elements in a tab set are focusable if there are any panels in the set that contain content where the first element in the panel is not focusable. @40,1014,671,81
+    text tabpanel primary @40,1107,671,20
+    text tabpanel primary @40,1139,671,20
+    text tabindex="0" primary @40,1171,671,21
+    text Tab @40,1204,671,20
+    text tabpanel primary @40,1236,671,20
+    text To ensure people who rely on browser or operating system high contrast settings can both distinguish the active (selected) tab from other tabs and perceive keyboard focus: @40,1268,671,41
+    text The active tab has a 2 pixel border on its left and right sides and a 4 pixel border on top, while the names of inactive tabs have 1 pixel borders. The active tab is also 4 pixels higher than the inactive tabs. @40,1321,671,61
+    text The focus ring is drawn with a CSS border on a child span element of the tab element. This focus span is separated from the tab border by 2 pixels of space to ensure focus and selection are separately perceivable. Note that when a tab element is focused, the outline of the tab element itself is set to 0 so that only one focus ring is displayed. @40,1394,671,81
+    text Because transparent borders are visible on some systems when high contrast settings are enabled, only the focused span element has a visible border. When span elements are not indicating focus, they have a 0-width border and additional padding equal in width to the border that is used to indicate focus. @40,1487,671,81
+    text To ensure the tab content remains visible when the screen is magnified, the width of the tabs and tab panels are defined using a percentage of the screen width. As the page is magnified the height of the tab increases and the tab content re-flows to the new dimensions of the tab. @40,1580,671,61
+    h2 Keyboard Support @40,1653,671,21
+    table Key Function @40,1686,671,206
+      Tab | When focus moves into the tab list, places focus on the active tab element . When the tab list contains the focus, moves focus to the next element in the tab sequence, which is the tabpanel element.
+      Right Arrow | Moves focus to the next tab. If focus is on the last tab, moves focus to the first tab. Activates the newly focused tab.
+      Left Arrow | Moves focus to the previous tab. If focus is on the first tab, moves focus to the last tab. Activates the newly focused tab.
+      Home | Moves focus to the first tab and activates it.
+      End | Moves focus to the last tab and activates it.
+    h2 Role, Property, State, and Tabindex Attributes @40,1904,671,21
+    table Role Attribute Element Usage @40,1937,671,383
+      tablist |  | div | Indicates that the element serves as a container for a set of tabs.
+       | aria-labelledby="ID_REFERENCE" | div | Provides a label that describes the purpose of the set of tabs.
+      tab |  | button | Indicates the element serves as a tab control. When focused, it is automatically activated, causing its associated tabpanel to be displayed. Provides a label for its associated tabpanel.
+       | aria-selected="true" | button | Indicates the tab is selected and its associated tabpanel is displayed. Set when a tab receives focus.
+       | aria-selected="false" | button | Indicates the tab is not selected and its associated tabpanel is NOT displayed. Set for all tab elements in the tab set except the tab that is selected.
+       | tabindex="-1" | button | Removes the element from the page Tab sequence. Set when a tab is not selected so that only the selected tab is in the page Tab sequence. Since an HTML button element is used for the tab, it is not necessary to set tabindex="0" on the selected (active) tab element. This approach to managing focus is described in the section on Managing Focus Within Components Using a Roving tabindex.
+       | aria-controls="ID_REFERENCE" | button | Refers to the element with role=tabpanel associated with the tab.
+      tabpanel |  | div | Indicates the element serves as a container for tab panel content. Is hidden unless its associated tab control is activated.
+       | aria-labelledby="ID_REFERENCE" | div | Refers to the tab element that controls the panel. Provides an accessible name for the tab panel.
+       | tabindex="0" | div | Puts the tabpanel in the page Tab sequence. Facilitates navigation to panel content for assistive technology users. Focusable tabpanel elements are recommended if any panels in a set contain content where the first element in the panel is not focusable.
+    h2 JavaScript and CSS Source Code @40,2332,671,21
+    text CSS: @40,2365,671,20
+    link tabs.css ../../../../../../content-assets/wai-aria-practices/patterns/tabs/examples/css/tabs.css @40,2397,671,21
+    text JavaScript: @40,2430,671,20
+    link tabs-automatic.js ../../../../../../content-assets/wai-aria-practices/patterns/tabs/examples/js/tabs-automatic.js @40,2462,671,20
+    h2 HTML Source Code @40,2494,671,22
+    text To copy the following HTML code, please open it in CodePen. @40,2528,671,20
+    button "Open In CodePen" primary @40,2560,671,36
+    text Start of @40,2608,671,20
+    text <div class="tabs"> <h3 id="tablist-1"> Danish Composers </h3> <div role="tablist" aria-labelledby="tablist-1" class="automatic"> <button id="tab-1" type="button" role="tab" aria-selected="true" aria-controls="tabpanel-1"> <span class="focus"> Maria Ahlefeldt </span> </button> <button id="tab-2" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-2" tabindex="-1"> <span class="focus"> Carl Andersen </span> </button> <button id="tab-3" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-3" tabindex="-1"> <span class="focus"> Ida da Fonseca </span> </button> <button id="tab-4" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-4" tabindex="-1"> <span class="focus"> Peter Müller </span> </button> </div> <div id="tabpanel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1"> <p> Maria Theresia Ahlefeldt (16 January 1755 – 20 December 1810) was a Danish, (originally German), composer. She is known as the first female composer in Denmark. Maria Theresia composed music for several ballets, operas, and plays of the royal theatre. She was given good critic as a composer and described as a “ <span lang="da"> virkelig Tonekunstnerinde </span> ” ('a True Artist of Music'). </p> </div> <div id="tabpanel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" class="is-hidden"> <p> Carl Joachim Andersen (29 April 1847 – 7 May 1909) was a Danish flutist, conductor and composer born in Copenhagen, son of the flutist Christian Joachim Andersen. Both as a virtuoso and as composer of flute music, he is considered one of the best of his time. He was considered to be a tough leader and teacher and demanded as such a lot from his orchestras but through that style he reached a high level. </p> </div> <div id="tabpanel-3" role="tabpanel" tabindex="0" aria-labelledby="tab-3" class="is-hidden"> <p> Ida Henriette da Fonseca (July 27, 1802 – July 6, 1858) was a Danish opera singer and composer. Ida Henriette da Fonseca was the daughter of Abraham da Fonseca (1776–1849) and Marie Sofie Kiærskou (1784–1863). She and her sister Emilie da Fonseca were students of Giuseppe Siboni, choir master of the Opera in Copenhagen. She was given a place at the royal Opera alongside her sister the same year she debuted in 1827. </p> </div> <div id="tabpanel-4" role="tabpanel" tabindex="0" aria-labelledby="tab-4" class="is-hidden"> <p> Peter Erasmus Lange-Müller (1 December 1850 – 26 February 1926) was a Danish composer and pianist. His compositional style was influenced by Danish folk music and by the work of Robert Schumann; Johannes Brahms; and his Danish countrymen, including J.P.E. Hartmann. </p> </div> </div> @40,2640,671,609
+    text End of @40,3261,671,21
+row @17,3294,694,21
+  h2 Help improve this page @17,3294,192,21
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,3327,694,20
+link public-aria-practices@w3.org @17,3359,694,21
+row @17,3392,694,20
+  link E-mail @17,3392,42,20
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/tabs/examples/tabs-automatic.html @71,3392,142,20
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-automatic/ @225,3392,119,20
+link "Back to Top" #top @17,3424,694,20
+link "View issues related to this example" https://github.com/orgs/w3c/projects/130 @17,3456,694,21
+text Page last updated: 12 August 2025 @17,3489,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,3521,694,20
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,3553,694,20
+row @17,3585,694,21
+  link "Get News in Email" /WAI/news/subscribe/ @17,3585,120,21
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,3585,57,21
+  link Mastodon https://w3c.social/@wai @218,3585,67,21
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,3585,61,21
+row @17,3618,694,40
+  link Home /WAI/ @17,3628,37,20
+  link Contact /WAI/about/contacting/ @66,3628,48,20
+  link "Site map" /WAI/sitemap/ @126,3618,54,40
+  link "Support WAI" /WAI/about/support/ @192,3618,78,40
+  link News /WAI/news/ @282,3628,36,20
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,3618,142,40
+  link "All Translations" /WAI/translations/ @484,3618,94,40
+  link "Resources for roles" /WAI/roles/ @590,3618,121,40
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,3670,694,21
+link "World Wide Web Consortium" https://www.w3.org/ @17,3703,694,20
+text W3C @17,3735,694,20
+text ® @17,3767,694,21
+link liability https://www.w3.org/policies/#disclaimers @17,3800,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,3832,694,20
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,3864,694,20
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,3896,694,21
+!overflow table.Tab.Function 335/1327px
+!overflow table.Right Arrow.Function 335/786px
+!overflow table.Left Arrow.Function 335/815px
+!overflow table2.tablist.Usage 168/445px
+!overflow table2..Attribute 168/239px
+!overflow table2..Usage 168/424px
+!overflow table2.tab.Usage 168/1221px
+!overflow table2..Usage 168/681px
+!overflow table2..Usage 168/985px
+!overflow table2..Usage 168/2627px
+!overflow table2..Attribute 168/224px
+!overflow table2..Usage 168/447px
+!overflow table2.tabpanel.Usage 168/815px
+!overflow table2..Attribute 168/239px
+!overflow table2..Usage 168/653px
+!overflow table2..Usage 168/1693px

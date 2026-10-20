@@ -1,0 +1,65 @@
+@ui_shadcn_com_create
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+    row
+      link "Open in" https://v0.dev/chat/api/open?url=https://ui.shadcn.com/init/v0?preset=b0&base=base&title=Newbase-novaproject
+      button "Get Code" primary
+row
+  col
+    region 1016x806
+      rect @0,0 1016x806 fill:#f5f5f5
+    card
+      button 01 primary
+      button 02
+  col
+    button Menu
+    button StyleNova
+    button Lock
+    button "Base ColorNeutral"
+    button Lock
+    button ThemeNeutral
+    button Lock
+    button "Chart ColorNeutral"
+    button Lock
+    button HeadingInterAa
+    button Lock
+    button FontInterAa
+    button Lock
+    button "Icon LibraryLucide"
+    button Lock
+    button RadiusDefault
+    button Lock
+    button "MenuDefault / Solid"
+    button Lock
+    button "Menu AccentSubtle"
+    button Lock
+    button "--preset b0"
+    button "Open Preset"
+    button Shuffle
+    h2 Command Palette
+    text Search for a command to run...
+    button "Get Code"
+text Notifications alt+T
+text Notifications
+row
+  region 48x48
+    rect @0,0 256x256
+    line @208,128 @128,208 fill:none stroke:#000000 width:32
+    line @192,40 @40,192 fill:none stroke:#000000 width:32
+  col
+    h2 Build your own shadcn/ui
+    text Customize everything from the ground up. Pick your component library, font, color scheme, and more.
+    text Available for all major React frameworks.
+  button "Get Started" primary

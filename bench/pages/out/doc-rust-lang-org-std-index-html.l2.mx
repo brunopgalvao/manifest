@@ -1,0 +1,720 @@
+@doc_rust_lang_org_std_index_html rev=0 @0,0,728,7181
+row @17,17,694,7147
+  link "Skip to main content" #main-content @17,3550,3,81
+  col @32,2804,6,1574
+    row @32,2804,6,21
+      link ../std/index.html ../std/index.html @32,2804,0,21
+      h2 std1.99.1 @44,2804,0,21
+    text (58cf8f9c3 2026-10-13) @32,2837,6,41
+    link "All Items" all.html @32,2890,6,40
+    h3 Sections @32,2942,6,19
+    link "The Rust Standard Library" #the-rust-standard-library @32,2973,6,81
+    link "How to read this documentation" #how-to-read-this-documentation @32,3066,6,102
+    link "What is in the standard library documentation?" #what-is-in-the-standard-library-documentation @32,3180,6,142
+    link "Contributing changes to the documentation" #contributing-changes-to-the-documentation @32,3334,6,101
+    link "A Tour of The Rust Standard Library" #a-tour-of-the-rust-standard-library @32,3447,6,142
+    link "Containers and collections" #containers-and-collections @32,3601,6,61
+    link "Platform abstractions and I/O" #platform-abstractions-and-io @32,3674,6,82
+    link "Use before and after main()" #use-before-and-after-main @32,3768,6,101
+    h3 Crate Items @32,3881,6,38
+    link "Primitive Types" #primitives @32,3931,6,40
+    link Modules #modules @32,3983,6,20
+    link Macros #macros @32,4015,6,21
+    link Keywords #keywords @32,4048,6,20
+    link Attributes #attribute-docs @32,4080,6,20
+    link "Attribute Macros" #attributes @32,4112,6,41
+    h3 Crates @32,4165,6,19
+    link alloc ../alloc/index.html @32,4196,6,20
+    link core ../core/index.html @32,4228,6,20
+    link proc_macro ../proc_macro/index.html @32,4260,6,21
+    link std ../std/index.html @32,4293,6,20
+    link std_detect ../std_detect/index.html @32,4325,6,20
+    link test ../test/index.html @32,4357,6,21
+  col @50,17,661,7147
+    row @50,17,661,36
+      h1 Crate std Copy item path @50,23,243,25
+      text · @305,25,5,20
+      row @322,25,92,20
+        text 1.0.0 @322,25,32,20
+        link Source ../src/std/lib.rs.html#1-815 @366,25,48,20
+      row @426,17,263,36
+        link Search https://doc.rust-lang.org/std/index.html?search= @426,25,47,20
+        link Settings ../settings.html @485,25,54,20
+        link Help ../help.html @551,25,31,20
+        button Summary @594,17,95,36
+    row @50,65,661,4636
+      text Expand description @50,2363,25,40
+      col @87,65,624,4636
+        h2 §The Rust Standard Library @87,65,624,22
+        text The Rust Standard Library is the foundation of portable Rust software, a set of minimal and battle-tested shared abstractions for the . It offers core types, like and , library-defined , , and , among . @87,99,624,60
+        link "broader Rust ecosystem" https://crates.io @87,171,624,21
+        link Vec<T> vec/struct.Vec.html @87,204,624,20
+        link Option<T> option/enum.Option.html @87,236,624,20
+        link "operations on language primitives" #primitives2 @87,268,624,21
+        link "standard macros" #macros2 @87,301,624,20
+        link I/O io/index.html @87,333,624,20
+        link multithreading thread/index.html @87,365,624,21
+        link "many other things" #what-is-in-the-standard-library-documentation2 @87,398,624,20
+        text is available to all Rust crates by default. Therefore, the standard library can be accessed in statements through the path , as in . @87,430,624,40
+        text std @87,482,624,21
+        link use ../book/ch07-02-defining-modules-to-control-scope-and-privacy.html @87,515,624,20
+        text std @87,547,624,20
+        link "use std::env" env/index.html @87,579,624,21
+        h2 §How to read this documentation @87,612,624,21
+        text If you already know the name of what you are looking for, the fastest way to find it is to use the at the top of the page. @87,645,624,40
+        link "search button" # @87,697,624,21
+        text Otherwise, you may want to jump to one of these useful sections: @87,730,624,20
+        link "std::* modules" #modules2 @87,762,624,20
+        link "Primitive types" #primitives3 @87,794,624,21
+        link "Standard macros" #macros3 @87,827,624,20
+        link "The Rust Prelude" prelude/index.html @87,859,624,20
+        text If this is your first time, the documentation for the standard library is written to be casually perused. Clicking on interesting things should generally lead you to interesting places. Still, there are important bits you don’t want to miss, so read on for a tour of the standard library and its documentation! @87,891,624,81
+        text Once you are familiar with the contents of the standard library you may begin to find the verbosity of the prose distracting. At this stage in your development you may want to press the “ Summary” button near the top of the page to collapse it into a more skimmable view. @87,984,624,61
+        text While you are looking at the top of the page, also notice the “Source” link. Rust’s API documentation comes with the source code and you are encouraged to read it. The standard library source is generally high quality and a peek behind the curtains is often enlightening. @87,1057,624,61
+        h2 §What is in the standard library documentation? @87,1130,624,22
+        text First of all, The Rust Standard Library is divided into a number of focused modules, . These modules are the bedrock upon which all of Rust is forged, and they have mighty names like and . Modules’ documentation typically includes an overview of the module along with examples, and are a smart place to start familiarizing yourself with the library. @87,1164,624,81
+        link "all listed further down this page" #modules3 @87,1257,624,20
+        link std::slice slice/index.html @87,1289,624,20
+        link std::cmp cmp/index.html @87,1321,624,21
+        text Second, implicit methods on are documented here. This can be a source of confusion for two reasons: @87,1354,624,40
+        link "primitive types" ../book/ch03-02-data-types.html @87,1406,624,21
+        text While primitives are implemented by the compiler, the standard library implements methods directly on the primitive types (and it is the only library that does so), which are . @87,1439,624,40
+        link "documented in the section on primitives" #primitives4 @87,1491,624,20
+        text The standard library exports many modules with the same name as primitive types. These define additional items related to the primitive type, but not the all-important methods. @87,1523,624,41
+        text So for example there is a that lists all the methods that can be called on characters (very useful), and there is a that documents iterator and error types created by these methods (rarely useful). @87,1576,624,61
+        link "page for the primitive type char" primitive.char.html @87,1649,624,20
+        link "page for the module std::char" char/index.html @87,1681,624,21
+        text Note the documentation for the primitives and (also called ‘slice’). Many method calls on and are actually calls to methods on and respectively, via . @87,1714,624,40
+        link str primitive.str.html @87,1766,624,20
+        link [T] primitive.slice.html @87,1798,624,21
+        link String string/struct.String.html @87,1831,624,20
+        link Vec<T> vec/struct.Vec.html @87,1863,624,20
+        link str primitive.str.html @87,1895,624,21
+        link [T] primitive.slice.html @87,1928,624,20
+        link "deref coercions" ../book/ch15-02-deref.html#implicit-deref-coercions-with-functions-and-methods @87,1960,624,20
+        text Third, the standard library defines , a small collection of items - mostly traits - that are imported into every module of every crate. The traits in the prelude are pervasive, making the prelude documentation a good entry point to learning about the library. @87,1992,624,61
+        link "The Rust Prelude" prelude/index.html @87,2065,624,20
+        text And finally, the standard library exports a number of standard macros, and (technically, not all of the standard macros are defined by the standard library - some are defined by the compiler - but they are documented here the same). Like the prelude, the standard macros are imported by default into all crates. @87,2097,624,82
+        link "lists them on this page" #macros4 @87,2191,624,20
+        h2 §Contributing changes to the documentation @87,2223,624,21
+        text Check out the Rust contribution guidelines . The source for this documentation can be found on in the ‘library/std/’ directory. To contribute changes, make sure you read the guidelines first, then submit pull-requests for your suggested changes. @87,2256,624,61
+        row @87,2329,624,20
+          link here https://rustc-dev-guide.rust-lang.org/contributing.html#writing-documentation @87,2329,30,20
+          link GitHub https://github.com/rust-lang/rust @129,2329,46,20
+        text "Contributions are appreciated! If you see a part of the docs that can be improved, submit a PR, or chat with us first on  #t-libs." @87,2361,624,41
+        link Zulip https://rust-lang.zulipchat.com/#narrow/channel/219381-t-libs/ @87,2414,624,20
+        h2 §A Tour of The Rust Standard Library @87,2446,624,22
+        text The rest of this crate documentation is dedicated to pointing out notable features of The Rust Standard Library. @87,2480,624,40
+        h3 §Containers and collections @87,2532,624,19
+        text The and modules define optional and error-handling types, and . The module defines Rust’s iterator trait, , which works with the loop to access collections. @87,2563,624,41
+        link option option/index.html @87,2616,624,20
+        link result result/index.html @87,2648,624,20
+        link Option<T> option/enum.Option.html @87,2680,624,20
+        link "Result<T, E>" result/enum.Result.html @87,2712,624,21
+        link iter iter/index.html @87,2745,624,20
+        link Iterator iter/trait.Iterator.html @87,2777,624,20
+        link for ../book/ch03-05-control-flow.html#looping-through-a-collection-with-for @87,2809,624,21
+        text The standard library exposes three common ways to deal with contiguous regions of memory: @87,2842,624,20
+        text - A heap-allocated that is resizable at runtime. @87,2874,624,20
+        row @87,2906,624,21
+          link Vec<T> vec/struct.Vec.html @87,2906,54,21
+          text vector @153,2906,43,21
+        text - An inline with a fixed size at compile time. @87,2939,624,20
+        row @87,2971,624,20
+          link "[T; N]" primitive.array.html @87,2971,38,20
+          text array @137,2971,35,20
+        text - A dynamically sized into any other kind of contiguous storage, whether heap-allocated or not. @87,3003,624,41
+        row @87,3056,624,20
+          link [T] primitive.slice.html @87,3056,20,20
+          text slice @119,3056,31,20
+        text Slices can only be handled through some kind of pointer, and as such come in many flavors such as: @87,3088,624,41
+        text &[T] - shared slice @87,3141,624,20
+        text &mut [T] - mutable slice @87,3173,624,20
+        text - @87,3205,624,21
+        row @87,3238,624,20
+          link Box<[T]> boxed/index.html @87,3238,63,20
+          text owned slice @162,3238,80,20
+        text , a UTF-8 string slice, is a primitive type, and the standard library defines many methods for it. Rust s are typically accessed as immutable references: . Use the owned for building and mutating strings. @87,3270,624,61
+        link str primitive.str.html @87,3343,624,20
+        link str primitive.str.html @87,3375,624,20
+        text &str @87,3407,624,21
+        link String string/struct.String.html @87,3440,624,20
+        text For converting to strings use the macro, and for converting from strings use the trait. @87,3472,624,20
+        row @87,3504,624,21
+          link format! macro.format.html @87,3504,48,21
+          link FromStr str/trait.FromStr.html @147,3504,54,21
+        text Data may be shared by placing it in a reference-counted box or the type, and if further contained in a or , may be mutated as well as shared. Likewise, in a concurrent setting it is common to pair an atomically-reference-counted box, , with a to get the same effect. @87,3537,624,60
+        link Rc rc/struct.Rc.html @87,3609,624,21
+        link Cell cell/struct.Cell.html @87,3642,624,20
+        link RefCell cell/struct.RefCell.html @87,3674,624,20
+        link Arc sync/struct.Arc.html @87,3706,624,21
+        link Mutex sync/struct.Mutex.html @87,3739,624,20
+        text The module defines maps, sets, linked lists and other typical collection types, including the common . @87,3771,624,41
+        link collections collections/index.html @87,3824,624,20
+        link "HashMap<K, V>" collections/struct.HashMap.html @87,3856,624,20
+        h3 §Platform abstractions and I/O @87,3888,624,19
+        text Besides basic data types, the standard library is largely concerned with abstracting over differences in common platforms, most notably Windows and Unix derivatives. @87,3919,624,40
+        text Common types of I/O, including , , and , are defined in the , , and modules. @87,3971,624,21
+        row @87,4004,624,20
+          link files fs/struct.File.html @87,4004,28,20
+          link TCP net/struct.TcpStream.html @127,4004,29,20
+          link UDP net/struct.UdpSocket.html @168,4004,30,20
+          link io io/index.html @210,4004,12,20
+          link fs fs/index.html @234,4004,13,20
+          link net net/index.html @259,4004,22,20
+        text The module contains Rust’s threading abstractions. contains further primitive shared memory types, including , and , which contains the channel types for message passing. @87,4036,624,41
+        link thread thread/index.html @87,4089,624,20
+        link sync sync/index.html @87,4121,624,20
+        link atomic sync/atomic/index.html @87,4153,624,21
+        link mpmc sync/mpmc/index.html @87,4186,624,20
+        link mpsc sync/mpsc/index.html @87,4218,624,20
+        h2 §Use before and after main() @87,4250,624,21
+        text Many parts of the standard library are expected to work before and after main(); but this is not guaranteed or ensured by tests. It is recommended that you write your own tests and run them on each platform you wish to support. This means that use of std before/after main, especially of features that interact with the OS or global state, is exempted from stability and portability guarantees and instead only provided on a best-effort basis. Nevertheless bug reports are appreciated. @87,4283,624,122
+        text On the other hand core and alloc are most likely to work in such environments with the caveat that any hookable behavior such as panics, oom handling or allocators will also depend on the compatibility of the hooks. @87,4417,624,61
+        text Some features may also behave differently outside main, e.g. stdio could become unbuffered, some panics might turn into aborts, backtraces might not get symbolicated or similar. @87,4490,624,41
+        text Non-exhaustive list of known limitations: @87,4543,624,20
+        text after-main use of thread-locals, which also affects additional features: @87,4575,624,20
+        link thread::current() thread/fn.current.html @87,4607,624,21
+        text under UNIX, before main, file descriptors 0, 1, and 2 may be unchanged (they are guaranteed to be open during main, and are opened to /dev/null O_RDWR if they weren’t open on program start) @87,4640,624,61
+    h2 Primitive Types§ @50,4713,661,21
+    row @50,4746,661,365
+      link array primitive.array.html @50,4918,0,21
+      text A fixed-size array, denoted [T; N], for the element type, T, and the non-negative compile-time constant size, N. @62,4746,2,365
+      link bool primitive.bool.html @76,4918,0,21
+      text The boolean type. @88,4898,1,61
+      link char primitive.char.html @101,4918,0,21
+      text A character type. @113,4898,0,61
+      link f32 primitive.f32.html @125,4918,0,21
+      text A 32-bit floating-point type (specifically, the “binary32” type defined in IEEE 754-2008). @137,4807,2,243
+      link f64 primitive.f64.html @151,4918,0,21
+      text A 64-bit floating-point type (specifically, the “binary64” type defined in IEEE 754-2008). @163,4807,2,243
+      link fn primitive.fn.html @177,4918,0,21
+      text Function pointers, like fn(usize) -> bool. @189,4868,0,121
+      link i8 primitive.i8.html @201,4918,0,21
+      text The 8-bit signed integer type. @213,4878,1,101
+      link i16 primitive.i16.html @226,4918,0,21
+      text The 16-bit signed integer type. @238,4878,1,101
+      link i32 primitive.i32.html @251,4918,0,21
+      text The 32-bit signed integer type. @263,4878,0,101
+      link i64 primitive.i64.html @275,4918,0,21
+      text The 64-bit signed integer type. @287,4878,1,101
+      link i128 primitive.i128.html @300,4918,0,21
+      text The 128-bit signed integer type. @312,4878,0,101
+      link isize primitive.isize.html @324,4918,1,21
+      text The pointer-sized signed integer type. @337,4878,0,101
+      link pointer primitive.pointer.html @349,4918,0,21
+      text Raw, unsafe pointers, *const T, and *mut T. @361,4847,1,163
+      link reference primitive.reference.html @374,4918,0,21
+      text References, &T and &mut T. @386,4878,1,101
+      link slice primitive.slice.html @399,4918,0,21
+      text A dynamically-sized view into a contiguous sequence, [T]. @411,4847,1,163
+      link str primitive.str.html @424,4918,0,21
+      text String slices. @436,4908,0,41
+      link tuple primitive.tuple.html @448,4918,0,21
+      text A finite heterogeneous sequence, (T, U, ..). @460,4857,1,143
+      link u8 primitive.u8.html @473,4918,0,21
+      text The 8-bit unsigned integer type. @485,4878,1,101
+      link u16 primitive.u16.html @498,4918,0,21
+      text The 16-bit unsigned integer type. @510,4878,1,101
+      link u32 primitive.u32.html @523,4918,0,21
+      text The 32-bit unsigned integer type. @535,4878,0,101
+      link u64 primitive.u64.html @547,4918,0,21
+      text The 64-bit unsigned integer type. @559,4878,1,101
+      link u128 primitive.u128.html @572,4918,0,21
+      text The 128-bit unsigned integer type. @584,4878,1,101
+      link unit primitive.unit.html @597,4918,0,21
+      text The () type, also called “unit”. @609,4868,0,121
+      link usize primitive.usize.html @621,4918,0,21
+      text The pointer-sized unsigned integer type. @633,4878,1,101
+      row @646,4918,0,21
+        link f16 primitive.f16.html @646,4918,0,21
+        text Experimental @658,4918,0,21
+      text A 16-bit floating-point type (specifically, the “binary16” type defined in IEEE 754-2008). @658,4807,2,243
+      row @672,4918,0,21
+        link f128 primitive.f128.html @672,4918,0,21
+        text Experimental @684,4918,0,21
+      text A 128-bit floating-point type (specifically, the “binary128” type defined in IEEE 754-2008). @684,4807,2,243
+      row @698,4918,0,21
+        link never primitive.never.html @698,4918,0,21
+        text Experimental @710,4918,0,21
+      text The ! type, also called “never”. @710,4868,1,121
+    h2 Modules§ @50,5123,661,21
+    row @50,5156,661,549
+      link alloc alloc/index.html @50,5420,0,21
+      text Memory allocation APIs. @62,5400,0,61
+      link any any/index.html @74,5420,0,21
+      text Utilities for dynamic typing or type reflection. @86,5359,0,143
+      link arch arch/index.html @98,5420,0,21
+      text SIMD and vendor intrinsics module. @110,5380,0,101
+      link array array/index.html @122,5420,0,21
+      text Utilities for the array primitive type. @134,5370,0,121
+      link ascii ascii/index.html @146,5420,0,21
+      text Operations on ASCII strings and characters. @158,5370,0,121
+      link backtrace backtrace/index.html @170,5420,0,21
+      text Support for capturing a stack backtrace of an OS thread @182,5329,0,203
+      link borrow borrow/index.html @194,5420,0,21
+      text A module for working with borrowed data. @206,5359,0,143
+      link boxed boxed/index.html @218,5420,0,21
+      text The Box<T> type for heap allocation. @230,5370,0,121
+      link cell cell/index.html @242,5420,0,21
+      text Shareable mutable containers. @254,5400,0,61
+      link char char/index.html @266,5420,0,21
+      text Utilities for the char primitive type. @278,5370,0,121
+      link clone clone/index.html @290,5420,0,21
+      text The Clone trait for types that cannot be ‘implicitly copied’. @302,5329,0,203
+      link cmp cmp/index.html @314,5420,0,21
+      text Utilities for comparing and ordering values. @326,5370,0,121
+      link collections collections/index.html @338,5420,0,21
+      text Collection types. @350,5410,0,41
+      link convert convert/index.html @362,5420,0,21
+      text Traits for conversions between types. @374,5380,0,101
+      link default default/index.html @386,5420,0,21
+      text The Default trait for types with a default value. @398,5339,0,183
+      link env env/index.html @410,5420,0,21
+      text Inspection and manipulation of the process’s environment. @422,5359,0,143
+      link error error/index.html @434,5420,0,21
+      text Interfaces for working with Errors. @446,5380,0,101
+      link f32 f32/index.html @458,5420,0,21
+      text Constants for the f32 single-precision floating point type. @470,5349,0,163
+      link f64 f64/index.html @482,5420,0,21
+      text Constants for the f64 double-precision floating point type. @494,5349,0,163
+      link ffi ffi/index.html @506,5420,0,21
+      text Utilities related to FFI bindings. @518,5380,0,101
+      link fmt fmt/index.html @530,5420,0,21
+      text Utilities for formatting and printing Strings. @542,5370,0,121
+      link fs fs/index.html @554,5420,0,21
+      text Filesystem manipulation operations. @566,5400,0,61
+      link future future/index.html @578,5420,0,21
+      text Asynchronous basic functionality. @590,5400,0,61
+      link hash hash/index.html @602,5420,0,21
+      text Generic hashing support. @614,5400,0,61
+      link hint hint/index.html @626,5420,0,21
+      text Hints to compiler that affects how code should be emitted or optimized. @638,5309,0,243
+      row @650,5420,0,21
+        link i8 i8/index.html @650,5420,0,21
+        text Deprecated @662,5420,0,21
+      text Redundant constants module for the . @662,5370,0,121
+      link "i8 primitive type" primitive.i8.html @674,5400,0,61
+      row @686,5420,0,21
+        link i16 i16/index.html @686,5420,0,21
+        text Deprecated @698,5420,0,21
+      text Redundant constants module for the . @698,5370,0,121
+      link "i16 primitive type" primitive.i16.html @710,5400,0,61
+      row @722,5420,0,21
+        link i32 i32/index.html @722,5420,0,21
+        text Deprecated @734,5420,0,21
+      text Redundant constants module for the . @734,5370,0,121
+      link "i32 primitive type" primitive.i32.html @746,5400,0,61
+      row @758,5420,0,21
+        link i64 i64/index.html @758,5420,0,21
+        text Deprecated @770,5420,0,21
+      text Redundant constants module for the . @770,5370,0,121
+      link "i64 primitive type" primitive.i64.html @782,5400,0,61
+      row @794,5420,0,21
+        link i128 i128/index.html @794,5420,0,21
+        text Deprecated @806,5420,0,21
+      text Redundant constants module for the . @806,5370,0,121
+      link "i128 primitive type" primitive.i128.html @818,5400,0,61
+      link io io/index.html @830,5420,0,21
+      text Traits, helpers, and type definitions for core I/O functionality. @842,5339,0,183
+      row @854,5420,0,21
+        link isize isize/index.html @854,5420,0,21
+        text Deprecated @866,5420,0,21
+      text Redundant constants module for the . @866,5370,0,121
+      link "isize primitive type" primitive.isize.html @878,5400,0,61
+      link iter iter/index.html @890,5420,0,21
+      text Composable external iteration. @902,5400,0,61
+      link marker marker/index.html @914,5420,0,21
+      text Primitive traits and types representing basic properties of types. @926,5339,0,183
+      link mem mem/index.html @938,5420,0,21
+      text Basic functions for dealing with memory, values, and types. @950,5339,0,183
+      link net net/index.html @962,5420,0,21
+      text Networking primitives for TCP/UDP communication. @974,5380,0,101
+      link num num/index.html @986,5420,0,21
+      text Additional functionality for numerics. @998,5390,0,81
+      link ops ops/index.html @1010,5420,0,21
+      text Overloadable operators. @1022,5410,0,41
+      link option option/index.html @1034,5420,0,21
+      text Optional values. @1046,5410,0,41
+      link os os/index.html @1058,5420,0,21
+      text OS-specific functionality. @1070,5410,0,41
+      link panic panic/index.html @1082,5420,0,21
+      text Panic support in the standard library. @1094,5370,0,121
+      link path path/index.html @1106,5420,0,21
+      text Cross-platform path manipulation. @1118,5400,0,61
+      link pin pin/index.html @1130,5420,0,21
+      text Types that pin data to a location in memory. @1142,5339,0,183
+      link prelude prelude/index.html @1154,5420,0,21
+      text The Rust Prelude @1166,5400,0,61
+      link primitive primitive/index.html @1178,5420,0,21
+      text This module reexports the primitive types to allow usage that is not possibly shadowed by other declared types. @1190,5248,0,365
+      link process process/index.html @1202,5420,0,21
+      text A module for working with processes. @1214,5370,0,121
+      link ptr ptr/index.html @1226,5420,0,21
+      text Manually manage memory through raw pointers. @1238,5370,0,121
+      link range range/index.html @1250,5420,0,21
+      text Replacement range types @1262,5400,0,61
+      link rc rc/index.html @1274,5420,0,21
+      text Single-threaded reference-counting pointers. ‘Rc’ stands for ‘Reference Counted’. @1286,5349,0,163
+      link result result/index.html @1298,5420,0,21
+      text Error handling with the Result type. @1310,5370,0,121
+      link slice slice/index.html @1322,5420,0,21
+      text Utilities for the slice primitive type. @1334,5370,0,121
+      link str str/index.html @1346,5420,0,21
+      text Utilities for the str primitive type. @1358,5370,0,121
+      link string string/index.html @1370,5420,0,21
+      text A UTF-8–encoded, growable string. @1382,5390,0,81
+      link sync sync/index.html @1394,5420,0,21
+      text Useful synchronization primitives. @1406,5400,0,61
+      link task task/index.html @1418,5420,0,21
+      text Types and Traits for working with asynchronous tasks. @1430,5349,0,163
+      link thread thread/index.html @1442,5420,0,21
+      text Native threads. @1454,5410,0,41
+      link time time/index.html @1466,5420,0,21
+      text Temporal quantification. @1478,5410,0,41
+      row @1490,5420,0,21
+        link u8 u8/index.html @1490,5420,0,21
+        text Deprecated @1502,5420,0,21
+      text Redundant constants module for the . @1502,5370,0,121
+      link "u8 primitive type" primitive.u8.html @1514,5400,0,61
+      row @1526,5420,0,21
+        link u16 u16/index.html @1526,5420,0,21
+        text Deprecated @1538,5420,0,21
+      text Redundant constants module for the . @1538,5370,0,121
+      link "u16 primitive type" primitive.u16.html @1550,5400,0,61
+      row @1562,5420,0,21
+        link u32 u32/index.html @1562,5420,0,21
+        text Deprecated @1574,5420,0,21
+      text Redundant constants module for the . @1574,5370,0,121
+      link "u32 primitive type" primitive.u32.html @1586,5400,0,61
+      row @1598,5420,0,21
+        link u64 u64/index.html @1598,5420,0,21
+        text Deprecated @1610,5420,0,21
+      text Redundant constants module for the . @1610,5370,0,121
+      link "u64 primitive type" primitive.u64.html @1622,5400,0,61
+      row @1634,5420,0,21
+        link u128 u128/index.html @1634,5420,0,21
+        text Deprecated @1646,5420,0,21
+      text Redundant constants module for the . @1646,5370,0,121
+      link "u128 primitive type" primitive.u128.html @1658,5400,0,61
+      row @1670,5420,0,21
+        link usize usize/index.html @1670,5420,0,21
+        text Deprecated @1682,5420,0,21
+      text Redundant constants module for the . @1682,5370,0,121
+      link "usize primitive type" primitive.usize.html @1694,5400,0,61
+      link vec vec/index.html @1706,5420,0,21
+      text A contiguous growable array type with heap-allocated contents, written Vec<T>. @1718,5329,0,203
+      row @1730,5420,0,21
+        link async_iter async_iter/index.html @1730,5420,0,21
+        text Experimental @1742,5420,0,21
+      text Composable asynchronous iteration. @1742,5400,0,61
+      row @1754,5420,0,21
+        link autodiff autodiff/index.html @1754,5420,0,21
+        text Experimental @1766,5420,0,21
+      text This module provides support for automatic differentiation. For precise information on differences between the autodiff_forward and autodiff_reverse macros and how to use them, see their respective documentation. @1766,5156,0,549
+      row @1778,5420,0,21
+        link bstr bstr/index.html @1778,5420,0,21
+        text Experimental @1790,5420,0,21
+      text The ByteStr and ByteString types and trait implementations. @1790,5349,0,163
+      row @1802,5420,0,21
+        link f16 f16/index.html @1802,5420,0,21
+        text Experimental @1814,5420,0,21
+      text Constants for the f16 half-precision floating point type. @1814,5349,0,163
+      row @1826,5420,0,21
+        link f128 f128/index.html @1826,5420,0,21
+        text Experimental @1838,5420,0,21
+      text Constants for the f128 quadruple-precision floating point type. @1838,5349,0,163
+      row @1850,5420,0,21
+        link field field/index.html @1850,5420,0,21
+        text Experimental @1862,5420,0,21
+      text Field Reflection @1862,5410,0,41
+      row @1874,5420,0,21
+        link from from/index.html @1874,5420,0,21
+        text Experimental @1886,5420,0,21
+      text Unstable module containing the unstable From derive macro. @1886,5349,0,163
+      row @1898,5420,0,21
+        link intrinsics intrinsics/index.html @1898,5420,0,21
+        text Experimental @1910,5420,0,21
+      text Compiler intrinsics. @1910,5410,0,41
+      row @1922,5420,0,21
+        link offload offload/index.html @1922,5420,0,21
+        text Experimental @1934,5420,0,21
+      text This module provides support for gpu offloading. For technical details regarding the offload_kernel and offload! macros, see their respective documentation. @1934,5227,0,406
+      row @1946,5420,0,21
+        link pat pat/index.html @1946,5420,0,21
+        text Experimental @1958,5420,0,21
+      text Helper module for exporting the pattern_type macro @1958,5359,0,143
+      row @1970,5420,0,21
+        link random random/index.html @1970,5420,0,21
+        text Experimental @1982,5420,0,21
+      text Random value generation. @1982,5400,0,61
+      row @1994,5420,0,21
+        link simd simd/index.html @1994,5420,0,21
+        text Experimental @2006,5420,0,21
+      text Portable SIMD module. @2006,5400,0,61
+      row @2018,5420,0,21
+        link unsafe_binder unsafe_binder/index.html @2018,5420,0,21
+        text Experimental @2030,5420,0,21
+      text Operators used to turn types into unsafe binders and back. @2030,5329,0,203
+      row @2042,5420,0,21
+        link view view/index.html @2042,5420,0,21
+        text Experimental @2054,5420,0,21
+      text Helper module for exporting the view_types macro. @2054,5359,0,143
+    h2 Macros§ @50,5717,661,21
+    row @50,5750,661,284
+      link assert macro.assert.html @50,5882,0,20
+      text Asserts that a boolean expression is true at runtime. @62,5801,0,182
+      link assert_eq macro.assert_eq.html @74,5882,0,20
+      text Asserts that two expressions are equal to each other (using ). @86,5780,0,224
+      link PartialEq cmp/trait.PartialEq.html @98,5882,0,20
+      link assert_matches macro.assert_matches.html @110,5882,0,20
+      text Asserts that an expression matches the provided pattern. @122,5811,0,162
+      link assert_ne macro.assert_ne.html @134,5882,0,20
+      text Asserts that two expressions are not equal to each other (using ). @146,5770,0,244
+      link PartialEq cmp/trait.PartialEq.html @158,5882,0,20
+      link cfg macro.cfg.html @170,5882,0,20
+      text Evaluates boolean combinations of configuration flags at compile-time. @182,5811,0,162
+      link cfg_select macro.cfg_select.html @194,5882,0,20
+      text Selects code at compile-time based on cfg predicates. @206,5811,0,162
+      link column macro.column.html @218,5882,0,20
+      text Expands to the column number at which it was invoked. @230,5790,0,203
+      link compile_error macro.compile_error.html @242,5882,0,20
+      text Causes compilation to fail with the given error message when encountered. @254,5780,0,224
+      link concat macro.concat.html @266,5882,0,20
+      text Concatenates literals into a static string slice. @278,5821,0,142
+      link dbg macro.dbg.html @290,5882,0,20
+      text Prints and returns the value of a given expression for quick and dirty debugging. @302,5750,0,284
+      link debug_assert macro.debug_assert.html @314,5882,0,20
+      text Asserts that a boolean expression is true at runtime. @326,5801,0,182
+      link debug_assert_eq macro.debug_assert_eq.html @338,5882,0,20
+      text Asserts that two expressions are equal to each other. @350,5801,0,182
+      link debug_assert_matches macro.debug_assert_matches.html @362,5882,0,20
+      text Asserts that an expression matches the provided pattern. @374,5811,0,162
+      link debug_assert_ne macro.debug_assert_ne.html @386,5882,0,20
+      text Asserts that two expressions are not equal to each other. @398,5790,0,203
+      link env macro.env.html @410,5882,0,20
+      text Inspects an environment variable at compile time. @422,5821,0,142
+      link eprint macro.eprint.html @434,5882,0,20
+      text Prints to the standard error. @446,5841,0,102
+      link eprintln macro.eprintln.html @458,5882,0,20
+      text Prints to the standard error, with a newline. @470,5811,0,162
+      link file macro.file.html @482,5882,0,20
+      text Expands to the file name in which it was invoked. @494,5790,0,203
+      link format macro.format.html @506,5882,0,20
+      text Creates a String using interpolation of runtime expressions. @518,5811,0,162
+      link format_args macro.format_args.html @530,5882,0,20
+      text Constructs parameters for the other string-formatting macros. @542,5821,0,142
+      link include macro.include.html @554,5882,0,20
+      text Parses a file as an expression or an item according to the context. @566,5760,0,264
+      link include_bytes macro.include_bytes.html @578,5882,0,20
+      text Includes a file as a reference to a byte array. @590,5790,0,203
+      link include_str macro.include_str.html @602,5882,0,20
+      text Includes a UTF-8 encoded file as a string. @614,5811,0,162
+      link is_x86_feature_detected macro.is_x86_feature_detected.html @626,5882,0,20
+      text Check for the presence of a CPU feature at runtime. @638,5790,0,203
+      link line macro.line.html @650,5882,0,20
+      text Expands to the line number on which it was invoked. @662,5790,0,203
+      link matches macro.matches.html @674,5882,0,20
+      text Returns whether the given expression matches the provided pattern. @686,5801,0,182
+      link module_path macro.module_path.html @698,5882,0,20
+      text Expands to a string that represents the current module path. @710,5790,0,203
+      link option_env macro.option_env.html @722,5882,0,20
+      text Optionally inspects an environment variable at compile time. @734,5811,0,162
+      link panic macro.panic.html @746,5882,0,20
+      text Panics the current thread. @758,5851,0,81
+      link print macro.print.html @770,5882,0,20
+      text Prints to the standard output. @782,5841,0,102
+      link println macro.println.html @794,5882,0,20
+      text Prints to the standard output, with a newline. @806,5811,0,162
+      link stringify macro.stringify.html @818,5882,0,20
+      text Stringifies its arguments. @830,5861,0,61
+      link thread_local macro.thread_local.html @842,5882,0,20
+      text Declare a new thread local storage key of type . @854,5790,0,203
+      link std::thread::LocalKey thread/struct.LocalKey.html @866,5882,0,20
+      link todo macro.todo.html @878,5882,0,20
+      text Indicates unfinished code. @890,5861,0,61
+      row @902,5882,0,20
+        link try macro.try.html @902,5882,0,20
+        text Deprecated @914,5882,0,20
+      text Unwraps a result or propagates its error. @914,5821,0,142
+      link unimplemented macro.unimplemented.html @926,5882,0,20
+      text Indicates unimplemented code by panicking with a message of “not implemented”. @938,5780,0,224
+      link unreachable macro.unreachable.html @950,5882,0,20
+      text Indicates unreachable code. @962,5861,0,61
+      link vec macro.vec.html @974,5882,0,20
+      text Creates a containing the arguments. @986,5841,0,102
+      link Vec vec/struct.Vec.html @998,5882,0,20
+      link write macro.write.html @1010,5882,0,20
+      text Writes formatted data into a buffer. @1022,5831,0,122
+      link writeln macro.writeln.html @1034,5882,0,20
+      text Writes formatted data into a buffer, with a newline appended. @1046,5790,0,203
+      row @1058,5882,0,20
+        link concat_bytes macro.concat_bytes.html @1058,5882,0,20
+        text Experimental @1070,5882,0,20
+      text Concatenates literals into a byte slice. @1070,5831,0,122
+      row @1082,5882,0,20
+        link const_format_args macro.const_format_args.html @1082,5882,0,20
+        text Experimental @1094,5882,0,20
+      text Same as , but can be used in some const contexts. @1094,5780,0,224
+      link format_args macro.format_args.html @1106,5882,0,20
+      row @1118,5882,0,20
+        link hash_map macro.hash_map.html @1118,5882,0,20
+        text Experimental @1130,5882,0,20
+      text Creates a containing the arguments. @1130,5841,0,102
+      link HashMap collections/struct.HashMap.html @1142,5882,0,20
+      row @1154,5882,0,20
+        link log_syntax macro.log_syntax.html @1154,5882,0,20
+        text Experimental @1166,5882,0,20
+      text Prints passed tokens into the standard output. @1166,5821,0,142
+      row @1178,5882,0,20
+        link trace_macros macro.trace_macros.html @1178,5882,0,20
+        text Experimental @1190,5882,0,20
+      text Enables or disables tracing functionality used for debugging other macros. @1190,5790,0,203
+    h2 Keywords§ @50,6046,661,21
+    row @50,6079,661,427
+      link SelfTy keyword.SelfTy.html @50,6282,0,21
+      text The implementing type within a or block, or the current type within a type definition. @62,6140,0,305
+      row @74,6282,0,21
+        link trait keyword.trait.html @74,6282,0,21
+        link impl keyword.impl.html @86,6282,0,21
+      link as keyword.as.html @86,6282,0,21
+      text Cast between types, rename an import, or qualify paths to associated items. @98,6171,0,243
+      link async keyword.async.html @110,6282,0,21
+      text Returns a instead of blocking the current thread. @122,6211,0,163
+      link Future future/trait.Future.html @134,6282,0,21
+      link await keyword.await.html @146,6282,0,21
+      text Suspend execution until the result of a is ready. @158,6201,0,183
+      link Future future/trait.Future.html @170,6282,0,21
+      link become keyword.become.html @182,6282,0,21
+      text Perform a tail-call of a function. @194,6231,0,122
+      link break keyword.break.html @206,6282,0,21
+      text Exit early from a loop or labelled block. @218,6211,0,163
+      link const keyword.const.html @230,6282,0,21
+      text Compile-time constants, compile-time blocks, compile-time evaluable functions, and raw pointers. @242,6191,0,203
+      link continue keyword.continue.html @254,6282,0,21
+      text Skip to the next iteration of a loop. @266,6211,0,163
+      link crate keyword.crate.html @278,6282,0,21
+      text A Rust binary or library. @290,6242,0,101
+      link dyn keyword.dyn.html @302,6282,0,21
+      text is a prefix of a ’s type. @314,6221,0,142
+      row @326,6272,0,41
+        text dyn @326,6282,0,21
+        link "trait object" ../book/ch17-02-trait-objects.html @338,6272,0,41
+      link else keyword.else.html @338,6282,0,21
+      text What expression to evaluate when an condition evaluates to . @350,6191,0,203
+      row @362,6282,0,21
+        link if keyword.if.html @362,6282,0,21
+        link false keyword.false.html @374,6282,0,21
+      link enum keyword.enum.html @374,6282,0,21
+      text A type that can be any one of several variants. @386,6191,0,203
+      link extern keyword.extern.html @398,6282,0,21
+      text Link to or import external code. @410,6231,0,122
+      link false keyword.false.html @422,6282,0,21
+      text A value of type representing logical . @434,6221,0,142
+      row @446,6282,0,21
+        link bool primitive.bool.html @446,6282,0,21
+        text false @458,6282,0,21
+      link fn keyword.fn.html @458,6282,0,21
+      text A function or function pointer. @470,6242,0,101
+      link for keyword.for.html @482,6282,0,21
+      text Iteration with , trait implementation with , or (). @494,6201,0,183
+      col @506,6213,0,158
+        link in keyword.in.html @506,6213,0,21
+        link impl keyword.impl.html @506,6246,0,20
+        link "higher-ranked trait bounds" ../reference/trait-bounds.html#higher-ranked-trait-bounds @506,6278,0,61
+        text for<'a> @506,6351,0,20
+      link if keyword.if.html @518,6282,0,21
+      text Evaluate a block if a condition holds. @530,6221,0,142
+      link impl keyword.impl.html @542,6282,0,21
+      text Implementations of functionality for a type, or a type implementing some functionality. @554,6171,0,243
+      link in keyword.in.html @566,6282,0,21
+      text Iterate over a series of values with . @578,6211,0,163
+      link for keyword.for.html @590,6282,0,21
+      link let keyword.let.html @602,6282,0,21
+      text Bind a value to a variable. @614,6231,0,122
+      link loop keyword.loop.html @626,6282,0,21
+      text Loop indefinitely. @638,6272,0,41
+      link match keyword.match.html @650,6282,0,21
+      text Control flow based on pattern matching. @662,6231,0,122
+      link mod keyword.mod.html @674,6282,0,21
+      text Organize code into . @686,6252,0,81
+      link modules ../reference/items/modules.html @698,6282,0,21
+      link move keyword.move.html @710,6282,0,21
+      text Capture a ’s environment by value. @722,6231,0,122
+      link closure ../book/ch13-01-closures.html @734,6282,0,21
+      link mut keyword.mut.html @746,6282,0,21
+      text A mutable variable, reference, or pointer. @758,6231,0,122
+      link pub keyword.pub.html @770,6282,0,21
+      text Make an item visible to others. @782,6231,0,122
+      link ref keyword.ref.html @794,6282,0,21
+      text Bind by reference during pattern matching. @806,6231,0,122
+      link return keyword.return.html @818,6282,0,21
+      text Returns a value from a function. @830,6231,0,122
+      link self keyword.self.html @842,6282,0,21
+      text The receiver of a method, or the current module. @854,6201,0,183
+      link static keyword.static.html @866,6282,0,21
+      text A static item is a value which is valid for the entire duration of your program (a 'static lifetime). @878,6100,0,385
+      link struct keyword.struct.html @890,6282,0,21
+      text A type that is composed of other types. @902,6211,0,163
+      link super keyword.super.html @914,6282,0,21
+      text The parent of the current . @926,6231,0,122
+      link module ../reference/items/modules.html @938,6282,0,21
+      link trait keyword.trait.html @950,6282,0,21
+      text A common interface for a group of types. @962,6211,0,163
+      link true keyword.true.html @974,6282,0,21
+      text A value of type representing logical . @986,6221,0,142
+      row @998,6282,0,21
+        link bool primitive.bool.html @998,6282,0,21
+        text true @1010,6282,0,21
+      link type keyword.type.html @1010,6282,0,21
+      text Define an for an existing type. @1022,6231,0,122
+      link alias ../reference/items/type-aliases.html @1034,6282,0,21
+      link union keyword.union.html @1046,6282,0,21
+      text The . @1058,6272,0,41
+      link "Rust equivalent of a C-style union" ../reference/items/unions.html @1070,6231,0,122
+      link unsafe keyword.unsafe.html @1082,6282,0,21
+      text Code or interfaces whose cannot be verified by the type system. @1094,6181,0,223
+      link "memory safety" ../book/ch19-01-unsafe-rust.html @1106,6272,0,41
+      link use keyword.use.html @1118,6282,0,21
+      text Import or rename items from other crates or modules, use values under ergonomic clones semantic, or specify precise capturing with use<..>. @1130,6079,0,427
+      link where keyword.where.html @1142,6282,0,21
+      text Add constraints that must be upheld to use an item. @1154,6191,0,203
+      link while keyword.while.html @1166,6282,0,21
+      text Loop while a condition is upheld. @1178,6231,0,122
+    h2 Attribute Macros§ @50,6518,661,21
+    row @50,6551,661,20
+      link derive attr.derive.html @50,6551,42,20
+      text Attribute macro used to apply derive macros. @104,6551,299,20
+    h2 Attributes§ @50,6583,661,21
+    row @50,6616,661,548
+      link allow attribute.allow.html @50,6880,2,21
+      text The attribute suppresses lint diagnostics that would otherwise produce warnings or errors. It can be used on any lint or lint group (except those set to ). @64,6647,41,487
+      col @117,6864,1,53
+        text allow @117,6864,1,20
+        link forbid ./attribute.forbid.html @117,6896,1,21
+      link cfg attribute.cfg.html @130,6880,1,21
+      text Used for conditional compilation. @143,6850,9,81
+      link cold attribute.cold.html @164,6880,1,21
+      text Hint to the compiler that a function is unlikely to be called. @177,6769,16,243
+      link deny attribute.deny.html @205,6880,2,21
+      text Emits an error, preventing the compilation from finishing, when a lint check has failed. This is useful for enforcing rules or preventing certain patterns: @219,6657,40,467
+      link deprecated attribute.deprecated.html @271,6880,3,21
+      text Emits a warning during compilation when an item with this attribute is used. since and note are optional fields giving more detail about why the item is deprecated. @286,6616,44,548
+      link forbid attribute.forbid.html @342,6880,2,21
+      text Emits an error, preventing the compilation from finishing, when a lint check has failed. @356,6748,23,284
+      link inline attribute.inline.html @391,6880,2,21
+      text Suggest that the compiler inline a function at its call sites. @405,6779,15,223
+      link link_section attribute.link_section.html @432,6880,3,21
+      text Places a function or static in a specific object-file section. @447,6789,16,203
+      link must_use attribute.must_use.html @475,6880,3,21
+      text Warn when a value is ignored. @490,6829,8,122
+      link no_std attribute.no_std.html @510,6880,2,21
+      text Prevents automatically linking the standard library. @524,6829,13,122
+      link non_exhaustive attribute.non_exhaustive.html @549,6880,5,21
+      text Indicates that a type might have more fields or variants added in the future. @566,6748,20,284
+      link proc_macro attribute.proc_macro.html @598,6880,3,21
+      text Defines a function-like procedural macro. @613,6840,12,101
+      link track_caller attribute.track_caller.html @637,6880,3,21
+      text Make a function report the location of its caller instead of its own. @652,6758,17,264
+      link warn attribute.warn.html @681,6880,2,21
+      text Emits a warning during compilation when a lint check failed. @695,6789,16,203

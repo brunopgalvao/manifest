@@ -1,0 +1,133 @@
+@www_nasa_gov_news rev=0 @0,0,728,1575
+row @17,17,694,58
+  row @17,17,193,58
+    button Explore @17,28,82,36
+    row @111,17,99,58
+      text Search @111,36,47,20
+      field Search search @170,17,40,58
+  link https://www.nasa.gov/ https://www.nasa.gov/ @222,36,152,20
+  row @386,28,310,36
+    button "News & Events" @386,28,131,36
+    button Multimedia @529,28,106,36
+    link NASA+ https://plus.nasa.gov/ @647,36,49,20
+row @17,87,694,40
+  link "News Releases" https://www.nasa.gov/2026-news-releases/ @17,87,94,40
+  link "Recently Published" https://www.nasa.gov/news/recently-published/ @123,87,118,40
+  link Blogs https://www.nasa.gov/nasa-blogs/ @253,97,34,20
+  link Newsletters https://www.nasa.gov/newsletters/ @299,97,74,20
+  button "Social Media" @385,89,110,36
+  link "Budgets and Reports" https://www.nasa.gov/budgets-plans-and-reports/ @507,87,129,40
+  button More @648,89,63,36
+row @17,139,694,37
+  col @17,139,119,37
+    h1 NASA News @17,139,119,25
+    row @17,176,119,0
+      row @17,176,0,0
+      row @29,176,0,0
+row @17,188,694,22
+  h2 News Releases @17,188,127,22
+  link "2026 News Releases" https://www.nasa.gov/2026-news-releases/ @156,189,140,20
+row @17,222,694,133
+  link "Blog3 Min ReadSpacewalk Preps and Advanced Biomedical Research Begin Week" https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/ @17,248,213,81
+  row @242,222,469,133
+    link "News Release4 Min ReadNASA Names Stephen Cash Marshall Space Flight Center Director" https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/ @242,258,233,61
+    col @487,222,224,133
+      link "Blog3 Min ReadCrew Unpacks Dragon and Begins Activating New Science Experiments" https://www.nasa.gov/blogs/spacestation/2026/10/16/crew-unpacks-dragon-and-begins-activating-new-science-experiments/ @487,222,224,60
+      link "Blog2 Min ReadSpaceX Dragon Docks with Science, Supplies, and Roll-Out Solar Arrays" https://www.nasa.gov/blogs/spacestation/2026/10/15/spacex-dragon-docks-with-science-supplies-and-roll-out-solar-arrays/ @487,294,224,61
+h2 Receive NASA News Releases @17,367,694,22
+row @17,401,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,401,0,0
+  row @29,401,490,21
+    h2 Sign Up @29,401,65,21
+    text Sign up to receive NASA news releases and other information. @106,401,413,20
+  link "Sign Up" https://lp.constantcontactpages.com/su/G246xLa/nasanews @531,401,53,20
+h2 Resources for News Media @17,434,694,21
+row @17,467,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,467,0,0
+  h2 Communications Policy @29,467,196,21
+  link "Communications Policy" https://www.nasa.gov/reference/nasa-policy-on-the-release-of-information-to-news-and-information-media/ @237,468,155,20
+row @17,500,694,22
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,500,0,0
+  h2 Media Accreditation Policy @29,500,224,22
+  link "Media Accreditation Policy" https://www.nasa.gov/reference/nasa-agencywide-media-accreditation-policy/ @265,501,177,20
+row @17,534,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,534,0,0
+  h2 Media Contacts @29,534,131,21
+  link "Media Contacts" https://www.nasa.gov/news/media-contacts/ @172,534,104,20
+row @17,567,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,567,0,0
+  h2 Upcoming Launches @29,567,170,21
+  link "Upcoming Launches" https://www.nasa.gov/events/ @211,567,136,21
+row @17,600,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,600,0,0
+  h2 NASA Brand Center @29,600,164,21
+  link "NASA Brand Center" https://www.nasa.gov/nasa-brand-center/ @205,601,131,20
+row @17,633,694,22
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,633,0,0
+  h2 Budgets and Reports @29,633,174,22
+  link "Budgets and Reports" https://www.nasa.gov/budgets-plans-and-reports/ @215,634,139,20
+row @17,667,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,667,0,0
+  h2 News Release Archive @29,667,186,21
+  link "News Release Archive" https://www.nasa.gov/nasa-news-release-archive/ @227,667,149,20
+metric "Keep Exploring" "Discover More" @17,700,694,66
+row @17,778,694,20
+  link "NASA Images" https://www.nasa.gov/images/ @17,778,91,20
+  link Blogs https://www.nasa.gov/nasa-blogs/ @120,778,37,20
+  link Newsletters https://www.nasa.gov/newsletters/ @169,778,80,20
+  link "NASA History" https://www.nasa.gov/history/ @261,778,91,20
+image https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg "NASA Logo" @17,810,0,0
+row @17,822,694,736
+  col @17,1063,176,254
+    h3 National Aeronautics and Space Administration @17,1063,176,56
+    text NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery. @17,1131,176,122
+    link "About NASA's Mission" https://www.nasa.gov/about/ @17,1265,176,20
+    link "Join Us" https://www.nasa.gov/get-involved/ @17,1297,176,20
+  col @205,822,51,736
+    link Home https://www.nasa.gov/ @205,822,51,20
+    link "News & Events" https://www.nasa.gov/news/ @205,854,51,41
+    link Multimedia https://www.nasa.gov/multimedia/ @205,907,51,20
+    link NASA+ https://plus.nasa.gov/ @205,939,51,20
+    link Missions https://www.nasa.gov/nasa-missions/ @205,971,51,21
+    link "Humans in Space" https://www.nasa.gov/humans-in-space/ @205,1004,51,61
+    link Earth https://science.nasa.gov/earth/ @205,1077,51,20
+    link "The Solar System" https://science.nasa.gov/solar-system/ @205,1109,51,61
+    link "The Universe" https://science.nasa.gov/universe/ @205,1182,51,40
+    link Science https://science.nasa.gov/ @205,1234,51,21
+    link Aeronautics https://www.nasa.gov/aeronautics/ @205,1267,51,20
+    link Technology https://www.nasa.gov/technology/ @205,1299,51,20
+    link "Learning Resources" https://www.nasa.gov/learning-resources/ @205,1331,51,41
+    link "About NASA" https://www.nasa.gov/about/ @205,1384,51,41
+    link "NASA en Español (opens in new tab)" https://www.nasa.gov/es/ @205,1437,51,121
+  col @268,1082,211,217
+    h3 Follow NASA @268,1082,211,18
+    row @268,1112,211,122
+      link "NASA on Facebook (opens in new tab)" https://www.facebook.com/NASA @268,1112,46,122
+      link "NASA on Instagram (opens in new tab)" https://www.instagram.com/nasa/ @326,1112,47,122
+      link "NASA on X (opens in new tab)" https://x.com/NASA @385,1112,36,122
+      link "NASA on YouTube (opens in new tab)" https://www.youtube.com/@NASA @433,1112,46,122
+    link "More NASA Social Accounts" https://www.nasa.gov/social-media/ @268,1246,211,20
+    link "NASA Newsletters" https://www.nasa.gov/nasa-newsletters/ @268,1278,211,21
+  col @491,882,48,616
+    link Sitemap https://www.nasa.gov/sitemap/ @491,882,48,21
+    link "For Media" https://www.nasa.gov/news/nasa-media-contacts/ @491,915,48,40
+    link "Privacy Policy" https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/ @491,967,48,41
+    link FOIA https://www.nasa.gov/foia/ @491,1020,48,20
+    link "No FEAR Act" https://www.nasa.gov/no-fear-act/ @491,1052,48,61
+    link "Office of the IG (opens in new tab)" http://oig.nasa.gov/ @491,1125,48,122
+    link "Budget & Annual Reports" https://www.nasa.gov/budgets-plans-and-reports/ @491,1259,48,81
+    link "Agency Financial Reports" https://www.nasa.gov/organizations/budget-annual-reports/agency-financial-reports/ @491,1352,48,61
+    link "Contact NASA" https://www.nasa.gov/contact-nasa/ @491,1425,48,41
+    link Accessibility https://www.nasa.gov/accessibility/ @491,1478,48,20
+  row @551,1160,160,61
+    row @551,1160,43,61
+      text Page Last Updated: @551,1160,18,61
+      text May 01, 2026 @581,1160,13,61
+    row @606,1170,38,40
+      text Page Editor: @606,1170,11,40
+      text Dacia Massengill @629,1170,15,40
+    row @656,1160,55,61
+      text Responsible NASA Official: @656,1160,27,61
+      text Abigail Bowman @695,1170,16,40
+!overflow social 108/115px
+!overflow more 61/64px

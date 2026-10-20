@@ -1,0 +1,8 @@
+@todomvc_com_examples_typescript_react
+h1 todos
+field "What needs to be done?"
+text Double-click to edit a todo
+text Created by
+link "Remo H. Jansen" http://github.com/remojansen/
+text Part of
+link TodoMVC http://todomvc.com

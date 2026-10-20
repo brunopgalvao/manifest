@@ -1,0 +1,81 @@
+@getbootstrap_com_docs_5_3_examples_heade rev=0 @0,0,728,645
+button "Toggle theme (light)" primary @17,17,694,36
+h1 Headers examples @17,65,694,25
+row @17,102,694,21
+  link "Simple header" / @17,102,96,21
+  row @125,102,269,21
+    link Home # @125,102,40,21
+    link Features # @177,102,58,21
+    link Pricing # @247,102,46,21
+    link FAQs # @305,102,37,21
+    link About # @354,102,40,21
+row @17,135,694,20
+  link Home # @17,135,40,20
+  link Features # @69,135,58,20
+  link Pricing # @139,135,46,20
+  link FAQs # @197,135,37,20
+  link About # @246,135,40,20
+row @17,167,694,36
+  link / / @17,175,6,20
+  row @35,175,269,20
+    link Home # @35,175,40,20
+    link Features # @87,175,58,20
+    link Pricing # @157,175,46,20
+    link FAQs # @215,175,37,20
+    link About # @264,175,40,20
+  row @316,167,164,36
+    button Login @316,167,68,36
+    button Sign-up primary @396,167,84,36
+row @17,215,694,58
+  link / / @17,234,6,20
+  row @35,234,269,20
+    link Home # @35,234,40,20
+    link Features # @87,234,58,20
+    link Pricing # @157,234,46,20
+    link FAQs # @215,234,37,20
+    link About # @264,234,40,20
+  field Search search @316,215,40,58
+  row @368,226,164,36
+    button Login @368,226,68,36
+    button Sign-up warning @448,226,84,36
+row @17,285,694,58
+  link / / @17,304,6,20
+  row @35,304,294,20
+    link Overview # @35,304,63,20
+    link Inventory # @110,304,63,20
+    link Customers # @185,304,72,20
+    link Products # @269,304,60,20
+  field Search search @341,285,40,58
+  link # # @393,304,9,20
+row @17,355,694,57
+  link "Bootstrap menu" # @17,373,106,21
+  row @135,355,61,57
+    field Search search @135,355,40,57
+    link # # @187,373,9,21
+row @17,424,694,0
+row @17,436,694,21
+  row @17,436,269,21
+    link Home # @17,436,40,21
+    link Features # @69,436,58,21
+    link Pricing # @139,436,46,21
+    link FAQs # @197,436,37,21
+    link About # @246,436,40,21
+  row @298,436,100,21
+    link Login # @298,436,37,21
+    link "Sign up" # @347,436,51,21
+row @17,469,694,57
+  link "Double header" / @17,487,98,21
+  field Search search @127,469,40,57
+row @17,538,694,21
+  link / / @17,538,6,21
+  row @35,538,339,21
+    link Home # @35,538,40,21
+    link Dashboard # @87,538,73,21
+    link Orders # @172,538,46,21
+    link Products # @230,538,60,21
+    link Customers # @302,538,72,21
+row @17,571,694,57
+  field Search search @17,571,40,57
+  row @69,581,164,37
+    button Login @69,581,68,37
+    button Sign-up primary @149,581,84,37

@@ -11,6 +11,7 @@ row
     h1 Cover your page.
     text Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.
     link "Learn more" #
+    text Cover template for , by .
     row
       link Bootstrap https://getbootstrap.com/
       link "@mdo" https://x.com/mdo

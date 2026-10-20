@@ -16,17 +16,19 @@ row
     text Second radio Some other text goes here
     text Third radio And we end with another snippet of text
 text Finish sales report
+text "1:00–2:00pm"
 region "Schedule" 14x14
 check "Finish sales report  \n1:00–2:00pm" on
 text Weekly All Hands
+text "2:00–2:30pm"
 region "Schedule" 14x14
 check "Weekly All Hands  \n2:00–2:30pm" off
 text Out of office
+text Tomorrow
 region "Reminder" 14x14
 check "Out of office  \nTomorrow" off
-text Add new task...
-region 14x14
 check "Add new task...  \nChoose list..." off
+text Add new task... Choose list...
 row
   text First radio With support text underneath to add more detail
   text Second radio Some other text goes here

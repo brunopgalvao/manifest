@@ -1,0 +1,7 @@
+@getbootstrap_com_docs_5_3_examples_stick
+button "Toggle theme (light)" primary
+h1 Sticky footer
+text Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.
+text Use  if need be, too.
+link "the sticky footer with a fixed navbar" /docs/5.3/examples/sticky-footer-navbar/
+text Place sticky footer content here.

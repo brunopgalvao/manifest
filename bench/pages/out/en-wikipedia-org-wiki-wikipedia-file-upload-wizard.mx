@@ -1,0 +1,129 @@
+@en_wikipedia_org_wiki_wikipedia_file_upl
+link "Jump to content" #bodyContent
+row
+  row
+    col
+      button "Main menu"
+      text Main menu
+      row
+        text Main menu
+        button "Move Main menu to sidebar"
+      link "Main page" /wiki/Main_Page
+      link Contents /wiki/Wikipedia:Contents
+      link "Current events" /wiki/Portal:Current_events
+      link "Random article" /wiki/Special:Random
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      text Contribute
+      link Help /wiki/Help:Contents
+      link "Learn to edit" /wiki/Help:Introduction
+      link "Community portal" /wiki/Wikipedia:Community_portal
+      link "Recent changes" /wiki/Special:RecentChanges
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard
+      link "Special pages" /wiki/Special:SpecialPages
+    link /wiki/Main_Page /wiki/Main_Page
+  row
+    row
+      col
+        field "Search Wikipedia" search
+      button Search
+    row
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+      link "Create account" /w/index.php?title=Special:CreateAccount&returnto=Wikipedia%3AFile+upload+wizard
+      link "Log in" /w/index.php?title=Special:UserLogin&returnto=Wikipedia%3AFile+upload+wizard
+row
+  row
+    row
+      h1 "Wikipedia:File upload wizard"
+      col
+        button "64 languages"
+        text 64 languages primary
+    row
+      row
+        link "Project page" /wiki/Wikipedia:File_upload_wizard
+        link Talk /wiki/Wikipedia_talk:File_upload_wizard
+      row
+        row
+          link Read /wiki/Wikipedia:File_upload_wizard
+          link "View source" /w/index.php?title=Wikipedia:File_upload_wizard&action=edit
+          link "View history" /w/index.php?title=Wikipedia:File_upload_wizard&action=history
+        col
+          button Tools
+          text Tools
+          row
+            text Tools
+            button "Move Tools to sidebar"
+          text General
+          link "What links here" /wiki/Special:WhatLinksHere/Wikipedia:File_upload_wizard
+          link "Related changes" /wiki/Special:RecentChangesLinked/Wikipedia:File_upload_wizard
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Wikipedia:File_upload_wizard&oldid=1369261213
+          link "Page information" /w/index.php?title=Wikipedia:File_upload_wizard&action=info
+          link "Get shortened URL" /w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AFile_upload_wizard
+          link "Switch to legacy parser" /w/index.php?title=Wikipedia:File_upload_wizard&useparsoid=0
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q8989284#sitelinks-wikipedia
+          text Print/export
+          link "Download as PDF" /w/index.php?title=Special:DownloadAsPdf&page=Wikipedia%3AFile_upload_wizard&action=show-download-screen
+          link "Printable version" javascript:print();
+          text In other projects
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Commons:Upload
+          link Wikiversity https://en.wikiversity.org/wiki/Wikiversity:Upload
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q8989284
+    col
+      row
+        text Appearance
+        button "Hide Appearance"
+      text Text
+      text Small
+      text Standard
+      text Large
+      text Width
+      text Standard
+      text Wide
+      text Color
+      text Automatic
+      text Light
+      text Dark
+    col
+      text From Wikipedia, the free encyclopedia
+      link Shortcut https://en.wikipedia.org/wiki/Wikipedia:Shortcut
+      link "WP:FUW" https://en.wikipedia.org/w/index.php?title=Wikipedia:FUW&redirect=no
+      text Thank you for offering to contribute an image or other media file for use on Wikipedia. This wizard will guide you through a questionnaire prompting you for the appropriate copyright and sourcing information for each file. Please ensure you understand  and the  before proceeding.
+      row
+        link copyright https://en.wikipedia.org/wiki/Wikipedia:Copyrights
+        link "image use policy" https://en.wikipedia.org/wiki/Wikipedia:Image_use_policy
+      link "Upload your own or a freely-licensed file" https://commons.wikimedia.org/wiki/Special:UploadWizard
+      text Uploads to
+      link "Wikimedia Commons" https://en.wikipedia.org/wiki/Wikipedia:Wikimedia_Commons
+      link "Upload a non-free file" https://en.wikipedia.org/w/index.php?title=Wikipedia:File_upload_wizard&withJS=MediaWiki:FileUploadWizard.js&withCSS=MediaWiki:FileUploadWizard.css
+      text Uploads locally to the English Wikipedia; must comply with the  criteria
+      link "non-free content" https://en.wikipedia.org/wiki/Wikipedia:Non-free_content
+      text Preview (test) This is the data that will be submitted to upload: Filename: Edit summary: Text:
+      text "Upload in process Your file is being uploaded. This might take a minute or two, depending on the size of the file and the speed of your internet connection. Once uploading is completed, you will find your new file at this link: File:Example.jpg"
+      text ".mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}}.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}"
+      table "Uploading media files"
+        CommonsWikipedia Commons Wizard(recommended for free files) Plain form for Commons(experienced users) Old form Files for upload process(recommended for new users) Plain form for local uploads(experienced users) Old guided form
+        Help and guidelines | Ask copyright questions Image use policy Non-free content
+        This wizard | Documentation Script Discuss
+  col
+    text "This page was last edited on 13 August 2026, at 22:04 (UTC)."
+    text Page was rendered with .
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the  and . Wikipedia® is a registered trademark of the , a non-profit organization.
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/
+    row
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link Disclaimers /wiki/Wikipedia:General_disclaimer
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+      link Developers https://developer.wikimedia.org
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+      link "Mobile view" //en.wikipedia.org/w/index.php?title=Wikipedia:File_upload_wizard&mobileaction=toggle_view_mobile
+    row
+      link "https://www.wikimedia.org/" https://www.wikimedia.org/
+      link "https://www.mediawiki.org/" https://www.mediawiki.org/

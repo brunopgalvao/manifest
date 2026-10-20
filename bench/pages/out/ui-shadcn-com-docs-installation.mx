@@ -1,0 +1,231 @@
+@ui_shadcn_com_docs_installation
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+    row
+      link New /create
+row
+  col
+    text Sections
+    link Introduction /docs
+    link Components /docs/components
+    link "AI Elements" /docs/ai-elements
+    link Installation /docs/installation
+    link Theming /docs/theming
+    link CLI /docs/cli
+    link Typeset /docs/typeset
+    link Skills /docs/skills
+    link Registry /docs/registry
+    link Changelog /docs/changelog
+    text Components
+    link Accordion /docs/components/base/accordion
+    link Alert /docs/components/base/alert
+    link "Alert Dialog" /docs/components/base/alert-dialog
+    link "Aspect Ratio" /docs/components/base/aspect-ratio
+    link Attachment /docs/components/base/attachment
+    link Avatar /docs/components/base/avatar
+    link Badge /docs/components/base/badge
+    link Breadcrumb /docs/components/base/breadcrumb
+    link Bubble /docs/components/base/bubble
+    link Button /docs/components/base/button
+    link "Button Group" /docs/components/base/button-group
+    link Calendar /docs/components/base/calendar
+    link Card /docs/components/base/card
+    link Carousel /docs/components/base/carousel
+    link Chart /docs/components/base/chart
+    link Checkbox /docs/components/base/checkbox
+    link "Code Block" /docs/components/base/code-block
+    link Collapsible /docs/components/base/collapsible
+    link Combobox /docs/components/base/combobox
+    link Command /docs/components/base/command
+    link "Context Menu" /docs/components/base/context-menu
+    link "Data Table" /docs/components/base/data-table
+    link "Date Picker" /docs/components/base/date-picker
+    link Dialog /docs/components/base/dialog
+    link Direction /docs/components/base/direction
+    link Drawer /docs/components/base/drawer
+    link "Dropdown Menu" /docs/components/base/dropdown-menu
+    link Empty /docs/components/base/empty
+    link Field /docs/components/base/field
+    link "Hover Card" /docs/components/base/hover-card
+    link Input /docs/components/base/input
+    link "Input Group" /docs/components/base/input-group
+    link "Input OTP" /docs/components/base/input-otp
+    link Item /docs/components/base/item
+    link Kbd /docs/components/base/kbd
+    link Label /docs/components/base/label
+    link Marker /docs/components/base/marker
+    link Menubar /docs/components/base/menubar
+    link Message /docs/components/base/message
+    link "Message Scroller" /docs/components/base/message-scroller
+    link "Native Select" /docs/components/base/native-select
+    link "Navigation Menu" /docs/components/base/navigation-menu
+    link Pagination /docs/components/base/pagination
+    link Popover /docs/components/base/popover
+    link Progress /docs/components/base/progress
+    link Questionnaire /docs/components/base/questionnaire
+    link "Radio Group" /docs/components/base/radio-group
+    link Resizable /docs/components/base/resizable
+    link "Scroll Area" /docs/components/base/scroll-area
+    link Select /docs/components/base/select
+    link Separator /docs/components/base/separator
+    link Sheet /docs/components/base/sheet
+    link Sidebar /docs/components/base/sidebar
+    link Skeleton /docs/components/base/skeleton
+    link Slider /docs/components/base/slider
+    link Spinner /docs/components/base/spinner
+    link Switch /docs/components/base/switch
+    link Table /docs/components/base/table
+    link Tabs /docs/components/base/tabs
+    link Textarea /docs/components/base/textarea
+    link Toast /docs/components/base/toast
+    link Toggle /docs/components/base/toggle
+    link "Toggle Group" /docs/components/base/toggle-group
+    link Tooltip /docs/components/base/tooltip
+    link Trace /docs/components/base/trace
+    link Typography /docs/components/base/typography
+    text AI Elements
+    link Introduction /docs/ai-elements
+    link "Chain of Thought" /docs/ai-elements/base/chain-of-thought
+    link Chat /docs/ai-elements/base/chat
+    link Checkpoint /docs/ai-elements/base/checkpoint
+    link Confirmation /docs/ai-elements/base/confirmation
+    link Context /docs/ai-elements/base/context
+    link "File Tree" /docs/ai-elements/base/file-tree
+    link "Inline Citation" /docs/ai-elements/base/inline-citation
+    link Message /docs/ai-elements/base/message
+    link "Model Selector" /docs/ai-elements/base/model-selector
+    link Plan /docs/ai-elements/base/plan
+    link "Prompt Input" /docs/ai-elements/base/prompt-input
+    link Queue /docs/ai-elements/base/queue
+    link Reasoning /docs/ai-elements/base/reasoning
+    link Sources /docs/ai-elements/base/sources
+    link "Stack Trace" /docs/ai-elements/base/stack-trace
+    link Subagent /docs/ai-elements/base/subagent
+    link Suggestion /docs/ai-elements/base/suggestion
+    link Task /docs/ai-elements/base/task
+    link Terminal /docs/ai-elements/base/terminal
+    link "Test Results" /docs/ai-elements/base/test-results
+    link Tool /docs/ai-elements/base/tool
+    text Get Started
+    link Installation /docs/installation
+    link components.json /docs/components-json
+    link "Package Imports" /docs/package-imports
+    link Theming /docs/theming
+    link Typeset /docs/typeset
+    link "Dark Mode" /docs/dark-mode
+    link CLI /docs/cli
+    link Monorepo /docs/monorepo
+    link Skills /docs/skills
+    link JavaScript /docs/javascript
+    link Figma /docs/figma
+    link llms.txt /llms.txt
+    link "Legacy Docs" /docs/legacy
+    text @shadcn/react
+    link "Message Scroller" /docs/react/message-scroller
+    link Questionnaire /docs/react/questionnaire
+    text @shadcn/helpers
+    link "AI SDK" /docs/helpers/ai-sdk
+    link "TanStack AI" /docs/helpers/tanstack-ai
+    text Forms
+    link "React Hook Form" /docs/forms/react-hook-form
+    link "TanStack Form" /docs/forms/tanstack-form
+    link Formisch /docs/forms/formisch
+    text Utilities
+    link scroll-fade /docs/utils/scroll-fade
+    link shimmer /docs/utils/shimmer
+    text Registry
+    link Introduction /docs/registry
+    link "Getting Started" /docs/registry/getting-started
+    link "GitHub Registries" /docs/registry/github
+    link "Registry Directory" /docs/registry/registry-index
+    link "Registry Health" /docs/registry/health
+    link Examples /docs/registry/examples
+    link Namespaces /docs/registry/namespace
+    link Authentication /docs/registry/authentication
+    link "Dynamic Search" /docs/registry/dynamic-search
+    link "MCP Server" /docs/registry/mcp
+    link "Open in v0" /docs/registry/open-in-v0
+    link FAQ /docs/registry/faq
+    link "API Reference" /docs/registry/api-reference
+    link registry.json /docs/registry/registry-json
+    link registry-item.json /docs/registry/registry-item-json
+  row
+    col
+      row
+        h1 Installation
+        row
+          row
+            button "Copy Page"
+            button button
+          row
+            link Previous /docs
+            link Next /docs/components-json
+      text How to install dependencies and structure your app.
+      card
+        text Use  to build your preset visually and generate the right setup command for your framework.
+        row
+          text Recommended for new projects:
+          link shadcn/create /create
+      text Choose the setup that matches your starting point.
+      row
+        link "Use shadcn/createBuild your preset visually and generate a setup command." #use-create
+        link "Use the CLIScaffold a supported template directly from the terminal." #use-cli
+        link "Existing ProjectAdd shadcn/ui to an app you already created." #existing-project
+      h2 Use shadcn/create#
+      text Build your preset visually, preview your choices, and generate a framework-specific setup command.
+      link "Open shadcn/create" /create
+      text Available for Next.js, Vite, Laravel, React Router, Astro, and TanStack Start.
+      h2 Use the CLI#
+      text Use the CLI to scaffold a new project directly from the terminal:
+      card
+        row
+          tabs
+            tab *pnpm
+            tab npm
+            tab yarn
+            tab bun
+        button Copy
+      text Supported templates: next, vite, start, react-router, and astro.
+      text For Laravel, create the app first with laravel new, then run npx shadcn@latest init.
+      h2 Existing Project#
+      text Each framework guide includes an Existing Project section with the manual setup steps for that framework.
+      text Pick your framework below and follow that path.
+      h2 Choose Your Framework#
+      text For Laravel, start with laravel new before using shadcn/create or shadcn init.
+      row
+        link Next.jsNext.js /docs/installation/next
+        link ViteVite /docs/installation/vite
+        link "TanStack Start" /docs/installation/tanstack
+        link Laravel /docs/installation/laravel
+        link "React Router" /docs/installation/react-router
+        link AstroAstro /docs/installation/astro
+        link ReactManual /docs/installation/manual
+      row
+        link Introduction /docs
+        link components.json /docs/components-json
+    col
+      text On This Page
+      link "Use shadcn/create" #use-shadcncreate
+      link "Use the CLI" #use-the-cli
+      link "Existing Project" #existing-project
+      link "Choose Your Framework" #choose-your-framework
+      card
+        text Deploy your shadcn/ui app on Vercel
+        text Trusted by OpenAI, Sonos, Adobe, and more.
+        text Vercel provides tools and infrastructure to deploy apps and features at scale.
+        button "Deploy Now"
+        link "Deploy to Vercel" https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+text Notifications alt+T
+text Notifications

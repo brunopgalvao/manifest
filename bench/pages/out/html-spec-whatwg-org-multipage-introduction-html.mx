@@ -1,0 +1,1173 @@
+@html_spec_whatwg_org_multipage_introduct
+link "https://whatwg.org/" https://whatwg.org/
+h1 HTML
+text Living Standard — Last Updated 19 October 2026 success
+text —
+row
+  link "Table of Contents" ./
+  link "2 Common infrastructure →" infrastructure.html
+link "1 Introduction" introduction.html#introduction
+link "1.1 Where does this specification fit?" introduction.html#abstract
+link "1.2 Is this HTML5?" introduction.html#is-this-html5?
+link "1.3 Background" introduction.html#background
+link "1.4 Audience" introduction.html#audience
+link "1.5 Scope" introduction.html#scope
+link "1.6 History" introduction.html#history-2
+link "1.7 Design notes" introduction.html#design-notes
+link "1.7.1 Serializability of script execution" introduction.html#serialisability-of-script-execution
+link "1.7.2 Extensibility" introduction.html#extensibility
+link "1.8 HTML vs XML syntax" introduction.html#html-vs-xhtml
+link "1.9 Structure of this specification" introduction.html#structure-of-this-specification
+link "1.9.1 How to read this specification" introduction.html#how-to-read-this-specification
+link "1.9.2 Typographic conventions" introduction.html#typographic-conventions
+link "1.10 A quick introduction to HTML" introduction.html#a-quick-introduction-to-html
+link "1.10.1 Writing secure applications with HTML" introduction.html#writing-secure-applications-with-html
+link "1.10.2 Common pitfalls to avoid when using the scripting APIs" introduction.html#common-pitfalls-to-avoid-when-using-the-scripting-apis
+link "1.10.3 How to catch mistakes when writing HTML: validators and conformance checkers" introduction.html#how-to-catch-mistakes-when-writing-html:-validators-and-conformance-checkers
+link "1.11 Conformance requirements for authors" introduction.html#conformance-requirements-for-authors
+link "1.11.1 Presentational markup" introduction.html#presentational-markup
+link "1.11.2 Syntax errors" introduction.html#syntax-errors
+link "1.11.3 Restrictions on content models and on attribute values" introduction.html#restrictions-on-content-models-and-on-attribute-values
+link "1.12 Suggested reading" introduction.html#suggested-reading
+h2 1 Introduction
+h3 1.1 Where does this specification fit?
+text This specification defines a big part of the web platform, in lots of detail. Its place in the web platform specification stack relative to other specifications can be best summed up as follows:
+region "It consists of everything else, above such core technologies as HTTP, TLS, DOM, Unicode, Web IDL, MIME, URL, XML, JavaScript, and Encoding; below higher-level technologies like CSS, SVG, MathML, and Service Workers; and to the side of technologies like IndexedDB, Fetch, CSP, AV1, Opus, and PNG." 398x359
+  rect @0,0 398x80 fill:#424242
+  text @199,45 "CSS SVG MathML Service Workers" fill:#ffffff size:18 anchor:middle
+  rect @0,85 67x177 fill:#424242
+  text @25,173.5 "IDB Fetch CSP" fill:#ffffff size:18 anchor:middle
+  text @50,173.5 "AV1 Opus PNG" fill:#ffffff size:18 anchor:middle
+  image @72,85 326x177 /images/abstract.jpeg "image"
+  text @130,250 "THIS SPECIFICATION" fill:#ffffff size:25
+  rect @0,267 398x92 fill:#424242
+  text @199,300 "HTTP TLS DOM Unicode Web IDL" fill:#ffffff size:18 anchor:middle
+  text @199,330 "MIME URL XML JavaScript Encoding" fill:#ffffff size:18 anchor:middle
+h3 1.2 Is this HTML5?
+text This section is non-normative.
+text In short: Yes.
+text "In more length: the term \"HTML5\" is widely used as a buzzword to refer to modern web technologies, many of which (though by no means all) are developed at the WHATWG. This document is one such; others are available from ."
+link "the WHATWG Standards overview" https://spec.whatwg.org/
+h3 1.3 Background
+text This section is non-normative.
+text HTML is the World Wide Web's core markup language. Originally, HTML was primarily designed as a language for semantically describing scientific documents. Its general design, however, has enabled it to be adapted, over the subsequent years, to describe a number of other types of documents and even applications.
+h3 1.4 Audience
+text This section is non-normative.
+text This specification is intended for authors of documents and scripts that use the features defined in this specification, implementers of tools that operate on pages that use the features defined in this specification, and individuals wishing to establish the correctness of documents or implementations with respect to the requirements of this specification.
+text This document is probably not suited to readers who do not already have at least a passing familiarity with web technologies, as in places it sacrifices clarity for precision, and brevity for completeness. More approachable tutorials and authoring guides can provide a gentler introduction to the topic.
+text In particular, familiarity with the basics of DOM is necessary for a complete understanding of some of the more technical parts of this specification. An understanding of Web IDL, HTTP, XML, Unicode, character encodings, JavaScript, and CSS will also be helpful in places but is not essential.
+h3 1.5 Scope
+text This section is non-normative.
+text This specification is limited to providing a semantic-level markup language and associated semantic-level scripting APIs for authoring accessible pages on the web ranging from static documents to dynamic applications.
+text The scope of this specification does not include providing mechanisms for media-specific customization of presentation (although default rendering rules for web browsers are included at the end of this specification, and several mechanisms for hooking into CSS are provided as part of the language).
+text The scope of this specification is not to describe an entire operating system. In particular, hardware configuration software, image manipulation tools, and applications that users would be expected to use with high-end workstations on a daily basis are out of scope. In terms of applications, this specification is targeted specifically at applications that would be expected to be used by users on an occasional basis, or regularly but from disparate locations, with low CPU requirements. Examples of such applications include online purchasing systems, searching systems, games (especially multiplayer online games), public telephone books or address books, communications software (email clients, instant messaging clients, discussion software), document editing software, etc.
+h3 1.6 History
+text This section is non-normative.
+text For its first five years (1990-1995), HTML went through a number of revisions and experienced a number of extensions, primarily hosted first at CERN, and then at the IETF.
+text With the creation of the W3C, HTML's development changed venue again. A first abortive attempt at extending HTML in 1995 known as HTML 3.0 then made way to a more pragmatic approach known as HTML 3.2, which was completed in 1997. HTML4 quickly followed later that same year.
+text The following year, the W3C membership decided to stop evolving HTML and instead begin work on an XML-based equivalent, called XHTML. This effort started with a reformulation of HTML4 in XML, known as XHTML 1.0, which added no new features except the new serialization, and which was completed in 2000. After XHTML 1.0, the W3C's focus turned to making it easier for other working groups to extend XHTML, under the banner of XHTML Modularization. In parallel with this, the W3C also worked on a new language that was not compatible with the earlier HTML and XHTML languages, calling it XHTML2.
+text Around the time that HTML's evolution was stopped in 1998, parts of the API for HTML developed by browser vendors were specified and published under the name DOM Level 1 (in 1998) and DOM Level 2 Core and DOM Level 2 HTML (starting in 2000 and culminating in 2003). These efforts then petered out, with some DOM Level 3 specifications published in 2004 but the working group being closed before all the Level 3 drafts were completed.
+text In 2003, the publication of XForms, a technology which was positioned as the next generation of web forms, sparked a renewed interest in evolving HTML itself, rather than finding replacements for it. This interest was borne from the realization that XML's deployment as a web technology was limited to entirely new technologies (like RSS and later Atom), rather than as a replacement for existing deployed technologies (like HTML).
+text A proof of concept to show that it was possible to extend HTML4's forms to provide many of the features that XForms 1.0 introduced, without requiring browsers to implement rendering engines that were incompatible with existing HTML web pages, was the first result of this renewed interest. At this early stage, while the draft was already publicly available, and input was already being solicited from all sources, the specification was only under Opera Software's copyright.
+text The idea that HTML's evolution should be reopened was tested at a W3C workshop in 2004, where some of the principles that underlie the HTML5 work (described below), as well as the aforementioned early draft proposal covering just forms-related features, were presented to the W3C jointly by Mozilla and Opera. The proposal was rejected on the grounds that the proposal conflicted with the previously chosen direction for the web's evolution; the W3C staff and membership voted to continue developing XML-based replacements instead.
+text Shortly thereafter, Apple, Mozilla, and Opera jointly announced their intent to continue working on the effort under the umbrella of a new venue called the WHATWG. A public mailing list was created, and the draft was moved to the WHATWG site. The copyright was subsequently amended to be jointly owned by all three vendors, and to allow reuse of the specification.
+text The WHATWG was based on several core principles, in particular that technologies need to be backwards compatible, that specifications and implementations need to match even if this means changing the specification rather than the implementations, and that specifications need to be detailed enough that implementations can achieve complete interoperability without reverse-engineering each other.
+text The latter requirement in particular required that the scope of the HTML5 specification include what had previously been specified in three separate documents: HTML4, XHTML1, and DOM2 HTML. It also meant including significantly more detail than had previously been considered the norm.
+text In 2006, the W3C indicated an interest to participate in the development of HTML5 after all, and in 2007 formed a working group chartered to work with the WHATWG on the development of the HTML5 specification. Apple, Mozilla, and Opera allowed the W3C to publish the specification under the W3C copyright, while keeping a version with the less restrictive license on the WHATWG site.
+text "For a number of years, both groups then worked together. In 2011, however, the groups came to the conclusion that they had different goals: the W3C wanted to publish a \"finished\" version of \"HTML5\", while the WHATWG wanted to continue working on a Living Standard for HTML, continuously maintaining the specification rather than freezing it in a state with known problems, and adding new features as needed to evolve the platform."
+text In 2019, the WHATWG and W3C  to collaborate on a single version of HTML going forward: this document.
+link "signed an agreement" https://www.w3.org/blog/news/archives/7753
+h3 1.7 Design notes
+text This section is non-normative.
+text It must be admitted that many aspects of HTML appear at first glance to be nonsensical and inconsistent.
+text HTML, its supporting DOM APIs, as well as many of its supporting technologies, have been developed over a period of several decades by a wide array of people with different priorities who, in many cases, did not know of each other's existence.
+text Features have thus arisen from many sources, and have not always been designed in especially consistent ways. Furthermore, because of the unique characteristics of the web, implementation bugs have often become de-facto, and now de-jure, standards, as content is often unintentionally written in ways that rely on them before they can be fixed.
+text Despite all this, efforts have been made to adhere to certain design goals. These are described in the next few subsections.
+h3 1.7.1 Serializability of script execution
+text This section is non-normative.
+text To avoid exposing web authors to the complexities of multithreading, the HTML and DOM APIs are designed such that no script can ever detect the simultaneous execution of other scripts. Even with , the intent is that the behavior of implementations can be thought of as completely serializing the execution of all scripts in all globals.
+link workers workers.html#worker
+text The exception to this general design principle is the JavaScript  class. Using  objects, it can in fact be observed that scripts in other  are executing simultaneously. Furthermore, due to the JavaScript memory model, there are situations which not only are un-representable via serialized  execution, but also un-representable via serialized  execution among those scripts.
+link SharedArrayBuffer https://tc39.es/ecma262/#sec-sharedarraybuffer-objects
+link SharedArrayBuffer https://tc39.es/ecma262/#sec-sharedarraybuffer-objects
+link agents https://tc39.es/ecma262/#sec-agents
+text script
+text statement
+h3 1.7.2 Extensibility
+text This section is non-normative.
+text HTML has a wide array of extensibility mechanisms that can be used for adding semantics in a safe manner:
+text "Authors can use the  attribute to extend elements, effectively creating their own elements, while using the most applicable existing \"real\" HTML element, so that browsers and other tools that don't know of the extension can still support it somewhat well. This is the tack used by microformats, for example."
+link class dom.html#classes
+text Authors can include data for inline client-side scripts or server-side site-wide scripts to process using the  attributes. These are guaranteed to never be touched by browsers, and allow scripts to include data on HTML elements that scripts can then look for and process.
+link "data-*=\"\"" dom.html#attr-data-*
+text Authors can use the  mechanism to include page-wide metadata.
+link "<meta name=\"\" content=\"\">" semantics.html#the-meta-element
+text Authors can use the  mechanism to annotate links with specific meanings by registering . This is also used by microformats.
+row
+  link "rel=\"\"" links.html#attr-hyperlink-rel
+  link "extensions to the predefined set of link types" links.html#concept-rel-extensions
+text Authors can embed raw data using the  mechanism with a custom type, for further handling by inline or server-side scripts.
+link "<script type=\"\">" scripting.html#the-script-element
+text Authors can extend APIs using the JavaScript prototyping mechanism. This is widely used by script libraries, for instance.
+text Authors can use the microdata feature (the  and  attributes) to embed nested name-value pairs of data to be shared with other applications and sites.
+row
+  link "itemscope=\"\"" microdata.html#attr-itemscope
+  link "itemprop=\"\"" microdata.html#names:-the-itemprop-attribute
+text Authors can define, share, and use  to extend the vocabulary of HTML. The requirements of  ensure forward compatibility (since no elements will be added to HTML, SVG, or MathML with hyphen-containing local names in the future).
+row
+  link "custom elements" custom-elements.html#custom-element
+  link "valid custom element names" custom-elements.html#valid-custom-element-name
+h3 1.8 HTML vs XML syntax
+text This section is non-normative.
+text This specification defines an abstract language for describing documents and applications, and some APIs for interacting with in-memory representations of resources that use this language.
+text "The in-memory representation is known as \"DOM HTML\", or \"the DOM\" for short."
+text There are various concrete syntaxes that can be used to transmit resources that use this abstract language, two of which are defined in this specification.
+text "The first such concrete syntax is the HTML syntax. This is the format suggested for most authors. It is compatible with most legacy web browsers. If a document is transmitted with the  , then it will be processed as an HTML document by web browsers. This specification defines the latest HTML syntax, known simply as \"HTML\"."
+row
+  link text/html iana.html#text/html
+  link "MIME type" https://mimesniff.spec.whatwg.org/#mime-type
+text The second concrete syntax is XML. When a document is transmitted with an , such as , then it is treated as an XML document by web browsers, to be parsed by an XML processor. Authors are reminded that the processing for XML and HTML differs; in particular, even minor syntax errors will prevent a document labeled as XML from being rendered fully, whereas they would be ignored in the HTML syntax.
+row
+  link "XML MIME type" https://mimesniff.spec.whatwg.org/#xml-mime-type
+  link application/xhtml+xml iana.html#application/xhtml+xml
+text "The XML syntax for HTML was formerly referred to as \"XHTML\", but this specification does not use that term (among other reasons, because no such term is used for the HTML syntaxes of MathML and SVG)." success
+text "The DOM, the HTML syntax, and the XML syntax cannot all represent the same content. For example, namespaces cannot be represented using the HTML syntax, but they are supported in the DOM and in the XML syntax. Similarly, documents that use the  feature can be represented using the HTML syntax, but cannot be represented with the DOM or in the XML syntax. Comments that contain the string \"\" can only be represented in the DOM, not in the HTML and XML syntaxes."
+link noscript scripting.html#the-noscript-element
+text -->
+h3 1.9 Structure of this specification
+text This section is non-normative.
+text This specification is divided into the following major sections:
+link Introduction #introduction
+text Non-normative materials providing a context for the HTML standard.
+link "Common infrastructure" infrastructure.html#infrastructure
+text The conformance classes, algorithms, definitions, and the common underpinnings of the rest of the specification.
+link "Semantics, structure, and APIs of HTML documents" dom.html#dom
+text Documents are built from elements. These elements form a tree using the DOM. This section defines the features of this DOM, as well as introducing the features common to all elements, and the concepts used in defining elements.
+link "The elements of HTML" semantics.html#semantics
+text Each element has a predefined meaning, which is explained in this section. Rules for authors on how to use the element, along with user agent requirements for how to handle each element, are also given. This includes large signature features of HTML such as video playback and subtitles, form controls and form submission, and a 2D graphics API known as the HTML canvas.
+link Microdata microdata.html#microdata
+text This specification introduces a mechanism for adding machine-readable annotations to documents, so that tools can extract trees of name-value pairs from the document. This section describes this mechanism and some algorithms that can be used to convert HTML documents into other formats. This section also defines some sample Microdata vocabularies for contact information, calendar events, and licensing works.
+link "User interaction" interaction.html#editing
+text HTML documents can provide a number of mechanisms for users to interact with and modify content, which are described in this section, such as how focus works, and drag-and-drop.
+link "Loading web pages" browsers.html#browsers
+text HTML documents do not exist in a vacuum — this section defines many of the features that affect environments that deal with multiple pages, such as web browsers.
+link "Web application APIs" webappapis.html#webappapis
+text This section introduces basic features for scripting of applications in HTML.
+link "Web workers" workers.html#workers
+text This section defines an API for background threads in JavaScript.
+link Worklets worklets.html#worklets
+text This section defines infrastructure for APIs that need to run JavaScript separately from the main JavaScript execution environment.
+link "The communication APIs" comms.html#comms
+text This section describes some mechanisms that applications written in HTML can use to communicate with other applications from different domains running on the same client. It also introduces a server-push event stream mechanism known as Server Sent Events or , and a two-way full-duplex socket protocol for scripts known as Web Sockets.
+link EventSource server-sent-events.html#eventsource
+link "Web storage" webstorage.html#webstorage
+text This section defines a client-side storage mechanism based on name-value pairs.
+link "The HTML syntax" syntax.html#syntax
+link "The XML syntax" xhtml.html#xhtml
+text All of these features would be for naught if they couldn't be represented in a serialized form and sent to other people, and so these sections define the syntaxes of HTML and XML, along with rules for how to parse content using those syntaxes.
+link Rendering rendering.html#rendering
+text This section defines the default rendering rules for web browsers.
+text There are also some appendices, listing  and , and several indices.
+row
+  link "obsolete features" obsolete.html#obsolete
+  link "IANA considerations" iana.html#iana
+h3 1.9.1 How to read this specification
+text This specification should be read like all other specifications. First, it should be read cover-to-cover, multiple times. Then, it should be read backwards at least once. Then it should be read by picking random sections from the contents list and following all the cross-references.
+text As described in the conformance requirements section below, this specification describes conformance criteria for a variety of conformance classes. In particular, there are conformance requirements that apply to producers, for example authors and the documents they create, and there are conformance requirements that apply to consumers, for example web browsers. They can be distinguished by what they are requiring: a requirement on a producer states what is allowed, while a requirement on a consumer states how software is to act.
+text "For example, \"the  attribute's value must be a \" is a requirement on producers, as it lays out the allowed values; in contrast, the requirement \"the  attribute's value must be parsed using the \" is a requirement on consumers, as it describes how to process the content."
+text foo
+link "valid integer" common-microsyntaxes.html#valid-integer
+text foo
+link "rules for parsing integers" common-microsyntaxes.html#rules-for-parsing-integers
+text Requirements on producers have no bearing whatsoever on consumers.
+text Continuing the above example, a requirement stating that a particular attribute's value is constrained to being a  emphatically does  imply anything about the requirements on consumers. It might be that the consumers are in fact required to treat the attribute as an opaque string, completely unaffected by whether the value conforms to the requirements or not. It might be (as in the previous example) that the consumers are required to parse the value using specific rules that define how invalid (non-numeric in this case) values are to be processed.
+row
+  link "valid integer" common-microsyntaxes.html#valid-integer
+  text not
+h3 1.9.2 Typographic conventions
+text This is a definition, requirement, or explanation.
+text This is a note. success
+text This is an example.
+text This is an open issue. danger
+text This is a warning. danger
+text [=]   { // this is an IDL definition };
+text Exposed
+text Window primary
+text interface danger
+text Example
+text = .([])
+row
+  text variable
+  text object
+  link method #x-that
+  text optionalArgument
+text This is a note to authors describing the usage of an interface. success
+text /* this is a CSS fragment */
+text The defining instance of a term is marked up like . Uses of that term are marked up like  or like .
+row
+  text this
+  link this #x-this
+  link this #x-this
+text The defining instance of an element, attribute, or API is marked up like . References to that element, attribute, or API are marked up like .
+row
+  text this
+  link this #x-that
+text Other code fragments are marked up like this.
+text Variables are marked up like .
+text this
+text In an algorithm, steps in  are marked with ⌛.
+link "synchronous sections" webappapis.html#synchronous-section
+text In some cases, requirements are given in the form of lists with conditions and corresponding requirements. In such cases, the requirements that apply to a condition are always the first set of requirements that follow the condition, even in the case of there being multiple sets of conditions for those requirements. Such cases are presented as follows:
+text This is a condition
+text This is another condition
+text This is the requirement that applies to the conditions above.
+text This is a third condition
+text This is the requirement that applies to the third condition.
+h3 1.10 A quick introduction to HTML
+text This section is non-normative.
+text A basic HTML document looks like this:
+text Sample page   Sample page This is a  simple sample.
+card
+  text <!DOCTYPE html>
+  text <
+  text html success
+  text lang primary
+  text =
+  text "\"en\"" warning
+  text >
+  text <
+  text head success
+  text >
+  text <
+  text title success
+  text >
+  text </
+  text title success
+  text >
+  text </
+  text head success
+  text >
+  text <
+  text body success
+  text >
+  text <
+  text h1 success
+  text >
+  text </
+  text h1 success
+  text >
+  text <
+  text p success
+  text >
+  text <
+  text a success
+  text href primary
+  text =
+  text "\"demo.html\"" warning
+  text >
+  text </
+  text a success
+  text >
+  text </
+  text p success
+  text >
+  text <!-- this is a comment -->
+  text </
+  text body success
+  text >
+  text </
+  text html success
+  text >
+text "HTML documents consist of a tree of elements and text. Each element is denoted in the source by a , such as \"\", and an , such as \"\". (Certain start tags and end tags can in certain cases be  and are implied by other tags.)"
+link "start tag" syntax.html#syntax-start-tag
+text <body>
+link "end tag" syntax.html#syntax-end-tag
+text </body>
+link omitted syntax.html#syntax-tag-omission
+text Tags have to be nested such that elements are all completely within each other, without overlapping:
+text This is very wrong!
+card
+  text <
+  text p
+  text >
+  text <
+  text em
+  text >
+  text <
+  text strong
+  text >
+  text </
+  text em
+  text >
+  text </
+  text strong
+  text ></
+  text p
+  text >
+text This is correct.
+card
+  text <
+  text p success
+  text >
+  text <
+  text em success
+  text >
+  text <
+  text strong success
+  text >
+  text </
+  text strong success
+  text >
+  text </
+  text em success
+  text ></
+  text p success
+  text >
+text This specification defines a set of elements that can be used in HTML, along with rules about the ways in which the elements can be nested.
+text Elements can have attributes, which control how the elements work. In the example below, there is a , formed using the  element and its  attribute:
+link hyperlink links.html#hyperlink
+link a text-level-semantics.html#the-a-element
+link href links.html#attr-hyperlink-href
+text simple
+card
+  text <
+  text a success
+  text href primary
+  text =
+  text "\"demo.html\"" warning
+  text >
+  text </
+  text a success
+  text >
+text "are placed inside the start tag, and consist of a  and a , separated by an \"\" character. The attribute value can remain  if it doesn't contain  or any of      or . Otherwise, it has to be quoted using either single or double quotes. The value, along with the \"\" character, can be omitted altogether if the value is the empty string."
+link Attributes syntax.html#syntax-attributes
+link name syntax.html#syntax-attribute-name
+link value syntax.html#syntax-attribute-value
+text =
+link unquoted syntax.html#unquoted
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text "\""
+text '
+text `
+text =
+text <
+text >
+text =
+card
+  text <!-- empty attributes -->
+  text <
+  text input success
+  text name primary
+  text =
+  text address warning
+  text "disabled" primary
+  text >
+  text <
+  text input success
+  text name primary
+  text =
+  text address warning
+  text "disabled" primary
+  text =
+  text "\"\"" warning
+  text >
+  text <!-- attributes with a value -->
+  text <
+  text input success
+  text name primary
+  text =
+  text address warning
+  text maxlength primary
+  text =
+  text 200 warning
+  text >
+  text <
+  text input success
+  text name primary
+  text =
+  text address warning
+  text maxlength primary
+  text =
+  text '200' warning
+  text >
+  text <
+  text input success
+  text name primary
+  text =
+  text address warning
+  text maxlength primary
+  text =
+  text "\"200\"" warning
+  text >
+text HTML user agents (e.g., web browsers) then parse this markup, turning it into a DOM (Document Object Model) tree. A DOM tree is an in-memory representation of a document.
+text DOM trees contain several kinds of nodes, in particular a  node,  nodes,  nodes,  nodes, and in some cases  nodes.
+link DocumentType https://dom.spec.whatwg.org/#interface-documenttype
+link Element https://dom.spec.whatwg.org/#interface-element
+link Text https://dom.spec.whatwg.org/#interface-text
+link Comment https://dom.spec.whatwg.org/#interface-comment
+link ProcessingInstruction https://dom.spec.whatwg.org/#interface-processinginstruction
+text The  would be turned into the following DOM tree:
+link "markup snippet at the top of this section" #intro-early-example
+text DOCTYPE: html
+link html semantics.html#the-html-element
+text "=\"\""
+row
+  link lang dom.html#attr-lang
+  text en primary
+link head semantics.html#the-head-element
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text ⏎␣␣
+link title semantics.html#the-title-element
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text Sample page
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text ⏎␣
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text ⏎␣
+link body sections.html#the-body-element
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text ⏎␣␣
+link h1 sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text Sample page
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text ⏎␣␣
+link p grouping-content.html#the-p-element
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text This is a
+link a text-level-semantics.html#the-a-element
+text "=\"\""
+row
+  link href links.html#attr-hyperlink-href
+  text demo.html primary
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text simple
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text sample.
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text ⏎␣␣
+text :
+row
+  link "#comment" https://dom.spec.whatwg.org/#interface-comment
+  text this is a comment
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text ⏎␣⏎
+text The  of this tree is the  element, which is the element always found in that position in HTML documents. It contains two elements,  and , as well as a  node between them.
+link "document element" https://dom.spec.whatwg.org/#document-element
+link html semantics.html#the-html-element
+link head semantics.html#the-head-element
+link body sections.html#the-body-element
+link Text https://dom.spec.whatwg.org/#interface-text
+text "There are many more  nodes in the DOM tree than one would initially expect, because the source contains a number of spaces (represented here by \"␣\") and line breaks (\"⏎\") that all end up as  nodes in the DOM. However, for historical reasons not all of the spaces and line breaks in the original markup appear in the DOM. In particular, all the whitespace before  start tag ends up being dropped silently, and all the whitespace after the  end tag ends up placed at the end of the ."
+link Text https://dom.spec.whatwg.org/#interface-text
+link Text https://dom.spec.whatwg.org/#interface-text
+link head semantics.html#the-head-element
+link body sections.html#the-body-element
+link body sections.html#the-body-element
+text "The  element contains a  element, which itself contains a  node with the text \"Sample page\". Similarly, the  element contains an  element, a  element, and a comment."
+link head semantics.html#the-head-element
+link title semantics.html#the-title-element
+link Text https://dom.spec.whatwg.org/#interface-text
+link body sections.html#the-body-element
+link h1 sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
+link p grouping-content.html#the-p-element
+text "This DOM tree can be manipulated from scripts in the page. Scripts (typically in JavaScript) are small programs that can be embedded using the  element or using . For example, here is a form with a script that sets the value of the form's  element to say \"Hello World\":"
+row
+  link script scripting.html#the-script-element
+  link "event handler content attributes" webappapis.html#event-handler-content-attributes
+  link output form-elements.html#the-output-element
+text Result:    mainresult
+card
+  text <
+  link form forms.html#the-form-element
+  link name forms.html#attr-form-name
+  text =
+  text "\"main\"" warning
+  text >
+  text <
+  link output form-elements.html#the-output-element
+  link name form-control-infrastructure.html#attr-fe-name
+  text =
+  text "\"result\"" warning
+  text ></
+  text output success
+  text >
+  text <
+  link script scripting.html#the-script-element
+  text >
+  link document dom.html#document
+  text .
+  link forms dom.html#dom-document-forms
+  text .
+  text .
+  link elements forms.html#dom-form-elements
+  text .
+  text .
+  link value form-elements.html#dom-output-value
+  text =
+  text 'Hello World' warning
+  text ;
+  text </
+  text script success
+  text >
+  text </
+  text form success
+  text >
+text "Each element in the DOM tree is represented by an object, and these objects have APIs so that they can be manipulated. For instance, a link (e.g. the  element in the tree above) can have its \"\" attribute changed in several ways:"
+link a text-level-semantics.html#the-a-element
+link href links.html#attr-hyperlink-href
+text a    a    a    asetAttribute
+card
+  text var danger
+  text =
+  link document dom.html#document
+  text .
+  link links dom.html#dom-document-links
+  text [
+  text 0
+  text ];
+  text // obtain the first link in the document
+  text .
+  link href links.html#dom-hyperlink-href
+  text =
+  text 'sample.html' warning
+  text ;
+  text // change the destination URL of the link
+  text .
+  link protocol links.html#dom-hyperlink-protocol
+  text =
+  text 'https' warning
+  text ;
+  text // change just the scheme part of the URL
+  text .
+  text (
+  text 'href' warning
+  text ,
+  text 'https://example.com/' warning
+  text );
+  text // change the content attribute directly
+text Since DOM trees are used as the way to represent HTML documents when they are processed and presented by implementations (especially interactive implementations like web browsers), this specification is mostly phrased in terms of DOM trees, instead of the markup described above.
+text HTML documents represent a media-independent description of interactive content. HTML documents might be rendered to a screen, or through a speech synthesizer, or on a braille display. To influence exactly how such rendering takes place, authors can use a styling language such as CSS.
+text In the following example, the page has been made yellow-on-blue using CSS.
+text Sample styled page            Sample styled page This page is just a demo.
+card
+  text <!DOCTYPE html>
+  text <
+  text html success
+  text lang primary
+  text =
+  text "\"en\"" warning
+  text >
+  text <
+  text head success
+  text >
+  text <
+  text title success
+  text >
+  text </
+  text title success
+  text >
+  text <
+  text style success
+  text >
+  text body success
+  text {
+  text background danger
+  text :
+  text navy danger
+  text ;
+  text color danger
+  text :
+  text yellow danger
+  text ;
+  text }
+  text </
+  text style success
+  text >
+  text </
+  text head success
+  text >
+  text <
+  text body success
+  text >
+  text <
+  text h1 success
+  text >
+  text </
+  text h1 success
+  text >
+  text <
+  text p success
+  text >
+  text </
+  text p success
+  text >
+  text </
+  text body success
+  text >
+  text </
+  text html success
+  text >
+text For more details on how to use HTML, authors are encouraged to consult tutorials and guides. Some of the examples included in this specification might also be of use, but the novice author is cautioned that this specification, by necessity, defines the language with a level of detail that might be difficult to understand at first.
+h3 1.10.1 Writing secure applications with HTML
+text This section is non-normative.
+text When HTML is used to create interactive sites, care needs to be taken to avoid introducing vulnerabilities through which attackers can compromise the integrity of the site itself or of the site's users.
+text A comprehensive study of this matter is beyond the scope of this document, and authors are strongly encouraged to study the matter in more detail. However, this section attempts to provide a quick introduction to some common pitfalls in HTML application development.
+text "The security model of the web is based on the concept of \"origins\", and correspondingly many of the potential attacks on the web involve cross-origin actions."
+link [ORIGIN] references.html#refsORIGIN
+text Not validating user input
+text Cross-site scripting (XSS)
+text SQL injection
+text When accepting untrusted input, e.g. user-generated content such as text comments, values in URL parameters, messages from third-party sites, etc, it is imperative that the data be validated before use, and properly escaped when displayed. Failing to do this can allow a hostile user to perform a variety of attacks, ranging from the potentially benign, such as providing bogus user information like a negative age, to the serious, such as running scripts every time a user looks at a page that includes the information, potentially propagating the attack in the process, to the catastrophic, such as deleting all data in the server.
+text When writing filters to validate user input, it is imperative that filters always be safelist-based, allowing known-safe constructs and disallowing all other input. Blocklist-based filters that disallow known-bad inputs and allow everything else are not secure, as not everything that is bad is yet known (for example, because it might be invented in the future).
+text For example, suppose a page looked at its URL's query string to determine what to display, and the site then redirected the user to that page to display a message, as in:
+text Say Hello  Say Welcome  Say Kittens
+card
+  text <
+  text ul success
+  text >
+  text <
+  text li success
+  text ><
+  text a success
+  text href primary
+  text =
+  text "\"message.cgi?say=Hello\"" warning
+  text >
+  text </
+  text a success
+  text >
+  text <
+  text li success
+  text ><
+  text a success
+  text href primary
+  text =
+  text "\"message.cgi?say=Welcome\"" warning
+  text >
+  text </
+  text a success
+  text >
+  text <
+  text li success
+  text ><
+  text a success
+  text href primary
+  text =
+  text "\"message.cgi?say=Kittens\"" warning
+  text >
+  text </
+  text a success
+  text >
+  text </
+  text ul success
+  text >
+text If the message was just displayed to the user without escaping, a hostile attacker could then craft a URL that contained a script element:
+text "https://example.com/message.cgi?say=%3Cscript%3Ealert%28%27Oh%20no%21%27%29%3C/script%3E"
+text If the attacker then convinced a victim user to visit this page, a script of the attacker's choosing would run on the page. Such a script could do any number of hostile actions, limited only by what the site offers: if the site is an e-commerce shop, for instance, such a script could cause the user to unknowingly make arbitrarily many unwanted purchases.
+text This is called a cross-site scripting attack.
+text There are many constructs that can be used to try to trick a site into executing code. Here are some that authors are encouraged to consider when writing safelist filters:
+text When allowing harmless-seeming elements like , it is important to safelist any provided attributes as well. If one allowed all attributes then an attacker could, for instance, use the  attribute to run arbitrary script.
+link img embedded-content.html#the-img-element
+link onload webappapis.html#handler-onload
+text "When allowing URLs to be provided (e.g. for links), the scheme of each URL also needs to be explicitly safelisted, as there are many schemes that can be abused. The most prominent example is \"\", but user agents can implement (and indeed, have historically implemented) others."
+link "javascript:" browsing-the-web.html#the-javascript:-url-special-case
+text Allowing a  element to be inserted means any  elements in the page with relative links can be hijacked, and similarly that any form submissions can get redirected to a hostile site.
+row
+  link base semantics.html#the-base-element
+  link script scripting.html#the-script-element
+text Cross-site request forgery (CSRF)
+text If a site allows a user to make form submissions with user-specific side-effects, for example posting messages on a forum under the user's name, making purchases, or applying for a passport, it is important to verify that the request was made by the user intentionally, rather than by another site tricking the user into making the request unknowingly.
+text This problem exists because HTML forms can be submitted to other origins.
+text Sites can prevent such attacks by populating forms with user-specific hidden tokens, or by checking `` headers on all requests.
+link Origin https://fetch.spec.whatwg.org/#http-origin
+text Clickjacking
+text A page that provides users with an interface to perform actions that the user might not wish to perform needs to be designed so as to avoid the possibility that users can be tricked into activating the interface.
+text One way that a user could be so tricked is if a hostile site places the victim site in a small  and then convinces the user to click, for instance by having the user play a reaction game. Once the user is playing the game, the hostile site can quickly position the iframe under the mouse cursor just as the user is about to click, thus tricking the user into clicking the victim site's interface.
+link iframe iframe-embed-object.html#the-iframe-element
+text To avoid this, sites that do not expect to be used in frames are encouraged to only enable their interface if they detect that they are not in a frame (e.g. by comparing the  object to the value of the  attribute).
+row
+  link window nav-history-apis.html#dom-window
+  link top nav-history-apis.html#dom-top
+h3 1.10.2 Common pitfalls to avoid when using the scripting APIs
+text This section is non-normative.
+text "Scripts in HTML have \"run-to-completion\" semantics, meaning that the browser will generally run the script uninterrupted before doing anything else, such as firing further events or continuing to parse the document."
+text On the other hand, parsing of HTML files happens incrementally, meaning that the parser can pause at any point to let scripts run. This is generally a good thing, but it does mean that authors need to be careful to avoid hooking event handlers after the events could have possibly fired.
+text There are two techniques for doing this reliably: use , or create the element and add the event handlers in the same script. The latter is safe because, as mentioned earlier, scripts are run to completion before further events can fire.
+link "event handler content attributes" webappapis.html#event-handler-content-attributes
+text One way this could manifest itself is with  elements and the  event. The event could fire as soon as the element has been parsed, especially if the image has already been cached (which is common).
+row
+  link img embedded-content.html#the-img-element
+  link load indices.html#event-load
+text Here, the author uses the  handler on an  element to catch the  event:
+row
+  link onload webappapis.html#handler-onload
+  link img embedded-content.html#the-img-element
+  link load indices.html#event-load
+card
+  text <
+  text img success
+  text src primary
+  text =
+  text "\"games.png\"" warning
+  text alt primary
+  text =
+  text "\"Games\"" warning
+  text onload primary
+  text =
+  text "\"gamesLogoHasLoaded(event)\"" warning
+  text >
+text If the element is being added by script, then so long as the event handlers are added in the same script, the event will still not be missed:
+text img   Image imgsrc   imgalt   imgonload  gamesLogoHasLoaded
+card
+  text <
+  text script success
+  text >
+  text var danger
+  text =
+  text new danger
+  text ();
+  text .
+  text =
+  text 'games.png' warning
+  text ;
+  text .
+  text =
+  text 'Games' warning
+  text ;
+  text .
+  text =
+  text ;
+  text // img.addEventListener('load', gamesLogoHasLoaded, false); // would work also
+  text </
+  text script success
+  text >
+text However, if the author first created the  element and then in a separate script added the event listeners, there's a chance that the  event would be fired in between, leading it to be missed:
+row
+  link img embedded-content.html#the-img-element
+  link load indices.html#event-load
+text img  documentgetElementById imgonload  gamesLogoHasLoaded
+card
+  text <!-- Do not use this style, it has a race condition! -->
+  text <
+  text img
+  text id
+  text =
+  text "\"games\""
+  text src
+  text =
+  text "\"games.png\""
+  text alt
+  text =
+  text "\"Games\""
+  text >
+  text <!-- the 'load' event might fire here while the parser is taking a
+  text break, in which case you will not see it! -->
+  text <
+  text script
+  text >
+  text var
+  text =
+  text .
+  text (
+  text 'games'
+  text );
+  text .
+  text =
+  text ;
+  text // might never fire!
+  text </
+  text script
+  text >
+h3 1.10.3 How to catch mistakes when writing HTML: validators and conformance checkers
+text This section is non-normative.
+text Authors are encouraged to make use of conformance checkers (also known as ) to catch common mistakes. The WHATWG maintains a list of such tools at:
+text validators
+link "https://whatwg.org/validator/" https://whatwg.org/validator/
+h3 1.11 Conformance requirements for authors
+text This section is non-normative.
+text Unlike previous versions of the HTML specification, this specification defines in some detail the required processing for invalid documents as well as valid documents.
+text However, even though the processing of invalid content is in most cases well-defined, conformance requirements for documents are still important: in practice, interoperability (the situation in which all implementations process particular content in a reliable and identical or equivalent way) is not the only goal of document conformance requirements. This section details some of the more common reasons for still distinguishing between a conforming document and one with errors.
+h3 1.11.1 Presentational markup
+text This section is non-normative.
+text The majority of presentational features from previous versions of HTML are no longer allowed. Presentational markup in general has been found to have a number of problems:
+text The use of presentational elements leads to poorer accessibility
+text While it is possible to use presentational markup in a way that provides users of assistive technologies (ATs) with an acceptable experience (e.g. using ARIA), doing so is significantly more difficult than doing so when using semantically-appropriate markup. Furthermore, even using such techniques doesn't help make pages accessible for non-AT non-graphical users, such as users of text-mode browsers.
+text Using media-independent markup, on the other hand, provides an easy way for documents to be authored in such a way that they work for more users (e.g. users of text browsers).
+text Higher cost of maintenance
+text "It is significantly easier to maintain a site written in such a way that the markup is style-independent. For example, changing the color of a site that uses <font color=\"\"> throughout requires changes across the entire site, whereas a similar change to a site based on CSS can be done by changing a single file."
+text Larger document sizes
+text Presentational markup tends to be much more redundant, and thus results in larger document sizes.
+text For those reasons, presentational markup has been removed from HTML in this version. This change should not come as a surprise; HTML4 deprecated presentational markup many years ago and provided a mode (HTML4 Transitional) to help authors move away from presentational markup; later, XHTML 1.1 went further and obsoleted those features altogether.
+text The only remaining presentational markup features in HTML are the  attribute and the  element. Use of the  attribute is somewhat discouraged in production environments, but it can be useful for rapid prototyping (where its rules can be directly moved into a separate style sheet later) and for providing specific styles in unusual cases where a separate style sheet would be inconvenient. Similarly, the  element can be useful in syndication or for page-specific styles, but in general an external style sheet is likely to be more convenient when the styles apply to multiple pages.
+link style dom.html#attr-style
+link style semantics.html#the-style-element
+link style dom.html#attr-style
+link style semantics.html#the-style-element
+text It is also worth noting that some elements that were previously presentational have been redefined in this specification to be media-independent: , , , , , and .
+link b text-level-semantics.html#the-b-element
+link i text-level-semantics.html#the-i-element
+link hr grouping-content.html#the-hr-element
+link s text-level-semantics.html#the-s-element
+link small text-level-semantics.html#the-small-element
+link u text-level-semantics.html#the-u-element
+h3 1.11.2 Syntax errors
+text This section is non-normative.
+text The syntax of HTML is constrained to avoid a wide variety of problems.
+text Unintuitive error-handling behavior
+text Certain invalid syntax constructs, when parsed, result in DOM trees that are highly unintuitive.
+text For example, the following markup fragment results in a DOM with an  element that is an  sibling of the corresponding  element:
+row
+  link hr grouping-content.html#the-hr-element
+  text earlier
+  link table tables.html#the-table-element
+text ...
+card
+  text <
+  text table
+  text ><
+  text hr
+  text >
+text Errors with optional error recovery
+text To allow user agents to be used in controlled environments without having to implement the more bizarre and convoluted error handling rules, user agents are permitted to fail whenever encountering a .
+link "parse error" parsing.html#parse-errors
+text Errors where the error-handling behavior is not compatible with streaming user agents
+text Some error-handling behavior, such as the behavior for the <table><hr>... example mentioned above, are incompatible with streaming user agents (user agents that process HTML files in one pass, without storing state). To avoid interoperability problems with such user agents, any syntax resulting in such behavior is considered invalid.
+text Errors that can result in infoset coercion
+text When a user agent based on XML is connected to an HTML parser, it is possible that certain invariants that XML enforces, such as element or attribute names never contain multiple colons, will be violated by an HTML file. Handling this can require that the parser coerce the HTML DOM into an XML-compatible infoset. Most syntax constructs that require such handling are considered invalid. (Comments containing two consecutive hyphens, or ending with a hyphen, are exceptions that are allowed in the HTML syntax.)
+text Errors that result in disproportionately poor performance
+text Certain syntax constructs can result in disproportionately poor performance. To discourage the use of such constructs, they are typically made non-conforming.
+text For example, the following markup results in poor performance, since all the unclosed  elements have to be reconstructed in each paragraph, resulting in progressively more elements in each paragraph:
+link i text-level-semantics.html#the-i-element
+text She dreamt. She dreamt that she ate breakfast. Then lunch. And finally dinner.
+card
+  text <
+  text p
+  text ><
+  text i
+  text >
+  text <
+  text p
+  text ><
+  text i
+  text >
+  text <
+  text p
+  text ><
+  text i
+  text >
+  text <
+  text p
+  text ><
+  text i
+  text >
+text The resulting DOM for this fragment would be:
+link p grouping-content.html#the-p-element
+link i text-level-semantics.html#the-i-element
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text She dreamt.
+link p grouping-content.html#the-p-element
+link i text-level-semantics.html#the-i-element
+link i text-level-semantics.html#the-i-element
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text She dreamt that she ate breakfast.
+link p grouping-content.html#the-p-element
+link i text-level-semantics.html#the-i-element
+link i text-level-semantics.html#the-i-element
+link i text-level-semantics.html#the-i-element
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text Then lunch.
+link p grouping-content.html#the-p-element
+link i text-level-semantics.html#the-i-element
+link i text-level-semantics.html#the-i-element
+link i text-level-semantics.html#the-i-element
+link i text-level-semantics.html#the-i-element
+text :
+row
+  link "#text" https://dom.spec.whatwg.org/#interface-text
+  text And finally dinner.
+text Errors involving fragile syntax constructs
+text There are syntax constructs that, for historical reasons, are relatively fragile. To help reduce the number of users who accidentally run into such problems, they are made non-conforming.
+text For example, the parsing of certain named character references in attributes happens even with the closing semicolon being omitted. It is safe to include an ampersand followed by letters that do not form a named character reference, but if the letters are changed to a string that does form a named character reference, they will be interpreted as that character instead.
+text "In this fragment, the attribute's value is \"?bill&ted\":"
+text Bill and Ted
+card
+  text <
+  text a
+  text href
+  text =
+  text "\"?bill&ted\""
+  text >
+  text </
+  text a
+  text >
+text "In the following fragment, however, the attribute's value is actually \"?art©\", not the intended \"?art&copy\", because even without the final semicolon, \"&copy\" is handled the same as \"&copy;\" and thus gets interpreted as \"©\":"
+text Art and Copy
+card
+  text <
+  text a
+  text href
+  text =
+  text "\"?art&copy\""
+  text >
+  text </
+  text a
+  text >
+text To avoid this problem, all named character references are required to end with a semicolon, and uses of named character references without a semicolon are flagged as errors.
+text Thus, the correct way to express the above cases is as follows:
+text Bill and Ted
+card
+  text <
+  text a success
+  text href primary
+  text =
+  text "\"?bill&ted\"" warning
+  text >
+  text </
+  text a success
+  text >
+  text <!-- &ted is ok, since it's not a named character reference -->
+text Art and Copy
+card
+  text <
+  text a success
+  text href primary
+  text =
+  text "\"?art&amp;copy\"" warning
+  text >
+  text </
+  text a success
+  text >
+  text <!-- the & has to be escaped, since &copy
+  text is
+  text a named character reference -->
+text Errors involving known interoperability problems in legacy user agents
+text Certain syntax constructs are known to cause especially subtle or serious problems in legacy user agents, and are therefore marked as non-conforming to help authors avoid them.
+text For example, this is why the U+0060 GRAVE ACCENT character (`) is not allowed in unquoted attributes. In certain legacy user agents, it is sometimes treated as a quote character.
+text Another example of this is the DOCTYPE, which is required to trigger , because the behavior of legacy user agents in  is often largely undocumented.
+link "no-quirks mode" https://dom.spec.whatwg.org/#concept-document-no-quirks
+link "quirks mode" https://dom.spec.whatwg.org/#concept-document-quirks
+text Errors that risk exposing authors to security attacks
+text Certain restrictions exist purely to avoid known security problems.
+text For example, the restriction on using UTF-7 exists purely to avoid authors falling prey to a known cross-site-scripting attack using UTF-7.
+link [UTF7] references.html#refsUTF7
+text Cases where the author's intent is unclear
+text Markup where the author's intent is very unclear is often made non-conforming. Correcting these errors early makes later maintenance easier.
+text For example, it is unclear whether the author intended the following to be an  heading or an  heading:
+row
+  link h1 sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
+  link h2 sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
+text Contact details
+card
+  text <
+  text h1
+  text >
+  text </
+  text h2
+  text >
+text Cases that are likely to be typos
+text When a user makes a simple typo, it is helpful if the error can be caught early, as this can save the author a lot of debugging time. This specification therefore usually considers it an error to use element names, attribute names, and so forth, that do not match the names defined in this specification.
+text For example, if the author typed <capton> instead of <caption>, this would be flagged as an error and the author could correct the typo immediately.
+text Errors that could interfere with new syntax in the future
+text In order to allow the language syntax to be extended in the future, certain otherwise harmless features are disallowed.
+text "For example, \"attributes\" in end tags are ignored currently, but they are invalid, in case a future change to the language makes use of that syntax feature without conflicting with already-deployed (and valid!) content."
+text Some authors find it helpful to be in the practice of always quoting all attributes and always including all optional tags, preferring the consistency derived from such custom over the minor benefits of terseness afforded by making use of the flexibility of the HTML syntax. To aid such authors, conformance checkers can provide modes of operation wherein such conventions are enforced.
+h3 1.11.3 Restrictions on content models and on attribute values
+text This section is non-normative.
+text Beyond the syntax of the language, this specification also places restrictions on how elements and attributes can be specified. These restrictions are present for similar reasons:
+text Errors involving content with dubious semantics
+text To avoid misuse of elements with defined meanings, content models are defined that restrict how elements can be nested when such nestings would be of dubious value.
+text For example, this specification disallows nesting a  element inside a  element, since it is highly unlikely for an author to indicate that an entire section should be keyed in.
+row
+  link section sections.html#the-section-element
+  link kbd text-level-semantics.html#the-kbd-element
+text Errors that involve a conflict in expressed semantics
+text Similarly, to draw the author's attention to mistakes in the use of elements, clear contradictions in the semantics expressed are also considered conformance errors.
+text In the fragments below, for example, the semantics are nonsensical: a separator cannot simultaneously be a cell, nor can a radio button be a progress bar.
+card
+  text <
+  text hr
+  text role
+  text =
+  text "\"cell\""
+  text >
+card
+  text <
+  text input
+  text type
+  text =
+  text radio
+  text role
+  text =
+  text progressbar
+  text >
+text Another example is the restrictions on the content models of the  element, which only allows  element children. Lists by definition consist just of zero or more list items, so if a  element contains something other than an  element, it's not clear what was meant.
+link ul grouping-content.html#the-ul-element
+link li grouping-content.html#the-li-element
+link ul grouping-content.html#the-ul-element
+link li grouping-content.html#the-li-element
+text Cases where the default styles are likely to lead to confusion
+text Certain elements have default styles or behaviors that make certain combinations likely to lead to confusion. Where these have equivalent alternatives without this problem, the confusing combinations are disallowed.
+text For example,  elements are rendered as , and  elements as . Putting a  in an  is unnecessarily confusing; since either nesting just  elements, or nesting just  elements, or nesting  elements inside  elements all serve the same purpose as nesting a  element in a  element, but only the latter involves a  in an , the latter combination is disallowed.
+link div grouping-content.html#the-div-element
+link "block boxes" https://drafts.csswg.org/css2/#block-boxes%E2%91%A0
+link span text-level-semantics.html#the-span-element
+link "inline boxes" https://drafts.csswg.org/css2/#inline-box
+link "block box" https://drafts.csswg.org/css2/#block-boxes%E2%91%A0
+link "inline box" https://drafts.csswg.org/css2/#inline-box
+link div grouping-content.html#the-div-element
+link span text-level-semantics.html#the-span-element
+link span text-level-semantics.html#the-span-element
+link div grouping-content.html#the-div-element
+link div grouping-content.html#the-div-element
+link span text-level-semantics.html#the-span-element
+link "block box" https://drafts.csswg.org/css2/#block-boxes%E2%91%A0
+link "inline box" https://drafts.csswg.org/css2/#inline-box
+text Another example would be the way  cannot be nested. For example, a  element cannot contain a  element. This is because the default behavior of such nesting interactive elements would be highly confusing to users. Instead of nesting these elements, they can be placed side by side.
+row
+  link "interactive content" dom.html#interactive-content-2
+  link button form-elements.html#the-button-element
+  link textarea form-elements.html#the-textarea-element
+text Errors that indicate a likely misunderstanding of the specification
+text Sometimes, something is disallowed because allowing it would likely cause author confusion.
+text "For example, setting the  attribute to the value \"\" is disallowed, because despite the appearance of meaning that the element is enabled, it in fact means that the element is  (what matters for implementations is the presence of the attribute, not its value)."
+link "disabled" form-control-infrastructure.html#attr-fe-disabled
+text false
+text "disabled"
+text Errors involving limits that have been imposed merely to simplify the language
+text Some conformance errors simplify the language that authors need to learn.
+text For example, the  element's  attribute, despite accepting both  and  values in practice as synonyms, disallows the use of the  value, so as to simplify tutorials and other learning aids. There would be no benefit to allowing both, but it would cause extra confusion when teaching the language.
+link area image-maps.html#the-area-element
+link shape image-maps.html#attr-area-shape
+link circ image-maps.html#attr-area-shape-keyword-circ
+link circle image-maps.html#attr-area-shape-keyword-circle
+link circ image-maps.html#attr-area-shape-keyword-circ
+text Errors that involve peculiarities of the parser
+text Certain elements are parsed in somewhat eccentric ways (typically for historical reasons), and their content model restrictions are intended to avoid exposing the author to these issues.
+text For example, a  element isn't allowed inside , because when parsed as HTML, a  element's start tag will imply a  element's end tag. Thus, the following markup results in two , not one:
+link form forms.html#the-form-element
+link "phrasing content" dom.html#phrasing-content-2
+link form forms.html#the-form-element
+link p grouping-content.html#the-p-element
+link paragraphs dom.html#paragraph
+text Welcome. Name:
+card
+  text <
+  text p success
+  text >
+  text <
+  text form success
+  text ><
+  text label success
+  text >
+  text </
+  text label success
+  text >
+  text <
+  text input success
+  text ></
+  text form success
+  text >
+text It is parsed exactly like the following:
+text Welcome. Name:
+card
+  text <
+  text p success
+  text >
+  text </
+  text p success
+  text ><
+  text form success
+  text ><
+  text label success
+  text >
+  text </
+  text label success
+  text >
+  text <
+  text input success
+  text ></
+  text form success
+  text >
+text Errors that would likely result in scripts failing in hard-to-debug ways
+text Some errors are intended to help prevent script problems that would be hard to debug.
+text This is why, for instance, it is non-conforming to have two  attributes with the same value. Duplicate IDs lead to the wrong element being selected, with sometimes disastrous effects whose cause is hard to determine.
+link id dom.html#the-id-attribute
+text Errors that waste authoring time
+text Some constructs are disallowed because historically they have been the cause of a lot of wasted authoring time, and by encouraging authors to avoid making them, authors can save time in future efforts.
+text For example, a  element's  attribute causes the element's contents to be ignored. However, this isn't obvious, especially if the element's contents appear to be executable script — which can lead to authors spending a lot of time trying to debug the inline script without realizing that it is not executing. To reduce this problem, this specification makes it non-conforming to have executable script in a  element when the  attribute is present. This means that authors who are validating their documents are less likely to waste time with this kind of mistake.
+link script scripting.html#the-script-element
+link src scripting.html#attr-script-src
+link script scripting.html#the-script-element
+link src scripting.html#attr-script-src
+text Errors that involve areas that affect authors migrating between the HTML and XML syntaxes
+text Some authors like to write files that can be interpreted as both XML and HTML with similar results. Though this practice is discouraged in general due to the myriad of subtle complications involved (especially when involving scripting, styling, or any kind of automated serialization), this specification has a few restrictions intended to at least somewhat mitigate the difficulties. This makes it easier for authors to use this as a transitionary step when migrating between the HTML and XML syntaxes.
+text For example, there are somewhat complicated rules surrounding the  and  attributes intended to keep the two synchronized.
+row
+  link lang dom.html#attr-lang
+  link "xml:lang" https://www.w3.org/TR/xml/#sec-lang-tag
+text Another example would be the restrictions on the values of xmlns attributes in the HTML serialization, which are intended to ensure that elements in conforming documents end up in the same namespaces whether processed as HTML or XML.
+text Errors that involve areas reserved for future expansion
+text As with the restrictions on the syntax intended to allow for new syntax in future revisions of the language, some restrictions on the content models of elements and values of attributes are intended to allow for future expansion of the HTML vocabulary.
+text For example, limiting the values of the  attribute that start with an U+005F LOW LINE character (_) to only specific predefined values allows new predefined values to be introduced at a future time without conflicting with author-defined values.
+link target links.html#attr-hyperlink-target
+text Errors that indicate a mis-use of other specifications
+text Certain restrictions are intended to support the restrictions made by other specifications.
+text For example, requiring that attributes that take media query lists use only valid media query lists reinforces the importance of following the conformance rules of that specification.
+h3 1.12 Suggested reading
+text This section is non-normative.
+text The following documents might be of interest to readers of this specification.
+row
+  text Character Model for the World Wide Web 1.0: Fundamentals
+  link [CHARMOD] references.html#refsCHARMOD
+text This Architectural Specification provides authors of specifications, software developers, and content developers with a common reference for interoperable text manipulation on the World Wide Web, building on the Universal Character Set, defined jointly by the Unicode Standard and ISO/IEC 10646. Topics addressed include use of the terms 'character', 'encoding' and 'string', a reference processing model, choice and identification of character encodings, character escaping, and string indexing.
+row
+  text Unicode Security Considerations
+  link [UTR36] references.html#refsUTR36
+text Because Unicode contains such a large number of characters and incorporates the varied writing systems of the world, incorrect usage can expose programs or systems to possible security attacks. This is especially important as more and more products are internationalized. This document describes some of the security considerations that programmers, system analysts, standards developers, and users should take into account, and provides specific recommendations to reduce the risk of problems.
+row
+  text Web Content Accessibility Guidelines (WCAG)
+  link [WCAG] references.html#refsWCAG
+text Web Content Accessibility Guidelines (WCAG) covers a wide range of recommendations for making web content more accessible. Following these guidelines will make content accessible to a wider range of people with disabilities, including blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech disabilities, photosensitivity and combinations of these. Following these guidelines will also often make your web content more usable to users in general.
+row
+  text Authoring Tool Accessibility Guidelines (ATAG) 2.0
+  link [ATAG] references.html#refsATAG
+text This specification provides guidelines for designing web content authoring tools that are more accessible for people with disabilities. An authoring tool that conforms to these guidelines will promote accessibility by providing an accessible user interface to authors with disabilities as well as by enabling, supporting, and promoting the production of accessible web content by all authors.
+row
+  text User Agent Accessibility Guidelines (UAAG) 2.0
+  link [UAAG] references.html#refsUAAG
+text This document provides guidelines for designing user agents that lower barriers to web accessibility for people with disabilities. User agents include browsers and other types of software that retrieve and render web content. A user agent that conforms to these guidelines will promote accessibility through its own user interface and through other internal facilities, including its ability to communicate with other technologies (especially assistive technologies). Furthermore, all users, not just users with disabilities, should find conforming user agents to be more usable.
+text —
+row
+  link "Table of Contents" ./
+  link "2 Common infrastructure →" infrastructure.html

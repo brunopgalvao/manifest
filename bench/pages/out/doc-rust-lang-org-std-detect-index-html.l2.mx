@@ -1,0 +1,128 @@
+@doc_rust_lang_org_std_detect_index_html rev=0 @0,0,728,1095
+row @17,17,694,1061
+  link "Skip to main content" #main-content @17,507,15,81
+  col @44,331,18,433
+    h2 std_detect1.99.1 @44,331,18,22
+    text (58cf8f9c3 2026-10-13) @44,365,18,40
+    link "All Items" all.html @44,417,18,41
+    h3 Crate Items @44,470,18,37
+    link Macros #macros @44,519,18,21
+    h3 Crates @44,552,18,18
+    link alloc ../alloc/index.html @44,582,18,21
+    link core ../core/index.html @44,615,18,20
+    link proc_macro ../proc_macro/index.html @44,647,18,20
+    link std ../std/index.html @44,679,18,21
+    link std_detect ../std_detect/index.html @44,712,18,20
+    link test ../test/index.html @44,744,18,20
+  col @74,17,637,1061
+    row @74,17,637,50
+      h1 Crate std_detect Copy item path @74,17,308,50
+      link Source ../src/std_detect/lib.rs.html#1-35 @394,32,47,20
+      row @453,24,258,36
+        link Search https://doc.rust-lang.org/std_detect/index.html?search= @453,32,46,20
+        link Settings ../settings.html @511,32,53,20
+        link Help ../help.html @576,32,30,20
+        button Summary @618,24,93,36
+    text 🔬This is a nightly-only experimental API. (stdarch_internal) @74,79,637,20
+    row @74,111,637,719
+      text Expand description @74,450,87,41
+      col @173,111,538,719
+        text Run-time feature detection for the Rust standard library. @173,111,538,21
+        text To detect whether a feature is enabled in the system running the binary use one of the appropriate macro for the target: @173,144,538,40
+        text and : @173,196,538,21
+        row @173,229,538,20
+          text x86 @173,229,25,20
+          text x86_64 @210,229,50,20
+          link is_x86_feature_detected macro.is_x86_feature_detected.html @272,229,162,20
+        text : @173,261,538,20
+        row @173,293,538,20
+          text arm @173,293,26,20
+          link is_arm_feature_detected macro.is_arm_feature_detected.html @211,293,162,20
+        text : @173,325,538,21
+        row @173,358,538,20
+          text aarch64 @173,358,55,20
+          link is_aarch64_feature_detected macro.is_aarch64_feature_detected.html @240,358,192,20
+        text : @173,390,538,20
+        row @173,422,538,21
+          text riscv @173,422,32,21
+          link is_riscv_feature_detected macro.is_riscv_feature_detected.html @217,422,169,21
+        text : @173,455,538,20
+        row @173,487,538,20
+          text mips @173,487,32,20
+          link is_mips_feature_detected macro.is_mips_feature_detected.html @217,487,168,20
+        text : @173,519,538,20
+        row @173,551,538,21
+          text mips64 @173,551,50,21
+          link is_mips64_feature_detected macro.is_mips64_feature_detected.html @235,551,186,21
+        text : @173,584,538,20
+        row @173,616,538,20
+          text powerpc @173,616,59,20
+          link is_powerpc_feature_detected macro.is_powerpc_feature_detected.html @244,616,195,20
+        text : @173,648,538,21
+        row @173,681,538,20
+          text powerpc64 @173,681,77,20
+          link is_powerpc64_feature_detected macro.is_powerpc64_feature_detected.html @262,681,213,20
+        text : @173,713,538,20
+        row @173,745,538,21
+          text loongarch @173,745,67,21
+          link is_loongarch_feature_detected macro.is_loongarch_feature_detected.html @252,745,203,21
+        text : @173,778,538,20
+        row @173,810,538,20
+          text s390x @173,810,42,20
+          link is_s390x_feature_detected macro.is_s390x_feature_detected.html @227,810,178,20
+    h2 Macros§ @74,842,637,21
+    row @74,875,637,203
+      row @74,967,14,20
+        link detect_feature macro.detect_feature.html @74,967,1,20
+        text Experimental @87,967,1,20
+      col @100,914,14,126
+        link is_aarch64_feature_detected macro.is_aarch64_feature_detected.html @100,914,14,20
+        text Experimental @100,946,14,21
+        text AArch64 or ARM64EC @100,979,14,61
+      text Check for the presence of a CPU feature at runtime. @126,875,25,203
+      col @163,934,11,85
+        link is_arm_feature_detected macro.is_arm_feature_detected.html @163,934,11,21
+        text Experimental @163,967,11,20
+        text ARM @163,999,11,20
+      text Check for the presence of a CPU feature at runtime. @186,875,25,203
+      col @223,914,15,126
+        link is_loongarch_feature_detected macro.is_loongarch_feature_detected.html @223,914,15,20
+        text Experimental @223,946,15,21
+        text LoongArch32 or LoongArch64 @223,979,15,61
+      text Check for the presence of a CPU feature at runtime. @250,875,25,203
+      col @287,934,13,85
+        link is_mips64_feature_detected macro.is_mips64_feature_detected.html @287,934,13,21
+        text Experimental @287,967,13,20
+        text MIPS-64 @287,999,13,20
+      text Check for the presence of a CPU feature at runtime. @312,875,25,203
+      col @349,934,12,85
+        link is_mips_feature_detected macro.is_mips_feature_detected.html @349,934,12,21
+        text Experimental @349,967,12,20
+        text MIPS @349,999,12,20
+      text Check for the presence of a CPU feature at runtime. @373,875,25,203
+      col @410,934,16,85
+        link is_powerpc64_feature_detected macro.is_powerpc64_feature_detected.html @410,934,16,21
+        text Experimental @410,967,16,20
+        text PowerPC64 @410,999,16,20
+      text Check for the presence of a CPU feature at runtime. @438,875,24,203
+      col @474,934,15,85
+        link is_powerpc_feature_detected macro.is_powerpc_feature_detected.html @474,934,15,21
+        text Experimental @474,967,15,20
+        text PowerPC @474,999,15,20
+      text Check for the presence of a CPU feature at runtime. @501,875,24,203
+      col @537,894,15,166
+        link is_riscv_feature_detected macro.is_riscv_feature_detected.html @537,894,15,20
+        text Experimental @537,926,15,20
+        text RISC-V RV32 or RISC-V RV64 @537,958,15,102
+      text Check for the presence of a CPU feature at runtime. @564,875,25,203
+      col @601,934,12,85
+        link is_s390x_feature_detected macro.is_s390x_feature_detected.html @601,934,12,21
+        text Experimental @601,967,12,20
+        text s390x @601,999,12,20
+      text Check for the presence of a CPU feature at runtime. @625,875,25,203
+      col @662,914,12,126
+        link is_x86_feature_detected macro.is_x86_feature_detected.html @662,914,12,20
+        text Experimental @662,946,12,21
+        text x86 or x86-64 @662,979,12,61
+      text Check for the presence of a CPU feature at runtime. @686,875,25,203
+!overflow summary 91/93px

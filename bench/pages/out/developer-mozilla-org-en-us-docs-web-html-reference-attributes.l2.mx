@@ -1,0 +1,76 @@
+@developer_mozilla_org_en_us_docs_web_htm rev=0 @0,0,728,1708
+row @17,17,694,1674
+  col @17,777,25,154
+    link "Skip to main content" #content @17,777,25,81
+    link "Skip to search" #mdn-search @17,870,25,61
+  region 1280x91 @54,846,239,16 [1 shapes, 0 labelled]
+  col @305,828,46,52
+    link MDN /en-US/ @305,828,46,20
+    row @305,860,46,20
+      link Web /en-US/docs/Web @305,860,2,20
+      link HTML /en-US/docs/Web/HTML @319,860,2,20
+      link Reference /en-US/docs/Web/HTML/Reference @333,860,3,20
+      link Attributes /en-US/docs/Web/HTML/Reference/Attributes @348,860,3,20
+  col @363,17,40,1674
+    link HTML /en-US/docs/Web/HTML @363,17,40,20
+    link Guides /en-US/docs/Web/HTML/Guides @363,49,40,21
+    link "How to" /en-US/docs/Web/HTML/How_to @363,82,40,40
+    link "Define terms with HTML" /en-US/docs/Web/HTML/How_to/Define_terms_with_HTML @363,134,40,81
+    link "Use data attributes" /en-US/docs/Web/HTML/How_to/Use_data_attributes @363,227,40,61
+    link "Use cross-origin images" /en-US/docs/Web/HTML/How_to/CORS_enabled_image @363,300,40,61
+    link "Add a hitmap on top of an image" /en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image @363,373,40,122
+    link "Author fast-loading HTML pages" /en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages @363,507,40,81
+    link "Add JavaScript" /en-US/docs/Web/HTML/How_to/Add_JavaScript_to_your_web_page @363,600,40,41
+    link Reference /en-US/docs/Web/HTML/Reference @363,653,40,20
+    link Elements /en-US/docs/Web/HTML/Reference/Elements @363,685,40,20
+    link Attributes /en-US/docs/Web/HTML/Reference/Attributes @363,717,40,21
+    link accept /en-US/docs/Web/HTML/Reference/Attributes/accept @363,750,40,20
+    link autocomplete /en-US/docs/Web/HTML/Reference/Attributes/autocomplete @363,782,40,20
+    link capture /en-US/docs/Web/HTML/Reference/Attributes/capture @363,814,40,21
+    link content /en-US/docs/Web/HTML/Reference/Attributes/content @363,847,40,20
+    link crossorigin /en-US/docs/Web/HTML/Reference/Attributes/crossorigin @363,879,40,20
+    link dirname /en-US/docs/Web/HTML/Reference/Attributes/dirname @363,911,40,20
+    link disabled /en-US/docs/Web/HTML/Reference/Attributes/disabled @363,943,40,21
+    link elementtiming /en-US/docs/Web/HTML/Reference/Attributes/elementtiming @363,976,40,20
+    link fetchpriority /en-US/docs/Web/HTML/Reference/Attributes/fetchpriority @363,1008,40,20
+    link for /en-US/docs/Web/HTML/Reference/Attributes/for @363,1040,40,21
+    link form /en-US/docs/Web/HTML/Reference/Attributes/form @363,1073,40,20
+    link integrity /en-US/docs/Web/HTML/Reference/Attributes/integrity @363,1105,40,20
+    link max /en-US/docs/Web/HTML/Reference/Attributes/max @363,1137,40,21
+    link maxlength /en-US/docs/Web/HTML/Reference/Attributes/maxlength @363,1170,40,20
+    link min /en-US/docs/Web/HTML/Reference/Attributes/min @363,1202,40,20
+    link minlength /en-US/docs/Web/HTML/Reference/Attributes/minlength @363,1234,40,21
+    link multiple /en-US/docs/Web/HTML/Reference/Attributes/multiple @363,1267,40,20
+    link pattern /en-US/docs/Web/HTML/Reference/Attributes/pattern @363,1299,40,20
+    link placeholder /en-US/docs/Web/HTML/Reference/Attributes/placeholder @363,1331,40,20
+    link readonly /en-US/docs/Web/HTML/Reference/Attributes/readonly @363,1363,40,21
+    link rel /en-US/docs/Web/HTML/Reference/Attributes/rel @363,1396,40,20
+    link required /en-US/docs/Web/HTML/Reference/Attributes/required @363,1428,40,20
+    link size /en-US/docs/Web/HTML/Reference/Attributes/size @363,1460,40,21
+    link step /en-US/docs/Web/HTML/Reference/Attributes/step @363,1493,40,20
+    link "Global attributes" /en-US/docs/Web/HTML/Reference/Global_attributes @363,1525,40,41
+    text Attributes by element @363,1578,40,60
+    text Attribute values @363,1650,40,41
+  col @415,716,296,276
+    row @415,716,296,102
+      row @415,716,72,102
+        link "MDN logo" / @415,746,13,41
+        text Your blueprint for a better internet. @440,716,47,102
+      row @499,726,135,81
+        link "MDN on GitHub" https://github.com/mdn/ @499,736,16,61
+        link "MDN on Bluesky" https://bsky.app/profile/developer.mozilla.org @527,736,18,61
+        link "MDN on X" https://x.com/mozdevnet @557,736,11,61
+        link "MDN on Mastodon" https://mastodon.social/@mdn @580,736,20,61
+        link "MDN blog RSS feed" /en-US/blog/rss.xml @612,726,22,81
+      text MDN @646,757,7,20
+      text Contribute @665,757,16,20
+      text Developers @693,757,18,20
+    row @415,830,296,162
+      link "Mozilla logo" https://www.mozilla.org/ @415,890,13,41
+      row @440,880,99,61
+        link "Website Privacy Notice" https://www.mozilla.org/privacy/websites/ @440,880,18,61
+        link "Telemetry Settings" https://www.mozilla.org/en-US/privacy/websites/data-preferences/ @470,890,14,41
+        link Legal https://www.mozilla.org/about/legal/terms/mozilla @496,901,4,20
+        link "Community Participation Guidelines" https://www.mozilla.org/about/governance/policies/participation/ @512,880,27,61
+      text Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under . @551,830,116,162
+      link "a Creative Commons license" /docs/MDN/Writing_guidelines/Attrib_copyright_license @679,870,32,81

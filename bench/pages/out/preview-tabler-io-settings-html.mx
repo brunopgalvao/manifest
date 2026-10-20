@@ -75,6 +75,7 @@ row
     link "Source code" https://github.com/tabler/tabler
     link Sponsor https://github.com/sponsors/codecalm
   row
+    text Copyright © 2026 . All rights reserved.
     link Tabler .
     link v1.6.1 ./changelog.html
 button Customize primary

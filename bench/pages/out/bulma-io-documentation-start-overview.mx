@@ -1,0 +1,187 @@
+@bulma_io_documentation_start_overview
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/
+row
+  link "https://bulma.io/" https://bulma.io/
+  row
+    link "Docs Documentation" https://bulma.io/documentation/
+    link Expo https://bulma.io/expo/
+    link Love https://bulma.io/love/
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/
+    row
+      link "Open Source on GitHub" https://github.com/jgthms/bulma
+      link "Follow me on Twitter" https://twitter.com/jgthms
+      button button
+      col
+        link "Made with Bulma" https://bulma.io/made-with-bulma/
+        link Backers https://bulma.io/backers/
+        link "Bulma Brand" https://bulma.io/brand/
+        link "Bulma Extensions" https://bulma.io/extensions/
+  col
+    button button
+    card
+      button "Light mode"
+      button "Dark mode"
+      button "System mode" success
+  col
+    button button
+    card
+      field "search input"
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip
+row
+  col
+    h3 Start Here
+    link Overview https://bulma.io/documentation/start/overview/
+    link Installation https://bulma.io/documentation/start/installation/
+    link "Alternative Versions" https://bulma.io/documentation/start/alternative-versions/
+    link Syntax https://bulma.io/documentation/start/syntax/
+    link Modularity https://bulma.io/documentation/start/modular/
+    link Responsiveness https://bulma.io/documentation/start/responsiveness/
+    link "Migrating to v1" https://bulma.io/documentation/start/migrating-to-v1/
+    h3 Features
+    link "CSS Variables" https://bulma.io/documentation/features/css-variables/
+    link Themes https://bulma.io/documentation/features/themes/
+    link "Dark Mode" https://bulma.io/documentation/features/dark-mode/
+    link "Color Palettes" https://bulma.io/documentation/features/color-palettes/
+    link Skeletons https://bulma.io/documentation/features/skeletons/
+    h3 Sass Tools
+    link Mixins https://bulma.io/documentation/sass/mixins/
+    link "Responsive mixins" https://bulma.io/documentation/sass/responsive-mixins/
+    link "Form Control mixins" https://bulma.io/documentation/sass/form-control-mixins/
+    link Extends https://bulma.io/documentation/sass/extends/
+    h3 Customization
+    link Concepts https://bulma.io/documentation/customize/concepts/
+    link "With Sass" https://bulma.io/documentation/customize/with-sass/
+    link "With Modular Sass" https://bulma.io/documentation/customize/with-modular-sass/
+    link "With CSS Variables" https://bulma.io/documentation/customize/with-css-variables/
+    link "List of Sass variables" https://bulma.io/documentation/customize/list-of-sass-variables/
+    h3 CSS Library
+    link Elements https://bulma.io/documentation/elements/
+    link Block https://bulma.io/documentation/elements/block/
+    link Box https://bulma.io/documentation/elements/box/
+    link Button https://bulma.io/documentation/elements/button/
+    link Content https://bulma.io/documentation/elements/content/
+    link Delete https://bulma.io/documentation/elements/delete/
+    link Icon https://bulma.io/documentation/elements/icon/
+    link Image https://bulma.io/documentation/elements/image/
+    link Notification https://bulma.io/documentation/elements/notification/
+    link "Progress bars" https://bulma.io/documentation/elements/progress/
+    link Table https://bulma.io/documentation/elements/table/
+    link Tag https://bulma.io/documentation/elements/tag/
+    link Title https://bulma.io/documentation/elements/title/
+    link Components https://bulma.io/documentation/components/
+    link Breadcrumb https://bulma.io/documentation/components/breadcrumb/
+    link Card https://bulma.io/documentation/components/card/
+    link Dropdown https://bulma.io/documentation/components/dropdown/
+    link Menu https://bulma.io/documentation/components/menu/
+    link Message https://bulma.io/documentation/components/message/
+    link Modal https://bulma.io/documentation/components/modal/
+    link Navbar https://bulma.io/documentation/components/navbar/
+    link Pagination https://bulma.io/documentation/components/pagination/
+    link Panel https://bulma.io/documentation/components/panel/
+    link Tabs https://bulma.io/documentation/components/tabs/
+    link Form https://bulma.io/documentation/form/
+    link General https://bulma.io/documentation/form/general/
+    link Input https://bulma.io/documentation/form/input/
+    link Textarea https://bulma.io/documentation/form/textarea/
+    link Select https://bulma.io/documentation/form/select/
+    link Checkbox https://bulma.io/documentation/form/checkbox/
+    link Radio https://bulma.io/documentation/form/radio/
+    link File https://bulma.io/documentation/form/file/
+    link Columns https://bulma.io/documentation/columns/
+    link Basics https://bulma.io/documentation/columns/basics/
+    link Sizes https://bulma.io/documentation/columns/sizes/
+    link Responsiveness https://bulma.io/documentation/columns/responsiveness/
+    link Nesting https://bulma.io/documentation/columns/nesting/
+    link Gap https://bulma.io/documentation/columns/gap/
+    link Options https://bulma.io/documentation/columns/options/
+    link Grid https://bulma.io/documentation/grid/
+    link "Smart Grid" https://bulma.io/documentation/grid/smart-grid/
+    link "Fixed Grid" https://bulma.io/documentation/grid/fixed-grid/
+    link "Grid Cells" https://bulma.io/documentation/grid/grid-cells/
+    link Playground https://bulma.io/documentation/grid/playground/
+    link Layout https://bulma.io/documentation/layout/
+    link Container https://bulma.io/documentation/layout/container/
+    link Hero https://bulma.io/documentation/layout/hero/
+    link Section https://bulma.io/documentation/layout/section/
+    link Level https://bulma.io/documentation/layout/level/
+    link "Media Object" https://bulma.io/documentation/layout/media-object/
+    link Footer https://bulma.io/documentation/layout/footer/
+    h3 CSS Helpers
+    link Color https://bulma.io/documentation/helpers/color-helpers/
+    link "Color Palette" https://bulma.io/documentation/helpers/palette-helpers/
+    link Spacing https://bulma.io/documentation/helpers/spacing-helpers/
+    link Typography https://bulma.io/documentation/helpers/typography-helpers/
+    link Visibility https://bulma.io/documentation/helpers/visibility-helpers/
+    link Flexbox https://bulma.io/documentation/helpers/flexbox-helpers/
+    link Other https://bulma.io/documentation/helpers/other-helpers/
+    text Sponsor
+    link "https://www.route4me.com/" https://www.route4me.com/
+  col
+    row
+      col
+        h1 Overview of Bulma
+        h2 You only need 1 CSS file to use Bulma
+      col
+        card
+          link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYIP5QKCKBI62QLCTYIC2JMC6SDVKQ7FTSD6Z3JCAAI623UCVBDTK3K2JWNABY" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYIP5QKCKBI62QLCTYIC2JMC6SDVKQ7FTSD6Z3JCAAI623UCVBDTK3K2JWNABY
+          link "Your side project deserves Lambda, not localhost. Start building" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYIP5QKCKBI62QLCTYIC2JMC6SDVKQ7FTSD6Z3JCAAI623UCVBDTK3K2JWNABY
+        link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+    text Bulma is a CSS library. This means it provides CSS classes to help you style your HTML code.
+    text To use Bulma, you can either:
+    text use one of the pre-compiled .css files
+    text or install the .scss files so you can customize Bulma to your needs
+    h3 "Code requirements #"
+    text For Bulma to work correctly, you need to make your webpage responsive.
+    row
+      text 1
+      col
+        text Use the HTML5 doctype
+        card
+          text <!DOCTYPE html>
+          button Copy danger
+    row
+      text 2
+      col
+        text Add the responsive viewport meta tag
+        card
+          text "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+          button Copy danger
+    h3 "Starter template #"
+    text If you want to get started right away, you can use this HTML starter template. Just copy/paste this code in a file and save it on your computer.
+    card
+      text "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Hello Bulma!</title> <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css\"> </head> <body> <section class=\"section\"> <div class=\"container\"> <h1 class=\"title\"> Hello World </h1> <p class=\"subtitle\"> My first website with <strong>Bulma</strong>! </p> </div> </section> </body> </html>"
+      button Copy danger
+    row
+      link "← helpers: Other" https://bulma.io/documentation/helpers/other-helpers/
+      link "start: Installation →" https://bulma.io/documentation/start/installation/
+h3 How to support Bulma
+row
+  col
+    text One-time donation
+    field submit
+  col
+    text Browser testing via
+    link "https://www.lambdatest.com/" https://www.lambdatest.com/
+  col
+    text Visit our Sponsors
+    link celebian https://celebian.com/
+  col
+    text Monthly donation
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
+link ".native-js { background: linear-gradient(-30deg, #f5f8fbE5, #f5f8fbE5 45%, #f5f8fb 45%) #fff; } .native-details { color: #181f25 !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #FFF; background-color: #3966d5; } .native-cta:hover { color: undefined; background-color: undefined; } BugHerd Deliver website design projects faster with BugHerd. Get 20% off your first 3 months. Try Now" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITK3YCE7IEZ3JCAAI627ICE7ITK7KF6BDE53NCA7D5K3NCT7IK2QUCTBDP27KC6SILKJWCA7DVK3EHJNCLSIZ
+row
+  col
+    h3 Bulma by Jeremy Thomas.
+    link "Follow @jgthms" https://twitter.com/jgthms
+  col
+    h3 Contribute on GitHub
+  col
+    h3 Share on social media
+    row
+      link Twitter https://twitter.com/share
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+text Source code licensed . Website content licensed
+row
+  link MIT https://opensource.org/licenses/mit-license.php
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer

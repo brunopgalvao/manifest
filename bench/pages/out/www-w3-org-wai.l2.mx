@@ -1,0 +1,156 @@
+@www_w3_org_wai rev=0 @0,0,728,3713
+row @17,17,694,20
+  link "Skip to Content" #main @17,17,102,20
+  link "Change Text Size or Colors" /WAI/meta/customize/ @131,17,182,20
+  link "All Translations" /WAI/translations/ @325,17,102,20
+row @17,49,694,61
+  row @17,49,485,61
+    link "W3C homepage" https://www.w3.org/ @17,59,51,41
+    link "Web Accessibility Initiative (WAI) homepage" /WAI/ @80,49,138,61
+    text Strategies, standards, resources to make the Web accessible to people with disabilities @230,49,272,61
+  row @514,49,197,61
+    link "Get Involved" /WAI/about/participating/ @514,59,38,41
+    link "About W3C WAI" /WAI/about/ @564,49,49,61
+    row @625,51,86,58
+      field Search search @625,51,9,58
+      text Search: @646,70,12,20
+      button button @670,62,41,36
+row @17,122,694,41
+  link "Accessibility Fundamentals" /WAI/fundamentals/ @17,122,145,41
+  link "Planning & Policies" /WAI/planning/ @174,122,100,41
+  link "Design & Develop" /WAI/design-develop/ @286,122,95,41
+  link "Test & Evaluate" /WAI/test-evaluate/ @393,122,82,41
+  link "Teach & Advocate" /WAI/teach-advocate/ @487,122,98,41
+  link Standards/Guidelines /WAI/standards-guidelines/ @597,132,114,21
+h1 W3C Web Accessibility Initiative Home @17,175,694,25
+row @17,212,694,196
+  col @17,212,143,196
+    h2 Making the Web Accessible @17,212,143,42
+    text Strategies, standards, and supporting resources to help you make the Web more accessible to people with disabilities. @17,266,143,142
+  row @172,224,481,173
+    col @172,224,136,173
+      h3 W3C @172,224,136,18
+      text The World Wide Web Consortium (W3C) develops international standards for the Web: HTML, CSS, and many more. @172,254,136,143
+    col @320,224,160,173
+      h3 WAI @320,224,160,18
+      text The W3C Web Accessibility Initiative (WAI) develops standards and support materials to help you understand and implement accessibility. @320,254,160,143
+    col @492,224,161,173
+      h3 You @492,224,161,18
+      text You can use W3C WAI resources to make your websites, applications, and other digital creations more accessible and usable to everyone. @492,254,161,143
+  button "Hide Section" @665,292,46,36
+row @17,420,694,2641
+  col @17,420,395,2641
+    h2 News @17,420,395,22
+    h3 Current Work @17,454,395,18
+    text (updated monthly) @17,484,395,21
+    text See @17,517,395,20
+    link "What We're Working On – Accessibility Activities and Publications" /WAI/update/ @17,549,395,41
+    h3 Crafting WCAG 3 for more accessible user experiences @17,602,395,37
+    text (2026-Sep-25) @17,651,395,20
+    text In the W3C blog post , W3C WAI Director covers some of the stakes and challenges in developing W3C Accessibility Guidelines (WCAG) 3. @17,683,395,61
+    link "Crafting WCAG 3 for more accessible user experiences" https://www.w3.org/blog/2026/crafting-wcag-3-for-more-accessible-user-experiences/ @17,756,395,21
+    link "Shawn Lawton Henry" https://www.w3.org/staff/#shawn @17,789,395,20
+    h3 WCAG 2.2 and 2.1 in French — Authorized translations updated @17,821,395,37
+    text (2026-Sep-22) @17,870,395,21
+    text The French authorized translations of Web Content Accessibility Guidelines () are updated: @17,903,395,40
+    link WCAG https://www.w3.org/WAI/standards-guidelines/wcag/ @17,955,395,21
+    text is now based on the 12 December 2024 publication of WCAG 2.2. @17,988,395,40
+    link "Règles pour l’accessibilité des contenus web (WCAG) 2.2" https://www.w3.org/Translations/WCAG22-fr/ @17,1040,395,21
+    text is now based on the 6 May 2025 publication of WCAG 2.1. @17,1073,395,20
+    link "Règles pour l’accessibilité des contenus web (WCAG) 2.1" https://www.w3.org/Translations/WCAG21-fr/ @17,1105,395,20
+    text These translations followed the . @17,1137,395,20
+    link "W3C authorized translations process" https://www.w3.org/2005/02/TranslationPolicy @17,1169,395,21
+    text Other translations of WAI resources are listed in . @17,1202,395,20
+    link "All WAI Translations" https://www.w3.org/WAI/translations/ @17,1234,395,20
+    text W3C WAI thanks all who contribute to translations, and encourages translations of W3C accessibility standards and resources in all languages. If you might be interested in translating resources, see . @17,1266,395,81
+    link "Translating WAI Resources" https://www.w3.org/WAI/about/translating/ @17,1359,395,21
+    h3 For Review: WCAG 3 Working Draft – September 2026 @17,1392,395,37
+    text (2026-Sep-10) @17,1441,395,21
+    text is updated. The starting place for background, timeline, and up-to-date information is the . For a list of changes in the September 2026 draft and review questions on the conformance model, see . @17,1474,395,81
+    link "W3C Accessibility Guidelines (WCAG) 3.0 Working Draft" https://www.w3.org/TR/wcag-3.0/ @17,1567,395,20
+    link "WCAG 3 Introduction" /WAI/standards-guidelines/wcag/wcag3-intro/ @17,1599,395,20
+    link "Status: In-progress drafts" /WAI/standards-guidelines/wcag/wcag3-intro/#status-in-progress-drafts @17,1631,395,21
+    h3 WCAG Evaluation Methodology (WCAG-EM) 2.0 — Note Published @17,1664,395,37
+    text (2026-Jul-23) @17,1713,395,21
+    text is published as a W3C Group Note. WCAG-EM describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Content Accessibility Guidelines (WCAG) 2. WCAG-EM 1 was specifically for testing websites and web pages. WCAG-EM 2 also applies to apps and other digital products. For an introduction to WCAG-EM, see . @17,1746,395,142
+    link "WCAG Evaluation Methodology (WCAG-EM) 2.0" https://www.w3.org/TR/wcag-em-2/ @17,1900,395,20
+    link "WCAG-EM Overview" /WAI/test-evaluate/conformance/wcag-em/ @17,1932,395,20
+    h3 For Review: WCAG 3 Working Draft – March 2026 @17,1964,395,19
+    text (2026-Mar-03) @17,1995,395,20
+    text is updated. The starting place for background, timeline, and up-to-date information is the . For a list of changes in the March 2026 draft, see . @17,2027,395,61
+    link "W3C Accessibility Guidelines (WCAG) 3.0 Working Draft" https://www.w3.org/TR/wcag-3.0/ @17,2100,395,20
+    link "WCAG 3 Introduction" /WAI/standards-guidelines/wcag/wcag3-intro/ @17,2132,395,21
+    link "Status: In-progress drafts" /WAI/standards-guidelines/wcag/wcag3-intro/#status-in-progress-drafts @17,2165,395,20
+    h3 For Review: W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0 — First Draft Note @17,2197,395,38
+    text (2026-Feb-05) @17,2247,395,20
+    text is available as a first Draft Note. WCAG-EM describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Content Accessibility Guidelines (WCAG) 2. WCAG-EM 1 is specifically for testing websites and web pages. WCAG-EM 2 also applies to apps and other digital products. For an introduction to WCAG-EM and more information about the WCAG-EM 2 draft, see . @17,2279,395,162
+    link "W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0" https://www.w3.org/TR/wcag-em-2/ @17,2453,395,41
+    link "WCAG-EM Overview" https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/ @17,2506,395,20
+    h3 For Review: Cognitive Accessibility Research Modules — First Draft Notes @17,2538,395,38
+    text (2026-Feb-05) @17,2588,395,20
+    text are available as first Draft Notes. The documents cover research on accessibility for people with cognitive and learning disabilities for , , , and . They address user needs, accessibility issues, directions for solutions, and areas for further research. We particularly seek input on what might be appropriate to add to these documents, including other relevant research, additional user needs, and the connection between research and priorities for new work in W3C groups. Information on related work is in . @17,2620,395,183
+    link "Cognitive Accessibility Research Modules" https://www.w3.org/TR/coga-research-modules/ @17,2815,395,20
+    link "Voice Systems and Conversational Interfaces" https://www.w3.org/TR/coga-voice/ @17,2847,395,20
+    link "Technology Assisted Indoor Navigation / Wayfinding" https://www.w3.org/TR/coga-wayfinding/ @17,2879,395,21
+    link "Online Safety and Wellbeing (Algorithms and Data)" https://www.w3.org/TR/coga-safety/ @17,2912,395,20
+    link "Supported Decision-Making Online" https://www.w3.org/TR/coga-sdm/ @17,2944,395,20
+    link "Cognitive Accessibility at W3C" https://www.w3.org/WAI/cognitive/ @17,2976,395,20
+    link "See All News" /WAI/news/ @17,3008,395,21
+    link "Subscribe to WAI News" /WAI/news/subscribe/ @17,3041,395,20
+  col @424,1190,287,1101
+    h2 See what we have for you: Get Resources for… @424,1190,287,43
+    link "Getting Started" /WAI/roles/new/ @424,1245,287,20
+    link "Content Writers" /WAI/roles/writers/ @424,1277,287,20
+    link Designers /WAI/roles/designers/ @424,1309,287,21
+    link Developers /WAI/roles/developers/ @424,1342,287,20
+    link "Evaluators, Testers" /WAI/roles/testers/ @424,1374,287,20
+    link Managers /WAI/roles/managers/ @424,1406,287,21
+    link "Policy Makers" /WAI/roles/policy-makers/ @424,1439,287,20
+    link "Trainers, Educators" /WAI/roles/trainers/ @424,1471,287,20
+    link "Web Users, People with Disabilities, Advocates" /WAI/roles/users/ @424,1503,287,41
+    link "Everyone (All WAI Resources)" /WAI/resources/ @424,1556,287,20
+    link "Other Languages" /WAI/translations/ @424,1588,287,20
+    link "Training Course: Digital Accessibility Foundations The free \"Introduction to Web Accessibility\" online course provides the foundation you need to make your digital technology accessible. It's designed for: technical and non-technical learners developers, designers, ux, writers, managers, advocates professionals, instructors, students About the Free Online Course" https://www.w3.org/WAI/fundamentals/foundations-course/ @424,1620,287,203
+    h2 Web Accessibility Perspectives: Video Captions @424,1835,287,43
+    text Captions are the audio information in text that is synchronized with the audio and visual content. Captions are called "subtitles" in some regions. @424,1890,287,81
+    text Video Captions are essential for people with disabilities and benefit everyone in a variety of situations. @424,1983,287,61
+    row @424,2056,287,41
+      link "More About Video Captions" /WAI/perspective-videos/captions/ @424,2056,137,41
+      link "See All Perspectives Videos" /WAI/perspective-videos/ @573,2056,138,41
+    link "Featured Resource: Making Audio and Video Media Accessible This media resource helps you understand and create captions/subtitles, audio description of visual information, descriptive transcripts, and sign language for media. It introduces user experiences and benefits to organizations. Making Audio and Video Media Accessible" /WAI/media/av/ @424,2109,287,182
+h2 Sponsors and Funders @17,3073,694,21
+text WAI is supported in part by the following organizations. Thank you! @17,3106,694,21
+text , @17,3139,694,20
+row @17,3171,694,20
+  link "Ford Foundation" https://www.fordfoundation.org/ @17,3171,109,20
+  link "Technology and Society Program" https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/ @138,3171,221,20
+text WAI welcomes donations, sponsors, grants and other . @17,3203,694,21
+link "financial support" /WAI/about/support/ @17,3236,694,20
+link "Back to Top" #top @17,3268,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,3300,694,20
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,3332,694,21
+row @17,3365,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,3365,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,3365,57,20
+  link Mastodon https://w3c.social/@wai @218,3365,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,3365,61,20
+row @17,3397,694,41
+  link Home /WAI/ @17,3407,37,20
+  link Contact /WAI/about/contacting/ @66,3407,48,20
+  link "Site map" /WAI/sitemap/ @126,3397,54,41
+  link "Support WAI" /WAI/about/support/ @192,3397,78,41
+  link News /WAI/news/ @282,3407,36,20
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,3397,142,41
+  link "All Translations" /WAI/translations/ @484,3397,94,41
+  link "Resources for roles" /WAI/roles/ @590,3397,121,41
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,3450,694,20
+link "World Wide Web Consortium" https://www.w3.org/ @17,3482,694,20
+text W3C @17,3514,694,21
+text ® @17,3547,694,20
+link liability https://www.w3.org/policies/#disclaimers @17,3579,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,3611,694,20
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,3643,694,21
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,3676,694,20
+!overflow button 39/73px
+!overflow hide 44/114px
+!tiny search 22x37px

@@ -1,0 +1,296 @@
+@getbootstrap_com_docs_5_3_getting_starte rev=0 @0,0,728,5624
+row @17,17,694,20
+  link "Skip to main content" #content @17,17,136,20
+  link "Skip to docs navigation" #bd-docs-nav @165,17,155,20
+row @17,49,694,82
+  link Bootstrap / @17,80,35,20
+  row @64,49,647,82
+    row @64,80,108,20
+      link Docs /docs/5.3/getting-started/introduction/ @64,80,15,20
+      link Examples /docs/5.3/examples/ @91,80,28,20
+      link Icons https://icons.getbootstrap.com/ @131,80,16,20
+      link Blog https://blog.getbootstrap.com/ @159,80,13,20
+    row @184,49,527,82
+      link "GitHub GitHub" https://github.com/twbs @184,70,44,40
+      link "X X" https://x.com/getbootstrap @240,70,12,40
+      link "Open Collective Open Collective" https://opencollective.com/bootstrap @264,49,100,82
+      region 17x40 @376,81,8,18 [1 shapes, 0 labelled]
+      button "BootstrapBootstrap v5.3 (switch to other versions)" @396,72,189,36
+      region 17x40 @597,81,8,18 [1 shapes, 0 labelled]
+      button "Toggle theme (light)" @617,72,94,36
+row @17,143,694,5141
+  col @17,572,18,4283
+    text Getting started @17,572,18,40
+    link Introduction /docs/5.3/getting-started/introduction @17,624,18,21
+    link Download /docs/5.3/getting-started/download @17,657,18,20
+    link Contents /docs/5.3/getting-started/contents @17,689,18,20
+    link "Browsers & devices" /docs/5.3/getting-started/browsers-devices @17,721,18,61
+    link JavaScript /docs/5.3/getting-started/javascript @17,794,18,21
+    link Webpack /docs/5.3/getting-started/webpack @17,827,18,20
+    link Parcel /docs/5.3/getting-started/parcel @17,859,18,20
+    link Vite /docs/5.3/getting-started/vite @17,891,18,20
+    link Accessibility /docs/5.3/getting-started/accessibility @17,923,18,21
+    link RFS /docs/5.3/getting-started/rfs @17,956,18,20
+    link RTL /docs/5.3/getting-started/rtl @17,988,18,20
+    link Contribute /docs/5.3/getting-started/contribute @17,1020,18,21
+    text Customize @17,1053,18,20
+    link Overview /docs/5.3/customize/overview @17,1085,18,20
+    link Sass /docs/5.3/customize/sass @17,1117,18,21
+    link Options /docs/5.3/customize/options @17,1150,18,20
+    link Color /docs/5.3/customize/color @17,1182,18,20
+    link "Color modes" /docs/5.3/customize/color-modes @17,1214,18,41
+    link Components /docs/5.3/customize/components @17,1267,18,20
+    link "CSS variables" /docs/5.3/customize/css-variables @17,1299,18,41
+    link Optimize /docs/5.3/customize/optimize @17,1352,18,20
+    text Layout @17,1384,18,20
+    link Breakpoints /docs/5.3/layout/breakpoints @17,1416,18,21
+    link Containers /docs/5.3/layout/containers @17,1449,18,20
+    link Grid /docs/5.3/layout/grid @17,1481,18,20
+    link Columns /docs/5.3/layout/columns @17,1513,18,20
+    link Gutters /docs/5.3/layout/gutters @17,1545,18,21
+    link Utilities /docs/5.3/layout/utilities @17,1578,18,20
+    link Z-index /docs/5.3/layout/z-index @17,1610,18,20
+    link "CSS Grid" /docs/5.3/layout/css-grid @17,1642,18,41
+    text Content @17,1695,18,20
+    link Reboot /docs/5.3/content/reboot @17,1727,18,21
+    link Typography /docs/5.3/content/typography @17,1760,18,20
+    link Images /docs/5.3/content/images @17,1792,18,20
+    link Tables /docs/5.3/content/tables @17,1824,18,20
+    link Figures /docs/5.3/content/figures @17,1856,18,21
+    text Forms @17,1889,18,20
+    link Overview /docs/5.3/forms/overview @17,1921,18,20
+    link "Form control" /docs/5.3/forms/form-control @17,1953,18,41
+    link Select /docs/5.3/forms/select @17,2006,18,20
+    link "Checks & radios" /docs/5.3/forms/checks-radios @17,2038,18,61
+    link Range /docs/5.3/forms/range @17,2111,18,20
+    link "Input group" /docs/5.3/forms/input-group @17,2143,18,41
+    link "Floating labels" /docs/5.3/forms/floating-labels @17,2196,18,41
+    link Layout /docs/5.3/forms/layout @17,2249,18,20
+    link Validation /docs/5.3/forms/validation @17,2281,18,20
+    text Components @17,2313,18,21
+    link Accordion /docs/5.3/components/accordion @17,2346,18,20
+    link Alerts /docs/5.3/components/alerts @17,2378,18,20
+    link Badge /docs/5.3/components/badge @17,2410,18,20
+    link Breadcrumb /docs/5.3/components/breadcrumb @17,2442,18,21
+    link Buttons /docs/5.3/components/buttons @17,2475,18,20
+    link "Button group" /docs/5.3/components/button-group @17,2507,18,41
+    link Card /docs/5.3/components/card @17,2560,18,20
+    link Carousel /docs/5.3/components/carousel @17,2592,18,20
+    link "Close button" /docs/5.3/components/close-button @17,2624,18,41
+    link Collapse /docs/5.3/components/collapse @17,2677,18,20
+    link Dropdowns /docs/5.3/components/dropdowns @17,2709,18,20
+    link "List group" /docs/5.3/components/list-group @17,2741,18,41
+    link Modal /docs/5.3/components/modal @17,2794,18,20
+    link Navbar /docs/5.3/components/navbar @17,2826,18,21
+    link "Navs & tabs" /docs/5.3/components/navs-tabs @17,2859,18,61
+    link Offcanvas /docs/5.3/components/offcanvas @17,2932,18,20
+    link Pagination /docs/5.3/components/pagination @17,2964,18,20
+    link Placeholders /docs/5.3/components/placeholders @17,2996,18,20
+    link Popovers /docs/5.3/components/popovers @17,3028,18,21
+    link Progress /docs/5.3/components/progress @17,3061,18,20
+    link Scrollspy /docs/5.3/components/scrollspy @17,3093,18,20
+    link Spinners /docs/5.3/components/spinners @17,3125,18,21
+    link Toasts /docs/5.3/components/toasts @17,3158,18,20
+    link Tooltips /docs/5.3/components/tooltips @17,3190,18,20
+    text Helpers @17,3222,18,21
+    link Clearfix /docs/5.3/helpers/clearfix @17,3255,18,20
+    link "Color & background" /docs/5.3/helpers/color-background @17,3287,18,61
+    link "Colored links" /docs/5.3/helpers/colored-links @17,3360,18,40
+    link "Focus ring" /docs/5.3/helpers/focus-ring @17,3412,18,41
+    link "Icon link" /docs/5.3/helpers/icon-link @17,3465,18,41
+    link Position /docs/5.3/helpers/position @17,3518,18,20
+    link Ratio /docs/5.3/helpers/ratio @17,3550,18,20
+    link Stacks /docs/5.3/helpers/stacks @17,3582,18,20
+    link "Stretched link" /docs/5.3/helpers/stretched-link @17,3614,18,41
+    link "Text truncation" /docs/5.3/helpers/text-truncation @17,3667,18,41
+    link "Vertical rule" /docs/5.3/helpers/vertical-rule @17,3720,18,40
+    link "Visually hidden" /docs/5.3/helpers/visually-hidden @17,3772,18,41
+    text Utilities @17,3825,18,20
+    link API /docs/5.3/utilities/api @17,3857,18,20
+    link Background /docs/5.3/utilities/background @17,3889,18,21
+    link Borders /docs/5.3/utilities/borders @17,3922,18,20
+    link Colors /docs/5.3/utilities/colors @17,3954,18,20
+    link Display /docs/5.3/utilities/display @17,3986,18,21
+    link Flex /docs/5.3/utilities/flex @17,4019,18,20
+    link Float /docs/5.3/utilities/float @17,4051,18,20
+    link Interactions /docs/5.3/utilities/interactions @17,4083,18,21
+    link Link /docs/5.3/utilities/link @17,4116,18,20
+    link "Object fit" /docs/5.3/utilities/object-fit @17,4148,18,40
+    link Opacity /docs/5.3/utilities/opacity @17,4200,18,21
+    link Overflow /docs/5.3/utilities/overflow @17,4233,18,20
+    link Position /docs/5.3/utilities/position @17,4265,18,20
+    link Shadows /docs/5.3/utilities/shadows @17,4297,18,21
+    link Sizing /docs/5.3/utilities/sizing @17,4330,18,20
+    link Spacing /docs/5.3/utilities/spacing @17,4362,18,20
+    link Text /docs/5.3/utilities/text @17,4394,18,21
+    link "Vertical align" /docs/5.3/utilities/vertical-align @17,4427,18,40
+    link Visibility /docs/5.3/utilities/visibility @17,4479,18,20
+    link Z-index /docs/5.3/utilities/z-index @17,4511,18,21
+    text Extend @17,4544,18,20
+    link Approach /docs/5.3/extend/approach @17,4576,18,20
+    link Icons /docs/5.3/extend/icons @17,4608,18,21
+    text About @17,4641,18,20
+    link Overview /docs/5.3/about/overview @17,4673,18,20
+    link Team /docs/5.3/about/team @17,4705,18,21
+    link Brand /docs/5.3/about/brand @17,4738,18,20
+    link License /docs/5.3/about/license @17,4770,18,20
+    link Translations /docs/5.3/about/translations @17,4802,18,20
+    link Migration /docs/5.3/migration/ @17,4834,18,21
+  row @47,143,664,5141
+    col @47,2578,95,270
+      row @47,2578,95,75
+        link "View on GitHub" https://github.com/twbs/bootstrap/blob/v5.3.8/site/src/content/docs/getting-started/vite.mdx @47,2586,30,60
+        h1 Bootstrap and Vite @89,2578,53,75
+      text The official guide for how to include and bundle Bootstrap’s CSS and JavaScript in your project using Vite. @47,2665,95,183
+    col @154,2529,173,369
+      text On this page @154,2529,173,20
+      link "What is Vite?" #what-is-vite @154,2561,173,20
+      link Setup #setup @154,2593,173,20
+      link "Project structure" #project-structure @154,2625,173,21
+      link "Configure Vite" #configure-vite @154,2658,173,20
+      link "Import Bootstrap" #import-bootstrap @154,2690,173,20
+      card @154,2722,173,144
+        link https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICEBDV2JKC6BD6K7LC6YIL2QJFT7IE23LCV7IK5QUHEYI55QLCESI623ECTNCYBZ52K https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICEBDV2JKC6BD6K7LC6YIL2QJFT7IE23LCV7IK5QUHEYI55QLCESI623ECTNCYBZ52K @171,2737,139,21
+        link "Afraid of a surprise AWS bill? Not on the new Free Plan. Start for free." https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICEBDV2JKC6BD6K7LC6YIL2QJFT7IE23LCV7IK5QUHEYI55QLCESI623ECTNCYBZ52K @171,2770,139,81
+      link "ads via Carbon" http://carbonads.net/?utm_source=getbootstrapcom&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @154,2878,173,20
+    col @339,143,372,5141
+      text Download the source code and working demo for this guide from the . You can also for live editing. primary @339,143,372,40
+      text Want to skip to the end? primary @339,195,372,20
+      link "twbs/examples repository" https://github.com/twbs/examples/tree/main/vite @339,227,372,21
+      link "open the example in StackBlitz" https://stackblitz.com/github/twbs/examples/tree/main/vite?file=index.html @339,260,372,20
+      h2 What is Vite? @339,292,372,21
+      text is a modern frontend build tool designed for speed and simplicity. It provides an efficient and streamlined development experience, especially for modern JavaScript frameworks. @339,325,372,81
+      link Vite https://vite.dev/ @339,418,372,21
+      h2 Setup @339,451,372,21
+      text We’re building a Vite project with Bootstrap from scratch, so there are some prerequisites and upfront steps before we can really get started. This guide requires you to have Node.js installed and some familiarity with the terminal. @339,484,372,102
+      text Create a project folder and set up npm. We'll create the my-project folder and initialize npm with the -y argument to avoid it asking us all the interactive questions. @339,598,372,81
+      card @339,691,372,149
+        button Copy @356,706,338,36
+        card @356,754,338,71
+          text mkdir my-project && cd my-project npm init -y @373,769,304,41
+      text Install Vite. Unlike our Webpack guide, there’s only a single build tool dependency here. We use --save-dev to signal that this dependency is only for development use and not for production. @339,852,372,81
+      card @339,945,372,128
+        button Copy @356,960,338,36
+        card @356,1008,338,50
+          text npm i --save-dev vite @373,1023,304,20
+      text Install Bootstrap. Now we can install Bootstrap. We'll also install Popper since our dropdowns, popovers, and tooltips depend on it for their positioning. If you don’t plan on using those components, you can omit Popper here. @339,1085,372,102
+      card @339,1199,372,129
+        button Copy @356,1214,338,36
+        card @356,1262,338,51
+          text npm i --save bootstrap @popperjs/core @373,1277,304,21
+      text Install additional dependency. In addition to Vite and Bootstrap, we need another dependency (Sass) to properly import and bundle Bootstrap’s CSS. @339,1340,372,60
+      card @339,1412,372,129
+        button Copy @356,1427,338,37
+        card @356,1476,338,50
+          text npm i --save-dev sass @373,1491,304,20
+      text Now that we have all the necessary dependencies installed and set up, we can get to work creating the project files and importing Bootstrap. @339,1553,372,61
+      h2 Project structure @339,1626,372,21
+      text We’ve already created the my-project folder and initialized npm. Now we'll also create our src folder, stylesheet, and JavaScript file to round out the project structure. Run the following from my-project, or manually create the folder and file structure shown below. @339,1659,372,122
+      card @339,1793,372,169
+        button Copy @356,1808,338,36
+        card @356,1856,338,91
+          text mkdir {src,src/js,src/scss} touch src/index.html src/js/main.js src/scss/styles.scss vite.config.js @373,1871,304,61
+      text When you’re done, your complete project should look like this: @339,1974,372,41
+      card @339,2027,372,189
+        button Copy @356,2042,338,36
+        card @356,2090,338,111
+          text my-project/ ├── src/ │ ├── js/ │ │ └── main.js │ └── scss/ │ | └── styles.scss | └── index.html ├── package-lock.json ├── package.json └── vite.config.js @373,2105,304,81
+      text At this point, everything is in the right place, but Vite won’t work because we haven’t filled in our vite.config.js yet. @339,2228,372,61
+      h2 Configure Vite @339,2301,372,21
+      text With dependencies installed and our project folder ready for us to start coding, we can now configure Vite and run our project locally. @339,2334,372,61
+      text Open vite.config.js in your editor. Since it’s blank, we'll need to add some boilerplate config to it so we can start our server. This part of the config tells Vite where to look for our project’s JavaScript and how the development server should behave (pulling from the src folder with hot reload). @339,2407,372,122
+      card @339,2541,372,271
+        button Copy @356,2556,338,36
+        card @356,2604,338,193
+          text import { resolve } from 'path' export default { root: resolve(__dirname, 'src'), build: { outDir: '../dist' }, server: { port: 8080 }, // Optional: Silence Sass deprecation warnings. See note below. css: { preprocessorOptions: { scss: { silenceDeprecations: [ 'import', 'mixed-decls', 'color-functions', 'global-builtin', ], }, }, }, } @373,2619,304,163
+      text Sass deprecation warnings are shown when compiling source Sass files with the latest versions of Dart Sass. This does not prevent compilation or usage of Bootstrap. We’re , but in the meantime these deprecation notices can be ignored. @339,2824,372,101
+      text Note: @339,2937,372,21
+      link "working on a long-term fix" https://github.com/twbs/bootstrap/issues/40962 @339,2970,372,20
+      text Next we fill in src/index.html. This is the HTML page Vite will load in the browser to utilize the bundled CSS and JS we'll add to it in later steps. @339,3002,372,61
+      card @339,3075,372,331
+        button Copy @356,3090,338,36
+        card @356,3138,338,253
+          text <!doctype html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Bootstrap w/ Vite</title> <script type="module" src="./js/main.js"></script> </head> <body> <div class="container py-4 px-3 mx-auto"> <h1>Hello, Bootstrap and Vite!</h1> <button class="btn btn-primary">Primary button</button> </div> </body> </html> @373,3153,304,223
+      text We’re including a little bit of Bootstrap styling here with the div class="container" and <button> so that we see when Bootstrap’s CSS is loaded by Vite. @339,3418,372,61
+      text Now we need an npm script to run Vite. Open package.json and add the start script shown below (you should already have the test script). We'll use this script to start our local Vite dev server. @339,3491,372,81
+      card @339,3584,372,149
+        button Copy @356,3599,338,37
+        card @356,3648,338,70
+          text { // ... "scripts": { "start": "vite", "test": "echo \"Error: no test specified\" && exit 1" }, // ... } @373,3663,304,40
+      text And finally, we can start Vite. From the my-project folder in your terminal, run that newly added npm script: @339,3745,372,41
+      card @339,3798,372,129
+        button Copy @356,3813,338,36
+        card @356,3861,338,51
+          text npm start @373,3876,304,21
+      image https://getbootstrap.com/docs/5.3/assets/img/guides/vite-dev-server.png "Vite dev server running" @339,3939,0,0
+      text In the next and final section to this guide, we’ll import all of Bootstrap’s CSS and JavaScript. @339,3951,372,40
+      h2 Import Bootstrap @339,4003,372,21
+      text Import Bootstrap’s CSS. Add the following to src/scss/styles.scss to import all of Bootstrap’s source Sass. @339,4036,372,61
+      card @339,4109,372,149
+        button Copy @356,4124,338,37
+        card @356,4173,338,70
+          text // Import all of Bootstrap’s CSS @import "bootstrap/scss/bootstrap"; @373,4188,304,40
+      text You can also import our stylesheets individually if you want. for details. @339,4270,372,41
+      link "Read our Sass import docs" /docs/5.3/customize/sass#importing @339,4323,372,20
+      text Next we load the CSS and import Bootstrap’s JavaScript. Add the following to src/js/main.js to load the CSS and import all of Bootstrap’s JS. Popper will be imported automatically through Bootstrap. @339,4355,372,81
+      card @339,4448,372,190
+        button Copy @356,4463,338,37
+        card @356,4512,338,111
+          text // Import our custom CSS import '../scss/styles.scss' // Import all of Bootstrap’s JS import * as bootstrap from 'bootstrap' @373,4527,304,81
+      text You can also import JavaScript plugins individually as needed to keep bundle sizes down: @339,4650,372,40
+      card @339,4702,372,170
+        button Copy @356,4717,338,37
+        card @356,4766,338,91
+          text import Alert from 'bootstrap/js/dist/alert'; // or, specify which plugins you need: import { Tooltip, Toast, Popover } from 'bootstrap'; @373,4781,304,61
+      text for more information on how to use Bootstrap’s plugins. @339,4884,372,20
+      link "Read our JavaScript docs" /docs/5.3/getting-started/javascript/ @339,4916,372,20
+      text And you’re done! 🎉 With Bootstrap’s source Sass and JS fully loaded, your local development server should now look like this: @339,4948,372,61
+      image https://getbootstrap.com/docs/5.3/assets/img/guides/vite-dev-server-bootstrap.png "Vite dev server running with Bootstrap" @339,5021,0,0
+      text Now you can start adding any Bootstrap components you want to use. Be sure to for how to include additional custom Sass and optimize your build by importing only the parts of Bootstrap’s CSS and JS that you need. @339,5033,372,102
+      link "check out the complete Vite example project" https://github.com/twbs/examples/tree/main/vite @339,5147,372,20
+      text See something wrong or out of date here? Please . Need help troubleshooting? on GitHub. @339,5179,372,41
+      link "open an issue on GitHub" https://github.com/twbs/bootstrap/issues/new/choose @339,5232,372,20
+      link "Search or start a discussion" https://github.com/twbs/bootstrap/discussions @339,5264,372,20
+row @17,5296,694,241
+  col @17,5300,344,234
+    link Bootstrap / @17,5300,344,20
+    text Designed and built with all the love in the world by the with the help of . @17,5332,344,40
+    link "Bootstrap team" /docs/5.3/about/team @17,5384,344,21
+    link "our contributors" https://github.com/twbs/bootstrap/graphs/contributors @17,5417,344,20
+    text Code licensed , docs . @17,5449,344,20
+    row @17,5481,344,21
+      link MIT https://github.com/twbs/bootstrap/blob/main/LICENSE @17,5481,26,21
+      link "CC BY 3.0" https://creativecommons.org/licenses/by/3.0/ @55,5481,69,21
+    text Currently v5.3.8. @17,5514,344,20
+  col @373,5300,56,233
+    h3 Links @373,5300,56,19
+    link Home / @373,5331,56,20
+    link Docs /docs/5.3/ @373,5363,56,21
+    link Examples /docs/5.3/examples @373,5396,56,20
+    link Icons https://icons.getbootstrap.com/ @373,5428,56,20
+    link Blog https://blog.getbootstrap.com/ @373,5460,56,21
+    link "Swag Store" https://cottonbureau.com/people/bootstrap @373,5493,56,40
+  col @441,5306,78,221
+    h3 Guides @441,5306,78,19
+    link "Getting started" /docs/5.3/getting-started @441,5337,78,41
+    link "Starter template" /docs/5.3/examples/starter-template @441,5390,78,40
+    link Webpack /docs/5.3/getting-started/webpack @441,5442,78,21
+    link Parcel /docs/5.3/getting-started/parcel @441,5475,78,20
+    link Vite /docs/5.3/getting-started/vite @441,5507,78,20
+  col @531,5296,72,241
+    h3 Projects @531,5296,72,19
+    link "Bootstrap 5" https://github.com/twbs/bootstrap @531,5327,72,40
+    link "Bootstrap 4" https://github.com/twbs/bootstrap/tree/v4-dev @531,5379,72,41
+    link Icons https://github.com/twbs/icons @531,5432,72,20
+    link RFS https://github.com/twbs/rfs @531,5464,72,21
+    link "Examples repo" https://github.com/twbs/examples @531,5497,72,40
+  col @615,5296,96,241
+    h3 Community @615,5296,96,19
+    link Issues https://github.com/twbs/bootstrap/issues @615,5327,96,20
+    link Discussions https://github.com/twbs/bootstrap/discussions @615,5359,96,20
+    link "Corporate sponsors" https://github.com/sponsors/twbs @615,5391,96,41
+    link "Open Collective" https://opencollective.com/bootstrap @615,5444,96,41
+    link "Stack Overflow" https://stackoverflow.com/questions/tagged/bootstrap-5 @615,5497,96,40
+field Field @17,5549,694,58
+!overflow bootstrapbootstrap 187/371px
+!overflow toggle 92/165px

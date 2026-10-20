@@ -1,0 +1,180 @@
+@developer_mozilla_org_en_us_docs_web_htm rev=0 @0,0,728,5067
+row @17,17,694,5033
+  col @17,2457,25,154
+    link "Skip to main content" #content @17,2457,25,81
+    link "Skip to search" #mdn-search @17,2550,25,61
+  region 1280x91 @54,2525,240,17 [1 shapes, 0 labelled]
+  col @306,2507,44,53
+    link MDN /en-US/ @306,2507,44,21
+    row @306,2540,44,20
+      link Web /en-US/docs/Web @306,2540,1,20
+      link HTML /en-US/docs/Web/HTML @319,2540,2,20
+      link Reference /en-US/docs/Web/HTML/Reference @333,2540,3,20
+      link Elements /en-US/docs/Web/HTML/Reference/Elements @348,2540,2,20
+  col @362,17,41,5033
+    link HTML /en-US/docs/Web/HTML @362,17,41,20
+    link Guides /en-US/docs/Web/HTML/Guides @362,49,41,21
+    link "How to" /en-US/docs/Web/HTML/How_to @362,82,41,40
+    link "Define terms with HTML" /en-US/docs/Web/HTML/How_to/Define_terms_with_HTML @362,134,41,81
+    link "Use data attributes" /en-US/docs/Web/HTML/How_to/Use_data_attributes @362,227,41,61
+    link "Use cross-origin images" /en-US/docs/Web/HTML/How_to/CORS_enabled_image @362,300,41,61
+    link "Add a hitmap on top of an image" /en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image @362,373,41,122
+    link "Author fast-loading HTML pages" /en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages @362,507,41,81
+    link "Add JavaScript" /en-US/docs/Web/HTML/How_to/Add_JavaScript_to_your_web_page @362,600,41,41
+    link Reference /en-US/docs/Web/HTML/Reference @362,653,41,20
+    link Elements /en-US/docs/Web/HTML/Reference/Elements @362,685,41,20
+    link <a> /en-US/docs/Web/HTML/Reference/Elements/a @362,717,41,21
+    link <abbr> /en-US/docs/Web/HTML/Reference/Elements/abbr @362,750,41,20
+    link <acronym> /en-US/docs/Web/HTML/Reference/Elements/acronym @362,782,41,20
+    link <address> /en-US/docs/Web/HTML/Reference/Elements/address @362,814,41,21
+    link <area> /en-US/docs/Web/HTML/Reference/Elements/area @362,847,41,20
+    link <article> /en-US/docs/Web/HTML/Reference/Elements/article @362,879,41,20
+    link <aside> /en-US/docs/Web/HTML/Reference/Elements/aside @362,911,41,20
+    link <audio> /en-US/docs/Web/HTML/Reference/Elements/audio @362,943,41,21
+    link <b> /en-US/docs/Web/HTML/Reference/Elements/b @362,976,41,20
+    link <base> /en-US/docs/Web/HTML/Reference/Elements/base @362,1008,41,20
+    link <bdi> /en-US/docs/Web/HTML/Reference/Elements/bdi @362,1040,41,21
+    link <bdo> /en-US/docs/Web/HTML/Reference/Elements/bdo @362,1073,41,20
+    link <big> /en-US/docs/Web/HTML/Reference/Elements/big @362,1105,41,20
+    link <blockquote> /en-US/docs/Web/HTML/Reference/Elements/blockquote @362,1137,41,21
+    link <body> /en-US/docs/Web/HTML/Reference/Elements/body @362,1170,41,20
+    link <br> /en-US/docs/Web/HTML/Reference/Elements/br @362,1202,41,20
+    link <button> /en-US/docs/Web/HTML/Reference/Elements/button @362,1234,41,21
+    link <canvas> /en-US/docs/Web/HTML/Reference/Elements/canvas @362,1267,41,20
+    link <caption> /en-US/docs/Web/HTML/Reference/Elements/caption @362,1299,41,20
+    link <center> /en-US/docs/Web/HTML/Reference/Elements/center @362,1331,41,20
+    link <cite> /en-US/docs/Web/HTML/Reference/Elements/cite @362,1363,41,21
+    link <code> /en-US/docs/Web/HTML/Reference/Elements/code @362,1396,41,20
+    link <col> /en-US/docs/Web/HTML/Reference/Elements/col @362,1428,41,20
+    link <colgroup> /en-US/docs/Web/HTML/Reference/Elements/colgroup @362,1460,41,21
+    link <data> /en-US/docs/Web/HTML/Reference/Elements/data @362,1493,41,20
+    link <datalist> /en-US/docs/Web/HTML/Reference/Elements/datalist @362,1525,41,20
+    link <dd> /en-US/docs/Web/HTML/Reference/Elements/dd @362,1557,41,21
+    link <del> /en-US/docs/Web/HTML/Reference/Elements/del @362,1590,41,20
+    link <details> /en-US/docs/Web/HTML/Reference/Elements/details @362,1622,41,20
+    link <dfn> /en-US/docs/Web/HTML/Reference/Elements/dfn @362,1654,41,20
+    link <dialog> /en-US/docs/Web/HTML/Reference/Elements/dialog @362,1686,41,21
+    link <dir> /en-US/docs/Web/HTML/Reference/Elements/dir @362,1719,41,20
+    link <div> /en-US/docs/Web/HTML/Reference/Elements/div @362,1751,41,20
+    link <dl> /en-US/docs/Web/HTML/Reference/Elements/dl @362,1783,41,21
+    link <dt> /en-US/docs/Web/HTML/Reference/Elements/dt @362,1816,41,20
+    link <em> /en-US/docs/Web/HTML/Reference/Elements/em @362,1848,41,20
+    link <embed> /en-US/docs/Web/HTML/Reference/Elements/embed @362,1880,41,21
+    link <fencedframe> /en-US/docs/Web/HTML/Reference/Elements/fencedframe @362,1913,41,20
+    link <fieldset> /en-US/docs/Web/HTML/Reference/Elements/fieldset @362,1945,41,20
+    link <figcaption> /en-US/docs/Web/HTML/Reference/Elements/figcaption @362,1977,41,20
+    link <figure> /en-US/docs/Web/HTML/Reference/Elements/figure @362,2009,41,21
+    link <font> /en-US/docs/Web/HTML/Reference/Elements/font @362,2042,41,20
+    link <footer> /en-US/docs/Web/HTML/Reference/Elements/footer @362,2074,41,20
+    link <form> /en-US/docs/Web/HTML/Reference/Elements/form @362,2106,41,21
+    link <frame> /en-US/docs/Web/HTML/Reference/Elements/frame @362,2139,41,20
+    link <frameset> /en-US/docs/Web/HTML/Reference/Elements/frameset @362,2171,41,20
+    link <geolocation> /en-US/docs/Web/HTML/Reference/Elements/geolocation @362,2203,41,21
+    link <h1>–<h6> /en-US/docs/Web/HTML/Reference/Elements/Heading_Elements @362,2236,41,20
+    link <head> /en-US/docs/Web/HTML/Reference/Elements/head @362,2268,41,20
+    link <header> /en-US/docs/Web/HTML/Reference/Elements/header @362,2300,41,20
+    link <hgroup> /en-US/docs/Web/HTML/Reference/Elements/hgroup @362,2332,41,21
+    link <hr> /en-US/docs/Web/HTML/Reference/Elements/hr @362,2365,41,20
+    link <html> /en-US/docs/Web/HTML/Reference/Elements/html @362,2397,41,20
+    link <i> /en-US/docs/Web/HTML/Reference/Elements/i @362,2429,41,21
+    link <iframe> /en-US/docs/Web/HTML/Reference/Elements/iframe @362,2462,41,20
+    link <img> /en-US/docs/Web/HTML/Reference/Elements/img @362,2494,41,20
+    link <input> /en-US/docs/Web/HTML/Reference/Elements/input @362,2526,41,21
+    link <ins> /en-US/docs/Web/HTML/Reference/Elements/ins @362,2559,41,20
+    link <kbd> /en-US/docs/Web/HTML/Reference/Elements/kbd @362,2591,41,20
+    link <label> /en-US/docs/Web/HTML/Reference/Elements/label @362,2623,41,20
+    link <legend> /en-US/docs/Web/HTML/Reference/Elements/legend @362,2655,41,21
+    link <li> /en-US/docs/Web/HTML/Reference/Elements/li @362,2688,41,20
+    link <link> /en-US/docs/Web/HTML/Reference/Elements/link @362,2720,41,20
+    link <main> /en-US/docs/Web/HTML/Reference/Elements/main @362,2752,41,21
+    link <map> /en-US/docs/Web/HTML/Reference/Elements/map @362,2785,41,20
+    link <mark> /en-US/docs/Web/HTML/Reference/Elements/mark @362,2817,41,20
+    link <marquee> /en-US/docs/Web/HTML/Reference/Elements/marquee @362,2849,41,21
+    link <menu> /en-US/docs/Web/HTML/Reference/Elements/menu @362,2882,41,20
+    link <meta> /en-US/docs/Web/HTML/Reference/Elements/meta @362,2914,41,20
+    link <meter> /en-US/docs/Web/HTML/Reference/Elements/meter @362,2946,41,20
+    link <nav> /en-US/docs/Web/HTML/Reference/Elements/nav @362,2978,41,21
+    link <nobr> /en-US/docs/Web/HTML/Reference/Elements/nobr @362,3011,41,20
+    link <noembed> /en-US/docs/Web/HTML/Reference/Elements/noembed @362,3043,41,20
+    link <noframes> /en-US/docs/Web/HTML/Reference/Elements/noframes @362,3075,41,21
+    link <noscript> /en-US/docs/Web/HTML/Reference/Elements/noscript @362,3108,41,20
+    link <object> /en-US/docs/Web/HTML/Reference/Elements/object @362,3140,41,20
+    link <ol> /en-US/docs/Web/HTML/Reference/Elements/ol @362,3172,41,21
+    link <optgroup> /en-US/docs/Web/HTML/Reference/Elements/optgroup @362,3205,41,20
+    link <option> /en-US/docs/Web/HTML/Reference/Elements/option @362,3237,41,20
+    link <output> /en-US/docs/Web/HTML/Reference/Elements/output @362,3269,41,20
+    link <p> /en-US/docs/Web/HTML/Reference/Elements/p @362,3301,41,21
+    link <param> /en-US/docs/Web/HTML/Reference/Elements/param @362,3334,41,20
+    link <picture> /en-US/docs/Web/HTML/Reference/Elements/picture @362,3366,41,20
+    link <plaintext> /en-US/docs/Web/HTML/Reference/Elements/plaintext @362,3398,41,21
+    link <pre> /en-US/docs/Web/HTML/Reference/Elements/pre @362,3431,41,20
+    link <progress> /en-US/docs/Web/HTML/Reference/Elements/progress @362,3463,41,20
+    link <q> /en-US/docs/Web/HTML/Reference/Elements/q @362,3495,41,21
+    link <rb> /en-US/docs/Web/HTML/Reference/Elements/rb @362,3528,41,20
+    link <rp> /en-US/docs/Web/HTML/Reference/Elements/rp @362,3560,41,20
+    link <rt> /en-US/docs/Web/HTML/Reference/Elements/rt @362,3592,41,20
+    link <rtc> /en-US/docs/Web/HTML/Reference/Elements/rtc @362,3624,41,21
+    link <ruby> /en-US/docs/Web/HTML/Reference/Elements/ruby @362,3657,41,20
+    link <s> /en-US/docs/Web/HTML/Reference/Elements/s @362,3689,41,20
+    link <samp> /en-US/docs/Web/HTML/Reference/Elements/samp @362,3721,41,21
+    link <script> /en-US/docs/Web/HTML/Reference/Elements/script @362,3754,41,20
+    link <search> /en-US/docs/Web/HTML/Reference/Elements/search @362,3786,41,20
+    link <section> /en-US/docs/Web/HTML/Reference/Elements/section @362,3818,41,21
+    link <select> /en-US/docs/Web/HTML/Reference/Elements/select @362,3851,41,20
+    link <selectedcontent> /en-US/docs/Web/HTML/Reference/Elements/selectedcontent @362,3883,41,20
+    link <slot> /en-US/docs/Web/HTML/Reference/Elements/slot @362,3915,41,20
+    link <small> /en-US/docs/Web/HTML/Reference/Elements/small @362,3947,41,21
+    link <source> /en-US/docs/Web/HTML/Reference/Elements/source @362,3980,41,20
+    link <span> /en-US/docs/Web/HTML/Reference/Elements/span @362,4012,41,20
+    link <strike> /en-US/docs/Web/HTML/Reference/Elements/strike @362,4044,41,21
+    link <strong> /en-US/docs/Web/HTML/Reference/Elements/strong @362,4077,41,20
+    link <style> /en-US/docs/Web/HTML/Reference/Elements/style @362,4109,41,20
+    link <sub> /en-US/docs/Web/HTML/Reference/Elements/sub @362,4141,41,21
+    link <summary> /en-US/docs/Web/HTML/Reference/Elements/summary @362,4174,41,20
+    link <sup> /en-US/docs/Web/HTML/Reference/Elements/sup @362,4206,41,20
+    link <table> /en-US/docs/Web/HTML/Reference/Elements/table @362,4238,41,20
+    link <tbody> /en-US/docs/Web/HTML/Reference/Elements/tbody @362,4270,41,21
+    link <td> /en-US/docs/Web/HTML/Reference/Elements/td @362,4303,41,20
+    link <template> /en-US/docs/Web/HTML/Reference/Elements/template @362,4335,41,20
+    link <textarea> /en-US/docs/Web/HTML/Reference/Elements/textarea @362,4367,41,21
+    link <tfoot> /en-US/docs/Web/HTML/Reference/Elements/tfoot @362,4400,41,20
+    link <th> /en-US/docs/Web/HTML/Reference/Elements/th @362,4432,41,20
+    link <thead> /en-US/docs/Web/HTML/Reference/Elements/thead @362,4464,41,21
+    link <time> /en-US/docs/Web/HTML/Reference/Elements/time @362,4497,41,20
+    link <title> /en-US/docs/Web/HTML/Reference/Elements/title @362,4529,41,20
+    link <tr> /en-US/docs/Web/HTML/Reference/Elements/tr @362,4561,41,20
+    link <track> /en-US/docs/Web/HTML/Reference/Elements/track @362,4593,41,21
+    link <tt> /en-US/docs/Web/HTML/Reference/Elements/tt @362,4626,41,20
+    link <u> /en-US/docs/Web/HTML/Reference/Elements/u @362,4658,41,20
+    link <ul> /en-US/docs/Web/HTML/Reference/Elements/ul @362,4690,41,21
+    link <var> /en-US/docs/Web/HTML/Reference/Elements/var @362,4723,41,20
+    link <video> /en-US/docs/Web/HTML/Reference/Elements/video @362,4755,41,20
+    link <wbr> /en-US/docs/Web/HTML/Reference/Elements/wbr @362,4787,41,21
+    link <xmp> /en-US/docs/Web/HTML/Reference/Elements/xmp @362,4820,41,20
+    link Attributes /en-US/docs/Web/HTML/Reference/Attributes @362,4852,41,20
+    link "Global attributes" /en-US/docs/Web/HTML/Reference/Global_attributes @362,4884,41,41
+    text Attributes by element @362,4937,41,61
+    text Attribute values @362,5010,41,40
+  col @415,2396,296,276
+    row @415,2396,296,101
+      row @415,2396,71,101
+        link "MDN logo" / @415,2426,13,41
+        text Your blueprint for a better internet. @440,2396,46,101
+      row @498,2406,135,81
+        link "MDN on GitHub" https://github.com/mdn/ @498,2416,17,61
+        link "MDN on Bluesky" https://bsky.app/profile/developer.mozilla.org @527,2416,18,61
+        link "MDN on X" https://x.com/mozdevnet @557,2416,11,61
+        link "MDN on Mastodon" https://mastodon.social/@mdn @580,2416,20,61
+        link "MDN blog RSS feed" /en-US/blog/rss.xml @612,2406,21,81
+      text MDN @645,2436,8,21
+      text Contribute @665,2436,16,21
+      text Developers @693,2436,18,21
+    row @415,2509,296,163
+      link "Mozilla logo" https://www.mozilla.org/ @415,2570,13,41
+      row @440,2560,99,61
+        link "Website Privacy Notice" https://www.mozilla.org/privacy/websites/ @440,2560,18,61
+        link "Telemetry Settings" https://www.mozilla.org/en-US/privacy/websites/data-preferences/ @470,2570,14,41
+        link Legal https://www.mozilla.org/about/legal/terms/mozilla @496,2580,4,21
+        link "Community Participation Guidelines" https://www.mozilla.org/about/governance/policies/participation/ @512,2560,27,61
+      text Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under . @551,2509,116,163
+      link "a Creative Commons license" /docs/MDN/Writing_guidelines/Attrib_copyright_license @679,2550,32,81

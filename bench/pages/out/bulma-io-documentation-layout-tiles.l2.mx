@@ -1,0 +1,14 @@
+@bulma_io_documentation_layout_tiles rev=0 @0,0,728,338
+h1 404 @17,17,694,25
+text File not found @17,54,694,20
+text The site configured at this address does not contain the requested file. @17,86,694,21
+text If this is your site, make sure that the filename case matches the URL as well as any file permissions. For root URLs (like http://example.com/) you must provide an index.html file. @17,119,694,40
+text for more information about using . @17,171,694,21
+row @17,204,694,20
+  link "Read the full documentation" https://help.github.com/pages/ @17,204,186,20
+  text GitHub Pages @215,204,91,20
+text — @17,236,694,20
+row @17,268,694,20
+  link "GitHub Status" https://githubstatus.com @17,268,92,20
+  link @githubstatus https://twitter.com/githubstatus @121,268,96,20
+link / / @17,300,694,21

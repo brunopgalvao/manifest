@@ -17,6 +17,7 @@ card
   row
     button "Login with Github"
     button "Login with X"
+text Don't have account yet?
 link "Sign up" ./sign-up.html
 button Customize primary
 card

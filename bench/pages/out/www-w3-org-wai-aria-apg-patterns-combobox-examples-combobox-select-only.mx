@@ -29,18 +29,24 @@ row
     card
       text The code in this example is not intended for production environments. Before using it for any purpose, read this to understand why. warning
     h2 About This Example
+    text The following example implementation of the  demonstrates a single-select combobox widget that is functionally similar to an HTML  element. Unlike the editable combobox examples, this select-only combobox is not made with an  element, and it does not accept freeform user input. However, like an HTML , users can type characters to select matching options.
     link "Combobox Pattern" ../../
     text select primary
     text <input> primary
     text <select> primary
     text Similar examples include:
+    text : An editable combobox that demonstrates the autocomplete behavior known as .
     link "Editable Combobox with Both List and Inline Autocomplete" ../combobox-autocomplete-both/
     text list with inline autocomplete
+    text : An editable combobox that demonstrates the autocomplete behavior known as .
     link "Editable Combobox with List Autocomplete" ../combobox-autocomplete-list/
     text list with manual selection
+    text : An editable combobox that demonstrates the behavior associated with .
     link "Editable Combobox Without Autocomplete" ../combobox-autocomplete-none/
     text aria-autocomplete=none primary
+    text : An editable combobox that presents suggestions in a grid, enabling users to navigate descriptive information about each suggestion.
     link "Editable Combobox with Grid Popup" ../grid-combo/
+    text : An editable date input combobox that opens a dialog containing a calendar grid and buttons for navigating by month and year.
     link "Date Picker Combobox" ../combobox-datepicker/
     h2 Example
     button "Open In CodePen" primary
@@ -51,12 +57,14 @@ row
     h2 Accessibility Features
     text "While the functionality and user experience of this example are nearly equivalent to an HTML select element with the attribute size=\"1\", the following differences in behavior are implemented to improve both accessibility and general usability."
     text If the combobox is collapsed and the user types printable characters, the listbox is displayed and receives accessibility focus via aria-activedescendant. This enables users to perceive the presence of the options, and enables assistive technology users to comprehend the size of the list of options.
+    text Navigating the list of options does not set the value of the input. This gives screen reader users, who need to navigate among the options to perceive them, the ability to explore options without losing the current value of the input. The value is set when users press , , or , or when focus moves out of the combobox. The current value is retained if the listbox is closed with  or if the user collapses the list by clicking the input.
     text Space
     text Enter
     text Tab
     text Escape
     text Browsers do not manage visibility of elements referenced by aria-activedescendant like they do for elements with focus. When a keyboard event changes the active option in the listbox, the JavaScript scrolls the option referenced by aria-activedescendant into view. Managing aria-activedescendant visibility is essential to accessibility for people who use a browser's zoom feature to increase the size of content.
     h2 Keyboard Support
+    text The example combobox on this page implements the following keyboard interface. Other variations and options for the keyboard interface are described in the
     link "Keyboard Interaction section of the combobox pattern." ../../#keyboard_interaction
     h3 Closed Combobox
     table Key Function
@@ -69,6 +77,7 @@ row
       End | Opens the listbox and moves visual focus to the last option.
       Printable Characters | First opens the listbox if it is not already displayed and then moves visual focus to the first option that matches the typed character. If multiple keys are typed in quick succession, visual focus moves to the first option that matches the full string. If the same character is typed in succession, visual focus cycles among the options starting with that character.
     h3 Listbox Popup
+    text When visual focus is in the listbox, DOM focus remains on the combobox and the value of  on the combobox is set to a value that refers to the listbox option that is visually indicated as focused. Where the following descriptions of keyboard commands mention focus, they are referring to the visual focus indicator. For more information about this focus management technique, see .
     text NOTE:
     text aria-activedescendant primary
     link "Managing Focus in Composites Using aria-activedescendant" ../../../../practices/keyboard-interface/#kbd_focus_activedescendant
@@ -86,6 +95,7 @@ row
       PageDown | Jumps visual focus down 10 options (or to last option).
       Printable Characters | First opens the listbox if it is not already displayed and then moves visual focus to the first option that matches the typed character. If multiple keys are typed in quick succession, visual focus moves to the first option that matches the full string. If the same character is typed in succession, visual focus cycles among the options starting with that character.
     h2 Role, Property, State, and Tabindex Attributes
+    text The example combobox on this page implements the following ARIA roles, states, and properties. Information about other ways of applying ARIA roles, states, and properties is available in the .
     link "Roles, States, and Properties section of the Combobox Pattern" ../../#roles_states_properties
     h3 Combobox
     table Role Attribute Element Usage
@@ -101,7 +111,9 @@ row
       option |  | div | Identifies the element as a listbox option. The text content of the element provides the accessible name of the option.
        | aria-selected="true" | li | Specified on an option in the listbox when it is visually highlighted as selected. Occurs only when an option in the list is referenced by aria-activedescendant.
     h2 JavaScript and CSS Source Code
+    text CSS:
     link select-only.css ../../../../../../content-assets/wai-aria-practices/patterns/combobox/examples/css/select-only.css
+    text JavaScript:
     link select-only.js ../../../../../../content-assets/wai-aria-practices/patterns/combobox/examples/js/select-only.js
     h2 HTML Source Code
     text To copy the following HTML code, please open it in CodePen.
@@ -110,8 +122,8 @@ row
     text "<div class=\"combo js-select\"> <div id=\"combo1-label\" class=\"combo-label\"> Favorite Fruit </div> <div aria-controls=\"listbox1\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-labelledby=\"combo1-label\" id=\"combo1\" class=\"combo-input\" role=\"combobox\" tabindex=\"0\"></div> <div class=\"combo-menu\" role=\"listbox\" id=\"listbox1\" aria-labelledby=\"combo1-label\" tabindex=\"-1\"> </div> </div>"
     text End of
 row
-  region 16x16
   h2 Help improve this page
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list  or via GitHub.
 link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
 row
   link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
@@ -136,6 +148,7 @@ row
   link "Accessibility statement" /WAI/about/accessibility-statement/
   link "All Translations" /WAI/translations/
   link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
 link "World Wide Web Consortium" https://www.w3.org/
 text W3C
 text ®

@@ -1,0 +1,73 @@
+@getbootstrap_com_docs_5_3_examples_offca rev=0 @0,0,728,842
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,58
+  link "Offcanvas navbar" # @17,84,118,20
+  row @147,65,547,58
+    row @147,84,405,20
+      link Dashboard # @147,84,73,20
+      link Notifications # @232,84,84,20
+      link Profile # @328,84,43,20
+      link "Switch account" # @383,84,103,20
+      link Settings # @498,84,54,20
+    row @564,65,130,58
+      field Search search @564,65,40,58
+      button Search @616,76,78,36
+row @17,135,694,20
+  link Dashboard # @17,135,73,20
+  link "Friends 27" # @102,135,70,20
+  link Explore # @184,135,50,20
+  link Suggestions # @246,135,83,20
+  link Link # @341,135,28,20
+  link Link # @381,135,28,20
+  link Link # @421,135,28,20
+  link Link # @461,135,28,20
+  link Link # @501,135,28,20
+card @17,167,694,88
+  h1 Bootstrap @34,182,660,25
+  text Since 2011 @34,219,660,21
+h3 Recent updates @17,267,694,18
+row @17,297,694,71
+  region "Placeholder: 32x32" 32x32 @17,336,32,32 [2 shapes, 1 labelled]
+    text @50,50 anchor:middle fill:#007bff size:18 "32x32" @40,369,54,22
+  text @username Some representative placeholder content, with some information about this user. Imagine this being some sort of status update, perhaps? @98,312,613,41
+row @17,380,694,71
+  region "Placeholder: 32x32" 32x32 @17,419,32,32 [2 shapes, 1 labelled]
+    text @50,50 anchor:middle fill:#e83e8c size:18 "32x32" @40,452,54,22
+  text @username Some more representative placeholder content, related to this other user. Another status update, perhaps. @113,395,598,41
+row @17,463,694,71
+  region "Placeholder: 32x32" 32x32 @17,502,32,32 [2 shapes, 1 labelled]
+    text @50,50 anchor:middle fill:#6f42c1 size:18 "32x32" @40,535,54,22
+  text @username This user also gets some representative placeholder content. Maybe they did something interesting, and you really want to highlight this in the recent updates. @90,478,621,41
+link "All updates" # @17,546,694,20
+h3 Suggestions @17,578,694,19
+row @17,609,694,53
+  region "Placeholder: 32x32" 32x32 @17,630,32,32 [2 shapes, 1 labelled]
+    text @50,50 anchor:middle fill:#007bff size:18 "32x32" @40,663,54,22
+  col @140,609,123,53
+    row @140,609,123,21
+      text Full Name @140,609,67,21
+      link Follow # @219,609,44,21
+    text @username @140,642,123,20
+row @17,674,694,54
+  region "Placeholder: 32x32" 32x32 @17,696,32,32 [2 shapes, 1 labelled]
+    text @50,50 anchor:middle fill:#007bff size:18 "32x32" @40,729,54,22
+  col @140,675,123,52
+    row @140,675,123,20
+      text Full Name @140,675,67,20
+      link Follow # @219,675,44,20
+    text @username @140,707,123,20
+row @17,740,694,53
+  region "Placeholder: 32x32" 32x32 @17,761,32,32 [2 shapes, 1 labelled]
+    text @50,50 anchor:middle fill:#007bff size:18 "32x32" @40,794,54,22
+  col @140,740,123,53
+    row @140,740,123,20
+      text Full Name @140,740,67,20
+      link Follow # @219,740,44,20
+    text @username @140,772,123,21
+link "All suggestions" # @17,805,694,20
+!offcanvas placeholder.32x32
+!offcanvas placeholder2.32x32
+!offcanvas placeholder3.32x32
+!offcanvas placeholder4.32x32
+!offcanvas placeholder5.32x32
+!offcanvas placeholder6.32x32

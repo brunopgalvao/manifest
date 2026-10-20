@@ -1,0 +1,108 @@
+@ui_shadcn_com_blocks
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+    row
+      link New /create
+link "Trace, Code Block and AI Elements" /docs/changelog
+h1 Building Blocks for the Web
+text Clean, modern building blocks. Copy and paste into your apps. Works with all React frameworks. Open Source. Free forever.
+row
+  link "Browse Blocks" #blocks
+  link "View Components" /docs/components
+row
+  row
+    link Featured /blocks
+    link Sidebar /blocks/sidebar
+    link Login /blocks/login
+    link Signup /blocks/signup
+  link "Browse all blocks" /blocks/sidebar
+row
+  tabs
+    tab *Preview
+    tab Code
+  link "A dashboard with sidebar, charts and data table" #dashboard-01
+  row
+    row
+      link "Open in New Tab" /view/new-york-v4/dashboard-01
+      button "Refresh Preview"
+    button "npx shadcn add dashboard-01"
+    link "Open in" https://v0.dev/chat/api/open?url=https://ui.shadcn.com/r/styles/new-york-v4/dashboard-01.json
+row
+  region 1188x1000
+    rect @1,1 1186x1000 fill:#ffffff
+row
+  tabs
+    tab *Preview
+    tab Code
+  link "A sidebar that collapses to icons" #sidebar-07
+  row
+    row
+      link "Open in New Tab" /view/new-york-v4/sidebar-07
+      button "Refresh Preview"
+    button "npx shadcn add sidebar-07"
+    link "Open in" https://v0.dev/chat/api/open?url=https://ui.shadcn.com/r/styles/new-york-v4/sidebar-07.json
+row
+  region 1188x930
+    rect @1,1 1186x930 fill:#ffffff
+row
+  tabs
+    tab *Preview
+    tab Code
+  link "A sidebar with submenus" #sidebar-03
+  row
+    row
+      link "Open in New Tab" /view/new-york-v4/sidebar-03
+      button "Refresh Preview"
+    button "npx shadcn add sidebar-03"
+    link "Open in" https://v0.dev/chat/api/open?url=https://ui.shadcn.com/r/styles/new-york-v4/sidebar-03.json
+row
+  region 1188x930
+    rect @1,1 1186x930 fill:#ffffff
+row
+  tabs
+    tab *Preview
+    tab Code
+  link "A login page with a muted background color" #login-03
+  row
+    row
+      link "Open in New Tab" /view/new-york-v4/login-03
+      button "Refresh Preview"
+    button "npx shadcn add login-03"
+    link "Open in" https://v0.dev/chat/api/open?url=https://ui.shadcn.com/r/styles/new-york-v4/login-03.json
+row
+  region 1188x930
+    rect @1,1 1186x930 fill:#ffffff
+row
+  tabs
+    tab *Preview
+    tab Code
+  link "A login page with form and image" #login-04
+  row
+    row
+      link "Open in New Tab" /view/new-york-v4/login-04
+      button "Refresh Preview"
+    button "npx shadcn add login-04"
+    link "Open in" https://v0.dev/chat/api/open?url=https://ui.shadcn.com/r/styles/new-york-v4/login-04.json
+row
+  region 1188x930
+    rect @1,1 1186x930 fill:#ffffff
+link "Browse more blocks" /blocks/sidebar
+text Built by  at . The source code is available on .
+row
+  link shadcn https://twitter.com/shadcn
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+  link GitHub https://github.com/shadcn-ui/ui
+text Notifications alt+T
+text Notifications

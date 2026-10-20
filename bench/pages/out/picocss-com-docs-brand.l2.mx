@@ -1,0 +1,133 @@
+@picocss_com_docs_brand rev=0 @0,0,728,1846
+row @17,17,694,1812
+  button "Skip to content" primary @17,905,42,36
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @71,852,36,142
+  row @119,882,75,82
+    link "Pico CSS homepage" / @119,893,14,61
+    row @145,882,49,82
+      row @145,913,12,20
+        text v2.1.1 @145,913,0,20
+        link Examples /examples @157,913,0,20
+        link Docs /docs @169,913,0,20
+      row @169,882,25,82
+        link "GitHub repository" https://github.com/picocss/pico @169,903,1,40
+        link Twitter https://x.com/picocss @182,913,0,20
+        link "Turn on dark mode" /docs/brand @194,882,0,82
+  row @206,17,228,1812
+    col @206,658,13,530
+      text Getting started @206,658,13,41
+      text Customization @206,711,13,20
+      text Layout @206,743,13,20
+      text Content @206,775,13,21
+      text Forms @206,808,13,20
+      text Components @206,840,13,20
+      text About @206,872,13,21
+      link Maintenance /docs/maintenance @206,905,13,20
+      link "What’s new in v2?" /docs/v2 @206,937,13,81
+      link Mission /docs/mission @206,1030,13,20
+      link "Usage scenarios" /docs/usage-scenarios @206,1062,13,41
+      link Brand /docs/brand @206,1115,13,20
+      link "Built With" /docs/built-with @206,1147,13,41
+    metric About Brand "Pico CSS brand assets and usage guidelines." @231,17,30,1812
+    col @273,838,12,170
+      text Content @273,838,12,20
+      link Logo /docs/brand @273,870,12,21
+      link Icon /docs/brand#icon @273,903,12,20
+      link Name /docs/brand#name @273,935,12,20
+      link "Usage agreement" /docs/brand#usage-agreement @273,967,12,41
+    col @297,17,137,1812
+      h2 Logo @297,17,137,21
+      text These assets are provided for use in situations like articles and video tutorials. Please do not use the logo in any way that could be confusing for customers or imply any affiliation with Pico CSS. @297,50,137,224
+      text Do not modify the logo and make sure it has enough spacing. @297,286,137,81
+      row @297,379,137,68
+        col @297,379,62,68
+          link /build/_assets/pico-logo-light-OKNA7EES.svg /build/_assets/pico-logo-light-OKNA7EES.svg @297,379,62,20
+          row @297,411,62,36
+            button SVG primary @297,411,30,36
+            button PNG primary @339,411,30,36
+        col @371,379,63,68
+          link /build/_assets/pico-logo-dark-XCR6IJWC.svg /build/_assets/pico-logo-dark-XCR6IJWC.svg @371,379,63,20
+          row @371,411,63,36
+            button SVG primary @371,411,30,36
+            button PNG primary @413,411,30,36
+      h2 Icon# @297,459,137,22
+      text If the situation prevents otherwise, the icon mark may be used instead of the full logo. @297,493,137,101
+      row @297,606,137,69
+        col @297,606,62,69
+          link /build/_assets/pico-mark-light-E4V54OAB.svg /build/_assets/pico-mark-light-E4V54OAB.svg @297,606,62,20
+          row @297,638,62,37
+            button SVG primary @297,638,30,37
+            button PNG primary @339,638,30,37
+        col @371,606,63,69
+          link /build/_assets/pico-mark-dark-W5OEFAUA.svg /build/_assets/pico-mark-dark-W5OEFAUA.svg @371,606,63,20
+          row @371,638,63,37
+            button SVG primary @371,638,30,37
+            button PNG primary @413,638,30,37
+      h2 Name# @297,687,137,21
+      text When referring to Pico CSS, the correct brand name is “Pico CSS”. You can also use “Pico” or “Pico ✨” if you prefer. @297,720,137,142
+      text The CSS stylesheet can be referred as “pico.css”. However, please avoid using “PicoCss”, “PicoCSS”, “Pico.css”, or “pico”. @297,874,137,183
+      h2 Usage agreement# @297,1069,137,42
+      text Pico CSS brand name and logo are protected under intellectual property law. @297,1123,137,102
+      text You can use the Pico CSS name as part of the name of your open-source and non-commercial project, such as “Pico-React”, but using the name in commercial projects without permission is not allowed. @297,1237,137,223
+      text You cannot use the Pico CSS logo for open or closed source projects, but you’re welcome to use it in articles or documentation as long as proper credit is given. @297,1472,137,183
+      text The use of the Pico CSS brand name and logo on merchandise, such as t-shirts or stickers, requires explicit written consent. @297,1667,137,162
+  col @446,785,265,276
+    row @446,785,265,203
+      region 49.34000015258789x45 @446,884,5,5 [3 shapes, 0 labelled]
+      row @463,866,152,41
+        row @463,866,37,41
+          text About @463,876,0,21
+          link Maintenance /docs/maintenance @475,876,0,21
+          link "What’s new?" /docs/v2 @487,866,0,41
+          link Brand /docs/brand @499,876,0,21
+          link Mission /docs/mission @511,876,0,21
+          link "Usage scenarios" /docs/usage-scenarios @523,866,0,41
+        row @512,866,37,41
+          text Docs @512,876,0,21
+          link "Quick start" /docs @524,866,0,41
+          link "Version picker" /docs/version-picker @536,866,0,41
+          link "Class-less version" /docs/classless @548,866,0,41
+          link "Form elements" /docs/forms @560,866,0,41
+        row @561,876,20,21
+          text Community @561,876,0,21
+          link Issues https://github.com/picocss/pico/issues @573,876,0,21
+          link Discussions https://github.com/picocss/pico/discussions @585,876,0,21
+          link Help https://github.com/picocss/pico/discussions/categories/help @597,876,0,21
+        row @593,876,22,21
+          text Examples @593,876,0,21
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @605,876,0,21
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @617,876,0,21
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @629,876,0,21
+          link All /examples @641,876,0,21
+      text Designed and built by with the help of our . @627,785,29,203
+      col @668,850,10,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @668,850,10,41
+        link contributors https://github.com/picocss/pico/graphs/contributors @668,903,10,20
+      row @690,876,21,21
+        link GitHub https://github.com/picocss/pico @690,876,0,21
+        link Twitter https://x.com/picocss @702,876,0,21
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @714,876,0,21
+        link NPM https://www.npmjs.com/package/@picocss/pico @726,876,0,21
+    row @446,1000,265,61
+      text Code licensed , docs . @446,1000,92,61
+      row @550,1000,83,61
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @550,1020,15,21
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @577,1000,56,61
+      text Currently v2.1.1. @645,1010,66,41
+!overflow skip 40/130px
+!overflow about2 0/34px
+!overflow about2 0/64px
+!overflow svg 28/58px
+!overflow png 28/59px
+!overflow svg2 28/58px
+!overflow png2 28/59px
+!overflow svg3 28/58px
+!overflow png3 28/59px
+!overflow svg4 28/58px
+!overflow png4 28/59px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

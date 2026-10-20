@@ -1,0 +1,373 @@
+@www_nasa_gov_social_media
+row
+  row
+    button Explore
+    row
+      text Search
+      field Search search
+  link "https://www.nasa.gov/" https://www.nasa.gov/
+  row
+    button "News & Events"
+    button Multimedia
+    link NASA+ https://plus.nasa.gov/
+row
+  link "News Releases" https://www.nasa.gov/2026-news-releases/
+  link "Recently Published" https://www.nasa.gov/news/recently-published/
+  link Blogs https://www.nasa.gov/nasa-blogs/
+  link Newsletters https://www.nasa.gov/newsletters/
+  button "Social Media"
+  link "Budgets and Reports" https://www.nasa.gov/budgets-plans-and-reports/
+  button More
+row
+  col
+    h2 News
+    h1 NASA Social Media
+    text Connect with us. Follow us on our mission of exploration and discovery in the feed of your favorite platforms.
+  row
+    link Missions #missions
+    link Science #science
+    link "Mission Directorates" #mission-directorates
+    link "Centers & Facilities" #centers-and-facilities
+    link "Organizations & Programs" #organizations-and-programs
+    link "NASA Leadership" #leadership
+    link "NASA Astronauts" #astronauts
+    link "NASA Astronaut Candidates" #astronaut-candidates
+    link "NASA en Español" #nasa-en-espanol
+    link Resources #resources
+row
+  row
+    region "Facebook logo" 17x17
+      path "M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" fill:#ffffff
+    link "Go to @NASA on facebook" https://facebook.com/NASA
+  row
+    link "Go to @NASA on twitter" https://x.com/NASA
+  row
+    region "Instagram logo" 17x17
+      region @0,0 scale:1
+        path "M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752 c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407 c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752 c17.455,0,31.656,14.201,31.656,31.655V122.407z" fill:#ffffff
+      region @0,0 scale:1
+        path "M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561 C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561 c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z" fill:#ffffff
+      region @0,0 scale:1
+        path "M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78 c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78 C135.661,29.421,132.821,28.251,129.921,28.251z" fill:#ffffff
+    link "Go to @NASA on instagram" https://instagram.com/NASA
+  row
+    region "Linkedin logo" 17x17
+      path "M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" fill:#ffffff
+    link "Go to @NASA on linkedin" https://linkedin.com/company/NASA
+h1 NASA
+table Flickr "NASA HQ Photo"
+  Giphy | @nasa
+  Pinterest | @nasa
+  Reddit | u/nasa
+  Snapchat | @nasa
+  Soundcloud | NASA
+  Spotify | nasaspotify
+  Threads | @nasa
+  TikTok | @NASA
+  Tumblr | NASA
+  Twitch | NASA
+  YouTube | @NASA
+   | 
+h1 NASA en Español
+table Facebook "NASA en español"
+  Instagram | @nasa_es
+  X | @NASA_es
+  YouTube | @nasa_es
+   | 
+row
+  col
+    h3 Engage
+    h2 NASA Social
+    text NASA Social is a program to provide opportunities for NASA’s social media followers to learn and share information about the agency’s missions, people, and programs.
+    text NASA Social represents the next evolution of the agency’s social media outreach. Formerly known as NASA Tweetup, the program includes both special in-person events and social media credentials for individuals who meaningfully share NASA news. Through these experiences, NASA Social has brought thousands of people together for unique, behind-the-scenes opportunities centered on exploration and discovery.
+    link "Learn More about NASA Social" https://www.nasa.gov/nasa-socials/
+  col
+    text The Artemis II astronauts speak with invited social media influencers as NASA’s SLS (Space Launch System) rocket and Orion spacecraft roll out to Launch Complex 39B at Kennedy Space Center in Florida on Saturday, Jan. 17, 2026.
+    text NASA/Joel Kowsky
+h1 NASA Missions
+table Artemis Facebook "NASA Artemis"
+   | Instagram | @nasaartemis
+   | X | @NASAArtemis
+  Chandra X-ray Observatory | Facebook | Chandra X-ray Observatory
+   | Flickr | Chandra X-ray Observatory
+   | Instagram | @nasachandraxray
+   | X | @chandraxray
+   | YouTube | @ChandraXray
+  Hubble Space Telescope | Facebook | NASA Hubble
+   | Flickr | NASA Hubble
+   | Instagram | @nasahubble
+   | X | @NASAHubble
+  International Space Station | Facebook | International Space Station
+   | Instagram | @iss
+   | X | @Space_Station
+  James Webb Space Telescope | Facebook | NASA’s James Webb Space Telescope
+   | Flickr | James Webb Space Telescope
+   | Instagram | @nasawebb
+   | X | @NASAWebb
+   | YouTube | @NASAWebbTelescope
+  Nancy Grace Roman Space Telescope | Facebook | Nancy Grace Roman Space Telescope
+   | X | @NASARoman
+  NASA Moon Base | Instagram | @nasamoonbase
+   | X | @NASAMoonBase
+   |  | 
+h1 NASA Science
+table Earth Facebook "NASA Earth"
+   | Instagram | @nasaearth
+   | X | @NASAEarth
+  Mars Exploration | Facebook | NASA Mars
+   | X | @NASAMars
+  NASA Space Alerts | Facebook | NASA Space Alerts
+   | X | @NASASpaceAlerts
+  Solar System Exploration | Facebook | NASA Solar System Exploration
+   | Instagram | @nasasolarsystem
+   | X | @NASASolarSystem
+   | YouTube | @NASASolarSystem
+  Universe Exploration | Facebook | NASA Universe
+   | Instagram | @nasauniverse
+   | X | @NASAUniverse
+   |  | 
+h1 NASA Mission Directorates
+table Aeronautics Facebook "NASA Aeronautics"
+   | Instagram | @nasaaero
+   | X | @NASAaero
+  Science | Facebook | NASA Science
+   | Instagram | @nasascience_
+   | X | @NASAScience_
+   | YouTube | @NASAScience
+  Space Operations | X | @NASASpaceOps
+  Space Technology | Facebook | NASA Technology
+   | X | @NASA_Technology
+   | YouTube | @NASASpaceTech
+   |  | 
+h1 NASA Centers & Facilities
+table "Ames Research CenterSilicon Valley, California" Facebook "NASA Ames Research Center"
+   | Instagram | @nasaames
+   | X | @NASAAmes
+   | YouTube | @NASAAmes
+  Armstrong Flight Research CenterEdwards, California | Facebook | NASA’s Armstrong Flight Research Center
+   | Instagram | @nasaarmstrong
+   | X | @NASAArmstrong
+   | YouTube | @NASAArmstrong
+  Glenn Research CenterCleveland | Facebook | NASA’s Glenn Research Center
+   | Flickr | NASA Glenn Research Center
+   | Instagram | @nasaglenn
+   | X | @NASAglenn
+   | YouTube | @nasaglenn
+  Goddard Space Flight CenterGreenbelt, Maryland | Facebook | NASA’s Goddard Space Flight Center
+   | Flickr | NASA Goddard Space Flight Center
+   | Instagram | @nasagoddard
+   | X | @NASAGoddard
+   | YouTube | @NASAGoddard
+  Jet Propulsion LaboratorySouthern California | Facebook | NASA Jet Propulsion Laboratory
+   | Flickr | NASA Jet Propulsion Laboratory
+   | Instagram | @nasajpl
+   | X | @NASAJPL
+   | YouTube | @NASAJPL
+  Johnson Space CenterHouston | Facebook | NASA’s Johnson Space Center
+   | Flickr | NASA Johnson
+   | Instagram | @nasajohnson
+   | X | @NASAJohnson
+   | YouTube | @ReelNASA
+  Kennedy Space CenterFlorida | Facebook | NASA’s Kennedy Space Center
+   | Flickr | NASA Kennedy
+   | Instagram | @nasakennedy
+   | X | @NASAKennedy
+   | YouTube | @NASAKennedy
+  Langley Research CenterHampton, Virginia | Facebook | NASA Langley Research Center
+   | Flickr | NASA Langley
+   | Instagram | @nasa_langley
+   | X | @NASALangley
+   | YouTube | @NASALANGLEY
+  Marshall Space Flight CenterHuntsville, Alabama | Facebook | NASA’s Marshall Space Flight Center
+   | Flickr | NASA’s Marshall Space Flight Center
+   | Instagram | @nasa_marshall
+   | X | @NASA_Marshall
+   | YouTube | @NASAMarshall
+  Michoud Assembly FacilityNew Orleans | Facebook | NASA Michoud Assembly Facility
+  Stennis Space CenterBay St. Louis, Mississippi | Facebook | NASA’s John C. Stennis Space Center
+   | Instagram | @nasastennis
+   | X | @NASAStennis
+   | YouTube | @NASAStennis
+  Wallops Flight FacilityWallops Island, Virginia | Facebook | NASA’s Wallops Flight Facility
+   | Instagram | @nasawallops
+   | X | @NASAWallops
+   | YouTube | @NASAWallops
+   |  | 
+h1 NASA Organizations & Programs
+table "APPEL Knowledge Services" LinkedIn "NASA APPEL Knowledge Services"
+  Careers at NASA​ | LinkedIn | @NASA
+   | X | @NASApeople
+  NASA Events & Exhibits | X | @NASA_Events
+  NASA History | Facebook | NASA History
+   | Flickr | NASA on The Commons
+   | X | @NASAhistory
+  NASA Office of Inspector General | X | @NASAOIG
+   | YouTube | @nasaoig
+  NASA Office of Small Business Programs | LinkedIn | NASA Office of Small Business Programs
+  NASA Scientific and Technical Information Program | Facebook | NASA Scientific and Technical Information Program
+   | X | @NASA_STI
+   | YouTube | @NASASTIProgram
+  NASA Space Apps Challenge | Facebook | Space Apps Challenge
+   | X | @SpaceApps
+  NASA STEM Engagement | Facebook | Learn With NASA
+   | Pinterest | Learn With NASA
+   | X | @LearnWithNASA
+   | YouTube | @LearnWithNASA
+  Women at NASA | Facebook | Women at NASA
+   | X | @WomenNASA
+   |  | 
+h1 NASA Leadership
+table "NASA Administrator Jared Isaacman" Instagram @nasaadmin
+   | X | @NASAAdmin
+  Deputy Administrator Matt Anderson | X | @NASADepAdmin
+  Press Secretary Bethany Stevens | X | @NASASpox
+   |  | 
+h1 NASA Astronauts
+table "Joseph M. Acaba" X @AstroAcaba
+  S. Auñón-Chancellor | X | @AstroSerena
+  Nichole Ayers | Instagram | @astro_ayers
+  Kayla Barron | Facebook | NASA Astronaut Kayla Barron
+   | Instagram | @astro_kayla
+  Marcos Berríos | Instagram | @astro_berrios
+   | X | @astro_berrios
+  Chris (Christina) Birch | Instagram | @astro_birch
+   | X | @astro_birch
+  Eric A. Boe | X | @Astro_Boe
+  Randy Bresnik | Facebook | NASA Astronaut Randy “Komrade” Bresnik
+   | Instagram | @astrokomrade
+   | X | @AstroKomrade
+  Deniz Burnham | Instagram | @astronaut_deniz
+   | X | @astro_deniz
+  Zena Cardman | Instagram | @zena
+   | Reddit | u/zenacardman
+   | X | @zenanaut
+  Raja Chari | Facebook | NASA Astronaut Raja Chari
+   | Instagram | @astro_raja
+   | X | @Astro_Raja
+  Andre Douglas | Instagram | @astro_andred
+   | X | @Astro_AndreD
+  Jack Hathaway | Instagram | @astro_hathaway
+   | X | @astro_hathaway
+  Bob Hines | Instagram | @astro_farmerbob
+   | X | @Astro_FarmerBob
+  Warren Hoburg | Instagram | @astro.woody
+   | Reddit | u/warrenhoburg
+   | X | @Astro_Woody
+  Christina Koch | Instagram | @astro_christina
+  Kjell N. Lindgren | Instagram | @astro_kjell
+   | X | @astro_kjell
+  Nicole A. Mann | X | @AstroDuke
+  Anne C. McClain | Facebook | NASA Astronaut Anne McClain
+   | Instagram | @astro_annimal
+   | X | @AstroAnnimal
+  Jessica U. Meir | Instagram | @astro_jessica
+   | X | @Astro_Jessica
+  Anil Menon | Instagram | @astro_anil
+   | X | @astro_anil
+  Jasmin Moghbeli | Facebook | NASA Astronaut Jasmin Moghbeli
+   | Instagram | @astrojaws
+  Loral O’Hara | Instagram | @loralohara
+   | X | @lunarloral
+  Donald R. Pettit | X | @astro_Pettit
+  Frank Rubio | Facebook | Astronaut Frank Rubio
+   | Instagram | @astro_frankrubio
+  Scott D. Tingle | Instagram | @astro_maker
+  Mark T. Vande Hei | X | @Astro_Sabot
+  Jessica Watkins | Instagram | @astro_watkins
+   | X | @astro_watkins
+  Douglas H. Wheelock | X | @Astro_Wheels
+  Stephanie D. Wilson | X | @Astro_Stephanie
+  Christopher L. Williams | X | @Astro_ChrisW
+  Jessica Wittner | Instagram | @astro_wittner
+   | X | @Astro_Wittner
+   |  | 
+h1 NASA Astronaut Candidates
+table "Ben Bailey" Instagram @astro_benbailey
+   | X | @astro_benbailey
+  Lauren Edgar | Facebook | NASA Astronaut Lauren Edgar
+   | Instagram | @astronautedgar
+  Adam Fuhrmann | Instagram | @astro_fuhrmann
+   | X | @astro_fuhrmann
+  Cameron Jones | Facebook | NASA Astronaut Cameron Jones
+   | Instagram | @astro_camjones
+   | X | @astro_camjones
+  Yuri Kubo | Facebook | NASA Astronaut Yuri Kubo
+   | Instagram | @astro_kubo
+  Rebecca Lawler | Instagram | @astro_lawler
+   | X | @astro_lawler
+  Anna Menon | Instagram | @astroannamenon
+  Imelda Muller | Instagram | @astro_imelda
+  Erin Overcash | Facebook | NASA Astronaut Erin Overcash
+   | Instagram | @astro_overcash
+  Katherine Spies | Instagram | @spiesinspace
+   |  | 
+h2 Resources
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?w=150&h=150&crop=1 "NASA insignia"
+  h2 NASA Social Media Contacts
+  link "NASA Social Media Contacts" https://www.nasa.gov/social-media-contacts/
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?w=150&h=150&crop=1 "NASA insignia"
+  h2 Digital and Social Media Policy
+  link "Digital and Social Media Policy" https://www.nasa.gov/reference/nasa-digital-and-social-media-policy/
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?w=150&h=150&crop=1 "NASA insignia"
+  h2 Media Accreditation Policy
+  link "Media Accreditation Policy" https://www.nasa.gov/reference/nasa-agencywide-media-accreditation-policy/
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?w=150&h=150&crop=1 "NASA insignia"
+  h2 Communications Policy
+  link "Communications Policy" https://www.nasa.gov/reference/nasa-policy-on-the-release-of-information-to-news-and-information-media/
+image https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg "NASA Logo"
+row
+  col
+    h3 National Aeronautics and Space Administration
+    text NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.
+    link "About NASA's Mission" https://www.nasa.gov/about/
+    link "Join Us" https://www.nasa.gov/get-involved/
+  col
+    link Home https://www.nasa.gov/
+    link "News & Events" https://www.nasa.gov/news/
+    link Multimedia https://www.nasa.gov/multimedia/
+    link NASA+ https://plus.nasa.gov/
+    link Missions https://www.nasa.gov/nasa-missions/
+    link "Humans in Space" https://www.nasa.gov/humans-in-space/
+    link Earth https://science.nasa.gov/earth/
+    link "The Solar System" https://science.nasa.gov/solar-system/
+    link "The Universe" https://science.nasa.gov/universe/
+    link Science https://science.nasa.gov/
+    link Aeronautics https://www.nasa.gov/aeronautics/
+    link Technology https://www.nasa.gov/technology/
+    link "Learning Resources" https://www.nasa.gov/learning-resources/
+    link "About NASA" https://www.nasa.gov/about/
+    link "NASA en Español (opens in new tab)" https://www.nasa.gov/es/
+  col
+    h3 Follow NASA
+    row
+      link "NASA on Facebook (opens in new tab)" https://www.facebook.com/NASA
+      link "NASA on Instagram (opens in new tab)" https://www.instagram.com/nasa/
+      link "NASA on X (opens in new tab)" https://x.com/NASA
+      link "NASA on YouTube (opens in new tab)" https://www.youtube.com/@NASA
+    link "More NASA Social Accounts" https://www.nasa.gov/social-media/
+    link "NASA Newsletters" https://www.nasa.gov/nasa-newsletters/
+  col
+    link Sitemap https://www.nasa.gov/sitemap/
+    link "For Media" https://www.nasa.gov/news/nasa-media-contacts/
+    link "Privacy Policy" https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/
+    link FOIA https://www.nasa.gov/foia/
+    link "No FEAR Act" https://www.nasa.gov/no-fear-act/
+    link "Office of the IG (opens in new tab)" http://oig.nasa.gov/
+    link "Budget & Annual Reports" https://www.nasa.gov/budgets-plans-and-reports/
+    link "Agency Financial Reports" https://www.nasa.gov/organizations/budget-annual-reports/agency-financial-reports/
+    link "Contact NASA" https://www.nasa.gov/contact-nasa/
+    link Accessibility https://www.nasa.gov/accessibility/
+  row
+    row
+      text Page Last Updated:
+      text Oct 06, 2026
+    row
+      text Page Editor:
+      text Gary Daines
+    row
+      text Responsible NASA Official:
+      text Abigail Bowman

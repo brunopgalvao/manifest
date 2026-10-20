@@ -1,0 +1,773 @@
+@bulma_io_documentation_components_navbar rev=0 @0,0,728,26025
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/ @17,17,694,20
+row @17,49,694,212
+  link https://bulma.io/ https://bulma.io/ @17,145,55,20
+  row @84,56,424,198
+    link "Docs Documentation" https://bulma.io/documentation/ @84,135,67,40
+    link Expo https://bulma.io/expo/ @163,145,16,20
+    link Love https://bulma.io/love/ @191,145,16,20
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/ @219,145,27,20
+    row @258,56,250,198
+      link "Open Source on GitHub" https://github.com/jgthms/bulma @258,114,63,82
+      link "Follow me on Twitter" https://twitter.com/jgthms @333,124,56,61
+      button button @401,137,48,36
+      col @461,56,47,198
+        link "Made with Bulma" https://bulma.io/made-with-bulma/ @461,56,47,61
+        link Backers https://bulma.io/backers/ @461,129,47,20
+        link "Bulma Brand" https://bulma.io/brand/ @461,161,47,41
+        link "Bulma Extensions" https://bulma.io/extensions/ @461,214,47,40
+  col @520,49,80,212
+    button button @520,49,80,37
+    card @520,98,80,163
+      button "Light mode" @537,113,46,36
+      button "Dark mode" @537,161,46,36
+      button "System mode" success @537,209,46,37
+  col @612,78,53,154
+    button button @612,78,53,37
+    card @612,127,53,105
+      field "search input" @629,142,19,75
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @677,145,34,20
+button button @17,273,694,36
+h3 Start Here @17,321,694,19
+link Overview https://bulma.io/documentation/start/overview/ @17,352,694,20
+link Installation https://bulma.io/documentation/start/installation/ @17,384,694,20
+link "Alternative Versions" https://bulma.io/documentation/start/alternative-versions/ @17,416,694,20
+link Syntax https://bulma.io/documentation/start/syntax/ @17,448,694,21
+link Modularity https://bulma.io/documentation/start/modular/ @17,481,694,20
+link Responsiveness https://bulma.io/documentation/start/responsiveness/ @17,513,694,20
+link "Migrating to v1" https://bulma.io/documentation/start/migrating-to-v1/ @17,545,694,21
+h3 Features @17,578,694,18
+link "CSS Variables" https://bulma.io/documentation/features/css-variables/ @17,608,694,21
+link Themes https://bulma.io/documentation/features/themes/ @17,641,694,20
+link "Dark Mode" https://bulma.io/documentation/features/dark-mode/ @17,673,694,20
+link "Color Palettes" https://bulma.io/documentation/features/color-palettes/ @17,705,694,21
+link Skeletons https://bulma.io/documentation/features/skeletons/ @17,738,694,20
+h3 Sass Tools @17,770,694,19
+link Mixins https://bulma.io/documentation/sass/mixins/ @17,801,694,20
+link "Responsive mixins" https://bulma.io/documentation/sass/responsive-mixins/ @17,833,694,20
+link "Form Control mixins" https://bulma.io/documentation/sass/form-control-mixins/ @17,865,694,21
+link Extends https://bulma.io/documentation/sass/extends/ @17,898,694,20
+h3 Customization @17,930,694,19
+link Concepts https://bulma.io/documentation/customize/concepts/ @17,961,694,20
+link "With Sass" https://bulma.io/documentation/customize/with-sass/ @17,993,694,20
+link "With Modular Sass" https://bulma.io/documentation/customize/with-modular-sass/ @17,1025,694,20
+link "With CSS Variables" https://bulma.io/documentation/customize/with-css-variables/ @17,1057,694,21
+link "List of Sass variables" https://bulma.io/documentation/customize/list-of-sass-variables/ @17,1090,694,20
+h3 CSS Library @17,1122,694,19
+link Elements https://bulma.io/documentation/elements/ @17,1153,694,20
+link Block https://bulma.io/documentation/elements/block/ @17,1185,694,20
+link Box https://bulma.io/documentation/elements/box/ @17,1217,694,21
+link Button https://bulma.io/documentation/elements/button/ @17,1250,694,20
+link Content https://bulma.io/documentation/elements/content/ @17,1282,694,20
+link Delete https://bulma.io/documentation/elements/delete/ @17,1314,694,21
+link Icon https://bulma.io/documentation/elements/icon/ @17,1347,694,20
+link Image https://bulma.io/documentation/elements/image/ @17,1379,694,20
+link Notification https://bulma.io/documentation/elements/notification/ @17,1411,694,21
+link "Progress bars" https://bulma.io/documentation/elements/progress/ @17,1444,694,20
+link Table https://bulma.io/documentation/elements/table/ @17,1476,694,20
+link Tag https://bulma.io/documentation/elements/tag/ @17,1508,694,20
+link Title https://bulma.io/documentation/elements/title/ @17,1540,694,21
+link Components https://bulma.io/documentation/components/ @17,1573,694,20
+link Breadcrumb https://bulma.io/documentation/components/breadcrumb/ @17,1605,694,20
+link Card https://bulma.io/documentation/components/card/ @17,1637,694,21
+link Dropdown https://bulma.io/documentation/components/dropdown/ @17,1670,694,20
+link Menu https://bulma.io/documentation/components/menu/ @17,1702,694,20
+link Message https://bulma.io/documentation/components/message/ @17,1734,694,21
+link Modal https://bulma.io/documentation/components/modal/ @17,1767,694,20
+link Navbar https://bulma.io/documentation/components/navbar/ @17,1799,694,20
+link Pagination https://bulma.io/documentation/components/pagination/ @17,1831,694,20
+link Panel https://bulma.io/documentation/components/panel/ @17,1863,694,21
+link Tabs https://bulma.io/documentation/components/tabs/ @17,1896,694,20
+link Form https://bulma.io/documentation/form/ @17,1928,694,20
+link General https://bulma.io/documentation/form/general/ @17,1960,694,21
+link Input https://bulma.io/documentation/form/input/ @17,1993,694,20
+link Textarea https://bulma.io/documentation/form/textarea/ @17,2025,694,20
+link Select https://bulma.io/documentation/form/select/ @17,2057,694,21
+link Checkbox https://bulma.io/documentation/form/checkbox/ @17,2090,694,20
+link Radio https://bulma.io/documentation/form/radio/ @17,2122,694,20
+link File https://bulma.io/documentation/form/file/ @17,2154,694,20
+link Columns https://bulma.io/documentation/columns/ @17,2186,694,21
+link Basics https://bulma.io/documentation/columns/basics/ @17,2219,694,20
+link Sizes https://bulma.io/documentation/columns/sizes/ @17,2251,694,20
+link Responsiveness https://bulma.io/documentation/columns/responsiveness/ @17,2283,694,21
+link Nesting https://bulma.io/documentation/columns/nesting/ @17,2316,694,20
+link Gap https://bulma.io/documentation/columns/gap/ @17,2348,694,20
+link Options https://bulma.io/documentation/columns/options/ @17,2380,694,21
+link Grid https://bulma.io/documentation/grid/ @17,2413,694,20
+link "Smart Grid" https://bulma.io/documentation/grid/smart-grid/ @17,2445,694,20
+link "Fixed Grid" https://bulma.io/documentation/grid/fixed-grid/ @17,2477,694,20
+link "Grid Cells" https://bulma.io/documentation/grid/grid-cells/ @17,2509,694,21
+link Playground https://bulma.io/documentation/grid/playground/ @17,2542,694,20
+link Layout https://bulma.io/documentation/layout/ @17,2574,694,20
+link Container https://bulma.io/documentation/layout/container/ @17,2606,694,21
+link Hero https://bulma.io/documentation/layout/hero/ @17,2639,694,20
+link Section https://bulma.io/documentation/layout/section/ @17,2671,694,20
+link Level https://bulma.io/documentation/layout/level/ @17,2703,694,21
+link "Media Object" https://bulma.io/documentation/layout/media-object/ @17,2736,694,20
+link Footer https://bulma.io/documentation/layout/footer/ @17,2768,694,20
+h3 CSS Helpers @17,2800,694,19
+link Color https://bulma.io/documentation/helpers/color-helpers/ @17,2831,694,20
+link "Color Palette" https://bulma.io/documentation/helpers/palette-helpers/ @17,2863,694,21
+link Spacing https://bulma.io/documentation/helpers/spacing-helpers/ @17,2896,694,20
+link Typography https://bulma.io/documentation/helpers/typography-helpers/ @17,2928,694,20
+link Visibility https://bulma.io/documentation/helpers/visibility-helpers/ @17,2960,694,20
+link Flexbox https://bulma.io/documentation/helpers/flexbox-helpers/ @17,2992,694,21
+link Other https://bulma.io/documentation/helpers/other-helpers/ @17,3025,694,20
+text Sponsor @17,3057,694,20
+link https://www.route4me.com/ https://www.route4me.com/ @17,3089,694,21
+row @17,3122,694,135
+  col @17,3128,247,122
+    h1 Navbar @17,3128,247,25
+    h2 A responsive horizontal navbar that can support images, links, buttons, and dropdowns @17,3165,247,85
+  col @276,3122,435,135
+    card @276,3122,435,103
+      link https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYIL23KF6SDK23LFTBI523UCA7D42QECESIKK7KC6SILKJWCA7DVK3EHJNCLSIZ https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYIL23KF6SDK23LFTBI523UCA7D42QECESIKK7KC6SILKJWCA7DVK3EHJNCLSIZ @293,3137,401,20
+      link "Architectural guidance, code that runs. Free, for all levels. Start building" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYIL23KF6SDK23LFTBI523UCA7D42QECESIKK7KC6SILKJWCA7DVK3EHJNCLSIZ @293,3169,401,41
+    link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @276,3237,435,20
+text The navbar component is a responsive and versatile horizontal navigation bar with the following structure: @17,3269,694,40
+text the container @17,3321,694,21
+text navbar danger @17,3354,694,20
+text main @17,3386,694,20
+text the , , which usually contains the and optionally some links or icons @17,3418,694,21
+text navbar-brand danger @17,3451,694,20
+text left side @17,3483,694,20
+text always visible success @17,3515,694,21
+text logo @17,3548,694,20
+text navbar-burger the hamburger icon, which toggles the navbar menu on touch devices @17,3580,694,20
+text the , hidden on touch devices, visible on desktop @17,3612,694,20
+text navbar-menu danger @17,3644,694,21
+text right side @17,3677,694,20
+text navbar-start the left part of the menu, which appears next to the navbar brand on desktop @17,3709,694,20
+text the of the menu, which appears at the end of the navbar @17,3741,694,21
+text navbar-end danger @17,3774,694,20
+text right part @17,3806,694,20
+text each of the navbar, which can either be an or a @17,3838,694,21
+text navbar-item danger @17,3871,694,20
+text single item @17,3903,694,20
+text a danger @17,3935,694,20
+text div danger @17,3967,694,21
+text navbar-link a link as the sibling of a dropdown, with an arrow @17,4000,694,20
+text the , which can include navbar items and dividers @17,4032,694,20
+text navbar-dropdown danger @17,4064,694,21
+text dropdown menu @17,4097,694,20
+text navbar-divider a horizontal line to separate navbar items @17,4129,694,20
+h3 "Basic Navbar #" @17,4161,694,19
+text To get started quickly, here is what a complete basic navbar looks like: @17,4192,694,20
+row @17,4224,694,21
+  link https://bulma.io https://bulma.io @17,4224,104,21
+  row @133,4224,316,21
+    row @133,4224,200,21
+      text Home @133,4224,40,21
+      text Documentation @185,4224,101,21
+      text More @298,4224,35,21
+    row @345,4224,104,21
+      text Sign up @345,4224,51,21
+      text Log in @408,4224,41,21
+card @17,4257,694,1357
+  text <nav class="navbar" role="navigation" aria-label="main navigation"> <div class="navbar-brand"> <a class="navbar-item" href="https://bulma.io"> <svg width="640" height="160" viewBox="0 0 640 160" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M170 132.571V27.5908C170 25.5451 170.915 23.93 172.746 22.7456C174.576 21.5612 176.729 20.969 179.206 20.969H210.377C232.019 20.969 242.84 30.4441 242.84 49.3943C242.84 62.5303 238.264 71.0902 229.112 75.074C234.603 77.2275 238.748 80.2692 241.548 84.1992C244.347 88.1292 245.747 93.8627 245.747 101.4V104.791C245.747 116.743 242.84 125.437 237.026 130.875C231.211 136.312 223.351 139.031 213.445 139.031H179.206C176.514 139.031 174.307 138.385 172.584 137.093C170.861 135.801 170 134.293 170 132.571ZM190.834 120.619H209.085C219.529 120.619 224.751 114.751 224.751 103.015V100.431C224.751 94.401 223.432 90.0404 220.794 87.3486C218.156 84.6568 214.253 83.3109 209.085 83.3109H190.834V120.619ZM190.834 66.8371H208.923C213.122 66.8371 216.326 65.5989 218.533 63.1225C220.74 60.646 221.844 57.2544 221.844 52.9475C221.844 48.7483 220.686 45.4374 218.371 43.0148C216.057 40.5922 212.853 39.3809 208.762 39.3809H190.834V66.8371ZM260.283 103.015V27.4293C260.283 25.2759 261.306 23.6608 263.351 22.5841C265.397 21.5074 267.873 20.969 270.781 20.969C273.688 20.969 276.164 21.5074 278.21 22.5841C280.256 23.6608 281.279 25.2759 281.279 27.4293V103.015C281.279 115.397 287.2 121.588 299.044 121.588C310.888 121.588 316.81 115.397 316.81 103.015V27.4293C316.81 25.2759 317.833 23.6608 319.879 22.5841C321.925 21.5074 324.401 20.969 327.308 20.969C330.215 20.969 332.692 21.5074 334.738 22.5841C336.783 23.6608 337.806 25.2759 337.806 27.4293V103.015C337.806 115.72 334.28 125.061 327.227 131.036C320.175 137.012 310.781 140 299.044 140C287.308 140 277.914 137.039 270.861 131.117C263.809 125.195 260.283 115.828 260.283 103.015ZM356.703 132.409V27.4293C356.703 25.2759 357.725 23.6608 359.771 22.5841C361.817 21.5074 364.293 20.969 367.201 20.969C370.108 20.969 372.584 21.5074 374.63 22.5841C376.676 23.6608 377.699 25.2759 377.699 27.4293V120.619H417.106C419.044 120.619 420.579 121.534 421.709 123.365C422.84 125.195 423.405 127.349 423.405 129.825C423.405 132.301 422.84 134.455 421.709 136.285C420.579 138.116 419.044 139.031 417.106 139.031H365.908C363.432 139.031 361.279 138.439 359.448 137.254C357.618 136.07 356.703 134.455 356.703 132.409ZM434.872 132.409V31.467C434.872 27.9138 435.868 25.2759 437.86 23.5532C439.852 21.8304 442.355 20.969 445.37 20.969C449.354 20.969 452.423 21.6689 454.576 23.0686C456.729 24.4684 459.098 27.4832 461.682 32.1131L481.548 68.2907L501.413 32.1131C503.997 27.4832 506.393 24.4684 508.6 23.0686C510.808 21.6689 513.903 20.969 517.887 20.969C520.902 20.969 523.405 21.8304 525.397 23.5532C527.389 25.2759 528.385 27.9138 528.385 31.467V132.409C528.385 134.455 527.335 136.07 525.236 137.254C523.136 138.439 520.686 139.031 517.887 139.031C514.98 139.031 512.503 138.439 510.458 137.254C508.412 136.07 507.389 134.455 507.389 132.409V62.961L488.493 96.5545C486.985 99.354 484.616 100.754 481.386 100.754C478.264 100.754 475.949 99.354 474.441 96.5545L455.868 61.6689V132.409C455.868 134.455 454.818 136.07 452.719 137.254C450.619 138.439 448.17 139.031 445.37 139.031C442.463 139.031 439.987 138.439 437.941 137.254C435.895 136.07 434.872 134.455 434.872 132.409ZM539.529 130.31C539.529 130.094 539.637 129.556 539.852 128.694L571.023 27.1063C571.669 24.8452 573.257 23.0956 575.787 21.8573C578.318 20.6191 581.198 20 584.428 20C587.658 20 590.565 20.6191 593.149 21.8573C595.734 23.0956 597.349 24.8452 597.995 27.1063L629.166 128.694C629.381 129.556 629.489 130.094 629.489 130.31C629.489 132.678 628.035 134.724 625.128 136.447C622.221 138.17 619.26 139.031 616.245 139.031C612.261 139.031 609.892 137.631 609.139 134.832L603.001 113.351H566.016L559.879 134.832C559.125 137.631 556.756 139.031 552.773 139.031C549.65 139.031 546.662 138.197 543.809 136.528C540.956 134.859 539.529 132.786 539.529 130.31ZM570.377 96.8775H598.479L584.428 47.2948L570.377 96.8775Z" fill="black" class="bd-svg-black" /> <path fill-rule="evenodd" clip-rule="evenodd" d="M0 110L10 40L50 0L100 50L70 80L110 120L50 160L0 110Z" fill="#00D1B2"/> </svg> </a> <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> </a> </div> <div id="navbarBasicExample" class="navbar-menu"> <div class="navbar-start"> <a class="navbar-item"> Home </a> <a class="navbar-item"> Documentation </a> <div class="navbar-item has-dropdown is-hoverable"> <a class="navbar-link"> More </a> <div class="navbar-dropdown"> <a class="navbar-item"> About </a> <a class="navbar-item is-selected"> Jobs </a> <a class="navbar-item"> Contact </a> <hr class="navbar-divider"> <a class="navbar-item"> Report an issue </a> </div> </div> </div> <div class="navbar-end"> <div class="navbar-item"> <div class="buttons"> <a class="button is-primary"> <strong>Sign up</strong> </a> <a class="button is-light"> Log in </a> </div> </div> </div> </div> </nav> @34,4272,660,1278
+  button Copy success @34,5562,660,37
+h3 "Navbar brand #" @17,5626,694,19
+text The navbar-brand is the left side of the navbar. It can contain: @17,5657,694,20
+text a number of navbar-item @17,5689,694,20
+text the navbar-burger as last child @17,5721,694,20
+card @17,5753,694,119
+  text <nav class="navbar" role="navigation" aria-label="main navigation"> <div class="navbar-brand"> <!-- navbar items, navbar burger... --> </div> </nav> @34,5768,660,41
+  button Copy success @34,5821,660,36
+text The navbar brand is always visible: on both touch devices < 1024px and desktop 1024px . As a result, it is recommended to only use a few navbar items to avoid overflowing horizontally on small devices. @17,5884,694,41
+link https://bulma.io https://bulma.io @17,5937,694,20
+card @17,5969,694,1175
+  text <nav class="navbar" role="navigation" aria-label="main navigation"> <div class="navbar-brand"> <a class="navbar-item" href="https://bulma.io"> <svg width="640" height="160" viewBox="0 0 640 160" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M170 132.571V27.5908C170 25.5451 170.915 23.93 172.746 22.7456C174.576 21.5612 176.729 20.969 179.206 20.969H210.377C232.019 20.969 242.84 30.4441 242.84 49.3943C242.84 62.5303 238.264 71.0902 229.112 75.074C234.603 77.2275 238.748 80.2692 241.548 84.1992C244.347 88.1292 245.747 93.8627 245.747 101.4V104.791C245.747 116.743 242.84 125.437 237.026 130.875C231.211 136.312 223.351 139.031 213.445 139.031H179.206C176.514 139.031 174.307 138.385 172.584 137.093C170.861 135.801 170 134.293 170 132.571ZM190.834 120.619H209.085C219.529 120.619 224.751 114.751 224.751 103.015V100.431C224.751 94.401 223.432 90.0404 220.794 87.3486C218.156 84.6568 214.253 83.3109 209.085 83.3109H190.834V120.619ZM190.834 66.8371H208.923C213.122 66.8371 216.326 65.5989 218.533 63.1225C220.74 60.646 221.844 57.2544 221.844 52.9475C221.844 48.7483 220.686 45.4374 218.371 43.0148C216.057 40.5922 212.853 39.3809 208.762 39.3809H190.834V66.8371ZM260.283 103.015V27.4293C260.283 25.2759 261.306 23.6608 263.351 22.5841C265.397 21.5074 267.873 20.969 270.781 20.969C273.688 20.969 276.164 21.5074 278.21 22.5841C280.256 23.6608 281.279 25.2759 281.279 27.4293V103.015C281.279 115.397 287.2 121.588 299.044 121.588C310.888 121.588 316.81 115.397 316.81 103.015V27.4293C316.81 25.2759 317.833 23.6608 319.879 22.5841C321.925 21.5074 324.401 20.969 327.308 20.969C330.215 20.969 332.692 21.5074 334.738 22.5841C336.783 23.6608 337.806 25.2759 337.806 27.4293V103.015C337.806 115.72 334.28 125.061 327.227 131.036C320.175 137.012 310.781 140 299.044 140C287.308 140 277.914 137.039 270.861 131.117C263.809 125.195 260.283 115.828 260.283 103.015ZM356.703 132.409V27.4293C356.703 25.2759 357.725 23.6608 359.771 22.5841C361.817 21.5074 364.293 20.969 367.201 20.969C370.108 20.969 372.584 21.5074 374.63 22.5841C376.676 23.6608 377.699 25.2759 377.699 27.4293V120.619H417.106C419.044 120.619 420.579 121.534 421.709 123.365C422.84 125.195 423.405 127.349 423.405 129.825C423.405 132.301 422.84 134.455 421.709 136.285C420.579 138.116 419.044 139.031 417.106 139.031H365.908C363.432 139.031 361.279 138.439 359.448 137.254C357.618 136.07 356.703 134.455 356.703 132.409ZM434.872 132.409V31.467C434.872 27.9138 435.868 25.2759 437.86 23.5532C439.852 21.8304 442.355 20.969 445.37 20.969C449.354 20.969 452.423 21.6689 454.576 23.0686C456.729 24.4684 459.098 27.4832 461.682 32.1131L481.548 68.2907L501.413 32.1131C503.997 27.4832 506.393 24.4684 508.6 23.0686C510.808 21.6689 513.903 20.969 517.887 20.969C520.902 20.969 523.405 21.8304 525.397 23.5532C527.389 25.2759 528.385 27.9138 528.385 31.467V132.409C528.385 134.455 527.335 136.07 525.236 137.254C523.136 138.439 520.686 139.031 517.887 139.031C514.98 139.031 512.503 138.439 510.458 137.254C508.412 136.07 507.389 134.455 507.389 132.409V62.961L488.493 96.5545C486.985 99.354 484.616 100.754 481.386 100.754C478.264 100.754 475.949 99.354 474.441 96.5545L455.868 61.6689V132.409C455.868 134.455 454.818 136.07 452.719 137.254C450.619 138.439 448.17 139.031 445.37 139.031C442.463 139.031 439.987 138.439 437.941 137.254C435.895 136.07 434.872 134.455 434.872 132.409ZM539.529 130.31C539.529 130.094 539.637 129.556 539.852 128.694L571.023 27.1063C571.669 24.8452 573.257 23.0956 575.787 21.8573C578.318 20.6191 581.198 20 584.428 20C587.658 20 590.565 20.6191 593.149 21.8573C595.734 23.0956 597.349 24.8452 597.995 27.1063L629.166 128.694C629.381 129.556 629.489 130.094 629.489 130.31C629.489 132.678 628.035 134.724 625.128 136.447C622.221 138.17 619.26 139.031 616.245 139.031C612.261 139.031 609.892 137.631 609.139 134.832L603.001 113.351H566.016L559.879 134.832C559.125 137.631 556.756 139.031 552.773 139.031C549.65 139.031 546.662 138.197 543.809 136.528C540.956 134.859 539.529 132.786 539.529 130.31ZM570.377 96.8775H598.479L584.428 47.2948L570.377 96.8775Z" fill="black" class="bd-svg-black" /> <path fill-rule="evenodd" clip-rule="evenodd" d="M0 110L10 40L50 0L100 50L70 80L110 120L50 160L0 110Z" fill="#00D1B2"/> </svg> </a> <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> </a> </div> </nav> @34,5984,660,1096
+  button Copy success @34,7092,660,37
+text On desktop 1024px , the navbar brand will only take up the space it needs. @17,7156,694,20
+h3 "Navbar burger #" @17,7188,694,19
+text The navbar-burger is a hamburger menu that only appears on touch devices. It has to appear as the last child of navbar-brand. It has to contain four empty span tags in order to visualize the hamburger lines or the cross (when active). @17,7219,694,61
+row @17,7292,694,109
+  button menu @17,7328,46,36
+  col @75,7292,636,109
+    text <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false"> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> </a> @75,7292,636,61
+    button Copy success @75,7365,636,36
+text You can add the modifier class is-active to turn it into a cross. @17,7413,694,20
+row @17,7445,694,109
+  button menu @17,7482,45,36
+  col @74,7445,637,109
+    text <a class="navbar-burger is-active" role="button" aria-label="menu" aria-expanded="false"> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> </a> @74,7445,637,61
+    button Copy success @74,7518,637,36
+h3 "Navbar menu #" @17,7566,694,19
+text The navbar-menu is the counterpart of the navbar brand. As such, it must appear as a direct child of navbar, as a sibling of navbar-brand. @17,7597,694,41
+card @17,7650,694,139
+  text <nav class="navbar" role="navigation" aria-label="main navigation"> <div class="navbar-brand"> <!-- navbar items, navbar burger... --> </div> <div class="navbar-menu"> <!-- navbar start, navbar end --> </div> </nav> @34,7665,660,61
+  button Copy success @34,7738,660,36
+text The navbar-menu is hidden on touch devices < 1024px . You need to add the modifier class is-active to display it. @17,7801,694,41
+card @17,7854,694,118
+  text <div class="navbar-menu"> <!-- hidden on mobile --> </div> <div class="navbar-menu is-active"> <!-- shown on mobile --> </div> @34,7869,660,40
+  button Copy success @34,7921,660,36
+text On desktop 1024px , the navbar-menu will fill up the space available in the navbar, leaving the navbar brand just the space it needs. It needs, however, two elements as direct children: @17,7984,694,41
+text navbar-start @17,8037,694,20
+text navbar-end @17,8069,694,21
+h3 Javascript toggle @17,8102,694,18
+text The Bulma package does not come with any JavaScript. Here is however an implementation example, which toggles the class is-active on both the navbar-burger and the targeted navbar-menu, in Vanilla Javascript. primary @17,8132,694,61
+card @17,8205,694,160
+  text <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false"> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> </a> <div class="navbar-menu" id="navMenu"> <!-- navbar-start, navbar-end... --> </div> primary @34,8220,660,81
+  button Copy success @34,8313,660,37
+card @17,8377,694,220
+  text document.addEventListener('DOMContentLoaded', () => { // Get all "navbar-burger" elements const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0); // Add a click event on each of them $navbarBurgers.forEach( el => { el.addEventListener('click', () => { // Get the target from the "data-target" attribute const target = el.dataset.target; const $target = document.getElementById(target); // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu" el.classList.toggle('is-active'); $target.classList.toggle('is-active'); }); }); }); primary @34,8392,660,142
+  button Copy success @34,8546,660,36
+text And here is another implementation example, which again toggles the class is-active on both the navbar-burger and the targeted navbar-menu, but this time in jQuery. primary @17,8609,694,41
+card @17,8662,694,159
+  text $(document).ready(function() { // Check for click events on the navbar burger icon $(".navbar-burger").click(function() { // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu" $(".navbar-burger").toggleClass("is-active"); $(".navbar-menu").toggleClass("is-active"); }); }); primary @34,8677,660,81
+  button Copy success @34,8770,660,36
+text Remember, these are just implementation examples. The Bulma package does not come with any JavaScript. primary @17,8833,694,41
+h3 "Navbar start and navbar end #" @17,8886,694,19
+text The navbar-start and navbar-end are the two direct and only children of the navbar-menu. @17,8917,694,20
+text On desktop 1024px : @17,8949,694,20
+text navbar-start will appear on the left @17,8981,694,21
+text navbar-end will appear on the right @17,9014,694,20
+text Each of them can contain any number of navbar-item. @17,9046,694,20
+card @17,9078,694,119
+  text <div class="navbar-menu"> <div class="navbar-start"> <!-- navbar items --> </div> <div class="navbar-end"> <!-- navbar items --> </div> </div> @34,9093,660,41
+  button Copy success @34,9146,660,36
+h3 "Navbar item #" @17,9209,694,19
+text A navbar-item is a repeatable element that can be: @17,9240,694,20
+text a navigation @17,9272,694,20
+text link @17,9304,694,21
+card @17,9337,694,98
+  text <a class="navbar-item"> Home </a> @34,9352,660,20
+  button Copy success @34,9384,660,36
+text a container for the @17,9447,694,21
+text brand logo @17,9480,694,20
+card @17,9512,694,1093
+  text <a class="navbar-item"> <svg width="640" height="160" viewBox="0 0 640 160" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M170 132.571V27.5908C170 25.5451 170.915 23.93 172.746 22.7456C174.576 21.5612 176.729 20.969 179.206 20.969H210.377C232.019 20.969 242.84 30.4441 242.84 49.3943C242.84 62.5303 238.264 71.0902 229.112 75.074C234.603 77.2275 238.748 80.2692 241.548 84.1992C244.347 88.1292 245.747 93.8627 245.747 101.4V104.791C245.747 116.743 242.84 125.437 237.026 130.875C231.211 136.312 223.351 139.031 213.445 139.031H179.206C176.514 139.031 174.307 138.385 172.584 137.093C170.861 135.801 170 134.293 170 132.571ZM190.834 120.619H209.085C219.529 120.619 224.751 114.751 224.751 103.015V100.431C224.751 94.401 223.432 90.0404 220.794 87.3486C218.156 84.6568 214.253 83.3109 209.085 83.3109H190.834V120.619ZM190.834 66.8371H208.923C213.122 66.8371 216.326 65.5989 218.533 63.1225C220.74 60.646 221.844 57.2544 221.844 52.9475C221.844 48.7483 220.686 45.4374 218.371 43.0148C216.057 40.5922 212.853 39.3809 208.762 39.3809H190.834V66.8371ZM260.283 103.015V27.4293C260.283 25.2759 261.306 23.6608 263.351 22.5841C265.397 21.5074 267.873 20.969 270.781 20.969C273.688 20.969 276.164 21.5074 278.21 22.5841C280.256 23.6608 281.279 25.2759 281.279 27.4293V103.015C281.279 115.397 287.2 121.588 299.044 121.588C310.888 121.588 316.81 115.397 316.81 103.015V27.4293C316.81 25.2759 317.833 23.6608 319.879 22.5841C321.925 21.5074 324.401 20.969 327.308 20.969C330.215 20.969 332.692 21.5074 334.738 22.5841C336.783 23.6608 337.806 25.2759 337.806 27.4293V103.015C337.806 115.72 334.28 125.061 327.227 131.036C320.175 137.012 310.781 140 299.044 140C287.308 140 277.914 137.039 270.861 131.117C263.809 125.195 260.283 115.828 260.283 103.015ZM356.703 132.409V27.4293C356.703 25.2759 357.725 23.6608 359.771 22.5841C361.817 21.5074 364.293 20.969 367.201 20.969C370.108 20.969 372.584 21.5074 374.63 22.5841C376.676 23.6608 377.699 25.2759 377.699 27.4293V120.619H417.106C419.044 120.619 420.579 121.534 421.709 123.365C422.84 125.195 423.405 127.349 423.405 129.825C423.405 132.301 422.84 134.455 421.709 136.285C420.579 138.116 419.044 139.031 417.106 139.031H365.908C363.432 139.031 361.279 138.439 359.448 137.254C357.618 136.07 356.703 134.455 356.703 132.409ZM434.872 132.409V31.467C434.872 27.9138 435.868 25.2759 437.86 23.5532C439.852 21.8304 442.355 20.969 445.37 20.969C449.354 20.969 452.423 21.6689 454.576 23.0686C456.729 24.4684 459.098 27.4832 461.682 32.1131L481.548 68.2907L501.413 32.1131C503.997 27.4832 506.393 24.4684 508.6 23.0686C510.808 21.6689 513.903 20.969 517.887 20.969C520.902 20.969 523.405 21.8304 525.397 23.5532C527.389 25.2759 528.385 27.9138 528.385 31.467V132.409C528.385 134.455 527.335 136.07 525.236 137.254C523.136 138.439 520.686 139.031 517.887 139.031C514.98 139.031 512.503 138.439 510.458 137.254C508.412 136.07 507.389 134.455 507.389 132.409V62.961L488.493 96.5545C486.985 99.354 484.616 100.754 481.386 100.754C478.264 100.754 475.949 99.354 474.441 96.5545L455.868 61.6689V132.409C455.868 134.455 454.818 136.07 452.719 137.254C450.619 138.439 448.17 139.031 445.37 139.031C442.463 139.031 439.987 138.439 437.941 137.254C435.895 136.07 434.872 134.455 434.872 132.409ZM539.529 130.31C539.529 130.094 539.637 129.556 539.852 128.694L571.023 27.1063C571.669 24.8452 573.257 23.0956 575.787 21.8573C578.318 20.6191 581.198 20 584.428 20C587.658 20 590.565 20.6191 593.149 21.8573C595.734 23.0956 597.349 24.8452 597.995 27.1063L629.166 128.694C629.381 129.556 629.489 130.094 629.489 130.31C629.489 132.678 628.035 134.724 625.128 136.447C622.221 138.17 619.26 139.031 616.245 139.031C612.261 139.031 609.892 137.631 609.139 134.832L603.001 113.351H566.016L559.879 134.832C559.125 137.631 556.756 139.031 552.773 139.031C549.65 139.031 546.662 138.197 543.809 136.528C540.956 134.859 539.529 132.786 539.529 130.31ZM570.377 96.8775H598.479L584.428 47.2948L570.377 96.8775Z" fill="black" class="bd-svg-black" /> <path fill-rule="evenodd" clip-rule="evenodd" d="M0 110L10 40L50 0L100 50L70 80L110 120L50 160L0 110Z" fill="#00D1B2"/> </svg> </a> @34,9527,660,1015
+  button Copy success @34,10554,660,36
+text the of a dropdown menu @17,10617,694,20
+text parent @17,10649,694,21
+card @17,10682,694,119
+  text <div class="navbar-item has-dropdown"> <a class="navbar-link"> Docs </a> <div class="navbar-dropdown"> <!-- Other navbar items --> </div> </div> @34,10697,660,40
+  button Copy success @34,10749,660,37
+text a child of a @17,10813,694,20
+text navbar dropdown @17,10845,694,20
+card @17,10877,694,99
+  text <div class="navbar-dropdown"> <a class="navbar-item"> Overview </a> </div> @34,10892,660,21
+  button Copy success @34,10925,660,36
+text a container for almost you want, like a @17,10988,694,20
+text anything @17,11020,694,20
+text field danger @17,11052,694,21
+card @17,11085,694,180
+  text <div class="navbar-item"> <div class="field is-grouped"> <p class="control"> <a class="button"> <span class="icon"> <i class="fas fa-twitter" aria-hidden="true"></i> </span> <span>Tweet</span> </a> </p> <p class="control"> <a class="button is-primary"> <span class="icon"> <i class="fas fa-download" aria-hidden="true"></i> </span> <span>Download</span> </a> </p> </div> </div> @34,11100,660,101
+  button Copy success @34,11213,660,37
+text It can either be an anchor tag <a> or a <div>, as a direct child of either: @17,11277,694,20
+text navbar @17,11309,694,20
+text navbar-brand @17,11341,694,20
+text navbar-start @17,11373,694,21
+text navbar-end @17,11406,694,20
+text navbar-dropdown @17,11438,694,20
+text You can add the following modifier classes: @17,11470,694,21
+text is-expanded to turn it into a full-width element @17,11503,694,20
+text is-tab to add a bottom border on hover and show the bottom border using is-active @17,11535,694,20
+h3 "Transparent navbar #" @17,11567,694,19
+text To seamlessly integrate the navbar in any visual context, you can add the is-transparent modifier on the navbar component. This will remove any hover or active background from the navbar items. @17,11598,694,41
+text Example @17,11651,694,20
+row @17,11683,694,214
+  link https://bulma.io https://bulma.io @17,11780,104,20
+  row @133,11683,316,214
+    row @133,11683,183,214
+      link Home https://bulma.io/ @133,11780,40,20
+      row @185,11683,131,214
+        link Docs https://bulma.io/documentation/overview/start/ @185,11780,34,20
+        col @231,11683,85,214
+          link Overview https://bulma.io/documentation/overview/start/ @231,11683,85,20
+          link Modifiers https://bulma.io/documentation/overview/modifiers/ @231,11715,85,20
+          link Columns https://bulma.io/documentation/columns/basics/ @231,11747,85,21
+          link Layout https://bulma.io/documentation/layout/container/ @231,11780,85,20
+          link Form https://bulma.io/documentation/form/general/ @231,11812,85,20
+          link Elements https://bulma.io/documentation/elements/box/ @231,11844,85,21
+          link Components https://bulma.io/documentation/components/breadcrumb/ @231,11877,85,20
+    row @328,11780,121,20
+      link Tweet https://twitter.com/intent/tweet?text=Bulma:amodernCSSframeworkbasedonFlexbox&hashtags=bulmaio&url=https://bulma.io&via=jgthms @328,11780,42,20
+      link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @382,11780,67,20
+text HTML @17,11909,694,20
+button "Show code" danger @17,11941,694,37
+text <nav class="navbar is-transparent"> <div class="navbar-brand"> <a class="navbar-item" href="https://bulma.io"> <svg width="640" height="160" viewBox="0 0 640 160" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M170 132.571V27.5908C170 25.5451 170.915 23.93 172.746 22.7456C174.576 21.5612 176.729 20.969 179.206 20.969H210.377C232.019 20.969 242.84 30.4441 242.84 49.3943C242.84 62.5303 238.264 71.0902 229.112 75.074C234.603 77.2275 238.748 80.2692 241.548 84.1992C244.347 88.1292 245.747 93.8627 245.747 101.4V104.791C245.747 116.743 242.84 125.437 237.026 130.875C231.211 136.312 223.351 139.031 213.445 139.031H179.206C176.514 139.031 174.307 138.385 172.584 137.093C170.861 135.801 170 134.293 170 132.571ZM190.834 120.619H209.085C219.529 120.619 224.751 114.751 224.751 103.015V100.431C224.751 94.401 223.432 90.0404 220.794 87.3486C218.156 84.6568 214.253 83.3109 209.085 83.3109H190.834V120.619ZM190.834 66.8371H208.923C213.122 66.8371 216.326 65.5989 218.533 63.1225C220.74 60.646 221.844 57.2544 221.844 52.9475C221.844 48.7483 220.686 45.4374 218.371 43.0148C216.057 40.5922 212.853 39.3809 208.762 39.3809H190.834V66.8371ZM260.283 103.015V27.4293C260.283 25.2759 261.306 23.6608 263.351 22.5841C265.397 21.5074 267.873 20.969 270.781 20.969C273.688 20.969 276.164 21.5074 278.21 22.5841C280.256 23.6608 281.279 25.2759 281.279 27.4293V103.015C281.279 115.397 287.2 121.588 299.044 121.588C310.888 121.588 316.81 115.397 316.81 103.015V27.4293C316.81 25.2759 317.833 23.6608 319.879 22.5841C321.925 21.5074 324.401 20.969 327.308 20.969C330.215 20.969 332.692 21.5074 334.738 22.5841C336.783 23.6608 337.806 25.2759 337.806 27.4293V103.015C337.806 115.72 334.28 125.061 327.227 131.036C320.175 137.012 310.781 140 299.044 140C287.308 140 277.914 137.039 270.861 131.117C263.809 125.195 260.283 115.828 260.283 103.015ZM356.703 132.409V27.4293C356.703 25.2759 357.725 23.6608 359.771 22.5841C361.817 21.5074 364.293 20.969 367.201 20.969C370.108 20.969 372.584 21.5074 374.63 22.5841C376.676 23.6608 377.699 25.2759 377.699 27.4293V120.619H417.106C419.044 120.619 420.579 121.534 421.709 123.365C422.84 125.195 423.405 127.349 423.405 129.825C423.405 132.301 422.84 134.455 421.709 136.285C420.579 138.116 419.044 139.031 417.106 139.031H365.908C363.432 139.031 361.279 138.439 359.448 137.254C357.618 136.07 356.703 134.455 356.703 132.409ZM434.872 132.409V31.467C434.872 27.9138 435.868 25.2759 437.86 23.5532C439.852 21.8304 442.355 20.969 445.37 20.969C449.354 20.969 452.423 21.6689 454.576 23.0686C456.729 24.4684 459.098 27.4832 461.682 32.1131L481.548 68.2907L501.413 32.1131C503.997 27.4832 506.393 24.4684 508.6 23.0686C510.808 21.6689 513.903 20.969 517.887 20.969C520.902 20.969 523.405 21.8304 525.397 23.5532C527.389 25.2759 528.385 27.9138 528.385 31.467V132.409C528.385 134.455 527.335 136.07 525.236 137.254C523.136 138.439 520.686 139.031 517.887 139.031C514.98 139.031 512.503 138.439 510.458 137.254C508.412 136.07 507.389 134.455 507.389 132.409V62.961L488.493 96.5545C486.985 99.354 484.616 100.754 481.386 100.754C478.264 100.754 475.949 99.354 474.441 96.5545L455.868 61.6689V132.409C455.868 134.455 454.818 136.07 452.719 137.254C450.619 138.439 448.17 139.031 445.37 139.031C442.463 139.031 439.987 138.439 437.941 137.254C435.895 136.07 434.872 134.455 434.872 132.409ZM539.529 130.31C539.529 130.094 539.637 129.556 539.852 128.694L571.023 27.1063C571.669 24.8452 573.257 23.0956 575.787 21.8573C578.318 20.6191 581.198 20 584.428 20C587.658 20 590.565 20.6191 593.149 21.8573C595.734 23.0956 597.349 24.8452 597.995 27.1063L629.166 128.694C629.381 129.556 629.489 130.094 629.489 130.31C629.489 132.678 628.035 134.724 625.128 136.447C622.221 138.17 619.26 139.031 616.245 139.031C612.261 139.031 609.892 137.631 609.139 134.832L603.001 113.351H566.016L559.879 134.832C559.125 137.631 556.756 139.031 552.773 139.031C549.65 139.031 546.662 138.197 543.809 136.528C540.956 134.859 539.529 132.786 539.529 130.31ZM570.377 96.8775H598.479L584.428 47.2948L570.377 96.8775Z" fill="black" class="bd-svg-black" /> <path fill-rule="evenodd" clip-rule="evenodd" d="M0 110L10 40L50 0L100 50L70 80L110 120L50 160L0 110Z" fill="#00D1B2"/> </svg> </a> <div class="navbar-burger js-burger" data-target="navbarExampleTransparentExample"> <span></span> <span></span> <span></span> <span></span> </div> </div> <div id="navbarExampleTransparentExample" class="navbar-menu"> <div class="navbar-start"> <a class="navbar-item" href="https://bulma.io/"> Home </a> <div class="navbar-item has-dropdown is-active"> <a class="navbar-link" href="https://bulma.io/documentation/overview/start/"> Docs </a> <div class="navbar-dropdown is-boxed"> <a class="navbar-item" href="https://bulma.io/documentation/overview/start/"> Overview </a> <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/"> Modifiers </a> <hr class="navbar-divider"> <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/"> Columns </a> <a class="navbar-item is-selected" href="https://bulma.io/documentation/layout/container/"> Layout </a> <a class="navbar-item" href="https://bulma.io/documentation/form/general/"> Form </a> <a class="navbar-item" href="https://bulma.io/documentation/elements/box/"> Elements </a> <a class="navbar-item" href="https://bulma.io/documentation/components/breadcrumb/"> Components </a> </div> </div> </div> <div class="navbar-end"> <div class="navbar-item"> <div class="field is-grouped"> <p class="control"> <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms" > <span class="icon"> <i class="fab fa-twitter"></i> </span> <span> Tweet </span> </a> </p> <p class="control"> <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip"> <span class="icon"> <i class="fas fa-download"></i> </span> <span>Download</span> </a> </p> </div> </div> </div> </div> </nav> @17,11990,694,1441
+button Copy danger @17,13443,694,36
+h3 "Fixed navbar #" @17,13491,694,19
+text You can now fix the navbar to either the top or bottom of the page. This is a 2-step process: @17,13522,694,20
+text Add either or to the component @17,13554,694,21
+text is-fixed-top danger @17,13587,694,20
+text is-fixed-bottom danger @17,13619,694,20
+text navbar danger @17,13651,694,20
+card @17,13683,694,99
+  text <nav class="navbar is-fixed-top"> @34,13698,660,21
+  button Copy success @34,13731,660,36
+text Add the corresponding or modifier to either or element to provide the appropriate padding to the page @17,13794,694,20
+text has-navbar-fixed-top danger @17,13826,694,21
+text has-navbar-fixed-bottom danger @17,13859,694,20
+text <html> danger @17,13891,694,20
+text <body> danger @17,13923,694,21
+card @17,13956,694,98
+  text <html class="has-navbar-fixed-top"> @34,13971,660,20
+  button Copy success @34,14003,660,36
+h3 Try it out! @17,14066,694,19
+card @17,14097,694,50
+  text Show bottom navbar @34,14112,660,20
+h3 "Dropdown menu #" @17,14159,694,19
+text To create a dropdown menu, you will need 4 elements: @17,14190,694,20
+text navbar-item with the has-dropdown modifier @17,14222,694,21
+text navbar-link which contains the dropdown arrow @17,14255,694,20
+text navbar-dropdown which can contain instances of navbar-item and navbar-divider @17,14287,694,20
+row @17,14319,694,150
+  text Docs @17,14384,8,20
+  col @37,14319,674,150
+    text <nav class="navbar" role="navigation" aria-label="dropdown navigation"> <div class="navbar-item has-dropdown"> <a class="navbar-link"> Docs </a> <div class="navbar-dropdown"> <a class="navbar-item"> Overview </a> <a class="navbar-item"> Elements </a> <a class="navbar-item"> Components </a> <hr class="navbar-divider"> <div class="navbar-item"> Version 1.0.4 </div> </div> </div> </nav> @37,14319,674,102
+    button Copy success @37,14433,674,36
+h3 Show/hide the dropdown with either CSS or JavaScript @17,14481,694,19
+text The navbar-dropdown is visible on touch devices < 1024px but hidden on desktop 1024px . How the dropdown is displayed on desktop depends on the parent's class. @17,14512,694,40
+text The navbar-item with the has-dropdown modifier, has 2 additional modifiers @17,14564,694,21
+text is-hoverable: the dropdown will show up when hovering the parent navbar-item @17,14597,694,20
+text is-active: the dropdown will show up all the time @17,14629,694,20
+text While the CSS :hover implementation works perfectly, the is-active class is available for users who want to control the display of the dropdown with JavaScript. success @17,14661,694,41
+card @17,14714,694,119
+  text <div class="navbar-item has-dropdown is-hoverable"> <!-- navbar-link, navbar-dropdown etc. --> </div> @34,14729,660,40
+  button Copy success @34,14781,660,37
+row @17,14845,694,149
+  text Docs @17,14909,8,21
+  col @37,14845,674,149
+    text <nav class="navbar" role="navigation" aria-label="dropdown navigation"> <div class="navbar-item has-dropdown is-hoverable"> <a class="navbar-link"> Docs </a> <div class="navbar-dropdown"> <a class="navbar-item"> Overview </a> <a class="navbar-item"> Elements </a> <a class="navbar-item"> Components </a> <hr class="navbar-divider"> <div class="navbar-item"> Version 1.0.4 </div> </div> </div> </nav> @37,14845,674,101
+    button Copy success @37,14958,674,36
+card @17,15006,694,119
+  text <div class="navbar-item has-dropdown is-active"> <!-- navbar-link, navbar-dropdown etc. --> </div> @34,15021,660,41
+  button Copy success @34,15074,660,36
+row @17,15137,694,150
+  row @17,15144,31,137
+    text Docs @17,15202,5,20
+    col @34,15144,14,137
+      text Overview @34,15144,14,20
+      text Elements @34,15176,14,20
+      text Components @34,15208,14,20
+      text Version 1.0.4 @34,15240,14,41
+  col @60,15137,651,150
+    text <nav class="navbar" role="navigation" aria-label="dropdown navigation"> <div class="navbar-item has-dropdown is-active"> <a class="navbar-link"> Docs </a> <div class="navbar-dropdown"> <a class="navbar-item"> Overview </a> <a class="navbar-item"> Elements </a> <a class="navbar-item"> Components </a> <hr class="navbar-divider"> <div class="navbar-item"> Version 1.0.4 </div> </div> </div> </nav> @60,15137,651,102
+    button Copy success @60,15251,651,36
+h3 Right dropdown @17,15299,694,19
+text If your parent navbar-item is on the right side, you can position the dropdown to start from the right with the is-right modifier. @17,15330,694,41
+card @17,15383,694,98
+  text <div class="navbar-dropdown is-right"> <!-- navbar-item, navbar-divider etc. --> </div> @34,15398,660,20
+  button Copy success @34,15430,660,36
+row @17,15493,694,365
+  col @17,15493,31,365
+    row @17,15493,31,138
+      row @17,15493,9,138
+        text Left @17,15552,0,20
+        col @29,15493,0,138
+          text Overview @29,15493,0,20
+          text Elements @29,15525,0,21
+          text Components @29,15558,0,20
+          text Version 1.0.4 @29,15590,0,41
+      row @38,15493,10,138
+        text Right @38,15552,0,20
+        col @50,15493,0,138
+          text Overview @50,15493,0,20
+          text Elements @50,15525,0,21
+          text Components @50,15558,0,20
+          text Version 1.0.4 @50,15590,0,41
+    text Documentation @17,15643,31,20
+    text Everything you need to create a website with Bulma @17,15675,31,183
+  col @60,15529,651,292
+    text <nav class="navbar" role="navigation" aria-label="dropdown navigation"> <div class="navbar-menu"> <div class="navbar-start"> <div class="navbar-item has-dropdown is-active"> <a class="navbar-link"> Left </a> <div class="navbar-dropdown"> <a class="navbar-item"> Overview </a> <a class="navbar-item"> Elements </a> <a class="navbar-item"> Components </a> <hr class="navbar-divider"> <div class="navbar-item"> Version 1.0.4 </div> </div> </div> </div> <div class="navbar-end"> <div class="navbar-item has-dropdown is-active"> <a class="navbar-link"> Right </a> <div class="navbar-dropdown is-right"> <a class="navbar-item"> Overview </a> <a class="navbar-item"> Elements </a> <a class="navbar-item"> Components </a> <hr class="navbar-divider"> <div class="navbar-item"> Version 1.0.4 </div> </div> </div> </div> </div> </nav> <section class="hero is-primary"> <div class="hero-body"> <p class="title"> Documentation </p> <p class="subtitle"> Everything you need to <strong>create a website</strong> with Bulma </p> </div> </section> @60,15529,651,244
+    button Copy success @60,15785,651,36
+h3 Dropup @17,15870,694,18
+text If you're using a navbar at the bottom, like the , you might want to use a . Simply add the and modifiers to the parent . @17,15900,694,41
+link "fixed bottom navbar" #fixed-navbar @17,15953,694,20
+text dropup menu @17,15985,694,21
+text has-dropdown danger @17,16018,694,20
+text has-dropdown-up danger @17,16050,694,20
+text navbar-item danger @17,16082,694,20
+card @17,16114,694,160
+  text <div class="navbar-item has-dropdown has-dropdown-up is-hoverable"> <a class="navbar-link" href="https://bulma.io/documentation/overview/start/"> Docs </a> <div class="navbar-dropdown"> <a class="navbar-item" href="https://bulma.io/documentation/overview/start/"> Overview </a> </div> </div> @34,16129,660,82
+  button Copy success @34,16223,660,36
+row @17,16286,694,364
+  col @17,16286,45,364
+    text Documentation @17,16286,45,20
+    text Everything you need to create a website with Bulma @17,16318,45,183
+    row @17,16513,45,137
+      text Dropup @17,16572,12,20
+      col @41,16513,21,137
+        text Overview @41,16513,21,20
+        text Elements @41,16545,21,21
+        text Components @41,16578,21,20
+        text Version 1.0.4 @41,16610,21,40
+  col @74,16363,637,211
+    text <section class="hero is-primary"> <div class="hero-body"> <p class="title"> Documentation </p> <p class="subtitle"> Everything you need to <strong>create a website</strong> with Bulma </p> </div> </section> <nav class="navbar" role="navigation" aria-label="dropdown navigation"> <div class="navbar-menu"> <div class="navbar-start"> <div class="navbar-item has-dropdown has-dropdown-up is-active"> <a class="navbar-link"> Dropup </a> <div class="navbar-dropdown"> <a class="navbar-item"> Overview </a> <a class="navbar-item"> Elements </a> <a class="navbar-item"> Components </a> <hr class="navbar-divider"> <div class="navbar-item"> Version 1.0.4 </div> </div> </div> </div> </div> </nav> @74,16363,637,162
+    button Copy success @74,16537,637,37
+h3 Dropdown without arrow @17,16662,694,19
+text You can remove the arrow in the items of the navbar by adding the is-arrowless modifier to them. @17,16693,694,21
+card @17,16726,694,118
+  text <div class="navbar-item has-dropdown is-hoverable"> <a class="navbar-link is-arrowless"> Docs </a> <!-- navbar-dropdowns --> </div> @34,16741,660,40
+  button Copy success @34,16793,660,36
+row @17,16856,694,130
+  text Link without arrow @17,16891,33,61
+  col @62,16856,649,130
+    text <div class="navbar-item has-dropdown is-hoverable"> <a class="navbar-link is-arrowless"> Link without arrow </a> <div class="navbar-dropdown"> <a class="navbar-item"> Overview </a> <a class="navbar-item"> Elements </a> <a class="navbar-item"> Components </a> <hr class="navbar-divider"> <div class="navbar-item"> Version 1.0.4 </div> </div> </div> @62,16856,649,82
+    button Copy success @62,16950,649,36
+h3 Styles for the dropdown menu @17,16998,694,19
+text By default, the navbar-dropdown has: @17,17029,694,20
+text a grey border-top @17,17061,694,20
+text a border-radius at both bottom corners @17,17093,694,21
+row @17,17126,694,1164
+  col @17,17526,7,364
+    row @17,17526,7,137
+      region 112x28 @17,17594,0,0 [2 shapes, 0 labelled]
+      row @29,17526,0,137
+        text Docs @29,17584,0,21
+        col @41,17526,0,137
+          text Overview @41,17526,0,20
+          text Elements @41,17558,0,20
+          text Components @41,17590,0,21
+          text Version 1.0.4 @41,17623,0,40
+    text Documentation @17,17675,7,21
+    text Everything you need to create a website with Bulma @17,17708,7,182
+  col @36,17126,675,1164
+    text <nav class="navbar" role="navigation" aria-label="dropdown navigation"> <a class="navbar-item"> <svg width="640" height="160" viewBox="0 0 640 160" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M170 132.571V27.5908C170 25.5451 170.915 23.93 172.746 22.7456C174.576 21.5612 176.729 20.969 179.206 20.969H210.377C232.019 20.969 242.84 30.4441 242.84 49.3943C242.84 62.5303 238.264 71.0902 229.112 75.074C234.603 77.2275 238.748 80.2692 241.548 84.1992C244.347 88.1292 245.747 93.8627 245.747 101.4V104.791C245.747 116.743 242.84 125.437 237.026 130.875C231.211 136.312 223.351 139.031 213.445 139.031H179.206C176.514 139.031 174.307 138.385 172.584 137.093C170.861 135.801 170 134.293 170 132.571ZM190.834 120.619H209.085C219.529 120.619 224.751 114.751 224.751 103.015V100.431C224.751 94.401 223.432 90.0404 220.794 87.3486C218.156 84.6568 214.253 83.3109 209.085 83.3109H190.834V120.619ZM190.834 66.8371H208.923C213.122 66.8371 216.326 65.5989 218.533 63.1225C220.74 60.646 221.844 57.2544 221.844 52.9475C221.844 48.7483 220.686 45.4374 218.371 43.0148C216.057 40.5922 212.853 39.3809 208.762 39.3809H190.834V66.8371ZM260.283 103.015V27.4293C260.283 25.2759 261.306 23.6608 263.351 22.5841C265.397 21.5074 267.873 20.969 270.781 20.969C273.688 20.969 276.164 21.5074 278.21 22.5841C280.256 23.6608 281.279 25.2759 281.279 27.4293V103.015C281.279 115.397 287.2 121.588 299.044 121.588C310.888 121.588 316.81 115.397 316.81 103.015V27.4293C316.81 25.2759 317.833 23.6608 319.879 22.5841C321.925 21.5074 324.401 20.969 327.308 20.969C330.215 20.969 332.692 21.5074 334.738 22.5841C336.783 23.6608 337.806 25.2759 337.806 27.4293V103.015C337.806 115.72 334.28 125.061 327.227 131.036C320.175 137.012 310.781 140 299.044 140C287.308 140 277.914 137.039 270.861 131.117C263.809 125.195 260.283 115.828 260.283 103.015ZM356.703 132.409V27.4293C356.703 25.2759 357.725 23.6608 359.771 22.5841C361.817 21.5074 364.293 20.969 367.201 20.969C370.108 20.969 372.584 21.5074 374.63 22.5841C376.676 23.6608 377.699 25.2759 377.699 27.4293V120.619H417.106C419.044 120.619 420.579 121.534 421.709 123.365C422.84 125.195 423.405 127.349 423.405 129.825C423.405 132.301 422.84 134.455 421.709 136.285C420.579 138.116 419.044 139.031 417.106 139.031H365.908C363.432 139.031 361.279 138.439 359.448 137.254C357.618 136.07 356.703 134.455 356.703 132.409ZM434.872 132.409V31.467C434.872 27.9138 435.868 25.2759 437.86 23.5532C439.852 21.8304 442.355 20.969 445.37 20.969C449.354 20.969 452.423 21.6689 454.576 23.0686C456.729 24.4684 459.098 27.4832 461.682 32.1131L481.548 68.2907L501.413 32.1131C503.997 27.4832 506.393 24.4684 508.6 23.0686C510.808 21.6689 513.903 20.969 517.887 20.969C520.902 20.969 523.405 21.8304 525.397 23.5532C527.389 25.2759 528.385 27.9138 528.385 31.467V132.409C528.385 134.455 527.335 136.07 525.236 137.254C523.136 138.439 520.686 139.031 517.887 139.031C514.98 139.031 512.503 138.439 510.458 137.254C508.412 136.07 507.389 134.455 507.389 132.409V62.961L488.493 96.5545C486.985 99.354 484.616 100.754 481.386 100.754C478.264 100.754 475.949 99.354 474.441 96.5545L455.868 61.6689V132.409C455.868 134.455 454.818 136.07 452.719 137.254C450.619 138.439 448.17 139.031 445.37 139.031C442.463 139.031 439.987 138.439 437.941 137.254C435.895 136.07 434.872 134.455 434.872 132.409ZM539.529 130.31C539.529 130.094 539.637 129.556 539.852 128.694L571.023 27.1063C571.669 24.8452 573.257 23.0956 575.787 21.8573C578.318 20.6191 581.198 20 584.428 20C587.658 20 590.565 20.6191 593.149 21.8573C595.734 23.0956 597.349 24.8452 597.995 27.1063L629.166 128.694C629.381 129.556 629.489 130.094 629.489 130.31C629.489 132.678 628.035 134.724 625.128 136.447C622.221 138.17 619.26 139.031 616.245 139.031C612.261 139.031 609.892 137.631 609.139 134.832L603.001 113.351H566.016L559.879 134.832C559.125 137.631 556.756 139.031 552.773 139.031C549.65 139.031 546.662 138.197 543.809 136.528C540.956 134.859 539.529 132.786 539.529 130.31ZM570.377 96.8775H598.479L584.428 47.2948L570.377 96.8775Z" fill="black" class="bd-svg-black" /> <path fill-rule="evenodd" clip-rule="evenodd" d="M0 110L10 40L50 0L100 50L70 80L110 120L50 160L0 110Z" fill="#00D1B2"/> </svg> </a> <div class="navbar-item has-dropdown is-active"> <a class="navbar-link"> Docs </a> <div class="navbar-dropdown"> <a class="navbar-item"> Overview </a> <a class="navbar-item"> Elements </a> <a class="navbar-item"> Components </a> <hr class="navbar-divider"> <div class="navbar-item"> Version 1.0.4 </div> </div> </div> </nav> <section class="hero is-primary"> <div class="hero-body"> <p class="title"> Documentation </p> <p class="subtitle"> Everything you need to <strong>create a website</strong> with Bulma </p> </div> </section> @36,17126,675,1116
+    button Copy success @36,18254,675,36
+text When having a , it is preferable to use the boxed version of the dropdown, by using the modifier. @17,18302,694,21
+row @17,18335,694,20
+  link "transparent navbar" #transparent-navbar @17,18335,126,20
+  text is-boxed danger @155,18335,59,20
+text the grey border is removed @17,18367,694,20
+text a slight inner shadow is added @17,18399,694,21
+text all corners are rounded @17,18432,694,20
+text the hover/active state is animated @17,18464,694,20
+row @17,18496,694,1185
+  col @17,18906,7,365
+    row @17,18906,7,138
+      region 112x28 @17,18975,0,0 [2 shapes, 0 labelled]
+      row @29,18906,0,138
+        text Docs @29,18965,0,20
+        col @41,18906,0,138
+          text Overview @41,18906,0,21
+          text Elements @41,18939,0,20
+          text Components @41,18971,0,20
+          text Version 1.0.4 @41,19003,0,41
+    text Documentation @17,19056,7,20
+    text Everything you need to create a website with Bulma @17,19088,7,183
+  col @36,18496,675,1185
+    text <nav class="navbar is-transparent" role="navigation" aria-label="dropdown navigation"> <a class="navbar-item"> <svg width="640" height="160" viewBox="0 0 640 160" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M170 132.571V27.5908C170 25.5451 170.915 23.93 172.746 22.7456C174.576 21.5612 176.729 20.969 179.206 20.969H210.377C232.019 20.969 242.84 30.4441 242.84 49.3943C242.84 62.5303 238.264 71.0902 229.112 75.074C234.603 77.2275 238.748 80.2692 241.548 84.1992C244.347 88.1292 245.747 93.8627 245.747 101.4V104.791C245.747 116.743 242.84 125.437 237.026 130.875C231.211 136.312 223.351 139.031 213.445 139.031H179.206C176.514 139.031 174.307 138.385 172.584 137.093C170.861 135.801 170 134.293 170 132.571ZM190.834 120.619H209.085C219.529 120.619 224.751 114.751 224.751 103.015V100.431C224.751 94.401 223.432 90.0404 220.794 87.3486C218.156 84.6568 214.253 83.3109 209.085 83.3109H190.834V120.619ZM190.834 66.8371H208.923C213.122 66.8371 216.326 65.5989 218.533 63.1225C220.74 60.646 221.844 57.2544 221.844 52.9475C221.844 48.7483 220.686 45.4374 218.371 43.0148C216.057 40.5922 212.853 39.3809 208.762 39.3809H190.834V66.8371ZM260.283 103.015V27.4293C260.283 25.2759 261.306 23.6608 263.351 22.5841C265.397 21.5074 267.873 20.969 270.781 20.969C273.688 20.969 276.164 21.5074 278.21 22.5841C280.256 23.6608 281.279 25.2759 281.279 27.4293V103.015C281.279 115.397 287.2 121.588 299.044 121.588C310.888 121.588 316.81 115.397 316.81 103.015V27.4293C316.81 25.2759 317.833 23.6608 319.879 22.5841C321.925 21.5074 324.401 20.969 327.308 20.969C330.215 20.969 332.692 21.5074 334.738 22.5841C336.783 23.6608 337.806 25.2759 337.806 27.4293V103.015C337.806 115.72 334.28 125.061 327.227 131.036C320.175 137.012 310.781 140 299.044 140C287.308 140 277.914 137.039 270.861 131.117C263.809 125.195 260.283 115.828 260.283 103.015ZM356.703 132.409V27.4293C356.703 25.2759 357.725 23.6608 359.771 22.5841C361.817 21.5074 364.293 20.969 367.201 20.969C370.108 20.969 372.584 21.5074 374.63 22.5841C376.676 23.6608 377.699 25.2759 377.699 27.4293V120.619H417.106C419.044 120.619 420.579 121.534 421.709 123.365C422.84 125.195 423.405 127.349 423.405 129.825C423.405 132.301 422.84 134.455 421.709 136.285C420.579 138.116 419.044 139.031 417.106 139.031H365.908C363.432 139.031 361.279 138.439 359.448 137.254C357.618 136.07 356.703 134.455 356.703 132.409ZM434.872 132.409V31.467C434.872 27.9138 435.868 25.2759 437.86 23.5532C439.852 21.8304 442.355 20.969 445.37 20.969C449.354 20.969 452.423 21.6689 454.576 23.0686C456.729 24.4684 459.098 27.4832 461.682 32.1131L481.548 68.2907L501.413 32.1131C503.997 27.4832 506.393 24.4684 508.6 23.0686C510.808 21.6689 513.903 20.969 517.887 20.969C520.902 20.969 523.405 21.8304 525.397 23.5532C527.389 25.2759 528.385 27.9138 528.385 31.467V132.409C528.385 134.455 527.335 136.07 525.236 137.254C523.136 138.439 520.686 139.031 517.887 139.031C514.98 139.031 512.503 138.439 510.458 137.254C508.412 136.07 507.389 134.455 507.389 132.409V62.961L488.493 96.5545C486.985 99.354 484.616 100.754 481.386 100.754C478.264 100.754 475.949 99.354 474.441 96.5545L455.868 61.6689V132.409C455.868 134.455 454.818 136.07 452.719 137.254C450.619 138.439 448.17 139.031 445.37 139.031C442.463 139.031 439.987 138.439 437.941 137.254C435.895 136.07 434.872 134.455 434.872 132.409ZM539.529 130.31C539.529 130.094 539.637 129.556 539.852 128.694L571.023 27.1063C571.669 24.8452 573.257 23.0956 575.787 21.8573C578.318 20.6191 581.198 20 584.428 20C587.658 20 590.565 20.6191 593.149 21.8573C595.734 23.0956 597.349 24.8452 597.995 27.1063L629.166 128.694C629.381 129.556 629.489 130.094 629.489 130.31C629.489 132.678 628.035 134.724 625.128 136.447C622.221 138.17 619.26 139.031 616.245 139.031C612.261 139.031 609.892 137.631 609.139 134.832L603.001 113.351H566.016L559.879 134.832C559.125 137.631 556.756 139.031 552.773 139.031C549.65 139.031 546.662 138.197 543.809 136.528C540.956 134.859 539.529 132.786 539.529 130.31ZM570.377 96.8775H598.479L584.428 47.2948L570.377 96.8775Z" fill="black" class="bd-svg-black" /> <path fill-rule="evenodd" clip-rule="evenodd" d="M0 110L10 40L50 0L100 50L70 80L110 120L50 160L0 110Z" fill="#00D1B2"/> </svg> </a> <div class="navbar-item has-dropdown is-active"> <a class="navbar-link"> Docs </a> <div class="navbar-dropdown is-boxed"> <a class="navbar-item"> Overview </a> <a class="navbar-item"> Elements </a> <a class="navbar-item"> Components </a> <hr class="navbar-divider"> <div class="navbar-item"> Version 1.0.4 </div> </div> </div> </nav> <section class="hero"> <div class="hero-body"> <p class="title"> Documentation </p> <p class="subtitle"> Everything you need to <strong>create a website</strong> with Bulma </p> </div> </section> @36,18496,675,1137
+    button Copy success @36,19645,675,36
+h3 Active dropdown navbar item @17,19693,694,19
+row @17,19724,694,1185
+  col @17,20134,7,365
+    row @17,20134,7,138
+      region 112x28 @17,20203,0,0 [2 shapes, 0 labelled]
+      row @29,20134,0,138
+        text Docs @29,20193,0,20
+        col @41,20134,0,138
+          text Overview @41,20134,0,21
+          text Elements @41,20167,0,20
+          text Components @41,20199,0,20
+          text Version 1.0.4 @41,20231,0,41
+    text Documentation @17,20284,7,20
+    text Everything you need to create a website with Bulma @17,20316,7,183
+  col @36,19724,675,1185
+    text <nav class="navbar" role="navigation" aria-label="dropdown navigation"> <a class="navbar-item"> <svg width="640" height="160" viewBox="0 0 640 160" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M170 132.571V27.5908C170 25.5451 170.915 23.93 172.746 22.7456C174.576 21.5612 176.729 20.969 179.206 20.969H210.377C232.019 20.969 242.84 30.4441 242.84 49.3943C242.84 62.5303 238.264 71.0902 229.112 75.074C234.603 77.2275 238.748 80.2692 241.548 84.1992C244.347 88.1292 245.747 93.8627 245.747 101.4V104.791C245.747 116.743 242.84 125.437 237.026 130.875C231.211 136.312 223.351 139.031 213.445 139.031H179.206C176.514 139.031 174.307 138.385 172.584 137.093C170.861 135.801 170 134.293 170 132.571ZM190.834 120.619H209.085C219.529 120.619 224.751 114.751 224.751 103.015V100.431C224.751 94.401 223.432 90.0404 220.794 87.3486C218.156 84.6568 214.253 83.3109 209.085 83.3109H190.834V120.619ZM190.834 66.8371H208.923C213.122 66.8371 216.326 65.5989 218.533 63.1225C220.74 60.646 221.844 57.2544 221.844 52.9475C221.844 48.7483 220.686 45.4374 218.371 43.0148C216.057 40.5922 212.853 39.3809 208.762 39.3809H190.834V66.8371ZM260.283 103.015V27.4293C260.283 25.2759 261.306 23.6608 263.351 22.5841C265.397 21.5074 267.873 20.969 270.781 20.969C273.688 20.969 276.164 21.5074 278.21 22.5841C280.256 23.6608 281.279 25.2759 281.279 27.4293V103.015C281.279 115.397 287.2 121.588 299.044 121.588C310.888 121.588 316.81 115.397 316.81 103.015V27.4293C316.81 25.2759 317.833 23.6608 319.879 22.5841C321.925 21.5074 324.401 20.969 327.308 20.969C330.215 20.969 332.692 21.5074 334.738 22.5841C336.783 23.6608 337.806 25.2759 337.806 27.4293V103.015C337.806 115.72 334.28 125.061 327.227 131.036C320.175 137.012 310.781 140 299.044 140C287.308 140 277.914 137.039 270.861 131.117C263.809 125.195 260.283 115.828 260.283 103.015ZM356.703 132.409V27.4293C356.703 25.2759 357.725 23.6608 359.771 22.5841C361.817 21.5074 364.293 20.969 367.201 20.969C370.108 20.969 372.584 21.5074 374.63 22.5841C376.676 23.6608 377.699 25.2759 377.699 27.4293V120.619H417.106C419.044 120.619 420.579 121.534 421.709 123.365C422.84 125.195 423.405 127.349 423.405 129.825C423.405 132.301 422.84 134.455 421.709 136.285C420.579 138.116 419.044 139.031 417.106 139.031H365.908C363.432 139.031 361.279 138.439 359.448 137.254C357.618 136.07 356.703 134.455 356.703 132.409ZM434.872 132.409V31.467C434.872 27.9138 435.868 25.2759 437.86 23.5532C439.852 21.8304 442.355 20.969 445.37 20.969C449.354 20.969 452.423 21.6689 454.576 23.0686C456.729 24.4684 459.098 27.4832 461.682 32.1131L481.548 68.2907L501.413 32.1131C503.997 27.4832 506.393 24.4684 508.6 23.0686C510.808 21.6689 513.903 20.969 517.887 20.969C520.902 20.969 523.405 21.8304 525.397 23.5532C527.389 25.2759 528.385 27.9138 528.385 31.467V132.409C528.385 134.455 527.335 136.07 525.236 137.254C523.136 138.439 520.686 139.031 517.887 139.031C514.98 139.031 512.503 138.439 510.458 137.254C508.412 136.07 507.389 134.455 507.389 132.409V62.961L488.493 96.5545C486.985 99.354 484.616 100.754 481.386 100.754C478.264 100.754 475.949 99.354 474.441 96.5545L455.868 61.6689V132.409C455.868 134.455 454.818 136.07 452.719 137.254C450.619 138.439 448.17 139.031 445.37 139.031C442.463 139.031 439.987 138.439 437.941 137.254C435.895 136.07 434.872 134.455 434.872 132.409ZM539.529 130.31C539.529 130.094 539.637 129.556 539.852 128.694L571.023 27.1063C571.669 24.8452 573.257 23.0956 575.787 21.8573C578.318 20.6191 581.198 20 584.428 20C587.658 20 590.565 20.6191 593.149 21.8573C595.734 23.0956 597.349 24.8452 597.995 27.1063L629.166 128.694C629.381 129.556 629.489 130.094 629.489 130.31C629.489 132.678 628.035 134.724 625.128 136.447C622.221 138.17 619.26 139.031 616.245 139.031C612.261 139.031 609.892 137.631 609.139 134.832L603.001 113.351H566.016L559.879 134.832C559.125 137.631 556.756 139.031 552.773 139.031C549.65 139.031 546.662 138.197 543.809 136.528C540.956 134.859 539.529 132.786 539.529 130.31ZM570.377 96.8775H598.479L584.428 47.2948L570.377 96.8775Z" fill="black" class="bd-svg-black" /> <path fill-rule="evenodd" clip-rule="evenodd" d="M0 110L10 40L50 0L100 50L70 80L110 120L50 160L0 110Z" fill="#00D1B2"/> </svg> </a> <div class="navbar-item has-dropdown is-active"> <a class="navbar-link"> Docs </a> <div class="navbar-dropdown"> <a class="navbar-item"> Overview </a> <a class="navbar-item is-selected"> Elements </a> <a class="navbar-item"> Components </a> <hr class="navbar-divider"> <div class="navbar-item"> Version 1.0.4 </div> </div> </div> </nav> <section class="hero is-primary"> <div class="hero-body"> <p class="title"> Documentation </p> <p class="subtitle"> Everything you need to <strong>create a website</strong> with Bulma </p> </div> </section> @36,19724,675,1137
+    button Copy success @36,20873,675,36
+h3 Dropdown divider @17,20921,694,19
+text You can add a navbar-divider to display a horizontal rule in a navbar-dropdown. @17,20952,694,20
+card @17,20984,694,99
+  text <hr class="navbar-divider"> @34,20999,660,20
+  button Copy success @34,21031,660,37
+h3 "Colors #" @17,21095,694,19
+text You can change the background color of the navbar by using one of the 9 color modifiers: @17,21126,694,20
+text is-primary @17,21158,694,20
+text is-link @17,21190,694,20
+text is-info @17,21222,694,21
+text is-success @17,21255,694,20
+text is-warning @17,21287,694,20
+text is-danger @17,21319,694,21
+text is-black @17,21352,694,20
+text is-dark @17,21384,694,20
+text is-light @17,21416,694,21
+text is-white @17,21449,694,20
+card @17,21481,694,98
+  text <nav class="navbar is-primary"> <!-- navbar brand, navbar menu... --> </nav> @34,21496,660,20
+  button Copy success @34,21528,660,36
+row @17,21591,694,215
+  link https://bulma.io https://bulma.io @17,21688,104,21
+  row @133,21591,316,215
+    row @133,21591,183,215
+      link Home https://bulma.io/ @133,21688,40,21
+      row @185,21591,131,215
+        link Docs https://bulma.io/documentation/overview/start/ @185,21688,34,21
+        col @231,21591,85,215
+          link Overview https://bulma.io/documentation/overview/start/ @231,21591,85,21
+          link Modifiers https://bulma.io/documentation/overview/modifiers/ @231,21624,85,20
+          link Columns https://bulma.io/documentation/columns/basics/ @231,21656,85,20
+          link Layout https://bulma.io/documentation/layout/container/ @231,21688,85,21
+          link Form https://bulma.io/documentation/form/general/ @231,21721,85,20
+          link Elements https://bulma.io/documentation/elements/box/ @231,21753,85,20
+          link Components https://bulma.io/documentation/components/breadcrumb/ @231,21785,85,21
+    row @328,21688,121,21
+      link Tweet https://twitter.com/intent/tweet?text=Bulma:amodernCSSframeworkbasedonFlexbox&hashtags=bulmaio&url=https://bulma.io&via=jgthms @328,21688,42,21
+      link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @382,21688,67,21
+row @17,21818,694,214
+  link https://bulma.io https://bulma.io @17,21914,104,21
+  row @133,21818,316,214
+    row @133,21818,183,214
+      link Home https://bulma.io/ @133,21914,40,21
+      row @185,21818,131,214
+        link Docs https://bulma.io/documentation/overview/start/ @185,21914,34,21
+        col @231,21818,85,214
+          link Overview https://bulma.io/documentation/overview/start/ @231,21818,85,20
+          link Modifiers https://bulma.io/documentation/overview/modifiers/ @231,21850,85,20
+          link Columns https://bulma.io/documentation/columns/basics/ @231,21882,85,20
+          link Layout https://bulma.io/documentation/layout/container/ @231,21914,85,21
+          link Form https://bulma.io/documentation/form/general/ @231,21947,85,20
+          link Elements https://bulma.io/documentation/elements/box/ @231,21979,85,20
+          link Components https://bulma.io/documentation/components/breadcrumb/ @231,22011,85,21
+    row @328,21914,121,21
+      link Tweet https://twitter.com/intent/tweet?text=Bulma:amodernCSSframeworkbasedonFlexbox&hashtags=bulmaio&url=https://bulma.io&via=jgthms @328,21914,42,21
+      link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @382,21914,67,21
+row @17,22044,694,214
+  link https://bulma.io https://bulma.io @17,22141,104,20
+  row @133,22044,316,214
+    row @133,22044,183,214
+      link Home https://bulma.io/ @133,22141,40,20
+      row @185,22044,131,214
+        link Docs https://bulma.io/documentation/overview/start/ @185,22141,34,20
+        col @231,22044,85,214
+          link Overview https://bulma.io/documentation/overview/start/ @231,22044,85,20
+          link Modifiers https://bulma.io/documentation/overview/modifiers/ @231,22076,85,20
+          link Columns https://bulma.io/documentation/columns/basics/ @231,22108,85,21
+          link Layout https://bulma.io/documentation/layout/container/ @231,22141,85,20
+          link Form https://bulma.io/documentation/form/general/ @231,22173,85,20
+          link Elements https://bulma.io/documentation/elements/box/ @231,22205,85,20
+          link Components https://bulma.io/documentation/components/breadcrumb/ @231,22237,85,21
+    row @328,22141,121,20
+      link Tweet https://twitter.com/intent/tweet?text=Bulma:amodernCSSframeworkbasedonFlexbox&hashtags=bulmaio&url=https://bulma.io&via=jgthms @328,22141,42,20
+      link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @382,22141,67,20
+row @17,22270,694,214
+  link https://bulma.io https://bulma.io @17,22367,104,20
+  row @133,22270,316,214
+    row @133,22270,183,214
+      link Home https://bulma.io/ @133,22367,40,20
+      row @185,22270,131,214
+        link Docs https://bulma.io/documentation/overview/start/ @185,22367,34,20
+        col @231,22270,85,214
+          link Overview https://bulma.io/documentation/overview/start/ @231,22270,85,20
+          link Modifiers https://bulma.io/documentation/overview/modifiers/ @231,22302,85,20
+          link Columns https://bulma.io/documentation/columns/basics/ @231,22334,85,21
+          link Layout https://bulma.io/documentation/layout/container/ @231,22367,85,20
+          link Form https://bulma.io/documentation/form/general/ @231,22399,85,20
+          link Elements https://bulma.io/documentation/elements/box/ @231,22431,85,21
+          link Components https://bulma.io/documentation/components/breadcrumb/ @231,22464,85,20
+    row @328,22367,121,20
+      link Tweet https://twitter.com/intent/tweet?text=Bulma:amodernCSSframeworkbasedonFlexbox&hashtags=bulmaio&url=https://bulma.io&via=jgthms @328,22367,42,20
+      link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @382,22367,67,20
+row @17,22496,694,214
+  link https://bulma.io https://bulma.io @17,22593,104,20
+  row @133,22496,316,214
+    row @133,22496,183,214
+      link Home https://bulma.io/ @133,22593,40,20
+      row @185,22496,131,214
+        link Docs https://bulma.io/documentation/overview/start/ @185,22593,34,20
+        col @231,22496,85,214
+          link Overview https://bulma.io/documentation/overview/start/ @231,22496,85,20
+          link Modifiers https://bulma.io/documentation/overview/modifiers/ @231,22528,85,20
+          link Columns https://bulma.io/documentation/columns/basics/ @231,22560,85,21
+          link Layout https://bulma.io/documentation/layout/container/ @231,22593,85,20
+          link Form https://bulma.io/documentation/form/general/ @231,22625,85,20
+          link Elements https://bulma.io/documentation/elements/box/ @231,22657,85,21
+          link Components https://bulma.io/documentation/components/breadcrumb/ @231,22690,85,20
+    row @328,22593,121,20
+      link Tweet https://twitter.com/intent/tweet?text=Bulma:amodernCSSframeworkbasedonFlexbox&hashtags=bulmaio&url=https://bulma.io&via=jgthms @328,22593,42,20
+      link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @382,22593,67,20
+row @17,22722,694,214
+  link https://bulma.io https://bulma.io @17,22819,104,20
+  row @133,22722,316,214
+    row @133,22722,183,214
+      link Home https://bulma.io/ @133,22819,40,20
+      row @185,22722,131,214
+        link Docs https://bulma.io/documentation/overview/start/ @185,22819,34,20
+        col @231,22722,85,214
+          link Overview https://bulma.io/documentation/overview/start/ @231,22722,85,20
+          link Modifiers https://bulma.io/documentation/overview/modifiers/ @231,22754,85,21
+          link Columns https://bulma.io/documentation/columns/basics/ @231,22787,85,20
+          link Layout https://bulma.io/documentation/layout/container/ @231,22819,85,20
+          link Form https://bulma.io/documentation/form/general/ @231,22851,85,20
+          link Elements https://bulma.io/documentation/elements/box/ @231,22883,85,21
+          link Components https://bulma.io/documentation/components/breadcrumb/ @231,22916,85,20
+    row @328,22819,121,20
+      link Tweet https://twitter.com/intent/tweet?text=Bulma:amodernCSSframeworkbasedonFlexbox&hashtags=bulmaio&url=https://bulma.io&via=jgthms @328,22819,42,20
+      link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @382,22819,67,20
+row @17,22948,694,214
+  link https://bulma.io https://bulma.io @17,23045,104,20
+  row @133,22948,316,214
+    row @133,22948,183,214
+      link Home https://bulma.io/ @133,23045,40,20
+      row @185,22948,131,214
+        link Docs https://bulma.io/documentation/overview/start/ @185,23045,34,20
+        col @231,22948,85,214
+          link Overview https://bulma.io/documentation/overview/start/ @231,22948,85,20
+          link Modifiers https://bulma.io/documentation/overview/modifiers/ @231,22980,85,21
+          link Columns https://bulma.io/documentation/columns/basics/ @231,23013,85,20
+          link Layout https://bulma.io/documentation/layout/container/ @231,23045,85,20
+          link Form https://bulma.io/documentation/form/general/ @231,23077,85,21
+          link Elements https://bulma.io/documentation/elements/box/ @231,23110,85,20
+          link Components https://bulma.io/documentation/components/breadcrumb/ @231,23142,85,20
+    row @328,23045,121,20
+      link Tweet https://twitter.com/intent/tweet?text=Bulma:amodernCSSframeworkbasedonFlexbox&hashtags=bulmaio&url=https://bulma.io&via=jgthms @328,23045,42,20
+      link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @382,23045,67,20
+row @17,23174,694,214
+  link https://bulma.io https://bulma.io @17,23271,104,20
+  row @133,23174,316,214
+    row @133,23174,183,214
+      link Home https://bulma.io/ @133,23271,40,20
+      row @185,23174,131,214
+        link Docs https://bulma.io/documentation/overview/start/ @185,23271,34,20
+        col @231,23174,85,214
+          link Overview https://bulma.io/documentation/overview/start/ @231,23174,85,20
+          link Modifiers https://bulma.io/documentation/overview/modifiers/ @231,23206,85,21
+          link Columns https://bulma.io/documentation/columns/basics/ @231,23239,85,20
+          link Layout https://bulma.io/documentation/layout/container/ @231,23271,85,20
+          link Form https://bulma.io/documentation/form/general/ @231,23303,85,21
+          link Elements https://bulma.io/documentation/elements/box/ @231,23336,85,20
+          link Components https://bulma.io/documentation/components/breadcrumb/ @231,23368,85,20
+    row @328,23271,121,20
+      link Tweet https://twitter.com/intent/tweet?text=Bulma:amodernCSSframeworkbasedonFlexbox&hashtags=bulmaio&url=https://bulma.io&via=jgthms @328,23271,42,20
+      link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @382,23271,67,20
+row @17,23400,694,214
+  link https://bulma.io https://bulma.io @17,23497,104,20
+  row @133,23400,316,214
+    row @133,23400,183,214
+      link Home https://bulma.io/ @133,23497,40,20
+      row @185,23400,131,214
+        link Docs https://bulma.io/documentation/overview/start/ @185,23497,34,20
+        col @231,23400,85,214
+          link Overview https://bulma.io/documentation/overview/start/ @231,23400,85,21
+          link Modifiers https://bulma.io/documentation/overview/modifiers/ @231,23433,85,20
+          link Columns https://bulma.io/documentation/columns/basics/ @231,23465,85,20
+          link Layout https://bulma.io/documentation/layout/container/ @231,23497,85,20
+          link Form https://bulma.io/documentation/form/general/ @231,23529,85,21
+          link Elements https://bulma.io/documentation/elements/box/ @231,23562,85,20
+          link Components https://bulma.io/documentation/components/breadcrumb/ @231,23594,85,20
+    row @328,23497,121,20
+      link Tweet https://twitter.com/intent/tweet?text=Bulma:amodernCSSframeworkbasedonFlexbox&hashtags=bulmaio&url=https://bulma.io&via=jgthms @328,23497,42,20
+      link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @382,23497,67,20
+row @17,23626,694,214
+  link https://bulma.io https://bulma.io @17,23723,104,21
+  row @133,23626,316,214
+    row @133,23626,183,214
+      link Home https://bulma.io/ @133,23723,40,21
+      row @185,23626,131,214
+        link Docs https://bulma.io/documentation/overview/start/ @185,23723,34,21
+        col @231,23626,85,214
+          link Overview https://bulma.io/documentation/overview/start/ @231,23626,85,21
+          link Modifiers https://bulma.io/documentation/overview/modifiers/ @231,23659,85,20
+          link Columns https://bulma.io/documentation/columns/basics/ @231,23691,85,20
+          link Layout https://bulma.io/documentation/layout/container/ @231,23723,85,21
+          link Form https://bulma.io/documentation/form/general/ @231,23756,85,20
+          link Elements https://bulma.io/documentation/elements/box/ @231,23788,85,20
+          link Components https://bulma.io/documentation/components/breadcrumb/ @231,23820,85,20
+    row @328,23723,121,21
+      link Tweet https://twitter.com/intent/tweet?text=Bulma:amodernCSSframeworkbasedonFlexbox&hashtags=bulmaio&url=https://bulma.io&via=jgthms @328,23723,42,21
+      link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @382,23723,67,21
+row @17,23852,694,215
+  link https://bulma.io https://bulma.io @17,23949,104,21
+  row @133,23852,316,215
+    row @133,23852,183,215
+      link Home https://bulma.io/ @133,23949,40,21
+      row @185,23852,131,215
+        link Docs https://bulma.io/documentation/overview/start/ @185,23949,34,21
+        col @231,23852,85,215
+          link Overview https://bulma.io/documentation/overview/start/ @231,23852,85,21
+          link Modifiers https://bulma.io/documentation/overview/modifiers/ @231,23885,85,20
+          link Columns https://bulma.io/documentation/columns/basics/ @231,23917,85,20
+          link Layout https://bulma.io/documentation/layout/container/ @231,23949,85,21
+          link Form https://bulma.io/documentation/form/general/ @231,23982,85,20
+          link Elements https://bulma.io/documentation/elements/box/ @231,24014,85,20
+          link Components https://bulma.io/documentation/components/breadcrumb/ @231,24046,85,21
+    row @328,23949,121,21
+      link Tweet https://twitter.com/intent/tweet?text=Bulma:amodernCSSframeworkbasedonFlexbox&hashtags=bulmaio&url=https://bulma.io&via=jgthms @328,23949,42,21
+      link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @382,23949,67,21
+h3 "Navbar Helper Classes #" @17,24079,694,18
+table Type Name Description @17,24109,694,100
+  Spacing | is-spaced | Sets Top and Bottom paddings with 1rem, Left and Right paddings with 2rem
+  Shading | has-shadow | Adds a small amount of box-shadow around the navbar
+h3 "Sass and CSS variables #" @17,24221,694,19
+card @17,24252,694,1175
+  table "Sass Variable:badge" "CSS Variable:badge" Value:badge @34,24267,660,1145
+    $navbar-background-colorCopy | var(--bulma-navbar-background-color)Copy | var(--bulma-scheme-main)Copy
+    $navbar-box-shadow-sizeCopy | var(--bulma-navbar-box-shadow-size)Copy | 0 0.125em 0 0Copy
+    $navbar-box-shadow-colorCopy | var(--bulma-navbar-box-shadow-color)Copy | var(--bulma-background)Copy
+    $navbar-heightCopy | var(--bulma-navbar-height)Copy | 3.25remCopy
+    $navbar-padding-verticalCopy | var(--bulma-navbar-padding-vertical)Copy | 1remCopy
+    $navbar-padding-horizontalCopy | var(--bulma-navbar-padding-horizontal)Copy | 2remCopy
+    $navbar-zCopy | var(--bulma-navbar-z)Copy | 30Copy
+    $navbar-fixed-zCopy | var(--bulma-navbar-fixed-z)Copy | 30Copy
+    $navbar-item-img-max-heightCopy | var(--bulma-navbar-item-img-max-height)Copy | 1.75remCopy
+    $navbar-burger-colorCopy | var(--bulma-navbar-burger-color)Copy | var(--bulma-navbar-item-color)Copy
+    $navbar-tab-hover-background-colorCopy | var(--bulma-navbar-tab-hover-background-color)Copy | transparentCopy
+    $navbar-tab-hover-border-bottom-colorCopy | var(--bulma-navbar-tab-hover-border-bottom-color)Copy | var(--bulma-link)Copy
+    $navbar-tab-active-colorCopy | var(--bulma-navbar-tab-active-color)Copy | var(--bulma-link)Copy
+    $navbar-tab-active-background-colorCopy | var(--bulma-navbar-tab-active-background-color)Copy | transparentCopy
+    $navbar-tab-active-border-bottom-colorCopy | var(--bulma-navbar-tab-active-border-bottom-color)Copy | var(--bulma-link)Copy
+    $navbar-tab-active-border-bottom-styleCopy | var(--bulma-navbar-tab-active-border-bottom-style)Copy | solidCopy
+    $navbar-tab-active-border-bottom-widthCopy | var(--bulma-navbar-tab-active-border-bottom-width)Copy | 0.1875emCopy
+    $navbar-dropdown-background-colorCopy | var(--bulma-navbar-dropdown-background-color)Copy | var(--bulma-scheme-main)Copy
+    $navbar-dropdown-border-lCopy | var(--bulma-navbar-dropdown-border-l)Copy | var(--bulma-border-l)Copy
+    $navbar-dropdown-border-colorCopy | var(--bulma-navbar-dropdown-border-color)Copy | hsl( var(--bulma-navbar-h), var(--bulma-navbar-s), var(--bulma-navbar-dropdown-border-l) )Copy
+    $navbar-dropdown-border-styleCopy | var(--bulma-navbar-dropdown-border-style)Copy | solidCopy
+    $navbar-dropdown-border-widthCopy | var(--bulma-navbar-dropdown-border-width)Copy | 0.125emCopy
+    $navbar-dropdown-offsetCopy | var(--bulma-navbar-dropdown-offset)Copy | -0.25emCopy
+    $navbar-dropdown-arrowCopy | var(--bulma-navbar-dropdown-arrow)Copy | var(--bulma-link)Copy
+    $navbar-dropdown-radiusCopy | var(--bulma-navbar-dropdown-radius)Copy | var(--bulma-radius-large)Copy
+    $navbar-dropdown-zCopy | var(--bulma-navbar-dropdown-z)Copy | 20Copy
+    $navbar-dropdown-boxed-radiusCopy | var(--bulma-navbar-dropdown-boxed-radius)Copy | var(--bulma-radius-large)Copy
+    $navbar-dropdown-boxed-shadowCopy | var(--bulma-navbar-dropdown-boxed-shadow)Copy | 0 0.5em 0.5em hsla( var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-scheme-invert-l), 0.1 ), 0 0 0 1px hsla( var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-scheme-invert-l), 0.1 )Copy
+    $navbar-divider-background-lCopy | var(--bulma-navbar-divider-background-l)Copy | var(--bulma-background-l)Copy
+    $navbar-divider-heightCopy | var(--bulma-navbar-divider-height)Copy | 0.125emCopy
+    $navbar-bottom-box-shadow-sizeCopy | var(--bulma-navbar-bottom-box-shadow-size)Copy | 0 -0.125em 0 0Copy
+row @17,25439,694,21
+  link "← components: Modal" https://bulma.io/documentation/components/modal/ @17,25439,149,21
+  link "components: Pagination →" https://bulma.io/documentation/components/pagination/ @178,25439,178,21
+h3 How to support Bulma @17,25472,694,19
+row @17,25503,694,90
+  col @17,25503,124,90
+    text One-time donation @17,25503,124,20
+    field submit @17,25535,124,58
+  col @153,25521,197,53
+    text Browser testing via @153,25521,197,21
+    link https://www.lambdatest.com/ https://www.lambdatest.com/ @153,25554,197,20
+  col @362,25521,121,53
+    text Visit our Sponsors @362,25521,121,21
+    link celebian https://celebian.com/ @362,25554,121,20
+  col @495,25521,124,53
+    text Monthly donation @495,25521,124,21
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/ @495,25554,124,20
+link ".native-js { background: linear-gradient(-30deg, #FFFFFFE5, #FFFFFFE5 45%, #FFFFFF 45%) #fff; } .native-details { color: #000E9C !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #FFFFFF; background-color: #000E9C; } .native-cta:hover { color: undefined; background-color: undefined; } OVHcloud In Minuten bereit, mit 99,95 % SLA. Konfigurieren Sie Ihren Advance-Cluster. Jetzt entdecken" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQMCAYI5Z3JCAAI627ICEAI42JKCKYICK77CKAIC23MF67IV23NCTYDKKJKC6SILKJWCA7DVK3EHJNCLSIZ @17,25605,694,101
+row @17,25718,694,51
+  col @17,25718,195,51
+    h3 Bulma by Jeremy Thomas. @17,25718,195,19
+    link "Follow @jgthms" https://twitter.com/jgthms @17,25749,195,20
+  col @224,25734,155,19
+    h3 Contribute on GitHub @224,25734,155,19
+  col @391,25718,161,51
+    h3 Share on social media @391,25718,161,19
+    row @391,25749,161,20
+      link Twitter https://twitter.com/share @391,25749,47,20
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io @450,25749,66,20
+text Source code licensed . Website content licensed @17,25781,694,20
+row @17,25813,694,21
+  link MIT https://opensource.org/licenses/mit-license.php @17,25813,26,21
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/ @55,25813,122,21
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer @17,25846,694,162
+!overflow button 46/73px
+!overflow light 44/104px
+!overflow dark 44/102px
+!overflow system 44/121px
+!overflow button3 51/73px
+!overflow menu2 44/67px
+!overflow menu3 43/67px
+!overflow table2.Spacing.Description 231/523px
+!overflow table2.Shading.Description 231/384px
+!tiny search 22x37px
+!offcanvas path
+!offcanvas path3
+!offcanvas path5

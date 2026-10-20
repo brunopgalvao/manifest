@@ -1,0 +1,128 @@
+@ui_shadcn_com_examples_tasks rev=0 @0,0,728,1591
+row @17,17,694,36
+  row @17,25,346,20
+    link Home / @17,25,26,20
+    link Docs /docs/installation @55,25,21,20
+    link Components /docs/components @88,25,55,20
+    link Blocks /blocks @155,25,28,20
+    link Charts /charts/area @195,25,29,20
+    link Directory /docs/directory @236,25,39,20
+    link Typeset /typeset @287,25,35,20
+    link Create /create @334,25,29,20
+  row @375,17,336,36
+    button "Search documentation...Search..." @375,17,172,36
+    link 126k https://github.com/shadcn-ui/ui @559,25,20,20
+    button "Toggle theme" @591,17,89,36
+    row @692,25,19,20
+      link New /create @692,25,19,20
+link "Trace, Code Block and AI Elements" /docs/changelog @17,65,694,21
+h1 The Foundation for your Design System @17,98,694,25
+text A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code. @17,135,694,40
+row @17,187,694,21
+  link "Get Started" /docs/installation @17,187,76,21
+  link "View Components" /docs/components @105,187,122,21
+row @17,220,694,36
+  row @17,228,435,20
+    link Examples / @17,228,64,20
+    link Dashboard /examples/dashboard @93,228,73,20
+    link Tasks /examples/tasks @178,228,40,20
+    link Playground /examples/playground @230,228,76,20
+    link Authentication /examples/authentication @318,228,96,20
+    link RTL /examples/rtl @426,228,26,20
+  row @464,220,225,36
+    text Theme @464,228,46,20
+    row @522,228,49,20
+      text Neutral @522,228,49,20
+    button "Copy Code" @583,220,106,36
+card @17,268,694,1177
+  row @34,283,660,53
+    col @34,283,269,53
+      h2 Welcome back! @34,283,269,21
+      text Here's a list of your tasks for this month. @34,316,269,20
+    button button @315,291,75,37
+  row @34,348,660,58
+    row @34,348,250,58
+      field "Filter tasks..." @34,348,72,58
+      button Status @118,359,74,36
+      button Priority @204,359,80,36
+    row @296,359,171,36
+      button View @296,359,64,36
+      button "Add Task" primary @372,359,95,36
+  card @34,418,660,959
+    table Col Task Title Status Priority Col:badge @51,433,626,929
+       | TASK-8782 | DocumentationYou can't compress the program without quantifying the open-source SSD pixel! | In Progress | Medium | Open menu
+       | TASK-7878 | DocumentationTry to calculate the EXE feed, maybe it will index the multi-byte pixel! | Backlog | Medium | Open menu
+       | TASK-7839 | BugWe need to bypass the neural TCP card! | Todo | High | Open menu
+       | TASK-5562 | FeatureThe SAS interface is down, bypass the open-source pixel so we can back up the PNG bandwidth! | Backlog | Medium | Open menu
+       | TASK-8686 | FeatureI'll parse the wireless SSL protocol, that should driver the API panel! | Canceled | Medium | Open menu
+       | TASK-1280 | BugUse the digital TLS panel, then you can transmit the haptic system! | Done | High | Open menu
+       | TASK-7262 | FeatureThe UTF8 application is down, parse the neural bandwidth so we can back up the PNG firewall! | Done | High | Open menu
+       | TASK-1138 | FeatureGenerating the driver won't do anything, we need to quantify the 1080p SMTP bandwidth! | In Progress | Medium | Open menu
+       | TASK-7184 | FeatureWe need to program the back-end THX pixel! | Todo | Low | Open menu
+       | TASK-5160 | DocumentationCalculating the bus won't do anything, we need to navigate the back-end JSON protocol! | In Progress | High | Open menu
+       | TASK-5618 | DocumentationGenerating the driver won't do anything, we need to index the online SSL application! | Done | Medium | Open menu
+       | TASK-6699 | DocumentationI'll transmit the wireless JBOD capacitor, that should hard drive the SSD feed! | Backlog | Medium | Open menu
+       | TASK-2858 | BugWe need to override the online UDP bus! | Backlog | Medium | Open menu
+       | TASK-9864 | BugI'll reboot the 1080p FTP panel, that should matrix the HEX hard drive! | Done | High | Open menu
+       | TASK-8404 | BugWe need to generate the virtual HEX alarm! | In Progress | Low | Open menu
+       | TASK-5365 | DocumentationBacking up the pixel won't do anything, we need to transmit the primary IB array! | In Progress | Low | Open menu
+       | TASK-1780 | DocumentationThe CSS feed is down, index the bluetooth transmitter so we can compress the CLI protocol! | Todo | High | Open menu
+       | TASK-6938 | DocumentationUse the redundant SCSI application, then you can hack the optical alarm! | Todo | High | Open menu
+       | TASK-9885 | BugWe need to compress the auxiliary VGA driver! | Backlog | High | Open menu
+       | TASK-3216 | DocumentationTransmitting the transmitter won't do anything, we need to compress the virtual HDD sensor! | Backlog | Medium | Open menu
+       | TASK-9285 | BugThe IP monitor is down, copy the haptic alarm so we can generate the HTTP transmitter! | Todo | High | Open menu
+       | TASK-1024 | DocumentationOverriding the microchip won't do anything, we need to transmit the digital OCR transmitter! | In Progress | Low | Open menu
+       | TASK-7068 | BugYou can't generate the capacitor without indexing the wireless HEX pixel! | Canceled | Low | Open menu
+       | TASK-6502 | BugNavigating the microchip won't do anything, we need to bypass the back-end SQL bus! | Todo | High | Open menu
+       | TASK-5326 | BugWe need to hack the redundant UTF8 transmitter! | Todo | Low | Open menu
+  row @34,1389,660,41
+    text 0 of 100 row(s) selected. @34,1389,107,41
+    row @153,1389,541,41
+      row @153,1389,82,41
+        text Rows per page @153,1389,60,41
+        row @225,1400,10,20
+          text 25 @225,1400,10,20
+      text Page 1 of 4 @247,1389,48,41
+      row @307,1392,387,36
+        button "Go to first page" disabled @307,1392,83,36
+        button "Go to previous page" disabled @402,1392,101,36
+        button "Go to next page" @515,1392,85,36
+        button "Go to last page" @612,1392,82,36
+text Built by at . The source code is available on . @17,1457,694,20
+row @17,1489,694,21
+  link shadcn https://twitter.com/shadcn @17,1489,49,21
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout @78,1489,43,21
+  link GitHub https://github.com/shadcn-ui/ui @133,1489,46,21
+text Notifications alt+T @17,1522,694,20
+text Notifications @17,1554,694,20
+!overflow search 170/256px
+!overflow toggle 87/122px
+!overflow table..Title 104/651px
+!overflow table..Title 104/575px
+!overflow table..Title 104/310px
+!overflow table..Title 104/712px
+!overflow table..Title 104/515px
+!overflow table..Title 104/484px
+!overflow table..Title 104/696px
+!overflow table..Title 104/660px
+!overflow table..Title 104/368px
+!overflow table..Title 104/707px
+!overflow table..Title 104/681px
+!overflow table..Title 104/628px
+!overflow table..Title 104/312px
+!overflow table..Title 104/503px
+!overflow table..Title 104/328px
+!overflow table..Title 104/651px
+!overflow table..Title 104/730px
+!overflow table..Title 104/599px
+!overflow table..Title 104/352px
+!overflow table..Title 104/731px
+!overflow table..Title 104/626px
+!overflow table..Title 104/725px
+!overflow table..Title 104/527px
+!overflow table..Title 104/620px
+!overflow table..Title 104/371px
+!overflow go 81/133px
+!overflow go2 99/165px
+!overflow go3 83/135px
+!overflow go4 80/130px

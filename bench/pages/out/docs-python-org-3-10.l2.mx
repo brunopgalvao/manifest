@@ -1,0 +1,68 @@
+@docs_python_org_3_10 rev=0 @0,0,728,2017
+text This document is for an old version of Python that is no longer supported. You should upgrade, and read the . danger @17,17,694,41
+link "Python documentation for the current stable release" /3/index.html @17,70,694,20
+link index genindex.html @17,102,694,20
+text | @17,134,694,21
+link modules py-modindex.html @17,167,694,20
+image https://docs.python.org/3.10/_static/py.svg "Python logo" @17,199,0,0
+text » @17,211,694,20
+link Python https://www.python.org/ @17,243,694,20
+row @17,275,694,55
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文" @17,275,320,55
+  select "Python version" "dev (3.16)" 3.15 3.14 3.13 3.12 3.11 *3.10.22 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6 @349,275,104,55
+text » @17,342,694,21
+link "3.10.22 Documentation" # @17,375,694,20
+text | @17,407,694,20
+row @17,439,694,58
+  field "Quick search" search @17,439,75,58
+  button button @104,450,75,36
+text | @17,509,694,20
+select Theme *Auto Light Dark @17,541,694,55
+row @17,608,694,631
+  col @17,783,613,281
+    h1 Python 3.10.22 documentation @17,783,613,25
+    text Welcome! This is the official documentation for Python 3.10.22. @17,820,613,20
+    text Parts of the documentation: @17,852,613,20
+    table "What's new in Python 3.10? or all \"What's new\" documents since 2.0 Tutorial start here Library Reference keep this under your pillow Language Reference describes syntax and language elements Python Setup and Usage how to use Python on different platforms Python HOWTOs in-depth documents on specific topics" "Installing Python Modules installing from the Python Package Index & other sources Distributing Python Modules publishing modules for installation by others Extending and Embedding tutorial for C/C++ programmers Python/C API reference for C/C++ programmers FAQs frequently asked questions (with answers!)" @17,884,613,31
+    text Indices and tables: @17,927,613,20
+    table "Global Module Index quick access to all modules General Index all functions, classes, terms Glossary the most important terms explained" "Search page search this documentation Complete Table of Contents lists all sections and subsections" @17,959,613,30
+    text Meta information: @17,1001,613,21
+    table "Reporting bugs Contributing to Docs About the documentation" "History and License of Python Copyright" @17,1034,613,30
+  row @642,608,69,631
+    col @642,608,54,631
+      h3 Download @642,608,54,19
+      link "Download these documents" download.html @642,639,54,61
+      h3 Docs by version @642,712,54,56
+      link Stable https://docs.python.org/3/ @642,780,54,20
+      link "In development" https://docs.python.org/dev/ @642,813,54,40
+      link "All versions" https://www.python.org/doc/versions/ @642,865,54,41
+      h3 Other resources @642,918,54,37
+      link "PEP Index" https://peps.python.org/ @642,967,54,41
+      link "Beginner's Guide" https://wiki.python.org/moin/BeginnersGuide @642,1020,54,40
+      link "Book List" https://wiki.python.org/moin/PythonBooks @642,1072,54,41
+      link "Audio/Visual Talks" https://www.python.org/doc/av/ @642,1125,54,41
+      link "Python Developer’s Guide" https://devguide.python.org/ @642,1178,54,61
+    text « @708,913,3,21
+link index genindex.html @17,1251,694,20
+text | @17,1283,694,20
+link modules py-modindex.html @17,1315,694,20
+image https://docs.python.org/3.10/_static/py.svg "Python logo" @17,1347,0,0
+text » @17,1359,694,21
+link Python https://www.python.org/ @17,1392,694,20
+row @17,1424,694,55
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文" @17,1424,320,55
+  select "Python version" "dev (3.16)" 3.15 3.14 3.13 3.12 3.11 *3.10.22 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6 @349,1424,104,55
+text » @17,1491,694,20
+link "3.10.22 Documentation" # @17,1523,694,21
+text | @17,1556,694,20
+row @17,1588,694,58
+  field "Quick search" search @17,1588,75,58
+  button button @104,1599,75,36
+text | @17,1658,694,20
+select Theme *Auto Light Dark @17,1690,694,55
+text © 2001-2026, Python Software Foundation. This page is licensed under the Python Software Foundation License Version 2. Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License. See for more information. The Python Software Foundation is a non-profit corporation. Last updated on Oct 11, 2026. ? Created using 3.4.3. @17,1757,694,81
+link Copyright copyright.html @17,1850,694,20
+link "History and License" /license.html @17,1882,694,21
+link "Please donate." https://www.python.org/psf/donations/ @17,1915,694,20
+link "Found a bug" /bugs.html @17,1947,694,20
+link Sphinx https://www.sphinx-doc.org/ @17,1979,694,21

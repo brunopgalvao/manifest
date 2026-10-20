@@ -1,0 +1,125 @@
+@doc_rust_lang_org_alloc_index_html
+row
+  link "Skip to main content" #main-content
+  col
+    row
+      link ../alloc/index.html ../alloc/index.html
+      h2 alloc1.99.1
+    text (58cf8f9c3 2026-10-13)
+    link "All Items" all.html
+    h3 Sections
+    link "The Rust core allocation and collections library" #the-rust-core-allocation-and-collections-library
+    link "Boxed values" #boxed-values
+    link "Reference counted pointers" #reference-counted-pointers
+    link "Atomically reference counted pointers" #atomically-reference-counted-pointers
+    link Collections #collections
+    link "Heap interfaces" #heap-interfaces
+    h3 Crate Items
+    link Modules #modules
+    link Macros #macros
+    h3 Crates
+    link alloc ../alloc/index.html
+    link core ../core/index.html
+    link proc_macro ../proc_macro/index.html
+    link std ../std/index.html
+    link std_detect ../std_detect/index.html
+    link test ../test/index.html
+  col
+    row
+      h1 Crate alloc Copy item path
+      text ·
+      row
+        text 1.36.0
+        link Source ../src/alloc/lib.rs.html#1-276
+      row
+        link Search https://doc.rust-lang.org/alloc/index.html?search=
+        link Settings ../settings.html
+        link Help ../help.html
+        button Summary
+    row
+      text Expand description
+      col
+        h2 §The Rust core allocation and collections library
+        text This library provides smart pointers and collections for managing heap-allocated values.
+        text This library, like core, normally doesn’t need to be used directly since its contents are re-exported in the . Crates that use the  attribute however will typically not depend on , so they’d use this crate instead.
+        link "std crate" ../std/index.html
+        text "#![no_std]"
+        text std
+        h3 §Boxed values
+        text The  type is a smart pointer type. There can only be one owner of a , and the owner can decide to mutate the contents, which live on the heap.
+        row
+          link Box boxed/index.html
+          link Box boxed/index.html
+        text This type can be sent among threads efficiently as the size of a Box value is the same as that of a pointer. Tree-like data structures are often built with boxes because each node often has only one owner, the parent.
+        h3 §Reference counted pointers
+        text The  type is a non-threadsafe reference-counted pointer type intended for sharing memory within a thread. An  pointer wraps a type, , and only allows access to , a shared reference.
+        link Rc rc/index.html
+        link Rc rc/index.html
+        text T
+        text &T
+        text This type is useful when inherited mutability (such as using ) is too constraining for an application, and is often paired with the  or  types in order to allow mutation.
+        link Box boxed/index.html
+        link Cell ../core/cell/index.html
+        link RefCell ../core/cell/index.html
+        h3 §Atomically reference counted pointers
+        text The  type is the threadsafe equivalent of the  type. It provides all the same functionality of , except it requires that the contained type  is shareable. Additionally,  is itself sendable while  is not.
+        link Arc sync/index.html
+        link Rc rc/index.html
+        link Rc rc/index.html
+        text T
+        link Arc<T> sync/index.html
+        link Rc<T> rc/index.html
+        text This type allows for shared access to the contained data, and is often paired with synchronization primitives such as mutexes to allow mutation of shared resources.
+        h3 §Collections
+        text Implementations of the most common general purpose data structures are defined in this library. They are re-exported through the .
+        link "standard collections library" ../std/collections/index.html
+        h3 §Heap interfaces
+        text The  module defines the low-level interface to the default global allocator. It is not compatible with the libc allocator API.
+        link alloc alloc/index.html
+    h2 Modules§
+    row
+      link alloc alloc/index.html
+      text Memory allocation APIs
+      link borrow borrow/index.html
+      text A module for working with borrowed data.
+      link boxed boxed/index.html
+      text The Box<T> type for heap allocation.
+      link collections collections/index.html
+      text Collection types.
+      link ffi ffi/index.html
+      text Utilities related to FFI bindings.
+      link fmt fmt/index.html
+      text Utilities for formatting and printing Strings.
+      link rc rc/index.html
+      text Single-threaded reference-counting pointers. ‘Rc’ stands for ‘Reference Counted’.
+      link slice slice/index.html
+      text Utilities for the slice primitive type.
+      link str str/index.html
+      text Utilities for the str primitive type.
+      link string string/index.html
+      text A UTF-8–encoded, growable string.
+      link sync sync/index.html
+      text Thread-safe reference-counting pointers.
+      link task task/index.html
+      text Types and Traits for working with asynchronous tasks.
+      link vec vec/index.html
+      text A contiguous growable array type with heap-allocated contents, written Vec<T>.
+      row
+        link bstr bstr/index.html
+        text Experimental
+      text The ByteStr and ByteString types and trait implementations.
+      row
+        link intrinsics intrinsics/index.html
+        text Experimental
+      text Intrinsics that cannot be moved to core because they depend on alloc types.
+      row
+        link io io/index.html
+        text Experimental
+      text Traits, helpers, and type definitions for core I/O functionality.
+    h2 Macros§
+    row
+      link format macro.format.html
+      text Creates a String using interpolation of runtime expressions.
+      link vec macro.vec.html
+      text Creates a  containing the arguments.
+      link Vec vec/struct.Vec.html

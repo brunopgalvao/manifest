@@ -187,9 +187,11 @@ pub fn line_of(n: &Node, bx: Option<&Box>, derived_id: Option<&str>) -> String {
             parts.push(q(l));
         }
         for (c, k) in &a.cols {
+            let name = if c.contains(' ') { serde_json::to_string(c).unwrap() } else { c.clone() };
             parts.push(match k {
-                Some(k) => format!("{}:{}", c, k),
-                None => c.clone(),
+                Some(k) if c.contains(' ') => serde_json::to_string(&format!("{}:{}", c, k)).unwrap(),
+                Some(k) => format!("{}:{}", name, k),
+                None => name,
             });
         }
     } else if t == "select" {

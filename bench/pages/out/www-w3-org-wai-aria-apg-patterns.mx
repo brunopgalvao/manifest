@@ -16,6 +16,7 @@ h1 Patterns
 card
   image https://www.w3.org/WAI/content-images/wai-aria-practices/images/read-this-first.svg "Illustration of a brown-skinned woman with a slight smile gesturing towards the right with her hand"
   h2 Read This First
+  text No ARIA is better than Bad ARIA. Before using any ARIA, .
   link "Read this to understand why no ARIA is better than bad ARIA" /WAI/content-assets/wai-aria-practices/../../ARIA/apg/practices/read-me-first/
 card
   h2 Filter Patterns
@@ -123,8 +124,8 @@ row
     link "Window Splitter" windowsplitter/
     text A window splitter is a moveable separator between two sections, or panes, of a window that enables users to change the relative size of the panes.
 row
-  region 16x16
   h2 Help improve this page
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list  or via GitHub.
 link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
 row
   link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
@@ -147,6 +148,7 @@ row
   link "Accessibility statement" /WAI/about/accessibility-statement/
   link "All Translations" /WAI/translations/
   link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
 link "World Wide Web Consortium" https://www.w3.org/
 text W3C
 text ®

@@ -1,0 +1,17 @@
+@adminlte_io_themes_v3_pages_examples_log rev=0 @0,0,728,456
+link AdminLTE ../../index2.html @17,17,694,20
+text Sign in to start your session @17,49,694,21
+row @17,82,694,57
+  field Email email @17,82,31,57
+row @17,151,694,58
+  field Password password @17,151,56,58
+row @17,221,694,56
+  col @17,221,123,56
+    check "Remember Me" off @17,221,123,24
+    text Remember Me @17,257,123,20
+  button "Sign In" primary @152,231,77,36
+text - OR - @17,289,694,21
+link "Sign in using Facebook" # @17,322,694,20
+link "Sign in using Google+" # @17,354,694,20
+link "I forgot my password" forgot-password.html @17,386,694,21
+link "Register a new membership" register.html @17,419,694,20

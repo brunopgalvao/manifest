@@ -1,0 +1,598 @@
+@en_wikipedia_org_wiki_table_information rev=0 @0,0,728,16695
+link "Jump to content" #bodyContent @17,17,694,20
+row @17,49,694,541
+  row @17,49,345,541
+    col @17,49,245,541
+      button "Main menu" @17,49,245,37
+      text Main menu @17,98,245,20
+      row @17,130,245,41
+        text Main menu @17,130,57,41
+        button "Move Main menu to sidebar" @86,132,176,36
+      link "Main page" /wiki/Main_Page @17,183,245,20
+      link Contents /wiki/Wikipedia:Contents @17,215,245,20
+      link "Current events" /wiki/Portal:Current_events @17,247,245,20
+      link "Random article" /wiki/Special:Random @17,279,245,21
+      link "About Wikipedia" /wiki/Wikipedia:About @17,312,245,20
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us @17,344,245,20
+      text Contribute @17,376,245,21
+      link Help /wiki/Help:Contents @17,409,245,20
+      link "Learn to edit" /wiki/Help:Introduction @17,441,245,20
+      link "Community portal" /wiki/Wikipedia:Community_portal @17,473,245,20
+      link "Recent changes" /wiki/Special:RecentChanges @17,505,245,21
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard @17,538,245,20
+      link "Special pages" /wiki/Special:SpecialPages @17,570,245,20
+    link /wiki/Main_Page /wiki/Main_Page @274,310,88,20
+  row @374,282,337,75
+    row @374,282,152,75
+      col @374,282,74,75
+        field "Search Wikipedia" search @374,282,74,75
+      button Search @460,302,66,36
+    row @538,300,173,40
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en @538,310,37,20
+      link "Create account" @587,300,80,40
+      link "Log in" @679,300,32,40
+row @17,602,694,16076
+  col @17,7871,5,1538
+    row @17,7871,5,36
+      h2 Contents @17,7879,0,21
+      button "Hide Contents" @29,7871,30,36
+    link (Top) # @17,7919,5,21
+    link "1 Basic description" #Basic_description @17,7952,5,61
+    button "Toggle Basic description subsection" @17,8025,30,36
+    link "1.1 Simple table" #Simple_table @17,8073,5,61
+    link "1.2 Multi-dimensional table" #Multi-dimensional_table @17,8146,5,61
+    link "2 Generic representation" #Generic_representation @17,8219,5,61
+    link "3 Information technology" #Information_technology @17,8292,5,61
+    button "Toggle Information technology subsection" @17,8365,30,36
+    link "3.1 Software applications" #Software_applications @17,8413,5,61
+    link "3.1.1 HTML" #HTML @17,8486,5,40
+    link "3.2 Software development" #Software_development @17,8538,5,61
+    link "3.3 Databases" #Databases @17,8611,5,41
+    link "4 Other uses" #Other_uses @17,8664,5,61
+    button "Toggle Other uses subsection" @17,8737,30,36
+    link "4.1 Publishing" #Publishing @17,8785,5,41
+    link "4.2 Mathematics" #Mathematics @17,8838,5,40
+    link "4.3 Natural sciences" #Natural_sciences @17,8890,5,61
+    link "4.3.1 Periodic table" #Periodic_table @17,8963,5,61
+    link "4.3.2 Tide table" #Tide_table @17,9036,5,61
+    link "5 Historical relationship to furniture" #Historical_relationship_to_furniture @17,9109,5,101
+    link "6 See also" #See_also @17,9222,5,61
+    link "7 References" #References @17,9295,5,41
+    link "8 External links" #External_links @17,9348,5,61
+  row @34,602,647,16076
+    row @34,8596,5,88
+      h1 Table (format) @34,8615,0,50
+      col @46,8596,0,88
+        button "42 languages" @46,8596,30,36
+        text 42 languages primary @46,8644,0,40
+    row @51,8086,8,1108
+      row @51,8630,0,20
+        link Article /wiki/Table_(format) @51,8630,0,20
+        link Talk /wiki/Talk:Table_(format) @63,8630,0,20
+      row @63,8086,0,1108
+        row @63,8620,0,40
+          link Read /wiki/Table_(format) @63,8630,0,20
+          link Edit @75,8630,0,20
+          link "View history" @87,8620,0,40
+        col @75,8086,0,1108
+          button Tools @75,8086,30,36
+          text Tools @75,8134,0,20
+          row @75,8166,0,37
+            text Tools @75,8174,0,21
+            button "Move Tools to sidebar" @87,8166,30,37
+          text General @75,8215,0,20
+          link "What links here" /wiki/Special:WhatLinksHere/Table_(format) @75,8247,0,61
+          link "Related changes" /wiki/Special:RecentChangesLinked/Table_(format) @75,8320,0,41
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Table_(format)&oldid=1376468081 @75,8373,0,40
+          link "Page information" @75,8425,0,41
+          link "Cite this page" @75,8478,0,61
+          link "Get shortened URL" @75,8551,0,61
+          link "Switch to legacy parser" @75,8624,0,81
+          button "Expand all" @75,8717,30,36
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q496946#sitelinks-wikipedia @75,8765,0,61
+          text Print/export @75,8838,0,20
+          link "Download as PDF" @75,8870,0,61
+          link "Printable version" javascript:print(); @75,8943,0,41
+          text In other projects @75,8996,0,61
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Category:Tables_(information) @75,9069,0,40
+          link Wikibooks https://en.wikibooks.org/wiki/HyperText_Markup_Language/Tables @75,9121,0,21
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q496946 @75,9154,0,40
+    col @71,8444,3,392
+      row @71,8444,3,37
+        text Appearance @71,8452,0,21
+        button "Hide Appearance" @83,8444,30,37
+      text Text @71,8493,3,20
+      text Small @71,8525,3,20
+      text Standard @71,8557,3,20
+      text Large @71,8589,3,21
+      text Width @71,8622,3,20
+      text Standard @71,8654,3,20
+      text Wide @71,8686,3,21
+      text Color @71,8719,3,20
+      text Automatic @71,8751,3,20
+      text Light @71,8783,3,21
+      text Dark @71,8816,3,20
+    col @86,602,595,16076
+      text From Wikipedia, the free encyclopedia @86,602,595,21
+      text (Redirected from ) @86,635,595,20
+      link "Table (information)" @86,667,595,20
+      link https://en.wikipedia.org/wiki/File:Table-sample-appearance-default-params-values-01.gif https://en.wikipedia.org/wiki/File:Table-sample-appearance-default-params-values-01.gif @86,699,595,21
+      text An example table in a using @86,732,595,20
+      link rendered https://en.wikipedia.org/wiki/Browser_engine#Layout_and_rendering @86,764,595,20
+      link "web browser" https://en.wikipedia.org/wiki/Web_browser @86,796,595,20
+      link HTML https://en.wikipedia.org/wiki/HTML @86,829,595,20
+      text A is a two-dimensional arrangement of or , typically in rows and columns, or possibly in a more complex structure. Tables are widely used in , , and . Tables appear in print media, handwritten notes, computer software, architectural ornamentation, traffic signs, and many other places. The precise conventions and terminology for describing tables vary depending on the context. Further, tables differ significantly in variety, structure, flexibility, notation, representation and use. Information or data conveyed in table form is said to be in format (). In books and technical articles, tables are typically presented apart from the main text in numbered and captioned . @86,861,595,162
+      text table @86,1035,595,21
+      link information https://en.wikipedia.org/wiki/Information @86,1068,595,20
+      link data https://en.wikipedia.org/wiki/Data @86,1100,595,20
+      link communication https://en.wikipedia.org/wiki/Communication @86,1132,595,20
+      link research https://en.wikipedia.org/wiki/Research @86,1164,595,21
+      link "data analysis" https://en.wikipedia.org/wiki/Data_analysis @86,1197,595,20
+      link [1] #cite_note-Fink000-1 @86,1229,595,20
+      link [2] #cite_note-Mcnabb000-2 @86,1261,595,21
+      link [3] #cite_note-Morgan000-3 @86,1294,595,20
+      link [4] #cite_note-Robey000-4 @86,1326,595,20
+      link [5] #cite_note-Zielinski000-5 @86,1358,595,21
+      text tabular @86,1390,595,21
+      link adjective https://en.wiktionary.org/wiki/tabular#Adjective @86,1423,595,20
+      link "floating blocks" https://en.wikipedia.org/wiki/Floating_block @86,1455,595,20
+      text A table cell is one grouping within a chart table used for storing information or data. Cells are grouped horizontally (rows of cells) and vertically (columns of cells). Each cell contains information relating to the combination of the row and column headings it is collinear with. @86,1487,595,82
+      row @86,1581,595,21
+        h2 Basic description @86,1581,144,21
+        link edit @242,1581,25,20
+      text A table consists of an ordered arrangement of rows and columns. This is a simplified description of the most basic kind of table. Certain considerations follow from this simplified description: @86,1614,595,61
+      text the term has several common synonyms (e.g., , k-, n-tuple, vector); @86,1687,595,20
+      row @86,1719,595,20
+        link row https://en.wikipedia.org/wiki/Row_(database) @86,1719,26,20
+        link record https://en.wikipedia.org/wiki/Record_(computer_science) @124,1719,44,20
+        link tuple https://en.wikipedia.org/wiki/Tuple @180,1719,33,20
+      text the term has several common synonyms (e.g., field, parameter, property, attribute, stanchion); @86,1751,595,41
+      link column https://en.wikipedia.org/wiki/Column_(database) @86,1804,595,20
+      text a column is usually identified by a name; @86,1836,595,21
+      text a column name can consist of a word, phrase or a numerical index; @86,1869,595,20
+      text the intersection of a row and a column is called a . @86,1901,595,20
+      link cell https://en.wikipedia.org/wiki/Table_cell @86,1933,595,20
+      text The elements of a table may be grouped, segmented, or arranged in many different ways, and even nested . Additionally, a table may include , , a header, a or other ancillary features. @86,1965,595,61
+      link recursively https://en.wikipedia.org/wiki/Recursion @86,2038,595,21
+      link metadata https://en.wikipedia.org/wiki/Metadata @86,2071,595,20
+      link annotations https://en.wikipedia.org/wiki/Annotations @86,2103,595,20
+      link [6] #cite_note-header-6 @86,2135,595,21
+      link footer https://en.wikipedia.org/wiki/Page_footer @86,2168,595,20
+      link [5] #cite_note-Zielinski000-52 @86,2200,595,20
+      row @86,2232,595,20
+        h3 Simple table @86,2233,91,19
+        link edit @189,2232,25,20
+      text The following illustrates a simple table with four columns and nine rows. The first row is not counted, because it is only used to display the column names. This is called a "header row". .mw-parser-output .defaultleft,.mw-parser-output .col1left td:nth-child(1),.mw-parser-output .col2left td:nth-child(2),.mw-parser-output .col3left td:nth-child(3),.mw-parser-output .col4left td:nth-child(4),.mw-parser-output .col5left td:nth-child(5),.mw-parser-output .col6left td:nth-child(6),.mw-parser-output .col7left td:nth-child(7),.mw-parser-output .col8left td:nth-child(8),.mw-parser-output .col9left td:nth-child(9),.mw-parser-output .col10left td:nth-child(10),.mw-parser-output .col11left td:nth-child(11),.mw-parser-output .col12left td:nth-child(12),.mw-parser-output .col13left td:nth-child(13),.mw-parser-output .col14left td:nth-child(14),.mw-parser-output .col15left td:nth-child(15),.mw-parser-output .col16left td:nth-child(16),.mw-parser-output .col17left td:nth-child(17),.mw-parser-output .col18left td:nth-child(18),.mw-parser-output .col19left td:nth-child(19),.mw-parser-output .col20left td:nth-child(20),.mw-parser-output .col21left td:nth-child(21),.mw-parser-output .col22left td:nth-child(22),.mw-parser-output .col23left td:nth-child(23),.mw-parser-output .col24left td:nth-child(24),.mw-parser-output .col25left td:nth-child(25),.mw-parser-output .col26left td:nth-child(26),.mw-parser-output .col27left td:nth-child(27),.mw-parser-output .col28left td:nth-child(28),.mw-parser-output .col29left td:nth-child(29),.mw-parser-output .col-1left td:nth-last-child(1),.mw-parser-output .col-2left td:nth-last-child(2),.mw-parser-output .col-3left td:nth-last-child(3),.mw-parser-output .col-4left td:nth-last-child(4),.mw-parser-output .col-5left td:nth-last-child(5),.mw-parser-output .col-6left td:nth-last-child(6),.mw-parser-output .col-7left td:nth-last-child(7),.mw-parser-output .col-8left td:nth-last-child(8),.mw-parser-output .col-9left td:nth-last-child(9){text-align:left}.mw-parser-output .defaultcenter,.mw-parser-output .col1center td:nth-child(1),.mw-parser-output .col2center td:nth-child(2),.mw-parser-output .col3center td:nth-child(3),.mw-parser-output .col4center td:nth-child(4),.mw-parser-output .col5center td:nth-child(5),.mw-parser-output .col6center td:nth-child(6),.mw-parser-output .col7center td:nth-child(7),.mw-parser-output .col8center td:nth-child(8),.mw-parser-output .col9center td:nth-child(9),.mw-parser-output .col10center td:nth-child(10),.mw-parser-output .col11center td:nth-child(11),.mw-parser-output .col12center td:nth-child(12),.mw-parser-output .col13center td:nth-child(13),.mw-parser-output .col14center td:nth-child(14),.mw-parser-output .col15center td:nth-child(15),.mw-parser-output .col16center td:nth-child(16),.mw-parser-output .col17center td:nth-child(17),.mw-parser-output .col18center td:nth-child(18),.mw-parser-output .col19center td:nth-child(19),.mw-parser-output .col20center td:nth-child(20),.mw-parser-output .col21center td:nth-child(21),.mw-parser-output .col22center td:nth-child(22),.mw-parser-output .col23center td:nth-child(23),.mw-parser-output .col24center td:nth-child(24),.mw-parser-output .col25center td:nth-child(25),.mw-parser-output .col26center td:nth-child(26),.mw-parser-output .col27center td:nth-child(27),.mw-parser-output .col28center td:nth-child(28),.mw-parser-output .col29center td:nth-child(29),.mw-parser-output .col-1center td:nth-last-child(1),.mw-parser-output .col-2center td:nth-last-child(2),.mw-parser-output .col-3center td:nth-last-child(3),.mw-parser-output .col-4center td:nth-last-child(4),.mw-parser-output .col-5center td:nth-last-child(5),.mw-parser-output .col-6center td:nth-last-child(6),.mw-parser-output .col-7center td:nth-last-child(7),.mw-parser-output .col-8center td:nth-last-child(8),.mw-parser-output .col-9center td:nth-last-child(9){text-align:center}.mw-parser-output .defaultright,.mw-parser-output .col1right td:nth-child(1),.mw-parser-output .col2right td:nth-child(2),.mw-parser-output .col3right td:nth-child(3),.mw-parser-output .col4right td:nth-child(4),.mw-parser-output .col5right td:nth-child(5),.mw-parser-output .col6right td:nth-child(6),.mw-parser-output .col7right td:nth-child(7),.mw-parser-output .col8right td:nth-child(8),.mw-parser-output .col9right td:nth-child(9),.mw-parser-output .col10right td:nth-child(10),.mw-parser-output .col11right td:nth-child(11),.mw-parser-output .col12right td:nth-child(12),.mw-parser-output .col13right td:nth-child(13),.mw-parser-output .col14right td:nth-child(14),.mw-parser-output .col15right td:nth-child(15),.mw-parser-output .col16right td:nth-child(16),.mw-parser-output .col17right td:nth-child(17),.mw-parser-output .col18right td:nth-child(18),.mw-parser-output .col19right td:nth-child(19),.mw-parser-output .col20right td:nth-child(20),.mw-parser-output .col21right td:nth-child(21),.mw-parser-output .col22right td:nth-child(22),.mw-parser-output .col23right td:nth-child(23),.mw-parser-output .col24right td:nth-child(24),.mw-parser-output .col25right td:nth-child(25),.mw-parser-output .col26right td:nth-child(26),.mw-parser-output .col27right td:nth-child(27),.mw-parser-output .col28right td:nth-child(28),.mw-parser-output .col29right td:nth-child(29),.mw-parser-output .col-1right td:nth-last-child(1),.mw-parser-output .col-2right td:nth-last-child(2),.mw-parser-output .col-3right td:nth-last-child(3),.mw-parser-output .col-4right td:nth-last-child(4),.mw-parser-output .col-5right td:nth-last-child(5),.mw-parser-output .col-6right td:nth-last-child(6),.mw-parser-output .col-7right td:nth-last-child(7),.mw-parser-output .col-8right td:nth-last-child(8),.mw-parser-output .col-9right td:nth-last-child(9){text-align:right} @86,2264,595,1584
+      table "First name" "Last name" Age Gender @86,3860,595,347
+        Tinu | Elejogun | 14 | F
+        Javier | Zapata | 28 | M
+        Lily | McGarrett | 18 | F
+        Olatunkbo | Chijiaku | 22 | M
+        Adrienne | Anthoula | 22 | M
+        Axelia | Athanasios | 22 | M
+        Jon-Kabat | Zinn | 22 | M
+        Thabang | Mosoa | 15 | F
+        Rhian | Ellis | 12 | M
+      row @86,4219,595,20
+        h3 Multi-dimensional table @86,4220,174,18
+        link edit @272,4219,25,20
+      link https://en.wikipedia.org/wiki/File:Rollup_table.png https://en.wikipedia.org/wiki/File:Rollup_table.png @86,4251,595,21
+      text An example of a table containing rows with summary information. The summary information consists of subtotals that are combined from previous rows within the same column. @86,4284,595,60
+      text The concept of  is also a part of basic terminology. Any "simple" table can be represented as a "multi-dimensional" table by  the data values into ordered . A common example of such a table is a . @86,4356,595,61
+      text dimension @86,4429,595,21
+      link [7] #cite_note-7 @86,4462,595,20
+      link normalizing https://en.wikipedia.org/wiki/Database_normalization @86,4494,595,20
+      link hierarchies https://en.wikipedia.org/wiki/Hierarchies @86,4526,595,21
+      link "multiplication table" https://en.wikipedia.org/wiki/Multiplication_table @86,4559,595,20
+      table × 1 2 3 @86,4591,595,135
+        1 | 1 | 2 | 3
+        2 | 2 | 4 | 6
+        3 | 3 | 6 | 9
+      text In multi-dimensional tables, each cell in the body of the table (and the value of that cell) relates to the values at the beginnings of the column (i.e. the header), the row, and other structures in more complex tables. This is an : each combination of the values of the headers row (row 0, for lack of a better term) and the headers column (column 0 for lack of a better term) is related to a unique cell in the table: @86,4738,595,102
+      link "injective relation" https://en.wikipedia.org/wiki/Injective_function @86,4852,595,20
+      text Column 1 and row 1 will only correspond to cell (1,1); @86,4884,595,20
+      text Column 1 and row 2 will only correspond to cell (2,1) etc. @86,4916,595,21
+      text The first column often presents information dimension description by which the rest of the table is navigated. This column is called "stub column". Tables may contain three or multiple dimensions and can be classified by the number of dimensions. Multi-dimensional tables may have super-rows - rows that describe additional dimensions for the rows that are presented below that row and are usually grouped in a tree-like structure. This structure is typically visually presented with an appropriate number of white spaces in front of each stub's label. @86,4949,595,142
+      link [8] #cite_note-8 @86,5103,595,20
+      text In literature tables often present numerical values, cumulative statistics, categorical values, and at times parallel descriptions in form of text. They can condense large amount of information to a limited space and therefore they are popular in scientific literature in many fields of study. @86,5135,595,81
+      link [9] #cite_note-9 @86,5228,595,20
+      link https://en.wikipedia.org/wiki/File:Philosophical_Transactions_-_Volume_001.djvu?page=60 https://en.wikipedia.org/wiki/File:Philosophical_Transactions_-_Volume_001.djvu?page=60 @86,5260,595,21
+      text 's "A TABLE of the Apertures of Object-Glasses" from  in @86,5293,595,20
+      link "Adrien Auzout" https://en.wikipedia.org/wiki/Adrien_Auzout @86,5325,595,20
+      link "a 1665 article" https://en.wikisource.org/wiki/Philosophical%20Transactions/Volume%201/Number%204#56 @86,5357,595,21
+      link "Philosophical Transactions" https://en.wikipedia.org/wiki/Philosophical_Transactions @86,5390,595,20
+      row @86,5422,595,21
+        h2 Generic representation @86,5422,193,21
+        link edit @291,5422,25,21
+      text As a communication tool, a table allows a form of of information from an unlimited number of different social or scientific contexts. It provides a familiar way to convey information that might otherwise not be obvious or readily understood. @86,5455,595,61
+      link generalization https://en.wikipedia.org/wiki/Generalization @86,5528,595,20
+      text For example, in the following diagram, two alternate representations of the same information are presented side by side. On the left is the NFPA 704 standard "" with example values indicated and on the right is a simple table displaying the same values, along with additional information. Both representations convey essentially the same information, but the tabular representation is arguably more comprehensible to someone who is not familiar with the NFPA 704 standard. The tabular representation may not, however, be ideal for every circumstance (for example because of space limitations, or safety reasons). @86,5560,595,163
+      link "fire diamond" https://en.wikipedia.org/wiki/Fire_diamond @86,5735,595,20
+      table "Standard Representation" "Tabular Representation" @86,5767,595,65
+        .mw-parser-output .nfpa-704-diamond-ref{float:right;padding:1px;text-align:right}.mw-parser-output .nfpa-704-diamond-container{width:82px;font-family:sans-serif;margin:0 auto}.mw-parser-output .nfpa-704-diamond-container-ref{float:left;margin-left:1em}.mw-parser-output .nfpa-704-diamond-images{float:left;font-size:20px;text-align:center;position:relative;height:80px;width:80px;padding:1px}.mw-parser-output .nfpa-704-diamond-map{position:absolute;height:80px;width:80px}.mw-parser-output .nfpa-704-diamond .noresize{margin:0 auto}.mw-parser-output .nfpa-704-diamond-code{line-height:1em;text-align:center;position:absolute}.mw-parser-output .nfpa-704-diamond-code>a{color:black}.mw-parser-output .nfpa-704-diamond-blue{width:13px;top:31px;left:15px}.mw-parser-output .nfpa-704-diamond-red{width:12px;top:12px;left:35px}.mw-parser-output .nfpa-704-diamond-yellow{width:13px;top:31px;left:54px}.mw-parser-output .nfpa-704-diamond-white-image{position:relative;top:51px;left:0}.mw-parser-output .nfpa-704-diamond-white-text{vertical-align:middle;text-align:center;line-height:80%;position:absolute;top:52px}.mw-parser-output .nfpa-704-diamond-white-text a>span{position:absolute;color:black}.mw-parser-output .nfpa-704-diamond-white-wors{font-size:15px;width:23px;left:29px}.mw-parser-output .nfpa-704-diamond-white-wox{font-size:15px;font-stretch:condensed;width:21px;line-height:80%;top:-4px;left:29px}.mw-parser-output .nfpa-704-diamond-white-abcp{font-size:13.5px;font-stretch:condensed;width:28px;left:26px}.mw-parser-output .nfpa-704-diamond-white-ac{font-size:10px;width:30px;left:25px}.mw-parser-output .nfpa-704-diamond-white-strike{text-decoration:line-through} 3 2 1 | Risk levels of hazardous materials in this facility Health RiskFlammabilityReactivitySpecial Level 3Level 2Level 1
+      row @86,5844,595,21
+        h2 Information technology @86,5844,195,21
+        link edit @293,5844,25,21
+      row @86,5877,595,20
+        h3 Software applications @86,5878,161,19
+        link edit @259,5877,25,20
+      text Modern software applications give users the ability to generate, format, and edit tables and tabular data for a wide variety of uses, such as in: and applications, , and in or another . @86,5909,595,61
+      link "word processing" https://en.wikipedia.org/wiki/Word_processing @86,5982,595,21
+      link spreadsheet https://en.wikipedia.org/wiki/Spreadsheet @86,6015,595,20
+      link "presentation software" https://en.wikipedia.org/wiki/Presentation_software @86,6047,595,20
+      link HTML https://en.wikipedia.org/wiki/HTML @86,6079,595,20
+      link "markup language" https://en.wikipedia.org/wiki/Markup_language @86,6111,595,21
+      row @86,6144,595,20
+        h3 HTML @86,6145,44,18
+        link edit @142,6144,25,20
+      text Table cells are a key in and building. It is part of the component. A programmer may specify dimensions for a table cell, and use them to hold sections of webpages. A table cell in HTML is a non-empty element and is supposed to always be closed. There are two different kinds of table cell in HTML, namely: normal table cell and header cell. denotes a table cell, the name implying 'data', while denotes a table 'header'. The two can be used interchangeably, but it is recommended that header cell be only used for the top and side headers of a table. Furthermore, a table cell must be nested within a tag a (table row) tag. If there are more table cell tags in any given row than in any other, the particular must be given a attribute declaring how many columns of cells wide it should be. By using the and attributes, developers can combine multiple rows or columns, allowing them to design more complex and visually structured tables. @86,6176,595,223
+      link component https://en.wikipedia.org/wiki/Software_component @86,6411,595,21
+      link HTML https://en.wikipedia.org/wiki/HTML @86,6444,595,20
+      link webpage https://en.wikipedia.org/wiki/Webpage @86,6476,595,20
+      text <table> @86,6508,595,21
+      link [10] #cite_note-10 @86,6541,595,20
+      text <td> @86,6573,595,20
+      text <th> @86,6605,595,20
+      text <table> @86,6637,595,21
+      text and @86,6670,595,20
+      text <tr> @86,6702,595,20
+      text <tr> @86,6734,595,21
+      text colspan @86,6767,595,20
+      text rowspan @86,6799,595,20
+      text colspan @86,6831,595,21
+      link [11] #cite_note-11 @86,6864,595,20
+      text The following table illustrates usage of colspan and rowspan: @86,6896,595,20
+      table Col Col Col "<-- This row has three table data cells" @86,6928,595,135
+         |  | <-- This row has two. The first uses colspan="2"
+         |  |  | <-- This row has three table data cells, but one spans two rows because it uses rowspan="2"
+         |  | <-- This row has only two table data cells, because its first is being taken up
+      text The following is an example of an HTML table containing 4 cells: @86,7075,595,21
+      table "Cell 1" "Cell 2" @86,7108,595,64
+        Cell 3 | Cell 4
+      text HTML source: @86,7184,595,21
+      text <table border="1"> <tr> <td> Cell 1 </td> <td> Cell 2 </td> </tr> <tr> <td> Cell 3 </td> <td> Cell 4 </td> </tr> </table> @86,7217,595,40
+      row @86,7269,595,21
+        h3 Software development @86,7270,168,19
+        link edit @266,7269,25,21
+      text Tables have uses in software development for both high-level specification and low-level implementation. Usage in software specification can encompass ad hoc inclusion of simple in textual documents through to the use of tabular specification methodologies, examples of which include Software Cost Reduction and Statestep. Proponents of tabular techniques, among whom is prominent, emphasize their understandability, as well as the quality and cost advantages of a format allowing systematic inspection, while corresponding shortcomings experienced with a graphical notation were cited in motivating the development of at least two tabular approaches. @86,7302,595,162
+      link "decision tables" https://en.wikipedia.org/wiki/Decision_table @86,7476,595,20
+      link [12] #cite_note-Heitmeyer000-12 @86,7508,595,21
+      link [13] #cite_note-Breen000-13 @86,7541,595,20
+      link "David Parnas" https://en.wikipedia.org/wiki/David_Parnas @86,7573,595,20
+      link [14] #cite_note-Janicki000-14 @86,7605,595,21
+      link [13] #cite_note-Breen000-132 @86,7638,595,20
+      link [15] #cite_note-Leveson000-15 @86,7670,595,20
+      text At a programming level, software may be implemented using constructs generally represented or understood as tabular, whether to store data (perhaps to earlier results), for example, in or , or determining the flow of program execution in response to various events or inputs. @86,7702,595,81
+      link memoize https://en.wikipedia.org/wiki/Memoization @86,7795,595,21
+      link arrays https://en.wikipedia.org/wiki/Array_data_structure @86,7828,595,20
+      link "hash tables" https://en.wikipedia.org/wiki/Hash_table @86,7860,595,20
+      link "control tables" https://en.wikipedia.org/wiki/Control_table @86,7892,595,21
+      row @86,7925,595,20
+        h3 Databases @86,7925,78,19
+        link edit @176,7925,25,20
+      text Database systems often store data in structures called tables; in which are data fields and represent data records. @86,7957,595,40
+      row @86,8009,595,21
+        link columns https://en.wikipedia.org/wiki/Column_(database) @86,8009,56,21
+        link rows https://en.wikipedia.org/wiki/Row_(database) @154,8009,33,21
+      row @86,8042,595,21
+        h2 Other uses @86,8042,91,21
+        link edit @189,8042,25,21
+      text There are several specific situations in which tables are routinely used as a matter of custom or formal convention. @86,8075,595,41
+      row @86,8128,595,20
+        h3 Publishing @86,8128,78,19
+        link edit @176,8128,25,20
+      text This section is an excerpt from . @86,8160,595,20
+      row @86,8192,595,20
+        link "Table of contents" https://en.wikipedia.org/wiki/Table_of_contents @86,8192,117,20
+        link edit https://en.wikipedia.org/w/index.php?title=Table_of_contents&action=edit @215,8192,25,20
+      text A (or simply contents, abbreviated as TOC), is a list usually part of the preceding the main text of a book or other written work containing the titles of the text's sections, sometimes with descriptions. @86,8224,595,61
+      row @86,8297,595,21
+        link "table of contents" https://en.wikipedia.org/wiki/Table_of_contents @86,8297,112,21
+        link "front matter" https://en.wikipedia.org/wiki/Book_design#Front_matter @210,8297,79,21
+      row @86,8330,595,20
+        h3 Mathematics @86,8330,96,19
+        link edit @194,8330,25,20
+      text This section is an excerpt from . @86,8362,595,20
+      row @86,8394,595,21
+        link "Mathematical table" https://en.wikipedia.org/wiki/Mathematical_table @86,8394,126,21
+        link edit https://en.wikipedia.org/w/index.php?title=Mathematical_table&action=edit @224,8394,25,21
+      row @86,8427,595,20
+        link https://en.wikipedia.org/wiki/File:Bernegger_Manuale_136.jpg https://en.wikipedia.org/wiki/File:Bernegger_Manuale_136.jpg @86,8427,292,20
+        link https://en.wikipedia.org/wiki/File:Bernegger_Manuale_137.jpg https://en.wikipedia.org/wiki/File:Bernegger_Manuale_137.jpg @390,8427,291,20
+      text Facing pages from a 1619 book of mathematical tables by , showing values for the sine, tangent and secant . Angles less than 45° are found on the left page, angles greater than 45° on the right. Cosine, cotangent and cosecant are found by using the entry on the opposite page. @86,8459,595,81
+      link "Matthias Bernegger" https://en.wikipedia.org/wiki/Matthias_Bernegger @86,8552,595,20
+      link "trigonometric functions" https://en.wikipedia.org/wiki/Trigonometric_function @86,8584,595,21
+      text are of information, usually numbers, showing the results of a calculation with varying arguments. were used in ancient Greece and India for applications to and , and continued to be widely used until became cheap and plentiful in the 1970s, in order to simplify and drastically speed up . Tables of and were common in math and science textbooks, and specialized tables were published for numerous applications. @86,8617,595,101
+      link "Mathematical tables" https://en.wikipedia.org/wiki/Mathematical_table @86,8730,595,20
+      link tables https://en.wikipedia.org/wiki/Table_(information) @86,8762,595,21
+      link "Trigonometric tables" https://en.wikipedia.org/wiki/Trigonometric_tables @86,8795,595,20
+      link astronomy https://en.wikipedia.org/wiki/Astronomy @86,8827,595,20
+      link "celestial navigation" https://en.wikipedia.org/wiki/Celestial_navigation @86,8859,595,21
+      link "electronic calculators" https://en.wikipedia.org/wiki/Electronic_calculator @86,8892,595,20
+      link computation https://en.wikipedia.org/wiki/Computation @86,8924,595,20
+      link logarithms https://en.wikipedia.org/wiki/Logarithm @86,8956,595,21
+      link "trigonometric functions" https://en.wikipedia.org/wiki/Trigonometric_functions @86,8989,595,20
+      text Examples include: @86,9021,595,20
+      text Arithmetic () @86,9053,595,20
+      link "Multiplication table" https://en.wikipedia.org/wiki/Multiplication_table @86,9085,595,21
+      text Logic () @86,9118,595,20
+      link "Truth table" https://en.wikipedia.org/wiki/Truth_table @86,9150,595,20
+      row @86,9182,595,21
+        h3 Natural sciences @86,9183,124,19
+        link edit @222,9182,25,21
+      text In natural sciences, uses of tables include the in , and in . @86,9215,595,20
+      row @86,9247,595,20
+        link "periodic table" https://en.wikipedia.org/wiki/Periodic_table @86,9247,91,20
+        link chemistry https://en.wikipedia.org/wiki/Chemistry @189,9247,66,20
+        link "tide tables" https://en.wikipedia.org/wiki/Tide_table @267,9247,69,20
+        link oceanography https://en.wikipedia.org/wiki/Oceanography @348,9247,96,20
+      row @86,9279,595,21
+        h3 Periodic table @86,9280,101,19
+        link edit @199,9279,25,21
+      text This section is an excerpt from . @86,9312,595,20
+      row @86,9344,595,20
+        link "Periodic table" https://en.wikipedia.org/wiki/Periodic_table @86,9344,91,20
+        link edit https://en.wikipedia.org/w/index.php?title=Periodic_table&action=edit @189,9344,25,20
+      link https://en.wikipedia.org/wiki/File:Colour_18-col_PT_with_labels.svg https://en.wikipedia.org/wiki/File:Colour_18-col_PT_with_labels.svg @86,9376,595,20
+      text Periodic table of the chemical elements showing the most or more commonly named (in periodic tables), and a traditional . The actually fits between and ; it is usually shown at the foot of the table to save horizontal space. @86,9408,595,61
+      link "sets of elements" https://en.wikipedia.org/wiki/Names_for_sets_of_chemical_elements @86,9481,595,21
+      link "dividing line between metals and nonmetals" https://en.wikipedia.org/wiki/Dividing_line_between_metals_and_nonmetals @86,9514,595,20
+      link f-block https://en.wikipedia.org/wiki/Block_(periodic_table)#f-block @86,9546,595,20
+      link "groups 2" https://en.wikipedia.org/wiki/Alkaline_earth_metals @86,9578,595,21
+      link 3 https://en.wikipedia.org/wiki/Scandium_group @86,9611,595,20
+      text The , also known as the periodic table of the elements, is an ordered arrangement of the  into rows ("") and columns (""). An  of , the periodic table is also widely used in  and other sciences. It is a depiction of the , which states that when the elements are arranged in order of their  an approximate  is evident. The table is divided into four roughly rectangular areas called . Elements in the same group tend to show similar chemical characteristics. @86,9643,595,122
+      link "periodic table" https://en.wikipedia.org/wiki/Periodic_table @86,9777,595,20
+      link "chemical elements" https://en.wikipedia.org/wiki/Chemical_element @86,9809,595,20
+      link periods https://en.wikipedia.org/wiki/Period_(periodic_table) @86,9841,595,21
+      link groups https://en.wikipedia.org/wiki/Group_(periodic_table) @86,9874,595,20
+      link icon https://en.wikipedia.org/wiki/Cultural_icon @86,9906,595,20
+      link chemistry https://en.wikipedia.org/wiki/Chemistry @86,9938,595,20
+      link physics https://en.wikipedia.org/wiki/Physics @86,9970,595,21
+      link "periodic law" https://en.wikipedia.org/wiki/Periodic_trends @86,10003,595,20
+      link "atomic numbers" https://en.wikipedia.org/wiki/Atomic_number @86,10035,595,20
+      link "recurrence of their properties" https://en.wikipedia.org/wiki/Periodic_function @86,10067,595,21
+      link blocks https://en.wikipedia.org/wiki/Block_(periodic_table) @86,10100,595,20
+      row @86,10132,595,20
+        h3 Tide table @86,10133,73,19
+        link edit @171,10132,25,20
+      text This section is an excerpt from . @86,10164,595,21
+      row @86,10197,595,20
+        link "Tide table" https://en.wikipedia.org/wiki/Tide_table @86,10197,66,20
+        link edit https://en.wikipedia.org/w/index.php?title=Tide_table&action=edit @164,10197,25,20
+      text , sometimes called tide charts, are used for and show the daily times and levels of high and low tides, usually for a particular location. Tide heights at intermediate times (between high and low water) can be approximated by using the or more accurately calculated by using a published tidal curve for the location. Tide levels are typically given relative to a low-water , e.g. the (MLLW) datum in the US. @86,10229,595,101
+      link "Tide tables" https://en.wikipedia.org/wiki/Tide_table @86,10342,595,21
+      link "tidal prediction" https://en.wikipedia.org/wiki/Tidal_prediction @86,10375,595,20
+      link [16] #cite_note-16 @86,10407,595,20
+      link "rule of twelfths" https://en.wikipedia.org/wiki/Rule_of_twelfths @86,10439,595,21
+      link "vertical datum" https://en.wikipedia.org/wiki/Vertical_datum @86,10472,595,20
+      link "mean lower low water" https://en.wikipedia.org/wiki/Mean_lower_low_water @86,10504,595,20
+      link [17] #cite_note-17 @86,10536,595,20
+      row @86,10568,595,22
+        h2 Historical relationship to furniture @86,10568,281,22
+        link edit @379,10569,25,20
+      text In medieval , the were covered with a piece of cloth, to count money. is an archaic term for the English institution which accounted for money owed to the . Thus the tables of stacks of coins are a concrete realization of this . @86,10602,595,61
+      link "counting houses" https://en.wikipedia.org/wiki/Counting_house @86,10675,595,20
+      link tables https://en.wikipedia.org/wiki/Table_(furniture) @86,10707,595,20
+      link checkered https://en.wikipedia.org/wiki/Check_(fabric) @86,10739,595,21
+      link [18] #cite_note-18 @86,10772,595,20
+      link [19] #cite_note-19 @86,10804,595,20
+      link Exchequer https://en.wikipedia.org/wiki/Exchequer @86,10836,595,20
+      link monarch https://en.wikipedia.org/wiki/Monarch @86,10868,595,21
+      link checkerboard https://en.wikipedia.org/wiki/Checkerboard @86,10901,595,20
+      link information https://en.wikipedia.org/wiki/Information @86,10933,595,20
+      row @86,10965,595,21
+        text [ @86,10965,6,21
+        link "citation needed" https://en.wikipedia.org/wiki/Wikipedia:Citation_needed @104,10965,103,21
+        text ] @219,10965,6,21
+      row @86,10998,595,21
+        h2 See also @86,10998,70,21
+        link edit @168,10998,25,20
+      link Chart https://en.wikipedia.org/wiki/Chart @86,11031,595,20
+      link Diagram https://en.wikipedia.org/wiki/Diagram @86,11063,595,20
+      link "Abstract data type" https://en.wikipedia.org/wiki/Abstract_data_type @86,11095,595,21
+      link "Column (database)" https://en.wikipedia.org/wiki/Column_(database) @86,11128,595,20
+      link "Information graphics" https://en.wikipedia.org/wiki/Information_graphics @86,11160,595,20
+      link "Periodic table" https://en.wikipedia.org/wiki/Periodic_table @86,11192,595,21
+      link "Reference table" https://en.wikipedia.org/wiki/Reference_table @86,11225,595,20
+      link "Row (database)" https://en.wikipedia.org/wiki/Row_(database) @86,11257,595,20
+      link "Table (database)" https://en.wikipedia.org/wiki/Table_(database) @86,11289,595,21
+      link "Table (HTML)" https://en.wikipedia.org/wiki/HTML_element#Tables @86,11322,595,20
+      link Tensor https://en.wikipedia.org/wiki/Tensor @86,11354,595,20
+      link "Dependent and independent variables" https://en.wikipedia.org/wiki/Dependent_and_independent_variables @86,11386,595,20
+      link "Zebra striping" https://en.wikipedia.org/wiki/Zebra_striping @86,11418,595,21
+      row @86,11451,595,21
+        h2 References @86,11451,96,21
+        link edit @194,11451,25,21
+      row @86,11484,595,41
+        link "Jump up" #cite_ref-Fink000_1-0 @86,11484,44,41
+        text Fink, Arlene (2005). . Thousand Oaks: Sage Publications. . @142,11484,287,41
+        row @441,11484,240,41
+          text How to Conduct Surveys @441,11484,120,41
+          link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier) @573,11494,24,20
+          link 1-4129-1423-X https://en.wikipedia.org/wiki/Special:BookSources/1-4129-1423-X @609,11494,72,20
+      link "Jump up" #cite_ref-Mcnabb000_2-0 @86,11537,595,20
+      text McNabb, David (2002). . Armonk: M.E. Sharpe. . @86,11569,595,20
+      text Research Methods in Public Administration and Nonprofit Management @86,11601,595,21
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier) @86,11634,595,20
+      link 0-7656-0957-6 https://en.wikipedia.org/wiki/Special:BookSources/0-7656-0957-6 @86,11666,595,20
+      link "Jump up" #cite_ref-Morgan000_3-0 @86,11698,595,20
+      text Morgan, George (2004). . Hillsdale: Lawrence Erlbaum. . @86,11730,595,21
+      link "Spss for Introductory Statistics" https://archive.org/details/spssforintroduct0000unse @86,11763,595,20
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier) @86,11795,595,20
+      link 0-8058-4789-8 https://en.wikipedia.org/wiki/Special:BookSources/0-8058-4789-8 @86,11827,595,21
+      link "Jump up" #cite_ref-Robey000_4-0 @86,11860,595,20
+      text Robey, David (2000). . Oxford Oxfordshire: Oxford University Press. . @86,11892,595,20
+      text Sound and Structure in the Divine Comedy @86,11924,595,21
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier) @86,11957,595,20
+      link 0-19-818498-0 https://en.wikipedia.org/wiki/Special:BookSources/0-19-818498-0 @86,11989,595,20
+      row @86,12021,595,20
+        link "Jump up to: 1" #cite_ref-Zielinski000_5-0 @86,12021,89,20
+        link 2 #cite_ref-Zielinski000_5-1 @187,12021,9,20
+      text Zielinski, Krzysztof (2006). . Amsterdam: IOS Press. . @86,12053,595,21
+      text Software Engineering: Evolution and Emerging Technologies @86,12086,595,20
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier) @86,12118,595,20
+      link 1-58603-559-2 https://en.wikipedia.org/wiki/Special:BookSources/1-58603-559-2 @86,12150,595,21
+      row @86,12183,595,20
+        link "Jump up" #cite_ref-header_6-0 @86,12183,58,20
+        text see e.g., or @156,12183,75,20
+        row @243,12183,229,20
+          link "Page header" https://en.wikipedia.org/wiki/Page_header @243,12183,84,20
+          link "Header (computing)" https://en.wikipedia.org/wiki/Header_(computing) @339,12183,133,20
+      link "Jump up" #cite_ref-7 @86,12215,595,20
+      text The concept of "dimension" is often applied to tables in different contexts and with different meanings. For example, what is described as a "Simple Table" in this article is alternatively described as a "two dimensional array". This is distinct from "multi-dimensional table" as presented in this article. @86,12247,595,81
+      link "Jump up" #cite_ref-8 @86,12340,595,21
+      text Milosevic N, Gregson C, Hernandez R, Nenadic G (June 2016). . . Lecture Notes in Computer Science. Vol.9612. pp.174. :. . . @86,12373,595,40
+      link "\"Disentangling the Structure of Tables in Scientific Literature\"" https://www.research.manchester.ac.uk/portal/files/41051279/Disentangling_the_Structure_of_Tables_in_Scientific_Literature.pdf @86,12425,595,21
+      text (PDF) @86,12458,595,20
+      text Proceedings of 21st International Conference on Applications of Natural Language to Information Systems (NLDB 2016) @86,12490,595,41
+      text 162– @86,12543,595,20
+      link doi https://en.wikipedia.org/wiki/Doi_(identifier) @86,12575,595,20
+      link 10.1007/978-3-319-41754-7_14 https://doi.org/10.1007%2F978-3-319-41754-7_14 @86,12607,595,20
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier) @86,12639,595,21
+      link 978-3-319-41753-0 https://en.wikipedia.org/wiki/Special:BookSources/978-3-319-41753-0 @86,12672,595,20
+      link S2CID https://en.wikipedia.org/wiki/S2CID_(identifier) @86,12704,595,20
+      link 19538141 https://api.semanticscholar.org/CorpusID:19538141 @86,12736,595,21
+      link "Jump up" #cite_ref-9 @86,12769,595,20
+      text Milosevic N, Gregson C, Hernandez R, Nenadic G (February 2019). "A framework for information extraction from tables in biomedical literature". .  (1): 78. :. :. . @86,12801,595,41
+      text International Journal on Document Analysis and Recognition @86,12854,595,20
+      text 22 @86,12886,595,20
+      text 55– @86,12918,595,20
+      link arXiv https://en.wikipedia.org/wiki/ArXiv_(identifier) @86,12950,595,21
+      link 1902.10031 https://arxiv.org/abs/1902.10031 @86,12983,595,20
+      link doi https://en.wikipedia.org/wiki/Doi_(identifier) @86,13015,595,20
+      link 10.1007/s10032-019-00317-0 https://doi.org/10.1007%2Fs10032-019-00317-0 @86,13047,595,21
+      link S2CID https://en.wikipedia.org/wiki/S2CID_(identifier) @86,13080,595,20
+      link 62880746 https://api.semanticscholar.org/CorpusID:62880746 @86,13112,595,20
+      row @86,13144,595,41
+        link "Jump up" #cite_ref-10 @86,13144,55,41
+        text . . @153,13154,13,21
+        row @178,13144,503,41
+          link "\"<table>: The Table element\"" https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/table @178,13144,185,41
+          text MDN Web Docs @375,13144,100,41
+          text . Retrieved 18 September 2025 @487,13144,194,41
+      row @86,13197,595,40
+        link "Jump up" #cite_ref-11 @86,13197,44,40
+        text . . @142,13197,10,40
+        row @164,13197,517,40
+          link "\"How to Use the Table Tag in HTML: Explained with Examples\"" https://www.ccbp.in/blog/articles/table-tag-in-html @164,13197,314,40
+          text www.ccbp.in @490,13207,66,20
+          text . Retrieved 2025-11-14 @568,13197,113,40
+      link "Jump up" #cite_ref-Heitmeyer000_12-0 @86,13249,595,21
+      text Heitmeyer, Constance L. (2002). . Washington D.C.: Naval Research Laboratory. Archived from on March 12, 2012. @86,13282,595,40
+      link "\"Software Cost Reduction\"" https://web.archive.org/web/20120312075923/http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADA465161 @86,13334,595,21
+      link "the original" http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADA465161 @86,13367,595,20
+      row @86,13399,595,20
+        link "Jump up to: 1" #cite_ref-Breen000_13-0 @86,13399,89,20
+        link 2 #cite_ref-Breen000_13-1 @187,13399,9,20
+      text Breen, Michael (2005). . . (2): 172. :. . @86,13431,595,21
+      link "\"Experience of using a lightweight formal specification method for a commercial embedded system product line\"" http://mbreen.com/experience.pdf @86,13464,595,40
+      text (PDF) @86,13516,595,20
+      text Requirements Engineering Journal @86,13548,595,21
+      text 10 @86,13581,595,20
+      text 161– @86,13613,595,20
+      link doi https://en.wikipedia.org/wiki/Doi_(identifier) @86,13645,595,21
+      link 10.1007/s00766-004-0209-1 https://doi.org/10.1007%2Fs00766-004-0209-1 @86,13678,595,20
+      link S2CID https://en.wikipedia.org/wiki/S2CID_(identifier) @86,13710,595,20
+      link 16928695 https://api.semanticscholar.org/CorpusID:16928695 @86,13742,595,21
+      link "Jump up" #cite_ref-Janicki000_14-0 @86,13775,595,20
+      text Janicki, Ryszard; Parnas, David Lorge; Zucker, Jeffery (1997). "Tabular representations in relational documents". In Brink, C.; Kahl, W.; Schmidt, G. (eds.). . Springer Verlag. . @86,13807,595,40
+      text Relational Methods in Computer Science @86,13859,595,21
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier) @86,13892,595,20
+      link 3-211-82971-7 https://en.wikipedia.org/wiki/Special:BookSources/3-211-82971-7 @86,13924,595,20
+      link "Jump up" #cite_ref-Leveson000_15-0 @86,13956,595,21
+      text Leveson, Nancy G.; Heimdahl, Mats P. E.; Reese, Jon Damon (1999). "Designing Specification Languages for Process-Control Systems: Lessons Learned and Steps to the Future".  . Lecture Notes in Computer Science. Vol.1687. pp.146. :. :. . @86,13989,595,61
+      link "Seventh ACM SIGSOFT Symposium on the Foundations on Software Engineering" http://www.umsec.umn.edu/sites/all/files/publications/draft4.pdf @86,14062,595,20
+      text (PDF) @86,14094,595,20
+      text 127– @86,14126,595,20
+      link doi https://en.wikipedia.org/wiki/Doi_(identifier) @86,14158,595,21
+      link 10.1007/3-540-48166-4_9 https://doi.org/10.1007%2F3-540-48166-4_9 @86,14191,595,20
+      link hdl https://en.wikipedia.org/wiki/Hdl_(identifier) @86,14223,595,20
+      link 11299/217294 https://hdl.handle.net/11299%2F217294 @86,14255,595,21
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier) @86,14288,595,20
+      link 978-3-540-66538-0 https://en.wikipedia.org/wiki/Special:BookSources/978-3-540-66538-0 @86,14320,595,20
+      link "Jump up" #cite_ref-16 @86,14352,595,21
+      text Horton, Jennifer (2008-04-30). . HowStuffWorks. from the original on 2019-08-11. @86,14385,595,20
+      link "\"What are tide tables?\"" https://science.howstuffworks.com/environmental/earth/oceanography/tide-table.htm @86,14417,595,20
+      link Archived https://web.archive.org/web/20190811003600/https://science.howstuffworks.com/environmental/earth/oceanography/tide-table.htm @86,14449,595,20
+      text . Retrieved 2020-04-02 @86,14481,595,21
+      link "Jump up" #cite_ref-17 @86,14514,595,20
+      text , NOAA Special Publication NOS CO-OPS 1, Silver Spring MD, June 2000. @86,14546,595,20
+      link "Tidal Datums And Their Applications" https://tidesandcurrents.noaa.gov/publications/tidal_datums_and_their_applications.pdf @86,14578,595,21
+      link "Jump up" #cite_ref-18 @86,14611,595,20
+      text Baxter, W. T. (1989). . . (2): 83. :. . . @86,14643,595,20
+      link "\"Early Accounting: The Tally and Checkerboard\"" https://www.jstor.org/stable/40697984 @86,14675,595,21
+      text The Accounting Historians Journal @86,14708,595,20
+      text 16 @86,14740,595,20
+      text 43– @86,14772,595,20
+      link doi https://en.wikipedia.org/wiki/Doi_(identifier) @86,14804,595,21
+      link 10.2308/0148-4184.16.2.43 https://doi.org/10.2308%2F0148-4184.16.2.43 @86,14837,595,20
+      link ISSN https://en.wikipedia.org/wiki/ISSN_(identifier) @86,14869,595,20
+      link 0148-4184 https://search.worldcat.org/issn/0148-4184 @86,14901,595,21
+      link JSTOR https://en.wikipedia.org/wiki/JSTOR_(identifier) @86,14934,595,20
+      link 40697984 https://www.jstor.org/stable/40697984 @86,14966,595,20
+      link "Jump up" #cite_ref-19 @86,14998,595,21
+      text . . 14 August 2013. @86,15031,595,20
+      link "\"The Exchequer: a chequered history? - History of government\"" https://history.blog.gov.uk/2013/08/14/the-exchequer-a-chequered-history/ @86,15063,595,20
+      text history.blog.gov.uk @86,15095,595,20
+      text . Retrieved 2023-04-13 @86,15127,595,21
+      row @86,15160,595,21
+        h2 External links @86,15160,112,21
+        link edit @210,15160,25,20
+      row @86,15193,595,41
+        link https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg @86,15203,322,20
+        text Look up in Wiktionary, the free dictionary. @420,15193,222,41
+        link table https://en.wiktionary.org/wiki/table @654,15203,27,20
+      row @86,15246,595,40
+        link https://en.wikipedia.org/wiki/File:Commons-logo.svg https://en.wikipedia.org/wiki/File:Commons-logo.svg @86,15256,262,20
+        text Media related to @360,15246,80,40
+        link "Tables (information)" https://commons.wikimedia.org/wiki/Category:Tables%20(information) @452,15246,100,40
+        text at Wikimedia Commons @564,15246,117,40
+      text .mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:"\a0 · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}} @86,15298,595,1259
+      table "show.mw-parser-output .navbar{display inline;font-size 88%;font-weight normal}.mw-parser-output .navbar-collapse{float left;text-align left}.mw-parser-output .navbar-boxtext{word-spacing 0}.mw-parser-output .navbar ul{display inline-block;white-space nowrap;line-height inherit}.mw-parser-output .navbar-brackets before{margin-right -0.125em;content \"[ \"}.mw-parser-output .navbar-brackets after{margin-left -0.125em;content \" ]\"}.mw-parser-output .navbar li{word-spacing -0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration inherit}.mw-parser-output .navbar-mini abbr{font-variant small-caps;border-bottom none;text-decoration none;cursor inherit}.mw-parser-output .navbar-ct-full{font-size 114%;margin 0 7em}.mw-parser-output .navbar-ct-mini{font-size 114%;margin 0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color var(--color-base)!important}@media(prefers-color-scheme dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color var(--color-base)!important}}@media print{.mw-parser-output .navbar{display none!important}}vteVisualization of technical information" @86,16569,595,0
+      text .mw-parser-output .tooltip-dotted{border-bottom:1px dotted;cursor:help} @86,16581,595,20
+      table "showAuthority control databases" @86,16613,595,0
+      text : @86,16625,595,20
+      row @86,16657,595,21
+        link Categories /wiki/Help:Category @86,16657,73,21
+        row @171,16657,337,21
+          link Infographics /wiki/Category:Infographics @171,16657,83,21
+          link "Data modeling" /wiki/Category:Data_modeling @266,16657,96,21
+          link "Tables (information)" /wiki/Category:Tables_(information) @374,16657,134,21
+  col @693,7916,18,1448
+    text This page was last edited on 24 September 2026, at 08:48 (UTC). @693,7916,18,244
+    text Page was rendered with . @693,8172,18,101
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid @693,8285,18,21
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the and . Wikipedia® is a registered trademark of the , a non-profit organization. @693,8318,18,609
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License @693,8939,18,101
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use @693,9052,18,61
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @693,9125,18,41
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/ @693,9178,18,60
+    row @693,9250,18,82
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @693,9271,0,40
+      link "About Wikipedia" /wiki/Wikipedia:About @705,9271,0,40
+      link Disclaimers /wiki/Wikipedia:General_disclaimer @717,9281,0,20
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us @729,9271,0,40
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information @741,9250,0,82
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct @753,9261,0,60
+      link Developers https://developer.wikimedia.org @765,9281,0,20
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org @777,9281,0,20
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement @789,9271,0,40
+      link "Mobile view" @801,9271,0,40
+    row @693,9344,18,20
+      link https://www.wikimedia.org/ https://www.wikimedia.org/ @693,9344,3,20
+      link https://www.mediawiki.org/ https://www.mediawiki.org/ @708,9344,3,20
+!overflow move 174/216px
+!overflow search2 64/76px
+!overflow hide 28/125px
+!overflow toggle 28/274px
+!overflow toggle2 28/316px
+!overflow toggle3 28/231px
+!overflow 42 28/120px
+!overflow tools 28/66px
+!overflow move2 28/179px
+!overflow expand 28/98px
+!overflow hide2 28/146px
+!overflow table5..mw-parser-output .nfpa-704-diamond-ref{float:right;padding:1px;text-align:right}.mw-parser-output .nfpa-704-diamond-container{width:82px;font-family:sans-serif;margin:0 auto}.mw-parser-output .nfpa-704-diamond-container-ref{float:left;margin-left:1em}.mw-parser-output .nfpa-704-diamond-images{float:left;font-size:20px;text-align:center;position:relative;height:80px;width:80px;padding:1px}.mw-parser-output .nfpa-704-diamond-map{position:absolute;height:80px;width:80px}.mw-parser-output .nfpa-704-diamond .noresize{margin:0 auto}.mw-parser-output .nfpa-704-diamond-code{line-height:1em;text-align:center;position:absolute}.mw-parser-output .nfpa-704-diamond-code>a{color:black}.mw-parser-output .nfpa-704-diamond-blue{width:13px;top:31px;left:15px}.mw-parser-output .nfpa-704-diamond-red{width:12px;top:12px;left:35px}.mw-parser-output .nfpa-704-diamond-yellow{width:13px;top:31px;left:54px}.mw-parser-output .nfpa-704-diamond-white-image{position:relative;top:51px;left:0}.mw-parser-output .nfpa-704-diamond-white-text{vertical-align:middle;text-align:center;line-height:80%;position:absolute;top:52px}.mw-parser-output .nfpa-704-diamond-white-text a>span{position:absolute;color:black}.mw-parser-output .nfpa-704-diamond-white-wors{font-size:15px;width:23px;left:29px}.mw-parser-output .nfpa-704-diamond-white-wox{font-size:15px;font-stretch:condensed;width:21px;line-height:80%;top:-4px;left:29px}.mw-parser-output .nfpa-704-diamond-white-abcp{font-size:13.5px;font-stretch:condensed;width:28px;left:26px}.mw-parser-output .nfpa-704-diamond-white-ac{font-size:10px;width:30px;left:25px}.mw-parser-output .nfpa-704-diamond-white-strike{text-decoration:line-through} 3 2 1.Tabular Representation 595/11708px
+!overflow table9..Col 149/341px
+!overflow table9..<-- This row has three table data cells 149/635px
+!overflow table9..Col 149/521px

@@ -1,0 +1,335 @@
+@getbootstrap_com_docs_5_3_getting_starte rev=0 @0,0,728,7654
+row @17,17,694,20
+  link "Skip to main content" #content @17,17,136,20
+  link "Skip to docs navigation" #bd-docs-nav @165,17,155,20
+row @17,49,694,82
+  link Bootstrap / @17,80,35,20
+  row @64,49,647,82
+    row @64,80,108,20
+      link Docs /docs/5.3/getting-started/introduction/ @64,80,15,20
+      link Examples /docs/5.3/examples/ @91,80,28,20
+      link Icons https://icons.getbootstrap.com/ @131,80,16,20
+      link Blog https://blog.getbootstrap.com/ @159,80,13,20
+    row @184,49,527,82
+      link "GitHub GitHub" https://github.com/twbs @184,70,44,40
+      link "X X" https://x.com/getbootstrap @240,70,12,40
+      link "Open Collective Open Collective" https://opencollective.com/bootstrap @264,49,100,82
+      region 17x40 @376,81,8,18 [1 shapes, 0 labelled]
+      button "BootstrapBootstrap v5.3 (switch to other versions)" @396,72,189,36
+      region 17x40 @597,81,8,18 [1 shapes, 0 labelled]
+      button "Toggle theme (light)" @617,72,94,36
+row @17,143,694,7171
+  col @17,1587,10,4283
+    text Getting started @17,1587,10,40
+    link Introduction /docs/5.3/getting-started/introduction @17,1639,10,21
+    link Download /docs/5.3/getting-started/download @17,1672,10,20
+    link Contents /docs/5.3/getting-started/contents @17,1704,10,20
+    link "Browsers & devices" /docs/5.3/getting-started/browsers-devices @17,1736,10,61
+    link JavaScript /docs/5.3/getting-started/javascript @17,1809,10,20
+    link Webpack /docs/5.3/getting-started/webpack @17,1841,10,21
+    link Parcel /docs/5.3/getting-started/parcel @17,1874,10,20
+    link Vite /docs/5.3/getting-started/vite @17,1906,10,20
+    link Accessibility /docs/5.3/getting-started/accessibility @17,1938,10,21
+    link RFS /docs/5.3/getting-started/rfs @17,1971,10,20
+    link RTL /docs/5.3/getting-started/rtl @17,2003,10,20
+    link Contribute /docs/5.3/getting-started/contribute @17,2035,10,20
+    text Customize @17,2067,10,21
+    link Overview /docs/5.3/customize/overview @17,2100,10,20
+    link Sass /docs/5.3/customize/sass @17,2132,10,20
+    link Options /docs/5.3/customize/options @17,2164,10,21
+    link Color /docs/5.3/customize/color @17,2197,10,20
+    link "Color modes" /docs/5.3/customize/color-modes @17,2229,10,41
+    link Components /docs/5.3/customize/components @17,2282,10,20
+    link "CSS variables" /docs/5.3/customize/css-variables @17,2314,10,40
+    link Optimize /docs/5.3/customize/optimize @17,2366,10,21
+    text Layout @17,2399,10,20
+    link Breakpoints /docs/5.3/layout/breakpoints @17,2431,10,20
+    link Containers /docs/5.3/layout/containers @17,2463,10,21
+    link Grid /docs/5.3/layout/grid @17,2496,10,20
+    link Columns /docs/5.3/layout/columns @17,2528,10,20
+    link Gutters /docs/5.3/layout/gutters @17,2560,10,21
+    link Utilities /docs/5.3/layout/utilities @17,2593,10,20
+    link Z-index /docs/5.3/layout/z-index @17,2625,10,20
+    link "CSS Grid" /docs/5.3/layout/css-grid @17,2657,10,41
+    text Content @17,2710,10,20
+    link Reboot /docs/5.3/content/reboot @17,2742,10,20
+    link Typography /docs/5.3/content/typography @17,2774,10,21
+    link Images /docs/5.3/content/images @17,2807,10,20
+    link Tables /docs/5.3/content/tables @17,2839,10,20
+    link Figures /docs/5.3/content/figures @17,2871,10,21
+    text Forms @17,2904,10,20
+    link Overview /docs/5.3/forms/overview @17,2936,10,20
+    link "Form control" /docs/5.3/forms/form-control @17,2968,10,41
+    link Select /docs/5.3/forms/select @17,3021,10,20
+    link "Checks & radios" /docs/5.3/forms/checks-radios @17,3053,10,61
+    link Range /docs/5.3/forms/range @17,3126,10,20
+    link "Input group" /docs/5.3/forms/input-group @17,3158,10,41
+    link "Floating labels" /docs/5.3/forms/floating-labels @17,3211,10,40
+    link Layout /docs/5.3/forms/layout @17,3263,10,21
+    link Validation /docs/5.3/forms/validation @17,3296,10,20
+    text Components @17,3328,10,20
+    link Accordion /docs/5.3/components/accordion @17,3360,10,21
+    link Alerts /docs/5.3/components/alerts @17,3393,10,20
+    link Badge /docs/5.3/components/badge @17,3425,10,20
+    link Breadcrumb /docs/5.3/components/breadcrumb @17,3457,10,21
+    link Buttons /docs/5.3/components/buttons @17,3490,10,20
+    link "Button group" /docs/5.3/components/button-group @17,3522,10,40
+    link Card /docs/5.3/components/card @17,3574,10,21
+    link Carousel /docs/5.3/components/carousel @17,3607,10,20
+    link "Close button" /docs/5.3/components/close-button @17,3639,10,41
+    link Collapse /docs/5.3/components/collapse @17,3692,10,20
+    link Dropdowns /docs/5.3/components/dropdowns @17,3724,10,20
+    link "List group" /docs/5.3/components/list-group @17,3756,10,41
+    link Modal /docs/5.3/components/modal @17,3809,10,20
+    link Navbar /docs/5.3/components/navbar @17,3841,10,20
+    link "Navs & tabs" /docs/5.3/components/navs-tabs @17,3873,10,61
+    link Offcanvas /docs/5.3/components/offcanvas @17,3946,10,21
+    link Pagination /docs/5.3/components/pagination @17,3979,10,20
+    link Placeholders /docs/5.3/components/placeholders @17,4011,10,20
+    link Popovers /docs/5.3/components/popovers @17,4043,10,21
+    link Progress /docs/5.3/components/progress @17,4076,10,20
+    link Scrollspy /docs/5.3/components/scrollspy @17,4108,10,20
+    link Spinners /docs/5.3/components/spinners @17,4140,10,20
+    link Toasts /docs/5.3/components/toasts @17,4172,10,21
+    link Tooltips /docs/5.3/components/tooltips @17,4205,10,20
+    text Helpers @17,4237,10,20
+    link Clearfix /docs/5.3/helpers/clearfix @17,4269,10,21
+    link "Color & background" /docs/5.3/helpers/color-background @17,4302,10,61
+    link "Colored links" /docs/5.3/helpers/colored-links @17,4375,10,40
+    link "Focus ring" /docs/5.3/helpers/focus-ring @17,4427,10,41
+    link "Icon link" /docs/5.3/helpers/icon-link @17,4480,10,40
+    link Position /docs/5.3/helpers/position @17,4532,10,21
+    link Ratio /docs/5.3/helpers/ratio @17,4565,10,20
+    link Stacks /docs/5.3/helpers/stacks @17,4597,10,20
+    link "Stretched link" /docs/5.3/helpers/stretched-link @17,4629,10,41
+    link "Text truncation" /docs/5.3/helpers/text-truncation @17,4682,10,40
+    link "Vertical rule" /docs/5.3/helpers/vertical-rule @17,4735,10,40
+    link "Visually hidden" /docs/5.3/helpers/visually-hidden @17,4787,10,41
+    text Utilities @17,4840,10,20
+    link API /docs/5.3/utilities/api @17,4872,10,20
+    link Background /docs/5.3/utilities/background @17,4904,10,21
+    link Borders /docs/5.3/utilities/borders @17,4937,10,20
+    link Colors /docs/5.3/utilities/colors @17,4969,10,20
+    link Display /docs/5.3/utilities/display @17,5001,10,21
+    link Flex /docs/5.3/utilities/flex @17,5034,10,20
+    link Float /docs/5.3/utilities/float @17,5066,10,20
+    link Interactions /docs/5.3/utilities/interactions @17,5098,10,20
+    link Link /docs/5.3/utilities/link @17,5130,10,21
+    link "Object fit" /docs/5.3/utilities/object-fit @17,5163,10,40
+    link Opacity /docs/5.3/utilities/opacity @17,5215,10,21
+    link Overflow /docs/5.3/utilities/overflow @17,5248,10,20
+    link Position /docs/5.3/utilities/position @17,5280,10,20
+    link Shadows /docs/5.3/utilities/shadows @17,5312,10,21
+    link Sizing /docs/5.3/utilities/sizing @17,5345,10,20
+    link Spacing /docs/5.3/utilities/spacing @17,5377,10,20
+    link Text /docs/5.3/utilities/text @17,5409,10,20
+    link "Vertical align" /docs/5.3/utilities/vertical-align @17,5441,10,41
+    link Visibility /docs/5.3/utilities/visibility @17,5494,10,20
+    link Z-index /docs/5.3/utilities/z-index @17,5526,10,21
+    text Extend @17,5559,10,20
+    link Approach /docs/5.3/extend/approach @17,5591,10,20
+    link Icons /docs/5.3/extend/icons @17,5623,10,21
+    text About @17,5656,10,20
+    link Overview /docs/5.3/about/overview @17,5688,10,20
+    link Team /docs/5.3/about/team @17,5720,10,20
+    link Brand /docs/5.3/about/brand @17,5752,10,21
+    link License /docs/5.3/about/license @17,5785,10,20
+    link Translations /docs/5.3/about/translations @17,5817,10,20
+    link Migration /docs/5.3/migration/ @17,5849,10,21
+  row @39,143,672,7171
+    col @39,3522,54,412
+      row @39,3522,54,75
+        link "View on GitHub" https://github.com/twbs/bootstrap/blob/v5.3.8/site/src/content/docs/getting-started/webpack.mdx @39,3529,13,61
+        h1 Bootstrap and Webpack @64,3522,29,75
+      text The official guide for how to include and bundle Bootstrap’s CSS and JavaScript in your project using Webpack. @39,3609,54,325
+    col @105,3373,93,710
+      text On this page @105,3373,93,20
+      link "What is Webpack?" #what-is-webpack @105,3405,93,41
+      link Setup #setup @105,3458,93,20
+      link "Project structure" #project-structure @105,3490,93,41
+      link "Configure Webpack" #configure-webpack @105,3543,93,40
+      link "Import Bootstrap" #import-bootstrap @105,3595,93,41
+      link "Production optimizations" #production-optimizations @105,3648,93,41
+      link "Extracting CSS" #extracting-css @105,3701,93,40
+      link "Extracting SVG files" #extracting-svg-files @105,3753,93,41
+      card @105,3806,93,225
+        link https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICE7IL2JKFTAI6KJICAYDKKQICASI52QYF6BDLKJKC6SILKJWCA7DVK3EHJNCLSIZ https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICE7IL2JKFTAI6KJICAYDKKQICASI52QYF6BDLKJKC6SILKJWCA7DVK3EHJNCLSIZ @122,3821,59,20
+        link "Learn AWS from the people who built it. Start learning." https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICE7IL2JKFTAI6KJICAYDKKQICASI52QYF6BDLKJKC6SILKJWCA7DVK3EHJNCLSIZ @122,3853,59,163
+      link "ads via Carbon" http://carbonads.net/?utm_source=getbootstrapcom&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @105,4043,93,40
+    col @210,143,501,7171
+      text Download the source code and working demo for this guide from the . You can also for live editing. primary @210,143,501,40
+      text Want to skip to the end? primary @210,195,501,20
+      link "twbs/examples repository" https://github.com/twbs/examples/tree/main/webpack @210,227,501,21
+      link "open the example in StackBlitz" https://stackblitz.com/github/twbs/examples/tree/main/webpack?file=index.html @210,260,501,20
+      h2 What is Webpack? @210,292,501,21
+      text is a JavaScript module bundler that processes modules and their dependencies to generate static assets. It simplifies managing complex web applications with multiple files and dependencies. @210,325,501,61
+      link Webpack https://webpack.js.org/ @210,398,501,20
+      h2 Setup @210,430,501,22
+      text We’re building a Webpack project with Bootstrap from scratch, so there are some prerequisites and upfront steps before we can really get started. This guide requires you to have Node.js installed and some familiarity with the terminal. @210,464,501,81
+      text Create a project folder and set up npm. We'll create the my-project folder and initialize npm with the -y argument to avoid it asking us all the interactive questions. @210,557,501,61
+      card @210,630,501,128
+        button Copy @227,645,467,36
+        card @227,693,467,50
+          text mkdir my-project && cd my-project npm init -y @244,708,433,20
+      text Install Webpack. Next we need to install our Webpack development dependencies: webpack for the core of Webpack, webpack-cli so we can run Webpack commands from the terminal, and webpack-dev-server so we can run a local development server. Additionally, we'll install html-webpack-plugin to be able to store our index.html in src directory instead of the default dist one. We use --save-dev to signal that these dependencies are only for development use and not for production. @210,770,501,143
+      card @210,925,501,148
+        button Copy @227,940,467,36
+        card @227,988,467,70
+          text npm i --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin @244,1003,433,40
+      text Install Bootstrap. Now we can install Bootstrap. We'll also install Popper since our dropdowns, popovers, and tooltips depend on it for their positioning. If you don’t plan on using those components, you can omit Popper here. @210,1085,501,82
+      card @210,1179,501,128
+        button Copy @227,1194,467,36
+        card @227,1242,467,50
+          text npm i --save bootstrap @popperjs/core @244,1257,433,20
+      text Install additional dependencies. In addition to Webpack and Bootstrap, we need a few more dependencies to properly import and bundle Bootstrap’s CSS and JS with Webpack. These include Sass, some loaders, and Autoprefixer. @210,1319,501,81
+      card @210,1412,501,149
+        button Copy @227,1427,467,37
+        card @227,1476,467,70
+          text npm i --save-dev autoprefixer css-loader postcss-loader sass sass-loader style-loader @244,1491,433,40
+      text Now that we have all the necessary dependencies installed, we can get to work creating the project files and importing Bootstrap. @210,1573,501,41
+      h2 Project structure @210,1626,501,21
+      text We’ve already created the my-project folder and initialized npm. Now we'll also create our src and dist folders to round out the project structure. Run the following from my-project, or manually create the folder and file structure shown below. @210,1659,501,81
+      card @210,1752,501,149
+        button Copy @227,1767,467,37
+        card @227,1816,467,70
+          text mkdir {src,src/js,src/scss} touch src/index.html src/js/main.js src/scss/styles.scss webpack.config.js @244,1831,433,40
+      text When you’re done, your complete project should look like this: @210,1913,501,21
+      card @210,1946,501,169
+        button Copy @227,1961,467,36
+        card @227,2009,467,91
+          text my-project/ ├── src/ │ ├── js/ │ │ └── main.js │ ├── scss/ │ │ └── styles.scss │ └── index.html ├── package-lock.json ├── package.json └── webpack.config.js @244,2024,433,61
+      text At this point, everything is in the right place, but Webpack won’t work because we haven’t filled in our webpack.config.js yet. @210,2127,501,40
+      h2 Configure Webpack @210,2179,501,22
+      text With dependencies installed and our project folder ready for us to start coding, we can now configure Webpack and run our project locally. @210,2213,501,40
+      text Open webpack.config.js in your editor. Since it’s blank, we'll need to add some boilerplate config to it so we can start our server. This part of the config tells Webpack where to look for our project’s JavaScript, where to output the compiled code to (dist), and how the development server should behave (pulling from the dist folder with hot reload). @210,2265,501,102
+      card @210,2379,501,250
+        button Copy @227,2394,467,36
+        card @227,2442,467,172
+          text 'use strict' const path  require('path') const HtmlWebpackPlugin  require('html-webpack-plugin') module.exports  { mode: 'development', entry: './src/js/main.js', output: { filename: 'main.js', path: path.resolve(__dirname, 'dist') }, devServer: { static: path.resolve(__dirname, 'dist'), port: 8080, hot: true }, plugins: [ new HtmlWebpackPlugin({ template: './src/index.html' }) ] } @244,2457,433,142
+      text Next we fill in our src/index.html. This is the HTML page Webpack will load in the browser to utilize the bundled CSS and JS we'll add to it in later steps. Before we can do that, we have to give it something to render and include the output JS from the previous step. @210,2641,501,81
+      card @210,2734,501,251
+        button Copy @227,2749,467,37
+        card @227,2798,467,172
+          text <!doctype html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Bootstrap w/ Webpack</title> </head> <body> <div class="container py-4 px-3 mx-auto"> <h1>Hello, Bootstrap and Webpack!</h1> <button class="btn btn-primary">Primary button</button> </div> </body> </html> @244,2813,433,142
+      text We’re including a little bit of Bootstrap styling here with the div class="container" and <button> so that we see when Bootstrap’s CSS is loaded by Webpack. @210,2997,501,61
+      text Now we need an npm script to run Webpack. Open package.json and add the start script shown below (you should already have the test script). We'll use this script to start our local Webpack dev server. You can also add a build script shown below to build your project. @210,3070,501,81
+      card @210,3163,501,169
+        button Copy @227,3178,467,36
+        card @227,3226,467,91
+          text { // ... "scripts": { "start": "webpack serve", "build": "webpack build --mode=production", "test": "echo \"Error: no test specified\" && exit 1" }, // ... } @244,3241,433,61
+      text And finally, we can start Webpack. From the my-project folder in your terminal, run that newly added npm script: @210,3344,501,41
+      card @210,3397,501,128
+        button Copy @227,3412,467,36
+        card @227,3460,467,50
+          text npm start @244,3475,433,20
+      image https://getbootstrap.com/docs/5.3/assets/img/guides/webpack-dev-server.png "Webpack dev server running" @210,3537,0,0
+      text In the next and final section to this guide, we'll set up the Webpack loaders and import all of Bootstrap’s CSS and JavaScript. @210,3549,501,41
+      h2 Import Bootstrap @210,3602,501,21
+      text Importing Bootstrap into Webpack requires the loaders we installed in the first section. We’ve installed them with npm, but now Webpack needs to be configured to use them. @210,3635,501,61
+      text Set up the loaders in webpack.config.js. Your configuration file is now complete and should match the snippet below. The only new part here is the module section. @210,3708,501,61
+      card @210,3781,501,453
+        button Copy @227,3796,467,36
+        card @227,3844,467,375
+          text 'use strict' const path  require('path') const autoprefixer  require('autoprefixer') const HtmlWebpackPlugin  require('html-webpack-plugin') module.exports  { mode: 'development', entry: './src/js/main.js', output: { filename: 'main.js', path: path.resolve(__dirname, 'dist') }, devServer: { static: path.resolve(__dirname, 'dist'), port: 8080, hot: true }, plugins: [ new HtmlWebpackPlugin({ template: './src/index.html' }) ], module: { rules: [ { test: /\.(scss)$/, use: [ { // Adds CSS to the DOM by injecting a `<style>` tag loader: 'style-loader' }, { // Interprets `@import` and `url()` like `import/require()` and will resolve them loader: 'css-loader' }, { // Loader for webpack to process CSS with PostCSS loader: 'postcss-loader', options: { postcssOptions: { plugins: [ autoprefixer ] } } }, { // Loads a SASS/SCSS file and compiles it to CSS loader: 'sass-loader', options: { sassOptions: { // Optional: Silence Sass deprecation warnings. See note below. silenceDeprecations: [ 'mixed-decls', 'color-functions', 'global-builtin', 'import' ] } } } ] } ] } } @244,3859,433,345
+      text Here’s a recap of why we need all these loaders. style-loader injects the CSS into a <style> element in the <head> of the HTML page, css-loader helps with using @import and url(), postcss-loader is required for Autoprefixer, and sass-loader allows us to use Sass. @210,4246,501,81
+      text Sass deprecation warnings are shown when compiling source Sass files with the latest versions of Dart Sass. This does not prevent compilation or usage of Bootstrap. We’re , but in the meantime these deprecation notices can be ignored. @210,4339,501,82
+      text Note: @210,4433,501,20
+      link "working on a long-term fix" https://github.com/twbs/bootstrap/issues/40962 @210,4465,501,20
+      text Now, let’s import Bootstrap’s CSS. Add the following to src/scss/styles.scss to import all of Bootstrap’s source Sass. @210,4497,501,41
+      card @210,4550,501,149
+        button Copy @227,4565,467,36
+        card @227,4613,467,71
+          text // Import all of Bootstrap’s CSS @import "bootstrap/scss/bootstrap"; @244,4628,433,41
+      text You can also import our stylesheets individually if you want. for details. @210,4711,501,20
+      link "Read our Sass import docs" /docs/5.3/customize/sass#importing @210,4743,501,20
+      text Next we load the CSS and import Bootstrap’s JavaScript. Add the following to src/js/main.js to load the CSS and import all of Bootstrap’s JS. Popper will be imported automatically through Bootstrap. @210,4775,501,61
+      card @210,4848,501,149
+        button Copy @227,4863,467,37
+        card @227,4912,467,70
+          text // Import our custom CSS import '../scss/styles.scss' // Import all of Bootstrap’s JS import * as bootstrap from 'bootstrap' @244,4927,433,40
+      text You can also import JavaScript plugins individually as needed to keep bundle sizes down: @210,5009,501,41
+      card @210,5062,501,169
+        button Copy @227,5077,467,36
+        card @227,5125,467,91
+          text import Alert from 'bootstrap/js/dist/alert' // or, specify which plugins you need: import { Tooltip, Toast, Popover } from 'bootstrap' @244,5140,433,61
+      text for more information on how to use Bootstrap’s plugins. @210,5243,501,20
+      link "Read our JavaScript docs" /docs/5.3/getting-started/javascript/ @210,5275,501,21
+      text And you’re done! 🎉 With Bootstrap’s source Sass and JS fully loaded, your local development server should now look like this: @210,5308,501,40
+      image https://getbootstrap.com/docs/5.3/assets/img/guides/webpack-dev-server-bootstrap.png "Webpack dev server running with Bootstrap" @210,5360,0,0
+      text Now you can start adding any Bootstrap components you want to use. Be sure to for how to include additional custom Sass and optimize your build by importing only the parts of Bootstrap’s CSS and JS that you need. @210,5372,501,61
+      link "check out the complete Webpack example project" https://github.com/twbs/examples/tree/main/webpack @210,5445,501,20
+      h2 Production optimizations @210,5477,501,22
+      text Depending on your setup, you may want to implement some additional security and speed optimizations useful for running the project in production. Note that these optimizations are not applied on and are up to you to implement. @210,5511,501,81
+      link "the Webpack example project" https://github.com/twbs/examples/tree/main/webpack @210,5604,501,20
+      h3 Extracting CSS @210,5636,501,19
+      text The style-loader we configured above conveniently emits CSS into the bundle so that manually loading a CSS file in dist/index.html isn’t necessary. This approach may not work with a strict Content Security Policy, however, and it may become a bottleneck in your application due to the large bundle size. @210,5667,501,101
+      text To separate the CSS so that we can load it directly from dist/index.html, use the mini-css-extract-loader Webpack plugin. @210,5780,501,41
+      text First, install the plugin: @210,5833,501,20
+      card @210,5865,501,129
+        button Copy @227,5880,467,37
+        card @227,5929,467,50
+          text npm install --save-dev mini-css-extract-plugin @244,5944,433,20
+      text Then instantiate and use the plugin in the Webpack configuration: @210,6006,501,20
+      card @210,6038,501,372
+        button Copy @227,6053,467,36
+        card @227,6101,467,294
+          text --- a/webpack.config.js +++ b/webpack.config.js @@ -3,6 +3,7 @@ const path  require('path') const autoprefixer  require('autoprefixer') const HtmlWebpackPlugin  require('html-webpack-plugin') +const miniCssExtractPlugin  require('mini-css-extract-plugin') module.exports  { mode: 'development', @@ -17,7 +18,8 @@ module.exports  { hot: true }, plugins: [ - new HtmlWebpackPlugin({ template: './src/index.html' }) + new HtmlWebpackPlugin({ template: './src/index.html' }), + new miniCssExtractPlugin() ], module: { rules: [ @@ -25,8 +27,8 @@ module.exports  { test: /\.(scss)$/, use: [ { - // Adds CSS to the DOM by injecting a `<style>` tag - loader: 'style-loader' + // Extracts CSS for each JS file that includes CSS + loader: miniCssExtractPlugin.loader }, { @244,6116,433,264
+      text After running npm run build again, there will be a new file dist/main.css, which will contain all of the CSS imported by src/js/main.js. If you view dist/index.html in your browser now, the style will be missing, as it is now in dist/main.css. You can include the generated CSS in dist/index.html like this: @210,6422,501,102
+      card @210,6536,501,210
+        button Copy @227,6551,467,36
+        card @227,6599,467,132
+          text --- a/dist/index.html +++ b/dist/index.html @@ -3,6 +3,7 @@ <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> + <link rel="stylesheet" href="./main.css"> <title>Bootstrap w/ Webpack</title> </head> <body> @244,6614,433,102
+      h3 Extracting SVG files @210,6758,501,18
+      text Bootstrap’s CSS includes multiple references to SVG files via inline data: URIs. If you define a Content Security Policy for your project that blocks data: URIs for images, then these SVG files will not load. You can get around this problem by extracting the inline SVG files using Webpack’s asset modules feature. @210,6788,501,102
+      text Configure Webpack to extract inline SVG files like this: @210,6902,501,20
+      card @210,6934,501,210
+        button Copy @227,6949,467,36
+        card @227,6997,467,132
+          text --- a/webpack.config.js +++ b/webpack.config.js @@ -23,6 +23,14 @@ module.exports  { }, module: { rules: [ + { + mimetype: 'image/svg+xml', + scheme: 'data', + type: 'asset/resource', + generator: { + filename: 'icons/[hash].svg' + } + }, { test: /\.(scss)$/, use: [ @244,7012,433,102
+      text After running npm run build again, you’ll find the SVG files extracted into dist/icons and properly referenced from CSS. @210,7156,501,41
+      text See something wrong or out of date here? Please . Need help troubleshooting? on GitHub. @210,7209,501,40
+      link "open an issue on GitHub" https://github.com/twbs/bootstrap/issues/new/choose @210,7261,501,20
+      link "Search or start a discussion" https://github.com/twbs/bootstrap/discussions @210,7293,501,21
+row @17,7326,694,241
+  col @17,7329,344,235
+    link Bootstrap / @17,7329,344,20
+    text Designed and built with all the love in the world by the with the help of . @17,7361,344,41
+    link "Bootstrap team" /docs/5.3/about/team @17,7414,344,20
+    link "our contributors" https://github.com/twbs/bootstrap/graphs/contributors @17,7446,344,21
+    text Code licensed , docs . @17,7479,344,20
+    row @17,7511,344,20
+      link MIT https://github.com/twbs/bootstrap/blob/main/LICENSE @17,7511,26,20
+      link "CC BY 3.0" https://creativecommons.org/licenses/by/3.0/ @55,7511,69,20
+    text Currently v5.3.8. @17,7543,344,21
+  col @373,7330,56,233
+    h3 Links @373,7330,56,19
+    link Home / @373,7361,56,20
+    link Docs /docs/5.3/ @373,7393,56,20
+    link Examples /docs/5.3/examples @373,7425,56,21
+    link Icons https://icons.getbootstrap.com/ @373,7458,56,20
+    link Blog https://blog.getbootstrap.com/ @373,7490,56,20
+    link "Swag Store" https://cottonbureau.com/people/bootstrap @373,7522,56,41
+  col @441,7336,78,221
+    h3 Guides @441,7336,78,19
+    link "Getting started" /docs/5.3/getting-started @441,7367,78,40
+    link "Starter template" /docs/5.3/examples/starter-template @441,7419,78,41
+    link Webpack /docs/5.3/getting-started/webpack @441,7472,78,20
+    link Parcel /docs/5.3/getting-started/parcel @441,7504,78,20
+    link Vite /docs/5.3/getting-started/vite @441,7536,78,21
+  col @531,7326,72,241
+    h3 Projects @531,7326,72,19
+    link "Bootstrap 5" https://github.com/twbs/bootstrap @531,7357,72,40
+    link "Bootstrap 4" https://github.com/twbs/bootstrap/tree/v4-dev @531,7409,72,41
+    link Icons https://github.com/twbs/icons @531,7462,72,20
+    link RFS https://github.com/twbs/rfs @531,7494,72,20
+    link "Examples repo" https://github.com/twbs/examples @531,7526,72,41
+  col @615,7326,96,241
+    h3 Community @615,7326,96,19
+    link Issues https://github.com/twbs/bootstrap/issues @615,7357,96,20
+    link Discussions https://github.com/twbs/bootstrap/discussions @615,7389,96,20
+    link "Corporate sponsors" https://github.com/sponsors/twbs @615,7421,96,41
+    link "Open Collective" https://opencollective.com/bootstrap @615,7474,96,40
+    link "Stack Overflow" https://stackoverflow.com/questions/tagged/bootstrap-5 @615,7526,96,41
+field Field @17,7579,694,58
+!overflow bootstrapbootstrap 187/371px
+!overflow toggle 92/165px

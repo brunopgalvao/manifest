@@ -1,0 +1,320 @@
+@adminlte_io_themes_v3_index2_html rev=0 @0,0,728,4200
+row @17,17,694,36
+  row @17,17,191,36
+    button button @17,17,75,36
+    link Home index3.html @104,25,40,20
+    link Contact # @156,25,52,20
+  row @220,17,296,36
+    button button @220,17,75,36
+    link 3 # @307,25,9,20
+    link 15 # @328,25,14,20
+    button button @354,17,75,36
+    button button @441,17,75,36
+link "AdminLTE 3" index3.html @17,65,694,21
+row @17,98,694,20
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image" @17,98,0,0
+  link "Alexander Pierce" # @29,98,113,20
+row @17,130,694,58
+  field Search search @17,130,40,58
+  button button primary @69,141,75,36
+link Dashboard # @17,200,694,20
+link "Dashboard v1" ./index.html @17,232,694,20
+link "Dashboard v2" ./index2.html @17,264,694,21
+link "Dashboard v3" ./index3.html @17,297,694,20
+link "Widgets New" pages/widgets.html @17,329,694,20
+link "Layout Options 6" # @17,361,694,20
+link Charts # @17,393,694,21
+link "UI Elements" # @17,426,694,20
+link Forms # @17,458,694,20
+link Tables # @17,490,694,21
+text EXAMPLES @17,523,694,20
+link "Calendar 2" pages/calendar.html @17,555,694,20
+link Gallery pages/gallery.html @17,587,694,20
+link "Kanban Board" pages/kanban.html @17,619,694,21
+link Mailbox # @17,652,694,20
+link Pages # @17,684,694,20
+link Extras # @17,716,694,21
+link Search # @17,749,694,20
+text MISCELLANEOUS @17,781,694,20
+link "Tabbed IFrame Plugin" iframe.html @17,813,694,21
+link Documentation https://adminlte.io/docs/3.1/ @17,846,694,20
+text MULTI LEVEL EXAMPLE @17,878,694,20
+link "Level 1" # @17,910,694,20
+link "Level 1" # @17,942,694,21
+link "Level 1" # @17,975,694,20
+text LABELS @17,1007,694,20
+link Important # @17,1039,694,21
+link Warning # @17,1072,694,20
+link Informational # @17,1104,694,20
+region 236x6 @17,1136,236,6 [1 shapes, 0 labelled]
+region 6x839 @17,1154,6,839 [1 shapes, 0 labelled]
+row @17,2005,694,25
+  h1 Dashboard v2 @17,2005,137,25
+  row @166,2008,145,20
+    link Home # @166,2008,40,20
+    text Dashboard v2 @218,2008,93,20
+row @17,2042,694,21
+  row @17,2042,114,21
+    text CPU Traffic 10 % @17,2042,114,21
+  row @143,2042,81,21
+    text Likes 41,410 @143,2042,81,21
+  row @236,2042,66,21
+    text Sales 760 @236,2042,66,21
+  row @314,2042,140,21
+    text New Members 2,000 @314,2042,140,21
+card @17,2075,694,527
+  row @34,2090,660,36
+    h3 Monthly Recap Report @34,2098,163,19
+    row @209,2090,249,36
+      button button @209,2090,75,36
+      button button @296,2090,75,36
+      button button @383,2090,75,36
+  row @34,2138,660,354
+    col @34,2237,435,156
+      text Sales: 1 Jan, 2014 - 30 Jul, 2014 @34,2237,435,20
+      region 634x180 @34,2269,435,124 [1 shapes, 1 labelled]
+        image adminlte_io_themes_v3_index2_html-1.png @0,0 634x180 "Canvas" @34,2269,435,124
+    col @481,2138,213,354
+      text Goal Completion @481,2138,213,20
+      text Add Products to Cart @481,2170,213,21
+      text 160/200 @481,2203,213,20
+      region 309.6600036621094x10 @481,2235,213,7 [1 shapes, 0 labelled]
+      text Complete Purchase @481,2254,213,20
+      text 310/400 @481,2286,213,20
+      region 309.6600036621094x10 @481,2318,213,7 [1 shapes, 0 labelled]
+      text Visit Premium Page @481,2337,213,20
+      text 480/800 @481,2369,213,21
+      region 309.6600036621094x10 @481,2402,213,7 [1 shapes, 0 labelled]
+      text Send Inquiries @481,2421,213,20
+      text 250/500 @481,2453,213,20
+      region 309.6600036621094x10 @481,2485,213,7 [1 shapes, 0 labelled]
+  row @34,2504,660,83
+    col @34,2504,116,83
+      text 17% success @34,2504,116,20
+      h3 $35,210.43 @34,2536,116,19
+      text TOTAL REVENUE @34,2567,116,20
+    col @162,2504,90,83
+      text 0% warning @162,2504,90,20
+      h3 $10,390.90 @162,2536,90,19
+      text TOTAL COST @162,2567,90,20
+    col @264,2504,101,83
+      text 20% success @264,2504,101,20
+      h3 $24,813.53 @264,2536,101,19
+      text TOTAL PROFIT @264,2567,101,20
+    col @377,2504,145,83
+      text 18% danger @377,2504,145,20
+      h3 1200 @377,2536,145,19
+      text GOAL COMPLETIONS @377,2567,145,20
+row @17,2614,694,1505
+  col @17,2614,494,1505
+    card @17,2614,494,388
+      row @34,2629,460,37
+        h3 US-Visitors Report @34,2638,138,19
+        row @184,2629,162,37
+          button button @184,2629,75,37
+          button button @271,2629,75,37
+      row @34,2678,460,309
+        col @34,2678,343,309
+          region 469.7699890136719x290.4700012207031 @34,2678,343,212 [51 shapes, 0 labelled]
+          text • @34,2902,343,20
+          text + @34,2934,343,20
+          text − @34,2966,343,21
+        col @389,2695,105,274
+          text 90,70,90,70,75,80,70 @389,2695,105,20
+          h3 8390 @389,2727,105,19
+          text Visits @389,2758,105,20
+          text 90,50,90,70,61,83,63 @389,2790,105,21
+          h3 30% @389,2823,105,19
+          text Referrals @389,2854,105,20
+          text 90,50,90,70,61,83,63 @389,2886,105,20
+          h3 70% @389,2918,105,19
+          text Organic @389,2949,105,20
+    row @17,3014,494,706
+      col @17,3079,310,576
+        row @17,3079,310,37
+          h3 Direct Chat @17,3079,67,37
+          row @96,3079,231,36
+            text 3 @96,3087,6,20
+            button button @114,3079,59,36
+            button Contacts @185,3079,71,36
+            button button @268,3079,59,36
+        row @17,3128,310,457
+          col @17,3128,153,457
+            text Alexander Pierce 23 Jan 2:00 pm @17,3128,153,41
+            image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "message user image" @17,3181,0,0
+            text Is this template really for free? That's unbelievable! @17,3193,153,61
+            text Sarah Bullock 23 Jan 2:05 pm @17,3266,153,40
+            image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "message user image" @17,3318,0,0
+            text You better believe it! @17,3330,153,20
+            text Alexander Pierce 23 Jan 5:37 pm @17,3362,153,41
+            image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "message user image" @17,3415,0,0
+            text Working with AdminLTE on a great new app! Wanna join? @17,3427,153,61
+            text Sarah Bullock 23 Jan 6:10 pm @17,3500,153,41
+            image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "message user image" @17,3553,0,0
+            text I would love to. @17,3565,153,20
+          col @182,3184,145,345
+            link "Count Dracula 2/28/2015 How have you been? I was..." # @182,3184,145,61
+            link "Sarah Doe 2/23/2015 I will be waiting for..." # @182,3257,145,41
+            link "Nadia Jolie 2/20/2015 I'll call you back at..." # @182,3310,145,40
+            link "Nora S. Vans 2/10/2015 Where is your new..." # @182,3362,145,61
+            link "John K. 1/27/2015 Can I take a look at..." # @182,3435,145,41
+            link "Kenneth M. 1/4/2015 Never mind I found..." # @182,3488,145,41
+        row @17,3597,310,58
+          field "Type Message ..." @17,3597,98,58
+          button Send danger @127,3608,65,36
+      col @339,3014,172,706
+        row @339,3014,172,60
+          h3 Latest Members @339,3025,47,38
+          row @398,3014,113,60
+            text 8 New Members @398,3014,16,60
+            button button @426,3026,36,36
+            button button @474,3026,37,36
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "User Image" @339,3086,0,0
+        link "Alexander Pierce" # @339,3098,172,21
+        text Today @339,3131,172,20
+        image https://adminlte.io/themes/v3/dist/img/user8-128x128.jpg "User Image" @339,3163,0,0
+        link Norman # @339,3175,172,20
+        text Yesterday @339,3207,172,21
+        image https://adminlte.io/themes/v3/dist/img/user7-128x128.jpg "User Image" @339,3240,0,0
+        link Jane # @339,3252,172,20
+        text 12 Jan @339,3284,172,20
+        image https://adminlte.io/themes/v3/dist/img/user6-128x128.jpg "User Image" @339,3316,0,0
+        link John # @339,3328,172,21
+        text 12 Jan @339,3361,172,20
+        image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image" @339,3393,0,0
+        link Alexander # @339,3405,172,20
+        text 13 Jan @339,3437,172,20
+        image https://adminlte.io/themes/v3/dist/img/user5-128x128.jpg "User Image" @339,3469,0,0
+        link Sarah # @339,3481,172,21
+        text 14 Jan @339,3514,172,20
+        image https://adminlte.io/themes/v3/dist/img/user4-128x128.jpg "User Image" @339,3546,0,0
+        link Nora # @339,3558,172,20
+        text 15 Jan @339,3590,172,21
+        image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "User Image" @339,3623,0,0
+        link Nadia # @339,3635,172,20
+        text 15 Jan @339,3667,172,20
+        link "View All Users" javascript: @339,3699,172,21
+    card @17,3732,494,387
+      row @34,3747,460,36
+        h3 Latest Orders @34,3755,100,19
+        row @146,3747,162,36
+          button button @146,3747,75,36
+          button button @233,3747,75,36
+      table "Order ID" Item Status Popularity @34,3795,460,276
+        OR9842 | Call of Duty IV | Shipped | 90,80,90,-70,61,-83,63
+        OR1848 | Samsung Smart TV | Pending | 90,80,-90,70,61,-83,68
+        OR7429 | iPhone 6 Plus | Delivered | 90,-80,90,70,-61,83,63
+        OR7429 | Samsung Smart TV | Processing | 90,80,-90,70,-61,83,63
+        OR1848 | Samsung Smart TV | Pending | 90,80,-90,70,61,-83,68
+        OR7429 | iPhone 6 Plus | Delivered | 90,-80,90,70,-61,83,63
+        OR9842 | Call of Duty IV | Shipped | 90,80,90,-70,61,-83,63
+      row @34,4083,460,21
+        link "Place New Order" javascript:void(0) @34,4083,113,21
+        link "View All Orders" javascript:void(0) @159,4083,103,21
+  col @523,2767,188,1199
+    card @523,2767,188,50
+      text Inventory 5,200 @540,2782,154,20
+    card @523,2829,188,50
+      text Mentions 92,050 @540,2844,154,20
+    card @523,2891,188,51
+      text Downloads 114,381 @540,2906,154,21
+    card @523,2954,188,70
+      text Direct Messages 163,921 @540,2969,154,40
+    card @523,3036,188,379
+      row @540,3051,154,38
+        h3 Browser Usage @540,3051,58,38
+        row @610,3052,84,36
+          button button @610,3052,36,36
+          button button @658,3052,36,36
+      row @540,3101,154,182
+        col @540,3165,105,53
+          region 184x92 @540,3165,105,53 [1 shapes, 1 labelled]
+            image adminlte_io_themes_v3_index2_html-2.png @0,0 184x92 "Canvas" @540,3165,105,53
+        col @657,3101,37,182
+          text Chrome @657,3101,37,20
+          text IE @657,3133,37,20
+          text FireFox @657,3165,37,21
+          text Safari @657,3198,37,20
+          text Opera @657,3230,37,20
+          text Navigator @657,3262,37,21
+      link "United States of America 12%" # @540,3295,154,40
+      link "India 4%" # @540,3347,154,21
+      link "China 0%" # @540,3380,154,20
+    card @523,3427,188,539
+      row @540,3442,154,56
+        h3 Recently Added Products @540,3442,76,56
+        row @628,3452,66,36
+          button button @628,3452,30,36
+          button button @670,3452,30,36
+      row @540,3510,154,93
+        image https://adminlte.io/themes/v3/dist/img/default-150x150.png "Product Image" @540,3510,0,0
+        col @552,3510,142,93
+          link "Samsung TV $1800" javascript:void(0) @552,3510,142,20
+          text Samsung 32" 1080p 60Hz LED Smart HDTV. @552,3542,142,61
+      row @540,3615,154,94
+        image https://adminlte.io/themes/v3/dist/img/default-150x150.png "Product Image" @540,3615,0,0
+        col @552,3615,142,94
+          link "Bicycle $700" javascript:void(0) @552,3615,142,21
+          text 26" Mongoose Dolomite Men's 7-speed, Navy Blue. @552,3648,142,61
+      row @540,3721,154,113
+        image https://adminlte.io/themes/v3/dist/img/default-150x150.png "Product Image" @540,3721,0,0
+        col @552,3721,142,113
+          link "Xbox One $350" javascript:void(0) @552,3721,142,20
+          text Xbox One Console Bundle with Halo Master Chief Collection. @552,3753,142,81
+      row @540,3846,154,73
+        image https://adminlte.io/themes/v3/dist/img/default-150x150.png "Product Image" @540,3846,0,0
+        col @552,3846,142,73
+          link "PlayStation 4 $399" javascript:void(0) @552,3846,142,20
+          text PlayStation 4 500GB Console (PS4) @552,3878,142,41
+      link "View All Products" javascript:void(0) @540,3931,154,20
+text All rights reserved. @17,4131,694,20
+row @17,4163,694,20
+  text Copyright © 2014-2021 . @17,4163,164,20
+  link AdminLTE.io https://adminlte.io @193,4163,84,20
+  text Version 3.2.0 @289,4163,89,20
+!overflow button11 57/73px
+!overflow contacts 69/90px
+!overflow button12 57/73px
+!overflow button13 34/73px
+!overflow button14 35/73px
+!overflow button17 34/73px
+!overflow button18 34/73px
+!overflow button19 28/73px
+!overflow button20 28/73px
+!offcanvas path
+!offcanvas path2
+!offcanvas path3
+!offcanvas path4
+!offcanvas path5
+!offcanvas path6
+!offcanvas path7
+!offcanvas path8
+!offcanvas path9
+!offcanvas path10
+!offcanvas path11
+!offcanvas path12
+!offcanvas path13
+!offcanvas path14
+!offcanvas path15
+!offcanvas path16
+!offcanvas path17
+!offcanvas path18
+!offcanvas path19
+!offcanvas path20
+!offcanvas path21
+!offcanvas path22
+!offcanvas path23
+!offcanvas path24
+!offcanvas path25
+!offcanvas path26
+!offcanvas path27
+!offcanvas path28
+!offcanvas path29
+!offcanvas path30
+!offcanvas path31
+!offcanvas path32
+!offcanvas path33
+!offcanvas path35
+!offcanvas path36
+!offcanvas path37
+!offcanvas path47

@@ -1,0 +1,82 @@
+@www_usa_gov_about_the_us rev=0 @0,0,728,1558
+link "Skip to main content" #skip-to-h1 @17,17,694,20
+row @17,49,694,37
+  text An official website of the United States government @17,57,342,21
+  button "Here's how you know" @371,49,177,37
+text Home Close Search 1-844-USAGOV1 The U.S. and its government Buying from the U.S. government U.S. facts and figures A-Z index of U.S. government departments and agencies State and local governments Branches of government Elected officials Federal laws and regulations Indian tribes and resources for Native Americans Federal, state, territory, county, and municipal courts @17,98,694,81
+row @17,191,694,20
+  region Information 300x150 @17,191,76,20 [0 shapes, 0 labelled]
+  text Visit to learn how to register to vote or to update your registration. @105,191,438,20
+  link vote.gov https://www.vote.gov @555,191,58,20
+row @17,223,694,106
+  link "USAGov Logo" / @17,266,93,20
+  col @122,223,377,106
+    button Español primary @122,223,377,36
+    row @122,271,377,58
+      link "Call us at 1-844-USAGOV1" /phone @122,290,176,20
+      row @310,271,189,58
+        text Search @310,290,47,20
+        field Search search @369,271,40,58
+        button Search primary @421,282,78,36
+row @17,341,694,41
+  link "All topics and services" /#all-topics-header @17,341,94,41
+  link "The U.S. and its government" /about-the-us @123,341,119,41
+  link "Government benefits" /benefits @254,341,89,41
+  link "Immigration and U.S. citizenship" /immigration-and-citizenship @355,341,135,41
+  link "Money and credit" /money @502,341,73,41
+  link Travel /travel @587,351,26,21
+  link "Voting and elections" /voting-and-elections @625,341,86,41
+row @17,394,694,670
+  col @17,394,676,670
+    row @17,394,676,20
+      link Home / @17,394,40,20
+      text The U.S. and its government @69,394,189,20
+    h1 The U.S. and its government @17,426,676,25
+    h2 Most popular @17,463,676,21
+    link "Find government agencies" /agency-index @17,496,676,21
+    link "Find out how to contact elected officials" /elected-officials @17,529,676,20
+    link "Learn about the branches of the U.S. government" /branches-of-government @17,561,676,20
+    text Get facts about the U.S., its laws, history, and statistics. Buy government property. Learn about the president and how to contact elected officials and federal agencies. @17,593,676,41
+    row @17,646,676,385
+      link "Buying from the U.S. government Find out about surplus sales, collectibles, and other items available through purchase or auction." /buy-from-government @17,666,58,345
+      link "U.S. facts and figures Learn about the United States, including American history, the president, holidays, the American flag, census data, and more." /facts-figures @87,646,65,385
+      link "A-Z index of U.S. government departments and agencies Get contact information for U.S. federal government agencies, departments, corporations, instrumentalities, and government-sponsored enterprises. Find websites, email, phone numbers, addresses, and more." /agency-index @164,646,119,385
+      link "State and local governments Find contact information for state and local government services, your governor, and more." /state-local-governments @295,666,53,345
+      link "Branches of the U.S. government Learn about the legislative, judicial, and executive branches of the U.S. government." /branches-of-government @360,686,52,305
+      link "Find and contact elected officials Get the names and contact information for your federal, state, and local elected officials." /elected-officials @424,666,55,345
+      link "Federal laws and regulations Get copies of your government files. Research federal laws and regulations. Learn about copyrights." /laws-and-regulations @491,666,57,345
+      link "Federally recognized Indian tribes and resources for Native Americans Find information about and resources for Native Americans and Alaska Native entities." /tribes @560,666,70,345
+      link "Federal, state, territory, county, and municipal courts Learn about bankruptcy courts, immigration courts, and more." /courts @642,686,51,305
+    row @17,1043,676,21
+      text Looking for something else? @17,1043,187,21
+      link "Explore all topics and services" /#all-topics-header @216,1043,201,21
+  link "Back to top" #main-content @705,698,6,61
+row @17,1076,694,136
+  col @17,1076,371,136
+    h3 Government information @17,1076,371,19
+    link "All topics and services" /#all-topics-header @17,1107,371,20
+    link "Directory of U.S. government agencies and departments" /agency-index @17,1139,371,40
+    link "Branches of government" /branches-of-government @17,1191,371,21
+  col @400,1076,149,136
+    h3 About us @400,1076,149,19
+    link "About USAGov" /about @400,1107,149,20
+    link "Report a website issue" /site-issue-report-form @400,1139,149,40
+    link "Website usage data" /website-analytics/ @400,1191,149,21
+  col @561,1093,150,102
+    h3 For federal agencies @561,1093,150,37
+    link "Partner with us" /partner-with-usagov @561,1142,150,20
+    link "Read our blog" /blog @561,1174,150,21
+row @17,1224,694,83
+  col @17,1224,235,83
+    h3 USAGov Contact Center @17,1224,235,18
+    text Ask USA.gov a question at @17,1254,235,21
+    link "1-844-USAGOV1 (1-844-872-4681)" /phone @17,1287,235,20
+text USAGov is the official guide to government information and services @17,1319,694,20
+text An official website of the @17,1351,694,21
+link "U.S. General Services Administration" https://www.gsa.gov/ @17,1384,694,20
+text This website complies with Executive Order . English is the official language of the U.S. Government, and the English-language version of this website is the authoritative source for all federal information contained herein. @17,1416,694,61
+link 14224 https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states @17,1489,694,20
+row @17,1521,694,20
+  link "Accessibility policy" /accessibility-policy @17,1521,127,20
+  link "Privacy and security policies" /privacy-security @156,1521,190,20
+  link "FOIA requests" https://www.gsa.gov/reference/freedom-of-information-act-foia @358,1521,95,20

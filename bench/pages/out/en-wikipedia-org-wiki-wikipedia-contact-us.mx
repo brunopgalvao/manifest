@@ -1,0 +1,160 @@
+@en_wikipedia_org_wiki_wikipedia_contact_
+link "Jump to content" #bodyContent
+row
+  row
+    col
+      button "Main menu"
+      text Main menu
+      row
+        text Main menu
+        button "Move Main menu to sidebar"
+      link "Main page" /wiki/Main_Page
+      link Contents /wiki/Wikipedia:Contents
+      link "Current events" /wiki/Portal:Current_events
+      link "Random article" /wiki/Special:Random
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      text Contribute
+      link Help /wiki/Help:Contents
+      link "Learn to edit" /wiki/Help:Introduction
+      link "Community portal" /wiki/Wikipedia:Community_portal
+      link "Recent changes" /wiki/Special:RecentChanges
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard
+      link "Special pages" /wiki/Special:SpecialPages
+    link /wiki/Main_Page /wiki/Main_Page
+  row
+    row
+      col
+        field "Search Wikipedia" search
+      button Search
+    row
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+      link "Create account" /w/index.php?title=Special:CreateAccount&returnto=Wikipedia%3AContact+us
+      link "Log in" /w/index.php?title=Special:UserLogin&returnto=Wikipedia%3AContact+us
+row
+  row
+    row
+      h1 "Wikipedia:Contact us"
+      col
+        button "84 languages"
+        text 84 languages primary
+    row
+      row
+        link "Project page" /wiki/Wikipedia:Contact_us
+        link Talk /wiki/Wikipedia_talk:Contact_us
+      row
+        row
+          link Read /wiki/Wikipedia:Contact_us
+          link "View source" /w/index.php?title=Wikipedia:Contact_us&action=edit
+          link "View history" /w/index.php?title=Wikipedia:Contact_us&action=history
+        col
+          button Tools
+          text Tools
+          row
+            text Tools
+            button "Move Tools to sidebar"
+          text General
+          link "What links here" /wiki/Special:WhatLinksHere/Wikipedia:Contact_us
+          link "Related changes" /wiki/Special:RecentChangesLinked/Wikipedia:Contact_us
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Wikipedia:Contact_us&oldid=1347765143
+          link "Page information" /w/index.php?title=Wikipedia:Contact_us&action=info
+          link "Get shortened URL" /w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AContact_us
+          link "Switch to legacy parser" /w/index.php?title=Wikipedia:Contact_us&useparsoid=0
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q4654783#sitelinks-wikipedia
+          text Print/export
+          link "Download as PDF" /w/index.php?title=Special:DownloadAsPdf&page=Wikipedia%3AContact_us&action=show-download-screen
+          link "Printable version" javascript:print();
+          text In other projects
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Commons:Contact_us
+          link Meta-Wiki https://meta.wikimedia.org/wiki/Answers
+          link Wikibooks https://en.wikibooks.org/wiki/Wikibooks:Contact_us
+          link Wikinews https://en.wikinews.org/wiki/Wikinews:Contact_us
+          link Wikiquote https://en.wikiquote.org/wiki/Wikiquote:Contact_us
+          link Wikiversity https://en.wikiversity.org/wiki/Wikiversity:Contact
+          link Wikivoyage https://en.wikivoyage.org/wiki/Wikivoyage:Contact_us
+          link Wiktionary https://en.wiktionary.org/wiki/Wiktionary:Contact_us
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q4654783
+    col
+      row
+        text Appearance
+        button "Hide Appearance"
+      text Text
+      text Small
+      text Standard
+      text Large
+      text Width
+      text Standard
+      text Wide
+      text Color
+      text Automatic
+      text Light
+      text Dark
+    col
+      text From Wikipedia, the free encyclopedia
+      row
+        col
+          link Introduction https://en.wikipedia.org/wiki/Wikipedia:Contact_us
+          text How to report a problem with an article, or find out more information.
+          link Readers https://en.wikipedia.org/wiki/Wikipedia:Contact_us/Readers
+          text Problems with articles about you, your company, or somebody you represent.
+          link "Article subjects" https://en.wikipedia.org/wiki/Wikipedia:Contact_us/Article_subjects
+          text How to copy Wikipedia's information, donate your own, or report unlicensed use of your information.
+          link Licensing https://en.wikipedia.org/wiki/Wikipedia:Contact_us/Licensing
+          text Find out about the process, how to donate, and information about how your money is spent.
+          link Donors https://en.wikipedia.org/wiki/Wikipedia:Contact_us/Donors
+          text If you're a member of the press looking to contact Wikipedia, or have a business proposal for us.
+          link "Press and partnerships" https://en.wikipedia.org/wiki/Wikipedia:Contact_us/Press_and_partnerships
+          link "Back to main page" https://en.wikipedia.org/wiki/Wikipedia:Main
+        col
+          link "https://en.wikipedia.org/wiki/File:Contactus-wmcolors.svg" https://en.wikipedia.org/wiki/File:Contactus-wmcolors.svg
+          text Thank you for your interest in contacting Wikipedia. Before proceeding, some important disclaimers:
+          text Contributions are made by a large number of volunteers at their own discretion. Edits are neither the responsibility of the  (the organisation that hosts the site) nor of its staff.
+          text Wikipedia has no central editorial board.
+          link "Wikimedia Foundation" https://foundation.wikimedia.org/wiki/Home
+          text Generally, the agent who responds to an email request will not make edits on your behalf.
+          text Disagreements with content will not be resolved via email. Use the  to propose specific changes to an article.
+          link "Edit Request Wizard" https://en.wikipedia.org/wiki/Wikipedia:Edit_Request_Wizard
+          text Although Wikipedia was co-founded by , he is not personally responsible for our content.
+          link "Jimmy Wales" https://en.wikipedia.org/wiki/Jimmy_Wales
+          text If you have questions about the  of Wikipedia rather than a specific problem, the  page may help.
+          text concept
+          link "About Wikipedia" https://en.wikipedia.org/wiki/Wikipedia:About
+          text If you want to ask other users for help with editing or using Wikipedia, stop by the , Wikipedia's , or the  to ask someone for assistance.
+          row
+            link Teahouse https://en.wikipedia.org/wiki/Wikipedia:Teahouse
+            link "live help channel" https://en.wikipedia.org/wiki/Wikipedia:IRC_help_disclaimer
+            link "help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk
+          text If you disagree with an article's content, or are involved in a content dispute, see .
+          link "Dispute resolution" https://en.wikipedia.org/wiki/Wikipedia:Dispute_resolution
+          text The links on the left should direct you to how to contact us or resolve problems. If you cannot find your issue listed there, you can email helpful, experienced volunteers at .
+          text info-enwikimedia.org
+          image https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/At_sign.svg/20px-At_sign.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail "@"
+      text :
+      row
+        link Categories /wiki/Help:Category
+        row
+          link "Wikipedia tutorials" /wiki/Category:Wikipedia_tutorials
+          link "Wikipedia quick introductions" /wiki/Category:Wikipedia_quick_introductions
+  col
+    text "This page was last edited on 8 April 2026, at 17:21 (UTC)."
+    text Page was rendered with .
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the  and . Wikipedia® is a registered trademark of the , a non-profit organization.
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/
+    row
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link Disclaimers /wiki/Wikipedia:General_disclaimer
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+      link Developers https://developer.wikimedia.org
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+      link "Mobile view" //en.wikipedia.org/w/index.php?title=Wikipedia:Contact_us&mobileaction=toggle_view_mobile
+    row
+      link "https://www.wikimedia.org/" https://www.wikimedia.org/
+      link "https://www.mediawiki.org/" https://www.mediawiki.org/

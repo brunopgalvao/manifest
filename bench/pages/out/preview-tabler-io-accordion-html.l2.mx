@@ -1,0 +1,288 @@
+@preview_tabler_io_accordion_html rev=0 @0,0,728,3501
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,41
+  link Tabler . @17,59,39,21
+  row @68,49,643,41
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle @68,49,71,41
+    row @151,49,448,41
+      link "Enable dark mode" @151,49,108,41
+      link "Show notifications" # @271,49,111,41
+      link "Show app menu" # @394,49,97,41
+      link "Select language" # @503,49,96,41
+    link "Open user menu" # @611,49,100,41
+row @17,102,694,36
+  row @17,102,593,36
+    button Dashboards @17,102,85,36
+    button Interface @114,102,71,36
+    button Forms @197,102,58,36
+    button Extra @267,102,54,36
+    button Layout @333,102,61,36
+    button Plugins @406,102,63,36
+    button Addons @481,102,65,36
+    button Help @558,102,52,36
+  button Customize @622,102,89,36
+row @17,150,694,58
+  col @17,150,538,58
+    h1 Accordion @17,150,538,25
+    text Accordions show and hide sections of content, one panel at a time, inside a card. @17,187,538,21
+  link Docs https://docs.tabler.io/ui/components/accordion @567,169,34,20
+row @17,220,694,1172
+  col @17,306,106,1000
+    h2 Default @17,306,106,21
+    text The base accordion — one panel open at a time. @17,339,106,82
+    card @17,433,106,454
+      h2 What makes Tabler different from other UI frameworks? @34,448,72,148
+      text Tabler offers a modern, responsive design with a clean aesthetic, built on Bootstrap for ease of use and flexibility. @34,608,72,264
+    h2 How can I customize Tabler components to fit my design needs? @17,899,106,149
+    h2 Is Tabler optimized for performance and fast loading times? @17,1060,106,149
+    h2 How accessible are Tabler components? @17,1221,106,85
+  col @135,341,102,929
+    h2 Flush @135,341,102,22
+    text Add accordion-flush to remove the card border and rounded corners. @135,375,102,121
+    h2 What makes Tabler different from other UI frameworks? @135,508,102,149
+    text Tabler offers a modern, responsive design with a clean aesthetic, built on Bootstrap for ease of use and flexibility. @135,669,102,183
+    h2 How can I customize Tabler components to fit my design needs? @135,864,102,149
+    h2 Is Tabler optimized for performance and fast loading times? @135,1025,102,148
+    h2 How accessible are Tabler components? @135,1185,102,85
+  col @249,220,107,1172
+    h2 Tabs @249,220,107,21
+    text Add accordion-tabs for a tab-like header instead of the default style. @249,253,107,122
+    card @249,387,107,454
+      h2 What makes Tabler different from other UI frameworks? @266,402,73,148
+      text Tabler offers a modern, responsive design with a clean aesthetic, built on Bootstrap for ease of use and flexibility. @266,562,73,264
+    card @249,853,107,200
+      h2 How can I customize Tabler components to fit my design needs? @266,868,73,170
+    card @249,1065,107,179
+      h2 Is Tabler optimized for performance and fast loading times? @266,1080,73,149
+    card @249,1256,107,136
+      h2 How accessible are Tabler components? @266,1271,73,106
+  col @368,286,106,1040
+    h2 Inverted @368,286,106,21
+    text Add accordion-inverted to flip the toggle icon to the start of the header. @368,319,106,122
+    card @368,453,106,454
+      h2 What makes Tabler different from other UI frameworks? @385,468,72,149
+      text Tabler offers a modern, responsive design with a clean aesthetic, built on Bootstrap for ease of use and flexibility. @385,629,72,263
+    h2 How can I customize Tabler components to fit my design needs? @368,919,106,149
+    h2 Is Tabler optimized for performance and fast loading times? @368,1080,106,149
+    h2 How accessible are Tabler components? @368,1241,106,85
+  col @486,254,107,1103
+    h2 Inverted with plus icon @486,254,107,64
+    text Combine accordion-inverted with accordion-button-toggle-plus and a custom icon in the toggle. @486,330,107,142
+    card @486,484,107,455
+      h2 What makes Tabler different from other UI frameworks? @503,499,73,149
+      text Tabler offers a modern, responsive design with a clean aesthetic, built on Bootstrap for ease of use and flexibility. @503,660,73,264
+    h2 How can I customize Tabler components to fit my design needs? @486,951,107,149
+    h2 Is Tabler optimized for performance and fast loading times? @486,1112,107,148
+    h2 How accessible are Tabler components? @486,1272,107,85
+  col @605,306,106,1000
+    h2 With icons @605,306,106,21
+    text Add an accordion-button-icon next to each panel's title. @605,339,106,82
+    card @605,433,106,454
+      h2 What makes Tabler different from other UI frameworks? @622,448,72,148
+      text Tabler offers a modern, responsive design with a clean aesthetic, built on Bootstrap for ease of use and flexibility. @622,608,72,264
+    h2 How can I customize Tabler components to fit my design needs? @605,899,106,149
+    h2 Is Tabler optimized for performance and fast loading times? @605,1060,106,149
+    h2 How accessible are Tabler components? @605,1221,106,85
+row @17,1404,694,41
+  row @17,1404,325,41
+    link Documentation https://docs.tabler.io @17,1414,99,21
+    link License ./license.html @128,1414,52,21
+    link "Source code" https://github.com/tabler/tabler @192,1404,83,41
+    link Sponsor https://github.com/sponsors/codecalm @287,1414,55,21
+  row @354,1404,357,41
+    text Copyright © 2026 . All rights reserved. @354,1404,254,41
+    link Tabler . @620,1414,43,21
+    link v1.6.1 ./changelog.html @675,1414,36,21
+button Customize primary @17,1457,694,36
+card @17,1505,694,1979
+  button Close primary @34,1520,660,36
+  region 160x120 @34,1568,160,120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own @34,1700,660,22
+  text Pick the look and layout of this preview. Your choices are saved in this browser. @34,1734,660,20
+  h3 Appearance @34,1766,660,19
+  text Color scheme @34,1797,660,20
+  text The page and its navigation, in one pick. @34,1829,660,20
+  row @34,1861,660,97
+    col @34,1861,96,97
+      region 96x64 @34,1861,96,64 [8 shapes, 0 labelled]
+      text Auto @34,1937,96,21
+    col @142,1861,96,97
+      region 96x64 @142,1861,96,64 [8 shapes, 0 labelled]
+      text Light @142,1937,96,21
+    col @250,1861,96,97
+      region 96x64 @250,1861,96,64 [8 shapes, 0 labelled]
+      text Dark @250,1937,96,21
+    col @358,1861,96,97
+      region 96x64 @358,1861,96,64 [8 shapes, 0 labelled]
+      text Dark nav @358,1937,96,21
+    col @466,1861,96,97
+      region 96x64 @466,1861,96,64 [8 shapes, 0 labelled]
+      text Colored @466,1937,96,21
+  text Accent color @34,1970,660,20
+  text The accent color used across the app. @34,2002,660,20
+  row @34,2034,660,0
+  text Font family @34,2046,660,21
+  text The typeface used across the app. @34,2079,660,20
+  row @34,2111,660,20
+    text Aa Sans-serif @34,2111,90,20
+    text Aa Serif @136,2111,53,20
+    text Aa Monospace @201,2111,100,20
+    text Aa Comic @313,2111,64,20
+  text Theme base @34,2143,660,20
+  text The gray palette behind every surface. @34,2175,660,21
+  row @34,2208,660,96
+    col @34,2208,96,96
+      region 96x64 @34,2208,96,64 [6 shapes, 0 labelled]
+      text Slate @34,2284,96,20
+    col @142,2208,96,96
+      region 96x64 @142,2208,96,64 [6 shapes, 0 labelled]
+      text Gray @142,2284,96,20
+    col @250,2208,96,96
+      region 96x64 @250,2208,96,64 [6 shapes, 0 labelled]
+      text Zinc @250,2284,96,20
+    col @358,2208,96,96
+      region 96x64 @358,2208,96,64 [6 shapes, 0 labelled]
+      text Neutral @358,2284,96,20
+    col @466,2208,96,96
+      region 96x64 @466,2208,96,64 [6 shapes, 0 labelled]
+      text Stone @466,2284,96,20
+  text Corner radius @34,2316,660,20
+  text How round corners are drawn. @34,2348,660,21
+  row @34,2381,660,96
+    col @34,2381,96,96
+      region 96x64 @34,2381,96,64 [2 shapes, 0 labelled]
+      text 0 @34,2457,96,20
+    col @142,2381,96,96
+      region 96x64 @142,2381,96,64 [2 shapes, 0 labelled]
+      text 0.5 @142,2457,96,20
+    col @250,2381,96,96
+      region 96x64 @250,2381,96,64 [2 shapes, 0 labelled]
+      text 1 @250,2457,96,20
+    col @358,2381,96,96
+      region 96x64 @358,2381,96,64 [2 shapes, 0 labelled]
+      text 1.5 @358,2457,96,20
+    col @466,2381,96,96
+      region 96x64 @466,2381,96,64 [2 shapes, 0 labelled]
+      text 2 @466,2457,96,20
+  h3 Layout @34,2489,660,19
+  text Navigation @34,2520,660,20
+  text Where the main menu lives. @34,2552,660,20
+  row @34,2584,660,97
+    col @34,2584,96,97
+      region 96x64 @34,2584,96,64 [10 shapes, 0 labelled]
+      text Navbar @34,2660,96,21
+    col @142,2584,96,97
+      region 96x64 @142,2584,96,64 [11 shapes, 0 labelled]
+      text Sidebar @142,2660,96,21
+  text Container width @34,2693,660,20
+  text How wide the page content runs. @34,2725,660,20
+  row @34,2757,660,96
+    col @34,2757,96,96
+      region 96x64 @34,2757,96,64 [6 shapes, 0 labelled]
+      text Default @34,2833,96,20
+    col @142,2757,96,96
+      region 96x64 @142,2757,96,64 [6 shapes, 0 labelled]
+      text Fluid @142,2833,96,20
+    col @250,2757,96,96
+      region 96x64 @250,2757,96,64 [7 shapes, 0 labelled]
+      text Boxed @250,2833,96,20
+  text Navbar behavior @34,2865,660,21
+  text Keep the navbar visible while scrolling. @34,2898,660,20
+  row @34,2930,660,96
+    col @34,2930,96,96
+      region 96x64 @34,2930,96,64 [8 shapes, 0 labelled]
+      text Default @34,3006,96,20
+    col @142,2930,96,96
+      region 96x64 @142,2930,96,64 [10 shapes, 0 labelled]
+      text Sticky @142,3006,96,20
+  text Navigation style @34,3038,660,21
+  text Attach the navigation to the edges, or let it float. @34,3071,660,20
+  row @34,3103,660,96
+    col @34,3103,96,96
+      region 96x64 @34,3103,96,64 [10 shapes, 0 labelled]
+      text Attached @34,3179,96,20
+    col @142,3103,96,96
+      region 96x64 @142,3103,96,64 [9 shapes, 0 labelled]
+      text Floating @142,3179,96,20
+  text Offcanvas style @34,3211,660,21
+  text Attach side panels to the edges, or let them float. @34,3244,660,20
+  row @34,3276,660,96
+    col @34,3276,96,96
+      region 96x64 @34,3276,96,64 [11 shapes, 0 labelled]
+      text Attached @34,3352,96,20
+    col @142,3276,96,96
+      region 96x64 @142,3276,96,64 [10 shapes, 0 labelled]
+      text Floating @142,3352,96,20
+  button "Reset changes" @34,3384,660,36
+  button Save primary @34,3432,660,37
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3
+!offcanvas region5
+!offcanvas path4
+!offcanvas region6
+!offcanvas path5
+!offcanvas region7
+!offcanvas path6
+!offcanvas region8
+!offcanvas path7
+!offcanvas region9
+!offcanvas path8
+!offcanvas region10
+!offcanvas path9
+!offcanvas region11
+!offcanvas path10
+!offcanvas region12
+!offcanvas path11
+!offcanvas region13
+!offcanvas path12
+!offcanvas region14
+!offcanvas path13
+!offcanvas region15
+!offcanvas path14
+!offcanvas region16
+!offcanvas path15
+!offcanvas region17
+!offcanvas path16
+!offcanvas region18
+!offcanvas path17
+!offcanvas region19
+!offcanvas path18
+!offcanvas region20
+!offcanvas path19
+!offcanvas region21
+!offcanvas path20
+!offcanvas region22
+!offcanvas path21
+!offcanvas region23
+!offcanvas path22
+!offcanvas region24
+!offcanvas path23
+!offcanvas region25
+!offcanvas path24
+!offcanvas region26
+!offcanvas path25
+!offcanvas region27
+!offcanvas path26
+!offcanvas region28
+!offcanvas path27
+!offcanvas region29
+!offcanvas path28
+!offcanvas region30
+!offcanvas path29
+!offcanvas region31
+!offcanvas path30
+!offcanvas region32
+!offcanvas path31

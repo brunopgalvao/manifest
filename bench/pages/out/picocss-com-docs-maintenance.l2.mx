@@ -1,0 +1,102 @@
+@picocss_com_docs_maintenance rev=0 @0,0,728,1176
+row @17,17,694,1142
+  button "Skip to content" primary @17,570,41,36
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @70,517,32,142
+  row @114,547,69,81
+    link "Pico CSS homepage" / @114,557,13,61
+    row @139,547,44,81
+      row @139,578,11,20
+        text v2.1.1 @139,578,0,20
+        link Examples /examples @151,578,0,20
+        link Docs /docs @163,578,0,20
+      row @162,547,21,81
+        link "GitHub repository" https://github.com/picocss/pico @162,567,0,41
+        link Twitter https://x.com/picocss @174,578,0,20
+        link "Turn on dark mode" /docs/maintenance @186,547,0,81
+  row @195,17,264,1142
+    col @195,323,12,530
+      text Getting started @195,323,12,41
+      text Customization @195,376,12,20
+      text Layout @195,408,12,20
+      text Content @195,440,12,20
+      text Forms @195,472,12,21
+      text Components @195,505,12,20
+      text About @195,537,12,20
+      link Maintenance /docs/maintenance @195,569,12,21
+      link "What’s new in v2?" /docs/v2 @195,602,12,81
+      link Mission /docs/mission @195,695,12,20
+      link "Usage scenarios" /docs/usage-scenarios @195,727,12,41
+      link Brand /docs/brand @195,780,12,20
+      link "Built With" /docs/built-with @195,812,12,41
+    col @219,440,32,296
+      text About danger @219,440,32,20
+      h1 Pico CSS is no longer maintained @219,472,32,150
+      text v2.1.1 is the final release. @219,634,32,102
+    col @263,17,196,1142
+      h2 Why# @263,17,196,21
+      text Today, AI can generate lightweight, standalone, accessible HTML with just the CSS it needs, so a Minimal CSS Framework for Semantic HTML matters less than it used to. @263,50,196,142
+      text To stay relevant, Pico CSS would need a full rewrite: plain modern CSS instead of Sass, built on features it doesn’t use today (OKLCH colors, cascade layers, Popover, anchor positioning) with fallbacks for older browsers, and a native compiler that strips unused CSS and makes customization easy. @263,204,196,244
+      text That would be a different project. Pico CSS stays as it is. @263,460,196,61
+      h2 What this means# @263,533,196,21
+      text Nothing breaks. , the and this website stay online for the long term. @263,566,196,61
+      row @263,639,196,20
+        link npm https://www.npmjs.com/package/@picocss/pico @263,639,30,20
+        link "jsDelivr CDN" https://www.jsdelivr.com/package/npm/@picocss/pico @305,639,84,20
+      text The repositories are archived. No new issues, PRs or releases. @263,671,196,61
+      text Pico CSS is . You’re free to fork it and take it further. See . @263,744,196,61
+      row @263,817,196,41
+        link "MIT licensed" https://github.com/picocss/pico/blob/main/LICENSE.md @263,817,79,41
+        link "community forks" https://github.com/picocss/pico/forks @354,817,105,41
+      text The Pico CSS name and logo are not covered by the MIT license. Please give your fork its own name, so users don’t confuse it with the original. @263,870,196,101
+      h2 Thank you# @263,983,196,21
+      text What started as a small side project ended up powering thousands of websites. Thank you to everyone who used it, opened issues, sent pull requests and wrote kind messages over the years. @263,1016,196,143
+  col @471,450,240,276
+    row @471,450,240,203
+      region 49.34000015258789x45 @471,549,4,4 [3 shapes, 0 labelled]
+      row @487,531,135,41
+        row @487,531,31,41
+          text About @487,541,0,20
+          link Maintenance /docs/maintenance @499,541,0,20
+          link "What’s new?" /docs/v2 @511,531,0,41
+          link Brand /docs/brand @523,541,0,20
+          link Mission /docs/mission @535,541,0,20
+          link "Usage scenarios" /docs/usage-scenarios @547,531,0,41
+        row @530,531,32,41
+          text Docs @530,541,0,20
+          link "Quick start" /docs @542,531,0,41
+          link "Version picker" /docs/version-picker @554,531,0,41
+          link "Class-less version" /docs/classless @566,531,0,41
+          link "Form elements" /docs/forms @578,531,0,41
+        row @574,541,17,20
+          text Community @574,541,0,20
+          link Issues https://github.com/picocss/pico/issues @586,541,0,20
+          link Discussions https://github.com/picocss/pico/discussions @598,541,0,20
+          link Help https://github.com/picocss/pico/discussions/categories/help @610,541,0,20
+        row @603,541,19,20
+          text Examples @603,541,0,20
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @615,541,0,20
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @627,541,0,20
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @639,541,0,20
+          link All /examples @651,541,0,20
+      text Designed and built by with the help of our . @634,450,25,203
+      col @671,515,9,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @671,515,9,40
+        link contributors https://github.com/picocss/pico/graphs/contributors @671,567,9,21
+      row @692,541,19,20
+        link GitHub https://github.com/picocss/pico @692,541,0,20
+        link Twitter https://x.com/picocss @704,541,0,20
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @716,541,0,20
+        link NPM https://www.npmjs.com/package/@picocss/pico @728,541,0,20
+    row @471,665,240,61
+      text Code licensed , docs . @471,665,82,61
+      row @565,665,74,61
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @565,685,14,20
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @591,665,48,61
+      text Currently v2.1.1. @651,675,60,41
+!overflow skip 39/130px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

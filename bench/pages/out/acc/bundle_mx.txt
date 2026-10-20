@@ -1,0 +1,1128 @@
+You are reading user interfaces described in MX, a compact text format. One node per line, indent to nest.
+Nodes: h1/h2 headings, text, metric Label Value [Delta], button, field, select (*marks the chosen option), check/toggle on|off,
+slider Label value min..max, table (header line, then one row per line, cells separated by |), bar/line/pie charts as Key:Value pairs,
+flow diagrams as chains (Agent >writes MX >draws Renderer; "below dashed" routes a chain under the others), tabs with *selected tab.
+Geometry: a node with WxH is a drawing space; inside it nodes sit at @x,y. Shapes: rect @x,y WxH, circle @cx,cy r:N, path "...",
+text @x,y "string". A quoted string at the end of a shape is its label. region/item/figure "Label" name an area or a part.
+Colours: fill:primary (blue), success (green), danger (red), warning (amber), info (teal), muted (grey); tone-NN is a lighter step.
+series name k:v ... is a data buffer; =name binds a chart or metric to it; [N points] min: max: last: summarise it.
+Level 1 shows only labelled shapes inside a space, with [N shapes, M labelled] counts; level 2 adds @x,y,w,h boxes in pixels;
+level 3 shows every shape with its box. !overflow and other lines are the renderer's diagnostics. Answer each question briefly from the text alone.
+
+=== page "checkout" ===
+@getbootstrap_com_docs_5_3_examples_check rev=0
+button "Toggle theme (light)" primary
+h1 Checkout form
+text Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.
+row
+  col
+    h3 Your cart 3
+    card
+      col
+        h3 Product name
+        text Brief description
+      text $12
+    row
+      col
+        h3 Second product
+        text Brief description
+      text $8
+    row
+      col
+        h3 Third item
+        text Brief description
+      text $5
+    row
+      col
+        h3 Promo code
+        text EXAMPLECODE success
+      text −$5 success
+    text Total (USD) $20
+    card
+      row
+        field "Promo code"
+        button Redeem primary
+  col
+    h3 Billing address
+    row
+      col
+        text First name
+        field "First name" required
+      col
+        text Last name
+        field "Last name" required
+      col
+        text Username
+        row
+          text @
+          field Username required
+      col
+        text Email (Optional)
+        field Email email
+      col
+        text Address
+        field Address required
+      col
+        text Address 2 (Optional)
+        field "Address 2"
+      col
+        text Country
+        select Country *Choose... "United States"
+      col
+        text State
+        select State *Choose... California
+      col
+        text Zip
+        field Zip required
+    row
+      check "Shipping address is the same as my billing address" off
+      text Shipping address is the same as my billing address
+    row
+      check "Save this information for next time" off
+      text Save this information for next time
+    h3 Payment
+    row
+      text Credit card
+    row
+      text Debit card
+    row
+      text PayPal
+    row
+      col
+        text Name on card
+        field "Name on card" required
+        text Full name as displayed on card
+      col
+        text Credit card number
+        field "Credit card number" required
+      col
+        text Expiration
+        field Expiration required
+      col
+        text CVV
+        field CVV required
+    button "Continue to checkout" primary
+text © 2017–2025 Company Name
+row
+  link Privacy #
+  link Terms #
+  link Support #
+!overflow redeem 50/84px
+!tiny zip2 22x36px
+--- questions ---
+checkout.1 How many items are in the cart?
+checkout.2 What is the total, in USD?
+checkout.3 What promo code is applied?
+
+=== page "pricing" ===
+@getbootstrap_com_docs_5_3_examples_prici rev=0
+button "Toggle theme (light)" primary
+row
+  link "Bootstrap Pricing example" /
+  row
+    link Features #
+    link Enterprise #
+    link Support #
+    link Pricing #
+h1 Pricing
+text Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.
+row
+  col
+    card
+      h3 Free
+    h1 $0/mo
+    text 10 users included
+    text 2 GB of storage
+    text Email support
+    text Help center access
+    button "Sign up for free"
+  col
+    card
+      h3 Pro
+    h1 $15/mo
+    text 20 users included
+    text 10 GB of storage
+    text Priority email support
+    text Help center access
+    button "Get started" primary
+  col
+    card
+      h3 Enterprise
+    h1 $29/mo
+    text 30 users included
+    text 15 GB of storage
+    text Phone and email support
+    text Help center access
+    button "Contact us" primary
+h2 Compare plans
+table Col Free Pro Enterprise
+  Public | Included | Included | Included
+  Private |  | Included | Included
+  Permissions | Included | Included | Included
+  Sharing |  | Included | Included
+  Unlimited members |  | Included | Included
+  Extra security |  |  | Included
+row
+  text © 2017–2025
+  col
+    h3 Features
+    link "Cool stuff" #
+    link "Random feature" #
+    link "Team feature" #
+    link "Stuff for developers" #
+    link "Another one" #
+    link "Last time" #
+  col
+    h3 Resources
+    link Resource #
+    link "Resource name" #
+    link "Another resource" #
+    link "Final resource" #
+  col
+    h3 About
+    link Team #
+    link Locations #
+    link Privacy #
+    link Terms #
+--- questions ---
+pricing.1 What is the monthly price of the Pro plan?
+pricing.2 How many users does the Enterprise plan include?
+pricing.3 Which plans include Private in the comparison table?
+
+=== page "invoice" ===
+@preview_tabler_io_invoice_html rev=0
+link "Skip to main content" #content
+row
+  link Tabler .
+  row
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle
+    row
+      link "Enable dark mode"
+      link "Show notifications" #
+      link "Show app menu" #
+      link "Select language" #
+    link "Open user menu" #
+row
+  row
+    button Dashboards
+    button Interface
+    button Forms
+    button Extra
+    button Layout
+    button Plugins
+    button Addons
+    button Help
+  button Customize
+row
+  h1 Invoice
+  button "Print Invoice" primary
+card
+  row
+    col
+      text Company
+      text Street Address State, City Region, Postal Code ltd@example.com
+    col
+      text Client
+      text Street Address State, City Region, Postal Code ctr@example.com
+    h2 Invoice INV/001/15
+  table Col Product Qnt Unit Amount
+    1 | Logo Creation Logo and business cards design | 1 | $1.800,00 | $1.800,00
+    2 | Online Store Design & Development Design/Development for all popular modern browsers | 1 | $20.000,00 | $20.000,00
+    3 | App Design Promotional mobile application | 1 | $3.200,00 | $3.200,00
+    Subtotal | $25.000,00
+    Vat Rate | 20%
+    Vat Due | $5.000,00
+    Total Due | $30.000,00
+  text Thank you very much for doing business with us. We look forward to working with you again!
+row
+  row
+    link Documentation https://docs.tabler.io
+    link License ./license.html
+    link "Source code" https://github.com/tabler/tabler
+    link Sponsor https://github.com/sponsors/codecalm
+  row
+    text Copyright © 2026 . All rights reserved.
+    link Tabler .
+    link v1.6.1 ./changelog.html
+button Customize primary
+card
+  button Close primary
+  region 160x120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own
+  text Pick the look and layout of this preview. Your choices are saved in this browser.
+  h3 Appearance
+  text Color scheme
+  text The page and its navigation, in one pick.
+  row
+    col
+      region 96x64 [8 shapes, 0 labelled]
+      text Auto
+    col
+      region 96x64 [8 shapes, 0 labelled]
+      text Light
+    col
+      region 96x64 [8 shapes, 0 labelled]
+      text Dark
+    col
+      region 96x64 [8 shapes, 0 labelled]
+      text Dark nav
+    col
+      region 96x64 [8 shapes, 0 labelled]
+      text Colored
+  text Accent color
+  text The accent color used across the app.
+  row
+  text Font family
+  text The typeface used across the app.
+  row
+    text Aa Sans-serif
+    text Aa Serif
+    text Aa Monospace
+    text Aa Comic
+  text Theme base
+  text The gray palette behind every surface.
+  row
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Slate
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Gray
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Zinc
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Neutral
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Stone
+  text Corner radius
+  text How round corners are drawn.
+  row
+    col
+      region 96x64 [2 shapes, 0 labelled]
+      text 0
+    col
+      region 96x64 [2 shapes, 0 labelled]
+      text 0.5
+    col
+      region 96x64 [2 shapes, 0 labelled]
+      text 1
+    col
+      region 96x64 [2 shapes, 0 labelled]
+      text 1.5
+    col
+      region 96x64 [2 shapes, 0 labelled]
+      text 2
+  h3 Layout
+  text Navigation
+  text Where the main menu lives.
+  row
+    col
+      region 96x64 [10 shapes, 0 labelled]
+      text Navbar
+    col
+      region 96x64 [11 shapes, 0 labelled]
+      text Sidebar
+  text Container width
+  text How wide the page content runs.
+  row
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Default
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Fluid
+    col
+      region 96x64 [7 shapes, 0 labelled]
+      text Boxed
+  text Navbar behavior
+  text Keep the navbar visible while scrolling.
+  row
+    col
+      region 96x64 [8 shapes, 0 labelled]
+      text Default
+    col
+      region 96x64 [10 shapes, 0 labelled]
+      text Sticky
+  text Navigation style
+  text Attach the navigation to the edges, or let it float.
+  row
+    col
+      region 96x64 [10 shapes, 0 labelled]
+      text Attached
+    col
+      region 96x64 [9 shapes, 0 labelled]
+      text Floating
+  text Offcanvas style
+  text Attach side panels to the edges, or let them float.
+  row
+    col
+      region 96x64 [11 shapes, 0 labelled]
+      text Attached
+    col
+      region 96x64 [10 shapes, 0 labelled]
+      text Floating
+  button "Reset changes"
+  button Save primary
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!overflow table.1.Product 132/328px
+!overflow table.2.Product 132/612px
+!overflow table.3.Product 132/301px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3
+!offcanvas region5
+!offcanvas path4
+!offcanvas region6
+!offcanvas path5
+!offcanvas region7
+!offcanvas path6
+!offcanvas region8
+!offcanvas path7
+!offcanvas region9
+!offcanvas path8
+!offcanvas region10
+!offcanvas path9
+!offcanvas region11
+!offcanvas path10
+!offcanvas region12
+!offcanvas path11
+!offcanvas region13
+!offcanvas path12
+!offcanvas region14
+!offcanvas path13
+!offcanvas region15
+!offcanvas path14
+!offcanvas region16
+!offcanvas path15
+!offcanvas region17
+!offcanvas path16
+!offcanvas region18
+!offcanvas path17
+!offcanvas region19
+!offcanvas path18
+!offcanvas region20
+!offcanvas path19
+!offcanvas region21
+!offcanvas path20
+!offcanvas region22
+!offcanvas path21
+!offcanvas region23
+!offcanvas path22
+!offcanvas region24
+!offcanvas path23
+!offcanvas region25
+!offcanvas path24
+!offcanvas region26
+!offcanvas path25
+!offcanvas region27
+!offcanvas path26
+!offcanvas region28
+!offcanvas path27
+!offcanvas region29
+!offcanvas path28
+!offcanvas region30
+!offcanvas path29
+!offcanvas region31
+!offcanvas path30
+!offcanvas region32
+!offcanvas path31
+--- questions ---
+invoice.1 What is the invoice number?
+invoice.2 What is the unit price of App Design?
+invoice.3 What is the VAT rate?
+
+=== page "shadcn" ===
+@ui_shadcn_com_examples_dashboard rev=0
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+    row
+      link New /create
+link "Trace, Code Block and AI Elements" /docs/changelog
+h1 The Foundation for your Design System
+text A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.
+row
+  link "Get Started" /docs/installation
+  link "View Components" /docs/components
+row
+  row
+    link Examples /
+    link Dashboard /examples/dashboard
+    link Tasks /examples/tasks
+    link Playground /examples/playground
+    link Authentication /examples/authentication
+    link RTL /examples/rtl
+  row
+    text Theme
+    row
+      text Neutral
+    button "Copy Code"
+card
+  row
+    col
+      link "Acme Inc." #
+      text Home
+      button Dashboard
+      button Lifecycle
+      button Analytics
+      button Projects
+      button Team
+      text Documents
+      link "Data Library" #
+      button More
+      link Reports #
+      button More
+      link "Word Assistant" #
+      button More
+      button More
+      link Settings #
+      link "Get Help" #
+      link Search #
+      button shadcnm@example.com
+    col
+      row
+        h1 Documents
+        button "Quick Create" primary
+      row
+        col
+          metric "Total Revenue" $1,250.00 +12.5%
+          text Trending up this month
+          text Visitors for the last 6 months
+        col
+          metric "New Customers" 1,234 -20%
+          text Down 20% this period
+          text Acquisition needs attention
+        col
+          metric "Active Accounts" 45,678 +12.5%
+          text Strong user retention
+          text Engagement exceed targets
+        col
+          metric "Growth Rate" 4.5% +4.5%
+          text Steady performance increase
+          text Meets growth projections
+      card
+        row
+          text Total Visitors
+          text Total for the last 3 monthsLast 3 months
+          row
+            text Last 3 months
+            text Last 30 days
+            text Last 7 days
+        text Jun 30Mobile400Desktop446Jun 24Jun 25Jun 26Jun 27Jun 28Jun 29Jun 30
+      row
+        text View
+        tabs
+          tab *Outline
+            card
+              table Col:badge Col Header:badge "Section Type" Status:badge Target Limit Reviewer Col:badge
+                Drag to reorder |  | Cover page | Cover page | In Process | Target | Limit | Eddie Lake | Open menu
+                Drag to reorder |  | Table of contents | Table of contents | Done | Target | Limit | Eddie Lake | Open menu
+                Drag to reorder |  | Executive summary | Narrative | Done | Target | Limit | Eddie Lake | Open menu
+                Drag to reorder |  | Technical approach | Narrative | Done | Target | Limit | Jamik Tashpulatov | Open menu
+                Drag to reorder |  | Design | Narrative | In Process | Target | Limit | Jamik Tashpulatov | Open menu
+                Drag to reorder |  | Capabilities | Narrative | In Process | Target | Limit | Jamik Tashpulatov | Open menu
+                Drag to reorder |  | Integration with existing systems | Narrative | In Process | Target | Limit | Jamik Tashpulatov | Open menu
+                Drag to reorder |  | Innovation and Advantages | Narrative | Done | Target | Limit | ReviewerAssign reviewer | Open menu
+                Drag to reorder |  | Overview of EMR's Innovative Solutions | Technical content | Done | Target | Limit | ReviewerAssign reviewer | Open menu
+                Drag to reorder |  | Advanced Algorithms and Machine Learning | Narrative | Done | Target | Limit | ReviewerAssign reviewer | Open menu
+            row
+              text 0 of 68 row(s) selected.
+              row
+                row
+                  text Rows per page
+                  row
+                    text 10
+                text Page 1 of 7
+                row
+                  button "Go to first page" disabled
+                  button "Go to previous page" disabled
+                  button "Go to next page"
+                  button "Go to last page"
+          tab "Past Performance 3" [0 hidden]
+          tab "Key Personnel 2" [0 hidden]
+          tab "Focus Documents" [0 hidden]
+        row
+          button "Customize ColumnsColumns"
+          button "Add Section"
+text Built by at . The source code is available on .
+row
+  link shadcn https://twitter.com/shadcn
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+  link GitHub https://github.com/shadcn-ui/ui
+text Notifications alt+T
+text Jun 23
+text Notifications
+!overflow search 170/256px
+!overflow toggle 87/122px
+!overflow dashboard2 77/103px
+!overflow lifecycle 77/90px
+!overflow analytics 77/92px
+!overflow projects 77/84px
+!overflow shadcnmexamplecom 77/196px
+!overflow total 105/111px
+!overflow outline 59/73px
+!overflow table.Drag to reorder.Section Type 41/94px
+!overflow table.Drag to reorder.Target 40/60px
+!overflow table.Drag to reorder.Limit 40/48px
+!overflow table.Drag to reorder.Reviewer 41/89px
+!overflow table.Drag to reorder.Section Type 41/133px
+!overflow table.Drag to reorder.Target 40/60px
+!overflow table.Drag to reorder.Limit 40/48px
+!overflow table.Drag to reorder.Reviewer 41/89px
+!overflow table.Drag to reorder.Section Type 41/77px
+!overflow table.Drag to reorder.Target 40/60px
+!overflow table.Drag to reorder.Limit 40/48px
+!overflow table.Drag to reorder.Reviewer 41/89px
+!overflow table.Drag to reorder.Section Type 41/77px
+!overflow table.Drag to reorder.Target 40/60px
+!overflow table.Drag to reorder.Limit 40/48px
+!overflow table.Drag to reorder.Reviewer 41/141px
+!overflow table.Drag to reorder.Section Type 41/77px
+!overflow table.Drag to reorder.Target 40/60px
+!overflow table.Drag to reorder.Limit 40/48px
+!overflow table.Drag to reorder.Reviewer 41/141px
+!overflow table.Drag to reorder.Section Type 41/77px
+!overflow table.Drag to reorder.Target 40/60px
+!overflow table.Drag to reorder.Limit 40/48px
+!overflow table.Drag to reorder.Reviewer 41/141px
+!overflow table.Drag to reorder.Section Type 41/77px
+!overflow table.Drag to reorder.Target 40/60px
+!overflow table.Drag to reorder.Limit 40/48px
+!overflow table.Drag to reorder.Reviewer 41/141px
+!overflow table.Drag to reorder.Section Type 41/77px
+!overflow table.Drag to reorder.Target 40/60px
+!overflow table.Drag to reorder.Limit 40/48px
+!overflow table.Drag to reorder.Reviewer 41/184px
+!overflow table.Drag to reorder.Section Type 41/135px
+!overflow table.Drag to reorder.Target 40/60px
+!overflow table.Drag to reorder.Limit 40/48px
+!overflow table.Drag to reorder.Reviewer 41/184px
+!overflow table.Drag to reorder.Section Type 41/77px
+!overflow table.Drag to reorder.Target 40/60px
+!overflow table.Drag to reorder.Limit 40/48px
+!overflow table.Drag to reorder.Reviewer 41/184px
+!overflow outline.go 44/133px
+!overflow go 49/165px
+!overflow go2 45/135px
+!overflow go3 43/130px
+!overflow past 117/156px
+!overflow key 101/133px
+!overflow focus 108/144px
+!overflow customize 73/224px
+!overflow add 47/111px
+--- questions ---
+shadcn.1 What is the Total Revenue figure?
+shadcn.2 By how much did New Customers change?
+shadcn.3 What is the Growth Rate?
+
+=== page "dashboard" ===
+@getbootstrap_com_docs_5_3_examples_dashb rev=0
+button "Toggle theme (light)" primary
+link "Company name" #
+row
+  col
+    link Dashboard #
+    link Orders #
+    link Products #
+    link Customers #
+    link Reports #
+    link Integrations #
+    h3 Saved reports
+    link "Current month" #
+    link "Last quarter" #
+    link "Social engagement" #
+    link "Year-end sale" #
+    link Settings #
+    link "Sign out" #
+  col
+    row
+      h1 Dashboard
+      row
+        row
+          button Share
+          button Export
+        button "This week"
+    region 1018.6599731445313x430 [1 shapes, 1 labelled]
+      image getbootstrap_com_docs_5_3_examples_dashb-1.png @0,0 1018.6599731445313x430 "Canvas"
+    h2 Section title
+    table # Header Header Header Header
+      1,001 | random | data | placeholder | text
+      1,002 | placeholder | irrelevant | visual | layout
+      1,003 | data | rich | dashboard | tabular
+      1,003 | information | placeholder | illustrative | data
+      1,004 | text | random | layout | dashboard
+      1,005 | dashboard | irrelevant | text | placeholder
+      1,006 | dashboard | illustrative | rich | data
+      1,007 | placeholder | tabular | information | irrelevant
+      1,008 | random | data | placeholder | text
+      1,009 | placeholder | irrelevant | visual | layout
+      1,010 | data | rich | dashboard | tabular
+      1,011 | information | placeholder | illustrative | data
+      1,012 | text | placeholder | layout | dashboard
+      1,013 | dashboard | irrelevant | text | visual
+      1,014 | dashboard | illustrative | rich | data
+      1,015 | random | tabular | information | text
+--- questions ---
+dashboard.1 What is the first order number in the table?
+dashboard.2 Which buttons sit next to the Dashboard heading?
+dashboard.3 How many saved reports are listed in the sidebar?
+
+=== page "signin" ===
+@getbootstrap_com_docs_5_3_examples_sign_ rev=0
+row
+  button "Toggle theme (light)" primary
+  col
+    h1 Please sign in
+    field "Email address" email
+    text Email address
+    field Password password
+    text Password
+    row
+      check "Remember me" off
+      text Remember me
+    button "Sign in" primary
+    text © 2017–2025
+--- questions ---
+signin.1 Is Remember me checked?
+signin.2 What kind of input is the first field?
+signin.3 What does the main button say?
+
+=== page "album" ===
+@getbootstrap_com_docs_5_3_examples_album rev=0
+button "Toggle theme (light)" primary
+row
+  link Album #
+  button "Toggle navigation"
+h1 Album example
+text Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.
+row
+  link "Main call to action" #
+  link "Secondary action" #
+row
+  col
+    region "Placeholder: Thumbnail" 359.3299865722656x225 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail"
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.3299865722656x225 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail"
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.3299865722656x225 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail"
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.3299865722656x225 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail"
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.3299865722656x225 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail"
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.3299865722656x225 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail"
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.3299865722656x225 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail"
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.3299865722656x225 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail"
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.3299865722656x225 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail"
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+link "Back to top" #
+text Album example is © Bootstrap, but please download and customize it for yourself!
+text New to Bootstrap? or read our .
+row
+  link "Visit the homepage" /
+  link "getting started guide" /docs/5.3/getting-started/introduction
+!overflow view 28/62px
+!overflow edit 28/54px
+!overflow view2 28/62px
+!overflow edit2 28/54px
+!overflow view3 28/62px
+!overflow edit3 28/54px
+!overflow view4 28/62px
+!overflow edit4 28/54px
+!overflow view5 28/62px
+!overflow edit5 28/54px
+!overflow view6 28/62px
+!overflow edit6 28/54px
+!overflow view7 28/62px
+!overflow edit7 28/54px
+!overflow view8 28/62px
+!overflow edit8 28/54px
+!overflow view9 28/62px
+!overflow edit9 28/54px
+--- questions ---
+album.1 What are the two action links under the heading?
+album.2 What do the two buttons on each card say?
+album.3 What time label do the cards show?
+
+=== page "tabler" ===
+@preview_tabler_io_pricing_html rev=0
+link "Skip to main content" #content
+row
+  link Tabler .
+  row
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle
+    row
+      link "Enable dark mode"
+      link "Show notifications" #
+      link "Show app menu" #
+      link "Select language" #
+    link "Open user menu" #
+row
+  row
+    button Dashboards
+    button Interface
+    button Forms
+    button Extra
+    button Layout
+    button Plugins
+    button Addons
+    button Help
+  button Customize
+h1 Pricing cards
+row
+  col
+    text Free
+    text $0
+    text 3 Users
+    text Sharing Tools
+    figure check
+    text Design Tools
+    figure x
+    text Private Messages
+    figure x
+    text Twitter API
+    figure x
+    link "Choose plan" #
+  col
+    figure star
+    text Premium
+    text $49
+    text 10 Users
+    text Sharing Tools
+    figure check
+    text Design Tools
+    figure check
+    text Private Messages
+    figure x
+    text Twitter API
+    figure x
+    link "Choose plan" #
+  col
+    text Enterprise
+    text $99
+    text 100 Users
+    text Sharing Tools
+    figure check
+    text Design Tools
+    figure check
+    text Private Messages
+    figure check
+    text Twitter API
+    figure x
+    link "Choose plan" #
+  col
+    text Unlimited
+    text $139
+    text Unlimited Users
+    text Sharing Tools
+    figure check
+    text Design Tools
+    figure check
+    text Private Messages
+    figure check
+    text Twitter API
+    figure check
+    link "Choose plan" #
+  row
+    col
+      h2 Enterprise-ready. Reach out for a custom quote.
+      text Tabler is designed to work great for large enterprises. Take a look at our feature comparison.
+    button "Book a demo"
+row
+  row
+    link Documentation https://docs.tabler.io
+    link License ./license.html
+    link "Source code" https://github.com/tabler/tabler
+    link Sponsor https://github.com/sponsors/codecalm
+  row
+    text Copyright © 2026 . All rights reserved.
+    link Tabler .
+    link v1.6.1 ./changelog.html
+button Customize primary
+card
+  button Close primary
+  region 160x120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own
+  text Pick the look and layout of this preview. Your choices are saved in this browser.
+  h3 Appearance
+  text Color scheme
+  text The page and its navigation, in one pick.
+  row
+    col
+      region 96x64 [8 shapes, 0 labelled]
+      text Auto
+    col
+      region 96x64 [8 shapes, 0 labelled]
+      text Light
+    col
+      region 96x64 [8 shapes, 0 labelled]
+      text Dark
+    col
+      region 96x64 [8 shapes, 0 labelled]
+      text Dark nav
+    col
+      region 96x64 [8 shapes, 0 labelled]
+      text Colored
+  text Accent color
+  text The accent color used across the app.
+  row
+  text Font family
+  text The typeface used across the app.
+  row
+    text Aa Sans-serif
+    text Aa Serif
+    text Aa Monospace
+    text Aa Comic
+  text Theme base
+  text The gray palette behind every surface.
+  row
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Slate
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Gray
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Zinc
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Neutral
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Stone
+  text Corner radius
+  text How round corners are drawn.
+  row
+    col
+      region 96x64 [2 shapes, 0 labelled]
+      text 0
+    col
+      region 96x64 [2 shapes, 0 labelled]
+      text 0.5
+    col
+      region 96x64 [2 shapes, 0 labelled]
+      text 1
+    col
+      region 96x64 [2 shapes, 0 labelled]
+      text 1.5
+    col
+      region 96x64 [2 shapes, 0 labelled]
+      text 2
+  h3 Layout
+  text Navigation
+  text Where the main menu lives.
+  row
+    col
+      region 96x64 [10 shapes, 0 labelled]
+      text Navbar
+    col
+      region 96x64 [11 shapes, 0 labelled]
+      text Sidebar
+  text Container width
+  text How wide the page content runs.
+  row
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Default
+    col
+      region 96x64 [6 shapes, 0 labelled]
+      text Fluid
+    col
+      region 96x64 [7 shapes, 0 labelled]
+      text Boxed
+  text Navbar behavior
+  text Keep the navbar visible while scrolling.
+  row
+    col
+      region 96x64 [8 shapes, 0 labelled]
+      text Default
+    col
+      region 96x64 [10 shapes, 0 labelled]
+      text Sticky
+  text Navigation style
+  text Attach the navigation to the edges, or let it float.
+  row
+    col
+      region 96x64 [10 shapes, 0 labelled]
+      text Attached
+    col
+      region 96x64 [9 shapes, 0 labelled]
+      text Floating
+  text Offcanvas style
+  text Attach side panels to the edges, or let them float.
+  row
+    col
+      region 96x64 [11 shapes, 0 labelled]
+      text Attached
+    col
+      region 96x64 [10 shapes, 0 labelled]
+      text Floating
+  button "Reset changes"
+  button Save primary
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!overflow book 72/116px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3
+!offcanvas region5
+!offcanvas path4
+!offcanvas region6
+!offcanvas path5
+!offcanvas region7
+!offcanvas path6
+!offcanvas region8
+!offcanvas path7
+!offcanvas region9
+!offcanvas path8
+!offcanvas region10
+!offcanvas path9
+!offcanvas region11
+!offcanvas path10
+!offcanvas region12
+!offcanvas path11
+!offcanvas region13
+!offcanvas path12
+!offcanvas region14
+!offcanvas path13
+!offcanvas region15
+!offcanvas path14
+!offcanvas region16
+!offcanvas path15
+!offcanvas region17
+!offcanvas path16
+!offcanvas region18
+!offcanvas path17
+!offcanvas region19
+!offcanvas path18
+!offcanvas region20
+!offcanvas path19
+!offcanvas region21
+!offcanvas path20
+!offcanvas region22
+!offcanvas path21
+!offcanvas region23
+!offcanvas path22
+!offcanvas region24
+!offcanvas path23
+!offcanvas region25
+!offcanvas path24
+!offcanvas region26
+!offcanvas path25
+!offcanvas region27
+!offcanvas path26
+!offcanvas region28
+!offcanvas path27
+!offcanvas region29
+!offcanvas path28
+!offcanvas region30
+!offcanvas path29
+!offcanvas region31
+!offcanvas path30
+!offcanvas region32
+!offcanvas path31
+--- questions ---
+tabler.1 What is the price of the Premium plan?
+tabler.2 How many users does the Free plan allow?
+tabler.3 Which plan is marked with a star icon?

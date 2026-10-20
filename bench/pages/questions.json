@@ -1,0 +1,42 @@
+{
+ "getbootstrap-com-docs-5-3-examples-checkout": [
+  ["How many items are in the cart?", "3"],
+  ["What is the total, in USD?", "$20"],
+  ["What promo code is applied?", "EXAMPLECODE"]
+ ],
+ "getbootstrap-com-docs-5-3-examples-pricing": [
+  ["What is the monthly price of the Pro plan?", "$15"],
+  ["How many users does the Enterprise plan include?", "30"],
+  ["Which plans include Private in the comparison table?", "Pro and Enterprise"]
+ ],
+ "preview-tabler-io-invoice-html": [
+  ["What is the invoice number?", "INV/001/15"],
+  ["What is the unit price of App Design?", "$3.200,00"],
+  ["What is the VAT rate?", "20%"]
+ ],
+ "ui-shadcn-com-examples-dashboard": [
+  ["What is the Total Revenue figure?", "$1,250.00"],
+  ["By how much did New Customers change?", "-20%"],
+  ["What is the Growth Rate?", "4.5%"]
+ ],
+ "getbootstrap-com-docs-5-3-examples-dashboard": [
+  ["What is the first order number in the table?", "1,001"],
+  ["Which buttons sit next to the Dashboard heading?", "Share, Export, This week"],
+  ["How many saved reports are listed in the sidebar?", "4"]
+ ],
+ "getbootstrap-com-docs-5-3-examples-sign-in": [
+  ["Is Remember me checked?", "no"],
+  ["What kind of input is the first field?", "email"],
+  ["What does the main button say?", "Sign in"]
+ ],
+ "getbootstrap-com-docs-5-3-examples-album": [
+  ["What are the two action links under the heading?", "Main call to action, Secondary action"],
+  ["What do the two buttons on each card say?", "View, Edit"],
+  ["What time label do the cards show?", "9 mins"]
+ ],
+ "preview-tabler-io-pricing-html": [
+  ["What is the price of the Premium plan?", "$49"],
+  ["How many users does the Free plan allow?", "3"],
+  ["Which plan is marked with a star icon?", "Premium"]
+ ]
+}

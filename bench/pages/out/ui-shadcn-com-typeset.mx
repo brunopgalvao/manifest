@@ -1,0 +1,51 @@
+@ui_shadcn_com_typeset
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+row
+  col
+    row
+      tabs
+        tab *Docs
+        tab Prompt
+      row
+        text Next.js
+    button "Read the docs"
+  row
+    row
+      button 01 primary
+      button 02
+      button 03
+      button 04
+      button 05
+    link "Open in New Tab" /preview/typeset/docs
+  col
+    button Menu
+    button Measure80ch
+    button Lock
+    button HeadingGeistAa
+    button Lock
+    button BodyGeistAa
+    button Lock
+    button "MonoGeist MonoAa"
+    button Lock
+    button Size15px
+    button Lock
+    button "LeadingRegular (1.75)"
+    button Lock
+    button "FlowRegular (1.25em)"
+    button Lock
+    button Shuffle
+text Notifications alt+T
+text Notifications

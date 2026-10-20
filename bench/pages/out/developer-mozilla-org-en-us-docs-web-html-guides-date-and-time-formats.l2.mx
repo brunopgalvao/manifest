@@ -1,0 +1,61 @@
+@developer_mozilla_org_en_us_docs_web_htm rev=0 @0,0,728,1406
+row @17,17,694,1372
+  col @17,626,25,154
+    link "Skip to main content" #content @17,626,25,81
+    link "Skip to search" #mdn-search @17,719,25,61
+  region 1280x91 @54,695,235,16 [1 shapes, 0 labelled]
+  col @301,646,55,114
+    link MDN /en-US/ @301,646,55,21
+    row @301,679,55,81
+      link Web /en-US/docs/Web @301,709,2,20
+      link HTML /en-US/docs/Web/HTML @315,709,3,20
+      link Guides /en-US/docs/Web/HTML/Guides @330,709,4,20
+      link "Date and time formats" /en-US/docs/Web/HTML/Guides/Date_and_time_formats @346,679,10,81
+  col @368,17,40,1372
+    link HTML /en-US/docs/Web/HTML @368,17,40,20
+    link Guides /en-US/docs/Web/HTML/Guides @368,49,40,21
+    link Cheatsheet /en-US/docs/Web/HTML/Guides/Cheatsheet @368,82,40,20
+    link Comments /en-US/docs/Web/HTML/Guides/Comments @368,114,40,20
+    link "Constraint validation" /en-US/docs/Web/HTML/Guides/Constraint_validation @368,146,40,41
+    link "Content categories" /en-US/docs/Web/HTML/Guides/Content_categories @368,199,40,40
+    link "Date and time formats" /en-US/docs/Web/HTML/Guides/Date_and_time_formats @368,251,40,82
+    link Microdata /en-US/docs/Web/HTML/Guides/Microdata @368,345,40,20
+    link Microformats /en-US/docs/Web/HTML/Guides/Microformats @368,377,40,20
+    link "Quirks and standards modes" /en-US/docs/Web/HTML/Guides/Quirks_mode_and_standards_mode @368,409,40,81
+    link "Responsive images" /en-US/docs/Web/HTML/Guides/Responsive_images @368,502,40,41
+    link "How to" /en-US/docs/Web/HTML/How_to @368,555,40,41
+    link "Define terms with HTML" /en-US/docs/Web/HTML/How_to/Define_terms_with_HTML @368,608,40,81
+    link "Use data attributes" /en-US/docs/Web/HTML/How_to/Use_data_attributes @368,701,40,61
+    link "Use cross-origin images" /en-US/docs/Web/HTML/How_to/CORS_enabled_image @368,774,40,61
+    link "Add a hitmap on top of an image" /en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image @368,847,40,121
+    link "Author fast-loading HTML pages" /en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages @368,980,40,82
+    link "Add JavaScript" /en-US/docs/Web/HTML/How_to/Add_JavaScript_to_your_web_page @368,1074,40,40
+    link Reference /en-US/docs/Web/HTML/Reference @368,1126,40,21
+    link Elements /en-US/docs/Web/HTML/Reference/Elements @368,1159,40,20
+    link Attributes /en-US/docs/Web/HTML/Reference/Attributes @368,1191,40,20
+    link "Global attributes" /en-US/docs/Web/HTML/Reference/Global_attributes @368,1223,40,41
+    text Attributes by element @368,1276,40,61
+    text Attribute values @368,1349,40,40
+  col @420,565,291,276
+    row @420,565,291,102
+      row @420,565,70,102
+        link "MDN logo" / @420,596,13,40
+        text Your blueprint for a better internet. @445,565,45,102
+      row @502,575,132,82
+        link "MDN on GitHub" https://github.com/mdn/ @502,585,16,61
+        link "MDN on Bluesky" https://bsky.app/profile/developer.mozilla.org @530,585,18,61
+        link "MDN on X" https://x.com/mozdevnet @560,585,10,61
+        link "MDN on Mastodon" https://mastodon.social/@mdn @582,585,20,61
+        link "MDN blog RSS feed" /en-US/blog/rss.xml @614,575,20,82
+      text MDN @646,606,8,20
+      text Contribute @666,606,16,20
+      text Developers @694,606,17,20
+    row @420,679,291,162
+      link "Mozilla logo" https://www.mozilla.org/ @420,740,13,40
+      row @445,729,97,61
+        link "Website Privacy Notice" https://www.mozilla.org/privacy/websites/ @445,729,17,61
+        link "Telemetry Settings" https://www.mozilla.org/en-US/privacy/websites/data-preferences/ @474,740,14,40
+        link Legal https://www.mozilla.org/about/legal/terms/mozilla @500,750,4,20
+        link "Community Participation Guidelines" https://www.mozilla.org/about/governance/policies/participation/ @516,729,26,61
+      text Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under . @554,679,114,162
+      link "a Creative Commons license" /docs/MDN/Writing_guidelines/Attrib_copyright_license @680,719,31,81

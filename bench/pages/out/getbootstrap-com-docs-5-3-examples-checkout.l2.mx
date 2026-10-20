@@ -1,0 +1,99 @@
+@getbootstrap_com_docs_5_3_examples_check rev=0 @0,0,728,818
+button "Toggle theme (light)" primary @17,17,694,36
+h1 Checkout form @17,65,694,25
+text Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it. @17,102,694,41
+row @17,155,694,581
+  col @17,155,126,581
+    h3 Your cart 3 @17,155,126,19
+    card @17,186,126,152
+      col @34,201,92,90
+        h3 Product name @34,201,92,37
+        text Brief description @34,250,92,41
+      text $12 @34,303,92,20
+    row @17,350,126,90
+      col @17,350,99,90
+        h3 Second product @17,350,99,38
+        text Brief description @17,400,99,40
+      text $8 @128,385,15,20
+    row @17,452,126,72
+      col @17,452,98,72
+        h3 Third item @17,452,98,19
+        text Brief description @17,483,98,41
+      text $5 @127,478,16,20
+    row @17,536,126,51
+      col @17,536,91,51
+        h3 Promo code @17,536,91,18
+        text EXAMPLECODE success @17,566,91,21
+      text −$5 success @120,551,23,20
+    text Total (USD) $20 @17,599,126,20
+    card @17,631,126,105
+      row @34,646,92,75
+        field "Promo code" @34,646,28,75
+        button Redeem primary @74,665,52,37
+  col @155,158,556,575
+    h3 Billing address @155,158,556,19
+    row @155,189,556,145
+      col @155,198,41,127
+        text First name @155,198,41,40
+        field "First name" required @155,250,41,75
+      col @208,189,40,145
+        text Last name @208,189,40,40
+        field "Last name" required @208,241,40,93
+      col @260,208,55,107
+        text Username @260,208,55,20
+        row @260,240,55,75
+          text @ @260,267,8,21
+          field Username required @280,240,35,75
+      col @327,206,61,111
+        text Email (Optional) @327,206,61,41
+        field Email email @327,259,61,58
+      col @400,208,33,107
+        text Address @400,208,33,20
+        field Address required @400,240,33,75
+      col @445,206,80,111
+        text Address 2 (Optional) @445,206,80,41
+        field "Address 2" @445,259,80,58
+      col @537,218,74,87
+        text Country @537,218,74,20
+        select Country *Choose... "United States" @537,250,74,55
+      col @623,218,60,87
+        text State @623,218,60,20
+        select State *Choose... California @623,250,60,55
+      col @695,208,16,107
+        text Zip @695,208,16,20
+        field Zip required @695,240,16,75
+    row @155,346,556,41
+      check "Shipping address is the same as my billing address" off @155,346,282,41
+      text Shipping address is the same as my billing address @449,346,262,41
+    row @155,399,556,24
+      check "Save this information for next time" off @155,399,254,24
+      text Save this information for next time @421,400,228,21
+    h3 Payment @155,435,556,18
+    row @155,465,556,21
+      text Credit card @155,465,74,21
+    row @155,498,556,20
+      text Debit card @155,498,69,20
+    row @155,530,556,20
+      text PayPal @155,530,45,20
+    row @155,562,556,122
+      col @155,562,205,122
+        text Name on card @155,562,205,20
+        field "Name on card" required @155,594,205,58
+        text Full name as displayed on card @155,664,205,20
+      col @372,578,129,90
+        text Credit card number @372,578,129,21
+        field "Credit card number" required @372,611,129,57
+      col @513,578,66,90
+        text Expiration @513,578,66,21
+        field Expiration required @513,611,66,57
+      col @591,578,35,90
+        text CVV @591,578,35,21
+        field CVV required @591,611,35,57
+    button "Continue to checkout" primary @155,696,556,37
+text © 2017–2025 Company Name @17,748,694,20
+row @17,780,694,21
+  link Privacy # @17,780,50,21
+  link Terms # @79,780,43,21
+  link Support # @134,780,53,21
+!overflow redeem 50/84px
+!tiny zip2 22x36px

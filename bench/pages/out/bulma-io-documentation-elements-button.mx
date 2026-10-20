@@ -123,8 +123,8 @@ row
         h2 The classic button, in different colors, sizes, and states
       col
         card
-          link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI653UCVBI523KCKBI62QNCE7IP53LF6BIC5QJFTBI42JKC6SILKJWCYADEK3EHJNCLSIZ" https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI653UCVBI523KCKBI62QNCE7IP53LF6BIC5QJFTBI42JKC6SILKJWCYADEK3EHJNCLSIZ
-          link "One SDK. Any model. Ship agents. Get started." https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI653UCVBI523KCKBI62QNCE7IP53LF6BIC5QJFTBI42JKC6SILKJWCYADEK3EHJNCLSIZ
+          link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQMCAYDEZ3JCAAI627ICEAI423KCWBDK2JUCVYITKJMF67IVKJUF67DPK7KC6SILKJWCA7DVK3EHJNCLSIZ" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQMCAYDEZ3JCAAI627ICEAI423KCWBDK2JUCVYITKJMF67IVKJUF67DPK7KC6SILKJWCA7DVK3EHJNCLSIZ
+          link "Kubernetes, Proxmox oder Datenbanken auf AMD EPYC 4005 Servern, in Minuten bereit. Jetzt konfigurieren." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQMCAYDEZ3JCAAI627ICEAI423KCWBDK2JUCVYITKJMF67IVKJUF67DPK7KC6SILKJWCA7DVK3EHJNCLSIZ
         link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
     text The button is an essential element of any design. It's meant to look and behave as an interactive element of your page.
     text Example
@@ -139,6 +139,7 @@ row
     text "<input type=\"reset\"> reset inputs"
     text Example
     row
+      text Anchor
       button Button
       button button
       button button
@@ -146,6 +147,7 @@ row
     text "<a class=\"button\">Anchor</a> <button class=\"button\">Button</button> <input class=\"button\" type=\"submit\" value=\"Submit input\" /> <input class=\"button\" type=\"reset\" value=\"Reset input\" />"
     button Copy danger
     h3 "Colors #"
+    text The button is available in all the  defined by the .
     row
       text different colors
       link "$colors Sass map" #
@@ -240,7 +242,7 @@ row
     button Copy danger
     h3 "Responsive sizes #"
     text If you want different button sizes for each breakpoint, you can use Bulma's responsive buttons. Simply append the is-responsive modifier:
-    table Name Fixed Responsive Code:badge
+    table Name "Fixed size" "Responsive size (resize window to see in action)" Code:badge
       Default | Default | Default | <button class="button is-responsive"> Default </button>Copy
       Small | Small | Small | <button class="button is-small is-responsive"> Small </button>Copy
       Normal | Normal | Normal | <button class="button is-normal is-responsive"> Normal </button>Copy
@@ -370,6 +372,7 @@ row
     h3 Static
     row
       col
+        text You can create a  by using the  modifier. This is useful to align a text label with an input, for example when using .
         text non-interactive button
         text is-static danger
         link "form addons" https://bulma.io/documentation/form/general#form-addons
@@ -378,6 +381,7 @@ row
         text "<span class=\"button is-static\">Static</span>"
         button Copy success
     h3 Disabled
+    text Bulma supports the use of the  , which prevents the user from interacting with the button.
     row
       text "disabled" danger
       link "Boolean HTML attribute" https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
@@ -392,6 +396,7 @@ row
           button Disabled warning disabled
           button Disabled danger disabled
         card
+          text The  CSS class has been deprecated in favor of the  HTML attribute. danger
           text is-disabled danger
           text "disabled" danger
           link "Learn more" https://github.com/jgthms/bulma/issues/276
@@ -551,6 +556,7 @@ row
         text "<div class=\"buttons has-addons\"> <button class=\"button is-success is-selected\">Yes</button> <button class=\"button\">Maybe</button> <button class=\"button\">No</button> </div> <div class=\"buttons has-addons\"> <button class=\"button\">Yes</button> <button class=\"button is-info is-selected\">Maybe</button> <button class=\"button\">No</button> </div> <div class=\"buttons has-addons\"> <button class=\"button\">Yes</button> <button class=\"button\">Maybe</button> <button class=\"button is-danger is-selected\">No</button> </div>"
         button Copy success
     card
+      text Difference between  and
       row
         link "form groups" https://bulma.io/documentation/form/general/#form-group
         text list of buttons
@@ -560,12 +566,13 @@ row
     text field is-grouped can contain any type of control inputs primary
     text field is-grouped can be forced to fit all controls on a single line primary
     text with field is-grouped you can expand one of the controls primary
+    text Basically, if you only want a list of , using  is recommended. If you need more control on the styling and the elements, use a . primary
     text buttons primary
     text buttons primary
     link "form group" https://bulma.io/documentation/form/general/#form-group
     h3 "Sass and CSS variables #"
     card
-      table Sass:badge CSS:badge Value:badge
+      table "Sass Variable:badge" "CSS Variable:badge" Value:badge
         $button-weightCopy | var(--bulma-button-weight)Copy | var(--bulma-weight-medium)Copy
         $button-familyCopy | var(--bulma-button-family)Copy | falseCopy
         $button-border-colorCopy | var(--bulma-button-border-color)Copy | var(--bulma-border)Copy
@@ -612,7 +619,7 @@ row
   col
     text Monthly donation
     link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
-link ".native-js { background: linear-gradient(-30deg, #FFFFFFE5, #FFFFFFE5 45%, #FFFFFF 45%) #fff; } .native-details { color: #000E9C !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #FFFFFF; background-color: #000E9C; } .native-cta:hover { color: undefined; background-color: undefined; } OVHcloud In Minuten bereit, mit 99,95 % SLA. Konfigurieren Sie Ihren Advance-Server. Jetzt entdecken" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV27UC674YKQUF67ITKQJC67DPZ3JCAAI627ICT7I6K7KCWSIC53YCTYIL2QICASDV5QECV7I5K7KC6SILKJWCYADEK3EHJNCLSIZ
+link ".native-js { background: linear-gradient(-30deg, #FFFFFFE5, #FFFFFFE5 45%, #FFFFFF 45%) #fff; } .native-details { color: #000E9C !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #FFFFFF; background-color: #000E9C; } .native-cta:hover { color: undefined; background-color: undefined; } OVHcloud In Minuten bereit, mit 99,95 % SLA. Konfigurieren Sie Ihren Advance-Server. Jetzt entdecken" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQMCAYI5Z3JCAAI627ICEAI42QKCKYDK2QNFTSICKQICTBDTKJJCKYDK5QKC6SILKJWCA7DVK3EHJNCLSIZ
 row
   col
     h3 Bulma by Jeremy Thomas.
@@ -624,6 +631,7 @@ row
     row
       link Twitter https://twitter.com/share
       link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+text Source code licensed . Website content licensed
 row
   link MIT https://opensource.org/licenses/mit-license.php
   link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/

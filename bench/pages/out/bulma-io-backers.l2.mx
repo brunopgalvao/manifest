@@ -1,0 +1,99 @@
+@bulma_io_backers rev=0 @0,0,728,1290
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/ @17,17,694,20
+row @17,49,694,212
+  link https://bulma.io/ https://bulma.io/ @17,145,55,20
+  row @84,56,424,198
+    link "Docs Documentation" https://bulma.io/documentation/ @84,135,67,40
+    link Expo https://bulma.io/expo/ @163,145,16,20
+    link Love https://bulma.io/love/ @191,145,16,20
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/ @219,145,27,20
+    row @258,56,250,198
+      link "Open Source on GitHub" https://github.com/jgthms/bulma @258,114,63,82
+      link "Follow me on Twitter" https://twitter.com/jgthms @333,124,56,61
+      button button @401,137,48,36
+      col @461,56,47,198
+        link "Made with Bulma" https://bulma.io/made-with-bulma/ @461,56,47,61
+        link Backers https://bulma.io/backers/ @461,129,47,20
+        link "Bulma Brand" https://bulma.io/brand/ @461,161,47,41
+        link "Bulma Extensions" https://bulma.io/extensions/ @461,214,47,40
+  col @520,49,80,212
+    button button @520,49,80,37
+    card @520,98,80,163
+      button "Light mode" @537,113,46,36
+      button "Dark mode" @537,161,46,36
+      button "System mode" success @537,209,46,37
+  col @612,78,53,154
+    button button @612,78,53,37
+    card @612,127,53,105
+      field "search input" @629,142,19,75
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @677,145,34,20
+h1 Backers via Patreon and GitHub @17,273,694,25
+h2 Everyone who is supporting Bulma and Open Source. @17,310,694,21
+card @17,343,694,82
+  link https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYILK7KCVSD42JNC6AI4K3LCYYIC2QYCKADL5QKC6SILKJWCA7DVK3EHJNCLSIZ https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYILK7KCVSD42JNC6AI4K3LCYYIC2QYCKADL5QKC6SILKJWCA7DVK3EHJNCLSIZ @34,358,660,20
+  link "Your agent. Your model. Your rules. Try it free" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYILK7KCVSD42JNC6AI4K3LCYYIC2QYCKADL5QKC6SILKJWCA7DVK3EHJNCLSIZ @34,390,660,20
+link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @17,437,694,21
+row @17,470,694,20
+  link https://www.patreon.com/jgthms https://www.patreon.com/jgthms @17,470,220,20
+  link github https://github.com/jgthms/bulma @249,470,42,20
+row @17,502,694,20
+  text $30 @17,502,27,20
+  text a month @56,502,54,20
+  text Becky @122,502,41,20
+row @17,534,694,21
+  text $11 @17,534,21,21
+  text a month @50,534,54,21
+  text Jason Seminara @116,534,106,21
+row @17,567,694,20
+  text $10 @17,567,24,20
+  text a month @53,567,54,20
+  text Jordan Nemrow, Ian Ebden, xvxx, Teravision Technologies @119,567,390,20
+row @17,599,694,20
+  text $5 @17,599,18,20
+  text a month @47,599,54,20
+  text Greg Hale, Dave Miller @113,599,149,20
+row @17,631,694,20
+  text $3 @17,631,18,20
+  text a month @47,631,54,20
+  text Ukatarap, Brooke Schreier Ganz @113,631,213,20
+row @17,663,694,61
+  text $1 @17,684,6,20
+  text a month @35,674,23,40
+  text Lord , Giovanni Panozzo, Tanel Jõeäär, Eric Doversberger, James Dernie, Felipe Lujan-Bear, Steve T., Mikey, Jason Dubaniewicz, Jork, Brümmer GbR produktivbüro, Nicholas Conde, Leng M., Pierre BONNEFOI, Tom, BlocksBuilder @70,663,641,61
+h3 How to support Bulma @17,736,694,19
+row @17,767,694,90
+  col @17,767,124,90
+    text One-time donation @17,767,124,20
+    field submit @17,799,124,58
+  col @153,786,197,52
+    text Browser testing via @153,786,197,20
+    link https://www.lambdatest.com/ https://www.lambdatest.com/ @153,818,197,20
+  col @362,786,121,52
+    text Visit our Sponsors @362,786,121,20
+    link celebian https://celebian.com/ @362,818,121,20
+  col @495,786,124,52
+    text Monthly donation @495,786,124,20
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/ @495,818,124,20
+link ".native-js { background: linear-gradient(-30deg, #f5f8fbE5, #f5f8fbE5 45%, #f5f8fb 45%) #fff; } .native-details { color: #181f25 !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #FFF; background-color: #3966d5; } .native-cta:hover { color: undefined; background-color: undefined; } BugHerd Deliver website design projects faster with BugHerd. Get 20% off your first 3 months. Try Now" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITK3YCE7IEZ3JCAAI627ICE7ITK7KC67D65QYCVYDL2JJCVYIP2JLFT7DT2JEHEYI55QLCESI623ECTNCYBZ52K @17,869,694,102
+row @17,983,694,51
+  col @17,983,195,51
+    h3 Bulma by Jeremy Thomas. @17,983,195,18
+    link "Follow @jgthms" https://twitter.com/jgthms @17,1013,195,21
+  col @224,999,155,19
+    h3 Contribute on GitHub @224,999,155,19
+  col @391,983,161,51
+    h3 Share on social media @391,983,161,18
+    row @391,1013,161,21
+      link Twitter https://twitter.com/share @391,1013,47,21
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io @450,1013,66,21
+text Source code licensed . Website content licensed @17,1046,694,20
+row @17,1078,694,20
+  link MIT https://opensource.org/licenses/mit-license.php @17,1078,26,20
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/ @55,1078,122,20
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer @17,1110,694,163
+!overflow button 46/73px
+!overflow light 44/104px
+!overflow dark 44/102px
+!overflow system 44/121px
+!overflow button3 51/73px
+!tiny search 22x37px

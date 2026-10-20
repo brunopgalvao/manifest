@@ -1,0 +1,152 @@
+@www_nasa_gov_newsletters
+row
+  row
+    button Explore
+    row
+      text Search
+      field Search search
+  link "https://www.nasa.gov/" https://www.nasa.gov/
+  row
+    button "News & Events"
+    button Multimedia
+    link NASA+ https://plus.nasa.gov/
+row
+  link "News Releases" https://www.nasa.gov/2026-news-releases/
+  link "Recently Published" https://www.nasa.gov/news/recently-published/
+  link Blogs https://www.nasa.gov/nasa-blogs/
+  link Newsletters https://www.nasa.gov/newsletters/
+  button "Social Media"
+  link "Budgets and Reports" https://www.nasa.gov/budgets-plans-and-reports/
+  button More
+row
+  col
+    h2 NASA News
+    h1 Newsletters
+  row
+    link "Centers and Facilities" #centers-and-facilities
+    link Earth #earth
+    link "Humans in Space" #humans-in-space
+    link "NASA Science" #science
+    link "The Solar System" #solar-system
+    link "For Students and Teachers" #students-and-teachers
+    link Technology #technology
+h2 Explore the Universe from your Inbox
+text Stay up-to-date on the latest news from NASA–from Earth to the Moon, the Solar System and beyond.
+row
+  text We will never share your email address.
+  link "Privacy Policy" https://www.nasa.gov/privacy/
+link "Sign Up" https://lp.constantcontactpages.com/sl/7ThAX6O/signup
+image https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?resize=1536,1199 "Space image with stars and swirls of colorful orange, red and white."
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia"
+  row
+    h2 NASA Newsletter
+    text Read the latest edition of the weekly NASA Newsletter
+  link "NASA Newsletter" https://myemail.constantcontact.com/Cauldron-of-Cosmic-Creation.html?soid=1132235311104&aid=f9avzcE1fng
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia"
+  row
+    h2 NASA en español
+    text Cada semana, entregamos a tu bandeja de entrada lo último en la exploración de la Tierra, el sistema solar y más allá
+  link "NASA en español" https://lp.constantcontactpages.com/su/krhMYBd/novedadesdelanasa
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia"
+  row
+    h2 Virtual Guest Program
+    text Subscribe to receive invitations to participate virtually in NASA launches and milestones
+  link "Virtual Guest Program" https://lp.constantcontactpages.com/su/fGfhswT/VirtualGuest
+h3 Centers and Facilities
+table "Armstrong Flight Research Center X-Press Sign Up" "Monthly newsletter highlighting research at Armstrong Flight Research Center in Edwards, California."
+  Goddard Space Flight Center Public Engagement NewsSign Up | A monthly newsletter highlighting research and events at Goddard Space Flight Center in Greenbelt, Maryland.
+  Goddard Visitor Center NewsSign Up | Updates on inspiring and captivating educational experiences at Goddard Visitor Center in Greenbelt, Maryland.
+  Jet Propulsion Laboratory NewsSign Up | Breaking, daily, weekly, and monthly updates from Jet Propulsion Laboratory in Southern California.
+  NASA History News and NotesSign Up | Insights into NASA’s past programs and the historical underpinnings of the agency’s current endeavors.
+   | 
+h3 Earth
+table "Earth Disasters CommunitySign Up" "A quarterly digest for those who use NASA’s Earth observations and data to understand and address disasters."
+  Earth ObserverSign Up | Published quarterly, the Earth Observer has been the authoritative source for consolidating NASA Earth Science news for over three decades.
+  Earth Observatory Daily and Weekly Natural Hazard AnnouncementsSign Up | Daily and weekly highlights from NASA’s Earth Observatory, including stunning satellite imagery and news about Earth’s environment, climate, and Earth systems.
+  Earth Observatory Image of the DaySign Up | Stunning satellite imagery from NASA’s Earth Observatory, delivered daily.
+  Health and Air Quality Applications Read Online | Quarterly updates on NASA’s Health and Air Quality Applications program.
+  Health and Air Quality Applied Sciences TeamSign Up | Monthly updates on funding opportunities, new datasets, and events from NASA’s Health and Air Quality Applied Sciences Team.
+  Postcards from NASA Earth ScienceSign Up | Monthly updates from the Earth Science Division, part of NASA’s Science Mission Directorate.
+   | 
+h3 NASA Science
+table "AstrobiologySign Up" "The latest news, events, and funding opportunities for understanding life in the Universe, from the NASA Astrobiology Program."
+  Citizen Science PractitionersSign Up | A roundup of funding opportunities, projects, and other resources for scientists who lead or–want to lead–citizen science projects.
+  Heliophysics UpdatesSign Up | A selection of he news and research improving our understanding of the Sun and its interactions with Earth and the Solar System.
+  Landsat Science News DigestSign Up | The latest news, images, and science from NASA’s Landsat program, delivered monthly.
+  Open Science NewsSign Up | Monthly digest of science data, information, and knowledge available to the scientific community and the wider public to accelerate scientific research and understanding.
+   | 
+h3 The Solar System
+table "International Observe the Moon NightSign Up" "Updates on International Observe the Moon Night – an annual event that brings together Moon enthusiasts and curious people worldwide."
+   | 
+h3 For Students and Teachers
+table "EarthriseSign Up" "In cooperation with federal and nonfederal partners, this monthly newsletter provides resources to elevate Earth and climate science in the classroom."
+  Minority Serving Institutions Exchange NewsSign Up | A biweekly digest of opportunities and competitive federal awards for researchers, stakeholders, and faculty of Minority Serving Institutions to engage with NASA’s missions.
+  NASA ExpressSign Up | Inspire learning and exploration with a weekly dose of the latest science experiments, at-home activities, and student challenges.
+   | 
+h3 Technology
+table "Flight OpportunitiesSign Up" "Monthly updates on flight testing opportunities for researchers to advance space technologies."
+  NASA SBIR/STTR ProgramSign Up | Updates on funding opportunities to help small businesses develop, mature, and commercialize technologies that advance NASA missions from the agency’s Small Business Innovation Research/Small Business Technology Transfer program.
+  Solver ConnectionSign Up | A quarterly digest of prize competitions, challenges, and solicitations open to the public to develop solutions in support of NASA missions.
+   | 
+metric "Keep Exploring" "Discover More"
+row
+  link "Games and Interactives" https://www.nasa.gov/interactives/
+  link "Mobile and Desktop Apps" https://www.nasa.gov/apps/
+  link Blogs https://www.nasa.gov/nasa-blogs/
+  link Multimedia https://www.nasa.gov/multimedia/
+image https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg "NASA Logo"
+row
+  col
+    h3 National Aeronautics and Space Administration
+    text NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.
+    link "About NASA's Mission" https://www.nasa.gov/about/
+    link "Join Us" https://www.nasa.gov/get-involved/
+  col
+    link Home https://www.nasa.gov/
+    link "News & Events" https://www.nasa.gov/news/
+    link Multimedia https://www.nasa.gov/multimedia/
+    link NASA+ https://plus.nasa.gov/
+    link Missions https://www.nasa.gov/nasa-missions/
+    link "Humans in Space" https://www.nasa.gov/humans-in-space/
+    link Earth https://science.nasa.gov/earth/
+    link "The Solar System" https://science.nasa.gov/solar-system/
+    link "The Universe" https://science.nasa.gov/universe/
+    link Science https://science.nasa.gov/
+    link Aeronautics https://www.nasa.gov/aeronautics/
+    link Technology https://www.nasa.gov/technology/
+    link "Learning Resources" https://www.nasa.gov/learning-resources/
+    link "About NASA" https://www.nasa.gov/about/
+    link "NASA en Español (opens in new tab)" https://www.nasa.gov/es/
+  col
+    h3 Follow NASA
+    row
+      link "NASA on Facebook (opens in new tab)" https://www.facebook.com/NASA
+      link "NASA on Instagram (opens in new tab)" https://www.instagram.com/nasa/
+      link "NASA on X (opens in new tab)" https://x.com/NASA
+      link "NASA on YouTube (opens in new tab)" https://www.youtube.com/@NASA
+    link "More NASA Social Accounts" https://www.nasa.gov/social-media/
+    link "NASA Newsletters" https://www.nasa.gov/nasa-newsletters/
+  col
+    link Sitemap https://www.nasa.gov/sitemap/
+    link "For Media" https://www.nasa.gov/news/nasa-media-contacts/
+    link "Privacy Policy" https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/
+    link FOIA https://www.nasa.gov/foia/
+    link "No FEAR Act" https://www.nasa.gov/no-fear-act/
+    link "Office of the IG (opens in new tab)" http://oig.nasa.gov/
+    link "Budget & Annual Reports" https://www.nasa.gov/budgets-plans-and-reports/
+    link "Agency Financial Reports" https://www.nasa.gov/organizations/budget-annual-reports/agency-financial-reports/
+    link "Contact NASA" https://www.nasa.gov/contact-nasa/
+    link Accessibility https://www.nasa.gov/accessibility/
+  row
+    row
+      text Page Last Updated:
+      text Oct 14, 2026
+    row
+      text Page Editor:
+      text Dacia Massengill
+    row
+      text Responsible NASA Official:
+      text Abigail Bowman

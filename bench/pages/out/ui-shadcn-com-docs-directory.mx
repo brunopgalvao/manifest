@@ -1,0 +1,340 @@
+@ui_shadcn_com_docs_directory
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+    row
+      link New /create
+row
+  col
+    text Sections
+    link Introduction /docs
+    link Components /docs/components
+    link "AI Elements" /docs/ai-elements
+    link Installation /docs/installation
+    link Theming /docs/theming
+    link CLI /docs/cli
+    link Typeset /docs/typeset
+    link Skills /docs/skills
+    link Registry /docs/registry
+    link Changelog /docs/changelog
+    text Components
+    link Accordion /docs/components/base/accordion
+    link Alert /docs/components/base/alert
+    link "Alert Dialog" /docs/components/base/alert-dialog
+    link "Aspect Ratio" /docs/components/base/aspect-ratio
+    link Attachment /docs/components/base/attachment
+    link Avatar /docs/components/base/avatar
+    link Badge /docs/components/base/badge
+    link Breadcrumb /docs/components/base/breadcrumb
+    link Bubble /docs/components/base/bubble
+    link Button /docs/components/base/button
+    link "Button Group" /docs/components/base/button-group
+    link Calendar /docs/components/base/calendar
+    link Card /docs/components/base/card
+    link Carousel /docs/components/base/carousel
+    link Chart /docs/components/base/chart
+    link Checkbox /docs/components/base/checkbox
+    link "Code Block" /docs/components/base/code-block
+    link Collapsible /docs/components/base/collapsible
+    link Combobox /docs/components/base/combobox
+    link Command /docs/components/base/command
+    link "Context Menu" /docs/components/base/context-menu
+    link "Data Table" /docs/components/base/data-table
+    link "Date Picker" /docs/components/base/date-picker
+    link Dialog /docs/components/base/dialog
+    link Direction /docs/components/base/direction
+    link Drawer /docs/components/base/drawer
+    link "Dropdown Menu" /docs/components/base/dropdown-menu
+    link Empty /docs/components/base/empty
+    link Field /docs/components/base/field
+    link "Hover Card" /docs/components/base/hover-card
+    link Input /docs/components/base/input
+    link "Input Group" /docs/components/base/input-group
+    link "Input OTP" /docs/components/base/input-otp
+    link Item /docs/components/base/item
+    link Kbd /docs/components/base/kbd
+    link Label /docs/components/base/label
+    link Marker /docs/components/base/marker
+    link Menubar /docs/components/base/menubar
+    link Message /docs/components/base/message
+    link "Message Scroller" /docs/components/base/message-scroller
+    link "Native Select" /docs/components/base/native-select
+    link "Navigation Menu" /docs/components/base/navigation-menu
+    link Pagination /docs/components/base/pagination
+    link Popover /docs/components/base/popover
+    link Progress /docs/components/base/progress
+    link Questionnaire /docs/components/base/questionnaire
+    link "Radio Group" /docs/components/base/radio-group
+    link Resizable /docs/components/base/resizable
+    link "Scroll Area" /docs/components/base/scroll-area
+    link Select /docs/components/base/select
+    link Separator /docs/components/base/separator
+    link Sheet /docs/components/base/sheet
+    link Sidebar /docs/components/base/sidebar
+    link Skeleton /docs/components/base/skeleton
+    link Slider /docs/components/base/slider
+    link Spinner /docs/components/base/spinner
+    link Switch /docs/components/base/switch
+    link Table /docs/components/base/table
+    link Tabs /docs/components/base/tabs
+    link Textarea /docs/components/base/textarea
+    link Toast /docs/components/base/toast
+    link Toggle /docs/components/base/toggle
+    link "Toggle Group" /docs/components/base/toggle-group
+    link Tooltip /docs/components/base/tooltip
+    link Trace /docs/components/base/trace
+    link Typography /docs/components/base/typography
+    text AI Elements
+    link Introduction /docs/ai-elements
+    link "Chain of Thought" /docs/ai-elements/base/chain-of-thought
+    link Chat /docs/ai-elements/base/chat
+    link Checkpoint /docs/ai-elements/base/checkpoint
+    link Confirmation /docs/ai-elements/base/confirmation
+    link Context /docs/ai-elements/base/context
+    link "File Tree" /docs/ai-elements/base/file-tree
+    link "Inline Citation" /docs/ai-elements/base/inline-citation
+    link Message /docs/ai-elements/base/message
+    link "Model Selector" /docs/ai-elements/base/model-selector
+    link Plan /docs/ai-elements/base/plan
+    link "Prompt Input" /docs/ai-elements/base/prompt-input
+    link Queue /docs/ai-elements/base/queue
+    link Reasoning /docs/ai-elements/base/reasoning
+    link Sources /docs/ai-elements/base/sources
+    link "Stack Trace" /docs/ai-elements/base/stack-trace
+    link Subagent /docs/ai-elements/base/subagent
+    link Suggestion /docs/ai-elements/base/suggestion
+    link Task /docs/ai-elements/base/task
+    link Terminal /docs/ai-elements/base/terminal
+    link "Test Results" /docs/ai-elements/base/test-results
+    link Tool /docs/ai-elements/base/tool
+    text Get Started
+    link Installation /docs/installation
+    link components.json /docs/components-json
+    link "Package Imports" /docs/package-imports
+    link Theming /docs/theming
+    link Typeset /docs/typeset
+    link "Dark Mode" /docs/dark-mode
+    link CLI /docs/cli
+    link Monorepo /docs/monorepo
+    link Skills /docs/skills
+    link JavaScript /docs/javascript
+    link Figma /docs/figma
+    link llms.txt /llms.txt
+    link "Legacy Docs" /docs/legacy
+    text @shadcn/react
+    link "Message Scroller" /docs/react/message-scroller
+    link Questionnaire /docs/react/questionnaire
+    text @shadcn/helpers
+    link "AI SDK" /docs/helpers/ai-sdk
+    link "TanStack AI" /docs/helpers/tanstack-ai
+    text Forms
+    link "React Hook Form" /docs/forms/react-hook-form
+    link "TanStack Form" /docs/forms/tanstack-form
+    link Formisch /docs/forms/formisch
+    text Utilities
+    link scroll-fade /docs/utils/scroll-fade
+    link shimmer /docs/utils/shimmer
+    text Registry
+    link Introduction /docs/registry
+    link "Getting Started" /docs/registry/getting-started
+    link "GitHub Registries" /docs/registry/github
+    link "Registry Directory" /docs/registry/registry-index
+    link "Registry Health" /docs/registry/health
+    link Examples /docs/registry/examples
+    link Namespaces /docs/registry/namespace
+    link Authentication /docs/registry/authentication
+    link "Dynamic Search" /docs/registry/dynamic-search
+    link "MCP Server" /docs/registry/mcp
+    link "Open in v0" /docs/registry/open-in-v0
+    link FAQ /docs/registry/faq
+    link "API Reference" /docs/registry/api-reference
+    link registry.json /docs/registry/registry-json
+    link registry-item.json /docs/registry/registry-item-json
+  row
+    col
+      row
+        h1 Registry Directory
+        row
+          row
+            button "Copy Page"
+            button button
+          row
+            link Previous /docs/cli
+            link Next /docs/mcp
+      text Discover community registries for shadcn/ui components and blocks.
+      text These registries are built into the CLI with no additional configuration required. To add a component, run: npx shadcn add @<registry>/<component>.
+      card
+        text Community registries are maintained by third-party developers. Always review code on installation to ensure it meets your security and quality standards.
+      text Don't see a registry? Learn how to .
+      link "add it here" /docs/registry/registry-index
+      card
+        field Search
+        text 479 registries
+      row
+        region 32x32
+          region @0,0
+            path "M6.5 2.5L10.5 6.5L6.5 10.5L2.5 6.5Z" fill:none stroke:#000000 width:2
+          region @0,0
+            path "M16.1582 2.8242A1.5 1.5 0 0 1 18.8418 2.8242L21.8429 8.8294A1.5 1.5 0 0 1 20.5012 11L14.4988 11A1.5 1.5 0 0 1 13.1571 8.8294Z" 
+          region @0,0
+            path "M6.5 13C8.9853 13 11 15.0147 11 17.5C11 19.9853 8.9853 22 6.5 22C4.0147 22 2 19.9853 2 17.5C2 15.0147 4.0147 13 6.5 13Z" 
+          region @0,0
+            path "M10 17.5C10 19.433 8.433 21 6.5 21C4.567 21 3 19.433 3 17.5C3 15.567 4.567 14 6.5 14C8.433 14 10 15.567 10 17.5Z" fill:none stroke:#000000 width:2
+          region @0,0
+            path "M19 13C20.6569 13 22 14.3431 22 16L22 19C22 20.6569 20.6569 22 19 22L16 22C14.3431 22 13 20.6569 13 19L13 16C13 14.3431 14.3431 13 16 13L19 13Z" 
+        col
+          link "@keyline" https://keylineicons.com/?utm_source=ui.shadcn.com&utm_medium=referral&utm_campaign=directory
+          text 1,000 icons on one 24×24 grid as React components, in stroke, two-tone, duotone and fill, each with rounded or sharp corners. Free under MIT.
+        button Add
+      row
+        region 32x32
+          path "M58 9C77 10 87 27 86 45C84 66 63 87 43 86C25 85 10 71 10 52C10 33 36 7 58 9ZM56 30C47 27 35 36 31 47C26 60 32 70 40 69C52 68 64 54 65 43C66 37 62 32 56 30Z"
+        col
+          link "@000h-cojeev" https://000h.cojeev.com/?utm_source=ui.shadcn.com&utm_medium=referral&utm_campaign=directory
+          text Expressive React components with organic shapes, purposeful motion, and source you can make your own.
+        button Add
+      row
+        region 32x32
+          region @0,0 scale:1
+            path "M0 130.79C0 58.5568 58.5474 0 130.769 0H369.231C441.453 0 500 58.5568 500 130.79V346.21C500 418.443 441.453 477 369.231 477H130.769C58.5474 477 0 418.443 0 346.21V130.79Z" fill:#030712
+          region @0,0 scale:1
+            path "M0 130.79C0 58.5568 58.5474 0 130.769 0H369.231C441.453 0 500 58.5568 500 130.79V346.21C500 418.443 441.453 477 369.231 477H130.769C58.5474 477 0 418.443 0 346.21V130.79Z" fill:url(#a)
+          region @0,0 scale:1
+            path "M0 130.79C0 58.5568 58.5474 0 130.769 0H369.231C441.453 0 500 58.5568 500 130.79V346.21C500 418.443 441.453 477 369.231 477H130.769C58.5474 477 0 418.443 0 346.21V130.79Z" fill:#030712
+          region @0,0 scale:1
+            path "M0 130.79C0 58.5568 58.5474 0 130.769 0H369.231C441.453 0 500 58.5568 500 130.79V346.21C500 418.443 441.453 477 369.231 477H130.769C58.5474 477 0 418.443 0 346.21V130.79Z" fill:url(#a)
+          region @0,0 scale:1
+            path "M369.23 475V477H130.77V475H369.23ZM498 346.21V130.79C498 59.6609 440.347 2 369.23 2H130.77C59.6526 2 2.00014 59.6609 2 130.79V346.21C2.00016 417.339 59.6527 475 130.77 475V477L129.079 476.989C58.1988 476.091 0.908707 418.792 0.0107422 347.9L0 346.21V130.79C0.00013911 59.121 57.6363 0.915799 129.079 0.0107422L130.77 0H369.23C441.452 0 500 58.5567 500 130.79V346.21L499.989 347.9C499.084 419.355 440.888 477 369.23 477V475C440.347 475 498 417.339 498 346.21Z" fill:url(#d)
+          region @0,0 scale:1
+            path "m163.29 263.1c0 14.81 3.703 26.212 11.11 34.204 7.407 7.993 18.278 11.989 32.614 11.989 14.335 0 25.326-3.996 32.972-11.989 7.645-7.992 11.468-19.394 11.468-34.204v-148.1h61.286v147.74c0 22.097-4.779 40.785-14.336 56.065s-22.459 26.799-38.706 34.556c-16.008 7.757-33.928 11.636-53.759 11.636s-37.632-3.762-53.402-11.284c-15.53-7.757-27.834-19.275-36.914-34.555-9.079-15.514-13.619-34.321-13.619-56.418v-147.74h61.286v148.1zm248.71 101.9h-59.839v-250h59.839v250z" 
+          region @0,0 scale:1
+            path "m156.29 262.1c0 14.81 3.703 26.212 11.11 34.204 7.407 7.993 18.278 11.989 32.614 11.989 14.335 0 25.326-3.996 32.972-11.989 7.645-7.992 11.468-19.394 11.468-34.204v-148.1h61.286v147.74c0 22.097-4.779 40.785-14.336 56.065s-22.459 26.799-38.706 34.556c-16.008 7.757-33.928 11.636-53.759 11.636s-37.632-3.762-53.402-11.284c-15.53-7.757-27.834-19.275-36.914-34.555-9.0789-15.514-13.619-34.321-13.619-56.418v-147.74h61.286v148.1zm248.71 101.9h-59.839v-250h59.839v250z" fill:#ffffff
+          region @0,0 scale:1
+            path "m156.29 262.1c0 14.81 3.703 26.212 11.11 34.204 7.407 7.993 18.278 11.989 32.614 11.989 14.335 0 25.326-3.996 32.972-11.989 7.645-7.992 11.468-19.394 11.468-34.204v-148.1h61.286v147.74c0 22.097-4.779 40.785-14.336 56.065s-22.459 26.798-38.706 34.556c-16.008 7.757-33.928 11.636-53.759 11.636s-37.632-3.762-53.402-11.284c-15.53-7.757-27.834-19.275-36.914-34.555-9.0789-15.514-13.619-34.321-13.619-56.418v-147.74h61.286v148.1zm248.71 101.9h-59.839v-250h59.839v250z" fill:url(#c)
+          region @0,0 scale:1
+            path "m156.29 262.1c0 14.81 3.703 26.212 11.11 34.204 7.407 7.993 18.278 11.989 32.614 11.989 14.335 0 25.326-3.996 32.972-11.989 7.645-7.992 11.468-19.394 11.468-34.204v-148.1h61.286v147.74c0 22.097-4.779 40.785-14.336 56.065s-22.459 26.798-38.706 34.556c-16.008 7.757-33.928 11.636-53.759 11.636s-37.632-3.762-53.402-11.284c-15.53-7.757-27.834-19.275-36.914-34.555-9.0789-15.514-13.619-34.321-13.619-56.418v-147.74h61.286v148.1zm248.71 101.9h-59.839v-250h59.839v250z" fill:url(#b)
+          region @0,0 scale:1
+            path "m152.24 117.26h-58.538l-9.7563-12.37h77.4v162.11l25.366 35.156 35.773 2.604c-11.057 5.86-33.86 10.677-50.082 1.302s-20.163-28.645-20.163-39.062v-149.74z" fill:#1c1c1c
+          region @0,0 scale:1
+            path "m301.83 117.26h-60.49v-8.463h70.896v163.41c0 38.021-17.778 51.867-26.667 54.037 13.008-20.313 16.261-44.488 16.261-54.037v-154.95z" 
+          region @0,0 scale:1
+            path "m400.7 117.91h-58.537l-5.854-9.765h74.798v259.11h-10.407v-249.35z" 
+          region @0,0 scale:1
+            path "m100.85 261.14v-148.44c0-4.687-8.2391-5.425-12.358-5.208v153.65c0 90.104 65.475 112.2 98.213 111.98 77.01 15.625 114.47-49.913 123.58-84.636l-4.553-5.859c-11.708 50.781-48.782 80.078-123.58 70.963-59.839-7.291-79.134-64.67-81.302-92.447z" fill:#ffffff
+          region @0,0 scale:1
+            path "m351.92 356.84v-242.19c0-10.416-6.505-7.378-9.757-4.557v259.12h68.294v-12.37h-58.537z" fill:#ffffff
+          region @0,0 scale:1
+            path "m304.44 261.74v-146.44h-58.684v146.79c0 15.029-3.882 26.797-11.829 35.105-7.959 8.319-19.332 12.39-33.912 12.39-14.578 0-25.844-4.071-33.568-12.406-7.699-8.308-11.457-20.07-11.457-35.089v-146.79h-58.684v146.44c0 21.918 4.5032 40.485 13.441 55.76 8.951 15.06 21.062 26.396 36.352 34.038l1.464 0.686c15.209 6.972 32.328 10.471 51.377 10.471v1.302c-19.831 0-37.632-3.762-53.402-11.284-15.53-7.757-27.834-19.275-36.914-34.555-9.0789-15.515-13.619-34.321-13.619-56.418v-147.74h61.286v148.1c0 14.81 3.703 26.212 11.11 34.204 7.407 7.993 18.278 11.989 32.614 11.989 14.335 0 25.326-3.996 32.972-11.989 7.645-7.992 11.468-19.394 11.468-34.204v-148.1h61.286v147.74c0 22.097-4.779 40.785-14.336 56.065s-22.459 26.798-38.706 34.556c-16.008 7.757-33.928 11.636-53.759 11.636v-1.302c19.657 0 37.38-3.844 53.192-11.507l7e-3 -2e-3c16.023-7.651 28.737-19.002 38.163-34.072 9.402-15.03 14.138-33.466 14.138-55.374zm100.56-147.74v250h-59.839v-250h59.839zm-58.538 248.7h57.237v-247.4h-57.237v247.4z" fill:#ffffff
+        col
+          link "@uiable" https://uiable.com/?utm_source=ui.shadcn.com&utm_medium=referral&utm_campaign=directory
+          text Free, open-source UI component library built with Next.js, React 19, Tailwind CSS v4, and shadcn/ui — beautifully designed components you can copy, customize, and make your own.
+        button Add
+      row
+        region 32x32
+          path "M18.3005 0.699779C20.8082 -0.578424 23.588 0.143417 25.9499 1.42244L26.4167 1.68513L28.6023 2.96247L26.0466 7.33259L23.8611 6.05525L23.4987 5.85115C21.7476 4.90719 20.8945 5.06001 20.5993 5.21052L20.5974 5.2115C20.3386 5.34332 19.8126 5.80655 19.5027 7.36482C19.1998 8.88797 19.2017 11.0438 19.6101 13.7545C19.8211 15.1551 20.1361 16.6653 20.5495 18.2613C22.1931 18.0179 23.9047 17.8189 25.6706 17.6724C28.6264 12.8954 31.7867 8.83092 34.8327 5.83064C37.0075 3.68855 39.2282 1.98401 41.3718 0.994701C43.4163 0.0511988 45.7899 -0.409936 47.9665 0.59431L48.1765 0.696849L48.1814 0.698802L48.4763 0.859935C49.9147 1.69909 50.8447 3.04229 51.407 4.50447C51.9991 6.04486 52.2414 7.85058 52.2507 9.75837L52.2634 12.2896L47.2009 12.314L47.1882 9.78279L47.1765 9.22224C47.1288 7.95843 46.9419 6.99866 46.6814 6.32087C46.3936 5.57244 46.0779 5.31117 45.8825 5.20954L45.7644 5.16072C45.4399 5.05237 44.7574 5.00837 43.4939 5.59138C42.0827 6.24264 40.339 7.5129 38.3855 9.43708C36.2937 11.4974 34.0814 14.1905 31.903 17.3746C32.3463 17.3684 32.7917 17.3638 33.239 17.3638C41.8221 17.3638 49.699 18.5193 55.5173 20.4586C58.4131 21.4238 60.9394 22.6293 62.7937 24.0904C64.6193 25.5291 66.1451 27.514 66.1452 30.0201C66.1452 32.1797 65.0015 33.9608 63.5398 35.3121C62.0784 36.6629 60.0921 37.7913 57.8298 38.7252L55.49 39.691L53.5583 35.0113L55.8982 34.0455C57.8546 33.2379 59.2443 32.3883 60.1032 31.5943C60.9614 30.8009 61.0827 30.27 61.0827 30.0201C61.0826 29.7299 60.9082 29.0507 59.6599 28.067C58.4397 27.1056 56.5174 26.1292 53.9167 25.2623C48.7409 23.5372 41.4295 22.4263 33.239 22.4263C31.6757 22.4263 30.1445 22.4671 28.654 22.5445C27.9089 23.8362 27.1787 25.1813 26.4695 26.5728C25.8806 27.7282 25.329 28.8782 24.8103 30.0142C25.1254 30.7045 25.4506 31.401 25.7917 32.0992L26.4734 33.4635V33.4644L27.1775 34.8179C30.7282 41.5073 34.7419 47.0141 38.3855 50.6031C40.3387 52.527 42.0821 53.7973 43.4929 54.4478C44.7565 55.0304 45.4389 54.9853 45.7634 54.8765L45.8806 54.8277C46.1119 54.7092 46.5492 54.3381 46.8669 53.1383C47.184 51.9406 47.2892 50.2198 47.0779 47.9976C46.6831 43.8493 45.2356 38.449 42.7771 32.5592L42.2722 31.3746L41.2614 29.0543L45.9021 27.0318L46.9128 29.3531L47.445 30.5992C50.0387 36.8108 51.6614 42.7201 52.1179 47.5172C52.3603 50.0654 52.2884 52.4438 51.7614 54.4342C51.2685 56.2961 50.2944 58.0892 48.5407 59.1392L48.1794 59.3385L48.1775 59.3394C45.9445 60.4761 43.4838 60.018 41.3728 59.0445C39.2288 58.0558 37.0075 56.3526 34.8327 54.2105C30.5674 50.0092 26.0796 43.7193 22.2439 36.3052C20.9345 39.965 20.0488 43.3625 19.6091 46.2838C19.2012 48.9946 19.1986 51.1508 19.5017 52.6744C19.7732 54.0386 20.2106 54.5639 20.489 54.7623L20.5974 54.8287L20.5993 54.8306L20.6853 54.8668C21.1678 55.0413 22.4748 55.0383 24.9714 53.2681L27.0359 51.8043L29.9646 55.9342L27.8991 57.398C25.0405 59.4249 21.4555 60.9513 18.2976 59.3394V59.3385C16.0661 58.2007 14.9904 55.9417 14.5368 53.6627C14.0761 51.3471 14.148 48.5485 14.6023 45.5299C15.285 40.9934 16.8817 35.6297 19.2741 30.0142C18.41 27.9856 17.6525 25.9888 17.0017 24.0533C15.3928 24.4095 13.9055 24.8146 12.5622 25.2623C9.96118 26.1292 8.03827 27.1055 6.81808 28.067C5.56972 29.0507 5.39534 29.7299 5.39523 30.0201C5.39523 30.4715 5.88581 31.6987 8.77609 33.2105L11.0183 34.3843L8.67258 38.8697L6.42941 37.6968C3.31907 36.0699 0.332733 33.5647 0.332733 30.0201C0.332837 27.5141 1.85868 25.5291 3.6843 24.0904C5.53851 22.6293 8.06485 21.4238 10.9607 20.4586C12.3781 19.9861 13.9181 19.5612 15.5603 19.1871C15.1476 17.5531 14.8269 15.9866 14.6042 14.5084C14.1496 11.4905 14.0765 8.6927 14.5368 6.37751C14.9903 4.0976 16.0669 1.83699 18.3005 0.699779ZM22.2644 20.5894C20.7666 20.5894 19.5516 21.8036 19.5515 23.3013C19.5515 24.7992 20.7665 26.0133 22.2644 26.0133C23.7621 26.013 24.9763 24.7991 24.9763 23.3013C24.9762 21.8037 23.762 20.5896 22.2644 20.5894Z"
+        col
+          link "@react-bits" https://reactbits.dev/?utm_source=ui.shadcn.com&utm_medium=referral&utm_campaign=directory
+          text A large collection of animated, interactive & fully customizable React components for building memorable websites. From smooth text animations all the way to eye-catching backgrounds, you can find it here.
+        button Add
+      row
+        region 32x32
+          rect @0,8.1 3x9.9 radius:1.5
+          rect @3.75,1.8 3x16.2 radius:1.5
+          rect @7.5,11.7 3x6.3 radius:1.5
+          rect @11.25,4.5 3x13.5 radius:1.5
+          rect @15,9.9 3x8.1 radius:1.5
+        col
+          link "@soundcn" https://soundcn.xyz/?utm_source=ui.shadcn.com&utm_medium=referral&utm_campaign=directory
+          text Large collection of game, interface, retro, and voice sound effects for web applications
+        button Add
+      row
+        region 32x32
+          path "M17.453 23.09H6.547a6.43 6.43 0 0 1-3.32-.914 6.5 6.5 0 0 1-2.262-2.32 6.406 6.406 0 0 1 .031-6.45L6.45 4.094a6.4 6.4 0 0 1 2.442-2.387 6.47 6.47 0 0 1 6.218 0 6.4 6.4 0 0 1 2.442 2.387l5.453 9.312a6.4 6.4 0 0 1 .031 6.45 6.5 6.5 0 0 1-2.262 2.32 6.43 6.43 0 0 1-3.32.914M11.336 6.953 5.879 16.27a.75.75 0 0 0-.004.773.74.74 0 0 0 .672.387h10.906a.74.74 0 0 0 .672-.387.75.75 0 0 0-.004-.773l-5.457-9.317A.73.73 0 0 0 12 6.57a.73.73 0 0 0-.664.383m0 0"
+        col
+          link "@animate-ui" https://animate-ui.com/?utm_source=ui.shadcn.com&utm_medium=referral&utm_campaign=directory
+          text A fully animated, open-source React component distribution. Browse a list of animated primitives, components and icons you can install and use in your projects.
+        button Add
+      row
+        region 32x32
+          rect @0,0 256x256 fill:#0a0a0b radius:64
+          path "M72 104L96 80L120 104L96 128L72 104Z" fill:#7fb3ff
+          path "M136 72L160 48L184 72L160 96L136 72Z" fill:#7fb3ff
+          path "M176 152L200 128L224 152L200 176L176 152Z" fill:#7fb3ff
+          path "M88 176L112 152L136 176L112 200L88 176Z" fill:#7fb3ff
+          path "M16 80L40 56L64 80L40 104L16 80Z" fill:#7fb3ff
+        col
+          link "@atomloader" https://atomloader.roothq.tech/?utm_source=ui.shadcn.com&utm_medium=referral&utm_campaign=directory
+          text Lightweight, customizable CSS-animated atoms loaders for React.
+        button Add
+      row
+        region 32x32
+          rect @10.17,10.17 101.67x101.67 fill:#0d6dfd radius:19.06
+          region @0,0 scale:1
+            path "M27.243 32.083a4.84 4.84 0 0 1 4.84-4.84h9.678a4.84 4.84 0 0 1 4.839 4.84v9.678a4.84 4.84 0 0 1-4.84 4.84h-9.678a4.84 4.84 0 0 1-4.839-4.84z" fill:#ffffff
+          region @0,0 scale:1
+            path "M51.366 32.083a4.84 4.84 0 0 1 4.839-4.84h9.678a4.84 4.84 0 0 1 4.84 4.84v9.678a4.84 4.84 0 0 1-4.84 4.84h-9.678a4.84 4.84 0 0 1-4.84-4.84z" fill:#ffffff
+          region @0,0 scale:1
+            path "M75.488 32.083a4.84 4.84 0 0 1 4.84-4.84h9.678a4.84 4.84 0 0 1 4.839 4.84v9.678a4.84 4.84 0 0 1-4.84 4.84h-9.678a4.84 4.84 0 0 1-4.839-4.84z" fill:#ffffff
+          region @0,0 scale:1
+            path "M75.488 56.205a4.84 4.84 0 0 1 4.84-4.839h9.678a4.84 4.84 0 0 1 4.839 4.84v9.678a4.84 4.84 0 0 1-4.84 4.839h-9.678a4.84 4.84 0 0 1-4.839-4.84z" fill:#ffffff
+        col
+          link "@intentui" https://intentui.com/?utm_source=ui.shadcn.com&utm_medium=referral&utm_campaign=directory
+          text Accessible React component library to copy, customize, and own your UI.
+        button Add
+      row
+        region 32x32
+          rect @0,0 32x32 radius:8
+          circle @16,16 r:5 fill:none stroke:#000000 width:2
+        col
+          link "@ns-ui" https://design.helpmarq.com/?utm_source=ui.shadcn.com&utm_medium=referral&utm_campaign=directory
+          text 389 animated React components for Tailwind v4 and React 19, with a CLI and an MCP server.
+        button Add
+      row
+        region 32x32
+          path "M0 37.2407C0 16.6732 16.8372 0 37.6068 0L220.392 0C230.862 0 240.858 4.32199 247.974 11.9261L283.565 49.9536C290.682 57.5577 300.678 61.8797 311.148 61.8797H474.393C495.163 61.8797 512 78.5529 512 99.1203L498.556 321.759C498.556 342.327 481.718 359 460.949 359H53.2917C32.5221 359 15.6849 342.327 15.6849 321.759L0 37.2407Z"
+        col
+          link "@catalogs" https://catalogs.dev/?utm_source=ui.shadcn.com&utm_medium=referral&utm_campaign=directory
+          text Discover components, blocks, and more from independent teams. Browse previews and bring the source into your project.
+        button Add
+      row
+        row
+          text Previous
+        link 1 /docs/directory
+        link 2 /docs/directory?page=2
+        text More pages
+        link 48 /docs/directory?page=48
+        link "Go to next page" /docs/directory?page=2
+      h2 Documentation#
+      text You can use the shadcn CLI to run your own code registry. Running your own registry allows you to distribute your custom components, hooks, pages, config, rules and other files to any project.
+      row
+        link "Getting StartedSet up and build your own registry" /docs/registry/getting-started
+        link "AuthenticationSecure your registry with authentication" /docs/registry/authentication
+        link "NamespacesConfigure registries with namespaces" /docs/registry/namespace
+        link "Add a RegistryLearn how to add a registry to the directory" /docs/registry/registry-index
+        link "ExamplesRegistry item examples and configurations" /docs/registry/examples
+        link "SchemaSchema specification for registry.json" /docs/registry/registry-json
+      row
+        link shadcn /docs/cli
+        link "MCP Server" /docs/mcp
+    col
+      text On This Page
+      link Documentation #documentation
+      card
+        text Deploy your shadcn/ui app on Vercel
+        text Trusted by OpenAI, Sonos, Adobe, and more.
+        text Vercel provides tools and infrastructure to deploy apps and features at scale.
+        button "Deploy Now"
+        link "Deploy to Vercel" https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+text Notifications alt+T
+text Notifications

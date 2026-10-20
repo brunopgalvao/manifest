@@ -1,0 +1,877 @@
+@html_spec_whatwg_org_multipage_urls_and_ rev=0 @0,0,728,19309
+link https://whatwg.org/ https://whatwg.org/ @17,17,694,20
+h1 HTML @17,49,694,25
+text Living Standard — Last Updated 19 October 2026 success @17,86,694,21
+text — — @17,119,694,20
+row @17,151,694,20
+  link "← 2.3 Common microsyntaxes" common-microsyntaxes.html @17,151,203,20
+  link "Table of Contents" ./ @232,151,119,20
+  link "2.6 Common DOM interfaces →" common-dom-interfaces.html @363,151,210,20
+link "2.4 URLs" urls-and-fetching.html#urls @17,183,694,21
+link "2.4.1 Terminology" urls-and-fetching.html#terminology-2 @17,216,694,20
+link "2.4.2 Parsing URLs" urls-and-fetching.html#resolving-urls @17,248,694,20
+link "2.4.3 Document base URLs" urls-and-fetching.html#document-base-urls @17,280,694,20
+link "2.5 Fetching resources" urls-and-fetching.html#fetching-resources @17,312,694,21
+link "2.5.1 Terminology" urls-and-fetching.html#terminology-3 @17,345,694,20
+link "2.5.2 Determining the type of a resource" urls-and-fetching.html#content-type-sniffing @17,377,694,20
+link "2.5.3 Extracting character encodings from meta elements" urls-and-fetching.html#extracting-character-encodings-from-meta-elements @17,409,694,21
+link "2.5.4 CORS settings attributes" urls-and-fetching.html#cors-settings-attributes @17,442,694,20
+link "2.5.5 Referrer policy attributes" urls-and-fetching.html#referrer-policy-attributes @17,474,694,20
+link "2.5.6 Nonce attributes" urls-and-fetching.html#nonce-attributes @17,506,694,20
+link "2.5.7 Lazy loading attributes" urls-and-fetching.html#lazy-loading-attributes @17,538,694,21
+link "2.5.8 Blocking attributes" urls-and-fetching.html#blocking-attributes @17,571,694,20
+link "2.5.9 Fetch priority attributes" urls-and-fetching.html#fetch-priority-attributes @17,603,694,20
+h3 2.4 URLs @17,635,694,19
+h3 2.4.1 Terminology @17,666,694,19
+text A string is a if it is a but it is not the empty string. @17,697,694,20
+row @17,729,694,20
+  text valid non-empty URL @17,729,140,20
+  link "valid URL string" https://url.spec.whatwg.org/#valid-url-string @169,729,104,20
+text A string is a if, after from it, it is a . @17,761,694,21
+row @17,794,694,40
+  text valid URL potentially surrounded by spaces @17,794,275,40
+  link "stripping leading and trailing ASCII whitespace" https://infra.spec.whatwg.org/#strip-leading-and-trailing-ascii-whitespace @304,794,295,40
+  link "valid URL string" https://url.spec.whatwg.org/#valid-url-string @611,794,100,40
+text A string is a if, after from it, it is a . @17,846,694,21
+text valid non-empty URL potentially surrounded by spaces @17,879,694,20
+link "stripping leading and trailing ASCII whitespace" https://infra.spec.whatwg.org/#strip-leading-and-trailing-ascii-whitespace @17,911,694,20
+link "valid non-empty URL" #valid-non-empty-url @17,943,694,21
+text This specification defines the URL as a reserved, though unresolvable, URL, for use in s in when needed for compatibility with XML tools. @17,976,694,40
+text about:legacy-compat @17,1028,694,20
+link about: https://www.rfc-editor.org/rfc/rfc6694#section-2 @17,1060,694,21
+link DOCTYPE syntax.html#syntax-doctype @17,1093,694,20
+link "HTML documents" https://dom.spec.whatwg.org/#html-document @17,1125,694,20
+link [ABOUT] references.html#refsABOUT @17,1157,694,21
+text This specification defines the URL as a reserved, though unresolvable, URL, that is used as an identifier for kinds of media tracks. @17,1190,694,40
+text about:html-kind @17,1242,694,21
+link about: https://www.rfc-editor.org/rfc/rfc6694#section-2 @17,1275,694,20
+link [ABOUT] references.html#refsABOUT @17,1307,694,20
+text This specification defines the URL as a reserved, though unresolvable, URL, that is used as the of . @17,1339,694,21
+text about:srcdoc @17,1372,694,20
+link about: https://www.rfc-editor.org/rfc/rfc6694#section-2 @17,1404,694,20
+link URL https://dom.spec.whatwg.org/#concept-document-url @17,1436,694,20
+link "iframe srcdoc documents" iframe-embed-object.html#an-iframe-srcdoc-document @17,1468,694,21
+link [ABOUT] references.html#refsABOUT @17,1501,694,20
+text A   if its  is "", its  contains a single string "", its  and  are the empty string, and its  is null. @17,1533,694,20
+link URL https://url.spec.whatwg.org/#concept-url @17,1565,694,21
+text matches about:blank @17,1598,694,20
+link scheme https://url.spec.whatwg.org/#concept-url-scheme @17,1630,694,20
+text about @17,1662,694,21
+link path https://url.spec.whatwg.org/#concept-url-path @17,1695,694,20
+text blank @17,1727,694,20
+link username https://url.spec.whatwg.org/#concept-url-username @17,1759,694,20
+link password https://url.spec.whatwg.org/#concept-url-password @17,1791,694,21
+link host https://url.spec.whatwg.org/#concept-url-host @17,1824,694,20
+text Such a URL's  and  can be non-null. For example, the  created by  "" . success @17,1856,694,20
+link query https://url.spec.whatwg.org/#concept-url-query @17,1888,694,21
+link fragment https://url.spec.whatwg.org/#concept-url-fragment @17,1921,694,20
+link "URL record" https://url.spec.whatwg.org/#concept-url @17,1953,694,20
+link parsing https://url.spec.whatwg.org/#concept-url-parser @17,1985,694,21
+text about:blank?foo#bar @17,2018,694,20
+link "matches about:blank" #matches-about:blank @17,2050,694,20
+text A   if its  is "", its  contains a single string "", its  is null, its  and  are the empty string, and its  is null. @17,2082,694,20
+link URL https://url.spec.whatwg.org/#concept-url @17,2114,694,21
+text matches about:srcdoc @17,2147,694,20
+link scheme https://url.spec.whatwg.org/#concept-url-scheme @17,2179,694,20
+text about @17,2211,694,21
+link path https://url.spec.whatwg.org/#concept-url-path @17,2244,694,20
+text srcdoc @17,2276,694,20
+link query https://url.spec.whatwg.org/#concept-url-query @17,2308,694,21
+link username https://url.spec.whatwg.org/#concept-url-username @17,2341,694,20
+link password https://url.spec.whatwg.org/#concept-url-password @17,2373,694,20
+link host https://url.spec.whatwg.org/#concept-url-host @17,2405,694,20
+text The reason that ensures that the 's is null is because it is not possible to create whose has a non-null , unlike s whose . In other words, the set of all s that only vary in their . success @17,2437,694,41
+link "matches about:srcdoc" #matches-about:srcdoc @17,2490,694,20
+link URL https://url.spec.whatwg.org/#concept-url @17,2522,694,21
+link query https://url.spec.whatwg.org/#concept-url-query @17,2555,694,20
+link "an iframe srcdoc document" iframe-embed-object.html#an-iframe-srcdoc-document @17,2587,694,20
+link URL https://dom.spec.whatwg.org/#concept-document-url @17,2619,694,21
+link query https://url.spec.whatwg.org/#concept-url-query @17,2652,694,20
+link Document dom.html#document @17,2684,694,20
+link URL https://dom.spec.whatwg.org/#concept-document-url @17,2716,694,20
+link "matches about:blank" #matches-about:blank2 @17,2748,694,21
+link URL https://url.spec.whatwg.org/#concept-url @17,2781,694,20
+link "match about:srcdoc" #matches-about:srcdoc2 @17,2813,694,20
+link fragment https://url.spec.whatwg.org/#concept-url-fragment @17,2845,694,21
+h3 2.4.2 Parsing URLs @17,2878,694,18
+text Parsing a URL is the process of taking a string and obtaining the that it represents. While this process is defined in , the HTML standard defines several wrappers to abstract base URLs and encodings. @17,2908,694,41
+link "URL record" https://url.spec.whatwg.org/#concept-url @17,2961,694,20
+text URL @17,2993,694,21
+link [URL] references.html#refsURL @17,3026,694,20
+text Most new APIs are to use . Older APIs and HTML elements might have reason to use . When a custom base URL is needed or no base URL is desired, the can of course be used directly as well. success @17,3058,694,40
+link "parse a URL" #parse-a-url @17,3110,694,21
+link "encoding-parse a URL" #encoding-parsing-a-url @17,3143,694,20
+link "URL parser" https://url.spec.whatwg.org/#concept-url-parser @17,3175,694,20
+text To , given a string , relative to a object or , run these steps. They return failure or a . @17,3207,694,21
+text parse a URL @17,3240,694,20
+text url @17,3272,694,20
+link Document dom.html#document @17,3304,694,21
+link "environment settings object" webappapis.html#environment-settings-object @17,3337,694,20
+text environment @17,3369,694,20
+link URL https://url.spec.whatwg.org/#concept-url @17,3401,694,20
+text Let be 's , if is a object; otherwise 's . @17,3433,694,21
+row @17,3466,694,20
+  text baseURL @17,3466,60,20
+  text environment @89,3466,83,20
+  link "base URL" #document-base-url @184,3466,64,20
+  text environment @260,3466,83,20
+  link Document dom.html#document @355,3466,69,20
+  text environment @436,3466,83,20
+  link "API base URL" webappapis.html#api-base-url @531,3466,90,20
+text Return the result of applying the to , with . @17,3498,694,20
+row @17,3530,694,21
+  link "URL parser" https://url.spec.whatwg.org/#concept-url-parser @17,3530,74,21
+  text url @103,3530,17,21
+  text baseURL @132,3530,60,21
+text To , given a string , relative to a object or , run these steps. They return failure or a . @17,3563,694,20
+text encoding-parse a URL @17,3595,694,20
+text url @17,3627,694,21
+link Document dom.html#document @17,3660,694,20
+link "environment settings object" webappapis.html#environment-settings-object @17,3692,694,20
+text environment @17,3724,694,20
+link URL https://url.spec.whatwg.org/#concept-url @17,3756,694,21
+text Let be . @17,3789,694,20
+row @17,3821,694,20
+  text encoding @17,3821,62,20
+  link UTF-8 https://encoding.spec.whatwg.org/#utf-8 @91,3821,43,20
+text If is a object, then set to 's . @17,3853,694,21
+row @17,3886,694,20
+  text environment @17,3886,83,20
+  link Document dom.html#document @112,3886,69,20
+  text encoding @193,3886,62,20
+  text environment @267,3886,83,20
+  link "character encoding" https://dom.spec.whatwg.org/#concept-document-encoding @362,3886,129,20
+text Otherwise, if 's is a object, set to 's 's 's . @17,3918,694,20
+text environment @17,3950,694,21
+link "relevant global object" webappapis.html#concept-relevant-global @17,3983,694,20
+link Window nav-history-apis.html#window @17,4015,694,20
+text encoding @17,4047,694,20
+text environment @17,4079,694,21
+link "relevant global object" webappapis.html#concept-relevant-global @17,4112,694,20
+link "associated Document" nav-history-apis.html#concept-document-window @17,4144,694,20
+link "character encoding" https://dom.spec.whatwg.org/#concept-document-encoding @17,4176,694,21
+text Let be 's , if is a object; otherwise 's . @17,4209,694,20
+row @17,4241,694,20
+  text baseURL @17,4241,60,20
+  text environment @89,4241,83,20
+  link "base URL" #document-base-url2 @184,4241,64,20
+  text environment @260,4241,83,20
+  link Document dom.html#document @355,4241,69,20
+  text environment @436,4241,83,20
+  link "API base URL" webappapis.html#api-base-url @531,4241,90,20
+text Return the result of applying the to , with and . @17,4273,694,21
+row @17,4306,694,20
+  link "URL parser" https://url.spec.whatwg.org/#concept-url-parser @17,4306,74,20
+  text url @103,4306,17,20
+  text baseURL @132,4306,60,20
+  text encoding @204,4306,62,20
+text To , given a string , relative to a object or , run these steps. They return failure or a string. @17,4338,694,20
+row @17,4370,694,20
+  text encoding-parse-and-serialize a URL @17,4370,241,20
+  text url @270,4370,17,20
+  link Document dom.html#document @299,4370,69,20
+  link "environment settings object" webappapis.html#environment-settings-object @380,4370,185,20
+  text environment @577,4370,83,20
+text Let be the result of given , relative to . @17,4402,694,21
+row @17,4435,694,20
+  text url @17,4435,17,20
+  link "encoding-parsing a URL" #encoding-parsing-a-url2 @46,4435,161,20
+  text url @219,4435,17,20
+  text environment @248,4435,83,20
+text If is failure, then return failure. @17,4467,694,20
+text url @17,4499,694,21
+text Return the result of applying the to . @17,4532,694,20
+row @17,4564,694,20
+  link "URL serializer" https://url.spec.whatwg.org/#concept-url-serializer @17,4564,92,20
+  text url @121,4564,17,20
+h3 2.4.3 Document base URLs @17,4596,694,19
+text The of a is the obtained by running these steps: @17,4627,694,20
+row @17,4659,694,21
+  text document base URL @17,4659,134,21
+  link Document dom.html#document @163,4659,69,21
+  text document @244,4659,67,21
+  link "URL record" https://url.spec.whatwg.org/#concept-url @323,4659,75,21
+text If has a element that has an attribute, then return the of the first such element in . @17,4692,694,20
+text document @17,4724,694,20
+link descendant https://dom.spec.whatwg.org/#concept-tree-descendant @17,4756,694,21
+link base semantics.html#the-base-element @17,4789,694,20
+link href semantics.html#attr-base-href @17,4821,694,20
+link "frozen base URL" semantics.html#frozen-base-url @17,4853,694,20
+link base semantics.html#the-base-element @17,4885,694,21
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @17,4918,694,20
+text If 's is non-null, then return 's . @17,4950,694,20
+row @17,4982,694,21
+  text document @17,4982,67,21
+  link "base URL override" https://dom.spec.whatwg.org/#document-base-url-override @96,4982,123,21
+  text document @231,4982,67,21
+  link "base URL override" https://dom.spec.whatwg.org/#document-base-url-override @310,4982,123,21
+text Return 's . @17,5015,694,20
+row @17,5047,694,20
+  text document @17,5047,67,20
+  link "fallback base URL" #fallback-base-url @96,5047,120,20
+text A 's algorithm returns 's . @17,5079,694,20
+row @17,5111,694,21
+  link Document dom.html#document @17,5111,69,21
+  text document @98,5111,67,21
+  link "get the base URL" https://dom.spec.whatwg.org/#get-the-base-url @177,5111,114,21
+  text document @303,5111,67,21
+  link "document base URL" #document-base-url3 @382,5111,134,21
+text The of a object is the obtained by running these steps: @17,5144,694,20
+row @17,5176,694,20
+  text fallback base URL @17,5176,120,20
+  link Document dom.html#document @149,5176,69,20
+  text document @230,5176,67,20
+  link "URL record" https://url.spec.whatwg.org/#concept-url @309,5176,75,20
+text If 's or , and 's is non-null, then return 's . @17,5208,694,21
+text document @17,5241,694,20
+link URL https://dom.spec.whatwg.org/#concept-document-url @17,5273,694,20
+link "matches about:blank" #matches-about:blank3 @17,5305,694,21
+link "matches about:srcdoc" #matches-about:srcdoc3 @17,5338,694,20
+text document @17,5370,694,20
+link "about base URL" dom.html#concept-document-about-base-url @17,5402,694,20
+text document @17,5434,694,21
+link "about base URL" dom.html#concept-document-about-base-url @17,5467,694,20
+text Return 's . @17,5499,694,20
+row @17,5531,694,21
+  text document @17,5531,67,21
+  link URL https://dom.spec.whatwg.org/#concept-document-url @96,5531,28,21
+text To for a to a : @17,5564,694,20
+row @17,5596,694,20
+  text set the URL @17,5596,77,20
+  link Document dom.html#document @106,5596,69,20
+  text document @187,5596,67,20
+  link "URL record" https://url.spec.whatwg.org/#concept-url @266,5596,75,20
+  text url @353,5596,17,20
+text Set 's to . @17,5628,694,21
+row @17,5661,694,20
+  text document @17,5661,67,20
+  link URL https://dom.spec.whatwg.org/#concept-document-url @96,5661,28,20
+  text url @136,5661,17,20
+text given . @17,5693,694,20
+row @17,5725,694,20
+  link "Respond to base URL changes" #respond-to-base-url-changes @17,5725,203,20
+  text document @232,5725,67,20
+text To for a : @17,5757,694,21
+row @17,5790,694,20
+  text respond to base URL changes @17,5790,200,20
+  link Document dom.html#document @229,5790,69,20
+  text document @310,5790,67,20
+text The user agent should update any user interface elements which are displaying affected URLs, or data derived from such URLs, to the user. Examples of such user interface elements would be a status bar that displays a 's , or some user interface which displays the URL specified by a , , , or element's attribute. @17,5822,694,81
+link hyperlink links.html#hyperlink @17,5915,694,21
+link url links.html#concept-hyperlink-url @17,5948,694,20
+link q text-level-semantics.html#the-q-element @17,5980,694,20
+link blockquote grouping-content.html#the-blockquote-element @17,6012,694,20
+link ins edits.html#the-ins-element @17,6044,694,21
+link del edits.html#the-del-element @17,6077,694,20
+text cite @17,6109,694,20
+text Ensure that the CSS //etc. are updated appropriately. @17,6141,694,21
+row @17,6174,694,20
+  link :link semantics-other.html#selector-link @17,6174,27,20
+  link :visited semantics-other.html#selector-visited @56,6174,48,20
+  link pseudo-classes https://drafts.csswg.org/selectors/#pseudo-class @116,6174,106,20
+text of 's : @17,6206,694,20
+row @17,6238,694,21
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,6238,59,21
+  text descendant @88,6238,78,21
+  text document @178,6238,67,21
+  link "shadow-including descendants" https://dom.spec.whatwg.org/#concept-shadow-including-descendant @257,6238,208,21
+text If is a element whose is a : @17,6271,694,20
+row @17,6303,694,20
+  text descendant @17,6303,78,20
+  link script scripting.html#the-script-element @107,6303,38,20
+  link result scripting.html#concept-script-result @157,6303,38,20
+  link "speculation rules parse result" webappapis.html#speculation-rules-parse-result @207,6303,195,20
+text Let be 's . @17,6335,694,20
+row @17,6367,694,21
+  text oldResult @17,6367,62,21
+  text element @91,6367,53,21
+  link result scripting.html#concept-script-result @156,6367,38,21
+text Let be the result of given 's and 's . @17,6400,694,20
+text newResult @17,6432,694,20
+link "creating a speculation rules parse result" webappapis.html#create-a-speculation-rules-parse-result @17,6464,694,21
+text element @17,6497,694,20
+link "child text content" https://dom.spec.whatwg.org/#concept-child-text-content @17,6529,694,20
+text element @17,6561,694,21
+link "node document" https://dom.spec.whatwg.org/#concept-node-document @17,6594,694,20
+text given 's , , and . @17,6626,694,20
+row @17,6658,694,20
+  link "Update speculation rules" webappapis.html#update-speculation-rules @17,6658,165,20
+  text element @194,6658,53,20
+  link "relevant global object" webappapis.html#concept-relevant-global @259,6658,143,20
+  text oldResult @414,6658,62,20
+  text newResult @488,6658,69,20
+text given . @17,6690,694,21
+row @17,6723,694,20
+  link "Consider speculative loads" speculative-loading.html#consider-speculative-loads @17,6723,179,20
+  text document @208,6723,67,20
+text This means that changing the base URL doesn't affect, for example, the image displayed by elements. Thus, subsequent accesses of the IDL attribute from script will return a new that might no longer correspond to the image being shown. @17,6755,694,61
+link img embedded-content.html#the-img-element @17,6828,694,20
+link src embedded-content.html#dom-img-src @17,6860,694,21
+link "absolute URL" https://url.spec.whatwg.org/#syntax-url-absolute @17,6893,694,20
+h3 2.5 Fetching resources @17,6925,694,19
+h3 2.5.1 Terminology @17,6956,694,18
+text A  whose  is "", "", or "" is . @17,6986,694,21
+row @17,7019,694,20
+  link response https://fetch.spec.whatwg.org/#concept-response @17,7019,62,20
+  link type https://fetch.spec.whatwg.org/#concept-response-type @91,7019,30,20
+  text basic @133,7019,36,20
+  text cors @181,7019,30,20
+  text default @223,7019,47,20
+  text CORS-same-origin @282,7019,125,20
+  link [FETCH] references.html#refsFETCH @419,7019,57,20
+text A  whose  is "" or "" is . @17,7051,694,20
+row @17,7083,694,21
+  link response https://fetch.spec.whatwg.org/#concept-response @17,7083,62,21
+  link type https://fetch.spec.whatwg.org/#concept-response-type @91,7083,30,21
+  text opaque @133,7083,50,21
+  text opaqueredirect @195,7083,102,21
+  text CORS-cross-origin @309,7083,126,21
+text A 's is its if it has one, and the itself otherwise. @17,7116,694,20
+row @17,7148,694,20
+  link response https://fetch.spec.whatwg.org/#concept-response @17,7148,62,20
+  text unsafe response @91,7148,111,20
+  link "internal response" https://fetch.spec.whatwg.org/#concept-internal-response @214,7148,115,20
+  link response https://fetch.spec.whatwg.org/#concept-response @341,7148,62,20
+text To , given a , , , and an optional , run these steps: @17,7180,694,20
+row @17,7212,694,21
+  text create a potential-CORS request @17,7212,215,21
+  text url @244,7212,17,21
+  text destination @273,7212,73,21
+  text corsAttributeState @358,7212,121,21
+  text same-origin fallback flag @491,7212,165,21
+text Let  be "" if  is , and "" otherwise. @17,7245,694,20
+row @17,7277,694,20
+  text mode @17,7277,38,20
+  text no-cors @67,7277,53,20
+  text corsAttributeState @132,7277,121,20
+  link "No CORS" #attr-crossorigin-none @265,7277,62,20
+  text cors @339,7277,30,20
+text If  is set and  is "", set  to "". @17,7309,694,21
+row @17,7342,694,20
+  text same-origin fallback flag @17,7342,165,20
+  text mode @194,7342,38,20
+  text no-cors @244,7342,53,20
+  text mode @309,7342,38,20
+  text same-origin @359,7342,80,20
+text Let  be "". @17,7374,694,20
+row @17,7406,694,21
+  text credentialsMode @17,7406,111,21
+  text include @140,7406,49,21
+text If  is , set  to "". @17,7439,694,20
+row @17,7471,694,20
+  text corsAttributeState @17,7471,121,20
+  link Anonymous #attr-crossorigin-anonymous @150,7471,79,20
+  text credentialsMode @241,7471,111,20
+  text same-origin @364,7471,80,20
+text Return a new whose is , is , is , is , and whose is set. @17,7503,694,20
+link request https://fetch.spec.whatwg.org/#concept-request @17,7535,694,21
+link URL https://fetch.spec.whatwg.org/#concept-request-url @17,7568,694,20
+text url @17,7600,694,20
+link destination https://fetch.spec.whatwg.org/#concept-request-destination @17,7632,694,21
+text destination @17,7665,694,20
+link mode https://fetch.spec.whatwg.org/#concept-request-mode @17,7697,694,20
+text mode @17,7729,694,21
+link "credentials mode" https://fetch.spec.whatwg.org/#concept-request-credentials-mode @17,7762,694,20
+text credentialsMode @17,7794,694,20
+link "use-URL-credentials flag" https://fetch.spec.whatwg.org/#concept-request-use-url-credentials-flag @17,7826,694,20
+h3 2.5.2 Determining the type of a resource @17,7858,694,19
+text The of a resource must be obtained and interpreted in a manner consistent with the requirements of . @17,7889,694,21
+text Content-Type metadata @17,7922,694,20
+text MIME Sniffing @17,7954,694,20
+link [MIMESNIFF] references.html#refsMIMESNIFF @17,7986,694,20
+text The of a resource must be found in a manner consistent with the requirements given in . @17,8018,694,21
+row @17,8051,694,20
+  link "computed MIME type" https://mimesniff.spec.whatwg.org/#computed-mime-type @17,8051,142,20
+  text MIME Sniffing @171,8051,93,20
+  link [MIMESNIFF] references.html#refsMIMESNIFF @276,8051,88,20
+text The , the , and the are also defined in . These rules return a as their result. @17,8083,694,20
+link "rules for sniffing images specifically" https://mimesniff.spec.whatwg.org/#rules-for-sniffing-images-specifically @17,8115,694,21
+link "rules for distinguishing if a resource is text or binary" https://mimesniff.spec.whatwg.org/#rules-for-text-or-binary @17,8148,694,20
+link "rules for sniffing audio and video specifically" https://mimesniff.spec.whatwg.org/#rules-for-sniffing-audio-and-video-specifically @17,8180,694,20
+text MIME Sniffing @17,8212,694,21
+link "MIME type" https://mimesniff.spec.whatwg.org/#mime-type @17,8245,694,20
+link [MIMESNIFF] references.html#refsMIMESNIFF @17,8277,694,20
+text It is imperative that the rules in be followed exactly. When a user agent uses different heuristics for content type detection than the server expects, security problems can occur. For more details, see . danger @17,8309,694,41
+text MIME Sniffing danger @17,8362,694,20
+text MIME Sniffing danger @17,8394,694,20
+link [MIMESNIFF] references.html#refsMIMESNIFF @17,8426,694,21
+h3 2.5.3 Extracting character encodings from meta elements @17,8459,694,18
+text The , given a string , is as follows. It returns either a character encoding or nothing. @17,8489,694,21
+row @17,8522,694,20
+  text algorithm for extracting a character encoding from a meta element @17,8522,441,20
+  text s @470,8522,8,20
+text Let be a pointer into , initially pointing at the start of the string. @17,8554,694,20
+row @17,8586,694,21
+  text position @17,8586,53,21
+  text s @82,8586,8,21
+text : Find the first seven characters in  after  that are an  match for the word "". If no such match is found, return nothing. @17,8619,694,40
+row @17,8671,694,20
+  text Loop @17,8671,34,20
+  text s @63,8671,8,20
+  text position @83,8671,53,20
+  link "ASCII case-insensitive" https://infra.spec.whatwg.org/#ascii-case-insensitive @148,8671,149,20
+  text charset @309,8671,50,20
+text Skip any  that immediately follow the word "" (there might not be any). @17,8703,694,21
+row @17,8736,694,20
+  link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,8736,117,20
+  text charset @146,8736,50,20
+text If the next character is not a U+003D EQUALS SIGN then move to point just before that next character, and jump back to the step labeled . @17,8768,694,41
+text position @17,8821,694,20
+text loop @17,8853,694,20
+text Skip any that immediately follow the equals sign (there might not be any). @17,8885,694,21
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,8918,694,20
+text Process the next character as follows: @17,8950,694,20
+text If it is a U+0022 QUOTATION MARK character (") and there is a later U+0022 QUOTATION MARK character (") in @17,8982,694,41
+text s @17,9035,694,20
+text If it is a U+0027 APOSTROPHE character (') and there is a later U+0027 APOSTROPHE character (') in @17,9067,694,20
+text s @17,9099,694,21
+text Return the result of from the substring that is between this character and the next earliest occurrence of this character. @17,9132,694,40
+link "getting an encoding" https://encoding.spec.whatwg.org/#concept-encoding-get @17,9184,694,21
+text If it is an unmatched U+0022 QUOTATION MARK character (") @17,9217,694,20
+text If it is an unmatched U+0027 APOSTROPHE character (') @17,9249,694,20
+text If there is no next character @17,9281,694,20
+text Return nothing. @17,9313,694,21
+text Otherwise @17,9346,694,20
+text Return the result of from the substring that consists of this character up to but not including the first or U+003B SEMICOLON character (;), or the end of , whichever comes first. @17,9378,694,41
+link "getting an encoding" https://encoding.spec.whatwg.org/#concept-encoding-get @17,9431,694,20
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,9463,694,20
+text s @17,9495,694,21
+text This algorithm is distinct from those in the HTTP specifications (for example, HTTP doesn't allow the use of single quotes and requires supporting a backslash-escape mechanism that is not supported by this algorithm). While the algorithm is used in contexts that, historically, were related to HTTP, the syntax as supported by implementations diverged some time ago. success @17,9528,694,81
+link [HTTP] references.html#refsHTTP @17,9621,694,20
+h3 2.5.4 CORS settings attributes @17,9653,694,19
+button ✔MDN @17,9684,694,36
+text A is an with the following keywords and states: @17,9732,694,20
+row @17,9764,694,21
+  text CORS settings attribute @17,9764,155,21
+  link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute @184,9764,139,21
+table Keyword State "Brief description" @17,9797,694,100
+  anonymous | Anonymous | Requests for the element will have their mode set to "cors" and their credentials mode set to "same-origin".
+  use-credentials | Use Credentials | Requests for the element will have their mode set to "cors" and their credentials mode set to "include".
+text The attribute's is the state, and its and are both the state. @17,9909,694,20
+row @17,9941,694,20
+  link "missing value default" common-microsyntaxes.html#missing-value-default @17,9941,141,20
+  text No CORS @170,9941,62,20
+  link "invalid value default" common-microsyntaxes.html#invalid-value-default @244,9941,133,20
+  link "empty value default" common-microsyntaxes.html#empty-value-default @389,9941,131,20
+  link Anonymous #attr-crossorigin-anonymous2 @532,9941,79,20
+text The majority of fetches governed by will be done via the algorithm. @17,9973,694,21
+row @17,10006,694,20
+  link "CORS settings attributes" #cors-settings-attribute @17,10006,162,20
+  link "create a potential-CORS request" #create-a-potential-cors-request @191,10006,215,20
+text For more modern features, where the request's  is always "", certain  have been repurposed to have a slightly different meaning, wherein they only impact the 's . To perform this translation, we define the  for a given  to be determined by switching on the attribute's state: @17,10038,694,61
+link mode https://fetch.spec.whatwg.org/#concept-request-mode @17,10111,694,20
+text cors @17,10143,694,20
+link "CORS settings attributes" #cors-settings-attribute2 @17,10175,694,21
+link request https://fetch.spec.whatwg.org/#concept-request @17,10208,694,20
+link "credentials mode" https://fetch.spec.whatwg.org/#concept-request-credentials-mode @17,10240,694,20
+text CORS settings attribute credentials mode @17,10272,694,21
+link "CORS settings attribute" #cors-settings-attribute3 @17,10305,694,20
+link "No CORS" #attr-crossorigin-none2 @17,10337,694,20
+link Anonymous #attr-crossorigin-anonymous3 @17,10369,694,21
+text "same-origin" @17,10402,694,20
+link "Use Credentials" #attr-crossorigin-none3 @17,10434,694,20
+text "include" @17,10466,694,20
+h3 2.5.5 Referrer policy attributes @17,10498,694,19
+text A is an . Each , including the empty string, is a keyword for this attribute, mapping to a state of the same name. @17,10529,694,41
+row @17,10582,694,20
+  text referrer policy attribute @17,10582,154,20
+  link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute @183,10582,139,20
+  link "referrer policy" https://w3c.github.io/webappsec-referrer-policy/#referrer-policy @334,10582,95,20
+text The attribute's and are both the empty string state. @17,10614,694,20
+row @17,10646,694,21
+  link "missing value default" common-microsyntaxes.html#missing-value-default @17,10646,141,21
+  link "invalid value default" common-microsyntaxes.html#invalid-value-default @170,10646,133,21
+text The impact of these states on the processing model of various is defined in more detail throughout this specification, in , and in . @17,10679,694,40
+link fetches https://fetch.spec.whatwg.org/#concept-fetch @17,10731,694,21
+text Fetch @17,10764,694,20
+text Referrer Policy @17,10796,694,20
+link [FETCH] references.html#refsFETCH @17,10828,694,20
+link [REFERRERPOLICY] references.html#refsREFERRERPOLICY @17,10860,694,21
+text Several signals can contribute to which processing model is used for a given ; a is only one of them. In general, the order in which these signals are processed are: success @17,10893,694,40
+row @17,10945,694,21
+  link fetch https://fetch.spec.whatwg.org/#concept-fetch @17,10945,35,21
+  link "referrer policy attribute" #referrer-policy-attribute @64,10945,154,21
+text First, the presence of a link type; success @17,10978,694,20
+link noreferrer links.html#link-type-noreferrer @17,11010,694,20
+text Then, the value of a ; success @17,11042,694,21
+link "referrer policy attribute" #referrer-policy-attribute2 @17,11075,694,20
+text Then, the presence of any element with attribute set to . success @17,11107,694,20
+row @17,11139,694,20
+  link meta semantics.html#the-meta-element @17,11139,33,20
+  link name semantics.html#attr-meta-name @62,11139,37,20
+  link referrer semantics.html#meta-referrer @111,11139,51,20
+text Finally, the `` HTTP header. success @17,11171,694,21
+link Referrer-Policy https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-header-dfn @17,11204,694,20
+h3 2.5.6 Nonce attributes @17,11236,694,19
+button ✔MDN @17,11267,694,36
+text A  content attribute represents a cryptographic nonce ("number used once") which can be used by  to determine whether or not a given fetch will be allowed to proceed. The value is text. @17,11315,694,41
+text nonce @17,11368,694,20
+text Content Security Policy @17,11400,694,20
+link [CSP] references.html#refsCSP @17,11432,694,21
+text Elements that have a content attribute ensure that the cryptographic nonce is only exposed to script (and not to side-channels like CSS attribute selectors) by taking the value from the content attribute, moving it into an internal slot named , exposing it to script via the interface mixin, and setting the content attribute to the empty string. Unless otherwise specified, the slot's value is the empty string. @17,11465,694,81
+link nonce #attr-nonce @17,11558,694,20
+text [[CryptographicNonce]] @17,11590,694,20
+link HTMLOrSVGOrMathMLElement dom.html#htmlorsvgelement @17,11622,694,21
+text . @17,11655,694,20
+row @17,11687,694,20
+  text element @17,11687,53,20
+  link nonce #dom-noncedelement-nonce @82,11687,42,20
+text Returns the value set for 's cryptographic nonce. If the setter was not used, this will be the value originally found in the content attribute. success @17,11719,694,41
+row @17,11772,694,20
+  text element success @17,11772,53,20
+  link nonce #attr-nonce2 @82,11772,42,20
+text .  @17,11804,694,21
+row @17,11837,694,20
+  text element @17,11837,53,20
+  link nonce #dom-noncedelement-nonce2 @82,11837,42,20
+  text value @136,11837,36,20
+text Updates 's cryptographic nonce value. success @17,11869,694,20
+text element success @17,11901,694,20
+button MDN @17,11933,694,37
+text The IDL attribute must, on getting, return the value of this element's ; and on setting, set this element's to the given value. @17,11982,694,40
+text nonce @17,12034,694,21
+link [[CryptographicNonce]] #cryptographicnonce2 @17,12067,694,20
+link [[CryptographicNonce]] #cryptographicnonce3 @17,12099,694,20
+text Note how the setter for the IDL attribute does not update the corresponding content attribute. This, as well as the below setting of the content attribute to the empty string when an element , is meant to prevent exfiltration of the nonce value through mechanisms that can easily read content attributes, such as selectors. Learn more in , where this behavior was introduced. success @17,12131,694,81
+link nonce #dom-noncedelement-nonce3 @17,12224,694,21
+link nonce #attr-nonce3 @17,12257,694,20
+link "becomes browsing-context connected" infrastructure.html#becomes-browsing-context-connected @17,12289,694,20
+link "issue #2369" https://github.com/whatwg/html/issues/2369 @17,12321,694,21
+text The following are used for the content attribute: @17,12354,694,20
+row @17,12386,694,20
+  link "attribute change steps" https://dom.spec.whatwg.org/#concept-element-attributes-change-ext @17,12386,149,20
+  link nonce #attr-nonce4 @178,12386,42,20
+text If does not , then return. @17,12418,694,21
+row @17,12451,694,20
+  text element @17,12451,53,20
+  link include https://webidl.spec.whatwg.org/#include @82,12451,49,20
+  link HTMLOrSVGOrMathMLElement dom.html#htmlorsvgelement @143,12451,209,20
+text If is not or is not null, then return. @17,12483,694,20
+row @17,12515,694,20
+  text localName @17,12515,70,20
+  link nonce #attr-nonce5 @99,12515,42,20
+  text namespace @153,12515,77,20
+text If is null, then set 's to the empty string. @17,12547,694,21
+row @17,12580,694,20
+  text value @17,12580,36,20
+  text element @65,12580,53,20
+  link [[CryptographicNonce]] #cryptographicnonce4 @130,12580,159,20
+text Otherwise, set 's to . @17,12612,694,20
+row @17,12644,694,21
+  text element @17,12644,53,21
+  link [[CryptographicNonce]] #cryptographicnonce5 @82,12644,159,21
+  text value @253,12644,36,21
+text Whenever an element , the user agent must execute the following steps on the : @17,12677,694,20
+link including https://webidl.spec.whatwg.org/#include @17,12709,694,20
+link HTMLOrSVGOrMathMLElement dom.html#htmlorsvgelement @17,12741,694,21
+link "becomes browsing-context connected" infrastructure.html#becomes-browsing-context-connected @17,12774,694,20
+text element @17,12806,694,20
+text Let be 's 's 's . @17,12838,694,20
+row @17,12870,694,21
+  text CSP list @17,12870,51,21
+  text element @80,12870,53,21
+  link "shadow-including root" https://dom.spec.whatwg.org/#concept-shadow-including-root @145,12870,150,21
+  link "policy container" dom.html#concept-document-policy-container @307,12870,106,21
+  link "CSP list" browsers.html#policy-container-csp-list @425,12870,51,21
+text If , and has a content attribute whose value is not the empty string: @17,12903,694,20
+row @17,12935,694,20
+  text CSP list @17,12935,51,20
+  link "contains a header-delivered Content Security Policy" https://w3c.github.io/webappsec-csp/#contains-a-header-delivered-content-security-policy @80,12935,346,20
+  text element @438,12935,53,20
+  link nonce #attr-nonce6 @503,12935,42,20
+text Let be 's . @17,12967,694,21
+row @17,13000,694,20
+  text nonce @17,13000,42,20
+  text element @71,13000,53,20
+  link [[CryptographicNonce]] #cryptographicnonce6 @136,13000,159,20
+text for  using "" and the empty string. @17,13032,694,20
+row @17,13064,694,21
+  link "Set an attribute value" https://dom.spec.whatwg.org/#concept-element-attributes-set-value @17,13064,141,21
+  text element @170,13064,53,21
+  link nonce #attr-nonce7 @235,13064,42,21
+text Set 's to . @17,13097,694,20
+row @17,13129,694,20
+  text element @17,13129,53,20
+  link [[CryptographicNonce]] #cryptographicnonce7 @82,13129,159,20
+  text nonce @253,13129,42,20
+text If 's were not restored it would be the empty string at this point. success @17,13161,694,20
+row @17,13193,694,21
+  text element success @17,13193,53,21
+  link [[CryptographicNonce]] #cryptographicnonce8 @82,13193,159,21
+text The for elements that given , , and are to set 's to 's . @17,13226,694,20
+link "cloning steps" https://dom.spec.whatwg.org/#concept-node-clone-ext @17,13258,694,20
+link include https://webidl.spec.whatwg.org/#include @17,13290,694,21
+link HTMLOrSVGOrMathMLElement dom.html#htmlorsvgelement @17,13323,694,20
+text node @17,13355,694,20
+text copy @17,13387,694,21
+text subtree @17,13420,694,20
+text copy @17,13452,694,20
+link [[CryptographicNonce]] #cryptographicnonce9 @17,13484,694,20
+text node @17,13516,694,21
+link [[CryptographicNonce]] #cryptographicnonce10 @17,13549,694,20
+h3 2.5.7 Lazy loading attributes @17,13581,694,19
+button ✔MDN @17,13612,694,36
+text A is an with the following keywords and states: @17,13660,694,20
+row @17,13692,694,21
+  text lazy loading attribute @17,13692,139,21
+  link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute @168,13692,139,21
+table Keyword State "Brief description" @17,13725,694,100
+  lazy | Lazy | Used to defer fetching a resource until some conditions are met.
+  eager | Eager | Used to fetch a resource immediately; the default state.
+text The attribute directs the user agent to fetch a resource immediately or to defer fetching until some conditions associated with the element are met, according to the attribute's current state. @17,13837,694,40
+text The attribute's and are both the state. @17,13889,694,21
+row @17,13922,694,20
+  link "missing value default" common-microsyntaxes.html#missing-value-default @17,13922,141,20
+  link "invalid value default" common-microsyntaxes.html#invalid-value-default @170,13922,133,20
+  link Eager #attr-loading-eager-state @315,13922,39,20
+text The , given an element , are as follows: @17,13954,694,20
+row @17,13986,694,20
+  text will lazy load element steps @17,13986,182,20
+  text element @211,13986,53,20
+text If for , then return false. @17,14018,694,21
+row @17,14051,694,20
+  link "scripting is disabled" webappapis.html#concept-n-noscript @17,14051,133,20
+  text element @162,14051,53,20
+text This is an anti-tracking measure, because if a user agent supported lazy loading when scripting is disabled, it would still be possible for a site to track a user's approximate scroll position throughout a session, by strategically placing images in a page's markup such that a server can track how many images are requested and when. success @17,14083,694,81
+text If 's is in the state, then return true. @17,14176,694,21
+row @17,14209,694,20
+  text element @17,14209,53,20
+  link "lazy loading attribute" #lazy-loading-attribute @82,14209,139,20
+  link Lazy #attr-loading-lazy-state @233,14209,32,20
+text Return false. @17,14241,694,20
+text Each , , , and element has associated , initially null. @17,14273,694,20
+row @17,14305,694,21
+  link img embedded-content.html#the-img-element @17,14305,25,21
+  link audio media.html#the-audio-element @54,14305,37,21
+  link video media.html#the-video-element @103,14305,37,21
+  link iframe iframe-embed-object.html#the-iframe-element @152,14305,43,21
+  text lazy load resumption steps @207,14305,178,21
+text Each element also has associated , initially null. @17,14338,694,20
+row @17,14370,694,20
+  link video media.html#the-video-element @17,14370,37,20
+  text poster lazy load resumption steps @66,14370,224,20
+text For , , , and elements that , these steps are run from the 's callback or when their is set to the state. This causes the element to continue loading. For elements, are also run at the same time. success @17,14402,694,41
+link img embedded-content.html#the-img-element @17,14455,694,20
+link audio media.html#the-audio-element @17,14487,694,21
+link video media.html#the-video-element @17,14520,694,20
+link iframe iframe-embed-object.html#the-iframe-element @17,14552,694,20
+link "will lazy load" #will-lazy-load-element-steps @17,14584,694,20
+link "lazy load intersection observer" #lazy-load-intersection-observer @17,14616,694,21
+link "lazy loading attribute" #lazy-loading-attribute2 @17,14649,694,20
+link Eager #attr-loading-eager-state2 @17,14681,694,20
+link video media.html#the-video-element @17,14713,694,21
+link "poster lazy load resumption steps" #poster-lazy-load-resumption-steps @17,14746,694,20
+text Each has a , initially set to null but can be set to an instance. @17,14778,694,20
+row @17,14810,694,21
+  link Document dom.html#document @17,14810,69,21
+  text lazy load intersection observer @98,14810,204,21
+  link IntersectionObserver https://w3c.github.io/IntersectionObserver/#intersectionobserver @314,14810,140,21
+text To , run these steps: @17,14843,694,20
+row @17,14875,694,20
+  text start intersection-observing a lazy loading element @17,14875,336,20
+  text element @365,14875,53,20
+text Let be 's . @17,14907,694,20
+row @17,14939,694,21
+  text doc @17,14939,25,21
+  text element @54,14939,53,21
+  link "node document" https://dom.spec.whatwg.org/#concept-node-document @119,14939,104,21
+text If 's is null, set it to a new instance, initialized as follows: @17,14972,694,20
+row @17,15004,694,20
+  text doc @17,15004,25,20
+  link "lazy load intersection observer" #lazy-load-intersection-observer2 @54,15004,204,20
+  link IntersectionObserver https://w3c.github.io/IntersectionObserver/#intersectionobserver @270,15004,140,20
+text The intention is to use the original value of the constructor. However, we're forced to use the JavaScript-exposed constructor in this specification, until exposes low-level hooks for use in specifications. See bug which tracks this. danger @17,15036,694,61
+link IntersectionObserver https://w3c.github.io/IntersectionObserver/#intersectionobserver @17,15109,694,21
+text Intersection Observer danger @17,15142,694,20
+link w3c/IntersectionObserver#464 https://github.com/w3c/IntersectionObserver/issues/464 @17,15174,694,20
+link [INTERSECTIONOBSERVER] references.html#refsINTERSECTIONOBSERVER @17,15206,694,20
+text The is these steps, with arguments and : @17,15238,694,21
+row @17,15271,694,20
+  text callback @17,15271,55,20
+  text entries @84,15271,46,20
+  text observer @142,15271,60,20
+text For each in : @17,15303,694,20
+text entry @17,15335,694,21
+text entries @17,15368,694,20
+text using a method of iteration which does not trigger developer-modifiable array accessors or iteration hooks danger @17,15400,694,41
+text Let be null. @17,15453,694,20
+text resumptionSteps @17,15485,694,20
+text If . is true, then set to .'s . @17,15517,694,20
+row @17,15549,694,21
+  text entry @17,15549,35,21
+  link isIntersecting https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isintersecting @64,15549,90,21
+  text resumptionSteps @166,15549,113,21
+  text entry @291,15549,35,21
+  link target https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-target @338,15549,40,21
+  link "lazy load resumption steps" #lazy-load-resumption-steps @390,15549,178,21
+text Let be null. @17,15582,694,20
+text posterResumptionSteps @17,15614,694,20
+text If . is true and . is a element, then set to the element's . @17,15646,694,21
+text entry @17,15679,694,20
+link isIntersecting https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isintersecting @17,15711,694,20
+text entry @17,15743,694,21
+link target https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-target @17,15776,694,20
+link video media.html#the-video-element @17,15808,694,20
+text posterResumptionSteps @17,15840,694,20
+link video media.html#the-video-element @17,15872,694,21
+link "poster lazy load resumption steps" #poster-lazy-load-resumption-steps2 @17,15905,694,20
+text If is null and is null, then continue. @17,15937,694,20
+row @17,15969,694,21
+  text resumptionSteps @17,15969,113,21
+  text posterResumptionSteps @142,15969,159,21
+text for .. @17,16002,694,20
+row @17,16034,694,20
+  link "Stop intersection-observing a lazy loading element" #stop-intersection-observing-a-lazy-loading-element @17,16034,337,20
+  text entry @366,16034,35,20
+  link target https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-target @413,16034,40,20
+text If is not null: @17,16066,694,21
+text resumptionSteps @17,16099,694,20
+text Set .'s to null. @17,16131,694,20
+row @17,16163,694,20
+  text entry @17,16163,35,20
+  link target https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-target @64,16163,40,20
+  link "lazy load resumption steps" #lazy-load-resumption-steps2 @116,16163,178,20
+text Invoke . @17,16195,694,21
+text resumptionSteps @17,16228,694,20
+text If is not null: @17,16260,694,20
+text posterResumptionSteps @17,16292,694,21
+text Set the element's to null. @17,16325,694,20
+row @17,16357,694,20
+  link video media.html#the-video-element @17,16357,37,20
+  link "poster lazy load resumption steps" #poster-lazy-load-resumption-steps3 @66,16357,224,20
+text Invoke . @17,16389,694,21
+text posterResumptionSteps @17,16422,694,20
+text The intention is to use the original value of the and getters. See . danger @17,16454,694,20
+link isIntersecting https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isintersecting @17,16486,694,20
+link target https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-target @17,16518,694,21
+link w3c/IntersectionObserver#464 https://github.com/w3c/IntersectionObserver/issues/464 @17,16551,694,20
+link [INTERSECTIONOBSERVER] references.html#refsINTERSECTIONOBSERVER @17,16583,694,20
+text The  is an  dictionary with the following dictionary members: «[ "" →  ]» @17,16615,694,21
+text options @17,16648,694,20
+link IntersectionObserverInit https://w3c.github.io/IntersectionObserver/#dictdef-intersectionobserverinit @17,16680,694,20
+text scrollMargin @17,16712,694,21
+link "lazy load scroll margin" #lazy-load-root-margin @17,16745,694,20
+text This allows for fetching the image during scrolling, when it does not yet — but is about to — intersect the viewport. success @17,16777,694,40
+text The suggestions imply dynamic changes to the value, but the API does not support changing the scroll margin. See issue . danger @17,16829,694,41
+link "lazy load scroll margin" #lazy-load-root-margin2 @17,16882,694,20
+link IntersectionObserver https://w3c.github.io/IntersectionObserver/#intersectionobserver @17,16914,694,21
+link w3c/IntersectionObserver#428 https://github.com/w3c/IntersectionObserver/issues/428 @17,16947,694,20
+text Call 's 's method with as the argument. @17,16979,694,20
+row @17,17011,694,21
+  text doc @17,17011,25,21
+  link "lazy load intersection observer" #lazy-load-intersection-observer3 @54,17011,204,21
+  link observe https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-observe @270,17011,54,21
+  text element @336,17011,53,21
+text The intention is to use the original value of the method. See . danger @17,17044,694,20
+row @17,17076,694,20
+  link observe https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-observe @17,17076,54,20
+  link w3c/IntersectionObserver#464 https://github.com/w3c/IntersectionObserver/issues/464 @83,17076,209,20
+  link [INTERSECTIONOBSERVER] references.html#refsINTERSECTIONOBSERVER @304,17076,187,20
+text To , run these steps: @17,17108,694,20
+row @17,17140,694,21
+  text stop intersection-observing a lazy loading element @17,17140,336,21
+  text element @365,17140,53,21
+text Let be 's . @17,17173,694,20
+row @17,17205,694,20
+  text doc @17,17205,25,20
+  text element @54,17205,53,20
+  link "node document" https://dom.spec.whatwg.org/#concept-node-document @119,17205,104,20
+text : 's is not null. @17,17237,694,21
+row @17,17270,694,20
+  link Assert https://infra.spec.whatwg.org/#assert @17,17270,43,20
+  text doc @72,17270,25,20
+  link "lazy load intersection observer" #lazy-load-intersection-observer4 @109,17270,204,20
+text Call 's 's method with as the argument. @17,17302,694,20
+row @17,17334,694,21
+  text doc @17,17334,25,21
+  link "lazy load intersection observer" #lazy-load-intersection-observer5 @54,17334,204,21
+  link unobserve https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-unobserve @270,17334,71,21
+  text element @353,17334,53,21
+text The intention is to use the original value of the method. See . danger @17,17367,694,20
+row @17,17399,694,20
+  link unobserve https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-unobserve @17,17399,71,20
+  link w3c/IntersectionObserver#464 https://github.com/w3c/IntersectionObserver/issues/464 @100,17399,209,20
+  link [INTERSECTIONOBSERVER] references.html#refsINTERSECTIONOBSERVER @321,17399,187,20
+text The is an value, but with the following suggestions to consider: @17,17431,694,20
+link "There is a tracking vector here." https://infra.spec.whatwg.org/#tracking-vector @17,17463,694,21
+text lazy load scroll margin @17,17496,694,20
+link implementation-defined https://infra.spec.whatwg.org/#implementation-defined @17,17528,694,20
+text Set a minimum value that most often results in the resources being loaded before they intersect the viewport under normal usage patterns for the given device. @17,17560,694,41
+text The typical scrolling speed: increase the value for devices with faster typical scrolling speeds. @17,17613,694,20
+text The current scrolling speed or momentum: the UA can attempt to predict where the scrolling will likely stop, and adjust the value accordingly. @17,17645,694,41
+text The network quality: increase the value for slow or high-latency connections. @17,17698,694,20
+text User preferences can influence the value. @17,17730,694,20
+text It is important that the not leak additional information. For example, the typical scrolling speed on the current device could be imprecise so as to not introduce a new fingerprinting vector. success @17,17762,694,41
+row @17,17815,694,20
+  link "for privacy" https://infra.spec.whatwg.org/#tracking-vector @17,17815,72,20
+  link "lazy load scroll margin" #lazy-load-root-margin3 @101,17815,149,20
+h3 2.5.8 Blocking attributes @17,17847,694,19
+text A explicitly indicates that certain operations should be blocked on the fetching of an external resource. The operations that can be blocked are represented by , which are strings listed by the following table: @17,17878,694,41
+text blocking attribute @17,17931,694,20
+text possible blocking tokens @17,17963,694,20
+table "Possible blocking token" Description @17,17995,694,65
+  "render" | The element is potentially render-blocking.
+text In the future, there might be more . success @17,18072,694,20
+link "possible blocking tokens" #possible-blocking-token @17,18104,694,21
+text A must have a value that is an , each of which are . The of a are the . Any element can have at most one . @17,18137,694,20
+link "blocking attribute" #blocking-attribute @17,18169,694,20
+link "unordered set of unique space-separated tokens" common-microsyntaxes.html#unordered-set-of-unique-space-separated-tokens @17,18201,694,21
+link "possible blocking tokens" #possible-blocking-token2 @17,18234,694,20
+link "supported tokens" https://dom.spec.whatwg.org/#concept-supported-tokens @17,18266,694,20
+link "blocking attribute" #blocking-attribute2 @17,18298,694,20
+link "possible blocking tokens" #possible-blocking-token3 @17,18330,694,21
+link "blocking attribute" #blocking-attribute3 @17,18363,694,20
+text The for an element are the result of the following steps: @17,18395,694,20
+row @17,18427,694,21
+  text blocking tokens set @17,18427,129,21
+  text el @158,18427,12,21
+text Let be the value of 's , or the empty string if no such attribute exists. @17,18460,694,20
+row @17,18492,694,20
+  text value @17,18492,36,20
+  text el @65,18492,12,20
+  link "blocking attribute" #blocking-attribute4 @89,18492,116,20
+text Set to , . @17,18524,694,21
+row @17,18557,694,20
+  text value @17,18557,36,20
+  text value @65,18557,36,20
+  link "converted to ASCII lowercase" https://infra.spec.whatwg.org/#ascii-lowercase @113,18557,197,20
+text Let be the result of . @17,18589,694,20
+row @17,18621,694,20
+  text rawTokens @17,18621,74,20
+  link "splitting value on ASCII whitespace" https://infra.spec.whatwg.org/#split-on-ascii-whitespace @103,18621,233,20
+text Return a set containing the elements of that are . @17,18653,694,21
+row @17,18686,694,20
+  text rawTokens @17,18686,74,20
+  link "possible blocking tokens" #possible-blocking-token4 @103,18686,164,20
+text An element is  if its  contains "", or if it is , which will be defined at the individual elements. By default, an element is not . @17,18718,694,41
+text potentially render-blocking @17,18771,694,20
+link "blocking tokens set" #blocking-tokens-set @17,18803,694,20
+link render #blocking-token-render @17,18835,694,21
+text implicitly potentially render-blocking @17,18868,694,20
+link "implicitly potentially render-blocking" #implicitly-potentially-render-blocking @17,18900,694,20
+h3 2.5.9 Fetch priority attributes @17,18932,694,19
+text A is an with the following keywords and states: @17,18963,694,20
+row @17,18995,694,20
+  text fetch priority attribute @17,18995,145,20
+  link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute @174,18995,139,20
+table Keyword State "Brief description" @17,19027,694,136
+  high | High | Signals a high-priority fetch relative to other resources with the same destination.
+  low | Low | Signals a low-priority fetch relative to other resources with the same destination.
+  auto | Auto | Signals automatic determination of fetch priority relative to other resources with the same destination.
+text The attribute's and are both the state. @17,19175,694,20
+row @17,19207,694,20
+  link "missing value default" common-microsyntaxes.html#missing-value-default @17,19207,141,20
+  link "invalid value default" common-microsyntaxes.html#invalid-value-default @170,19207,133,20
+  link Auto #attr-fetchpriority-auto-state @315,19207,31,20
+text — — @17,19239,694,21
+row @17,19272,694,20
+  link "← 2.3 Common microsyntaxes" common-microsyntaxes.html @17,19272,203,20
+  link "Table of Contents" ./ @232,19272,119,20
+  link "2.6 Common DOM interfaces →" common-dom-interfaces.html @363,19272,210,20
+!overflow table2.anonymous.Brief description 231/728px
+!overflow table2.use-credentials.Brief description 231/697px
+!overflow table3.lazy.Brief description 231/443px
+!overflow table3.eager.Brief description 231/384px
+!overflow table5.high.Brief description 231/555px
+!overflow table5.low.Brief description 231/550px
+!overflow table5.auto.Brief description 231/690px

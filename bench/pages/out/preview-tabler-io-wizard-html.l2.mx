@@ -1,0 +1,237 @@
+@preview_tabler_io_wizard_html rev=0 @0,0,728,2792
+link "Skip to main content" #content @17,17,694,20
+link Tabler . @17,49,694,21
+card @17,82,694,605
+  region 266.6600036621094x200 @34,97,267,200 [38 shapes, 0 labelled]
+  h1 Welcome to Tabler! @34,309,660,25
+  text Tabler is packed with beautifully crafted components and powerful features. Jump in and start building a stunning dashboard — all for free! @34,346,660,40
+  text your data @34,398,660,21
+  text Create your Tabler URL @34,431,660,20
+  row @34,463,660,58
+    text https://tabler.io/ @34,482,107,20
+    field "Create your Tabler URL" @153,463,134,58
+  text Choose a URL that describes you or your business in a concise way. Make it short and easy to remember so you can share links with ease. @34,533,660,40
+  text Timezone @34,585,660,20
+  select Timezone "(UTC-12:00) International Date Line West" "(UTC-11:00) Coordinated Universal Time-11" "(UTC-10:00) Hawaii" "(UTC-09:00) Alaska" "(UTC-08:00) Baja California" "(UTC-07:00) Pacific Time (US & Canada)" "(UTC-08:00) Pacific Time (US & Canada)" "(UTC-07:00) Arizona" "(UTC-07:00) Chihuahua, La Paz, Mazatlan" "(UTC-07:00) Mountain Time (US & Canada)" "(UTC-06:00) Central America" "(UTC-06:00) Central Time (US & Canada)" "(UTC-06:00) Guadalajara, Mexico City, Monterrey" "(UTC-06:00) Saskatchewan" "(UTC-05:00) Bogota, Lima, Quito" "(UTC-05:00) Eastern Time (US & Canada)" "(UTC-05:00) Indiana (East)" "(UTC-04:30) Caracas" "(UTC-04:00) Asuncion" "(UTC-04:00) Atlantic Time (Canada)" "(UTC-04:00) Cuiaba" "(UTC-04:00) Georgetown, La Paz, Manaus, San Juan" "(UTC-04:00) Santiago" "(UTC-03:30) Newfoundland" "(UTC-03:00) Brasilia" "(UTC-03:00) Buenos Aires" "(UTC-03:00) Cayenne, Fortaleza" "(UTC-03:00) Greenland" "(UTC-03:00) Montevideo" "(UTC-03:00) Salvador" "(UTC-02:00) Coordinated Universal Time-02" "(UTC-02:00) Mid-Atlantic - Old" "(UTC-01:00) Azores" "(UTC-01:00) Cape Verde Is." "(UTC) Casablanca" "(UTC) Coordinated Universal Time" "(UTC) Edinburgh, London" "(UTC+01:00) Edinburgh, London" "(UTC) Dublin, Lisbon" "(UTC) Monrovia, Reykjavik" "(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna" "(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague" "(UTC+01:00) Brussels, Copenhagen, Madrid, Paris" *"(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb" "(UTC+01:00) West Central Africa" "(UTC+01:00) Windhoek" "(UTC+02:00) Athens, Bucharest" "(UTC+02:00) Beirut" "(UTC+02:00) Cairo" "(UTC+02:00) Damascus" "(UTC+02:00) E. Europe" "(UTC+02:00) Harare, Pretoria" "(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius" "(UTC+03:00) Istanbul" "(UTC+02:00) Jerusalem" "(UTC+02:00) Tripoli" "(UTC+03:00) Amman" "(UTC+03:00) Baghdad" "(UTC+02:00) Kaliningrad" "(UTC+03:00) Kuwait, Riyadh" "(UTC+03:00) Nairobi" "(UTC+03:00) Moscow, St. Petersburg, Volgograd, Minsk" "(UTC+04:00) Samara, Ulyanovsk, Saratov" "(UTC+03:30) Tehran" "(UTC+04:00) Abu Dhabi, Muscat" "(UTC+04:00) Baku" "(UTC+04:00) Port Louis" "(UTC+04:00) Tbilisi" "(UTC+04:00) Yerevan" "(UTC+04:30) Kabul" "(UTC+05:00) Ashgabat, Tashkent" "(UTC+05:00) Yekaterinburg" "(UTC+05:00) Islamabad, Karachi" "(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi" "(UTC+05:30) Sri Jayawardenepura" "(UTC+05:45) Kathmandu" "(UTC+06:00) Nur-Sultan (Astana)" "(UTC+06:00) Dhaka" "(UTC+06:30) Yangon (Rangoon)" "(UTC+07:00) Bangkok, Hanoi, Jakarta" "(UTC+07:00) Novosibirsk" "(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi" "(UTC+08:00) Krasnoyarsk" "(UTC+08:00) Kuala Lumpur, Singapore" "(UTC+08:00) Perth" "(UTC+08:00) Taipei" "(UTC+08:00) Ulaanbaatar" "(UTC+08:00) Irkutsk" "(UTC+09:00) Osaka, Sapporo, Tokyo" "(UTC+09:00) Seoul" "(UTC+09:30) Adelaide" "(UTC+09:30) Darwin" "(UTC+10:00) Brisbane" "(UTC+10:00) Canberra, Melbourne, Sydney" "(UTC+10:00) Guam, Port Moresby" "(UTC+10:00) Hobart" "(UTC+09:00) Yakutsk" "(UTC+11:00) Solomon Is., New Caledonia" "(UTC+11:00) Vladivostok" "(UTC+12:00) Auckland, Wellington" "(UTC+12:00) Coordinated Universal Time+12" "(UTC+12:00) Fiji" "(UTC+12:00) Magadan" "(UTC+12:00) Petropavlovsk-Kamchatsky - Old" "(UTC+13:00) Nuku'alofa" "(UTC+13:00) Samoa" @34,617,660,55
+row @17,699,694,37
+  text 25% Complete @17,707,99,21
+  row @128,699,212,37
+    button "Set up later" @128,699,108,37
+    button Continue primary @248,699,92,37
+button Customize primary @17,748,694,36
+card @17,796,694,1979
+  button Close primary @34,811,660,36
+  region 160x120 @34,859,160,120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own @34,991,660,22
+  text Pick the look and layout of this preview. Your choices are saved in this browser. @34,1025,660,20
+  h3 Appearance @34,1057,660,19
+  text Color scheme @34,1088,660,20
+  text The page and its navigation, in one pick. @34,1120,660,20
+  row @34,1152,660,97
+    col @34,1152,96,97
+      region 96x64 @34,1152,96,64 [8 shapes, 0 labelled]
+      text Auto @34,1228,96,21
+    col @142,1152,96,97
+      region 96x64 @142,1152,96,64 [8 shapes, 0 labelled]
+      text Light @142,1228,96,21
+    col @250,1152,96,97
+      region 96x64 @250,1152,96,64 [8 shapes, 0 labelled]
+      text Dark @250,1228,96,21
+    col @358,1152,96,97
+      region 96x64 @358,1152,96,64 [8 shapes, 0 labelled]
+      text Dark nav @358,1228,96,21
+    col @466,1152,96,97
+      region 96x64 @466,1152,96,64 [8 shapes, 0 labelled]
+      text Colored @466,1228,96,21
+  text Accent color @34,1261,660,20
+  text The accent color used across the app. @34,1293,660,20
+  row @34,1325,660,0
+  text Font family @34,1337,660,20
+  text The typeface used across the app. @34,1369,660,21
+  row @34,1402,660,20
+    text Aa Sans-serif @34,1402,90,20
+    text Aa Serif @136,1402,53,20
+    text Aa Monospace @201,1402,100,20
+    text Aa Comic @313,1402,64,20
+  text Theme base @34,1434,660,20
+  text The gray palette behind every surface. @34,1466,660,21
+  row @34,1499,660,96
+    col @34,1499,96,96
+      region 96x64 @34,1499,96,64 [6 shapes, 0 labelled]
+      text Slate @34,1575,96,20
+    col @142,1499,96,96
+      region 96x64 @142,1499,96,64 [6 shapes, 0 labelled]
+      text Gray @142,1575,96,20
+    col @250,1499,96,96
+      region 96x64 @250,1499,96,64 [6 shapes, 0 labelled]
+      text Zinc @250,1575,96,20
+    col @358,1499,96,96
+      region 96x64 @358,1499,96,64 [6 shapes, 0 labelled]
+      text Neutral @358,1575,96,20
+    col @466,1499,96,96
+      region 96x64 @466,1499,96,64 [6 shapes, 0 labelled]
+      text Stone @466,1575,96,20
+  text Corner radius @34,1607,660,20
+  text How round corners are drawn. @34,1639,660,21
+  row @34,1671,660,97
+    col @34,1671,96,97
+      region 96x64 @34,1671,96,64 [2 shapes, 0 labelled]
+      text 0 @34,1747,96,21
+    col @142,1671,96,97
+      region 96x64 @142,1671,96,64 [2 shapes, 0 labelled]
+      text 0.5 @142,1747,96,21
+    col @250,1671,96,97
+      region 96x64 @250,1671,96,64 [2 shapes, 0 labelled]
+      text 1 @250,1747,96,21
+    col @358,1671,96,97
+      region 96x64 @358,1671,96,64 [2 shapes, 0 labelled]
+      text 1.5 @358,1747,96,21
+    col @466,1671,96,97
+      region 96x64 @466,1671,96,64 [2 shapes, 0 labelled]
+      text 2 @466,1747,96,21
+  h3 Layout @34,1780,660,19
+  text Navigation @34,1811,660,20
+  text Where the main menu lives. @34,1843,660,20
+  row @34,1875,660,96
+    col @34,1875,96,96
+      region 96x64 @34,1875,96,64 [10 shapes, 0 labelled]
+      text Navbar @34,1951,96,20
+    col @142,1875,96,96
+      region 96x64 @142,1875,96,64 [11 shapes, 0 labelled]
+      text Sidebar @142,1951,96,20
+  text Container width @34,1983,660,21
+  text How wide the page content runs. @34,2016,660,20
+  row @34,2048,660,96
+    col @34,2048,96,96
+      region 96x64 @34,2048,96,64 [6 shapes, 0 labelled]
+      text Default @34,2124,96,20
+    col @142,2048,96,96
+      region 96x64 @142,2048,96,64 [6 shapes, 0 labelled]
+      text Fluid @142,2124,96,20
+    col @250,2048,96,96
+      region 96x64 @250,2048,96,64 [7 shapes, 0 labelled]
+      text Boxed @250,2124,96,20
+  text Navbar behavior @34,2156,660,21
+  text Keep the navbar visible while scrolling. @34,2189,660,20
+  row @34,2221,660,96
+    col @34,2221,96,96
+      region 96x64 @34,2221,96,64 [8 shapes, 0 labelled]
+      text Default @34,2297,96,20
+    col @142,2221,96,96
+      region 96x64 @142,2221,96,64 [10 shapes, 0 labelled]
+      text Sticky @142,2297,96,20
+  text Navigation style @34,2329,660,21
+  text Attach the navigation to the edges, or let it float. @34,2362,660,20
+  row @34,2394,660,96
+    col @34,2394,96,96
+      region 96x64 @34,2394,96,64 [10 shapes, 0 labelled]
+      text Attached @34,2470,96,20
+    col @142,2394,96,96
+      region 96x64 @142,2394,96,64 [9 shapes, 0 labelled]
+      text Floating @142,2470,96,20
+  text Offcanvas style @34,2502,660,20
+  text Attach side panels to the edges, or let them float. @34,2534,660,21
+  row @34,2567,660,96
+    col @34,2567,96,96
+      region 96x64 @34,2567,96,64 [11 shapes, 0 labelled]
+      text Attached @34,2643,96,20
+    col @142,2567,96,96
+      region 96x64 @142,2567,96,64 [10 shapes, 0 labelled]
+      text Floating @142,2643,96,20
+  button "Reset changes" @34,2675,660,36
+  button Save primary @34,2723,660,37
+!offcanvas path2
+!offcanvas path3
+!offcanvas path4
+!offcanvas path5
+!offcanvas path6
+!offcanvas path7
+!offcanvas path10
+!offcanvas path11
+!offcanvas path13
+!offcanvas path14
+!offcanvas path15
+!offcanvas path16
+!offcanvas path17
+!offcanvas path19
+!offcanvas path20
+!offcanvas path21
+!offcanvas path22
+!offcanvas path23
+!offcanvas path24
+!offcanvas path25
+!offcanvas path26
+!offcanvas path27
+!offcanvas path28
+!offcanvas path29
+!offcanvas path30
+!offcanvas path31
+!offcanvas path32
+!offcanvas path33
+!offcanvas path34
+!offcanvas path35
+!offcanvas path36
+!offcanvas path37
+!offcanvas path38
+!offcanvas region3
+!offcanvas path39
+!offcanvas region4
+!offcanvas path40
+!offcanvas region5
+!offcanvas path41
+!offcanvas region6
+!offcanvas path42
+!offcanvas region7
+!offcanvas path43
+!offcanvas region8
+!offcanvas path44
+!offcanvas region9
+!offcanvas path45
+!offcanvas region10
+!offcanvas path46
+!offcanvas region11
+!offcanvas path47
+!offcanvas region12
+!offcanvas path48
+!offcanvas region13
+!offcanvas path49
+!offcanvas region14
+!offcanvas path50
+!offcanvas region15
+!offcanvas path51
+!offcanvas region16
+!offcanvas path52
+!offcanvas region17
+!offcanvas path53
+!offcanvas region18
+!offcanvas path54
+!offcanvas region19
+!offcanvas path55
+!offcanvas region20
+!offcanvas path56
+!offcanvas region21
+!offcanvas path57
+!offcanvas region22
+!offcanvas path58
+!offcanvas region23
+!offcanvas path59
+!offcanvas region24
+!offcanvas path60
+!offcanvas region25
+!offcanvas path61
+!offcanvas region26
+!offcanvas path62
+!offcanvas region27
+!offcanvas path63
+!offcanvas region28
+!offcanvas path64
+!offcanvas region29
+!offcanvas path65
+!offcanvas region30
+!offcanvas path66
+!offcanvas region31
+!offcanvas path67
+!offcanvas region32
+!offcanvas path68
+!offcanvas region33
+!offcanvas path69

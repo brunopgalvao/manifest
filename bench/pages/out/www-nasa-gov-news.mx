@@ -1,0 +1,131 @@
+@www_nasa_gov_news
+row
+  row
+    button Explore
+    row
+      text Search
+      field Search search
+  link "https://www.nasa.gov/" https://www.nasa.gov/
+  row
+    button "News & Events"
+    button Multimedia
+    link NASA+ https://plus.nasa.gov/
+row
+  link "News Releases" https://www.nasa.gov/2026-news-releases/
+  link "Recently Published" https://www.nasa.gov/news/recently-published/
+  link Blogs https://www.nasa.gov/nasa-blogs/
+  link Newsletters https://www.nasa.gov/newsletters/
+  button "Social Media"
+  link "Budgets and Reports" https://www.nasa.gov/budgets-plans-and-reports/
+  button More
+row
+  col
+    h1 NASA News
+    row
+      row
+      row
+row
+  h2 News Releases
+  link "2026 News Releases" https://www.nasa.gov/2026-news-releases/
+row
+  link "Blog3 Min ReadSpacewalk Preps and Advanced Biomedical Research Begin Week" https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/
+  row
+    link "News Release4 Min ReadNASA Names Stephen Cash Marshall Space Flight Center Director" https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/
+    col
+      link "Blog3 Min ReadCrew Unpacks Dragon and Begins Activating New Science Experiments" https://www.nasa.gov/blogs/spacestation/2026/10/16/crew-unpacks-dragon-and-begins-activating-new-science-experiments/
+      link "Blog2 Min ReadSpaceX Dragon Docks with Science, Supplies, and Roll-Out Solar Arrays" https://www.nasa.gov/blogs/spacestation/2026/10/15/spacex-dragon-docks-with-science-supplies-and-roll-out-solar-arrays/
+h2 Receive NASA News Releases
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia"
+  row
+    h2 Sign Up
+    text Sign up to receive NASA news releases and other information.
+  link "Sign Up" https://lp.constantcontactpages.com/su/G246xLa/nasanews
+h2 Resources for News Media
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia"
+  h2 Communications Policy
+  link "Communications Policy" https://www.nasa.gov/reference/nasa-policy-on-the-release-of-information-to-news-and-information-media/
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia"
+  h2 Media Accreditation Policy
+  link "Media Accreditation Policy" https://www.nasa.gov/reference/nasa-agencywide-media-accreditation-policy/
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia"
+  h2 Media Contacts
+  link "Media Contacts" https://www.nasa.gov/news/media-contacts/
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia"
+  h2 Upcoming Launches
+  link "Upcoming Launches" https://www.nasa.gov/events/
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia"
+  h2 NASA Brand Center
+  link "NASA Brand Center" https://www.nasa.gov/nasa-brand-center/
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia"
+  h2 Budgets and Reports
+  link "Budgets and Reports" https://www.nasa.gov/budgets-plans-and-reports/
+row
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia"
+  h2 News Release Archive
+  link "News Release Archive" https://www.nasa.gov/nasa-news-release-archive/
+metric "Keep Exploring" "Discover More"
+row
+  link "NASA Images" https://www.nasa.gov/images/
+  link Blogs https://www.nasa.gov/nasa-blogs/
+  link Newsletters https://www.nasa.gov/newsletters/
+  link "NASA History" https://www.nasa.gov/history/
+image https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg "NASA Logo"
+row
+  col
+    h3 National Aeronautics and Space Administration
+    text NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.
+    link "About NASA's Mission" https://www.nasa.gov/about/
+    link "Join Us" https://www.nasa.gov/get-involved/
+  col
+    link Home https://www.nasa.gov/
+    link "News & Events" https://www.nasa.gov/news/
+    link Multimedia https://www.nasa.gov/multimedia/
+    link NASA+ https://plus.nasa.gov/
+    link Missions https://www.nasa.gov/nasa-missions/
+    link "Humans in Space" https://www.nasa.gov/humans-in-space/
+    link Earth https://science.nasa.gov/earth/
+    link "The Solar System" https://science.nasa.gov/solar-system/
+    link "The Universe" https://science.nasa.gov/universe/
+    link Science https://science.nasa.gov/
+    link Aeronautics https://www.nasa.gov/aeronautics/
+    link Technology https://www.nasa.gov/technology/
+    link "Learning Resources" https://www.nasa.gov/learning-resources/
+    link "About NASA" https://www.nasa.gov/about/
+    link "NASA en Español (opens in new tab)" https://www.nasa.gov/es/
+  col
+    h3 Follow NASA
+    row
+      link "NASA on Facebook (opens in new tab)" https://www.facebook.com/NASA
+      link "NASA on Instagram (opens in new tab)" https://www.instagram.com/nasa/
+      link "NASA on X (opens in new tab)" https://x.com/NASA
+      link "NASA on YouTube (opens in new tab)" https://www.youtube.com/@NASA
+    link "More NASA Social Accounts" https://www.nasa.gov/social-media/
+    link "NASA Newsletters" https://www.nasa.gov/nasa-newsletters/
+  col
+    link Sitemap https://www.nasa.gov/sitemap/
+    link "For Media" https://www.nasa.gov/news/nasa-media-contacts/
+    link "Privacy Policy" https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/
+    link FOIA https://www.nasa.gov/foia/
+    link "No FEAR Act" https://www.nasa.gov/no-fear-act/
+    link "Office of the IG (opens in new tab)" http://oig.nasa.gov/
+    link "Budget & Annual Reports" https://www.nasa.gov/budgets-plans-and-reports/
+    link "Agency Financial Reports" https://www.nasa.gov/organizations/budget-annual-reports/agency-financial-reports/
+    link "Contact NASA" https://www.nasa.gov/contact-nasa/
+    link Accessibility https://www.nasa.gov/accessibility/
+  row
+    row
+      text Page Last Updated:
+      text May 01, 2026
+    row
+      text Page Editor:
+      text Dacia Massengill
+    row
+      text Responsible NASA Official:
+      text Abigail Bowman

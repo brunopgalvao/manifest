@@ -1,0 +1,115 @@
+@picocss_com_docs_accordion rev=0 @0,0,728,1544
+row @17,17,694,1510
+  button "Skip to content" primary @17,754,38,36
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @67,691,22,162
+  row @101,731,46,81
+    link "Pico CSS homepage" / @101,741,7,61
+    row @120,731,27,81
+      row @120,762,5,20
+        text v2.1.1 @120,762,0,20
+        link Examples /examples @132,762,0,20
+        link Docs /docs @144,762,0,20
+      row @137,731,10,81
+        link "GitHub repository" https://github.com/picocss/pico @137,752,0,40
+        link Twitter https://x.com/picocss @149,762,0,20
+        link "Turn on dark mode" /docs/accordion @161,731,0,81
+  row @159,17,376,1510
+    col @159,499,7,546
+      text Getting started @159,499,7,41
+      text Customization @159,552,7,20
+      text Layout @159,584,7,20
+      text Content @159,616,7,21
+      text Forms @159,649,7,20
+      text Components @159,681,7,20
+      link Accordion /docs/accordion @159,713,7,21
+      link Card /docs/card @159,746,7,20
+      link Dropdown /docs/dropdown @159,778,7,20
+      link "Group New" /docs/group @159,810,7,41
+      link Loading /docs/loading @159,863,7,20
+      link Modal /docs/modal @159,895,7,20
+      link Nav /docs/nav @159,927,7,21
+      link Progress /docs/progress @159,960,7,20
+      link Tooltip /docs/tooltip @159,992,7,20
+      text About @159,1024,7,21
+    metric Components Accordions "Toggle sections of content in pure HTML, without JavaScript, using minimal and semantic markup." @178,17,30,1510
+    col @220,719,7,105
+      text Content @220,719,7,21
+      link Overview /docs/accordion @220,752,7,20
+      link "Button variants" /docs/accordion#button-variants @220,784,7,40
+    col @239,17,296,1510
+      text name="example" can be added to multiple <details> so only one can be open at a time. @239,17,296,41
+      text Accordion 1 @239,70,296,20
+      text Flamingos are known for their bright pink feathers and distinctive long necks. These birds are social creatures that live in large groups, and a group of flamingos is called a flamboyance. They can often be seen standing on one leg, which helps them conserve body heat. @239,102,296,142
+      text Accordion 2 @239,256,296,20
+      link "Copy code" /docs/accordion @239,288,296,21
+      text <details name="example" open> <summary>Accordion 1</summary> <p>...</p> </details> <hr /> <details name="example"> <summary>Accordion 2</summary> <ul> <li>...</li> <li>...</li> </ul> </details> @239,321,296,121
+      h2 Button variants# @239,454,296,22
+      text role="button" can be used to turn <summary> into a button. @239,488,296,40
+      button Button primary @239,540,296,37
+      link "Copy code" /docs/accordion @239,589,296,20
+      text <details> <summary role="button">Owls</summary> <p>...</p> </details> @239,621,296,61
+      text Like regular buttons, they come with , , and (Not available in the ). @239,694,296,40
+      text .secondary @239,746,296,21
+      text .contrast @239,779,296,20
+      text .outline @239,811,296,20
+      link "class-less version" /docs/classless @239,843,296,21
+      button Secondary primary @239,876,296,36
+      button Contrast primary @239,924,296,36
+      button "Primary outline" @239,972,296,36
+      button "Secondary outline" @239,1020,296,37
+      button "Contrast outline" @239,1069,296,36
+      link "Copy code" /docs/accordion @239,1117,296,20
+      text <!-- Secondary --> <details> <summary role="button" class="secondary">Secondary</summary> <p>...</p> </details> <!-- Contrast --> <details> <summary role="button" class="contrast">Contrast</summary> <p>...</p> </details> <!-- Primary outline --> <details> <summary role="button" class="outline">Primary outline</summary> <p>...</p> </details> <!-- Secondary outline --> <details> <summary role="button" class="outline secondary">Secondary outline</summary> <p>...</p> </details> <!-- Contrast outline --> <details> <summary role="button" class="outline contrast">Contrast outline</summary> <p>...</p> </details> @239,1149,296,345
+      link "Edit this page on GitHub" https://github.com/picocss/picocss.com/blob/main/app/routes/docs.accordion.jsx @239,1506,296,21
+  col @547,634,164,276
+    row @547,634,164,203
+      region 49.34000015258789x45 @547,734,3,3 [3 shapes, 0 labelled]
+      row @562,715,81,41
+        row @562,715,14,41
+          text About @562,725,0,21
+          link Maintenance /docs/maintenance @574,725,0,21
+          link "What’s new?" /docs/v2 @586,715,0,41
+          link Brand /docs/brand @598,725,0,21
+          link Mission /docs/mission @610,725,0,21
+          link "Usage scenarios" /docs/usage-scenarios @622,715,0,41
+        row @588,715,15,41
+          text Docs @588,725,0,21
+          link "Quick start" /docs @600,715,0,41
+          link "Version picker" /docs/version-picker @612,715,0,41
+          link "Class-less version" /docs/classless @624,715,0,41
+          link "Form elements" /docs/forms @636,715,0,41
+        row @615,725,8,21
+          text Community @615,725,0,21
+          link Issues https://github.com/picocss/pico/issues @627,725,0,21
+          link Discussions https://github.com/picocss/pico/discussions @639,725,0,21
+          link Help https://github.com/picocss/pico/discussions/categories/help @651,725,0,21
+        row @635,725,8,21
+          text Examples @635,725,0,21
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @647,725,0,21
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @659,725,0,21
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @671,725,0,21
+          link All /examples @683,725,0,21
+      text Designed and built by with the help of our . @655,634,15,203
+      col @682,699,6,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @682,699,6,41
+        link contributors https://github.com/picocss/pico/graphs/contributors @682,752,6,20
+      row @700,725,11,21
+        link GitHub https://github.com/picocss/pico @700,725,0,21
+        link Twitter https://x.com/picocss @712,725,0,21
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @724,725,0,21
+        link NPM https://www.npmjs.com/package/@picocss/pico @736,725,0,21
+    row @547,849,164,61
+      text Code licensed , docs . @547,849,54,61
+      row @613,849,48,61
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @613,869,7,21
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @632,849,29,61
+      text Currently v2.1.1. @673,859,38,41
+!overflow skip 36/130px
+!overflow components2 0/73px
+!overflow components2 0/125px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

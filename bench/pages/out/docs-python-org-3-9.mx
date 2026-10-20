@@ -1,0 +1,64 @@
+@docs_python_org_3_9
+text This document is for an old version of Python that is no longer supported. You should upgrade, and read the . danger
+link "Python documentation for the current stable release" /3/index.html
+link index genindex.html
+text |
+link modules py-modindex.html
+image https://docs.python.org/3.9/_static/py.svg "python logo"
+text »
+link Python https://www.python.org/
+row
+  select Language "Greek | Ελληνικά" *English "Spanish | español" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文"
+  select "Python version" "dev (3.15)" 3.14 3.13 3.12 3.11 3.10 *3.9.25 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6
+text »
+link "3.9.25 Documentation" #
+text |
+row
+  field "Quick search"
+  button button
+row
+  col
+    h1 Python 3.9.25 documentation
+    text Welcome! This is the official documentation for Python 3.9.25.
+    text Parts of the documentation:
+    table "What's new in Python 3.9? or all \"What's new\" documents since 2.0 Tutorial start here Library Reference keep this under your pillow Language Reference describes syntax and language elements Python Setup and Usage how to use Python on different platforms Python HOWTOs in-depth documents on specific topics" "Installing Python Modules installing from the Python Package Index & other sources Distributing Python Modules publishing modules for installation by others Extending and Embedding tutorial for C/C++ programmers Python/C API reference for C/C++ programmers FAQs frequently asked questions (with answers!)"
+    text Indices and tables:
+    table "Global Module Index quick access to all modules General Index all functions, classes, terms Glossary the most important terms explained" "Search page search this documentation Complete Table of Contents lists all sections and subsections"
+    text Meta information:
+    table "Reporting bugs Contributing to Docs About the documentation" "History and License of Python Copyright"
+  row
+    col
+      h3 Download
+      link "Download these documents" download.html
+      h3 Docs by version
+      link Stable https://docs.python.org/3/
+      link "In development" https://docs.python.org/dev/
+      link "All versions" https://www.python.org/doc/versions/
+      h3 Other resources
+      link "PEP Index" https://peps.python.org/
+      link "Beginner's Guide" https://wiki.python.org/moin/BeginnersGuide
+      link "Book List" https://wiki.python.org/moin/PythonBooks
+      link "Audio/Visual Talks" https://www.python.org/doc/av/
+      link "Python Developer’s Guide" https://devguide.python.org/
+    text «
+link index genindex.html
+text |
+link modules py-modindex.html
+image https://docs.python.org/3.9/_static/py.svg "python logo"
+text »
+link Python https://www.python.org/
+row
+  select Language "Greek | Ελληνικά" *English "Spanish | español" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文"
+  select "Python version" "dev (3.15)" 3.14 3.13 3.12 3.11 3.10 *3.9.25 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6
+text »
+link "3.9.25 Documentation" #
+text |
+row
+  field "Quick search"
+  button button
+text ©  2001-2026, Python Software Foundation.  This page is licensed under the Python Software Foundation License Version 2.  Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.  See  for more information.  The Python Software Foundation is a non-profit corporation.    Last updated on Apr 02, 2026. ?  Created using  2.4.4.
+link Copyright copyright.html
+link "History and License" /license.html
+link "Please donate." https://www.python.org/psf/donations/
+link "Found a bug" /bugs.html
+link Sphinx https://www.sphinx-doc.org/

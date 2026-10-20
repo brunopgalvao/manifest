@@ -1,0 +1,1485 @@
+@html_spec_whatwg_org_multipage_structure rev=0 @0,0,728,31177
+link https://whatwg.org/ https://whatwg.org/ @17,17,694,20
+h1 HTML @17,49,694,25
+text Living Standard — Last Updated 19 October 2026 success @17,86,694,21
+text — — @17,119,694,20
+row @17,151,694,41
+  link "← 2.6 Common DOM interfaces" common-dom-interfaces.html @17,151,200,41
+  link "Table of Contents" ./ @229,151,114,41
+  link "3 Semantics, structure, and APIs of HTML documents →" dom.html @355,151,356,41
+link "2.7 Safe passing of structured data" structured-data.html#safe-passing-of-structured-data @17,204,694,20
+link "2.7.1 Serializable objects" structured-data.html#serializable-objects @17,236,694,20
+link "2.7.2 Transferable objects" structured-data.html#transferable-objects @17,268,694,20
+link "2.7.3 Restricting to the same agent cluster" structured-data.html#restricting-to-the-same-agent-cluster @17,300,694,21
+link "2.7.4 StructuredSerializeInternal ( value, forStorage [ , memory ] )" structured-data.html#structuredserializeinternal @17,333,694,20
+link "2.7.5 StructuredSerialize ( value )" structured-data.html#structuredserialize @17,365,694,20
+link "2.7.6 StructuredSerializeForStorage ( value )" structured-data.html#structuredserializeforstorage @17,397,694,21
+link "2.7.7 StructuredDeserialize ( serialized, targetRealm [ , memory ] )" structured-data.html#structureddeserialize @17,430,694,20
+link "2.7.8 StructuredSerializeWithTransfer ( value, transferList )" structured-data.html#structuredserializewithtransfer @17,462,694,20
+link "2.7.9 StructuredDeserializeWithTransfer ( serializeWithTransferResult, targetRealm )" structured-data.html#structureddeserializewithtransfer @17,494,694,20
+link "2.7.10 Performing serialization and transferring from other specifications" structured-data.html#performing-structured-clones-from-other-specifications @17,526,694,21
+link "2.7.11 Structured cloning API" structured-data.html#structured-cloning @17,559,694,20
+h3 2.7 Safe passing of structured data @17,591,694,19
+text To support passing JavaScript objects, including , across  boundaries, this specification defines the following infrastructure for serializing and deserializing objects, including in some cases transferring the underlying data instead of copying it. Collectively this serialization/deserialization process is known as "structured cloning", although most APIs perform separate serialization and deserialization steps. (With the notable exception being the  method.) @17,622,694,101
+link "platform objects" https://webidl.spec.whatwg.org/#dfn-platform-object @17,735,694,21
+link realm https://tc39.es/ecma262/#sec-code-realms @17,768,694,20
+link structuredClone() #dom-structuredclone @17,800,694,20
+text This section uses the terminology and typographic conventions from the JavaScript specification. @17,832,694,21
+link [JAVASCRIPT] references.html#refsJAVASCRIPT @17,865,694,20
+h3 2.7.1 Serializable objects @17,897,694,19
+button MDN @17,928,694,36
+text support being serialized, and later deserialized, in a way that is independent of any given . This allows them to be stored on disk and later restored, or cloned across and even boundaries. @17,976,694,40
+link "Serializable objects" #serializable-objects @17,1028,694,21
+link realm https://tc39.es/ecma262/#sec-code-realms @17,1061,694,20
+link agent https://tc39.es/ecma262/#sec-agents @17,1093,694,20
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters @17,1125,694,21
+text Not all objects are , and not all aspects of objects that are are necessarily preserved when they are serialized. @17,1158,694,40
+row @17,1210,694,21
+  link "serializable objects" #serializable-objects2 @17,1210,127,21
+  link "serializable objects" #serializable-objects3 @156,1210,127,21
+text can be if their is decorated with the IDL . Such interfaces must also define the following algorithms: @17,1243,694,20
+row @17,1275,694,20
+  link "Platform objects" https://webidl.spec.whatwg.org/#dfn-platform-object @17,1275,109,20
+  link "serializable objects" #serializable-objects4 @138,1275,127,20
+  link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface @277,1275,114,20
+  text [Serializable] @403,1275,87,20
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @502,1275,122,20
+text , taking a , a , and a boolean @17,1307,694,21
+row @17,1340,694,20
+  text serialization steps @17,1340,120,20
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @149,1340,101,20
+  text value @262,1340,36,20
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @310,1340,48,20
+  text serialized @370,1340,64,20
+  text forStorage @446,1340,71,20
+text A set of steps that serializes the data in into fields of . The resulting data serialized into must be independent of any . If is to the same , then it may also refer to data that is only accessible within that agent cluster. @17,1372,694,61
+text value @17,1445,694,20
+text serialized @17,1477,694,20
+text serialized @17,1509,694,21
+link realm https://tc39.es/ecma262/#sec-code-realms @17,1542,694,20
+text serialized @17,1574,694,20
+link restricted #restrict-to-the-same-agent-cluster @17,1606,694,21
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters @17,1639,694,20
+text has an [[AgentCluster]] field, which is null unless is restricted to the same agent cluster. @17,1671,694,20
+row @17,1703,694,20
+  text serialized @17,1703,64,20
+  text serialized @93,1703,64,20
+text These steps may throw an exception if serialization is not possible. @17,1735,694,21
+text These steps may perform a to serialize nested data structures. They should not call directly, as doing so will omit the important argument. @17,1768,694,40
+link sub-serialization #sub-serialization @17,1820,694,21
+link StructuredSerialize #structuredserialize @17,1853,694,20
+text memory @17,1885,694,20
+text The introduction of these steps should omit mention of the argument if it is not relevant to the algorithm. @17,1917,694,21
+text forStorage @17,1950,694,20
+text , taking a , a , and a @17,1982,694,20
+row @17,2014,694,20
+  text deserialization steps @17,2014,136,20
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @165,2014,48,20
+  text serialized @225,2014,64,20
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @301,2014,101,20
+  text value @414,2014,36,20
+  link realm https://tc39.es/ecma262/#sec-code-realms @462,2014,37,20
+  text targetRealm @511,2014,80,20
+text A set of steps that deserializes the data in , using it to set up as appropriate. will be a newly-created instance of the type in question, with none of its internal data set up; setting that up is the job of these steps. @17,2046,694,61
+text serialized @17,2119,694,21
+text value @17,2152,694,20
+text value @17,2184,694,20
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @17,2216,694,21
+text These steps may throw an exception if deserialization is not possible. @17,2249,694,20
+text These steps may perform a to deserialize nested data structures. They should not call directly, as doing so will omit the important and arguments. @17,2281,694,40
+link sub-deserialization #sub-deserialization @17,2333,694,21
+link StructuredDeserialize #structureddeserialize @17,2366,694,20
+text targetRealm @17,2398,694,20
+text memory @17,2430,694,21
+text It is up to the definition of individual platform objects to determine what data is serialized and deserialized by these steps. Typically the steps are very symmetric. @17,2463,694,40
+text The extended attribute must take no arguments, and must only appear on an interface. It must not appear more than once on an interface. @17,2515,694,41
+link [Serializable] #serializable2 @17,2568,694,20
+text For a given , only the object's is considered during the (de)serialization process. Thus, if inheritance is involved in defining the interface, each -annotated interface in the inheritance chain needs to define standalone and , including taking into account any important data that might come from inherited interfaces. @17,2600,694,81
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @17,2693,694,21
+link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface @17,2726,694,20
+link [Serializable] #serializable3 @17,2758,694,20
+link "serialization steps" #serialization-steps @17,2790,694,21
+link "deserialization steps" #deserialization-steps @17,2823,694,20
+text Let's say we were defining a platform object Person, which had associated with it two pieces of associated data: @17,2855,694,40
+text a name value, which is a string; and @17,2907,694,21
+text a best friend value, which is either another Person instance or null. @17,2940,694,20
+text We could then define instances to be by annotating the interface with the , and defining the following accompanying algorithms: @17,2972,694,41
+text Person @17,3025,694,20
+link "serializable objects" #serializable-objects5 @17,3057,694,20
+text Person @17,3089,694,21
+link [Serializable] #serializable4 @17,3122,694,20
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @17,3154,694,20
+text Their , given and : @17,3186,694,20
+row @17,3218,694,21
+  link "serialization steps" #serialization-steps2 @17,3218,120,21
+  text value @149,3218,36,21
+  text serialized @197,3218,64,21
+text Set .[[Name]] to 's associated name value. @17,3251,694,20
+row @17,3283,694,20
+  text serialized @17,3283,64,20
+  text value @93,3283,36,20
+text Let be the of 's associated best friend value. @17,3315,694,21
+row @17,3348,694,20
+  text serializedBestFriend @17,3348,135,20
+  link sub-serialization #sub-serialization2 @164,3348,110,20
+  text value @286,3348,36,20
+text Set .[[BestFriend]] to . @17,3380,694,20
+row @17,3412,694,21
+  text serialized @17,3412,64,21
+  text serializedBestFriend @93,3412,135,21
+text Their , given , , and : @17,3445,694,20
+row @17,3477,694,20
+  link "deserialization steps" #deserialization-steps2 @17,3477,136,20
+  text serialized @165,3477,64,20
+  text value @241,3477,36,20
+  text targetRealm @289,3477,80,20
+text Set 's associated name value to .[[Name]]. @17,3509,694,20
+row @17,3541,694,21
+  text value @17,3541,36,21
+  text serialized @65,3541,64,21
+text Let be the of .[[BestFriend]]. @17,3574,694,20
+row @17,3606,694,20
+  text deserializedBestFriend @17,3606,152,20
+  link sub-deserialization #sub-deserialization2 @181,3606,127,20
+  text serialized @320,3606,64,20
+text Set 's associated best friend value to . @17,3638,694,21
+row @17,3671,694,20
+  text value @17,3671,36,20
+  text deserializedBestFriend @65,3671,152,20
+text Objects defined in the JavaScript specification are handled by the abstract operation directly. @17,3703,694,20
+link StructuredSerialize #structuredserialize2 @17,3735,694,21
+text Originally, this specification defined the concept of "cloneable objects", which could be cloned from one  to another. However, to better specify the behavior of certain more complex situations, the model was updated to make the serialization and deserialization explicit. success @17,3768,694,60
+link realm https://tc39.es/ecma262/#sec-code-realms @17,3840,694,21
+h3 2.7.2 Transferable objects @17,3873,694,18
+text support being transferred across . Transferring is effectively recreating the object while sharing a reference to the underlying data and then detaching the object being transferred. This is useful to transfer ownership of expensive resources. Not all objects are and not all aspects of objects that are are necessarily preserved when transferred. @17,3903,694,82
+link "Transferable objects" #transferable-objects @17,3997,694,20
+link agents https://tc39.es/ecma262/#sec-agents @17,4029,694,20
+link "transferable objects" #transferable-objects2 @17,4061,694,21
+link "transferable objects" #transferable-objects3 @17,4094,694,20
+text Transferring is an irreversible and non-idempotent operation. Once an object has been transferred, it cannot be transferred, or indeed used, again. success @17,4126,694,40
+text can be if their is decorated with the IDL . Such interfaces must also define the following algorithms: @17,4178,694,21
+row @17,4211,694,20
+  link "Platform objects" https://webidl.spec.whatwg.org/#dfn-platform-object @17,4211,109,20
+  link "transferable objects" #transferable-objects4 @138,4211,133,20
+  link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface @283,4211,114,20
+  text [Transferable] @409,4211,95,20
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @516,4211,122,20
+text , taking a and a @17,4243,694,20
+row @17,4275,694,21
+  text transfer steps @17,4275,93,21
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @122,4275,101,21
+  text value @235,4275,36,21
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @283,4275,48,21
+  text dataHolder @343,4275,74,21
+text A set of steps that transfers the data in into fields of . The resulting data held in must be independent of any . If is to the same , then it may also refer to data that is only accessible within that agent cluster. @17,4308,694,40
+text value @17,4360,694,21
+text dataHolder @17,4393,694,20
+text dataHolder @17,4425,694,20
+link realm https://tc39.es/ecma262/#sec-code-realms @17,4457,694,20
+text dataHolder @17,4489,694,21
+link restricted #restrict-to-the-same-agent-cluster2 @17,4522,694,20
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters @17,4554,694,20
+text has an [[AgentCluster]] field, which is null unless is restricted to the same agent cluster. @17,4586,694,21
+row @17,4619,694,20
+  text dataHolder @17,4619,74,20
+  text dataHolder @103,4619,74,20
+text These steps may throw an exception if transferral is not possible. @17,4651,694,20
+text , taking a and a @17,4683,694,21
+row @17,4716,694,20
+  text transfer-receiving steps @17,4716,160,20
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @189,4716,48,20
+  text dataHolder @249,4716,74,20
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @335,4716,101,20
+  text value @448,4716,36,20
+text A set of steps that receives the data in , using it to set up as appropriate. will be a newly-created instance of the type in question, with none of its internal data set up; setting that up is the job of these steps. @17,4748,694,61
+text dataHolder @17,4821,694,20
+text value @17,4853,694,20
+text value @17,4885,694,21
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @17,4918,694,20
+text These steps may throw an exception if it is not possible to receive the transfer. @17,4950,694,20
+text It is up to the definition of individual platform objects to determine what data is transferred by these steps. Typically the steps are very symmetric. @17,4982,694,41
+text The extended attribute must take no arguments, and must only appear on an interface. It must not appear more than once on an interface. @17,5035,694,40
+link [Transferable] #transferable2 @17,5087,694,21
+text For a given , only the object's is considered during the transferring process. Thus, if inheritance is involved in defining the interface, each -annotated interface in the inheritance chain needs to define standalone and , including taking into account any important data that might come from inherited interfaces. @17,5120,694,81
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @17,5213,694,20
+link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface @17,5245,694,21
+link [Transferable] #transferable3 @17,5278,694,20
+link "transfer steps" #transfer-steps @17,5310,694,20
+link "transfer-receiving steps" #transfer-receiving-steps @17,5342,694,20
+text that are have a internal slot. This is used to ensure that once a platform object has been transferred, it cannot be transferred again. @17,5374,694,41
+row @17,5427,694,20
+  link "Platform objects" https://webidl.spec.whatwg.org/#dfn-platform-object @17,5427,109,20
+  link "transferable objects" #transferable-objects5 @138,5427,133,20
+  text [[Detached]] @283,5427,85,20
+text Objects defined in the JavaScript specification are handled by the abstract operation directly. @17,5459,694,21
+link StructuredSerializeWithTransfer #structuredserializewithtransfer @17,5492,694,20
+h3 2.7.3 Restricting to the same agent cluster @17,5524,694,19
+text Some objects, such as objects, are restricted to the same : they can only be deserialized or received in the agent cluster they were serialized or transferred from. Such objects also cannot be serialized for storage. For example, when is used to send one to a cross-site , a shared worker, or a service worker, a event is fired instead of a event. @17,5555,694,81
+link SharedArrayBuffer https://tc39.es/ecma262/#sec-sharedarraybuffer-objects @17,5648,694,20
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters @17,5680,694,20
+text postMessage() @17,5712,694,21
+link iframe iframe-embed-object.html#the-iframe-element @17,5745,694,20
+link messageerror indices.html#event-messageerror @17,5777,694,20
+link message indices.html#event-message @17,5809,694,21
+text are restricted to the same when they are serialized or transferred if their is decorated with the IDL . @17,5842,694,20
+link "Platform objects" https://webidl.spec.whatwg.org/#dfn-platform-object @17,5874,694,20
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters @17,5906,694,21
+link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface @17,5939,694,20
+text [SameAgentCluster] @17,5971,694,20
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute @17,6003,694,20
+text The extended attribute must take no arguments, and must only appear on an interface that is also decorated with the extended attribute or the extended attribute. It must not appear more than once on an interface. @17,6035,694,61
+link [SameAgentCluster] #sameagentcluster2 @17,6108,694,21
+link [Serializable] #serializable5 @17,6141,694,20
+link [Transferable] #transferable4 @17,6173,694,20
+text For a given , only the object's is considered. Thus, if inheritance is involved in defining the interface, each interface in the inheritance chain whose objects are to be restricted to the same agent cluster needs to be decorated with the extended attribute. @17,6205,694,61
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @17,6278,694,20
+link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface @17,6310,694,21
+link [SameAgentCluster] #sameagentcluster3 @17,6343,694,20
+text The and of other interfaces can restrict their result to the same agent cluster themselves, for instance when only some of their objects need it: @17,6375,694,41
+row @17,6428,694,20
+  link "serialization steps" #serialization-steps3 @17,6428,120,20
+  link "transfer steps" #transfer-steps2 @149,6428,93,20
+text To a to the same , set .[[AgentCluster]] to the 's . @17,6460,694,20
+row @17,6492,694,21
+  text restrict @17,6492,47,21
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @76,6492,48,21
+  text record @136,6492,44,21
+  link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters @192,6492,87,21
+  text record @291,6492,44,21
+  link "surrounding agent" https://tc39.es/ecma262/#surrounding-agent @347,6492,122,21
+  link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters @481,6492,87,21
+h3 2.7.4 StructuredSerializeInternal ( value, forStorage [ , memory ] ) @17,6525,694,18
+text The abstract operation takes as input a JavaScript value and serializes it to a -independent form, represented here as a . This serialized form has all the information necessary to later deserialize into a new JavaScript value in a different realm. @17,6555,694,61
+link StructuredSerializeInternal #structuredserializeinternal @17,6628,694,21
+text value @17,6661,694,20
+link realm https://tc39.es/ecma262/#sec-code-realms @17,6693,694,20
+link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @17,6725,694,20
+text This process can throw an exception, for example when trying to serialize un-serializable objects. @17,6757,694,21
+text If was not supplied, let be an empty . @17,6790,694,20
+row @17,6822,694,20
+  text memory @17,6822,55,20
+  text memory @84,6822,55,20
+  link map https://infra.spec.whatwg.org/#ordered-map @151,6822,29,20
+text The purpose of the map is to avoid serializing objects twice. This ends up preserving cycles and the identity of duplicate objects in graphs. success @17,6854,694,41
+text memory success @17,6907,694,20
+text If [] , then return []. @17,6939,694,21
+row @17,6972,694,20
+  text memory @17,6972,55,20
+  text value @84,6972,36,20
+  link exists https://infra.spec.whatwg.org/#map-exists @132,6972,39,20
+  text memory @183,6972,55,20
+  text value @250,6972,36,20
+text Let be false. @17,7004,694,20
+text deep @17,7036,694,20
+text Let be false. @17,7068,694,21
+text sameAgentCluster @17,7101,694,20
+text If  is undefined, null, , , , or , then return { [[Type]]: "primitive", [[Value]]:  }. @17,7133,694,20
+row @17,7165,694,21
+  text value @17,7165,36,21
+  link "a Boolean" https://tc39.es/ecma262/#sec-ecmascript-language-types-boolean-type @65,7165,66,21
+  link "a Number" https://tc39.es/ecma262/#sec-ecmascript-language-types-number-type @143,7165,65,21
+  link "a BigInt" https://tc39.es/ecma262/#sec-ecmascript-language-types-bigint-type @220,7165,50,21
+  link "a String" https://tc39.es/ecma262/#sec-ecmascript-language-types-string-type @282,7165,51,21
+  text value @345,7165,36,21
+text If , then throw a . @17,7198,694,20
+row @17,7230,694,20
+  text value @17,7230,36,20
+  link "is a Symbol" https://tc39.es/ecma262/#sec-ecmascript-language-types-symbol-type @65,7230,76,20
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @153,7230,115,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @280,7230,99,20
+text Let be an uninitialized value. @17,7262,694,21
+text serialized @17,7295,694,20
+text If  has a [[BooleanData]] internal slot, then set  to { [[Type]]: "Boolean", [[BooleanData]]: .[[BooleanData]] }. @17,7327,694,40
+row @17,7379,694,21
+  text value @17,7379,36,21
+  text serialized @65,7379,64,21
+  text value @141,7379,36,21
+text Otherwise, if  has a [[NumberData]] internal slot, then set  to { [[Type]]: "Number", [[NumberData]]: .[[NumberData]] }. @17,7412,694,40
+row @17,7464,694,21
+  text value @17,7464,36,21
+  text serialized @65,7464,64,21
+  text value @141,7464,36,21
+text Otherwise, if  has a [[BigIntData]] internal slot, then set  to { [[Type]]: "BigInt", [[BigIntData]]: .[[BigIntData]] }. @17,7497,694,40
+row @17,7549,694,21
+  text value @17,7549,36,21
+  text serialized @65,7549,64,21
+  text value @141,7549,36,21
+text Otherwise, if  has a [[StringData]] internal slot, then set  to { [[Type]]: "String", [[StringData]]: .[[StringData]] }. @17,7582,694,40
+row @17,7634,694,20
+  text value @17,7634,36,20
+  text serialized @65,7634,64,20
+  text value @141,7634,36,20
+text Otherwise, if  has a [[DateValue]] internal slot, then set  to { [[Type]]: "Date", [[DateValue]]: .[[DateValue]] }. @17,7666,694,41
+row @17,7719,694,20
+  text value @17,7719,36,20
+  text serialized @65,7719,64,20
+  text value @141,7719,36,20
+text Otherwise, if  has a [[RegExpMatcher]] internal slot, then set  to { [[Type]]: "RegExp", [[RegExpMatcher]]: .[[RegExpMatcher]], [[OriginalSource]]: .[[OriginalSource]], [[OriginalFlags]]: .[[OriginalFlags]] }. @17,7751,694,61
+text value @17,7824,694,21
+text serialized @17,7857,694,20
+text value @17,7889,694,20
+text value @17,7921,694,20
+text value @17,7953,694,21
+text Otherwise, if has an [[ArrayBufferData]] internal slot: @17,7986,694,20
+text value @17,8018,694,20
+text If () is true: @17,8050,694,21
+row @17,8083,694,20
+  link IsSharedArrayBuffer https://tc39.es/ecma262/#sec-issharedarraybuffer @17,8083,136,20
+  text value @165,8083,36,20
+text If the 's is false, then throw a . @17,8115,694,20
+row @17,8147,694,21
+  link "current settings object" webappapis.html#current-settings-object @17,8147,150,21
+  link "cross-origin isolated capability" webappapis.html#concept-settings-object-cross-origin-isolated-capability @179,8147,204,21
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @395,8147,115,21
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @522,8147,99,21
+text This check is only needed when serializing (and not when deserializing) as the cannot change over time and a cannot leave an . success @17,8180,694,40
+link "cross-origin isolated capability" webappapis.html#concept-settings-object-cross-origin-isolated-capability @17,8232,694,20
+link SharedArrayBuffer https://tc39.es/ecma262/#sec-sharedarraybuffer-objects @17,8264,694,21
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters @17,8297,694,20
+text If  has an [[ArrayBufferMaxByteLength]] internal slot, then set  to { [[Type]]: "GrowableSharedArrayBuffer", [[ArrayBufferData]]: .[[ArrayBufferData]], [[ArrayBufferByteLengthData]]: .[[ArrayBufferByteLengthData]], [[ArrayBufferMaxByteLength]]: .[[ArrayBufferMaxByteLength]] }. @17,8329,694,61
+text value @17,8402,694,20
+text serialized @17,8434,694,21
+text value @17,8467,694,20
+text value @17,8499,694,20
+text value @17,8531,694,20
+text Otherwise, set  to { [[Type]]: "SharedArrayBuffer", [[ArrayBufferData]]: .[[ArrayBufferData]], [[ArrayBufferByteLength]]: .[[ArrayBufferByteLength]] }. @17,8563,694,41
+text serialized @17,8616,694,20
+text value @17,8648,694,21
+text value @17,8681,694,20
+text Set to true. @17,8713,694,20
+text sameAgentCluster @17,8745,694,21
+text Otherwise: @17,8778,694,20
+text If () is true, then throw a . @17,8810,694,20
+row @17,8842,694,20
+  link IsDetachedBuffer https://tc39.es/ecma262/#sec-isdetachedbuffer @17,8842,117,20
+  text value @146,8842,36,20
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @194,8842,115,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @321,8842,99,20
+text Let be .[[ArrayBufferByteLength]]. @17,8874,694,21
+row @17,8907,694,20
+  text size @17,8907,27,20
+  text value @56,8907,36,20
+text Let be ? (). @17,8939,694,20
+row @17,8971,694,21
+  text dataCopy @17,8971,64,21
+  link CreateByteDataBlock https://tc39.es/ecma262/#sec-createbytedatablock @93,8971,142,21
+  text size @247,8971,27,21
+text This can throw a exception upon allocation failure. success @17,9004,694,20
+link RangeError https://tc39.es/ecma262/#sec-native-error-types-used-in-this-standard-rangeerror @17,9036,694,20
+text Perform (, 0, .[[ArrayBufferData]], 0, ). @17,9068,694,21
+row @17,9101,694,20
+  link CopyDataBlockBytes https://tc39.es/ecma262/#sec-copydatablockbytes @17,9101,140,20
+  text dataCopy @169,9101,64,20
+  text value @245,9101,36,20
+  text size @293,9101,27,20
+text If  has an [[ArrayBufferMaxByteLength]] internal slot, then set  to { [[Type]]: "ResizableArrayBuffer", [[ArrayBufferData]]: , [[ArrayBufferByteLength]]: , [[ArrayBufferMaxByteLength]]: .[[ArrayBufferMaxByteLength]] }. @17,9133,694,61
+text value @17,9206,694,20
+text serialized @17,9238,694,20
+text dataCopy @17,9270,694,21
+text size @17,9303,694,20
+text value @17,9335,694,20
+text Otherwise, set  to { [[Type]]: "ArrayBuffer", [[ArrayBufferData]]: , [[ArrayBufferByteLength]]:  }. @17,9367,694,21
+row @17,9400,694,20
+  text serialized @17,9400,64,20
+  text dataCopy @93,9400,64,20
+  text size @169,9400,27,20
+text Otherwise, if has a [[ViewedArrayBuffer]] internal slot: @17,9432,694,20
+text value @17,9464,694,20
+text If () is true, then throw a . @17,9496,694,21
+row @17,9529,694,20
+  link IsArrayBufferViewOutOfBounds https://tc39.es/ecma262/#sec-isarraybufferviewoutofbounds @17,9529,211,20
+  text value @240,9529,36,20
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @288,9529,115,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @415,9529,99,20
+text Let be the value of 's [[ViewedArrayBuffer]] internal slot. @17,9561,694,20
+row @17,9593,694,21
+  text buffer @17,9593,41,21
+  text value @70,9593,36,21
+text Let be ? (, , ). @17,9626,694,20
+row @17,9658,694,20
+  text bufferSerialized @17,9658,106,20
+  link StructuredSerializeInternal #structuredserializeinternal2 @135,9658,176,20
+  text buffer @323,9658,41,20
+  text forStorage @376,9658,71,20
+  text memory @459,9658,55,20
+text : .[[Type]] is "ArrayBuffer", "ResizableArrayBuffer", "SharedArrayBuffer", or "GrowableSharedArrayBuffer". @17,9690,694,41
+row @17,9743,694,20
+  link Assert https://infra.spec.whatwg.org/#assert @17,9743,43,20
+  text bufferSerialized @72,9743,106,20
+text If  has a [[DataView]] internal slot, then set  to { [[Type]]: "ArrayBufferView", [[Constructor]]: "DataView", [[ArrayBufferSerialized]]: , [[ByteLength]]: .[[ByteLength]], [[ByteOffset]]: .[[ByteOffset]] }. @17,9775,694,41
+text value @17,9828,694,20
+text serialized @17,9860,694,20
+text bufferSerialized @17,9892,694,21
+text value @17,9925,694,20
+text value @17,9957,694,20
+text Otherwise: @17,9989,694,21
+text : has a [[TypedArrayName]] internal slot. @17,10022,694,20
+row @17,10054,694,20
+  link Assert https://infra.spec.whatwg.org/#assert @17,10054,43,20
+  text value @72,10054,36,20
+text Set  to { [[Type]]: "ArrayBufferView", [[Constructor]]: .[[TypedArrayName]], [[ArrayBufferSerialized]]: , [[ByteLength]]: .[[ByteLength]], [[ByteOffset]]: .[[ByteOffset]], [[ArrayLength]]: .[[ArrayLength]] }. @17,10086,694,41
+text serialized @17,10139,694,20
+text value @17,10171,694,20
+text bufferSerialized @17,10203,694,21
+text value @17,10236,694,20
+text value @17,10268,694,20
+text value @17,10300,694,21
+text Otherwise, if has a [[MapData]] internal slot: @17,10333,694,20
+text value @17,10365,694,20
+text Set  to { [[Type]]: "Map", [[MapData]]: a new empty  }. @17,10397,694,20
+row @17,10429,694,21
+  text serialized @17,10429,64,21
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type @93,10429,24,21
+text Set to true. @17,10462,694,20
+text deep @17,10494,694,20
+text Otherwise, if has a [[SetData]] internal slot: @17,10526,694,21
+text value @17,10559,694,20
+text Set  to { [[Type]]: "Set", [[SetData]]: a new empty  }. @17,10591,694,20
+row @17,10623,694,21
+  text serialized @17,10623,64,21
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type @93,10623,24,21
+text Set to true. @17,10656,694,20
+text deep @17,10688,694,20
+text Otherwise, if has an [[ErrorData]] internal slot and is not a : @17,10720,694,20
+row @17,10752,694,21
+  text value @17,10752,36,21
+  text value @65,10752,36,21
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @113,10752,101,21
+text Let  be ? (, "name"). @17,10785,694,20
+row @17,10817,694,20
+  text name @17,10817,37,20
+  link Get https://tc39.es/ecma262/#sec-get-o-p @66,10817,24,20
+  text value @102,10817,36,20
+text If  is not one of "Error", "EvalError", "RangeError", "ReferenceError", "SyntaxError", "TypeError", or "URIError", then set  to "Error". @17,10849,694,41
+row @17,10902,694,20
+  text name @17,10902,37,20
+  text name @66,10902,37,20
+text Let  be ? .[[GetOwnProperty]](""). @17,10934,694,21
+row @17,10967,694,20
+  text valueMessageDesc @17,10967,130,20
+  text value @159,10967,36,20
+  text message @207,10967,60,20
+text Let be undefined if () is false, and ? (.[[Value]]) otherwise. @17,10999,694,20
+row @17,11031,694,20
+  text message @17,11031,60,20
+  link IsDataDescriptor https://tc39.es/ecma262/#sec-isdatadescriptor @89,11031,111,20
+  text valueMessageDesc @212,11031,130,20
+  link ToString https://tc39.es/ecma262/#sec-tostring @354,11031,57,20
+  text valueMessageDesc @423,11031,130,20
+text Let be an string that represents .[[Stack]]. @17,11063,694,21
+row @17,11096,694,20
+  text stack @17,11096,36,20
+  link implementation-defined https://infra.spec.whatwg.org/#implementation-defined @65,11096,159,20
+  text value @236,11096,36,20
+  link [JSERRORSTACKACCESSOR] references.html#refsJSERRORSTACKACCESSOR @284,11096,197,20
+  link [JSERRORSTACKS] references.html#refsJSERRORSTACKS @493,11096,130,20
+text Set  to { [[Type]]: "Error", [[Name]]: , [[Message]]: , [[Stack]]:  }. @17,11128,694,20
+row @17,11160,694,21
+  text serialized @17,11160,64,21
+  text name @93,11160,37,21
+  text message @142,11160,60,21
+  text stack @214,11160,36,21
+text User agents should attach a serialized representation of any interesting accompanying data which are not yet specified to . @17,11193,694,40
+text serialized @17,11245,694,21
+text Otherwise, if is an Array exotic object: @17,11278,694,20
+text value @17,11310,694,20
+text Let  be ? (, ""). @17,11342,694,20
+row @17,11374,694,21
+  text valueLenDescriptor @17,11374,130,21
+  link OrdinaryGetOwnProperty https://tc39.es/ecma262/#sec-ordinarygetownproperty @159,11374,168,21
+  text value @339,11374,36,21
+  text length @387,11374,42,21
+text Let be .[[Value]]. @17,11407,694,20
+row @17,11439,694,20
+  text valueLen @17,11439,60,20
+  text valueLenDescriptor @89,11439,130,20
+text Set  to { [[Type]]: "Array", [[Length]]: , [[Properties]]: a new empty  }. @17,11471,694,21
+row @17,11504,694,20
+  text serialized @17,11504,64,20
+  text valueLen @93,11504,60,20
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type @165,11504,24,20
+text Set to true. @17,11536,694,20
+text deep @17,11568,694,21
+text Otherwise, if is a that is a : @17,11601,694,20
+row @17,11633,694,20
+  text value @17,11633,36,20
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @65,11633,101,20
+  link "serializable object" #serializable-objects6 @178,11633,120,20
+text If has a internal slot whose value is true, then throw a . @17,11665,694,20
+row @17,11697,694,21
+  text value @17,11697,36,21
+  link [[Detached]] #detached2 @65,11697,85,21
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @162,11697,115,21
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @289,11697,99,21
+text Let be the identifier of the of . @17,11730,694,20
+row @17,11762,694,20
+  text typeString @17,11762,69,20
+  link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface @98,11762,114,20
+  text value @224,11762,36,20
+text Set to { [[Type]]: }. @17,11794,694,21
+row @17,11827,694,20
+  text serialized @17,11827,64,20
+  text typeString @93,11827,69,20
+text If 's is decorated with , then set to true. @17,11859,694,20
+row @17,11891,694,21
+  text value @17,11891,36,21
+  link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface @65,11891,114,21
+  link [SameAgentCluster] #sameagentcluster6 @191,11891,135,21
+  text sameAgentCluster @338,11891,123,21
+text Set to true. @17,11924,694,20
+text deep @17,11956,694,20
+text Otherwise, if is a , then throw a . @17,11988,694,20
+row @17,12020,694,21
+  text value @17,12020,36,21
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @65,12020,101,21
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @178,12020,115,21
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @305,12020,99,21
+text Otherwise, if () is true, then throw a . @17,12053,694,20
+row @17,12085,694,20
+  link IsCallable https://tc39.es/ecma262/#sec-iscallable @17,12085,65,20
+  text value @94,12085,36,20
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @142,12085,115,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @269,12085,99,20
+text Otherwise, if has any internal slot other than [[Prototype]], [[Extensible]], or [[PrivateElements]], then throw a . @17,12117,694,41
+text value @17,12170,694,20
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @17,12202,694,21
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @17,12235,694,20
+text For instance, a [[PromiseState]] or [[WeakMapData]] internal slot. @17,12267,694,20
+text Otherwise, if is an exotic object and is not the intrinsic object associated with any , then throw a . @17,12299,694,20
+text value @17,12331,694,21
+text value @17,12364,694,20
+link %Object.prototype% https://tc39.es/ecma262/#sec-properties-of-the-object-prototype-object @17,12396,694,20
+link realm https://tc39.es/ecma262/#sec-code-realms @17,12428,694,21
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @17,12461,694,20
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @17,12493,694,20
+text For instance, a proxy object. @17,12525,694,21
+text Otherwise: @17,12558,694,20
+text Set  to { [[Type]]: "Object", [[Properties]]: a new empty  }. @17,12590,694,20
+row @17,12622,694,20
+  text serialized @17,12622,64,20
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type @93,12622,24,20
+text Set to true. @17,12654,694,21
+text deep @17,12687,694,20
+text will end up being handled via this step and subsequent steps. The end result is that its exoticness is ignored, and after deserialization the result will be an empty object (not an ). success @17,12719,694,41
+link %Object.prototype% https://tc39.es/ecma262/#sec-properties-of-the-object-prototype-object @17,12772,694,20
+link "immutable prototype exotic object" https://tc39.es/ecma262/#immutable-prototype-exotic-object @17,12804,694,20
+text If is true, then to the same agent cluster; otherwise, set .[[AgentCluster]] to null. @17,12836,694,21
+row @17,12869,694,20
+  text sameAgentCluster @17,12869,123,20
+  link restrict #restrict-to-the-same-agent-cluster3 @152,12869,47,20
+  text serialized @211,12869,64,20
+  text serialized @287,12869,64,20
+text [] to . @17,12901,694,20
+row @17,12933,694,20
+  link Set https://infra.spec.whatwg.org/#map-set @17,12933,22,20
+  text memory @51,12933,55,20
+  text value @118,12933,36,20
+  text serialized @166,12933,64,20
+text If is true: @17,12965,694,21
+text deep @17,12998,694,20
+text If has a [[MapData]] internal slot: @17,13030,694,20
+text value @17,13062,694,21
+text Let be a new empty . @17,13095,694,20
+row @17,13127,694,20
+  text copiedList @17,13127,69,20
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type @98,13127,24,20
+text { [[Key]], [[Value]] } of .[[MapData]]: @17,13159,694,21
+row @17,13192,694,20
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,13192,59,20
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @88,13192,48,20
+  text entry @148,13192,35,20
+  text value @195,13192,36,20
+text Let be a new { [[Key]]: .[[Key]], [[Value]]: .[[Value]] }. @17,13224,694,20
+row @17,13256,694,20
+  text copiedEntry @17,13256,80,20
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @109,13256,48,20
+  text entry @169,13256,35,20
+  text entry @216,13256,35,20
+text If .[[Key]] is not the special value , to . @17,13288,694,21
+row @17,13321,694,20
+  text copiedEntry @17,13321,80,20
+  text empty @109,13321,42,20
+  link append https://infra.spec.whatwg.org/#list-append @163,13321,51,20
+  text copiedEntry @226,13321,80,20
+  text copiedList @318,13321,69,20
+text { [[Key]], [[Value]] } of : @17,13353,694,20
+row @17,13385,694,21
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,13385,59,21
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @88,13385,48,21
+  text entry @148,13385,35,21
+  text copiedList @195,13385,69,21
+text Let be ? (.[[Key]], , ). @17,13418,694,20
+row @17,13450,694,20
+  text serializedKey @17,13450,89,20
+  link StructuredSerializeInternal #structuredserializeinternal3 @118,13450,176,20
+  text entry @306,13450,35,20
+  text forStorage @353,13450,71,20
+  text memory @436,13450,55,20
+text Let be ? (.[[Value]], , ). @17,13482,694,21
+row @17,13515,694,20
+  text serializedValue @17,13515,101,20
+  link StructuredSerializeInternal #structuredserializeinternal4 @130,13515,176,20
+  text entry @318,13515,35,20
+  text forStorage @365,13515,71,20
+  text memory @448,13515,55,20
+text { [[Key]]: , [[Value]]: } to .[[MapData]]. @17,13547,694,20
+row @17,13579,694,20
+  link Append https://infra.spec.whatwg.org/#list-append @17,13579,52,20
+  text serializedKey @81,13579,89,20
+  text serializedValue @182,13579,101,20
+  text serialized @295,13579,64,20
+text Otherwise, if has a [[SetData]] internal slot: @17,13611,694,21
+text value @17,13644,694,20
+text Let be a new empty . @17,13676,694,20
+row @17,13708,694,21
+  text copiedList @17,13708,69,21
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type @98,13708,24,21
+text of .[[SetData]]: @17,13741,694,20
+row @17,13773,694,20
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,13773,59,20
+  text entry @88,13773,35,20
+  text value @135,13773,36,20
+text If is not the special value , to . @17,13805,694,21
+row @17,13838,694,20
+  text entry @17,13838,35,20
+  text empty @64,13838,42,20
+  link append https://infra.spec.whatwg.org/#list-append @118,13838,51,20
+  text entry @181,13838,35,20
+  text copiedList @228,13838,69,20
+text of : @17,13870,694,20
+row @17,13902,694,20
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,13902,59,20
+  text entry @88,13902,35,20
+  text copiedList @135,13902,69,20
+text Let be ? (, , ). @17,13934,694,21
+row @17,13967,694,20
+  text serializedEntry @17,13967,98,20
+  link StructuredSerializeInternal #structuredserializeinternal5 @127,13967,176,20
+  text entry @315,13967,35,20
+  text forStorage @362,13967,71,20
+  text memory @445,13967,55,20
+text to .[[SetData]]. @17,13999,694,20
+row @17,14031,694,21
+  link Append https://infra.spec.whatwg.org/#list-append @17,14031,52,21
+  text serializedEntry @81,14031,98,21
+  text serialized @191,14031,64,21
+text Otherwise, if is a that is a , then perform the for 's , given , , and . @17,14064,694,20
+text value @17,14096,694,20
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @17,14128,694,21
+link "serializable object" #serializable-objects7 @17,14161,694,20
+link "serialization steps" #serialization-steps4 @17,14193,694,20
+text value @17,14225,694,20
+link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface @17,14257,694,21
+text value @17,14290,694,20
+text serialized @17,14322,694,20
+text forStorage @17,14354,694,21
+text The may need to perform a . This is an operation which takes as input a value , and returns (, , ). (In other words, a is a specialization of to be consistent within this invocation.) @17,14387,694,40
+link "serialization steps" #serialization-steps5 @17,14439,694,21
+text sub-serialization @17,14472,694,20
+text subValue @17,14504,694,20
+link StructuredSerializeInternal #structuredserializeinternal6 @17,14536,694,20
+text subValue @17,14568,694,21
+text forStorage @17,14601,694,20
+text memory @17,14633,694,20
+link sub-serialization #sub-serialization3 @17,14665,694,21
+link StructuredSerializeInternal #structuredserializeinternal7 @17,14698,694,20
+text Otherwise, for each in ! (, key): @17,14730,694,20
+row @17,14762,694,20
+  text key @17,14762,24,20
+  link EnumerableOwnProperties https://tc39.es/ecma262/#sec-enumerableownproperties @53,14762,178,20
+  text value @243,14762,36,20
+text If ! (, ) is true: @17,14794,694,21
+row @17,14827,694,20
+  link HasOwnProperty https://tc39.es/ecma262/#sec-hasownproperty @17,14827,114,20
+  text value @143,14827,36,20
+  text key @191,14827,24,20
+text Let be ? .[[Get]](, ). @17,14859,694,20
+row @17,14891,694,21
+  text inputValue @17,14891,71,21
+  text value @100,14891,36,21
+  text key @148,14891,24,21
+  text value @184,14891,36,21
+text Let be ? (, , ). @17,14924,694,20
+row @17,14956,694,20
+  text outputValue @17,14956,81,20
+  link StructuredSerializeInternal #structuredserializeinternal8 @110,14956,176,20
+  text inputValue @298,14956,71,20
+  text forStorage @381,14956,71,20
+  text memory @464,14956,55,20
+text { [[Key]]: , [[Value]]: } to .[[Properties]]. @17,14988,694,21
+row @17,15021,694,20
+  link Append https://infra.spec.whatwg.org/#list-append @17,15021,52,20
+  text key @81,15021,24,20
+  text outputValue @117,15021,81,20
+  text serialized @210,15021,64,20
+text If is true and .[[AgentCluster]] is not null, then throw a . @17,15053,694,20
+row @17,15085,694,20
+  text forStorage @17,15085,71,20
+  text serialized @100,15085,64,20
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @176,15085,115,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @303,15085,99,20
+text This happens after the have run, as they can to the same agent cluster too. success @17,15117,694,21
+row @17,15150,694,20
+  link "serialization steps" #serialization-steps6 @17,15150,120,20
+  link restrict #restrict-to-the-same-agent-cluster4 @149,15150,47,20
+  text serialized success @208,15150,64,20
+text Return . @17,15182,694,20
+text serialized @17,15214,694,21
+text It's important to realize that the  produced by  might contain "pointers" to other records that create circular references. For example, when we pass the following JavaScript object into : @17,15247,694,40
+link Records https://tc39.es/ecma262/#sec-list-and-record-specification-type @17,15299,694,21
+link StructuredSerializeInternal #structuredserializeinternal9 @17,15332,694,20
+link StructuredSerializeInternal #structuredserializeinternal10 @17,15364,694,20
+text o omyself o @17,15396,694,20
+card @17,15428,694,212
+  text const danger @34,15443,660,21
+  text = @34,15476,660,20
+  text {}; @34,15508,660,20
+  text . @34,15540,660,21
+  text = @34,15573,660,20
+  text ; @34,15605,660,20
+text it produces the following result: @17,15652,694,21
+text { [[Type]]: "Object", [[Properties]]: « { [[Key]]: "myself", [[Value]]: <a pointer to this whole structure> } » } @17,15685,694,40
+h3 2.7.5 StructuredSerialize ( value ) @17,15737,694,19
+text Return ? (, false). @17,15768,694,20
+row @17,15800,694,21
+  link StructuredSerializeInternal #structuredserializeinternal11 @17,15800,176,21
+  text value @205,15800,36,21
+h3 2.7.6 StructuredSerializeForStorage ( value ) @17,15833,694,18
+text Return ? (, true). @17,15863,694,21
+row @17,15896,694,20
+  link StructuredSerializeInternal #structuredserializeinternal12 @17,15896,176,20
+  text value @205,15896,36,20
+h3 2.7.7 StructuredDeserialize ( serialized, targetRealm [ , memory ] ) @17,15928,694,19
+text The abstract operation takes as input a , which was previously produced by or , and deserializes it into a new JavaScript value, created in . @17,15959,694,40
+link StructuredDeserialize #structureddeserialize2 @17,16011,694,21
+link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @17,16044,694,20
+text serialized @17,16076,694,20
+link StructuredSerialize #structuredserialize3 @17,16108,694,20
+link StructuredSerializeForStorage #structuredserializeforstorage @17,16140,694,21
+text targetRealm @17,16173,694,20
+text This process can throw an exception, for example when trying to allocate memory for the new objects (especially ArrayBuffer objects). @17,16205,694,41
+text If was not supplied, let be an empty . @17,16258,694,20
+row @17,16290,694,20
+  text memory @17,16290,55,20
+  text memory @84,16290,55,20
+  link map https://infra.spec.whatwg.org/#ordered-map @151,16290,29,20
+text The purpose of the map is to avoid deserializing objects twice. This ends up preserving cycles and the identity of duplicate objects in graphs. success @17,16322,694,41
+text memory success @17,16375,694,20
+text If [] , then return []. @17,16407,694,20
+row @17,16439,694,21
+  text memory @17,16439,55,21
+  text serialized @84,16439,64,21
+  link exists https://infra.spec.whatwg.org/#map-exists @160,16439,39,21
+  text memory @211,16439,55,21
+  text serialized @278,16439,64,21
+text If .[[Type]] is "primitive", then return .[[Value]]. @17,16472,694,20
+row @17,16504,694,20
+  text serialized @17,16504,64,20
+  text serialized @93,16504,64,20
+text If .[[AgentCluster]] is not null and 's corresponding is not .[[AgentCluster]], then throw a . @17,16536,694,21
+text serialized @17,16569,694,20
+text targetRealm @17,16601,694,20
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters @17,16633,694,21
+text serialized @17,16666,694,20
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @17,16698,694,20
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @17,16730,694,20
+text Let be false. @17,16762,694,21
+text deep @17,16795,694,20
+text Let be an uninitialized value. @17,16827,694,20
+text value @17,16859,694,21
+text If .[[Type]] is "Boolean", then set  to a new Boolean object in  whose [[BooleanData]] internal slot value is .[[BooleanData]]. @17,16892,694,40
+row @17,16944,694,21
+  text serialized @17,16944,64,21
+  text value @93,16944,36,21
+  text targetRealm @141,16944,80,21
+  text serialized @233,16944,64,21
+text Otherwise, if .[[Type]] is "Number", then set  to a new Number object in  whose [[NumberData]] internal slot value is .[[NumberData]]. @17,16977,694,40
+text serialized @17,17029,694,20
+text value @17,17061,694,21
+text targetRealm @17,17094,694,20
+text serialized @17,17126,694,20
+text Otherwise, if .[[Type]] is "BigInt", then set  to a new BigInt object in  whose [[BigIntData]] internal slot value is .[[BigIntData]]. @17,17158,694,41
+row @17,17211,694,20
+  text serialized @17,17211,64,20
+  text value @93,17211,36,20
+  text targetRealm @141,17211,80,20
+  text serialized @233,17211,64,20
+text Otherwise, if .[[Type]] is "String", then set  to a new String object in  whose [[StringData]] internal slot value is .[[StringData]]. @17,17243,694,41
+row @17,17296,694,20
+  text serialized @17,17296,64,20
+  text value @93,17296,36,20
+  text targetRealm @141,17296,80,20
+  text serialized @233,17296,64,20
+text Otherwise, if .[[Type]] is "Date", then set  to a new Date object in  whose [[DateValue]] internal slot value is .[[DateValue]]. @17,17328,694,41
+row @17,17381,694,20
+  text serialized @17,17381,64,20
+  text value @93,17381,36,20
+  text targetRealm @141,17381,80,20
+  text serialized @233,17381,64,20
+text Otherwise, if .[[Type]] is "RegExp", then set  to a new RegExp object in  whose [[RegExpMatcher]] internal slot value is .[[RegExpMatcher]], whose [[OriginalSource]] internal slot value is .[[OriginalSource]], and whose [[OriginalFlags]] internal slot value is .[[OriginalFlags]]. @17,17413,694,61
+text serialized @17,17486,694,20
+text value @17,17518,694,21
+text targetRealm @17,17551,694,20
+text serialized @17,17583,694,20
+text serialized @17,17615,694,20
+text serialized @17,17647,694,21
+text Otherwise, if .[[Type]] is "SharedArrayBuffer", then set  to a new SharedArrayBuffer object in  whose [[ArrayBufferData]] internal slot value is .[[ArrayBufferData]] and whose [[ArrayBufferByteLength]] internal slot value is .[[ArrayBufferByteLength]]. @17,17680,694,61
+text serialized @17,17753,694,20
+text value @17,17785,694,20
+text targetRealm @17,17817,694,21
+text serialized @17,17850,694,20
+text serialized @17,17882,694,20
+text Otherwise, if .[[Type]] is "GrowableSharedArrayBuffer", then set  to a new SharedArrayBuffer object in  whose [[ArrayBufferData]] internal slot value is .[[ArrayBufferData]], whose [[ArrayBufferByteLengthData]] internal slot value is .[[ArrayBufferByteLengthData]], and whose [[ArrayBufferMaxByteLength]] internal slot value is .[[ArrayBufferMaxByteLength]]. @17,17914,694,81
+text serialized @17,18007,694,21
+text value @17,18040,694,20
+text targetRealm @17,18072,694,20
+text serialized @17,18104,694,21
+text serialized @17,18137,694,20
+text serialized @17,18169,694,20
+text Otherwise, if .[[Type]] is "ArrayBuffer", then set  to a new ArrayBuffer object in  whose [[ArrayBufferData]] internal slot value is .[[ArrayBufferData]], and whose [[ArrayBufferByteLength]] internal slot value is .[[ArrayBufferByteLength]]. @17,18201,694,61
+text serialized @17,18274,694,20
+text value @17,18306,694,21
+text targetRealm @17,18339,694,20
+text serialized @17,18371,694,20
+text serialized @17,18403,694,21
+text If this throws an exception, catch it, and then throw a . @17,18436,694,20
+row @17,18468,694,20
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @17,18468,115,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @144,18468,99,20
+text This step might throw an exception if there is not enough memory available to create such an ArrayBuffer object. success @17,18500,694,41
+text Otherwise, if .[[Type]] is "ResizableArrayBuffer", then set  to a new ArrayBuffer object in  whose [[ArrayBufferData]] internal slot value is .[[ArrayBufferData]], whose [[ArrayBufferByteLength]] internal slot value is .[[ArrayBufferByteLength]], and whose [[ArrayBufferMaxByteLength]] internal slot value is .[[ArrayBufferMaxByteLength]]. @17,18553,694,81
+text serialized @17,18646,694,20
+text value @17,18678,694,21
+text targetRealm @17,18711,694,20
+text serialized @17,18743,694,20
+text serialized @17,18775,694,20
+text serialized @17,18807,694,21
+text If this throws an exception, catch it, and then throw a . @17,18840,694,20
+row @17,18872,694,20
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @17,18872,115,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @144,18872,99,20
+text This step might throw an exception if there is not enough memory available to create such an ArrayBuffer object. success @17,18904,694,41
+text Otherwise, if .[[Type]] is "ArrayBufferView": @17,18957,694,20
+text serialized @17,18989,694,21
+text Let be ? (.[[ArrayBufferSerialized]], , ). @17,19022,694,20
+row @17,19054,694,20
+  text deserializedArrayBuffer @17,19054,158,20
+  link StructuredDeserialize #structureddeserialize3 @187,19054,143,20
+  text serialized @342,19054,64,20
+  text targetRealm @418,19054,80,20
+  text memory @510,19054,55,20
+text If .[[Constructor]] is "DataView", then set  to a new DataView object in  whose [[ViewedArrayBuffer]] internal slot value is , whose [[ByteLength]] internal slot value is .[[ByteLength]], and whose [[ByteOffset]] internal slot value is .[[ByteOffset]]. @17,19086,694,61
+text serialized @17,19159,694,20
+text value @17,19191,694,21
+text targetRealm @17,19224,694,20
+text deserializedArrayBuffer @17,19256,694,20
+text serialized @17,19288,694,21
+text serialized @17,19321,694,20
+text Otherwise, set to a new typed array object in , using the constructor given by .[[Constructor]], whose [[ViewedArrayBuffer]] internal slot value is , whose [[TypedArrayName]] internal slot value is .[[Constructor]], whose [[ByteLength]] internal slot value is .[[ByteLength]], whose [[ByteOffset]] internal slot value is .[[ByteOffset]], and whose [[ArrayLength]] internal slot value is .[[ArrayLength]]. @17,19353,694,81
+text value @17,19446,694,20
+text targetRealm @17,19478,694,21
+text serialized @17,19511,694,20
+text deserializedArrayBuffer @17,19543,694,20
+text serialized @17,19575,694,21
+text serialized @17,19608,694,20
+text serialized @17,19640,694,20
+text serialized @17,19672,694,20
+text Otherwise, if .[[Type]] is "Map": @17,19704,694,21
+text serialized @17,19737,694,20
+text Set to a new Map object in whose [[MapData]] internal slot value is a new empty . @17,19769,694,20
+row @17,19801,694,21
+  text value @17,19801,36,21
+  text targetRealm @65,19801,80,21
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type @157,19801,24,21
+text Set to true. @17,19834,694,20
+text deep @17,19866,694,20
+text Otherwise, if .[[Type]] is "Set": @17,19898,694,21
+text serialized @17,19931,694,20
+text Set to a new Set object in whose [[SetData]] internal slot value is a new empty . @17,19963,694,20
+row @17,19995,694,21
+  text value @17,19995,36,21
+  text targetRealm @65,19995,80,21
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type @157,19995,24,21
+text Set to true. @17,20028,694,20
+text deep @17,20060,694,20
+text Otherwise, if .[[Type]] is "Array": @17,20092,694,20
+text serialized @17,20124,694,21
+text Let be .[[Intrinsics]].[[]]. @17,20157,694,20
+row @17,20189,694,20
+  text outputProto @17,20189,79,20
+  text targetRealm @108,20189,80,20
+  link %Array.prototype% https://tc39.es/ecma262/#sec-properties-of-the-array-prototype-object @200,20189,132,20
+text Set to ! (.[[Length]], ). @17,20221,694,21
+row @17,20254,694,20
+  text value @17,20254,36,20
+  link ArrayCreate https://tc39.es/ecma262/#sec-arraycreate @65,20254,81,20
+  text serialized @158,20254,64,20
+  text outputProto @234,20254,79,20
+text Set to true. @17,20286,694,20
+text deep @17,20318,694,21
+text Otherwise, if .[[Type]] is "Object": @17,20351,694,20
+text serialized @17,20383,694,20
+text Set to a new Object in . @17,20415,694,20
+row @17,20447,694,21
+  text value @17,20447,36,21
+  text targetRealm @65,20447,80,21
+text Set to true. @17,20480,694,20
+text deep @17,20512,694,20
+text Otherwise, if .[[Type]] is "Error": @17,20544,694,21
+text serialized @17,20577,694,20
+text Let be . @17,20609,694,20
+row @17,20641,694,21
+  text prototype @17,20641,65,21
+  link %Error.prototype% https://tc39.es/ecma262/#sec-properties-of-the-error-prototype-object @94,20641,129,21
+text If .[[Name]] is "EvalError", then set  to . @17,20674,694,20
+row @17,20706,694,20
+  text serialized @17,20706,64,20
+  text prototype @93,20706,65,20
+  link %EvalError.prototype% infrastructure.html#evalerror.prototype @170,20706,157,20
+text If .[[Name]] is "RangeError", then set  to . @17,20738,694,20
+row @17,20770,694,21
+  text serialized @17,20770,64,21
+  text prototype @93,20770,65,21
+  link %RangeError.prototype% infrastructure.html#rangeerror.prototype @170,20770,171,21
+text If .[[Name]] is "ReferenceError", then set  to . @17,20803,694,20
+row @17,20835,694,20
+  text serialized @17,20835,64,20
+  text prototype @93,20835,65,20
+  link %ReferenceError.prototype% infrastructure.html#referenceerror.prototype @170,20835,197,20
+text If .[[Name]] is "SyntaxError", then set  to . @17,20867,694,21
+row @17,20900,694,20
+  text serialized @17,20900,64,20
+  text prototype @93,20900,65,20
+  link %SyntaxError.prototype% infrastructure.html#syntaxerror.prototype @170,20900,174,20
+text If .[[Name]] is "TypeError", then set  to . @17,20932,694,20
+row @17,20964,694,21
+  text serialized @17,20964,64,21
+  text prototype @93,20964,65,21
+  link %TypeError.prototype% infrastructure.html#typeerror.prototype @170,20964,163,21
+text If .[[Name]] is "URIError", then set  to . @17,20997,694,20
+row @17,21029,694,20
+  text serialized @17,21029,64,20
+  text prototype @93,21029,65,20
+  link %URIError.prototype% infrastructure.html#urierror.prototype @170,21029,152,20
+text Let be .[[Message]]. @17,21061,694,20
+row @17,21093,694,21
+  text message @17,21093,60,21
+  text serialized @89,21093,64,21
+text Set to (, « [[ErrorData]], [[Stack]] »). @17,21126,694,20
+row @17,21158,694,20
+  text value @17,21158,36,20
+  link OrdinaryObjectCreate https://tc39.es/ecma262/#sec-objectcreate @65,21158,145,20
+  text prototype @222,21158,65,20
+text Let be { [[Value]]: , [[Writable]]: true, [[Enumerable]]: false, [[Configurable]]: true }. @17,21190,694,21
+row @17,21223,694,20
+  text messageDesc @17,21223,94,20
+  link PropertyDescriptor https://tc39.es/ecma262/#sec-property-descriptor-specification-type @123,21223,127,20
+  text message @262,21223,60,20
+text If  is not undefined, then perform ! (, "", ). @17,21255,694,20
+row @17,21287,694,21
+  text message @17,21287,60,21
+  link OrdinaryDefineOwnProperty https://tc39.es/ecma262/#sec-ordinarydefineownproperty @89,21287,188,21
+  text value @289,21287,36,21
+  text message @337,21287,60,21
+  text messageDesc @409,21287,94,21
+text Set .[[Stack]] to .[[Stack]]. @17,21320,694,20
+row @17,21352,694,20
+  text value @17,21352,36,20
+  text serialized @65,21352,64,20
+text Any interesting accompanying data attached to should be deserialized and attached to . @17,21384,694,20
+row @17,21416,694,21
+  text serialized @17,21416,64,21
+  text value @93,21416,36,21
+text Otherwise: @17,21449,694,20
+text Let be .[[Type]]. @17,21481,694,20
+row @17,21513,694,21
+  text interfaceName @17,21513,98,21
+  text serialized @127,21513,64,21
+text If the interface identified by is not in , then throw a . @17,21546,694,20
+row @17,21578,694,20
+  text interfaceName @17,21578,98,20
+  link exposed https://webidl.spec.whatwg.org/#dfn-exposed @127,21578,57,20
+  text targetRealm @196,21578,80,20
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @288,21578,115,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @415,21578,99,20
+text Set to a new instance of the interface identified by , created in . @17,21610,694,21
+row @17,21643,694,20
+  text value @17,21643,36,20
+  text interfaceName @65,21643,98,20
+  text targetRealm @175,21643,80,20
+text Set to true. @17,21675,694,20
+text deep @17,21707,694,20
+text [] to . @17,21739,694,21
+row @17,21772,694,20
+  link Set https://infra.spec.whatwg.org/#map-set @17,21772,22,20
+  text memory @51,21772,55,20
+  text serialized @118,21772,64,20
+  text value @194,21772,36,20
+text If is true: @17,21804,694,20
+text deep @17,21836,694,21
+text If .[[Type]] is "Map": @17,21869,694,20
+text serialized @17,21901,694,20
+text { [[Key]], [[Value]] } of .[[MapData]]: @17,21933,694,21
+row @17,21966,694,20
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,21966,59,20
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @88,21966,48,20
+  text entry @148,21966,35,20
+  text serialized @195,21966,64,20
+text Let be ? (.[[Key]], , ). @17,21998,694,20
+row @17,22030,694,20
+  text deserializedKey @17,22030,106,20
+  link StructuredDeserialize #structureddeserialize4 @135,22030,143,20
+  text entry @290,22030,35,20
+  text targetRealm @337,22030,80,20
+  text memory @429,22030,55,20
+text Let be ? (.[[Value]], , ). @17,22062,694,21
+row @17,22095,694,20
+  text deserializedValue @17,22095,118,20
+  link StructuredDeserialize #structureddeserialize5 @147,22095,143,20
+  text entry @302,22095,35,20
+  text targetRealm @349,22095,80,20
+  text memory @441,22095,55,20
+text { [[Key]]: , [[Value]]: } to .[[MapData]]. @17,22127,694,20
+row @17,22159,694,21
+  link Append https://infra.spec.whatwg.org/#list-append @17,22159,52,21
+  text deserializedKey @81,22159,106,21
+  text deserializedValue @199,22159,118,21
+  text value @329,22159,36,21
+text Otherwise, if .[[Type]] is "Set": @17,22192,694,20
+text serialized @17,22224,694,20
+text of .[[SetData]]: @17,22256,694,21
+row @17,22289,694,20
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,22289,59,20
+  text entry @88,22289,35,20
+  text serialized @135,22289,64,20
+text Let be ? (, , ). @17,22321,694,20
+row @17,22353,694,20
+  text deserializedEntry @17,22353,115,20
+  link StructuredDeserialize #structureddeserialize6 @144,22353,143,20
+  text entry @299,22353,35,20
+  text targetRealm @346,22353,80,20
+  text memory @438,22353,55,20
+text to .[[SetData]]. @17,22385,694,21
+row @17,22418,694,20
+  link Append https://infra.spec.whatwg.org/#list-append @17,22418,52,20
+  text deserializedEntry @81,22418,115,20
+  text value @208,22418,36,20
+text Otherwise, if .[[Type]] is "Array" or "Object": @17,22450,694,20
+text serialized @17,22482,694,21
+text { [[Key]], [[Value]] } of .[[Properties]]: @17,22515,694,20
+row @17,22547,694,20
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,22547,59,20
+  link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @88,22547,48,20
+  text entry @148,22547,35,20
+  text serialized @195,22547,64,20
+text Let be ? (.[[Value]], , ). @17,22579,694,21
+row @17,22612,694,20
+  text deserializedValue @17,22612,118,20
+  link StructuredDeserialize #structureddeserialize7 @147,22612,143,20
+  text entry @302,22612,35,20
+  text targetRealm @349,22612,80,20
+  text memory @441,22612,55,20
+text Let be ! (, .[[Key]], ). @17,22644,694,20
+row @17,22676,694,20
+  text result @17,22676,38,20
+  link CreateDataProperty https://tc39.es/ecma262/#sec-createdataproperty @67,22676,132,20
+  text value @211,22676,36,20
+  text entry @259,22676,35,20
+  text deserializedValue @306,22676,118,20
+text : is true. @17,22708,694,21
+row @17,22741,694,20
+  link Assert https://infra.spec.whatwg.org/#assert @17,22741,43,20
+  text result @72,22741,38,20
+text Otherwise: @17,22773,694,20
+text Perform the appropriate for the interface identified by .[[Type]], given , , and . @17,22805,694,21
+row @17,22838,694,20
+  link "deserialization steps" #deserialization-steps3 @17,22838,136,20
+  text serialized @165,22838,64,20
+  text serialized @241,22838,64,20
+  text value @317,22838,36,20
+  text targetRealm @365,22838,80,20
+text The may need to perform a . This is an operation which takes as input a previously-serialized , and returns (, , ). (In other words, a is a specialization of to be consistent within this invocation.) @17,22870,694,41
+link "deserialization steps" #deserialization-steps4 @17,22923,694,20
+text sub-deserialization @17,22955,694,20
+link Record https://tc39.es/ecma262/#sec-list-and-record-specification-type @17,22987,694,20
+text subSerialized @17,23019,694,21
+link StructuredDeserialize #structureddeserialize8 @17,23052,694,20
+text subSerialized @17,23084,694,20
+text targetRealm @17,23116,694,21
+text memory @17,23149,694,20
+link sub-deserialization #sub-deserialization3 @17,23181,694,20
+link StructuredDeserialize #structureddeserialize9 @17,23213,694,21
+text Return . @17,23246,694,20
+text value @17,23278,694,20
+h3 2.7.8 StructuredSerializeWithTransfer ( value, transferList ) @17,23310,694,19
+text Let be an empty . @17,23341,694,20
+row @17,23373,694,21
+  text memory @17,23373,55,21
+  link map https://infra.spec.whatwg.org/#ordered-map @84,23373,29,21
+text In addition to how it is used normally by , in this algorithm is also used to ensure that ignores items in , and let us do our own handling instead. success @17,23406,694,40
+link StructuredSerializeInternal #structuredserializeinternal13 @17,23458,694,20
+text memory success @17,23490,694,21
+link StructuredSerializeInternal #structuredserializeinternal14 @17,23523,694,20
+text transferList success @17,23555,694,20
+text of : @17,23587,694,21
+row @17,23620,694,20
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,23620,59,20
+  text transferable @88,23620,80,20
+  text transferList @180,23620,76,20
+text If has neither an [[ArrayBufferData]] internal slot nor a internal slot, then throw a . @17,23652,694,20
+text transferable @17,23684,694,21
+link [[Detached]] #detached3 @17,23717,694,20
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @17,23749,694,20
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @17,23781,694,20
+text If has an [[ArrayBufferData]] internal slot and () is true, then throw a . @17,23813,694,21
+text transferable @17,23846,694,20
+link IsSharedArrayBuffer https://tc39.es/ecma262/#sec-issharedarraybuffer @17,23878,694,20
+text transferable @17,23910,694,21
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @17,23943,694,20
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @17,23975,694,20
+text If [] , then throw a . @17,24007,694,21
+row @17,24040,694,20
+  text memory @17,24040,55,20
+  text transferable @84,24040,80,20
+  link exists https://infra.spec.whatwg.org/#map-exists @176,24040,39,20
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @227,24040,115,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @354,24040,99,20
+text [] to { [[Type]]: an uninitialized value, [[AgentCluster]]: null }. @17,24072,694,20
+row @17,24104,694,20
+  link Set https://infra.spec.whatwg.org/#map-set @17,24104,22,20
+  text memory @51,24104,55,20
+  text transferable @118,24104,80,20
+text is not transferred yet as transferring has side effects and needs to be able to throw first. success @17,24136,694,21
+row @17,24169,694,20
+  text transferable success @17,24169,80,20
+  link StructuredSerializeInternal #structuredserializeinternal15 @109,24169,176,20
+text Let be ? (, false, ). @17,24201,694,20
+row @17,24233,694,21
+  text serialized @17,24233,64,21
+  link StructuredSerializeInternal #structuredserializeinternal16 @93,24233,176,21
+  text value @281,24233,36,21
+  text memory @329,24233,55,21
+text Let be a new empty . @17,24266,694,20
+row @17,24298,694,20
+  text transferDataHolders @17,24298,134,20
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type @163,24298,24,20
+text of : @17,24330,694,21
+row @17,24363,694,20
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,24363,59,20
+  text transferable @88,24363,80,20
+  text transferList @180,24363,76,20
+text If has an [[ArrayBufferData]] internal slot and () is true, then throw a . @17,24395,694,20
+text transferable @17,24427,694,20
+link IsDetachedBuffer https://tc39.es/ecma262/#sec-isdetachedbuffer @17,24459,694,21
+text transferable @17,24492,694,20
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @17,24524,694,20
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @17,24556,694,21
+text If has a internal slot and . is true, then throw a . @17,24589,694,20
+row @17,24621,694,20
+  text transferable @17,24621,80,20
+  link [[Detached]] #detached4 @109,24621,85,20
+  text transferable @206,24621,80,20
+  link [[Detached]] #detached5 @298,24621,85,20
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @395,24621,115,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @522,24621,99,20
+text Let be []. @17,24653,694,21
+row @17,24686,694,20
+  text dataHolder @17,24686,74,20
+  text memory @103,24686,55,20
+  text transferable @170,24686,80,20
+text If has an [[ArrayBufferData]] internal slot: @17,24718,694,20
+text transferable @17,24750,694,20
+text If has an [[ArrayBufferMaxByteLength]] internal slot: @17,24782,694,21
+text transferable @17,24815,694,20
+text Set .[[Type]] to "ResizableArrayBuffer". @17,24847,694,20
+text dataHolder @17,24879,694,21
+text Set .[[ArrayBufferData]] to .[[ArrayBufferData]]. @17,24912,694,20
+row @17,24944,694,20
+  text dataHolder @17,24944,74,20
+  text transferable @103,24944,80,20
+text Set .[[ArrayBufferByteLength]] to .[[ArrayBufferByteLength]]. @17,24976,694,21
+row @17,25009,694,20
+  text dataHolder @17,25009,74,20
+  text transferable @103,25009,80,20
+text Set .[[ArrayBufferMaxByteLength]] to .[[ArrayBufferMaxByteLength]]. @17,25041,694,20
+row @17,25073,694,20
+  text dataHolder @17,25073,74,20
+  text transferable @103,25073,80,20
+text Otherwise: @17,25105,694,21
+text Set .[[Type]] to "ArrayBuffer". @17,25138,694,20
+text dataHolder @17,25170,694,20
+text Set .[[ArrayBufferData]] to .[[ArrayBufferData]]. @17,25202,694,21
+row @17,25235,694,20
+  text dataHolder @17,25235,74,20
+  text transferable @103,25235,80,20
+text Set .[[ArrayBufferByteLength]] to .[[ArrayBufferByteLength]]. @17,25267,694,20
+row @17,25299,694,21
+  text dataHolder @17,25299,74,21
+  text transferable @103,25299,80,21
+text Perform ? (). @17,25332,694,20
+row @17,25364,694,20
+  link DetachArrayBuffer https://tc39.es/ecma262/#sec-detacharraybuffer @17,25364,125,20
+  text transferable @154,25364,80,20
+text Specifications can use the [[ArrayBufferDetachKey]] internal slot to prevent s from being detached. This is used in , for example. success @17,25396,694,41
+link ArrayBuffer https://webidl.spec.whatwg.org/#idl-ArrayBuffer @17,25449,694,20
+text WebAssembly JavaScript Interface success @17,25481,694,20
+link [WASMJS] references.html#refsWASMJS @17,25513,694,21
+text Otherwise: @17,25546,694,20
+text : is a that is a . @17,25578,694,20
+row @17,25610,694,21
+  link Assert https://infra.spec.whatwg.org/#assert @17,25610,43,21
+  text transferable @72,25610,80,21
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @164,25610,101,21
+  link "transferable object" #transferable-objects6 @277,25610,126,21
+text Let be the identifier of the of . @17,25643,694,20
+row @17,25675,694,20
+  text interfaceName @17,25675,98,20
+  link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface @127,25675,114,20
+  text transferable @253,25675,80,20
+text Set .[[Type]] to . @17,25707,694,20
+row @17,25739,694,21
+  text dataHolder @17,25739,74,21
+  text interfaceName @103,25739,98,21
+text If 's is decorated with , then to the same agent cluster. @17,25772,694,20
+row @17,25804,694,20
+  text transferable @17,25804,80,20
+  link "primary interface" https://webidl.spec.whatwg.org/#dfn-primary-interface @109,25804,114,20
+  link [SameAgentCluster] #sameagentcluster9 @235,25804,135,20
+  link restrict #restrict-to-the-same-agent-cluster5 @382,25804,47,20
+  text dataHolder @441,25804,74,20
+text Perform the appropriate for the interface identified by , given and . @17,25836,694,21
+row @17,25869,694,20
+  link "transfer steps" #transfer-steps3 @17,25869,93,20
+  text interfaceName @122,25869,98,20
+  text transferable @232,25869,80,20
+  text dataHolder @324,25869,74,20
+text Set . to true. @17,25901,694,20
+row @17,25933,694,21
+  text transferable @17,25933,80,21
+  link [[Detached]] #detached6 @109,25933,85,21
+text to . @17,25966,694,20
+row @17,25998,694,20
+  link Append https://infra.spec.whatwg.org/#list-append @17,25998,52,20
+  text dataHolder @81,25998,74,20
+  text transferDataHolders @167,25998,134,20
+text Let be { [[Serialized]]: , [[TransferDataHolders]]: , [[InterfaceNames]]: an empty , [[AgentCluster]]: null }. @17,26030,694,20
+row @17,26062,694,21
+  text result @17,26062,38,21
+  text serialized @67,26062,64,21
+  text transferDataHolders @143,26062,134,21
+  link "ordered set" https://infra.spec.whatwg.org/#ordered-set @289,26062,77,21
+text → of : @17,26095,694,20
+row @17,26127,694,20
+  link "For each" https://infra.spec.whatwg.org/#map-iterate @17,26127,59,20
+  text object @88,26127,42,20
+  text record @142,26127,44,20
+  text memory @198,26127,55,20
+text If is a , then .[[Type]] to .[[InterfaceNames]]. @17,26159,694,21
+row @17,26192,694,20
+  text object @17,26192,42,20
+  link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @71,26192,101,20
+  link append https://infra.spec.whatwg.org/#set-append @184,26192,51,20
+  text record @247,26192,44,20
+  text result @303,26192,38,20
+text If .[[AgentCluster]] is not null, then to the same agent cluster. @17,26224,694,20
+row @17,26256,694,21
+  text record @17,26256,44,21
+  link restrict #restrict-to-the-same-agent-cluster6 @73,26256,47,21
+  text result @132,26256,38,21
+text Return . @17,26289,694,20
+text result @17,26321,694,20
+h3 2.7.9 StructuredDeserializeWithTransfer ( serializeWithTransferResult, targetRealm ) @17,26353,694,19
+text Let be an empty . @17,26384,694,20
+row @17,26416,694,21
+  text memory @17,26416,55,21
+  link map https://infra.spec.whatwg.org/#ordered-map @84,26416,29,21
+text Analogous to , in addition to how it is used normally by , in this algorithm is also used to ensure that ignores items in .[[TransferDataHolders]], and let us do our own handling instead. success @17,26449,694,40
+link StructuredSerializeWithTransfer #structuredserializewithtransfer2 @17,26501,694,20
+link StructuredDeserialize #structureddeserialize10 @17,26533,694,21
+text memory success @17,26566,694,20
+link StructuredDeserialize #structureddeserialize11 @17,26598,694,20
+text serializeWithTransferResult success @17,26630,694,21
+text If .[[AgentCluster]] is not null and 's corresponding is not .[[AgentCluster]], then throw a . @17,26663,694,20
+text serializeWithTransferResult @17,26695,694,20
+text targetRealm @17,26727,694,21
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters @17,26760,694,20
+text serializeWithTransferResult @17,26792,694,20
+link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @17,26824,694,20
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @17,26856,694,21
+text of .[[InterfaceNames]]: @17,26889,694,20
+row @17,26921,694,20
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,26921,59,20
+  text interfaceName @88,26921,98,20
+  text serializeWithTransferResult @198,26921,183,20
+text If the interface identified by is not in , then throw a . @17,26953,694,21
+row @17,26986,694,20
+  text interfaceName @17,26986,98,20
+  link exposed https://webidl.spec.whatwg.org/#dfn-exposed @127,26986,57,20
+  text targetRealm @196,26986,80,20
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @288,26986,115,20
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @415,26986,99,20
+text Let be a new empty . @17,27018,694,20
+row @17,27050,694,21
+  text transferredValues @17,27050,119,21
+  link List https://tc39.es/ecma262/#sec-list-and-record-specification-type @148,27050,24,21
+text of .[[TransferDataHolders]]: @17,27083,694,20
+row @17,27115,694,20
+  link "For each" https://infra.spec.whatwg.org/#list-iterate @17,27115,59,20
+  text transferDataHolder @88,27115,127,20
+  text serializeWithTransferResult @227,27115,183,20
+text Let be an uninitialized value. @17,27147,694,20
+text value @17,27179,694,21
+text If .[[Type]] is "ArrayBuffer", then set  to a new ArrayBuffer object in  whose [[ArrayBufferData]] internal slot value is .[[ArrayBufferData]], and whose [[ArrayBufferByteLength]] internal slot value is .[[ArrayBufferByteLength]]. @17,27212,694,61
+text transferDataHolder @17,27285,694,20
+text value @17,27317,694,20
+text targetRealm @17,27349,694,21
+text transferDataHolder @17,27382,694,20
+text transferDataHolder @17,27414,694,20
+text In cases where the original memory occupied by [[ArrayBufferData]] is accessible during the deserialization, this step is unlikely to throw an exception, as no new memory needs to be allocated: the memory occupied by [[ArrayBufferData]] is instead just getting transferred into the new ArrayBuffer. This could be true, for example, when both the source and target realms are in the same process. success @17,27446,694,81
+text Otherwise, if .[[Type]] is "ResizableArrayBuffer", then set  to a new ArrayBuffer object in  whose [[ArrayBufferData]] internal slot value is .[[ArrayBufferData]], whose [[ArrayBufferByteLength]] internal slot value is .[[ArrayBufferByteLength]], and whose [[ArrayBufferMaxByteLength]] internal slot value is .[[ArrayBufferMaxByteLength]]. @17,27539,694,82
+text transferDataHolder @17,27633,694,20
+text value @17,27665,694,20
+text targetRealm @17,27697,694,20
+text transferDataHolder @17,27729,694,21
+text transferDataHolder @17,27762,694,20
+text transferDataHolder @17,27794,694,20
+text For the same reason as the previous step, this step is also unlikely to throw an exception. success @17,27826,694,21
+text Otherwise: @17,27859,694,20
+text Let be .[[Type]]. @17,27891,694,20
+row @17,27923,694,21
+  text interfaceName @17,27923,98,21
+  text transferDataHolder @127,27923,127,21
+text Set to a new instance of the interface identified by , created in . @17,27956,694,20
+row @17,27988,694,20
+  text value @17,27988,36,20
+  text interfaceName @65,27988,98,20
+  text targetRealm @175,27988,80,20
+text Perform the appropriate for the interface identified by given and . @17,28020,694,20
+row @17,28052,694,21
+  link "transfer-receiving steps" #transfer-receiving-steps2 @17,28052,160,21
+  text interfaceName @189,28052,98,21
+  text transferDataHolder @299,28052,127,21
+  text value @438,28052,36,21
+text [] to . @17,28085,694,20
+row @17,28117,694,20
+  link Set https://infra.spec.whatwg.org/#map-set @17,28117,22,20
+  text memory @51,28117,55,20
+  text transferDataHolder @118,28117,127,20
+  text value @257,28117,36,20
+text to . @17,28149,694,21
+row @17,28182,694,20
+  link Append https://infra.spec.whatwg.org/#list-append @17,28182,52,20
+  text value @81,28182,36,20
+  text transferredValues @129,28182,119,20
+text Let be ? (.[[Serialized]], , ). @17,28214,694,20
+row @17,28246,694,21
+  text deserialized @17,28246,81,21
+  link StructuredDeserialize #structureddeserialize12 @110,28246,143,21
+  text serializeWithTransferResult @265,28246,183,21
+  text targetRealm @460,28246,80,21
+  text memory @552,28246,55,21
+text Return { [[Deserialized]]: , [[TransferredValues]]: }. @17,28279,694,20
+row @17,28311,694,20
+  text deserialized @17,28311,81,20
+  text transferredValues @110,28311,119,20
+h3 2.7.10 Performing serialization and transferring from other specifications @17,28343,694,19
+text Other specifications may use the abstract operations defined here. The following provides some guidance on when each abstract operation is typically useful, with examples. @17,28374,694,41
+link StructuredSerializeWithTransfer #structuredserializewithtransfer3 @17,28427,694,20
+link StructuredDeserializeWithTransfer #structureddeserializewithtransfer @17,28459,694,20
+text Cloning a value to another , with a transfer list, but where the target realm is not known ahead of time. In this case the serialization step can be performed immediately, with the deserialization step delayed until the target realm becomes known. @17,28491,694,61
+link realm https://tc39.es/ecma262/#sec-code-realms @17,28564,694,20
+text uses this pair of abstract operations, as the destination realm is not known until the . @17,28596,694,21
+link messagePort.postMessage() web-messaging.html#dom-messageport-postmessage @17,28629,694,20
+link MessagePort web-messaging.html#messageport @17,28661,694,20
+link "has been shipped" web-messaging.html#has-been-shipped @17,28693,694,21
+link StructuredSerialize #structuredserialize4 @17,28726,694,20
+link StructuredSerializeForStorage #structuredserializeforstorage2 @17,28758,694,20
+link StructuredDeserialize #structureddeserialize13 @17,28790,694,20
+text Creating a -independent snapshot of a given value which can be saved for an indefinite amount of time, and then reified back into a JavaScript value later, possibly multiple times. @17,28822,694,41
+link realm https://tc39.es/ecma262/#sec-code-realms @17,28875,694,20
+text can be used for situations where the serialization is anticipated to be stored in a persistent manner, instead of passed between realms. It throws when attempting to serialize objects that are to the same , such as objects, since storing shared memory or other data that cannot leave an agent cluster does not make sense. Similarly, it can throw or possibly have different behavior when given a with custom when the argument is true. @17,28907,694,102
+link StructuredSerializeForStorage #structuredserializeforstorage3 @17,29021,694,20
+link restricted #restrict-to-the-same-agent-cluster7 @17,29053,694,20
+link "agent cluster" https://tc39.es/ecma262/#sec-agent-clusters @17,29085,694,21
+link SharedArrayBuffer https://tc39.es/ecma262/#sec-sharedarraybuffer-objects @17,29118,694,20
+link "platform object" https://webidl.spec.whatwg.org/#dfn-platform-object @17,29150,694,20
+link "serialization steps" #serialization-steps7 @17,29182,694,21
+text forStorage @17,29215,694,20
+text and use on author-supplied state objects, storing them as in the appropriate . Then, is used so that the property can return a clone of the originally-supplied state object. @17,29247,694,41
+link history.pushState() nav-history-apis.html#dom-history-pushstate @17,29300,694,20
+link history.replaceState() nav-history-apis.html#dom-history-replacestate @17,29332,694,20
+link StructuredSerializeForStorage #structuredserializeforstorage4 @17,29364,694,20
+link "serialized state" browsing-the-web.html#serialized-state @17,29396,694,21
+link "session history entry" browsing-the-web.html#session-history-entry @17,29429,694,20
+link StructuredDeserialize #structureddeserialize14 @17,29461,694,20
+link history.state nav-history-apis.html#dom-history-state @17,29493,694,21
+text uses on its input, then uses multiple times on the result to produce a fresh clone for each destination being broadcast to. Note that transferring does not make sense in multi-destination situations. @17,29526,694,40
+row @17,29578,694,21
+  link broadcastChannel.postMessage() web-messaging.html#dom-broadcastchannel-postmessage @17,29578,225,21
+  link StructuredSerialize #structuredserialize5 @254,29578,127,21
+  link StructuredDeserialize #structureddeserialize15 @393,29578,143,21
+text Any API for persisting JavaScript values to the filesystem would also use on its input and on its output. @17,29611,694,20
+link StructuredSerializeForStorage #structuredserializeforstorage5 @17,29643,694,20
+link StructuredDeserialize #structureddeserialize16 @17,29675,694,20
+text In general, call sites may pass in Web IDL values instead of JavaScript values; this is to be understood to perform an implicit to the JavaScript value before invoking these algorithms. @17,29707,694,41
+link conversion https://webidl.spec.whatwg.org/#es-type-mapping @17,29760,694,20
+text Call sites that are not invoked as a result of author code synchronously calling into a user agent method must take care to properly and before invoking , , or abstract operations, if they are being performed on arbitrary objects. This is necessary because the serialization process can invoke author-defined accessors as part of its final deep-serialization steps, and these accessors could call into operations that rely on the and concepts being properly set up. @17,29792,694,102
+link "prepare to run script" webappapis.html#prepare-to-run-script @17,29906,694,20
+link "prepare to run a callback" webappapis.html#prepare-to-run-a-callback @17,29938,694,20
+link StructuredSerialize #structuredserialize6 @17,29970,694,21
+link StructuredSerializeForStorage #structuredserializeforstorage6 @17,30003,694,20
+link StructuredSerializeWithTransfer #structuredserializewithtransfer4 @17,30035,694,20
+link entry webappapis.html#concept-entry-everything @17,30067,694,21
+link incumbent webappapis.html#concept-incumbent-everything @17,30100,694,20
+text performs on its arguments, but is careful to do so immediately, inside the synchronous portion of its algorithm. Thus it is able to use the algorithms without needing to and . @17,30132,694,41
+link window.postMessage() web-messaging.html#dom-window-postmessage @17,30185,694,20
+link StructuredSerializeWithTransfer #structuredserializewithtransfer5 @17,30217,694,20
+link "prepare to run script" webappapis.html#prepare-to-run-script @17,30249,694,20
+link "prepare to run a callback" webappapis.html#prepare-to-run-a-callback @17,30281,694,21
+text In contrast, a hypothetical API that used to serialize some author-supplied object periodically, directly from a on the , would need to ensure it performs the appropriate preparations beforehand. As of this time, we know of no such APIs on the platform; usually it is simpler to perform the serialization ahead of time, as a synchronous consequence of author code. @17,30314,694,81
+link StructuredSerialize #structuredserialize7 @17,30407,694,20
+link task webappapis.html#concept-task @17,30439,694,21
+link "event loop" webappapis.html#event-loop @17,30472,694,20
+h3 2.7.11 Structured cloning API @17,30504,694,19
+text  self.([, { }]) @17,30535,694,20
+row @17,30567,694,20
+  text result @17,30567,38,20
+  link structuredClone #dom-structuredclone2 @67,30567,107,20
+  text value @186,30567,36,20
+  link transfer web-messaging.html#dom-structuredserializeoptions-transfer @234,30567,52,20
+text Takes the input value and returns a deep copy by performing the structured clone algorithm. listed in the array are transferred, not just cloned, meaning that they are no longer usable in the input value. success @17,30599,694,41
+row @17,30652,694,20
+  link "Transferable objects" #transferable-objects7 @17,30652,137,20
+  link transfer web-messaging.html#dom-structuredserializeoptions-transfer @166,30652,52,20
+text Throws a if any part of the input value is not . success @17,30684,694,20
+row @17,30716,694,21
+  link "\"DataCloneError\"" https://webidl.spec.whatwg.org/#datacloneerror @17,30716,115,21
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException @144,30716,99,21
+  link serializable #serializable-objects8 @255,30716,75,21
+button ✔MDN @17,30749,694,36
+text The method steps are: @17,30797,694,20
+text structuredClone(, ) danger @17,30829,694,21
+row @17,30862,694,20
+  text value danger @17,30862,36,20
+  text options danger @65,30862,49,20
+text Let  be ? (, [""]). @17,30894,694,20
+row @17,30926,694,21
+  text serialized @17,30926,64,21
+  link StructuredSerializeWithTransfer #structuredserializewithtransfer6 @93,30926,213,21
+  text value @318,30926,36,21
+  text options @366,30926,49,21
+  link transfer web-messaging.html#dom-structuredserializeoptions-transfer @427,30926,52,21
+text Let be ? (, 's ). @17,30959,694,20
+row @17,30991,694,20
+  text deserializeRecord @17,30991,119,20
+  link StructuredDeserializeWithTransfer #structureddeserializewithtransfer2 @148,30991,230,20
+  text serialized @390,30991,64,20
+  link this https://webidl.spec.whatwg.org/#this @466,30991,24,20
+  link "relevant realm" webappapis.html#concept-relevant-realm @502,30991,95,20
+text Return .[[Deserialized]]. @17,31023,694,20
+text deserializeRecord @17,31055,694,21
+text — — @17,31088,694,20
+row @17,31120,694,41
+  link "← 2.6 Common DOM interfaces" common-dom-interfaces.html @17,31120,200,41
+  link "Table of Contents" ./ @229,31120,114,41
+  link "3 Semantics, structure, and APIs of HTML documents →" dom.html @355,31120,356,41

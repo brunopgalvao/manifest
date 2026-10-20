@@ -39,12 +39,12 @@ row
     button "Contact us" primary
 h2 Compare plans
 table Col Free Pro Enterprise
-  Public |  |  | 
-  Private |  |  | 
-  Permissions |  |  | 
-  Sharing |  |  | 
-  Unlimited members |  |  | 
-  Extra security |  |  | 
+  Public | Included | Included | Included
+  Private |  | Included | Included
+  Permissions | Included | Included | Included
+  Sharing |  | Included | Included
+  Unlimited members |  | Included | Included
+  Extra security |  |  | Included
 row
   text © 2017–2025
   col

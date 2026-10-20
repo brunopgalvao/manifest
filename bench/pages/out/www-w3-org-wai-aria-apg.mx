@@ -1,0 +1,98 @@
+@www_w3_org_wai_aria_apg
+row
+  row
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/
+    text How to build accessibility semantics into web patterns and widgets
+  row
+    link "W3C homepage" https://www.w3.org/
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/
+row
+  link "APG Home" /WAI/ARIA/apg/
+  link Patterns /WAI/ARIA/apg/patterns/
+  link Practices /WAI/ARIA/apg/practices/
+  link Index /WAI/ARIA/apg/example-index/
+  link About /WAI/ARIA/apg/about/
+row
+  col
+    h1 ARIA Authoring Practices Guide (APG) Home
+    text Learn to use the accessibility semantics defined by the Accessible Rich Internet Application (ARIA) specification to create accessible web experiences. This guide describes how to apply accessibility semantics to common design patterns and widgets. It provides design patterns and functional examples complemented by in-depth guidance for fundamental practices.
+    link "View Patterns" patterns/
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-1.svg "A laptop screen fills with an accessibility icon and emits a checkmark."
+h2 APG Resources
+text Building blocks that help you make the web accessible
+row
+  col
+    h3 Design Patterns and Examples
+    text Learn how to make accessible web components and widgets with ARIA roles, states and properties and by implementing keyboard support. One or more ways of implementing each pattern is demonstrated with a functional example.
+    link "Learn more about APG patterns and examples" patterns/
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-2.svg "A menagerie of widgets."
+row
+  col
+    h3 Use ARIA Landmarks
+    text Learn how to use HTML sectioning elements and ARIA landmark roles to make it easy for assistive technology users to understand the meaning of the layout of a page.
+    link "Learn more about ARIA landmarks" practices/landmark-regions/
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-3.svg "A document flies apart into chunks."
+row
+  col
+    h3 Providing Accessible Names and Descriptions
+    text Providing elements with accessible names and, where appropriate, accessible descriptions is one of the most important responsibilities authors have when developing accessible web experiences.
+    link "Learn more about accessible names and descriptions" practices/names-and-descriptions/
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-4.svg "Indicators delve inside a document."
+row
+  col
+    h3 And So Much More...
+    text Learn about other fundamental practices related to correctly using accessibility semantics, developing keyboard interfaces, and more.
+    link "Learn more about APG practices" practices/
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-5.svg "A box with an accessibility label is chock full of widgets and document bits."
+h2 Get Involved
+text The APG Task Force relies on broad community representation and participation to continuously improve the usefulness and quality of the APG. There are a variety of ways you can get involved and help promote development of accessible experiences.
+row
+  col
+    image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-6.svg "An icon showing three nodes connecting."
+    h3 Join the Task Force
+    text To join the APG Task Force, individuals need to first join the W3C ARIA Working Group. Participants are expected to actively contribute to the work of the task force.
+    link "Learn more about the work of the task force and how to join" https://www.w3.org/WAI/ARIA/task-forces/practices/
+  col
+    image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-7.svg "An icon showing two human shapes carrying a burden."
+    h3 Contribute via GitHub
+    text Many valuable contributions are made by people who find or raise issues of interest in our GitHub repository and then submit proposed changes via a GitHub pull request. If you choose this path, please start by studying our guidelines for contributing to the repository and maintaining code quality.
+    link "View ReadMe in the GitHub repository" https://github.com/w3c/aria-practices
+  row
+    image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-8.svg "A notification bell icon appears over an email icon."
+    col
+      h3 Mailing Lists
+      text The APG Task Force uses the public aria-practices mailing list for email discussion. Meeting announcements, agendas, and links to minutes are sent to the mailing list. While GitHub issues are the preferred place to discuss APG content, the mailing list is available to anyone who would prefer to communicate with the APG Task Force via email.
+      link "View the aria-practices mailing list archive" https://lists.w3.org/Archives/Public/public-aria-practices/
+row
+  h2 Help improve this page
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list  or via GitHub.
+link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+row
+  link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/apg-home.html
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/
+link "Back to Top" #top
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/
+text Strategies, standards, resources to make the Web accessible to people with disabilities
+row
+  link "Get News in Email" /WAI/news/subscribe/
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/
+  link Mastodon https://w3c.social/@wai
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+row
+  link Home /WAI/
+  link Contact /WAI/about/contacting/
+  link "Site map" /WAI/sitemap/
+  link "Support WAI" /WAI/about/support/
+  link News /WAI/news/
+  link "Accessibility statement" /WAI/about/accessibility-statement/
+  link "All Translations" /WAI/translations/
+  link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/software-license/
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/

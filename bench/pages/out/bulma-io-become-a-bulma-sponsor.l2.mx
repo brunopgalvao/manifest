@@ -1,0 +1,114 @@
+@bulma_io_become_a_bulma_sponsor rev=0 @0,0,728,1544
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/ @17,17,694,20
+row @17,49,694,212
+  link https://bulma.io/ https://bulma.io/ @17,145,55,20
+  row @84,56,424,198
+    link "Docs Documentation" https://bulma.io/documentation/ @84,135,67,40
+    link Expo https://bulma.io/expo/ @163,145,16,20
+    link Love https://bulma.io/love/ @191,145,16,20
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/ @219,145,27,20
+    row @258,56,250,198
+      link "Open Source on GitHub" https://github.com/jgthms/bulma @258,114,63,82
+      link "Follow me on Twitter" https://twitter.com/jgthms @333,124,56,61
+      button button @401,137,48,36
+      col @461,56,47,198
+        link "Made with Bulma" https://bulma.io/made-with-bulma/ @461,56,47,61
+        link Backers https://bulma.io/backers/ @461,129,47,20
+        link "Bulma Brand" https://bulma.io/brand/ @461,161,47,41
+        link "Bulma Extensions" https://bulma.io/extensions/ @461,214,47,40
+  col @520,49,80,212
+    button button @520,49,80,37
+    card @520,98,80,163
+      button "Light mode" @537,113,46,36
+      button "Dark mode" @537,161,46,36
+      button "System mode" success @537,209,46,37
+  col @612,78,53,154
+    button button @612,78,53,37
+    card @612,127,53,105
+      field "search input" @629,142,19,75
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @677,145,34,20
+h1 Become a Bulma Sponsor @17,273,694,25
+h2 Help the development of Open Source. @17,310,694,21
+card @17,343,694,82
+  link https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IL2JKC6SDL2JLCVADCKJUCESDT277F6BI52QLHEYI55QLCESI623ECTNCYBZ52K https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IL2JKC6SDL2JLCVADCKJUCESDT277F6BI52QLHEYI55QLCESI623ECTNCYBZ52K @34,358,660,20
+  link "Learn AWS from the people who built it. Start learning." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IL2JKC6SDL2JLCVADCKJUCESDT277F6BI52QLHEYI55QLCESI623ECTNCYBZ52K @34,390,660,20
+link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @17,437,694,21
+row @17,470,694,52
+  col @17,470,220,52
+    link https://www.patreon.com/jgthms https://www.patreon.com/jgthms @17,470,220,20
+    link "Become a Patron" https://www.patreon.com/jgthms @17,502,220,20
+  col @249,470,126,52
+    link github https://github.com/jgthms/bulma @249,470,126,20
+    link "Sponsor on GitHub" https://github.com/jgthms/bulma @249,502,126,20
+row @17,534,694,21
+  text $1 @17,534,15,21
+  text a month @44,534,54,21
+  text Thank you for supporting Bulma and open source! @110,534,332,21
+row @17,567,694,40
+  text $10 @17,577,21,20
+  text a month @50,567,47,40
+  text Your name will be put on the Bulma website’s backers page, and in backers.md in the Bulma repository. @109,567,602,40
+row @17,619,694,41
+  text $30 @17,629,20,21
+  text a month @49,619,40,41
+  text Your name will be put at the top of the Bulma website’s backers page, and at the top of backers.md in the Bulma repository. @101,619,610,41
+row @17,672,694,20
+  text $100 @17,672,33,20
+  text a month @62,672,54,20
+  text Your name or company logo will appear on the Bulma homepage. @128,672,432,20
+row @17,704,694,20
+  text $200 @17,704,36,20
+  text a month @65,704,54,20
+  text Two of your names or company logos will appear on the Bulma homepage. @131,704,496,20
+row @17,736,694,41
+  text $300 @17,746,29,21
+  text a month @58,736,44,41
+  text Your name or company logo will appear on the Bulma homepage and in the footer of each page of the website. @114,736,597,41
+row @17,789,694,20
+  text $500 @17,789,35,20
+  text a month @64,789,54,20
+  text Your name or company logo will appear on the Bulma documentation sidebar. @130,789,514,20
+row @17,821,694,158
+  text What is the difference between Patreon and Github? @17,880,214,40
+  col @243,821,468,158
+    text There is no difference in terms of rewards. @243,821,468,21
+    text The main difference is that Patreon charges VAT based on your location. @243,854,468,40
+    text If you already have a GitHub account, your sponsorship will be billed at the same time as your GitHub subscription. @243,906,468,41
+    text In any case, choose the easiest option for you. @243,959,468,20
+h3 How to support Bulma @17,991,694,19
+row @17,1022,694,90
+  col @17,1022,124,90
+    text One-time donation @17,1022,124,20
+    field submit @17,1054,124,58
+  col @153,1040,197,53
+    text Browser testing via @153,1040,197,21
+    link https://www.lambdatest.com/ https://www.lambdatest.com/ @153,1073,197,20
+  col @362,1040,121,53
+    text Visit our Sponsors @362,1040,121,21
+    link celebian https://celebian.com/ @362,1073,121,20
+  col @495,1040,124,53
+    text Monthly donation @495,1040,124,21
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/ @495,1073,124,20
+link ".native-js { background: linear-gradient(-30deg, #000000E5, #000000E5 45%, #000000 45%) #fff; } .native-details { color: #FFFFFF !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #000000; background-color: #FFFFFF; } .native-cta:hover { color: undefined; background-color: undefined; } Mozilla Festival Gather. Share. Connect. Imagine with developers and creatives in Barcelona, Oct. 28-30. Get your tickets" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQWCV7DVZ3JCAAI653NF6YDEKQKCASDCKJJCEYI52QNCTSDCKQUCESI4K3KC6SILKJWCA7DVK3EHJNCLSIZ @17,1124,694,101
+row @17,1237,694,51
+  col @17,1237,195,51
+    h3 Bulma by Jeremy Thomas. @17,1237,195,19
+    link "Follow @jgthms" https://twitter.com/jgthms @17,1268,195,20
+  col @224,1253,155,19
+    h3 Contribute on GitHub @224,1253,155,19
+  col @391,1237,161,51
+    h3 Share on social media @391,1237,161,19
+    row @391,1268,161,20
+      link Twitter https://twitter.com/share @391,1268,47,20
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io @450,1268,66,20
+text Source code licensed . Website content licensed @17,1300,694,21
+row @17,1333,694,20
+  link MIT https://opensource.org/licenses/mit-license.php @17,1333,26,20
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/ @55,1333,122,20
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer @17,1365,694,162
+!overflow button 46/73px
+!overflow light 44/104px
+!overflow dark 44/102px
+!overflow system 44/121px
+!overflow button3 51/73px
+!tiny search 22x37px

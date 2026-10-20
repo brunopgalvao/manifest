@@ -1,0 +1,204 @@
+@ui_shadcn_com rev=0 @0,0,728,1874
+row @17,17,694,36
+  row @17,25,346,20
+    link Home / @17,25,26,20
+    link Docs /docs/installation @55,25,21,20
+    link Components /docs/components @88,25,55,20
+    link Blocks /blocks @155,25,28,20
+    link Charts /charts/area @195,25,29,20
+    link Directory /docs/directory @236,25,39,20
+    link Typeset /typeset @287,25,35,20
+    link Create /create @334,25,29,20
+  row @375,17,336,36
+    button "Search documentation...Search..." @375,17,172,36
+    link 126k https://github.com/shadcn-ui/ui @559,25,20,20
+    button "Toggle theme" @591,17,89,36
+    row @692,25,19,20
+      link New /create @692,25,19,20
+link "Trace, Code Block and AI Elements" /docs/changelog @17,65,694,21
+h1 The Foundation for your Design System @17,98,694,25
+text Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own. @17,135,694,40
+row @17,187,694,21
+  link "Get Started" /docs/installation @17,187,76,21
+  link "View Components" /docs/components @105,187,122,21
+row @17,220,694,1508
+  col @17,425,200,1097
+    row @17,425,200,37
+      button Button primary @17,425,53,37
+      button Secondary @82,425,68,37
+      button Outline @162,425,55,37
+    card @17,474,200,87
+      field Name @34,489,166,57
+    field Message @17,573,200,58
+    row @17,643,200,73
+      text BadgeSecondaryOutline @17,669,39,21
+      row @68,669,30,20
+        badge Apple @68,669,16,20
+        badge Banana @96,669,16,20
+      check "Enable email alerts" on @110,649,37,61
+      toggle "Enable compact notifications" on @159,643,58,73
+    row @17,728,200,36
+      button "Alert DialogDialog" @17,728,72,36
+      row @101,728,116,36
+        button "Button GroupGroup" @101,728,52,36
+        button "Open quick actions" @165,728,52,36
+    row @17,776,200,262
+      col @17,776,43,262
+        text Overview @17,776,43,20
+        button Analytics @17,808,43,37
+        button Transactions @17,857,43,36
+        button Investments @17,905,43,36
+        button Accounts @17,953,43,37
+        button Spending @17,1002,43,36
+      col @72,776,39,262
+        text Planning @72,776,39,20
+        button Documents @72,808,39,37
+        button Budget @72,857,39,36
+        button Reports @72,905,39,36
+        button Goals @72,953,39,37
+        button Calendar @72,1002,39,36
+      col @123,776,40,262
+        text Support @123,776,40,20
+        button "Help Center" @123,808,40,37
+        button Docs @123,857,40,36
+        button "Contact Us" @123,905,40,36
+        button Status @123,953,40,37
+        button Community @123,1002,40,36
+      col @175,776,42,262
+        text Account @175,776,42,20
+        button Profile @175,808,42,37
+        button Billing @175,857,42,36
+        button Notifications @175,905,42,36
+        button Security @175,953,42,37
+        button Appearance @175,1002,42,36
+    row @17,1050,200,101
+      text Savings Targets @17,1080,27,41
+      text Active milestones for 2024 across your portfolio. Monitor how close you are to each savings goal. @56,1050,161,101
+    card @17,1163,200,148
+      text Retirement @34,1178,166,21
+      text $420,000 @34,1211,166,20
+      row @34,1243,166,20
+        region 320.6600036621094x8 @34,1251,150,4 [1 shapes, 0 labelled]
+        text x @196,1243,4,20
+      text 65% achieved$273,000 @34,1275,166,21
+    card @17,1323,200,147
+      text Real Estate @34,1338,166,20
+      text $85,000 @34,1370,166,20
+      row @34,1402,166,21
+        region 320.6600036621094x8 @34,1411,150,3 [1 shapes, 0 labelled]
+        text x @196,1402,4,21
+      text 32% achieved$27,200 @34,1435,166,20
+    text You have not met your targets for this year. @17,1482,200,40
+  col @229,220,222,1508
+    row @229,220,222,40
+      text Contribution History @229,220,94,40
+      text Last 6 months of activity @335,220,116,40
+    region "Last 6 months of contribution activity" 354.6700134277344x200 @229,294,222,124 [10 shapes, 5 labelled]
+      text @0,193.60000610351563 fill:#737373 size:12 "Dec" @229,408,14,9
+      text @73.33000183105469,193.60000610351563 fill:#737373 size:12 "Jan" @275,408,13,9
+      text @146.6699981689453,193.60000610351563 fill:#737373 size:12 "Feb" @321,408,13,9
+      text @220,193.60000610351563 fill:#737373 size:12 "Mar" @367,408,14,9
+      text @293.3399963378906,193.60000610351563 fill:#737373 size:12 "Apr" @413,408,13,9
+    row @229,430,222,85
+      col @229,430,71,85
+        text Upcoming @229,430,71,21
+        text May 2024 @229,463,71,20
+        text Scheduled @229,495,71,20
+      col @312,430,85,85
+        text Savings Plan @312,430,85,21
+        text Accelerated @312,463,85,20
+        text Recurring @312,495,85,20
+    button "View Full Report" primary @229,527,222,37
+    metric "Claimable Balance" $1,211.29 "Pending Setup" @229,576,222,83
+    card @229,671,222,135
+      text Net Royalties$1,248.75 @246,686,188,20
+      text Processing Fee-$37.46 @246,718,188,20
+      text Total Ready to Claim$1,211.29 USD @246,750,188,41
+    text Once your bank is connected, balances over $10.00 are automatically eligible for monthly distribution on the 15th of each month. @229,818,222,102
+    row @229,932,222,121
+      text Q2 Dividend Income @229,962,33,61
+      text Quarterly dividend payouts across your portfolio holdings. @274,932,94,121
+      button "Dismiss dividend income" @380,974,71,37
+    card @229,1065,222,148
+      col @246,1080,188,53
+        text Vanguard @246,1080,188,21
+        text 450 Shares @246,1113,188,20
+      region "Vanguard quarterly dividends" 96x32 @246,1166,96,32 [4 shapes, 0 labelled]
+    card @229,1225,222,166
+      col @246,1240,188,53
+        text S&P 500 VOO @246,1240,188,21
+        text 112 Shares @246,1273,188,20
+      region "S&P 500 VOO quarterly dividends" 96x32 @246,1344,96,32 [4 shapes, 0 labelled]
+    card @229,1403,222,148
+      col @246,1418,188,52
+        text Apple AAPL @246,1418,188,20
+        text 85 Shares @246,1450,188,20
+      region "Apple AAPL quarterly dividends" 96x32 @246,1504,96,32 [4 shapes, 0 labelled]
+    card @229,1563,222,165
+      col @246,1578,188,52
+        text Realty Income @246,1578,188,20
+        text 320 Shares @246,1610,188,20
+      region "Realty Income quarterly dividends" 96x32 @246,1681,96,32 [4 shapes, 0 labelled]
+  col @463,502,248,943
+    card @463,502,248,212
+      region "Connect device QR code" 160x160 @480,539,160,160 [243 shapes, 0 labelled]
+    row @463,726,248,81
+      text Scan to connect your mobile device @463,726,82,81
+      text Open the Ledger mobile app and scan this code to link your device. @557,726,154,81
+    row @463,819,248,61
+      text New Chat @463,829,34,41
+      text How can I help you today? @509,819,92,61
+      button "Reset conversation" @613,831,98,37
+    card @463,892,248,30
+    text Morning, shadcn! @463,934,248,20
+    text What are we working on today? Press send to start a new conversation @463,966,248,61
+    card @463,1039,248,180
+      text I'm building a chat for our app and the scroll behavior is driving me nuts. Every time the AI streams a reply, the whole thread jumps around. @480,1054,214,102
+      row @480,1168,214,36
+        button "Add files" @480,1168,90,36
+        button Send primary @582,1168,65,36
+    row @463,1231,248,36
+      link Home # @463,1239,35,20
+      button "Account options" @510,1231,130,36
+      text Payments @652,1239,59,20
+    link "Change transfer limitAdjust how much you can send from your balance." # @463,1279,248,61
+    link "Scheduled transfersSet up a transfer to send at a later date." # @463,1352,248,41
+    link "Recurring card paymentsManage your repeated card transactions." # @463,1405,248,40
+text Built by at . The source code is available on . @17,1740,694,20
+row @17,1772,694,21
+  link shadcn https://twitter.com/shadcn @17,1772,49,21
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout @78,1772,43,21
+  link GitHub https://github.com/shadcn-ui/ui @133,1772,46,21
+text Notifications alt+T @17,1805,694,20
+text Notifications @17,1837,694,20
+!overflow search 170/256px
+!overflow toggle 87/122px
+!overflow button 51/73px
+!overflow secondary 66/102px
+!overflow outline 53/77px
+!overflow alert 70/150px
+!overflow button2 50/161px
+!overflow open 50/159px
+!overflow analytics 41/92px
+!overflow transactions 41/117px
+!overflow investments 41/112px
+!overflow accounts 41/93px
+!overflow spending 41/93px
+!overflow documents 37/106px
+!overflow budget 37/77px
+!overflow reports 37/81px
+!overflow goals 37/67px
+!overflow calendar 37/90px
+!overflow help 38/109px
+!overflow docs2 38/63px
+!overflow contact 38/104px
+!overflow status 38/72px
+!overflow community 38/107px
+!overflow profile 40/73px
+!overflow billing 40/70px
+!overflow notifications 40/115px
+!overflow security 40/85px
+!overflow appearance 40/111px
+!overflow dismiss 69/197px
+!overflow reset 96/159px
+!overflow account2 128/140px

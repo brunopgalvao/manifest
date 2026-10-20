@@ -1,0 +1,72 @@
+@www_w3_org_wai_aria_apg_about
+row
+  row
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/
+    text How to build accessibility semantics into web patterns and widgets
+  row
+    link "W3C homepage" https://www.w3.org/
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/
+row
+  link "APG Home" /WAI/ARIA/apg/
+  link Patterns /WAI/ARIA/apg/patterns/
+  link Practices /WAI/ARIA/apg/practices/
+  link Index /WAI/ARIA/apg/example-index/
+  link About /WAI/ARIA/apg/about/
+h1 About
+h2 Introduction
+text To learn about the purpose of the APG, the prerequisite knowledge it assumes, and how it is organized, read the .
+link Introduction introduction/
+h2 ARIA Basics
+text Facilitate success when applying APG guidance by developing a solid understanding of what ARIA is, what accessibility semantics are, and their purpose and limitations with this section about .
+link "ARIA Basics" aria-basics/
+h2 Contributing to the APG
+text The APG Task Force relies on broad community representation and participation to continuously improve the usefulness and quality of the APG. .
+link "Learn how you can contribute and help promote development of accessible experiences" contributing/
+h2 Acknowledgements
+text To learn about the people and organizations who contribute to the development of the APG, read the .
+link Acknowledgements acknowledgements/
+h2 Change History
+text A history of how the APG has changed, dating back to 2014, including easy access to the detailed commit log is available in the .
+link "Change History" change-history/
+h2 Related Specifications
+text The APG synthesizes guidance based on information from several specifications. While the guidance contains contextual links to relevant specifications, it can be handy to have a consolidated list of all the .
+link "Related Specifications" related-specifications/
+h2 Assistive Technology Support Tables
+text Pages that provide example implementations of APG patterns also, when available, provide a summary of assistive technology support of the ARIA used in those examples. Learn how to interpret and use data in the .
+link "Assistive Technology Support Tables" at-support-tables/
+h2 Coverage and Quality Report
+text Objectives of the APG Task Force include providing guidance or examples for all ARIA attributes and doing so with code that implements practices documented in the APG code guide. As the APG is revised, the build process updates our view of Progress toward these objectives in the .
+link "Coverage and Quality Report" coverage-and-quality/
+row
+  h2 Help improve this page
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list  or via GitHub.
+link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+row
+  link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/about/about.html
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/about/
+link "Back to Top" #top
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/
+text Strategies, standards, resources to make the Web accessible to people with disabilities
+row
+  link "Get News in Email" /WAI/news/subscribe/
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/
+  link Mastodon https://w3c.social/@wai
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+row
+  link Home /WAI/
+  link Contact /WAI/about/contacting/
+  link "Site map" /WAI/sitemap/
+  link "Support WAI" /WAI/about/support/
+  link News /WAI/news/
+  link "Accessibility statement" /WAI/about/accessibility-statement/
+  link "All Translations" /WAI/translations/
+  link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/software-license/
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/

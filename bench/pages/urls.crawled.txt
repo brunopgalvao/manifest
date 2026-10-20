@@ -1,0 +1,146 @@
+https://getbootstrap.com/	bootstrap	MIT
+https://getbootstrap.com/docs/5.3/getting-started/introduction	bootstrap	MIT
+https://getbootstrap.com/docs/5.3/examples/navbar-static/	bootstrap	MIT
+https://getbootstrap.com/docs/5.3/examples/navbar-fixed/	bootstrap	MIT
+https://getbootstrap.com/docs/5.3/components/navbar	bootstrap	MIT
+https://getbootstrap.com/docs/5.3/examples/sticky-footer/	bootstrap	MIT
+https://getbootstrap.com/docs/5.3/examples	bootstrap	MIT
+https://getbootstrap.com/docs/5.3/getting-started/webpack	bootstrap	MIT
+https://getbootstrap.com/docs/5.3/getting-started/parcel	bootstrap	MIT
+https://getbootstrap.com/docs/5.3/getting-started/vite	bootstrap	MIT
+https://ui.shadcn.com/	shadcn	MIT
+https://ui.shadcn.com/docs/installation	shadcn	MIT
+https://ui.shadcn.com/docs/components	shadcn	MIT
+https://ui.shadcn.com/blocks	shadcn	MIT
+https://ui.shadcn.com/charts/area	shadcn	MIT
+https://ui.shadcn.com/docs/directory	shadcn	MIT
+https://ui.shadcn.com/typeset	shadcn	MIT
+https://ui.shadcn.com/create	shadcn	MIT
+https://ui.shadcn.com/docs/changelog	shadcn	MIT
+https://ui.shadcn.com/examples/rtl	shadcn	MIT
+https://preview.tabler.io/index.html	tabler	MIT
+https://preview.tabler.io/dashboard-crypto.html	tabler	MIT
+https://preview.tabler.io/dashboard-crm.html	tabler	MIT
+https://preview.tabler.io/all-elements.html	tabler	MIT
+https://preview.tabler.io/accordion.html	tabler	MIT
+https://preview.tabler.io/alerts.html	tabler	MIT
+https://preview.tabler.io/sign-in-link.html	tabler	MIT
+https://preview.tabler.io/sign-in-illustration.html	tabler	MIT
+https://preview.tabler.io/sign-in-cover.html	tabler	MIT
+https://preview.tabler.io/sign-up.html	tabler	MIT
+https://todomvc.com/examples/typescript-react	todomvc	MIT
+https://picocss.com/examples	pico	MIT
+https://picocss.com/docs/maintenance	pico	MIT
+https://picocss.com/	pico	MIT
+https://picocss.com/docs	pico	MIT
+https://picocss.com/docs/v2	pico	MIT
+https://picocss.com/docs/brand	pico	MIT
+https://picocss.com/docs/mission	pico	MIT
+https://picocss.com/docs/usage-scenarios	pico	MIT
+https://picocss.com/docs/version-picker	pico	MIT
+https://picocss.com/docs/classless	pico	MIT
+https://bulma.io/	bulma	MIT
+https://bulma.io/documentation/	bulma	MIT
+https://bulma.io/expo/	bulma	MIT
+https://bulma.io/love/	bulma	MIT
+https://bulma.io/become-a-bulma-sponsor/	bulma	MIT
+https://bulma.io/made-with-bulma/	bulma	MIT
+https://bulma.io/backers/	bulma	MIT
+https://bulma.io/brand/	bulma	MIT
+https://bulma.io/extensions/	bulma	MIT
+https://bulma.io/documentation/start/overview/	bulma	MIT
+https://adminlte.io/themes/v3/index3.html	adminlte	MIT
+https://adminlte.io/themes/v3/index2.html	adminlte	MIT
+https://adminlte.io/themes/v3/pages/layout/top-nav.html	adminlte	MIT
+https://adminlte.io/themes/v3/pages/layout/top-nav-sidebar.html	adminlte	MIT
+https://adminlte.io/themes/v3/pages/layout/boxed.html	adminlte	MIT
+https://adminlte.io/themes/v3/pages/layout/fixed-sidebar.html	adminlte	MIT
+https://adminlte.io/themes/v3/pages/layout/fixed-sidebar-custom.html	adminlte	MIT
+https://adminlte.io/themes/v3/pages/layout/fixed-topnav.html	adminlte	MIT
+https://adminlte.io/themes/v3/pages/layout/fixed-footer.html	adminlte	MIT
+https://adminlte.io/themes/v3/pages/layout/collapsed-sidebar.html	adminlte	MIT
+https://en.wikipedia.org/wiki/Wikipedia:Contents	wikipedia	CC-BY-SA
+https://en.wikipedia.org/wiki/Portal:Current_events	wikipedia	CC-BY-SA
+https://en.wikipedia.org/wiki/Special:Random	wikipedia	CC-BY-SA
+https://en.wikipedia.org/wiki/Wikipedia:About	wikipedia	CC-BY-SA
+https://en.wikipedia.org/wiki/Wikipedia:Contact_us	wikipedia	CC-BY-SA
+https://en.wikipedia.org/wiki/Help:Contents	wikipedia	CC-BY-SA
+https://en.wikipedia.org/wiki/Help:Introduction	wikipedia	CC-BY-SA
+https://en.wikipedia.org/wiki/Wikipedia:Community_portal	wikipedia	CC-BY-SA
+https://en.wikipedia.org/wiki/Special:RecentChanges	wikipedia	CC-BY-SA
+https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard	wikipedia	CC-BY-SA
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/table	mdn	CC-BY-SA
+https://developer.mozilla.org/en-US/docs/Web/HTML	mdn	CC-BY-SA
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements	mdn	CC-BY-SA
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes	mdn	CC-BY-SA
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes	mdn	CC-BY-SA
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference	mdn	CC-BY-SA
+https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images	mdn	CC-BY-SA
+https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet	mdn	CC-BY-SA
+https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Date_and_time_formats	mdn	CC-BY-SA
+https://developer.mozilla.org/en-US/docs/Web/HTML/Guides	mdn	CC-BY-SA
+https://docs.python.org/3/download.html	python	PSF
+https://docs.python.org/3.16/	python	PSF
+https://docs.python.org/3.15/	python	PSF
+https://docs.python.org/3.14/	python	PSF
+https://docs.python.org/3.13/	python	PSF
+https://docs.python.org/3.12/	python	PSF
+https://docs.python.org/3.11/	python	PSF
+https://docs.python.org/3.10/	python	PSF
+https://docs.python.org/3.9/	python	PSF
+https://docs.python.org/3.8/	python	PSF
+https://doc.rust-lang.org/settings.html	rust	MIT/Apache
+https://doc.rust-lang.org/help.html	rust	MIT/Apache
+https://doc.rust-lang.org/std/index.html	rust	MIT/Apache
+https://doc.rust-lang.org/std/all.html	rust	MIT/Apache
+https://doc.rust-lang.org/alloc/index.html	rust	MIT/Apache
+https://doc.rust-lang.org/core/index.html	rust	MIT/Apache
+https://doc.rust-lang.org/proc_macro/index.html	rust	MIT/Apache
+https://doc.rust-lang.org/std_detect/index.html	rust	MIT/Apache
+https://doc.rust-lang.org/test/index.html	rust	MIT/Apache
+https://doc.rust-lang.org/src/std/lib.rs.html	rust	MIT/Apache
+https://www.usa.gov/phone	usa.gov	public domain
+https://www.usa.gov/voting-and-elections	usa.gov	public domain
+https://www.usa.gov/about-the-us	usa.gov	public domain
+https://www.usa.gov/complaints	usa.gov	public domain
+https://www.usa.gov/disability-services	usa.gov	public domain
+https://www.usa.gov/disasters-and-emergencies	usa.gov	public domain
+https://www.usa.gov/education	usa.gov	public domain
+https://www.usa.gov/health	usa.gov	public domain
+https://www.usa.gov/housing-help	usa.gov	public domain
+https://www.usa.gov/immigration-and-citizenship	usa.gov	public domain
+https://www.nasa.gov/news/	nasa	public domain
+https://www.nasa.gov/2026-news-releases/	nasa	public domain
+https://www.nasa.gov/news/recently-published/	nasa	public domain
+https://www.nasa.gov/podcasts-and-audio/	nasa	public domain
+https://www.nasa.gov/nasa-blogs/	nasa	public domain
+https://www.nasa.gov/newsletters/	nasa	public domain
+https://www.nasa.gov/social-media/	nasa	public domain
+https://www.nasa.gov/news/media-contacts/	nasa	public domain
+https://www.nasa.gov/events	nasa	public domain
+https://www.nasa.gov/event-type/launch-schedule/	nasa	public domain
+https://html.spec.whatwg.org/	whatwg	CC-BY
+https://html.spec.whatwg.org/dev/	whatwg	CC-BY
+https://html.spec.whatwg.org/commit-snapshots/c97dc912b4121294569d6701a21e88880b1e4e1f/	whatwg	CC-BY
+https://html.spec.whatwg.org/multipage/introduction.html	whatwg	CC-BY
+https://html.spec.whatwg.org/multipage/infrastructure.html	whatwg	CC-BY
+https://html.spec.whatwg.org/multipage/common-microsyntaxes.html	whatwg	CC-BY
+https://html.spec.whatwg.org/multipage/urls-and-fetching.html	whatwg	CC-BY
+https://html.spec.whatwg.org/multipage/common-dom-interfaces.html	whatwg	CC-BY
+https://html.spec.whatwg.org/multipage/structured-data.html	whatwg	CC-BY
+https://html.spec.whatwg.org/multipage/dom.html	whatwg	CC-BY
+https://www.w3.org/WAI/ARIA/apg/	w3c	W3C
+https://www.w3.org/	w3c	W3C
+https://www.w3.org/WAI/	w3c	W3C
+https://www.w3.org/WAI/ARIA/apg/practices/	w3c	W3C
+https://www.w3.org/WAI/ARIA/apg/example-index/	w3c	W3C
+https://www.w3.org/WAI/ARIA/apg/about/	w3c	W3C
+https://www.w3.org/WAI/standards-guidelines/wcag/docs/	w3c	W3C
+https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/	w3c	W3C
+https://www.w3.org/WAI/ARIA/apg/patterns/accordion/	w3c	W3C
+https://www.w3.org/WAI/ARIA/apg/patterns/alert/	w3c	W3C
+https://brunopgalvao.github.io/manifest/index.html	manifest	Apache-2.0
+https://brunopgalvao.github.io/manifest/overview.html	manifest	Apache-2.0
+https://brunopgalvao.github.io/manifest/spec.html	manifest	Apache-2.0
+https://brunopgalvao.github.io/manifest/results.html	manifest	Apache-2.0
+https://brunopgalvao.github.io/manifest/a2ui-extension.html	manifest	Apache-2.0

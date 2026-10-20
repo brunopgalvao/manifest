@@ -30,7 +30,7 @@ for r in ok:
     if isinstance(rt, dict) and rt["total"]:
         heights.append(100 * rt["heights"] / rt["total"])
     rows.append((r["source"], r["slug"], th, tm, text_pct[-1], s["semantic"], s["painted"], s["demoted"], r["nodes"]))
-count_claude.CACHE.write_text(json.dumps({"\u0000".join(k): v for k, v in count_claude._cache.items()}))
+count_claude.CACHE.write_text(json.dumps(count_claude._cache))
 med = lambda xs: statistics.median(xs) if xs else 0
 summary = {
     "pages": len(recs), "imported": len(recs) - len(errors), "parsed": len(ok), "errors": [r["url"] + ": " + r["error"] for r in errors],

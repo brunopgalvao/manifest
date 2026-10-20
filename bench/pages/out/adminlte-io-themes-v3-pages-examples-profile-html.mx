@@ -66,10 +66,13 @@ row
       text Software Engineer
       row
         text Followers
+        text 1,322 primary
       row
         text Following
+        text 543 primary
       row
         text Friends
+        text 13,287 primary
       link Follow #
     card
       h3 About Me
@@ -122,5 +125,7 @@ row
       link Like #
       link "Comments (5)" #
     field "Type a comment"
+text All rights reserved.
 text Version 3.2.0
+text Copyright © 2014-2021 .
 link AdminLTE.io https://adminlte.io

@@ -4,6 +4,14 @@ text Primary Secondary Success Danger Warning Info Light Dark
 text Primary Secondary Success Danger Warning Info Light Dark
 text Primary Secondary Success Danger Warning Info Light Dark
 row
+  text Primary primary
+  text Secondary
+  text Success
+  text Danger danger
+  text Warning warning
+  text Info primary
+  text Light
+  text Dark
 row
   row
     text Primary 1
@@ -15,19 +23,27 @@ row
     text Primary 3 primary
     link "Delete primary 3" #
 row
+  text Primary primary
   row
     link "Delete primary" #
+  text Secondary
   row
     link "Delete secondary" #
+  text Success
   row
     link "Delete success" #
+  text Danger danger
   row
     link "Delete danger" #
+  text Warning warning
   row
     link "Delete warning" #
+  text Info primary
   row
     link "Delete info" #
+  text Light
   row
     link "Delete light" #
+  text Dark
   row
     link "Delete dark" #

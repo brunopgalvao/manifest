@@ -1,0 +1,124 @@
+@picocss_com rev=0 @0,0,728,1497
+row @17,17,694,1463
+  button "Skip to content" primary @17,730,36,37
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @65,667,16,163
+  row @93,708,32,81
+    link "Pico CSS homepage" / @93,718,5,61
+    row @110,708,15,81
+      row @110,738,1,21
+        link Examples /examples @110,738,0,21
+        link Docs /docs @122,738,0,21
+      row @123,708,2,81
+        link "GitHub repository" https://github.com/picocss/pico @123,728,0,41
+        link Twitter https://x.com/picocss @135,738,0,21
+        link "Turn on dark mode" / @147,708,0,81
+  col @137,17,440,1463
+    row @137,17,440,224
+      col @137,17,279,224
+        h1 Minimal CSS Framework for Semantic HTML @137,17,279,50
+        text A minimalist and lightweight starter kit that prioritizes semantic syntax, making every HTML element responsive and elegant by default. @137,79,279,81
+        text Write HTML, Add Pico CSS, and Voilà! @137,172,279,21
+        row @137,205,279,36
+          button "Get Started" primary @137,205,107,36
+          button Examples primary @256,205,96,36
+      col @428,43,149,172
+        field "Enter your email" @428,43,149,58
+        text <form> <input type="email" placeholder="Enter your email"| /></form> @428,113,149,102
+    row @137,253,440,105
+      col @137,269,81,73
+        text 16.9K primary @137,269,81,20
+        link "GitHub Stars" https://github.com/picocss/pico @137,301,81,41
+      col @230,253,162,105
+        text 217.1K primary @230,253,162,20
+        link "Monthly Npm Downloads" https://www.npmjs.com/package/@picocss/pico @230,285,162,41
+        text (Last month) @230,338,162,20
+      col @404,253,173,105
+        text 23.2M primary @404,253,173,20
+        link "Monthly JSDelivr Requests" https://www.jsdelivr.com/package/npm/@picocss/pico @404,285,173,41
+        text (Last month) @404,338,173,20
+    h2 A Superpowered HTML Reset @137,370,440,21
+    text With just the right amount of everything, Pico is a great starting point for a clean and lightweight design system. @137,403,440,41
+    row @137,456,440,691
+      col @137,497,50,608
+        h3 Class-light and Semantic @137,497,50,56
+        text Thriving on simplicity, Pico directly styles your HTML tags, using fewer than 10 .classes overall. It also comes with a class-less version for wild HTML purists. @137,565,50,447
+        link "Discover the class-less version" /docs/classless @137,1024,50,81
+      col @199,499,61,605
+        h3 Great Styles with Just CSS @199,499,61,94
+        text No extra baggage needed. Pico works seamlessly without dependencies, package managers, external files, or JavaScript, achieving elegant and straightforward styles with pure HTML markup. @199,605,61,446
+        link "Get started" /docs @199,1063,61,41
+      col @272,456,64,691
+        h3 Responsive Everything @272,456,64,37
+        text Effortless elegance on every device. Pico natively scales font sizes and spacings with screen widths, resulting in a consistent and elegant look across devices. No extra classes or configuration needed. @272,505,64,528
+        link "Discover the responsive font sizes" /docs/typography @272,1045,64,102
+      col @348,497,60,608
+        h3 Light or Dark Mode @348,497,60,56
+        text Pico comes with two accessible, neutral color schemes out of the box: light and dark. The best part? It automatically adapts to users' prefers-color-scheme, all without the use of JavaScript. @348,565,60,447
+        link "Learn about the color schemes" /docs/color-schemes @348,1024,60,81
+      col @420,466,67,671
+        h3 Easy Customization @420,466,67,38
+        text Customize Pico with over 130 CSS variables, or dive deeper by using SASS. Switch between 20 handcrafted color themes and compose with 30+ modular components to tailor the UI to your brand's look and feel. @420,516,67,527
+        link "Learn about the CSS variables" /docs/css-variables @420,1055,67,82
+      col @499,476,78,650
+        h3 Optimized Performance @499,476,78,38
+        text Speed meets elegance. Unlike bulky and overcomplicated frameworks that demand extensive class overrides and JavaScript, Pico keeps your HTML lean, decreases memory usage by avoiding excessive CSS specificity, and reduces loaded files. @499,526,78,568
+        link "Quick start" /docs @499,1106,78,20
+    h2 Embrace the Power of Less @137,1159,440,21
+    text A strong design foundation thrives on simplicity and ease of maintenance. @137,1192,440,41
+    row @137,1245,440,235
+      col @137,1275,62,174
+        text 😌 Pico CSS @137,1275,62,41
+        text <form> <input type="text"> <button type="submit">Action</button> </form> @137,1328,62,121
+      col @211,1245,366,235
+        text 🥵 Utility CSS Framework @211,1245,366,20
+        text <div class="container display-flex my-md mx-sm"> <form class="form shadow-md my-md mx-sm align-center"> <div class="input-wrapper border-radius-sm"> <input type="text" class="input text-color-gray placeholder-color-light-gray focus-outline-blue"> </div> <div class="button-wrapper border-radius-sm"> <button type="submit" class="button bg-color-blue text-color-white focus-light-blue hover-light-blue"> Action </button> </div> </form> </div> @211,1277,366,203
+  col @589,590,122,317
+    row @589,590,122,203
+      region 49.34000015258789x45 @589,691,2,1 [3 shapes, 0 labelled]
+      row @603,671,52,41
+        row @603,671,5,41
+          text About @603,682,0,20
+          link Maintenance /docs/maintenance @615,682,0,20
+          link "What’s new?" /docs/v2 @627,671,0,41
+          link Brand /docs/brand @639,682,0,20
+          link Mission /docs/mission @651,682,0,20
+          link "Usage scenarios" /docs/usage-scenarios @663,671,0,41
+        row @620,671,5,41
+          text Docs @620,682,0,20
+          link "Quick start" /docs @632,671,0,41
+          link "Version picker" /docs/version-picker @644,671,0,41
+          link "Class-less version" /docs/classless @656,671,0,41
+          link "Form elements" /docs/forms @668,671,0,41
+        row @637,682,3,20
+          text Community @637,682,0,20
+          link Issues https://github.com/picocss/pico/issues @649,682,0,20
+          link Discussions https://github.com/picocss/pico/discussions @661,682,0,20
+          link Help https://github.com/picocss/pico/discussions/categories/help @673,682,0,20
+        row @652,682,3,20
+          text Examples @652,682,0,20
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @664,682,0,20
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @676,682,0,20
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @688,682,0,20
+          link All /examples @700,682,0,20
+      text Designed and built by with the help of our . @667,590,9,203
+      col @688,655,4,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @688,655,4,41
+        link contributors https://github.com/picocss/pico/graphs/contributors @688,708,4,20
+      row @704,682,7,20
+        link GitHub https://github.com/picocss/pico @704,682,0,20
+        link Twitter https://x.com/picocss @716,682,0,20
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @728,682,0,20
+        link NPM https://www.npmjs.com/package/@picocss/pico @740,682,0,20
+    row @589,805,122,102
+      text Code licensed , docs . @589,805,37,102
+      row @638,825,34,61
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @638,846,5,20
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @655,825,17,61
+      text Currently v2.1.1. @684,836,27,40
+!overflow skip 34/130px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

@@ -1,0 +1,45 @@
+@getbootstrap_com_docs_5_3_examples_modal rev=0 @0,0,728,1144
+button "Toggle theme (light)" primary @17,17,694,36
+card @17,65,694,216
+  row @34,80,660,37
+    h1 Modal title @34,86,103,25
+    button Close @149,80,69,37
+  text This is a modal sheet, a variation of the modal that docs itself to the bottom of the viewport like the newer share sheets in iOS. @34,129,660,40
+  button "Save changes" primary @34,181,660,37
+  button Close primary @34,230,660,36
+card @17,293,694,129
+  h3 Enable this setting? @34,308,660,19
+  text You can always change your mind in your account settings. @34,339,660,20
+  row @34,371,660,36
+    button "Yes, enable" @34,371,110,36
+    button "No thanks" @156,371,99,36
+card @17,434,694,152
+  h2 What's new @34,449,660,21
+  row @34,482,660,41
+    row @34,482,201,41
+      region 48x48 @34,493,0,20 [0 shapes, 0 labelled]
+      text Not into lists? Try the new grid view. @46,482,137,41
+      h3 Grid view @195,484,40,37
+    row @247,482,232,41
+      region 48x48 @247,493,0,20 [0 shapes, 0 labelled]
+      text Save items you love for easy access later. @259,482,161,41
+      h3 Bookmarks @432,493,47,19
+    row @491,482,203,41
+      region 48x48 @491,493,0,20 [0 shapes, 0 labelled]
+      text Share videos wherever you go. @503,482,119,41
+      h3 Video embeds @634,484,60,37
+  button "Great, thanks!" primary @34,535,660,36
+card @17,598,694,529
+  row @34,613,660,37
+    h1 Sign up for free @34,619,152,25
+    button Close @198,613,69,37
+  field "Email address" email @34,662,660,57
+  text Email address @34,731,660,21
+  field Password password @34,764,660,57
+  text Password @34,833,660,21
+  button "Sign up" primary @34,866,660,36
+  text By clicking Sign up, you agree to the terms of use. @34,914,660,20
+  h2 Or use a third-party @34,946,660,21
+  button "Sign up with Google" @34,979,660,37
+  button "Sign up with Facebook" @34,1028,660,36
+  button "Sign up with GitHub" @34,1076,660,36

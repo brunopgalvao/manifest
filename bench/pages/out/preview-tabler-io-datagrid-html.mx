@@ -58,8 +58,7 @@ card
       check "Click me" on
     col
       text Icon
-      region 20x20
-        path "M5 12l5 5l10 -10" fill:none stroke:#2fb344 width:1.5
+      text Checked
     col
       text Form control
       field "Input placeholder"
@@ -73,6 +72,7 @@ row
     link "Source code" https://github.com/tabler/tabler
     link Sponsor https://github.com/sponsors/codecalm
   row
+    text Copyright © 2026 . All rights reserved.
     link Tabler .
     link v1.6.1 ./changelog.html
 button Customize primary

@@ -1,0 +1,16 @@
+@getbootstrap_com_docs_5_3_examples_navba rev=0 @0,0,728,308
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,58
+  link "Top navbar" # @17,84,76,20
+  row @105,65,292,58
+    row @105,84,150,20
+      link Home # @105,84,40,20
+      link Link # @157,84,28,20
+      text Disabled @197,84,58,20
+    row @267,65,130,58
+      field Search search @267,65,40,58
+      button Search @319,76,78,36
+card @17,135,694,156
+  h1 Navbar example @34,150,660,25
+  text This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page. @34,187,660,41
+  button "View navbar docs »" primary @34,240,660,36

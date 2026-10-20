@@ -1,0 +1,116 @@
+@getbootstrap_com_docs_5_3_examples_album rev=0 @0,0,728,811
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,37
+  link Album # @17,73,43,21
+  button "Toggle navigation" @72,65,152,37
+h1 Album example @17,114,694,25
+text Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely. @17,151,694,40
+row @17,203,694,21
+  link "Main call to action" # @17,203,121,21
+  link "Secondary action" # @150,203,116,21
+row @17,236,694,429
+  col @17,236,66,429
+    region "Placeholder: Thumbnail" 359.3299865722656x225 @17,274,66,42 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail" @18,280,16,4
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. @17,328,66,284
+    row @17,624,66,41
+      row @17,626,41,37
+        button View @17,626,30,37
+        button Edit @59,626,30,37
+      text 9 mins @70,624,13,41
+  col @95,236,67,429
+    region "Placeholder: Thumbnail" 359.3299865722656x225 @95,274,67,42 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail" @96,280,17,4
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. @95,328,67,284
+    row @95,624,67,41
+      row @95,626,41,37
+        button View @95,626,30,37
+        button Edit @137,626,30,37
+      text 9 mins @148,624,14,41
+  col @174,236,66,429
+    region "Placeholder: Thumbnail" 359.3299865722656x225 @174,274,66,42 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail" @175,280,16,4
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. @174,328,66,284
+    row @174,624,66,41
+      row @174,626,41,37
+        button View @174,626,30,37
+        button Edit @216,626,30,37
+      text 9 mins @227,624,13,41
+  col @252,236,67,429
+    region "Placeholder: Thumbnail" 359.3299865722656x225 @252,274,67,42 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail" @253,280,17,4
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. @252,328,67,284
+    row @252,624,67,41
+      row @252,626,41,37
+        button View @252,626,30,37
+        button Edit @294,626,30,37
+      text 9 mins @305,624,14,41
+  col @331,236,66,429
+    region "Placeholder: Thumbnail" 359.3299865722656x225 @331,274,66,42 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail" @332,280,16,4
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. @331,328,66,284
+    row @331,624,66,41
+      row @331,626,41,37
+        button View @331,626,30,37
+        button Edit @373,626,30,37
+      text 9 mins @384,624,13,41
+  col @409,236,67,429
+    region "Placeholder: Thumbnail" 359.3299865722656x225 @409,274,67,42 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail" @410,280,17,4
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. @409,328,67,284
+    row @409,624,67,41
+      row @409,626,41,37
+        button View @409,626,30,37
+        button Edit @451,626,30,37
+      text 9 mins @462,624,14,41
+  col @488,236,66,429
+    region "Placeholder: Thumbnail" 359.3299865722656x225 @488,274,66,42 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail" @489,280,16,4
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. @488,328,66,284
+    row @488,624,66,41
+      row @488,626,41,37
+        button View @488,626,30,37
+        button Edit @530,626,30,37
+      text 9 mins @541,624,13,41
+  col @566,236,67,429
+    region "Placeholder: Thumbnail" 359.3299865722656x225 @566,274,67,42 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail" @567,280,17,4
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. @566,328,67,284
+    row @566,624,67,41
+      row @566,626,41,37
+        button View @566,626,30,37
+        button Edit @608,626,30,37
+      text 9 mins @619,624,14,41
+  col @645,236,66,429
+    region "Placeholder: Thumbnail" 359.3299865722656x225 @645,274,66,42 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail" @646,280,16,4
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. @645,328,66,284
+    row @645,624,66,41
+      row @645,626,40,37
+        button View @645,626,30,37
+        button Edit @687,626,30,37
+      text 9 mins @697,624,14,41
+link "Back to top" # @17,677,694,20
+text Album example is © Bootstrap, but please download and customize it for yourself! @17,709,694,20
+text New to Bootstrap? or read our . @17,741,694,21
+row @17,774,694,20
+  link "Visit the homepage" / @17,774,128,20
+  link "getting started guide" /docs/5.3/getting-started/introduction @157,774,138,20
+!overflow view 28/62px
+!overflow edit 28/54px
+!overflow view2 28/62px
+!overflow edit2 28/54px
+!overflow view3 28/62px
+!overflow edit3 28/54px
+!overflow view4 28/62px
+!overflow edit4 28/54px
+!overflow view5 28/62px
+!overflow edit5 28/54px
+!overflow view6 28/62px
+!overflow edit6 28/54px
+!overflow view7 28/62px
+!overflow edit7 28/54px
+!overflow view8 28/62px
+!overflow edit8 28/54px
+!overflow view9 28/62px
+!overflow edit9 28/54px

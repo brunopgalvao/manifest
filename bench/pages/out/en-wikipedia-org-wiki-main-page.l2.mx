@@ -1,0 +1,454 @@
+@en_wikipedia_org_wiki_main_page rev=0 @0,0,728,10000
+link "Jump to content" #bodyContent @17,17,694,20
+row @17,49,694,541
+  row @17,49,345,541
+    col @17,49,245,541
+      button "Main menu" @17,49,245,37
+      text Main menu @17,98,245,20
+      row @17,130,245,41
+        text Main menu @17,130,57,41
+        button "Move Main menu to sidebar" @86,132,176,36
+      link "Main page" /wiki/Main_Page @17,183,245,20
+      link Contents /wiki/Wikipedia:Contents @17,215,245,20
+      link "Current events" /wiki/Portal:Current_events @17,247,245,20
+      link "Random article" /wiki/Special:Random @17,279,245,21
+      link "About Wikipedia" /wiki/Wikipedia:About @17,312,245,20
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us @17,344,245,20
+      text Contribute @17,376,245,21
+      link Help /wiki/Help:Contents @17,409,245,20
+      link "Learn to edit" /wiki/Help:Introduction @17,441,245,20
+      link "Community portal" /wiki/Wikipedia:Community_portal @17,473,245,20
+      link "Recent changes" /wiki/Special:RecentChanges @17,505,245,21
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard @17,538,245,20
+      link "Special pages" /wiki/Special:SpecialPages @17,570,245,20
+    link /wiki/Main_Page /wiki/Main_Page @274,310,88,20
+  row @374,282,337,75
+    row @374,282,152,75
+      col @374,282,74,75
+        field "Search Wikipedia" search @374,282,74,75
+      button Search @460,302,66,36
+    row @538,300,173,40
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en @538,310,37,20
+      link "Create account" @587,300,80,40
+      link "Log in" @679,300,32,40
+row @17,602,694,9381
+  row @17,602,598,9381
+    text Main Page @17,5272,5,41
+    row @34,4500,42,1585
+      row @34,5272,6,41
+        link "Main Page" /wiki/Main_Page @34,5272,0,41
+        link Talk /wiki/Talk:Main_Page @46,5283,0,20
+      row @52,4500,24,1585
+        row @52,5272,6,41
+          link Read /wiki/Main_Page @52,5283,0,20
+          link "View source" @64,5272,0,41
+          link "View history" @76,5272,0,41
+        col @70,4500,6,1585
+          button Tools @70,4500,30,36
+          text Tools @70,4548,6,21
+          row @70,4581,6,36
+            text Tools @70,4589,0,20
+            button "Move Tools to sidebar" @82,4581,30,36
+          text General @70,4629,6,20
+          link "What links here" /wiki/Special:WhatLinksHere/Main_Page @70,4661,6,61
+          link "Related changes" /wiki/Special:RecentChangesLinked/Main_Page @70,4734,6,41
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Main_Page&oldid=1380977360 @70,4787,6,40
+          link "Page information" @70,4839,6,41
+          link "Get shortened URL" @70,4892,6,61
+          link "Switch to legacy parser" @70,4965,6,81
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q5296#sitelinks-wikipedia @70,5058,6,61
+          text Print/export @70,5131,6,20
+          link "Download as PDF" @70,5163,6,61
+          link "Printable version" javascript:print(); @70,5236,6,41
+          text In other projects @70,5289,6,61
+          link "Abstract Wikipedia" https://abstract.wikipedia.org/wiki/Abstract_Wikipedia:Main_page @70,5362,6,40
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Main_Page @70,5414,6,41
+          link "Wikimedia Foundation" https://foundation.wikimedia.org/wiki/Home @70,5467,6,41
+          link MediaWiki https://www.mediawiki.org/wiki/MediaWiki @70,5520,6,20
+          link Meta-Wiki https://meta.wikimedia.org/wiki/Main_Page @70,5552,6,20
+          link "Wikimedia Outreach" https://outreach.wikimedia.org/wiki/Main_Page @70,5584,6,41
+          link "Multilingual Wikisource" https://wikisource.org/wiki/Wikisource:Main_Page @70,5637,6,40
+          link Wikispecies https://species.wikimedia.org/wiki/Main_Page @70,5689,6,21
+          link Wikibooks https://en.wikibooks.org/wiki/Main_Page @70,5722,6,20
+          link Wikidata https://www.wikidata.org/wiki/Wikidata:Main_Page @70,5754,6,20
+          link Wikifunctions https://www.wikifunctions.org/wiki/Wikifunctions:Main_Page @70,5786,6,21
+          link Wikimania https://wikimania.wikimedia.org/wiki/Wikimania @70,5819,6,20
+          link Wikinews https://en.wikinews.org/wiki/Main_Page @70,5851,6,20
+          link Wikiquote https://en.wikiquote.org/wiki/Main_Page @70,5883,6,20
+          link Wikisource https://en.wikisource.org/wiki/Main_Page @70,5915,6,21
+          link Wikiversity https://en.wikiversity.org/wiki/Wikiversity:Main_Page @70,5948,6,20
+          link Wikivoyage https://en.wikivoyage.org/wiki/Main_Page @70,5980,6,20
+          link Wiktionary https://en.wiktionary.org/wiki/Wiktionary:Main_Page @70,6012,6,21
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q5296 @70,6045,6,40
+    col @88,5097,17,391
+      row @88,5097,17,36
+        text Appearance @88,5105,0,20
+        button "Hide Appearance" @100,5097,30,36
+      text Text @88,5145,17,20
+      text Small @88,5177,17,21
+      text Standard @88,5210,17,20
+      text Large @88,5242,17,20
+      text Width @88,5274,17,21
+      text Standard @88,5307,17,20
+      text Wide @88,5339,17,20
+      text Color @88,5371,17,21
+      text Automatic @88,5404,17,20
+      text Light @88,5436,17,20
+      text Dark @88,5468,17,20
+    col @117,602,498,9381
+      text From Wikipedia, the free encyclopedia @117,602,498,21
+      text , @117,635,498,20
+      h1 Welcome to Wikipedia @117,667,498,25
+      text the encyclopedia that . @117,704,498,20
+      row @117,736,498,21
+        link free https://en.wikipedia.org/wiki/Free_content @117,736,27,21
+        link "anyone can edit" https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia @156,736,106,21
+      row @117,769,498,20
+        text active editors @117,769,90,20
+        link 270,152 https://en.wikipedia.org/wiki/Special:Statistics @219,769,52,20
+        text articles in @283,769,64,20
+        row @359,769,125,20
+          link 7,255,164 https://en.wikipedia.org/wiki/Special:Statistics @359,769,65,20
+          link English https://en.wikipedia.org/wiki/English_language @436,769,48,20
+      row @117,801,498,5989
+        col @117,2798,389,1995
+          h2 From today's featured article @117,2798,389,21
+          link "Cartoon of the London Monster" https://en.wikipedia.org/wiki/File:The_monster_cutting_a_lady.jpg @117,2831,389,21
+          text Cartoon of the London Monster @117,2864,389,20
+          text The was the name given to an attacker of women in London between 1788 and 1790. The Monster's was to abuse women verbally with lewd and suggestive comments, then attack them with a knife . The philanthropist arranged a reward of 100 guineas (equivalent to £13,000 in 2025) for the capture and conviction of the Monster. More than 30 men were taken to with their accusers hoping to claim the reward; all were released. Renwick Williams was arrested when one of the attacked women claimed to recognise him as the attacker. He was found guilty, despite having an for at least one of the attacks. There is doubt among some historians whether he was the attacker as no hard or forensic evidence was ever found. It is likely that took place, particularly as some of the assaults were recorded as being committed by a group of men. @117,2896,389,325
+          link "London Monster" https://en.wikipedia.org/wiki/London_Monster @117,3233,389,20
+          link "modus operandi" https://en.wikipedia.org/wiki/Modus_operandi @117,3265,389,20
+          text (cartoon pictured) @117,3297,389,21
+          link "John Julius Angerstein" https://en.wikipedia.org/wiki/John_Julius_Angerstein @117,3330,389,20
+          link "Bow Street Magistrates' Court" https://en.wikipedia.org/wiki/Bow_Street_Magistrates'_Court_and_Police_Station @117,3362,389,20
+          link alibi https://en.wikipedia.org/wiki/Alibi @117,3394,389,20
+          link "copycat attacks" https://en.wikipedia.org/wiki/Copycat_crime @117,3426,389,21
+          text () @117,3459,389,20
+          link "Full article..." https://en.wikipedia.org/wiki/London_Monster @117,3491,389,20
+          text Recently featured: @117,3523,389,21
+          link "Ancient Cappadocian language" https://en.wikipedia.org/wiki/Ancient_Cappadocian_language @117,3556,389,20
+          link "The Demi-Virgin" https://en.wikipedia.org/wiki/The_Demi-Virgin @117,3588,389,20
+          link "French battleship Brennus" https://en.wikipedia.org/wiki/French_battleship_Brennus @117,3620,389,21
+          row @117,3653,389,20
+            link Archive https://en.wikipedia.org/wiki/Wikipedia:Today's_featured_article/October_2026 @117,3653,51,20
+            link "By email" https://lists.wikimedia.org/postorius/lists/daily-article-l.lists.wikimedia.org/ @180,3653,57,20
+            link "More featured articles" https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_(linked_from_TFAfooter) @249,3653,147,20
+            link About https://en.wikipedia.org/wiki/Wikipedia:About_Today's_featured_article @408,3653,40,20
+          h2 Did you know ... @117,3685,389,21
+          link "Sanda Island Lighthouse" https://en.wikipedia.org/wiki/File:Sandalighthouse.jpg @117,3718,389,20
+          text Sanda Island Lighthouse @117,3750,389,21
+          text ... that the   was built in three "steps" against a cliff face, a design that is unique in Scotland? @117,3783,389,40
+          link "Sanda Island Lighthouse" https://en.wikipedia.org/wiki/Sanda_Island_Lighthouse @117,3835,389,21
+          text (pictured) @117,3868,389,20
+          text ... that , the organist at the for 33 years, composed ? @117,3900,389,20
+          link "Bert Matter" https://en.wikipedia.org/wiki/Bert_Matter @117,3932,389,20
+          link "Walburgiskerk in Zutphen" https://en.wikipedia.org/wiki/Walburgiskerk,_Zutphen @117,3964,389,21
+          link "minimal music" https://en.wikipedia.org/wiki/Minimal_music @117,3997,389,20
+          text ... that once broadcast out of a former student cafeteria? @117,4029,389,20
+          link "a Michigan TV station" https://en.wikipedia.org/wiki/WKAR-TV @117,4061,389,21
+          text ... that , Germany's current ambassador to France, held the exact same diplomatic post for East Germany more than three decades ago? @117,4094,389,61
+          link "Stephan Steinlein" https://en.wikipedia.org/wiki/Stephan_Steinlein @117,4167,389,20
+          text ... that the Byzantine victory at the in 530 against a numerically superior Persian army depended on the actions of a single individual? @117,4199,389,61
+          link "Battle of Satala" https://en.wikipedia.org/wiki/Battle_of_Satala_(530) @117,4272,389,20
+          text ... that joined the at the age of 14, and was sworn in to the at the age of 31? @117,4304,389,41
+          link "Ben Streff" https://en.wikipedia.org/wiki/Ben_Streff @117,4357,389,20
+          link "Luxembourg Socialist Workers' Party" https://en.wikipedia.org/wiki/Luxembourg_Socialist_Workers'_Party @117,4389,389,20
+          link "Chamber of Deputies" https://en.wikipedia.org/wiki/Chamber_of_Deputies_(Luxembourg) @117,4421,389,21
+          text ... that construction of the was halted each winter due to the presence of waterfowl? @117,4454,389,40
+          link "Interstate 65 Tennessee River Bridge" https://en.wikipedia.org/wiki/Interstate_65_Tennessee_River_Bridge @117,4506,389,20
+          text ... that physicist nearly died of poisoning when she opened a container when working in 's laboratory at the ? @117,4538,389,41
+          link "Jadwiga Szmidt" https://en.wikipedia.org/wiki/Jadwiga_Szmidt @117,4591,389,20
+          link "Ernest Rutherford" https://en.wikipedia.org/wiki/Ernest_Rutherford @117,4623,389,21
+          link "University of Manchester" https://en.wikipedia.org/wiki/University_of_Manchester @117,4656,389,20
+          text ... that Chinese "" could simultaneously be social, religious, business, and political institutions? @117,4688,389,41
+          link "assembly halls" https://en.wikipedia.org/wiki/Huiguan @117,4741,389,20
+          row @117,4773,389,20
+            link Archive https://en.wikipedia.org/wiki/Wikipedia:Did_you_know_archive @117,4773,51,20
+            link "Start a new article" https://en.wikipedia.org/wiki/Help:Your_first_article @180,4773,120,20
+            link "Nominate an article" https://en.wikipedia.org/wiki/Template_talk:Did_you_know @312,4773,129,20
+        col @518,801,97,5989
+          h2 Help us improve this article! @518,801,97,64
+          link "Candy store in Maryland, United States" https://en.wikipedia.org/wiki/File:Colorful_and_Inviting_Candy_Store_(14867133277).jpg @518,877,97,61
+          text Candy store in Maryland, United States @518,950,97,60
+          text This week's article for improvement is , also known as a sweet shop, candy store or lolly shop. These stores may sell locally distinct sweets, international sweets, or "vintage" candies like rock candy or liquorice. @518,1022,97,366
+          link "Confectionery store" https://en.wikipedia.org/wiki/Confectionery_store @518,1400,97,40
+          text You can improve this article by: @518,1452,97,61
+          text Adding information about early confectioners and the development in the modern age @518,1525,97,163
+          text Finding about its history, offerings, and regional varieties @518,1700,97,101
+          link "reliable sources" https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources @518,1813,97,41
+          text Expanding the "History" and "Offerings" sections @518,1866,97,81
+          text You can and . Have questions or suggestions? Visit , or post at the for general discussion. @518,1959,97,162
+          link "be bold" https://en.wikipedia.org/wiki/Wikipedia:Be_bold @518,2133,97,21
+          link "start editing the article" https://en.wikipedia.org/w/index.php?title=Confectionery_store&action=edit @518,2166,97,40
+          link "the article's talk page" https://en.wikipedia.org/wiki/Talk:Confectionery_store @518,2218,97,41
+          link Teahouse https://en.wikipedia.org/wiki/Wikipedia:Teahouse @518,2271,97,20
+          row @518,2303,97,61
+            link "For new editors" https://en.wikipedia.org/wiki/Help:Introduction @518,2303,31,61
+            link Archive https://en.wikipedia.org/wiki/Wikipedia:Articles_for_improvement/Archives/Schedule @561,2324,16,20
+            link "What is this?" https://en.wikipedia.org/wiki/Wikipedia:Articles_for_improvement @589,2303,26,61
+          h2 In the news @518,2376,97,21
+          region 143x184.66000366210938 @518,2409,97,126 [1 shapes, 1 labelled]
+            text @0,149.30999755859375 fill:#202122 size:14.14 "Hôtel de Ville the day after the fire" @518,2501,155,12
+          text The in is partially destroyed by arson as escalate in France. @518,2547,97,122
+          link "Hôtel de Ville" https://en.wikipedia.org/wiki/Hôtel_de_Ville,_Limoges @518,2681,97,20
+          link Limoges https://en.wikipedia.org/wiki/Limoges @518,2713,97,21
+          text (damage pictured) @518,2746,97,40
+          link "fuel and student protests" https://en.wikipedia.org/wiki/2026_French_student_protests @518,2798,97,61
+          text The votes to abolish the over concerns about disruptions to computer systems. @518,2871,97,142
+          link "International Bureau of Weights and Measures" https://en.wikipedia.org/wiki/International_Bureau_of_Weights_and_Measures @518,3025,97,81
+          link "leap second" https://en.wikipedia.org/wiki/Leap_second @518,3118,97,21
+          text The launch , killing at least 20 people and injuring more than 370 others. @518,3151,97,121
+          link Houthis https://en.wikipedia.org/wiki/Houthis @518,3284,97,21
+          link "a series of attacks on Saudi Arabian airports" https://en.wikipedia.org/wiki/October_2026_Houthi_attacks_on_Saudi_Arabian_airports @518,3317,97,81
+          text South African jurist is awarded . @518,3410,97,61
+          row @518,3483,97,81
+            link "Navi Pillay" https://en.wikipedia.org/wiki/Navi_Pillay @518,3503,27,41
+            link "the Nobel Peace Prize" https://en.wikipedia.org/wiki/2026_Nobel_Peace_Prize @557,3483,58,81
+          text : @518,3576,97,20
+          text Ongoing @518,3608,97,21
+          link "Ethiopian offensive" https://en.wikipedia.org/wiki/2026_Ethiopian_offensive @518,3641,97,40
+          link "Iran war" https://en.wikipedia.org/wiki/2026_Iran_war @518,3693,97,21
+          link "Russo-Ukrainian war" https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022–present) @518,3726,97,40
+          link timeline https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(1_September_2026_–_present) @518,3778,97,20
+          link "Yemen offensives" https://en.wikipedia.org/wiki/2026_Yemen_offensives @518,3810,97,41
+          link "Recent deaths" https://en.wikipedia.org/wiki/Deaths_in_2026 @518,3863,97,20
+          text : @518,3895,97,21
+          link "Napoleon Bonaparte" https://en.wikipedia.org/wiki/Napoleon_Bonaparte_(police_officer) @518,3928,97,40
+          link "Jack Hearn" https://en.wikipedia.org/wiki/Jack_Hearn @518,3980,97,21
+          link "Martina Arroyo" https://en.wikipedia.org/wiki/Martina_Arroyo @518,4013,97,40
+          link "Helen Branswell" https://en.wikipedia.org/wiki/Helen_Branswell @518,4065,97,41
+          link "Ken Friar" https://en.wikipedia.org/wiki/Ken_Friar @518,4118,97,20
+          link "Lucian Piane" https://en.wikipedia.org/wiki/Lucian_Piane @518,4150,97,20
+          row @518,4182,97,61
+            link "More current events" https://en.wikipedia.org/wiki/Portal:Current_events @518,4182,43,61
+            link "Nominate an article" https://en.wikipedia.org/wiki/Wikipedia:In_the_news/Candidates @573,4182,42,61
+          h2 On this day @518,4255,97,22
+          link "October 20" https://en.wikipedia.org/wiki/October_20 @518,4289,97,20
+          link "Mahamat Déby" https://en.wikipedia.org/wiki/File:Mahamat_Déby.jpg @518,4321,97,40
+          text Mahamat Déby @518,4373,97,41
+          text – British woman was refused entry to Australia after failing a dictation test given in Italian, leading to a debate over Australia's immigration policy. @518,4426,97,264
+          row @518,4702,97,41
+            link 1936 https://en.wikipedia.org/wiki/1936 @518,4712,24,20
+            link "Mabel Freer" https://en.wikipedia.org/wiki/Mabel_Freer @554,4702,61,41
+          text – : Fulfilling a promise he made , General to begin the . @518,4755,97,101
+          link 1944 https://en.wikipedia.org/wiki/1944 @518,4868,97,20
+          link "World War II" https://en.wikipedia.org/wiki/World_War_II @518,4900,97,21
+          link "two years previously" https://en.wikipedia.org/wiki/Douglas_MacArthur's_escape_from_the_Philippines @518,4933,97,40
+          link "Douglas MacArthur" https://en.wikipedia.org/wiki/Douglas_MacArthur @518,4985,97,41
+          link "landed on Leyte" https://en.wikipedia.org/wiki/Battle_of_Leyte @518,5038,97,40
+          link "recapture of the Philippines" https://en.wikipedia.org/wiki/Philippines_campaign_(1944–1945) @518,5090,97,41
+          text – : Attorney General and his deputy after refusing to obey President 's order to have fired. @518,5143,97,162
+          link 1973 https://en.wikipedia.org/wiki/1973 @518,5317,97,21
+          link "Watergate scandal" https://en.wikipedia.org/wiki/Watergate_scandal @518,5350,97,40
+          link "Elliot Richardson" https://en.wikipedia.org/wiki/Elliot_Richardson @518,5402,97,41
+          link "William Ruckelshaus" https://en.wikipedia.org/wiki/William_Ruckelshaus @518,5455,97,41
+          link resigned https://en.wikipedia.org/wiki/Saturday_Night_Massacre @518,5508,97,20
+          link "Richard Nixon" https://en.wikipedia.org/wiki/Richard_Nixon @518,5540,97,20
+          link "Archibald Cox" https://en.wikipedia.org/wiki/Archibald_Cox @518,5572,97,20
+          text – Soviet crashed after at , killing 70 people on board. @518,5604,97,102
+          link 1986 https://en.wikipedia.org/wiki/1986 @518,5718,97,20
+          link "Aeroflot Flight 6502" https://en.wikipedia.org/wiki/Aeroflot_Flight_6502 @518,5750,97,41
+          link "overrunning the runway" https://en.wikipedia.org/wiki/Runway_excursion @518,5803,97,40
+          link "Kuibyshev Airport" https://en.wikipedia.org/wiki/Kurumoch_International_Airport @518,5855,97,41
+          text – broke out across Chad after President declared his intentions to extend his rule by another two years. @518,5908,97,203
+          link 2022 https://en.wikipedia.org/wiki/2022 @518,6123,97,20
+          link Protests https://en.wikipedia.org/wiki/2022_Chadian_protests @518,6155,97,21
+          link "Mahamat Déby" https://en.wikipedia.org/wiki/Mahamat_Déby @518,6188,97,40
+          text (pictured) @518,6240,97,21
+          text (681BC) @518,6273,97,20
+          row @518,6305,97,20
+            link Sennacherib https://en.wikipedia.org/wiki/Sennacherib @518,6305,73,20
+            text d. @603,6305,12,20
+          text (1889) @518,6337,97,20
+          row @518,6369,97,21
+            link "Luo Yixiu" https://en.wikipedia.org/wiki/Luo_Yixiu @518,6369,61,21
+            text b. @591,6369,13,21
+          text (1977) @518,6402,97,20
+          link "Hun Manet" https://en.wikipedia.org/wiki/Hun_Manet @518,6434,97,20
+          text b. @518,6466,97,21
+          text (1988) @518,6499,97,20
+          row @518,6531,97,20
+            link "Rui Pinto" https://en.wikipedia.org/wiki/Rui_Pinto @518,6531,59,20
+            text b. @589,6531,13,20
+          text More anniversaries: @518,6563,97,41
+          row @518,6616,97,40
+            link "October 19" https://en.wikipedia.org/wiki/October_19 @518,6616,24,40
+            link "October 20" https://en.wikipedia.org/wiki/October_20 @554,6616,25,40
+            link "October 21" https://en.wikipedia.org/wiki/October_21 @591,6616,24,40
+          row @518,6668,97,122
+            link Archive https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries/October @518,6719,10,20
+            link "By email" https://lists.wikimedia.org/postorius/lists/daily-article-l.lists.wikimedia.org/ @540,6709,12,41
+            link "List of days of the year" https://en.wikipedia.org/wiki/List_of_days_of_the_year @564,6668,31,122
+            link About https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries @607,6719,8,20
+      h2 Today's featured picture @117,6802,498,21
+      table Col @117,6835,498,65
+        The Fog Warning is an oil painting on canvas completed in 1885 by the American artist Winslow Homer. It is one of several works in which Homer depicts the dangerous lives of fishermen in Maine. The painting depicts a lone fisherman in a dory who has caught several halibut, rowing towards his ship as a bank of fog approaches. The catch weighs down his boat, while increasingly rough seas make his return more difficult. The work is now in the Museum of Fine Arts in Boston. Painting credit: Winslow Homer Recently featured: Edmund Beecher Wilson Lithobius forficatus Alexander Gardner Archive More featured pictures
+      h2 Other areas of Wikipedia @117,6912,498,21
+      text – The central hub for editors, with resources, links, tasks, and announcements. @117,6945,498,41
+      link "Community portal" https://en.wikipedia.org/wiki/Wikipedia:Community_portal @117,6998,498,20
+      text – Forum for discussions about Wikipedia itself, including policies and technical issues. @117,7030,498,41
+      link "Village pump" https://en.wikipedia.org/wiki/Wikipedia:Village_pump @117,7083,498,20
+      text – Sources of news about Wikipedia and the broader Wikimedia movement. @117,7115,498,21
+      link "Site news" https://en.wikipedia.org/wiki/Wikipedia:News @117,7148,498,20
+      text – Ask basic questions about using or editing Wikipedia. @117,7180,498,20
+      link Teahouse https://en.wikipedia.org/wiki/Wikipedia:Teahouse @117,7212,498,20
+      text – Ask questions about using or editing Wikipedia. @117,7244,498,21
+      link "Help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk @117,7277,498,20
+      text – Ask research questions about encyclopedic topics. @117,7309,498,20
+      link "Reference desk" https://en.wikipedia.org/wiki/Wikipedia:Reference_desk @117,7341,498,21
+      text – A unique way to navigate the encyclopedia. @117,7374,498,20
+      link "Content portals" https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals @117,7406,498,20
+      h2 Wikipedia's sister projects @117,7438,498,21
+      text Wikipedia is written by volunteer editors and hosted by the , a non-profit organization that also hosts a range of other volunteer : @117,7471,498,41
+      link "Wikimedia Foundation" https://en.wikipedia.org/wiki/Wikimedia_Foundation @117,7524,498,20
+      link projects https://wikimediafoundation.org/what-we-do/wikimedia-projects/ @117,7556,498,21
+      row @117,7589,498,81
+        row @117,7599,34,61
+          link https://en.wikipedia.org/wiki/File:Commons-logo.svg https://en.wikipedia.org/wiki/File:Commons-logo.svg @117,7619,6,20
+          text Free media repository @135,7599,3,61
+          link Commons https://commons.wikimedia.org/wiki/ @150,7619,1,20
+        row @163,7599,38,61
+          link https://en.wikipedia.org/wiki/File:MediaWiki-2020-icon.svg https://en.wikipedia.org/wiki/File:MediaWiki-2020-icon.svg @163,7619,8,20
+          text Wiki software development @183,7599,4,61
+          link MediaWiki https://www.mediawiki.org/wiki/ @199,7619,2,20
+        row @213,7599,16,61
+          text Wikimedia project coordination @213,7599,3,61
+          link Meta-Wiki https://meta.wikimedia.org/wiki/ @228,7619,1,20
+        row @241,7589,36,81
+          link https://en.wikipedia.org/wiki/File:Wikibooks-logo.svg https://en.wikipedia.org/wiki/File:Wikibooks-logo.svg @241,7619,7,20
+          text Free textbooks and manuals @260,7589,4,81
+          link Wikibooks https://en.wikibooks.org/wiki/ @276,7619,1,20
+        row @289,7599,12,61
+          text Free knowledge base @289,7599,0,61
+          link Wikidata https://www.wikidata.org/wiki/ @301,7619,0,20
+        row @313,7589,40,81
+          link https://en.wikipedia.org/wiki/File:Wikifunctions-logo.svg https://en.wikipedia.org/wiki/File:Wikifunctions-logo.svg @313,7619,9,20
+          text Catalog of computer functions @334,7589,5,81
+          link Wikifunctions https://www.wikifunctions.org/wiki/ @351,7619,2,20
+        row @365,7599,13,61
+          text Collection of quotations @365,7599,1,61
+          link Wikiquote https://en.wikiquote.org/wiki/ @378,7619,0,20
+        row @390,7609,34,41
+          link https://en.wikipedia.org/wiki/File:Wikisource-logo.svg https://en.wikipedia.org/wiki/File:Wikisource-logo.svg @390,7619,6,20
+          text Free-content library @408,7609,2,41
+          link Wikisource https://en.wikisource.org/wiki/ @422,7619,2,20
+        row @436,7599,34,61
+          link https://en.wikipedia.org/wiki/File:Wikispecies-logo.svg https://en.wikipedia.org/wiki/File:Wikispecies-logo.svg @436,7619,6,20
+          text Directory of species @454,7599,3,61
+          link Wikispecies https://species.wikimedia.org/wiki/ @469,7619,1,20
+        row @482,7599,35,61
+          link https://en.wikipedia.org/wiki/File:Wikiversity_logo_2017.svg https://en.wikipedia.org/wiki/File:Wikiversity_logo_2017.svg @482,7619,7,20
+          text Free learning tools @501,7599,3,61
+          link Wikiversity https://en.wikiversity.org/wiki/ @516,7619,1,20
+        row @529,7599,36,61
+          link https://en.wikipedia.org/wiki/File:Wikivoyage-Logo-v3-icon.svg https://en.wikipedia.org/wiki/File:Wikivoyage-Logo-v3-icon.svg @529,7619,8,20
+          text Free travel guide @549,7599,3,61
+          link Wikivoyage https://en.wikivoyage.org/wiki/ @564,7619,1,20
+        row @577,7599,38,61
+          link https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg @577,7619,9,20
+          text Dictionary and thesaurus @598,7599,3,61
+          link Wiktionary https://en.wiktionary.org/wiki/ @613,7619,2,20
+      h2 Wikipedia languages @117,7682,498,21
+      text This Wikipedia is written in . Many ; some of the largest are listed below. @117,7715,498,20
+      row @117,7747,498,21
+        link English https://en.wikipedia.org/wiki/English_language @117,7747,48,21
+        link "other Wikipedias are available" https://meta.wikimedia.org/wiki/List%20of%20Wikipedias @177,7747,199,21
+      row @117,7780,498,21
+        h2 1,000,000+ articles @117,7780,165,21
+      link العربية https://ar.wikipedia.org/wiki/ @117,7813,498,20
+      link Deutsch https://de.wikipedia.org/wiki/ @117,7845,498,21
+      link Español https://es.wikipedia.org/wiki/ @117,7878,498,20
+      link فارسی https://fa.wikipedia.org/wiki/ @117,7910,498,20
+      text ‎ @117,7942,498,20
+      link Français https://fr.wikipedia.org/wiki/ @117,7974,498,21
+      link Italiano https://it.wikipedia.org/wiki/ @117,8007,498,20
+      link Nederlands https://nl.wikipedia.org/wiki/ @117,8039,498,20
+      link 日本語 https://ja.wikipedia.org/wiki/ @117,8071,498,21
+      link Polski https://pl.wikipedia.org/wiki/ @117,8104,498,20
+      link Português https://pt.wikipedia.org/wiki/ @117,8136,498,20
+      link Русский https://ru.wikipedia.org/wiki/ @117,8168,498,21
+      link Svenska https://sv.wikipedia.org/wiki/ @117,8201,498,20
+      link Українська https://uk.wikipedia.org/wiki/ @117,8233,498,20
+      link "Tiếng Việt" https://vi.wikipedia.org/wiki/ @117,8265,498,20
+      link 中文 https://zh.wikipedia.org/wiki/ @117,8297,498,21
+      row @117,8330,498,21
+        h2 250,000+ articles @117,8330,151,21
+      link "Bahasa Indonesia" https://id.wikipedia.org/wiki/ @117,8363,498,20
+      link "Bahasa Melayu" https://ms.wikipedia.org/wiki/ @117,8395,498,21
+      link Bân-lâm-gú https://zh-min-nan.wikipedia.org/wiki/ @117,8428,498,20
+      link Български https://bg.wikipedia.org/wiki/ @117,8460,498,20
+      link Català https://ca.wikipedia.org/wiki/ @117,8492,498,21
+      link Čeština https://cs.wikipedia.org/wiki/ @117,8525,498,20
+      link Dansk https://da.wikipedia.org/wiki/ @117,8557,498,20
+      link Eesti https://et.wikipedia.org/wiki/ @117,8589,498,20
+      link Ελληνικά https://el.wikipedia.org/wiki/ @117,8621,498,21
+      link Esperanto https://eo.wikipedia.org/wiki/ @117,8654,498,20
+      link Euskara https://eu.wikipedia.org/wiki/ @117,8686,498,20
+      link עברית https://he.wikipedia.org/wiki/ @117,8718,498,21
+      link Հայերեն https://hy.wikipedia.org/wiki/ @117,8751,498,20
+      link 한국어 https://ko.wikipedia.org/wiki/ @117,8783,498,20
+      link Magyar https://hu.wikipedia.org/wiki/ @117,8815,498,21
+      link "Norsk bokmål" https://no.wikipedia.org/wiki/ @117,8848,498,20
+      link Română https://ro.wikipedia.org/wiki/ @117,8880,498,20
+      link "Simple English" https://simple.wikipedia.org/wiki/ @117,8912,498,20
+      link Slovenčina https://sk.wikipedia.org/wiki/ @117,8944,498,21
+      link Srpski https://sr.wikipedia.org/wiki/ @117,8977,498,20
+      link Srpskohrvatski https://sh.wikipedia.org/wiki/ @117,9009,498,20
+      link Suomi https://fi.wikipedia.org/wiki/ @117,9041,498,21
+      link Türkçe https://tr.wikipedia.org/wiki/ @117,9074,498,20
+      link Oʻzbekcha https://uz.wikipedia.org/wiki/ @117,9106,498,20
+      row @117,9138,498,21
+        h2 50,000+ articles @117,9138,140,21
+      link Asturianu https://ast.wikipedia.org/wiki/ @117,9171,498,21
+      link Azərbaycanca https://az.wikipedia.org/wiki/ @117,9204,498,20
+      link বাংলা https://bn.wikipedia.org/wiki/ @117,9236,498,20
+      link Bosanski https://bs.wikipedia.org/wiki/ @117,9268,498,21
+      link کوردی https://ckb.wikipedia.org/wiki/ @117,9301,498,20
+      link Frysk https://fy.wikipedia.org/wiki/ @117,9333,498,20
+      link Gaeilge https://ga.wikipedia.org/wiki/ @117,9365,498,21
+      link Galego https://gl.wikipedia.org/wiki/ @117,9398,498,20
+      link Hrvatski https://hr.wikipedia.org/wiki/ @117,9430,498,20
+      link ქართული https://ka.wikipedia.org/wiki/ @117,9462,498,20
+      link Kurdî https://ku.wikipedia.org/wiki/ @117,9494,498,21
+      link Latviešu https://lv.wikipedia.org/wiki/ @117,9527,498,20
+      link Lietuvių https://lt.wikipedia.org/wiki/ @117,9559,498,20
+      link മലയാളം https://ml.wikipedia.org/wiki/ @117,9591,498,21
+      link Македонски https://mk.wikipedia.org/wiki/ @117,9624,498,20
+      link မြန်မာဘာသာ https://my.wikipedia.org/wiki/ @117,9656,498,20
+      link "Norsk nynorsk" https://nn.wikipedia.org/wiki/ @117,9688,498,21
+      link ਪੰਜਾਬੀ https://pa.wikipedia.org/wiki/ @117,9721,498,20
+      link Shqip https://sq.wikipedia.org/wiki/ @117,9753,498,20
+      link Slovenščina https://sl.wikipedia.org/wiki/ @117,9785,498,20
+      link ไทย https://th.wikipedia.org/wiki/ @117,9817,498,21
+      link తెలుగు https://te.wikipedia.org/wiki/ @117,9850,498,20
+      link اردو https://ur.wikipedia.org/wiki/ @117,9882,498,20
+      button "349 languages" @117,9914,498,37
+      text 349 languages primary @117,9963,498,20
+  col @627,4869,84,847
+    text Page was rendered with . @627,4869,84,61
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid @627,4942,84,20
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the and . Wikipedia® is a registered trademark of the , a non-profit organization. @627,4974,84,345
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License @627,5331,84,82
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use @627,5425,84,40
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @627,5477,84,41
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/ @627,5530,84,61
+    row @627,5603,84,81
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @627,5623,0,41
+      link "About Wikipedia" /wiki/Wikipedia:About @639,5623,0,41
+      link Disclaimers /wiki/Wikipedia:General_disclaimer @651,5633,0,20
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us @663,5623,0,41
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information @675,5603,0,81
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct @687,5613,0,61
+      link Developers https://developer.wikimedia.org @699,5633,0,20
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org @711,5633,0,20
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement @723,5623,0,41
+      link "Mobile view" @735,5623,0,41
+    row @627,5696,84,20
+      link https://www.wikimedia.org/ https://www.wikimedia.org/ @627,5696,36,20
+      link https://www.mediawiki.org/ https://www.mediawiki.org/ @675,5696,36,20
+!overflow move 174/216px
+!overflow search2 64/76px
+!overflow tools 28/66px
+!overflow move2 28/179px
+!overflow hide 28/146px
+!overflow table.The Fog Warning is an oil painting on canvas completed in 1885 by the American artist Winslow Homer. It is one of several works in which Homer depicts the dangerous lives of fishermen in Maine. The painting depicts a lone fisherman in a dory who has caught several halibut, rowing towards his ship as a bank of fog approaches. The catch weighs down his boat, while increasingly rough seas make his return more difficult. The work is now in the Museum of Fine Arts in Boston. Painting credit: Winslow Homer Recently featured: Edmund Beecher Wilson Lithobius forficatus Alexander Gardner Archive More featured pictures.Col 498/4164px

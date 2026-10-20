@@ -1,0 +1,263 @@
+@getbootstrap_com_docs_5_3_examples rev=0 @0,0,728,2644
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,82
+  link Bootstrap / @17,80,35,20
+  row @64,49,647,82
+    row @64,80,108,20
+      link Docs /docs/5.3/getting-started/introduction/ @64,80,15,20
+      link Examples /docs/5.3/examples/ @91,80,28,20
+      link Icons https://icons.getbootstrap.com/ @131,80,16,20
+      link Blog https://blog.getbootstrap.com/ @159,80,13,20
+    row @184,49,527,82
+      link "GitHub GitHub" https://github.com/twbs @184,70,44,40
+      link "X X" https://x.com/getbootstrap @240,70,12,40
+      link "Open Collective Open Collective" https://opencollective.com/bootstrap @264,49,100,82
+      region 17x40 @376,81,8,18 [1 shapes, 0 labelled]
+      button "BootstrapBootstrap v5.3 (switch to other versions)" @396,72,189,36
+      region 17x40 @597,81,8,18 [1 shapes, 0 labelled]
+      button "Toggle theme (light)" @617,72,94,36
+row @17,143,694,170
+  col @17,143,277,170
+    h1 Examples @17,143,277,25
+    text Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts. @17,180,277,81
+    row @17,273,277,40
+      link "Download examples" https://github.com/twbs/bootstrap/releases/download/v5.3.8/bootstrap-5.3.8-examples.zip @17,273,124,40
+      link "Download source code" https://github.com/twbs/bootstrap/archive/v5.3.8.zip @153,273,141,40
+  col @306,160,405,136
+    card @306,160,405,103
+      link https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKCWAIE2JWCVSD5K7UCTSIVK3NCTBD6K7KC6SILKJWCA7DVK3EHJNCLSIZ https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKCWAIE2JWCVSD5K7UCTSIVK3NCTBD6K7KC6SILKJWCA7DVK3EHJNCLSIZ @323,175,371,21
+      link "Your edge case? Another builder solved it last Tuesday. Find answers." https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKCWAIE2JWCVSD5K7UCTSIVK3NCTBD6K7KC6SILKJWCA7DVK3EHJNCLSIZ @323,208,371,40
+    link "ads via Carbon" http://carbonads.net/?utm_source=getbootstrapcom&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @306,275,405,20
+h2 Starters @17,325,694,22
+text Functional examples of using Bootstrap in common JS frameworks like Webpack, Parcel, Vite, and more you can edit in StackBlitz. @17,359,694,40
+row @17,411,694,346
+  row @17,442,51,284
+    col @17,442,51,284
+      h3 CDN starter @17,442,51,37
+      text Instantly include Bootstrap's compiled CSS and JavaScript via the jsDelivr CDN. @17,491,51,203
+      link https://stackblitz.com/github/twbs/examples/tree/main/starter?file=index.html https://stackblitz.com/github/twbs/examples/tree/main/starter?file=index.html @17,706,51,20
+  row @80,421,71,326
+    col @80,421,71,326
+      h3 Sass & JS @80,421,71,38
+      text Use npm to import and compile Bootstrap's Sass with Autoprefixer and Stylelint, plus our bundled JavaScript. @80,471,71,243
+      link https://stackblitz.com/github/twbs/examples/tree/main/sass-js?file=index.html https://stackblitz.com/github/twbs/examples/tree/main/sass-js?file=index.html @80,726,71,21
+  row @163,411,78,346
+    col @163,411,78,346
+      h3 Sass & ESM JS @163,411,78,38
+      text Import and compile Bootstrap's Sass with Autoprefixer and Stylelint, and compile our source JavaScript with an ESM shim. @163,461,78,264
+      link https://stackblitz.com/github/twbs/examples/tree/main/sass-js-esm?file=index.html https://stackblitz.com/github/twbs/examples/tree/main/sass-js-esm?file=index.html @163,737,78,20
+  row @253,422,55,324
+    col @253,422,55,324
+      h3 Bootstrap color modes @253,422,55,56
+      text Import and compile Bootstrap's Sass with Stylelint, and the Bootstrap color modes. @253,490,55,224
+      link https://stackblitz.com/github/twbs/examples/tree/main/color-modes?file=index.html https://stackblitz.com/github/twbs/examples/tree/main/color-modes?file=index.html @253,726,55,20
+  row @320,411,62,346
+    col @320,411,62,346
+      h3 Bootstrap Icons @320,411,62,38
+      text Import and compile Bootstrap's Sass with Stylelint, PurgeCSS, and the Bootstrap Icons web font. @320,461,62,264
+      link https://stackblitz.com/github/twbs/examples/tree/main/icons-font?file=index.html https://stackblitz.com/github/twbs/examples/tree/main/icons-font?file=index.html @320,737,62,20
+  row @394,451,52,266
+    col @394,451,52,266
+      h3 Parcel @394,451,52,19
+      text Import and bundle Bootstrap's source Sass and JavaScript via Parcel. @394,482,52,203
+      link https://stackblitz.com/github/twbs/examples/tree/main/parcel?file=src/index.html https://stackblitz.com/github/twbs/examples/tree/main/parcel?file=src/index.html @394,697,52,20
+  row @458,421,64,326
+    col @458,421,64,326
+      h3 React @458,421,64,18
+      text Import and bundle Bootstrap's source Sass and JavaScript with React, Next.js, and React Bootstrap. @458,451,64,264
+      link https://stackblitz.com/github/twbs/examples/tree/main/react-nextjs?file=src/pages/index.tsx https://stackblitz.com/github/twbs/examples/tree/main/react-nextjs?file=src/pages/index.tsx @458,727,64,20
+  row @534,451,49,266
+    col @534,451,49,266
+      h3 Vite @534,451,49,19
+      text Import and bundle Bootstrap's source Sass and JavaScript with Vite. @534,482,49,203
+      link https://stackblitz.com/github/twbs/examples/tree/main/vite?file=index.html https://stackblitz.com/github/twbs/examples/tree/main/vite?file=index.html @534,697,49,20
+  row @595,431,50,306
+    col @595,431,50,306
+      h3 Vue @595,431,50,18
+      text Import and bundle Bootstrap's source Sass and JavaScript with Vue and Vite. @595,461,50,244
+      link https://stackblitz.com/github/twbs/examples/tree/main/vue?file=index.html https://stackblitz.com/github/twbs/examples/tree/main/vue?file=index.html @595,717,50,20
+  row @657,451,54,266
+    col @657,451,54,266
+      h3 Webpack @657,451,54,19
+      text Import and bundle Bootstrap's source Sass and JavaScript with Webpack. @657,482,54,203
+      link https://stackblitz.com/github/twbs/examples/tree/main/webpack?file=src/index.html https://stackblitz.com/github/twbs/examples/tree/main/webpack?file=src/index.html @657,697,54,20
+h2 Snippets @17,769,694,21
+text Common patterns for building sites and apps that build on existing components and utilities with custom CSS and more. @17,802,694,41
+row @17,855,694,276
+  col @17,865,57,255
+    link Headers /docs/5.3/examples/headers/ @17,865,57,20
+    text Display your branding, navigation, search, and more with these header components @17,897,57,223
+  col @86,865,54,255
+    link Heroes /docs/5.3/examples/heroes/ @86,865,54,20
+    text Set the stage on your homepage with heroes that feature clear calls to action. @86,897,54,223
+  col @152,875,49,235
+    link Features /docs/5.3/examples/features/ @152,875,49,20
+    text Explain the features, benefits, or other details in your marketing content. @152,907,49,203
+  col @213,885,50,215
+    link Sidebars /docs/5.3/examples/sidebars/ @213,885,50,20
+    text Common navigation patterns ideal for offcanvas or multi-column layouts. @213,917,50,183
+  col @275,875,43,235
+    link Footers /docs/5.3/examples/footers/ @275,875,43,20
+    text Finish every page strong with an awesome footer, big or small. @275,907,43,203
+  col @330,875,48,235
+    link Dropdowns /docs/5.3/examples/dropdowns/ @330,875,48,20
+    text Enhance your dropdowns with filters, icons, custom styles, and more. @330,907,48,203
+  col @390,855,45,276
+    link "List groups" /docs/5.3/examples/list-groups/ @390,855,45,40
+    text Extend list groups with utilities and custom styles for any content. @390,907,45,224
+  col @447,865,48,255
+    link Modals /docs/5.3/examples/modals/ @447,865,48,20
+    text Transform modals to serve any purpose, from feature tours to dialogs. @447,897,48,223
+  col @507,875,41,235
+    link Badges /docs/5.3/examples/badges/ @507,875,41,20
+    text Make badges work with custom inner HTML and new looks. @507,907,41,203
+  col @560,905,39,175
+    link Breadcrumbs /docs/5.3/examples/breadcrumbs/ @560,905,39,21
+    text Integrate custom icons and create stepper components. @560,938,39,142
+  col @611,865,43,255
+    link Buttons /docs/5.3/examples/buttons/ @611,865,43,20
+    text Create custom buttons for just about any use case with utilities. @611,897,43,223
+  col @666,905,45,175
+    link Jumbotrons /docs/5.3/examples/jumbotrons/ @666,905,45,21
+    text Create modernized versions of the classic Bootstrap component. @666,938,45,142
+h2 Custom Components @17,1143,694,21
+text Brand-new components and templates to help folks quickly get started with Bootstrap and demonstrate best practices for adding onto the framework. @17,1176,694,40
+row @17,1228,694,297
+  col @17,1269,45,215
+    link Album /docs/5.3/examples/album/ @17,1269,45,20
+    text Simple one-page template for photo galleries, portfolios, and more. @17,1301,45,183
+  col @74,1228,55,297
+    link Pricing /docs/5.3/examples/pricing/ @74,1228,55,21
+    text Example pricing page built with Cards and featuring a custom header and footer. @74,1261,55,264
+  col @141,1249,56,255
+    link Checkout /docs/5.3/examples/checkout/ @141,1249,56,20
+    text Custom checkout form showing our form components and their validation features. @141,1281,56,223
+  col @209,1259,50,235
+    link Product /docs/5.3/examples/product/ @209,1259,50,20
+    text Lean product-focused marketing page with extensive grid and image work. @209,1291,50,203
+  col @271,1259,46,235
+    link Cover /docs/5.3/examples/cover/ @271,1259,46,20
+    text A one-page template for building simple and beautiful home pages. @271,1291,46,203
+  col @329,1259,47,235
+    link Carousel /docs/5.3/examples/carousel/ @329,1259,47,20
+    text Customize the navbar and carousel, then add some new components. @329,1291,47,203
+  col @388,1269,47,215
+    link Blog /docs/5.3/examples/blog/ @388,1269,47,20
+    text Magazine like blog template with header, navigation, featured content. @388,1301,47,183
+  col @447,1269,40,215
+    link Dashboard /docs/5.3/examples/dashboard/ @447,1269,40,20
+    text Basic admin dashboard shell with fixed sidebar and navbar. @447,1301,40,183
+  col @499,1259,39,235
+    link Sign-in /docs/5.3/examples/sign-in/ @499,1259,39,20
+    text Custom form layout and design for a simple sign in form. @499,1291,39,203
+  col @550,1228,49,297
+    link "Sticky footer" /docs/5.3/examples/sticky-footer/ @550,1228,49,41
+    text Attach a footer to the bottom of the viewport when page content is short. @550,1281,49,244
+  col @611,1228,46,297
+    link "Sticky footer navbar" /docs/5.3/examples/sticky-footer-navbar/ @611,1228,46,61
+    text Attach a footer to the bottom of the viewport with a fixed top navbar. @611,1301,46,224
+  col @669,1269,42,215
+    link Jumbotron /docs/5.3/examples/jumbotron/ @669,1269,42,20
+    text Use utilities to recreate and enhance Bootstrap 4's jumbotron. @669,1301,42,183
+h2 Framework @17,1537,694,21
+text Examples that focus on implementing uses of built-in components provided by Bootstrap. @17,1570,694,20
+row @17,1602,694,73
+  col @17,1602,222,73
+    link "Starter template" /docs/5.3/examples/starter-template/ @17,1602,222,21
+    text Nothing but the basics: compiled CSS and JavaScript. @17,1635,222,40
+  col @251,1602,288,73
+    link Grid /docs/5.3/examples/grid/ @251,1602,288,21
+    text Multiple examples of grid layouts with all four tiers, nesting, and more. @251,1635,288,40
+  col @551,1602,160,73
+    link Cheatsheet /docs/5.3/examples/cheatsheet/ @551,1602,160,21
+    text Kitchen sink of Bootstrap components. @551,1635,160,40
+h2 Navbars @17,1687,694,21
+text Taking the default navbar component and showing how it can be moved, placed, and extended. @17,1720,694,21
+row @17,1753,694,174
+  col @17,1763,92,154
+    link Navbars /docs/5.3/examples/navbars/ @17,1763,92,20
+    text Demonstration of all responsive and container options for the navbar. @17,1795,92,122
+  col @121,1753,88,174
+    link "Navbars offcanvas" /docs/5.3/examples/navbars-offcanvas/ @121,1753,88,40
+    text Same as the Navbars example, but with our offcanvas component. @121,1805,88,122
+  col @221,1753,106,174
+    link "Navbar static" /docs/5.3/examples/navbar-static/ @221,1753,106,20
+    text Single navbar example of a static top navbar along with some additional content. @221,1785,106,142
+  col @339,1763,109,154
+    link "Navbar fixed" /docs/5.3/examples/navbar-fixed/ @339,1763,109,20
+    text Single navbar example with a fixed top navbar along with some additional content. @339,1795,109,122
+  col @460,1763,106,154
+    link "Navbar bottom" /docs/5.3/examples/navbar-bottom/ @460,1763,106,20
+    text Single navbar example with a bottom navbar along with some additional content. @460,1795,106,122
+  col @578,1753,133,174
+    link "Offcanvas navbar" /docs/5.3/examples/offcanvas-navbar/ @578,1753,133,20
+    text Turn your expandable navbar into a sliding offcanvas menu (doesn't use our offcanvas component). @578,1785,133,142
+h2 RTL @17,1939,694,21
+text See Bootstrap's RTL version in action with these modified examples from various categories. @17,1972,694,21
+text RTL is still experimental and will evolve with feedback. Spotted something or have an improvement to suggest? warning @17,2005,694,40
+link "Please open an issue." https://github.com/twbs/bootstrap/issues/new/choose @17,2057,694,21
+row @17,2090,694,154
+  col @17,2090,108,154
+    link "Album RTL" /docs/5.3/examples/album-rtl/ @17,2090,108,20
+    text Simple one-page template for photo galleries, portfolios, and more. @17,2122,108,122
+  col @137,2100,134,133
+    link "Checkout RTL" /docs/5.3/examples/checkout-rtl/ @137,2100,134,20
+    text Custom checkout form showing our form components and their validation features. @137,2132,134,101
+  col @283,2100,112,133
+    link "Carousel RTL" /docs/5.3/examples/carousel-rtl/ @283,2100,112,20
+    text Customize the navbar and carousel, then add some new components. @283,2132,112,101
+  col @407,2090,114,154
+    link "Blog RTL" /docs/5.3/examples/blog-rtl/ @407,2090,114,20
+    text Magazine like blog template with header, navigation, featured content. @407,2122,114,122
+  col @533,2090,95,154
+    link "Dashboard RTL" /docs/5.3/examples/dashboard-rtl/ @533,2090,95,40
+    text Basic admin dashboard shell with fixed sidebar and navbar. @533,2142,95,102
+  col @640,2090,71,154
+    link "Cheatsheet RTL" /docs/5.3/examples/cheatsheet-rtl/ @640,2090,71,40
+    text Kitchen sink of Bootstrap components, RTL. @640,2142,71,102
+h2 Integrations @17,2256,694,21
+text Integrations with external libraries. @17,2289,694,20
+link Masonry /docs/5.3/examples/masonry/ @17,2321,694,20
+text Combine the powers of the Bootstrap grid and the Masonry layout. @17,2353,694,21
+row @17,2386,694,241
+  col @17,2389,344,235
+    link Bootstrap / @17,2389,344,20
+    text Designed and built with all the love in the world by the with the help of . @17,2421,344,41
+    link "Bootstrap team" /docs/5.3/about/team @17,2474,344,20
+    link "our contributors" https://github.com/twbs/bootstrap/graphs/contributors @17,2506,344,21
+    text Code licensed , docs . @17,2539,344,20
+    row @17,2571,344,20
+      link MIT https://github.com/twbs/bootstrap/blob/main/LICENSE @17,2571,26,20
+      link "CC BY 3.0" https://creativecommons.org/licenses/by/3.0/ @55,2571,69,20
+    text Currently v5.3.8. @17,2603,344,21
+  col @373,2390,56,233
+    h3 Links @373,2390,56,19
+    link Home / @373,2421,56,20
+    link Docs /docs/5.3/ @373,2453,56,20
+    link Examples /docs/5.3/examples @373,2485,56,21
+    link Icons https://icons.getbootstrap.com/ @373,2518,56,20
+    link Blog https://blog.getbootstrap.com/ @373,2550,56,20
+    link "Swag Store" https://cottonbureau.com/people/bootstrap @373,2582,56,41
+  col @441,2396,78,221
+    h3 Guides @441,2396,78,19
+    link "Getting started" /docs/5.3/getting-started @441,2427,78,40
+    link "Starter template" /docs/5.3/examples/starter-template @441,2479,78,41
+    link Webpack /docs/5.3/getting-started/webpack @441,2532,78,20
+    link Parcel /docs/5.3/getting-started/parcel @441,2564,78,20
+    link Vite /docs/5.3/getting-started/vite @441,2596,78,21
+  col @531,2386,72,241
+    h3 Projects @531,2386,72,19
+    link "Bootstrap 5" https://github.com/twbs/bootstrap @531,2417,72,40
+    link "Bootstrap 4" https://github.com/twbs/bootstrap/tree/v4-dev @531,2469,72,41
+    link Icons https://github.com/twbs/icons @531,2522,72,20
+    link RFS https://github.com/twbs/rfs @531,2554,72,20
+    link "Examples repo" https://github.com/twbs/examples @531,2586,72,41
+  col @615,2386,96,241
+    h3 Community @615,2386,96,19
+    link Issues https://github.com/twbs/bootstrap/issues @615,2417,96,20
+    link Discussions https://github.com/twbs/bootstrap/discussions @615,2449,96,20
+    link "Corporate sponsors" https://github.com/sponsors/twbs @615,2481,96,41
+    link "Open Collective" https://opencollective.com/bootstrap @615,2534,96,40
+    link "Stack Overflow" https://stackoverflow.com/questions/tagged/bootstrap-5 @615,2586,96,41
+!overflow bootstrapbootstrap 187/371px
+!overflow toggle 92/165px

@@ -1,0 +1,57 @@
+Each page below is a screenshot file. Open it with the Read tool and answer the questions from what you see.
+
+=== page "checkout" ===
+screenshot: /Users/bruno/src/projects/manifest/bench/pages/out/getbootstrap-com-docs-5-3-examples-checkout.png
+--- questions ---
+checkout.1 How many items are in the cart?
+checkout.2 What is the total, in USD?
+checkout.3 What promo code is applied?
+
+=== page "pricing" ===
+screenshot: /Users/bruno/src/projects/manifest/bench/pages/out/getbootstrap-com-docs-5-3-examples-pricing.png
+--- questions ---
+pricing.1 What is the monthly price of the Pro plan?
+pricing.2 How many users does the Enterprise plan include?
+pricing.3 Which plans include Private in the comparison table?
+
+=== page "invoice" ===
+screenshot: /Users/bruno/src/projects/manifest/bench/pages/out/preview-tabler-io-invoice-html.png
+--- questions ---
+invoice.1 What is the invoice number?
+invoice.2 What is the unit price of App Design?
+invoice.3 What is the VAT rate?
+
+=== page "shadcn" ===
+screenshot: /Users/bruno/src/projects/manifest/bench/pages/out/ui-shadcn-com-examples-dashboard.png
+--- questions ---
+shadcn.1 What is the Total Revenue figure?
+shadcn.2 By how much did New Customers change?
+shadcn.3 What is the Growth Rate?
+
+=== page "dashboard" ===
+screenshot: /Users/bruno/src/projects/manifest/bench/pages/out/getbootstrap-com-docs-5-3-examples-dashboard.png
+--- questions ---
+dashboard.1 What is the first order number in the table?
+dashboard.2 Which buttons sit next to the Dashboard heading?
+dashboard.3 How many saved reports are listed in the sidebar?
+
+=== page "signin" ===
+screenshot: /Users/bruno/src/projects/manifest/bench/pages/out/getbootstrap-com-docs-5-3-examples-sign-in.png
+--- questions ---
+signin.1 Is Remember me checked?
+signin.2 What kind of input is the first field?
+signin.3 What does the main button say?
+
+=== page "album" ===
+screenshot: /Users/bruno/src/projects/manifest/bench/pages/out/getbootstrap-com-docs-5-3-examples-album.png
+--- questions ---
+album.1 What are the two action links under the heading?
+album.2 What do the two buttons on each card say?
+album.3 What time label do the cards show?
+
+=== page "tabler" ===
+screenshot: /Users/bruno/src/projects/manifest/bench/pages/out/preview-tabler-io-pricing-html.png
+--- questions ---
+tabler.1 What is the price of the Premium plan?
+tabler.2 How many users does the Free plan allow?
+tabler.3 Which plan is marked with a star icon?

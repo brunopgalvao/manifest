@@ -1,0 +1,72 @@
+@www_w3_org_wai_aria_apg_about rev=0 @0,0,728,1680
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+h1 About @17,102,694,25
+h2 Introduction @17,139,694,21
+text To learn about the purpose of the APG, the prerequisite knowledge it assumes, and how it is organized, read the . @17,172,694,41
+link Introduction introduction/ @17,225,694,20
+h2 ARIA Basics @17,257,694,21
+text Facilitate success when applying APG guidance by developing a solid understanding of what ARIA is, what accessibility semantics are, and their purpose and limitations with this section about . @17,290,694,41
+link "ARIA Basics" aria-basics/ @17,343,694,20
+h2 Contributing to the APG @17,375,694,21
+text The APG Task Force relies on broad community representation and participation to continuously improve the usefulness and quality of the APG. . @17,408,694,41
+link "Learn how you can contribute and help promote development of accessible experiences" contributing/ @17,461,694,20
+h2 Acknowledgements @17,493,694,22
+text To learn about the people and organizations who contribute to the development of the APG, read the . @17,527,694,20
+link Acknowledgements acknowledgements/ @17,559,694,20
+h2 Change History @17,591,694,21
+text A history of how the APG has changed, dating back to 2014, including easy access to the detailed commit log is available in the . @17,624,694,41
+link "Change History" change-history/ @17,677,694,20
+h2 Related Specifications @17,709,694,22
+text The APG synthesizes guidance based on information from several specifications. While the guidance contains contextual links to relevant specifications, it can be handy to have a consolidated list of all the . @17,743,694,40
+link "Related Specifications" related-specifications/ @17,795,694,20
+h2 Assistive Technology Support Tables @17,827,694,22
+text Pages that provide example implementations of APG patterns also, when available, provide a summary of assistive technology support of the ARIA used in those examples. Learn how to interpret and use data in the . @17,861,694,61
+link "Assistive Technology Support Tables" at-support-tables/ @17,934,694,20
+h2 Coverage and Quality Report @17,966,694,21
+text Objectives of the APG Task Force include providing guidance or examples for all ARIA attributes and doing so with code that implements practices documented in the APG code guide. As the APG is revised, the build process updates our view of Progress toward these objectives in the . @17,999,694,61
+link "Coverage and Quality Report" coverage-and-quality/ @17,1072,694,20
+row @17,1104,694,22
+  h2 Help improve this page @17,1104,192,22
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,1138,694,20
+link public-aria-practices@w3.org @17,1170,694,20
+row @17,1202,694,21
+  link E-mail @17,1202,42,21
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/about/about.html @71,1202,142,21
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/about/ @225,1202,119,21
+link "Back to Top" #top @17,1235,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,1267,694,20
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,1299,694,20
+row @17,1331,694,21
+  link "Get News in Email" /WAI/news/subscribe/ @17,1331,120,21
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,1331,57,21
+  link Mastodon https://w3c.social/@wai @218,1331,67,21
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,1331,61,21
+row @17,1364,694,40
+  link Home /WAI/ @17,1374,37,20
+  link Contact /WAI/about/contacting/ @66,1374,48,20
+  link "Site map" /WAI/sitemap/ @126,1364,54,40
+  link "Support WAI" /WAI/about/support/ @192,1364,78,40
+  link News /WAI/news/ @282,1374,36,20
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,1364,142,40
+  link "All Translations" /WAI/translations/ @484,1364,94,40
+  link "Resources for roles" /WAI/roles/ @590,1364,121,40
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,1416,694,21
+link "World Wide Web Consortium" https://www.w3.org/ @17,1449,694,20
+text W3C @17,1481,694,20
+text ® @17,1513,694,21
+link liability https://www.w3.org/policies/#disclaimers @17,1546,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,1578,694,20
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,1610,694,20
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,1642,694,21

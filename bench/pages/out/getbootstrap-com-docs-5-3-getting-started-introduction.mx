@@ -1,0 +1,324 @@
+@getbootstrap_com_docs_5_3_getting_starte
+row
+  link "Skip to main content" #content
+  link "Skip to docs navigation" #bd-docs-nav
+row
+  link Bootstrap /
+  row
+    row
+      link Docs /docs/5.3/getting-started/introduction/
+      link Examples /docs/5.3/examples/
+      link Icons https://icons.getbootstrap.com/
+      link Blog https://blog.getbootstrap.com/
+    row
+      link "GitHub GitHub" https://github.com/twbs
+      link "X X" https://x.com/getbootstrap
+      link "Open Collective Open Collective" https://opencollective.com/bootstrap
+      region 17x40
+        rect @8,4 1x32 fill:#ffffff
+      button "BootstrapBootstrap v5.3 (switch to other versions)"
+      region 17x40
+        rect @8,4 1x32 fill:#ffffff
+      button "Toggle theme (light)"
+row
+  col
+    text Getting started
+    link Introduction /docs/5.3/getting-started/introduction
+    link Download /docs/5.3/getting-started/download
+    link Contents /docs/5.3/getting-started/contents
+    link "Browsers & devices" /docs/5.3/getting-started/browsers-devices
+    link JavaScript /docs/5.3/getting-started/javascript
+    link Webpack /docs/5.3/getting-started/webpack
+    link Parcel /docs/5.3/getting-started/parcel
+    link Vite /docs/5.3/getting-started/vite
+    link Accessibility /docs/5.3/getting-started/accessibility
+    link RFS /docs/5.3/getting-started/rfs
+    link RTL /docs/5.3/getting-started/rtl
+    link Contribute /docs/5.3/getting-started/contribute
+    text Customize
+    link Overview /docs/5.3/customize/overview
+    link Sass /docs/5.3/customize/sass
+    link Options /docs/5.3/customize/options
+    link Color /docs/5.3/customize/color
+    link "Color modes" /docs/5.3/customize/color-modes
+    link Components /docs/5.3/customize/components
+    link "CSS variables" /docs/5.3/customize/css-variables
+    link Optimize /docs/5.3/customize/optimize
+    text Layout
+    link Breakpoints /docs/5.3/layout/breakpoints
+    link Containers /docs/5.3/layout/containers
+    link Grid /docs/5.3/layout/grid
+    link Columns /docs/5.3/layout/columns
+    link Gutters /docs/5.3/layout/gutters
+    link Utilities /docs/5.3/layout/utilities
+    link Z-index /docs/5.3/layout/z-index
+    link "CSS Grid" /docs/5.3/layout/css-grid
+    text Content
+    link Reboot /docs/5.3/content/reboot
+    link Typography /docs/5.3/content/typography
+    link Images /docs/5.3/content/images
+    link Tables /docs/5.3/content/tables
+    link Figures /docs/5.3/content/figures
+    text Forms
+    link Overview /docs/5.3/forms/overview
+    link "Form control" /docs/5.3/forms/form-control
+    link Select /docs/5.3/forms/select
+    link "Checks & radios" /docs/5.3/forms/checks-radios
+    link Range /docs/5.3/forms/range
+    link "Input group" /docs/5.3/forms/input-group
+    link "Floating labels" /docs/5.3/forms/floating-labels
+    link Layout /docs/5.3/forms/layout
+    link Validation /docs/5.3/forms/validation
+    text Components
+    link Accordion /docs/5.3/components/accordion
+    link Alerts /docs/5.3/components/alerts
+    link Badge /docs/5.3/components/badge
+    link Breadcrumb /docs/5.3/components/breadcrumb
+    link Buttons /docs/5.3/components/buttons
+    link "Button group" /docs/5.3/components/button-group
+    link Card /docs/5.3/components/card
+    link Carousel /docs/5.3/components/carousel
+    link "Close button" /docs/5.3/components/close-button
+    link Collapse /docs/5.3/components/collapse
+    link Dropdowns /docs/5.3/components/dropdowns
+    link "List group" /docs/5.3/components/list-group
+    link Modal /docs/5.3/components/modal
+    link Navbar /docs/5.3/components/navbar
+    link "Navs & tabs" /docs/5.3/components/navs-tabs
+    link Offcanvas /docs/5.3/components/offcanvas
+    link Pagination /docs/5.3/components/pagination
+    link Placeholders /docs/5.3/components/placeholders
+    link Popovers /docs/5.3/components/popovers
+    link Progress /docs/5.3/components/progress
+    link Scrollspy /docs/5.3/components/scrollspy
+    link Spinners /docs/5.3/components/spinners
+    link Toasts /docs/5.3/components/toasts
+    link Tooltips /docs/5.3/components/tooltips
+    text Helpers
+    link Clearfix /docs/5.3/helpers/clearfix
+    link "Color & background" /docs/5.3/helpers/color-background
+    link "Colored links" /docs/5.3/helpers/colored-links
+    link "Focus ring" /docs/5.3/helpers/focus-ring
+    link "Icon link" /docs/5.3/helpers/icon-link
+    link Position /docs/5.3/helpers/position
+    link Ratio /docs/5.3/helpers/ratio
+    link Stacks /docs/5.3/helpers/stacks
+    link "Stretched link" /docs/5.3/helpers/stretched-link
+    link "Text truncation" /docs/5.3/helpers/text-truncation
+    link "Vertical rule" /docs/5.3/helpers/vertical-rule
+    link "Visually hidden" /docs/5.3/helpers/visually-hidden
+    text Utilities
+    link API /docs/5.3/utilities/api
+    link Background /docs/5.3/utilities/background
+    link Borders /docs/5.3/utilities/borders
+    link Colors /docs/5.3/utilities/colors
+    link Display /docs/5.3/utilities/display
+    link Flex /docs/5.3/utilities/flex
+    link Float /docs/5.3/utilities/float
+    link Interactions /docs/5.3/utilities/interactions
+    link Link /docs/5.3/utilities/link
+    link "Object fit" /docs/5.3/utilities/object-fit
+    link Opacity /docs/5.3/utilities/opacity
+    link Overflow /docs/5.3/utilities/overflow
+    link Position /docs/5.3/utilities/position
+    link Shadows /docs/5.3/utilities/shadows
+    link Sizing /docs/5.3/utilities/sizing
+    link Spacing /docs/5.3/utilities/spacing
+    link Text /docs/5.3/utilities/text
+    link "Vertical align" /docs/5.3/utilities/vertical-align
+    link Visibility /docs/5.3/utilities/visibility
+    link Z-index /docs/5.3/utilities/z-index
+    text Extend
+    link Approach /docs/5.3/extend/approach
+    link Icons /docs/5.3/extend/icons
+    text About
+    link Overview /docs/5.3/about/overview
+    link Team /docs/5.3/about/team
+    link Brand /docs/5.3/about/brand
+    link License /docs/5.3/about/license
+    link Translations /docs/5.3/about/translations
+    link Migration /docs/5.3/migration/
+  row
+    col
+      row
+        link "View on GitHub" https://github.com/twbs/bootstrap/blob/v5.3.8/site/src/content/docs/getting-started/introduction.mdx
+        h1 Get started with Bootstrap
+      text Bootstrap is a powerful, feature-packed frontend toolkit. Build anything—from prototype to production—in minutes.
+    col
+      text On this page
+      link "Quick start" #quick-start
+      link "CDN links" #cdn-links
+      link "Next steps" #next-steps
+      link "JS components" #js-components
+      link "Important globals" #important-globals
+      link "HTML5 doctype" #html5-doctype
+      link "Viewport meta" #viewport-meta
+      link Box-sizing #box-sizing
+      link Reboot #reboot
+      link Community #community
+      card
+        link "https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKC6AD427ICE7D453MCA7IK2QNCYSDVKJKC6SILKJWCA7DVK3EHJNCLSIZ" https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKC6AD427ICE7D453MCA7IK2QNCYSDVKJKC6SILKJWCA7DVK3EHJNCLSIZ
+        link "Your edge case? Another builder solved it last Tuesday. Find answers." https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKC6AD427ICE7D453MCA7IK2QNCYSDVKJKC6SILKJWCA7DVK3EHJNCLSIZ
+      link "ads via Carbon" http://carbonads.net/?utm_source=getbootstrapcom&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+    col
+      h2 Quick start
+      text Get started by including Bootstrap’s production-ready CSS and JavaScript via CDN without the need for any build steps. See it in practice with this .
+      link "Bootstrap CodePen demo" https://codepen.io/team/bootstrap/pen/qBamdLj
+      text Include the  tag as well for  in mobile devices.
+      text Create a new index.html file in your project root.
+      text "<meta name=\"viewport\">" danger
+      link "proper responsive behavior" https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
+      card
+        button Copy
+        card
+          text "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Bootstrap demo</title> </head> <body> <h1>Hello, world!</h1> </body> </html>"
+      text Place the  tag in the  for our CSS, and the  tag for our JavaScript bundle (including Popper for positioning dropdowns, popovers, and tooltips) before the closing . Learn more about our .
+      text Include Bootstrap’s CSS and JS.
+      text <link> danger
+      text <head> danger
+      text <script> danger
+      text </body> danger
+      link "CDN links" #cdn-links
+      card
+        button Copy
+        card
+          text "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>Bootstrap demo</title> <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB\" crossorigin=\"anonymous\"> </head> <body> <h1>Hello, world!</h1> <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI\" crossorigin=\"anonymous\"></script> </body> </html>"
+      text You can also include  and our JS separately. If you don’t plan to use dropdowns, popovers, or tooltips, save some kilobytes by not including Popper.
+      link Popper https://github.com/floating-ui/popper-docs/blob/main/docs/v2/index.md
+      card
+        button Copy
+        card
+          text "<script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\" integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\"></script> <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js\" integrity=\"sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y\" crossorigin=\"anonymous\"></script>"
+      text Open the page in your browser of choice to see your Bootstrapped page. Now you can start building with Bootstrap by creating your own , adding dozens of , and utilizing .
+      text Hello, world!
+      link layout /docs/5.3/layout/grid
+      link components /docs/5.3/components/buttons
+      link "our official examples" /docs/5.3/examples
+      h2 CDN links
+      text As reference, here are our primary CDN links.
+      table Description URL
+        CSS | https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
+        JS | https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js
+      text You can also use the CDN to fetch any of our .
+      link "additional builds listed in the Contents page" /docs/5.3/getting-started/contents
+      text When using CDN links, be sure to use the integrity attribute to verify the correct files and versions. These hashes are unique to each file and version of Bootstrap, so when you update to a new version, be sure the integrity attribute is also updated.
+      text We also include a  attribute to prevent  errors.
+      row
+        text "crossorigin=\"anonymous\"" danger
+        link CORS https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+      h2 Next steps
+      text Read a bit more about some  that Bootstrap utilizes.
+      link "important global environment settings" #important-globals
+      text Read about what’s included in Bootstrap in our  and the list of  below.
+      link "contents section" /docs/5.3/getting-started/contents/
+      link "components that require JavaScript" #js-components
+      text Need a little more power? Consider building with Bootstrap by .
+      link "including the source files via package manager" /docs/5.3/getting-started/download#package-managers
+      text Looking to use Bootstrap as a module with ? Please refer to our  section.
+      text "<script type=\"module\">" danger
+      link "using Bootstrap as a module" /docs/5.3/getting-started/javascript#using-bootstrap-as-a-module
+      h2 JS components
+      text Curious which components explicitly require our JavaScript and Popper? If you’re at all unsure about the general page structure, keep reading for an example page template.
+      text Accordions for extending our Collapse plugin
+      text Alerts for dismissing
+      text Buttons for toggling states and checkbox/radio functionality
+      text Carousel for all slide behaviors, controls, and indicators
+      text Collapse for toggling visibility of content
+      text Dropdowns for displaying and positioning (also requires )
+      link Popper https://github.com/floating-ui/popper-docs/blob/main/docs/v2/index.md
+      text Modals for displaying, positioning, and scroll behavior
+      text Navbar for extending our Collapse and Offcanvas plugins to implement responsive behaviors
+      text Navs with the Tab plugin for toggling content panes
+      text Offcanvases for displaying, positioning, and scroll behavior
+      text Scrollspy for scroll behavior and navigation updates
+      text Toasts for displaying and dismissing
+      text Tooltips and popovers for displaying and positioning (also requires )
+      link Popper https://github.com/floating-ui/popper-docs/blob/main/docs/v2/index.md
+      h2 Important globals
+      text Bootstrap employs a handful of important global styles and settings, all of which are almost exclusively geared towards the normalization of cross browser styles. Let’s dive in.
+      h3 HTML5 doctype
+      text Bootstrap requires the use of the HTML5 doctype. Without it, you’ll see some funky and incomplete styling.
+      card
+        button Copy
+        card
+          text "<!doctype html> <html lang=\"en\"> ... </html>"
+      h3 Viewport meta
+      text Bootstrap is developed mobile first, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your <head>.
+      card
+        button Copy
+        card
+          text "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+      text You can see an example of this in action in the .
+      link "quick start" #quick-start
+      h3 Box-sizing
+      text For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to border-box. This ensures padding does not affect the final computed width of an element, but it can cause problems with some third-party software like Google Maps and Google Custom Search Engine.
+      text On the rare occasion you need to override it, use something like the following:
+      card
+        button Copy
+        card
+          text .selector-for-some-widget { box-sizing: content-box; }
+      text With the above snippet, nested elements—including generated content via ::before and ::after—will all inherit the specified box-sizing for that .selector-for-some-widget.
+      text Learn more about .
+      link "box model and sizing at CSS Tricks" https://css-tricks.com/box-sizing/
+      h3 Reboot
+      text For improved cross-browser rendering, we use  to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.
+      link Reboot /docs/5.3/content/reboot
+      h2 Community
+      text Stay up-to-date on the development of Bootstrap and reach out to the community with these helpful resources.
+      text Read and subscribe to .
+      link "The Official Bootstrap Blog" https://blog.getbootstrap.com/
+      text Ask questions and explore .
+      link "our GitHub Discussions" https://github.com/twbs/bootstrap/discussions
+      text Discuss, ask questions, and more on  or .
+      row
+        link "the community Discord" https://discord.gg/bZUvakRU3M
+        link "Bootstrap subreddit" https://www.reddit.com/r/bootstrap/
+      text Chat with fellow Bootstrappers in IRC. On the irc.libera.chat server, in the #bootstrap channel.
+      text Implementation help may be found at Stack Overflow (tagged ).
+      link bootstrap-5 https://stackoverflow.com/questions/tagged/bootstrap-5
+      text Developers should use the keyword  on packages that modify or add to the functionality of Bootstrap when distributing through  or similar delivery mechanisms for maximum discoverability.
+      text bootstrap danger
+      link npm https://www.npmjs.com/search?q=keywords:bootstrap
+      text You can also follow  for the latest gossip and awesome music videos.
+      link "@getbootstrap on X" https://x.com/getbootstrap
+row
+  col
+    link Bootstrap /
+    text Designed and built with all the love in the world by the  with the help of .
+    link "Bootstrap team" /docs/5.3/about/team
+    link "our contributors" https://github.com/twbs/bootstrap/graphs/contributors
+    text Code licensed , docs .
+    row
+      link MIT https://github.com/twbs/bootstrap/blob/main/LICENSE
+      link "CC BY 3.0" https://creativecommons.org/licenses/by/3.0/
+    text Currently v5.3.8.
+  col
+    h3 Links
+    link Home /
+    link Docs /docs/5.3/
+    link Examples /docs/5.3/examples
+    link Icons https://icons.getbootstrap.com/
+    link Blog https://blog.getbootstrap.com/
+    link "Swag Store" https://cottonbureau.com/people/bootstrap
+  col
+    h3 Guides
+    link "Getting started" /docs/5.3/getting-started
+    link "Starter template" /docs/5.3/examples/starter-template
+    link Webpack /docs/5.3/getting-started/webpack
+    link Parcel /docs/5.3/getting-started/parcel
+    link Vite /docs/5.3/getting-started/vite
+  col
+    h3 Projects
+    link "Bootstrap 5" https://github.com/twbs/bootstrap
+    link "Bootstrap 4" https://github.com/twbs/bootstrap/tree/v4-dev
+    link Icons https://github.com/twbs/icons
+    link RFS https://github.com/twbs/rfs
+    link "Examples repo" https://github.com/twbs/examples
+  col
+    h3 Community
+    link Issues https://github.com/twbs/bootstrap/issues
+    link Discussions https://github.com/twbs/bootstrap/discussions
+    link "Corporate sponsors" https://github.com/sponsors/twbs
+    link "Open Collective" https://opencollective.com/bootstrap
+    link "Stack Overflow" https://stackoverflow.com/questions/tagged/bootstrap-5
+field Field

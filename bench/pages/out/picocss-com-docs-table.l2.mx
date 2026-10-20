@@ -1,0 +1,122 @@
+@picocss_com_docs_table rev=0 @0,0,728,1642
+row @17,17,694,1608
+  button "Skip to content" primary @17,803,37,36
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @66,740,22,162
+  row @100,781,45,81
+    link "Pico CSS homepage" / @100,791,7,61
+    row @119,781,26,81
+      row @119,811,5,20
+        text v2.1.1 @119,811,0,20
+        link Examples /examples @131,811,0,20
+        link Docs /docs @143,811,0,20
+      row @136,781,9,81
+        link "GitHub repository" https://github.com/picocss/pico @136,801,0,41
+        link Twitter https://x.com/picocss @148,811,0,20
+        link "Turn on dark mode" /docs/table @160,781,0,81
+  row @157,17,383,1608
+    col @157,639,7,364
+      text Getting started @157,639,7,41
+      text Customization @157,692,7,20
+      text Layout @157,724,7,21
+      text Content @157,757,7,20
+      link Typography /docs/typography @157,789,7,20
+      link Link /docs/link @157,821,7,21
+      link Button /docs/button @157,854,7,20
+      link Table /docs/table @157,886,7,20
+      text Forms @157,918,7,20
+      text Components @157,950,7,21
+      text About @157,983,7,20
+    metric Content Table "Clean and minimal styles for <table>, providing consistent spacings and a minimal unbordered look." @176,17,30,1608
+    col @218,752,7,138
+      text Content @218,752,7,21
+      link Syntax /docs/table @218,785,7,20
+      link "Color schemes" /docs/table#color-schemes @218,817,7,41
+      link Striped /docs/table#striped @218,870,7,20
+    col @237,17,303,1608
+      table Planet "Diam. (km)" "Dist. to Sun (AU)" "Grav. (m/s²)" @237,17,303,206
+        Mercury | 4,880 | 0.39 | 3.7
+        Venus | 12,104 | 0.72 | 8.9
+        Earth | 12,742 | 1.00 | 9.8
+        Mars | 6,779 | 1.52 | 3.7
+        Average | 9,126 | 0.91 | 6.5
+      card @237,235,303,489
+        link "Copy code" /docs/table @254,250,269,20
+        text <table> <thead> <tr> <th scope="col">Planet</th> <th scope="col">Diameter (km)</th> <th scope="col">Distance to Sun (AU)</th> <th scope="col">Orbit (days)</th> </tr> </thead> <tbody> <tr> <th scope="row">Mercury</th> <td>4,880</td> <td>0.39</td> <td>88</td> </tr> <tr> <th scope="row">Venus</th> <td>12,104</td> <td>0.72</td> <td>225</td> </tr> <tr> <th scope="row">Earth</th> <td>12,742</td> <td>1.00</td> <td>365</td> </tr> <tr> <th scope="row">Mars</th> <td>6,779</td> <td>1.52</td> <td>687</td> </tr> </tbody> <tfoot> <tr> <th scope="row">Average</th> <td>9,126</td> <td>0.91</td> <td>341</td> </tr> </tfoot> </table> @254,282,269,427
+      h2 Color schemes# @237,736,303,21
+      text data-theme="light" or data-theme="dark" can be used at any level: <table>, <thead>, <tbody>, <tfoot>, <tr>, <th>, <td>. @237,769,303,61
+      table Planet "Diam. (km)" "Dist. to Sun (AU)" "Grav. (m/s²)" @237,842,303,206
+        Mercury | 4,880 | 0.39 | 3.7
+        Venus | 12,104 | 0.72 | 8.9
+        Earth | 12,742 | 1.00 | 9.8
+        Mars | 6,779 | 1.52 | 3.7
+        Average | 9,126 | 0.91 | 6.5
+      card @237,1060,303,123
+        link "Copy code" /docs/table @254,1075,269,20
+        text <table> <thead data-theme="dark"> ... </thead> <tbody>...</tbody> <tfoot>...</tfoot> </table> @254,1107,269,61
+      h2 Striped table# @237,1195,303,21
+      text enable striped rows (not available in the ). @237,1228,303,20
+      row @237,1260,303,21
+        text .striped @237,1260,50,21
+        link "class‑less version" /docs/classless @299,1260,119,21
+      table Planet "Diam. (km)" "Dist. to Sun (AU)" "Grav. (m/s²)" @237,1293,303,206
+        Mercury | 4,880 | 0.39 | 3.7
+        Venus | 12,104 | 0.72 | 8.9
+        Earth | 12,742 | 1.00 | 9.8
+        Mars | 6,779 | 1.52 | 3.7
+        Average | 9,126 | 0.91 | 6.5
+      card @237,1511,303,82
+        link "Copy code" /docs/table @254,1526,269,20
+        text <table class="striped"> ... </table> @254,1558,269,20
+      link "Edit this page on GitHub" https://github.com/picocss/picocss.com/blob/main/app/routes/docs.table.jsx @237,1605,303,20
+  col @552,683,159,276
+    row @552,683,159,203
+      region 49.34000015258789x45 @552,784,2,2 [3 shapes, 0 labelled]
+      row @566,764,78,41
+        row @566,764,14,41
+          text About @566,775,0,20
+          link Maintenance /docs/maintenance @578,775,0,20
+          link "What’s new?" /docs/v2 @590,764,0,41
+          link Brand /docs/brand @602,775,0,20
+          link Mission /docs/mission @614,775,0,20
+          link "Usage scenarios" /docs/usage-scenarios @626,764,0,41
+        row @592,764,13,41
+          text Docs @592,775,0,20
+          link "Quick start" /docs @604,764,0,41
+          link "Version picker" /docs/version-picker @616,764,0,41
+          link "Class-less version" /docs/classless @628,764,0,41
+          link "Form elements" /docs/forms @640,764,0,41
+        row @617,775,7,20
+          text Community @617,775,0,20
+          link Issues https://github.com/picocss/pico/issues @629,775,0,20
+          link Discussions https://github.com/picocss/pico/discussions @641,775,0,20
+          link Help https://github.com/picocss/pico/discussions/categories/help @653,775,0,20
+        row @636,775,8,20
+          text Examples @636,775,0,20
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @648,775,0,20
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @660,775,0,20
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @672,775,0,20
+          link All /examples @684,775,0,20
+      text Designed and built by with the help of our . @656,683,15,203
+      col @683,748,5,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @683,748,5,41
+        link contributors https://github.com/picocss/pico/graphs/contributors @683,801,5,20
+      row @700,775,11,20
+        link GitHub https://github.com/picocss/pico @700,775,0,20
+        link Twitter https://x.com/picocss @712,775,0,20
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @724,775,0,20
+        link NPM https://www.npmjs.com/package/@picocss/pico @736,775,0,20
+    row @552,898,159,61
+      text Code licensed , docs . @552,898,51,61
+      row @615,898,47,61
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @615,919,8,20
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @635,898,27,61
+      text Currently v2.1.1. @674,908,37,41
+!overflow skip 35/130px
+!overflow content2 0/45px
+!overflow content2 0/61px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

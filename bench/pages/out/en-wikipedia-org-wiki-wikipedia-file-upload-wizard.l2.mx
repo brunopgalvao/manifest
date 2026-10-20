@@ -1,0 +1,135 @@
+@en_wikipedia_org_wiki_wikipedia_file_upl rev=0 @0,0,728,2411
+link "Jump to content" #bodyContent @17,17,694,20
+row @17,49,694,541
+  row @17,49,345,541
+    col @17,49,245,541
+      button "Main menu" @17,49,245,37
+      text Main menu @17,98,245,20
+      row @17,130,245,41
+        text Main menu @17,130,57,41
+        button "Move Main menu to sidebar" @86,132,176,36
+      link "Main page" /wiki/Main_Page @17,183,245,20
+      link Contents /wiki/Wikipedia:Contents @17,215,245,20
+      link "Current events" /wiki/Portal:Current_events @17,247,245,20
+      link "Random article" /wiki/Special:Random @17,279,245,21
+      link "About Wikipedia" /wiki/Wikipedia:About @17,312,245,20
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us @17,344,245,20
+      text Contribute @17,376,245,21
+      link Help /wiki/Help:Contents @17,409,245,20
+      link "Learn to edit" /wiki/Help:Introduction @17,441,245,20
+      link "Community portal" /wiki/Wikipedia:Community_portal @17,473,245,20
+      link "Recent changes" /wiki/Special:RecentChanges @17,505,245,21
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard @17,538,245,20
+      link "Special pages" /wiki/Special:SpecialPages @17,570,245,20
+    link /wiki/Main_Page /wiki/Main_Page @274,310,88,20
+  row @374,282,337,75
+    row @374,282,152,75
+      col @374,282,74,75
+        field "Search Wikipedia" search @374,282,74,75
+      button Search @460,302,66,36
+    row @538,300,173,40
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en @538,310,37,20
+      link "Create account" @587,300,80,40
+      link "Log in" @679,300,32,40
+row @17,602,694,1792
+  row @17,602,658,1792
+    row @17,1454,8,89
+      h1 Wikipedia:File upload wizard @17,1461,0,75
+      col @29,1454,0,89
+        button "64 languages" @29,1454,30,36
+        text 64 languages primary @29,1502,0,41
+    row @37,1005,12,987
+      row @37,1478,0,41
+        link "Project page" /wiki/Wikipedia:File_upload_wizard @37,1478,0,41
+        link Talk /wiki/Wikipedia_talk:File_upload_wizard @49,1488,0,21
+      row @49,1005,0,987
+        row @49,1478,0,41
+          link Read /wiki/Wikipedia:File_upload_wizard @49,1488,0,21
+          link "View source" @61,1478,0,41
+          link "View history" @73,1478,0,41
+        col @61,1005,0,987
+          button Tools @61,1005,30,36
+          text Tools @61,1053,0,20
+          row @61,1085,0,37
+            text Tools @61,1093,0,21
+            button "Move Tools to sidebar" @73,1085,30,37
+          text General @61,1134,0,20
+          link "What links here" /wiki/Special:WhatLinksHere/Wikipedia:File_upload_wizard @61,1166,0,61
+          link "Related changes" /wiki/Special:RecentChangesLinked/Wikipedia:File_upload_wizard @61,1239,0,41
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Wikipedia:File_upload_wizard&oldid=1369261213 @61,1292,0,40
+          link "Page information" @61,1344,0,41
+          link "Get shortened URL" @61,1397,0,61
+          link "Switch to legacy parser" @61,1470,0,81
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q8989284#sitelinks-wikipedia @61,1563,0,61
+          text Print/export @61,1636,0,20
+          link "Download as PDF" @61,1668,0,61
+          link "Printable version" javascript:print(); @61,1741,0,41
+          text In other projects @61,1794,0,60
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Commons:Upload @61,1866,0,41
+          link Wikiversity https://en.wikiversity.org/wiki/Wikiversity:Upload @61,1919,0,20
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q8989284 @61,1951,0,41
+    col @61,1303,5,391
+      row @61,1303,5,36
+        text Appearance @61,1311,0,20
+        button "Hide Appearance" @73,1303,30,36
+      text Text @61,1351,5,20
+      text Small @61,1383,5,20
+      text Standard @61,1415,5,21
+      text Large @61,1448,5,20
+      text Width @61,1480,5,20
+      text Standard @61,1512,5,21
+      text Wide @61,1545,5,20
+      text Color @61,1577,5,20
+      text Automatic @61,1609,5,21
+      text Light @61,1642,5,20
+      text Dark @61,1674,5,20
+    col @78,602,597,1792
+      text From Wikipedia, the free encyclopedia @78,602,597,21
+      link Shortcut https://en.wikipedia.org/wiki/Wikipedia:Shortcut @78,635,597,20
+      link WP:FUW https://en.wikipedia.org/w/index.php?title=Wikipedia:FUW&redirect=no @78,667,597,20
+      text Thank you for offering to contribute an image or other media file for use on Wikipedia. This wizard will guide you through a questionnaire prompting you for the appropriate copyright and sourcing information for each file. Please ensure you understand and the before proceeding. @78,699,597,82
+      row @78,793,597,20
+        link copyright https://en.wikipedia.org/wiki/Wikipedia:Copyrights @78,793,63,20
+        link "image use policy" https://en.wikipedia.org/wiki/Wikipedia:Image_use_policy @153,793,112,20
+      link "Upload your own or a freely-licensed file" https://commons.wikimedia.org/wiki/Special:UploadWizard @78,825,597,20
+      text Uploads to @78,857,597,20
+      link "Wikimedia Commons" https://en.wikipedia.org/wiki/Wikipedia:Wikimedia_Commons @78,889,597,21
+      link "Upload a non-free file" https://en.wikipedia.org/w/index.php?title=Wikipedia:File_upload_wizard&withJS=MediaWiki:FileUploadWizard.js&withCSS=MediaWiki:FileUploadWizard.css @78,922,597,20
+      text Uploads locally to the English Wikipedia; must comply with the criteria @78,954,597,20
+      link "non-free content" https://en.wikipedia.org/wiki/Wikipedia:Non-free_content @78,986,597,21
+      text Preview (test) This is the data that will be submitted to upload: Filename: Edit summary: Text: @78,1019,597,40
+      text Upload in process Your file is being uploaded. This might take a minute or two, depending on the size of the file and the speed of your internet connection. Once uploading is completed, you will find your new file at this link: File:Example.jpg @78,1071,597,61
+      text .mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}}.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:"\a0 · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "} @78,1144,597,1238
+      table "Uploading media files" @78,2394,597,0
+        CommonsWikipedia Commons Wizard(recommended for free files) Plain form for Commons(experienced users) Old form Files for upload process(recommended for new users) Plain form for local uploads(experienced users) Old guided form
+        Help and guidelines | Ask copyright questions Image use policy Non-free content
+        This wizard | Documentation Script Discuss
+  col @687,785,24,1427
+    text This page was last edited on 13 August 2026, at 22:04 (UTC). @687,785,24,243
+    text Page was rendered with . @687,1040,24,102
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid @687,1154,24,20
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the and . Wikipedia® is a registered trademark of the , a non-profit organization. @687,1186,24,589
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License @687,1787,24,101
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use @687,1900,24,61
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @687,1973,24,41
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/ @687,2026,24,61
+    row @687,2099,24,81
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @687,2119,0,41
+      link "About Wikipedia" /wiki/Wikipedia:About @699,2119,0,41
+      link Disclaimers /wiki/Wikipedia:General_disclaimer @711,2129,0,20
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us @723,2119,0,41
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information @735,2099,0,81
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct @747,2109,0,61
+      link Developers https://developer.wikimedia.org @759,2129,0,20
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org @771,2129,0,20
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement @783,2119,0,41
+      link "Mobile view" @795,2119,0,41
+    row @687,2192,24,20
+      link https://www.wikimedia.org/ https://www.wikimedia.org/ @687,2192,6,20
+      link https://www.mediawiki.org/ https://www.mediawiki.org/ @705,2192,6,20
+!overflow move 174/216px
+!overflow search2 64/76px
+!overflow 64 28/121px
+!overflow tools 28/66px
+!overflow move2 28/179px
+!overflow hide 28/146px

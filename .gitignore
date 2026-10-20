@@ -13,3 +13,4 @@ bench/pages/out/*.jpg
 bench/pages/out/*.json
 !bench/pages/out/report.json
 bench/pages/out/batch.log
+bench/out/claude_tokens_cache.json

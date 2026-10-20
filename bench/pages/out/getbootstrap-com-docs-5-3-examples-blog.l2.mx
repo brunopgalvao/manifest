@@ -1,0 +1,155 @@
+@getbootstrap_com_docs_5_3_examples_blog rev=0 @0,0,728,3694
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,21
+  link Subscribe # @17,65,67,21
+  link Large # @96,65,38,21
+  row @146,65,110,21
+    link Search # @146,65,47,21
+    link "Sign up" # @205,65,51,21
+row @17,98,694,20
+  link World # @17,98,39,20
+  link U.S. # @68,98,28,20
+  link Technology # @108,98,77,20
+  link Design # @197,98,46,20
+  link Culture # @255,98,48,20
+  link Business # @315,98,59,20
+  link Politics # @386,98,47,20
+  link Opinion # @445,98,50,20
+  link Science # @507,98,52,20
+  link Health # @571,98,42,20
+  link Style # @625,98,33,20
+  link Travel # @670,98,41,20
+card @17,130,694,140
+  h1 Title of a longer featured blog post @34,145,660,25
+  text Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents. @34,182,660,41
+  link "Continue reading..." # @34,235,660,20
+row @17,282,694,188
+  row @17,282,341,188
+    col @17,282,245,188
+      text World primary @17,282,245,20
+      h3 Featured post @17,314,245,19
+      text Nov 12 @17,345,245,20
+      text This is a wider card with supporting text below as a natural lead-in to additional content. @17,377,245,61
+      link "Continue reading" # @17,450,245,20
+    region "Placeholder: Thumbnail" 200x250 @274,343,84,105 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail" @276,357,37,9
+  row @370,282,341,188
+    col @370,282,245,188
+      text Design @370,282,245,20
+      h3 Post title @370,314,245,19
+      text Nov 11 @370,345,245,20
+      text This is a wider card with supporting text below as a natural lead-in to additional content. @370,377,245,61
+      link "Continue reading" # @370,450,245,20
+    region "Placeholder: Thumbnail" 200x250 @627,343,84,105 [2 shapes, 1 labelled]
+      text @50,50 anchor:middle fill:#eceeef size:18 "Thumbnail" @629,357,37,9
+row @17,482,694,3099
+  col @17,482,453,3099
+    h3 From the Firehose @17,482,453,19
+    h2 Sample blog post @17,513,453,21
+    text January 1, 2021 by @17,546,453,21
+    link Mark # @17,579,453,20
+    text This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected. @17,611,453,61
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text. @17,684,453,101
+    h2 Blockquotes @17,797,453,22
+    text This is an example blockquote in action: @17,831,453,20
+    text Quoted text goes here. @17,863,453,20
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text. @17,895,453,102
+    h3 Example lists @17,1009,453,18
+    text This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. This is an example unordered list: @17,1039,453,61
+    text First list item @17,1112,453,21
+    text Second list item with a longer description @17,1145,453,20
+    text Third list item to close it out @17,1177,453,20
+    text And this is an ordered list: @17,1209,453,21
+    text First list item @17,1242,453,20
+    text Second list item with a longer description @17,1274,453,20
+    text Third list item to close it out @17,1306,453,20
+    text And this is a definition list: @17,1338,453,21
+    text HyperText Markup Language (HTML) @17,1371,453,20
+    text The language used to describe and define the content of a Web page @17,1403,453,41
+    text Cascading Style Sheets (CSS) @17,1456,453,20
+    text Used to describe the appearance of Web content @17,1488,453,20
+    text JavaScript (JS) @17,1520,453,21
+    text The programming language used to build advanced Web sites and applications @17,1553,453,40
+    h2 Inline HTML elements @17,1605,453,21
+    text HTML defines a long list of available inline tags, a complete list of which can be found on the . @17,1638,453,41
+    link "Mozilla Developer Network" https://developer.mozilla.org/en-US/docs/Web/HTML/Element @17,1691,453,20
+    text To bold text, use <strong>. @17,1723,453,21
+    text To italicize text, use <em>. @17,1756,453,20
+    text Abbreviations, like should use , with an optional attribute for the full phrase. @17,1788,453,41
+    row @17,1841,453,20
+      text HTML @17,1841,41,20
+      text <abbr> danger @70,1841,49,20
+      text title danger @131,1841,25,20
+    text Citations, like , should use . @17,1873,453,20
+    row @17,1905,453,20
+      text — Mark Otto @17,1905,84,20
+      text <cite> danger @113,1905,43,20
+    text text should use and text should use . @17,1937,453,21
+    row @17,1970,453,20
+      text Deleted @17,1970,52,20
+      text <del> danger @81,1970,39,20
+      text inserted @132,1970,54,20
+      text <ins> danger @198,1970,38,20
+    text Superscript text uses <sup> and subscript text uses <sub>. @17,2002,453,20
+    text Most of these elements are styled by browsers with few modifications on our part. @17,2034,453,41
+    h2 Heading @17,2087,453,21
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text. @17,2120,453,102
+    h3 Sub-heading @17,2234,453,18
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text. @17,2264,453,102
+    text Example code block @17,2378,453,20
+    text This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. @17,2410,453,61
+    h2 Another blog post @17,2483,453,21
+    text December 23, 2020 by @17,2516,453,21
+    link Jacob # @17,2549,453,20
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text. @17,2581,453,101
+    text Longer quote goes here, maybe with some emphasized text in the middle of it. @17,2694,453,41
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text. @17,2747,453,102
+    h3 Example table @17,2861,453,18
+    text And don't forget about tables in these posts: @17,2891,453,21
+    table Name Upvotes Downvotes @17,2924,453,170
+      Alice | 10 | 11
+      Bob | 4 | 3
+      Charlie | 7 | 9
+      Totals | 21 | 23
+    text This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. @17,3106,453,61
+    h2 New feature @17,3179,453,21
+    text December 14, 2020 by @17,3212,453,21
+    link Chris # @17,3245,453,20
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text. @17,3277,453,101
+    text First list item @17,3390,453,21
+    text Second list item with a longer description @17,3423,453,20
+    text Third list item to close it out @17,3455,453,20
+    text This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. @17,3487,453,61
+    row @17,3560,453,21
+      link Older # @17,3560,37,21
+      text Newer @66,3560,44,21
+  col @482,1573,229,917
+    card @482,1573,229,162
+      h3 About @499,1588,195,19
+      text Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you. @499,1619,195,101
+    h3 Recent posts @482,1747,229,19
+    link "Example blog post title January 15, 2024" # @482,1778,229,41
+    link "This is another blog post title January 14, 2024" # @482,1831,229,40
+    link "Longer blog post title: This one has multiple lines! January 13, 2024" # @482,1883,229,61
+    h3 Archives @482,1956,229,19
+    link "March 2021" # @482,1987,229,20
+    link "February 2021" # @482,2019,229,20
+    link "January 2021" # @482,2051,229,21
+    link "December 2020" # @482,2084,229,20
+    link "November 2020" # @482,2116,229,20
+    link "October 2020" # @482,2148,229,21
+    link "September 2020" # @482,2181,229,20
+    link "August 2020" # @482,2213,229,20
+    link "July 2020" # @482,2245,229,20
+    link "June 2020" # @482,2277,229,21
+    link "May 2020" # @482,2310,229,20
+    link "April 2020" # @482,2342,229,20
+    h3 Elsewhere @482,2374,229,19
+    link GitHub # @482,2405,229,20
+    link Social # @482,2437,229,21
+    link Facebook # @482,2470,229,20
+text Blog template built for by . @17,3593,694,20
+row @17,3625,694,20
+  link Bootstrap https://getbootstrap.com/ @17,3625,65,20
+  link @mdo https://x.com/mdo @94,3625,43,20
+link "Back to top" # @17,3657,694,20

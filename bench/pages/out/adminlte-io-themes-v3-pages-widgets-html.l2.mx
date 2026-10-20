@@ -1,0 +1,660 @@
+@adminlte_io_themes_v3_pages_widgets_html rev=0 @0,0,728,5622
+row @17,17,694,36
+  row @17,17,191,36
+    button button @17,17,75,36
+    link Home ../index3.html @104,25,40,20
+    link Contact # @156,25,52,20
+  row @220,17,296,36
+    button button @220,17,75,36
+    link 3 # @307,25,9,20
+    link 15 # @328,25,14,20
+    button button @354,17,75,36
+    button button @441,17,75,36
+link "AdminLTE 3" ../index3.html @17,65,694,21
+row @17,98,694,20
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image" @17,98,0,0
+  link "Alexander Pierce" # @29,98,113,20
+row @17,130,694,58
+  field Search search @17,130,40,58
+  button button primary @69,141,75,36
+link Dashboard # @17,200,694,20
+link "Widgets New" widgets.html @17,232,694,20
+link "Layout Options 6" # @17,264,694,21
+link Charts # @17,297,694,20
+link "UI Elements" # @17,329,694,20
+link Forms # @17,361,694,20
+link Tables # @17,393,694,21
+text EXAMPLES @17,426,694,20
+link "Calendar 2" calendar.html @17,458,694,20
+link Gallery gallery.html @17,490,694,21
+link "Kanban Board" kanban.html @17,523,694,20
+link Mailbox # @17,555,694,20
+link Pages # @17,587,694,20
+link Extras # @17,619,694,21
+link Search # @17,652,694,20
+text MISCELLANEOUS @17,684,694,20
+link "Tabbed IFrame Plugin" ../iframe.html @17,716,694,21
+link Documentation https://adminlte.io/docs/3.1/ @17,749,694,20
+text MULTI LEVEL EXAMPLE @17,781,694,20
+link "Level 1" # @17,813,694,21
+link "Level 1" # @17,846,694,20
+link "Level 1" # @17,878,694,20
+text LABELS @17,910,694,20
+link Important # @17,942,694,21
+link Warning # @17,975,694,20
+link Informational # @17,1007,694,20
+row @17,1039,694,25
+  h1 Widgets @17,1039,82,25
+  row @111,1042,107,20
+    link Home # @111,1042,40,20
+    text Widgets @163,1042,55,20
+h3 Info Box @17,1076,694,19
+row @17,1107,694,20
+  row @17,1107,105,20
+    text Messages 1,410 @17,1107,105,20
+  row @134,1107,102,20
+    text Bookmarks 410 @134,1107,102,20
+  row @248,1107,104,20
+    text Uploads 13,648 @248,1107,104,20
+  row @364,1107,83,20
+    text Likes 93,139 @364,1107,83,20
+h3 Info Box With Custom Shadows Using Bootstrap's Shadow Utility @17,1139,694,19
+row @17,1170,694,20
+  row @17,1170,101,20
+    text Shadows None @17,1170,101,20
+  row @130,1170,101,20
+    text Shadows Small @130,1170,101,20
+  row @243,1170,116,20
+    text Shadows Regular @243,1170,116,20
+  row @371,1170,103,20
+    text Shadows Large @371,1170,103,20
+h3 Info Box With bg-* @17,1202,694,19
+row @17,1233,694,119
+  row @17,1233,165,119
+    col @17,1233,165,119
+      text Bookmarks @17,1233,165,21
+      text 41,410 @17,1266,165,20
+      region 132.5x2 @17,1298,133,2 [1 shapes, 0 labelled]
+      text 70% Increase in 30 Days @17,1312,165,40
+  row @194,1233,164,119
+    col @194,1233,164,119
+      text Likes @194,1233,164,21
+      text 41,410 @194,1266,164,20
+      region 132.5x2 @194,1298,132,2 [1 shapes, 0 labelled]
+      text 70% Increase in 30 Days @194,1312,164,40
+  row @370,1233,165,119
+    col @370,1233,165,119
+      text Events @370,1233,165,21
+      text 41,410 @370,1266,165,20
+      region 132.5x2 @370,1298,133,2 [1 shapes, 0 labelled]
+      text 70% Increase in 30 Days @370,1312,165,40
+  row @547,1233,164,119
+    col @547,1233,164,119
+      text Comments @547,1233,164,21
+      text 41,410 @547,1266,164,20
+      region 132.5x2 @547,1298,132,2 [1 shapes, 0 labelled]
+      text 70% Increase in 30 Days @547,1312,164,40
+h3 Info Box With bg-gradient-* @17,1364,694,19
+row @17,1395,694,119
+  row @17,1395,165,119
+    col @17,1395,165,119
+      text Bookmarks @17,1395,165,21
+      text 41,410 @17,1428,165,20
+      region 132.5x2 @17,1460,133,2 [1 shapes, 0 labelled]
+      text 70% Increase in 30 Days @17,1474,165,40
+  row @194,1395,164,119
+    col @194,1395,164,119
+      text Likes @194,1395,164,21
+      text 41,410 @194,1428,164,20
+      region 132.5x2 @194,1460,132,2 [1 shapes, 0 labelled]
+      text 70% Increase in 30 Days @194,1474,164,40
+  row @370,1395,165,119
+    col @370,1395,165,119
+      text Events @370,1395,165,21
+      text 41,410 @370,1428,165,20
+      region 132.5x2 @370,1460,133,2 [1 shapes, 0 labelled]
+      text 70% Increase in 30 Days @370,1474,165,40
+  row @547,1395,164,119
+    col @547,1395,164,119
+      text Comments @547,1395,164,21
+      text 41,410 @547,1428,164,20
+      region 132.5x2 @547,1460,132,2 [1 shapes, 0 labelled]
+      text 70% Increase in 30 Days @547,1474,164,40
+h3 Small Box @17,1526,694,19
+row @17,1557,694,83
+  col @17,1557,80,83
+    h3 150 @17,1557,80,19
+    text New Orders @17,1588,80,20
+    link "More info" # @17,1620,80,21
+  col @109,1557,84,83
+    h3 53% @109,1557,84,19
+    text Bounce Rate @109,1588,84,20
+    link "More info" # @109,1620,84,21
+  col @205,1557,122,83
+    h3 44 @205,1557,122,19
+    text User Registrations @205,1588,122,20
+    link "More info" # @205,1620,122,21
+  col @339,1557,101,83
+    h3 65 @339,1557,101,19
+    text Unique Visitors @339,1588,101,20
+    link "More info" # @339,1620,101,21
+row @17,1652,694,84
+  col @17,1652,80,84
+    h3 150 @17,1652,80,19
+    text New Orders @17,1683,80,21
+    link "More info" # @17,1716,80,20
+  col @109,1652,84,84
+    h3 53% @109,1652,84,19
+    text Bounce Rate @109,1683,84,21
+    link "More info" # @109,1716,84,20
+h3 Cards @17,1748,694,19
+h3 Abilities @17,1779,694,18
+row @17,1809,694,130
+  row @17,1856,173,36
+    h3 Expandable @17,1865,86,18
+    button button @115,1856,75,36
+  col @202,1809,139,130
+    card @202,1809,139,97
+      h3 Collapsable @219,1824,105,19
+      button button @219,1855,105,36
+    text The body of the card @202,1918,139,21
+  col @353,1809,139,130
+    card @353,1809,139,97
+      h3 Removable @370,1824,105,19
+      button button @370,1855,105,36
+    text The body of the card @353,1918,139,21
+  col @504,1809,139,130
+    card @504,1809,139,97
+      h3 Maximizable @521,1824,105,19
+      button button @521,1855,105,36
+    text The body of the card @504,1918,139,21
+row @17,1951,694,149
+  col @17,1951,180,149
+    card @17,1951,180,97
+      h3 Card Refresh @34,1966,146,18
+      button button @34,1996,146,37
+    text The body of the card after card refresh @17,2060,180,40
+  col @209,1961,256,129
+    card @209,1961,256,97
+      h3 All together @226,1976,222,19
+      row @226,2007,222,36
+        button button @226,2007,46,36
+        button button @284,2007,47,36
+        button button @343,2007,46,36
+        button button @401,2007,47,36
+    text The body of the card @209,2070,256,20
+  col @477,1965,96,121
+    card @477,1965,96,68
+      h3 Loading state @494,1980,62,38
+    text The body of the card @477,2045,96,41
+  col @585,1965,126,121
+    card @585,1965,126,68
+      h3 Loading state (dark) @602,1980,92,38
+    text The body of the card @585,2045,126,41
+h3 Custom Shadows Variations Using Bootstrap's Shadow Utility @17,2112,694,19
+row @17,2143,694,129
+  col @17,2143,147,129
+    card @17,2143,147,97
+      h3 Shadow - None @34,2158,113,19
+      button button @34,2189,113,36
+    text The body of the card @17,2252,147,20
+  col @176,2143,148,129
+    card @176,2143,148,97
+      h3 Shadow - Small @193,2158,114,19
+      button button @193,2189,114,36
+    text The body of the card @176,2252,148,20
+  col @336,2143,164,129
+    card @336,2143,164,97
+      h3 Shadow - Regular @353,2158,130,19
+      button button @353,2189,130,36
+    text The body of the card @336,2252,164,20
+  col @512,2143,150,129
+    card @512,2143,150,97
+      h3 Shadow - Large @529,2158,116,19
+      button button @529,2189,116,36
+    text The body of the card @512,2252,150,20
+h3 Colors Variations @17,2284,694,19
+row @17,2315,694,130
+  col @17,2315,139,130
+    card @17,2315,139,97
+      h3 Primary @34,2330,105,19
+      button button @34,2361,105,36
+    text The body of the card @17,2424,139,21
+  col @168,2315,139,130
+    card @168,2315,139,97
+      h3 Success @185,2330,105,19
+      button button @185,2361,105,36
+    text The body of the card @168,2424,139,21
+  col @319,2315,139,130
+    card @319,2315,139,97
+      h3 Warning @336,2330,105,19
+      button button @336,2361,105,36
+    text The body of the card @319,2424,139,21
+  col @470,2339,139,81
+    card @470,2339,139,49
+      h3 Danger @487,2354,105,19
+    text The body of the card @470,2400,139,20
+row @17,2457,694,71
+  col @17,2457,176,70
+    row @17,2457,176,38
+      h3 Primary Outline @17,2457,96,38
+      button button @125,2458,68,36
+    text The body of the card @17,2507,176,20
+  col @205,2457,180,70
+    row @205,2457,180,38
+      h3 Success Outline @205,2457,100,38
+      button button @317,2458,68,36
+    text The body of the card @205,2507,180,20
+  col @397,2457,180,70
+    row @397,2457,180,38
+      h3 Warning Outline @397,2457,100,38
+      button button @509,2458,68,36
+    text The body of the card @397,2507,180,20
+  col @589,2457,122,71
+    h3 Danger Outline @589,2457,122,18
+    text The body of the card @589,2487,122,41
+row @17,2540,694,69
+  col @17,2540,145,69
+    row @17,2540,145,36
+      h3 Primary @17,2549,58,18
+      button button @87,2540,75,36
+    text The body of the card @17,2588,145,21
+  col @174,2540,150,69
+    row @174,2540,150,36
+      h3 Success @174,2549,63,18
+      button button @249,2540,75,36
+    text The body of the card @174,2588,150,21
+  col @336,2540,150,69
+    row @336,2540,150,36
+      h3 Warning @336,2549,63,18
+      button button @411,2540,75,36
+    text The body of the card @336,2588,150,21
+  col @498,2549,139,51
+    h3 Danger @498,2549,139,18
+    text The body of the card @498,2579,139,21
+row @17,2621,694,90
+  col @17,2631,178,69
+    row @17,2631,178,37
+      h3 Primary Gradient @17,2631,100,37
+      button button @129,2631,66,37
+    text The body of the card @17,2680,178,20
+  col @207,2631,182,69
+    row @207,2631,182,37
+      h3 Success Gradient @207,2631,104,37
+      button button @323,2631,66,37
+    text The body of the card @207,2680,182,20
+  col @401,2631,181,69
+    row @401,2631,181,37
+      h3 Warning Gradient @401,2631,104,37
+      button button @517,2631,65,37
+    text The body of the card @401,2680,181,20
+  col @594,2621,117,90
+    h3 Danger Gradient @594,2621,117,37
+    text The body of the card @594,2670,117,41
+h3 Direct Chat @17,2723,694,18
+row @17,2753,694,581
+  col @17,2783,165,522
+    row @17,2783,165,38
+      h3 Direct Chat @17,2783,34,38
+      row @63,2784,119,36
+        text 3 @63,2792,0,20
+        button button @75,2784,30,36
+        button Contacts @117,2784,30,36
+        button button @159,2784,30,36
+    row @17,2833,165,384
+      col @17,2833,74,384
+        text Alexander Pierce 23 Jan 2:00 pm @17,2833,74,81
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "Message User Image" @17,2926,0,0
+        text Is this template really for free? That's unbelievable! @17,2938,74,122
+        text Sarah Bullock 23 Jan 2:05 pm @17,3072,74,81
+        image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "Message User Image" @17,3165,0,0
+        text You better believe it! @17,3177,74,40
+      link "Count Dracula 2/28/2015 How have you been? I was..." # @103,2964,79,122
+    row @17,3229,165,76
+      field "Type Message ..." @17,3229,90,76
+      button Send primary @119,3249,63,36
+  col @194,2783,164,522
+    row @194,2783,164,38
+      h3 Direct Chat @194,2783,34,38
+      row @240,2784,118,36
+        text 3 @240,2792,0,20
+        button button @252,2784,30,36
+        button Contacts @294,2784,30,36
+        button button @336,2784,30,36
+    row @194,2833,164,384
+      col @194,2833,73,384
+        text Alexander Pierce 23 Jan 2:00 pm @194,2833,73,81
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "Message User Image" @194,2926,0,0
+        text Is this template really for free? That's unbelievable! @194,2938,73,122
+        text Sarah Bullock 23 Jan 2:05 pm @194,3072,73,81
+        image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "Message User Image" @194,3165,0,0
+        text You better believe it! @194,3177,73,40
+      link "Count Dracula 2/28/2015 How have you been? I was..." # @279,2964,79,122
+    row @194,3229,164,76
+      field "Type Message ..." @194,3229,90,76
+      button Send success @296,3249,62,36
+  col @370,2753,165,581
+    card @370,2753,165,97
+      h3 Direct Chat @387,2768,131,19
+      row @387,2799,131,36
+        text 3 @387,2807,0,20
+        button button @399,2799,32,36
+        button Contacts @443,2799,31,36
+        button button @486,2799,32,36
+    row @370,2862,165,385
+      col @370,2862,74,385
+        text Alexander Pierce 23 Jan 2:00 pm @370,2862,74,82
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "Message User Image" @370,2956,0,0
+        text Is this template really for free? That's unbelievable! @370,2968,74,121
+        text Sarah Bullock 23 Jan 2:05 pm @370,3101,74,82
+        image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "Message User Image" @370,3195,0,0
+        text You better believe it! @370,3207,74,40
+      link "Count Dracula 2/28/2015 How have you been? I was..." # @456,2994,79,122
+    row @370,3259,165,75
+      field "Type Message ..." @370,3259,90,75
+      button Send warning @472,3279,63,36
+  col @547,2753,164,581
+    card @547,2753,164,97
+      h3 Direct Chat @564,2768,130,19
+      row @564,2799,130,36
+        text 3 @564,2807,0,20
+        button button @576,2799,31,36
+        button Contacts @619,2799,32,36
+        button button @663,2799,31,36
+    row @547,2862,164,385
+      col @547,2862,73,385
+        text Alexander Pierce 23 Jan 2:00 pm @547,2862,73,82
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "Message User Image" @547,2956,0,0
+        text Is this template really for free? That's unbelievable! @547,2968,73,121
+        text Sarah Bullock 23 Jan 2:05 pm @547,3101,73,82
+        image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "Message User Image" @547,3195,0,0
+        text You better believe it! @547,3207,73,40
+      link "Count Dracula 2/28/2015 How have you been? I was..." # @632,2994,79,122
+    row @547,3259,164,75
+      field "Type Message ..." @547,3259,90,75
+      button Send danger @649,3279,62,36
+h3 Custom Shadows Variations Using Bootstrap's Shadow Utility @17,3346,694,19
+row @17,3377,694,581
+  col @17,3392,165,551
+    h3 Shadow - None @17,3392,165,19
+    row @17,3423,165,36
+      text 3 @17,3431,2,20
+      button button @31,3423,41,36
+      button Contacts @84,3423,45,36
+      button button @141,3423,40,36
+    row @17,3471,165,385
+      col @17,3471,74,385
+        text Alexander Pierce 23 Jan 2:00 pm @17,3471,74,81
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "Message User Image" @17,3564,0,0
+        text Is this template really for free? That's unbelievable! @17,3576,74,122
+        text Sarah Bullock 23 Jan 2:05 pm @17,3710,74,81
+        image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "Message User Image" @17,3803,0,0
+        text You better believe it! @17,3815,74,41
+      link "Count Dracula 2/28/2015 How have you been? I was..." # @103,3603,79,121
+    row @17,3868,165,75
+      field "Type Message ..." @17,3868,90,75
+      button Send primary @119,3887,63,37
+  col @194,3392,164,551
+    h3 Shadow - Small @194,3392,164,19
+    row @194,3423,164,36
+      text 3 @194,3431,2,20
+      button button @208,3423,40,36
+      button Contacts @260,3423,45,36
+      button button @317,3423,41,36
+    row @194,3471,164,385
+      col @194,3471,73,385
+        text Alexander Pierce 23 Jan 2:00 pm @194,3471,73,81
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "Message User Image" @194,3564,0,0
+        text Is this template really for free? That's unbelievable! @194,3576,73,122
+        text Sarah Bullock 23 Jan 2:05 pm @194,3710,73,81
+        image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "Message User Image" @194,3803,0,0
+        text You better believe it! @194,3815,73,41
+      link "Count Dracula 2/28/2015 How have you been? I was..." # @279,3603,79,121
+    row @194,3868,164,75
+      field "Type Message ..." @194,3868,90,75
+      button Send success @296,3887,62,37
+  col @370,3377,165,581
+    card @370,3377,165,97
+      h3 Shadow - Regular @387,3392,131,19
+      row @387,3423,131,36
+        text 3 @387,3431,0,20
+        button button @399,3423,32,36
+        button Contacts @443,3423,31,36
+        button button @486,3423,32,36
+    row @370,3486,165,385
+      col @370,3486,74,385
+        text Alexander Pierce 23 Jan 2:00 pm @370,3486,74,81
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "Message User Image" @370,3579,0,0
+        text Is this template really for free? That's unbelievable! @370,3591,74,122
+        text Sarah Bullock 23 Jan 2:05 pm @370,3725,74,81
+        image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "Message User Image" @370,3818,0,0
+        text You better believe it! @370,3830,74,41
+      link "Count Dracula 2/28/2015 How have you been? I was..." # @456,3618,79,121
+    row @370,3883,165,75
+      field "Type Message ..." @370,3883,90,75
+      button Send warning @472,3902,63,37
+  col @547,3377,164,581
+    card @547,3377,164,97
+      h3 Shadow - Large @564,3392,130,19
+      row @564,3423,130,36
+        text 3 @564,3431,0,20
+        button button @576,3423,31,36
+        button Contacts @619,3423,32,36
+        button button @663,3423,31,36
+    row @547,3486,164,385
+      col @547,3486,73,385
+        text Alexander Pierce 23 Jan 2:00 pm @547,3486,73,81
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "Message User Image" @547,3579,0,0
+        text Is this template really for free? That's unbelievable! @547,3591,73,122
+        text Sarah Bullock 23 Jan 2:05 pm @547,3725,73,81
+        image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "Message User Image" @547,3818,0,0
+        text You better believe it! @547,3830,73,41
+      link "Count Dracula 2/28/2015 How have you been? I was..." # @632,3618,79,121
+    row @547,3883,164,75
+      field "Type Message ..." @547,3883,90,75
+      button Send danger @649,3902,62,37
+h3 Social Widgets @17,3970,694,19
+row @17,4001,694,220
+  col @17,4001,164,220
+    card @17,4001,164,91
+      image https://adminlte.io/themes/v3/dist/img/user7-128x128.jpg "User Avatar" @34,4016,0,0
+      h3 Nadia Carmichael @34,4028,130,19
+      h3 Lead Developer @34,4059,130,18
+    link "Projects 31" # @17,4104,164,21
+    link "Tasks 5" # @17,4137,164,20
+    link "Completed Projects 12" # @17,4169,164,20
+    link "Followers 842" # @17,4201,164,20
+  col @193,4034,233,154
+    card @193,4034,233,79
+      h3 Alexander Pierce @210,4049,199,19
+      h3 Founder & CEO @210,4080,199,18
+    image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "User Avatar" @193,4125,0,0
+    row @193,4137,233,51
+      col @193,4137,45,51
+        h3 3,200 @193,4137,45,19
+        text SALES @193,4168,45,20
+      col @250,4137,86,51
+        h3 13,000 @250,4137,86,19
+        text FOLLOWERS @250,4168,86,20
+      col @348,4137,78,51
+        h3 35 @348,4137,78,19
+        text PRODUCTS @348,4168,78,20
+  col @438,4049,233,124
+    h3 Elizabeth Pierce @438,4049,233,19
+    h3 Web Designer @438,4080,233,18
+    image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "User Avatar" @438,4110,0,0
+    row @438,4122,233,51
+      col @438,4122,45,51
+        h3 3,200 @438,4122,45,19
+        text SALES @438,4153,45,20
+      col @495,4122,86,51
+        h3 13,000 @495,4122,86,19
+        text FOLLOWERS @495,4153,86,20
+      col @593,4122,78,51
+        h3 35 @593,4122,78,19
+        text PRODUCTS @593,4153,78,20
+row @17,4233,694,752
+  col @17,4332,272,555
+    row @17,4332,272,105
+      col @17,4332,111,105
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "User Image" @17,4332,0,0
+        link "Jonathan Burke Jr." # @17,4344,111,40
+        text Shared publicly - 7:30 PM Today @17,4396,111,41
+      row @140,4366,149,37
+        button "Mark as read" @140,4366,47,37
+        button button @199,4366,39,37
+        button button @250,4366,39,37
+    image https://adminlte.io/themes/v3/dist/img/photo2.png Photo @17,4449,0,0
+    text I took this photo this morning. What do you guys think? @17,4461,272,41
+    button Share @17,4514,272,36
+    button Like @17,4562,272,36
+    text 127 likes - 3 comments @17,4610,272,21
+    row @17,4643,272,81
+      image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "User Image" @17,4643,0,0
+      text Maria Gonzales 8:03 PM Today It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. @29,4643,260,81
+    row @17,4736,272,81
+      image https://adminlte.io/themes/v3/dist/img/user4-128x128.jpg "User Image" @17,4736,0,0
+      text Luna Stark 8:03 PM Today It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. @29,4736,260,81
+    row @17,4829,272,58
+      image https://adminlte.io/themes/v3/dist/img/user4-128x128.jpg "Alt Text" @17,4829,0,0
+      field "Press enter to post comment" @29,4829,164,58
+  col @301,4233,410,752
+    row @301,4233,410,85
+      col @301,4233,170,85
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "User Image" @301,4233,0,0
+        link "Jonathan Burke Jr." # @301,4245,170,21
+        text Shared publicly - 7:30 PM Today @301,4278,170,40
+      row @483,4258,228,36
+        button "Mark as read" @483,4258,86,36
+        button button @581,4258,59,36
+        button button @652,4258,59,36
+    text Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at @301,4330,410,61
+    text the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. @301,4403,410,81
+    row @301,4496,410,124
+      image https://adminlte.io/themes/v3/dist/img/photo1.png "Attachment Image" @301,4496,0,0
+      col @313,4496,398,124
+        h3 Lorem ipsum text generator @313,4496,398,19
+        text Description about the attachment can be placed here. Lorem Ipsum is simply dummy text of the printing and typesetting industry... @313,4527,398,61
+        link more # @313,4600,398,20
+    button Share @301,4632,410,37
+    button Like @301,4681,410,36
+    text 45 likes - 2 comments @301,4729,410,20
+    row @301,4761,410,61
+      image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "User Image" @301,4761,0,0
+      text Maria Gonzales 8:03 PM Today It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. @313,4761,398,61
+    row @301,4834,410,81
+      image https://adminlte.io/themes/v3/dist/img/user5-128x128.jpg "User Image" @301,4834,0,0
+      text Nora Havisham 8:03 PM Today The point of using Lorem Ipsum is that it hrs a morer-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. @313,4834,398,81
+    row @301,4927,410,58
+      image https://adminlte.io/themes/v3/dist/img/user4-128x128.jpg "Alt Text" @301,4927,0,0
+      field "Press enter to post comment" @313,4927,164,58
+h3 Custom Shadows Variations Using Bootstrap's Shadow Utility @17,4997,694,19
+row @17,5028,694,221
+  col @17,5028,164,221
+    card @17,5028,164,91
+      image https://adminlte.io/themes/v3/dist/img/user7-128x128.jpg "User Avatar" @34,5043,0,0
+      h3 Nadia Carmichael @34,5055,130,19
+      h3 Lead Developer @34,5086,130,18
+    link "Projects 31" # @17,5131,164,21
+    link "Tasks 5" # @17,5164,164,20
+    link "Completed Projects 12" # @17,5196,164,20
+    link "Followers 842" # @17,5228,164,21
+  col @193,5061,233,154
+    card @193,5061,233,79
+      h3 Alexander Pierce @210,5076,199,19
+      h3 Founder & CEO @210,5107,199,18
+    image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "User Avatar" @193,5152,0,0
+    row @193,5164,233,51
+      col @193,5164,45,51
+        h3 3,200 @193,5164,45,19
+        text SALES @193,5195,45,20
+      col @250,5164,86,51
+        h3 13,000 @250,5164,86,19
+        text FOLLOWERS @250,5195,86,20
+      col @348,5164,78,51
+        h3 35 @348,5164,78,19
+        text PRODUCTS @348,5195,78,20
+  col @438,5076,233,124
+    h3 Elizabeth Pierce @438,5076,233,19
+    h3 Web Designer @438,5107,233,18
+    image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "User Avatar" @438,5137,0,0
+    row @438,5149,233,51
+      col @438,5149,45,51
+        h3 3,200 @438,5149,45,19
+        text SALES @438,5180,45,20
+      col @495,5149,86,51
+        h3 13,000 @495,5149,86,19
+        text FOLLOWERS @495,5180,86,20
+      col @593,5149,78,51
+        h3 35 @593,5149,78,19
+        text PRODUCTS @593,5180,78,20
+h3 Card with Image Overlay @17,5261,694,18
+row @17,5291,694,136
+  col @17,5291,223,136
+    image https://adminlte.io/themes/v3/dist/img/photo1.png "Dist Photo 1" @17,5291,0,0
+    h3 Card Title @17,5303,223,19
+    text Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor. @17,5334,223,61
+    link "Last update 2 mins ago" # @17,5407,223,20
+  col @252,5291,224,136
+    image https://adminlte.io/themes/v3/dist/img/photo2.png "Dist Photo 2" @252,5291,0,0
+    h3 Card Title @252,5303,224,19
+    text Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor. @252,5334,224,61
+    link "Last update 15 hours ago" # @252,5407,224,20
+  col @488,5291,223,136
+    image https://adminlte.io/themes/v3/dist/img/photo3.jpg "Dist Photo 3" @488,5291,0,0
+    h3 Card Title @488,5303,223,19
+    text Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor. @488,5334,223,61
+    link "Last update 3 days ago" # @488,5407,223,20
+button "Scroll to top" primary @17,5439,694,37
+text All rights reserved. @17,5488,694,20
+text Version 3.2.0 @17,5520,694,20
+text Copyright © 2014-2021 . @17,5552,694,20
+link AdminLTE.io https://adminlte.io @17,5584,694,21
+!overflow button11 44/73px
+!overflow button12 45/73px
+!overflow button13 44/73px
+!overflow button14 45/73px
+!overflow button22 66/73px
+!overflow button23 66/73px
+!overflow button24 66/73px
+!overflow button28 64/73px
+!overflow button29 64/73px
+!overflow button30 63/73px
+!overflow button31 28/73px
+!overflow contacts 28/90px
+!overflow button32 28/73px
+!overflow send 61/63px
+!overflow button33 28/73px
+!overflow contacts2 28/90px
+!overflow button34 28/73px
+!overflow send2 60/63px
+!overflow button35 30/73px
+!overflow contacts3 29/90px
+!overflow button36 30/73px
+!overflow send3 61/63px
+!overflow button37 29/73px
+!overflow contacts4 30/90px
+!overflow button38 29/73px
+!overflow send4 60/63px
+!overflow button39 39/73px
+!overflow contacts5 43/90px
+!overflow button40 38/73px
+!overflow send5 61/63px
+!overflow button41 38/73px
+!overflow contacts6 43/90px
+!overflow button42 39/73px
+!overflow send6 60/63px
+!overflow button43 30/73px
+!overflow contacts7 29/90px
+!overflow button44 30/73px
+!overflow send7 61/63px
+!overflow button45 29/73px
+!overflow contacts8 30/90px
+!overflow button46 29/73px
+!overflow send8 60/63px
+!overflow mark 45/116px
+!overflow button47 37/73px
+!overflow button48 37/73px
+!overflow mark2 84/116px
+!overflow button49 57/73px
+!overflow button50 57/73px

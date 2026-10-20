@@ -1,0 +1,108 @@
+@getbootstrap_com_docs_5_3_examples_navba rev=0 @0,0,728,1297
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,37
+  link "Never expand" # @17,73,94,21
+  button "Toggle navigation" @123,65,152,37
+row @17,114,694,57
+  link "Always expand" # @17,132,101,21
+  row @130,114,132,57
+    row @130,132,80,21
+      link Home # @130,132,40,21
+      link Link # @182,132,28,21
+    field Search search @222,114,40,57
+row @17,183,694,58
+  link "Expand at sm" # @17,202,90,20
+  row @119,183,284,58
+    row @119,202,232,20
+      link Home # @119,202,40,20
+      link Link # @171,202,28,20
+      text Disabled @211,202,58,20
+      link Dropdown # @281,202,70,20
+    field Search search @363,183,40,58
+row @17,253,694,58
+  link "Expand at md" # @17,272,91,20
+  row @120,253,284,58
+    row @120,272,232,20
+      link Home # @120,272,40,20
+      link Link # @172,272,28,20
+      text Disabled @212,272,58,20
+      link Dropdown # @282,272,70,20
+    field Search search @364,253,40,58
+row @17,323,694,57
+  link "Expand at lg" # @17,341,82,21
+  row @111,323,284,57
+    row @111,341,232,21
+      link Home # @111,341,40,21
+      link Link # @163,341,28,21
+      text Disabled @203,341,58,21
+      link Dropdown # @273,341,70,21
+    field Search search @355,323,40,57
+row @17,392,694,58
+  link "Expand at xl" # @17,411,81,20
+  row @110,392,284,58
+    row @110,411,232,20
+      link Home # @110,411,40,20
+      link Link # @162,411,28,20
+      text Disabled @202,411,58,20
+      link Dropdown # @272,411,70,20
+    field Search search @354,392,40,58
+row @17,462,694,36
+  link "Expand at xxl" # @17,470,89,20
+  button "Toggle navigation" @118,462,152,36
+row @17,510,694,58
+  link Container # @17,529,65,20
+  row @94,510,284,58
+    row @94,529,232,20
+      link Home # @94,529,40,20
+      link Link # @146,529,28,20
+      text Disabled @186,529,58,20
+      link Dropdown # @256,529,70,20
+    field Search search @338,510,40,58
+row @17,580,694,58
+  link "Container XL" # @17,599,86,20
+  row @115,580,284,58
+    row @115,599,232,20
+      link Home # @115,599,40,20
+      link Link # @167,599,28,20
+      text Disabled @207,599,58,20
+      link Dropdown # @277,599,70,20
+    field Search search @359,580,40,58
+text Matching .container-xl... @17,650,694,20
+row @17,682,694,20
+  link "Centered nav only" # @17,682,122,20
+  link Link # @151,682,28,20
+  text Disabled @191,682,58,20
+  link Dropdown # @261,682,70,20
+card @17,714,694,88
+  row @34,729,660,58
+    link Navbar # @34,748,48,20
+    row @94,729,284,58
+      row @94,748,232,20
+        link Home # @94,748,40,20
+        link Link # @146,748,28,20
+        text Disabled @186,748,58,20
+        link Dropdown # @256,748,70,20
+      field Search search @338,729,40,58
+card @17,814,694,50
+  row @34,829,660,20
+    link "Centered nav only" # @34,829,122,20
+    link Link # @168,829,28,20
+    text Disabled @208,829,58,20
+    link Dropdown # @278,829,70,20
+card @17,876,694,67
+  row @34,891,660,37
+    link "Centered nav" # @34,899,90,21
+    row @136,899,232,21
+      link Home # @136,899,40,21
+      link Link # @188,899,28,21
+      text Disabled @228,899,58,21
+      link Dropdown # @298,899,70,21
+    button Button primary @380,891,75,37
+card @17,955,694,325
+  h1 Navbar examples @34,970,660,25
+  text This example is a quick exercise to illustrate how the navbar and its contents work. Some navbars extend the width of the viewport, others are confined within a . For positioning of navbars, checkout the and examples. @34,1007,660,61
+  text .container danger @34,1080,660,20
+  link top /docs/5.3/examples/navbar-static/ @34,1112,660,20
+  link "fixed top" /docs/5.3/examples/navbar-fixed/ @34,1144,660,21
+  text At the smallest breakpoint, the collapse plugin is used to hide the links and show a menu button to toggle the collapsed content. @34,1177,660,40
+  button "View navbar docs »" primary @34,1229,660,36

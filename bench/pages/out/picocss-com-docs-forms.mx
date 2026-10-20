@@ -57,6 +57,7 @@ row
       link "Copy code" /docs/forms
       text "<input type=\"email\" name=\"email\" placeholder=\"Email\" autoComplete=\"email\" aria-label=\"Email\" aria-describedby=\"email-helper\" /> <small id=\"email-helper\"> We'll never share your email with anyone else. </small>"
       h2 Usage with grid#
+      text You can use  inside a form. See .
       row
         text .grid
         link Grid /docs/grid
@@ -67,6 +68,7 @@ row
       link "Copy code" /docs/forms
       text "<form> <fieldset class=\"grid\"> <input name=\"login\" placeholder=\"Login\" aria-label=\"Login\" autocomplete=\"username\" /> <input type=\"password\" name=\"password\" placeholder=\"Password\" aria-label=\"Password\" autocomplete=\"current-password\" /> <input type=\"submit\" value=\"Log in\" /> </fieldset> </form>"
       h2 Usage with group#
+      text You can use  with form elements. See .
       row
         text "role=\"group\""
         link Group /docs/group
@@ -110,6 +112,7 @@ row
           link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html
           link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss
           link All /examples
+      text Designed and built by  with the help of our .
       col
         link "Lucas Larroche" https://lucaslarroche.com/
         link contributors https://github.com/picocss/pico/graphs/contributors
@@ -119,6 +122,7 @@ row
         link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico
         link NPM https://www.npmjs.com/package/@picocss/pico
     row
+      text Code licensed , docs .
       row
         link MIT https://github.com/picocss/pico/blob/master/LICENSE.md
         link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md

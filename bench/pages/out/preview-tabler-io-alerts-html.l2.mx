@@ -1,0 +1,361 @@
+@preview_tabler_io_alerts_html rev=0 @0,0,728,3820
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,41
+  link Tabler . @17,59,39,21
+  row @68,49,643,41
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle @68,49,71,41
+    row @151,49,448,41
+      link "Enable dark mode" @151,49,108,41
+      link "Show notifications" # @271,49,111,41
+      link "Show app menu" # @394,49,97,41
+      link "Select language" # @503,49,96,41
+    link "Open user menu" # @611,49,100,41
+row @17,102,694,36
+  row @17,102,593,36
+    button Dashboards @17,102,85,36
+    button Interface @114,102,71,36
+    button Forms @197,102,58,36
+    button Extra @267,102,54,36
+    button Layout @333,102,61,36
+    button Plugins @406,102,63,36
+    button Addons @481,102,65,36
+    button Help @558,102,52,36
+  button Customize @622,102,89,36
+row @17,150,694,78
+  col @17,150,649,78
+    h1 Alerts @17,150,649,25
+    text Alert messages inform users about the status of an action, in success, info, warning, or danger states. @17,187,649,41
+  link Docs https://docs.tabler.io/ui/components/alert @678,179,33,20
+row @17,240,694,1471
+  col @17,699,93,553
+    h2 Basic @17,699,93,21
+    text A title and a color are enough to show the status of an action. @17,732,93,122
+    text An error occurred! danger @17,866,93,40
+    card @17,918,93,30
+    text Some information is missing! danger @17,960,93,61
+    card @17,1033,93,30
+    text Completed successfully! success @17,1075,93,41
+    card @17,1128,93,30
+    text Just a quick note! primary @17,1170,93,40
+    card @17,1222,93,30
+  col @122,551,90,849
+    h2 With action @122,551,90,42
+    text Add an alert-action link to give users something to do next. @122,605,90,122
+    text An error occurred! danger @122,739,90,41
+    card @122,792,90,98
+      link Link # @139,807,56,20
+      button close danger @139,839,56,36
+    text Some information is missing! danger @122,902,90,61
+    card @122,975,90,99
+      link Link # @139,990,56,20
+      button close danger @139,1022,56,37
+    text Completed successfully! success @122,1086,90,40
+    card @122,1138,90,99
+      link Link # @139,1153,56,21
+      button close success @139,1186,56,36
+    text Just a quick note! primary @122,1249,90,40
+    card @122,1301,90,99
+      link Link # @139,1316,56,21
+      button close primary @139,1349,56,36
+  col @224,626,108,699
+    h2 Dismissible @224,626,108,21
+    text Add alert-dismissible and a btn-close button to let users close the alert. @224,659,108,122
+    text An error occurred! danger @224,793,108,41
+    card @224,846,108,66
+      button close danger @241,861,74,36
+    text Some information is missing! danger @224,924,108,61
+    card @224,997,108,66
+      button close danger @241,1012,74,36
+    text Completed successfully! success @224,1075,108,41
+    card @224,1128,108,66
+      button close success @241,1143,74,36
+    text Just a quick note! primary @224,1206,108,41
+    card @224,1259,108,66
+      button close primary @241,1274,74,36
+  col @344,401,122,1149
+    h2 With a description @344,401,122,42
+    text Add an alert-description or an alert-list when the title alone isn't enough context. @344,455,122,122
+    card @344,589,122,279
+      col @361,604,88,201
+        h3 Password does not meet requirements: @361,604,88,75
+        text Minimum 8 characters @361,691,88,41
+        text Include a special character @361,744,88,61
+      button close danger @361,817,88,36
+    card @344,880,122,228
+      col @361,895,88,150
+        h3 Some information is missing! @361,895,88,56
+        text This is a custom alert box with a description. @361,963,88,82
+      button close danger @361,1057,88,36
+    card @344,1120,122,209
+      col @361,1135,88,131
+        h3 Completed successfully! @361,1135,88,37
+        text This is a custom alert box with a description. @361,1184,88,82
+      button close success @361,1278,88,36
+    card @344,1341,122,209
+      col @361,1356,88,131
+        h3 Just a quick note! @361,1356,88,37
+        text This is a custom alert box with a description. @361,1405,88,82
+      button close primary @361,1499,88,36
+  col @478,240,119,1471
+    h2 Important @478,240,119,21
+    text Add alert-important for a bolder style that stands out from the rest of the page. @478,273,119,122
+    card @478,407,119,279
+      col @495,422,85,200
+        h3 Password does not meet requirements: @495,422,85,75
+        text Minimum 8 characters @495,509,85,40
+        text Include a special character @495,561,85,61
+      button close @495,634,85,37
+    card @478,698,119,227
+      col @495,713,85,149
+        h3 This is a custom alert box! @495,713,85,56
+        text This is a custom alert box with a description. @495,781,85,81
+      button close @495,874,85,36
+    card @478,937,119,228
+      col @495,952,85,150
+        h3 This is a custom alert box! @495,952,85,57
+        text This is a custom alert box with a description. @495,1021,85,81
+      button close @495,1114,85,36
+    card @478,1177,119,228
+      col @495,1192,85,150
+        h3 This is a custom alert box! @495,1192,85,56
+        text This is a custom alert box with a description. @495,1260,85,82
+      button close @495,1354,85,36
+    text An error occurred! @478,1417,119,41
+    card @478,1470,119,98
+      link Link # @495,1485,85,20
+      button close @495,1517,85,36
+    text Just a quick note! @478,1580,119,20
+    card @478,1612,119,99
+      link Link # @495,1627,85,21
+      button close @495,1660,85,36
+  col @609,324,102,1303
+    h2 Minor @609,324,102,21
+    text Add alert-minor for a quieter style that fits inline with other content. @609,357,102,122
+    card @609,491,102,299
+      col @626,506,68,221
+        h3 Password does not meet requirements: @626,506,68,75
+        text Minimum 8 characters @626,593,68,61
+        text Include a special character @626,666,68,61
+      button close danger @626,739,68,36
+    card @609,802,102,267
+      col @626,817,68,189
+        h3 This is a custom alert box! @626,817,68,75
+        text This is a custom alert box with a description. @626,904,68,102
+      button close success @626,1018,68,36
+    card @609,1081,102,267
+      col @626,1096,68,189
+        h3 This is a custom alert box! @626,1096,68,75
+        text This is a custom alert box with a description. @626,1183,68,102
+      button close danger @626,1297,68,36
+    card @609,1360,102,267
+      col @626,1375,68,188
+        h3 This is a custom alert box! @626,1375,68,75
+        text This is a custom alert box with a description. @626,1462,68,101
+      button close primary @626,1575,68,37
+row @17,1723,694,41
+  row @17,1723,325,41
+    link Documentation https://docs.tabler.io @17,1733,99,20
+    link License ./license.html @128,1733,52,20
+    link "Source code" https://github.com/tabler/tabler @192,1723,83,41
+    link Sponsor https://github.com/sponsors/codecalm @287,1733,55,20
+  row @354,1723,357,41
+    text Copyright © 2026 . All rights reserved. @354,1723,254,41
+    link Tabler . @620,1733,43,20
+    link v1.6.1 ./changelog.html @675,1733,36,20
+button Customize primary @17,1776,694,36
+card @17,1824,694,1979
+  button Close primary @34,1839,660,36
+  region 160x120 @34,1887,160,120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own @34,2019,660,21
+  text Pick the look and layout of this preview. Your choices are saved in this browser. @34,2052,660,21
+  h3 Appearance @34,2085,660,19
+  text Color scheme @34,2116,660,20
+  text The page and its navigation, in one pick. @34,2148,660,20
+  row @34,2180,660,96
+    col @34,2180,96,96
+      region 96x64 @34,2180,96,64 [8 shapes, 0 labelled]
+      text Auto @34,2256,96,20
+    col @142,2180,96,96
+      region 96x64 @142,2180,96,64 [8 shapes, 0 labelled]
+      text Light @142,2256,96,20
+    col @250,2180,96,96
+      region 96x64 @250,2180,96,64 [8 shapes, 0 labelled]
+      text Dark @250,2256,96,20
+    col @358,2180,96,96
+      region 96x64 @358,2180,96,64 [8 shapes, 0 labelled]
+      text Dark nav @358,2256,96,20
+    col @466,2180,96,96
+      region 96x64 @466,2180,96,64 [8 shapes, 0 labelled]
+      text Colored @466,2256,96,20
+  text Accent color @34,2288,660,21
+  text The accent color used across the app. @34,2321,660,20
+  row @34,2353,660,0
+  text Font family @34,2365,660,20
+  text The typeface used across the app. @34,2397,660,21
+  row @34,2430,660,20
+    text Aa Sans-serif @34,2430,90,20
+    text Aa Serif @136,2430,53,20
+    text Aa Monospace @201,2430,100,20
+    text Aa Comic @313,2430,64,20
+  text Theme base @34,2462,660,20
+  text The gray palette behind every surface. @34,2494,660,21
+  row @34,2527,660,96
+    col @34,2527,96,96
+      region 96x64 @34,2527,96,64 [6 shapes, 0 labelled]
+      text Slate @34,2603,96,20
+    col @142,2527,96,96
+      region 96x64 @142,2527,96,64 [6 shapes, 0 labelled]
+      text Gray @142,2603,96,20
+    col @250,2527,96,96
+      region 96x64 @250,2527,96,64 [6 shapes, 0 labelled]
+      text Zinc @250,2603,96,20
+    col @358,2527,96,96
+      region 96x64 @358,2527,96,64 [6 shapes, 0 labelled]
+      text Neutral @358,2603,96,20
+    col @466,2527,96,96
+      region 96x64 @466,2527,96,64 [6 shapes, 0 labelled]
+      text Stone @466,2603,96,20
+  text Corner radius @34,2635,660,20
+  text How round corners are drawn. @34,2667,660,20
+  row @34,2699,660,97
+    col @34,2699,96,97
+      region 96x64 @34,2699,96,64 [2 shapes, 0 labelled]
+      text 0 @34,2775,96,21
+    col @142,2699,96,97
+      region 96x64 @142,2699,96,64 [2 shapes, 0 labelled]
+      text 0.5 @142,2775,96,21
+    col @250,2699,96,97
+      region 96x64 @250,2699,96,64 [2 shapes, 0 labelled]
+      text 1 @250,2775,96,21
+    col @358,2699,96,97
+      region 96x64 @358,2699,96,64 [2 shapes, 0 labelled]
+      text 1.5 @358,2775,96,21
+    col @466,2699,96,97
+      region 96x64 @466,2699,96,64 [2 shapes, 0 labelled]
+      text 2 @466,2775,96,21
+  h3 Layout @34,2808,660,18
+  text Navigation @34,2838,660,21
+  text Where the main menu lives. @34,2871,660,20
+  row @34,2903,660,96
+    col @34,2903,96,96
+      region 96x64 @34,2903,96,64 [10 shapes, 0 labelled]
+      text Navbar @34,2979,96,20
+    col @142,2903,96,96
+      region 96x64 @142,2903,96,64 [11 shapes, 0 labelled]
+      text Sidebar @142,2979,96,20
+  text Container width @34,3011,660,21
+  text How wide the page content runs. @34,3044,660,20
+  row @34,3076,660,96
+    col @34,3076,96,96
+      region 96x64 @34,3076,96,64 [6 shapes, 0 labelled]
+      text Default @34,3152,96,20
+    col @142,3076,96,96
+      region 96x64 @142,3076,96,64 [6 shapes, 0 labelled]
+      text Fluid @142,3152,96,20
+    col @250,3076,96,96
+      region 96x64 @250,3076,96,64 [7 shapes, 0 labelled]
+      text Boxed @250,3152,96,20
+  text Navbar behavior @34,3184,660,21
+  text Keep the navbar visible while scrolling. @34,3217,660,20
+  row @34,3249,660,96
+    col @34,3249,96,96
+      region 96x64 @34,3249,96,64 [8 shapes, 0 labelled]
+      text Default @34,3325,96,20
+    col @142,3249,96,96
+      region 96x64 @142,3249,96,64 [10 shapes, 0 labelled]
+      text Sticky @142,3325,96,20
+  text Navigation style @34,3357,660,20
+  text Attach the navigation to the edges, or let it float. @34,3389,660,21
+  row @34,3422,660,96
+    col @34,3422,96,96
+      region 96x64 @34,3422,96,64 [10 shapes, 0 labelled]
+      text Attached @34,3498,96,20
+    col @142,3422,96,96
+      region 96x64 @142,3422,96,64 [9 shapes, 0 labelled]
+      text Floating @142,3498,96,20
+  text Offcanvas style @34,3530,660,20
+  text Attach side panels to the edges, or let them float. @34,3562,660,21
+  row @34,3595,660,96
+    col @34,3595,96,96
+      region 96x64 @34,3595,96,64 [11 shapes, 0 labelled]
+      text Attached @34,3671,96,20
+    col @142,3595,96,96
+      region 96x64 @142,3595,96,64 [10 shapes, 0 labelled]
+      text Floating @142,3671,96,20
+  button "Reset changes" @34,3703,660,36
+  button Save primary @34,3751,660,37
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!overflow close 54/65px
+!overflow close2 54/65px
+!overflow close3 54/65px
+!overflow close4 54/65px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3
+!offcanvas region5
+!offcanvas path4
+!offcanvas region6
+!offcanvas path5
+!offcanvas region7
+!offcanvas path6
+!offcanvas region8
+!offcanvas path7
+!offcanvas region9
+!offcanvas path8
+!offcanvas region10
+!offcanvas path9
+!offcanvas region11
+!offcanvas path10
+!offcanvas region12
+!offcanvas path11
+!offcanvas region13
+!offcanvas path12
+!offcanvas region14
+!offcanvas path13
+!offcanvas region15
+!offcanvas path14
+!offcanvas region16
+!offcanvas path15
+!offcanvas region17
+!offcanvas path16
+!offcanvas region18
+!offcanvas path17
+!offcanvas region19
+!offcanvas path18
+!offcanvas region20
+!offcanvas path19
+!offcanvas region21
+!offcanvas path20
+!offcanvas region22
+!offcanvas path21
+!offcanvas region23
+!offcanvas path22
+!offcanvas region24
+!offcanvas path23
+!offcanvas region25
+!offcanvas path24
+!offcanvas region26
+!offcanvas path25
+!offcanvas region27
+!offcanvas path26
+!offcanvas region28
+!offcanvas path27
+!offcanvas region29
+!offcanvas path28
+!offcanvas region30
+!offcanvas path29
+!offcanvas region31
+!offcanvas path30
+!offcanvas region32
+!offcanvas path31

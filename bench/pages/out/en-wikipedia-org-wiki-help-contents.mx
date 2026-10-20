@@ -1,0 +1,296 @@
+@en_wikipedia_org_wiki_help_contents
+link "Jump to content" #bodyContent
+row
+  row
+    col
+      button "Main menu"
+      text Main menu
+      row
+        text Main menu
+        button "Move Main menu to sidebar"
+      link "Main page" /wiki/Main_Page
+      link Contents /wiki/Wikipedia:Contents
+      link "Current events" /wiki/Portal:Current_events
+      link "Random article" /wiki/Special:Random
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      text Contribute
+      link Help /wiki/Help:Contents
+      link "Learn to edit" /wiki/Help:Introduction
+      link "Community portal" /wiki/Wikipedia:Community_portal
+      link "Recent changes" /wiki/Special:RecentChanges
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard
+      link "Special pages" /wiki/Special:SpecialPages
+    link /wiki/Main_Page /wiki/Main_Page
+  row
+    row
+      col
+        field "Search Wikipedia" search
+      button Search
+    row
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+      link "Create account" /w/index.php?title=Special:CreateAccount&returnto=Help%3AContents
+      link "Log in" /w/index.php?title=Special:UserLogin&returnto=Help%3AContents
+row
+  row
+    row
+      h1 "Help:Contents"
+      col
+        button "190 languages"
+        text 190 languages primary
+    row
+      row
+        link "Help page" /wiki/Help:Contents
+        link Talk /wiki/Help_talk:Contents
+      row
+        row
+          link Read /wiki/Help:Contents
+          link "View source" /w/index.php?title=Help:Contents&action=edit
+          link "View history" /w/index.php?title=Help:Contents&action=history
+        col
+          button Tools
+          text Tools
+          row
+            text Tools
+            button "Move Tools to sidebar"
+          text General
+          link "What links here" /wiki/Special:WhatLinksHere/Help:Contents
+          link "Related changes" /wiki/Special:RecentChangesLinked/Help:Contents
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Help:Contents&oldid=1374830750
+          link "Page information" /w/index.php?title=Help:Contents&action=info
+          link "Get shortened URL" /w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHelp%3AContents
+          link "Switch to legacy parser" /w/index.php?title=Help:Contents&useparsoid=0
+          button "Expand all"
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q914807#sitelinks-wikipedia
+          text Print/export
+          link "Download as PDF" /w/index.php?title=Special:DownloadAsPdf&page=Help%3AContents&action=show-download-screen
+          link "Printable version" /w/index.php?title=Help:Contents&printable=yes
+          text In other projects
+          link "Abstract Wikipedia" https://abstract.wikipedia.org/wiki/Help:Contents
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Help:Contents
+          link MediaWiki https://www.mediawiki.org/wiki/Help:Contents
+          link Meta-Wiki https://meta.wikimedia.org/wiki/Help:Contents
+          link "Multilingual Wikisource" https://wikisource.org/wiki/Wikisource:Help
+          link Wikispecies https://species.wikimedia.org/wiki/Help:Contents
+          link Wikibooks https://en.wikibooks.org/wiki/Help:Contents
+          link Wikidata https://www.wikidata.org/wiki/Help:Contents
+          link Wikifunctions https://www.wikifunctions.org/wiki/Help:Contents
+          link Wikinews https://en.wikinews.org/wiki/Help:Contents
+          link Wikiquote https://en.wikiquote.org/wiki/Help:Contents
+          link Wikisource https://en.wikisource.org/wiki/Help:Contents
+          link Wikiversity https://en.wikiversity.org/wiki/Help:Contents
+          link Wikivoyage https://en.wikivoyage.org/wiki/Wikivoyage:Help
+          link Wiktionary https://en.wiktionary.org/wiki/Help:Contents
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q914807
+    col
+      row
+        text Appearance
+        button "Hide Appearance"
+      text Text
+      text Small
+      text Standard
+      text Large
+      text Width
+      text Standard
+      text Wide
+      text Color
+      text Automatic
+      text Light
+      text Dark
+    col
+      row
+        link "Wikipedia Help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk
+        link "This page is semi-protected." https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#semi
+      text From Wikipedia, the free encyclopedia
+      text .mw-parser-output .helpContents-wrapper{display:flex;flex-wrap:wrap}.mw-parser-output .helpContents-header{flex:1 0 100%;padding-bottom:1em;border-bottom:1px solid #a2a9b1;text-align:center}.mw-parser-output .helpContents-section{position:relative;flex:1 0 50%;min-width:380px;box-sizing:border-box;margin:1em 0;padding-left:30px;padding-right:20px}.mw-parser-output .helpContents-section h2{font-size:21px;padding:0;margin-top:1em;margin-bottom:0.25em;line-height:1.5}.mw-parser-output .helpContents-section ul{margin-left:0;padding-left:0}.mw-parser-output .helpContents-icon{position:absolute;top:25px;left:0;line-height:1;opacity:0.7}.mw-parser-output .helpContents-additional-search{text-align:center;margin-bottom:1em}
+      row
+        col
+          text This page provides .
+          text help with the most common questions about
+          link Wikipedia https://en.wikipedia.org/wiki/Wikipedia
+          text You can also use the search box below
+          row
+            field "Search Help pages"
+            button fulltext
+          text Or browse the  or the  to find help pages.  For  related to using and editing Wikipedia, see the  and the .
+          link "Help menu" https://en.wikipedia.org/wiki/Help:Menu
+          link "Help directory" https://en.wikipedia.org/wiki/Help:Directory
+          link "interactive assistance" https://en.wikipedia.org/wiki/Wikipedia:Request_directory
+          link "help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk
+          link Teahouse https://en.wikipedia.org/wiki/Wikipedia:TH/Q
+        col
+          h2 Read or find an article
+          text The  and our  contain the most commonly sought information about Wikipedia.
+          row
+            link "Readers' FAQ" https://en.wikipedia.org/wiki/Wikipedia:FAQ/Readers
+            link "about page" https://en.wikipedia.org/wiki/Wikipedia:About
+          text "For simple searches, there is a search bar at the top of every page. Type what you are looking for in the box. Suggested matches will appear in a dropdown list. Select any page in the list to go to that page. Or, select the \"\" button, or press , to go to a full search result. For advanced searches, see ."
+          text Search
+          text ↵ Enter
+          link "Help:Searching" https://en.wikipedia.org/wiki/Help:Searching
+          text There are other ways to browse and explore Wikipedia articles; many can be found at . See our  for cautions about Wikipedia's limitations.
+          link "Wikipedia:Contents" https://en.wikipedia.org/wiki/Wikipedia:Contents
+          link disclaimer https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer
+          text For , press the  link at the very bottom of every  page.
+          link "mobile access" https://en.wikipedia.org/wiki/Help:Mobile_access
+          link "mobile view" https://en.wikipedia.org/w/index.php?title=Help:Contents&mobileaction=toggle_view_mobile
+          link "desktop view" https://en.wikipedia.org/wiki/Help:Contents
+        col
+          h2 Edit an article
+          text Contributing is easy: see . For a quick summary on participating, see , and for a friendly tutorial, see . The  outlines our key policies and guidelines, while the  and  can remind you of basic .
+          link "how to edit a page" https://en.wikipedia.org/wiki/Help:Editing
+          link "contributing to Wikipedia" https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia
+          link "our introduction" https://en.wikipedia.org/wiki/Help:Introduction
+          link "Simplified Ruleset" https://en.wikipedia.org/wiki/Wikipedia:Simplified_ruleset
+          link "Simplified Manual of Style" https://en.wikipedia.org/wiki/Wikipedia:SMOS
+          link Cheatsheet https://en.wikipedia.org/wiki/Help:Cheatsheet
+          link "wiki markup" https://en.wikipedia.org/wiki/Help:Wikitext
+          text in improving articles! When adding facts, please  so others may verify them. If you are affiliated with the article subject, please see our .
+          link "Be bold" https://en.wikipedia.org/wiki/Wikipedia:Be_bold
+          link "provide references" https://en.wikipedia.org/wiki/Help:Introduction_to_referencing/1
+          link "conflict of interest guide" https://en.wikipedia.org/wiki/Wikipedia:Plain_and_simple_conflict_of_interest_guide
+          text The  can help you undo malicious edits.
+          link "simple guide to vandalism cleanup" https://en.wikipedia.org/wiki/Help:Simple_guide_to_vandalism_cleanup
+          text If you're looking for places you can help out, the  is the place to go, or check out what else is happening at the . You can practice editing and experiment in .
+          link "Task Center" https://en.wikipedia.org/wiki/Wikipedia:Task_Center
+          link "community portal" https://en.wikipedia.org/wiki/Wikipedia:Community_portal
+          text a
+          link sandbox https://en.wikipedia.org/wiki/Wikipedia:Sandbox
+        col
+          h2 Report a problem with an article
+          text If there is a problem with an article about yourself, a family member, a friend or a colleague, please read .
+          link "Biographies of living persons/Help" https://en.wikipedia.org/wiki/Wikipedia:Biographies_of_living_persons/Help
+          text "If you spot a problem with an article, you can fix it directly, by clicking on the \"\" link at the top of that page.  for more information."
+          text Edit
+          link "See the \"edit an article\" section of this page" #edit-heading
+          text "If you don't feel ready to fix the article yourself, post a message on the article's . This will bring the matter to the attention of others who work on that article. There is a \"\" link at the beginning of  article page."
+          link "talk page" https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines
+          text Talk
+          text every
+          text You can . If it's an article about you or your organization, see .
+          link "contact us" https://en.wikipedia.org/wiki/Wikipedia:Contact_us_-_Readers
+          link "Contact us – Subjects" https://en.wikipedia.org/wiki/Wikipedia:Contact_us_-_Subjects
+        col
+          h2 Create a new article or upload media
+          text Check  to see if your topic is appropriate, then the  will walk you through creating the article.
+          link "Your first article" https://en.wikipedia.org/wiki/Wikipedia:Your_first_article
+          link "Article wizard" https://en.wikipedia.org/wiki/Wikipedia:Article_wizard
+          text Once you have created an article, see  for guidance on how to improve it and what to include (like reference ).
+          link "Writing better articles" https://en.wikipedia.org/wiki/Wikipedia:Writing_better_articles
+          link citations https://en.wikipedia.org/wiki/Wikipedia:Citing_sources
+          text For contributing images, audio or video files, see the . Then the  will guide you through that process.
+          link "Introduction to uploading images" https://en.wikipedia.org/wiki/Help:Introduction_to_uploading_images/1
+          link "Upload wizard" https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard
+        col
+          h2 FAQ and interactive help
+          text Answers to common problems can be found at .
+          link "frequently asked questions" https://en.wikipedia.org/wiki/Wikipedia:FAQ
+          text Or check out .
+          link "where to ask questions or make comments" https://en.wikipedia.org/wiki/Wikipedia:Questions
+          text New users should seek help at the  if they're having problems while editing Wikipedia.
+          link Teahouse https://en.wikipedia.org/wiki/Wikipedia:Teahouse
+          text More complex questions can be posed at the . Volunteers will respond as soon as they're able.
+          link "Help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk
+          text Or  and a volunteer will visit you there!
+          link "ask for help on your talk page" https://en.wikipedia.org/w/index.php?title=Special:MyTalk&action=edit&section=new&preload=Help:Contents/helpmepreload&preloadtitle=Help+me%21
+          text You can get live help with editing in the .
+          link "help chatroom" https://en.wikipedia.org/wiki/Wikipedia:IRC_help_disclaimer
+          text For help with technical issues, ask at the .
+          link "Village pump" https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(technical)
+        col
+          h2 Factual questions
+          text If  has not answered your question (), try the . Volunteers there will attempt to answer your questions on any topic, or point you toward the information you need.
+          link "searching Wikipedia" https://en.wikipedia.org/wiki/Special:Search
+          text "for example, questions like \"Which country has the world's largest fishing fleet?\""
+          link "Reference Desk" https://en.wikipedia.org/wiki/Wikipedia:Reference_desk
+        col
+          h2 Tip of the day
+          text Linking articles: the internal link
+          text (AKA Wikilinks) are a great way to alert users to pertinent information. However, remember that  can detract from an article. Only create links that are relevant to the context of the article.
+          link "Internal links" https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Linking
+          link "excessive linking" https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Linking#Overlinking_and_underlinking
+          text Internal links are created by placing double  around the word you wish to link; for example: . You can  by adding the # sign and the name of the section after the article name. For example: .
+          link brackets https://en.wikipedia.org/wiki/Bracket
+          text [[Subject X]]
+          link "link to a specific section" https://en.wikipedia.org/wiki/Help:Section#Section_linking
+          text [[Subject X#The beginning]]
+          row
+            link "Prior tip" https://en.wikipedia.org/wiki/Wikipedia:Tip_of_the_day/October_8
+            text –
+            link "Tips library" https://en.wikipedia.org/wiki/Wikipedia:Tips
+            text –
+            link "Next tip" https://en.wikipedia.org/wiki/Wikipedia:Tip_of_the_day/October_10
+          text Read more:
+          row
+            link "Wikipedia:Manual of Style/Linking" https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Linking
+          row
+            link "Help:Section linking" https://en.wikipedia.org/wiki/Help:Section#Section_linking
+          text –
+          row
+            link "Become a Wikipedia tipster" https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_tipster
+            link "Tips library, by subject" https://en.wikipedia.org/wiki/Wikipedia:Tips
+          text To add this auto-updating daily tip to your user page, use
+          row
+            text {{
+            link totd https://en.wikipedia.org/wiki/Template:Totd
+            text }}
+        col
+          h2 Additional searches
+          text Search
+          link "Frequently Asked Questions" https://en.wikipedia.org/wiki/Wikipedia:FAQ
+          row
+            field Field
+            button fulltext
+          text Search the
+          link "help desk archives" https://en.wikipedia.org/wiki/Wikipedia:Help_desk/Archives
+          row
+            field Field
+            button fulltext
+      text ".mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}}"
+      table "hide.mw-parser-output .navbar{display inline;font-size 88%;font-weight normal}.mw-parser-output .navbar-collapse{float left;text-align left}.mw-parser-output .navbar-boxtext{word-spacing 0}.mw-parser-output .navbar ul{display inline-block;white-space nowrap;line-height inherit}.mw-parser-output .navbar-brackets before{margin-right -0.125em;content \"[ \"}.mw-parser-output .navbar-brackets after{margin-left -0.125em;content \" ]\"}.mw-parser-output .navbar li{word-spacing -0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration inherit}.mw-parser-output .navbar-mini abbr{font-variant small-caps;border-bottom none;text-decoration none;cursor inherit}.mw-parser-output .navbar-ct-full{font-size 114%;margin 0 7em}.mw-parser-output .navbar-ct-mini{font-size 114%;margin 0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color var(--color-base)!important}@media(prefers-color-scheme dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color var(--color-base)!important}}@media print{.mw-parser-output .navbar{display none!important}}vteBasic information on Wikipedia - (Search)"
+        Help directory menu Teahouse (interactive help for new editors)
+        About Wikipedia | Administration FAQs Purpose Who writes Wikipedia? Organization Censorship In brief General disclaimer
+        Readers' FAQ | Student help Navigation Searching Viewing media Help Mobile access Parental advice Other languages Researching with Wikipedia Citing Wikipedia Copyright
+        Introductionsto contributing | Main introduction List of tutorials and introductions The answer Dos and don'ts Learning the ropes Common mistakes Newcomer primer Newcomer onboarding Simplified ruleset The "Missing Manual" Your first article Wizard Young Wikipedians The Wikipedia Adventure Accounts Why create an account? Logging in Email confirmation Editing Toolbar Conflict VisualEditor User guide
+        Pillars, policies and guidelines | Five pillars Manual of Style Simplified Etiquette Expectations Oversight Principles Ignore all rules The rules are principles Core content policies Policies and guidelines Vandalism Appealing blocks What Wikipedia is not
+        Getting help | Help menu Help desk Reference desk Category Requests for help Disputes resolution requests IRC live chat Tutorial Contact us
+        Wikipedia community | Departments Meetups WikiProjects Overview FAQ Village pump policy technical proposals idea lab wikimedia misc Newsletters: Signpost Library Newsletter GLAM Newsletter Informational: Community portal Dashboard Noticeboards Maintenance Task Center Essays Open letters
+        Sourcing and referencing | Research Wikipedia Library Request Resources Free resources Request access to major databases WikiProject Resource Exchange Shared resources Guidelines Finding sources Combining sources Referencing Citations Citation Style 1 Citation templates Footnotes Page numbers Cite errors
+        How-to guides | Category Tools Infoboxes Writing articles Development Better writing Files Images Media files Uploading Deletion User contribution pages Editing pages Diffs Namespaces Deletion Merging Renaming Requests Redirecting Reverting Vandalism cleanup Talk pages Archiving
+        Wiki markup | Wiki markup Cheatsheet Columns HTML Lists Magic words For beginners Sections Sounds Special Characters Tables Templates Documentation Index Substitution Transclusion Image and video markup Tutorial Linking
+        Directories and glossaries | Category Abbreviations AI Contents Edit summaries Essays Glossary Index Shortcuts Tips
+      row
+        text to this page:
+        link Shortcuts https://en.wikipedia.org/wiki/Wikipedia:Shortcut
+        row
+          link "WP:HELP" https://en.wikipedia.org/w/index.php?title=Wikipedia:HELP&redirect=no
+          link "WP:H" https://en.wikipedia.org/w/index.php?title=Wikipedia:H&redirect=no
+      text :
+      row
+        link Categories /wiki/Help:Category
+        row
+          link Help /wiki/Category:Help
+          link "Wikipedia help contents" /wiki/Category:Wikipedia_help_contents
+  col
+    text "This page was last edited on 14 September 2026, at 09:25 (UTC)."
+    text Page was rendered with .
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the  and . Wikipedia® is a registered trademark of the , a non-profit organization.
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/
+    row
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link Disclaimers /wiki/Wikipedia:General_disclaimer
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+      link Developers https://developer.wikimedia.org
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+      link "Mobile view" //en.wikipedia.org/w/index.php?title=Help:Contents&mobileaction=toggle_view_mobile
+    row
+      link "https://www.wikimedia.org/" https://www.wikimedia.org/
+      link "https://www.mediawiki.org/" https://www.mediawiki.org/

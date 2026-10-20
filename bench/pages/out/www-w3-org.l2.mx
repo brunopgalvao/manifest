@@ -1,0 +1,110 @@
+@www_w3_org rev=0 @0,0,728,2064
+link "Skip to content" #main @17,17,694,20
+row @17,49,694,21
+  link "日本語ホームページJapanese website" https://www.w3.org/ja/ @17,49,203,21
+  link "简体中文首页Chinese website" https://www.w3.org/zh-hans/ @232,49,165,21
+row @17,82,694,40
+  link "Visit the W3C homepage" https://www.w3.org/ @17,82,109,40
+  row @138,82,573,40
+    button "Standards & groups" @138,84,99,36
+    button "Get involved" @249,84,75,36
+    button Resources @336,84,67,36
+    button "News & events" @415,84,82,36
+    button "Support us" @509,84,68,36
+    button About @589,84,51,36
+    link Search https://www.w3.org/help/search/ @652,92,24,20
+    link "Sign in" https://auth.w3.org/?url=https://www.w3.org/ @688,82,23,40
+row @17,134,694,272
+  col @17,134,694,272
+    h1 Making the web work @17,134,694,25
+    text The World Wide Web Consortium (W3C) develops to help everyone build and enjoy a web based on the principles of , , and . @17,171,694,41
+    link "standards and guidelines" https://www.w3.org/standards/ @17,224,694,20
+    link accessibility https://www.w3.org/mission/accessibility/ @17,256,694,20
+    link internationalization https://www.w3.org/mission/internationalization/ @17,288,694,21
+    link privacy https://www.w3.org/mission/privacy/ @17,321,694,20
+    link security https://www.w3.org/mission/security/ @17,353,694,20
+    link "Read more about W3C" /about/ @17,385,694,21
+h2 Working with stakeholders of the web @17,418,694,21
+text A range of organizations join the World Wide Web Consortium as Members to work with us to drive the direction of core web technologies and exchange ideas with industry and research leaders. We rotate randomly a few of our Member organizations' logos underneath. @17,451,694,61
+text The Web Consortium and its members, with help from the public and the web community, focus on a range of business ecosystems that the web transforms, including , , and several other areas. @17,524,694,40
+row @17,576,694,21
+  link E-commerce https://www.w3.org/ecosystems/e-commerce/ @17,576,86,21
+  link "Media & Entertainment" https://www.w3.org/ecosystems/media/ @115,576,150,21
+  link Publishing https://www.w3.org/ecosystems/publishing/ @277,576,69,21
+row @17,609,694,0
+  image https://www.w3.org/thumbnails/250/logos/organizations/130274.png?x-version=4 accessiBe @17,609,0,0
+  image https://www.w3.org/thumbnails/250/logos/organizations/150912.png?x-version=2 Netcetera @29,609,0,0
+  image https://www.w3.org/thumbnails/250/logos/organizations/139773.png?x-version=1 Switchchord @41,609,0,0
+  image https://www.w3.org/thumbnails/250/logos/organizations/66654.png?x-version=1 "Stony Brook University" @53,609,0,0
+  image https://www.w3.org/thumbnails/250/logos/organizations/41719.png?x-version=2 "University of Oxford" @65,609,0,0
+  image https://www.w3.org/thumbnails/250/logos/organizations/146376.png?x-version=3 "Futurae Technologies AG" @77,609,0,0
+link "Discover how W3C supports these organizations" /ecosystems/ @17,621,694,20
+row @17,653,694,179
+  image https://www.w3.org/cms-uploads/_920xAUTO_crop_center-center_none/banner1.jpg "TPAC 2026 is from 26 to 30 October, in Dublin, Ireland. Join us in person or online." @17,653,0,0
+  col @29,653,682,179
+    h2 TPAC 2026 @29,653,682,21
+    text TPAC 2026, our major hybrid event of the year, gathers our community on 26-30 October, in Dublin, Ireland. @29,686,682,41
+    text During this exciting week, W3C work groups meet to coordinate work that advances web standardization. TPAC also brings together the W3C governing bodies (Board of Directors, Advisory Board, Technical Architecture Group and the W3C Advisory Committee). @29,739,682,61
+    link "Visit the TPAC 2026 website" https://www.w3.org/news-events/tpac/2026/ @29,812,682,20
+row @17,844,694,223
+  col @17,844,694,223
+    h2 Web standards @17,844,694,21
+    text Web standards are the building blocks of a consistent digitally connected world. They are implemented in browsers, blogs, search engines, and other software that power our experience on the web. @17,877,694,41
+    text W3C is an international community where , full-time , and the public work together to develop web standards. @17,930,694,40
+    link Members /membership/list/ @17,982,694,21
+    link staff /staff/ @17,1015,694,20
+    link "Learn more about web standards" https://www.w3.org/standards/ @17,1047,694,20
+row @17,1079,694,159
+  col @17,1079,694,159
+    h2 Get involved @17,1079,694,22
+    text W3C works at the nexus of core technology, industry needs, and societal needs. Everyone can get involved with the work we do. @17,1113,694,40
+    text There are many ways individuals and organizations can participate in the Web Consortium to advance web standardization. @17,1165,694,41
+    link "Ways to get involved" https://www.w3.org/get-involved/ @17,1218,694,20
+h2 Latest news @17,1250,694,21
+text Latest entries from across our , or . @17,1283,694,21
+row @17,1316,694,20
+  link News https://www.w3.org/news/ @17,1316,38,20
+  link "Press Releases" https://www.w3.org/press-releases/ @67,1316,101,20
+  link Blog https://www.w3.org/blog/ @180,1316,30,20
+row @17,1348,694,421
+  col @17,1348,82,421
+    h3 Improved thread navigation in W3C's mailing list archives @17,1348,82,112
+    text A new feature is available in W3C's mailing list archives, aiming to make it easier to read and navigate message threads. @17,1472,82,264
+    text Blog @17,1748,82,21
+  col @111,1385,141,346
+    h3 Introducing group activity pages @111,1385,141,38
+    text W3C groups now have an Activity page that shows, month by month, their charters, publications, meetings, participants and GitHub work in one place. The pages are in beta, and we would like your feedback. @111,1435,141,264
+    text Blog @111,1711,141,20
+  col @264,1415,344,286
+    h3 We’re on a roll - EPUB 3.4 is coming @264,1415,344,19
+    text The Publishing Maintenance Working Group at W3C has been quietly working on yet another update for the EPUB3 standard, and we're excited to share what we have been up to. Our goal is to not only maintain the EPUB standard, but do our best to keep it in line with the needs of industry, and this update does exactly that. Your existing books do not need to change, if they conform to previous EPUB versions, they will conform to EPUB 3.4. Content you create today will automatically conform as well. @264,1446,344,223
+    text Blog @264,1681,344,20
+  col @620,1367,91,382
+    h3 What’s new in the W3C Website Design System @620,1367,91,94
+    text A significant update to the W3C Website Design System was published at the end of September 2026. Here’s what changed and why. @620,1473,91,244
+    text Blog @620,1729,91,20
+row @17,1781,694,40
+  row @17,1781,474,40
+    link Home https://www.w3.org/ @17,1791,34,20
+    link Contact https://www.w3.org/contact/ @63,1791,44,20
+    link Help https://www.w3.org/help/ @119,1791,26,20
+    link "Support us" https://www.w3.org/support-us/ @157,1781,62,40
+    link "Legal & Policies" https://www.w3.org/policies/ @231,1781,89,40
+    link Corporation https://www.w3.org/about/corporation/ @332,1791,67,20
+    link "System Status" https://status.w3.org/ @411,1781,80,40
+  row @503,1781,208,40
+    link "W3C on Mastodon" https://w3c.social/@w3c @503,1781,107,40
+    link "W3C on GitHub" https://github.com/w3c/ @622,1781,89,40
+text Copyright © 2026 . , and rules apply. @17,1833,694,21
+link "World Wide Web Consortium" https://www.w3.org/ @17,1866,694,20
+text W3C @17,1898,694,20
+text ® @17,1930,694,20
+link liability https://www.w3.org/policies/#disclaimers @17,1962,694,21
+link trademark https://www.w3.org/policies/#trademarks @17,1995,694,20
+link "permissive license" https://www.w3.org/copyright/document-license/ @17,2027,694,20
+!overflow standards 97/162px
+!overflow get 73/114px
+!overflow resources 65/100px
+!overflow news 80/129px
+!overflow support 66/102px
+!overflow about 49/69px

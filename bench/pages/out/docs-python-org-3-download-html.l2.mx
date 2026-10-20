@@ -1,0 +1,64 @@
+@docs_python_org_3_download_html rev=0 @0,0,728,1886
+link index genindex.html @17,17,694,20
+text | @17,49,694,21
+link modules py-modindex.html @17,82,694,20
+image https://docs.python.org/3/_static/py.svg "Python logo" @17,114,0,0
+text » @17,126,694,20
+link Python https://www.python.org/ @17,158,694,21
+row @17,191,694,55
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文" @17,191,320,55
+  select "Python version" "dev (3.16)" *3.15.0 3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6 @349,191,104,55
+text » @17,258,694,20
+link "3.15.0 Documentation" index.html @17,290,694,20
+link Download # @17,322,694,20
+text | @17,354,694,21
+row @17,387,694,57
+  field "Quick search" search @17,387,75,57
+  button button @104,397,75,37
+text | @17,456,694,21
+select Theme *Auto Light Dark @17,489,694,55
+row @17,556,694,519
+  col @17,556,677,519
+    h1 Download Python 3.15 documentation @17,556,677,25
+    text Last updated on: Oct 20, 2026 (04:53 UTC). @17,593,677,20
+    text Download an archive containing all the documentation for this version of Python: @17,625,677,20
+    table Format "Packed as .zip" "Packed as .tar.bz2" @17,657,677,171
+      HTML | Download | Download
+      Plain text | Download | Download
+      Texinfo | Download | Download
+      EPUB | Download | 
+    text We no longer provide pre-built PDFs of the documentation. To build a PDF archive, follow the instructions in the and run in the directory of a copy of the CPython repository. @17,840,677,41
+    row @17,893,677,20
+      link "Developer's Guide" https://devguide.python.org/documentation/start-documenting/#building-the-documentation @17,893,123,20
+      text make dist-pdf @152,893,93,20
+      text Doc/ @257,893,32,20
+    text See the for file sizes. @17,925,677,20
+    link "directory listing" https://docs.python.org/3.15/archives/ @17,957,677,20
+    h2 Problems @17,989,677,22
+    text if you have comments or suggestions for the Python documentation. @17,1023,677,20
+    link "Open an issue" bugs.html @17,1055,677,20
+  text « @706,805,5,21
+link index genindex.html @17,1087,694,21
+text | @17,1120,694,20
+link modules py-modindex.html @17,1152,694,20
+image https://docs.python.org/3/_static/py.svg "Python logo" @17,1184,0,0
+text » @17,1196,694,20
+link Python https://www.python.org/ @17,1228,694,21
+row @17,1261,694,55
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文" @17,1261,320,55
+  select "Python version" "dev (3.16)" *3.15.0 3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6 @349,1261,104,55
+text » @17,1328,694,20
+link "3.15.0 Documentation" index.html @17,1360,694,20
+link Download # @17,1392,694,21
+text | @17,1425,694,20
+row @17,1457,694,58
+  field "Quick search" search @17,1457,75,58
+  button button @104,1468,75,36
+text | @17,1527,694,20
+select Theme *Auto Light Dark @17,1559,694,55
+text © 2001 Python Software Foundation. This page is licensed under the Python Software Foundation License Version 2. Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License. See for more information. The Python Software Foundation is a non-profit corporation. Last updated on Oct 20, 2026 (04:53 UTC). ? Created using 8.2.3. @17,1626,694,81
+link Copyright copyright.html @17,1719,694,20
+link "History and License" /license.html @17,1751,694,21
+link "Please donate." https://www.python.org/psf/donations/ @17,1784,694,20
+link "Found a bug" /bugs.html @17,1816,694,20
+link Sphinx https://www.sphinx-doc.org/ @17,1848,694,21

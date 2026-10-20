@@ -1,0 +1,41 @@
+@brunopgalvao_github_io_manifest_playgrou rev=0 @0,0,728,595
+row @17,17,694,20
+  link Manifest index.html @17,17,58,20
+  link Playground playground.html @87,17,76,20
+  link Overview overview.html @175,17,63,20
+  link Spec spec.html @250,17,34,20
+  link Benchmark results.html @296,17,75,20
+  link "A2UI proposal" a2ui-extension.html @383,17,95,20
+  link GitHub https://github.com/brunopgalvao/manifest @490,17,46,20
+row @17,49,694,529
+  col @17,49,372,529
+    h2 Write MX @17,49,372,22
+    text The engine, compiled to WebAssembly: layout, painting, perception and input happen in it; the browser only shows pixels. @17,83,372,60
+    row @17,155,372,55
+      select Select confirm *dash diagram flow form funnel gantt gauge kpi live map settings table @17,155,92,55
+      button Render primary @121,165,79,36
+      check dark off @212,171,56,24
+    field Field @17,222,372,58
+    h2 Patch it @17,292,372,21
+    button "Apply patch" @17,325,372,37
+    field Field @17,374,372,57
+    h2 Read it back @17,443,372,22
+    row @17,477,372,36
+      button "observe L0" @17,477,56,36
+      button "observe L1" @85,477,54,36
+      button "observe L2" @151,477,56,36
+      button "since last" @219,477,52,36
+      button events @283,477,45,36
+      button dissolve @340,477,49,36
+    text Loading the engine… @17,525,372,20
+    text Cheat sheet @17,557,372,21
+  col @401,114,310,399
+    h2 Rendered @401,114,310,21
+    region 672x795.4099731445313 @401,147,310,366 [1 shapes, 1 labelled]
+      image brunopgalvao_github_io_manifest_playgrou-1.png @0,0 672x795.4099731445313 "Canvas" @401,147,310,367
+!overflow observe 54/104px
+!overflow observe2 52/101px
+!overflow observe3 54/104px
+!overflow since 50/93px
+!overflow events 43/74px
+!overflow dissolve 47/85px

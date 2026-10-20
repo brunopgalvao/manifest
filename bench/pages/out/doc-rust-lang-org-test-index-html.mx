@@ -1,0 +1,186 @@
+@doc_rust_lang_org_test_index_html
+row
+  link "Skip to main content" #main-content
+  col
+    row
+      link ../test/index.html ../test/index.html
+      h2 test1.99.1
+    text (58cf8f9c3 2026-10-13)
+    link "All Items" all.html
+    h3 Crate Items
+    link Re-exports #reexports
+    link Modules #modules
+    link Structs #structs
+    link Enums #enums
+    link Constants #constants
+    link Functions #functions
+    h3 Crates
+    link alloc ../alloc/index.html
+    link core ../core/index.html
+    link proc_macro ../proc_macro/index.html
+    link std ../std/index.html
+    link std_detect ../std_detect/index.html
+    link test ../test/index.html
+  col
+    row
+      h1 Crate test Copy item path
+      link Source ../src/test/lib.rs.html#1-865
+      row
+        link Search https://doc.rust-lang.org/test/index.html?search=
+        link Settings ../settings.html
+        link Help ../help.html
+        button Summary
+    text 🔬This is a nightly-only experimental API. (test)
+    row
+      text Expand description
+      col
+        text Support code for rustc’s built in unit-test and micro-benchmarking framework.
+        text Almost all user code will only be interested in Bencher and black_box. All other interactions (such as writing tests and benchmarks themselves) should be done via the #[test] and #[bench] attributes.
+        text See the  of the book for more details.
+        link "Testing Chapter" ../book/ch11-00-testing.html
+    h2 Re-exports§
+    row
+      text "pub use self::bench::;"
+      link Bencher bench/struct.Bencher.html
+      text Experimental
+    row
+      text "pub use self::bench::;"
+      link black_box bench/fn.black_box.html
+      text Experimental
+    row
+      text "pub use self::::*;"
+      link ColorConfig enum.ColorConfig.html
+      text Experimental
+    row
+      text "pub use self::types::::*;"
+      link TestName enum.TestName.html
+      text Experimental
+    row
+      text pub use ::*;
+      link NamePadding enum.NamePadding.html
+      text Experimental
+    row
+      text pub use ::*;
+      link TestFn enum.TestFn.html
+      text Experimental
+    row
+      text pub use ::*;
+      link TestName enum.TestName.html
+      text Experimental
+    h2 Modules§
+    row
+      row
+        link bench bench/index.html
+        text Experimental
+      text Benchmarking module.
+      row
+        link stats stats/index.html
+        text Experimental
+      row
+        link test test/index.html
+        text Experimental
+    h2 Structs§
+    row
+      row
+        link Options struct.Options.html
+        text Experimental
+      text Options for the test run defined by the caller (instead of CLI arguments). In case we want to add other options as well, just add them in this struct.
+      row
+        link TestDesc struct.TestDesc.html
+        text Experimental
+      row
+        link TestDescAndFn struct.TestDescAndFn.html
+        text Experimental
+      row
+        link TestId struct.TestId.html
+        text Experimental
+      row
+        link TestList struct.TestList.html
+        text Experimental
+      text A list of tests, tagged with whether they are sorted by name.
+      row
+        link TestOpts struct.TestOpts.html
+        text Experimental
+    h2 Enums§
+    row
+      row
+        link ColorConfig enum.ColorConfig.html
+        text Experimental
+      text Whether should console output be colored or not
+      row
+        link NamePadding enum.NamePadding.html
+        text Experimental
+      row
+        link OutputFormat enum.OutputFormat.html
+        text Experimental
+      text Format of the test results output
+      row
+        link RunIgnored enum.RunIgnored.html
+        text Experimental
+      text Whether ignored test should be run or not
+      row
+        link ShouldPanic enum.ShouldPanic.html
+        text Experimental
+      text Whether test is expected to panic or not
+      row
+        link TestFn enum.TestFn.html
+        text Experimental
+      row
+        link TestListOrder enum.TestListOrder.html
+        text Experimental
+      text Whether a ’s tests are known to be sorted by name.
+      link TestList struct.TestList.html
+      row
+        link TestName enum.TestName.html
+        text Experimental
+      row
+        link TestType enum.TestType.html
+        text Experimental
+      text Type of the test according to the  conventions.
+      link "Rust book" https://doc.rust-lang.org/cargo/guide/tests.html
+    h2 Constants§
+    row
+      row
+        link ERROR_EXIT_CODE constant.ERROR_EXIT_CODE.html
+        text Experimental
+      text Process exit code to be used to indicate test failures.
+    h2 Functions§
+    row
+      row
+        link assert_test_result fn.assert_test_result.html
+        text Experimental
+      text "Invoked when unit tests terminate. Returns Result::Err if the test is considered a failure. By default, invokes report() and checks for a 0 result."
+      col
+        link convert_benchmarks_to_tests fn.convert_benchmarks_to_tests.html
+        text Experimental
+      row
+        link filter_tests fn.filter_tests.html
+        text Experimental
+      col
+        link print_merged_doctests_times fn.print_merged_doctests_times.html
+        text Experimental
+      text Public API used by rustdoc to display the total and compilation times in the expected format.
+      row
+        link run_test fn.run_test.html
+        text Experimental
+      row
+        link run_tests fn.run_tests.html
+        text Experimental
+      row
+        link run_tests_console fn.run_tests_console.html
+        text Experimental
+      text A simple console test runner. Runs provided tests reporting process and results to the stdout.
+      row
+        link test_main fn.test_main.html
+        text Experimental
+      row
+        link test_main_static fn.test_main_static.html
+        text Experimental
+      text A variant optimized for invocation with a static test vector. This will panic (intentionally) when fed any dynamic tests.
+      row
+        link test_main_static_abort fn.test_main_static_abort.html
+        text Experimental
+      text A variant optimized for invocation with a static test vector. This will panic (intentionally) when fed any dynamic tests.
+      col
+        link test_main_with_exit_callback fn.test_main_with_exit_callback.html
+        text Experimental

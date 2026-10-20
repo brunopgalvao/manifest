@@ -30,12 +30,12 @@ An agent should put things on a screen and see what is there through one text tr
 
 Everyday six: 788 tokens to create (A2UI Atom 1,762, HTML 4,521), 238 for sixteen edits, 876 to read back at level 1 with 30 of 30 questions right (cropped screenshots 1,544 and 27, accessibility tree 1,415 and 22). Paint-heavy six: 2,661 (HTML+SVG+ARIA 6,104, A2UI paint catalog 6,685); level 1 readers miss the questions that hinge on unlabelled arrows, level 3 readers do not. Fidelity tiers 1 to 3 pass. The engine matches Chromium's layout within 2 px on all 49 recorded boxes. Importer: 37 of 40 reference nodes, 86 of 86 text runs, 1,158 MX tokens for 4,569 of HTML.
 
-- **`bench/pages/`**: a hundred real pages under permissive licences imported into MX by `import/src/batch.ts` (page record: MX, HTML snapshot, screenshot, captured tree, scores; `report.py` summarises). 100 of 100 parse; text kept 96% median; HTML to MX 8.8×. This is the dataset lever: the owner chose "volume" (option 1 of the adoption paths) as the direction, so the next work grows this set and raises its scores.
+- **`bench/pages/`**: real pages under permissive licences imported into MX by `import/src/batch.ts` with `--crawl` (page record: MX, HTML snapshot, screenshot, captured tree, scores, and the trainable pair: the engine's painting of the MX and its level 2 read-back; `report.py` summarises; a nightly workflow reruns it). 246 of 246 parse; text kept 99% median; the median page is a tenth of its HTML. The reader experiment (`pages/questions.json`, `bundle.py`, `grade.py`): 24 questions over 8 pages, MX at level 1 24 and 24 of 24 at 12,102 tokens, screenshots 23 and 24 of 24 at 12,288. This is the dataset lever: the owner chose "volume" as the direction.
 
 ## 5. Next
 
-1. **Grow the pages set** to thousands: more licensed sources (open-source app demos, docs sites, government), a crawl mode that follows same-site links, and a nightly run. Keep the licence column honest.
-2. **Importer quality on real pages:** chart tick labels inside SVG `<tspan>` are dropped by the capture; controls the capture does not open (menus, selects) lose text; read chart values from `aria-label` sentences and recognise div-drawn bar charts as `bar`; `textbox` roles on `contenteditable`.
+1. **Grow the pages set** to thousands: more licensed sources and a deeper crawl (the nightly workflow runs with `--crawl 10`; raise it and add sources). Keep the licence column honest.
+2. **Importer quality on real pages:** icons without names or known shapes still vanish at level 1 (the signature table covers check, cross, star and chevrons); controls the capture does not open (menus, selects) lose text; read chart values from `aria-label` sentences and recognise div-drawn bar charts as `bar`; `textbox` roles on `contenteditable`.
 3. **Buffers over records** so `each` can instance rows with several fields; today a buffer is key:value numbers.
 4. **Writing rule in the loop:** the engine could flag a `path` or `line` without a label inside a labelled region as `!unlabelled`, since level 1 readers lose it.
 5. **Window:** text selection; the dismiss cross is the only chrome.

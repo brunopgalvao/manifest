@@ -1,0 +1,114 @@
+@www_w3_org_wai_aria_apg_patterns_table_e rev=0 @0,0,728,2539
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+row @17,102,694,1785
+  col @17,698,25,593
+    h2 Page Contents @17,698,25,42
+    link "Read This First" #support-notice-header @17,752,25,61
+    link "About This Example" #aboutthisexample @17,825,25,61
+    link Example #ex_label @17,898,25,20
+    link "Keyboard Support" #kbd_label @17,930,25,41
+    link "Role, Property, State, and Tabindex Attributes" #rps_label @17,983,25,122
+    link "JavaScript and CSS Source Code" #javascriptandcsssourcecode @17,1117,25,101
+    link "HTML Source Code" #sc1_label @17,1230,25,61
+  col @54,102,657,1785
+    h1 Table Example @54,102,657,25
+    h2 Read This First @54,139,657,21
+    card @54,172,657,71
+      text The code in this example is not intended for production environments. Before using it for any purpose, read this to understand why. warning @71,187,623,41
+    h2 About This Example @54,255,657,21
+    text The below example illustrates an implementation of the WAI-ARIA Note that when possible, using a native HTML element is recommended. @54,288,657,41
+    link "Table Pattern." ../../ @54,341,657,20
+    text table primary @54,373,657,20
+    text Similar examples include: @54,405,657,21
+    text : Basic HTML table that illustrates implementation of in the headers of sortable columns. @54,438,657,20
+    row @54,470,657,20
+      link "Sortable Table Example" ../sortable-table/ @54,470,157,20
+      text aria-sort primary @223,470,57,20
+    text : Three example implementations of grid that include features relevant to presenting tabular information, such as content editing, sort, and column hiding. @54,502,657,41
+    link "Data Grid Examples" ../../../grid/examples/data-grids/ @54,555,657,20
+    h2 Example @54,587,657,21
+    button "Open In CodePen" primary @54,620,657,37
+    text Start of @54,669,657,20
+    text Students currently enrolled in WAI-ARIA 101 for the coming semester @54,701,657,20
+    text First Name Last Name Company Address @54,733,657,20
+    text Fred Jackson Acme, Inc. 123 Broad St. @54,765,657,21
+    text Sara James Acme, Inc. 123 Broad St. @54,798,657,20
+    text Ralph Jefferson XYZ, Inc. 456 Main St. @54,830,657,20
+    text Nancy Jensen XYZ, Inc. 456 Main St. @54,862,657,21
+    text End of @54,895,657,20
+    h2 Keyboard Support @54,927,657,21
+    text Not Applicable @54,960,657,20
+    h2 Role, Property, State, and Tabindex Attributes @54,992,657,22
+    table Role Attribute Element Usage @54,1026,657,276
+      table |  | div | Identifies the element containing the table structure.
+       | aria-label="Students" | div | Provides an accessible name for the table.
+       | aria-describedby="IDREF" | div | Refers to the element that serves as the caption for the table.
+      rowgroup |  | div | Identifies the elements that serve as containers for the table header and table body rows. Unlike HTML, WAI-ARIA does not include separate roles for the table header and table body row sets.
+      row |  | div | Identifies each element that contains the cells for a row.
+      columnheader |  | span | Identifies elements that serve as a cell containing a column label.
+      cell |  | span | Identifies elements containing content for a single cell.
+    h2 JavaScript and CSS Source Code @54,1314,657,21
+    text CSS: @54,1347,657,21
+    link table.css ../../../../../../content-assets/wai-aria-practices/patterns/table/examples/css/table.css @54,1380,657,20
+    text JavaScript: Not applicable. @54,1412,657,20
+    h2 HTML Source Code @54,1444,657,22
+    text To copy the following HTML code, please open it in CodePen. @54,1478,657,20
+    button "Open In CodePen" primary @54,1510,657,36
+    text Start of @54,1558,657,21
+    text <div role="table" aria-label="Students" aria-describedby="students_table_desc"> <div id="students_table_desc"> Students currently enrolled in WAI-ARIA 101 for the coming semester </div> <div role="rowgroup"> <div role="row"> <span role="columnheader"> First Name </span> <span role="columnheader"> Last Name </span> <span role="columnheader"> Company </span> <span role="columnheader"> Address </span> </div> </div> <div role="rowgroup"> <div role="row"> <span role="cell"> Fred </span> <span role="cell"> Jackson </span> <span role="cell"> Acme, Inc. </span> <span role="cell"> 123 Broad St. </span> </div> <div role="row"> <span role="cell"> Sara </span> <span role="cell"> James </span> <span role="cell"> Acme, Inc. </span> <span role="cell"> 123 Broad St. </span> </div> <div role="row"> <span role="cell"> Ralph </span> <span role="cell"> Jefferson </span> <span role="cell"> XYZ, Inc. </span> <span role="cell"> 456 Main St. </span> </div> <div role="row"> <span role="cell"> Nancy </span> <span role="cell"> Jensen </span> <span role="cell"> XYZ, Inc. </span> <span role="cell"> 456 Main St. </span> </div> </div> </div> @54,1591,657,263
+    text End of @54,1866,657,21
+row @17,1899,694,21
+  h2 Help improve this page @17,1899,192,21
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,1932,694,20
+link public-aria-practices@w3.org @17,1964,694,21
+row @17,1997,694,20
+  link E-mail @17,1997,42,20
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/table/examples/table.html @71,1997,142,20
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/table/ @225,1997,119,20
+link "Back to Top" #top @17,2029,694,20
+link "View issues related to this example" https://github.com/orgs/w3c/projects/134 @17,2061,694,21
+text Page last updated: 12 August 2025 @17,2094,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,2126,694,20
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,2158,694,20
+row @17,2190,694,21
+  link "Get News in Email" /WAI/news/subscribe/ @17,2190,120,21
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,2190,57,21
+  link Mastodon https://w3c.social/@wai @218,2190,67,21
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,2190,61,21
+row @17,2223,694,40
+  link Home /WAI/ @17,2233,37,20
+  link Contact /WAI/about/contacting/ @66,2233,48,20
+  link "Site map" /WAI/sitemap/ @126,2223,54,40
+  link "Support WAI" /WAI/about/support/ @192,2223,78,40
+  link News /WAI/news/ @282,2233,36,20
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,2223,142,40
+  link "All Translations" /WAI/translations/ @484,2223,94,40
+  link "Resources for roles" /WAI/roles/ @590,2223,121,40
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,2275,694,21
+link "World Wide Web Consortium" https://www.w3.org/ @17,2308,694,20
+text W3C @17,2340,694,20
+text ® @17,2372,694,21
+link liability https://www.w3.org/policies/#disclaimers @17,2405,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,2437,694,20
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,2469,694,20
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,2501,694,21
+!overflow table3.table.Usage 164/361px
+!overflow table3..Usage 164/298px
+!overflow table3..Attribute 165/192px
+!overflow table3..Usage 164/421px
+!overflow table3.rowgroup.Usage 164/1283px
+!overflow table3.row.Usage 164/387px
+!overflow table3.columnheader.Usage 164/446px
+!overflow table3.cell.Usage 164/377px

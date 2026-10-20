@@ -6,6 +6,7 @@ row
 text Home Close Search 1-844-USAGOV1 All topics and services Voting and elections The U.S. and its government Complaints Disability services Disasters and emergencies Education Government benefits Health Housing help Immigration and U.S. citizenship Innovation Jobs, labor laws and unemployment Laws and legal issues Military and veterans Money and credit Scams and fraud Small business Taxes Travel Life events About USAGov
 row
   region "Information" 300x150
+  text Visit  to learn how to register to vote or to update your registration.
   link vote.gov https://www.vote.gov
 row
   link "USAGov Logo" /
@@ -86,7 +87,9 @@ row
     text Ask USA.gov a question at
     link "1-844-USAGOV1 (1-844-872-4681)" /phone
 text USAGov is the official guide to government information and services
+text An official website of the
 link "U.S. General Services Administration" https://www.gsa.gov/
+text This website complies with Executive Order . English is the official language of the U.S. Government, and the English-language version of this website is the authoritative source for all federal information contained herein.
 link 14224 https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states
 row
   link "Accessibility policy" /accessibility-policy

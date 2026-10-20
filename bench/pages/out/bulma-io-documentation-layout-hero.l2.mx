@@ -1,0 +1,357 @@
+@bulma_io_documentation_layout_hero rev=0 @0,0,728,9966
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/ @17,17,694,20
+row @17,49,694,212
+  link https://bulma.io/ https://bulma.io/ @17,145,55,20
+  row @84,56,424,198
+    link "Docs Documentation" https://bulma.io/documentation/ @84,135,67,40
+    link Expo https://bulma.io/expo/ @163,145,16,20
+    link Love https://bulma.io/love/ @191,145,16,20
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/ @219,145,27,20
+    row @258,56,250,198
+      link "Open Source on GitHub" https://github.com/jgthms/bulma @258,114,63,82
+      link "Follow me on Twitter" https://twitter.com/jgthms @333,124,56,61
+      button button @401,137,48,36
+      col @461,56,47,198
+        link "Made with Bulma" https://bulma.io/made-with-bulma/ @461,56,47,61
+        link Backers https://bulma.io/backers/ @461,129,47,20
+        link "Bulma Brand" https://bulma.io/brand/ @461,161,47,41
+        link "Bulma Extensions" https://bulma.io/extensions/ @461,214,47,40
+  col @520,49,80,212
+    button button @520,49,80,37
+    card @520,98,80,163
+      button "Light mode" @537,113,46,36
+      button "Dark mode" @537,161,46,36
+      button "System mode" success @537,209,46,37
+  col @612,78,53,154
+    button button @612,78,53,37
+    card @612,127,53,105
+      field "search input" @629,142,19,75
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @677,145,34,20
+button button @17,273,694,36
+h3 Start Here @17,321,694,19
+link Overview https://bulma.io/documentation/start/overview/ @17,352,694,20
+link Installation https://bulma.io/documentation/start/installation/ @17,384,694,20
+link "Alternative Versions" https://bulma.io/documentation/start/alternative-versions/ @17,416,694,20
+link Syntax https://bulma.io/documentation/start/syntax/ @17,448,694,21
+link Modularity https://bulma.io/documentation/start/modular/ @17,481,694,20
+link Responsiveness https://bulma.io/documentation/start/responsiveness/ @17,513,694,20
+link "Migrating to v1" https://bulma.io/documentation/start/migrating-to-v1/ @17,545,694,21
+h3 Features @17,578,694,18
+link "CSS Variables" https://bulma.io/documentation/features/css-variables/ @17,608,694,21
+link Themes https://bulma.io/documentation/features/themes/ @17,641,694,20
+link "Dark Mode" https://bulma.io/documentation/features/dark-mode/ @17,673,694,20
+link "Color Palettes" https://bulma.io/documentation/features/color-palettes/ @17,705,694,21
+link Skeletons https://bulma.io/documentation/features/skeletons/ @17,738,694,20
+h3 Sass Tools @17,770,694,19
+link Mixins https://bulma.io/documentation/sass/mixins/ @17,801,694,20
+link "Responsive mixins" https://bulma.io/documentation/sass/responsive-mixins/ @17,833,694,20
+link "Form Control mixins" https://bulma.io/documentation/sass/form-control-mixins/ @17,865,694,21
+link Extends https://bulma.io/documentation/sass/extends/ @17,898,694,20
+h3 Customization @17,930,694,19
+link Concepts https://bulma.io/documentation/customize/concepts/ @17,961,694,20
+link "With Sass" https://bulma.io/documentation/customize/with-sass/ @17,993,694,20
+link "With Modular Sass" https://bulma.io/documentation/customize/with-modular-sass/ @17,1025,694,20
+link "With CSS Variables" https://bulma.io/documentation/customize/with-css-variables/ @17,1057,694,21
+link "List of Sass variables" https://bulma.io/documentation/customize/list-of-sass-variables/ @17,1090,694,20
+h3 CSS Library @17,1122,694,19
+link Elements https://bulma.io/documentation/elements/ @17,1153,694,20
+link Block https://bulma.io/documentation/elements/block/ @17,1185,694,20
+link Box https://bulma.io/documentation/elements/box/ @17,1217,694,21
+link Button https://bulma.io/documentation/elements/button/ @17,1250,694,20
+link Content https://bulma.io/documentation/elements/content/ @17,1282,694,20
+link Delete https://bulma.io/documentation/elements/delete/ @17,1314,694,21
+link Icon https://bulma.io/documentation/elements/icon/ @17,1347,694,20
+link Image https://bulma.io/documentation/elements/image/ @17,1379,694,20
+link Notification https://bulma.io/documentation/elements/notification/ @17,1411,694,21
+link "Progress bars" https://bulma.io/documentation/elements/progress/ @17,1444,694,20
+link Table https://bulma.io/documentation/elements/table/ @17,1476,694,20
+link Tag https://bulma.io/documentation/elements/tag/ @17,1508,694,20
+link Title https://bulma.io/documentation/elements/title/ @17,1540,694,21
+link Components https://bulma.io/documentation/components/ @17,1573,694,20
+link Breadcrumb https://bulma.io/documentation/components/breadcrumb/ @17,1605,694,20
+link Card https://bulma.io/documentation/components/card/ @17,1637,694,21
+link Dropdown https://bulma.io/documentation/components/dropdown/ @17,1670,694,20
+link Menu https://bulma.io/documentation/components/menu/ @17,1702,694,20
+link Message https://bulma.io/documentation/components/message/ @17,1734,694,21
+link Modal https://bulma.io/documentation/components/modal/ @17,1767,694,20
+link Navbar https://bulma.io/documentation/components/navbar/ @17,1799,694,20
+link Pagination https://bulma.io/documentation/components/pagination/ @17,1831,694,20
+link Panel https://bulma.io/documentation/components/panel/ @17,1863,694,21
+link Tabs https://bulma.io/documentation/components/tabs/ @17,1896,694,20
+link Form https://bulma.io/documentation/form/ @17,1928,694,20
+link General https://bulma.io/documentation/form/general/ @17,1960,694,21
+link Input https://bulma.io/documentation/form/input/ @17,1993,694,20
+link Textarea https://bulma.io/documentation/form/textarea/ @17,2025,694,20
+link Select https://bulma.io/documentation/form/select/ @17,2057,694,21
+link Checkbox https://bulma.io/documentation/form/checkbox/ @17,2090,694,20
+link Radio https://bulma.io/documentation/form/radio/ @17,2122,694,20
+link File https://bulma.io/documentation/form/file/ @17,2154,694,20
+link Columns https://bulma.io/documentation/columns/ @17,2186,694,21
+link Basics https://bulma.io/documentation/columns/basics/ @17,2219,694,20
+link Sizes https://bulma.io/documentation/columns/sizes/ @17,2251,694,20
+link Responsiveness https://bulma.io/documentation/columns/responsiveness/ @17,2283,694,21
+link Nesting https://bulma.io/documentation/columns/nesting/ @17,2316,694,20
+link Gap https://bulma.io/documentation/columns/gap/ @17,2348,694,20
+link Options https://bulma.io/documentation/columns/options/ @17,2380,694,21
+link Grid https://bulma.io/documentation/grid/ @17,2413,694,20
+link "Smart Grid" https://bulma.io/documentation/grid/smart-grid/ @17,2445,694,20
+link "Fixed Grid" https://bulma.io/documentation/grid/fixed-grid/ @17,2477,694,20
+link "Grid Cells" https://bulma.io/documentation/grid/grid-cells/ @17,2509,694,21
+link Playground https://bulma.io/documentation/grid/playground/ @17,2542,694,20
+link Layout https://bulma.io/documentation/layout/ @17,2574,694,20
+link Container https://bulma.io/documentation/layout/container/ @17,2606,694,21
+link Hero https://bulma.io/documentation/layout/hero/ @17,2639,694,20
+link Section https://bulma.io/documentation/layout/section/ @17,2671,694,20
+link Level https://bulma.io/documentation/layout/level/ @17,2703,694,21
+link "Media Object" https://bulma.io/documentation/layout/media-object/ @17,2736,694,20
+link Footer https://bulma.io/documentation/layout/footer/ @17,2768,694,20
+h3 CSS Helpers @17,2800,694,19
+link Color https://bulma.io/documentation/helpers/color-helpers/ @17,2831,694,20
+link "Color Palette" https://bulma.io/documentation/helpers/palette-helpers/ @17,2863,694,21
+link Spacing https://bulma.io/documentation/helpers/spacing-helpers/ @17,2896,694,20
+link Typography https://bulma.io/documentation/helpers/typography-helpers/ @17,2928,694,20
+link Visibility https://bulma.io/documentation/helpers/visibility-helpers/ @17,2960,694,20
+link Flexbox https://bulma.io/documentation/helpers/flexbox-helpers/ @17,2992,694,21
+link Other https://bulma.io/documentation/helpers/other-helpers/ @17,3025,694,20
+text Sponsor @17,3057,694,20
+link https://www.route4me.com/ https://www.route4me.com/ @17,3089,694,21
+row @17,3122,694,122
+  col @17,3122,164,122
+    h1 Hero @17,3122,164,25
+    h2 An imposing hero banner to showcase something @17,3159,164,85
+  col @193,3125,518,115
+    card @193,3125,518,83
+      link https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKC6SDV2QLF67DTK3LCWSIKKJNC67ILK3EHEYI55QLCESI623ECTNCYBZ52K https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKC6SDV2QLF67DTK3LCWSIKKJNC67ILK3EHEYI55QLCESI623ECTNCYBZ52K @210,3140,484,20
+      link "Your edge case? Another builder solved it last Tuesday. Find answers." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKC6SDV2QLF67DTK3LCWSIKKJNC67ILK3EHEYI55QLCESI623ECTNCYBZ52K @210,3172,484,21
+    link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @193,3220,518,20
+text The hero component allows you to add a full width banner to your webpage, which can optionally cover the full height of the page as well. @17,3256,694,40
+text The basic requirement of this component are: @17,3308,694,21
+text as the main container @17,3341,694,20
+text hero danger @17,3373,694,20
+text hero-body as a direct child, in which you can put all your content @17,3405,694,20
+text For the to work, you will also need a and a . @17,3437,694,21
+row @17,3470,694,20
+  link "fullheight hero" #fullheight-hero @17,3470,96,20
+  text hero-head danger @125,3470,70,20
+  text hero-foot danger @207,3470,64,20
+text Example @17,3502,694,20
+text Hero title @17,3534,694,21
+text Hero subtitle @17,3567,694,20
+text HTML @17,3599,694,20
+text <section class="hero"> <div class="hero-body"> <p class="title">Hero title</p> <p class="subtitle">Hero subtitle</p> </div> </section> @17,3631,694,41
+button Copy danger @17,3684,694,36
+h3 "Colors #" @17,3732,694,19
+text As with buttons, you can choose one of the 8 different colors: @17,3763,694,20
+text Example @17,3795,694,20
+text Link hero @17,3827,694,21
+text Link subtitle @17,3860,694,20
+text HTML @17,3892,694,20
+text <section class="hero is-link"> <div class="hero-body"> <p class="title">Link hero</p> <p class="subtitle">Link subtitle</p> </div> </section> @17,3924,694,41
+button Copy danger @17,3977,694,36
+text Example @17,4025,694,21
+text Primary hero @17,4058,694,20
+text Primary subtitle @17,4090,694,20
+text HTML @17,4122,694,20
+text <section class="hero is-primary"> <div class="hero-body"> <p class="title">Primary hero</p> <p class="subtitle">Primary subtitle</p> </div> </section> @17,4154,694,41
+button Copy danger @17,4207,694,36
+text Example @17,4255,694,21
+text Info hero @17,4288,694,20
+text Info subtitle @17,4320,694,20
+text HTML @17,4352,694,21
+text <section class="hero is-info"> <div class="hero-body"> <p class="title">Info hero</p> <p class="subtitle">Info subtitle</p> </div> </section> @17,4385,694,40
+button Copy danger @17,4437,694,36
+text Example @17,4485,694,21
+text Success hero @17,4518,694,20
+text Success subtitle @17,4550,694,20
+text HTML @17,4582,694,21
+text <section class="hero is-success"> <div class="hero-body"> <p class="title">Success hero</p> <p class="subtitle">Success subtitle</p> </div> </section> @17,4615,694,40
+button Copy danger @17,4667,694,37
+text Example @17,4716,694,20
+text Warning hero @17,4748,694,20
+text Warning subtitle @17,4780,694,20
+text HTML @17,4812,694,21
+text <section class="hero is-warning"> <div class="hero-body"> <p class="title">Warning hero</p> <p class="subtitle">Warning subtitle</p> </div> </section> @17,4845,694,40
+button Copy danger @17,4897,694,37
+text Example @17,4946,694,20
+text Danger hero @17,4978,694,20
+text Danger subtitle @17,5010,694,21
+text HTML @17,5043,694,20
+text <section class="hero is-danger"> <div class="hero-body"> <p class="title">Danger hero</p> <p class="subtitle">Danger subtitle</p> </div> </section> @17,5075,694,40
+button Copy danger @17,5127,694,37
+h3 "Sizes #" @17,5176,694,19
+text You can have even more imposing banners by using one of 5 different sizes: @17,5207,694,20
+text is-small @17,5239,694,20
+text is-medium @17,5271,694,20
+text is-large @17,5303,694,21
+text is-halfheight @17,5336,694,20
+text is-fullheight @17,5368,694,20
+text Example @17,5400,694,21
+text Small hero @17,5433,694,20
+text Small subtitle @17,5465,694,20
+text HTML @17,5497,694,20
+text <section class="hero is-small is-primary"> <div class="hero-body"> <p class="title">Small hero</p> <p class="subtitle">Small subtitle</p> </div> </section> @17,5529,694,41
+button Copy danger @17,5582,694,36
+text Example @17,5630,694,21
+text Medium hero @17,5663,694,20
+text Medium subtitle @17,5695,694,20
+text HTML @17,5727,694,21
+text <section class="hero is-medium is-link"> <div class="hero-body"> <p class="title">Medium hero</p> <p class="subtitle">Medium subtitle</p> </div> </section> @17,5760,694,40
+button Copy danger @17,5812,694,36
+text Example @17,5860,694,21
+text Large hero @17,5893,694,20
+text Large subtitle @17,5925,694,20
+text HTML @17,5957,694,21
+text <section class="hero is-large is-info"> <div class="hero-body"> <p class="title">Large hero</p> <p class="subtitle">Large subtitle</p> </div> </section> @17,5990,694,40
+button Copy danger @17,6042,694,37
+text Example @17,6091,694,20
+text Half height hero @17,6123,694,20
+text Half height subtitle @17,6155,694,20
+text HTML @17,6187,694,21
+text <section class="hero is-success is-halfheight"> <div class="hero-body"> <div class=""> <p class="title">Half height hero</p> <p class="subtitle">Half height subtitle</p> </div> </div> </section> @17,6220,694,61
+button Copy danger @17,6293,694,36
+text Example @17,6341,694,20
+text Fullheight hero @17,6373,694,21
+text Fullheight subtitle @17,6406,694,20
+text HTML @17,6438,694,20
+text <section class="hero is-danger is-fullheight"> <div class="hero-body"> <div class=""> <p class="title">Fullheight hero</p> <p class="subtitle">Fullheight subtitle</p> </div> </div> </section> @17,6470,694,41
+button Copy danger @17,6523,694,36
+h3 "Fullheight with navbar #" @17,6571,694,19
+text If you are using a , you can use the modifier on the hero for it to occupy the viewport height minus the navbar height. @17,6602,694,40
+row @17,6654,694,21
+  link "fixed navbar" https://bulma.io/documentation/components/navbar/#fixed-navbar @17,6654,83,21
+  text is-fullheight-with-navbar danger @112,6654,166,21
+text Example @17,6687,694,20
+row @17,6719,694,20
+  row @17,6719,153,20
+    text Home @17,6719,40,20
+    text Documentation @69,6719,101,20
+  row @182,6719,123,20
+    text Github @182,6719,44,20
+    text Download @238,6719,67,20
+text Fullheight hero with navbar @17,6751,694,21
+text HTML @17,6784,694,20
+text <nav class="navbar"> <div class="container"> <div id="navMenu" class="navbar-menu"> <div class="navbar-start"> <a class="navbar-item"> Home </a> <a class="navbar-item"> Documentation </a> </div> <div class="navbar-end"> <div class="navbar-item"> <div class="buttons"> <a class="button is-dark">Github</a> <a class="button is-link">Download</a> </div> </div> </div> </div> </div> </nav> <section class="hero is-link is-fullheight-with-navbar"> <div class="hero-body"> <p class="title">Fullheight hero with navbar</p> </div> </section> @17,6816,694,122
+button Copy danger @17,6950,694,36
+h3 "Fullheight hero in 3 parts #" @17,6998,694,19
+text To obtain a hero that will cover the whole height of the viewport, you can split it in 3 vertical parts: @17,7029,694,20
+text hero danger @17,7061,694,20
+text hero-head (always at the top) @17,7093,694,21
+text hero-body (always vertically centered) @17,7126,694,20
+text hero-foot (always at the bottom) @17,7158,694,20
+text Example @17,7190,694,21
+row @17,7223,694,20
+  image https://bulma.io/assets/images/bulma-type-white.png Logo @17,7223,0,0
+  row @29,7223,308,20
+    text Home @29,7223,40,20
+    text Examples @81,7223,64,20
+    text Documentation @157,7223,101,20
+    row @270,7223,67,20
+      text Download success @270,7223,67,20
+text Title @17,7255,694,20
+text Subtitle @17,7287,694,20
+row @17,7319,694,21
+  text Overview success @17,7319,63,21
+  text Modifiers @92,7319,63,21
+  text Grid @167,7319,28,21
+  text Elements @207,7319,61,21
+  text Components @280,7319,85,21
+  text Layout @377,7319,45,21
+text HTML @17,7352,694,20
+button "Show code" danger @17,7384,694,36
+text <section class="hero is-primary is-medium"> <!-- Hero head: will stick at the top --> <div class="hero-head"> <nav class="navbar"> <div class="container"> <div class="navbar-brand"> <a class="navbar-item"> <img src="https://bulma.io/assets/images/bulma-type-white.png" alt="Logo" /> </a> <span class="navbar-burger" data-target="navbarMenuHeroA"> <span></span> <span></span> <span></span> <span></span> </span> </div> <div id="navbarMenuHeroA" class="navbar-menu"> <div class="navbar-end"> <a class="navbar-item is-active"> Home </a> <a class="navbar-item"> Examples </a> <a class="navbar-item"> Documentation </a> <span class="navbar-item"> <a class="button is-primary is-inverted"> <span class="icon"> <i class="fab fa-github"></i> </span> <span>Download</span> </a> </span> </div> </div> </div> </nav> </div> <!-- Hero content: will be in the middle --> <div class="hero-body"> <div class="container has-text-centered"> <p class="title">Title</p> <p class="subtitle">Subtitle</p> </div> </div> <!-- Hero footer: will stick at the bottom --> <div class="hero-foot"> <nav class="tabs"> <div class="container"> <ul> <li class="is-active"><a>Overview</a></li> <li><a>Modifiers</a></li> <li><a>Grid</a></li> <li><a>Elements</a></li> <li><a>Components</a></li> <li><a>Layout</a></li> </ul> </div> </nav> </div> </section> @17,7432,694,305
+button Copy danger @17,7749,694,36
+text Example @17,7797,694,20
+row @17,7829,694,21
+  image https://bulma.io/assets/images/bulma-type-white.png Logo @17,7829,0,0
+  row @29,7829,308,21
+    text Home @29,7829,40,21
+    text Examples @81,7829,64,21
+    text Documentation @157,7829,101,21
+    row @270,7829,67,21
+      text Download primary @270,7829,67,21
+text Title @17,7862,694,20
+text Subtitle @17,7894,694,20
+row @17,7926,694,21
+  text Overview primary @17,7926,63,21
+  text Modifiers @92,7926,63,21
+  text Grid @167,7926,28,21
+  text Elements @207,7926,61,21
+  text Components @280,7926,85,21
+  text Layout @377,7926,45,21
+text HTML @17,7959,694,20
+button "Show code" danger @17,7991,694,36
+text <section class="hero is-info is-large"> <div class="hero-head"> <nav class="navbar"> <div class="container"> <div class="navbar-brand"> <a class="navbar-item"> <img src="https://bulma.io/assets/images/bulma-type-white.png" alt="Logo" /> </a> <span class="navbar-burger" data-target="navbarMenuHeroB"> <span></span> <span></span> <span></span> <span></span> </span> </div> <div id="navbarMenuHeroB" class="navbar-menu"> <div class="navbar-end"> <a class="navbar-item is-active"> Home </a> <a class="navbar-item"> Examples </a> <a class="navbar-item"> Documentation </a> <span class="navbar-item"> <a class="button is-info is-inverted"> <span class="icon"> <i class="fab fa-github"></i> </span> <span>Download</span> </a> </span> </div> </div> </div> </nav> </div> <div class="hero-body"> <div class="container has-text-centered"> <p class="title">Title</p> <p class="subtitle">Subtitle</p> </div> </div> <div class="hero-foot"> <nav class="tabs is-boxed is-fullwidth"> <div class="container"> <ul> <li class="is-active"> <a>Overview</a> </li> <li> <a>Modifiers</a> </li> <li> <a>Grid</a> </li> <li> <a>Elements</a> </li> <li> <a>Components</a> </li> <li> <a>Layout</a> </li> </ul> </div> </nav> </div> </section> @17,8039,694,284
+button Copy danger @17,8335,694,37
+text Example @17,8384,694,20
+row @17,8416,694,20
+  image https://bulma.io/assets/images/bulma-type-white.png Logo @17,8416,0,0
+  row @29,8416,308,20
+    text Home @29,8416,40,20
+    text Examples @81,8416,64,20
+    text Documentation @157,8416,101,20
+    row @270,8416,67,20
+      text Download success @270,8416,67,20
+text Title @17,8448,694,21
+text Subtitle @17,8481,694,20
+row @17,8513,694,20
+  text Overview success @17,8513,63,20
+  text Modifiers @92,8513,63,20
+  text Grid @167,8513,28,20
+  text Elements @207,8513,61,20
+  text Components @280,8513,85,20
+  text Layout @377,8513,45,20
+text HTML @17,8545,694,21
+button "Show code" danger @17,8578,694,36
+text <section class="hero is-success is-fullheight"> <!-- Hero head: will stick at the top --> <div class="hero-head"> <header class="navbar"> <div class="container"> <div class="navbar-brand"> <a class="navbar-item"> <img src="https://bulma.io/assets/images/bulma-type-white.png" alt="Logo" /> </a> <span class="navbar-burger" data-target="navbarMenuHeroC"> <span></span> <span></span> <span></span> <span></span> </span> </div> <div id="navbarMenuHeroC" class="navbar-menu"> <div class="navbar-end"> <a class="navbar-item is-active"> Home </a> <a class="navbar-item"> Examples </a> <a class="navbar-item"> Documentation </a> <span class="navbar-item"> <a class="button is-success is-inverted"> <span class="icon"> <i class="fab fa-github"></i> </span> <span>Download</span> </a> </span> </div> </div> </div> </header> </div> <!-- Hero content: will be in the middle --> <div class="hero-body"> <div class="container has-text-centered"> <p class="title">Title</p> <p class="subtitle">Subtitle</p> </div> </div> <!-- Hero footer: will stick at the bottom --> <div class="hero-foot"> <nav class="tabs is-boxed is-fullwidth"> <div class="container"> <ul> <li class="is-active"><a>Overview</a></li> <li><a>Modifiers</a></li> <li><a>Grid</a></li> <li><a>Elements</a></li> <li><a>Components</a></li> <li><a>Layout</a></li> </ul> </div> </nav> </div> </section> @17,8626,694,304
+button Copy danger @17,8942,694,37
+h3 "Sass and CSS variables #" @17,8991,694,18
+card @17,9021,694,348
+  table "Sass Variable:badge" "CSS Variable:badge" Value:badge @34,9036,660,318
+    $hero-body-paddingCopy | var(--bulma-hero-body-padding)Copy | 3rem 1.5remCopy
+    $hero-body-padding-tabletCopy | var(--bulma-hero-body-padding-tablet)Copy | 3rem 3remCopy
+    $hero-body-padding-smallCopy | var(--bulma-hero-body-padding-small)Copy | 1.5remCopy
+    $hero-body-padding-mediumCopy | var(--bulma-hero-body-padding-medium)Copy | 9rem 4.5remCopy
+    $hero-body-padding-largeCopy | var(--bulma-hero-body-padding-large)Copy | 18rem 6remCopy
+    $hero-gradient-h-offsetCopy | var(--bulma-hero-gradient-h-offset)Copy | 5degCopy
+    $hero-gradient-s-offsetCopy | var(--bulma-hero-gradient-s-offset)Copy | 10%Copy
+    $hero-gradient-l-offsetCopy | var(--bulma-hero-gradient-l-offset:)Copy | 5%Copy
+row @17,9381,694,20
+  link "← layout: Container" https://bulma.io/documentation/layout/container/ @17,9381,131,20
+  link "layout: Section →" https://bulma.io/documentation/layout/section/ @160,9381,116,20
+h3 How to support Bulma @17,9413,694,19
+row @17,9444,694,90
+  col @17,9444,124,90
+    text One-time donation @17,9444,124,20
+    field submit @17,9476,124,58
+  col @153,9463,197,52
+    text Browser testing via @153,9463,197,20
+    link https://www.lambdatest.com/ https://www.lambdatest.com/ @153,9495,197,20
+  col @362,9463,121,52
+    text Visit our Sponsors @362,9463,121,20
+    link celebian https://celebian.com/ @362,9495,121,20
+  col @495,9463,124,52
+    text Monthly donation @495,9463,124,20
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/ @495,9495,124,20
+link ".native-js { background: linear-gradient(-30deg, #10e56bE5, #10e56bE5 45%, #10e56b 45%) #fff; } .native-details { color: #000000 !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #10e56b; background-color: #000000; } .native-cta:hover { color: undefined; background-color: undefined; } Mozilla Festival Gather. Share. Connect. Imagine with developers and creatives in Barcelona, Oct. 28-30. Get your tickets" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQWCV7DVZ3JCAAI653NF6YD55QKC67ILKQICKYIK53LC6SITKJWFTYDKK37HEYI55QLCESI623ECTNCYBZ52K @17,9546,694,101
+row @17,9659,694,51
+  col @17,9659,195,51
+    h3 Bulma by Jeremy Thomas. @17,9659,195,19
+    link "Follow @jgthms" https://twitter.com/jgthms @17,9690,195,20
+  col @224,9676,155,18
+    h3 Contribute on GitHub @224,9676,155,18
+  col @391,9659,161,51
+    h3 Share on social media @391,9659,161,19
+    row @391,9690,161,20
+      link Twitter https://twitter.com/share @391,9690,47,20
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io @450,9690,66,20
+text Source code licensed . Website content licensed @17,9722,694,21
+row @17,9755,694,20
+  link MIT https://opensource.org/licenses/mit-license.php @17,9755,26,20
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/ @55,9755,122,20
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer @17,9787,694,162
+!overflow button 46/73px
+!overflow light 44/104px
+!overflow dark 44/102px
+!overflow system 44/121px
+!overflow button3 51/73px
+!tiny search 22x37px

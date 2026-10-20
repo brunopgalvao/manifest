@@ -1,0 +1,153 @@
+@www_nasa_gov rev=0 @0,0,728,2464
+row @17,17,694,58
+  row @17,17,193,58
+    button Explore @17,28,82,36
+    row @111,17,99,58
+      text Search @111,36,47,20
+      field Search search @170,17,40,58
+  link https://www.nasa.gov/ https://www.nasa.gov/ @222,36,152,20
+  row @386,28,310,36
+    button "News & Events" @386,28,131,36
+    button Multimedia @529,28,106,36
+    link NASA+ https://plus.nasa.gov/ @647,36,49,20
+h2 NASA's CHAPEA Mission 2 @17,87,694,21
+text After a year living and working inside a simulated Mars habitat, the CHAPEA Mission 2 crew is preparing to conclude their 365-day mission. During their stay, they lived as if on Mars, growing crops, managing limited resources, and navigating communication delays. The crew will exit the habitat on Oct. 31. @17,120,694,61
+link "Mars Exploration" https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/ @17,193,694,20
+row @17,225,694,51
+  col @17,225,259,51
+    h3 JAXA’s Martian Moons eXploration @17,225,259,19
+    link "NASA Contributions" https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/ @17,256,259,20
+  col @288,225,170,51
+    h3 NASA’s Perseverance @288,225,170,19
+    link "Off-World Driving Record" https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/ @288,256,170,20
+  col @470,225,114,51
+    h3 NASA’s SkyFall @470,225,114,19
+    link "Mars Helicopters" https://science.nasa.gov/mission/skyfall/ @470,256,114,20
+row @17,288,694,37
+  button "Change Slide to NASA's CHAPEA Mission 2" @17,288,324,37
+  button "Pause slideshow" primary @353,288,144,37
+row @17,337,694,21
+  h2 Featured News @17,337,126,21
+  link "Recently Published" https://www.nasa.gov/news/recently-published/ @155,337,127,20
+row @17,370,694,134
+  link "Blog3 Min ReadSpacewalk Preps and Advanced Biomedical Research Begin Week" https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/ @17,406,248,61
+  row @277,370,434,134
+    link "Article2 Min ReadNASA’s Hubble Spies Spiral’s Edge" https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/ @277,406,156,61
+    col @445,370,266,134
+      link "Article1 Min ReadNASA to Conduct Low-Altitude Flights Over Texas Farmland" https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/ @445,370,266,61
+      link "Article4 Min ReadNASA Welcomes All Ages, Experience Levels for Space Apps Challenge" https://science.nasa.gov/universe/nasa-welcomes-all-ages-experience-levels-for-space-apps-challenge/ @445,443,266,61
+row @17,516,694,81
+  link "5 Min ReadRigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance Article" https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/ @17,526,216,61
+  link "1 Min ReadTIME Best Inventions of 2026Blog" https://science.nasa.gov/blogs/honors/2026/10/15/time-best-inventions-of-2026/ @245,526,109,61
+  link "3 Min ReadAutumn Paints Poland’s Bieszczady MountainsArticle" https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/ @366,516,156,81
+  link "3 Min ReadWhat’s Up: October 2026 Skywatching Tips from NASAArticle" https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/ @534,516,177,81
+row @17,609,694,176
+  col @17,609,694,176
+    text FEATURED VIDEO @17,609,694,20
+    h3 This is Not an Exercise @17,641,694,19
+    text When a newly discovered asteroid looked like it could threaten Earth, NASA and scientists worldwide sprang into action. “Planetary Defenders: This Is Not an Exercise” reveals how experts around the globe worked together to track the asteroid, model its future path, assess the risks, and eventually determine it posed no danger. @17,672,694,81
+    link "NASA+ Original Series" https://plus.nasa.gov/video/planetary-defenders-documentary-official-nasa-trailer/ @17,765,694,20
+row @17,797,694,22
+  h2 Solar System Exploration @17,797,209,22
+  link "Discover More" https://science.nasa.gov/solar-system/ @238,798,97,20
+row @17,831,694,20
+  link "Asteroids, Comets & Meteors" https://science.nasa.gov/asteroids-comets-meteors/ @17,831,194,20
+  link "Asteroids: Exploration" https://science.nasa.gov/solar-system/asteroids/exploration/ @223,831,145,20
+  link "Planetary Defense at NASA" https://science.nasa.gov/planetary-defense/ @380,831,181,20
+  link Eyes https://science.nasa.gov/eyes/ @573,831,32,20
+row @17,863,694,207
+  col @17,865,610,203
+    metric Today "Image Of The Day" @17,865,610,65
+    text Martian Dawn @17,942,610,21
+    text The captivating shapes of wind-carved crags called yardangs are revealed in this zoomed-in crop of a broader panorama captured by NASA’s Curiosity Mars rover. Scientists are eager to learn more about how the yardang layer formed. @17,975,610,61
+    link "Browse Image Archive" https://www.nasa.gov/image-of-the-day/ @17,1048,610,20
+  col @639,863,72,207
+    link "View full image page" https://www.nasa.gov/image-detail/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs-2/ @639,863,72,61
+    link "Download Image of the Day" https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs.webp @639,936,72,61
+    link "View full image page" https://www.nasa.gov/image-detail/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs-2/ @639,1009,72,61
+h2 More NASA Images @17,1082,694,21
+row @17,1115,694,61
+  link "Great Observatories: Hubble Space Telescope Gallery422 Images" https://www.nasa.gov/gallery/hubble/ @17,1115,217,61
+  link "Great Observatories: James Webb Space Telescope Gallery39 Images" https://www.nasa.gov/gallery/james-webb-space-telescope/ @246,1115,232,61
+  link "Great Observatories: Chandra X-ray Observatory Gallery24 Images" https://www.nasa.gov/gallery/great-observatories-chandra-x-ray-observatory/ @490,1115,221,61
+h2 Explore the Universe from your Inbox @17,1188,694,21
+text Stay up-to-date on the latest news from NASA–from Earth to the Moon, the Solar System and beyond. @17,1221,694,20
+row @17,1253,694,21
+  text We will never share your email address. @17,1253,265,21
+  link "Privacy Policy" https://www.nasa.gov/privacy/ @294,1253,94,21
+link "Sign Up" https://lp.constantcontactpages.com/sl/7ThAX6O/signup @17,1286,694,20
+image https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?w=1536 "Space image with stars and swirls of colorful orange, red and white." @17,1318,0,0
+row @17,1330,694,271
+  col @17,1330,504,271
+    h3 Two-Day Aerospace Festival @17,1330,504,19
+    h2 MAX POWER @17,1361,504,21
+    text Celebrate the spirit of American innovation at MAX POWER—an exposition of air and space technologies at Kennedy Space Center in Florida, Nov. 7-8. @17,1394,504,40
+    text The two-day event will feature immersive experiences for all ages to enjoy, including air shows, technology demonstrations, spaceflight hardware, military aircraft, and behind‑the‑scenes access to America’s spaceport.In collaboration with Air Dot Show, UP Summit, Space Florida, Delaware North, and Purpose Entertainment, MAX POWER blends history, exploration, and the cutting edge of aerospace into an unforgettable experience. @17,1446,504,122
+    link "Learn More about MAX POWER" https://www.nasa.gov/maxpower/ @17,1580,504,21
+  col @533,1372,178,186
+    image https://images-assets.nasa.gov/image/AFRC2026-0146-13/AFRC2026-0146-13~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint "A red, white, and blue NASA F‑15 is shown beside another jet aircraft during a cross‑country flight. The full F‑15 is visible, while only a portion of the F/A‑18’s red‑and‑white wing appears in the frame." @533,1372,0,0
+    text A NASA F‑15 aircraft is shown flying next to a NASA F/A‑18 during a cross‑country flight from Spokane, Washington, to Washington, D.C., on July 2, 2026. @533,1384,178,142
+    text NASA/Jim Ross @533,1538,178,20
+h2 More Topics from NASA @17,1613,694,21
+row @17,1646,694,40
+  link Missions https://www.nasa.gov/nasa-missions/ @17,1656,55,20
+  link "Humans In Space" https://www.nasa.gov/humans-in-space/ @84,1646,107,40
+  link Earth https://science.nasa.gov/earth/ @203,1656,32,20
+  link "Our Solar System" https://science.nasa.gov/solar-system/overview/ @247,1646,107,40
+  link Universe https://science.nasa.gov/universe/ @366,1656,55,20
+  link "Science Missions" https://science.nasa.gov/science-missions/ @433,1646,107,40
+  link Aeronautics https://www.nasa.gov/aeronautics/ @552,1656,74,20
+  link Technology https://www.nasa.gov/technology/ @638,1656,73,20
+image https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg "NASA Logo" @17,1698,0,0
+row @17,1710,694,737
+  col @17,1951,176,255
+    h3 National Aeronautics and Space Administration @17,1951,176,57
+    text NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery. @17,2020,176,121
+    link "About NASA's Mission" https://www.nasa.gov/about/ @17,2153,176,21
+    link "Join Us" https://www.nasa.gov/get-involved/ @17,2186,176,20
+  col @205,1710,51,737
+    link Home https://www.nasa.gov/ @205,1710,51,21
+    link "News & Events" https://www.nasa.gov/news/ @205,1743,51,40
+    link Multimedia https://www.nasa.gov/multimedia/ @205,1795,51,21
+    link NASA+ https://plus.nasa.gov/ @205,1828,51,20
+    link Missions https://www.nasa.gov/nasa-missions/ @205,1860,51,20
+    link "Humans in Space" https://www.nasa.gov/humans-in-space/ @205,1892,51,61
+    link Earth https://science.nasa.gov/earth/ @205,1965,51,20
+    link "The Solar System" https://science.nasa.gov/solar-system/ @205,1997,51,61
+    link "The Universe" https://science.nasa.gov/universe/ @205,2070,51,41
+    link Science https://science.nasa.gov/ @205,2123,51,20
+    link Aeronautics https://www.nasa.gov/aeronautics/ @205,2155,51,21
+    link Technology https://www.nasa.gov/technology/ @205,2188,51,20
+    link "Learning Resources" https://www.nasa.gov/learning-resources/ @205,2220,51,40
+    link "About NASA" https://www.nasa.gov/about/ @205,2272,51,41
+    link "NASA en Español (opens in new tab)" https://www.nasa.gov/es/ @205,2325,51,122
+  col @268,1970,212,217
+    h3 Follow NASA @268,1970,212,19
+    row @268,2001,212,122
+      link "NASA on Facebook (opens in new tab)" https://www.facebook.com/NASA @268,2001,47,122
+      link "NASA on Instagram (opens in new tab)" https://www.instagram.com/nasa/ @327,2001,47,122
+      link "NASA on X (opens in new tab)" https://x.com/NASA @386,2001,36,122
+      link "NASA on YouTube (opens in new tab)" https://www.youtube.com/@NASA @434,2001,46,122
+    link "More NASA Social Accounts" https://www.nasa.gov/social-media/ @268,2135,212,20
+    link "NASA Newsletters" https://www.nasa.gov/nasa-newsletters/ @268,2167,212,20
+  col @492,1771,48,615
+    link Sitemap https://www.nasa.gov/sitemap/ @492,1771,48,20
+    link "For Media" https://www.nasa.gov/news/nasa-media-contacts/ @492,1803,48,41
+    link "Privacy Policy" https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/ @492,1856,48,40
+    link FOIA https://www.nasa.gov/foia/ @492,1908,48,21
+    link "No FEAR Act" https://www.nasa.gov/no-fear-act/ @492,1941,48,61
+    link "Office of the IG (opens in new tab)" http://oig.nasa.gov/ @492,2014,48,121
+    link "Budget & Annual Reports" https://www.nasa.gov/budgets-plans-and-reports/ @492,2147,48,82
+    link "Agency Financial Reports" https://www.nasa.gov/organizations/budget-annual-reports/agency-financial-reports/ @492,2241,48,60
+    link "Contact NASA" https://www.nasa.gov/contact-nasa/ @492,2313,48,41
+    link Accessibility https://www.nasa.gov/accessibility/ @492,2366,48,20
+  row @552,2048,159,61
+    row @552,2048,42,61
+      text Page Last Updated: @552,2048,18,61
+      text Oct 19, 2026 @582,2048,12,61
+    row @606,2058,38,41
+      text Page Editor: @606,2058,11,41
+      text Dacia Massengill @629,2058,15,41
+    row @656,2048,55,61
+      text Responsible NASA Official: @656,2048,27,61
+      text Abigail Bowman @695,2058,16,41

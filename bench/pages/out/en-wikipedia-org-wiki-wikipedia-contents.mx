@@ -1,0 +1,319 @@
+@en_wikipedia_org_wiki_wikipedia_contents
+link "Jump to content" #bodyContent
+row
+  row
+    col
+      button "Main menu"
+      text Main menu
+      row
+        text Main menu
+        button "Move Main menu to sidebar"
+      link "Main page" /wiki/Main_Page
+      link Contents /wiki/Wikipedia:Contents
+      link "Current events" /wiki/Portal:Current_events
+      link "Random article" /wiki/Special:Random
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      text Contribute
+      link Help /wiki/Help:Contents
+      link "Learn to edit" /wiki/Help:Introduction
+      link "Community portal" /wiki/Wikipedia:Community_portal
+      link "Recent changes" /wiki/Special:RecentChanges
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard
+      link "Special pages" /wiki/Special:SpecialPages
+    link /wiki/Main_Page /wiki/Main_Page
+  row
+    row
+      col
+        field "Search Wikipedia" search
+      button Search
+    row
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+      link "Create account" /w/index.php?title=Special:CreateAccount&returnto=Wikipedia%3AContents
+      link "Log in" /w/index.php?title=Special:UserLogin&returnto=Wikipedia%3AContents
+row
+  col
+    row
+      h2 Contents
+      button "Hide Contents"
+    link (Top) #
+    link "1 Browse by subject" #Browse_by_subject
+    button "Toggle Browse by subject subsection"
+    text 1.1 Culture and the arts 1.2 Geography and places 1.3 Health and fitness 1.4 History and events 1.5 Human activities 1.6 Mathematics and logic 1.7 Natural and physical sciences 1.8 People and self 1.9 Philosophy and thinking 1.10 Reference works 1.11 Religion and belief systems 1.12 Society and social sciences 1.13 Technology and applied sciences
+    link "2 Browse by format" #Browse_by_format
+    button "Toggle Browse by format subsection"
+    text 2.1 Overviews 2.2 Outlines 2.3 Lists 2.4 Portals 2.5 Glossaries 2.6 Category system
+    link "3 Articles by quality" #Articles_by_quality
+    button "Toggle Articles by quality subsection"
+    text 3.1 Vital articles 3.2 List of articles every Wikipedia should have 3.3 Featured content 3.4 Good content
+    link "4 Spoken articles" #Spoken_articles
+    link "5 Alphabetical lists of articles" #Alphabetical_lists_of_articles
+  row
+    row
+      h1 "Wikipedia:Contents"
+      col
+        button "47 languages"
+        text 47 languages primary
+    row
+      row
+        link "Project page" /wiki/Wikipedia:Contents
+        link Talk /wiki/Wikipedia_talk:Contents
+      row
+        row
+          link Read /wiki/Wikipedia:Contents
+          link "View source" /w/index.php?title=Wikipedia:Contents&action=edit
+          link "View history" /w/index.php?title=Wikipedia:Contents&action=history
+        col
+          button Tools
+          text Tools
+          row
+            text Tools
+            button "Move Tools to sidebar"
+          text General
+          link "What links here" /wiki/Special:WhatLinksHere/Wikipedia:Contents
+          link "Related changes" /wiki/Special:RecentChangesLinked/Wikipedia:Contents
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Wikipedia:Contents&oldid=1374213748
+          link "Page information" /w/index.php?title=Wikipedia:Contents&action=info
+          link "Get shortened URL" /w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AContents
+          link "Switch to legacy parser" /w/index.php?title=Wikipedia:Contents&useparsoid=0
+          button "Expand all"
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q4395506#sitelinks-wikipedia
+          text Print/export
+          link "Download as PDF" /w/index.php?title=Special:DownloadAsPdf&page=Wikipedia%3AContents&action=show-download-screen
+          link "Printable version" javascript:print();
+          text In other projects
+          link Wikiversity https://en.wikiversity.org/wiki/Wikiversity:Browse
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q4395506
+    col
+      row
+        text Appearance
+        button "Hide Appearance"
+      text Text
+      text Small
+      text Standard
+      text Large
+      text Width
+      text Standard
+      text Wide
+      text Color
+      text Automatic
+      text Light
+      text Dark
+    col
+      link "This page is semi-protected." https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#semi
+      text From Wikipedia, the free encyclopedia
+      link Contents https://en.wikipedia.org/wiki/Wikipedia:Contents
+      link Overviews https://en.wikipedia.org/wiki/Wikipedia:Contents/Overviews
+      link Outlines https://en.wikipedia.org/wiki/Wikipedia:Contents/Outlines
+      link Lists https://en.wikipedia.org/wiki/Wikipedia:Contents/Lists
+      link Portals https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals
+      link Glossaries https://en.wikipedia.org/wiki/Wikipedia:Contents/Glossaries
+      link Categories https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories
+      link "Vital articles" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles
+      link "Featured content" https://en.wikipedia.org/wiki/Wikipedia:Featured_content
+      link "Good content" https://en.wikipedia.org/wiki/Wikipedia:Good_content
+      link Indices https://en.wikipedia.org/wiki/Wikipedia:Contents/Indices
+      link Index https://en.wikipedia.org/wiki/Wikipedia:Contents/A–Z_index
+      link Reference https://en.wikipedia.org/wiki/Wikipedia:Contents/Reference
+      link Culture https://en.wikipedia.org/wiki/Wikipedia:Contents/Culture_and_the_arts
+      link Geography https://en.wikipedia.org/wiki/Wikipedia:Contents/Geography_and_places
+      link Health https://en.wikipedia.org/wiki/Wikipedia:Contents/Health_and_fitness
+      link History https://en.wikipedia.org/wiki/Wikipedia:Contents/History_and_events
+      link "Human activities" https://en.wikipedia.org/wiki/Wikipedia:Contents/Human_activities
+      link Mathematics https://en.wikipedia.org/wiki/Wikipedia:Contents/Mathematics_and_logic
+      link Nature https://en.wikipedia.org/wiki/Wikipedia:Contents/Natural_and_physical_sciences
+      link People https://en.wikipedia.org/wiki/Wikipedia:Contents/People_and_self
+      link Philosophy https://en.wikipedia.org/wiki/Wikipedia:Contents/Philosophy_and_thinking
+      link Religion https://en.wikipedia.org/wiki/Wikipedia:Contents/Religion_and_belief_systems
+      link Society https://en.wikipedia.org/wiki/Wikipedia:Contents/Society_and_social_sciences
+      link Technology https://en.wikipedia.org/wiki/Wikipedia:Contents/Technology_and_applied_sciences
+      text This page lists Wikipedia's tables of contents. For the community directory, see .
+      link "Wikipedia:Directories and indexes" https://en.wikipedia.org/wiki/Wikipedia:Directories_and_indexes
+      link Shortcut https://en.wikipedia.org/wiki/Wikipedia:Shortcut
+      link "WP:EXPLORE" https://en.wikipedia.org/w/index.php?title=Wikipedia:EXPLORE&redirect=no
+      text Easily explore  using the topic links below. You can also search directly using the search bar. All section headers are clickable for quick navigation.
+      link Wikipedia https://en.wikipedia.org/wiki/Wikipedia
+      h2 Browse by subject
+      text Wikipedia's content is divided into broad subject areas:
+      h3 Culture and the arts
+      link "Culture and the arts" https://en.wikipedia.org/wiki/Wikipedia:Contents/Culture_and_the_arts
+      h3 Geography and places
+      link "Geography and places" https://en.wikipedia.org/wiki/Wikipedia:Contents/Geography_and_places
+      h3 Health and fitness
+      link "Health and fitness" https://en.wikipedia.org/wiki/Wikipedia:Contents/Health_and_fitness
+      h3 History and events
+      link "History and events" https://en.wikipedia.org/wiki/Wikipedia:Contents/History_and_events
+      link "List of timelines" https://en.wikipedia.org/wiki/List_of_timelines
+      text – Major events this year
+      link 2026 https://en.wikipedia.org/wiki/2026
+      text – Ongoing science findings and technology advancements
+      link "2026 in science" https://en.wikipedia.org/wiki/2026_in_science
+      text – Featured current events and related project activities
+      link "Portal:Current events" https://en.wikipedia.org/wiki/Portal:Current_events
+      h3 Human activities
+      link "Human activities" https://en.wikipedia.org/wiki/Wikipedia:Contents/Human_activities
+      h3 Mathematics and logic
+      link "Mathematics and logic" https://en.wikipedia.org/wiki/Wikipedia:Contents/Mathematics_and_logic
+      h3 Natural and physical sciences
+      link "Natural and physical sciences" https://en.wikipedia.org/wiki/Wikipedia:Contents/Natural_and_physical_sciences
+      h3 People and self
+      link "People and self" https://en.wikipedia.org/wiki/Wikipedia:Contents/People_and_self
+      h3 Philosophy and thinking
+      link "Philosophy and thinking" https://en.wikipedia.org/wiki/Wikipedia:Contents/Philosophy_and_thinking
+      h3 Reference works
+      link "Reference works" https://en.wikipedia.org/wiki/Wikipedia:Contents/Reference
+      link "Library of Congress Classification" https://en.wikipedia.org/wiki/Library_of_Congress_Classification
+      link "List of Dewey Decimal classes" https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes
+      text ()
+      row
+        link "Figurative system of human knowledge" https://en.wikipedia.org/wiki/Figurative_system_of_human_knowledge
+        link Encyclopédie https://en.wikipedia.org/wiki/Encyclopédie
+      text ()
+      row
+        link Propædia https://en.wikipedia.org/wiki/Propædia
+        link "Encyclopædia Britannica" https://en.wikipedia.org/wiki/Encyclopædia_Britannica
+      link "Tree of knowledge system" https://en.wikipedia.org/wiki/Tree_of_knowledge_system
+      link "UDC outline" https://en.wikipedia.org/wiki/Universal_Decimal_Classification#Outline
+      link "Wikipedia:List of bibliographies" https://en.wikipedia.org/wiki/Wikipedia:List_of_bibliographies
+      link "Category:Wikipedia bibliographies" https://en.wikipedia.org/wiki/Category:Wikipedia_bibliographies
+      h3 Religion and belief systems
+      link "Religion and belief systems" https://en.wikipedia.org/wiki/Wikipedia:Contents/Religion_and_belief_systems
+      h3 Society and social sciences
+      link "Society and social sciences" https://en.wikipedia.org/wiki/Wikipedia:Contents/Society_and_social_sciences
+      h3 Technology and applied sciences
+      link "Technology and applied sciences" https://en.wikipedia.org/wiki/Wikipedia:Contents/Technology_and_applied_sciences
+      h2 Browse by format
+      h3 Overviews
+      link Overviews https://en.wikipedia.org/wiki/Wikipedia:Contents/Overviews
+      h3 Outlines
+      link Outlines https://en.wikipedia.org/wiki/Wikipedia:Contents/Outlines
+      h3 Lists
+      link Lists https://en.wikipedia.org/wiki/Wikipedia:Contents/Lists
+      h3 Portals
+      link Portals https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals
+      h3 Glossaries
+      link Glossaries https://en.wikipedia.org/wiki/Wikipedia:Contents/Glossaries
+      h3 Category system
+      text – Arts, History, Technology, and more
+      link "Category:Main topic classifications" https://en.wikipedia.org/wiki/Category:Main_topic_classifications
+      text – Hand-crafted list of topic categories
+      link "Wikipedia:Contents/Categories" https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories
+      text – Biographies
+      link "Category:People" https://en.wikipedia.org/wiki/Category:People
+      h2 Articles by quality
+      h3 Vital articles
+      text Lists of articles deemed most essential for the encyclopedia.
+      link "Vital articles" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles
+      text – 10 articles
+      link "Level 1" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/1
+      text – 100 articles
+      link "Level 2" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/2
+      text – 1,000 articles
+      link "Level 3" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/3
+      text – 10,000 articles
+      link "Level 4" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/4
+      text – 50,000 articles
+      link "Level 5" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/5
+      h3 List of articles every Wikipedia should have
+      text Similar to vital articles, but for every language.
+      link "List of articles every Wikipedia should have" https://en.wikipedia.org/wiki/Wikipedia:List_of_articles_every_Wikipedia_should_have
+      link "List of articles every Wikipedia should have/Expanded" https://en.wikipedia.org/wiki/Wikipedia:List_of_articles_every_Wikipedia_should_have/Expanded
+      h3 Featured content
+      text Contributions representing the best of Wikipedia, having undergone a rigorous review process by multiple independent editors.
+      link "Featured content" https://en.wikipedia.org/wiki/Wikipedia:Featured_content
+      link "Featured articles" https://en.wikipedia.org/wiki/Wikipedia:Featured_articles
+      link "Featured lists" https://en.wikipedia.org/wiki/Wikipedia:Featured_lists
+      link "Featured pictures" https://en.wikipedia.org/wiki/Wikipedia:Featured_pictures
+      link "Featured topics" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics
+      h3 Good content
+      text Quality contributions that meet a core set of editorial standards, having undergone a thorough review by an independent editor.
+      link "Good content" https://en.wikipedia.org/wiki/Wikipedia:Good_content
+      link "Good articles" https://en.wikipedia.org/wiki/Wikipedia:Good_articles
+      link "Good topics" https://en.wikipedia.org/wiki/Wikipedia:Good_topics
+      h2 Spoken articles
+      link "Category:Spoken articles" https://en.wikipedia.org/wiki/Category:Spoken_articles
+      link "Wikipedia:Spoken articles" https://en.wikipedia.org/wiki/Wikipedia:Spoken_articles
+      h2 Alphabetical lists of articles
+      text – List of all current pages
+      link "Special:Allpages" https://en.wikipedia.org/wiki/Special:AllPages
+      text – Alphabetical index
+      link "Wikipedia:Contents/A–Z index" https://en.wikipedia.org/wiki/Wikipedia:Contents/A–Z_index
+      text – Alphabetical list of topic indexes
+      link "Category:Wikipedia indexes" https://en.wikipedia.org/wiki/Category:Wikipedia_indexes
+      text – Indexes sorted by topic area
+      link "Wikipedia:Contents/Indices" https://en.wikipedia.org/wiki/Wikipedia:Contents/Indices
+      link "Content listings" https://en.wikipedia.org/wiki/Wikipedia:Contents
+      h2 Topics
+      link "Current events" https://en.wikipedia.org/wiki/Portal:Current_events
+      link Reference https://en.wikipedia.org/wiki/Wikipedia:Contents/Reference
+      link Culture https://en.wikipedia.org/wiki/Wikipedia:Contents/Culture_and_the_arts
+      link Geography https://en.wikipedia.org/wiki/Wikipedia:Contents/Geography_and_places
+      link Health https://en.wikipedia.org/wiki/Wikipedia:Contents/Health_and_fitness
+      link History https://en.wikipedia.org/wiki/Wikipedia:Contents/History_and_events
+      link "Human activities" https://en.wikipedia.org/wiki/Wikipedia:Contents/Human_activities
+      link Mathematics https://en.wikipedia.org/wiki/Wikipedia:Contents/Mathematics_and_logic
+      link Nature https://en.wikipedia.org/wiki/Wikipedia:Contents/Natural_and_physical_sciences
+      link People https://en.wikipedia.org/wiki/Wikipedia:Contents/People_and_self
+      link Philosophy https://en.wikipedia.org/wiki/Wikipedia:Contents/Philosophy_and_thinking
+      link Religion https://en.wikipedia.org/wiki/Wikipedia:Contents/Religion_and_belief_systems
+      link Society https://en.wikipedia.org/wiki/Wikipedia:Contents/Society_and_social_sciences
+      link Technology https://en.wikipedia.org/wiki/Wikipedia:Contents/Technology_and_applied_sciences
+      h2 Types
+      link "Vital articles" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles
+      link "Featured content" https://en.wikipedia.org/wiki/Wikipedia:Featured_content
+      link "Good content" https://en.wikipedia.org/wiki/Wikipedia:Good_content
+      link "Spoken articles" https://en.wikipedia.org/wiki/Wikipedia:Spoken_articles
+      link Overviews https://en.wikipedia.org/wiki/Wikipedia:Contents/Overviews
+      link Outlines https://en.wikipedia.org/wiki/Wikipedia:Contents/Outlines
+      link Lists https://en.wikipedia.org/wiki/Wikipedia:Contents/Lists
+      link Portals https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals
+      link Glossaries https://en.wikipedia.org/wiki/Wikipedia:Contents/Glossaries
+      link Categories https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories
+      link Indices https://en.wikipedia.org/wiki/Wikipedia:Contents/Indices
+      h2 Places, people and times
+      link "Academic disciplines" https://en.wikipedia.org/wiki/Outline_of_academic_disciplines
+      row
+        link "Anniversaries (days of the year)" https://en.wikipedia.org/wiki/List_of_days_of_the_year
+        link today https://en.wikipedia.org/wiki/October_19
+      link "Sovereign states and dependent territories" https://en.wikipedia.org/wiki/Lists_of_sovereign_states_and_dependent_territories
+      row
+        link Timelines https://en.wikipedia.org/wiki/List_of_timelines
+        link "decades, centuries, and millennia" https://en.wikipedia.org/wiki/List_of_decades,_centuries,_and_millennia
+      h2 Indices
+      row
+        link "A–Z index" https://en.wikipedia.org/wiki/Wikipedia:Contents/A–Z_index
+        link Categories https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories
+        link "Dewey Decimal classes" https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes
+        link "Library of Congress Classification" https://en.wikipedia.org/wiki/Library_of_Congress_Classification
+      text .mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}}
+      table "show.mw-parser-output .navbar{display inline;font-size 88%;font-weight normal}.mw-parser-output .navbar-collapse{float left;text-align left}.mw-parser-output .navbar-boxtext{word-spacing 0}.mw-parser-output .navbar ul{display inline-block;white-space nowrap;line-height inherit}.mw-parser-output .navbar-brackets before{margin-right -0.125em;content \"[ \"}.mw-parser-output .navbar-brackets after{margin-left -0.125em;content \" ]\"}.mw-parser-output .navbar li{word-spacing -0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration inherit}.mw-parser-output .navbar-mini abbr{font-variant small-caps;border-bottom none;text-decoration none;cursor inherit}.mw-parser-output .navbar-ct-full{font-size 114%;margin 0 7em}.mw-parser-output .navbar-ct-mini{font-size 114%;margin 0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color var(--color-base)!important}@media(prefers-color-scheme dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color var(--color-base)!important}}@media print{.mw-parser-output .navbar{display none!important}}vteWikipedia directories and indexes"
+      text :
+      row
+        link Categories /wiki/Help:Category
+        row
+          link "Wikipedia directories" /wiki/Category:Wikipedia_directories
+          link "Wikipedia contents" /wiki/Category:Wikipedia_contents
+          link "Wikipedia navigation" /wiki/Category:Wikipedia_navigation
+  col
+    text "This page was last edited on 10 September 2026, at 15:26 (UTC)."
+    text Page was rendered with .
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the  and . Wikipedia® is a registered trademark of the , a non-profit organization.
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/
+    row
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link Disclaimers /wiki/Wikipedia:General_disclaimer
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+      link Developers https://developer.wikimedia.org
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+      link "Mobile view" //en.wikipedia.org/w/index.php?title=Wikipedia:Contents&mobileaction=toggle_view_mobile
+    row
+      link "https://www.wikimedia.org/" https://www.wikimedia.org/
+      link "https://www.mediawiki.org/" https://www.mediawiki.org/

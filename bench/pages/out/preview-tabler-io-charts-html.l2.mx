@@ -1,0 +1,1064 @@
+@preview_tabler_io_charts_html rev=0 @0,0,728,2772
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,41
+  link Tabler . @17,59,39,21
+  row @68,49,643,41
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle @68,49,71,41
+    row @151,49,448,41
+      link "Enable dark mode" @151,49,108,41
+      link "Show notifications" # @271,49,111,41
+      link "Show app menu" # @394,49,97,41
+      link "Select language" # @503,49,96,41
+    link "Open user menu" # @611,49,100,41
+row @17,102,694,36
+  row @17,102,593,36
+    button Dashboards @17,102,85,36
+    button Interface @114,102,71,36
+    button Forms @197,102,58,36
+    button Extra @267,102,54,36
+    button Layout @333,102,61,36
+    button Plugins @406,102,63,36
+    button Addons @481,102,65,36
+    button Help @558,102,52,36
+  button Customize @622,102,89,36
+row @17,150,694,25
+  h1 Charts @17,150,66,25
+  link Docs https://docs.tabler.io/ui/plugins/chart @95,153,34,20
+row @17,187,694,476
+  col @17,287,12,276
+    row @17,287,12,43
+      h2 Active users @17,287,0,43
+      button "Last 7 days" @29,290,30,37
+    row @17,342,12,221
+      region "Active users" 952.3599853515625x288 @17,472,0,0 [62 shapes, 24 labelled]
+        figure "line chart with 3 data series: Mobile, Desktop, Tablet" @0,0 952x288 @17,472,0,0
+          text @36.83000183105469,13.670000076293945 anchor:end size:11 "14,000" @17,472,0,0
+          text @36.83000183105469,49.2400016784668 anchor:end size:11 "12,000" @17,472,0,0
+          text @36.83000183105469,84.80999755859375 anchor:end size:11 "10,000" @17,472,0,0
+          text @36.83000183105469,120.37999725341797 anchor:end size:11 "8,000" @17,472,0,0
+          text @36.83000183105469,155.9499969482422 anchor:end size:11 "6,000" @17,472,0,0
+          text @36.83000183105469,191.52000427246094 anchor:end size:11 "4,000" @17,472,0,0
+          text @36.83000183105469,227.10000610351563 anchor:end size:11 "2,000" @17,472,0,0
+          text @36.83000183105469,262.6700134277344 anchor:end size:11 "0" @17,472,0,0
+          text @46.83000183105469,283 anchor:middle size:12 "20 Jun" @17,472,0,0
+          text @109.25,283 anchor:middle size:12 "22 Jun" @17,472,0,0
+          text @171.67999267578125,283 anchor:middle size:12 "24 Jun" @17,472,0,0
+          text @234.11000061035156,283 anchor:middle size:12 "26 Jun" @17,472,0,0
+          text @296.5299987792969,283 anchor:middle size:12 "28 Jun" @17,472,0,0
+          text @358.9599914550781,283 anchor:middle size:12 "30 Jun" @17,472,0,0
+          text @421.3800048828125,283 anchor:middle size:12 "02 Jul" @17,472,0,0
+          text @483.80999755859375,283 anchor:middle size:12 "04 Jul" @17,472,0,0
+          text @546.22998046875,283 anchor:middle size:12 "06 Jul" @17,472,0,0
+          text @608.6599731445313,283 anchor:middle size:12 "08 Jul" @17,472,0,0
+          text @671.0800170898438,283 anchor:middle size:12 "10 Jul" @17,472,0,0
+          text @733.510009765625,283 anchor:middle size:12 "12 Jul" @17,472,0,0
+          text @795.9400024414063,283 anchor:middle size:12 "14 Jul" @17,472,0,0
+          text @858.3599853515625,283 anchor:middle size:12 "16 Jul" @17,472,0,0
+          text @920.7899780273438,283 anchor:middle size:12 "18 Jul" @17,472,0,0
+      col @29,342,0,221
+        metric Mobile 10,601 @29,342,30,66
+        metric Desktop 6,109 @29,420,30,65
+        metric Tablet 2,260 @29,497,30,66
+  col @41,342,13,166
+    h2 Chart with legend @41,342,13,64
+    row @41,418,13,36
+      button "Total visits 63.0k" @41,418,30,36
+      button "Unique visitors 43.0k" @83,418,30,36
+      button "New users 13.5k" @125,418,30,36
+    region "Site traffic" 1066x240 @41,505,13,3 [56 shapes, 21 labelled]
+      figure "line chart with 3 data series: Total visits, Unique visitors, New users" @0,0 1066x240 @41,505,13,3
+        text @31.65999984741211,13.670000076293945 anchor:end size:11 "4,000" @41,505,0,0
+        text @31.65999984741211,63.91999816894531 anchor:end size:11 "3,000" @41,506,0,0
+        text @31.65999984741211,114.16999816894531 anchor:end size:11 "2,000" @41,506,0,0
+        text @31.65999984741211,164.4199981689453 anchor:end size:11 "1,000" @41,507,0,0
+        text @31.65999984741211,214.6699981689453 anchor:end size:11 "0" @41,507,0,0
+        text @41.65999984741211,235 anchor:middle size:12 "20 Jun" @41,508,0,0
+        text @112.30000305175781,235 anchor:middle size:12 "22 Jun" @42,508,0,0
+        text @182.9499969482422,235 anchor:middle size:12 "24 Jun" @43,508,0,0
+        text @253.58999633789063,235 anchor:middle size:12 "26 Jun" @44,508,0,0
+        text @324.2300109863281,235 anchor:middle size:12 "28 Jun" @45,508,0,0
+        text @394.8800048828125,235 anchor:middle size:12 "30 Jun" @46,508,0,0
+        text @465.5199890136719,235 anchor:middle size:12 "02 Jul" @46,508,0,0
+        text @536.1699829101563,235 anchor:middle size:12 "04 Jul" @47,508,0,0
+        text @606.8099975585938,235 anchor:middle size:12 "06 Jul" @48,508,0,0
+        text @677.4600219726563,235 anchor:middle size:12 "08 Jul" @49,508,0,0
+        text @748.0999755859375,235 anchor:middle size:12 "10 Jul" @50,508,0,0
+        text @818.739990234375,235 anchor:middle size:12 "12 Jul" @51,508,0,0
+        text @889.3900146484375,235 anchor:middle size:12 "14 Jul" @52,508,0,0
+        text @960.030029296875,235 anchor:middle size:12 "16 Jul" @53,508,0,0
+        text @1030.6800537109375,235 anchor:middle size:12 "18 Jul" @53,508,0,0
+  col @66,377,12,97
+    row @66,377,12,42
+      h2 Social referrals @66,377,0,42
+      button "Last 7 days" @78,380,30,36
+    region "Social referrals" 1066x288 @66,470,12,4 [53 shapes, 16 labelled]
+      figure "line chart with 3 data series: Facebook, Twitter, Dribbble" @0,0 1066x288 @66,470,12,3
+        text @35.689998626708984,13.670000076293945 anchor:end size:11 "20000" @66,470,0,0
+        text @35.689998626708984,68.16999816894531 anchor:end size:11 "15000" @66,471,0,0
+        text @35.689998626708984,122.66999816894531 anchor:end size:11 "10000" @66,471,0,0
+        text @35.689998626708984,177.1699981689453 anchor:end size:11 "5000" @66,472,0,0
+        text @35.689998626708984,231.6699981689453 anchor:end size:11 "0" @66,472,0,0
+        text @86.5,252 anchor:middle size:12 "22 Jun" @67,473,0,0
+        text @229.33999633789063,252 anchor:middle size:12 "29 Jun" @68,473,0,0
+        text @372.19000244140625,252 anchor:middle size:12 "06 Jul" @70,473,0,0
+        text @515.030029296875,252 anchor:middle size:12 "13 Jul" @72,473,0,0
+        text @657.8800048828125,252 anchor:middle size:12 "20 Jul" @73,473,0,0
+        text @800.719970703125,252 anchor:middle size:12 "27 Jul" @75,473,0,0
+        text @943.5599975585938,252 anchor:middle size:12 "03 Aug" @76,473,0,0
+      text @425.4200134277344,281.6000061035156 fill:#404040 size:12 "Facebook" @71,473,1,0
+      text @507.1400146484375,281.6000061035156 fill:#404040 size:12 "Twitter" @72,473,0,0
+      text @573.3099975585938,281.6000061035156 fill:#404040 size:12 "Dribbble" @72,473,1,0
+  col @90,351,12,149
+    h2 Sprint velocity @90,351,12,42
+    region "Story points completed per sprint" 1066x320 @90,496,12,4 [93 shapes, 31 labelled]
+      figure "bar chart with 1 data series: Story points" @0,0 1066x320 @90,496,12,4
+        text @20.15999984741211,13.670000076293945 anchor:end size:11 "100" @90,496,0,0
+        text @20.15999984741211,59.84000015258789 anchor:end size:11 "80" @90,497,0,0
+        text @20.15999984741211,106.0199966430664 anchor:end size:11 "60" @90,497,0,0
+        text @20.15999984741211,152.19000244140625 anchor:end size:11 "40" @90,498,0,0
+        text @20.15999984741211,198.3699951171875 anchor:end size:11 "20" @90,498,0,0
+        text @20.15999984741211,244.5399932861328 anchor:end size:11 "0" @90,499,0,0
+        text @-116.56999969482422,341.2900085449219 anchor:end size:12 "Sprint 1" @88,500,0,0
+        text @-60.77000045776367,371.80999755859375 anchor:end size:12 "Sprint 2" @89,500,0,0
+        text @-4.96999979019165,402.3299865722656 anchor:end size:12 "Sprint 3" @89,500,0,0
+        text @50.84000015258789,432.8500061035156 anchor:end size:12 "Sprint 4" @90,501,1,0
+        text @106.63999938964844,463.3699951171875 anchor:end size:12 "Sprint 5" @91,501,0,0
+        text @162.44000244140625,493.8900146484375 anchor:end size:12 "Sprint 6" @91,501,0,0
+        text @218.24000549316406,524.4099731445313 anchor:end size:12 "Sprint 7" @92,502,0,0
+        text @274.0400085449219,554.9299926757813 anchor:end size:12 "Sprint 8" @93,502,0,0
+        text @329.8399963378906,585.4400024414063 anchor:end size:12 "Sprint 9" @93,502,0,0
+        text @385.6400146484375,615.9600219726563 anchor:end size:12 "Sprint 10" @94,503,1,0
+        text @441.45001220703125,646.47998046875 anchor:end size:12 "Sprint 11" @94,503,1,0
+        text @497.25,677 anchor:end size:12 "Sprint 12" @95,503,1,0
+        text @553.0499877929688,707.52001953125 anchor:end size:12 "Sprint 13" @96,504,1,0
+        text @608.8499755859375,738.0399780273438 anchor:end size:12 "Sprint 14" @96,504,1,0
+        text @664.6500244140625,768.5599975585938 anchor:end size:12 "Sprint 15" @97,505,1,0
+        text @720.4500122070313,799.0800170898438 anchor:end size:12 "Sprint 16" @98,505,1,0
+        text @776.25,829.5900268554688 anchor:end size:12 "Sprint 17" @98,505,1,0
+        text @832.0599975585938,860.1099853515625 anchor:end size:12 "Sprint 18" @99,506,1,0
+        text @887.8599853515625,890.6300048828125 anchor:end size:12 "Sprint 19" @99,506,1,0
+        text @943.6599731445313,921.1500244140625 anchor:end size:12 "Sprint 20" @100,506,1,0
+        text @999.4600219726563,951.6699829101563 anchor:end size:12 "Sprint 21" @101,507,1,0
+        text @1055.260009765625,982.1900024414063 anchor:end size:12 "Sprint 22" @101,507,1,0
+        text @1111.06005859375,1012.7100219726563 anchor:end size:12 "Sprint 23" @102,507,1,0
+        text @1166.8599853515625,1043.22998046875 anchor:end size:12 "Sprint 24" @103,508,1,0
+  col @114,266,7,318
+    h2 Line charts @114,266,7,43
+    text Trends over time, where the change between points matters more than single values. @114,321,7,263
+  col @133,272,4,306
+    h3 Line chart @133,272,4,37
+    text Tickets solved per day with a smooth curve, the default. @133,321,4,203
+    region "Line chart" 316.6600036621094x240 @133,575,4,3 [39 shapes, 14 labelled]
+      figure "line chart with 1 data series: Tickets solved" @0,0 317x240 @133,575,4,3
+        text @15.0600004196167,13.670000076293945 anchor:end size:11 "60" @133,575,0,0
+        text @15.0600004196167,52.61000061035156 anchor:end size:11 "50" @133,576,0,0
+        text @15.0600004196167,91.55999755859375 anchor:end size:11 "40" @133,576,0,0
+        text @15.0600004196167,130.5 anchor:end size:11 "30" @133,577,0,0
+        text @15.0600004196167,169.4499969482422 anchor:end size:11 "20" @133,577,0,0
+        text @15.0600004196167,208.39999389648438 anchor:end size:11 "10" @133,577,0,0
+        text @25.059999465942383,228.72999572753906 anchor:middle size:12 "Mon" @133,578,0,0
+        text @71.75,228.72999572753906 anchor:middle size:12 "Tue" @134,578,0,0
+        text @118.43000030517578,228.72999572753906 anchor:middle size:12 "Wed" @134,578,0,0
+        text @165.1199951171875,228.72999572753906 anchor:middle size:12 "Thu" @135,578,0,0
+        text @211.8000030517578,228.72999572753906 anchor:middle size:12 "Fri" @136,578,0,0
+        text @258.489990234375,228.72999572753906 anchor:middle size:12 "Sat" @136,578,0,0
+        text @305.1700134277344,228.72999572753906 anchor:middle size:12 "Sun" @137,578,0,0
+  col @149,303,4,245
+    h3 Straight line @149,303,4,37
+    text The same tickets drawn with straight segments. @149,352,4,142
+    region "Straight line" 316.6600036621094x240 @149,545,4,3 [39 shapes, 14 labelled]
+      figure "line chart with 1 data series: Tickets solved" @0,0 317x240 @149,545,4,3
+        text @15.0600004196167,13.670000076293945 anchor:end size:11 "60" @149,545,0,0
+        text @15.0600004196167,52.61000061035156 anchor:end size:11 "50" @149,546,0,0
+        text @15.0600004196167,91.55999755859375 anchor:end size:11 "40" @149,546,0,0
+        text @15.0600004196167,130.5 anchor:end size:11 "30" @149,547,0,0
+        text @15.0600004196167,169.4499969482422 anchor:end size:11 "20" @149,547,0,0
+        text @15.0600004196167,208.39999389648438 anchor:end size:11 "10" @149,547,0,0
+        text @25.059999465942383,228.72999572753906 anchor:middle size:12 "Mon" @149,548,0,0
+        text @71.75,228.72999572753906 anchor:middle size:12 "Tue" @150,548,0,0
+        text @118.43000030517578,228.72999572753906 anchor:middle size:12 "Wed" @150,548,0,0
+        text @165.1199951171875,228.72999572753906 anchor:middle size:12 "Thu" @151,548,0,0
+        text @211.8000030517578,228.72999572753906 anchor:middle size:12 "Fri" @152,548,0,0
+        text @258.489990234375,228.72999572753906 anchor:middle size:12 "Sat" @152,548,0,0
+        text @305.1700134277344,228.72999572753906 anchor:middle size:12 "Sun" @153,548,0,0
+  col @165,282,3,286
+    h3 Stepped line @165,282,3,38
+    text A stepped line for values that change in jumps. @165,332,3,183
+    region "Stepped line" 316.6600036621094x240 @165,565,3,3 [39 shapes, 14 labelled]
+      figure "line chart with 1 data series: Tickets solved" @0,0 317x240 @165,565,3,2
+        text @15.0600004196167,13.670000076293945 anchor:end size:11 "60" @165,565,0,0
+        text @15.0600004196167,52.61000061035156 anchor:end size:11 "50" @165,565,0,0
+        text @15.0600004196167,91.55999755859375 anchor:end size:11 "40" @165,566,0,0
+        text @15.0600004196167,130.5 anchor:end size:11 "30" @165,566,0,0
+        text @15.0600004196167,169.4499969482422 anchor:end size:11 "20" @165,567,0,0
+        text @15.0600004196167,208.39999389648438 anchor:end size:11 "10" @165,567,0,0
+        text @25.059999465942383,228.72999572753906 anchor:middle size:12 "Mon" @165,567,0,0
+        text @71.75,228.72999572753906 anchor:middle size:12 "Tue" @166,567,0,0
+        text @118.43000030517578,228.72999572753906 anchor:middle size:12 "Wed" @166,567,0,0
+        text @165.1199951171875,228.72999572753906 anchor:middle size:12 "Thu" @166,567,0,0
+        text @211.8000030517578,228.72999572753906 anchor:middle size:12 "Fri" @167,567,0,0
+        text @258.489990234375,228.72999572753906 anchor:middle size:12 "Sat" @167,567,0,0
+        text @305.1700134277344,228.72999572753906 anchor:middle size:12 "Sun" @168,567,0,0
+  col @180,303,4,245
+    h3 Data labels @180,303,4,37
+    text Tickets solved per day, labeled with values. @180,352,4,142
+    region "Data labels" 316.6600036621094x240 @180,545,4,3 [39 shapes, 14 labelled]
+      figure "line chart with 1 data series: Tickets solved" @0,0 317x240 @180,545,4,3
+        text @15.0600004196167,13.670000076293945 anchor:end size:11 "60" @180,545,0,0
+        text @15.0600004196167,52.61000061035156 anchor:end size:11 "50" @180,546,0,0
+        text @15.0600004196167,91.55999755859375 anchor:end size:11 "40" @180,546,0,0
+        text @15.0600004196167,130.5 anchor:end size:11 "30" @180,547,0,0
+        text @15.0600004196167,169.4499969482422 anchor:end size:11 "20" @180,547,0,0
+        text @15.0600004196167,208.39999389648438 anchor:end size:11 "10" @180,547,0,0
+        text @25.059999465942383,228.72999572753906 anchor:middle size:12 "Mon" @180,548,0,0
+        text @71.75,228.72999572753906 anchor:middle size:12 "Tue" @181,548,0,0
+        text @118.43000030517578,228.72999572753906 anchor:middle size:12 "Wed" @181,548,0,0
+        text @165.1199951171875,228.72999572753906 anchor:middle size:12 "Thu" @182,548,0,0
+        text @211.8000030517578,228.72999572753906 anchor:middle size:12 "Fri" @183,548,0,0
+        text @258.489990234375,228.72999572753906 anchor:middle size:12 "Sat" @183,548,0,0
+        text @305.1700134277344,228.72999572753906 anchor:middle size:12 "Sun" @184,548,0,0
+  col @196,215,8,420
+    h3 Issue activity @196,215,8,38
+    text Issues opened, closed and reopened per day over the last 17 days. @196,265,8,244
+    text Opened Closed Reopened @196,521,8,60
+    region "Issue activity" 691.3300170898438x240 @196,632,8,3 [55 shapes, 23 labelled]
+      figure "line chart with 3 data series: Opened, Closed, Reopened" @0,0 691x240 @196,632,8,3
+        text @15.140000343322754,13.670000076293945 anchor:end size:11 "40" @196,632,0,0
+        text @15.140000343322754,62.349998474121094 anchor:end size:11 "30" @196,633,0,0
+        text @15.140000343322754,111.02999877929688 anchor:end size:11 "20" @196,633,0,0
+        text @15.140000343322754,159.7100067138672 anchor:end size:11 "10" @196,634,0,0
+        text @15.140000343322754,208.39999389648438 anchor:end size:11 "0" @196,634,0,0
+        text @25.139999389648438,228.72999572753906 anchor:middle size:12 "M" @196,635,0,0
+        text @66.33000183105469,228.72999572753906 anchor:middle size:12 "T" @197,635,0,0
+        text @107.5199966430664,228.72999572753906 anchor:middle size:12 "W" @197,635,0,0
+        text @148.7100067138672,228.72999572753906 anchor:middle size:12 "T" @198,635,0,0
+        text @189.89999389648438,228.72999572753906 anchor:middle size:12 "F" @198,635,0,0
+        text @231.08999633789063,228.72999572753906 anchor:middle size:12 "S" @199,635,0,0
+        text @272.2799987792969,228.72999572753906 anchor:middle size:12 "S" @199,635,0,0
+        text @313.4700012207031,228.72999572753906 anchor:middle size:12 "M" @200,635,0,0
+        text @354.6600036621094,228.72999572753906 anchor:middle size:12 "T" @200,635,0,0
+        text @395.8500061035156,228.72999572753906 anchor:middle size:12 "W" @201,635,0,0
+        text @437.0400085449219,228.72999572753906 anchor:middle size:12 "T" @201,635,0,0
+        text @478.239990234375,228.72999572753906 anchor:middle size:12 "F" @201,635,0,0
+        text @519.4299926757813,228.72999572753906 anchor:middle size:12 "S" @202,635,0,0
+        text @560.6199951171875,228.72999572753906 anchor:middle size:12 "S" @202,635,0,0
+        text @601.8099975585938,228.72999572753906 anchor:middle size:12 "M" @203,635,0,0
+        text @643,228.72999572753906 anchor:middle size:12 "T" @203,635,0,0
+        text @684.1900024414063,228.72999572753906 anchor:middle size:12 "W" @204,635,0,0
+  col @216,238,4,374
+    h3 Revenue by plan @216,238,4,56
+    text Monthly revenue of each plan, January to June. @216,306,4,163
+    text Starter Pro Enterprise @216,481,4,60
+    region "Revenue by plan" 316.6600036621094x240 @216,610,4,2 [44 shapes, 15 labelled]
+      figure "line chart with 3 data series: Starter, Pro, Enterprise" @0,0 317x240 @216,610,4,3
+        text @15.09000015258789,13.670000076293945 anchor:end size:11 "80" @216,610,0,0
+        text @15.09000015258789,41.4900016784668 anchor:end size:11 "70" @216,610,0,0
+        text @15.09000015258789,69.30000305175781 anchor:end size:11 "60" @216,611,0,0
+        text @15.09000015258789,97.12000274658203 anchor:end size:11 "50" @216,611,0,0
+        text @15.09000015258789,124.94000244140625 anchor:end size:11 "40" @216,611,0,0
+        text @15.09000015258789,152.75999450683594 anchor:end size:11 "30" @216,612,0,0
+        text @15.09000015258789,180.5800018310547 anchor:end size:11 "20" @216,612,0,0
+        text @15.09000015258789,208.39999389648438 anchor:end size:11 "10" @216,612,0,0
+        text @25.09000015258789,228.72999572753906 anchor:middle size:12 "Jan" @216,613,0,0
+        text @81.2300033569336,228.72999572753906 anchor:middle size:12 "Feb" @217,613,0,0
+        text @137.36000061035156,228.72999572753906 anchor:middle size:12 "Mar" @218,613,0,0
+        text @193.5,228.72999572753906 anchor:middle size:12 "Apr" @218,613,0,0
+        text @249.6300048828125,228.72999572753906 anchor:middle size:12 "May" @219,613,0,0
+        text @305.7699890136719,228.72999572753906 anchor:middle size:12 "Jun" @220,613,0,0
+  col @232,248,3,354
+    h3 Signups by channel @232,248,3,56
+    text Monthly signups, dashed for paid and referral. @232,316,3,142
+    text Organic Paid Referral @232,470,3,61
+    region "Signups by channel" 316.6600036621094x240 @232,600,3,2 [40 shapes, 13 labelled]
+      figure "line chart with 3 data series: Organic, Paid, Referral" @0,0 317x240 @232,600,3,2
+        text @21.700000762939453,13.670000076293945 anchor:end size:11 "200" @232,600,0,0
+        text @21.700000762939453,62.349998474121094 anchor:end size:11 "150" @232,600,0,0
+        text @21.700000762939453,111.02999877929688 anchor:end size:11 "100" @232,601,0,0
+        text @21.700000762939453,159.7100067138672 anchor:end size:11 "50" @232,601,0,0
+        text @21.700000762939453,208.39999389648438 anchor:end size:11 "0" @232,602,0,0
+        text @31.700000762939453,228.72999572753906 anchor:middle size:12 "Jan" @232,602,0,0
+        text @77.70999908447266,228.72999572753906 anchor:middle size:12 "Feb" @233,602,0,0
+        text @123.72000122070313,228.72999572753906 anchor:middle size:12 "Mar" @233,602,0,0
+        text @169.72999572753906,228.72999572753906 anchor:middle size:12 "Apr" @234,602,0,0
+        text @215.72999572753906,228.72999572753906 anchor:middle size:12 "May" @234,602,0,0
+        text @261.739990234375,228.72999572753906 anchor:middle size:12 "Jun" @234,602,0,0
+        text @307.75,228.72999572753906 anchor:middle size:12 "Jul" @235,602,0,0
+  col @247,236,4,379
+    h3 CPU load @247,236,4,37
+    text CPU load of web servers and workers in one day. @247,285,4,203
+    text Web servers Workers @247,500,4,61
+    region "CPU load" 316.6600036621094x240 @247,612,4,3 [44 shapes, 16 labelled]
+      figure "line chart with 2 data series: Web servers, Workers" @0,0 317x240 @247,612,4,3
+        text @14.170000076293945,13.670000076293945 anchor:end size:11 "70" @247,612,0,0
+        text @14.170000076293945,46.119998931884766 anchor:end size:11 "60" @247,612,0,0
+        text @14.170000076293945,78.58000183105469 anchor:end size:11 "50" @247,613,0,0
+        text @14.170000076293945,111.02999877929688 anchor:end size:11 "40" @247,613,0,0
+        text @14.170000076293945,143.49000549316406 anchor:end size:11 "30" @247,614,0,0
+        text @14.170000076293945,175.94000244140625 anchor:end size:11 "20" @247,614,0,0
+        text @14.170000076293945,208.39999389648438 anchor:end size:11 "10" @247,614,0,0
+        text @24.170000076293945,228.72999572753906 anchor:middle size:12 "00:00" @247,615,0,0
+        text @63.61000061035156,228.72999572753906 anchor:middle size:12 "03:00" @248,615,0,0
+        text @103.05000305175781,228.72999572753906 anchor:middle size:12 "06:00" @248,615,0,0
+        text @142.49000549316406,228.72999572753906 anchor:middle size:12 "09:00" @249,615,0,0
+        text @181.92999267578125,228.72999572753906 anchor:middle size:12 "12:00" @249,615,0,0
+        text @221.3699951171875,228.72999572753906 anchor:middle size:12 "15:00" @250,615,0,0
+        text @260.80999755859375,228.72999572753906 anchor:middle size:12 "18:00" @250,615,0,0
+        text @300.25,228.72999572753906 anchor:middle size:12 "21:00" @251,615,0,0
+  col @263,276,6,298
+    h3 Average temperature @263,276,6,38
+    text Monthly average temperature in Tokyo and London. @263,326,6,142
+    text Tokyo London @263,480,6,41
+    region "Average temperature" 504x240 @263,571,6,3 [120 shapes, 83 labelled]
+      figure "line chart with 2 data series: Tokyo, London" @0,0 504x240 @263,571,6,3
+        text @24.420000076293945,13.670000076293945 anchor:end size:11 "30.0" @263,571,0,0
+        text @24.420000076293945,52.61000061035156 anchor:end size:11 "25.0" @263,571,0,0
+        text @24.420000076293945,91.55999755859375 anchor:end size:11 "20.0" @263,572,0,0
+        text @24.420000076293945,130.5 anchor:end size:11 "15.0" @263,572,0,0
+        text @24.420000076293945,169.4499969482422 anchor:end size:11 "10.0" @263,573,0,0
+        text @24.420000076293945,208.39999389648438 anchor:end size:11 "5.0" @263,573,0,0
+        text @34.41999816894531,200.5 anchor:middle fill:#ffffff size:12 weight:600 "5.8" @263,573,0,0
+        text @76.01000213623047,195.0500030517578 anchor:middle fill:#ffffff size:12 weight:600 "6.5" @264,573,0,0
+        item 9.7 @104.52999877929688,157.1199951171875 @264,573,0,0
+          rect @0,0 26.1299991607666x17 opacity:0.9 radius:2 stroke:#ffffff "9.7" dashed @264,573,0,0
+          text @13.0600004196167,13 anchor:middle fill:#ffffff size:12 weight:600 "9.7" @264,573,0,0
+        item 14.8 @142.5,117.4000015258789 @265,572,0,0
+          rect @0,0 33.34000015258789x17 opacity:0.9 radius:2 stroke:#ffffff "14.8" dashed @265,572,0,0
+          text @16.670000076293945,13 anchor:middle fill:#ffffff size:12 weight:600 "14.8" @265,572,0,0
+        item 19.2 @184.3800048828125,83.12000274658203 @265,572,0,0
+          rect @0,0 32.77000045776367x17 opacity:0.9 radius:2 stroke:#ffffff "19.2" dashed @265,572,0,0
+          text @16.3799991607666,13 anchor:middle fill:#ffffff size:12 weight:600 "19.2" @265,572,0,0
+        item 22.4 @224.94000244140625,58.20000076293945 @266,572,0,0
+          rect @0,0 34.810001373291016x17 opacity:0.9 radius:2 stroke:#ffffff "22.4" dashed @266,572,0,0
+          text @17.40999984741211,13 anchor:middle fill:#ffffff size:12 weight:600 "22.4" @266,572,0,0
+        item 26.1 @267.6600036621094,29.3799991607666 @266,571,0,0
+          rect @0,0 32.54999923706055x17 opacity:0.9 radius:2 stroke:#ffffff "26.1" dashed @266,571,0,0
+          text @16.270000457763672,13 anchor:middle fill:#ffffff size:12 weight:600 "26.1" @266,571,0,0
+        item 27.6 @309.1099853515625,17.690000534057617 @267,571,0,0
+          rect @0,0 32.810001373291016x17 opacity:0.9 radius:2 stroke:#ffffff "27.6" dashed @267,571,0,0
+          text @16.40999984741211,13 anchor:middle fill:#ffffff size:12 weight:600 "27.6" @267,571,0,0
+        item 24.3 @349.739990234375,43.400001525878906 @267,572,0,0
+          rect @0,0 34.720001220703125x17 opacity:0.9 radius:2 stroke:#ffffff "24.3" dashed @267,572,0,0
+          text @17.360000610351563,13 anchor:middle fill:#ffffff size:12 weight:600 "24.3" @267,572,0,0
+        item 18.7 @392.5400085449219,87.0199966430664 @268,572,0,0
+          rect @0,0 32.279998779296875x17 opacity:0.9 radius:2 stroke:#ffffff "18.7" dashed @268,572,0,0
+          text @16.139999389648438,13 anchor:middle fill:#ffffff size:12 weight:600 "18.7" @268,572,0,0
+        item 13.4 @433.69000244140625,128.3000030517578 @268,573,0,0
+          rect @0,0 33.15999984741211x17 opacity:0.9 radius:2 stroke:#ffffff "13.4" dashed @268,573,0,0
+          text @16.579999923706055,13 anchor:middle fill:#ffffff size:12 weight:600 "13.4" @268,573,0,0
+        item 8.6 @468.739990234375,165.69000244140625 @269,573,0,0
+          rect @0,0 27.110000610351563x17 opacity:0.9 radius:2 stroke:#ffffff "8.6" dashed @269,573,0,0
+          text @23.110000610351563,13 anchor:end fill:#ffffff size:12 weight:600 "8.6" @269,573,0,0
+        text @34.41999816894531,205.1699981689453 anchor:middle fill:#ffffff size:12 weight:600 "5.2" @263,573,0,0
+        text @76.01000213623047,203.61000061035156 anchor:middle fill:#ffffff size:12 weight:600 "5.4" @264,573,0,0
+        item 7.3 @104.95999908447266,175.80999755859375 @264,573,0,0
+          rect @0,0 25.270000457763672x17 opacity:0.9 radius:2 stroke:#ffffff "7.3" dashed @264,573,0,0
+          text @12.630000114440918,13 anchor:middle fill:#ffffff size:12 weight:600 "7.3" @264,573,0,0
+        item 9.8 @145.63999938964844,156.33999633789063 @265,573,0,0
+          rect @0,0 27.059999465942383x17 opacity:0.9 radius:2 stroke:#ffffff "9.8" dashed @265,573,0,0
+          text @13.529999732971191,13 anchor:middle fill:#ffffff size:12 weight:600 "9.8" @265,573,0,0
+        item 13.1 @185.3800048828125,130.63999938964844 @265,573,0,0
+          rect @0,0 30.770000457763672x17 opacity:0.9 radius:2 stroke:#ffffff "13.1" dashed @265,573,0,0
+          text @15.380000114440918,13 anchor:middle fill:#ffffff size:12 weight:600 "13.1" @265,573,0,0
+        item 16.2 @225.89999389648438,106.48999786376953 @266,572,0,0
+          rect @0,0 32.88999938964844x17 opacity:0.9 radius:2 stroke:#ffffff "16.2" dashed @266,572,0,0
+          text @16.450000762939453,13 anchor:middle fill:#ffffff size:12 weight:600 "16.2" @266,572,0,0
+        item 18.7 @267.7900085449219,87.0199966430664 @266,572,0,0
+          rect @0,0 32.279998779296875x17 opacity:0.9 radius:2 stroke:#ffffff "18.7" dashed @266,572,0,0
+          text @16.139999389648438,13 anchor:middle fill:#ffffff size:12 weight:600 "18.7" @266,572,0,0
+        item 18.4 @308.80999755859375,89.3499984741211 @267,572,0,0
+          rect @0,0 33.40999984741211x17 opacity:0.9 radius:2 stroke:#ffffff "18.4" dashed @267,572,0,0
+          text @16.700000762939453,13 anchor:middle fill:#ffffff size:12 weight:600 "18.4" @267,572,0,0
+        item 15.9 @350.7099914550781,108.83000183105469 @267,572,0,0
+          rect @0,0 32.779998779296875x17 opacity:0.9 radius:2 stroke:#ffffff "15.9" dashed @267,572,0,0
+          text @16.389999389648438,13 anchor:middle fill:#ffffff size:12 weight:600 "15.9" @267,572,0,0
+        item 12.3 @392.25,136.8699951171875 @268,573,0,0
+          rect @0,0 32.880001068115234x17 opacity:0.9 radius:2 stroke:#ffffff "12.3" dashed @268,573,0,0
+          text @16.440000534057617,13 anchor:middle fill:#ffffff size:12 weight:600 "12.3" @268,573,0,0
+        item 8.4 @436.5299987792969,167.25 @268,573,0,0
+          rect @0,0 27.469999313354492x17 opacity:0.9 radius:2 stroke:#ffffff "8.4" dashed @268,573,0,0
+          text @13.729999542236328,13 anchor:middle fill:#ffffff size:12 weight:600 "8.4" @268,573,0,0
+        item 5.9 @469.0199890136719,186.72000122070313 @269,573,0,0
+          rect @0,0 26.829999923706055x17 opacity:0.9 radius:2 stroke:#ffffff "5.9" dashed @269,573,0,0
+          text @22.829999923706055,13 anchor:end fill:#ffffff size:12 weight:600 "5.9" @269,573,0,0
+        text @34.41999816894531,228.72999572753906 anchor:middle size:12 "Jan" @263,574,0,0
+        text @76.01000213623047,228.72999572753906 anchor:middle size:12 "Feb" @264,574,0,0
+        text @117.58999633789063,228.72999572753906 anchor:middle size:12 "Mar" @264,574,0,0
+        text @159.17999267578125,228.72999572753906 anchor:middle size:12 "Apr" @265,574,0,0
+        text @200.75999450683594,228.72999572753906 anchor:middle size:12 "May" @265,574,0,0
+        text @242.33999633789063,228.72999572753906 anchor:middle size:12 "Jun" @266,574,0,0
+        text @283.92999267578125,228.72999572753906 anchor:middle size:12 "Jul" @266,574,0,0
+        text @325.510009765625,228.72999572753906 anchor:middle size:12 "Aug" @267,574,0,0
+        text @367.1000061035156,228.72999572753906 anchor:middle size:12 "Sep" @267,574,0,0
+        text @408.67999267578125,228.72999572753906 anchor:middle size:12 "Oct" @268,574,0,0
+        text @450.2699890136719,228.72999572753906 anchor:middle size:12 "Nov" @268,574,0,0
+        text @491.8500061035156,228.72999572753906 anchor:middle size:12 "Dec" @269,574,0,0
+  col @281,303,6,245
+    h3 Running instances @281,303,6,37
+    text Number of running instances during the day. @281,352,6,142
+    region "Running instances" 504x240 @281,545,6,3 [49 shapes, 19 labelled]
+      figure "line chart with 1 data series: Instances" @0,0 504x240 @281,545,6,3
+        text @17.610000610351563,13.670000076293945 anchor:end size:11 "8" @281,545,0,0
+        text @17.610000610351563,46.119998931884766 anchor:end size:11 "7" @281,545,0,0
+        text @17.610000610351563,78.58000183105469 anchor:end size:11 "6" @281,546,0,0
+        text @17.610000610351563,111.02999877929688 anchor:end size:11 "5" @281,546,0,0
+        text @17.610000610351563,143.49000549316406 anchor:end size:11 "4" @281,547,0,0
+        text @17.610000610351563,175.94000244140625 anchor:end size:11 "3" @281,547,0,0
+        text @17.610000610351563,208.39999389648438 anchor:end size:11 "2" @281,547,0,0
+        text @27.610000610351563,228.72999572753906 anchor:middle size:12 "00:00" @281,548,0,0
+        text @73.47000122070313,228.72999572753906 anchor:middle size:12 "02:00" @282,548,0,0
+        text @119.33999633789063,228.72999572753906 anchor:middle size:12 "04:00" @282,548,0,0
+        text @165.1999969482422,228.72999572753906 anchor:middle size:12 "06:00" @283,548,0,0
+        text @211.07000732421875,228.72999572753906 anchor:middle size:12 "08:00" @283,548,0,0
+        text @256.92999267578125,228.72999572753906 anchor:middle size:12 "10:00" @284,548,0,0
+        text @302.79998779296875,228.72999572753906 anchor:middle size:12 "12:00" @284,548,0,0
+        text @348.6600036621094,228.72999572753906 anchor:middle size:12 "14:00" @285,548,0,0
+        text @394.5299987792969,228.72999572753906 anchor:middle size:12 "16:00" @286,548,0,0
+        text @440.3900146484375,228.72999572753906 anchor:middle size:12 "18:00" @286,548,0,0
+        text @486.260009765625,228.72999572753906 anchor:middle size:12 "20:00" @287,548,0,0
+  col @299,215,6,420
+    h2 Area charts @299,215,6,43
+    text Lines with a filled area, to stress volume or to show how parts add up to a total. @299,270,6,365
+  col @317,292,4,266
+    h3 Area chart @317,292,4,38
+    text Tickets solved per day as a filled area. @317,342,4,162
+    region "Area chart" 316.6600036621094x240 @317,555,4,3 [39 shapes, 14 labelled]
+      figure "area chart with 1 data series: Tickets solved" @0,0 317x240 @317,555,4,3
+        text @15.0600004196167,13.670000076293945 anchor:end size:11 "60" @317,555,0,0
+        text @15.0600004196167,52.61000061035156 anchor:end size:11 "50" @317,556,0,0
+        text @15.0600004196167,91.55999755859375 anchor:end size:11 "40" @317,556,0,0
+        text @15.0600004196167,130.5 anchor:end size:11 "30" @317,557,0,0
+        text @15.0600004196167,169.4499969482422 anchor:end size:11 "20" @317,557,0,0
+        text @15.0600004196167,208.39999389648438 anchor:end size:11 "10" @317,557,0,0
+        text @25.059999465942383,228.72999572753906 anchor:middle size:12 "Mon" @317,558,0,0
+        text @71.75,228.72999572753906 anchor:middle size:12 "Tue" @318,558,0,0
+        text @118.43000030517578,228.72999572753906 anchor:middle size:12 "Wed" @318,558,0,0
+        text @165.1199951171875,228.72999572753906 anchor:middle size:12 "Thu" @319,558,0,0
+        text @211.8000030517578,228.72999572753906 anchor:middle size:12 "Fri" @320,558,0,0
+        text @258.489990234375,228.72999572753906 anchor:middle size:12 "Sat" @320,558,0,0
+        text @305.1700134277344,228.72999572753906 anchor:middle size:12 "Sun" @321,558,0,0
+  col @333,266,4,318
+    h3 Two areas @333,266,4,37
+    text Solved and reopened tickets as two overlapping areas. @333,315,4,163
+    text Solved Reopened @333,490,4,40
+    region "Two areas" 316.6600036621094x240 @333,581,4,3 [43 shapes, 15 labelled]
+      figure "area chart with 2 data series: Solved, Reopened" @0,0 317x240 @333,581,4,3
+        text @15.0600004196167,13.670000076293945 anchor:end size:11 "60" @333,581,0,0
+        text @15.0600004196167,46.119998931884766 anchor:end size:11 "50" @333,581,0,0
+        text @15.0600004196167,78.58000183105469 anchor:end size:11 "40" @333,582,0,0
+        text @15.0600004196167,111.02999877929688 anchor:end size:11 "30" @333,582,0,0
+        text @15.0600004196167,143.49000549316406 anchor:end size:11 "20" @333,583,0,0
+        text @15.0600004196167,175.94000244140625 anchor:end size:11 "10" @333,583,0,0
+        text @15.0600004196167,208.39999389648438 anchor:end size:11 "0" @333,583,0,0
+        text @25.059999465942383,228.72999572753906 anchor:middle size:12 "Mon" @333,584,0,0
+        text @71.75,228.72999572753906 anchor:middle size:12 "Tue" @334,584,0,0
+        text @118.43000030517578,228.72999572753906 anchor:middle size:12 "Wed" @334,584,0,0
+        text @165.1199951171875,228.72999572753906 anchor:middle size:12 "Thu" @335,584,0,0
+        text @211.8000030517578,228.72999572753906 anchor:middle size:12 "Fri" @336,584,0,0
+        text @258.489990234375,228.72999572753906 anchor:middle size:12 "Sat" @336,584,0,0
+        text @305.1700134277344,228.72999572753906 anchor:middle size:12 "Sun" @337,584,0,0
+  col @349,246,4,359
+    h3 Stacked areas @349,246,4,37
+    text Solved and reopened tickets stacked on top of each other. @349,295,4,203
+    text Solved Reopened @349,510,4,41
+    region "Stacked areas" 316.6600036621094x240 @349,601,4,4 [39 shapes, 13 labelled]
+      figure "area chart with 2 data series: Solved, Reopened" @0,0 317x240 @349,601,4,3
+        text @15.09000015258789,13.670000076293945 anchor:end size:11 "80" @349,601,0,0
+        text @15.09000015258789,62.349998474121094 anchor:end size:11 "60" @349,602,0,0
+        text @15.09000015258789,111.02999877929688 anchor:end size:11 "40" @349,602,0,0
+        text @15.09000015258789,159.7100067138672 anchor:end size:11 "20" @349,603,0,0
+        text @15.09000015258789,208.39999389648438 anchor:end size:11 "0" @349,603,0,0
+        text @25.09000015258789,228.72999572753906 anchor:middle size:12 "Mon" @349,604,0,0
+        text @71.7699966430664,228.72999572753906 anchor:middle size:12 "Tue" @350,604,0,0
+        text @118.44999694824219,228.72999572753906 anchor:middle size:12 "Wed" @350,604,0,0
+        text @165.1300048828125,228.72999572753906 anchor:middle size:12 "Thu" @351,604,0,0
+        text @211.80999755859375,228.72999572753906 anchor:middle size:12 "Fri" @352,604,0,0
+        text @258.489990234375,228.72999572753906 anchor:middle size:12 "Sat" @352,604,0,0
+        text @305.1700134277344,228.72999572753906 anchor:middle size:12 "Sun" @353,604,0,0
+  col @365,268,4,314
+    h3 Sessions by device @365,268,4,57
+    text Monthly sessions on mobile and desktop. @365,337,4,121
+    text Mobile Desktop @365,470,4,41
+    region "Sessions by device" 316.6600036621094x240 @365,579,4,3 [39 shapes, 13 labelled]
+      figure "area chart with 2 data series: Mobile, Desktop" @0,0 317x240 @365,579,4,3
+        text @29.079999923706055,13.670000076293945 anchor:end size:11 "8000" @365,579,0,0
+        text @29.079999923706055,52.61000061035156 anchor:end size:11 "7000" @365,580,0,0
+        text @29.079999923706055,91.55999755859375 anchor:end size:11 "6000" @365,580,0,0
+        text @29.079999923706055,130.5 anchor:end size:11 "5000" @365,581,0,0
+        text @29.079999923706055,169.4499969482422 anchor:end size:11 "4000" @365,581,0,0
+        text @29.079999923706055,208.39999389648438 anchor:end size:11 "3000" @365,581,0,0
+        text @39.08000183105469,228.72999572753906 anchor:middle size:12 "Jan" @365,582,0,0
+        text @92.41999816894531,228.72999572753906 anchor:middle size:12 "Feb" @366,582,0,0
+        text @145.75,228.72999572753906 anchor:middle size:12 "Mar" @367,582,0,0
+        text @199.08999633789063,228.72999572753906 anchor:middle size:12 "Apr" @367,582,0,0
+        text @252.42999267578125,228.72999572753906 anchor:middle size:12 "May" @368,582,0,0
+        text @305.7699890136719,228.72999572753906 anchor:middle size:12 "Jun" @369,582,0,0
+  col @381,297,4,257
+    h3 Bandwidth usage @381,297,4,37
+    text Monthly egress and ingress traffic. @381,346,4,102
+    text Egress Ingress @381,460,4,40
+    region "Bandwidth usage" 316.6600036621094x240 @381,551,4,3 [37 shapes, 12 labelled]
+      figure "area chart with 2 data series: Egress, Ingress" @0,0 317x240 @381,551,4,3
+        text @14.579999923706055,13.670000076293945 anchor:end size:11 "25" @381,551,0,0
+        text @14.579999923706055,62.349998474121094 anchor:end size:11 "20" @381,552,0,0
+        text @14.579999923706055,111.02999877929688 anchor:end size:11 "15" @381,552,0,0
+        text @14.579999923706055,159.7100067138672 anchor:end size:11 "10" @381,553,0,0
+        text @14.579999923706055,208.39999389648438 anchor:end size:11 "5" @381,553,0,0
+        text @24.579999923706055,228.72999572753906 anchor:middle size:12 "Jan" @381,554,0,0
+        text @80.81999969482422,228.72999572753906 anchor:middle size:12 "Feb" @382,554,0,0
+        text @137.0500030517578,228.72999572753906 anchor:middle size:12 "Mar" @383,554,0,0
+        text @193.2899932861328,228.72999572753906 anchor:middle size:12 "Apr" @383,554,0,0
+        text @249.52999877929688,228.72999572753906 anchor:middle size:12 "May" @384,554,0,0
+        text @305.7699890136719,228.72999572753906 anchor:middle size:12 "Jun" @385,554,0,0
+  col @397,258,3,334
+    h3 Storage by bucket @397,258,3,57
+    text Storage used by media and backups, stacked. @397,327,3,142
+    text Media Backups @397,481,3,40
+    region "Storage by bucket" 316.6600036621094x240 @397,589,3,3 [37 shapes, 12 labelled]
+      figure "area chart with 2 data series: Media, Backups" @0,0 317x240 @397,589,3,2
+        text @22.139999389648438,13.670000076293945 anchor:end size:11 "400" @397,589,0,0
+        text @22.139999389648438,62.349998474121094 anchor:end size:11 "300" @397,589,0,0
+        text @22.139999389648438,111.02999877929688 anchor:end size:11 "200" @397,590,0,0
+        text @22.139999389648438,159.7100067138672 anchor:end size:11 "100" @397,590,0,0
+        text @22.139999389648438,208.39999389648438 anchor:end size:11 "0" @397,591,0,0
+        text @32.13999938964844,228.72999572753906 anchor:middle size:12 "Jan" @397,591,0,0
+        text @86.87000274658203,228.72999572753906 anchor:middle size:12 "Feb" @398,591,0,0
+        text @141.58999633789063,228.72999572753906 anchor:middle size:12 "Mar" @398,591,0,0
+        text @196.32000732421875,228.72999572753906 anchor:middle size:12 "Apr" @399,591,0,0
+        text @251.0399932861328,228.72999572753906 anchor:middle size:12 "May" @399,591,0,0
+        text @305.7699890136719,228.72999572753906 anchor:middle size:12 "Jun" @400,591,0,0
+  col @412,307,5,237
+    h2 Bar charts @412,307,5,42
+    text Comparison of separate categories, side by side or stacked. @412,361,5,183
+  col @429,313,4,225
+    h3 Bar chart @429,313,4,37
+    text Tickets solved per day, last week. @429,362,4,122
+    region "Bar chart" 316.6600036621094x240 @429,535,4,3 [44 shapes, 15 labelled]
+      figure "bar chart with 1 data series: Tickets solved" @0,0 317x240 @429,535,4,3
+        text @15.0600004196167,13.670000076293945 anchor:end size:11 "60" @429,535,0,0
+        text @15.0600004196167,46.119998931884766 anchor:end size:11 "50" @429,535,0,0
+        text @15.0600004196167,78.58000183105469 anchor:end size:11 "40" @429,536,0,0
+        text @15.0600004196167,111.02999877929688 anchor:end size:11 "30" @429,536,0,0
+        text @15.0600004196167,143.49000549316406 anchor:end size:11 "20" @429,537,0,0
+        text @15.0600004196167,175.94000244140625 anchor:end size:11 "10" @429,537,0,0
+        text @15.0600004196167,208.39999389648438 anchor:end size:11 "0" @429,537,0,0
+        text @45.06999969482422,228.72999572753906 anchor:middle size:12 "Mon" @429,538,0,0
+        text @85.08999633789063,228.72999572753906 anchor:middle size:12 "Tue" @430,538,0,0
+        text @125.0999984741211,228.72999572753906 anchor:middle size:12 "Wed" @430,538,0,0
+        text @165.1199951171875,228.72999572753906 anchor:middle size:12 "Thu" @431,538,0,0
+        text @205.1300048828125,228.72999572753906 anchor:middle size:12 "Fri" @431,538,0,0
+        text @245.14999389648438,228.72999572753906 anchor:middle size:12 "Sat" @432,538,0,0
+        text @285.1600036621094,228.72999572753906 anchor:middle size:12 "Sun" @432,538,0,0
+  col @445,313,3,225
+    h3 Horizontal bars @445,313,3,37
+    text The same tickets as horizontal bars. @445,362,3,122
+    region "Horizontal bars" 316.6600036621094x240 @445,535,3,3 [44 shapes, 15 labelled]
+      figure "bar chart with 1 data series: Tickets solved" @0,0 317x240 @445,535,3,2
+        text @16.049999237060547,25.170000076293945 anchor:end size:11 "Mon" @445,535,0,0
+        text @16.049999237060547,52.9900016784668 anchor:end size:11 "Tue" @445,535,0,0
+        text @16.049999237060547,80.80999755859375 anchor:end size:11 "Wed" @445,536,0,0
+        text @16.049999237060547,108.62999725341797 anchor:end size:11 "Thu" @445,536,0,0
+        text @16.049999237060547,136.4499969482422 anchor:end size:11 "Fri" @445,536,0,0
+        text @16.049999237060547,164.27000427246094 anchor:end size:11 "Sat" @445,536,0,0
+        text @16.049999237060547,192.08999633789063 anchor:end size:11 "Sun" @445,537,0,0
+        text @308.3999938964844,226.72999572753906 anchor:middle size:12 "60" @448,537,0,0
+        text @262.07000732421875,226.72999572753906 anchor:middle size:12 "50" @447,537,0,0
+        text @215.75,226.72999572753906 anchor:middle size:12 "40" @447,537,0,0
+        text @169.4199981689453,226.72999572753906 anchor:middle size:12 "30" @447,537,0,0
+        text @123.0999984741211,226.72999572753906 anchor:middle size:12 "20" @446,537,0,0
+        text @76.7699966430664,226.72999572753906 anchor:middle size:12 "10" @446,537,0,0
+        text @30.450000762939453,226.72999572753906 anchor:middle size:12 "0" @445,537,0,0
+  col @460,276,4,298
+    h3 Grouped bars @460,276,4,38
+    text Solved and reopened tickets side by side. @460,326,4,142
+    text Solved Reopened @460,480,4,41
+    region "Grouped bars" 316.6600036621094x240 @460,571,4,3 [51 shapes, 15 labelled]
+      figure "bar chart with 2 data series: Solved, Reopened" @0,0 317x240 @460,571,4,3
+        text @15.0600004196167,13.670000076293945 anchor:end size:11 "60" @460,571,0,0
+        text @15.0600004196167,46.119998931884766 anchor:end size:11 "50" @460,571,0,0
+        text @15.0600004196167,78.58000183105469 anchor:end size:11 "40" @460,572,0,0
+        text @15.0600004196167,111.02999877929688 anchor:end size:11 "30" @460,572,0,0
+        text @15.0600004196167,143.49000549316406 anchor:end size:11 "20" @460,573,0,0
+        text @15.0600004196167,175.94000244140625 anchor:end size:11 "10" @460,573,0,0
+        text @15.0600004196167,208.39999389648438 anchor:end size:11 "0" @460,573,0,0
+        text @45.06999969482422,228.72999572753906 anchor:middle size:12 "Mon" @460,574,0,0
+        text @85.08999633789063,228.72999572753906 anchor:middle size:12 "Tue" @461,574,0,0
+        text @125.0999984741211,228.72999572753906 anchor:middle size:12 "Wed" @461,574,0,0
+        text @165.1199951171875,228.72999572753906 anchor:middle size:12 "Thu" @462,574,0,0
+        text @205.1300048828125,228.72999572753906 anchor:middle size:12 "Fri" @462,574,0,0
+        text @245.14999389648438,228.72999572753906 anchor:middle size:12 "Sat" @463,574,0,0
+        text @285.1600036621094,228.72999572753906 anchor:middle size:12 "Sun" @463,574,0,0
+  col @476,246,4,359
+    h3 Stacked bars @476,246,4,37
+    text Solved and reopened tickets in one stacked bar per day. @476,295,4,203
+    text Solved Reopened @476,510,4,41
+    region "Stacked bars" 316.6600036621094x240 @476,602,4,3 [47 shapes, 13 labelled]
+      figure "bar chart with 2 data series: Solved, Reopened" @0,0 317x240 @476,602,4,3
+        text @15.09000015258789,13.670000076293945 anchor:end size:11 "80" @476,602,0,0
+        text @15.09000015258789,62.349998474121094 anchor:end size:11 "60" @476,603,0,0
+        text @15.09000015258789,111.02999877929688 anchor:end size:11 "40" @476,603,0,0
+        text @15.09000015258789,159.7100067138672 anchor:end size:11 "20" @476,604,0,0
+        text @15.09000015258789,208.39999389648438 anchor:end size:11 "0" @476,604,0,0
+        text @45.099998474121094,228.72999572753906 anchor:middle size:12 "Mon" @476,605,0,0
+        text @85.11000061035156,228.72999572753906 anchor:middle size:12 "Tue" @477,605,0,0
+        text @125.12000274658203,228.72999572753906 anchor:middle size:12 "Wed" @477,605,0,0
+        text @165.1300048828125,228.72999572753906 anchor:middle size:12 "Thu" @478,605,0,0
+        text @205.13999938964844,228.72999572753906 anchor:middle size:12 "Fri" @478,605,0,0
+        text @245.16000366210938,228.72999572753906 anchor:middle size:12 "Sat" @479,605,0,0
+        text @285.1700134277344,228.72999572753906 anchor:middle size:12 "Sun" @479,605,0,0
+  col @492,282,4,286
+    h3 Semantic colors @492,282,4,38
+    text Cache status of requests per day, colored by meaning. @492,332,4,182
+    region "Semantic colors" 316.6600036621094x240 @492,565,4,3 [78 shapes, 18 labelled]
+      figure "bar chart with 5 data series: Hit, Error, Revalidated, Expired, Bypass" @0,0 317x240 @492,565,4,3
+        text @38.59000015258789,13.670000076293945 anchor:end size:11 "40,000" @492,565,0,0
+        text @38.59000015258789,46.849998474121094 anchor:end size:11 "30,000" @492,565,0,0
+        text @38.59000015258789,80.02999877929688 anchor:end size:11 "20,000" @492,566,0,0
+        text @38.59000015258789,113.20999908447266 anchor:end size:11 "10,000" @492,566,0,0
+        text @38.59000015258789,146.39999389648438 anchor:end size:11 "0" @492,567,0,0
+        text @66.91999816894531,166.72999572753906 anchor:middle size:12 "Mon" @493,567,0,0
+        text @103.56999969482422,166.72999572753906 anchor:middle size:12 "Tue" @493,567,0,0
+        text @140.22999572753906,166.72999572753906 anchor:middle size:12 "Wed" @494,567,0,0
+        text @176.8800048828125,166.72999572753906 anchor:middle size:12 "Thu" @494,567,0,0
+        text @213.5399932861328,166.72999572753906 anchor:middle size:12 "Fri" @495,567,0,0
+        text @250.19000244140625,166.72999572753906 anchor:middle size:12 "Sat" @495,567,0,0
+        text @286.8399963378906,166.72999572753906 anchor:middle size:12 "Sun" @495,567,0,0
+      text @32.36000061035156,202.60000610351563 fill:#404040 size:12 "Hit" @492,567,0,0
+      text @75.58999633789063,202.60000610351563 fill:#404040 size:12 "Error" @493,567,0,0
+      text @130.47999572753906,202.60000610351563 fill:#404040 size:12 "Revalidated" @494,567,1,0
+      text @223.27999877929688,202.60000610351563 fill:#404040 size:12 "Expired" @495,567,1,0
+      text @128.58999633789063,233.60000610351563 fill:#404040 size:12 "Bypass" @494,568,1,0
+  col @508,272,4,306
+    h3 Signup funnel @508,272,4,38
+    text Visitors left at each step from first visit to customer. @508,322,4,203
+    region "Signup funnel" 316.6600036621094x240 @508,575,4,3 [34 shapes, 11 labelled]
+      figure "bar chart with 1 data series: Pipeline" @0,0 317x240 @508,575,4,3
+        text @158.5,47.79999923706055 anchor:middle fill:#ffffff size:12 weight:600 "1380" @510,575,0,0
+        text @158.5,74.4000015258789 anchor:middle fill:#ffffff size:12 weight:600 "920" @510,576,0,0
+        text @158.5,101 anchor:middle fill:#ffffff size:12 weight:600 "610" @510,576,0,0
+        text @158.5,127.5999984741211 anchor:middle fill:#ffffff size:12 weight:600 "380" @510,576,0,0
+        text @158.5,154.1999969482422 anchor:middle fill:#ffffff size:12 weight:600 "190" @510,577,0,0
+      text @26.889999389648438,202.60000610351563 fill:#404040 size:12 "Visitors" @508,577,1,0
+      text @96.30000305175781,202.60000610351563 fill:#404040 size:12 "Sign-ups" @509,577,1,0
+      text @174.5,202.60000610351563 fill:#404040 size:12 "Trials" @510,577,0,0
+      text @231.6999969482422,202.60000610351563 fill:#404040 size:12 "Demos" @511,577,1,0
+      text @118.38999938964844,233.60000610351563 fill:#404040 size:12 "Customers" @509,578,1,0
+  col @524,256,6,339
+    h2 Circular charts @524,256,6,42
+    text Parts of a whole and progress toward a goal, best with a few values. @524,310,6,285
+  col @542,323,3,204
+    h3 Traffic sources @542,323,3,37
+    text Share of visits by source. @542,372,3,102
+    region "Traffic sources" 316.6600036621094x240 @542,525,3,2 [16 shapes, 5 labelled]
+      figure "donut chart with 4 data series" @0,0 317x240 @542,525,3,2
+      text @39.95000076293945,202.60000610351563 fill:#404040 size:12 "Organic search" @542,527,1,0
+      text @152.52999877929688,202.60000610351563 fill:#404040 size:12 "Direct" @543,527,0,0
+      text @213.66000366210938,202.60000610351563 fill:#404040 size:12 "Referral" @544,527,0,0
+      text @131.9499969482422,233.60000610351563 fill:#404040 size:12 "Social" @543,527,0,0
+  col @557,292,4,266
+    h3 Email campaign @557,292,4,38
+    text Delivery, open and click rates of one campaign. @557,342,4,162
+    region "Email campaign" 316.6600036621094x240 @557,555,4,3 [15 shapes, 4 labelled]
+      figure "radialBar chart with 3 data series" @0,0 317x240 @557,555,4,3
+      text @52.11000061035156,233.60000610351563 fill:#404040 size:12 "Delivered" @558,558,1,0
+      text @132.44000244140625,233.60000610351563 fill:#404040 size:12 "Opened" @559,558,1,0
+      text @204.11000061035156,233.60000610351563 fill:#404040 size:12 "Clicked" @560,558,1,0
+  col @573,305,4,241
+    h3 Sales by region @573,305,4,56
+    text Sales volume of each region. @573,373,4,102
+    region "Sales by region" 316.6600036621094x240 @573,543,4,3 [33 shapes, 11 labelled]
+      figure "polarArea chart with 5 data series" @0,0 317x240 @573,543,4,3
+        text @158.5,13.550000190734863 anchor:middle size:11 "50" @575,543,0,0
+        text @158.5,28.739999771118164 anchor:middle size:11 "40" @575,543,0,0
+        text @158.5,43.93000030517578 anchor:middle size:11 "30" @575,543,0,0
+        text @158.5,59.119998931884766 anchor:middle size:11 "20" @575,544,0,0
+        text @158.5,74.30999755859375 anchor:middle size:11 "10" @575,544,0,0
+      text @49.29999923706055,202.60000610351563 fill:#404040 size:12 "North America" @574,545,1,0
+      text @158.02999877929688,202.60000610351563 fill:#404040 size:12 "Europe" @575,545,1,0
+      text @224.86000061035156,202.60000610351563 fill:#404040 size:12 "Asia" @576,545,0,0
+      text @77.52999877929688,233.60000610351563 fill:#404040 size:12 "South America" @574,546,1,0
+      text @187.3300018310547,233.60000610351563 fill:#404040 size:12 "Africa" @575,546,0,0
+  col @589,337,4,176
+    h2 Other charts @589,337,4,43
+    text Mixed series, distributions, schedules and hierarchies. @589,392,4,121
+  col @605,187,8,476
+    h3 Spend and leads @605,187,8,56
+    text Monthly spend as columns with leads and trials as lines. @605,255,8,203
+    text Paid spend Content spend Leads Trials @605,470,8,122
+    region "Spend and leads" 691.3300170898438x240 @605,660,8,3 [48 shapes, 12 labelled]
+      figure "line chart with 4 data series: Paid spend, Content spend, Leads, Trials" @0,0 691x240 @605,660,8,3
+        text @22.139999389648438,13.670000076293945 anchor:end size:11 "400" @605,660,0,0
+        text @22.139999389648438,62.349998474121094 anchor:end size:11 "300" @605,661,0,0
+        text @22.139999389648438,111.02999877929688 anchor:end size:11 "200" @605,661,0,0
+        text @22.139999389648438,159.7100067138672 anchor:end size:11 "100" @605,662,0,0
+        text @22.139999389648438,208.39999389648438 anchor:end size:11 "0" @605,662,0,0
+        text @122.80999755859375,228.72999572753906 anchor:middle size:12 "Jan" @606,663,0,0
+        text @216.07000732421875,228.72999572753906 anchor:middle size:12 "Feb" @607,663,0,0
+        text @309.32000732421875,228.72999572753906 anchor:middle size:12 "Mar" @608,663,0,0
+        text @402.5799865722656,228.72999572753906 anchor:middle size:12 "Apr" @610,663,0,0
+        text @495.8399963378906,228.72999572753906 anchor:middle size:12 "May" @611,663,0,0
+        text @589.0999755859375,228.72999572753906 anchor:middle size:12 "Jun" @612,663,0,0
+  col @625,292,3,266
+    h3 Plan comparison @625,292,3,38
+    text Pro and Enterprise plans rated in six areas. @625,342,3,162
+    region "Plan comparison" 316.6600036621094x240 @625,555,3,3 [50 shapes, 9 labelled]
+      figure "radar chart with 2 data series: Pro, Enterprise" @0,0 317x240 @625,555,3,2
+        text @158.5,66.08000183105469 anchor:middle fill:#a8a8a8 size:11 "Support" @626,556,0,0
+        text @206.10000610351563,97.79000091552734 fill:#a8a8a8 size:11 "Security" @627,556,0,0
+        text @206.10000610351563,141.2100067138672 fill:#a8a8a8 size:11 "Speed" @627,556,0,0
+        text @158.5,172.9199981689453 anchor:middle fill:#a8a8a8 size:11 "Storage" @626,557,0,0
+        text @110.9000015258789,141.2100067138672 anchor:end fill:#a8a8a8 size:11 "Integrations" @625,556,1,0
+        text @110.9000015258789,97.79000091552734 anchor:end fill:#a8a8a8 size:11 "Price" @626,556,0,0
+      text @96.94999694824219,233.60000610351563 fill:#404040 size:12 "Pro" @626,557,0,0
+      text @143.05999755859375,233.60000610351563 fill:#404040 size:12 "Enterprise" @626,557,1,0
+  col @640,248,4,354
+    h3 Page load time @640,248,4,56
+    text Page load time samples on desktop and mobile. @640,316,4,163
+    text Desktop Mobile @640,491,4,40
+    region "Page load time" 316.6600036621094x240 @640,600,4,2 [47 shapes, 13 labelled]
+      figure "scatter chart with 2 data series: Desktop, Mobile" @0,0 317x240 @640,600,4,3
+        text @17.440000534057617,13.670000076293945 anchor:end size:11 "3.5" @640,600,0,0
+        text @17.440000534057617,52.61000061035156 anchor:end size:11 "3.0" @640,601,0,0
+        text @17.440000534057617,91.55999755859375 anchor:end size:11 "2.5" @640,601,0,0
+        text @17.440000534057617,130.5 anchor:end size:11 "2.0" @640,602,0,0
+        text @17.440000534057617,169.4499969482422 anchor:end size:11 "1.5" @640,602,0,0
+        text @17.440000534057617,208.39999389648438 anchor:end size:11 "1.0" @640,602,0,0
+        text @27.440000534057617,228.72999572753906 anchor:middle size:12 "Jan" @640,603,0,0
+        text @83.0999984741211,228.72999572753906 anchor:middle size:12 "Feb" @641,603,0,0
+        text @138.77000427246094,228.72999572753906 anchor:middle size:12 "Mar" @642,603,0,0
+        text @194.42999267578125,228.72999572753906 anchor:middle size:12 "Apr" @642,603,0,0
+        text @250.10000610351563,228.72999572753906 anchor:middle size:12 "May" @643,603,0,0
+        text @305.7699890136719,228.72999572753906 anchor:middle size:12 "Jun" @644,603,0,0
+  col @656,313,8,225
+    h3 Release roadmap @656,313,8,37
+    text Planned duration of each release phase. @656,362,8,122
+    region "Release roadmap" 691.3300170898438x240 @656,535,8,3 [42 shapes, 14 labelled]
+      figure "rangeBar chart with 1 data series: Roadmap" @0,0 691x240 @656,535,8,3
+        text @65.19000244140625,31.239999771118164 anchor:end size:11 "Research" @656,535,1,0
+        text @65.19000244140625,70.19000244140625 anchor:end size:11 "Design" @656,536,0,0
+        text @65.19000244140625,109.13999938964844 anchor:end size:11 "Development" @656,536,1,0
+        text @65.19000244140625,148.0800018310547 anchor:end size:11 "Testing" @656,537,0,0
+        text @65.19000244140625,187.02999877929688 anchor:end size:11 "Launch" @656,537,0,0
+        text @66.36000061035156,226.72999572753906 anchor:middle size:12 "Dec 2025" @656,537,1,0
+        text @148.16000366210938,226.72999572753906 anchor:middle size:12 "Jan 2026" @657,537,1,0
+        text @229.9600067138672,226.72999572753906 anchor:middle size:12 "Feb 2026" @658,537,1,0
+        text @303.8399963378906,226.72999572753906 anchor:middle size:12 "Mar 2026" @659,537,1,0
+        text @385.6400146484375,226.72999572753906 anchor:middle size:12 "Apr 2026" @660,537,1,0
+        text @464.79998779296875,226.72999572753906 anchor:middle size:12 "May 2026" @661,537,1,0
+        text @546.5999755859375,226.72999572753906 anchor:middle size:12 "Jun 2026" @662,537,1,0
+        text @625.77001953125,226.72999572753906 anchor:middle size:12 "Jul 2026" @663,537,1,0
+  col @676,276,4,298
+    h3 Campaign performance @676,276,4,38
+    text Search and social campaigns on three metrics. @676,326,4,142
+    text Search Social @676,480,4,41
+    region "Campaign performance" 316.6600036621094x240 @676,571,4,3 [39 shapes, 10 labelled]
+      figure "bubble chart with 2 data series: Search, Social" @0,0 317x240 @676,571,4,3
+        text @21.700000762939453,13.670000076293945 anchor:end size:11 "200" @676,571,0,0
+        text @21.700000762939453,62.349998474121094 anchor:end size:11 "150" @676,572,0,0
+        text @21.700000762939453,111.02999877929688 anchor:end size:11 "100" @676,572,0,0
+        text @21.700000762939453,159.7100067138672 anchor:end size:11 "50" @676,573,0,0
+        text @21.700000762939453,208.39999389648438 anchor:end size:11 "0" @676,573,0,0
+        text @31.700000762939453,228.72999572753906 anchor:middle size:12 "9" @676,574,0,0
+        text @123.94000244140625,228.72999572753906 anchor:middle size:12 "27" @677,574,0,0
+        text @216.17999267578125,228.72999572753906 anchor:middle size:12 "45" @679,574,0,0
+        text @308.4100036621094,228.72999572753906 anchor:middle size:12 "63" @680,574,0,0
+  col @692,295,3,261
+    h3 Storage by folder @692,295,3,56
+    text Disk space taken by each folder. @692,363,3,122
+    region "Storage by folder" 316.6600036621094x240 @692,553,3,3 [26 shapes, 8 labelled]
+      figure "treemap chart with 1 data series: Storage" @0,0 317x240 @692,553,3,2
+        text @73.54000091552734,95.66999816894531 anchor:middle fill:#ffffff size:14 weight:600 "Documents" @692,554,1,0
+        text @73.54000091552734,205.6699981689453 anchor:middle fill:#ffffff size:14 weight:600 "Photos" @692,555,0,0
+        text @232.0399932861328,78.06999969482422 anchor:middle fill:#ffffff size:14 weight:600 "Videos" @694,554,0,0
+        text @196.27999877929688,149.30999755859375 anchor:middle fill:#ffffff size:10.6 weight:600 "Backups" @694,554,0,0
+        text @196.27999877929688,212.39999389648438 anchor:middle fill:#ffffff size:13.1 weight:600 "Music" @694,555,0,0
+        text @281.25,142.89999389648438 anchor:middle fill:#ffffff size:7.96 weight:600 "Archives" @695,554,0,0
+        text @281.25,206.5 anchor:middle fill:#ffffff size:11.95 weight:600 "Other" @695,555,0,0
+  col @707,274,4,302
+    h3 API response times @707,274,4,57
+    text Spread of API response times in each month. @707,343,4,162
+    region "API response times" 316.6600036621094x240 @707,573,4,3 [51 shapes, 15 labelled]
+      figure "boxPlot chart with 1 data series: Response time" @0,0 317x240 @707,573,4,3
+        text @15.0600004196167,13.670000076293945 anchor:end size:11 "90" @707,573,0,0
+        text @15.0600004196167,41.4900016784668 anchor:end size:11 "80" @707,573,0,0
+        text @15.0600004196167,69.30000305175781 anchor:end size:11 "70" @707,574,0,0
+        text @15.0600004196167,97.12000274658203 anchor:end size:11 "60" @707,574,0,0
+        text @15.0600004196167,124.94000244140625 anchor:end size:11 "50" @707,574,0,0
+        text @15.0600004196167,152.75999450683594 anchor:end size:11 "40" @707,575,0,0
+        text @15.0600004196167,180.5800018310547 anchor:end size:11 "30" @707,575,0,0
+        text @15.0600004196167,208.39999389648438 anchor:end size:11 "20" @707,575,0,0
+        text @64.36000061035156,228.72999572753906 anchor:middle size:12 "Jan" @708,576,0,0
+        text @104.77999877929688,228.72999572753906 anchor:middle size:12 "Feb" @708,576,0,0
+        text @145.1999969482422,228.72999572753906 anchor:middle size:12 "Mar" @709,576,0,0
+        text @185.6199951171875,228.72999572753906 anchor:middle size:12 "Apr" @709,576,0,0
+        text @226.0500030517578,228.72999572753906 anchor:middle size:12 "May" @710,576,0,0
+        text @266.4700012207031,228.72999572753906 anchor:middle size:12 "Jun" @710,576,0,0
+row @17,675,694,41
+  row @17,675,325,41
+    link Documentation https://docs.tabler.io @17,685,99,21
+    link License ./license.html @128,685,52,21
+    link "Source code" https://github.com/tabler/tabler @192,675,83,41
+    link Sponsor https://github.com/sponsors/codecalm @287,685,55,21
+  row @354,675,357,41
+    text Copyright © 2026 . All rights reserved. @354,675,254,41
+    link Tabler . @620,685,43,21
+    link v1.6.1 ./changelog.html @675,685,36,21
+button Customize primary @17,728,694,36
+card @17,776,694,1979
+  button Close primary @34,791,660,36
+  region 160x120 @34,839,160,120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own @34,971,660,22
+  text Pick the look and layout of this preview. Your choices are saved in this browser. @34,1005,660,20
+  h3 Appearance @34,1037,660,19
+  text Color scheme @34,1068,660,20
+  text The page and its navigation, in one pick. @34,1100,660,20
+  row @34,1132,660,97
+    col @34,1132,96,97
+      region 96x64 @34,1132,96,64 [8 shapes, 0 labelled]
+      text Auto @34,1208,96,21
+    col @142,1132,96,97
+      region 96x64 @142,1132,96,64 [8 shapes, 0 labelled]
+      text Light @142,1208,96,21
+    col @250,1132,96,97
+      region 96x64 @250,1132,96,64 [8 shapes, 0 labelled]
+      text Dark @250,1208,96,21
+    col @358,1132,96,97
+      region 96x64 @358,1132,96,64 [8 shapes, 0 labelled]
+      text Dark nav @358,1208,96,21
+    col @466,1132,96,97
+      region 96x64 @466,1132,96,64 [8 shapes, 0 labelled]
+      text Colored @466,1208,96,21
+  text Accent color @34,1241,660,20
+  text The accent color used across the app. @34,1273,660,20
+  row @34,1305,660,0
+  text Font family @34,1317,660,21
+  text The typeface used across the app. @34,1350,660,20
+  row @34,1382,660,20
+    text Aa Sans-serif @34,1382,90,20
+    text Aa Serif @136,1382,53,20
+    text Aa Monospace @201,1382,100,20
+    text Aa Comic @313,1382,64,20
+  text Theme base @34,1414,660,20
+  text The gray palette behind every surface. @34,1446,660,21
+  row @34,1479,660,96
+    col @34,1479,96,96
+      region 96x64 @34,1479,96,64 [6 shapes, 0 labelled]
+      text Slate @34,1555,96,20
+    col @142,1479,96,96
+      region 96x64 @142,1479,96,64 [6 shapes, 0 labelled]
+      text Gray @142,1555,96,20
+    col @250,1479,96,96
+      region 96x64 @250,1479,96,64 [6 shapes, 0 labelled]
+      text Zinc @250,1555,96,20
+    col @358,1479,96,96
+      region 96x64 @358,1479,96,64 [6 shapes, 0 labelled]
+      text Neutral @358,1555,96,20
+    col @466,1479,96,96
+      region 96x64 @466,1479,96,64 [6 shapes, 0 labelled]
+      text Stone @466,1555,96,20
+  text Corner radius @34,1587,660,20
+  text How round corners are drawn. @34,1619,660,21
+  row @34,1652,660,96
+    col @34,1652,96,96
+      region 96x64 @34,1652,96,64 [2 shapes, 0 labelled]
+      text 0 @34,1728,96,20
+    col @142,1652,96,96
+      region 96x64 @142,1652,96,64 [2 shapes, 0 labelled]
+      text 0.5 @142,1728,96,20
+    col @250,1652,96,96
+      region 96x64 @250,1652,96,64 [2 shapes, 0 labelled]
+      text 1 @250,1728,96,20
+    col @358,1652,96,96
+      region 96x64 @358,1652,96,64 [2 shapes, 0 labelled]
+      text 1.5 @358,1728,96,20
+    col @466,1652,96,96
+      region 96x64 @466,1652,96,64 [2 shapes, 0 labelled]
+      text 2 @466,1728,96,20
+  h3 Layout @34,1760,660,19
+  text Navigation @34,1791,660,20
+  text Where the main menu lives. @34,1823,660,20
+  row @34,1855,660,97
+    col @34,1855,96,97
+      region 96x64 @34,1855,96,64 [10 shapes, 0 labelled]
+      text Navbar @34,1931,96,21
+    col @142,1855,96,97
+      region 96x64 @142,1855,96,64 [11 shapes, 0 labelled]
+      text Sidebar @142,1931,96,21
+  text Container width @34,1964,660,20
+  text How wide the page content runs. @34,1996,660,20
+  row @34,2028,660,96
+    col @34,2028,96,96
+      region 96x64 @34,2028,96,64 [6 shapes, 0 labelled]
+      text Default @34,2104,96,20
+    col @142,2028,96,96
+      region 96x64 @142,2028,96,64 [6 shapes, 0 labelled]
+      text Fluid @142,2104,96,20
+    col @250,2028,96,96
+      region 96x64 @250,2028,96,64 [7 shapes, 0 labelled]
+      text Boxed @250,2104,96,20
+  text Navbar behavior @34,2136,660,21
+  text Keep the navbar visible while scrolling. @34,2169,660,20
+  row @34,2201,660,96
+    col @34,2201,96,96
+      region 96x64 @34,2201,96,64 [8 shapes, 0 labelled]
+      text Default @34,2277,96,20
+    col @142,2201,96,96
+      region 96x64 @142,2201,96,64 [10 shapes, 0 labelled]
+      text Sticky @142,2277,96,20
+  text Navigation style @34,2309,660,21
+  text Attach the navigation to the edges, or let it float. @34,2342,660,20
+  row @34,2374,660,96
+    col @34,2374,96,96
+      region 96x64 @34,2374,96,64 [10 shapes, 0 labelled]
+      text Attached @34,2450,96,20
+    col @142,2374,96,96
+      region 96x64 @142,2374,96,64 [9 shapes, 0 labelled]
+      text Floating @142,2450,96,20
+  text Offcanvas style @34,2482,660,21
+  text Attach side panels to the edges, or let them float. @34,2515,660,20
+  row @34,2547,660,96
+    col @34,2547,96,96
+      region 96x64 @34,2547,96,64 [11 shapes, 0 labelled]
+      text Attached @34,2623,96,20
+    col @142,2547,96,96
+      region 96x64 @142,2547,96,64 [10 shapes, 0 labelled]
+      text Floating @142,2623,96,20
+  button "Reset changes" @34,2655,660,36
+  button Save primary @34,2703,660,37
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!overflow last 28/105px
+!overflow mobile 0/39px
+!overflow mobile 0/71px
+!overflow desktop 0/48px
+!overflow desktop 0/61px
+!overflow tablet 0/36px
+!overflow tablet 0/65px
+!overflow total 28/145px
+!overflow unique 28/174px
+!overflow new 28/140px
+!overflow last2 28/105px
+!offcanvas rect2
+!offcanvas rect4
+!offcanvas rect6
+!offcanvas story.bar.sprint
+!offcanvas sprint
+!offcanvas sprint2
+!offcanvas sprint3
+!offcanvas sprint4
+!offcanvas sprint5
+!offcanvas sprint6
+!offcanvas sprint7
+!offcanvas sprint8
+!offcanvas sprint9
+!offcanvas sprint10
+!offcanvas sprint11
+!offcanvas sprint12
+!offcanvas sprint13
+!offcanvas sprint14
+!offcanvas sprint15
+!offcanvas sprint16
+!offcanvas sprint17
+!offcanvas sprint18
+!offcanvas sprint19
+!offcanvas sprint20
+!offcanvas sprint21
+!offcanvas sprint22
+!offcanvas sprint23
+!offcanvas rect8
+!offcanvas rect11
+!offcanvas rect14
+!offcanvas rect17
+!offcanvas rect20
+!offcanvas rect23
+!offcanvas rect25
+!offcanvas rect27
+!offcanvas rect33
+!offcanvas rect36
+!offcanvas rect39
+!offcanvas rect41
+!offcanvas rect43
+!offcanvas rect45
+!offcanvas rect47
+!offcanvas rect49
+!offcanvas rect51
+!offcanvas rect53
+!offcanvas rect55
+!offcanvas rect57
+!offcanvas rect59
+!offcanvas rect61
+!offcanvas rect63
+!offcanvas rect64
+!offcanvas rect67
+!offcanvas rect69
+!offcanvas rect73
+!offcanvas rect80
+!offcanvas rect83
+!offcanvas region281
+!offcanvas path290
+!offcanvas region282
+!offcanvas path291
+!offcanvas region283
+!offcanvas path292
+!offcanvas region284
+!offcanvas path293
+!offcanvas region285
+!offcanvas path294
+!offcanvas region286
+!offcanvas path295
+!offcanvas region287
+!offcanvas path296
+!offcanvas region288
+!offcanvas path297
+!offcanvas region289
+!offcanvas path298
+!offcanvas region290
+!offcanvas path299
+!offcanvas region291
+!offcanvas path300
+!offcanvas region292
+!offcanvas path301
+!offcanvas region293
+!offcanvas path302
+!offcanvas region294
+!offcanvas path303
+!offcanvas region295
+!offcanvas path304
+!offcanvas region296
+!offcanvas path305
+!offcanvas region297
+!offcanvas path306
+!offcanvas region298
+!offcanvas path307
+!offcanvas region299
+!offcanvas path308
+!offcanvas region300
+!offcanvas path309
+!offcanvas region301
+!offcanvas path310
+!offcanvas region302
+!offcanvas path311
+!offcanvas region303
+!offcanvas path312
+!offcanvas region304
+!offcanvas path313
+!offcanvas region305
+!offcanvas path314
+!offcanvas region306
+!offcanvas path315
+!offcanvas region307
+!offcanvas path316
+!offcanvas region308
+!offcanvas path317
+!offcanvas region309
+!offcanvas path318
+!offcanvas region310
+!offcanvas path319
+!offcanvas region311
+!offcanvas path320

@@ -127,26 +127,33 @@ Widths follow Manifest's column rather than the page's CSS, which is the point o
 
 The dash page shows the cost of demotion: twelve rects and labels at explicit coordinates are 498 tokens where `bar "Monthly revenue" Apr:38 ...` would be 30. Reading a chart's values from the page's `aria-label` sentence is the obvious next step.
 
-## 9. A hundred real pages
+## 9. Real pages, by the hundred
 
-`bench/pages/` runs the importer over a hundred UI-heavy pages under permissive licences (Bootstrap, shadcn, Tabler, AdminLTE, TodoMVC, Pico and Bulma examples; Wikipedia, MDN, the Python and Rust docs, US government pages, the HTML standard, W3C's ARIA practices, this site) at a desktop width, and scores every import without a hand-written reference (`import/src/batch.ts`, `bench/pages/report.py`; the MX files and the index are committed, the snapshots and screenshots are not).
+`bench/pages/` runs the importer over UI-heavy pages under permissive licences (Bootstrap, shadcn, Tabler, AdminLTE, TodoMVC, Pico and Bulma examples; Wikipedia, MDN, the Python and Rust docs, US government pages, the HTML standard, W3C's ARIA practices, this site) at a desktop width, follows up to ten same-site links per source, and scores every import without a hand-written reference (`import/src/batch.ts`, `bench/pages/report.py`). Each page record holds the MX, the DOM snapshot, the screenshot, the captured tree with boxes, and the trainable pair: the engine's own painting of the MX and its level 2 read-back. The MX files, the index and the report are committed; snapshots and screenshots are not. A nightly workflow reruns it.
 
 | | |
 |---|---|
-| pages fetched | 100 of 100 |
-| imports that parse in the engine | 100 of 100 |
-| visible text runs kept, median | 96.4% (lowest 43.9%, a chart page whose SVG tick labels the capture drops) |
+| pages listed and crawled | 246 |
+| fetched, and parsed in the engine | 246 of 246 |
+| visible text runs kept, median | 99.1% (lowest 61.9%) |
 | nodes with a default look, median share | 100.0% |
-| heights within 20% or 8 px of the page's, median | 45.2% |
-| HTML tokens, all pages | 6,510,211 |
-| MX tokens, all pages | 736,715 |
-| HTML to MX, total and median page | 8.84× and 9.35× |
+| heights within 20% or 8 px of the page's, median | 43.8% |
+| HTML tokens, all pages | 35,567,239 |
+| MX tokens, all pages | 8,261,392 |
+| HTML to MX, median page and total | 8.67× and 4.31× |
 
-The first run parsed 42 of 100; the rest were importer bugs the pages exposed (computed colours in `lab()` and `oklab()`, SVG names taken from embedded stylesheets, hrefs with line breaks, icon-only buttons, image sources with query strings read as `key=value`, text that looked like geometry) and all were fixed in the importer or the parser, so the corpus did its job. The gap to the everyday twins (3.9×) is that real pages carry far more markup per visible thing: a Bootstrap dashboard is 45 lines of MX.
+The first run of the first hundred parsed 42; every failure was an importer bug a real page exposed (computed colours in `lab()` and `oklab()`, SVG names taken from embedded stylesheets, hrefs with line breaks, icon-only buttons, image sources with query strings read as `key=value`, text that looked like geometry, tab panels above their tab list, chart labels doubled by SVG `<title>`s) and all were fixed, so the corpus did its job. The total ratio is lower than the median because a few chart-heavy pages become thousands of lines of paint; the median page is a tenth of its HTML.
 
-What the heights number says: the engine lays the page out with Manifest's own defaults, so about half the nodes change height; that is a re-layout, not a trace, and widths change more. What the text number says: the import keeps almost everything a reader could see; the losses are chart tick labels and text inside controls the capture does not open.
+**Reading real pages: MX against the screenshot.** Twenty-four questions over eight of the pages (`bench/pages/questions.json`: a cart total, a plan's price, an invoice number, a dashboard figure, what a button says, whether a box is checked, which plan carries a star icon), answered by fresh Haiku readers given either the imported MX at level 1 or the page's screenshot, two readers each.
 
-The dataset is the start of the volume a model would need to read and write MX natively: a hundred paired examples of a rendered page, its snapshot, its screenshot and its MX, reproducible from `urls.txt`, with licences checked. Growing it is a matter of URLs.
+| what the reader got | tokens for the eight pages | reader 1 | reader 2 |
+|---|---|---|---|
+| imported MX, level 1 | 12,102 | 24 of 24 | 24 of 24 |
+| screenshot, 1280 by 900 | 12,288 | 23 of 24 | 24 of 24 |
+
+The first pass of this experiment went the other way: both MX readers scored 22 of 24 and both missed the same two questions, a check mark in a comparison table and a star icon on a plan. Both were meaning carried by icons the importer had dropped as decoration. The importer now names icons from their accessible name, their `<use>` reference, their icon class, or, for the common nameless ones, the shape of their path (check, cross, star, chevrons), and writes the name into table cells; the second pass is the table above. The screenshot reader that missed a question read "Share and Export" where the page also has "This week".
+
+What this says, plainly: on real pages at a desktop viewport, perception as MX costs about the same as the screenshot and reads at least as well. The difference is what else it carries: the whole page rather than the viewport, exact values rather than pixels, every node addressable for a patch, and no vision model in the loop. The drastic token savings are on the writing side and on UI the agent produced itself; on reading arbitrary pages the saving is parity at level 1 with those properties on top, and a tenth of the HTML if the alternative was reading the source.
 
 ## Reproduce
 
@@ -157,5 +164,6 @@ node render.js                                                       # screensho
 .venv/bin/python count_claude.py                                     # §1 to §3 token tables (ANTHROPIC_API_KEY)
 .venv/bin/python count_v2.py && .venv/bin/python count_import.py     # paint and import tables
 .venv/bin/python bundle.py paint 1 questions_v2.json                 # a reader bundle; give it to a fresh model, grade with grade_v2.py
-node ../import/src/batch.ts pages/urls.txt pages/out && .venv/bin/python pages/report.py pages/out   # §9
+node ../import/src/batch.ts pages/urls.txt pages/out --crawl 10 && .venv/bin/python pages/report.py pages/out   # §9
+.venv/bin/python pages/bundle.py                                     # the two reader bundles for §9; grade with pages/grade.py
 ```

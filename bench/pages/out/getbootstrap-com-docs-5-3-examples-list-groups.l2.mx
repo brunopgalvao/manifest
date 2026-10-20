@@ -1,0 +1,45 @@
+@getbootstrap_com_docs_5_3_examples_list_ rev=0 @0,0,728,1079
+button "Toggle theme (light)" primary @17,17,694,36
+link "List group item heading Some placeholder content in a paragraph. now" # @17,65,694,21
+link "Another title here Some placeholder content in a paragraph that goes a little longer so it wraps to a new line. 3d" # @17,98,694,40
+link "Third heading Some placeholder content in a paragraph. 1w" # @17,150,694,21
+row @17,183,694,266
+  col @17,183,367,266
+    check "First checkbox\nWith support text underneath to add more detail" on @17,183,367,40
+    text First checkbox With support text underneath to add more detail @17,235,367,41
+    check "Second checkbox\nSome other text goes here" off @17,288,367,24
+    text Second checkbox Some other text goes here @17,324,367,20
+    check "Third checkbox\nAnd we end with another snippet of text" off @17,356,367,41
+    text Third checkbox And we end with another snippet of text @17,409,367,40
+  col @396,253,315,126
+    text First radio With support text underneath to add more detail @396,253,315,41
+    text Second radio Some other text goes here @396,306,315,20
+    text Third radio And we end with another snippet of text @396,338,315,41
+text Finish sales report @17,461,694,21
+text 1:00–2:00pm @17,494,694,20
+region Schedule 14x14 @17,526,694,20 [0 shapes, 0 labelled]
+check "Finish sales report  \n1:00–2:00pm" on @17,558,694,24
+text Weekly All Hands @17,594,694,20
+text 2:00–2:30pm @17,626,694,21
+region Schedule 14x14 @17,659,694,20 [0 shapes, 0 labelled]
+check "Weekly All Hands  \n2:00–2:30pm" off @17,691,694,24
+text Out of office @17,727,694,20
+text Tomorrow @17,759,694,21
+region Reminder 14x14 @17,792,694,20 [0 shapes, 0 labelled]
+check "Out of office  \nTomorrow" off @17,824,694,24
+check "Add new task...  \nChoose list..." off @17,860,694,24
+text Add new task... Choose list... @17,896,694,20
+row @17,928,694,61
+  text First radio With support text underneath to add more detail @17,928,198,61
+  text Second radio Some other text goes here @227,938,137,41
+  text Third radio And we end with another snippet of text @376,928,174,61
+  text Fourth disabled radio This option is disabled @562,938,149,41
+row @17,1001,694,61
+  col @17,1001,198,61
+    text First radio With support text underneath to add more detail @17,1001,198,61
+  col @227,1011,137,41
+    text Second radio Some other text goes here @227,1011,137,41
+  col @376,1001,174,61
+    text Third radio And we end with another snippet of text @376,1001,174,61
+  col @562,1011,149,41
+    text Fourth disabled radio This option is disabled @562,1011,149,41
