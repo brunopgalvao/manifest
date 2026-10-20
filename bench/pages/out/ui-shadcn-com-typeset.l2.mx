@@ -1,0 +1,63 @@
+@ui_shadcn_com_typeset rev=0 @0,0,728,908
+row @17,17,694,36
+  row @17,25,362,20
+    link Home / @17,25,27,20
+    link Docs /docs/installation @56,25,23,20
+    link Components /docs/components @91,25,58,20
+    link Blocks /blocks @161,25,30,20
+    link Charts /charts/area @203,25,30,20
+    link Directory /docs/directory @245,25,42,20
+    link Typeset /typeset @299,25,37,20
+    link Create /create @348,25,31,20
+  row @391,17,320,36
+    button "Search documentation...Search..." @391,17,182,36
+    link 126k https://github.com/shadcn-ui/ui @585,25,21,20
+    button "Toggle theme" @618,17,93,36
+row @17,65,694,761
+  col @17,396,165,99
+    row @17,396,165,51
+      tabs @17,396,115,51
+        tab *Docs @17,396,50,39
+        tab Prompt @71,396,61,39 [0 hidden]
+      row @144,411,38,21
+        text Next.js @144,411,38,21
+    button "Read the docs" @17,459,165,36
+  row @194,425,354,41
+    row @194,428,245,36
+      button 01 primary @194,428,39,36
+      button 02 @245,428,39,36
+      button 03 @296,428,40,36
+      button 04 @348,428,39,36
+      button 05 @399,428,40,36
+    link "Open in New Tab" /preview/typeset/docs @451,425,97,41
+  col @560,65,151,761
+    button Menu @560,65,151,37
+    button Measure80ch @560,114,151,36
+    button Lock @560,162,151,36
+    button HeadingGeistAa @560,210,151,37
+    button Lock @560,259,151,36
+    button BodyGeistAa @560,307,151,36
+    button Lock @560,355,151,36
+    button "MonoGeist MonoAa" @560,403,151,37
+    button Lock @560,452,151,36
+    button Size15px @560,500,151,36
+    button Lock @560,548,151,37
+    button "LeadingRegular (1.75)" @560,597,151,36
+    button Lock @560,645,151,36
+    button "FlowRegular (1.25em)" @560,693,151,36
+    button Lock @560,741,151,37
+    button Shuffle @560,790,151,36
+text Notifications alt+T @17,838,694,20
+text Notifications @17,870,694,21
+!overflow search 180/256px
+!overflow toggle 91/122px
+!overflow docs2 50/59px
+!overflow prompt 61/73px
+!overflow 01 37/44px
+!overflow 02 37/46px
+!overflow 03 38/47px
+!overflow 04 37/47px
+!overflow 05 38/46px
+!overflow monogeist 149/162px
+!overflow leadingregular 149/175px
+!overflow flowregular 149/175px

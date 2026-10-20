@@ -29,10 +29,12 @@ row
     card
       text The code in this example is not intended for production environments. Before using it for any purpose, read this to understand why. warning
     h2 About This Example
+    text This example section demonstrates a tabs widget that implements the . In this example, a tab is automatically activated and its associated panel is displayed when the tab receives focus. It is recommended that authors consider implementing automatic activation of tabs  circumstances where panels can be displayed instantly, i.e., all panel content is present in the DOM. For additional guidance, see .
     link "Tabs Pattern" ../../
     text only in
     link "Deciding When to Make Selection Automatically Follow Focus" ../../../../practices/keyboard-interface/#kbd_selection_follows_focus
     text Similar examples include:
+    text : A tabs widget where users activate a tab and display its panel by pressing  or .
     link "Example of Tabs with Manual Activation" ../tabs-manual/
     text Space
     text Enter
@@ -48,11 +50,13 @@ row
       tab "Peter Müller"
     text End of
     h2 Accessibility Features
+    text To make it easy for screen reader users to navigate from a tab to the beginning of content in the active , the  element has  to include the panel in the page  sequence. It is recommended that all  elements in a tab set are focusable if there are any panels in the set that contain content where the first element in the panel is not focusable.
     text tabpanel primary
     text tabpanel primary
     text "tabindex=\"0\"" primary
     text Tab
     text tabpanel primary
+    text To ensure people who rely on browser or operating system high contrast settings can both distinguish the active (selected) tab from other tabs and perceive keyboard focus:
     text The active tab has a 2 pixel border on its left and right sides and a 4 pixel border on top, while the names of inactive tabs have 1 pixel borders. The active tab is also 4 pixels higher than the inactive tabs.
     text The focus ring is drawn with a CSS border on a child span element of the tab element. This focus span is separated from the tab border by 2 pixels of space to ensure focus and selection are separately perceivable. Note that when a tab element is focused, the outline of the tab element itself is set to 0 so that only one focus ring is displayed.
     text Because transparent borders are visible on some systems when high contrast settings are enabled, only the focused span element has a visible border. When span elements are not indicating focus, they have a 0-width border and additional padding equal in width to the border that is used to indicate focus.
@@ -77,7 +81,9 @@ row
        | aria-labelledby="ID_REFERENCE" | div | Refers to the tab element that controls the panel. Provides an accessible name for the tab panel.
        | tabindex="0" | div | Puts the tabpanel in the page Tab sequence. Facilitates navigation to panel content for assistive technology users. Focusable tabpanel elements are recommended if any panels in a set contain content where the first element in the panel is not focusable.
     h2 JavaScript and CSS Source Code
+    text CSS:
     link tabs.css ../../../../../../content-assets/wai-aria-practices/patterns/tabs/examples/css/tabs.css
+    text JavaScript:
     link tabs-automatic.js ../../../../../../content-assets/wai-aria-practices/patterns/tabs/examples/js/tabs-automatic.js
     h2 HTML Source Code
     text To copy the following HTML code, please open it in CodePen.
@@ -86,8 +92,8 @@ row
     text "<div class=\"tabs\"> <h3 id=\"tablist-1\"> Danish Composers </h3> <div role=\"tablist\" aria-labelledby=\"tablist-1\" class=\"automatic\"> <button id=\"tab-1\" type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"tabpanel-1\"> <span class=\"focus\"> Maria Ahlefeldt </span> </button> <button id=\"tab-2\" type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"tabpanel-2\" tabindex=\"-1\"> <span class=\"focus\"> Carl Andersen </span> </button> <button id=\"tab-3\" type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"tabpanel-3\" tabindex=\"-1\"> <span class=\"focus\"> Ida da Fonseca </span> </button> <button id=\"tab-4\" type=\"button\" role=\"tab\" aria-selected=\"false\" aria-controls=\"tabpanel-4\" tabindex=\"-1\"> <span class=\"focus\"> Peter Müller </span> </button> </div> <div id=\"tabpanel-1\" role=\"tabpanel\" tabindex=\"0\" aria-labelledby=\"tab-1\"> <p> Maria Theresia Ahlefeldt (16 January 1755 – 20 December 1810) was a Danish, (originally German), composer. She is known as the first female composer in Denmark. Maria Theresia composed music for several ballets, operas, and plays of the royal theatre. She was given good critic as a composer and described as a “ <span lang=\"da\"> virkelig Tonekunstnerinde </span> ” ('a True Artist of Music'). </p> </div> <div id=\"tabpanel-2\" role=\"tabpanel\" tabindex=\"0\" aria-labelledby=\"tab-2\" class=\"is-hidden\"> <p> Carl Joachim Andersen (29 April 1847 – 7 May 1909) was a Danish flutist, conductor and composer born in Copenhagen, son of the flutist Christian Joachim Andersen. Both as a virtuoso and as composer of flute music, he is considered one of the best of his time. He was considered to be a tough leader and teacher and demanded as such a lot from his orchestras but through that style he reached a high level. </p> </div> <div id=\"tabpanel-3\" role=\"tabpanel\" tabindex=\"0\" aria-labelledby=\"tab-3\" class=\"is-hidden\"> <p> Ida Henriette da Fonseca (July 27, 1802 – July 6, 1858) was a Danish opera singer and composer. Ida Henriette da Fonseca was the daughter of Abraham da Fonseca (1776–1849) and Marie Sofie Kiærskou (1784–1863). She and her sister Emilie da Fonseca were students of Giuseppe Siboni, choir master of the Opera in Copenhagen. She was given a place at the royal Opera alongside her sister the same year she debuted in 1827. </p> </div> <div id=\"tabpanel-4\" role=\"tabpanel\" tabindex=\"0\" aria-labelledby=\"tab-4\" class=\"is-hidden\"> <p> Peter Erasmus Lange-Müller (1 December 1850 – 26 February 1926) was a Danish composer and pianist. His compositional style was influenced by Danish folk music and by the work of Robert Schumann; Johannes Brahms; and his Danish countrymen, including J.P.E. Hartmann. </p> </div> </div>"
     text End of
 row
-  region 16x16
   h2 Help improve this page
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list  or via GitHub.
 link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
 row
   link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
@@ -112,6 +118,7 @@ row
   link "Accessibility statement" /WAI/about/accessibility-statement/
   link "All Translations" /WAI/translations/
   link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
 link "World Wide Web Consortium" https://www.w3.org/
 text W3C
 text ®

@@ -1,0 +1,49 @@
+@getbootstrap_com_docs_5_3_examples_badge rev=0 @0,0,728,284
+button "Toggle theme (light)" primary @17,17,694,36
+text Primary Secondary Success Danger Warning Info Light Dark @17,65,694,21
+text Primary Secondary Success Danger Warning Info Light Dark @17,98,694,20
+text Primary Secondary Success Danger Warning Info Light Dark @17,130,694,20
+row @17,162,694,21
+  text Primary primary @17,162,51,21
+  text Secondary @80,162,72,21
+  text Success @164,162,57,21
+  text Danger danger @233,162,49,21
+  text Warning warning @294,162,56,21
+  text Info primary @362,162,26,21
+  text Light @400,162,33,21
+  text Dark @445,162,31,21
+row @17,195,694,20
+  row @17,195,180,20
+    text Primary 1 @17,195,61,20
+    link "Delete primary 1" # @90,195,107,20
+  row @209,195,186,20
+    text Primary 2 primary @209,195,64,20
+    link "Delete primary 2" # @285,195,110,20
+  row @407,195,186,20
+    text Primary 3 primary @407,195,64,20
+    link "Delete primary 3" # @483,195,110,20
+row @17,227,694,40
+  text Primary primary @17,237,24,20
+  row @53,227,45,40
+    link "Delete primary" # @53,227,45,40
+  text Secondary @110,237,33,20
+  row @155,227,54,40
+    link "Delete secondary" # @155,227,54,40
+  text Success @221,237,27,20
+  row @260,227,47,40
+    link "Delete success" # @260,227,47,40
+  text Danger danger @319,237,23,20
+  row @354,227,43,40
+    link "Delete danger" # @354,227,43,40
+  text Warning warning @409,237,26,20
+  row @447,227,47,40
+    link "Delete warning" # @447,227,47,40
+  text Info primary @506,237,12,20
+  row @530,227,33,40
+    link "Delete info" # @530,227,33,40
+  text Light @575,237,16,20
+  row @603,227,34,40
+    link "Delete light" # @603,227,34,40
+  text Dark @649,237,15,20
+  row @676,227,35,40
+    link "Delete dark" # @676,227,35,40

@@ -1,0 +1,2129 @@
+@html_spec_whatwg_org_multipage_common_mi rev=0 @0,0,728,51260
+link https://whatwg.org/ https://whatwg.org/ @17,17,694,20
+h1 HTML @17,49,694,25
+text Living Standard — Last Updated 19 October 2026 success @17,86,694,21
+text — — @17,119,694,20
+row @17,151,694,20
+  link "← 2 Common infrastructure" infrastructure.html @17,151,184,20
+  link "Table of Contents" ./ @213,151,119,20
+  link "2.4 URLs →" urls-and-fetching.html @344,151,78,20
+link "2.3 Common microsyntaxes" common-microsyntaxes.html#common-microsyntaxes @17,183,694,21
+link "2.3.1 Common parser idioms" common-microsyntaxes.html#common-parser-idioms @17,216,694,20
+link "2.3.2 Boolean attributes" common-microsyntaxes.html#boolean-attributes @17,248,694,20
+link "2.3.3 Keywords and enumerated attributes" common-microsyntaxes.html#keywords-and-enumerated-attributes @17,280,694,20
+link "2.3.4 Numbers" common-microsyntaxes.html#numbers @17,312,694,21
+link "2.3.4.1 Signed integers" common-microsyntaxes.html#signed-integers @17,345,694,20
+link "2.3.4.2 Non-negative integers" common-microsyntaxes.html#non-negative-integers @17,377,694,20
+link "2.3.4.3 Floating-point numbers" common-microsyntaxes.html#floating-point-numbers @17,409,694,21
+link "2.3.4.4 Percentages and lengths" common-microsyntaxes.html#percentages-and-dimensions @17,442,694,20
+link "2.3.4.5 Nonzero percentages and lengths" common-microsyntaxes.html#nonzero-percentages-and-lengths @17,474,694,20
+link "2.3.4.6 Lists of floating-point numbers" common-microsyntaxes.html#lists-of-floating-point-numbers @17,506,694,20
+link "2.3.4.7 Lists of dimensions" common-microsyntaxes.html#lists-of-dimensions @17,538,694,21
+link "2.3.5 Dates and times" common-microsyntaxes.html#dates-and-times @17,571,694,20
+link "2.3.5.1 Months" common-microsyntaxes.html#months @17,603,694,20
+link "2.3.5.2 Dates" common-microsyntaxes.html#dates @17,635,694,21
+link "2.3.5.3 Yearless dates" common-microsyntaxes.html#yearless-dates @17,668,694,20
+link "2.3.5.4 Times" common-microsyntaxes.html#times @17,700,694,20
+link "2.3.5.5 Local dates and times" common-microsyntaxes.html#local-dates-and-times @17,732,694,21
+link "2.3.5.6 Time zones" common-microsyntaxes.html#time-zones @17,765,694,20
+link "2.3.5.7 Global dates and times" common-microsyntaxes.html#global-dates-and-times @17,797,694,20
+link "2.3.5.8 Weeks" common-microsyntaxes.html#weeks @17,829,694,20
+link "2.3.5.9 Durations" common-microsyntaxes.html#durations @17,861,694,21
+link "2.3.5.10 Vaguer moments in time" common-microsyntaxes.html#vaguer-moments-in-time @17,894,694,20
+link "2.3.6 Legacy colors" common-microsyntaxes.html#colours @17,926,694,20
+link "2.3.7 Space-separated tokens" common-microsyntaxes.html#space-separated-tokens @17,958,694,21
+link "2.3.8 Comma-separated tokens" common-microsyntaxes.html#comma-separated-tokens @17,991,694,20
+link "2.3.9 References" common-microsyntaxes.html#syntax-references @17,1023,694,20
+link "2.3.10 Media queries" common-microsyntaxes.html#mq @17,1055,694,21
+link "2.3.11 Unique internal values" common-microsyntaxes.html#unique-values @17,1088,694,20
+h3 2.3 Common microsyntaxes @17,1120,694,19
+text There are various places in HTML that accept particular data types, such as dates or numbers. This section describes what the conformance criteria for content in those formats is, and how to parse them. @17,1151,694,40
+text Implementers are strongly urged to carefully examine any third-party libraries they might consider using to implement the parsing of syntaxes described below. For example, date libraries are likely to implement error handling behavior that differs from what is required in this specification, since error-handling behavior is often not defined in specifications that describe date syntaxes similar to those used in this specification, and thus implementations tend to vary greatly in how they handle errors. success @17,1203,694,102
+h3 2.3.1 Common parser idioms @17,1317,694,18
+text Some of the micro-parsers described below follow the pattern of having an variable that holds the string being parsed, and having a variable pointing at the next character to parse in . @17,1347,694,41
+text input @17,1400,694,20
+text position @17,1432,694,21
+text input @17,1465,694,20
+h3 2.3.2 Boolean attributes @17,1497,694,19
+text A number of attributes are . The presence of a boolean attribute on an element represents the true value, and the absence of the attribute represents the false value. @17,1528,694,40
+text boolean attributes @17,1580,694,21
+text If the attribute is present, its value must either be the empty string or a value that is an match for the attribute's canonical name, with no leading or trailing whitespace. @17,1613,694,40
+link "ASCII case-insensitive" https://infra.spec.whatwg.org/#ascii-case-insensitive @17,1665,694,21
+text The values "true" and "false" are not allowed on boolean attributes. To represent a false value, the attribute has to be omitted altogether. success @17,1698,694,40
+text Here is an example of a checkbox that is checked and disabled. The and attributes are the boolean attributes. @17,1750,694,41
+row @17,1803,694,20
+  link checked input.html#attr-input-checked @17,1803,57,20
+  link disabled form-control-infrastructure.html#attr-fe-disabled @86,1803,56,20
+text Cheese @17,1835,694,20
+card @17,1867,694,535
+  text < @34,1882,660,21
+  text label success @34,1915,660,20
+  text >< @34,1947,660,20
+  text input success @34,1979,660,21
+  text type primary @34,2012,660,20
+  text = @34,2044,660,20
+  text checkbox warning @34,2076,660,20
+  text checked primary @34,2108,660,21
+  text name primary @34,2141,660,20
+  text = @34,2173,660,20
+  text cheese warning @34,2205,660,21
+  text disabled primary @34,2238,660,20
+  text > @34,2270,660,20
+  text </ @34,2302,660,21
+  text label success @34,2335,660,20
+  text > @34,2367,660,20
+text This could be equivalently written as this: @17,2414,694,20
+text Cheese @17,2446,694,21
+card @17,2479,694,664
+  text < @34,2494,660,20
+  text label success @34,2526,660,20
+  text >< @34,2558,660,21
+  text input success @34,2591,660,20
+  text type primary @34,2623,660,20
+  text = @34,2655,660,21
+  text checkbox warning @34,2688,660,20
+  text checked primary @34,2720,660,20
+  text = @34,2752,660,20
+  text checked warning @34,2784,660,21
+  text name primary @34,2817,660,20
+  text = @34,2849,660,20
+  text cheese warning @34,2881,660,21
+  text disabled primary @34,2914,660,20
+  text = @34,2946,660,20
+  text disabled warning @34,2978,660,21
+  text > @34,3011,660,20
+  text </ @34,3043,660,20
+  text label success @34,3075,660,20
+  text > @34,3107,660,21
+text You can also mix styles; the following is still equivalent: @17,3155,694,20
+text Cheese @17,3187,694,20
+card @17,3219,694,600
+  text < @34,3234,660,21
+  text label success @34,3267,660,20
+  text >< @34,3299,660,20
+  text input success @34,3331,660,21
+  text type primary @34,3364,660,20
+  text = @34,3396,660,20
+  text 'checkbox' warning @34,3428,660,20
+  text checked primary @34,3460,660,21
+  text name primary @34,3493,660,20
+  text = @34,3525,660,20
+  text cheese warning @34,3557,660,21
+  text disabled primary @34,3590,660,20
+  text = @34,3622,660,20
+  text "" warning @34,3654,660,21
+  text > @34,3687,660,20
+  text </ @34,3719,660,20
+  text label success @34,3751,660,20
+  text > @34,3783,660,21
+h3 2.3.3 Keywords and enumerated attributes @17,3831,694,19
+text Some attributes, called , take on a finite set of states. The state for such an attribute is derived by combining the attribute's value, a set of keyword/state mappings, and three possible special states that can also be given in the specification of the attribute. These special states are the , the , and the . @17,3862,694,60
+text enumerated attributes @17,3934,694,21
+text invalid value default @17,3967,694,20
+text missing value default @17,3999,694,20
+text empty value default @17,4031,694,21
+text Multiple keywords can map to the same state. success @17,4064,694,20
+text To determine the state of an attribute, use the following steps: @17,4096,694,20
+text If the attribute is not specified: @17,4128,694,21
+text If the attribute has a state defined, then return that state. @17,4161,694,20
+row @17,4193,694,20
+  link "missing value default" #missing-value-default @17,4193,141,20
+  link "missing value default" #missing-value-default2 @170,4193,141,20
+text Otherwise, return no state. @17,4225,694,20
+text If the attribute's value is an match for one of the keywords defined for the attribute, then return the state represented by that keyword. @17,4257,694,41
+link "ASCII case-insensitive" https://infra.spec.whatwg.org/#ascii-case-insensitive @17,4310,694,20
+text If the attribute has an state defined and the attribute's value is the empty string, then return that state. @17,4342,694,21
+row @17,4375,694,20
+  link "empty value default" #empty-value-default @17,4375,131,20
+  link "empty value default" #empty-value-default2 @160,4375,131,20
+text If the attribute has an state defined, then return that state. @17,4407,694,20
+row @17,4439,694,20
+  link "invalid value default" #invalid-value-default @17,4439,133,20
+  link "invalid value default" #invalid-value-default2 @162,4439,133,20
+text Return no state. @17,4471,694,21
+text For authoring conformance purposes, if an enumerated attribute is specified, the attribute's value must be one of: @17,4504,694,40
+text An match for one of the conforming keywords for that attribute, with no leading or trailing whitespace. @17,4556,694,21
+link "ASCII case-insensitive" https://infra.spec.whatwg.org/#ascii-case-insensitive @17,4589,694,20
+text The empty string and the attribute must have an defined. @17,4621,694,20
+link "empty value default" #empty-value-default3 @17,4653,694,21
+text For purposes, states which have any keywords mapping to them are said to have a . This is determined as follows: @17,4686,694,40
+row @17,4738,694,20
+  link reflection common-dom-interfaces.html#reflect @17,4738,63,20
+  text canonical keyword @92,4738,125,20
+text If there is only one keyword mapping to the given state, then it is that keyword. @17,4770,694,21
+text If there is only one conforming keyword mapping to the given state, then it is that conforming keyword. @17,4803,694,20
+text If there are two conforming keywords mapping to the given state, and one is the empty string, then the canonical keyword will be the conforming keyword that is not the empty string. @17,4835,694,41
+text Otherwise, the canonical keyword for the state will be explicitly given in the specification for the attribute. @17,4888,694,40
+h3 2.3.4 Numbers @17,4940,694,19
+h3 2.3.4.1 Signed integers @17,4971,694,19
+text A string is a if it consists of one or more , optionally prefixed with a U+002D HYPHEN-MINUS character (-). @17,5002,694,40
+row @17,5054,694,21
+  text valid integer @17,5054,82,21
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @111,5054,77,21
+text A without a U+002D HYPHEN-MINUS (-) prefix represents the number that is represented in base ten by that string of digits. A a U+002D HYPHEN-MINUS (-) prefix represents the number represented in base ten by the string of digits that follows the U+002D HYPHEN-MINUS, subtracted from zero. @17,5087,694,61
+link "valid integer" #valid-integer @17,5160,694,20
+link "valid integer" #valid-integer2 @17,5192,694,20
+text with @17,5224,694,20
+text The are as given in the following algorithm. When invoked, the steps must be followed in the order given, aborting at the first step that returns a value. This algorithm will return either an integer or an error. @17,5256,694,61
+text rules for parsing integers @17,5329,694,21
+text Let be the string being parsed. @17,5362,694,20
+text input @17,5394,694,20
+text Let be a pointer into , initially pointing at the start of the string. @17,5426,694,21
+row @17,5459,694,20
+  text position @17,5459,53,20
+  text input @82,5459,34,20
+text Let  have the value "positive". @17,5491,694,20
+text sign @17,5523,694,20
+text within given . @17,5555,694,21
+row @17,5588,694,20
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace @17,5588,149,20
+  text input @178,5588,34,20
+  text position @224,5588,53,20
+text If is past the end of , return an error. @17,5620,694,20
+row @17,5652,694,21
+  text position @17,5652,53,21
+  text input @82,5652,34,21
+text If the character indicated by (the first character) is a U+002D HYPHEN-MINUS character (-): @17,5685,694,20
+text position @17,5717,694,20
+text Let  be "negative". @17,5749,694,21
+text sign @17,5782,694,20
+text Advance to the next character. @17,5814,694,20
+text position @17,5846,694,20
+text If is past the end of , return an error. @17,5878,694,21
+row @17,5911,694,20
+  text position @17,5911,53,20
+  text input @82,5911,34,20
+text Otherwise, if the character indicated by (the first character) is a U+002B PLUS SIGN character (+): @17,5943,694,20
+text position @17,5975,694,21
+text Advance  to the next character. (The "" is ignored, but it is not conforming.) @17,6008,694,20
+row @17,6040,694,20
+  text position @17,6040,53,20
+  text + @82,6040,10,20
+text If is past the end of , return an error. @17,6072,694,21
+row @17,6105,694,20
+  text position @17,6105,53,20
+  text input @82,6105,34,20
+text If the character indicated by is not an , then return an error. @17,6137,694,20
+row @17,6169,694,20
+  text position @17,6169,53,20
+  link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit @82,6169,69,20
+text that are from given , and interpret the resulting sequence as a base-ten integer. Let be that integer. @17,6201,694,21
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,6234,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,6266,694,20
+text input @17,6298,694,21
+text position @17,6331,694,20
+text value @17,6363,694,20
+text If  is "positive", return , otherwise return the result of subtracting  from zero. @17,6395,694,21
+row @17,6428,694,20
+  text sign @17,6428,28,20
+  text value @57,6428,36,20
+  text value @105,6428,36,20
+h3 2.3.4.2 Non-negative integers @17,6460,694,19
+text A string is a if it consists of one or more . @17,6491,694,20
+row @17,6523,694,20
+  text valid non-negative integer @17,6523,174,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @203,6523,77,20
+text A represents the number that is represented in base ten by that string of digits. @17,6555,694,21
+link "valid non-negative integer" #valid-non-negative-integer @17,6588,694,20
+text The are as given in the following algorithm. When invoked, the steps must be followed in the order given, aborting at the first step that returns a value. This algorithm will return either zero, a positive integer, or an error. @17,6620,694,61
+text rules for parsing non-negative integers @17,6693,694,20
+text Let be the string being parsed. @17,6725,694,20
+text input @17,6757,694,21
+text Let be the result of parsing using the . @17,6790,694,20
+row @17,6822,694,20
+  text value @17,6822,36,20
+  text input @65,6822,34,20
+  link "rules for parsing integers" #rules-for-parsing-integers @111,6822,167,20
+text If is an error, return an error. @17,6854,694,21
+text value @17,6887,694,20
+text If is less than zero, return an error. @17,6919,694,20
+text value @17,6951,694,20
+text Return . @17,6983,694,21
+text value @17,7016,694,20
+h3 2.3.4.3 Floating-point numbers @17,7048,694,19
+text A string is a if it consists of: @17,7079,694,20
+text valid floating-point number @17,7111,694,20
+text Optionally, a U+002D HYPHEN-MINUS character (-). @17,7143,694,21
+text One or both of the following, in the given order: @17,7176,694,20
+text A series of one or more . @17,7208,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,7240,694,21
+text Both of the following, in the given order: @17,7273,694,20
+text A single U+002E FULL STOP character (.). @17,7305,694,20
+text A series of one or more . @17,7337,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,7369,694,21
+text Optionally: @17,7402,694,20
+text Either a U+0065 LATIN SMALL LETTER E character (e) or a U+0045 LATIN CAPITAL LETTER E character (E). @17,7434,694,41
+text Optionally, a U+002D HYPHEN-MINUS character (-) or U+002B PLUS SIGN character (+). @17,7487,694,20
+text A series of one or more . @17,7519,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,7551,694,21
+text A represents the number obtained by multiplying the significand by ten raised to the power of the exponent, where the significand is the first number, interpreted as base ten (including the decimal point and the number after the decimal point, if any, and interpreting the significand as a negative number if the whole string starts with a U+002D HYPHEN-MINUS character (-) and the number is not zero), and where the exponent is the number after the E, if any (interpreted as a negative number if there is a U+002D HYPHEN-MINUS character (-) between the E and the number and the number is not zero, or else ignoring a U+002B PLUS SIGN character (+) between the E and the number if there is one). If there is no E, then the exponent is treated as zero. @17,7584,694,162
+link "valid floating-point number" #valid-floating-point-number @17,7758,694,20
+text The Infinity and Not-a-Number (NaN) values are not . success @17,7790,694,21
+link "valid floating-point numbers" #valid-floating-point-number2 @17,7823,694,20
+text The concept is typically only used to restrict what is allowed for authors, while the user agent requirements use the below (e.g., the attribute of the element). However, in some cases the user agent requirements include checking if a string is a (e.g., the for the state of the element, or the algorithm). success @17,7855,694,61
+link "valid floating-point number" #valid-floating-point-number3 @17,7928,694,20
+link "rules for parsing floating-point number values" #rules-for-parsing-floating-point-number-values @17,7960,694,20
+link max form-elements.html#attr-progress-max @17,7992,694,21
+link progress form-elements.html#the-progress-element @17,8025,694,20
+link "valid floating-point number" #valid-floating-point-number4 @17,8057,694,20
+link "value sanitization algorithm" input.html#value-sanitization-algorithm @17,8089,694,21
+link Number @17,8122,694,20
+link input input.html#the-input-element @17,8154,694,20
+link "parse a srcset attribute" images.html#parse-a-srcset-attribute @17,8186,694,20
+text The is the string obtained from running (). The abstract operation is not uniquely determined. When there are multiple possible strings that could be obtained from for a particular value, the user agent must always return the same string for that value (though it may differ from the value used by other user agents). @17,8218,694,82
+text best representation of the number as a floating-point number @17,8312,694,20
+text n @17,8344,694,20
+link ToString https://tc39.es/ecma262/#sec-tostring @17,8376,694,21
+text n @17,8409,694,20
+link ToString https://tc39.es/ecma262/#sec-tostring @17,8441,694,20
+link ToString https://tc39.es/ecma262/#sec-tostring @17,8473,694,20
+text The are as given in the following algorithm. This algorithm must be aborted at the first step that returns something. This algorithm will return either a number or an error. @17,8505,694,41
+text rules for parsing floating-point number values @17,8558,694,20
+text Let be the string being parsed. @17,8590,694,21
+text input @17,8623,694,20
+text Let be a pointer into , initially pointing at the start of the string. @17,8655,694,20
+row @17,8687,694,21
+  text position @17,8687,53,21
+  text input @82,8687,34,21
+text Let have the value 1. @17,8720,694,20
+text value @17,8752,694,20
+text Let have the value 1. @17,8784,694,20
+text divisor @17,8816,694,21
+text Let have the value 1. @17,8849,694,20
+text exponent @17,8881,694,20
+text within given . @17,8913,694,21
+row @17,8946,694,20
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace @17,8946,149,20
+  text input @178,8946,34,20
+  text position @224,8946,53,20
+text If is past the end of , return an error. @17,8978,694,20
+row @17,9010,694,21
+  text position @17,9010,53,21
+  text input @82,9010,34,21
+text If the character indicated by is a U+002D HYPHEN-MINUS character (-): @17,9043,694,20
+text position @17,9075,694,20
+text Change and to −1. @17,9107,694,20
+row @17,9139,694,21
+  text value @17,9139,36,21
+  text divisor @65,9139,45,21
+text Advance to the next character. @17,9172,694,20
+text position @17,9204,694,20
+text If is past the end of , return an error. @17,9236,694,21
+row @17,9269,694,20
+  text position @17,9269,53,20
+  text input @82,9269,34,20
+text Otherwise, if the character indicated by (the first character) is a U+002B PLUS SIGN character (+): @17,9301,694,20
+text position @17,9333,694,21
+text Advance  to the next character. (The "" is ignored, but it is not conforming.) @17,9366,694,20
+row @17,9398,694,20
+  text position @17,9398,53,20
+  text + @82,9398,10,20
+text If is past the end of , return an error. @17,9430,694,20
+row @17,9462,694,21
+  text position @17,9462,53,21
+  text input @82,9462,34,21
+text If the character indicated by is a U+002E FULL STOP (.), and that is not the last character in , and the character after the character indicated by is an , then set to zero and jump to the step labeled . @17,9495,694,40
+text position @17,9547,694,21
+text input @17,9580,694,20
+text position @17,9612,694,20
+link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit @17,9644,694,21
+text value @17,9677,694,20
+text fraction @17,9709,694,20
+text If the character indicated by is not an , then return an error. @17,9741,694,20
+row @17,9773,694,21
+  text position @17,9773,53,21
+  link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit @82,9773,69,21
+text that are from given , and interpret the resulting sequence as a base-ten integer. Multiply by that integer. @17,9806,694,20
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,9838,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,9870,694,21
+text input @17,9903,694,20
+text position @17,9935,694,20
+text value @17,9967,694,21
+text If is past the end of , jump to the step labeled . @17,10000,694,20
+row @17,10032,694,20
+  text position @17,10032,53,20
+  text input @82,10032,34,20
+  text conversion @128,10032,74,20
+text : If the character indicated by is a U+002E FULL STOP (.), run these substeps: @17,10064,694,20
+row @17,10096,694,21
+  text Fraction @17,10096,55,21
+  text position @84,10096,53,21
+text Advance to the next character. @17,10129,694,20
+text position @17,10161,694,20
+text If is past the end of , or if the character indicated by is not an , U+0065 LATIN SMALL LETTER E (e), or U+0045 LATIN CAPITAL LETTER E (E), then jump to the step labeled . @17,10193,694,41
+text position @17,10246,694,20
+text input @17,10278,694,21
+text position @17,10311,694,20
+link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit @17,10343,694,20
+text conversion @17,10375,694,20
+text If the character indicated by is a U+0065 LATIN SMALL LETTER E character (e) or a U+0045 LATIN CAPITAL LETTER E character (E), skip the remainder of these substeps. @17,10407,694,41
+text position @17,10460,694,20
+text : Multiply by ten. @17,10492,694,21
+row @17,10525,694,20
+  text Fraction loop @17,10525,87,20
+  text divisor @116,10525,45,20
+text Add the value of the character indicated by , interpreted as a base-ten digit (0..9) and divided by , to . @17,10557,694,20
+row @17,10589,694,21
+  text position @17,10589,53,21
+  text divisor @82,10589,45,21
+  text value @139,10589,36,21
+text Advance to the next character. @17,10622,694,20
+text position @17,10654,694,20
+text If is past the end of , then jump to the step labeled . @17,10686,694,20
+row @17,10718,694,21
+  text position @17,10718,53,21
+  text input @82,10718,34,21
+  text conversion @128,10718,74,21
+text If the character indicated by is an , jump back to the step labeled in these substeps. @17,10751,694,20
+row @17,10783,694,20
+  text position @17,10783,53,20
+  link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit @82,10783,69,20
+  text fraction loop @163,10783,84,20
+text If the character indicated by is U+0065 (e) or a U+0045 (E): @17,10815,694,21
+text position @17,10848,694,20
+text Advance to the next character. @17,10880,694,20
+text position @17,10912,694,21
+text If is past the end of , then jump to the step labeled . @17,10945,694,20
+row @17,10977,694,20
+  text position @17,10977,53,20
+  text input @82,10977,34,20
+  text conversion @128,10977,74,20
+text If the character indicated by is a U+002D HYPHEN-MINUS character (-): @17,11009,694,20
+text position @17,11041,694,21
+text Change to −1. @17,11074,694,20
+text exponent @17,11106,694,20
+text Advance to the next character. @17,11138,694,21
+text position @17,11171,694,20
+text If is past the end of , then jump to the step labeled . @17,11203,694,20
+row @17,11235,694,21
+  text position @17,11235,53,21
+  text input @82,11235,34,21
+  text conversion @128,11235,74,21
+text Otherwise, if the character indicated by is a U+002B PLUS SIGN character (+): @17,11268,694,20
+text position @17,11300,694,20
+text Advance to the next character. @17,11332,694,20
+text position @17,11364,694,21
+text If is past the end of , then jump to the step labeled . @17,11397,694,20
+row @17,11429,694,20
+  text position @17,11429,53,20
+  text input @82,11429,34,20
+  text conversion @128,11429,74,20
+text If the character indicated by is not an , then jump to the step labeled . @17,11461,694,21
+row @17,11494,694,20
+  text position @17,11494,53,20
+  link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit @82,11494,69,20
+  text conversion @163,11494,74,20
+text that are from given , and interpret the resulting sequence as a base-ten integer. Multiply by that integer. @17,11526,694,20
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,11558,694,21
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,11591,694,20
+text input @17,11623,694,20
+text position @17,11655,694,20
+text exponent @17,11687,694,21
+text Multiply by ten raised to the th power. @17,11720,694,20
+row @17,11752,694,20
+  text value @17,11752,36,20
+  text exponent @65,11752,63,20
+text : Let be the set of finite IEEE 754 double-precision floating-point values except −0, but with two special values added: 2 and −2. @17,11784,694,41
+text Conversion @17,11837,694,20
+text S @17,11869,694,21
+text 1024 @17,11902,694,20
+text 1024 @17,11934,694,20
+text Let be the number in that is closest to , selecting the number with an even significand if there are two equally close values. (The two special values 2 and −2 are considered to have even significands for this purpose.) @17,11966,694,61
+text rounded-value @17,12039,694,20
+text S @17,12071,694,21
+text value @17,12104,694,20
+text 1024 @17,12136,694,20
+text 1024 @17,12168,694,21
+text If is 2 or −2, return an error. @17,12201,694,20
+row @17,12233,694,20
+  text rounded-value @17,12233,98,20
+  text 1024 @127,12233,33,20
+  text 1024 @172,12233,33,20
+text Return . @17,12265,694,20
+text rounded-value @17,12297,694,21
+h3 2.3.4.4 Percentages and lengths @17,12330,694,19
+text The are as given in the following algorithm. When invoked, the steps must be followed in the order given, aborting at the first step that returns a value. This algorithm will return either a number greater than or equal to 0.0, or failure; if a number is returned, then it is further categorized as either a percentage or a length. @17,12361,694,81
+text rules for parsing dimension values @17,12454,694,20
+text Let be the string being parsed. @17,12486,694,20
+text input @17,12518,694,21
+text Let be a for , initially pointing at the start of . @17,12551,694,20
+row @17,12583,694,20
+  text position @17,12583,53,20
+  link "position variable" https://infra.spec.whatwg.org/#string-position-variable @82,12583,109,20
+  text input @203,12583,34,20
+  text input @249,12583,34,20
+text within given . @17,12615,694,21
+row @17,12648,694,20
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace @17,12648,149,20
+  text input @178,12648,34,20
+  text position @224,12648,53,20
+text If is past the end of or the code point at within is not an , then return failure. @17,12680,694,20
+row @17,12712,694,20
+  text position @17,12712,53,20
+  text input @82,12712,34,20
+  text position @128,12712,53,20
+  text input @193,12712,34,20
+  link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit @239,12712,69,20
+text that are from given , and interpret the resulting sequence as a base-ten integer. Let be that number. @17,12744,694,21
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,12777,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,12809,694,20
+text input @17,12841,694,21
+text position @17,12874,694,20
+text value @17,12906,694,20
+text If is past the end of , then return as a length. @17,12938,694,21
+row @17,12971,694,20
+  text position @17,12971,53,20
+  text input @82,12971,34,20
+  text value @128,12971,36,20
+text If the code point at within is U+002E (.): @17,13003,694,20
+row @17,13035,694,20
+  text position @17,13035,53,20
+  text input @82,13035,34,20
+text Advance by 1. @17,13067,694,21
+text position @17,13100,694,20
+text If is past the end of or the code point at within is not an , then return the with , , and . @17,13132,694,20
+text position @17,13164,694,21
+text input @17,13197,694,20
+text position @17,13229,694,20
+text input @17,13261,694,21
+link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit @17,13294,694,20
+link "current dimension value" #current-dimension-value @17,13326,694,20
+text value @17,13358,694,20
+text input @17,13390,694,21
+text position @17,13423,694,20
+text Let have the value 1. @17,13455,694,20
+text divisor @17,13487,694,21
+text While true: @17,13520,694,20
+text Multiply by ten. @17,13552,694,20
+text divisor @17,13584,694,21
+text Add the value of the code point at within , interpreted as a base-ten digit (0..9) and divided by , to . @17,13617,694,20
+row @17,13649,694,20
+  text position @17,13649,53,20
+  text input @82,13649,34,20
+  text divisor @128,13649,45,20
+  text value @185,13649,36,20
+text Advance by 1. @17,13681,694,20
+text position @17,13713,694,21
+text If is past the end of , then return as a length. @17,13746,694,20
+row @17,13778,694,20
+  text position @17,13778,53,20
+  text input @82,13778,34,20
+  text value @128,13778,36,20
+text If the code point at within is not an , then . @17,13810,694,21
+row @17,13843,694,20
+  text position @17,13843,53,20
+  text input @82,13843,34,20
+  link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit @128,13843,69,20
+  link break https://infra.spec.whatwg.org/#iteration-break @209,13843,38,20
+text Return the with , , and . @17,13875,694,20
+row @17,13907,694,20
+  link "current dimension value" #current-dimension-value2 @17,13907,160,20
+  text value @189,13907,36,20
+  text input @237,13907,34,20
+  text position @283,13907,53,20
+text The , given , , and , is determined as follows: @17,13939,694,21
+row @17,13972,694,20
+  text current dimension value @17,13972,160,20
+  text value @189,13972,36,20
+  text input @237,13972,34,20
+  text position @283,13972,53,20
+text If is past the end of , then return as a length. @17,14004,694,20
+row @17,14036,694,21
+  text position @17,14036,53,21
+  text input @82,14036,34,21
+  text value @128,14036,36,21
+text If the code point at within is U+0025 (%), then return as a percentage. @17,14069,694,20
+row @17,14101,694,20
+  text position @17,14101,53,20
+  text input @82,14101,34,20
+  text value @128,14101,36,20
+text Return as a length. @17,14133,694,21
+text value @17,14166,694,20
+h3 2.3.4.5 Nonzero percentages and lengths @17,14198,694,19
+text The are as given in the following algorithm. When invoked, the steps must be followed in the order given, aborting at the first step that returns a value. This algorithm will return either a number greater than 0.0, or an error; if a number is returned, then it is further categorized as either a percentage or a length. @17,14229,694,81
+text rules for parsing nonzero dimension values @17,14322,694,20
+text Let be the string being parsed. @17,14354,694,20
+text input @17,14386,694,21
+text Let be the result of parsing using the . @17,14419,694,20
+row @17,14451,694,20
+  text value @17,14451,36,20
+  text input @65,14451,34,20
+  link "rules for parsing dimension values" #rules-for-parsing-dimension-values @111,14451,228,20
+text If is an error, return an error. @17,14483,694,21
+text value @17,14516,694,20
+text If is zero, return an error. @17,14548,694,20
+text value @17,14580,694,21
+text If is a percentage, return as a percentage. @17,14613,694,20
+row @17,14645,694,20
+  text value @17,14645,36,20
+  text value @65,14645,36,20
+text Return as a length. @17,14677,694,20
+text value @17,14709,694,21
+h3 2.3.4.6 Lists of floating-point numbers @17,14742,694,18
+text A is a number of separated by U+002C COMMA characters, with no other characters (e.g. no ). In addition, there might be restrictions on the number of floating-point numbers that can be given, or on the range of values allowed. @17,14772,694,61
+text valid list of floating-point numbers @17,14845,694,21
+link "valid floating-point numbers" #valid-floating-point-number5 @17,14878,694,20
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,14910,694,20
+text The are as follows: @17,14942,694,21
+text rules for parsing a list of floating-point numbers @17,14975,694,20
+text Let be the string being parsed. @17,15007,694,20
+text input @17,15039,694,20
+text Let be a pointer into , initially pointing at the start of the string. @17,15071,694,21
+row @17,15104,694,20
+  text position @17,15104,53,20
+  text input @82,15104,34,20
+text Let be an initially empty list of floating-point numbers. This list will be the result of this algorithm. @17,15136,694,20
+text numbers @17,15168,694,21
+text that are , U+002C COMMA, or U+003B SEMICOLON characters from given . This skips past any leading delimiters. @17,15201,694,40
+row @17,15253,694,21
+  link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,15253,226,21
+  link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @255,15253,117,21
+  text input @384,15253,34,21
+  text position @430,15253,53,21
+text While is not past the end of : @17,15286,694,20
+row @17,15318,694,20
+  text position @17,15318,53,20
+  text input @82,15318,34,20
+text that are not , U+002C COMMA, U+003B SEMICOLON, , U+002E FULL STOP, or U+002D HYPHEN-MINUS characters from given . This skips past leading garbage. @17,15350,694,41
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,15403,694,20
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,15435,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,15467,694,21
+text input @17,15500,694,20
+text position @17,15532,694,20
+text that are not , U+002C COMMA, or U+003B SEMICOLON characters from given , and let be the result. @17,15564,694,21
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,15597,694,20
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,15629,694,20
+text input @17,15661,694,20
+text position @17,15693,694,21
+text unparsed number @17,15726,694,20
+text Let be the result of parsing using the . @17,15758,694,20
+row @17,15790,694,21
+  text number @17,15790,51,21
+  text unparsed number @80,15790,118,21
+  link "rules for parsing floating-point number values" #rules-for-parsing-floating-point-number-values2 @210,15790,304,21
+text If is an error, set to zero. @17,15823,694,20
+row @17,15855,694,20
+  text number @17,15855,51,20
+  text number @80,15855,51,20
+text Append to . @17,15887,694,21
+row @17,15920,694,20
+  text number @17,15920,51,20
+  text numbers @80,15920,59,20
+text that are , U+002C COMMA, or U+003B SEMICOLON characters from given . This skips past the delimiter. @17,15952,694,40
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,16004,694,21
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,16037,694,20
+text input @17,16069,694,20
+text position @17,16101,694,21
+text Return . @17,16134,694,20
+text numbers @17,16166,694,20
+h3 2.3.4.7 Lists of dimensions @17,16198,694,19
+text The are as follows. These rules return a list of zero or more pairs consisting of a number and a unit, the unit being one of , , and . @17,16229,694,41
+text rules for parsing a list of dimensions @17,16282,694,20
+text percentage @17,16314,694,20
+text relative @17,16346,694,21
+text absolute @17,16379,694,20
+text Let be the string being parsed. @17,16411,694,20
+text raw input @17,16443,694,20
+text If the last character in is a U+002C COMMA character (,), then remove that character from . @17,16475,694,21
+row @17,16508,694,20
+  text raw input @17,16508,62,20
+  text raw input @91,16508,62,20
+text . Let be the resulting list of tokens. @17,16540,694,20
+row @17,16572,694,21
+  link "Split the string raw input on commas" https://infra.spec.whatwg.org/#split-on-commas @17,16572,242,21
+  text raw tokens @271,16572,74,21
+text Let be an empty list of number/unit pairs. @17,16605,694,20
+text result @17,16637,694,20
+text For each token in , run the following substeps: @17,16669,694,21
+text raw tokens @17,16702,694,20
+text Let be the token. @17,16734,694,20
+text input @17,16766,694,20
+text Let be a pointer into , initially pointing at the start of the string. @17,16798,694,21
+row @17,16831,694,20
+  text position @17,16831,53,20
+  text input @82,16831,34,20
+text Let be the number 0. @17,16863,694,20
+text value @17,16895,694,21
+text Let be . @17,16928,694,20
+row @17,16960,694,20
+  text unit @17,16960,25,20
+  text absolute @54,16960,57,20
+text If is past the end of , set to and jump to the last substep. @17,16992,694,21
+row @17,17025,694,20
+  text position @17,17025,53,20
+  text input @82,17025,34,20
+  text unit @128,17025,25,20
+  text relative @165,17025,49,20
+text If the character at is an , that are from given , interpret the resulting sequence as an integer in base ten, and increment by that integer. @17,17057,694,40
+text position @17,17109,694,21
+link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit @17,17142,694,20
+link "collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,17174,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,17206,694,21
+text input @17,17239,694,20
+text position @17,17271,694,20
+text value @17,17303,694,21
+text If the character at is U+002E (.): @17,17336,694,20
+text position @17,17368,694,20
+text consisting of and from given . Let be the resulting sequence. @17,17400,694,20
+row @17,17432,694,21
+  link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,17432,226,21
+  link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @255,17432,117,21
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @384,17432,77,21
+  text input @473,17432,34,21
+  text position @519,17432,53,21
+  text s @584,17432,8,21
+text Remove all in . @17,17465,694,20
+row @17,17497,694,20
+  link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,17497,117,20
+  text s @146,17497,8,20
+text If is not the empty string: @17,17529,694,21
+text s @17,17562,694,20
+text Let be the number of characters in (after the spaces were removed). @17,17594,694,20
+row @17,17626,694,21
+  text length @17,17626,42,21
+  text s @71,17626,8,21
+text Let be the result of interpreting as a base-ten integer, and then dividing that number by . @17,17659,694,20
+row @17,17691,694,20
+  text fraction @17,17691,51,20
+  text s @80,17691,8,20
+  text 10 @100,17691,15,20
+  text length @127,17691,42,20
+text Increment by . @17,17723,694,20
+row @17,17755,694,21
+  text value @17,17755,36,21
+  text fraction @65,17755,51,21
+text within given . @17,17788,694,20
+row @17,17820,694,20
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace @17,17820,149,20
+  text input @178,17820,34,20
+  text position @224,17820,53,20
+text If the character at is a U+0025 PERCENT SIGN character (%), then set to . @17,17852,694,21
+row @17,17885,694,20
+  text position @17,17885,53,20
+  text unit @82,17885,25,20
+  text percentage @119,17885,76,20
+text Otherwise, if the character at is a U+002A ASTERISK character (*), then set to . @17,17917,694,20
+row @17,17949,694,21
+  text position @17,17949,53,21
+  text unit @82,17949,25,21
+  text relative @119,17949,49,21
+text Add an entry to consisting of the number given by and the unit given by . @17,17982,694,20
+row @17,18014,694,20
+  text result @17,18014,38,20
+  text value @67,18014,36,20
+  text unit @115,18014,25,20
+text Return the list . @17,18046,694,20
+text result @17,18078,694,21
+h3 2.3.5 Dates and times @17,18111,694,19
+text In the algorithms below, the is: if is 1, 3, 5, 7, 8, 10, or 12; if is 4, 6, 9, or 11; if is 2 and is a number divisible by 400, or if is a number divisible by 4 but not by 100; and otherwise. This takes into account leap years in the Gregorian calendar. @17,18142,694,60
+text number of days in month of year @17,18214,694,21
+row @17,18247,694,20
+  text month @17,18247,42,20
+  text year @71,18247,30,20
+text 31 @17,18279,694,20
+text month @17,18311,694,21
+text 30 @17,18344,694,20
+text month @17,18376,694,20
+text 29 @17,18408,694,21
+text month @17,18441,694,20
+text year @17,18473,694,20
+text year @17,18505,694,20
+text 28 @17,18537,694,21
+link [GREGORIAN] references.html#refsGREGORIAN @17,18570,694,20
+text When are used in the date and time syntaxes defined in this section, they express numbers in base ten. @17,18602,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,18634,694,21
+text While the formats described here are intended to be subsets of the corresponding ISO8601 formats, this specification defines parsing rules in much more detail than ISO8601. Implementers are therefore encouraged to carefully examine any date parsing libraries before using them to implement the parsing rules described below; ISO8601 libraries might not parse dates and times in exactly the same manner. success @17,18667,694,81
+link [ISO8601] references.html#refsISO8601 @17,18760,694,20
+text Where this specification refers to the , it means the modern Gregorian calendar, extrapolated backwards to year 1. A date in the , sometimes explicitly referred to as a , is one that is described using that calendar even if that calendar was not in use at the time (or place) in question. @17,18792,694,61
+text proleptic Gregorian calendar @17,18865,694,20
+link "proleptic Gregorian calendar" #proleptic-gregorian-calendar @17,18897,694,21
+text proleptic-Gregorian date @17,18930,694,20
+link [GREGORIAN] references.html#refsGREGORIAN @17,18962,694,20
+text The use of the Gregorian calendar as the wire format in this specification is an arbitrary choice resulting from the cultural biases of those involved in the decision. See also the section discussing in forms (for authors), , and the element. success @17,18994,694,61
+link "date, time, and number formats" forms.html#input-author-notes @17,19067,694,20
+link "implementation notes regarding localization of form controls" input.html#input-impl-notes @17,19099,694,21
+link time text-level-semantics.html#the-time-element @17,19132,694,20
+h3 2.3.5.1 Months @17,19164,694,19
+text A consists of a specific with no time-zone information and no date information beyond a year and a month. @17,19195,694,40
+text month @17,19247,694,21
+link "proleptic-Gregorian date" #proleptic-gregorian-date @17,19280,694,20
+link [GREGORIAN] references.html#refsGREGORIAN @17,19312,694,20
+text A string is a representing a year and month if it consists of the following components in the given order: @17,19344,694,21
+row @17,19377,694,20
+  text valid month string @17,19377,119,20
+  text year @148,19377,30,20
+  text month @190,19377,42,20
+text Four or more , representing , where > 0 @17,19409,694,20
+row @17,19441,694,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,19441,77,20
+  text year @106,19441,30,20
+  text year @148,19441,30,20
+text A U+002D HYPHEN-MINUS character (-) @17,19473,694,21
+text Two , representing the month , in the range 1 ≤ ≤ 12 @17,19506,694,20
+row @17,19538,694,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,19538,77,20
+  text month @106,19538,42,20
+  text month @160,19538,42,20
+text The rules to  are as follows. This will return either a year and month, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,19570,694,41
+text parse a month string @17,19623,694,20
+text Let be the string being parsed. @17,19655,694,21
+text input @17,19688,694,20
+text Let be a pointer into , initially pointing at the start of the string. @17,19720,694,20
+row @17,19752,694,21
+  text position @17,19752,53,21
+  text input @82,19752,34,21
+text to obtain and . If this returns nothing, then fail. @17,19785,694,20
+row @17,19817,694,20
+  link "Parse a month component" #parse-a-month-component @17,19817,174,20
+  text year @203,19817,30,20
+  text month @245,19817,42,20
+text If is beyond the end of , then fail. @17,19849,694,20
+row @17,19881,694,21
+  text position @17,19881,53,21
+  text not @82,19881,22,21
+  text input @116,19881,34,21
+text Return and . @17,19914,694,20
+row @17,19946,694,20
+  text year @17,19946,30,20
+  text month @59,19946,42,20
+text The rules to , given an  string and a , are as follows. This will return either a year and a month, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,19978,694,61
+row @17,20051,694,21
+  text parse a month component @17,20051,174,21
+  text input @203,20051,34,21
+  text position @249,20051,53,21
+text that are from given . If the collected sequence is not at least four characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let be that number. @17,20084,694,40
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,20136,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,20168,694,21
+text input @17,20201,694,20
+text position @17,20233,694,20
+text year @17,20265,694,21
+text If is not a number greater than zero, then fail. @17,20298,694,20
+text year @17,20330,694,20
+text If is beyond the end of or if the character at is not a U+002D HYPHEN-MINUS character, then fail. Otherwise, move forwards one character. @17,20362,694,41
+text position @17,20415,694,20
+text input @17,20447,694,20
+text position @17,20479,694,21
+text position @17,20512,694,20
+text that are from given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let be that number. @17,20544,694,41
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,20597,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,20629,694,20
+text input @17,20661,694,21
+text position @17,20694,694,20
+text month @17,20726,694,20
+text If is not a number in the range 1 ≤ ≤ 12, then fail. @17,20758,694,20
+row @17,20790,694,21
+  text month @17,20790,42,21
+  text month @71,20790,42,21
+text Return and . @17,20823,694,20
+row @17,20855,694,20
+  text year @17,20855,30,20
+  text month @59,20855,42,20
+h3 2.3.5.2 Dates @17,20887,694,19
+text A consists of a specific with no time-zone information, consisting of a year, a month, and a day. @17,20918,694,20
+row @17,20950,694,21
+  text date @17,20950,30,21
+  link "proleptic-Gregorian date" #proleptic-gregorian-date2 @59,20950,164,21
+  link [GREGORIAN] references.html#refsGREGORIAN @235,20950,93,21
+text A string is a representing a year , month , and day if it consists of the following components in the given order: @17,20983,694,40
+row @17,21035,694,21
+  text valid date string @17,21035,106,21
+  text year @135,21035,30,21
+  text month @177,21035,42,21
+  text day @231,21035,25,21
+text A , representing and @17,21068,694,20
+row @17,21100,694,20
+  link "valid month string" #valid-month-string @17,21100,119,20
+  text year @148,21100,30,20
+  text month @190,21100,42,20
+text A U+002D HYPHEN-MINUS character (-) @17,21132,694,20
+text Two , representing , in the range 1 ≤ ≤ where is the @17,21164,694,21
+row @17,21197,694,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,21197,77,20
+  text day @106,21197,25,20
+  text day @143,21197,25,20
+  text maxday @180,21197,53,20
+  text maxday @245,21197,53,20
+  link "number of days in the month month and year year" #number-of-days-in-month-month-of-year-year @310,21197,331,20
+text The rules to  are as follows. This will return either a date, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,21229,694,41
+text parse a date string @17,21282,694,20
+text Let be the string being parsed. @17,21314,694,20
+text input @17,21346,694,21
+text Let be a pointer into , initially pointing at the start of the string. @17,21379,694,20
+row @17,21411,694,20
+  text position @17,21411,53,20
+  text input @82,21411,34,20
+text to obtain , , and . If this returns nothing, then fail. @17,21443,694,20
+row @17,21475,694,21
+  link "Parse a date component" #parse-a-date-component @17,21475,162,21
+  text year @191,21475,30,21
+  text month @233,21475,42,21
+  text day @287,21475,25,21
+text If is beyond the end of , then fail. @17,21508,694,20
+row @17,21540,694,20
+  text position @17,21540,53,20
+  text not @82,21540,22,20
+  text input @116,21540,34,20
+text Let be the date with year , month , and day . @17,21572,694,21
+row @17,21605,694,20
+  text date @17,21605,30,20
+  text year @59,21605,30,20
+  text month @101,21605,42,20
+  text day @155,21605,25,20
+text Return . @17,21637,694,20
+text date @17,21669,694,21
+text The rules to , given an  string and a , are as follows. This will return either a year, a month, and a day, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,21702,694,60
+row @17,21774,694,21
+  text parse a date component @17,21774,162,21
+  text input @191,21774,34,21
+  text position @237,21774,53,21
+text to obtain and . If this returns nothing, then fail. @17,21807,694,20
+row @17,21839,694,20
+  link "Parse a month component" #parse-a-month-component2 @17,21839,174,20
+  text year @203,21839,30,20
+  text month @245,21839,42,20
+text Let be the . @17,21871,694,21
+row @17,21904,694,20
+  text maxday @17,21904,53,20
+  link "number of days in month month of year year" #number-of-days-in-month-month-of-year-year2 @82,21904,295,20
+text If is beyond the end of or if the character at is not a U+002D HYPHEN-MINUS character, then fail. Otherwise, move forwards one character. @17,21936,694,41
+text position @17,21989,694,20
+text input @17,22021,694,20
+text position @17,22053,694,20
+text position @17,22085,694,21
+text that are from given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let be that number. @17,22118,694,40
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,22170,694,21
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,22203,694,20
+text input @17,22235,694,20
+text position @17,22267,694,21
+text day @17,22300,694,20
+text If is not a number in the range 1 ≤ ≤ , then fail. @17,22332,694,20
+row @17,22364,694,21
+  text day @17,22364,25,21
+  text day @54,22364,25,21
+  text maxday @91,22364,53,21
+text Return , , and . @17,22397,694,20
+row @17,22429,694,20
+  text year @17,22429,30,20
+  text month @59,22429,42,20
+  text day @113,22429,25,20
+h3 2.3.5.3 Yearless dates @17,22461,694,19
+text A consists of a Gregorian month and a day within that month, but with no associated year. @17,22492,694,20
+row @17,22524,694,20
+  text yearless date @17,22524,89,20
+  link [GREGORIAN] references.html#refsGREGORIAN @118,22524,93,20
+text A string is a representing a month and a day if it consists of the following components in the given order: @17,22556,694,21
+row @17,22589,694,20
+  text valid yearless date string @17,22589,166,20
+  text month @195,22589,42,20
+  text day @249,22589,25,20
+text Optionally, two U+002D HYPHEN-MINUS characters (-) @17,22621,694,20
+text Two , representing the month , in the range 1 ≤ ≤ 12 @17,22653,694,21
+row @17,22686,694,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,22686,77,20
+  text month @106,22686,42,20
+  text month @160,22686,42,20
+text A U+002D HYPHEN-MINUS character (-) @17,22718,694,20
+text Two , representing , in the range 1 ≤ ≤ where is the in the month and any arbitrary leap year (e.g. 4 or 2000) @17,22750,694,41
+row @17,22803,694,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,22803,77,20
+  text day @106,22803,25,20
+  text day @143,22803,25,20
+  text maxday @180,22803,53,20
+  text maxday @245,22803,53,20
+  link "number of days" #number-of-days-in-month-month-of-year-year3 @310,22803,104,20
+  text month @426,22803,42,20
+text In other words, if the  is "", meaning February, then the day can be 29, as if the year was a leap year. success @17,22835,694,20
+row @17,22867,694,21
+  text month success @17,22867,42,21
+  text 02 @71,22867,18,21
+text The rules to  are as follows. This will return either a month and a day, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,22900,694,40
+text parse a yearless date string @17,22952,694,21
+text Let be the string being parsed. @17,22985,694,20
+text input @17,23017,694,20
+text Let be a pointer into , initially pointing at the start of the string. @17,23049,694,21
+row @17,23082,694,20
+  text position @17,23082,53,20
+  text input @82,23082,34,20
+text to obtain and . If this returns nothing, then fail. @17,23114,694,20
+row @17,23146,694,20
+  link "Parse a yearless date component" #parse-a-yearless-date-component @17,23146,221,20
+  text month @250,23146,42,20
+  text day @304,23146,25,20
+text If is beyond the end of , then fail. @17,23178,694,21
+row @17,23211,694,20
+  text position @17,23211,53,20
+  text not @82,23211,22,20
+  text input @116,23211,34,20
+text Return and . @17,23243,694,20
+row @17,23275,694,21
+  text month @17,23275,42,21
+  text day @71,23275,25,21
+text The rules to , given an  string and a , are as follows. This will return either a month and a day, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,23308,694,61
+row @17,23381,694,20
+  text parse a yearless date component @17,23381,221,20
+  text input @250,23381,34,20
+  text position @296,23381,53,20
+text that are U+002D HYPHEN-MINUS characters (-) from given . If the collected sequence is not exactly zero or two characters long, then fail. @17,23413,694,40
+row @17,23465,694,21
+  link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,23465,226,21
+  text input @255,23465,34,21
+  text position @301,23465,53,21
+text that are from given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let be that number. @17,23498,694,40
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,23550,694,21
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,23583,694,20
+text input @17,23615,694,20
+text position @17,23647,694,21
+text month @17,23680,694,20
+text If is not a number in the range 1 ≤ ≤ 12, then fail. @17,23712,694,20
+row @17,23744,694,20
+  text month @17,23744,42,20
+  text month @71,23744,42,20
+text Let be the in month of any arbitrary leap year (e.g. 4 or 2000). @17,23776,694,21
+row @17,23809,694,20
+  text maxday @17,23809,53,20
+  link "number of days" #number-of-days-in-month-month-of-year-year4 @82,23809,104,20
+  text month @198,23809,42,20
+text If is beyond the end of or if the character at is not a U+002D HYPHEN-MINUS character, then fail. Otherwise, move forwards one character. @17,23841,694,41
+text position @17,23894,694,20
+text input @17,23926,694,20
+text position @17,23958,694,21
+text position @17,23991,694,20
+text that are from given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let be that number. @17,24023,694,40
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,24075,694,21
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,24108,694,20
+text input @17,24140,694,20
+text position @17,24172,694,21
+text day @17,24205,694,20
+text If is not a number in the range 1 ≤ ≤ , then fail. @17,24237,694,20
+row @17,24269,694,21
+  text day @17,24269,25,21
+  text day @54,24269,25,21
+  text maxday @91,24269,53,21
+text Return and . @17,24302,694,20
+row @17,24334,694,20
+  text month @17,24334,42,20
+  text day @71,24334,25,20
+h3 2.3.5.4 Times @17,24366,694,19
+text A consists of a specific time with no time-zone information, consisting of an hour, a minute, a second, and a fraction of a second. @17,24397,694,41
+text time @17,24450,694,20
+text A string is a representing an hour , a minute , and a second if it consists of the following components in the given order: @17,24482,694,40
+row @17,24534,694,21
+  text valid time string @17,24534,105,21
+  text hour @134,24534,31,21
+  text minute @177,24534,45,21
+  text second @234,24534,49,21
+text Two , representing , in the range 0 ≤ ≤ 23 @17,24567,694,20
+row @17,24599,694,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,24599,77,20
+  text hour @106,24599,31,20
+  text hour @149,24599,31,20
+text A U+003A COLON character (:) @17,24631,694,21
+text Two , representing , in the range 0 ≤ ≤ 59 @17,24664,694,20
+row @17,24696,694,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,24696,77,20
+  text minute @106,24696,45,20
+  text minute @163,24696,45,20
+text If is nonzero, or optionally if is zero: @17,24728,694,21
+text second @17,24761,694,20
+text second @17,24793,694,20
+text A U+003A COLON character (:) @17,24825,694,20
+text Two , representing the integer part of , in the range 0 ≤ ≤ 59 @17,24857,694,21
+row @17,24890,694,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,24890,77,20
+  text second @106,24890,49,20
+  text s @167,24890,8,20
+text If is not an integer, or optionally if is an integer: @17,24922,694,20
+text second @17,24954,694,21
+text second @17,24987,694,20
+text A U+002E FULL STOP character (.) @17,25019,694,20
+text One, two, or three , representing the fractional part of @17,25051,694,21
+row @17,25084,694,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,25084,77,20
+  text second @106,25084,49,20
+text The component cannot be 60 or 61; leap seconds cannot be represented. success @17,25116,694,20
+text second success @17,25148,694,20
+text The rules to  are as follows. This will return either a time, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,25180,694,41
+text parse a time string @17,25233,694,20
+text Let be the string being parsed. @17,25265,694,21
+text input @17,25298,694,20
+text Let be a pointer into , initially pointing at the start of the string. @17,25330,694,20
+row @17,25362,694,21
+  text position @17,25362,53,21
+  text input @82,25362,34,21
+text to obtain , , and . If this returns nothing, then fail. @17,25395,694,20
+row @17,25427,694,20
+  link "Parse a time component" #parse-a-time-component @17,25427,161,20
+  text hour @190,25427,31,20
+  text minute @233,25427,45,20
+  text second @290,25427,49,20
+text If is beyond the end of , then fail. @17,25459,694,20
+row @17,25491,694,21
+  text position @17,25491,53,21
+  text not @82,25491,22,21
+  text input @116,25491,34,21
+text Let be the time with hour , minute , and second . @17,25524,694,20
+row @17,25556,694,20
+  text time @17,25556,29,20
+  text hour @58,25556,31,20
+  text minute @101,25556,45,20
+  text second @158,25556,49,20
+text Return . @17,25588,694,21
+text time @17,25621,694,20
+text The rules to , given an  string and a , are as follows. This will return either an hour, a minute, and a second, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,25653,694,61
+row @17,25726,694,20
+  text parse a time component @17,25726,161,20
+  text input @190,25726,34,20
+  text position @236,25726,53,20
+text that are from given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let be that number. @17,25758,694,41
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,25811,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,25843,694,20
+text input @17,25875,694,21
+text position @17,25908,694,20
+text hour @17,25940,694,20
+text If is not a number in the range 0 ≤ ≤ 23, then fail. @17,25972,694,21
+row @17,26005,694,20
+  text hour @17,26005,31,20
+  text hour @60,26005,31,20
+text If is beyond the end of or if the character at is not a U+003A COLON character, then fail. Otherwise, move forwards one character. @17,26037,694,40
+row @17,26089,694,21
+  text position @17,26089,53,21
+  text input @82,26089,34,21
+  text position @128,26089,53,21
+  text position @193,26089,53,21
+text that are from given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let be that number. @17,26122,694,40
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,26174,694,21
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,26207,694,20
+text input @17,26239,694,20
+text position @17,26271,694,21
+text minute @17,26304,694,20
+text If is not a number in the range 0 ≤ ≤ 59, then fail. @17,26336,694,20
+row @17,26368,694,20
+  text minute @17,26368,45,20
+  text minute @74,26368,45,20
+text Let be 0. @17,26400,694,21
+text second @17,26433,694,20
+text If is not beyond the end of and the character at is U+003A (:): @17,26465,694,20
+row @17,26497,694,21
+  text position @17,26497,53,21
+  text input @82,26497,34,21
+  text position @128,26497,53,21
+text Advance to the next character in . @17,26530,694,20
+row @17,26562,694,20
+  text position @17,26562,53,20
+  text input @82,26562,34,20
+text If is beyond the end of , or at the last character in , or if the next characters in starting at are not both , then fail. @17,26594,694,41
+text position @17,26647,694,20
+text input @17,26679,694,20
+text input @17,26711,694,21
+text two @17,26744,694,20
+text input @17,26776,694,20
+text position @17,26808,694,21
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,26841,694,20
+text that are either or U+002E FULL STOP characters from given . If the collected sequence is three characters long, or if it is longer than three characters long and the third character is not a U+002E FULL STOP character, or if it has more than one U+002E FULL STOP character, then fail. Otherwise, interpret the resulting sequence as a base-ten number (possibly with a fractional part). Set to that number. @17,26873,694,81
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,26966,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,26998,694,21
+text input @17,27031,694,20
+text position @17,27063,694,20
+text second @17,27095,694,21
+text If is not a number in the range 0 ≤ < 60, then fail. @17,27128,694,20
+row @17,27160,694,20
+  text second @17,27160,49,20
+  text second @78,27160,49,20
+text Return , , and . @17,27192,694,21
+row @17,27225,694,20
+  text hour @17,27225,31,20
+  text minute @60,27225,45,20
+  text second @117,27225,49,20
+h3 2.3.5.5 Local dates and times @17,27257,694,19
+text A consists of a specific , consisting of a year, a month, and a day, and a time, consisting of an hour, a minute, a second, and a fraction of a second, but expressed without a time zone. @17,27288,694,40
+text local date and time @17,27340,694,21
+link "proleptic-Gregorian date" #proleptic-gregorian-date3 @17,27373,694,20
+link [GREGORIAN] references.html#refsGREGORIAN @17,27405,694,20
+text A string is a representing a date and time if it consists of the following components in the given order: @17,27437,694,20
+text valid local date and time string @17,27469,694,21
+text A representing the date @17,27502,694,20
+link "valid date string" #valid-date-string @17,27534,694,20
+text A U+0054 LATIN CAPITAL LETTER T character (T) or a U+0020 SPACE character @17,27566,694,21
+text A representing the time @17,27599,694,20
+link "valid time string" #valid-time-string @17,27631,694,20
+text A string is a representing a date and time if it consists of the following components in the given order: @17,27663,694,21
+text valid normalized local date and time string @17,27696,694,20
+text A representing the date @17,27728,694,20
+link "valid date string" #valid-date-string2 @17,27760,694,20
+text A U+0054 LATIN CAPITAL LETTER T character (T) @17,27792,694,21
+text A representing the time, expressed as the shortest possible string for the given time (e.g. omitting the seconds component entirely if the given time is zero seconds past the minute) @17,27825,694,40
+link "valid time string" #valid-time-string2 @17,27877,694,21
+text The rules to  are as follows. This will return either a date and time, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,27910,694,40
+text parse a local date and time string @17,27962,694,21
+text Let be the string being parsed. @17,27995,694,20
+text input @17,28027,694,20
+text Let be a pointer into , initially pointing at the start of the string. @17,28059,694,20
+row @17,28091,694,21
+  text position @17,28091,53,21
+  text input @82,28091,34,21
+text to obtain , , and . If this returns nothing, then fail. @17,28124,694,20
+row @17,28156,694,20
+  link "Parse a date component" #parse-a-date-component2 @17,28156,162,20
+  text year @191,28156,30,20
+  text month @233,28156,42,20
+  text day @287,28156,25,20
+text If is beyond the end of or if the character at is neither a U+0054 LATIN CAPITAL LETTER T character (T) nor a U+0020 SPACE character, then fail. Otherwise, move forwards one character. @17,28188,694,41
+text position @17,28241,694,20
+text input @17,28273,694,21
+text position @17,28306,694,20
+text position @17,28338,694,20
+text to obtain , , and . If this returns nothing, then fail. @17,28370,694,20
+row @17,28402,694,21
+  link "Parse a time component" #parse-a-time-component2 @17,28402,161,21
+  text hour @190,28402,31,21
+  text minute @233,28402,45,21
+  text second @290,28402,49,21
+text If is beyond the end of , then fail. @17,28435,694,20
+row @17,28467,694,20
+  text position @17,28467,53,20
+  text not @82,28467,22,20
+  text input @116,28467,34,20
+text Let be the date with year , month , and day . @17,28499,694,21
+row @17,28532,694,20
+  text date @17,28532,30,20
+  text year @59,28532,30,20
+  text month @101,28532,42,20
+  text day @155,28532,25,20
+text Let be the time with hour , minute , and second . @17,28564,694,20
+row @17,28596,694,21
+  text time @17,28596,29,21
+  text hour @58,28596,31,21
+  text minute @101,28596,45,21
+  text second @158,28596,49,21
+text Return and . @17,28629,694,20
+row @17,28661,694,20
+  text date @17,28661,30,20
+  text time @59,28661,29,20
+h3 2.3.5.6 Time zones @17,28693,694,19
+text A consists of a signed number of hours and minutes. @17,28724,694,20
+text time-zone offset @17,28756,694,21
+text A string is a representing a time-zone offset if it consists of either: @17,28789,694,20
+text valid time-zone offset string @17,28821,694,20
+text A U+005A LATIN CAPITAL LETTER Z character (Z), allowed only if the time zone is UTC @17,28853,694,20
+text Or, the following components, in the given order: @17,28885,694,21
+text Either a U+002B PLUS SIGN character (+) or, if the time-zone offset is not zero, a U+002D HYPHEN-MINUS character (-), representing the sign of the time-zone offset @17,28918,694,40
+text Two , representing the hours component of the time-zone offset, in the range 0 ≤ ≤ 23 @17,28970,694,21
+row @17,29003,694,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,29003,77,20
+  text hour @106,29003,31,20
+  text hour @149,29003,31,20
+text Optionally, a U+003A COLON character (:) @17,29035,694,20
+text Two , representing the minutes component of the time-zone offset, in the range 0 ≤ ≤ 59 @17,29067,694,21
+row @17,29100,694,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,29100,77,20
+  text minute @106,29100,45,20
+  text minute @163,29100,45,20
+text This format allows for time-zone offsets from -23:59 to +23:59. Right now, in practice, the range of offsets of actual time zones is -12:00 to +14:00, and the minutes component of offsets of actual time zones is always either 00, 30, or 45. There is no guarantee that this will remain so forever, however, since time zones are used as political footballs and are thus subject to very whimsical policy decisions. success @17,29132,694,81
+text See also the usage notes and examples in the section below for details on using time-zone offsets with historical times that predate the formation of formal time zones. success @17,29225,694,41
+link "global date and time" #concept-datetime @17,29278,694,20
+text The rules to  are as follows. This will return either a time-zone offset, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,29310,694,41
+text parse a time-zone offset string @17,29363,694,20
+text Let be the string being parsed. @17,29395,694,20
+text input @17,29427,694,20
+text Let be a pointer into , initially pointing at the start of the string. @17,29459,694,21
+row @17,29492,694,20
+  text position @17,29492,53,20
+  text input @82,29492,34,20
+text to obtain and . If this returns nothing, then fail. @17,29524,694,20
+row @17,29556,694,21
+  link "Parse a time-zone offset component" #parse-a-time-zone-offset-component @17,29556,243,21
+  text timezonehours @272,29556,99,21
+  text timezoneminutes @383,29556,114,21
+text If is beyond the end of , then fail. @17,29589,694,20
+row @17,29621,694,20
+  text position @17,29621,53,20
+  text not @82,29621,22,20
+  text input @116,29621,34,20
+text Return the time-zone offset that is hours and minutes from UTC. @17,29653,694,21
+row @17,29686,694,20
+  text timezonehours @17,29686,99,20
+  text timezoneminutes @128,29686,114,20
+text The rules to , given an  string and a , are as follows. This will return either time-zone hours and time-zone minutes, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,29718,694,61
+row @17,29791,694,20
+  text parse a time-zone offset component @17,29791,243,20
+  text input @272,29791,34,20
+  text position @318,29791,53,20
+text If the character at is a U+005A LATIN CAPITAL LETTER Z character (Z): @17,29823,694,20
+text position @17,29855,694,21
+text Let be 0. @17,29888,694,20
+text timezonehours @17,29920,694,20
+text Let be 0. @17,29952,694,21
+text timezoneminutes @17,29985,694,20
+text Advance to the next character in . @17,30017,694,20
+row @17,30049,694,20
+  text position @17,30049,53,20
+  text input @82,30049,34,20
+text Otherwise, if the character at is either a U+002B PLUS SIGN (+) or a U+002D HYPHEN-MINUS (-): @17,30081,694,21
+text position @17,30114,694,20
+text If the character at  is a U+002B PLUS SIGN (+), let  be "positive". Otherwise, it's a U+002D HYPHEN-MINUS (-); let  be "negative". @17,30146,694,41
+row @17,30199,694,20
+  text position @17,30199,53,20
+  text sign @82,30199,28,20
+  text sign @122,30199,28,20
+text Advance to the next character in . @17,30231,694,20
+row @17,30263,694,21
+  text position @17,30263,53,21
+  text input @82,30263,34,21
+text that are from given . Let be the collected sequence. @17,30296,694,20
+row @17,30328,694,20
+  link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,30328,226,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @255,30328,77,20
+  text input @344,30328,34,20
+  text position @390,30328,53,20
+  text s @455,30328,8,20
+text If is exactly two characters long: @17,30360,694,20
+text s @17,30392,694,21
+text Interpret as a base-ten integer. Let be that number. @17,30425,694,20
+row @17,30457,694,20
+  text s @17,30457,8,20
+  text timezonehours @37,30457,99,20
+text If is beyond the end of or if the character at is not a U+003A COLON character, then fail. Otherwise, move forwards one character. @17,30489,694,41
+text position @17,30542,694,20
+text input @17,30574,694,21
+text position @17,30607,694,20
+text position @17,30639,694,20
+text that are from given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let be that number. @17,30671,694,41
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,30724,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,30756,694,20
+text input @17,30788,694,21
+text position @17,30821,694,20
+text timezoneminutes @17,30853,694,20
+text If is exactly four characters long: @17,30885,694,21
+text s @17,30918,694,20
+text Interpret the first two characters of as a base-ten integer. Let be that number. @17,30950,694,20
+row @17,30982,694,20
+  text s @17,30982,8,20
+  text timezonehours @37,30982,99,20
+text Interpret the last two characters of as a base-ten integer. Let be that number. @17,31014,694,21
+row @17,31047,694,20
+  text s @17,31047,8,20
+  text timezoneminutes @37,31047,114,20
+text Otherwise, fail. @17,31079,694,20
+text If is not a number in the range 0 ≤ ≤ 23, then fail. @17,31111,694,21
+row @17,31144,694,20
+  text timezonehours @17,31144,99,20
+  text timezonehours @128,31144,99,20
+text If  is "negative", then negate . @17,31176,694,20
+row @17,31208,694,21
+  text sign @17,31208,28,21
+  text timezonehours @57,31208,99,21
+text If is not a number in the range 0 ≤ ≤ 59, then fail. @17,31241,694,20
+row @17,31273,694,20
+  text timezoneminutes @17,31273,114,20
+  text timezoneminutes @143,31273,114,20
+text If  is "negative", then negate . @17,31305,694,20
+row @17,31337,694,21
+  text sign @17,31337,28,21
+  text timezoneminutes @57,31337,114,21
+text Otherwise, fail. @17,31370,694,20
+text Return and . @17,31402,694,20
+row @17,31434,694,21
+  text timezonehours @17,31434,99,21
+  text timezoneminutes @128,31434,114,21
+h3 2.3.5.7 Global dates and times @17,31467,694,18
+text A consists of a specific , consisting of a year, a month, and a day, and a time, consisting of an hour, a minute, a second, and a fraction of a second, expressed with a time-zone offset, consisting of a signed number of hours and minutes. @17,31497,694,61
+text global date and time @17,31570,694,21
+link "proleptic-Gregorian date" #proleptic-gregorian-date4 @17,31603,694,20
+link [GREGORIAN] references.html#refsGREGORIAN @17,31635,694,20
+text A string is a representing a date, time, and a time-zone offset if it consists of the following components in the given order: @17,31667,694,41
+text valid global date and time string @17,31720,694,20
+text A representing the date @17,31752,694,20
+link "valid date string" #valid-date-string3 @17,31784,694,21
+text A U+0054 LATIN CAPITAL LETTER T character (T) or a U+0020 SPACE character @17,31817,694,20
+text A representing the time @17,31849,694,20
+link "valid time string" #valid-time-string3 @17,31881,694,21
+text A representing the time-zone offset @17,31914,694,20
+link "valid time-zone offset string" #valid-time-zone-offset-string @17,31946,694,20
+text Times in dates before the formation of UTC in the mid-twentieth century must be expressed and interpreted in terms of UT1 (contemporary Earth solar time at the 0° longitude), not UTC (the approximation of UT1 that ticks in SI seconds). Time before the formation of time zones must be expressed and interpreted as UT1 times with explicit time zones that approximate the contemporary difference between the appropriate local time and the time observed at the location of Greenwich, London. @17,31978,694,122
+text The following are some examples of dates written as . @17,32112,694,20
+link "valid global date and time strings" #valid-global-date-and-time-string @17,32144,694,21
+text "0037-12-13 00:00Z" @17,32177,694,20
+text Midnight in areas using London time on the birthday of Nero (the Roman Emperor). See below for further discussion on which date this actually corresponds to. @17,32209,694,41
+text "1979-10-14T12:00:00.001-04:00" @17,32262,694,20
+text One millisecond after noon on October 14th 1979, in the time zone in use on the east coast of the USA during daylight saving time. @17,32294,694,40
+text "8592-01-01T02:09+02:09" @17,32346,694,21
+text Midnight UTC on the 1st of January, 8592. The time zone associated with that time is two hours and nine minutes ahead of UTC, which is not currently a real time zone, but is nonetheless allowed. @17,32379,694,40
+text Several things are notable about these dates: @17,32431,694,21
+text Years with fewer than four digits have to be zero-padded. The date "37-12-13" would not be a valid date. @17,32464,694,40
+text If the "T" is replaced by a space, it must be a single space character. The string "2001-12-21 12:00Z" (with two spaces between the components) would not be parsed successfully. @17,32516,694,41
+text To unambiguously identify a moment in time prior to the introduction of the Gregorian calendar (insofar as moments in time before the formation of UTC can be unambiguously identified), the date has to be first converted to the Gregorian calendar from the calendar in use at the time (e.g. from the Julian calendar). The date of Nero's birth is the 15th of December 37, in the Julian Calendar, which is the 13th of December 37 in the . @17,32569,694,101
+link "proleptic Gregorian calendar" #proleptic-gregorian-calendar2 @17,32682,694,21
+text The time and time-zone offset components are not optional. @17,32715,694,20
+text Dates before the year one can't be represented as a datetime in this version of HTML. @17,32747,694,20
+text Times of specific events in ancient times are, at best, approximations, since time was not well coordinated or measured until relatively recent decades. @17,32779,694,41
+text Time-zone offsets differ based on daylight saving time. @17,32832,694,20
+text The rules to  are as follows. This will return either a time in UTC, with associated time-zone offset information for roundtripping or display purposes, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,32864,694,61
+text parse a global date and time string @17,32937,694,20
+text Let be the string being parsed. @17,32969,694,21
+text input @17,33002,694,20
+text Let be a pointer into , initially pointing at the start of the string. @17,33034,694,20
+row @17,33066,694,21
+  text position @17,33066,53,21
+  text input @82,33066,34,21
+text to obtain , , and . If this returns nothing, then fail. @17,33099,694,20
+row @17,33131,694,20
+  link "Parse a date component" #parse-a-date-component3 @17,33131,162,20
+  text year @191,33131,30,20
+  text month @233,33131,42,20
+  text day @287,33131,25,20
+text If is beyond the end of or if the character at is neither a U+0054 LATIN CAPITAL LETTER T character (T) nor a U+0020 SPACE character, then fail. Otherwise, move forwards one character. @17,33163,694,41
+text position @17,33216,694,20
+text input @17,33248,694,20
+text position @17,33280,694,21
+text position @17,33313,694,20
+text to obtain , , and . If this returns nothing, then fail. @17,33345,694,20
+row @17,33377,694,21
+  link "Parse a time component" #parse-a-time-component3 @17,33377,161,21
+  text hour @190,33377,31,21
+  text minute @233,33377,45,21
+  text second @290,33377,49,21
+text If is beyond the end of , then fail. @17,33410,694,20
+row @17,33442,694,20
+  text position @17,33442,53,20
+  text input @82,33442,34,20
+text to obtain and . If this returns nothing, then fail. @17,33474,694,20
+row @17,33506,694,21
+  link "Parse a time-zone offset component" #parse-a-time-zone-offset-component2 @17,33506,243,21
+  text timezonehours @272,33506,99,21
+  text timezoneminutes @383,33506,114,21
+text If is beyond the end of , then fail. @17,33539,694,20
+row @17,33571,694,20
+  text position @17,33571,53,20
+  text not @82,33571,22,20
+  text input @116,33571,34,20
+text Let be the moment in time at year , month , day , hours , minute , second , subtracting hours and minutes. That moment in time is a moment in the UTC time zone. @17,33603,694,41
+text time @17,33656,694,20
+text year @17,33688,694,21
+text month @17,33721,694,20
+text day @17,33753,694,20
+text hour @17,33785,694,20
+text minute @17,33817,694,21
+text second @17,33850,694,20
+text timezonehours @17,33882,694,20
+text timezoneminutes @17,33914,694,21
+text Let be hours and minutes from UTC. @17,33947,694,20
+row @17,33979,694,20
+  text timezone @17,33979,61,20
+  text timezonehours @90,33979,99,20
+  text timezoneminutes @201,33979,114,20
+text Return and . @17,34011,694,21
+row @17,34044,694,20
+  text time @17,34044,29,20
+  text timezone @58,34044,61,20
+h3 2.3.5.8 Weeks @17,34076,694,19
+text A consists of a week-year number and a week number representing a seven-day period starting on a Monday. Each week-year in this calendaring system has either 52 or 53 such seven-day periods, as defined below. The seven-day period starting on the Gregorian date Monday December 29th 1969 (1969-12-29) is defined as week number 1 in week-year 1970. Consecutive weeks are numbered sequentially. The week before the number 1 week in a week-year is the last week in the previous week-year, and vice versa. @17,34107,694,121
+text week @17,34240,694,21
+link [GREGORIAN] references.html#refsGREGORIAN @17,34273,694,20
+text A week-year with a number has 53 weeks if it corresponds to either a year in the that has a Thursday as its first day (January 1st), or a year in the that has a Wednesday as its first day (January 1st) and where is a number divisible by 400, or a number divisible by 4 but not by 100. All other week-years have 52 weeks. @17,34305,694,81
+text year @17,34398,694,21
+text year @17,34431,694,20
+link "proleptic Gregorian calendar" #proleptic-gregorian-calendar3 @17,34463,694,20
+text year @17,34495,694,20
+link "proleptic Gregorian calendar" #proleptic-gregorian-calendar4 @17,34527,694,21
+text year @17,34560,694,20
+text The of a week-year with 53 weeks is 53; the week number of the last day of a week-year with 52 weeks is 52. @17,34592,694,41
+text week number of the last day @17,34645,694,20
+text The week-year number of a particular day can be different than the number of the year that contains that day in the . The first week in a week-year is the week that contains the first Thursday of the Gregorian year . success @17,34677,694,61
+link "proleptic Gregorian calendar" #proleptic-gregorian-calendar5 @17,34750,694,20
+text y success @17,34782,694,20
+text y success @17,34814,694,21
+text For modern purposes, a as defined here is equivalent to ISO weeks as defined in ISO 8601. success @17,34847,694,20
+row @17,34879,694,20
+  link week #concept-week @17,34879,36,20
+  link [ISO8601] references.html#refsISO8601 @65,34879,66,20
+text A string is a representing a week-year and week if it consists of the following components in the given order: @17,34911,694,41
+row @17,34964,694,20
+  text valid week string @17,34964,112,20
+  text year @141,34964,30,20
+  text week @183,34964,36,20
+text Four or more , representing , where > 0 @17,34996,694,21
+row @17,35029,694,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,35029,77,20
+  text year @106,35029,30,20
+  text year @148,35029,30,20
+text A U+002D HYPHEN-MINUS character (-) @17,35061,694,20
+text A U+0057 LATIN CAPITAL LETTER W character (W) @17,35093,694,20
+text Two , representing the week , in the range 1 ≤ ≤ , where is the of week-year @17,35125,694,21
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,35158,694,20
+text week @17,35190,694,20
+text week @17,35222,694,21
+text maxweek @17,35255,694,20
+text maxweek @17,35287,694,20
+link "week number of the last day" #week-number-of-the-last-day @17,35319,694,21
+text year @17,35352,694,20
+text The rules to  are as follows. This will return either a week-year number and week number, or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,35384,694,61
+text parse a week string @17,35457,694,20
+text Let be the string being parsed. @17,35489,694,20
+text input @17,35521,694,21
+text Let be a pointer into , initially pointing at the start of the string. @17,35554,694,20
+row @17,35586,694,20
+  text position @17,35586,53,20
+  text input @82,35586,34,20
+text that are from given . If the collected sequence is not at least four characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let be that number. @17,35618,694,41
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,35671,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,35703,694,20
+text input @17,35735,694,21
+text position @17,35768,694,20
+text year @17,35800,694,20
+text If is not a number greater than zero, then fail. @17,35832,694,21
+text year @17,35865,694,20
+text If is beyond the end of or if the character at is not a U+002D HYPHEN-MINUS character, then fail. Otherwise, move forwards one character. @17,35897,694,41
+text position @17,35950,694,20
+text input @17,35982,694,20
+text position @17,36014,694,20
+text position @17,36046,694,21
+text If is beyond the end of or if the character at is not a U+0057 LATIN CAPITAL LETTER W character (W), then fail. Otherwise, move forwards one character. @17,36079,694,40
+text position @17,36131,694,21
+text input @17,36164,694,20
+text position @17,36196,694,20
+text position @17,36228,694,21
+text that are from given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let be that number. @17,36261,694,40
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,36313,694,20
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,36345,694,21
+text input @17,36378,694,20
+text position @17,36410,694,20
+text week @17,36442,694,21
+text Let be the of year . @17,36475,694,20
+row @17,36507,694,20
+  text maxweek @17,36507,64,20
+  link "week number of the last day" #week-number-of-the-last-day2 @93,36507,189,20
+  text year @294,36507,30,20
+text If is not a number in the range 1 ≤ ≤ , then fail. @17,36539,694,21
+row @17,36572,694,20
+  text week @17,36572,36,20
+  text week @65,36572,36,20
+  text maxweek @113,36572,64,20
+text If is beyond the end of , then fail. @17,36604,694,20
+row @17,36636,694,20
+  text position @17,36636,53,20
+  text not @82,36636,22,20
+  text input @116,36636,34,20
+text Return the week-year number and the week number . @17,36668,694,21
+row @17,36701,694,20
+  text year @17,36701,30,20
+  text week @59,36701,36,20
+h3 2.3.5.9 Durations @17,36733,694,19
+text A consists of a number of seconds. @17,36764,694,20
+text duration @17,36796,694,20
+text Since months and seconds are not comparable (a month is not a precise number of seconds, but is instead a period whose exact length depends on the precise day from which it is measured) a as defined in this specification cannot include months (or years, which are equivalent to twelve months). Only durations that describe a specific number of seconds can be described. success @17,36828,694,82
+link duration #concept-duration @17,36922,694,20
+text A string is a representing a if it consists of either of the following: @17,36954,694,20
+row @17,36986,694,21
+  text valid duration string @17,36986,132,21
+  link duration #concept-duration2 @161,36986,55,21
+  text t @228,36986,5,21
+text A literal U+0050 LATIN CAPITAL LETTER P character followed by one or more of the following subcomponents, in the order given, where the number of days, hours, minutes, and seconds corresponds to the same number of seconds as in : @17,37019,694,60
+text t @17,37091,694,21
+text One or more followed by a U+0044 LATIN CAPITAL LETTER D character, representing a number of days. @17,37124,694,40
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,37176,694,21
+text A U+0054 LATIN CAPITAL LETTER T character followed by one or more of the following subcomponents, in the order given: @17,37209,694,40
+text One or more followed by a U+0048 LATIN CAPITAL LETTER H character, representing a number of hours. @17,37261,694,41
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,37314,694,20
+text One or more followed by a U+004D LATIN CAPITAL LETTER M character, representing a number of minutes. @17,37346,694,41
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,37399,694,20
+text The following components: @17,37431,694,20
+text One or more , representing a number of seconds. @17,37463,694,21
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,37496,694,20
+text Optionally, a U+002E FULL STOP character (.) followed by one, two, or three , representing a fraction of a second. @17,37528,694,41
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,37581,694,20
+text A U+0053 LATIN CAPITAL LETTER S character. @17,37613,694,20
+text This, as with a number of other date- and time-related microsyntaxes defined in this specification, is based on one of the formats defined in ISO 8601. success @17,37645,694,41
+link [ISO8601] references.html#refsISO8601 @17,37698,694,20
+text One or more , each with a different , in any order; the sum of the represented seconds being equal to the number of seconds in . @17,37730,694,41
+link "duration time components" #duration-time-component @17,37783,694,20
+link "duration time component scale" #duration-time-component-scale @17,37815,694,20
+text t @17,37847,694,21
+text A is a string consisting of the following components: @17,37880,694,20
+text duration time component @17,37912,694,20
+text Zero or more . @17,37944,694,20
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,37976,694,21
+text One or more , representing a number of time units, scaled by the specified (see below) to represent a number of seconds. @17,38009,694,40
+row @17,38061,694,21
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,38061,77,21
+  link "duration time component scale" #duration-time-component-scale2 @106,38061,205,21
+text If the specified is 1 (i.e. the units are seconds), then, optionally, a U+002E FULL STOP character (.) followed by one, two, or three , representing a fraction of a second. @17,38094,694,40
+link "duration time component scale" #duration-time-component-scale3 @17,38146,694,21
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,38179,694,20
+text Zero or more . @17,38211,694,20
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,38243,694,20
+text One of the following characters, representing the of the time unit used in the numeric part of the : @17,38275,694,21
+text duration time component scale @17,38308,694,20
+link "duration time component" #duration-time-component2 @17,38340,694,20
+text U+0057 LATIN CAPITAL LETTER W character @17,38372,694,21
+text U+0077 LATIN SMALL LETTER W character @17,38405,694,20
+text Weeks. The scale is 604800. @17,38437,694,20
+text U+0044 LATIN CAPITAL LETTER D character @17,38469,694,21
+text U+0064 LATIN SMALL LETTER D character @17,38502,694,20
+text Days. The scale is 86400. @17,38534,694,20
+text U+0048 LATIN CAPITAL LETTER H character @17,38566,694,20
+text U+0068 LATIN SMALL LETTER H character @17,38598,694,21
+text Hours. The scale is 3600. @17,38631,694,20
+text U+004D LATIN CAPITAL LETTER M character @17,38663,694,20
+text U+006D LATIN SMALL LETTER M character @17,38695,694,21
+text Minutes. The scale is 60. @17,38728,694,20
+text U+0053 LATIN CAPITAL LETTER S character @17,38760,694,20
+text U+0073 LATIN SMALL LETTER S character @17,38792,694,21
+text Seconds. The scale is 1. @17,38825,694,20
+text Zero or more . @17,38857,694,20
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,38889,694,20
+text This is not based on any of the formats in ISO 8601. It is intended to be a more human-readable alternative to the ISO 8601 duration format. success @17,38921,694,41
+text The rules to  are as follows. This will return either a  or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,38974,694,41
+row @17,39027,694,20
+  text parse a duration string @17,39027,150,20
+  link duration #concept-duration3 @179,39027,55,20
+text Let be the string being parsed. @17,39059,694,20
+text input @17,39091,694,21
+text Let be a pointer into , initially pointing at the start of the string. @17,39124,694,20
+row @17,39156,694,20
+  text position @17,39156,53,20
+  text input @82,39156,34,20
+text Let , , and all be zero. @17,39188,694,20
+row @17,39220,694,21
+  text months @17,39220,50,21
+  text seconds @79,39220,57,21
+  text component count @148,39220,117,21
+text Let be . @17,39253,694,20
+row @17,39285,694,20
+  text M-disambiguator @17,39285,114,20
+  text minutes @143,39285,53,20
+text This flag's other value is months. It is used to disambiguate the "M" unit in ISO8601 durations, which use the same unit for months and minutes. Months are not allowed, but are parsed for future compatibility and to avoid misinterpreting ISO8601 durations that would be valid in other contexts. success @17,39317,694,61
+text within given . @17,39390,694,21
+row @17,39423,694,20
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace @17,39423,149,20
+  text input @178,39423,34,20
+  text position @224,39423,53,20
+text If is past the end of , then fail. @17,39455,694,20
+row @17,39487,694,20
+  text position @17,39487,53,20
+  text input @82,39487,34,20
+text If the character in pointed to by is a U+0050 LATIN CAPITAL LETTER P character, then advance to the next character, set to , and within given . @17,39519,694,41
+text input @17,39572,694,20
+text position @17,39604,694,21
+text position @17,39637,694,20
+text M-disambiguator @17,39669,694,20
+text months @17,39701,694,21
+link "skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace @17,39734,694,20
+text input @17,39766,694,20
+text position @17,39798,694,20
+text While true: @17,39830,694,21
+text Let be undefined. It will be assigned one of the following values: , , , , , , and . @17,39863,694,20
+row @17,39895,694,20
+  text units @17,39895,32,20
+  text years @61,39895,37,20
+  text months @110,39895,50,20
+  text weeks @172,39895,43,20
+  text days @227,39895,32,20
+  text hours @271,39895,38,20
+  text minutes @321,39895,53,20
+  text seconds @386,39895,57,20
+text Let be undefined. It is used to process characters from the . @17,39927,694,21
+row @17,39960,694,20
+  text next character @17,39960,96,20
+  text input @125,39960,34,20
+text If is past the end of , then break. @17,39992,694,20
+row @17,40024,694,21
+  text position @17,40024,53,21
+  text input @82,40024,34,21
+text If the character in pointed to by is a U+0054 LATIN CAPITAL LETTER T character, then advance to the next character, set to , within given , and . @17,40057,694,40
+text input @17,40109,694,20
+text position @17,40141,694,21
+text position @17,40174,694,20
+text M-disambiguator @17,40206,694,20
+text minutes @17,40238,694,21
+link "skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace @17,40271,694,20
+text input @17,40303,694,20
+text position @17,40335,694,21
+link continue https://infra.spec.whatwg.org/#iteration-continue @17,40368,694,20
+text Set to the character in pointed to by . @17,40400,694,20
+row @17,40432,694,21
+  text next character @17,40432,96,21
+  text input @125,40432,34,21
+  text position @171,40432,53,21
+text If is a U+002E FULL STOP character (.), then let be 0. (Do not advance . That is taken care of below.) @17,40465,694,20
+row @17,40497,694,20
+  text next character @17,40497,96,20
+  text N @125,40497,11,20
+  text position @148,40497,53,20
+text Otherwise, if is an , then that are from given , interpret the resulting sequence as a base-ten integer, and let be that number. @17,40529,694,41
+text next character @17,40582,694,20
+link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit @17,40614,694,20
+link "collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,40646,694,21
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @17,40679,694,20
+text input @17,40711,694,20
+text position @17,40743,694,21
+text N @17,40776,694,20
+text Otherwise, is not part of a number; fail. @17,40808,694,20
+text next character @17,40840,694,20
+text If is past the end of , then fail. @17,40872,694,21
+row @17,40905,694,20
+  text position @17,40905,53,20
+  text input @82,40905,34,20
+text Set to the character in pointed to by , and this time advance to the next character. (If was a U+002E FULL STOP character (.) before, it will still be that character this time.) @17,40937,694,41
+row @17,40990,694,20
+  text next character @17,40990,96,20
+  text input @125,40990,34,20
+  text position @171,40990,53,20
+  text position @236,40990,53,20
+  text next character @301,40990,96,20
+text If is U+002E (.): @17,41022,694,20
+text next character @17,41054,694,21
+text that are from given . Let be the resulting sequence. @17,41087,694,20
+row @17,41119,694,20
+  link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points @17,41119,226,20
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit @255,41119,77,20
+  text input @344,41119,34,20
+  text position @390,41119,53,20
+  text s @455,41119,8,20
+text If is the empty string, then fail. @17,41151,694,20
+text s @17,41183,694,21
+text Let be the number of characters in . @17,41216,694,20
+row @17,41248,694,20
+  text length @17,41248,42,20
+  text s @71,41248,8,20
+text Let be the result of interpreting as a base-ten integer, and then dividing that number by . @17,41280,694,21
+row @17,41313,694,20
+  text fraction @17,41313,51,20
+  text s @80,41313,8,20
+  text 10 @100,41313,15,20
+  text length @127,41313,42,20
+text Increment by . @17,41345,694,20
+row @17,41377,694,21
+  text N @17,41377,11,21
+  text fraction @40,41377,51,21
+text within given . @17,41410,694,20
+row @17,41442,694,20
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace @17,41442,149,20
+  text input @178,41442,34,20
+  text position @224,41442,53,20
+text If is past the end of , then fail. @17,41474,694,20
+row @17,41506,694,21
+  text position @17,41506,53,21
+  text input @82,41506,34,21
+text Set to the character in pointed to by , and advance to the next character. @17,41539,694,20
+row @17,41571,694,20
+  text next character @17,41571,96,20
+  text input @125,41571,34,20
+  text position @171,41571,53,20
+  text position @236,41571,53,20
+text If is neither a U+0053 LATIN CAPITAL LETTER S character nor a U+0073 LATIN SMALL LETTER S character, then fail. @17,41603,694,41
+text next character @17,41656,694,20
+text Set to . @17,41688,694,21
+row @17,41721,694,20
+  text units @17,41721,32,20
+  text seconds @61,41721,57,20
+text Otherwise: @17,41753,694,20
+text If is , then within given , set to the character in pointed to by , and advance to the next character. @17,41785,694,20
+text next character @17,41817,694,21
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,41850,694,20
+link "skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace @17,41882,694,20
+text input @17,41914,694,21
+text position @17,41947,694,20
+text next character @17,41979,694,20
+text input @17,42011,694,21
+text position @17,42044,694,20
+text position @17,42076,694,20
+text If is a U+0059 LATIN CAPITAL LETTER Y character, or a U+0079 LATIN SMALL LETTER Y character, set to and set to . @17,42108,694,41
+text next character @17,42161,694,20
+text units @17,42193,694,20
+text years @17,42225,694,21
+text M-disambiguator @17,42258,694,20
+text months @17,42290,694,20
+text If is a U+004D LATIN CAPITAL LETTER M character or a U+006D LATIN SMALL LETTER M character, and is , then set to . @17,42322,694,41
+text next character @17,42375,694,20
+text M-disambiguator @17,42407,694,20
+text months @17,42439,694,21
+text units @17,42472,694,20
+text months @17,42504,694,20
+text If is a U+0057 LATIN CAPITAL LETTER W character or a U+0077 LATIN SMALL LETTER W character, set to and set to . @17,42536,694,41
+text next character @17,42589,694,20
+text units @17,42621,694,21
+text weeks @17,42654,694,20
+text M-disambiguator @17,42686,694,20
+text minutes @17,42718,694,20
+text If is a U+0044 LATIN CAPITAL LETTER D character or a U+0064 LATIN SMALL LETTER D character, set to and set to . @17,42750,694,41
+text next character @17,42803,694,20
+text units @17,42835,694,21
+text days @17,42868,694,20
+text M-disambiguator @17,42900,694,20
+text minutes @17,42932,694,21
+text If is a U+0048 LATIN CAPITAL LETTER H character or a U+0068 LATIN SMALL LETTER H character, set to and set to . @17,42965,694,40
+text next character @17,43017,694,20
+text units @17,43049,694,21
+text hours @17,43082,694,20
+text M-disambiguator @17,43114,694,20
+text minutes @17,43146,694,21
+text If is a U+004D LATIN CAPITAL LETTER M character or a U+006D LATIN SMALL LETTER M character, and is , then set to . @17,43179,694,40
+text next character @17,43231,694,21
+text M-disambiguator @17,43264,694,20
+text minutes @17,43296,694,20
+text units @17,43328,694,20
+text minutes @17,43360,694,21
+text If is a U+0053 LATIN CAPITAL LETTER S character or a U+0073 LATIN SMALL LETTER S character, set to and set to . @17,43393,694,40
+text next character @17,43445,694,21
+text units @17,43478,694,20
+text seconds @17,43510,694,20
+text M-disambiguator @17,43542,694,21
+text minutes @17,43575,694,20
+text Otherwise, if is none of the above characters, then fail. @17,43607,694,20
+text next character @17,43639,694,20
+text Increment . @17,43671,694,21
+text component count @17,43704,694,20
+text Let be 1. @17,43736,694,20
+text multiplier @17,43768,694,21
+text If is , multiply by 12 and set to . @17,43801,694,20
+row @17,43833,694,20
+  text units @17,43833,32,20
+  text years @61,43833,37,20
+  text multiplier @110,43833,61,20
+  text units @183,43833,32,20
+  text months @227,43833,50,20
+text If is , add the product of and to . @17,43865,694,21
+row @17,43898,694,20
+  text units @17,43898,32,20
+  text months @61,43898,50,20
+  text N @123,43898,11,20
+  text multiplier @146,43898,61,20
+  text months @219,43898,50,20
+text Otherwise: @17,43930,694,20
+text If is , multiply by 7 and set to . @17,43962,694,20
+row @17,43994,694,21
+  text units @17,43994,32,21
+  text weeks @61,43994,43,21
+  text multiplier @116,43994,61,21
+  text units @189,43994,32,21
+  text days @233,43994,32,21
+text If is , multiply by 24 and set to . @17,44027,694,20
+row @17,44059,694,20
+  text units @17,44059,32,20
+  text days @61,44059,32,20
+  text multiplier @105,44059,61,20
+  text units @178,44059,32,20
+  text hours @222,44059,38,20
+text If is , multiply by 60 and set to . @17,44091,694,21
+row @17,44124,694,20
+  text units @17,44124,32,20
+  text hours @61,44124,38,20
+  text multiplier @111,44124,61,20
+  text units @184,44124,32,20
+  text minutes @228,44124,53,20
+text If is , multiply by 60 and set to . @17,44156,694,20
+row @17,44188,694,21
+  text units @17,44188,32,21
+  text minutes @61,44188,53,21
+  text multiplier @126,44188,61,21
+  text units @199,44188,32,21
+  text seconds @243,44188,57,21
+text Forcibly, is now . Add the product of and to . @17,44221,694,20
+row @17,44253,694,20
+  text units @17,44253,32,20
+  text seconds @61,44253,57,20
+  text N @130,44253,11,20
+  text multiplier @153,44253,61,20
+  text seconds @226,44253,57,20
+text within given . @17,44285,694,20
+row @17,44317,694,21
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace @17,44317,149,21
+  text input @178,44317,34,21
+  text position @224,44317,53,21
+text If is zero, fail. @17,44350,694,20
+text component count @17,44382,694,20
+text If is not zero, fail. @17,44414,694,21
+text months @17,44447,694,20
+text Return the consisting of seconds. @17,44479,694,20
+row @17,44511,694,21
+  link duration #concept-duration4 @17,44511,55,21
+  text seconds @84,44511,57,21
+h3 2.3.5.10 Vaguer moments in time @17,44544,694,18
+text A string is a if it is also one of the following: @17,44574,694,21
+text valid date string with optional time @17,44607,694,20
+text A @17,44639,694,20
+link "valid date string" #valid-date-string4 @17,44671,694,21
+text A @17,44704,694,20
+link "valid global date and time string" #valid-global-date-and-time-string2 @17,44736,694,20
+text The rules to  are as follows. The algorithm will return either a , a , a , or nothing. If at any point the algorithm says that it "fails", this means that it is aborted at that point and returns nothing. @17,44768,694,41
+row @17,44821,694,20
+  text parse a date or time string @17,44821,174,20
+  link date #concept-date @203,44821,30,20
+  link time #concept-time @245,44821,29,20
+  link "global date and time" #concept-datetime2 @286,44821,135,20
+text Let be the string being parsed. @17,44853,694,20
+text input @17,44885,694,21
+text Let be a pointer into , initially pointing at the start of the string. @17,44918,694,20
+row @17,44950,694,20
+  text position @17,44950,53,20
+  text input @82,44950,34,20
+text Set to the same position as . @17,44982,694,21
+row @17,45015,694,20
+  text start position @17,45015,87,20
+  text position @116,45015,53,20
+text Set the and flags to true. @17,45047,694,20
+row @17,45079,694,20
+  text date present @17,45079,84,20
+  text time present @113,45079,83,20
+text to obtain , , and . If this fails, then set the flag to false. @17,45111,694,21
+row @17,45144,694,20
+  link "Parse a date component" #parse-a-date-component4 @17,45144,162,20
+  text year @191,45144,30,20
+  text month @233,45144,42,20
+  text day @287,45144,25,20
+  text date present @324,45144,84,20
+text If is true, and is not beyond the end of , and the character at is either a U+0054 LATIN CAPITAL LETTER T character (T) or a U+0020 SPACE character, then advance to the next character in . @17,45176,694,41
+text date present @17,45229,694,20
+text position @17,45261,694,20
+text input @17,45293,694,21
+text position @17,45326,694,20
+text position @17,45358,694,20
+text input @17,45390,694,20
+text Otherwise, if is true, and either is beyond the end of or the character at is neither a U+0054 LATIN CAPITAL LETTER T character (T) nor a U+0020 SPACE character, then set to false. @17,45422,694,41
+text date present @17,45475,694,20
+text position @17,45507,694,21
+text input @17,45540,694,20
+text position @17,45572,694,20
+text time present @17,45604,694,21
+text Otherwise, if is false, set back to the same position as . @17,45637,694,20
+row @17,45669,694,20
+  text date present @17,45669,84,20
+  text position @113,45669,53,20
+  text start position @178,45669,87,20
+text If the flag is true, then to obtain , , and . If this returns nothing, then fail. @17,45701,694,20
+row @17,45733,694,21
+  text time present @17,45733,83,21
+  link "parse a time component" #parse-a-time-component4 @112,45733,161,21
+  text hour @285,45733,31,21
+  text minute @328,45733,45,21
+  text second @385,45733,49,21
+text If the and flags are both true, but is beyond the end of , then fail. @17,45766,694,20
+row @17,45798,694,20
+  text date present @17,45798,84,20
+  text time present @113,45798,83,20
+  text position @208,45798,53,20
+  text input @273,45798,34,20
+text If the and flags are both true, to obtain and . If this returns nothing, then fail. @17,45830,694,21
+row @17,45863,694,20
+  text date present @17,45863,84,20
+  text time present @113,45863,83,20
+  link "parse a time-zone offset component" #parse-a-time-zone-offset-component3 @208,45863,243,20
+  text timezonehours @463,45863,99,20
+  text timezoneminutes @574,45863,114,20
+text If is beyond the end of , then fail. @17,45895,694,20
+row @17,45927,694,21
+  text position @17,45927,53,21
+  text not @82,45927,22,21
+  text input @116,45927,34,21
+text If the flag is true and the flag is false, then let be the date with year , month , and day , and return . @17,45960,694,20
+text date present @17,45992,694,20
+text time present @17,46024,694,20
+text date @17,46056,694,21
+text year @17,46089,694,20
+text month @17,46121,694,20
+text day @17,46153,694,21
+text date @17,46186,694,20
+text Otherwise, if the flag is true and the flag is false, then let be the time with hour , minute , and second , and return . @17,46218,694,41
+text time present @17,46271,694,20
+text date present @17,46303,694,20
+text time @17,46335,694,20
+text hour @17,46367,694,21
+text minute @17,46400,694,20
+text second @17,46432,694,20
+text time @17,46464,694,21
+text Otherwise, let be the moment in time at year , month , day , hours , minute , second , subtracting hours and minutes, that moment in time being a moment in the UTC time zone; let be hours and minutes from UTC; and return and . @17,46497,694,61
+text time @17,46570,694,20
+text year @17,46602,694,20
+text month @17,46634,694,21
+text day @17,46667,694,20
+text hour @17,46699,694,20
+text minute @17,46731,694,20
+text second @17,46763,694,21
+text timezonehours @17,46796,694,20
+text timezoneminutes @17,46828,694,20
+text timezone @17,46860,694,21
+text timezonehours @17,46893,694,20
+text timezoneminutes @17,46925,694,20
+text time @17,46957,694,21
+text timezone @17,46990,694,20
+h3 2.3.6 Legacy colors @17,47022,694,19
+text Some obsolete legacy attributes parse colors using the , given a string . They will return either a CSS color or failure. @17,47053,694,40
+row @17,47105,694,20
+  text rules for parsing a legacy color value @17,47105,246,20
+  text input @275,47105,34,20
+text If is the empty string, then return failure. @17,47137,694,21
+text input @17,47170,694,20
+text from . @17,47202,694,20
+row @17,47234,694,21
+  link "Strip leading and trailing ASCII whitespace" https://infra.spec.whatwg.org/#strip-leading-and-trailing-ascii-whitespace @17,47234,281,21
+  text input @310,47234,34,21
+text If  is an  match for "", then return failure. @17,47267,694,20
+row @17,47299,694,20
+  text input @17,47299,34,20
+  link "ASCII case-insensitive" https://infra.spec.whatwg.org/#ascii-case-insensitive @63,47299,149,20
+  text transparent @224,47299,77,20
+text If is an match for one of the , then return the CSS color corresponding to that keyword. @17,47331,694,21
+row @17,47364,694,20
+  text input @17,47364,34,20
+  link "ASCII case-insensitive" https://infra.spec.whatwg.org/#ascii-case-insensitive @63,47364,149,20
+  link "named colors" https://drafts.csswg.org/css-color/#named-color @224,47364,90,20
+  link [CSSCOLOR] references.html#refsCSSCOLOR @326,47364,87,20
+text are not recognized. success @17,47396,694,20
+link "CSS2 System Colors" https://www.w3.org/TR/css3-color/#css2-system @17,47428,694,20
+text If 's is four, and the first character in is U+0023 (#), and the last three characters of are all : @17,47460,694,21
+row @17,47493,694,20
+  text input @17,47493,34,20
+  link "code point length" https://infra.spec.whatwg.org/#string-code-point-length @63,47493,116,20
+  text input @191,47493,34,20
+  text input @237,47493,34,20
+  link "ASCII hex digits" https://infra.spec.whatwg.org/#ascii-hex-digit @283,47493,105,20
+text Let be a CSS color. @17,47525,694,20
+text result @17,47557,694,21
+text Interpret the second character of as a hexadecimal digit; let the red component of be the resulting number multiplied by 17. @17,47590,694,40
+row @17,47642,694,21
+  text input @17,47642,34,21
+  text result @63,47642,38,21
+text Interpret the third character of as a hexadecimal digit; let the green component of be the resulting number multiplied by 17. @17,47675,694,40
+row @17,47727,694,20
+  text input @17,47727,34,20
+  text result @63,47727,38,20
+text Interpret the fourth character of as a hexadecimal digit; let the blue component of be the resulting number multiplied by 17. @17,47759,694,41
+row @17,47812,694,20
+  text input @17,47812,34,20
+  text result @63,47812,38,20
+text Return . @17,47844,694,21
+text result @17,47877,694,20
+text Replace any  greater than U+FFFF in  (i.e., any characters that are not in the basic multilingual plane) with "". @17,47909,694,41
+row @17,47962,694,20
+  link "code points" https://infra.spec.whatwg.org/#code-point @17,47962,78,20
+  text input @107,47962,34,20
+  text 00 @153,47962,18,20
+text If 's is greater than 128, truncate , leaving only the first 128 characters. @17,47994,694,20
+row @17,48026,694,20
+  text input @17,48026,34,20
+  link "code point length" https://infra.spec.whatwg.org/#string-code-point-length @63,48026,116,20
+  text input @191,48026,34,20
+text If the first character in is U+0023 (#), then remove it. @17,48058,694,21
+text input @17,48091,694,20
+text Replace any character in that is not an with U+0030 (0). @17,48123,694,20
+row @17,48155,694,21
+  text input @17,48155,34,21
+  link "ASCII hex digit" https://infra.spec.whatwg.org/#ascii-hex-digit @63,48155,97,21
+text While 's is zero or not a multiple of three, append U+0030 (0) to . @17,48188,694,20
+row @17,48220,694,20
+  text input @17,48220,34,20
+  link "code point length" https://infra.spec.whatwg.org/#string-code-point-length @63,48220,116,20
+  text input @191,48220,34,20
+text Split into three strings of equal , to obtain three components. Let be the that all of those components have (one third the of ). @17,48252,694,41
+text input @17,48305,694,20
+link "code point length" https://infra.spec.whatwg.org/#string-code-point-length @17,48337,694,20
+text length @17,48369,694,21
+link "code point length" https://infra.spec.whatwg.org/#string-code-point-length @17,48402,694,20
+link "code point length" https://infra.spec.whatwg.org/#string-code-point-length @17,48434,694,20
+text input @17,48466,694,21
+text If is greater than 8, then remove the leading characters in each component, and let be 8. @17,48499,694,20
+row @17,48531,694,20
+  text length @17,48531,42,20
+  text -8 @71,48531,16,20
+  text length @99,48531,42,20
+  text length @153,48531,42,20
+text While is greater than two and the first character in each component is U+0030 (0), remove that character and reduce by one. @17,48563,694,41
+row @17,48616,694,20
+  text length @17,48616,42,20
+  text length @71,48616,42,20
+text If is greater than two, truncate each component, leaving only the first two characters in each. @17,48648,694,21
+row @17,48681,694,20
+  text length @17,48681,42,20
+  text still @71,48681,23,20
+text Let be a CSS color. @17,48713,694,20
+text result @17,48745,694,20
+text Interpret the first component as a hexadecimal number; let the red component of be the resulting number. @17,48777,694,41
+text result @17,48830,694,20
+text Interpret the second component as a hexadecimal number; let the green component of be the resulting number. @17,48862,694,41
+text result @17,48915,694,20
+text Interpret the third component as a hexadecimal number; let the blue component of be the resulting number. @17,48947,694,41
+text result @17,49000,694,20
+text Return . @17,49032,694,20
+text result @17,49064,694,21
+h3 2.3.7 Space-separated tokens @17,49097,694,18
+text A is a string containing zero or more words (known as tokens) separated by one or more , where words consist of any string of one or more characters, none of which are . @17,49127,694,41
+text set of space-separated tokens @17,49180,694,20
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,49212,694,21
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,49245,694,20
+text A string containing a may have leading or trailing . @17,49277,694,20
+row @17,49309,694,21
+  link "set of space-separated tokens" #set-of-space-separated-tokens @17,49309,203,21
+  link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @232,49309,117,21
+text An is a where none of the tokens are duplicated. @17,49342,694,20
+row @17,49374,694,20
+  text unordered set of unique space-separated tokens @17,49374,325,20
+  link "set of space-separated tokens" #set-of-space-separated-tokens2 @354,49374,203,20
+text An is a where none of the tokens are duplicated but where the order of the tokens is meaningful. @17,49406,694,20
+row @17,49438,694,21
+  text ordered set of unique space-separated tokens @17,49438,309,21
+  link "set of space-separated tokens" #set-of-space-separated-tokens3 @338,49438,203,21
+text sometimes have a defined set of allowed values. When a set of allowed values is defined, the tokens must all be from that list of allowed values; other values are non-conforming. If no such set of allowed values is provided, then all values are conforming. @17,49471,694,61
+link "Sets of space-separated tokens" #set-of-space-separated-tokens4 @17,49544,694,20
+text How tokens in a are to be compared (e.g. case-sensitively or not) is defined on a per-set basis. success @17,49576,694,20
+link "set of space-separated tokens" #set-of-space-separated-tokens5 @17,49608,694,21
+h3 2.3.8 Comma-separated tokens @17,49641,694,18
+text A is a string containing zero or more tokens each separated from the next by a single U+002C COMMA character (,), where tokens consist of any string of zero or more characters, neither beginning nor ending with , nor containing any U+002C COMMA characters (,), and optionally surrounded by . @17,49671,694,61
+text set of comma-separated tokens @17,49744,694,21
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,49777,694,20
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,49809,694,20
+text For instance, the string " a ,b,,d d " consists of four tokens: "a", "b", the empty string, and "d d". Leading and trailing whitespace around each token doesn't count as part of the token, and the empty string can be a token. @17,49841,694,61
+text sometimes have further restrictions on what consists a valid token. When such restrictions are defined, the tokens must all fit within those restrictions; other values are non-conforming. If no such restrictions are specified, then all values are conforming. @17,49914,694,61
+link "Sets of comma-separated tokens" #set-of-comma-separated-tokens @17,49987,694,20
+h3 2.3.9 References @17,50019,694,19
+text A to an element of type is a string consisting of a U+0023 NUMBER SIGN character (#) followed by a string which exactly matches the value of the attribute of an element with type in the same . @17,50050,694,41
+text valid hash-name reference @17,50103,694,20
+text type @17,50135,694,20
+text name @17,50167,694,20
+text type @17,50199,694,21
+link tree https://dom.spec.whatwg.org/#concept-tree @17,50232,694,20
+text The to an element of type , given a context node , are as follows: @17,50264,694,20
+row @17,50296,694,21
+  text rules for parsing a hash-name reference @17,50296,268,21
+  text type @297,50296,30,21
+  text scope @339,50296,41,21
+text If the string being parsed does not contain a U+0023 NUMBER SIGN character, or if the first such character in the string is the last character in the string, then return null. @17,50329,694,40
+text Let be the string from the character immediately after the first U+0023 NUMBER SIGN character in the string being parsed up to the end of that string. @17,50381,694,41
+text s @17,50434,694,20
+text Return the first element of type in 's , in , that has an or attribute whose value is , or null if there is no such element. @17,50466,694,41
+row @17,50519,694,20
+  text type @17,50519,30,20
+  text scope @59,50519,41,20
+  link tree https://dom.spec.whatwg.org/#concept-tree @112,50519,27,20
+  link "tree order" https://dom.spec.whatwg.org/#concept-tree-order @151,50519,66,20
+  link id dom.html#the-id-attribute @229,50519,12,20
+  text name @253,50519,37,20
+  text s @302,50519,8,20
+text Although attributes are accounted for when parsing, they are not used in determining whether a value is a . That is, a hash-name reference that refers to an element based on is a conformance error (unless that element also has a attribute with the same value). success @17,50551,694,61
+link id dom.html#the-id-attribute @17,50624,694,20
+link "valid hash-name reference" #valid-hash-name-reference @17,50656,694,21
+link id dom.html#the-id-attribute @17,50689,694,20
+text name @17,50721,694,20
+h3 2.3.10 Media queries @17,50753,694,19
+text A string is a if it matches the production of . @17,50784,694,20
+row @17,50816,694,21
+  text valid media query list @17,50816,141,21
+  text <media-query-list> @170,50816,129,21
+  text Media Queries @311,50816,96,21
+  link [MQ] references.html#refsMQ @419,50816,34,21
+text A string of the user if it is the empty string, a string consisting of only , or is a media query list that matches the user's environment according to the definitions given in . @17,50849,694,40
+text matches the environment @17,50901,694,20
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace @17,50933,694,21
+text Media Queries @17,50966,694,20
+link [MQ] references.html#refsMQ @17,50998,694,20
+h3 2.3.11 Unique internal values @17,51030,694,19
+text A is a value that is serializable, comparable by value, and never exposed to script. @17,51061,694,20
+text unique internal value @17,51093,694,21
+text To create a , return a that has never previously been returned by this algorithm. @17,51126,694,20
+row @17,51158,694,20
+  text new unique internal value @17,51158,170,20
+  link "unique internal value" #unique-internal-value @199,51158,138,20
+text — — @17,51190,694,21
+row @17,51223,694,20
+  link "← 2 Common infrastructure" infrastructure.html @17,51223,184,20
+  link "Table of Contents" ./ @213,51223,119,20
+  link "2.4 URLs →" urls-and-fetching.html @344,51223,78,20

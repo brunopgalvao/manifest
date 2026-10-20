@@ -1,0 +1,98 @@
+@www_w3_org_wai_aria_apg rev=0 @0,0,728,1864
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+row @17,102,694,150
+  col @17,102,682,150
+    h1 ARIA Authoring Practices Guide (APG) Home @17,102,682,25
+    text Learn to use the accessibility semantics defined by the Accessible Rich Internet Application (ARIA) specification to create accessible web experiences. This guide describes how to apply accessibility semantics to common design patterns and widgets. It provides design patterns and functional examples complemented by in-depth guidance for fundamental practices. @17,139,682,81
+    link "View Patterns" patterns/ @17,232,682,20
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-1.svg "A laptop screen fills with an accessibility icon and emits a checkmark." @711,102,0,0
+h2 APG Resources @17,264,694,22
+text Building blocks that help you make the web accessible @17,298,694,20
+row @17,330,694,124
+  col @17,330,682,124
+    h3 Design Patterns and Examples @17,330,682,19
+    text Learn how to make accessible web components and widgets with ARIA roles, states and properties and by implementing keyboard support. One or more ways of implementing each pattern is demonstrated with a functional example. @17,361,682,61
+    link "Learn more about APG patterns and examples" patterns/ @17,434,682,20
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-2.svg "A menagerie of widgets." @711,330,0,0
+row @17,466,694,104
+  col @17,466,682,104
+    h3 Use ARIA Landmarks @17,466,682,19
+    text Learn how to use HTML sectioning elements and ARIA landmark roles to make it easy for assistive technology users to understand the meaning of the layout of a page. @17,497,682,40
+    link "Learn more about ARIA landmarks" practices/landmark-regions/ @17,549,682,21
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-3.svg "A document flies apart into chunks." @711,466,0,0
+row @17,582,694,103
+  col @17,582,682,103
+    h3 Providing Accessible Names and Descriptions @17,582,682,18
+    text Providing elements with accessible names and, where appropriate, accessible descriptions is one of the most important responsibilities authors have when developing accessible web experiences. @17,612,682,41
+    link "Learn more about accessible names and descriptions" practices/names-and-descriptions/ @17,665,682,20
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-4.svg "Indicators delve inside a document." @711,582,0,0
+row @17,697,694,104
+  col @17,697,682,104
+    h3 And So Much More... @17,697,682,19
+    text Learn about other fundamental practices related to correctly using accessibility semantics, developing keyboard interfaces, and more. @17,728,682,41
+    link "Learn more about APG practices" practices/ @17,781,682,20
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-5.svg "A box with an accessibility label is chock full of widgets and document bits." @711,697,0,0
+h2 Get Involved @17,813,694,21
+text The APG Task Force relies on broad community representation and participation to continuously improve the usefulness and quality of the APG. There are a variety of ways you can get involved and help promote development of accessible experiences. @17,846,694,61
+row @17,919,694,358
+  col @17,919,137,358
+    image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-6.svg "An icon showing three nodes connecting." @17,919,0,0
+    h3 Join the Task Force @17,931,137,38
+    text To join the APG Task Force, individuals need to first join the W3C ARIA Working Group. Participants are expected to actively contribute to the work of the task force. @17,981,137,203
+    link "Learn more about the work of the task force and how to join" https://www.w3.org/WAI/ARIA/task-forces/practices/ @17,1196,137,81
+  col @166,959,246,278
+    image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-7.svg "An icon showing two human shapes carrying a burden." @166,959,0,0
+    h3 Contribute via GitHub @166,971,246,19
+    text Many valuable contributions are made by people who find or raise issues of interest in our GitHub repository and then submit proposed changes via a GitHub pull request. If you choose this path, please start by studying our guidelines for contributing to the repository and maintaining code quality. @166,1002,246,182
+    link "View ReadMe in the GitHub repository" https://github.com/w3c/aria-practices @166,1196,246,41
+  row @424,955,287,286
+    image https://www.w3.org/WAI/content-images/wai-aria-practices/images/index-8.svg "A notification bell icon appears over an email icon." @424,955,0,0
+    col @436,955,275,286
+      h3 Mailing Lists @436,955,275,18
+      text The APG Task Force uses the public aria-practices mailing list for email discussion. Meeting announcements, agendas, and links to minutes are sent to the mailing list. While GitHub issues are the preferred place to discuss APG content, the mailing list is available to anyone who would prefer to communicate with the APG Task Force via email. @436,985,275,203
+      link "View the aria-practices mailing list archive" https://lists.w3.org/Archives/Public/public-aria-practices/ @436,1200,275,41
+row @17,1289,694,21
+  h2 Help improve this page @17,1289,192,21
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,1322,694,20
+link public-aria-practices@w3.org @17,1354,694,21
+row @17,1387,694,20
+  link E-mail @17,1387,42,20
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/apg-home.html @71,1387,142,20
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/ @225,1387,119,20
+link "Back to Top" #top @17,1419,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,1451,694,20
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,1483,694,21
+row @17,1516,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,1516,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,1516,57,20
+  link Mastodon https://w3c.social/@wai @218,1516,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,1516,61,20
+row @17,1548,694,41
+  link Home /WAI/ @17,1558,37,21
+  link Contact /WAI/about/contacting/ @66,1558,48,21
+  link "Site map" /WAI/sitemap/ @126,1548,54,41
+  link "Support WAI" /WAI/about/support/ @192,1548,78,41
+  link News /WAI/news/ @282,1558,36,21
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,1548,142,41
+  link "All Translations" /WAI/translations/ @484,1548,94,41
+  link "Resources for roles" /WAI/roles/ @590,1548,121,41
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,1601,694,20
+link "World Wide Web Consortium" https://www.w3.org/ @17,1633,694,20
+text W3C @17,1665,694,21
+text ® @17,1698,694,20
+link liability https://www.w3.org/policies/#disclaimers @17,1730,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,1762,694,20
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,1794,694,21
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,1827,694,20

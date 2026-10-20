@@ -29,8 +29,8 @@ row
       button Search
     row
       link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=auth.wikimedia.org&uselang=en
-      link "Create account" /enwiki/w/index.php?title=Special:CreateAccount&returnto=Special%3APreferences&returntoquery=&centralauthLoginToken=6c22fe1d87cb101fe868d24a73a0b9f1&usesul3=1&useformat=desktop
-      link "Log in" /enwiki/w/index.php?title=Special:UserLogin&returnto=Special%3APreferences&returntoquery=&centralauthLoginToken=6c22fe1d87cb101fe868d24a73a0b9f1&usesul3=1&useformat=desktop
+      link "Create account" /enwiki/w/index.php?title=Special:CreateAccount&returnto=Special%3APreferences&returntoquery=&centralauthLoginToken=93e4968a20205e8624a832e530dcdbe1&usesul3=1&useformat=desktop
+      link "Log in" /enwiki/w/index.php?title=Special:UserLogin&returnto=Special%3APreferences&returntoquery=&centralauthLoginToken=93e4968a20205e8624a832e530dcdbe1&usesul3=1&useformat=desktop
 row
   row
     h1 Log in
@@ -44,7 +44,7 @@ row
       text General
       link "Upload file" //en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard
       link "Printable version" javascript:print();
-      link "Get shortened URL" https://en.wikipedia.org/wiki/Special:UrlShortener?url=https%3A%2F%2Fauth.wikimedia.org%2Fenwiki%2Fw%2Findex.php%3Ftitle%3DSpecial%3AUserLogin%26centralauthLoginToken%3D6c22fe1d87cb101fe868d24a73a0b9f1%26returnto%3DSpecial%253APreferences%26returntoquery%3D%26useformat%3Ddesktop%26usesul3%3D1%26warning%3Dprefsnologintext2
+      link "Get shortened URL" https://en.wikipedia.org/wiki/Special:UrlShortener?url=https%3A%2F%2Fauth.wikimedia.org%2Fenwiki%2Fw%2Findex.php%3Ftitle%3DSpecial%3AUserLogin%26centralauthLoginToken%3D93e4968a20205e8624a832e530dcdbe1%26returnto%3DSpecial%253APreferences%26returntoquery%3D%26useformat%3Ddesktop%26usesul3%3D1%26warning%3Dprefsnologintext2
     col
       row
         text Appearance
@@ -74,8 +74,9 @@ row
       text "<input type=\"hidden\" value=\"1\" name=\"wmevents_userlogin_noscript\">"
       button "Log in" primary
       link "Help with logging in" https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Logging_in
-      link "Forgot your password?" /enwiki/w/index.php?title=Special:PasswordReset&returnto=Special%3APreferences&returntoquery=&centralauthLoginToken=6c22fe1d87cb101fe868d24a73a0b9f1&usesul3=1&useformat=desktop
-      link "Join Wikipedia" /enwiki/w/index.php?title=Special:CreateAccount&returnto=Special%3APreferences&returntoquery=&centralauthLoginToken=6c22fe1d87cb101fe868d24a73a0b9f1&usesul3=1&useformat=desktop&campaign=loginCTA
+      link "Forgot your password?" /enwiki/w/index.php?title=Special:PasswordReset&returnto=Special%3APreferences&returntoquery=&centralauthLoginToken=93e4968a20205e8624a832e530dcdbe1&usesul3=1&useformat=desktop
+      text Don't have an account?
+      link "Join Wikipedia" /enwiki/w/index.php?title=Special:CreateAccount&returnto=Special%3APreferences&returntoquery=&centralauthLoginToken=93e4968a20205e8624a832e530dcdbe1&usesul3=1&useformat=desktop&campaign=loginCTA
   col
     row
       link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
@@ -87,7 +88,7 @@ row
       link Developers https://developer.wikimedia.org
       link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
       link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
-      link "Mobile view" //auth.wikimedia.org/enwiki/w/index.php?title=Special:UserLogin&centralauthLoginToken=6c22fe1d87cb101fe868d24a73a0b9f1&returnto=Special%3APreferences&returntoquery=&usesul3=1&warning=prefsnologintext2&mobileaction=toggle_view_mobile
+      link "Mobile view" //auth.wikimedia.org/enwiki/w/index.php?title=Special:UserLogin&centralauthLoginToken=93e4968a20205e8624a832e530dcdbe1&returnto=Special%3APreferences&returntoquery=&usesul3=1&warning=prefsnologintext2&mobileaction=toggle_view_mobile
     row
       link "https://www.wikimedia.org/" https://www.wikimedia.org/
       link "https://www.mediawiki.org/" https://www.mediawiki.org/

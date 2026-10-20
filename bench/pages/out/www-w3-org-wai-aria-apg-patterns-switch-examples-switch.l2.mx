@@ -1,0 +1,129 @@
+@www_w3_org_wai_aria_apg_patterns_switch_ rev=0 @0,0,728,3285
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+row @17,102,694,2531
+  col @17,1008,52,719
+    h2 Page Contents @17,1008,52,43
+    link "Read This First" #support-notice-header @17,1063,52,61
+    link "About This Example" #aboutthisexample @17,1136,52,60
+    link Example #ex_label @17,1208,52,21
+    link "Accessibility Features" #accessibilityfeatures @17,1241,52,40
+    link "Keyboard Support" #kbd_label @17,1293,52,41
+    link "Role, Property, State, and Tabindex Attributes" #rps_label @17,1346,52,122
+    link "Assistive Technology Support" #assistivetechnologysupport @17,1480,52,61
+    link "JavaScript and CSS Source Code" #javascriptandcsssourcecode @17,1553,52,101
+    link "HTML Source Code" #sc1_label @17,1666,52,61
+  col @81,102,630,2531
+    h1 Switch Example @81,102,630,25
+    h2 Read This First @81,139,630,21
+    card @81,172,630,71
+      text The code in this example is not intended for production environments. Before using it for any purpose, read this to understand why. warning @98,187,596,41
+    h2 About This Example @81,255,630,21
+    text This example illustrates implementation of the for a notification preferences control. It uses a element for the switch and CSS borders to provide graphical rendering of switch states. @81,288,630,41
+    link "Switch Pattern" ../../ @81,341,630,20
+    text div primary @81,373,630,20
+    text Similar examples include: @81,405,630,21
+    text : A group of 2 switches based on HTML elements that turn lights on and off. @81,438,630,20
+    row @81,470,630,20
+      link "Switch Example Using HTML Button" ../switch-button/ @81,470,239,20
+      text button primary @332,470,43,20
+    text : A group of 2 switches based on HTML elements that turn accessibility preferences on and off. @81,502,630,41
+    link "Switch Example Using HTML Checkbox Input" ../switch-checkbox/ @81,555,630,20
+    text input[type="checkbox"] primary @81,587,630,20
+    h2 Example @81,619,630,22
+    button "Open In CodePen" primary @81,653,630,36
+    text Start of @81,701,630,20
+    toggle "Notifications On Off" off @81,733,630,36
+    text End of @81,781,630,20
+    h2 Accessibility Features @81,813,630,22
+    text To make understanding the state of the switch easier for users with visual or cognitive disabilities, a text equivalent of the state ( or ) is displayed adjacent to the graphical state indicator. CSS attribute selectors ensure the label displayed is synchronized with the value of the attribute. To prevent redundant announcement of the state by screen readers, the text indicators of state are hidden from assistive technologies with . @81,847,630,101
+    text on @81,960,630,20
+    text off @81,992,630,21
+    text aria-checked primary @81,1025,630,20
+    text NOTE: @81,1057,630,20
+    text aria-hidden primary @81,1089,630,21
+    text Spacing, border widths and fill are important to ensure the graphical states are visible and discernible to people with visual impairments, including when browser or operating system high contrast settings are enabled: @81,1122,630,61
+    text To make the graphical representation of the state of a switch readily perceivable, two pixel borders are used for the switch state container and a solid color is used for the fill of the circles indicating the on and off states. @81,1195,630,60
+    text To ensure users can perceive the difference between the container and the circles used to indicate the state of the switch, there are two pixels of space between the container border and the circles. @81,1267,630,61
+    text To enhance perceivability when operating the switches, visual keyboard focus and hover are styled using the CSS and pseudo-classes: @81,1340,630,41
+    text :hover primary @81,1393,630,20
+    text :focus primary @81,1425,630,21
+    text To make it easier to perceive focus and the relationship between a label and its associated switch, focus creates a border around both the switch and the label and also changes the background color. @81,1458,630,61
+    text To make it easier to perceive that clicking either the label or switch will activate the switch, the hover indicator is the same as the focus indicator. @81,1531,630,40
+    text To help people with visual impairments identify the switch as an interactive element, the cursor is changed to a pointer when hovering over the switch. @81,1583,630,41
+    text Note: Because transparent borders are visible on some systems with operating system high contrast settings enabled, transparency cannot be used to create a visual difference between the element that is focused and other elements. Instead of using transparency, the focused element has a thicker border and less padding. When an element receives focus, its border changes from zero to two pixels and padding is reduced by two pixels. When an element loses focus, its border changes from two pixels to two and padding is increased by two pixels. @81,1636,630,122
+    h2 Keyboard Support @81,1770,630,21
+    table Key Function @81,1803,630,100
+      Tab | Moves keyboard focus to the switch.
+      SpaceEnter | Toggle switch between on and off.
+    h2 Role, Property, State, and Tabindex Attributes @81,1915,630,21
+    table Role Attribute Element Usage @81,1948,630,206
+      switch |  | div | Identifies the div element as a switch.
+       | tabindex="0" | div | Includes the switch in the page Tab sequence.
+       | aria-checked="false" | div | Indicates the switch is off. CSS attribute selectors (e.g. [aria-checked="false"]) are used to synchronize the visual states with the value of the aria-checked attribute.
+       | aria-checked="true" | div | Indicates the switch is on. CSS attribute selectors (e.g. [aria-checked="true"]) are used to synchronize the visual states with the value of the aria-checked attribute.
+       | aria-hidden="true" | span.on and span.off | Removes the strings on and off that appear to the right of the switch from the accessible name of the switch. These strings are included only for enhancing visual comprehension of the state; element states are not permitted in accessible names.
+    h2 Assistive Technology Support @81,2166,630,21
+    link "Learn how to interpret and use assistive technology support data" ../../../../about/at-support-tables/ @81,2199,630,20
+    h2 JavaScript and CSS Source Code @81,2231,630,22
+    text CSS: @81,2265,630,20
+    link switch.css ../../../../../../content-assets/wai-aria-practices/patterns/switch/examples/css/switch.css @81,2297,630,20
+    text JavaScript: @81,2329,630,21
+    link switch.js ../../../../../../content-assets/wai-aria-practices/patterns/switch/examples/js/switch.js @81,2362,630,20
+    h2 HTML Source Code @81,2394,630,21
+    text To copy the following HTML code, please open it in CodePen. @81,2427,630,20
+    button "Open In CodePen" primary @81,2459,630,37
+    text Start of @81,2508,630,20
+    text <div role="switch" aria-checked="false" tabindex="0"> <span class="label"> Notifications </span> <span class="switch"> <span></span> </span> <span class="on" aria-hidden="true"> On </span> <span class="off" aria-hidden="true"> Off </span> </div> @81,2540,630,61
+    text End of @81,2613,630,20
+row @17,2645,694,22
+  h2 Help improve this page @17,2645,192,22
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,2679,694,20
+link public-aria-practices@w3.org @17,2711,694,20
+row @17,2743,694,20
+  link E-mail @17,2743,42,20
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/switch/examples/switch.html @71,2743,142,20
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/switch/examples/switch/ @225,2743,119,20
+link "Back to Top" #top @17,2775,694,21
+link "View issues related to this example" https://github.com/orgs/w3c/projects/123 @17,2808,694,20
+text Page last updated: 20 January 2026 @17,2840,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,2872,694,21
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,2905,694,20
+row @17,2937,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,2937,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,2937,57,20
+  link Mastodon https://w3c.social/@wai @218,2937,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,2937,61,20
+row @17,2969,694,41
+  link Home /WAI/ @17,2979,37,21
+  link Contact /WAI/about/contacting/ @66,2979,48,21
+  link "Site map" /WAI/sitemap/ @126,2969,54,41
+  link "Support WAI" /WAI/about/support/ @192,2969,78,41
+  link News /WAI/news/ @282,2979,36,21
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,2969,142,41
+  link "All Translations" /WAI/translations/ @484,2969,94,41
+  link "Resources for roles" /WAI/roles/ @590,2969,121,41
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,3022,694,20
+link "World Wide Web Consortium" https://www.w3.org/ @17,3054,694,20
+text W3C @17,3086,694,21
+text ® @17,3119,694,20
+link liability https://www.w3.org/policies/#disclaimers @17,3151,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,3183,694,21
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,3216,694,20
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,3248,694,20
+!overflow table2.switch.Usage 157/265px
+!overflow table2..Usage 157/324px
+!overflow table2..Usage 157/1109px
+!overflow table2..Usage 157/1101px
+!overflow table2..Usage 157/1636px

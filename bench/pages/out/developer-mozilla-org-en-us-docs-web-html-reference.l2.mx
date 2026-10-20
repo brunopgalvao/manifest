@@ -1,0 +1,51 @@
+@developer_mozilla_org_en_us_docs_web_htm rev=0 @0,0,728,933
+row @17,17,694,899
+  col @17,389,26,154
+    link "Skip to main content" #content @17,389,26,82
+    link "Skip to search" #mdn-search @17,483,26,60
+  region 1280x91 @55,458,244,17 [1 shapes, 0 labelled]
+  col @311,440,32,53
+    link MDN /en-US/ @311,440,32,20
+    row @311,472,32,21
+      link Web /en-US/docs/Web @311,472,2,21
+      link HTML /en-US/docs/Web/HTML @325,472,2,21
+      link Reference /en-US/docs/Web/HTML/Reference @339,472,4,21
+  col @355,17,41,899
+    link HTML /en-US/docs/Web/HTML @355,17,41,20
+    link Guides /en-US/docs/Web/HTML/Guides @355,49,41,21
+    link "How to" /en-US/docs/Web/HTML/How_to @355,82,41,40
+    link "Define terms with HTML" /en-US/docs/Web/HTML/How_to/Define_terms_with_HTML @355,134,41,81
+    link "Use data attributes" /en-US/docs/Web/HTML/How_to/Use_data_attributes @355,227,41,61
+    link "Use cross-origin images" /en-US/docs/Web/HTML/How_to/CORS_enabled_image @355,300,41,61
+    link "Add a hitmap on top of an image" /en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image @355,373,41,122
+    link "Author fast-loading HTML pages" /en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages @355,507,41,81
+    link "Add JavaScript" /en-US/docs/Web/HTML/How_to/Add_JavaScript_to_your_web_page @355,600,41,41
+    link Reference /en-US/docs/Web/HTML/Reference @355,653,41,20
+    link Elements /en-US/docs/Web/HTML/Reference/Elements @355,685,41,20
+    link Attributes /en-US/docs/Web/HTML/Reference/Attributes @355,717,41,21
+    link "Global attributes" /en-US/docs/Web/HTML/Reference/Global_attributes @355,750,41,40
+    text Attributes by element @355,802,41,61
+    text Attribute values @355,875,41,41
+  col @408,328,303,276
+    row @408,328,303,102
+      row @408,328,74,102
+        link "MDN logo" / @408,359,14,40
+        text Your blueprint for a better internet. @434,328,48,102
+      row @494,339,138,81
+        link "MDN on GitHub" https://github.com/mdn/ @494,349,17,61
+        link "MDN on Bluesky" https://bsky.app/profile/developer.mozilla.org @523,349,19,61
+        link "MDN on X" https://x.com/mozdevnet @554,349,11,61
+        link "MDN on Mastodon" https://mastodon.social/@mdn @577,349,21,61
+        link "MDN blog RSS feed" /en-US/blog/rss.xml @610,339,22,81
+      text MDN @644,369,8,20
+      text Contribute @664,369,17,20
+      text Developers @693,369,18,20
+    row @408,442,303,162
+      link "Mozilla logo" https://www.mozilla.org/ @408,503,14,40
+      row @434,493,101,61
+        link "Website Privacy Notice" https://www.mozilla.org/privacy/websites/ @434,493,18,61
+        link "Telemetry Settings" https://www.mozilla.org/en-US/privacy/websites/data-preferences/ @464,503,15,40
+        link Legal https://www.mozilla.org/about/legal/terms/mozilla @491,513,4,20
+        link "Community Participation Guidelines" https://www.mozilla.org/about/governance/policies/participation/ @507,493,28,61
+      text Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under . @547,442,119,162
+      link "a Creative Commons license" /docs/MDN/Writing_guidelines/Attrib_copyright_license @678,483,33,81

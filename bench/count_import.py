@@ -19,5 +19,5 @@ for n in NAMES:
 out = ["| page | HTML source | accessibility snapshot | imported MX | HTML / MX |", "|---|---|---|---|---|", *rows, f"| **total** | **{tot[0]:,}** | **{tot[1]:,}** | **{tot[2]:,}** | **{tot[0] / tot[2]:.1f}×** |"]
 (B / "out" / "tables_import.md").write_text("\n".join(out) + "\n")
 json.dump({"model": MODEL, "html": tot[0], "aria": tot[1], "mx": tot[2]}, (B / "out" / "results_import.json").open("w"))
-count_claude.CACHE.write_text(json.dumps({"\u0000".join(k): v for k, v in count_claude._cache.items()}))
+count_claude.CACHE.write_text(json.dumps(count_claude._cache))
 print("\n".join(out))

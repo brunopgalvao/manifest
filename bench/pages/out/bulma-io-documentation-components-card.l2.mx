@@ -1,0 +1,275 @@
+@bulma_io_documentation_components_card rev=0 @0,0,728,4830
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/ @17,17,694,20
+row @17,49,694,212
+  link https://bulma.io/ https://bulma.io/ @17,145,55,20
+  row @84,56,424,198
+    link "Docs Documentation" https://bulma.io/documentation/ @84,135,67,40
+    link Expo https://bulma.io/expo/ @163,145,16,20
+    link Love https://bulma.io/love/ @191,145,16,20
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/ @219,145,27,20
+    row @258,56,250,198
+      link "Open Source on GitHub" https://github.com/jgthms/bulma @258,114,63,82
+      link "Follow me on Twitter" https://twitter.com/jgthms @333,124,56,61
+      button button @401,137,48,36
+      col @461,56,47,198
+        link "Made with Bulma" https://bulma.io/made-with-bulma/ @461,56,47,61
+        link Backers https://bulma.io/backers/ @461,129,47,20
+        link "Bulma Brand" https://bulma.io/brand/ @461,161,47,41
+        link "Bulma Extensions" https://bulma.io/extensions/ @461,214,47,40
+  col @520,49,80,212
+    button button @520,49,80,37
+    card @520,98,80,163
+      button "Light mode" @537,113,46,36
+      button "Dark mode" @537,161,46,36
+      button "System mode" success @537,209,46,37
+  col @612,78,53,154
+    button button @612,78,53,37
+    card @612,127,53,105
+      field "search input" @629,142,19,75
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @677,145,34,20
+row @17,273,694,3943
+  col @17,579,23,3331
+    h3 Start Here @17,579,23,38
+    link Overview https://bulma.io/documentation/start/overview/ @17,629,23,20
+    link Installation https://bulma.io/documentation/start/installation/ @17,661,23,20
+    link "Alternative Versions" https://bulma.io/documentation/start/alternative-versions/ @17,693,23,41
+    link Syntax https://bulma.io/documentation/start/syntax/ @17,746,23,20
+    link Modularity https://bulma.io/documentation/start/modular/ @17,778,23,20
+    link Responsiveness https://bulma.io/documentation/start/responsiveness/ @17,810,23,21
+    link "Migrating to v1" https://bulma.io/documentation/start/migrating-to-v1/ @17,843,23,61
+    h3 Features @17,916,23,18
+    link "CSS Variables" https://bulma.io/documentation/features/css-variables/ @17,946,23,41
+    link Themes https://bulma.io/documentation/features/themes/ @17,999,23,20
+    link "Dark Mode" https://bulma.io/documentation/features/dark-mode/ @17,1031,23,41
+    link "Color Palettes" https://bulma.io/documentation/features/color-palettes/ @17,1084,23,40
+    link Skeletons https://bulma.io/documentation/features/skeletons/ @17,1136,23,21
+    h3 Sass Tools @17,1169,23,37
+    link Mixins https://bulma.io/documentation/sass/mixins/ @17,1218,23,20
+    link "Responsive mixins" https://bulma.io/documentation/sass/responsive-mixins/ @17,1250,23,41
+    link "Form Control mixins" https://bulma.io/documentation/sass/form-control-mixins/ @17,1303,23,61
+    link Extends https://bulma.io/documentation/sass/extends/ @17,1376,23,20
+    h3 Customization @17,1408,23,19
+    link Concepts https://bulma.io/documentation/customize/concepts/ @17,1439,23,20
+    link "With Sass" https://bulma.io/documentation/customize/with-sass/ @17,1471,23,41
+    link "With Modular Sass" https://bulma.io/documentation/customize/with-modular-sass/ @17,1524,23,61
+    link "With CSS Variables" https://bulma.io/documentation/customize/with-css-variables/ @17,1597,23,61
+    link "List of Sass variables" https://bulma.io/documentation/customize/list-of-sass-variables/ @17,1670,23,81
+    h3 CSS Library @17,1763,23,37
+    link Elements https://bulma.io/documentation/elements/ @17,1812,23,21
+    link Block https://bulma.io/documentation/elements/block/ @17,1845,23,20
+    link Box https://bulma.io/documentation/elements/box/ @17,1877,23,20
+    link Button https://bulma.io/documentation/elements/button/ @17,1909,23,21
+    link Content https://bulma.io/documentation/elements/content/ @17,1942,23,20
+    link Delete https://bulma.io/documentation/elements/delete/ @17,1974,23,20
+    link Icon https://bulma.io/documentation/elements/icon/ @17,2006,23,21
+    link Image https://bulma.io/documentation/elements/image/ @17,2039,23,20
+    link Notification https://bulma.io/documentation/elements/notification/ @17,2071,23,20
+    link "Progress bars" https://bulma.io/documentation/elements/progress/ @17,2103,23,41
+    link Table https://bulma.io/documentation/elements/table/ @17,2156,23,20
+    link Tag https://bulma.io/documentation/elements/tag/ @17,2188,23,20
+    link Title https://bulma.io/documentation/elements/title/ @17,2220,23,21
+    link Components https://bulma.io/documentation/components/ @17,2253,23,20
+    link Breadcrumb https://bulma.io/documentation/components/breadcrumb/ @17,2285,23,20
+    link Card https://bulma.io/documentation/components/card/ @17,2317,23,21
+    link Dropdown https://bulma.io/documentation/components/dropdown/ @17,2350,23,20
+    link Menu https://bulma.io/documentation/components/menu/ @17,2382,23,20
+    link Message https://bulma.io/documentation/components/message/ @17,2414,23,20
+    link Modal https://bulma.io/documentation/components/modal/ @17,2446,23,21
+    link Navbar https://bulma.io/documentation/components/navbar/ @17,2479,23,20
+    link Pagination https://bulma.io/documentation/components/pagination/ @17,2511,23,20
+    link Panel https://bulma.io/documentation/components/panel/ @17,2543,23,21
+    link Tabs https://bulma.io/documentation/components/tabs/ @17,2576,23,20
+    link Form https://bulma.io/documentation/form/ @17,2608,23,20
+    link General https://bulma.io/documentation/form/general/ @17,2640,23,21
+    link Input https://bulma.io/documentation/form/input/ @17,2673,23,20
+    link Textarea https://bulma.io/documentation/form/textarea/ @17,2705,23,20
+    link Select https://bulma.io/documentation/form/select/ @17,2737,23,20
+    link Checkbox https://bulma.io/documentation/form/checkbox/ @17,2769,23,21
+    link Radio https://bulma.io/documentation/form/radio/ @17,2802,23,20
+    link File https://bulma.io/documentation/form/file/ @17,2834,23,20
+    link Columns https://bulma.io/documentation/columns/ @17,2866,23,21
+    link Basics https://bulma.io/documentation/columns/basics/ @17,2899,23,20
+    link Sizes https://bulma.io/documentation/columns/sizes/ @17,2931,23,20
+    link Responsiveness https://bulma.io/documentation/columns/responsiveness/ @17,2963,23,21
+    link Nesting https://bulma.io/documentation/columns/nesting/ @17,2996,23,20
+    link Gap https://bulma.io/documentation/columns/gap/ @17,3028,23,20
+    link Options https://bulma.io/documentation/columns/options/ @17,3060,23,20
+    link Grid https://bulma.io/documentation/grid/ @17,3092,23,21
+    link "Smart Grid" https://bulma.io/documentation/grid/smart-grid/ @17,3125,23,40
+    link "Fixed Grid" https://bulma.io/documentation/grid/fixed-grid/ @17,3177,23,41
+    link "Grid Cells" https://bulma.io/documentation/grid/grid-cells/ @17,3230,23,41
+    link Playground https://bulma.io/documentation/grid/playground/ @17,3283,23,20
+    link Layout https://bulma.io/documentation/layout/ @17,3315,23,20
+    link Container https://bulma.io/documentation/layout/container/ @17,3347,23,20
+    link Hero https://bulma.io/documentation/layout/hero/ @17,3379,23,21
+    link Section https://bulma.io/documentation/layout/section/ @17,3412,23,20
+    link Level https://bulma.io/documentation/layout/level/ @17,3444,23,20
+    link "Media Object" https://bulma.io/documentation/layout/media-object/ @17,3476,23,41
+    link Footer https://bulma.io/documentation/layout/footer/ @17,3529,23,20
+    h3 CSS Helpers @17,3561,23,38
+    link Color https://bulma.io/documentation/helpers/color-helpers/ @17,3611,23,20
+    link "Color Palette" https://bulma.io/documentation/helpers/palette-helpers/ @17,3643,23,41
+    link Spacing https://bulma.io/documentation/helpers/spacing-helpers/ @17,3696,23,20
+    link Typography https://bulma.io/documentation/helpers/typography-helpers/ @17,3728,23,20
+    link Visibility https://bulma.io/documentation/helpers/visibility-helpers/ @17,3760,23,21
+    link Flexbox https://bulma.io/documentation/helpers/flexbox-helpers/ @17,3793,23,20
+    link Other https://bulma.io/documentation/helpers/other-helpers/ @17,3825,23,20
+    text Sponsor @17,3857,23,20
+    link https://www.route4me.com/ https://www.route4me.com/ @17,3889,23,21
+  col @52,273,659,3943
+    row @52,273,659,135
+      col @52,279,158,122
+        h1 Card @52,279,158,25
+        h2 An all-around flexible and composable component @52,316,158,85
+      col @222,273,489,135
+        card @222,273,489,102
+          link https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKCWAD42QUCWYIK53WC6BIEKQECEAIL53KC6SILKJWCA7DVK3EHJNCLSIZ https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKCWAD42QUCWYIK53WC6BIEKQECEAIL53KC6SILKJWCA7DVK3EHJNCLSIZ @239,288,455,20
+          link "Your edge case? Another builder solved it last Tuesday. Find answers." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKCWAD42QUCWYIK53WC6BIEKQECEAIL53KC6SILKJWCA7DVK3EHJNCLSIZ @239,320,455,40
+        link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @222,387,489,21
+    text The card component comprises several elements that you can mix and match: @52,420,659,20
+    text : the main container @52,452,659,20
+    text card danger @52,484,659,21
+    text : a horizontal bar with a shadow @52,517,659,20
+    text card-header danger @52,549,659,20
+    text card-header-title: a left-aligned bold text @52,581,659,21
+    text card-header-icon: a placeholder for an icon @52,614,659,20
+    text card-image: a fullwidth container for a responsive image @52,646,659,20
+    text card-content: a multi-purpose container for any other element @52,678,659,20
+    text : a horizontal list of controls @52,710,659,21
+    text card-footer danger @52,743,659,20
+    text card-footer-item: a repeatable list item @52,775,659,20
+    text You can center the card-header-title by appending the is-centered modifier. @52,807,659,21
+    text Example @52,840,659,20
+    image https://bulma.io/assets/images/placeholders/1280x960.png "Placeholder image" @52,872,0,0
+    row @52,884,659,52
+      image https://bulma.io/assets/images/placeholders/96x96.png "Placeholder image" @52,884,0,0
+      col @64,884,78,52
+        text John Smith @64,884,78,20
+        text @johnsmith @64,916,78,20
+    text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. . @52,948,659,21
+    text @bulmaio primary @52,981,659,20
+    link #css # @52,1013,659,20
+    link #responsive # @52,1045,659,21
+    text 11:09 PM - 1 Jan 2016 @52,1078,659,20
+    text HTML @52,1110,659,20
+    text <div class="card"> <div class="card-image"> <figure class="image is-4by3"> <img src="https://bulma.io/assets/images/placeholders/1280x960.png" alt="Placeholder image" /> </figure> </div> <div class="card-content"> <div class="media"> <div class="media-left"> <figure class="image is-48x48"> <img src="https://bulma.io/assets/images/placeholders/96x96.png" alt="Placeholder image" /> </figure> </div> <div class="media-content"> <p class="title is-4">John Smith</p> <p class="subtitle is-6">@johnsmith</p> </div> </div> <div class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a> <br /> <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time> </div> </div> </div> @52,1142,659,203
+    button Copy danger @52,1357,659,37
+    h3 "Card parts #" @52,1406,659,18
+    text The card-header can have a title and a Bulma icon: @52,1436,659,21
+    text Example @52,1469,659,20
+    row @52,1501,659,36
+      text Card header @52,1509,83,20
+      button "more options" @147,1501,120,36
+    text HTML @52,1549,659,21
+    text <div class="card"> <header class="card-header"> <p class="card-header-title">Card header</p> <button class="card-header-icon" aria-label="more options"> <span class="icon"> <i class="fas fa-angle-down" aria-hidden="true"></i> </span> </button> </header> </div> @52,1582,659,60
+    button Copy danger @52,1654,659,37
+    text The card-image is a container for a Bulma image element: @52,1703,659,20
+    text Example @52,1735,659,20
+    image https://bulma.io/assets/images/placeholders/1280x960.png "Placeholder image" @52,1767,0,0
+    text HTML @52,1779,659,21
+    text <div class="card"> <div class="card-image"> <figure class="image is-4by3"> <img src="https://bulma.io/assets/images/placeholders/1280x960.png" alt="Placeholder image" /> </figure> </div> </div> @52,1812,659,61
+    button Copy danger @52,1885,659,36
+    text The card-content is the main part, ideal for text content, thanks to its padding: @52,1933,659,20
+    text Example @52,1965,659,20
+    text Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. @52,1997,659,61
+    text HTML @52,2070,659,21
+    text <div class="card"> <div class="card-content"> <div class="content"> Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. </div> </div> </div> @52,2103,659,81
+    button Copy danger @52,2196,659,36
+    text The card-footer acts as a list of for several card-footer-item elements: @52,2244,659,20
+    text Example @52,2276,659,21
+    card @52,2309,659,115
+      link Save # @69,2324,625,20
+      link Edit # @69,2356,625,20
+      link Delete # @69,2388,625,21
+    text HTML @52,2436,659,20
+    text <div class="card"> <footer class="card-footer"> <a href="#" class="card-footer-item">Save</a> <a href="#" class="card-footer-item">Edit</a> <a href="#" class="card-footer-item">Delete</a> </footer> </div> @52,2468,659,61
+    button Copy danger @52,2541,659,36
+    h3 "Examples #" @52,2589,659,19
+    text Example @52,2620,659,20
+    row @52,2652,659,37
+      text Component @52,2660,78,21
+      button "more options" @142,2652,120,37
+    text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. . @52,2701,659,20
+    link @bulmaio # @52,2733,659,20
+    link #css # @52,2765,659,20
+    link #responsive # @52,2797,659,21
+    text 11:09 PM - 1 Jan 2016 @52,2830,659,20
+    row @52,2862,659,20
+      link Save # @52,2862,33,20
+      link Edit # @97,2862,25,20
+      link Delete # @134,2862,43,20
+    text HTML @52,2894,659,21
+    text <div class="card"> <header class="card-header"> <p class="card-header-title">Component</p> <button class="card-header-icon" aria-label="more options"> <span class="icon"> <i class="fas fa-angle-down" aria-hidden="true"></i> </span> </button> </header> <div class="card-content"> <div class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a> <br /> <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time> </div> </div> <footer class="card-footer"> <a href="#" class="card-footer-item">Save</a> <a href="#" class="card-footer-item">Edit</a> <a href="#" class="card-footer-item">Delete</a> </footer> </div> @52,2927,659,182
+    button Copy danger @52,3121,659,37
+    text Example @52,3170,659,20
+    text “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.” @52,3202,659,41
+    text Jeff Atwood @52,3255,659,20
+    row @52,3287,659,20
+      text View on @52,3287,54,20
+      link Twitter https://twitter.com/codinghorror/status/506010907021828096 @118,3287,47,20
+      text Share on @177,3287,60,20
+      link Facebook # @249,3287,66,20
+    text HTML @52,3319,659,20
+    text <div class="card"> <div class="card-content"> <p class="title"> “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.” </p> <p class="subtitle">Jeff Atwood</p> </div> <footer class="card-footer"> <p class="card-footer-item"> <span> View on <a href="https://twitter.com/codinghorror/status/506010907021828096" >Twitter</a > </span> </p> <p class="card-footer-item"> <span> Share on <a href="#">Facebook</a> </span> </p> </footer> </div> @52,3351,659,143
+    button Copy danger @52,3506,659,36
+    h3 "Sass and CSS variables #" @52,3554,659,19
+    card @52,3585,659,599
+      table "Sass Variable:badge" "CSS Variable:badge" Value:badge @69,3600,625,569
+        $card-colorCopy | var(--bulma-card-color)Copy | var(--bulma-text)Copy
+        $card-background-colorCopy | var(--bulma-card-background-color)Copy | var(--bulma-scheme-main)Copy
+        $card-shadowCopy | var(--bulma-card-shadow)Copy | var(--bulma-shadow)Copy
+        $card-radiusCopy | var(--bulma-card-radius)Copy | 0.75remCopy
+        $card-header-background-colorCopy | var(--bulma-card-header-background-color)Copy | transparentCopy
+        $card-header-colorCopy | var(--bulma-card-header-color)Copy | var(--bulma-text-strong)Copy
+        $card-header-paddingCopy | var(--bulma-card-header-padding)Copy | 0.75rem 1remCopy
+        $card-header-shadowCopy | var(--bulma-card-header-shadow)Copy | 0 0.125em 0.25em hsla( var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-scheme-invert-l), 0.1 )Copy
+        $card-header-weightCopy | var(--bulma-card-header-weight)Copy | var(--bulma-weight-bold)Copy
+        $card-content-background-colorCopy | var(--bulma-card-content-background-color)Copy | transparentCopy
+        $card-content-paddingCopy | var(--bulma-card-content-padding)Copy | 1.5remCopy
+        $card-footer-background-colorCopy | var(--bulma-card-footer-background-color)Copy | transparentCopy
+        $card-footer-border-topCopy | var(--bulma-card-footer-border-top)Copy | 1px solid var(--bulma-border-weak)Copy
+        $card-footer-paddingCopy | var(--bulma-card-footer-padding)Copy | 0.75remCopy
+        $card-media-marginCopy | var(--bulma-card-media-margin)Copy | var(--bulma-block-spacing)Copy
+    row @52,4196,659,20
+      link "← components: Breadcrumb" https://bulma.io/documentation/components/breadcrumb/ @52,4196,189,20
+      link "components: Dropdown →" https://bulma.io/documentation/components/dropdown/ @253,4196,177,20
+h3 How to support Bulma @17,4228,694,19
+row @17,4259,694,90
+  col @17,4259,124,90
+    text One-time donation @17,4259,124,20
+    field submit @17,4291,124,58
+  col @153,4278,197,52
+    text Browser testing via @153,4278,197,20
+    link https://www.lambdatest.com/ https://www.lambdatest.com/ @153,4310,197,20
+  col @362,4278,121,52
+    text Visit our Sponsors @362,4278,121,20
+    link celebian https://celebian.com/ @362,4310,121,20
+  col @495,4278,124,52
+    text Monthly donation @495,4278,124,20
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/ @495,4310,124,20
+link ".native-js { background: linear-gradient(-30deg, #1A0A2EE5, #1A0A2EE5 45%, #1A0A2E 45%) #fff; } .native-details { color: #E8E0D8 !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #E8E0D8; background-color: #E8470A; } .native-cta:hover { color: undefined; background-color: undefined; } Auth0 Auth0. Designed to help you integrate secure authentication into any language or framework, fast. Start Building" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQYCESITZ3JCAAI653NF67DL5QKC67I427ICYBIP53YFTYDKK3IFTSIP27NHEYI55QLCESI623ECTNCYBZ52K @17,4361,694,102
+row @17,4475,694,51
+  col @17,4475,195,51
+    h3 Bulma by Jeremy Thomas. @17,4475,195,18
+    link "Follow @jgthms" https://twitter.com/jgthms @17,4505,195,21
+  col @224,4491,155,18
+    h3 Contribute on GitHub @224,4491,155,18
+  col @391,4475,161,51
+    h3 Share on social media @391,4475,161,18
+    row @391,4505,161,21
+      link Twitter https://twitter.com/share @391,4505,47,21
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io @450,4505,66,21
+text Source code licensed . Website content licensed @17,4538,694,20
+row @17,4570,694,20
+  link MIT https://opensource.org/licenses/mit-license.php @17,4570,26,20
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/ @55,4570,122,20
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer @17,4602,694,163
+row @17,4777,694,36
+  link "Get started for Free Get started for Free" https://cssmasterclass.io/ @17,4785,265,20
+  button close @294,4777,67,36
+!overflow button 46/73px
+!overflow light 44/104px
+!overflow dark 44/102px
+!overflow system 44/121px
+!overflow button3 51/73px
+!tiny search 22x37px

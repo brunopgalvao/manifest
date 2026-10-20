@@ -1,0 +1,46 @@
+@getbootstrap_com_docs_5_3_examples_heroe rev=0 @0,0,728,1302
+button "Toggle theme (light)" primary @17,17,694,36
+h1 Heroes examples @17,65,694,25
+h1 Centered hero @17,102,694,25
+text Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins. @17,139,694,61
+row @17,212,694,37
+  button "Primary button" primary @17,212,131,37
+  button Secondary @160,212,104,37
+h1 Centered screenshot @17,261,694,25
+text Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins. @17,298,694,60
+row @17,370,694,37
+  button "Primary button" primary @17,370,131,37
+  button Secondary @160,370,104,37
+image https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-docs.png "Example image" @17,419,0,0
+row @17,431,694,146
+  image https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-themes.png "Bootstrap Themes" @17,431,0,0
+  col @29,431,682,146
+    h1 Responsive left-aligned hero with image @29,431,682,25
+    text Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins. @29,468,682,61
+    row @29,541,682,36
+      button Primary primary @29,541,83,36
+      button Default @124,541,80,36
+row @17,589,694,349
+  col @17,715,542,97
+    h1 Vertically centered hero sign-up form @17,715,542,25
+    text Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it. @17,752,542,60
+  col @571,589,140,349
+    field "Email address" email @571,589,140,58
+    text Email address @571,659,140,20
+    field Password password @571,691,140,58
+    text Password @571,761,140,20
+    check "Remember me" off @571,793,140,24
+    button "Sign up" primary @571,829,140,36
+    text By clicking Sign up, you agree to the terms of use. @571,877,140,61
+card @17,950,694,176
+  col @34,965,660,146
+    h1 Border hero with cropped image and shadows @34,965,660,25
+    text Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins. @34,1002,660,61
+    row @34,1075,660,36
+      button Primary primary @34,1075,83,36
+      button Default @129,1075,80,36
+h1 Dark color hero @17,1138,694,25
+text Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins. @17,1175,694,61
+row @17,1248,694,37
+  button "Custom button" @17,1248,131,37
+  button Secondary @160,1248,104,37

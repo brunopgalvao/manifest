@@ -1,0 +1,356 @@
+@preview_tabler_io_search_results_html rev=0 @0,0,728,2984
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,41
+  link Tabler . @17,59,39,21
+  row @68,49,643,41
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle @68,49,71,41
+    row @151,49,448,41
+      link "Enable dark mode" @151,49,108,41
+      link "Show notifications" # @271,49,111,41
+      link "Show app menu" # @394,49,97,41
+      link "Select language" # @503,49,96,41
+    link "Open user menu" # @611,49,100,41
+row @17,102,694,36
+  row @17,102,593,36
+    button Dashboards @17,102,85,36
+    button Interface @114,102,71,36
+    button Forms @197,102,58,36
+    button Extra @267,102,54,36
+    button Layout @333,102,61,36
+    button Plugins @406,102,63,36
+    button Addons @481,102,65,36
+    button Help @558,102,52,36
+  button Customize @622,102,89,36
+h1 Search results @17,150,694,25
+text About 2,410 result (0.19 seconds) @17,187,694,21
+row @17,220,694,656
+  col @17,220,23,656
+    text Category @17,220,23,20
+    link Games24 # @17,252,23,20
+    link Clothing11 # @17,284,23,20
+    link Jewelery11 # @17,316,23,21
+    link Toys54 # @17,349,23,20
+    text Rating @17,381,23,20
+    text Tags @17,413,23,21
+    check business on @17,446,23,24
+    check evening off @17,482,23,24
+    check leisure off @17,518,23,24
+    check party off @17,554,23,24
+    text Price @17,590,23,20
+    row @17,622,23,58
+      row @17,622,0,58
+        text $ @17,641,0,20
+        field from ="3" @29,622,0,58
+      text — @29,641,0,20
+      row @41,622,0,58
+        text $ @41,641,0,20
+        field to @53,622,0,58
+    text Shipping @17,692,23,20
+    select shipping-country *"United Kingdom" USA Germany Poland Other… @17,724,23,55
+    button "Confirm changes" primary @17,791,30,36
+    button "Reset to defaults" @17,839,30,37
+  row @52,475,659,145
+    col @52,529,26,37
+      link # # @52,529,26,20
+      region 230.3300018310547x40 @52,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Paweł Kuna" @58,561,9,2
+        text @56,31.200000762939453 fill:#737373 size:14 "3 days ago" @58,563,8,2
+    col @90,529,26,37
+      link # # @90,529,26,20
+      region 230.3300018310547x40 @90,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Jeffie Lewzey" @96,561,11,2
+        text @56,31.200000762939453 fill:#737373 size:14 "now" @96,563,3,2
+    col @128,529,26,37
+      link # # @128,529,26,20
+      region 230.3300018310547x40 @128,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Mallory Hulme" @134,561,11,2
+        text @56,31.200000762939453 fill:#737373 size:14 "now" @134,563,3,2
+    col @166,529,26,37
+      link # # @166,529,26,20
+      region 230.3300018310547x40 @166,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Dunn Slane" @172,561,9,2
+        text @56,31.200000762939453 fill:#737373 size:14 "10 days ago" @172,563,9,2
+    col @204,529,26,37
+      link # # @204,529,26,20
+      region 230.3300018310547x40 @204,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Emmy Levet" @210,561,9,2
+        text @56,31.200000762939453 fill:#737373 size:14 "now" @210,563,3,2
+    col @242,529,26,37
+      link # # @242,529,26,20
+      region 230.3300018310547x40 @242,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Maryjo Lebarree" @248,561,12,2
+        text @56,31.200000762939453 fill:#737373 size:14 "3 days ago" @248,563,8,2
+    col @280,529,26,37
+      link # # @280,529,26,20
+      region 230.3300018310547x40 @280,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Egan Poetz" @286,561,8,2
+        text @56,31.200000762939453 fill:#737373 size:14 "6 days ago" @286,563,8,2
+    col @318,529,26,37
+      link # # @318,529,26,20
+      region 230.3300018310547x40 @318,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Kellie Skingley" @324,561,11,2
+        text @56,31.200000762939453 fill:#737373 size:14 "9 days ago" @324,563,8,2
+    col @356,529,26,37
+      link # # @356,529,26,20
+      region 230.3300018310547x40 @356,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Christabel Charlwood" @362,561,16,2
+        text @56,31.200000762939453 fill:#737373 size:14 "now" @362,563,3,2
+    col @394,529,26,37
+      link # # @394,529,26,20
+      region 230.3300018310547x40 @394,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Haskel Shelper" @400,561,11,2
+        text @56,31.200000762939453 fill:#737373 size:14 "now" @400,563,3,2
+    col @432,529,26,37
+      link # # @432,529,26,20
+      region 230.3300018310547x40 @432,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Lorry Mion" @438,561,8,2
+        text @56,31.200000762939453 fill:#737373 size:14 "5 days ago" @438,563,8,2
+    col @470,529,26,37
+      link # # @470,529,26,20
+      region 230.3300018310547x40 @470,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Leesa Beaty" @476,561,9,2
+        text @56,31.200000762939453 fill:#737373 size:14 "now" @476,563,3,2
+    col @508,529,26,37
+      link # # @508,529,26,20
+      region 230.3300018310547x40 @508,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Perren Keemar" @514,561,11,2
+        text @56,31.200000762939453 fill:#737373 size:14 "4 days ago" @514,563,8,2
+    col @546,475,13,145
+      link # # @546,475,13,20
+      row @546,507,13,113
+        text SA @546,554,0,20
+        col @558,507,1,113
+          text Sunny Airey @558,507,1,41
+          text 5 days ago @558,560,1,60
+    col @571,529,26,37
+      link # # @571,529,26,20
+      region 230.3300018310547x40 @571,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Geoffry Flaunders" @577,561,14,2
+        text @56,31.200000762939453 fill:#737373 size:14 "7 days ago" @577,563,8,2
+    col @609,529,26,37
+      link # # @609,529,26,20
+      region 230.3300018310547x40 @609,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Thatcher Keel" @615,561,10,2
+        text @56,31.200000762939453 fill:#737373 size:14 "9 days ago" @615,563,8,2
+    col @647,529,26,37
+      link # # @647,529,26,20
+      region 230.3300018310547x40 @647,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Dyann Escala" @653,561,10,2
+        text @56,31.200000762939453 fill:#737373 size:14 "now" @653,563,3,2
+    col @685,529,26,37
+      link # # @685,529,26,20
+      region 230.3300018310547x40 @685,561,26,5 [3 shapes, 2 labelled]
+        text @56,11.199999809265137 fill:#404040 size:14 "Avivah Mugleston" @691,561,13,2
+        text @56,31.200000762939453 fill:#737373 size:14 "6 days ago" @691,563,8,2
+row @17,888,694,40
+  row @17,888,325,40
+    link Documentation https://docs.tabler.io @17,898,99,20
+    link License ./license.html @128,898,52,20
+    link "Source code" https://github.com/tabler/tabler @192,888,83,40
+    link Sponsor https://github.com/sponsors/codecalm @287,898,55,20
+  row @354,888,357,40
+    text Copyright © 2026 . All rights reserved. @354,888,254,40
+    link Tabler . @620,898,43,20
+    link v1.6.1 ./changelog.html @675,898,36,20
+button Customize primary @17,940,694,36
+card @17,988,694,1979
+  button Close primary @34,1003,660,37
+  region 160x120 @34,1052,160,120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own @34,1184,660,21
+  text Pick the look and layout of this preview. Your choices are saved in this browser. @34,1217,660,20
+  h3 Appearance @34,1249,660,19
+  text Color scheme @34,1280,660,20
+  text The page and its navigation, in one pick. @34,1312,660,21
+  row @34,1345,660,96
+    col @34,1345,96,96
+      region 96x64 @34,1345,96,64 [8 shapes, 0 labelled]
+      text Auto @34,1421,96,20
+    col @142,1345,96,96
+      region 96x64 @142,1345,96,64 [8 shapes, 0 labelled]
+      text Light @142,1421,96,20
+    col @250,1345,96,96
+      region 96x64 @250,1345,96,64 [8 shapes, 0 labelled]
+      text Dark @250,1421,96,20
+    col @358,1345,96,96
+      region 96x64 @358,1345,96,64 [8 shapes, 0 labelled]
+      text Dark nav @358,1421,96,20
+    col @466,1345,96,96
+      region 96x64 @466,1345,96,64 [8 shapes, 0 labelled]
+      text Colored @466,1421,96,20
+  text Accent color @34,1453,660,20
+  text The accent color used across the app. @34,1485,660,21
+  row @34,1518,660,0
+  text Font family @34,1530,660,20
+  text The typeface used across the app. @34,1562,660,20
+  row @34,1594,660,20
+    text Aa Sans-serif @34,1594,90,20
+    text Aa Serif @136,1594,53,20
+    text Aa Monospace @201,1594,100,20
+    text Aa Comic @313,1594,64,20
+  text Theme base @34,1626,660,21
+  text The gray palette behind every surface. @34,1659,660,20
+  row @34,1691,660,96
+    col @34,1691,96,96
+      region 96x64 @34,1691,96,64 [6 shapes, 0 labelled]
+      text Slate @34,1767,96,20
+    col @142,1691,96,96
+      region 96x64 @142,1691,96,64 [6 shapes, 0 labelled]
+      text Gray @142,1767,96,20
+    col @250,1691,96,96
+      region 96x64 @250,1691,96,64 [6 shapes, 0 labelled]
+      text Zinc @250,1767,96,20
+    col @358,1691,96,96
+      region 96x64 @358,1691,96,64 [6 shapes, 0 labelled]
+      text Neutral @358,1767,96,20
+    col @466,1691,96,96
+      region 96x64 @466,1691,96,64 [6 shapes, 0 labelled]
+      text Stone @466,1767,96,20
+  text Corner radius @34,1799,660,21
+  text How round corners are drawn. @34,1832,660,20
+  row @34,1864,660,96
+    col @34,1864,96,96
+      region 96x64 @34,1864,96,64 [2 shapes, 0 labelled]
+      text 0 @34,1940,96,20
+    col @142,1864,96,96
+      region 96x64 @142,1864,96,64 [2 shapes, 0 labelled]
+      text 0.5 @142,1940,96,20
+    col @250,1864,96,96
+      region 96x64 @250,1864,96,64 [2 shapes, 0 labelled]
+      text 1 @250,1940,96,20
+    col @358,1864,96,96
+      region 96x64 @358,1864,96,64 [2 shapes, 0 labelled]
+      text 1.5 @358,1940,96,20
+    col @466,1864,96,96
+      region 96x64 @466,1864,96,64 [2 shapes, 0 labelled]
+      text 2 @466,1940,96,20
+  h3 Layout @34,1972,660,19
+  text Navigation @34,2003,660,20
+  text Where the main menu lives. @34,2035,660,21
+  row @34,2068,660,96
+    col @34,2068,96,96
+      region 96x64 @34,2068,96,64 [10 shapes, 0 labelled]
+      text Navbar @34,2144,96,20
+    col @142,2068,96,96
+      region 96x64 @142,2068,96,64 [11 shapes, 0 labelled]
+      text Sidebar @142,2144,96,20
+  text Container width @34,2176,660,20
+  text How wide the page content runs. @34,2208,660,20
+  row @34,2240,660,97
+    col @34,2240,96,97
+      region 96x64 @34,2240,96,64 [6 shapes, 0 labelled]
+      text Default @34,2316,96,21
+    col @142,2240,96,97
+      region 96x64 @142,2240,96,64 [6 shapes, 0 labelled]
+      text Fluid @142,2316,96,21
+    col @250,2240,96,97
+      region 96x64 @250,2240,96,64 [7 shapes, 0 labelled]
+      text Boxed @250,2316,96,21
+  text Navbar behavior @34,2349,660,20
+  text Keep the navbar visible while scrolling. @34,2381,660,20
+  row @34,2413,660,97
+    col @34,2413,96,97
+      region 96x64 @34,2413,96,64 [8 shapes, 0 labelled]
+      text Default @34,2489,96,21
+    col @142,2413,96,97
+      region 96x64 @142,2413,96,64 [10 shapes, 0 labelled]
+      text Sticky @142,2489,96,21
+  text Navigation style @34,2522,660,20
+  text Attach the navigation to the edges, or let it float. @34,2554,660,20
+  row @34,2586,660,97
+    col @34,2586,96,97
+      region 96x64 @34,2586,96,64 [10 shapes, 0 labelled]
+      text Attached @34,2662,96,21
+    col @142,2586,96,97
+      region 96x64 @142,2586,96,64 [9 shapes, 0 labelled]
+      text Floating @142,2662,96,21
+  text Offcanvas style @34,2695,660,20
+  text Attach side panels to the edges, or let them float. @34,2727,660,20
+  row @34,2759,660,96
+    col @34,2759,96,96
+      region 96x64 @34,2759,96,64 [11 shapes, 0 labelled]
+      text Attached @34,2835,96,20
+    col @142,2759,96,96
+      region 96x64 @142,2759,96,64 [10 shapes, 0 labelled]
+      text Floating @142,2835,96,20
+  button "Reset changes" @34,2867,660,37
+  button Save primary @34,2916,660,36
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!overflow from 20/29px
+!overflow confirm 28/145px
+!overflow reset 28/143px
+!tiny business 23x24px
+!tiny evening 23x24px
+!tiny leisure 23x24px
+!tiny party 23x24px
+!tiny from 22x37px
+!tiny to 22x37px
+!offcanvas region19
+!offcanvas path
+!offcanvas region20
+!offcanvas path2
+!offcanvas region21
+!offcanvas path3
+!offcanvas region22
+!offcanvas path4
+!offcanvas region23
+!offcanvas path5
+!offcanvas region24
+!offcanvas path6
+!offcanvas region25
+!offcanvas path7
+!offcanvas region26
+!offcanvas path8
+!offcanvas region27
+!offcanvas path9
+!offcanvas region28
+!offcanvas path10
+!offcanvas region29
+!offcanvas path11
+!offcanvas region30
+!offcanvas path12
+!offcanvas region31
+!offcanvas path13
+!offcanvas region32
+!offcanvas path14
+!offcanvas region33
+!offcanvas path15
+!offcanvas region34
+!offcanvas path16
+!offcanvas region35
+!offcanvas path17
+!offcanvas region36
+!offcanvas path18
+!offcanvas region37
+!offcanvas path19
+!offcanvas region38
+!offcanvas path20
+!offcanvas region39
+!offcanvas path21
+!offcanvas region40
+!offcanvas path22
+!offcanvas region41
+!offcanvas path23
+!offcanvas region42
+!offcanvas path24
+!offcanvas region43
+!offcanvas path25
+!offcanvas region44
+!offcanvas path26
+!offcanvas region45
+!offcanvas path27
+!offcanvas region46
+!offcanvas path28
+!offcanvas region47
+!offcanvas path29
+!offcanvas region48
+!offcanvas path30
+!offcanvas region49
+!offcanvas path31

@@ -1,0 +1,140 @@
+@picocss_com_docs_modal rev=0 @0,0,728,2641
+row @17,17,694,2607
+  button "Skip to content" primary @17,1302,39,37
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @68,1239,27,163
+  row @107,1280,58,81
+    link "Pico CSS homepage" / @107,1290,10,61
+    row @129,1280,36,81
+      row @129,1310,8,21
+        text v2.1.1 @129,1310,0,21
+        link Examples /examples @141,1310,0,21
+        link Docs /docs @153,1310,0,21
+      row @149,1280,16,81
+        link "GitHub repository" https://github.com/picocss/pico @149,1300,0,41
+        link Twitter https://x.com/picocss @161,1310,0,21
+        link "Turn on dark mode" /docs/modal @173,1280,0,81
+  row @177,17,321,2607
+    col @177,1048,9,545
+      text Getting started @177,1048,9,40
+      text Customization @177,1100,9,21
+      text Layout @177,1133,9,20
+      text Content @177,1165,9,20
+      text Forms @177,1197,9,21
+      text Components @177,1230,9,20
+      link Accordion /docs/accordion @177,1262,9,20
+      link Card /docs/card @177,1294,9,21
+      link Dropdown /docs/dropdown @177,1327,9,20
+      link "Group New" /docs/group @177,1359,9,40
+      link Loading /docs/loading @177,1411,9,21
+      link Modal /docs/modal @177,1444,9,20
+      link Nav /docs/nav @177,1476,9,20
+      link Progress /docs/progress @177,1508,9,21
+      link Tooltip /docs/tooltip @177,1541,9,20
+      text About @177,1573,9,20
+    metric Components Modal "The classic modal component with graceful spacings across devices and viewports, using the semantic HTML tag <dialog>." @198,17,30,2607
+    col @240,1262,5,117
+      text Content @240,1262,5,20
+      link Syntax /docs/modal @240,1294,5,21
+      link Demo /docs/modal#demo @240,1327,5,20
+      link Utilities /docs/modal#utilities @240,1359,5,20
+    col @257,17,241,2607
+      text Modals are built with <dialog> as a wrapper and <article> for the modal content. @257,17,241,61
+      text Inside <header> <button rel="prev"> is defined to float: right; allowing a close icon to be top aligned with a title. @257,90,241,81
+      card @257,183,241,99
+        button Close @274,198,207,36
+        text 🗓️ Thank You for Registering! @274,246,207,21
+      text We’re excited to have you join us for our upcoming event. Please arrive at the museum on time to check in and get started. @257,294,241,81
+      text Date: Saturday, April 15 @257,387,241,20
+      text Time: 10:00am - 12:00pm @257,419,241,21
+      card @257,452,241,366
+        link "Copy code" /docs/modal @274,467,207,20
+        text <dialog open> <article> <header> <button aria-label="Close" rel="prev"></button> <p> <strong>🗓️ Thank You for Registering!</strong> </p> </header> <p> We're excited to have you join us for our upcoming event. Please arrive at the museum on time to check in and get started. </p> <ul> <li>Date: Saturday, April 15</li> <li>Time: 10:00am - 12:00pm</li> </ul> </article> </dialog> @274,499,207,304
+      text Inside <footer>, the content is right aligned by default. @257,830,241,41
+      h2 Confirm Your Membership @257,883,241,21
+      text Thank you for signing up for a membership! Please review the membership details below: @257,916,241,61
+      text Membership: Individual @257,989,241,20
+      text Price: $10 @257,1021,241,21
+      row @257,1054,241,36
+        button Cancel primary @257,1054,78,36
+        button Confirm primary @347,1054,85,36
+      card @257,1102,241,326
+        link "Copy code" /docs/modal @274,1117,207,20
+        text <dialog open> <article> <h2>Confirm Your Membership</h2> <p> Thank you for signing up for a membership! Please review the membership details below: </p> <ul> <li>Membership: Individual</li> <li>Price: $10</li> </ul> <footer> <button class="secondary"> Cancel </button> <button>Confirm</button> </footer> </article> </dialog> @274,1149,207,264
+      h2 Demo# @257,1440,241,21
+      text Toggle a modal by clicking the button below. @257,1473,241,41
+      button "Open modal" primary @257,1526,241,36
+      text Pico does not include JavaScript code. You need to implement your JS to interact with modals. @257,1574,241,61
+      text As a starting point, you can look at the or the advanced examples below: @257,1647,241,61
+      link HTMLDialogElement https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement @257,1720,241,20
+      link "Vanilla JavaScript" https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Fjs%2Fmodal.js @257,1752,241,21
+      link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-color-schemes-and-modal?embed=1&file=%2Fsrc%2Fcomponents%2FModal.js @257,1785,241,20
+      text To open a modal, add the open attribute to the<dialog> container. @257,1817,241,41
+      h2 Utilities# @257,1870,241,21
+      text Modals come with 3 utility classes. @257,1903,241,20
+      text These classes are not available in the . @257,1935,241,41
+      link "class-less version" /docs/classless @257,1988,241,20
+      text .modal-is-open prevents any scrolling and interactions below the modal. @257,2020,241,61
+      card @257,2093,241,123
+        link "Copy code" /docs/modal @274,2108,207,20
+        text <!doctype html> <html class="modal-is-open"> ... </html> @274,2140,207,61
+      text .modal-is-opening brings an opening animation. @257,2228,241,41
+      card @257,2281,241,123
+        link "Copy code" /docs/modal @274,2296,207,20
+        text <!doctype html> <html class="modal-is-open modal-is-opening"> ... </html> @274,2328,207,61
+      text .modal-is-closing brings a closing animation. @257,2416,241,41
+      card @257,2469,241,123
+        link "Copy code" /docs/modal @274,2484,207,20
+        text <!doctype html> <html class="modal-is-open modal-is-closing"> ... </html> @274,2516,207,61
+      link "Edit this page on GitHub" https://github.com/picocss/picocss.com/blob/main/app/routes/docs.modal.jsx @257,2604,241,20
+  col @510,1183,201,275
+    row @510,1183,201,203
+      region 49.34000015258789x45 @510,1282,3,4 [3 shapes, 0 labelled]
+      row @525,1264,108,40
+        row @525,1264,23,40
+          text About @525,1274,0,20
+          link Maintenance /docs/maintenance @537,1274,0,20
+          link "What’s new?" /docs/v2 @549,1264,0,40
+          link Brand /docs/brand @561,1274,0,20
+          link Mission /docs/mission @573,1274,0,20
+          link "Usage scenarios" /docs/usage-scenarios @585,1264,0,40
+        row @560,1264,23,40
+          text Docs @560,1274,0,20
+          link "Quick start" /docs @572,1264,0,40
+          link "Version picker" /docs/version-picker @584,1264,0,40
+          link "Class-less version" /docs/classless @596,1264,0,40
+          link "Form elements" /docs/forms @608,1264,0,40
+        row @595,1274,12,20
+          text Community @595,1274,0,20
+          link Issues https://github.com/picocss/pico/issues @607,1274,0,20
+          link Discussions https://github.com/picocss/pico/discussions @619,1274,0,20
+          link Help https://github.com/picocss/pico/discussions/categories/help @631,1274,0,20
+        row @619,1274,14,20
+          text Examples @619,1274,0,20
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @631,1274,0,20
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @643,1274,0,20
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @655,1274,0,20
+          link All /examples @667,1274,0,20
+      text Designed and built by with the help of our . @645,1183,20,203
+      col @677,1248,7,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @677,1248,7,40
+        link contributors https://github.com/picocss/pico/graphs/contributors @677,1300,7,21
+      row @696,1274,15,20
+        link GitHub https://github.com/picocss/pico @696,1274,0,20
+        link Twitter https://x.com/picocss @708,1274,0,20
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @720,1274,0,20
+        link NPM https://www.npmjs.com/package/@picocss/pico @732,1274,0,20
+    row @510,1398,201,60
+      text Code licensed , docs . @510,1398,67,60
+      row @589,1398,61,60
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @589,1418,11,20
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @612,1398,38,60
+      text Currently v2.1.1. @662,1408,49,40
+!overflow skip 37/130px
+!overflow components2 0/73px
+!overflow components2 0/67px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

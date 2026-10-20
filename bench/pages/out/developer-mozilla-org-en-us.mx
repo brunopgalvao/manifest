@@ -12,16 +12,17 @@ row
     row
       col
         h1 Resources for Developers, by Developers
+        text Documenting , , and , since 2005.
         row
           link CSS /en-US/docs/Web/CSS
           link HTML /en-US/docs/Web/HTML
           link JavaScript /en-US/docs/Web/JavaScript
       region "Mandala" 560x560
-        text @0,0 "/\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n    /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n    /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n    /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n    /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n    /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n    /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /" fill:#51565d size:24
-        text @0,0 "+\n +\n +\n +\n +\n +\n   +\n +\n +\n +\n +\n +\n   +\n +\n +\n +\n +\n +\n   +\n +\n +\n +\n +\n +\n   +\n +\n +\n +\n +\n +\n   +\n +\n +\n +\n +\n +\n   +\n +\n +\n +\n +\n +" fill:#51565d size:24
-        text @0,0 "{\n {\n {\n { \n }\n }\n }\n }  \n {\n {\n {\n { \n }\n }\n }\n }  \n {\n {\n {\n { \n }\n }\n }\n }  \n {\n {\n {\n { \n }\n }\n }\n }  \n {\n {\n {\n { \n }\n }\n }\n }  \n {\n {\n {\n { \n }\n }\n }\n }" fill:#51565d size:24
-        text @0,0 "../../    ../../\n    ../../    ../../\n    ../../    ../../\n    ../../" fill:#51565d size:24
-        text @0,0 "<>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>" fill:#51565d size:24
+        text @0,0 "/ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /" fill:#51565d size:24
+        text @0,0 "+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +" fill:#51565d size:24
+        text @0,0 "{ { { { } } } } { { { { } } } } { { { { } } } } { { { { } } } } { { { { } } } } { { { { } } } }" fill:#51565d size:24
+        text @0,0 "../../ ../../ ../../ ../../ ../../ ../../ ../../" fill:#51565d size:24
+        text @0,0 "<> </> <> </> <> </> <> </> <> </> <> </> <> </> <> </> <> </> <> </> <> </> <> </> <> </> <> </> <> </> <> </>" fill:#51565d size:24
     h2 Featured articles
     text Blog Celebrating 20 years of MDN MDN turns 20! Let's look at how we started, how MDN became the most trusted resource for web developers, the impact it's had on the open web, and yes, there's cake, too. Web APIs Navigation API The Navigation API provides the ability to initiate, intercept, and manage browser navigation actions. It can also examine an application's history entries. This is a successor to previous web platform features such as the History API and window.location, which solves their shortcomings and is specifically aimed at the needs of single-page applications (SPAs). Web APIs Trusted Types API The Trusted Types API gives web developers a way to ensure that input has been passed through a user-specified transformation function before being passed to an API that might execute that input. This can help to protect against client-side cross-site scripting (XSS) attacks. Most commonly the transformation function sanitizes the input. CSS Using CSS anchor positioning The CSS anchor positioning module defines features that allow you to tether elements together. Elements can be defined as anchor elements and anchor-positioned elements. Anchor-positioned elements can be bound to anchor elements. The anchor-positioned elements can then have their size and position set relative to the size and location of the anchor elements to which they are bound.
     h2 Latest news
@@ -93,4 +94,5 @@ row
         link "Telemetry Settings" https://www.mozilla.org/en-US/privacy/websites/data-preferences/
         link Legal https://www.mozilla.org/about/legal/terms/mozilla
         link "Community Participation Guidelines" https://www.mozilla.org/about/governance/policies/participation/
+      text Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under .
       link "a Creative Commons license" /docs/MDN/Writing_guidelines/Attrib_copyright_license

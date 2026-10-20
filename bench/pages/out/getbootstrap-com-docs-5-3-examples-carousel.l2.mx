@@ -1,0 +1,61 @@
+@getbootstrap_com_docs_5_3_examples_carou rev=0 @0,0,728,1858
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,58
+  link Carousel # @17,84,59,20
+  row @88,65,292,58
+    row @88,84,150,20
+      link Home # @88,84,40,20
+      link Link # @140,84,28,20
+      text Disabled @180,84,58,20
+    row @250,65,130,58
+      field Search search @250,65,40,58
+      button Search @302,76,78,36
+row @17,135,694,36
+  button "Slide 1" @17,135,73,36
+  button "Slide 2" @102,135,76,36
+  button "Slide 3" @190,135,76,36
+region 1280x512 @17,183,694,278 [1 shapes, 0 labelled]
+h1 Example headline. @17,473,694,25
+text Some representative placeholder content for the first slide of the carousel. @17,510,694,20
+link "Sign up today" # @17,542,694,21
+button Previous @17,575,694,36
+button Next @17,623,694,36
+row @17,671,694,320
+  col @17,671,261,320
+    region Placeholder 140x140 @17,693,140,140 [1 shapes, 0 labelled]
+    h2 Heading @17,845,261,21
+    text Some representative placeholder content for the three columns of text below the carousel. This is the first column. @17,878,261,81
+    link "View details »" # @17,971,261,20
+  col @290,671,248,320
+    region Placeholder 140x140 @290,693,140,140 [1 shapes, 0 labelled]
+    h2 Heading @290,845,248,21
+    text Another exciting bit of representative placeholder content. This time, we've moved on to the second column. @290,878,248,81
+    link "View details »" # @290,971,248,20
+  col @550,671,161,320
+    region Placeholder 140x140 @550,693,140,140 [1 shapes, 0 labelled]
+    h2 Heading @550,845,161,21
+    text And lastly this, the third column of representative placeholder content. @550,878,161,81
+    link "View details »" # @550,971,161,20
+row @17,1003,694,306
+  col @17,1119,397,74
+    h2 First featurette heading. It’ll blow your mind. @17,1119,397,22
+    text Some great placeholder content for the first featurette here. Imagine some exciting prose here. @17,1153,397,40
+  region "Placeholder: 500x500" 451x451 @426,1025,285,284 [2 shapes, 1 labelled]
+    text @50,50 anchor:middle size:56 "500x500" @382,1022,151,43
+row @17,1321,694,228
+  col @17,1388,476,94
+    h2 Oh yeah, it’s that good. See for yourself. @17,1388,476,21
+    text Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place. @17,1421,476,61
+  region "Placeholder: 500x500" 451x451 @505,1343,206,206 [2 shapes, 1 labelled]
+    text @50,50 anchor:middle size:56 "500x500" @473,1341,109,31
+row @17,1561,694,183
+  col @17,1605,520,94
+    h2 And lastly, this one. Checkmate. @17,1605,520,21
+    text And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content. @17,1638,520,61
+  region "Placeholder: 500x500" 451x451 @549,1582,162,162 [2 shapes, 1 labelled]
+    text @50,50 anchor:middle size:56 "500x500" @524,1580,86,24
+link "Back to top" # @17,1756,694,20
+text © 2017–2025 Company, Inc. · · @17,1788,694,20
+row @17,1820,694,21
+  link Privacy # @17,1820,50,21
+  link Terms # @79,1820,43,21

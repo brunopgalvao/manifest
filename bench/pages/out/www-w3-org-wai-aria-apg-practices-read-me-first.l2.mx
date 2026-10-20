@@ -1,0 +1,80 @@
+@www_w3_org_wai_aria_apg_practices_read_m rev=0 @0,0,728,2191
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+row @17,102,694,1502
+  col @17,651,46,404
+    h2 Page Contents @17,651,46,43
+    link "No ARIA is better than Bad ARIA" #noariaisbetterthanbadaria @17,706,46,142
+    link "Browser and Assistive Technology Support" #browserandassistivetechnologysupport @17,860,46,101
+    link "Mobile and Touch Support" #mobileandtouchsupport @17,973,46,82
+  col @75,102,636,1502
+    h1 Read Me First @75,102,636,25
+    h2 No ARIA is better than Bad ARIA @75,139,636,21
+    text Functionally, ARIA roles, states, and properties are analogous to a CSS for assistive technologies. For screen reader users, ARIA controls the rendering of their non-visual experience. Incorrect ARIA misrepresents visual experiences, with potentially devastating effects on their corresponding non-visual experiences. @75,172,636,81
+    text Before using ARIA or any of the guidance in this document, please take time to understand the following two essential principles. @75,265,636,41
+    h3 Principle 1: A role is a promise @75,318,636,19
+    text This code: @75,349,636,20
+    text <div role="button">Place Order</div> @75,381,636,20
+    text Is a promise that the author of that <div> has also incorporated JavaScript that provides the keyboard interactions expected for a button. Unlike HTML input elements, ARIA roles do not cause browsers to provide keyboard behaviors or styling. @75,413,636,61
+    text Using a role without fulfilling the promise of that role is similar to making a "Place Order" button that abandons an order and empties the shopping cart. @75,486,636,41
+    text One of the objectives of this guide is to define expected behaviors for each ARIA role. @75,539,636,20
+    h3 Principle 2: ARIA Can Both Cloak and Enhance, Creating Both Power and Danger @75,571,636,19
+    text The information assistive technologies need about the meaning and purpose of user interface elements is called accessibility semantics. From the perspective of assistive technologies, ARIA gives authors the ability to dress up HTML and SVG elements with critical accessibility semantics that the assistive technologies would not otherwise be able to reliably derive. @75,602,636,81
+    text Some of ARIA is like a cloak; it covers up, or overrides, the original semantics or content. @75,695,636,20
+    text <a role="menuitem">Assistive tech users perceive this element as an item in a menu, not a link.</a> <a aria-label="Assistive tech users can only perceive the contents of this aria-label, not the link text">Link Text</a> @75,727,636,61
+    text On the other hand, some uses of ARIA are more like suspenders or belts; they add meaning that provides essential support to the original content. @75,800,636,41
+    text <button aria-pressed="false">Mute</button> @75,853,636,20
+    text This is the power of ARIA. It enables authors to describe nearly any user interface component in ways that assistive technologies can reliably interpret, thus making components accessible to assistive technology users. @75,885,636,61
+    text This is also the danger of ARIA. Authors can inadvertently override accessibility semantics. @75,958,636,20
+    text <table role="log"> <!-- Table that assistive technology users will not perceive as a table. The log role tells browser this is a log, not a table. --> </table> <ul role="navigation"> <!-- This is a navigation region, not a list. --> <li><a href="uri1">nav link 1</a></li> <li><a href="uri2">nav link 2</a></li> <!-- ERROR! Previous list items are not in a list! --> </ul> @75,990,636,82
+    h2 Browser and Assistive Technology Support @75,1084,636,21
+    text Testing assistive technology interoperability is essential before using code from this guide in production. Because the purpose of this guide is to illustrate appropriate use of ARIA 1.2 as defined in the ARIA specification, the design patterns, reference examples, and sample code intentionally do not describe and implement coding techniques for working around problems caused by gaps in support for ARIA 1.2 in browsers and assistive technologies. It is thus advisable to test implementations thoroughly with each browser and assistive technology combination that is relevant within a target audience. @75,1117,636,142
+    text Similarly, JavaScript and CSS in this guide is written to be compatible with the most recent version of Chrome, Firefox, and Safari at the time of writing. @75,1271,636,41
+    text Except in cases where the ARIA Working Group and other contributors have overlooked an error, examples in this guide that do not function well in a particular browser or with a specific assistive technology are demonstrating browser or assistive technology bugs. Browser and assistive technology developers can thus utilize code in this guide to help assess the quality of their support for ARIA 1.2. @75,1324,636,101
+    h2 Mobile and Touch Support @75,1437,636,21
+    text Currently, this guide does not indicate which examples are compatible with mobile browsers or touch interfaces. While some of the examples include specific features that enhance mobile and touch support, some ARIA features are not supported in any mobile browser. In addition, there is not yet a standardized approach for providing touch interactions that work across mobile browsers. @75,1470,636,102
+    text More guidance about touch and mobile support is planned for future releases of the guide. @75,1584,636,20
+row @17,1616,694,21
+  h2 Help improve this page @17,1616,192,21
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,1649,694,21
+link public-aria-practices@w3.org @17,1682,694,20
+row @17,1714,694,20
+  link E-mail @17,1714,42,20
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/practices/read-me-first/read-me-first-practice.html @71,1714,142,20
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/ @225,1714,119,20
+link "Back to Top" #top @17,1746,694,21
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,1779,694,20
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,1811,694,20
+row @17,1843,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,1843,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,1843,57,20
+  link Mastodon https://w3c.social/@wai @218,1843,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,1843,61,20
+row @17,1875,694,41
+  link Home /WAI/ @17,1886,37,20
+  link Contact /WAI/about/contacting/ @66,1886,48,20
+  link "Site map" /WAI/sitemap/ @126,1875,54,41
+  link "Support WAI" /WAI/about/support/ @192,1875,78,41
+  link News /WAI/news/ @282,1886,36,20
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,1875,142,41
+  link "All Translations" /WAI/translations/ @484,1875,94,41
+  link "Resources for roles" /WAI/roles/ @590,1875,121,41
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,1928,694,20
+link "World Wide Web Consortium" https://www.w3.org/ @17,1960,694,21
+text W3C @17,1993,694,20
+text ® @17,2025,694,20
+link liability https://www.w3.org/policies/#disclaimers @17,2057,694,21
+link trademark https://www.w3.org/policies/#trademarks @17,2090,694,20
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,2122,694,20
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,2154,694,20

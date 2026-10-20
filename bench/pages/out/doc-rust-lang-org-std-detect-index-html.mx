@@ -1,0 +1,127 @@
+@doc_rust_lang_org_std_detect_index_html
+row
+  link "Skip to main content" #main-content
+  col
+    h2 std_detect1.99.1
+    text (58cf8f9c3 2026-10-13)
+    link "All Items" all.html
+    h3 Crate Items
+    link Macros #macros
+    h3 Crates
+    link alloc ../alloc/index.html
+    link core ../core/index.html
+    link proc_macro ../proc_macro/index.html
+    link std ../std/index.html
+    link std_detect ../std_detect/index.html
+    link test ../test/index.html
+  col
+    row
+      h1 Crate std_detect Copy item path
+      link Source ../src/std_detect/lib.rs.html#1-35
+      row
+        link Search https://doc.rust-lang.org/std_detect/index.html?search=
+        link Settings ../settings.html
+        link Help ../help.html
+        button Summary
+    text 🔬This is a nightly-only experimental API. (stdarch_internal)
+    row
+      text Expand description
+      col
+        text Run-time feature detection for the Rust standard library.
+        text To detect whether a feature is enabled in the system running the binary use one of the appropriate macro for the target:
+        text and :
+        row
+          text x86
+          text x86_64
+          link is_x86_feature_detected macro.is_x86_feature_detected.html
+        text :
+        row
+          text arm
+          link is_arm_feature_detected macro.is_arm_feature_detected.html
+        text :
+        row
+          text aarch64
+          link is_aarch64_feature_detected macro.is_aarch64_feature_detected.html
+        text :
+        row
+          text riscv
+          link is_riscv_feature_detected macro.is_riscv_feature_detected.html
+        text :
+        row
+          text mips
+          link is_mips_feature_detected macro.is_mips_feature_detected.html
+        text :
+        row
+          text mips64
+          link is_mips64_feature_detected macro.is_mips64_feature_detected.html
+        text :
+        row
+          text powerpc
+          link is_powerpc_feature_detected macro.is_powerpc_feature_detected.html
+        text :
+        row
+          text powerpc64
+          link is_powerpc64_feature_detected macro.is_powerpc64_feature_detected.html
+        text :
+        row
+          text loongarch
+          link is_loongarch_feature_detected macro.is_loongarch_feature_detected.html
+        text :
+        row
+          text s390x
+          link is_s390x_feature_detected macro.is_s390x_feature_detected.html
+    h2 Macros§
+    row
+      row
+        link detect_feature macro.detect_feature.html
+        text Experimental
+      col
+        link is_aarch64_feature_detected macro.is_aarch64_feature_detected.html
+        text Experimental
+        text AArch64 or ARM64EC
+      text Check for the presence of a CPU feature at runtime.
+      col
+        link is_arm_feature_detected macro.is_arm_feature_detected.html
+        text Experimental
+        text ARM
+      text Check for the presence of a CPU feature at runtime.
+      col
+        link is_loongarch_feature_detected macro.is_loongarch_feature_detected.html
+        text Experimental
+        text LoongArch32 or LoongArch64
+      text Check for the presence of a CPU feature at runtime.
+      col
+        link is_mips64_feature_detected macro.is_mips64_feature_detected.html
+        text Experimental
+        text MIPS-64
+      text Check for the presence of a CPU feature at runtime.
+      col
+        link is_mips_feature_detected macro.is_mips_feature_detected.html
+        text Experimental
+        text MIPS
+      text Check for the presence of a CPU feature at runtime.
+      col
+        link is_powerpc64_feature_detected macro.is_powerpc64_feature_detected.html
+        text Experimental
+        text PowerPC64
+      text Check for the presence of a CPU feature at runtime.
+      col
+        link is_powerpc_feature_detected macro.is_powerpc_feature_detected.html
+        text Experimental
+        text PowerPC
+      text Check for the presence of a CPU feature at runtime.
+      col
+        link is_riscv_feature_detected macro.is_riscv_feature_detected.html
+        text Experimental
+        text RISC-V RV32 or RISC-V RV64
+      text Check for the presence of a CPU feature at runtime.
+      col
+        link is_s390x_feature_detected macro.is_s390x_feature_detected.html
+        text Experimental
+        text s390x
+      text Check for the presence of a CPU feature at runtime.
+      col
+        link is_x86_feature_detected macro.is_x86_feature_detected.html
+        text Experimental
+        text x86 or x86-64
+      text Check for the presence of a CPU feature at runtime.

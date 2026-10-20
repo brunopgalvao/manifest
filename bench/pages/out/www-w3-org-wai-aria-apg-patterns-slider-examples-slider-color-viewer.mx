@@ -32,17 +32,22 @@ row
     h2 About This Example
     h3 Warning!
     text Some users of touch-based assistive technologies may experience difficulty utilizing widgets that implement this slider pattern because the gestures their assistive technology provides for operating sliders may not yet generate the necessary output. To change the slider value, touch-based assistive technologies need to respond to user gestures for increasing and decreasing the value by synthesizing key events. This is a new convention that may not be fully implemented by some assistive technologies. Authors should fully test slider widgets using assistive technologies on devices where touch is a primary input mechanism before considering incorporation into production systems. warning
+    text Following is an example of a color viewer that demonstrates the . Change the background of the color view box by adjusting the sliders for red, green, and blue values. The HEX and RGB values of the chosen color are displayed by the color view box.
     link "Slider Pattern" ../../
     text Similar examples include:
+    text : Demonstrates using  to specify vertical orientation and  to communicate unit of measure for a temperature input.
     link "Vertical Temperature Slider Example" ../slider-temperature/
     text aria-orientation primary
     text aria-valuetext primary
+    text : Horizontal slider that demonstrates using  to make it easy for assistive technology users to understand the meaning of the current value chosen on a ten-point satisfaction scale.
     row
       link "Rating Slider Example" ../slider-rating/
       text aria-valuetext primary
+    text : Horizontal slider that demonstrates using  to communicate current and maximum values of time in media to make the values easy to understand for assistive technology users by converting the total number of seconds to minutes and seconds.
     row
       link "Media Seek Slider Example" ../slider-seek/
       text aria-valuetext primary
+    text : Demonstrates using sliders with two thumbs to provide inputs for numeric ranges, such as for searching in a price range.
     link "Horizontal Multi-Thumb Slider Example" ../../../slider-multithumb/examples/slider-multithumb/
     h2 Example
     button "Open In CodePen" primary
@@ -87,7 +92,9 @@ row
     h2 Assistive Technology Support
     link "Learn how to interpret and use assistive technology support data" ../../../../about/at-support-tables/
     h2 JavaScript and CSS Source Code
+    text CSS:
     link slider-color-viewer.css ../../../../../../content-assets/wai-aria-practices/patterns/slider/examples/css/slider-color-viewer.css
+    text JavaScript:
     link slider-color-viewer.js ../../../../../../content-assets/wai-aria-practices/patterns/slider/examples/js/slider-color-viewer.js
     h2 HTML Source Code
     text To copy the following HTML code, please open it in CodePen.
@@ -96,8 +103,8 @@ row
     text "<div class=\"color-viewer-sliders\" role=\"group\" aria-labelledby=\"id-color-viewer\"> <h3 id=\"id-color-viewer\"> Color Viewer </h3> <div id=\"id-red\" class=\"color-slider-label\"> Red </div> <div class=\"color-slider red\" role=\"slider\" tabindex=\"0\" aria-valuemin=\"0\" aria-valuenow=\"128\" aria-valuemax=\"255\" aria-labelledby=\"id-red\"> <svg width=\"0\" height=\"0\" aria-hidden=\"true\"> <text class=\"value\" x=\"0\" y=\"0\"> 128 </text> <rect class=\"rail\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"fill\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"thumb\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"focus\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> </svg> </div> <div id=\"id-green\" class=\"color-slider-label\"> Green </div> <div class=\"color-slider green\" role=\"slider\" tabindex=\"0\" aria-valuemin=\"0\" aria-valuenow=\"128\" aria-valuemax=\"255\" aria-labelledby=\"id-green\"> <svg width=\"0\" height=\"0\" aria-hidden=\"true\"> <text class=\"value\" x=\"0\" y=\"0\"> 128 </text> <rect class=\"rail\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"fill\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"thumb\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"focus\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> </svg> </div> <div id=\"id-blue\" class=\"color-slider-label\"> Blue </div> <div class=\"color-slider blue\" role=\"slider\" tabindex=\"0\" aria-valuemin=\"0\" aria-valuenow=\"128\" aria-valuemax=\"255\" aria-labelledby=\"id-blue\"> <svg width=\"0\" height=\"0\" aria-hidden=\"true\"> <text class=\"value\" x=\"0\" y=\"0\"> 128 </text> <rect class=\"rail\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"fill\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"thumb\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"focus\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> </svg> </div> <h4> Color View Box </h4> <div class=\"color-info\"> <div class=\"color-box\"></div> <label> Color (HEX): <input type=\"text\" readonly=\"\" class=\"color-value-hex\" value=\"\"> </label> <label> Color (RGB): <input type=\"text\" readonly=\"\" class=\"color-value-rgb\" value=\"\"> </label> </div> </div>"
     text End of
 row
-  region 16x16
   h2 Help improve this page
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list  or via GitHub.
 link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
 row
   link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
@@ -122,6 +129,7 @@ row
   link "Accessibility statement" /WAI/about/accessibility-statement/
   link "All Translations" /WAI/translations/
   link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
 link "World Wide Web Consortium" https://www.w3.org/
 text W3C
 text ®

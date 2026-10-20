@@ -1,0 +1,330 @@
+@en_wikipedia_org_wiki_wikipedia_contents rev=0 @0,0,728,7150
+link "Jump to content" #bodyContent @17,17,694,20
+row @17,49,694,541
+  row @17,49,345,541
+    col @17,49,245,541
+      button "Main menu" @17,49,245,37
+      text Main menu @17,98,245,20
+      row @17,130,245,41
+        text Main menu @17,130,57,41
+        button "Move Main menu to sidebar" @86,132,176,36
+      link "Main page" /wiki/Main_Page @17,183,245,20
+      link Contents /wiki/Wikipedia:Contents @17,215,245,20
+      link "Current events" /wiki/Portal:Current_events @17,247,245,20
+      link "Random article" /wiki/Special:Random @17,279,245,21
+      link "About Wikipedia" /wiki/Wikipedia:About @17,312,245,20
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us @17,344,245,20
+      text Contribute @17,376,245,21
+      link Help /wiki/Help:Contents @17,409,245,20
+      link "Learn to edit" /wiki/Help:Introduction @17,441,245,20
+      link "Community portal" /wiki/Wikipedia:Community_portal @17,473,245,20
+      link "Recent changes" /wiki/Special:RecentChanges @17,505,245,21
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard @17,538,245,20
+      link "Special pages" /wiki/Special:SpecialPages @17,570,245,20
+    link /wiki/Main_Page /wiki/Main_Page @274,310,88,20
+  row @374,282,337,75
+    row @374,282,152,75
+      col @374,282,74,75
+        field "Search Wikipedia" search @374,282,74,75
+      button Search @460,302,66,36
+    row @538,300,173,40
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en @538,310,37,20
+      link "Create account" @587,300,80,40
+      link "Log in" @679,300,32,40
+row @17,602,694,6531
+  col @17,3033,81,1670
+    row @17,3033,81,36
+      h2 Contents @17,3040,17,22
+      button "Hide Contents" @46,3033,52,36
+    link (Top) # @17,3081,81,21
+    link "1 Browse by subject" #Browse_by_subject @17,3114,81,40
+    button "Toggle Browse by subject subsection" @17,3166,81,36
+    text 1.1 Culture and the arts 1.2 Geography and places 1.3 Health and fitness 1.4 History and events 1.5 Human activities 1.6 Mathematics and logic 1.7 Natural and physical sciences 1.8 People and self 1.9 Philosophy and thinking 1.10 Reference works 1.11 Religion and belief systems 1.12 Society and social sciences 1.13 Technology and applied sciences @17,3214,81,691
+    link "2 Browse by format" #Browse_by_format @17,3917,81,40
+    button "Toggle Browse by format subsection" @17,3969,81,37
+    text 2.1 Overviews 2.2 Outlines 2.3 Lists 2.4 Portals 2.5 Glossaries 2.6 Category system @17,4018,81,182
+    link "3 Articles by quality" #Articles_by_quality @17,4212,81,41
+    button "Toggle Articles by quality subsection" @17,4265,81,36
+    text 3.1 Vital articles 3.2 List of articles every Wikipedia should have 3.3 Featured content 3.4 Good content @17,4313,81,244
+    link "4 Spoken articles" #Spoken_articles @17,4569,81,40
+    link "5 Alphabetical lists of articles" #Alphabetical_lists_of_articles @17,4621,81,82
+  row @110,602,550,6531
+    row @110,3823,11,89
+      h1 Wikipedia:Contents @110,3855,0,25
+      col @122,3823,0,89
+        button "47 languages" @122,3823,30,37
+        text 47 languages primary @122,3872,0,40
+    row @133,3376,20,983
+      row @133,3847,2,41
+        link "Project page" /wiki/Wikipedia:Contents @133,3847,0,41
+        link Talk /wiki/Wikipedia_talk:Contents @145,3858,0,20
+      row @147,3376,6,983
+        row @147,3847,0,41
+          link Read /wiki/Wikipedia:Contents @147,3858,0,20
+          link "View source" @159,3847,0,41
+          link "View history" @171,3847,0,41
+        col @159,3376,0,983
+          button Tools @159,3376,30,37
+          text Tools @159,3425,0,20
+          row @159,3457,0,36
+            text Tools @159,3465,0,20
+            button "Move Tools to sidebar" @171,3457,30,36
+          text General @159,3505,0,21
+          link "What links here" /wiki/Special:WhatLinksHere/Wikipedia:Contents @159,3538,0,60
+          link "Related changes" /wiki/Special:RecentChangesLinked/Wikipedia:Contents @159,3610,0,41
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Wikipedia:Contents&oldid=1374213748 @159,3663,0,41
+          link "Page information" @159,3716,0,40
+          link "Get shortened URL" @159,3768,0,61
+          link "Switch to legacy parser" @159,3841,0,81
+          button "Expand all" @159,3934,30,37
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q4395506#sitelinks-wikipedia @159,3983,0,61
+          text Print/export @159,4056,0,20
+          link "Download as PDF" @159,4088,0,61
+          link "Printable version" javascript:print(); @159,4161,0,40
+          text In other projects @159,4213,0,61
+          link Wikiversity https://en.wikiversity.org/wiki/Wikiversity:Browse @159,4286,0,21
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q4395506 @159,4319,0,40
+    col @165,3672,8,392
+      row @165,3672,8,36
+        text Appearance @165,3680,0,20
+        button "Hide Appearance" @177,3672,30,36
+      text Text @165,3720,8,21
+      text Small @165,3753,8,20
+      text Standard @165,3785,8,20
+      text Large @165,3817,8,20
+      text Width @165,3849,8,21
+      text Standard @165,3882,8,20
+      text Wide @165,3914,8,20
+      text Color @165,3946,8,21
+      text Automatic @165,3979,8,20
+      text Light @165,4011,8,20
+      text Dark @165,4043,8,21
+    col @185,602,475,6531
+      link "This page is semi-protected." https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#semi @185,602,475,21
+      text From Wikipedia, the free encyclopedia @185,635,475,20
+      link Contents https://en.wikipedia.org/wiki/Wikipedia:Contents @185,667,475,20
+      link Overviews https://en.wikipedia.org/wiki/Wikipedia:Contents/Overviews @185,699,475,21
+      link Outlines https://en.wikipedia.org/wiki/Wikipedia:Contents/Outlines @185,732,475,20
+      link Lists https://en.wikipedia.org/wiki/Wikipedia:Contents/Lists @185,764,475,20
+      link Portals https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals @185,796,475,20
+      link Glossaries https://en.wikipedia.org/wiki/Wikipedia:Contents/Glossaries @185,829,475,20
+      link Categories https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories @185,861,475,20
+      link "Vital articles" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles @185,893,475,20
+      link "Featured content" https://en.wikipedia.org/wiki/Wikipedia:Featured_content @185,925,475,21
+      link "Good content" https://en.wikipedia.org/wiki/Wikipedia:Good_content @185,958,475,20
+      link Indices https://en.wikipedia.org/wiki/Wikipedia:Contents/Indices @185,990,475,20
+      link Index https://en.wikipedia.org/wiki/Wikipedia:Contents/A–Z_index @185,1022,475,21
+      link Reference https://en.wikipedia.org/wiki/Wikipedia:Contents/Reference @185,1055,475,20
+      link Culture https://en.wikipedia.org/wiki/Wikipedia:Contents/Culture_and_the_arts @185,1087,475,20
+      link Geography https://en.wikipedia.org/wiki/Wikipedia:Contents/Geography_and_places @185,1119,475,21
+      link Health https://en.wikipedia.org/wiki/Wikipedia:Contents/Health_and_fitness @185,1151,475,21
+      link History https://en.wikipedia.org/wiki/Wikipedia:Contents/History_and_events @185,1184,475,20
+      link "Human activities" https://en.wikipedia.org/wiki/Wikipedia:Contents/Human_activities @185,1216,475,20
+      link Mathematics https://en.wikipedia.org/wiki/Wikipedia:Contents/Mathematics_and_logic @185,1248,475,21
+      link Nature https://en.wikipedia.org/wiki/Wikipedia:Contents/Natural_and_physical_sciences @185,1281,475,20
+      link People https://en.wikipedia.org/wiki/Wikipedia:Contents/People_and_self @185,1313,475,20
+      link Philosophy https://en.wikipedia.org/wiki/Wikipedia:Contents/Philosophy_and_thinking @185,1345,475,21
+      link Religion https://en.wikipedia.org/wiki/Wikipedia:Contents/Religion_and_belief_systems @185,1378,475,20
+      link Society https://en.wikipedia.org/wiki/Wikipedia:Contents/Society_and_social_sciences @185,1410,475,20
+      link Technology https://en.wikipedia.org/wiki/Wikipedia:Contents/Technology_and_applied_sciences @185,1442,475,20
+      text This page lists Wikipedia's tables of contents. For the community directory, see . @185,1474,475,41
+      link "Wikipedia:Directories and indexes" https://en.wikipedia.org/wiki/Wikipedia:Directories_and_indexes @185,1527,475,20
+      link Shortcut https://en.wikipedia.org/wiki/Wikipedia:Shortcut @185,1559,475,21
+      link WP:EXPLORE https://en.wikipedia.org/w/index.php?title=Wikipedia:EXPLORE&redirect=no @185,1592,475,20
+      text Easily explore using the topic links below. You can also search directly using the search bar. All section headers are clickable for quick navigation. @185,1624,475,61
+      link Wikipedia https://en.wikipedia.org/wiki/Wikipedia @185,1697,475,20
+      h2 Browse by subject @185,1729,475,21
+      text Wikipedia's content is divided into broad subject areas: @185,1762,475,21
+      h3 Culture and the arts @185,1795,475,18
+      link "Culture and the arts" https://en.wikipedia.org/wiki/Wikipedia:Contents/Culture_and_the_arts @185,1825,475,21
+      h3 Geography and places @185,1858,475,19
+      link "Geography and places" https://en.wikipedia.org/wiki/Wikipedia:Contents/Geography_and_places @185,1889,475,20
+      h3 Health and fitness @185,1921,475,19
+      link "Health and fitness" https://en.wikipedia.org/wiki/Wikipedia:Contents/Health_and_fitness @185,1952,475,20
+      h3 History and events @185,1984,475,19
+      link "History and events" https://en.wikipedia.org/wiki/Wikipedia:Contents/History_and_events @185,2015,475,20
+      link "List of timelines" https://en.wikipedia.org/wiki/List_of_timelines @185,2047,475,20
+      text – Major events this year @185,2079,475,21
+      link 2026 https://en.wikipedia.org/wiki/2026 @185,2112,475,20
+      text – Ongoing science findings and technology advancements @185,2144,475,20
+      link "2026 in science" https://en.wikipedia.org/wiki/2026_in_science @185,2176,475,20
+      text – Featured current events and related project activities @185,2208,475,21
+      link "Portal:Current events" https://en.wikipedia.org/wiki/Portal:Current_events @185,2241,475,20
+      h3 Human activities @185,2273,475,19
+      link "Human activities" https://en.wikipedia.org/wiki/Wikipedia:Contents/Human_activities @185,2304,475,20
+      h3 Mathematics and logic @185,2336,475,19
+      link "Mathematics and logic" https://en.wikipedia.org/wiki/Wikipedia:Contents/Mathematics_and_logic @185,2367,475,20
+      h3 Natural and physical sciences @185,2399,475,19
+      link "Natural and physical sciences" https://en.wikipedia.org/wiki/Wikipedia:Contents/Natural_and_physical_sciences @185,2430,475,20
+      h3 People and self @185,2462,475,19
+      link "People and self" https://en.wikipedia.org/wiki/Wikipedia:Contents/People_and_self @185,2493,475,20
+      h3 Philosophy and thinking @185,2525,475,19
+      link "Philosophy and thinking" https://en.wikipedia.org/wiki/Wikipedia:Contents/Philosophy_and_thinking @185,2556,475,20
+      h3 Reference works @185,2588,475,19
+      link "Reference works" https://en.wikipedia.org/wiki/Wikipedia:Contents/Reference @185,2619,475,20
+      link "Library of Congress Classification" https://en.wikipedia.org/wiki/Library_of_Congress_Classification @185,2651,475,21
+      link "List of Dewey Decimal classes" https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes @185,2684,475,20
+      text () @185,2716,475,20
+      row @185,2748,475,21
+        link "Figurative system of human knowledge" https://en.wikipedia.org/wiki/Figurative_system_of_human_knowledge @185,2748,261,21
+        link Encyclopédie https://en.wikipedia.org/wiki/Encyclopédie @458,2748,90,21
+      text () @185,2781,475,20
+      row @185,2813,475,20
+        link Propædia https://en.wikipedia.org/wiki/Propædia @185,2813,64,20
+        link "Encyclopædia Britannica" https://en.wikipedia.org/wiki/Encyclopædia_Britannica @261,2813,164,20
+      link "Tree of knowledge system" https://en.wikipedia.org/wiki/Tree_of_knowledge_system @185,2845,475,20
+      link "UDC outline" https://en.wikipedia.org/wiki/Universal_Decimal_Classification#Outline @185,2877,475,21
+      link "Wikipedia:List of bibliographies" https://en.wikipedia.org/wiki/Wikipedia:List_of_bibliographies @185,2910,475,20
+      link "Category:Wikipedia bibliographies" https://en.wikipedia.org/wiki/Category:Wikipedia_bibliographies @185,2942,475,20
+      h3 Religion and belief systems @185,2974,475,19
+      link "Religion and belief systems" https://en.wikipedia.org/wiki/Wikipedia:Contents/Religion_and_belief_systems @185,3005,475,20
+      h3 Society and social sciences @185,3037,475,19
+      link "Society and social sciences" https://en.wikipedia.org/wiki/Wikipedia:Contents/Society_and_social_sciences @185,3068,475,20
+      h3 Technology and applied sciences @185,3100,475,19
+      link "Technology and applied sciences" https://en.wikipedia.org/wiki/Wikipedia:Contents/Technology_and_applied_sciences @185,3131,475,21
+      h2 Browse by format @185,3164,475,21
+      h3 Overviews @185,3197,475,19
+      link Overviews https://en.wikipedia.org/wiki/Wikipedia:Contents/Overviews @185,3228,475,20
+      h3 Outlines @185,3260,475,19
+      link Outlines https://en.wikipedia.org/wiki/Wikipedia:Contents/Outlines @185,3291,475,20
+      h3 Lists @185,3323,475,19
+      link Lists https://en.wikipedia.org/wiki/Wikipedia:Contents/Lists @185,3354,475,20
+      h3 Portals @185,3386,475,19
+      link Portals https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals @185,3417,475,20
+      h3 Glossaries @185,3449,475,19
+      link Glossaries https://en.wikipedia.org/wiki/Wikipedia:Contents/Glossaries @185,3480,475,20
+      h3 Category system @185,3512,475,19
+      text – Arts, History, Technology, and more @185,3543,475,20
+      link "Category:Main topic classifications" https://en.wikipedia.org/wiki/Category:Main_topic_classifications @185,3575,475,20
+      text – Hand-crafted list of topic categories @185,3607,475,21
+      link Wikipedia:Contents/Categories https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories @185,3640,475,20
+      text – Biographies @185,3672,475,20
+      link Category:People https://en.wikipedia.org/wiki/Category:People @185,3704,475,21
+      h2 Articles by quality @185,3737,475,21
+      h3 Vital articles @185,3770,475,19
+      text Lists of articles deemed most essential for the encyclopedia. @185,3801,475,20
+      link "Vital articles" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles @185,3833,475,20
+      text – 10 articles @185,3865,475,20
+      link "Level 1" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/1 @185,3897,475,21
+      text – 100 articles @185,3930,475,20
+      link "Level 2" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/2 @185,3962,475,20
+      text – 1,000 articles @185,3994,475,21
+      link "Level 3" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/3 @185,4027,475,20
+      text – 10,000 articles @185,4059,475,20
+      link "Level 4" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/4 @185,4091,475,21
+      text – 50,000 articles @185,4124,475,20
+      link "Level 5" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/5 @185,4156,475,20
+      h3 List of articles every Wikipedia should have @185,4188,475,19
+      text Similar to vital articles, but for every language. @185,4219,475,20
+      link "List of articles every Wikipedia should have" https://en.wikipedia.org/wiki/Wikipedia:List_of_articles_every_Wikipedia_should_have @185,4251,475,21
+      link "List of articles every Wikipedia should have/Expanded" https://en.wikipedia.org/wiki/Wikipedia:List_of_articles_every_Wikipedia_should_have/Expanded @185,4284,475,20
+      h3 Featured content @185,4316,475,19
+      text Contributions representing the best of Wikipedia, having undergone a rigorous review process by multiple independent editors. @185,4347,475,40
+      link "Featured content" https://en.wikipedia.org/wiki/Wikipedia:Featured_content @185,4399,475,20
+      link "Featured articles" https://en.wikipedia.org/wiki/Wikipedia:Featured_articles @185,4431,475,21
+      link "Featured lists" https://en.wikipedia.org/wiki/Wikipedia:Featured_lists @185,4464,475,20
+      link "Featured pictures" https://en.wikipedia.org/wiki/Wikipedia:Featured_pictures @185,4496,475,20
+      link "Featured topics" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics @185,4528,475,21
+      h3 Good content @185,4561,475,18
+      text Quality contributions that meet a core set of editorial standards, having undergone a thorough review by an independent editor. @185,4591,475,41
+      link "Good content" https://en.wikipedia.org/wiki/Wikipedia:Good_content @185,4644,475,20
+      link "Good articles" https://en.wikipedia.org/wiki/Wikipedia:Good_articles @185,4676,475,21
+      link "Good topics" https://en.wikipedia.org/wiki/Wikipedia:Good_topics @185,4709,475,20
+      h2 Spoken articles @185,4741,475,21
+      link "Category:Spoken articles" https://en.wikipedia.org/wiki/Category:Spoken_articles @185,4774,475,20
+      link "Wikipedia:Spoken articles" https://en.wikipedia.org/wiki/Wikipedia:Spoken_articles @185,4806,475,21
+      h2 Alphabetical lists of articles @185,4839,475,21
+      text – List of all current pages @185,4872,475,20
+      link Special:Allpages https://en.wikipedia.org/wiki/Special:AllPages @185,4904,475,21
+      text – Alphabetical index @185,4937,475,20
+      link "Wikipedia:Contents/A–Z index" https://en.wikipedia.org/wiki/Wikipedia:Contents/A–Z_index @185,4969,475,20
+      text – Alphabetical list of topic indexes @185,5001,475,21
+      link "Category:Wikipedia indexes" https://en.wikipedia.org/wiki/Category:Wikipedia_indexes @185,5034,475,20
+      text – Indexes sorted by topic area @185,5066,475,20
+      link Wikipedia:Contents/Indices https://en.wikipedia.org/wiki/Wikipedia:Contents/Indices @185,5098,475,20
+      link "Content listings" https://en.wikipedia.org/wiki/Wikipedia:Contents @185,5130,475,21
+      h2 Topics @185,5163,475,21
+      link "Current events" https://en.wikipedia.org/wiki/Portal:Current_events @185,5196,475,20
+      link Reference https://en.wikipedia.org/wiki/Wikipedia:Contents/Reference @185,5228,475,21
+      link Culture https://en.wikipedia.org/wiki/Wikipedia:Contents/Culture_and_the_arts @185,5261,475,20
+      link Geography https://en.wikipedia.org/wiki/Wikipedia:Contents/Geography_and_places @185,5293,475,20
+      link Health https://en.wikipedia.org/wiki/Wikipedia:Contents/Health_and_fitness @185,5325,475,20
+      link History https://en.wikipedia.org/wiki/Wikipedia:Contents/History_and_events @185,5357,475,21
+      link "Human activities" https://en.wikipedia.org/wiki/Wikipedia:Contents/Human_activities @185,5390,475,20
+      link Mathematics https://en.wikipedia.org/wiki/Wikipedia:Contents/Mathematics_and_logic @185,5422,475,20
+      link Nature https://en.wikipedia.org/wiki/Wikipedia:Contents/Natural_and_physical_sciences @185,5454,475,21
+      link People https://en.wikipedia.org/wiki/Wikipedia:Contents/People_and_self @185,5487,475,20
+      link Philosophy https://en.wikipedia.org/wiki/Wikipedia:Contents/Philosophy_and_thinking @185,5519,475,20
+      link Religion https://en.wikipedia.org/wiki/Wikipedia:Contents/Religion_and_belief_systems @185,5551,475,21
+      link Society https://en.wikipedia.org/wiki/Wikipedia:Contents/Society_and_social_sciences @185,5584,475,20
+      link Technology https://en.wikipedia.org/wiki/Wikipedia:Contents/Technology_and_applied_sciences @185,5616,475,20
+      h2 Types @185,5648,475,21
+      link "Vital articles" https://en.wikipedia.org/wiki/Wikipedia:Vital_articles @185,5681,475,21
+      link "Featured content" https://en.wikipedia.org/wiki/Wikipedia:Featured_content @185,5714,475,20
+      link "Good content" https://en.wikipedia.org/wiki/Wikipedia:Good_content @185,5746,475,20
+      link "Spoken articles" https://en.wikipedia.org/wiki/Wikipedia:Spoken_articles @185,5778,475,21
+      link Overviews https://en.wikipedia.org/wiki/Wikipedia:Contents/Overviews @185,5811,475,20
+      link Outlines https://en.wikipedia.org/wiki/Wikipedia:Contents/Outlines @185,5843,475,20
+      link Lists https://en.wikipedia.org/wiki/Wikipedia:Contents/Lists @185,5875,475,20
+      link Portals https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals @185,5907,475,21
+      link Glossaries https://en.wikipedia.org/wiki/Wikipedia:Contents/Glossaries @185,5940,475,20
+      link Categories https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories @185,5972,475,20
+      link Indices https://en.wikipedia.org/wiki/Wikipedia:Contents/Indices @185,6004,475,21
+      h2 Places, people and times @185,6037,475,21
+      link "Academic disciplines" https://en.wikipedia.org/wiki/Outline_of_academic_disciplines @185,6070,475,20
+      row @185,6102,475,21
+        link "Anniversaries (days of the year)" https://en.wikipedia.org/wiki/List_of_days_of_the_year @185,6102,212,21
+        link today https://en.wikipedia.org/wiki/October_19 @409,6102,38,21
+      link "Sovereign states and dependent territories" https://en.wikipedia.org/wiki/Lists_of_sovereign_states_and_dependent_territories @185,6135,475,20
+      row @185,6167,475,20
+        link Timelines https://en.wikipedia.org/wiki/List_of_timelines @185,6167,64,20
+        link "decades, centuries, and millennia" https://en.wikipedia.org/wiki/List_of_decades,_centuries,_and_millennia @261,6167,222,20
+      h2 Indices @185,6199,475,21
+      row @185,6232,475,41
+        link "A–Z index" https://en.wikipedia.org/wiki/Wikipedia:Contents/A–Z_index @185,6232,56,41
+        link Categories https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories @253,6243,61,20
+        link "Dewey Decimal classes" https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes @326,6232,133,41
+        link "Library of Congress Classification" https://en.wikipedia.org/wiki/Library_of_Congress_Classification @471,6232,189,41
+      text .mw-parser-output .navbox{box-sizing:border-box;border:1px solid auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}} #fdfdfd}.mw-parser-output @185,6285,475,751
+      table "show.mw-parser-output .navbar{display inline;font-size 88%;font-weight normal}.mw-parser-output .navbar-collapse{float left;text-align left}.mw-parser-output .navbar-boxtext{word-spacing 0}.mw-parser-output .navbar ul{display inline-block;white-space nowrap;line-height inherit}.mw-parser-output .navbar-brackets before{margin-right -0.125em;content \"[ \"}.mw-parser-output .navbar-brackets after{margin-left -0.125em;content \" ]\"}.mw-parser-output .navbar li{word-spacing -0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration inherit}.mw-parser-output .navbar-mini abbr{font-variant small-caps;border-bottom none;text-decoration none;cursor inherit}.mw-parser-output .navbar-ct-full{font-size 114%;margin 0 7em}.mw-parser-output .navbar-ct-mini{font-size 114%;margin 0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color var(--color-base)!important}@media(prefers-color-scheme dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color var(--color-base)!important}}@media print{.mw-parser-output .navbar{display none!important}}vteWikipedia directories and indexes" @185,7048,475,0
+      text : @185,7060,475,20
+      row @185,7092,475,41
+        link Categories /wiki/Help:Category @185,7103,68,20
+        row @265,7092,395,41
+          link "Wikipedia directories" /wiki/Category:Wikipedia_directories @265,7092,128,41
+          link "Wikipedia contents" /wiki/Category:Wikipedia_contents @405,7092,116,41
+          link "Wikipedia navigation" /wiki/Category:Wikipedia_navigation @533,7092,127,41
+  col @672,3215,39,1306
+    text This page was last edited on 10 September 2026, at 15:26 (UTC). @672,3215,39,223
+    text Page was rendered with . @672,3450,39,81
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid @672,3543,39,21
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the and . Wikipedia® is a registered trademark of the , a non-profit organization. @672,3576,39,507
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License @672,4095,39,102
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use @672,4209,39,61
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @672,4282,39,40
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/ @672,4334,39,61
+    row @672,4407,39,81
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @672,4427,0,41
+      link "About Wikipedia" /wiki/Wikipedia:About @684,4427,0,41
+      link Disclaimers /wiki/Wikipedia:General_disclaimer @696,4438,0,20
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us @708,4427,0,41
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information @720,4407,0,81
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct @732,4417,0,61
+      link Developers https://developer.wikimedia.org @744,4438,0,20
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org @756,4438,0,20
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement @768,4427,0,41
+      link "Mobile view" @780,4427,0,41
+    row @672,4500,39,21
+      link https://www.wikimedia.org/ https://www.wikimedia.org/ @672,4500,13,21
+      link https://www.mediawiki.org/ https://www.mediawiki.org/ @697,4500,14,21
+!overflow move 174/216px
+!overflow search2 64/76px
+!overflow hide 50/125px
+!overflow toggle 79/283px
+!overflow toggle2 79/278px
+!overflow toggle3 79/280px
+!overflow 47 28/120px
+!overflow tools 28/66px
+!overflow move2 28/179px
+!overflow expand 28/98px
+!overflow hide2 28/146px

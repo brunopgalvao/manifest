@@ -97,20 +97,25 @@ row
       text Dark
     col
       text From Wikipedia, the free encyclopedia
+      text ,
       h1 Welcome to Wikipedia
+      text the  encyclopedia that .
       row
         link free https://en.wikipedia.org/wiki/Free_content
         link "anyone can edit" https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia
       row
+        text active editors
         link 270,152 https://en.wikipedia.org/wiki/Special:Statistics
+        text articles in
         row
-          link 7,255,155 https://en.wikipedia.org/wiki/Special:Statistics
+          link 7,255,164 https://en.wikipedia.org/wiki/Special:Statistics
           link English https://en.wikipedia.org/wiki/English_language
       row
         col
           h2 From today's featured article
           link "Cartoon of the London Monster" https://en.wikipedia.org/wiki/File:The_monster_cutting_a_lady.jpg
           text Cartoon of the London Monster
+          text The  was the name given to an attacker of women in London between 1788 and 1790. The Monster's  was to abuse women verbally with lewd and suggestive comments, then attack them with a knife . The philanthropist  arranged a reward of 100 guineas (equivalent to £13,000 in 2025) for the capture and conviction of the Monster. More than 30 men were taken to  with their accusers hoping to claim the reward; all were released. Renwick Williams was arrested when one of the attacked women claimed to recognise him as the attacker. He was found guilty, despite having an  for at least one of the attacks. There is doubt among some historians whether he was the attacker as no hard or forensic evidence was ever found. It is likely that  took place, particularly as some of the assaults were recorded as being committed by a group of men.
           link "London Monster" https://en.wikipedia.org/wiki/London_Monster
           link "modus operandi" https://en.wikipedia.org/wiki/Modus_operandi
           text (cartoon pictured)
@@ -118,7 +123,9 @@ row
           link "Bow Street Magistrates' Court" https://en.wikipedia.org/wiki/Bow_Street_Magistrates'_Court_and_Police_Station
           link alibi https://en.wikipedia.org/wiki/Alibi
           link "copycat attacks" https://en.wikipedia.org/wiki/Copycat_crime
+          text ()
           link "Full article..." https://en.wikipedia.org/wiki/London_Monster
+          text Recently featured:
           link "Ancient Cappadocian language" https://en.wikipedia.org/wiki/Ancient_Cappadocian_language
           link "The Demi-Virgin" https://en.wikipedia.org/wiki/The_Demi-Virgin
           link "French battleship Brennus" https://en.wikipedia.org/wiki/French_battleship_Brennus
@@ -130,21 +137,30 @@ row
           h2 Did you know ...
           link "Sanda Island Lighthouse" https://en.wikipedia.org/wiki/File:Sandalighthouse.jpg
           text Sanda Island Lighthouse
+          text "... that the   was built in three \"steps\" against a cliff face, a design that is unique in Scotland?"
           link "Sanda Island Lighthouse" https://en.wikipedia.org/wiki/Sanda_Island_Lighthouse
           text (pictured)
+          text ... that , the organist at the  for 33 years, composed ?
           link "Bert Matter" https://en.wikipedia.org/wiki/Bert_Matter
           link "Walburgiskerk in Zutphen" https://en.wikipedia.org/wiki/Walburgiskerk,_Zutphen
           link "minimal music" https://en.wikipedia.org/wiki/Minimal_music
+          text ... that  once broadcast out of a former student cafeteria?
           link "a Michigan TV station" https://en.wikipedia.org/wiki/WKAR-TV
+          text ... that , Germany's current ambassador to France, held the exact same diplomatic post for East Germany more than three decades ago?
           link "Stephan Steinlein" https://en.wikipedia.org/wiki/Stephan_Steinlein
+          text ... that the Byzantine victory at the  in 530 against a numerically superior Persian army depended on the actions of a single individual?
           link "Battle of Satala" https://en.wikipedia.org/wiki/Battle_of_Satala_(530)
+          text ... that  joined the  at the age of 14, and was sworn in to the  at the age of 31?
           link "Ben Streff" https://en.wikipedia.org/wiki/Ben_Streff
           link "Luxembourg Socialist Workers' Party" https://en.wikipedia.org/wiki/Luxembourg_Socialist_Workers'_Party
           link "Chamber of Deputies" https://en.wikipedia.org/wiki/Chamber_of_Deputies_(Luxembourg)
+          text ... that construction of the  was halted each winter due to the presence of waterfowl?
           link "Interstate 65 Tennessee River Bridge" https://en.wikipedia.org/wiki/Interstate_65_Tennessee_River_Bridge
+          text ... that physicist  nearly died of poisoning when she opened a container when working in 's laboratory at the ?
           link "Jadwiga Szmidt" https://en.wikipedia.org/wiki/Jadwiga_Szmidt
           link "Ernest Rutherford" https://en.wikipedia.org/wiki/Ernest_Rutherford
           link "University of Manchester" https://en.wikipedia.org/wiki/University_of_Manchester
+          text "... that Chinese \"\" could simultaneously be social, religious, business, and political institutions?"
           link "assembly halls" https://en.wikipedia.org/wiki/Huiguan
           row
             link Archive https://en.wikipedia.org/wiki/Wikipedia:Did_you_know_archive
@@ -154,11 +170,14 @@ row
           h2 Help us improve this article!
           link "Candy store in Maryland, United States" https://en.wikipedia.org/wiki/File:Colorful_and_Inviting_Candy_Store_(14867133277).jpg
           text Candy store in Maryland, United States
+          text "This week's article for improvement is , also known as a sweet shop, candy store or lolly shop. These stores may sell locally distinct sweets, international sweets, or \"vintage\" candies like rock candy or liquorice."
           link "Confectionery store" https://en.wikipedia.org/wiki/Confectionery_store
           text You can improve this article by:
           text Adding information about early confectioners and the development in the modern age
+          text Finding  about its history, offerings, and regional varieties
           link "reliable sources" https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources
           text "Expanding the \"History\" and \"Offerings\" sections"
+          text You can  and . Have questions or suggestions? Visit , or post at the  for general discussion.
           link "be bold" https://en.wikipedia.org/wiki/Wikipedia:Be_bold
           link "start editing the article" https://en.wikipedia.org/w/index.php?title=Confectionery_store&action=edit
           link "the article's talk page" https://en.wikipedia.org/wiki/Talk:Confectionery_store
@@ -170,17 +189,22 @@ row
           h2 In the news
           region 143x184.66
             text @0,149.31 "Hôtel de Ville the day after the fire" size:14.14 fill:#202122
+          text The  in  is partially destroyed by arson  as  escalate in France.
           link "Hôtel de Ville" https://en.wikipedia.org/wiki/Hôtel_de_Ville,_Limoges
           link Limoges https://en.wikipedia.org/wiki/Limoges
           text (damage pictured)
-          link "student protests" https://en.wikipedia.org/wiki/2026_French_student_protests
+          link "fuel and student protests" https://en.wikipedia.org/wiki/2026_French_student_protests
+          text The  votes to abolish the  over concerns about disruptions to computer systems.
           link "International Bureau of Weights and Measures" https://en.wikipedia.org/wiki/International_Bureau_of_Weights_and_Measures
           link "leap second" https://en.wikipedia.org/wiki/Leap_second
+          text The  launch , killing at least 20 people and injuring more than 370 others.
           link Houthis https://en.wikipedia.org/wiki/Houthis
           link "a series of attacks on Saudi Arabian airports" https://en.wikipedia.org/wiki/October_2026_Houthi_attacks_on_Saudi_Arabian_airports
+          text South African jurist  is awarded .
           row
             link "Navi Pillay" https://en.wikipedia.org/wiki/Navi_Pillay
             link "the Nobel Peace Prize" https://en.wikipedia.org/wiki/2026_Nobel_Peace_Prize
+          text :
           text Ongoing
           link "Ethiopian offensive" https://en.wikipedia.org/wiki/2026_Ethiopian_offensive
           link "Iran war" https://en.wikipedia.org/wiki/2026_Iran_war
@@ -202,15 +226,18 @@ row
           link "October 20" https://en.wikipedia.org/wiki/October_20
           link "Mahamat Déby" https://en.wikipedia.org/wiki/File:Mahamat_Déby.jpg
           text Mahamat Déby
+          text – British woman  was refused entry to Australia after failing a dictation test given in Italian, leading to a debate over Australia's immigration policy.
           row
             link 1936 https://en.wikipedia.org/wiki/1936
             link "Mabel Freer" https://en.wikipedia.org/wiki/Mabel_Freer
+          text – : Fulfilling a promise he made , General   to begin the .
           link 1944 https://en.wikipedia.org/wiki/1944
           link "World War II" https://en.wikipedia.org/wiki/World_War_II
           link "two years previously" https://en.wikipedia.org/wiki/Douglas_MacArthur's_escape_from_the_Philippines
           link "Douglas MacArthur" https://en.wikipedia.org/wiki/Douglas_MacArthur
           link "landed on Leyte" https://en.wikipedia.org/wiki/Battle_of_Leyte
           link "recapture of the Philippines" https://en.wikipedia.org/wiki/Philippines_campaign_(1944–1945)
+          text – : Attorney General  and his deputy   after refusing to obey President 's order to have  fired.
           link 1973 https://en.wikipedia.org/wiki/1973
           link "Watergate scandal" https://en.wikipedia.org/wiki/Watergate_scandal
           link "Elliot Richardson" https://en.wikipedia.org/wiki/Elliot_Richardson
@@ -218,25 +245,32 @@ row
           link resigned https://en.wikipedia.org/wiki/Saturday_Night_Massacre
           link "Richard Nixon" https://en.wikipedia.org/wiki/Richard_Nixon
           link "Archibald Cox" https://en.wikipedia.org/wiki/Archibald_Cox
+          text – Soviet  crashed after  at , killing 70 people on board.
           link 1986 https://en.wikipedia.org/wiki/1986
           link "Aeroflot Flight 6502" https://en.wikipedia.org/wiki/Aeroflot_Flight_6502
           link "overrunning the runway" https://en.wikipedia.org/wiki/Runway_excursion
           link "Kuibyshev Airport" https://en.wikipedia.org/wiki/Kurumoch_International_Airport
+          text –  broke out across Chad after President   declared his intentions to extend his rule by another two years.
           link 2022 https://en.wikipedia.org/wiki/2022
           link Protests https://en.wikipedia.org/wiki/2022_Chadian_protests
           link "Mahamat Déby" https://en.wikipedia.org/wiki/Mahamat_Déby
           text (pictured)
+          text (681BC)
           row
             link Sennacherib https://en.wikipedia.org/wiki/Sennacherib
             text d.
+          text (1889)
           row
             link "Luo Yixiu" https://en.wikipedia.org/wiki/Luo_Yixiu
             text b.
+          text (1977)
           link "Hun Manet" https://en.wikipedia.org/wiki/Hun_Manet
           text b.
+          text (1988)
           row
             link "Rui Pinto" https://en.wikipedia.org/wiki/Rui_Pinto
             text b.
+          text More anniversaries:
           row
             link "October 19" https://en.wikipedia.org/wiki/October_19
             link "October 20" https://en.wikipedia.org/wiki/October_20
@@ -250,51 +284,72 @@ row
       table Col
         The Fog Warning is an oil painting on canvas completed in 1885 by the American artist Winslow Homer. It is one of several works in which Homer depicts the dangerous lives of fishermen in Maine. The painting depicts a lone fisherman in a dory who has caught several halibut, rowing towards his ship as a bank of fog approaches. The catch weighs down his boat, while increasingly rough seas make his return more difficult. The work is now in the Museum of Fine Arts in Boston. Painting credit: Winslow Homer Recently featured: Edmund Beecher Wilson Lithobius forficatus Alexander Gardner Archive More featured pictures
       h2 Other areas of Wikipedia
+      text – The central hub for editors, with resources, links, tasks, and announcements.
       link "Community portal" https://en.wikipedia.org/wiki/Wikipedia:Community_portal
+      text – Forum for discussions about Wikipedia itself, including policies and technical issues.
       link "Village pump" https://en.wikipedia.org/wiki/Wikipedia:Village_pump
+      text – Sources of news about Wikipedia and the broader Wikimedia movement.
       link "Site news" https://en.wikipedia.org/wiki/Wikipedia:News
+      text – Ask basic questions about using or editing Wikipedia.
       link Teahouse https://en.wikipedia.org/wiki/Wikipedia:Teahouse
+      text – Ask questions about using or editing Wikipedia.
       link "Help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk
+      text – Ask research questions about encyclopedic topics.
       link "Reference desk" https://en.wikipedia.org/wiki/Wikipedia:Reference_desk
+      text – A unique way to navigate the encyclopedia.
       link "Content portals" https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals
       h2 Wikipedia's sister projects
+      text Wikipedia is written by volunteer editors and hosted by the , a non-profit organization that also hosts a range of other volunteer :
       link "Wikimedia Foundation" https://en.wikipedia.org/wiki/Wikimedia_Foundation
       link projects https://wikimediafoundation.org/what-we-do/wikimedia-projects/
       row
         row
           link "https://en.wikipedia.org/wiki/File:Commons-logo.svg" https://en.wikipedia.org/wiki/File:Commons-logo.svg
+          text Free media repository
           link Commons https://commons.wikimedia.org/wiki/
         row
           link "https://en.wikipedia.org/wiki/File:MediaWiki-2020-icon.svg" https://en.wikipedia.org/wiki/File:MediaWiki-2020-icon.svg
+          text Wiki software development
           link MediaWiki https://www.mediawiki.org/wiki/
         row
+          text Wikimedia project coordination
           link Meta-Wiki https://meta.wikimedia.org/wiki/
         row
           link "https://en.wikipedia.org/wiki/File:Wikibooks-logo.svg" https://en.wikipedia.org/wiki/File:Wikibooks-logo.svg
+          text Free textbooks and manuals
           link Wikibooks https://en.wikibooks.org/wiki/
         row
+          text Free knowledge base
           link Wikidata https://www.wikidata.org/wiki/
         row
           link "https://en.wikipedia.org/wiki/File:Wikifunctions-logo.svg" https://en.wikipedia.org/wiki/File:Wikifunctions-logo.svg
+          text Catalog of computer functions
           link Wikifunctions https://www.wikifunctions.org/wiki/
         row
+          text Collection of quotations
           link Wikiquote https://en.wikiquote.org/wiki/
         row
           link "https://en.wikipedia.org/wiki/File:Wikisource-logo.svg" https://en.wikipedia.org/wiki/File:Wikisource-logo.svg
+          text Free-content library
           link Wikisource https://en.wikisource.org/wiki/
         row
           link "https://en.wikipedia.org/wiki/File:Wikispecies-logo.svg" https://en.wikipedia.org/wiki/File:Wikispecies-logo.svg
+          text Directory of species
           link Wikispecies https://species.wikimedia.org/wiki/
         row
           link "https://en.wikipedia.org/wiki/File:Wikiversity_logo_2017.svg" https://en.wikipedia.org/wiki/File:Wikiversity_logo_2017.svg
+          text Free learning tools
           link Wikiversity https://en.wikiversity.org/wiki/
         row
           link "https://en.wikipedia.org/wiki/File:Wikivoyage-Logo-v3-icon.svg" https://en.wikipedia.org/wiki/File:Wikivoyage-Logo-v3-icon.svg
+          text Free travel guide
           link Wikivoyage https://en.wikivoyage.org/wiki/
         row
           link "https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg" https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg
+          text Dictionary and thesaurus
           link Wiktionary https://en.wiktionary.org/wiki/
       h2 Wikipedia languages
+      text This Wikipedia is written in . Many ; some of the largest are listed below.
       row
         link English https://en.wikipedia.org/wiki/English_language
         link "other Wikipedias are available" https://meta.wikimedia.org/wiki/List%20of%20Wikipedias
@@ -370,7 +425,9 @@ row
       button "349 languages"
       text 349 languages primary
   col
+    text Page was rendered with .
     link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the  and . Wikipedia® is a registered trademark of the , a non-profit organization.
     link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
     link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
     link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy

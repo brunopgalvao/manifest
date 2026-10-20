@@ -1,0 +1,201 @@
+@brunopgalvao_github_io_manifest_a2ui_ext rev=0 @0,0,728,7821
+row @17,17,694,20
+  link Manifest index.html @17,17,58,20
+  link Playground playground.html @87,17,76,20
+  link Overview overview.html @175,17,63,20
+  link Spec spec.html @250,17,34,20
+  link Benchmark results.html @296,17,75,20
+  link "A2UI proposal" a2ui-extension.html @383,17,95,20
+  link GitHub https://github.com/brunopgalvao/manifest @490,17,46,20
+h1 Proposal: perception, lifecycle and revisions for A2UI, and MX as an inference format @17,49,694,50
+text Draft, not yet submitted A2UI v1.0 (Candidate), also applicable to v0.9.1 2026-10-19 (the compiler that shipped with the TypeScript core (now folded into the engine's A2UI emitters in ), , ) @17,111,694,41
+text Status: @17,164,694,20
+text Target: @17,196,694,21
+text Created: @17,229,694,20
+text Reference implementation: @17,261,694,20
+link https://github.com/brunopgalvao/manifest https://github.com/brunopgalvao/manifest @17,293,694,20
+text bench/ @17,325,694,21
+text packages/renderer @17,358,694,20
+text packages/mcp @17,390,694,20
+text This document is written in the shape of the proposals under specification/proposals/ in the A2UI repository, so it can be opened there as a pull request or a discussion with few changes. Section 10 lists what to strip before sending. @17,422,694,61
+h2 1. Background and problem statement @17,495,694,21
+text A2UI v1.0 is a write-mostly protocol. The agent sends createSurface, updateComponents, updateDataModel and deleteSurface. The renderer sends back action (a user pressed something), function calls and responses, and errors. With sendDataModel the renderer also piggybacks the surface's data model onto outbound messages. @17,528,694,82
+text Three things the agent cannot learn through the protocol: @17,622,694,20
+text What is on screen now. After the user has typed, toggled and switched tabs, the agent knows the data model (if it asked for it) but not the component tree it is about to update, which tab is selected, which subtrees are hidden, or whether the surface still exists. @17,654,694,61
+text Whether its UI fits. The agent cannot tell that a column header overflowed, two nodes overlap, a badge is unreadable, or a button is too small to tap. Today's fallback is a screenshot: with a 1280×800 viewport that is about 1,366 input tokens per look, and a model reading pixels answers factual questions about its own UI less accurately than one reading text (27/30 against 30/30 in our benchmark, section 7). @17,727,694,81
+text When a surface should go away. A toast, a confirmation or a progress card lives until the agent remembers to send deleteSurface. The agent must keep a timer, come back for a turn it would not otherwise take, and still cannot express "remove this once the user has seen it". @17,820,694,61
+text A fourth, smaller gap: there is no revision on a surface. Two updates that cross, or an update built from a stale view of the data model, overwrite each other silently. @17,893,694,41
+text A2UI v1.0 already has the hooks to close these gaps without changing the envelope: @17,946,694,20
+text metadata.extensions at surface, component, catalog-definition and action scope, which renderers must accept and may ignore; @17,978,694,40
+text catalog functions with allowedCallers: agentOnly, invoked with callRendererFunction and answered with rendererFunctionResponse; @17,1030,694,41
+text inlineCatalogs in a2uiRendererCapabilities, with which a renderer can advertise the functions it implements. @17,1083,694,41
+text This proposal uses only those hooks. A renderer that implements none of it keeps working; an agent that sees the capability can use it. @17,1136,694,40
+text Separately, three inference formats (Express, Atom, Elemental) are proposed as compact syntaxes that models write and a host compiles to A2UI JSON. None of them publishes a measurement. Section 6 proposes MX as a fourth, with a benchmark that can be re-run, and a compiler to both v0.9 and v1.0. @17,1188,694,61
+h2 2. Summary of the proposal @17,1261,694,21
+table Part "Mechanism in v1.0" "Spec change needed" @17,1294,694,171
+  3. Perception: observe | Agent-callable renderer function in an inline catalog | None
+  4. Lifecycle: ttl, until, seen, residue | Surface metadata extension manifest_lifecycle; a renderer-originated action named surfaceDissolved | None
+  5. Revisions | Reported by observe and on every action; optional stale-update rejection | Optional: metadata on updateComponents / updateDataModel
+  6. MX inference format | A compiler, like Express/Atom/Elemental | None; a directory under inference_formats/
+text Each part is independently adoptable. The extension name manifest_* follows the reversed-domain rule for third-party extensions; if the maintainers prefer, parts 3 to 5 can become official a2ui_perception, a2ui_lifecycle and a2ui_rev. @17,1477,694,61
+h2 3. Perception: the observe function @17,1550,694,21
+h3 3.1 Definition @17,1583,694,19
+text A renderer that supports perception advertises an inline catalog containing one function: @17,1614,694,20
+text { "catalogId": "https://brunopgalvao.github.io/manifest/a2ui/perception/v1", "protocolVersion": "1.0", "functions": { "observe": { "type": "object", "description": "Return the current state of a surface as the agent should see it: live component tree, data model, hidden subtrees, optional layout boxes and diagnostics.", "returnType": "object", "allowedCallers": "agentOnly", "properties": { "@call": { "const": "observe" }, "args": { "type": "object", "properties": { "surfaceId": { "type": "string" }, "level": { "type": "integer", "enum": [0, 1, 2], "default": 1 }, "since": { "type": "integer", "description": "Return only what changed after this revision." }, "focus": { "type": "string", "description": "Component id; return only this subtree." }, "format": { "type": "string", "enum": ["json", "mx"], "default": "json" } }, "required": ["surfaceId"], "unevaluatedProperties": false } }, "required": ["@call", "args"], "unevaluatedProperties": false } } } @17,1646,694,203
+text The agent calls it with the existing message: @17,1861,694,21
+text {"version":"v1.0","callRendererFunction":{"functionCallId":"c17","surfaceId":"dash","callFunction":{"@call":"observe","catalogId":"https://brunopgalvao.github.io/manifest/a2ui/perception/v1","args":{"surfaceId":"dash","level":2}}}} @17,1894,694,20
+text and gets a rendererFunctionResponse whose value is described below. If observe is absent from inlineCatalogs, the agent knows the renderer cannot be observed and falls back to screenshots or the data model. @17,1926,694,61
+h3 3.2 Levels @17,1999,694,18
+table Level Returns Use @17,2029,694,136
+  0 | surfaceId, rev, lifecycle, nodes, diagnostics count | Is it alive, did anything change since I last looked?
+  1 | Level 0 plus the component tree with live values, the data model, and hidden-subtree summaries | What is on screen, what did the user enter, which tab is open?
+  2 | Level 1 plus a layout box per component and the diagnostics list | Does it fit, is anything unreadable or too small?
+text Level 1 is the default and is what an agent needs before most updates. Level 2 costs about 50% more tokens in our corpus (1,246 against 828 for six surfaces) and is for checking a fresh render. @17,2177,694,40
+h3 3.3 JSON form (format: "json") @17,2229,694,19
+text { "surfaceId": "dash", "rev": 3, "lifecycle": "persistent", "components": [ {"id": "root", "component": "Column", "children": ["title", "row", "bar", "row2"], "box": [0, 0, 728, 472]}, {"id": "title", "component": "Text", "text": "Revenue overview", "variant": "h1", "box": [17, 17, 694, 25]}, {"id": "revenue", "component": "Metric", "label": "Revenue", "value": "$315k", "delta": "+16%", "tone": "success", "box": [17, 54, 223, 83]} ], "dataModel": {"range": ["YTD"]}, "hidden": {"general": ["Dark mode", "Language"]}, "diagnostics": [ {"kind": "overflow", "id": "table", "row": "#1042", "column": "Customer", "shown": 174, "needed": 330} ] } @17,2260,694,142
+text Rules: @17,2414,694,21
+text components is the renderer's current flat list in document order, after every updateComponents and every user input has been applied. Values bound with @path are reported resolved, so the agent reads "value": "sam@lee.dev" and not a pointer. The agent can copy any component from this list into an updateComponents message unchanged, which is the point: whatever can be read can be written back. @17,2447,694,81
+text Components inside a hidden subtree (an unselected tab, a collapsed section) are omitted. hidden maps the hiding component's id to the labels of up to three direct children, so "is the Language setting on the General tab?" is answerable without opening the tab. @17,2540,694,61
+text box is [x, y, w, h] in CSS pixels relative to the surface's top-left, present only at level 2. @17,2613,694,20
+text diagnostics (level 1 and 2, counted at level 0) is the renderer's own report of layout problems. The four kinds below are the ones we found worth having; renderers may add more. @17,2645,694,41
+table kind fields meaning @17,2698,694,170
+  overflow | id, optional row/column, shown, needed | Text was clipped or wrapped past its box: shown px available, needed px required.
+  overlap | id, other | Two boxes intersect that are not ancestor and descendant.
+  contrast | id, ratio | Foreground/background contrast under WCAG AA (4.5:1 text, 3:1 large text).
+  tiny | id, w, h | An interactive component smaller than 24×24 px.
+text since: N returns only components whose rendered form changed after revision N, plus removed: [ids] and the data-model paths that changed. If a change cannot be expressed that way (a component changed type), the renderer returns the full tree and sets full: true. @17,2880,694,61
+text focus: id restricts the tree to that component and its descendants. @17,2953,694,20
+h3 3.4 Text form (format: "mx") @17,2985,694,19
+text The same information in MX, the syntax of section 6, which is 2 to 4 times cheaper in tokens than the JSON form and what our reference renderer produces natively. Level 2 of the dashboard above, exactly as the renderer returns it: @17,3016,694,61
+text @dash rev=3 @0,0,728,472 h1 Revenue overview @17,17,694,25 row @17,54,694,83 metric Revenue $315k +16% @17,54,223,83 metric Orders 1,284 +6% @252,54,223,83 metric Churn 2.1% +0.4pt danger @488,54,223,83 bar "Monthly revenue (k$)" Apr:38 May:42 Jun:51 Jul:47 Aug:57 *Sep:80 @17,149,694,238 row @17,399,694,55 select Range Q3 *YTD 12m @17,399,66,55 button "Export CSV" disabled @95,409,107,36 @17,3089,694,101
+text and a table with a diagnostic: @17,3202,694,21
+text table Order Customer Total Status:badge @17,124,694,317 #1041 | Ana Souza | $84.00 | Paid #1042 | Oluwaseun Adebayo-Whitfield Consulting Partners | $1,920.00 | Pending ... !overflow table.#1042.Customer 174/330px @17,3235,694,61
+text An agent that writes MX reads this and answers "which row overflows and by how much" directly. An agent that writes A2UI JSON asks for format: "json" and gets section 3.3. Renderers may support only json; mx is optional and is listed in the function's description when available. @17,3308,694,61
+h3 3.5 Why a function and not a message @17,3381,694,18
+text A2UI's renderer-to-agent envelope has four keys. Adding a fifth (surfaceState) would be cleaner but needs a schema change in renderer_to_agent.json and every transport binding. Agent-callable functions already exist for exactly this shape of request (agent asks, renderer answers with a value, correlated by functionCallId), and inlineCatalogs already carries the capability negotiation. If the maintainers would rather have a message, the payload of 3.3 is the body of that message unchanged. @17,3411,694,102
+h3 3.6 Pushing perception without a call @17,3525,694,19
+text Two cases do not need a round trip and are covered by extension fields the renderer already sends: @17,3556,694,20
+text Every action carries metadata.extensions["manifest_rev"], the surface revision at the time of the press, so the agent knows whether its view is current before deciding what to do (section 5). @17,3588,694,40
+text When sendDataModel is on, the renderer may add hidden and diagnostics next to the data model in a2uiRendererDataModel.surfaces[id], under the same extension name. Agents that read the data model get the two cheapest perception facts for free. @17,3640,694,61
+h2 4. Lifecycle: surfaces that end on their own @17,3713,694,22
+h3 4.1 Declaration @17,3747,694,18
+text createSurface.metadata.extensions["manifest_lifecycle"]: @17,3777,694,21
+text {"version":"v1.0","createSurface":{"surfaceId":"confirm","catalogId":"…","components":[…], "metadata":{"extensions":{"manifest_lifecycle":{"until":"action","ttl":"60s","residue":"line"}}}}} @17,3810,694,40
+table Field Type "The surface dissolves when" @17,3862,694,206
+  ttl | duration | that long after it first became visible, wall clock. Toasts.
+  seen | duration | it has been on screen for that long in total; time scrolled away or in a background tab does not count. Things the user must have seen.
+  until | "action" or a component id | any action fires, or that button is pressed. Confirmations.
+  ephemeral | boolean | the next agent turn begins (the transport defines a turn; in A2A it is the next message from the agent). Progress cards.
+  residue | "none", "line", "archive" | what remains afterwards (below). Default none.
+text Durations are a number with a unit: 500ms, 10s, 2m, 1h. Several conditions mean whichever comes first. @17,4080,694,20
+text residue: @17,4112,694,21
+text none: the surface is removed exactly as if the agent had sent deleteSurface. @17,4145,694,20
+text line: the renderer removes the surface and keeps a one-line trace in whatever place it shows past surfaces (a chat transcript, a log, a collapsed row): the surface's first heading, or else its first Text. The line is also what observe returns for the surface afterwards. @17,4177,694,61
+text archive: the surface is removed from the screen but kept in memory, and observe still returns it in full. For things the agent may want to re-read (a report the user dismissed). @17,4250,694,41
+h3 4.2 Notification @17,4303,694,18
+text When a surface dissolves for any reason other than the agent's own deleteSurface, the renderer sends an action: @17,4333,694,41
+text {"action":{"name":"surfaceDissolved","surfaceId":"confirm","sourceComponentId":"root", "timestamp":"2026-10-19T09:41:07Z", "context":{"reason":"until:delete","rev":3,"residue":"Delete 3 files?"}, "metadata":{"extensions":{"manifest_lifecycle":{"reason":"until:delete"}}}}} @17,4386,694,61
+text reason is one of ttl, seen, until:<componentId>, until:action, ephemeral, or user (the user closed it through renderer chrome). rev is the surface's last revision; residue is the line kept, when residue: "line". @17,4459,694,40
+text When until ends a surface because of a button, the renderer sends that button's own action first and surfaceDissolved second, so the agent sees the user's choice before the surface's end. @17,4511,694,41
+h3 4.3 Why renderer-side @17,4564,694,19
+text The agent could run the timers itself and send deleteSurface. That costs a turn per toast, fails when the agent is not resident, and cannot express seen at all, because only the renderer knows whether the surface was on screen. Lifecycle is an attribute of the surface the way catalogId is, and belongs on createSurface. @17,4595,694,81
+h2 5. Revisions @17,4688,694,21
+text Every surface has an integer revision owned by the renderer: 0 at createSurface, incremented by every updateComponents, every updateDataModel, and every user input that changes the data model. The revision is: @17,4721,694,61
+text returned by observe at every level; @17,4794,694,20
+text attached to every action as metadata.extensions["manifest_rev"]. @17,4826,694,21
+text This is enough for an agent to notice that the user acted on a view it has since replaced, and to re-observe instead of acting on stale data. @17,4859,694,40
+text Optional, needs a small spec change: an agent may state the revision an update is built on. updateComponents and updateDataModel currently have no metadata; we ask for metadata to be allowed on both, with the same extensions shape as createSurface. Then: @17,4911,694,61
+text {"version":"v1.0","updateComponents":{"surfaceId":"dash","components":[…],"metadata":{"extensions":{"manifest_rev":{"base":3}}}}} @17,4984,694,20
+text A renderer that supports revisions rejects the update with an error (code: "STALE_REVISION", message: "surface is at rev 5") when base is not the current revision. A renderer that does not ignores the extension, as the spec already requires. @17,5016,694,61
+text In MX this is the ~3 head of every patch; the rule "every patch says what it applies to" removed a whole class of lost updates in our dogfooding and costs one token. @17,5089,694,41
+h2 6. MX as an inference format @17,5142,694,21
+h3 6.1 What it is @17,5175,694,19
+text MX is a one-node-per-line text format with two-space indentation, derived component ids and the same syntax for writing, patching and reading back. The dashboard of section 3 as the model writes it: @17,5206,694,41
+text @dash h1 "Revenue overview" row metric Revenue $308k +14% metric Orders 1,284 +6% metric Churn 2.1% +0.4pt danger bar "Monthly revenue (k$)" Apr:38 May:42 Jun:51 Jul:47 Aug:57 *Sep:73 row select Range Q3 *YTD 12m button "Export CSV" disabled @17,5259,694,60
+text Ids are derived (title, revenue, orders, churn, bar, range, export, row, row2) so the model never writes them for creation and uses them for patches: @17,5331,694,41
+text ~3 *revenue $315k +16% *bar.Sep 80 @17,5384,694,20
+text The full syntax is . The compiler in the compiler that shipped with the TypeScript core (now folded into the engine's A2UI emitters in ) turns a surface into (v1.0) or + + (v0.9), and a patch into and messages, with the standard and forms; prints them. @17,5416,694,61
+link spec/mx.md spec.html @17,5489,694,21
+text bench/ @17,5522,694,20
+text createSurface @17,5554,694,20
+text createSurface @17,5586,694,20
+text updateComponents @17,5618,694,21
+text updateDataModel @17,5651,694,20
+text updateComponents @17,5683,694,20
+text updateDataModel @17,5715,694,21
+text @path @17,5748,694,20
+text @call @17,5780,694,20
+text node bench/a2ui_emit.mjs dash v1.0 @17,5812,694,21
+h3 6.2 Measurements @17,5845,694,18
+text Counted with Anthropic's count_tokens endpoint (the public cl100k tokenizer gives the same ratios within 10%). Six surfaces: dashboard, form, table, diagram, confirmation, tabbed settings, each written with identical content in every format; A2UI is minified JSON, HTML is lean hand-written markup. Method and corpus in bench/. @17,5875,694,82
+table Col HTML "A2UI v0.9 JSON" "A2UI v1.0 JSON" Express Atom Elemental MX @17,5969,694,170
+  Output tokens to create 6 surfaces | 4,521 | 3,658 | 3,363 | 1,874 | 1,762 | 2,476 | 788
+  Output tokens for 16 edits | 622 (find/replace) | 1,207 (updateComponents/updateDataModel) | – | – | – | – | 238
+  Input tokens to read 6 surfaces back | 1,544 (cropped screenshots) | not possible | not possible | – | – | – | 828 (L1) / 1,246 (L2)
+  Reading accuracy, Claude Haiku, 30 questions | 27/30 (screenshots) | – | – | – | – | – | 30/30
+text The Express, Atom and Elemental columns are the same six surfaces written in each format with exactly the components and data of the JSON, compiled with the A2UI agent SDK's own compilers ( 0.9.0) to confirm they are valid; all 18 compile. Files in , method in section 9. @17,6151,694,61
+text a2ui-agent-sdk @17,6224,694,20
+text bench/corpus/formats/ @17,6256,694,21
+link bench/results.md results.html @17,6289,694,20
+text Writability: three models (Claude Haiku, Sonnet, Opus) given only the spec wrote 12 of 12 requested surfaces and patches validly, and produced byte-identical patches for the same edit. @17,6321,694,41
+text On this corpus Express is 44% below v1.0 JSON (its document claims 55–70%), Atom is 6% below Express (its document claims 25–50%), and Elemental is 26% below JSON. MX is 2.2× smaller than Atom, the smallest of the three. The difference is design rather than syntax: the three formats keep A2UI's model (an id or variable per node, a separately written data model, two nodes per button, options as objects), and MX does not (section 6.3). @17,6374,694,101
+h3 6.3 What MX adds that the other formats do not @17,6487,694,19
+text Patches with derived ids. Express/Atom/Elemental re-send components by id; the model must have chosen and remembered the ids. MX derives them from content, so a patch is *revenue $315k and the model needs no memory of the creation. @17,6518,694,61
+text Read-back in the same syntax. observe returns MX; the model can copy a line, change a word and send it as a patch. @17,6591,694,40
+text Lifecycle words on the surface line: @confirm until:action ttl:60s residue:line, compiled to section 4. @17,6643,694,21
+text Revision on every patch: ~3, compiled to section 5. @17,6676,694,20
+text What it lacks: templates over lists (_template in Express), client functions beyond the fixed validation set, and per-component catalog ids. These are deliberate omissions for the first version, not conflicts. @17,6708,694,40
+h2 7. Reference implementation @17,6760,694,22
+text In this repository: @17,6794,694,20
+text packages/core: MX parser, patcher, perception (levels, boxes, diagnostics, since diffs) and the A2UI compiler for v0.9 and v1.0, with lifecycle metadata and the surfaceDissolved action. 23 tests, parity-tested against the Python reference used for the benchmark. @17,6826,694,61
+text packages/renderer: a DOM renderer that implements lifecycle (ttl, seen, until, ephemeral, residues), events with revisions, layout boxes from getBoundingClientRect, and the four diagnostics. It renders MX directly, not A2UI JSON; its observe is the function of section 3 with format: "mx". @17,6899,694,61
+text packages/mcp: an MCP server exposing render / patch / observe / look / dissolve, which is how we dogfood it from a coding agent. @17,6972,694,40
+text To make this an A2UI renderer feature rather than a parallel renderer, the perception module needs to be bound to an A2UI renderer's component tree. For @a2ui/lit or @a2ui/react that is: walk the surface's rendered components, read each element's getBoundingClientRect, compute the four diagnostics from the DOM, serialise with the current data model. The core's perceive() already does the serialisation and the diff from a tree plus a box map; the renderer-specific part is about 150 lines. Lifecycle is a timer and an IntersectionObserver per surface, about 80 lines in our renderer (packages/renderer/src/host.ts). @17,7024,694,122
+h2 8. Compatibility @17,7158,694,21
+text Nothing here changes the agent-to-renderer or renderer-to-agent schema except the optional metadata on update messages in section 5. @17,7191,694,41
+text Renderers that do not implement the extensions ignore them, as v1.0 requires for unknown extensions keys. @17,7244,694,41
+text Agents detect support from inlineCatalogs (perception) and may send lifecycle metadata blind; a surface without lifecycle support simply persists, which is today's behaviour. @17,7297,694,40
+text All of it works on v0.9.1 too, except that v0.9.1 has no metadata.extensions on createSurface; there the lifecycle object would go in theme or be dropped. @17,7349,694,41
+h2 9. Open questions for the maintainers @17,7402,694,21
+text Function or message for perception (3.5)? We prefer the function for zero schema change; a message is cleaner long-term. @17,7435,694,41
+text Should the level 2 box be in CSS pixels or density-independent units? We use CSS pixels because the diagnostics thresholds (24 px targets, WCAG ratios) are defined in them. @17,7488,694,40
+text Is the a2ui_ prefix available for lifecycle and revision if the design is accepted, so agents can rely on one name? @17,7540,694,41
+text Is there interest in a shared corpus for inference-format token measurements? We offer bench/corpus and the counting scripts. @17,7593,694,41
+h2 10. Before sending @17,7646,694,21
+text The benchmark's custom catalog id is still https://manifest.dev/bench/catalog.json, a placeholder kept so the recorded token counts stay reproducible. The catalog itself is bench/catalog.json; hosting it at the project site and changing the id moves the A2UI counts by a few tokens per surface. @17,7679,694,61
+text Manifest is Apache-2.0. @17,7752,694,20
+link "Source, issues and discussion on GitHub." https://github.com/brunopgalvao/manifest @17,7784,694,20
+!overflow table.3. Perception: observe.Mechanism in v1.0 232/359px
+!overflow table.4. Lifecycle: ttl, until, seen, residue.Part 231/247px
+!overflow table.4. Lifecycle: ttl, until, seen, residue.Mechanism in v1.0 232/687px
+!overflow table.5. Revisions.Mechanism in v1.0 232/501px
+!overflow table.5. Revisions.Spec change needed 231/427px
+!overflow table.6. MX inference format.Mechanism in v1.0 232/284px
+!overflow table.6. MX inference format.Spec change needed 231/303px
+!overflow table2.0.Returns 232/346px
+!overflow table2.0.Use 231/347px
+!overflow table2.1.Returns 232/657px
+!overflow table2.1.Use 231/428px
+!overflow table2.2.Returns 232/439px
+!overflow table2.2.Use 231/326px
+!overflow table3.overflow.fields 232/282px
+!overflow table3.overflow.meaning 231/565px
+!overflow table3.overlap.meaning 231/407px
+!overflow table3.contrast.meaning 231/521px
+!overflow table3.tiny.meaning 231/344px
+!overflow table5.ttl.The surface dissolves when 231/384px
+!overflow table5.seen.The surface dissolves when 231/904px
+!overflow table5.until.The surface dissolves when 231/393px
+!overflow table5.ephemeral.The surface dissolves when 231/798px
+!overflow table5.residue.The surface dissolves when 231/331px
+!overflow table6.Output tokens to create 6 surfaces.Col 87/247px
+!overflow table6.Output tokens for 16 edits.Col 87/187px
+!overflow table6.Output tokens for 16 edits.HTML 87/136px
+!overflow table6.Output tokens for 16 edits.A2UI v0.9 JSON 86/319px
+!overflow table6.Input tokens to read 6 surfaces back.Col 87/259px
+!overflow table6.Input tokens to read 6 surfaces back.HTML 87/208px
+!overflow table6.Input tokens to read 6 surfaces back.A2UI v0.9 JSON 86/97px
+!overflow table6.Input tokens to read 6 surfaces back.A2UI v1.0 JSON 87/97px
+!overflow table6.Input tokens to read 6 surfaces back.MX 87/150px
+!overflow table6.Reading accuracy, Claude Haiku, 30 questions.Col 87/325px
+!overflow table6.Reading accuracy, Claude Haiku, 30 questions.HTML 87/151px

@@ -1,0 +1,432 @@
+@preview_tabler_io_activity_html rev=0 @0,0,728,4898
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,41
+  link Tabler . @17,59,39,21
+  row @68,49,643,41
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle @68,49,71,41
+    row @151,49,448,41
+      link "Enable dark mode" @151,49,108,41
+      link "Show notifications" # @271,49,111,41
+      link "Show app menu" # @394,49,97,41
+      link "Select language" # @503,49,96,41
+    link "Open user menu" # @611,49,100,41
+row @17,102,694,36
+  row @17,102,593,36
+    button Dashboards @17,102,85,36
+    button Interface @114,102,71,36
+    button Forms @197,102,58,36
+    button Extra @267,102,54,36
+    button Layout @333,102,61,36
+    button Plugins @406,102,63,36
+    button Addons @481,102,65,36
+    button Help @558,102,52,36
+  button Customize @622,102,89,36
+h1 Activity @17,150,694,25
+card @17,187,694,2602
+  row @34,202,660,53
+    region 56x40 @34,209,56,40 [1 shapes, 0 labelled]
+    col @102,202,480,53
+      text Jeffie Lewzey commented on your post: Not everything is what it seems @102,202,480,21
+      text 1 day ago @102,235,480,20
+    region 24x20 @594,219,24,20 [1 shapes, 0 labelled]
+  row @34,267,660,52
+    region 56x40 @34,273,56,40 [1 shapes, 0 labelled]
+    col @102,267,231,52
+      text It's Mallory Hulme's birthday today @102,267,231,20
+      text now @102,299,231,20
+    region 24x20 @345,283,24,20 [1 shapes, 0 labelled]
+  row @34,331,660,53
+    region 56x40 @34,338,56,40 [1 shapes, 0 labelled]
+    col @102,331,487,53
+      text Dunn Slane posted a status: Trying to figure things out one step at a time. @102,331,487,21
+      text now @102,364,487,20
+    region 24x20 @601,348,24,20 [1 shapes, 0 labelled]
+  row @34,396,660,53
+    region 56x40 @34,402,56,40 [1 shapes, 0 labelled]
+    col @102,396,378,53
+      text Emmy Levet created a new project: Smart Morning Alarm @102,396,378,20
+      text 4 days ago @102,428,378,21
+    region 24x20 @492,412,24,20 [1 shapes, 0 labelled]
+  row @34,461,660,52
+    region 56x40 @34,467,56,40 [1 shapes, 0 labelled]
+    col @102,461,220,52
+      text Maryjo Lebarree liked your photo @102,461,220,20
+      text now @102,493,220,20
+  row @34,525,660,53
+    region 56x40 @34,532,56,40 [1 shapes, 0 labelled]
+    col @102,525,336,53
+      text Egan Poetz registered a new client: Trilia Solutions @102,525,336,21
+      text 1 day ago @102,558,336,20
+  row @34,590,660,52
+    region 56x40 @34,596,56,40 [1 shapes, 0 labelled]
+    col @102,590,466,52
+      text Kellie Skingley closed a new deal on project: PPAP Campaign Strategy @102,590,466,20
+      text 2 days ago @102,622,466,20
+  row @34,654,660,53
+    region 56x40 @34,661,56,40 [1 shapes, 0 labelled]
+    col @102,654,491,53
+      text Christabel Charlwood created a new project: Wikibox Knowledge Platform @102,654,491,21
+      text 4 days ago @102,687,491,20
+  row @34,719,660,53
+    region 56x40 @34,725,56,40 [1 shapes, 0 labelled]
+    col @102,719,497,53
+      text Haskel Shelper changed project status of Tabler Icons from open to closed @102,719,497,20
+      text now @102,751,497,21
+  row @34,784,660,52
+    region 56x40 @34,790,56,40 [1 shapes, 0 labelled]
+    col @102,784,218,52
+      text Lorry Mion liked the Tabler UI Kit @102,784,218,20
+      text now @102,816,218,20
+  row @34,848,660,53
+    region 56x40 @34,855,56,40 [1 shapes, 0 labelled]
+    col @102,848,422,53
+      text Leesa Beaty shared a new video: Design Tips for Busy Creators @102,848,422,21
+      text 2 days ago @102,881,422,20
+  row @34,913,660,52
+    region 56x40 @34,919,56,40 [1 shapes, 0 labelled]
+    col @102,913,276,52
+      text Perren Keemar and 3 others followed you @102,913,276,20
+      text now @102,945,276,20
+  row @34,977,660,53
+    text SA @34,994,19,20
+    col @65,977,464,53
+      text Sunny Airey uploaded 3 new photos to category: Creative Inspirations @65,977,464,21
+      text 2 days ago @65,1010,464,20
+  row @34,1042,660,53
+    region 56x40 @34,1048,56,40 [1 shapes, 0 labelled]
+    col @102,1042,262,53
+      text Geoffry Flaunders made a $10 donation @102,1042,262,20
+      text 2 days ago @102,1074,262,21
+  row @34,1107,660,52
+    region 56x40 @34,1113,56,40 [1 shapes, 0 labelled]
+    col @102,1107,206,52
+      text Thatcher Keel created a profile @102,1107,206,20
+      text 3 days ago @102,1139,206,20
+  row @34,1171,660,53
+    region 56x40 @34,1178,56,40 [1 shapes, 0 labelled]
+    col @102,1171,357,53
+      text Dyann Escala hosted the event: Tabler UI Anniversary @102,1171,357,21
+      text 4 days ago @102,1204,357,20
+  row @34,1236,660,52
+    region 56x40 @34,1242,56,40 [1 shapes, 0 labelled]
+    col @102,1236,397,52
+      text Avivah Mugleston mentioned you in Best of 2020 Highlights @102,1236,397,20
+      text now @102,1268,397,20
+  row @34,1300,660,53
+    text AA @34,1317,20,20
+    col @66,1300,360,53
+      text Arlie Armstead sent a review request to Amanda Blake @66,1300,360,21
+      text 2 days ago @66,1333,360,20
+  row @34,1365,660,53
+    region 56x40 @34,1371,56,40 [1 shapes, 0 labelled]
+    col @102,1365,397,53
+      text Tessie Curzon posted a photo from her vacation in Tuscany @102,1365,397,20
+      text now @102,1397,397,21
+  row @34,1430,660,52
+    region 56x40 @34,1436,56,40 [1 shapes, 0 labelled]
+    col @102,1430,374,52
+      text Flossi Uttley shared an article: Top 10 productivity hacks @102,1430,374,20
+      text now @102,1462,374,20
+  row @34,1494,660,53
+    region 56x40 @34,1500,56,40 [1 shapes, 0 labelled]
+    col @102,1494,260,53
+      text Cesya Spritt commented on your photo @102,1494,260,20
+      text 2 days ago @102,1526,260,21
+  row @34,1559,660,52
+    region 56x40 @34,1565,56,40 [1 shapes, 0 labelled]
+    col @102,1559,333,52
+      text Johnnie Gilby joined the group: UX Designers Hub @102,1559,333,20
+      text now @102,1591,333,20
+  row @34,1623,660,53
+    region 56x40 @34,1630,56,40 [1 shapes, 0 labelled]
+    col @102,1623,287,53
+      text Ban Rzehor uploaded new design mockups @102,1623,287,21
+      text now @102,1656,287,20
+  row @34,1688,660,53
+    region 56x40 @34,1694,56,40 [1 shapes, 0 labelled]
+    col @102,1688,276,53
+      text Carroll Erat reacted with ❤️ to your story @102,1688,276,20
+      text 3 days ago @102,1720,276,21
+  row @34,1753,660,52
+    region 56x40 @34,1759,56,40 [1 shapes, 0 labelled]
+    col @102,1753,381,52
+      text Marsha Labat posted a video: Building Better Dashboards @102,1753,381,20
+      text 3 days ago @102,1785,381,20
+  row @34,1817,660,53
+    region 56x40 @34,1823,56,40 [1 shapes, 0 labelled]
+    col @102,1817,360,53
+      text Elston Muffett joined your webinar: Intro to TypeScript @102,1817,360,20
+      text now @102,1849,360,21
+  row @34,1882,660,52
+    region 56x40 @34,1888,56,40 [1 shapes, 0 labelled]
+    col @102,1882,295,52
+      text Leigha Gorce commented: This is so helpful! @102,1882,295,20
+      text 4 days ago @102,1914,295,20
+  row @34,1946,660,53
+    text TB @34,1963,19,20
+    col @65,1946,250,53
+      text Tallie Bettis updated her profile photo @65,1946,250,21
+      text 3 days ago @65,1979,250,20
+  row @34,2011,660,53
+    region 56x40 @34,2017,56,40 [1 shapes, 0 labelled]
+    col @102,2011,374,53
+      text Merrily Garforth posted a job listing: Frontend Developer @102,2011,374,20
+      text now @102,2043,374,21
+  row @34,2076,660,52
+    text EB @34,2092,18,20
+    col @64,2076,434,52
+      text Errol Blackley started following your project: Clean Code Patterns @64,2076,434,20
+      text now @64,2108,434,20
+  row @34,2140,660,53
+    region 56x40 @34,2146,56,40 [1 shapes, 0 labelled]
+    col @102,2140,315,53
+      text Ninon Don gave feedback on your latest design @102,2140,315,20
+      text now @102,2172,315,21
+  row @34,2205,660,52
+    region 56x40 @34,2211,56,40 [1 shapes, 0 labelled]
+    col @102,2205,312,52
+      text Delaney Cairney shared a playlist: Coding Flow @102,2205,312,20
+      text 4 days ago @102,2237,312,20
+  row @34,2269,660,53
+    region 56x40 @34,2276,56,40 [1 shapes, 0 labelled]
+    col @102,2269,316,53
+      text Gratia Gooley joined the event: Night UI Meetup @102,2269,316,21
+      text now @102,2302,316,20
+  row @34,2334,660,53
+    region 56x40 @34,2340,56,40 [1 shapes, 0 labelled]
+    col @102,2334,361,53
+      text Odelinda McCosh shared a memory: 2 years at Tabler! @102,2334,361,20
+      text 3 days ago @102,2366,361,21
+  row @34,2399,660,52
+    region 56x40 @34,2405,56,40 [1 shapes, 0 labelled]
+    col @102,2399,292,52
+      text Wilburt Siegertsz retweeted your latest post @102,2399,292,20
+      text now @102,2431,292,20
+  row @34,2463,660,53
+    region 56x40 @34,2469,56,40 [1 shapes, 0 labelled]
+    col @102,2463,316,53
+      text Julietta Coke shared your story to their network @102,2463,316,20
+      text 3 days ago @102,2495,316,21
+  row @34,2528,660,52
+    region 56x40 @34,2534,56,40 [1 shapes, 0 labelled]
+    col @102,2528,393,52
+      text Portie Christou invited you to collaborate on her workspace @102,2528,393,20
+      text now @102,2560,393,20
+  row @34,2592,660,53
+    region 56x40 @34,2599,56,40 [1 shapes, 0 labelled]
+    col @102,2592,411,53
+      text Emmott Dowsett published a new blog post: Dark Mode for All @102,2592,411,21
+      text 2 days ago @102,2625,411,20
+  row @34,2657,660,53
+    region 56x40 @34,2663,56,40 [1 shapes, 0 labelled]
+    col @102,2657,291,53
+      text Rooney Cassy mentioned you in a comment @102,2657,291,20
+      text now @102,2689,291,21
+  row @34,2722,660,52
+    region 56x40 @34,2728,56,40 [1 shapes, 0 labelled]
+    col @102,2722,387,52
+      text Haze Hubbert shared a new design: Modern Dashboard UI @102,2722,387,20
+      text now @102,2754,387,20
+row @17,2801,694,41
+  row @17,2801,325,41
+    link Documentation https://docs.tabler.io @17,2811,99,21
+    link License ./license.html @128,2811,52,21
+    link "Source code" https://github.com/tabler/tabler @192,2801,83,41
+    link Sponsor https://github.com/sponsors/codecalm @287,2811,55,21
+  row @354,2801,357,41
+    text Copyright © 2026 . All rights reserved. @354,2801,254,41
+    link Tabler . @620,2811,43,21
+    link v1.6.1 ./changelog.html @675,2811,36,21
+button Customize primary @17,2854,694,36
+card @17,2902,694,1979
+  button Close primary @34,2917,660,36
+  region 160x120 @34,2965,160,120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own @34,3097,660,22
+  text Pick the look and layout of this preview. Your choices are saved in this browser. @34,3131,660,20
+  h3 Appearance @34,3163,660,19
+  text Color scheme @34,3194,660,20
+  text The page and its navigation, in one pick. @34,3226,660,20
+  row @34,3258,660,97
+    col @34,3258,96,97
+      region 96x64 @34,3258,96,64 [8 shapes, 0 labelled]
+      text Auto @34,3334,96,21
+    col @142,3258,96,97
+      region 96x64 @142,3258,96,64 [8 shapes, 0 labelled]
+      text Light @142,3334,96,21
+    col @250,3258,96,97
+      region 96x64 @250,3258,96,64 [8 shapes, 0 labelled]
+      text Dark @250,3334,96,21
+    col @358,3258,96,97
+      region 96x64 @358,3258,96,64 [8 shapes, 0 labelled]
+      text Dark nav @358,3334,96,21
+    col @466,3258,96,97
+      region 96x64 @466,3258,96,64 [8 shapes, 0 labelled]
+      text Colored @466,3334,96,21
+  text Accent color @34,3367,660,20
+  text The accent color used across the app. @34,3399,660,20
+  row @34,3431,660,0
+  text Font family @34,3443,660,20
+  text The typeface used across the app. @34,3475,660,21
+  row @34,3508,660,20
+    text Aa Sans-serif @34,3508,90,20
+    text Aa Serif @136,3508,53,20
+    text Aa Monospace @201,3508,100,20
+    text Aa Comic @313,3508,64,20
+  text Theme base @34,3540,660,20
+  text The gray palette behind every surface. @34,3572,660,21
+  row @34,3605,660,96
+    col @34,3605,96,96
+      region 96x64 @34,3605,96,64 [6 shapes, 0 labelled]
+      text Slate @34,3681,96,20
+    col @142,3605,96,96
+      region 96x64 @142,3605,96,64 [6 shapes, 0 labelled]
+      text Gray @142,3681,96,20
+    col @250,3605,96,96
+      region 96x64 @250,3605,96,64 [6 shapes, 0 labelled]
+      text Zinc @250,3681,96,20
+    col @358,3605,96,96
+      region 96x64 @358,3605,96,64 [6 shapes, 0 labelled]
+      text Neutral @358,3681,96,20
+    col @466,3605,96,96
+      region 96x64 @466,3605,96,64 [6 shapes, 0 labelled]
+      text Stone @466,3681,96,20
+  text Corner radius @34,3713,660,20
+  text How round corners are drawn. @34,3745,660,21
+  row @34,3778,660,96
+    col @34,3778,96,96
+      region 96x64 @34,3778,96,64 [2 shapes, 0 labelled]
+      text 0 @34,3854,96,20
+    col @142,3778,96,96
+      region 96x64 @142,3778,96,64 [2 shapes, 0 labelled]
+      text 0.5 @142,3854,96,20
+    col @250,3778,96,96
+      region 96x64 @250,3778,96,64 [2 shapes, 0 labelled]
+      text 1 @250,3854,96,20
+    col @358,3778,96,96
+      region 96x64 @358,3778,96,64 [2 shapes, 0 labelled]
+      text 1.5 @358,3854,96,20
+    col @466,3778,96,96
+      region 96x64 @466,3778,96,64 [2 shapes, 0 labelled]
+      text 2 @466,3854,96,20
+  h3 Layout @34,3886,660,19
+  text Navigation @34,3917,660,20
+  text Where the main menu lives. @34,3949,660,20
+  row @34,3981,660,97
+    col @34,3981,96,97
+      region 96x64 @34,3981,96,64 [10 shapes, 0 labelled]
+      text Navbar @34,4057,96,21
+    col @142,3981,96,97
+      region 96x64 @142,3981,96,64 [11 shapes, 0 labelled]
+      text Sidebar @142,4057,96,21
+  text Container width @34,4090,660,20
+  text How wide the page content runs. @34,4122,660,20
+  row @34,4154,660,96
+    col @34,4154,96,96
+      region 96x64 @34,4154,96,64 [6 shapes, 0 labelled]
+      text Default @34,4230,96,20
+    col @142,4154,96,96
+      region 96x64 @142,4154,96,64 [6 shapes, 0 labelled]
+      text Fluid @142,4230,96,20
+    col @250,4154,96,96
+      region 96x64 @250,4154,96,64 [7 shapes, 0 labelled]
+      text Boxed @250,4230,96,20
+  text Navbar behavior @34,4262,660,21
+  text Keep the navbar visible while scrolling. @34,4295,660,20
+  row @34,4327,660,96
+    col @34,4327,96,96
+      region 96x64 @34,4327,96,64 [8 shapes, 0 labelled]
+      text Default @34,4403,96,20
+    col @142,4327,96,96
+      region 96x64 @142,4327,96,64 [10 shapes, 0 labelled]
+      text Sticky @142,4403,96,20
+  text Navigation style @34,4435,660,21
+  text Attach the navigation to the edges, or let it float. @34,4468,660,20
+  row @34,4500,660,96
+    col @34,4500,96,96
+      region 96x64 @34,4500,96,64 [10 shapes, 0 labelled]
+      text Attached @34,4576,96,20
+    col @142,4500,96,96
+      region 96x64 @142,4500,96,64 [9 shapes, 0 labelled]
+      text Floating @142,4576,96,20
+  text Offcanvas style @34,4608,660,21
+  text Attach side panels to the edges, or let them float. @34,4641,660,20
+  row @34,4673,660,96
+    col @34,4673,96,96
+      region 96x64 @34,4673,96,64 [11 shapes, 0 labelled]
+      text Attached @34,4749,96,20
+    col @142,4673,96,96
+      region 96x64 @142,4673,96,64 [10 shapes, 0 labelled]
+      text Floating @142,4749,96,20
+  button "Reset changes" @34,4781,660,36
+  button Save primary @34,4829,660,37
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!offcanvas region42
+!offcanvas path
+!offcanvas region43
+!offcanvas path2
+!offcanvas region44
+!offcanvas path3
+!offcanvas region45
+!offcanvas path4
+!offcanvas region46
+!offcanvas path5
+!offcanvas region47
+!offcanvas path6
+!offcanvas region48
+!offcanvas path7
+!offcanvas region49
+!offcanvas path8
+!offcanvas region50
+!offcanvas path9
+!offcanvas region51
+!offcanvas path10
+!offcanvas region52
+!offcanvas path11
+!offcanvas region53
+!offcanvas path12
+!offcanvas region54
+!offcanvas path13
+!offcanvas region55
+!offcanvas path14
+!offcanvas region56
+!offcanvas path15
+!offcanvas region57
+!offcanvas path16
+!offcanvas region58
+!offcanvas path17
+!offcanvas region59
+!offcanvas path18
+!offcanvas region60
+!offcanvas path19
+!offcanvas region61
+!offcanvas path20
+!offcanvas region62
+!offcanvas path21
+!offcanvas region63
+!offcanvas path22
+!offcanvas region64
+!offcanvas path23
+!offcanvas region65
+!offcanvas path24
+!offcanvas region66
+!offcanvas path25
+!offcanvas region67
+!offcanvas path26
+!offcanvas region68
+!offcanvas path27
+!offcanvas region69
+!offcanvas path28
+!offcanvas region70
+!offcanvas path29
+!offcanvas region71
+!offcanvas path30
+!offcanvas region72
+!offcanvas path31

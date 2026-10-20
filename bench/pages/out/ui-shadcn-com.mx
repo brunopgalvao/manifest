@@ -1,0 +1,439 @@
+@ui_shadcn_com
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+    row
+      link New /create
+link "Trace, Code Block and AI Elements" /docs/changelog
+h1 The Foundation for your Design System
+text Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.
+row
+  link "Get Started" /docs/installation
+  link "View Components" /docs/components
+row
+  col
+    row
+      button Button primary
+      button Secondary
+      button Outline
+    card
+      field Name
+    field Message
+    row
+      text BadgeSecondaryOutline
+      row
+        badge Apple
+        badge Banana
+      check "Enable email alerts" on
+      toggle "Enable compact notifications" on
+    row
+      button "Alert DialogDialog"
+      row
+        button "Button GroupGroup"
+        button "Open quick actions"
+    row
+      col
+        text Overview
+        button Analytics
+        button Transactions
+        button Investments
+        button Accounts
+        button Spending
+      col
+        text Planning
+        button Documents
+        button Budget
+        button Reports
+        button Goals
+        button Calendar
+      col
+        text Support
+        button "Help Center"
+        button Docs
+        button "Contact Us"
+        button Status
+        button Community
+      col
+        text Account
+        button Profile
+        button Billing
+        button Notifications
+        button Security
+        button Appearance
+    row
+      text Savings Targets
+      text Active milestones for 2024 across your portfolio. Monitor how close you are to each savings goal.
+    card
+      text Retirement
+      text $420,000
+      row
+        region 320.66x8
+          rect @0,0 208.42x8 fill:#171717
+        text x
+      text 65% achieved$273,000
+    card
+      text Real Estate
+      text $85,000
+      row
+        region 320.66x8
+          rect @0,0 102.61x8 fill:#171717
+        text x
+      text 32% achieved$27,200
+    text You have not met your targets for this year.
+  col
+    row
+      text Contribution History
+      text Last 6 months of activity
+    region "Last 6 months of contribution activity" 354.67x200
+      rect @0,52.94 61.33x123.06 fill:#d4d4d4 radius:10
+      text @0,193.6 "Dec" size:12 fill:#737373
+      rect @73.33,6.78 61.34x169.22 fill:#737373 radius:10
+      text @73.33,193.6 "Jan" size:12 fill:#737373
+      rect @146.67,37.55 61.33x138.45 fill:#525252 radius:10
+      text @146.67,193.6 "Feb" size:12 fill:#737373
+      rect @220,0 61.34x176 fill:#404040 radius:10
+      text @220,193.6 "Mar" size:12 fill:#737373
+      rect @293.34,60.63 61.33x115.38 fill:#262626 radius:10
+      text @293.34,193.6 "Apr" size:12 fill:#737373
+    row
+      col
+        text Upcoming
+        text May 2024
+        text Scheduled
+      col
+        text Savings Plan
+        text Accelerated
+        text Recurring
+    button "View Full Report" primary
+    metric "Claimable Balance" $1,211.29 "Pending Setup"
+    card
+      text Net Royalties$1,248.75
+      text Processing Fee-$37.46
+      text Total Ready to Claim$1,211.29 USD
+    text Once your bank is connected, balances over $10.00 are automatically eligible for monthly distribution on the 15th of each month.
+    row
+      text Q2 Dividend Income
+      text Quarterly dividend payouts across your portfolio holdings.
+      button "Dismiss dividend income"
+    card
+      col
+        text Vanguard
+        text 450 Shares
+      region "Vanguard quarterly dividends" 96x32
+        rect @0,13.36 21x18.64 fill:#737373 radius:6
+        rect @25,11.39 21x20.61 fill:#737373 radius:6
+        rect @50,12.86 21x19.14 fill:#737373 radius:6
+        rect @75,0 21x32 fill:#737373 radius:6
+    card
+      col
+        text S&P 500 VOO
+        text 112 Shares
+      region "S&P 500 VOO quarterly dividends" 96x32
+        rect @0,14 21x18 fill:#737373 radius:6
+        rect @25,11 21x21 fill:#737373 radius:6
+        rect @50,0 21x32 fill:#737373 radius:6
+        rect @75,10.2 21x21.8 fill:#737373 radius:6
+    card
+      col
+        text Apple AAPL
+        text 85 Shares
+      region "Apple AAPL quarterly dividends" 96x32
+        rect @0,16 21x16 fill:#737373 radius:6
+        rect @25,13.34 21x18.66 fill:#737373 radius:6
+        rect @50,0 21x32 fill:#737373 radius:6
+        rect @75,8 21x24 fill:#737373 radius:6
+    card
+      col
+        text Realty Income
+        text 320 Shares
+      region "Realty Income quarterly dividends" 96x32
+        rect @0,10.67 21x21.33 fill:#737373 radius:6
+        rect @25,8.89 21x23.11 fill:#737373 radius:6
+        rect @50,7.13 21x24.88 fill:#737373 radius:6
+        rect @75,0 21x32 fill:#737373 radius:6
+  col
+    card
+      region "Connect device QR code" 160x160
+        rect @0,0 21x21 fill:#ffffff
+        rect @0,0 1x1
+        rect @1,0 1x1
+        rect @2,0 1x1
+        rect @3,0 1x1
+        rect @4,0 1x1
+        rect @5,0 1x1
+        rect @6,0 1x1
+        rect @9,0 1x1
+        rect @11,0 1x1
+        rect @12,0 1x1
+        rect @14,0 1x1
+        rect @15,0 1x1
+        rect @16,0 1x1
+        rect @17,0 1x1
+        rect @18,0 1x1
+        rect @19,0 1x1
+        rect @20,0 1x1
+        rect @0,1 1x1
+        rect @6,1 1x1
+        rect @8,1 1x1
+        rect @11,1 1x1
+        rect @14,1 1x1
+        rect @20,1 1x1
+        rect @0,2 1x1
+        rect @2,2 1x1
+        rect @3,2 1x1
+        rect @4,2 1x1
+        rect @6,2 1x1
+        rect @8,2 1x1
+        rect @9,2 1x1
+        rect @10,2 1x1
+        rect @11,2 1x1
+        rect @12,2 1x1
+        rect @14,2 1x1
+        rect @16,2 1x1
+        rect @17,2 1x1
+        rect @18,2 1x1
+        rect @20,2 1x1
+        rect @0,3 1x1
+        rect @2,3 1x1
+        rect @3,3 1x1
+        rect @4,3 1x1
+        rect @6,3 1x1
+        rect @9,3 1x1
+        rect @14,3 1x1
+        rect @16,3 1x1
+        rect @17,3 1x1
+        rect @18,3 1x1
+        rect @20,3 1x1
+        rect @0,4 1x1
+        rect @2,4 1x1
+        rect @3,4 1x1
+        rect @4,4 1x1
+        rect @6,4 1x1
+        rect @8,4 1x1
+        rect @10,4 1x1
+        rect @12,4 1x1
+        rect @14,4 1x1
+        rect @16,4 1x1
+        rect @17,4 1x1
+        rect @18,4 1x1
+        rect @20,4 1x1
+        rect @0,5 1x1
+        rect @6,5 1x1
+        rect @9,5 1x1
+        rect @10,5 1x1
+        rect @11,5 1x1
+        rect @14,5 1x1
+        rect @20,5 1x1
+        rect @0,6 1x1
+        rect @1,6 1x1
+        rect @2,6 1x1
+        rect @3,6 1x1
+        rect @4,6 1x1
+        rect @5,6 1x1
+        rect @6,6 1x1
+        rect @8,6 1x1
+        rect @10,6 1x1
+        rect @12,6 1x1
+        rect @14,6 1x1
+        rect @15,6 1x1
+        rect @16,6 1x1
+        rect @17,6 1x1
+        rect @18,6 1x1
+        rect @19,6 1x1
+        rect @20,6 1x1
+        rect @8,7 1x1
+        rect @9,7 1x1
+        rect @11,7 1x1
+        rect @0,8 1x1
+        rect @2,8 1x1
+        rect @4,8 1x1
+        rect @5,8 1x1
+        rect @6,8 1x1
+        rect @7,8 1x1
+        rect @8,8 1x1
+        rect @11,8 1x1
+        rect @12,8 1x1
+        rect @13,8 1x1
+        rect @14,8 1x1
+        rect @16,8 1x1
+        rect @18,8 1x1
+        rect @19,8 1x1
+        rect @1,9 1x1
+        rect @3,9 1x1
+        rect @8,9 1x1
+        rect @9,9 1x1
+        rect @10,9 1x1
+        rect @13,9 1x1
+        rect @15,9 1x1
+        rect @17,9 1x1
+        rect @20,9 1x1
+        rect @0,10 1x1
+        rect @1,10 1x1
+        rect @2,10 1x1
+        rect @4,10 1x1
+        rect @6,10 1x1
+        rect @7,10 1x1
+        rect @8,10 1x1
+        rect @10,10 1x1
+        rect @11,10 1x1
+        rect @12,10 1x1
+        rect @14,10 1x1
+        rect @15,10 1x1
+        rect @16,10 1x1
+        rect @17,10 1x1
+        rect @19,10 1x1
+        rect @2,11 1x1
+        rect @3,11 1x1
+        rect @5,11 1x1
+        rect @9,11 1x1
+        rect @11,11 1x1
+        rect @16,11 1x1
+        rect @18,11 1x1
+        rect @20,11 1x1
+        rect @0,12 1x1
+        rect @1,12 1x1
+        rect @3,12 1x1
+        rect @4,12 1x1
+        rect @5,12 1x1
+        rect @6,12 1x1
+        rect @8,12 1x1
+        rect @9,12 1x1
+        rect @10,12 1x1
+        rect @11,12 1x1
+        rect @13,12 1x1
+        rect @15,12 1x1
+        rect @16,12 1x1
+        rect @17,12 1x1
+        rect @19,12 1x1
+        rect @20,12 1x1
+        rect @8,13 1x1
+        rect @11,13 1x1
+        rect @13,13 1x1
+        rect @17,13 1x1
+        rect @19,13 1x1
+        rect @0,14 1x1
+        rect @1,14 1x1
+        rect @2,14 1x1
+        rect @3,14 1x1
+        rect @4,14 1x1
+        rect @5,14 1x1
+        rect @6,14 1x1
+        rect @8,14 1x1
+        rect @9,14 1x1
+        rect @11,14 1x1
+        rect @12,14 1x1
+        rect @13,14 1x1
+        rect @14,14 1x1
+        rect @15,14 1x1
+        rect @17,14 1x1
+        rect @20,14 1x1
+        rect @0,15 1x1
+        rect @6,15 1x1
+        rect @10,15 1x1
+        rect @14,15 1x1
+        rect @17,15 1x1
+        rect @18,15 1x1
+        rect @19,15 1x1
+        rect @20,15 1x1
+        rect @0,16 1x1
+        rect @2,16 1x1
+        rect @3,16 1x1
+        rect @4,16 1x1
+        rect @6,16 1x1
+        rect @8,16 1x1
+        rect @10,16 1x1
+        rect @11,16 1x1
+        rect @12,16 1x1
+        rect @14,16 1x1
+        rect @15,16 1x1
+        rect @16,16 1x1
+        rect @18,16 1x1
+        rect @0,17 1x1
+        rect @2,17 1x1
+        rect @3,17 1x1
+        rect @4,17 1x1
+        rect @6,17 1x1
+        rect @9,17 1x1
+        rect @10,17 1x1
+        rect @12,17 1x1
+        rect @16,17 1x1
+        rect @19,17 1x1
+        rect @20,17 1x1
+        rect @0,18 1x1
+        rect @2,18 1x1
+        rect @3,18 1x1
+        rect @4,18 1x1
+        rect @6,18 1x1
+        rect @8,18 1x1
+        rect @12,18 1x1
+        rect @13,18 1x1
+        rect @14,18 1x1
+        rect @15,18 1x1
+        rect @17,18 1x1
+        rect @18,18 1x1
+        rect @19,18 1x1
+        rect @0,19 1x1
+        rect @6,19 1x1
+        rect @8,19 1x1
+        rect @9,19 1x1
+        rect @11,19 1x1
+        rect @16,19 1x1
+        rect @17,19 1x1
+        rect @20,19 1x1
+        rect @0,20 1x1
+        rect @1,20 1x1
+        rect @2,20 1x1
+        rect @3,20 1x1
+        rect @4,20 1x1
+        rect @5,20 1x1
+        rect @6,20 1x1
+        rect @8,20 1x1
+        rect @10,20 1x1
+        rect @11,20 1x1
+        rect @12,20 1x1
+        rect @14,20 1x1
+        rect @15,20 1x1
+        rect @17,20 1x1
+        rect @18,20 1x1
+        rect @19,20 1x1
+        rect @20,20 1x1
+    row
+      text Scan to connect your mobile device
+      text Open the Ledger mobile app and scan this code to link your device.
+    row
+      text New Chat
+      text How can I help you today?
+      button "Reset conversation"
+    card
+    text Morning, shadcn!
+    text What are we working on today? Press send to start a new conversation
+    card
+      text I'm building a chat for our app and the scroll behavior is driving me nuts. Every time the AI streams a reply, the whole thread jumps around.
+      row
+        button "Add files"
+        button Send primary
+    row
+      link Home #
+      button "Account options"
+      text Payments
+    link "Change transfer limitAdjust how much you can send from your balance." #
+    link "Scheduled transfersSet up a transfer to send at a later date." #
+    link "Recurring card paymentsManage your repeated card transactions." #
+text Built by  at . The source code is available on .
+row
+  link shadcn https://twitter.com/shadcn
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+  link GitHub https://github.com/shadcn-ui/ui
+text Notifications alt+T
+text Notifications

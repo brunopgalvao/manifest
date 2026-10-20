@@ -121,13 +121,15 @@ row
     h2 An imposing hero banner to showcase something
   col
     card
-      link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI627ICTSIK2QKC6BDVK3ECTBD4K3UCWYDVK37CTADV23NHEYI55QLCESDE53ECTNCYBZ52K" https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI627ICTSIK2QKC6BDVK3ECTBD4K3UCWYDVK37CTADV23NHEYI55QLCESDE53ECTNCYBZ52K
-      link "Your edge case? Another builder solved it last Tuesday. Find answers." https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI627ICTSIK2QKC6BDVK3ECTBD4K3UCWYDVK37CTADV23NHEYI55QLCESDE53ECTNCYBZ52K
+      link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKC6SDV2QLF67DTK3LCWSIKKJNC67ILK3EHEYI55QLCESI623ECTNCYBZ52K" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKC6SDV2QLF67DTK3LCWSIKKJNC67ILK3EHEYI55QLCESI623ECTNCYBZ52K
+      link "Your edge case? Another builder solved it last Tuesday. Find answers." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKC6SDV2QLF67DTK3LCWSIKKJNC67ILK3EHEYI55QLCESI623ECTNCYBZ52K
     link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
 text The hero component allows you to add a full width banner to your webpage, which can optionally cover the full height of the page as well.
 text The basic requirement of this component are:
+text as the main container
 text hero danger
 text hero-body as a direct child, in which you can put all your content
+text For the  to work, you will also need a  and a .
 row
   link "fullheight hero" #fullheight-hero
   text hero-head danger
@@ -214,13 +216,18 @@ text HTML
 text "<section class=\"hero is-danger is-fullheight\"> <div class=\"hero-body\"> <div class=\"\"> <p class=\"title\">Fullheight hero</p> <p class=\"subtitle\">Fullheight subtitle</p> </div> </div> </section>"
 button Copy danger
 h3 "Fullheight with navbar #"
+text If you are using a , you can use the  modifier on the hero for it to occupy the viewport height minus the navbar height.
 row
   link "fixed navbar" https://bulma.io/documentation/components/navbar/#fixed-navbar
   text is-fullheight-with-navbar danger
 text Example
 row
   row
+    text Home
+    text Documentation
   row
+    text Github
+    text Download
 text Fullheight hero with navbar
 text HTML
 text "<nav class=\"navbar\"> <div class=\"container\"> <div id=\"navMenu\" class=\"navbar-menu\"> <div class=\"navbar-start\"> <a class=\"navbar-item\"> Home </a> <a class=\"navbar-item\"> Documentation </a> </div> <div class=\"navbar-end\"> <div class=\"navbar-item\"> <div class=\"buttons\"> <a class=\"button is-dark\">Github</a> <a class=\"button is-link\">Download</a> </div> </div> </div> </div> </div> </nav> <section class=\"hero is-link is-fullheight-with-navbar\"> <div class=\"hero-body\"> <p class=\"title\">Fullheight hero with navbar</p> </div> </section>"
@@ -235,11 +242,20 @@ text Example
 row
   image https://bulma.io/assets/images/bulma-type-white.png "Logo"
   row
+    text Home
+    text Examples
+    text Documentation
     row
       text Download success
 text Title
 text Subtitle
 row
+  text Overview success
+  text Modifiers
+  text Grid
+  text Elements
+  text Components
+  text Layout
 text HTML
 button "Show code" danger
 text "<section class=\"hero is-primary is-medium\"> <!-- Hero head: will stick at the top --> <div class=\"hero-head\"> <nav class=\"navbar\"> <div class=\"container\"> <div class=\"navbar-brand\"> <a class=\"navbar-item\"> <img src=\"https://bulma.io/assets/images/bulma-type-white.png\" alt=\"Logo\" /> </a> <span class=\"navbar-burger\" data-target=\"navbarMenuHeroA\"> <span></span> <span></span> <span></span> <span></span> </span> </div> <div id=\"navbarMenuHeroA\" class=\"navbar-menu\"> <div class=\"navbar-end\"> <a class=\"navbar-item is-active\"> Home </a> <a class=\"navbar-item\"> Examples </a> <a class=\"navbar-item\"> Documentation </a> <span class=\"navbar-item\"> <a class=\"button is-primary is-inverted\"> <span class=\"icon\"> <i class=\"fab fa-github\"></i> </span> <span>Download</span> </a> </span> </div> </div> </div> </nav> </div> <!-- Hero content: will be in the middle --> <div class=\"hero-body\"> <div class=\"container has-text-centered\"> <p class=\"title\">Title</p> <p class=\"subtitle\">Subtitle</p> </div> </div> <!-- Hero footer: will stick at the bottom --> <div class=\"hero-foot\"> <nav class=\"tabs\"> <div class=\"container\"> <ul> <li class=\"is-active\"><a>Overview</a></li> <li><a>Modifiers</a></li> <li><a>Grid</a></li> <li><a>Elements</a></li> <li><a>Components</a></li> <li><a>Layout</a></li> </ul> </div> </nav> </div> </section>"
@@ -248,11 +264,20 @@ text Example
 row
   image https://bulma.io/assets/images/bulma-type-white.png "Logo"
   row
+    text Home
+    text Examples
+    text Documentation
     row
       text Download primary
 text Title
 text Subtitle
 row
+  text Overview primary
+  text Modifiers
+  text Grid
+  text Elements
+  text Components
+  text Layout
 text HTML
 button "Show code" danger
 text "<section class=\"hero is-info is-large\"> <div class=\"hero-head\"> <nav class=\"navbar\"> <div class=\"container\"> <div class=\"navbar-brand\"> <a class=\"navbar-item\"> <img src=\"https://bulma.io/assets/images/bulma-type-white.png\" alt=\"Logo\" /> </a> <span class=\"navbar-burger\" data-target=\"navbarMenuHeroB\"> <span></span> <span></span> <span></span> <span></span> </span> </div> <div id=\"navbarMenuHeroB\" class=\"navbar-menu\"> <div class=\"navbar-end\"> <a class=\"navbar-item is-active\"> Home </a> <a class=\"navbar-item\"> Examples </a> <a class=\"navbar-item\"> Documentation </a> <span class=\"navbar-item\"> <a class=\"button is-info is-inverted\"> <span class=\"icon\"> <i class=\"fab fa-github\"></i> </span> <span>Download</span> </a> </span> </div> </div> </div> </nav> </div> <div class=\"hero-body\"> <div class=\"container has-text-centered\"> <p class=\"title\">Title</p> <p class=\"subtitle\">Subtitle</p> </div> </div> <div class=\"hero-foot\"> <nav class=\"tabs is-boxed is-fullwidth\"> <div class=\"container\"> <ul> <li class=\"is-active\"> <a>Overview</a> </li> <li> <a>Modifiers</a> </li> <li> <a>Grid</a> </li> <li> <a>Elements</a> </li> <li> <a>Components</a> </li> <li> <a>Layout</a> </li> </ul> </div> </nav> </div> </section>"
@@ -261,18 +286,27 @@ text Example
 row
   image https://bulma.io/assets/images/bulma-type-white.png "Logo"
   row
+    text Home
+    text Examples
+    text Documentation
     row
       text Download success
 text Title
 text Subtitle
 row
+  text Overview success
+  text Modifiers
+  text Grid
+  text Elements
+  text Components
+  text Layout
 text HTML
 button "Show code" danger
 text "<section class=\"hero is-success is-fullheight\"> <!-- Hero head: will stick at the top --> <div class=\"hero-head\"> <header class=\"navbar\"> <div class=\"container\"> <div class=\"navbar-brand\"> <a class=\"navbar-item\"> <img src=\"https://bulma.io/assets/images/bulma-type-white.png\" alt=\"Logo\" /> </a> <span class=\"navbar-burger\" data-target=\"navbarMenuHeroC\"> <span></span> <span></span> <span></span> <span></span> </span> </div> <div id=\"navbarMenuHeroC\" class=\"navbar-menu\"> <div class=\"navbar-end\"> <a class=\"navbar-item is-active\"> Home </a> <a class=\"navbar-item\"> Examples </a> <a class=\"navbar-item\"> Documentation </a> <span class=\"navbar-item\"> <a class=\"button is-success is-inverted\"> <span class=\"icon\"> <i class=\"fab fa-github\"></i> </span> <span>Download</span> </a> </span> </div> </div> </div> </header> </div> <!-- Hero content: will be in the middle --> <div class=\"hero-body\"> <div class=\"container has-text-centered\"> <p class=\"title\">Title</p> <p class=\"subtitle\">Subtitle</p> </div> </div> <!-- Hero footer: will stick at the bottom --> <div class=\"hero-foot\"> <nav class=\"tabs is-boxed is-fullwidth\"> <div class=\"container\"> <ul> <li class=\"is-active\"><a>Overview</a></li> <li><a>Modifiers</a></li> <li><a>Grid</a></li> <li><a>Elements</a></li> <li><a>Components</a></li> <li><a>Layout</a></li> </ul> </div> </nav> </div> </section>"
 button Copy danger
 h3 "Sass and CSS variables #"
 card
-  table Sass:badge CSS:badge Value:badge
+  table "Sass Variable:badge" "CSS Variable:badge" Value:badge
     $hero-body-paddingCopy | var(--bulma-hero-body-padding)Copy | 3rem 1.5remCopy
     $hero-body-padding-tabletCopy | var(--bulma-hero-body-padding-tablet)Copy | 3rem 3remCopy
     $hero-body-padding-smallCopy | var(--bulma-hero-body-padding-small)Copy | 1.5remCopy
@@ -298,7 +332,7 @@ row
   col
     text Monthly donation
     link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
-link ".native-js { background: linear-gradient(-30deg, #FFFFFFE5, #FFFFFFE5 45%, #FFFFFF 45%) #fff; } .native-details { color: #181A1C !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #181A1C; background-color: #32E6E2; } .native-cta:hover { color: undefined; background-color: undefined; } Netlify One gateway for every AI model Explore AI Gateway" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV27UC674YKQUF67ITKQLCTYD5Z3JCAAI627ICTSIT2QKCK7IT2JEFT7IK5QLCTYIKKJWFTAICKJKC6SILKJWCYADEK3EHJNCLSIZ
+link ".native-js { background: linear-gradient(-30deg, #10e56bE5, #10e56bE5 45%, #10e56b 45%) #fff; } .native-details { color: #000000 !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #10e56b; background-color: #000000; } .native-cta:hover { color: undefined; background-color: undefined; } Mozilla Festival Gather. Share. Connect. Imagine with developers and creatives in Barcelona, Oct. 28-30. Get your tickets" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQWCV7DVZ3JCAAI653NF6YD55QKC67ILKQICKYIK53LC6SITKJWFTYDKK37HEYI55QLCESI623ECTNCYBZ52K
 row
   col
     h3 Bulma by Jeremy Thomas.
@@ -310,6 +344,7 @@ row
     row
       link Twitter https://twitter.com/share
       link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+text Source code licensed . Website content licensed
 row
   link MIT https://opensource.org/licenses/mit-license.php
   link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/

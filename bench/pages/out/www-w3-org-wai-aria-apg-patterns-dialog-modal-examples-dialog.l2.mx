@@ -1,0 +1,161 @@
+@www_w3_org_wai_aria_apg_patterns_dialog_ rev=0 @0,0,728,5735
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+row @17,102,694,4981
+  col @17,2233,6,719
+    h2 Page Contents @17,2233,6,42
+    link "Read This First" #support-notice-header @17,2287,6,61
+    link "About This Example" #aboutthisexample @17,2360,6,61
+    link Example #ex_label @17,2433,6,21
+    link "Accessibility Features" #accessibilityfeatures @17,2466,6,40
+    link "Keyboard Support" #kbd_label @17,2518,6,41
+    link "Role, Property, State, and Tabindex Attributes" #rps_label @17,2571,6,122
+    link "Assistive Technology Support" #assistivetechnologysupport @17,2705,6,60
+    link "JavaScript and CSS Source Code" #javascriptandcsssourcecode @17,2777,6,102
+    link "HTML Source Code" #sc1_label @17,2891,6,61
+  col @35,102,676,4981
+    h1 Modal Dialog Example @35,102,676,25
+    h2 Read This First @35,139,676,21
+    card @35,172,676,71
+      text The code in this example is not intended for production environments. Before using it for any purpose, read this to understand why. warning @52,187,642,41
+    h2 About This Example @35,255,676,21
+    text Following is an example implementation of the . The below button opens a modal dialog that contains two buttons that open other dialogs. The accessibility features section explains the rationale for initial focus placement and use of in each dialog. @35,288,676,61
+    link "Dialog (Modal) Pattern" ../../ @35,361,676,20
+    text Add Delivery Address @35,393,676,21
+    text aria-describedby primary @35,426,676,20
+    text Similar examples include: @35,458,676,20
+    text : A confirmation prompt that demonstrates an alert dialog. @35,490,676,20
+    link "Alert Dialog Example" ../../../alertdialog/examples/alertdialog/ @35,522,676,21
+    text : Demonstrates a dialog containing a calendar grid for choosing a date. @35,555,676,20
+    link "Date Picker Dialog example" ../datepicker-dialog/ @35,587,676,20
+    h2 Example @35,619,676,22
+    button "Open In CodePen" primary @35,653,676,36
+    text Start of @35,701,676,20
+    button "Add Delivery Address" primary @35,733,676,36
+    text Add Delivery Address Street: City: State: Zip: Special instructions: For example, gate code or other information to help the driver find you Verify Address Add Cancel Verification Result This is just a demonstration. If it were a real application, it would provide a message telling whether the entered address is valid. For demonstration purposes, this dialog has a lot of text. It demonstrates a scenario where: The first interactive element, the help link, is at the bottom of the dialog. If focus is placed on the first interactive element when the dialog opens, the validation message may not be visible. If the validation message is visible and the focus is on the help link, then the focus may not be visible. When the dialog opens, it is important that both: The beginning of the text is visible so users do not have to scroll back to start reading. The keyboard focus always remains visible. There are several ways to resolve this issue: Place an interactive element at the top of the dialog, e.g., a button or link. Make a static element focusable, e.g., the dialog title or the first block of text. Please DO NOT make the element with role dialog focusable! The larger a focusable element is, the more difficult it is to visually identify the location of focus, especially for users with a narrow field of view. The dialog has a visual border, so creating a clear visual indicator of focus when the entire dialog has focus is not very feasible. Screen readers read the label and content of focusable elements. The dialog contains its label and a lot of content! If a dialog like this one has focus, the actual focus is difficult to comprehend. In this dialog, the first paragraph has The first paragraph is also contained inside the element that provides the dialog description, i.e., the element that is referenced by aria-describedby. With some screen readers, this may have one negative but relatively insignificant side effect when the dialog opens -- the first paragraph may be announced twice. Nonetheless, making the first paragraph focusable and setting the initial focus on it is the most broadly accessible option. link to help accepting an alternative form Close Address Added The address you provided has been added to your list of delivery addresses. It is ready for immediate use. If you wish to remove it, you can do so from your profile. OK End of the Road! You activated a fake link or button that goes nowhere! The link or button is present for demonstration purposes only. Close @35,781,676,508
+    text End of @35,1301,676,20
+    h2 Accessibility Features @35,1333,676,21
+    text To make the content easier to read when displayed on small screens, the dialog fills 100% of the screen. Completely covering the background window also hides background movement that occurs on some mobile devices when scrolling content inside the dialog. @35,1366,676,61
+    text Focus and accessible descriptions are set based on the content of each dialog. @35,1439,676,21
+    text dialog @35,1472,676,20
+    text Add Delivery Address @35,1504,676,20
+    text Initial focus is set on the first input, which is the first focusable element. @35,1536,676,21
+    text The dialog does not need aria-describedby since there is no static text that describes it. @35,1569,676,20
+    text When the dialog closes as a result of the action, the user's point of regard is maintained by returning focus to the button. @35,1601,676,41
+    text Cancel @35,1654,676,20
+    text Add Delivery Address @35,1686,676,20
+    text When the dialog closes as a result of the action and the dialog replaces the dialog, the dialog passes a reference to the button to the dialog so that it can maintain the user's point of regard when it closes. @35,1718,676,41
+    text Add @35,1771,676,20
+    text Address Added @35,1803,676,20
+    text Add Delivery Address @35,1835,676,21
+    text Add Delivery Address @35,1868,676,20
+    text Add Delivery Address @35,1900,676,20
+    text Address Added @35,1932,676,21
+    text dialog @35,1965,676,20
+    text Verification Result @35,1997,676,20
+    text Initial focus is set on the first paragraph because the first interactive element is at the bottom, which is out of view due to the length of the text. @35,2029,676,41
+    text To support screen reader user awareness of the dialog text, the dialog text is wrapped in a div that is referenced by aria-describedby. @35,2082,676,40
+    text When the dialog closes, to maintain the user's point of regard, focus returns to the button. @35,2134,676,21
+    text Verify Address @35,2167,676,20
+    text The text of this dialog describes design considerations for initial focus and accessible descriptions in dialogs with large amounts of text. @35,2199,676,41
+    text dialog @35,2252,676,20
+    text Address Added @35,2284,676,20
+    text Initial focus is set on the button, which is the last focusable element. This is for efficiency since most users will simply dismiss the dialog as soon as they have read the message. Users can press to focus on the link. @35,2316,676,61
+    text OK @35,2389,676,20
+    text Tab @35,2421,676,21
+    text My Profile @35,2454,676,20
+    text The element containing the dialog message is referenced by aria-describedby to hint to screen readers that it should be announced when the dialog opens. @35,2486,676,41
+    text When the dialog closes, the user's point of regard is maintained by setting focus on the button. @35,2539,676,20
+    text Add Delivery Address @35,2571,676,20
+    text dialog @35,2603,676,20
+    text End of the Road! @35,2635,676,21
+    text This dialog has only one focusable element, which receives focus when the dialog opens. @35,2668,676,20
+    text Like dialog3, aria-describedby is used to facilitate message announcement for screen reader users. @35,2700,676,20
+    text Like all other dialogs in this example except for the confirmation dialog, when it closes, the user's point of regard is maintained by returning focus to the element that triggered display of the dialog. @35,2732,676,41
+    text Address Added @35,2785,676,20
+    h2 Keyboard Support @35,2817,676,21
+    table Key Function @35,2850,676,136
+      Tab | Moves focus to next focusable element inside the dialog. When focus is on the last focusable element in the dialog, moves focus to the first focusable element in the dialog.
+      Shift + Tab | Moves focus to previous focusable element inside the dialog. When focus is on the first focusable element in the dialog, moves focus to the last focusable element in the dialog.
+      Escape | Closes the dialog.
+    h2 Role, Property, State, and Tabindex Attributes @35,2998,676,21
+    table Role Attribute Element Usage @35,3031,676,171
+      dialog |  | div | Identifies the element that serves as the dialog container.
+       | aria-labelledby=IDREF | div | Gives the dialog an accessible name by referring to the element that provides the dialog title.
+       | aria-describedby=IDREF | div | Gives the dialog an accessible description by referring to the dialog content that describes the primary message or purpose of the dialog. Used in three of the four dialogs included in the example. See the above accessibility features section for an explanation.
+       | aria-modal=true | div | Tells assistive technologies that the windows underneath the current dialog are not available for interaction (inert).
+    h3 Notes on aria-modal and aria-hidden @35,3214,676,18
+    text The aria-modal property was introduced in ARIA 1.1. As a new property, screen reader users may experience varying degrees of support for it. @35,3244,676,41
+    text Applying the aria-modal property to the dialog element replaces the technique of using aria-hidden on the background for informing assistive technologies that content outside a dialog is inert. @35,3297,676,41
+    text In legacy dialog implementations where is used to make content outside a dialog inert for assistive technology users, it is important that: @35,3350,676,40
+    text aria-hidden primary @35,3402,676,20
+    text aria-hidden is set to true on each element containing a portion of the inert layer. @35,3434,676,21
+    text The dialog element is not a descendant of any element that has aria-hidden set to true. @35,3467,676,20
+    h2 Assistive Technology Support @35,3499,676,21
+    link "Learn how to interpret and use assistive technology support data" ../../../../about/at-support-tables/ @35,3532,676,21
+    h2 JavaScript and CSS Source Code @35,3565,676,21
+    text CSS: @35,3598,676,20
+    link dialog.css ../../../../../../content-assets/wai-aria-practices/patterns/dialog-modal/examples/css/dialog.css @35,3630,676,20
+    text JavaScript: , @35,3662,676,21
+    row @35,3695,676,20
+      link dialog.js ../../../../../../content-assets/wai-aria-practices/patterns/dialog-modal/examples/js/dialog.js @35,3695,56,20
+      link utils.js ../../../../../../content-assets/wai-aria-practices/shared/js/utils.js @103,3695,42,20
+    h2 HTML Source Code @35,3727,676,21
+    text To copy the following HTML code, please open it in CodePen. @35,3760,676,21
+    button "Open In CodePen" primary @35,3793,676,36
+    text Start of @35,3841,676,20
+    text <button type="button" onclick="openDialog('dialog1', this)"> Add Delivery Address </button> <div id="dialog_layer" class="dialogs"> <div role="dialog" id="dialog1" aria-labelledby="dialog1_label" aria-modal="true" class="hidden"> <h1 id="dialog1_label" class="dialog_label"> Add Delivery Address </h1> <div class="dialog_form"> <div class="dialog_form_item"> <label> <span class="label_text"> Street: </span> <input type="text" class="wide_input"> </label> </div> <div class="dialog_form_item"> <label> <span class="label_text"> City: </span> <input type="text" class="city_input"> </label> </div> <div class="dialog_form_item"> <label> <span class="label_text"> State: </span> <input type="text" class="state_input"> </label> </div> <div class="dialog_form_item"> <label> <span class="label_text"> Zip: </span> <input type="text" class="zip_input"> </label> </div> <div class="dialog_form_item"> <label for="special_instructions"> <span class="label_text"> Special instructions: </span> </label> <input id="special_instructions" type="text" aria-describedby="special_instructions_desc" class="wide_input"> <div class="label_info" id="special_instructions_desc"> For example, gate code or other information to help the driver find you </div> </div> </div> <div class="dialog_form_actions"> <button type="button" onclick="openDialog('dialog2', this, 'dialog2_para1')"> Verify Address </button> <button type="button" onclick="replaceDialog('dialog3', undefined, 'dialog3_close_btn')"> Add </button> <button type="button" onclick="closeDialog(this)"> Cancel </button> </div> </div> <div id="dialog2" role="dialog" aria-labelledby="dialog2_label" aria-describedby="dialog2_desc" aria-modal="true" class="hidden"> <h1 id="dialog2_label" class="dialog_label"> Verification Result </h1> <div id="dialog2_desc" class="dialog_desc"> <p tabindex="-1" id="dialog2_para1"> This is just a demonstration. If it were a real application, it would provide a message telling whether the entered address is valid. </p> <p> For demonstration purposes, this dialog has a lot of text. It demonstrates a scenario where: </p> <ul> <li> The first interactive element, the help link, is at the bottom of the dialog. </li> <li> If focus is placed on the first interactive element when the dialog opens, the validation message may not be visible. </li> <li> If the validation message is visible and the focus is on the help link, then the focus may not be visible. </li> <li> When the dialog opens, it is important that both: <ul> <li> The beginning of the text is visible so users do not have to scroll back to start reading. </li> <li> The keyboard focus always remains visible. </li> </ul> </li> </ul> <p> There are several ways to resolve this issue: </p> <ul> <li> Place an interactive element at the top of the dialog, e.g., a button or link. </li> <li> Make a static element focusable, e.g., the dialog title or the first block of text. </li> </ul> <p> Please <em> DO NOT </em> make the element with role dialog focusable! </p> <ul> <li> The larger a focusable element is, the more difficult it is to visually identify the location of focus, especially for users with a narrow field of view. </li> <li> The dialog has a visual border, so creating a clear visual indicator of focus when the entire dialog has focus is not very feasible. </li> <li> Screen readers read the label and content of focusable elements. The dialog contains its label and a lot of content! If a dialog like this one has focus, the actual focus is difficult to comprehend. </li> </ul> <p> In this dialog, the first paragraph has <code> tabindex= <q> -1 </q> </code> . The first paragraph is also contained inside the element that provides the dialog description, i.e., the element that is referenced by <code> aria-describedby </code> . With some screen readers, this may have one negative but relatively insignificant side effect when the dialog opens -- the first paragraph may be announced twice. Nonetheless, making the first paragraph focusable and setting the initial focus on it is the most broadly accessible option. </p> </div> <div class="dialog_form_actions"> <a href="#" onclick="openDialog('dialog4', this)"> link to help </a> <button type="button" onclick="openDialog('dialog4', this)"> accepting an alternative form </button> <button type="button" onclick="closeDialog(this)"> Close </button> </div> </div> <div id="dialog3" role="dialog" aria-labelledby="dialog3_label" aria-describedby="dialog3_desc" aria-modal="true" class="hidden"> <h1 id="dialog3_label" class="dialog_label"> Address Added </h1> <p id="dialog3_desc" class="dialog_desc"> The address you provided has been added to your list of delivery addresses. It is ready for immediate use. If you wish to remove it, you can do so from <a href="#" onclick="openDialog('dialog4', this)"> your profile. </a> </p> <div class="dialog_form_actions"> <button type="button" id="dialog3_close_btn" onclick="closeDialog(this)"> OK </button> </div> </div> <div id="dialog4" role="dialog" aria-labelledby="dialog4_label" aria-describedby="dialog4_desc" class="hidden" aria-modal="true"> <h1 id="dialog4_label" class="dialog_label"> End of the Road! </h1> <p id="dialog4_desc" class="dialog_desc"> You activated a fake link or button that goes nowhere! The link or button is present for demonstration purposes only. </p> <div class="dialog_form_actions"> <button type="button" id="dialog4_close_btn" onclick="closeDialog(this)"> Close </button> </div> </div> </div> @35,3873,676,1178
+    text End of @35,5063,676,20
+row @17,5095,694,21
+  h2 Help improve this page @17,5095,192,21
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,5128,694,20
+link public-aria-practices@w3.org @17,5160,694,21
+row @17,5193,694,20
+  link E-mail @17,5193,42,20
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/dialog-modal/examples/dialog.html @71,5193,142,20
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/dialog/ @225,5193,119,20
+link "Back to Top" #top @17,5225,694,20
+link "View issues related to this example" https://github.com/orgs/w3c/projects/126 @17,5257,694,21
+text Page last updated: 4 March 2026 @17,5290,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,5322,694,20
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,5354,694,21
+row @17,5387,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,5387,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,5387,57,20
+  link Mastodon https://w3c.social/@wai @218,5387,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,5387,61,20
+row @17,5419,694,40
+  link Home /WAI/ @17,5429,37,20
+  link Contact /WAI/about/contacting/ @66,5429,48,20
+  link "Site map" /WAI/sitemap/ @126,5419,54,40
+  link "Support WAI" /WAI/about/support/ @192,5419,78,40
+  link News /WAI/news/ @282,5429,36,20
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,5419,142,40
+  link "All Translations" /WAI/translations/ @484,5419,94,40
+  link "Resources for roles" /WAI/roles/ @590,5419,121,40
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,5471,694,21
+link "World Wide Web Consortium" https://www.w3.org/ @17,5504,694,20
+text W3C @17,5536,694,20
+text ® @17,5568,694,21
+link liability https://www.w3.org/policies/#disclaimers @17,5601,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,5633,694,20
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,5665,694,21
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,5698,694,20
+!overflow table.Tab.Function 338/1155px
+!overflow table.Shift + Tab.Function 338/1184px
+!overflow table2.dialog.Usage 169/395px
+!overflow table2..Usage 169/630px
+!overflow table2..Attribute 169/179px
+!overflow table2..Usage 169/1730px
+!overflow table2..Usage 169/773px

@@ -151,15 +151,19 @@ h3 Alerts and Callouts
 row
   col
     h3 Alerts
+    text Danger alert preview. This alert is dismissable. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
     card
       button ×
       h3 Alert!
+    text Info alert preview. This alert is dismissable.
     card
       button ×
       h3 Alert!
+    text Warning alert preview. This alert is dismissable.
     card
       button ×
       h3 Alert!
+    text Success alert preview. This alert is dismissable.
     card
       button ×
       h3 Alert!
@@ -271,10 +275,12 @@ row
   col
     h3 Primary Block Quotes
     text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+    text Someone famous in
     text Source Title
   col
     h3 Secondary Block Quotes
     text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+    text Someone famous in
     text Source Title
 row
   col
@@ -283,6 +289,7 @@ row
     text Consectetur adipiscing elit
     text Integer molestie lorem at massa
     text Facilisis in pretium nisl aliquet
+    text Nulla volutpat aliquam velit
     text Phasellus iaculis neque
     text Purus sodales ultricies
     text Vestibulum laoreet porttitor sem
@@ -296,6 +303,7 @@ row
     text Consectetur adipiscing elit
     text Integer molestie lorem at massa
     text Facilisis in pretium nisl aliquet
+    text Nulla volutpat aliquam velit
     text Phasellus iaculis neque
     text Purus sodales ultricies
     text Vestibulum laoreet porttitor sem
@@ -309,6 +317,7 @@ row
     text Consectetur adipiscing elit
     text Integer molestie lorem at massa
     text Facilisis in pretium nisl aliquet
+    text Nulla volutpat aliquam velit
     text Phasellus iaculis neque
     text Purus sodales ultricies
     text Vestibulum laoreet porttitor sem
@@ -354,5 +363,7 @@ row
   link "Nov 2021" #
   link "Dec 2021" #
   link » #
+text All rights reserved.
 text Version 3.2.0
+text Copyright © 2014-2021 .
 link AdminLTE.io https://adminlte.io

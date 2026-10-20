@@ -1,0 +1,31 @@
+@doc_rust_lang_org_settings_html
+row
+  link "Skip to main content" #main-content
+  col
+    row
+      link ./index.html ./index.html
+      h2 Rustdoc1.99.1
+    text (58cf8f9c3 2026-10-13)
+    h2 Settings
+  col
+    row
+      h1 Rustdoc settings
+      link Back javascript:void(0)
+    text Theme
+    row
+    text Preferred light theme
+    row
+    text Preferred dark theme
+    row
+    check "Auto-hide item contents for large items" on
+    check "Auto-hide item methods' documentation" off
+    check "Auto-hide trait implementation documentation" off
+    check "Directly go to item in search if there is only one result" off
+    check "Show line numbers on code examples" off
+    check "Hide persistent navigation bar" off
+    check "Hide table of contents" off
+    check "Hide module navigation" off
+    check "Disable keyboard shortcuts" off
+    check "Use sans serif fonts" off
+    check "Word wrap source code" off
+    check "Hide deprecated items" off

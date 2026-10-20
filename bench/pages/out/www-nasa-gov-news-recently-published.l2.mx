@@ -1,0 +1,271 @@
+@www_nasa_gov_news_recently_published rev=0 @0,0,728,6082
+row @17,17,694,58
+  row @17,17,193,58
+    button Explore @17,28,82,36
+    row @111,17,99,58
+      text Search @111,36,47,20
+      field Search search @170,17,40,58
+  link https://www.nasa.gov/ https://www.nasa.gov/ @222,36,152,20
+  row @386,28,310,36
+    button "News & Events" @386,28,131,36
+    button Multimedia @529,28,106,36
+    link NASA+ https://plus.nasa.gov/ @647,36,49,20
+row @17,87,694,40
+  link "News Releases" https://www.nasa.gov/2026-news-releases/ @17,87,94,40
+  link "Recently Published" https://www.nasa.gov/news/recently-published/ @123,87,118,40
+  link Blogs https://www.nasa.gov/nasa-blogs/ @253,97,34,20
+  link Newsletters https://www.nasa.gov/newsletters/ @299,97,74,20
+  button "Social Media" @385,89,110,36
+  link "Budgets and Reports" https://www.nasa.gov/budgets-plans-and-reports/ @507,87,129,40
+  button More @648,89,63,36
+h2 Recently Published @17,139,694,22
+text Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. @17,173,694,40
+row @17,225,694,178
+  link https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/ https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/ @17,304,183,20
+  col @212,225,499,178
+    link "APOD: 2026 October 20 – An Anticrepuscular Rainbow Fan" https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/ @212,225,499,20
+    text 1 min read @212,257,499,21
+    text APOD Science APOD APOD: 2026 October 20 – An… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating… @212,290,499,81
+    text Image Article @212,383,499,20
+row @17,415,694,190
+  link https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/ https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/ @17,500,272,20
+  col @301,415,410,190
+    link "The Human Fingerprint on Earth’s Water Cycle" https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/ @301,415,410,21
+    text 6 min read @301,448,410,20
+    text Human activities have become intertwined with how water is distributed across the continents. A new study brings their effects into sharper focus. @301,480,410,61
+    text October 20, 2026 @301,553,410,20
+    text Article @301,585,410,20
+row @17,617,694,211
+  link https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/ https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/ @17,712,193,21
+  col @222,617,489,211
+    link "Curiosity Blog, Sols 5036-5042: Watching the Clouds Go By" https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/ @222,617,489,21
+    text 3 min read @222,650,489,20
+    text Written by Alex Innanen, Atmospheric Scientist at York University Earth planning date: Friday, Oct. 9, 2026 Happy New Mars Year! We mark the start of a new year on Mars at the beginning of the northern hemisphere spring, or the… @222,682,489,81
+    text October 19, 2026 @222,775,489,20
+    text Article @222,807,489,21
+row @17,840,694,210
+  link https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/ https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/ @17,935,181,20
+  col @210,840,501,210
+    link "NASA Improves Shock, Vibration Analysis" https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/ @210,840,501,20
+    text 4 min read @210,872,501,20
+    text Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces. Before any rocket leaves the ground, NASA engineers work to predict how those stresses will affect every part… @210,904,501,82
+    text October 19, 2026 @210,998,501,20
+    text Article @210,1030,501,20
+row @17,1062,694,211
+  link https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/ https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/ @17,1157,143,21
+  col @172,1062,539,211
+    link Software https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/ @172,1062,539,20
+    text 5 min read @172,1094,539,21
+    text Research teams at NASA’s Glenn Research Center are involved in developing theory and software to predict the noise from aircraft engines. This software helps engineers to design and analyze new and improved aircraft propulsion systems. Copies of our software can… @172,1127,539,81
+    text October 19, 2026 @172,1220,539,20
+    text Article @172,1252,539,21
+row @17,1285,694,210
+  link https://www.nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities/ https://www.nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities/ @17,1380,160,20
+  col @189,1285,522,210
+    link "Experimental Facilities" https://www.nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities/ @189,1285,522,20
+    text 8 min read @189,1317,522,20
+    text Research teams at the NASA Glenn Research Center perform experiments in world-class facilities such as the 9- by 15-Foot Low-Speed Wind Tunnel (9 x15 LSWT), the Aero-Acoustic Propulsion Laboratory (AAPL), the Small Hot Jet Acoustic Rig (SHJAR), the Nozzle Acoustic… @189,1349,522,81
+    text October 19, 2026 @189,1442,522,21
+    text Article @189,1475,522,20
+row @17,1507,694,190
+  link https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/ https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/ @17,1592,246,20
+  col @275,1507,436,190
+    link "NASA’s Simulated Mars Crew Marks One Year Inside Habitat" https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/ @275,1507,436,20
+    text 3 min read @275,1539,436,21
+    text The four crew members in NASA’s simulated Mars mission have spent the past year living and working in isolation in a confined habitat at NASA’s Johnson Space Center in Houston. @275,1572,436,60
+    text October 19, 2026 @275,1644,436,21
+    text Article @275,1677,436,20
+row @17,1709,694,231
+  link https://www.nasa.gov/centers-and-facilities/glenn/acoustics-instrumentation/ https://www.nasa.gov/centers-and-facilities/glenn/acoustics-instrumentation/ @17,1814,139,21
+  col @168,1709,543,231
+    link Instrumentation https://www.nasa.gov/centers-and-facilities/glenn/acoustics-instrumentation/ @168,1709,543,20
+    text 3 min read @168,1741,543,21
+    text To measure airflow and sound, research teams at the NASA Glenn Research Center use special instrumentation like particle image velocimetry, hot wire anemometry, Raman spectroscopy, microphones in phased arrays or continuously rotating rakes. The global aviation noise reduction community relies… @168,1774,543,101
+    text October 19, 2026 @168,1887,543,20
+    text Article @168,1919,543,21
+row @17,1952,694,178
+  link https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/ https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/ @17,2031,213,20
+  col @242,1952,469,178
+    link "Spacewalk Preps and Advanced Biomedical Research Begin Week" https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/ @242,1952,469,20
+    text 3 min read @242,1984,469,20
+    text Spacewalk preparations kicked off the week aboard the International Space Station as two astronauts get ready to install a roll-out solar array at the end of October. Biomedical research, including portable biological sampling in microgravity and 3D cell printing, topped… @242,2016,469,82
+    text Blog @242,2110,469,20
+row @17,2142,694,158
+  link https://www.nasa.gov/image-article/martian-dawn/ https://www.nasa.gov/image-article/martian-dawn/ @17,2211,130,20
+  col @159,2142,552,158
+    link "Martian Dawn" https://www.nasa.gov/image-article/martian-dawn/ @159,2142,552,20
+    text 1 min read @159,2174,552,20
+    text NASA’s Curiosity captures the dawn on Mars – as well as elongated ridges formed by wind erosion, or yardangs – in this close-up from a panorama released on Oct. 6, 2026. This is the most detailed view yet of distant,… @159,2206,552,61
+    text Image Article @159,2279,552,21
+row @17,2312,694,178
+  link https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/ https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/ @17,2391,195,20
+  col @224,2312,487,178
+    link "APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source" https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source/ @224,2312,487,20
+    text 1 min read @224,2344,487,20
+    text APOD Science APOD APOD: 2026 October 19 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe… @224,2376,487,81
+    text Image Article @224,2469,487,21
+row @17,2502,694,190
+  link https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/ https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/ @17,2587,277,20
+  col @306,2502,405,190
+    link "Autumn Paints Poland’s Bieszczady Mountains" https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/ @306,2502,405,20
+    text 3 min read @306,2534,405,20
+    text Fall color covers the forested slopes of Bieszczady National Park, while patches of polonina, a type of high-mountain meadow, have turned tan. @306,2566,405,61
+    text October 19, 2026 @306,2639,405,21
+    text Article @306,2672,405,20
+row @17,2704,694,178
+  link https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/ https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/ @17,2783,175,20
+  col @204,2704,507,178
+    link "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars" https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/ @204,2704,507,20
+    text 1 min read @204,2736,507,20
+    text APOD Science APOD APOD: 2026 October 18 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe… @204,2768,507,82
+    text Image Article @204,2862,507,20
+row @17,2894,694,178
+  link https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/ https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/ @17,2973,143,20
+  col @172,2894,539,178
+    link "APOD: 2026 October 17 – 3D 67P" https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/ @172,2894,539,20
+    text 1 min read @172,2926,539,21
+    text APOD Science APOD APOD: 2026 October 17… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is… @172,2959,539,81
+    text Image Article @172,3052,539,20
+row @17,3084,694,178
+  link https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/ https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/ @17,3163,188,20
+  col @217,3084,494,178
+    link "NASA Names Stephen Cash Marshall Space Flight Center Director" https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/ @217,3084,494,20
+    text 4 min read @217,3116,494,21
+    text NASA Administrator Jared Isaacman has named Stephen Cash director of the agency’s Marshall Space Flight Center in Huntsville, Alabama, effective Monday, Oct. 19. Cash, a veteran NASA engineer and aerospace executive, returns to lead the center where he began his… @217,3149,494,81
+    text News Release @217,3242,494,20
+row @17,3274,694,199
+  link https://www.nasa.gov/blogs/spacestation/2026/10/16/crew-unpacks-dragon-and-begins-activating-new-science-experiments/ https://www.nasa.gov/blogs/spacestation/2026/10/16/crew-unpacks-dragon-and-begins-activating-new-science-experiments/ @17,3363,221,21
+  col @250,3274,461,199
+    link "Crew Unpacks Dragon and Begins Activating New Science Experiments" https://www.nasa.gov/blogs/spacestation/2026/10/16/crew-unpacks-dragon-and-begins-activating-new-science-experiments/ @250,3274,461,41
+    text 3 min read @250,3327,461,20
+    text Five spacecraft are docked at the International Space Station following the arrival of a cargo-packed SpaceX Dragon on Thursday. The Expedition 75 crew members have begun unloading Dragon and are activating new science experiments to benefit life on and off… @250,3359,461,81
+    text Blog @250,3452,461,21
+row @17,3485,694,178
+  link https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/ https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/ @17,3563,185,21
+  col @214,3485,497,178
+    link "Diving into Maintenance with NASA’s X-59" https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/ @214,3485,497,20
+    text 4 min read @214,3517,497,20
+    text In the California desert, as NASA’s quiet supersonic X-59 paused between its 11th and 12th flights, mechanic Jonathan Reynaga climbed a ladder to the top of the aircraft. Reynaga strode down the plane’s wing until he reached the distinctive air… @214,3549,497,81
+    text Blog @214,3642,497,21
+row @17,3675,694,178
+  link https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/ https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/ @17,3754,151,20
+  col @180,3675,531,178
+    link "Artemis II Heat Shield After Splashdown" https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/ @180,3675,531,20
+    text 1 min read @180,3707,531,20
+    text Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield. In the months after, the agency measured whether the thermal protection system effectively safeguarded the crew… @180,3739,531,81
+    text Image Article @180,3832,531,21
+row @17,3865,694,210
+  link https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/ https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/ @17,3960,137,20
+  col @166,3865,545,210
+    link "I Am Artemis: Allison Mjoen" https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/ @166,3865,545,20
+    text 3 min read @166,3897,545,20
+    text As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agency’s Exploration Ground Systems Program,… @166,3929,545,82
+    text October 16, 2026 @166,4023,545,20
+    text Article @166,4055,545,20
+row @17,4087,694,126
+  link https://www.nasa.gov/podcasts/houston-we-have-a-podcast/reflections-after-artemis-ii/ https://www.nasa.gov/podcasts/houston-we-have-a-podcast/reflections-after-artemis-ii/ @17,4140,216,20
+  col @245,4087,466,126
+    link "Reflections After Artemis II" https://www.nasa.gov/podcasts/houston-we-have-a-podcast/reflections-after-artemis-ii/ @245,4087,466,20
+    text 61 min read @245,4119,466,21
+    text Artemis II astronauts Victor Glover and Jeremy Hansen reflect on memorable mission moments, new perspectives, and what comes next after their historic journey around the Moon. Episode 441. @245,4152,466,61
+row @17,4225,694,190
+  link https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/ https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/ @17,4310,199,20
+  col @228,4225,483,190
+    link "NASA’s Hubble Spies Spiral’s Edge" https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/ @228,4225,483,20
+    text 2 min read @228,4257,483,20
+    text This NASA Hubble Space Telescope image features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove. @228,4289,483,61
+    text October 16, 2026 @228,4362,483,20
+    text Article @228,4394,483,21
+row @17,4427,694,178
+  link https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/ https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/ @17,4506,190,20
+  col @219,4427,492,178
+    link "APOD: 2026 October 16 – Chasing the International Space Station" https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/ @219,4427,492,20
+    text 1 min read @219,4459,492,20
+    text APOD Science APOD APOD: 2026 October 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe… @219,4491,492,82
+    text Image Article @219,4585,492,20
+row @17,4617,694,190
+  link https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/ https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/ @17,4702,228,20
+  col @257,4617,454,190
+    link "Isaias Dims the Gulf Coast" https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/ @257,4617,454,20
+    text 4 min read @257,4649,454,20
+    text High-definition images of nighttime lights show where the hurricane knocked out power along the Florida Panhandle and how quickly the lights came back. @257,4681,454,61
+    text October 16, 2026 @257,4754,454,21
+    text Article @257,4787,454,20
+row @17,4819,694,251
+  link https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/ https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/ @17,4934,239,21
+  col @268,4819,443,251
+    link "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission" https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/ @268,4819,443,41
+    text 4 min read @268,4872,443,20
+    text NASA is playing an important role in JAXA’s (Japan Aerospace Exploration Agency) MMX (Martian Moons eXploration) mission, to advance our understanding of Mars’ moons and build on the agency’s long history of exploring the Red Planet. The mission aims to… @268,4904,443,101
+    text October 15, 2026 @268,5017,443,21
+    text Article @268,5050,443,20
+row @17,5082,694,190
+  link https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/ https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/ @17,5167,175,20
+  col @204,5082,507,190
+    link "NASA Satellites Observe Historic 2026 El Niño" https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/ @204,5082,507,20
+    text 6 min read @204,5114,507,21
+    text A phenomenon rarer than a solar eclipse and more powerful than any single storm system is unfolding this fall, and NASA is tracking it closely. El Niño is a natural climate pattern that emerges roughly every two to seven years… @204,5147,507,60
+    text October 15, 2026 @204,5219,507,21
+    text Article @204,5252,507,20
+row @17,5284,694,20
+  text Current Page, Page 1 @17,5284,139,20
+  link "Goto Page 2" # @168,5284,82,20
+  link "Goto Page 3" # @262,5284,82,20
+  text … @356,5284,13,20
+  link "Goto Page 4059" # @381,5284,109,20
+  link "Goto Next Page" # @502,5284,105,20
+image https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg "NASA Logo" @17,5316,0,0
+row @17,5328,694,737
+  col @17,5569,176,255
+    h3 National Aeronautics and Space Administration @17,5569,176,56
+    text NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery. @17,5637,176,122
+    link "About NASA's Mission" https://www.nasa.gov/about/ @17,5771,176,21
+    link "Join Us" https://www.nasa.gov/get-involved/ @17,5804,176,20
+  col @205,5328,51,737
+    link Home https://www.nasa.gov/ @205,5328,51,21
+    link "News & Events" https://www.nasa.gov/news/ @205,5361,51,40
+    link Multimedia https://www.nasa.gov/multimedia/ @205,5413,51,21
+    link NASA+ https://plus.nasa.gov/ @205,5446,51,20
+    link Missions https://www.nasa.gov/nasa-missions/ @205,5478,51,20
+    link "Humans in Space" https://www.nasa.gov/humans-in-space/ @205,5510,51,61
+    link Earth https://science.nasa.gov/earth/ @205,5583,51,20
+    link "The Solar System" https://science.nasa.gov/solar-system/ @205,5615,51,61
+    link "The Universe" https://science.nasa.gov/universe/ @205,5688,51,41
+    link Science https://science.nasa.gov/ @205,5741,51,20
+    link Aeronautics https://www.nasa.gov/aeronautics/ @205,5773,51,20
+    link Technology https://www.nasa.gov/technology/ @205,5805,51,21
+    link "Learning Resources" https://www.nasa.gov/learning-resources/ @205,5838,51,40
+    link "About NASA" https://www.nasa.gov/about/ @205,5890,51,41
+    link "NASA en Español (opens in new tab)" https://www.nasa.gov/es/ @205,5943,51,122
+  col @268,5588,212,217
+    h3 Follow NASA @268,5588,212,19
+    row @268,5619,212,122
+      link "NASA on Facebook (opens in new tab)" https://www.facebook.com/NASA @268,5619,47,122
+      link "NASA on Instagram (opens in new tab)" https://www.instagram.com/nasa/ @327,5619,47,122
+      link "NASA on X (opens in new tab)" https://x.com/NASA @386,5619,36,122
+      link "NASA on YouTube (opens in new tab)" https://www.youtube.com/@NASA @434,5619,46,122
+    link "More NASA Social Accounts" https://www.nasa.gov/social-media/ @268,5753,212,20
+    link "NASA Newsletters" https://www.nasa.gov/nasa-newsletters/ @268,5785,212,20
+  col @492,5389,48,615
+    link Sitemap https://www.nasa.gov/sitemap/ @492,5389,48,20
+    link "For Media" https://www.nasa.gov/news/nasa-media-contacts/ @492,5421,48,41
+    link "Privacy Policy" https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/ @492,5474,48,40
+    link FOIA https://www.nasa.gov/foia/ @492,5526,48,21
+    link "No FEAR Act" https://www.nasa.gov/no-fear-act/ @492,5559,48,61
+    link "Office of the IG (opens in new tab)" http://oig.nasa.gov/ @492,5632,48,121
+    link "Budget & Annual Reports" https://www.nasa.gov/budgets-plans-and-reports/ @492,5765,48,82
+    link "Agency Financial Reports" https://www.nasa.gov/organizations/budget-annual-reports/agency-financial-reports/ @492,5859,48,60
+    link "Contact NASA" https://www.nasa.gov/contact-nasa/ @492,5931,48,41
+    link Accessibility https://www.nasa.gov/accessibility/ @492,5984,48,20
+  row @552,5666,159,61
+    row @552,5666,42,61
+      text Page Last Updated: @552,5666,18,61
+      text Jun 17, 2025 @582,5666,12,61
+    row @606,5676,38,41
+      text Page Editor: @606,5676,11,41
+      text Dacia Massengill @629,5676,15,41
+    row @656,5666,55,61
+      text Responsible NASA Official: @656,5666,27,61
+      text Abigail Bowman @695,5676,16,41
+!overflow social 108/115px
+!overflow more 61/64px

@@ -1,0 +1,249 @@
+@adminlte_io_themes_v3_index_html rev=0 @0,0,728,3613
+row @17,17,694,36
+  row @17,17,191,36
+    button button @17,17,75,36
+    link Home index3.html @104,25,40,20
+    link Contact # @156,25,52,20
+  row @220,17,296,36
+    button button @220,17,75,36
+    link 3 # @307,25,9,20
+    link 15 # @328,25,14,20
+    button button @354,17,75,36
+    button button @441,17,75,36
+link "AdminLTE 3" index3.html @17,65,694,21
+row @17,98,694,20
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image" @17,98,0,0
+  link "Alexander Pierce" # @29,98,113,20
+row @17,130,694,58
+  field Search search @17,130,40,58
+  button button primary @69,141,75,36
+link Dashboard # @17,200,694,20
+link "Dashboard v1" ./index.html @17,232,694,20
+link "Dashboard v2" ./index2.html @17,264,694,21
+link "Dashboard v3" ./index3.html @17,297,694,20
+link "Widgets New" pages/widgets.html @17,329,694,20
+link "Layout Options 6" # @17,361,694,20
+link Charts # @17,393,694,21
+link "UI Elements" # @17,426,694,20
+link Forms # @17,458,694,20
+link Tables # @17,490,694,21
+text EXAMPLES @17,523,694,20
+link "Calendar 2" pages/calendar.html @17,555,694,20
+link Gallery pages/gallery.html @17,587,694,20
+link "Kanban Board" pages/kanban.html @17,619,694,21
+link Mailbox # @17,652,694,20
+link Pages # @17,684,694,20
+link Extras # @17,716,694,21
+link Search # @17,749,694,20
+text MISCELLANEOUS @17,781,694,20
+link "Tabbed IFrame Plugin" iframe.html @17,813,694,21
+link Documentation https://adminlte.io/docs/3.1/ @17,846,694,20
+text MULTI LEVEL EXAMPLE @17,878,694,20
+link "Level 1" # @17,910,694,20
+link "Level 1" # @17,942,694,21
+link "Level 1" # @17,975,694,20
+text LABELS @17,1007,694,20
+link Important # @17,1039,694,21
+link Warning # @17,1072,694,20
+link Informational # @17,1104,694,20
+region 236x6 @17,1136,236,6 [1 shapes, 0 labelled]
+region 6x839 @17,1154,6,839 [1 shapes, 0 labelled]
+row @17,2005,694,25
+  h1 Dashboard @17,2005,107,25
+  row @136,2008,142,20
+    link Home # @136,2008,40,20
+    text Dashboard v1 @188,2008,90,20
+row @17,2042,694,84
+  col @17,2042,80,84
+    h3 150 @17,2042,80,19
+    text New Orders @17,2073,80,20
+    link "More info" # @17,2105,80,21
+  col @109,2042,84,84
+    h3 53% @109,2042,84,19
+    text Bounce Rate @109,2073,84,20
+    link "More info" # @109,2105,84,21
+  col @205,2042,122,84
+    h3 44 @205,2042,122,19
+    text User Registrations @205,2073,122,20
+    link "More info" # @205,2105,122,21
+  col @339,2042,101,84
+    h3 65 @339,2042,101,19
+    text Unique Visitors @339,2073,101,20
+    link "More info" # @339,2105,101,21
+row @17,2138,694,1393
+  col @17,2138,444,1393
+    row @17,2138,444,20
+      h3 Sales @17,2138,40,19
+      row @69,2138,83,20
+        link Area #revenue-chart @69,2138,31,20
+        link Donut #sales-chart @112,2138,40,20
+    region 537x300 @17,2170,444,248 [1 shapes, 1 labelled]
+      image adminlte_io_themes_v3_index_html-1.png @0,0 537x300 "Canvas" @17,2170,444,248
+    row @17,2430,444,37
+      h3 Direct Chat @17,2439,83,19
+      row @112,2430,287,37
+        text 3 @112,2438,9,21
+        button button @133,2430,75,37
+        button Contacts @220,2430,92,37
+        button button @324,2430,75,37
+    row @17,2479,444,335
+      col @17,2479,222,335
+        text Alexander Pierce 23 Jan 2:00 pm @17,2479,222,20
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "message user image" @17,2511,0,0
+        text Is this template really for free? That's unbelievable! @17,2523,222,40
+        text Sarah Bullock 23 Jan 2:05 pm @17,2575,222,21
+        image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "message user image" @17,2608,0,0
+        text You better believe it! @17,2620,222,20
+        text Alexander Pierce 23 Jan 5:37 pm @17,2652,222,20
+        image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "message user image" @17,2684,0,0
+        text Working with AdminLTE on a great new app! Wanna join? @17,2696,222,41
+        text Sarah Bullock 23 Jan 6:10 pm @17,2749,222,20
+        image https://adminlte.io/themes/v3/dist/img/user3-128x128.jpg "message user image" @17,2781,0,0
+        text I would love to. @17,2793,222,21
+      col @251,2494,210,304
+        link "Count Dracula 2/28/2015 How have you been? I was..." # @251,2494,210,41
+        link "Sarah Doe 2/23/2015 I will be waiting for..." # @251,2547,210,40
+        link "Nadia Jolie 2/20/2015 I'll call you back at..." # @251,2599,210,41
+        link "Nora S. Vans 2/10/2015 Where is your new..." # @251,2652,210,41
+        link "John K. 1/27/2015 Can I take a look at..." # @251,2705,210,40
+        link "Kenneth M. 1/4/2015 Never mind I found..." # @251,2757,210,41
+    row @17,2826,444,57
+      field "Type Message ..." @17,2826,98,57
+      button Send primary @127,2836,65,37
+    row @17,2895,444,21
+      h3 To Do List @17,2896,73,19
+      row @102,2895,90,21
+        link « # @102,2895,9,21
+        link 1 # @123,2895,6,21
+        link 2 # @141,2895,9,21
+        link 3 # @162,2895,9,21
+        link » # @183,2895,9,21
+    card @17,2928,444,82
+      text Design a nice theme @34,2943,410,20
+      text 2 mins @34,2975,410,20
+    card @17,3022,444,83
+      text Make the theme responsive @34,3037,410,20
+      text 4 hours @34,3069,410,21
+    card @17,3117,444,82
+      text Let theme shine like a star @34,3132,410,20
+      text 1 day @34,3164,410,20
+    card @17,3211,444,83
+      text Let theme shine like a star @34,3226,410,21
+      text 3 days @34,3259,410,20
+    card @17,3306,444,83
+      text Check your messages and notifications @34,3321,410,20
+      text 1 week @34,3353,410,21
+    card @17,3401,444,82
+      text Let theme shine like a star @34,3416,410,20
+      text 1 month @34,3448,410,20
+    button "Add item" primary @17,3495,444,36
+  col @473,2302,238,1065
+    card @473,2302,238,364
+      row @490,2317,204,37
+        h3 Visitors @490,2326,42,19
+        row @544,2317,150,37
+          button "Date range" primary @544,2317,74,37
+          button Collapse primary @630,2317,64,37
+      region 367.5x250 @490,2366,204,138 [51 shapes, 0 labelled]
+      text + @490,2516,204,21
+      text − @490,2549,204,20
+      row @490,2581,204,70
+        col @490,2581,60,70
+          region 80x50 @490,2581,60,37 [1 shapes, 1 labelled]
+            image adminlte_io_themes_v3_index_html-2.png @0,0 80x50 "Canvas" @490,2581,60,38
+          text Visitors @490,2630,60,21
+        col @562,2581,60,70
+          region 80x50 @562,2581,60,37 [1 shapes, 1 labelled]
+            image adminlte_io_themes_v3_index_html-3.png @0,0 80x50 "Canvas" @562,2581,60,38
+          text Online @562,2630,60,21
+        col @634,2581,60,70
+          region 80x50 @634,2581,60,37 [1 shapes, 1 labelled]
+            image adminlte_io_themes_v3_index_html-4.png @0,0 80x50 "Canvas" @634,2581,60,38
+          text Sales @634,2630,60,21
+    card @473,2678,238,322
+      row @490,2693,204,37
+        h3 Sales Graph @490,2693,68,37
+        row @570,2693,124,36
+          button button primary @570,2693,56,36
+          button button primary @638,2693,56,36
+      region 367.5x250 @490,2742,204,139 [1 shapes, 1 labelled]
+        image adminlte_io_themes_v3_index_html-5.png @0,0 367.5x250 "Canvas" @490,2742,204,139
+      row @490,2893,204,92
+        col @490,2893,72,92
+          region 60x60 @490,2893,60,60 [1 shapes, 1 labelled]
+            image adminlte_io_themes_v3_index_html-6.png @0,0 60x60 "Canvas" @490,2893,60,60
+          text Mail-Orders @490,2965,72,20
+        col @574,2896,54,86
+          region 60x60 @574,2896,54,53 [1 shapes, 1 labelled]
+            image adminlte_io_themes_v3_index_html-7.png @0,0 60x60 "Canvas" @574,2896,54,54
+          text Online @574,2961,54,21
+        col @640,2896,54,86
+          region 60x60 @640,2896,54,53 [1 shapes, 1 labelled]
+            image adminlte_io_themes_v3_index_html-8.png @0,0 60x60 "Canvas" @640,2896,54,54
+          text In-Store @640,2961,54,21
+    card @473,3012,238,355
+      row @490,3027,204,36
+        h3 Calendar @490,3036,41,18
+        row @543,3027,151,36
+          button button success @543,3027,42,36
+          button button success @597,3027,43,36
+          button button success @652,3027,42,36
+      table Col "October 2026" Col @490,3075,204,277
+        Su | Mo | Tu | We | Th | Fr | Sa
+        27 | 28 | 29 | 30 | 1 | 2 | 3
+        4 | 5 | 6 | 7 | 8 | 9 | 10
+        11 | 12 | 13 | 14 | 15 | 16 | 17
+        18 | 19 | 20 | 21 | 22 | 23 | 24
+        25 | 26 | 27 | 28 | 29 | 30 | 31
+        1 | 2 | 3 | 4 | 5 | 6 | 7
+text All rights reserved. @17,3543,694,21
+row @17,3576,694,20
+  text Copyright © 2014-2021 . @17,3576,164,20
+  link AdminLTE.io https://adminlte.io @193,3576,84,20
+  text Version 3.2.0 @289,3576,89,20
+!overflow date 72/103px
+!overflow collapse 62/87px
+!overflow button8 54/73px
+!overflow button9 54/73px
+!overflow button10 40/73px
+!overflow button11 41/73px
+!overflow button12 40/73px
+!offcanvas region5
+!offcanvas region6
+!offcanvas region7
+!offcanvas region8
+!offcanvas region9
+!offcanvas region10
+!offcanvas region11
+!offcanvas region12
+!offcanvas region13
+!offcanvas region14
+!offcanvas region15
+!offcanvas region16
+!offcanvas region17
+!offcanvas region18
+!offcanvas region19
+!offcanvas region20
+!offcanvas region21
+!offcanvas region22
+!offcanvas region23
+!offcanvas region24
+!offcanvas region25
+!offcanvas region26
+!offcanvas region27
+!offcanvas region28
+!offcanvas region29
+!offcanvas region30
+!offcanvas region31
+!offcanvas region32
+!offcanvas region33
+!offcanvas region34
+!offcanvas region35
+!offcanvas region36
+!offcanvas region37
+!offcanvas region38
+!offcanvas region39
+!offcanvas region40
+!offcanvas region41
+!offcanvas region42
+!offcanvas region51

@@ -1,0 +1,16 @@
+@getbootstrap_com_docs_5_3_examples_navba rev=0 @0,0,728,308
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,58
+  link "Fixed navbar" # @17,84,86,20
+  row @115,65,292,58
+    row @115,84,150,20
+      link Home # @115,84,40,20
+      link Link # @167,84,28,20
+      text Disabled @207,84,58,20
+    row @277,65,130,58
+      field Search search @277,65,40,58
+      button Search @329,76,78,36
+card @17,135,694,156
+  h1 Navbar example @34,150,660,25
+  text This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser’s viewport. @34,187,660,41
+  button "View navbar docs »" primary @34,240,660,36

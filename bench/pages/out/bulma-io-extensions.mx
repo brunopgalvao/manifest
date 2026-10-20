@@ -1,0 +1,99 @@
+@bulma_io_extensions
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/
+row
+  link "https://bulma.io/" https://bulma.io/
+  row
+    link "Docs Documentation" https://bulma.io/documentation/
+    link Expo https://bulma.io/expo/
+    link Love https://bulma.io/love/
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/
+    row
+      link "Open Source on GitHub" https://github.com/jgthms/bulma
+      link "Follow me on Twitter" https://twitter.com/jgthms
+      button button
+      col
+        link "Made with Bulma" https://bulma.io/made-with-bulma/
+        link Backers https://bulma.io/backers/
+        link "Bulma Brand" https://bulma.io/brand/
+        link "Bulma Extensions" https://bulma.io/extensions/
+  col
+    button button
+    card
+      button "Light mode"
+      button "Dark mode"
+      button "System mode" success
+  col
+    button button
+    card
+      field "search input"
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip
+h1 Bulma extensions
+h2 Side projects to enhance your Bulma experience.
+card
+  link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQMCAYDEZ3JCAAI627ICEAI4K7KC6SDCKQMF6YDTKJMCYYIVK7EFTSI45Q7HEYI55QLCESI623ECTNCYBZ52K" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQMCAYDEZ3JCAAI627ICEAI4K7KC6SDCKQMF6YDTKJMCYYIVK7EFTSI45Q7HEYI55QLCESI623ECTNCYBZ52K
+  link "AMD EPYC 4005 Dedicated Server, in Minuten bereit, mit 99,95 % SLA. Jetzt konfigurieren." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQMCAYDEZ3JCAAI627ICEAI4K7KC6SDCKQMF6YDTKJMCYYIVK7EFTSI45Q7HEYI55QLCESI623ECTNCYBZ52K
+link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+card
+  text Have an extension to share with the community? primary
+  link "Submit a Pull Request" https://github.com/jgthms/bulma/pulls
+row
+  link "bulma-o-steps octoshrimpy.github.io/bulma-o-steps/" https://octoshrimpy.github.io/bulma-o-steps/
+  link "bulma-accordion wikiki.github.io/components/accordion" https://wikiki.github.io/components/accordion
+  link "bulma-carousel wikiki.github.io/components/carousel" https://wikiki.github.io/components/carousel
+  link "bulma-quickview wikiki.github.io/components/quickview" https://wikiki.github.io/components/quickview
+  link "bulma-iconpicker wikiki.github.io/form/iconpicker" https://wikiki.github.io/form/iconpicker
+  link "bulma-tagsinput wikiki.github.io/form/tagsinput" https://wikiki.github.io/form/tagsinput
+  link "bulma-tagsfield github.com/vyachkonovalov/bulma-tagsfield" https://github.com/vyachkonovalov/bulma-tagsfield
+  link "bulma-pricingtable wikiki.github.io/components/pricingtable" https://wikiki.github.io/components/pricingtable
+  link "bulma-megamenu github.com/hunzaboy/bulma-megamenu" https://github.com/hunzaboy/bulma-megamenu
+  link "bulma-coolcheckboxes github.com/hunzaboy/Cool-Checkboxes-for-Bulma.io" https://github.com/hunzaboy/Cool-Checkboxes-for-Bulma.io
+  link "bulma-slider wikiki.github.io/form/slider" https://wikiki.github.io/form/slider
+  link "bulma.io-axure github.com/AGmakonts/Bulma.io-axure" https://github.com/AGmakonts/Bulma.io-axure
+  link "bulma-checkradio wikiki.github.io/form/checkradio" https://wikiki.github.io/form/checkradio
+  link "bulma-switch wikiki.github.io/form/switch" https://wikiki.github.io/form/switch
+  link "bulma-steps (alternative) aramvisser.github.io/bulma-steps/" https://aramvisser.github.io/bulma-steps/
+  link "bulma-divider wikiki.github.io/layout/divider" https://wikiki.github.io/layout/divider
+  link "bulma-calendar wikiki.github.io/components/calendar" https://wikiki.github.io/components/calendar
+  link "bulma-pageloader wikiki.github.io/elements/pageloader" https://wikiki.github.io/elements/pageloader
+  link "bulma-ribbon github.com/Wikiki/bulma-ribbon" https://github.com/Wikiki/bulma-ribbon
+  link "bulma-badge wikiki.github.io/elements/badge" https://wikiki.github.io/elements/badge
+  link "bulma-steps wikiki.github.io/components/steps" https://wikiki.github.io/components/steps
+  link "bulma-tooltip wikiki.github.io/elements/tooltip" https://wikiki.github.io/elements/tooltip
+  link "bulma-timeline wikiki.github.io/components/timeline" https://wikiki.github.io/components/timeline
+  link "bulma-toast rfoel.github.io/bulma-toast/" https://rfoel.github.io/bulma-toast/
+  link "bulma-dashboard github.com/lucperkins/bulma-dashboard" https://github.com/lucperkins/bulma-dashboard
+  link "bulma-block-list github.com/chrisrhymes/bulma-block-list" https://github.com/chrisrhymes/bulma-block-list
+  link "bulma-spacing github.com/kaangokdemir/bulma-spacing" https://github.com/kaangokdemir/bulma-spacing
+  link "bulma-list bluefantail.github.io/bulma-list" https://bluefantail.github.io/bulma-list
+  link "bulma-jumbo-tiny thirstyape.github.io/Bulma-Jumbo-Tiny/index.html" https://thirstyape.github.io/Bulma-Jumbo-Tiny/index.html
+h3 How to support Bulma
+row
+  col
+    text One-time donation
+    field submit
+  col
+    text Browser testing via
+    link "https://www.lambdatest.com/" https://www.lambdatest.com/
+  col
+    text Visit our Sponsors
+    link celebian https://celebian.com/
+  col
+    text Monthly donation
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
+link ".native-js { background: linear-gradient(-30deg, #ffffffE5, #ffffffE5 45%, #ffffff 45%) #fff; } .native-details { color: #000000 !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #ffffff; background-color: #000000; } .native-cta:hover { color: undefined; background-color: undefined; } Wegic Modern, dynamic and visually stunning websites created from a simple business description. Try Now" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITK3YCEBD4Z3JCAAI627ICE7D52JKC6BDVKJLFTYDCK3LF6BD52QWCV7DL277HEYI55QLCESI623ECTNCYBZ52K
+row
+  col
+    h3 Bulma by Jeremy Thomas.
+    link "Follow @jgthms" https://twitter.com/jgthms
+  col
+    h3 Contribute on GitHub
+  col
+    h3 Share on social media
+    row
+      link Twitter https://twitter.com/share
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+text Source code licensed . Website content licensed
+row
+  link MIT https://opensource.org/licenses/mit-license.php
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer

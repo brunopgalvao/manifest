@@ -1,0 +1,74 @@
+@ui_shadcn_com_create rev=0 @0,0,728,1592
+row @17,17,694,41
+  row @17,27,306,20
+    link Home / @17,27,22,20
+    link Docs /docs/installation @51,27,18,20
+    link Components /docs/components @81,27,46,20
+    link Blocks /blocks @139,27,25,20
+    link Charts /charts/area @176,27,23,20
+    link Directory /docs/directory @211,27,34,20
+    link Typeset /typeset @257,27,29,20
+    link Create /create @298,27,25,20
+  row @335,17,376,41
+    button "Search documentation...Search..." @335,19,155,36
+    link 126k https://github.com/shadcn-ui/ui @502,27,17,20
+    button "Toggle theme" @531,19,81,36
+    row @624,17,87,41
+      link "Open in" https://v0.dev/chat/api/open?url=https://ui.shadcn.com/init/v0?preset=b0&base=base&title=Newbase-novaproject @624,17,20,41
+      button "Get Code" primary @656,19,55,36
+row @17,70,694,1322
+  col @17,443,567,576
+    region 1016x806 @17,443,567,450 [1 shapes, 0 labelled]
+    card @17,905,567,114
+      button 01 primary @34,920,533,36
+      button 02 @34,968,533,36
+  col @596,70,115,1322
+    button Menu @596,70,115,36
+    button StyleNova @596,118,115,36
+    button Lock @596,166,115,37
+    button "Base ColorNeutral" @596,215,115,36
+    button Lock @596,263,115,36
+    button ThemeNeutral @596,311,115,36
+    button Lock @596,359,115,37
+    button "Chart ColorNeutral" @596,408,115,36
+    button Lock @596,456,115,36
+    button HeadingInterAa @596,504,115,37
+    button Lock @596,553,115,36
+    button FontInterAa @596,601,115,36
+    button Lock @596,649,115,36
+    button "Icon LibraryLucide" @596,698,115,36
+    button Lock @596,746,115,36
+    button RadiusDefault @596,794,115,36
+    button Lock @596,842,115,37
+    button "MenuDefault / Solid" @596,891,115,36
+    button Lock @596,939,115,36
+    button "Menu AccentSubtle" @596,987,115,37
+    button Lock @596,1036,115,36
+    button "--preset b0" @596,1084,115,36
+    button "Open Preset" @596,1132,115,36
+    button Shuffle @596,1180,115,37
+    h2 Command Palette @596,1229,115,42
+    text Search for a command to run... @596,1283,115,61
+    button "Get Code" @596,1356,115,37
+text Notifications alt+T @17,1404,694,21
+text Notifications @17,1437,694,20
+row @17,1469,694,106
+  region 48x48 @17,1503,38,38 [3 shapes, 0 labelled]
+  col @67,1469,541,106
+    h2 Build your own shadcn/ui @67,1469,541,21
+    text Customize everything from the ground up. Pick your component library, font, color scheme, and more. @67,1502,541,41
+    text Available for all major React frameworks. @67,1555,541,20
+  button "Get Started" primary @620,1504,91,36
+!overflow search 153/256px
+!overflow toggle 79/122px
+!overflow get 53/92px
+!overflow base 113/152px
+!overflow themeneutral 113/125px
+!overflow chart 113/156px
+!overflow headinginteraa 113/134px
+!overflow icon 113/154px
+!overflow radiusdefault 113/123px
+!overflow menudefault 113/162px
+!overflow menu2 113/162px
+!overflow get3 89/105px
+!offcanvas line

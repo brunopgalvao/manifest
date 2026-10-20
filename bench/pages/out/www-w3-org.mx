@@ -1,0 +1,104 @@
+@www_w3_org
+link "Skip to content" #main
+row
+  link "日本語ホームページJapanese website" https://www.w3.org/ja/
+  link "简体中文首页Chinese website" https://www.w3.org/zh-hans/
+row
+  link "Visit the W3C homepage" https://www.w3.org/
+  row
+    button "Standards & groups"
+    button "Get involved"
+    button Resources
+    button "News & events"
+    button "Support us"
+    button About
+    link Search https://www.w3.org/help/search/
+    link "Sign in" https://auth.w3.org/?url=https://www.w3.org/
+row
+  col
+    h1 Making the web work
+    text The World Wide Web Consortium (W3C) develops  to help everyone build and enjoy a web based on the principles of , ,  and .
+    link "standards and guidelines" https://www.w3.org/standards/
+    link accessibility https://www.w3.org/mission/accessibility/
+    link internationalization https://www.w3.org/mission/internationalization/
+    link privacy https://www.w3.org/mission/privacy/
+    link security https://www.w3.org/mission/security/
+    link "Read more about W3C" /about/
+h2 Working with stakeholders of the web
+text A range of organizations join the World Wide Web Consortium as Members to work with us to drive the direction of core web technologies and exchange ideas with industry and research leaders. We rotate randomly a few of our Member organizations' logos underneath.
+text The Web Consortium and its members, with help from the public and the web community, focus on a range of business ecosystems that the web transforms, including , ,  and several other areas.
+row
+  link E-commerce https://www.w3.org/ecosystems/e-commerce/
+  link "Media & Entertainment" https://www.w3.org/ecosystems/media/
+  link Publishing https://www.w3.org/ecosystems/publishing/
+row
+  image https://www.w3.org/thumbnails/250/logos/organizations/130274.png?x-version=4 "accessiBe"
+  image https://www.w3.org/thumbnails/250/logos/organizations/150912.png?x-version=2 "Netcetera"
+  image https://www.w3.org/thumbnails/250/logos/organizations/139773.png?x-version=1 "Switchchord"
+  image https://www.w3.org/thumbnails/250/logos/organizations/66654.png?x-version=1 "Stony Brook University"
+  image https://www.w3.org/thumbnails/250/logos/organizations/41719.png?x-version=2 "University of Oxford"
+  image https://www.w3.org/thumbnails/250/logos/organizations/146376.png?x-version=3 "Futurae Technologies AG"
+link "Discover how W3C supports these organizations" /ecosystems/
+row
+  image https://www.w3.org/cms-uploads/_920xAUTO_crop_center-center_none/banner1.jpg "TPAC 2026 is from 26 to 30 October, in Dublin, Ireland. Join us in person or online."
+  col
+    h2 TPAC 2026
+    text TPAC 2026, our major hybrid event of the year, gathers our community on 26-30 October, in Dublin, Ireland.
+    text During this exciting week, W3C work groups meet to coordinate work that advances web standardization. TPAC also brings together the W3C governing bodies (Board of Directors, Advisory Board, Technical Architecture Group and the W3C Advisory Committee).
+    link "Visit the TPAC 2026 website" https://www.w3.org/news-events/tpac/2026/
+row
+  col
+    h2 Web standards
+    text Web standards are the building blocks of a consistent digitally connected world. They are implemented in browsers, blogs, search engines, and other software that power our experience on the web.
+    text W3C is an international community where , full-time , and the public work together to develop web standards.
+    link Members /membership/list/
+    link staff /staff/
+    link "Learn more about web standards" https://www.w3.org/standards/
+row
+  col
+    h2 Get involved
+    text W3C works at the nexus of core technology, industry needs, and societal needs. Everyone can get involved with the work we do.
+    text There are many ways individuals and organizations can participate in the Web Consortium to advance web standardization.
+    link "Ways to get involved" https://www.w3.org/get-involved/
+h2 Latest news
+text Latest entries from across our ,  or .
+row
+  link News https://www.w3.org/news/
+  link "Press Releases" https://www.w3.org/press-releases/
+  link Blog https://www.w3.org/blog/
+row
+  col
+    h3 Improved thread navigation in W3C's mailing list archives
+    text A new feature is available in W3C's mailing list archives, aiming to make it easier to read and navigate message threads.
+    text Blog
+  col
+    h3 Introducing group activity pages
+    text W3C groups now have an Activity page that shows, month by month, their charters, publications, meetings, participants and GitHub work in one place. The pages are in beta, and we would like your feedback.
+    text Blog
+  col
+    h3 We’re on a roll - EPUB 3.4 is coming
+    text The Publishing Maintenance Working Group at W3C has been quietly working on yet another update for the EPUB3 standard, and we're excited to share what we have been up to. Our goal is to not only maintain the EPUB standard, but do our best to keep it in line with the needs of industry, and this update does exactly that. Your existing books do not need to change, if they conform to previous EPUB versions, they will conform to EPUB 3.4. Content you create today will automatically conform as well.
+    text Blog
+  col
+    h3 What’s new in the W3C Website Design System
+    text A significant update to the W3C Website Design System was published at the end of September 2026. Here’s what changed and why.
+    text Blog
+row
+  row
+    link Home https://www.w3.org/
+    link Contact https://www.w3.org/contact/
+    link Help https://www.w3.org/help/
+    link "Support us" https://www.w3.org/support-us/
+    link "Legal & Policies" https://www.w3.org/policies/
+    link Corporation https://www.w3.org/about/corporation/
+    link "System Status" https://status.w3.org/
+  row
+    link "W3C on Mastodon" https://w3c.social/@w3c
+    link "W3C on GitHub" https://github.com/w3c/
+text Copyright © 2026 .  ,  and  rules apply.
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/document-license/

@@ -1,0 +1,1852 @@
+@html_spec_whatwg_org_multipage_common_do
+link "https://whatwg.org/" https://whatwg.org/
+h1 HTML
+text Living Standard — Last Updated 19 October 2026 success
+text —  —
+row
+  link "← 2.4 URLs" urls-and-fetching.html
+  link "Table of Contents" ./
+  link "2.7 Safe passing of structured data →" structured-data.html
+link "2.6 Common DOM interfaces" common-dom-interfaces.html#common-dom-interfaces
+link "2.6.1 Reflecting content attributes in IDL attributes" common-dom-interfaces.html#reflecting-content-attributes-in-idl-attributes
+link "2.6.2 Using reflect via IDL extended attributes" common-dom-interfaces.html#using-reflect-via-idl-extended-attributes
+link "2.6.3 Using reflect in specifications" common-dom-interfaces.html#using-reflect-in-specifications
+link "2.6.4 Collections" common-dom-interfaces.html#collections
+link "2.6.4.1 The HTMLAllCollection interface" common-dom-interfaces.html#the-htmlallcollection-interface
+link "2.6.4.1.1 [[Call]] ( thisArgument, argumentsList )" common-dom-interfaces.html#HTMLAllCollection-call
+link "2.6.4.2 The HTMLFormControlsCollection interface" common-dom-interfaces.html#the-htmlformcontrolscollection-interface
+link "2.6.4.3 The HTMLOptionsCollection interface" common-dom-interfaces.html#the-htmloptionscollection-interface
+link "2.6.5 The DOMStringList interface" common-dom-interfaces.html#the-domstringlist-interface
+h3 2.6 Common DOM interfaces
+h3 2.6.1 Reflecting content attributes in IDL attributes
+text The building blocks for reflecting are as follows:
+text A  is an element or  object. It is typically clear from context and typically identical to the interface of the . It is always identical to that interface when it is an  object.
+text reflected target
+link ElementInternals custom-elements.html#elementinternals
+link "reflected IDL attribute" #reflected-idl-attribute
+link ElementInternals custom-elements.html#elementinternals
+text A  is an attribute interface member.
+text reflected IDL attribute
+text A  is a string. When the  is an element, it represents the local name of a content attribute whose namespace is null. When the  is an  object, it represents a key of the 's 's .
+text reflected content attribute name
+link "reflected target" #reflected-target
+link "reflected target" #reflected-target
+link ElementInternals custom-elements.html#elementinternals
+link "reflected target" #reflected-target
+link "target element" custom-elements.html#internals-target
+link "internal content attribute map" custom-elements.html#internal-content-attribute-map
+text A  can be defined to  a  of a . In general this means that the IDL attribute getter returns the current value of the content attribute, and the setter changes the value of the content attribute to the given value.
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  text reflect
+  link "reflected content attribute name" #reflected-content-attribute-name
+  link "reflected target" #reflected-target
+text have these associated algorithms:
+link "Reflected targets" #reflected-target
+text : takes no arguments; returns an element.
+text get the element
+text : takes no arguments; returns null or a string.
+text get the content attribute
+text : takes a string ; returns nothing.
+row
+  text set the content attribute
+  text value
+text : takes no arguments; returns nothing.
+text delete the content attribute
+text For a  that is an element , these are defined as follows:
+row
+  link "reflected target" #reflected-target
+  text element
+link "get the element" #get-the-element
+text Return .
+text element
+link "get the content attribute" #get-the-content-attribute
+text Let  be the result of  given null, the , and .
+row
+  text attribute
+  link "getting an attribute by namespace and local name" https://dom.spec.whatwg.org/#concept-element-attributes-get-by-namespace
+  link "reflected content attribute name" #reflected-content-attribute-name
+  text element
+text If  is null, then return null.
+text attribute
+text Return 's .
+row
+  text attribute
+  link value https://dom.spec.whatwg.org/#concept-attribute-value
+text with a string
+row
+  link "set the content attribute" #set-the-content-attribute
+  text value
+text given , the , and .
+row
+  link "Set an attribute value" https://dom.spec.whatwg.org/#concept-element-attributes-set-value
+  text element
+  link "reflected content attribute name" #reflected-content-attribute-name
+  text value
+link "delete the content attribute" #delete-the-content-attribute
+text given null, the , and .
+row
+  link "Remove an attribute by namespace and local name" https://dom.spec.whatwg.org/#concept-element-attributes-remove-by-namespace
+  link "reflected content attribute name" #reflected-content-attribute-name
+  text element
+text For a  that is an  object , they are defined as follows:
+row
+  link "reflected target" #reflected-target
+  link ElementInternals custom-elements.html#elementinternals
+  text elementInternals
+link "get the element" #get-the-element
+text Return 's .
+row
+  text elementInternals
+  link "target element" custom-elements.html#internals-target
+link "get the content attribute" #get-the-content-attribute
+text If 's 's [the ] , then return null.
+row
+  text elementInternals
+  link "target element" custom-elements.html#internals-target
+  link "internal content attribute map" custom-elements.html#internal-content-attribute-map
+  link "reflected content attribute name" #reflected-content-attribute-name
+  link "does not exist" https://infra.spec.whatwg.org/#map-exists
+text Return 's 's [the ].
+row
+  text elementInternals
+  link "target element" custom-elements.html#internals-target
+  link "internal content attribute map" custom-elements.html#internal-content-attribute-map
+  link "reflected content attribute name" #reflected-content-attribute-name
+text with a string
+row
+  link "set the content attribute" #set-the-content-attribute
+  text value
+text 's 's [the ] to .
+row
+  link Set https://infra.spec.whatwg.org/#map-set
+  text elementInternals
+  link "target element" custom-elements.html#internals-target
+  link "internal content attribute map" custom-elements.html#internal-content-attribute-map
+  link "reflected content attribute name" #reflected-content-attribute-name
+  text value
+link "delete the content attribute" #delete-the-content-attribute
+text 's 's [the ].
+row
+  link Remove https://infra.spec.whatwg.org/#map-remove
+  text elementInternals
+  link "target element" custom-elements.html#internals-target
+  link "internal content attribute map" custom-elements.html#internal-content-attribute-map
+  link "reflected content attribute name" #reflected-content-attribute-name
+text This results in somewhat redundant data structures for  objects as their 's  cannot be directly manipulated and as such reflection is only happening in a single direction. This approach was nevertheless chosen to make it less error-prone to define IDL attributes that are shared between  and benefit from common API semantics. success
+link ElementInternals custom-elements.html#elementinternals
+link "target element" custom-elements.html#internals-target
+link "internal content attribute map" custom-elements.html#internal-content-attribute-map
+link "reflected targets" #reflected-target
+text IDL attributes of type  or  that   content attributes can be . Per the processing models below, those will cause the getters for such IDL attributes to only return keywords for those enumerated attributes, or the empty string or null.
+row
+  link DOMString https://webidl.spec.whatwg.org/#idl-DOMString
+  text ?
+  link DOMString https://webidl.spec.whatwg.org/#idl-DOMString
+  link reflect #reflect
+  link enumerated common-microsyntaxes.html#enumerated-attribute
+  text limited to only known values
+text If a  has the type :
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link DOMString https://webidl.spec.whatwg.org/#idl-DOMString
+text The getter steps are:
+text Let  be the result of running 's .
+row
+  text element
+  link this https://webidl.spec.whatwg.org/#this
+  link "get the element" #get-the-element
+text Let  be the result of running 's .
+row
+  text contentAttributeValue
+  link this https://webidl.spec.whatwg.org/#this
+  link "get the content attribute" #get-the-content-attribute
+text Let  be the attribute definition of 's content attribute whose namespace is null and local name is the .
+text attributeDefinition
+text element
+link "reflected content attribute name" #reflected-content-attribute-name
+text If  indicates it is an  and the  is defined to be :
+row
+  text attributeDefinition
+  link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "limited to only known values" #limited-to-only-known-values
+text If  does not correspond to any state of  (e.g., it is null and there is no ), or if it is in a state of  with no associated keyword value, then return the empty string.
+text contentAttributeValue
+text attributeDefinition
+link "missing value default" common-microsyntaxes.html#missing-value-default
+text attributeDefinition
+text Return the  for the state of  that  corresponds to.
+row
+  link "canonical keyword" common-microsyntaxes.html#canonical-keyword
+  text attributeDefinition
+  text contentAttributeValue
+text If  is null, then return the empty string.
+text contentAttributeValue
+text Return .
+text contentAttributeValue
+text The setter steps are to run 's  with the given value.
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "set the content attribute" #set-the-content-attribute
+text If a  has the type :
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  text ?
+  link DOMString https://webidl.spec.whatwg.org/#idl-DOMString
+text The getter steps are:
+text Let  be the result of running 's .
+row
+  text element
+  link this https://webidl.spec.whatwg.org/#this
+  link "get the element" #get-the-element
+text Let  be the result of running 's .
+row
+  text contentAttributeValue
+  link this https://webidl.spec.whatwg.org/#this
+  link "get the content attribute" #get-the-content-attribute
+text Let  be the attribute definition of 's content attribute whose namespace is null and local name is the .
+text attributeDefinition
+text element
+link "reflected content attribute name" #reflected-content-attribute-name
+text If  indicates it is an :
+row
+  text attributeDefinition
+  link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute
+text : the  is .
+row
+  link Assert https://infra.spec.whatwg.org/#assert
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "limited to only known values" #limited-to-only-known-values
+text :  corresponds to a state of .
+row
+  link Assert https://infra.spec.whatwg.org/#assert
+  text contentAttributeValue
+  text attributeDefinition
+text If  corresponds to a state of  with no associated keyword value, then return null.
+row
+  text contentAttributeValue
+  text attributeDefinition
+text Return the  for the state of  that  corresponds to.
+row
+  link "canonical keyword" common-microsyntaxes.html#canonical-keyword
+  text attributeDefinition
+  text contentAttributeValue
+text Return .
+text contentAttributeValue
+text The setter steps are:
+text If the given value is null, then run 's .
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "delete the content attribute" #delete-the-content-attribute
+text Otherwise, run 's  with the given value.
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "set the content attribute" #set-the-content-attribute
+text If a  has the type , optionally :
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link USVString https://webidl.spec.whatwg.org/#idl-USVString
+  text treated as a URL
+text The getter steps are:
+text Let  be the result of running 's .
+row
+  text element
+  link this https://webidl.spec.whatwg.org/#this
+  link "get the element" #get-the-element
+text Let  be the result of running 's .
+row
+  text contentAttributeValue
+  link this https://webidl.spec.whatwg.org/#this
+  link "get the content attribute" #get-the-content-attribute
+text If the  is :
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "treated as a URL" #treated-as-a-url
+text If  is null, then return the empty string.
+text contentAttributeValue
+text Let  be the result of  given , relative to 's .
+text urlString
+link "encoding-parsing-and-serializing a URL" urls-and-fetching.html#encoding-parsing-and-serializing-a-url
+text contentAttributeValue
+text element
+link "node document" https://dom.spec.whatwg.org/#concept-node-document
+text If  is not failure, then return .
+row
+  text urlString
+  text urlString
+text Return , .
+row
+  text contentAttributeValue
+  link "converted to a scalar value string" https://infra.spec.whatwg.org/#javascript-string-convert
+text The setter steps are to run 's  with the given value.
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "set the content attribute" #set-the-content-attribute
+text If a  has the type :
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link boolean https://webidl.spec.whatwg.org/#idl-boolean
+text The getter steps are:
+text Let  be the result of running 's .
+row
+  text contentAttributeValue
+  link this https://webidl.spec.whatwg.org/#this
+  link "get the content attribute" #get-the-content-attribute
+text If  is null, then return false.
+text contentAttributeValue
+text Return true.
+text The setter steps are:
+text If the given value is false, then run 's .
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "delete the content attribute" #delete-the-content-attribute
+text If the given value is true, then run 's  with the empty string.
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "set the content attribute" #set-the-content-attribute
+text This corresponds to the rules for . success
+link "boolean content attributes" common-microsyntaxes.html#boolean-attribute
+text If a  has the type , optionally  and optionally with a  :
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link long https://webidl.spec.whatwg.org/#idl-long
+  text limited to only non-negative numbers
+  text default value
+  text defaultValue
+text The getter steps are:
+text Let  be the result of running 's .
+row
+  text contentAttributeValue
+  link this https://webidl.spec.whatwg.org/#this
+  link "get the content attribute" #get-the-content-attribute
+text If  is not null:
+text contentAttributeValue
+text Let  be the result of   if the  is not ; otherwise the result of  .
+text parsedValue
+link "integer parsing" common-microsyntaxes.html#rules-for-parsing-integers
+text contentAttributeValue
+link "reflected IDL attribute" #reflected-idl-attribute
+link "limited to only non-negative numbers" #limited-to-only-non-negative-numbers
+link "non-negative integer parsing" common-microsyntaxes.html#rules-for-parsing-non-negative-integers
+text contentAttributeValue
+text If  is not an error and is within the  range, then return .
+row
+  text parsedValue
+  link long https://webidl.spec.whatwg.org/#idl-long
+  text parsedValue
+text If the  has a , then return .
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "default value" #default-value
+  text defaultValue
+text If the  is , then return −1.
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "limited to only non-negative numbers" #limited-to-only-non-negative-numbers
+text Return 0.
+text The setter steps are:
+text If the  is  and the given value is negative, then throw an  .
+link "reflected IDL attribute" #reflected-idl-attribute
+link "limited to only non-negative numbers" #limited-to-only-non-negative-numbers
+link "\"IndexSizeError\"" https://webidl.spec.whatwg.org/#indexsizeerror
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text Run 's  with the given value converted to the shortest possible string representing the number as a .
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "set the content attribute" #set-the-content-attribute
+  link "valid integer" common-microsyntaxes.html#valid-integer
+text If a  has the type , optionally , , or  [, ], and optionally with a  :
+link "reflected IDL attribute" #reflected-idl-attribute
+link "unsigned long" https://webidl.spec.whatwg.org/#idl-unsigned-long
+text limited to only positive numbers
+text limited to only positive numbers with fallback
+text clamped to the range
+text clampedMin
+text clampedMax
+link "default value" #default-value
+text defaultValue
+text The getter steps are:
+text Let  be the result of running 's .
+row
+  text contentAttributeValue
+  link this https://webidl.spec.whatwg.org/#this
+  link "get the content attribute" #get-the-content-attribute
+text Let  be 0.
+text minimum
+text If the  is  or , then set  to 1.
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero
+  link "limited to only positive numbers with fallback" #limited-to-only-non-negative-numbers-greater-than-zero-with-fallback
+  text minimum
+text If the  is , then set  to .
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "clamped to the range" #clamped-to-the-range
+  text minimum
+  text clampedMin
+text Let  be 2147483647 if the  is not ; otherwise .
+row
+  text maximum
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "clamped to the range" #clamped-to-the-range
+  text clampedMax
+text If  is not null:
+text contentAttributeValue
+text Let  be the result of  .
+row
+  text parsedValue
+  link "non-negative integer parsing" common-microsyntaxes.html#rules-for-parsing-non-negative-integers
+  text contentAttributeValue
+text If  is not an error and is in the range  to , inclusive, then return .
+row
+  text parsedValue
+  text minimum
+  text maximum
+  text parsedValue
+text If  is not an error and the  is :
+row
+  text parsedValue
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "clamped to the range" #clamped-to-the-range
+text If  is less than , then return .
+row
+  text parsedValue
+  text minimum
+  text minimum
+text Return .
+text maximum
+text If the  has a , then return .
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "default value" #default-value
+  text defaultValue
+text Return .
+text minimum
+text The setter steps are:
+text If the  is  and the given value is 0, then throw an  .
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero
+  link "\"IndexSizeError\"" https://webidl.spec.whatwg.org/#indexsizeerror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text Let  be 0.
+text minimum
+text If the  is  or , then set  to 1.
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero
+  link "limited to only positive numbers with fallback" #limited-to-only-non-negative-numbers-greater-than-zero-with-fallback
+  text minimum
+text Let  be .
+row
+  text newValue
+  text minimum
+text If the  has a , then set  to .
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "default value" #default-value
+  text newValue
+  text defaultValue
+text If the given value is in the range  to 2147483647, inclusive, then set  to it.
+row
+  text minimum
+  text newValue
+text Run 's  with  converted to the shortest possible string representing the number as a .
+link this https://webidl.spec.whatwg.org/#this
+link "set the content attribute" #set-the-content-attribute
+text newValue
+link "valid non-negative integer" common-microsyntaxes.html#valid-non-negative-integer
+text has no effect on the setter steps. success
+link "Clamped to the range" #clamped-to-the-range
+text If a  has the type , optionally  and optionally with a  :
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link double https://webidl.spec.whatwg.org/#idl-double
+  link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero
+  link "default value" #default-value
+  text defaultValue
+text The getter steps are:
+text Let  be the result of running 's .
+row
+  text contentAttributeValue
+  link this https://webidl.spec.whatwg.org/#this
+  link "get the content attribute" #get-the-content-attribute
+text If  is not null:
+text contentAttributeValue
+text Let  be the result of  .
+row
+  text parsedValue
+  link "floating-point number parsing" common-microsyntaxes.html#rules-for-parsing-floating-point-number-values
+  text contentAttributeValue
+text If  is not an error and is greater than 0, then return .
+row
+  text parsedValue
+  text parsedValue
+text If  is not an error and the  is not , then return .
+row
+  text parsedValue
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero
+  text parsedValue
+text If the  has a , then return .
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "default value" #default-value
+  text defaultValue
+text Return 0.
+text The setter steps are:
+text If the  is  and the given value is not greater than 0, then return.
+row
+  link "reflected IDL attribute" #reflected-idl-attribute
+  link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero
+text Run 's  with the given value, converted to the .
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "set the content attribute" #set-the-content-attribute
+  link "best representation of the number as a floating-point number" common-microsyntaxes.html#best-representation-of-the-number-as-a-floating-point-number
+text The values Infinity and Not-a-Number (NaN) values throw an exception on setting, as defined in . success
+row
+  text Web IDL success
+  link [WEBIDL] references.html#refsWEBIDL
+text If a  has the type , then its getter steps are to return a  object whose associated element is  and associated attribute's local name is the . Specification authors cannot reflect IDL attributes of this type on .
+link "reflected IDL attribute" #reflected-idl-attribute
+link DOMTokenList https://dom.spec.whatwg.org/#interface-domtokenlist
+link DOMTokenList https://dom.spec.whatwg.org/#interface-domtokenlist
+link this https://webidl.spec.whatwg.org/#this
+link "reflected content attribute name" #reflected-content-attribute-name
+link ElementInternals custom-elements.html#elementinternals
+text If a  has the type , where  is either  or an interface that inherits from , then with  being the :
+link "reflected IDL attribute" #reflected-idl-attribute
+text ?
+text T
+text T
+link Element https://dom.spec.whatwg.org/#interface-element
+link Element https://dom.spec.whatwg.org/#interface-element
+text attr
+link "reflected content attribute name" #reflected-content-attribute-name
+text Its  has an , which is a weak reference to an element or null. It is initially null.
+row
+  link "reflected target" #reflected-target
+  text explicitly set -element
+  text attr
+text Its   has a  algorithm, that runs these steps:
+row
+  link "reflected target" #reflected-target
+  text reflectedTarget
+  text get the -associated element
+  text attr
+text Let  be the result of running 's .
+row
+  text element
+  text reflectedTarget
+  link "get the element" #get-the-element
+text Let  be the result of running 's .
+row
+  text contentAttributeValue
+  text reflectedTarget
+  link "get the content attribute" #get-the-content-attribute
+text If 's  is not null:
+row
+  text reflectedTarget
+  link "explicitly set attr-element" #explicitly-set-attr-element
+text If 's  is a  of any of 's , then return 's .
+text reflectedTarget
+link "explicitly set attr-element" #explicitly-set-attr-element
+link descendant https://dom.spec.whatwg.org/#concept-tree-descendant
+text element
+link "shadow-including ancestors" https://dom.spec.whatwg.org/#concept-shadow-including-ancestor
+text reflectedTarget
+link "explicitly set attr-element" #explicitly-set-attr-element
+text Return null.
+text Otherwise, if  is not null, return the first element , in , that meets the following criteria:
+row
+  text contentAttributeValue
+  text candidate
+  link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+text 's  is the same as 's ;
+row
+  text candidate
+  link root https://dom.spec.whatwg.org/#concept-tree-root
+  text element
+  link root https://dom.spec.whatwg.org/#concept-tree-root
+text 's  is ; and
+row
+  text candidate
+  link ID https://dom.spec.whatwg.org/#concept-id
+  text contentAttributeValue
+text .
+row
+  text candidate
+  link implements https://webidl.spec.whatwg.org/#implements
+  text T
+text If no such element exists, then return null.
+text Return null.
+text The getter steps are to return the result of running 's .
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "get the attr-associated element" #attr-associated-element
+text The setter steps are:
+text If the given value is null:
+text Set 's  to null.
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "explicitly set attr-element" #explicitly-set-attr-element
+text Run 's .
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "delete the content attribute" #delete-the-content-attribute
+text Return.
+text Run 's  with the empty string.
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "set the content attribute" #set-the-content-attribute
+text Set 's  to a weak reference to the given value.
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "explicitly set attr-element" #explicitly-set-attr-element
+text For element  only: the following , given , , , , and , are used to synchronize between the content attribute and the IDL attribute:
+row
+  link "reflected targets" #reflected-target
+  link "attribute change steps" https://dom.spec.whatwg.org/#concept-element-attributes-change-ext
+  text element
+  text localName
+  text oldValue
+  text value
+  text namespace
+text If  is not  or  is not null, then return.
+row
+  text localName
+  text attr
+  text namespace
+text Set 's  to null.
+row
+  text element
+  link "explicitly set attr-element" #explicitly-set-attr-element
+text "of this type are strongly encouraged to have their identifier end in \"\" for consistency." success
+row
+  link "Reflected IDL attributes" #reflected-idl-attribute
+  text Element
+text If a  has the type , where  is either  or an interface that inherits from , then with  being the :
+link "reflected IDL attribute" #reflected-idl-attribute
+text FrozenArray<>?
+text T
+text T
+link Element https://dom.spec.whatwg.org/#interface-element
+link Element https://dom.spec.whatwg.org/#interface-element
+text attr
+link "reflected content attribute name" #reflected-content-attribute-name
+text Its  has an , which is either a  of weak references to elements or null. It is initially null.
+row
+  link "reflected target" #reflected-target
+  text explicitly set -elements
+  text attr
+  link list https://infra.spec.whatwg.org/#list
+text Its  has a , which is a  of elements. It is initially « ».
+row
+  link "reflected target" #reflected-target
+  text cached -associated elements
+  text attr
+  link list https://infra.spec.whatwg.org/#list
+text Its  has a , which is a . It is initially null.
+row
+  link "reflected target" #reflected-target
+  text cached -associated elements object
+  text attr
+  text FrozenArray<>?
+  text T
+text Its   has a  algorithm, which runs these steps:
+row
+  link "reflected target" #reflected-target
+  text reflectedTarget
+  text get the -associated elements
+  text attr
+text Let  be an empty .
+row
+  text elements
+  link list https://infra.spec.whatwg.org/#list
+text Let  be the result of running 's .
+row
+  text element
+  text reflectedTarget
+  link "get the element" #get-the-element
+text If 's  is not null:
+row
+  text reflectedTarget
+  link "explicitly set attr-elements" #explicitly-set-attr-elements
+text in 's :
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  text attrElement
+  text reflectedTarget
+  link "explicitly set attr-elements" #explicitly-set-attr-elements
+text If  is not a  of any of 's , then .
+row
+  text attrElement
+  link descendant https://dom.spec.whatwg.org/#concept-tree-descendant
+  text element
+  link "shadow-including ancestors" https://dom.spec.whatwg.org/#concept-shadow-including-ancestor
+  link continue https://infra.spec.whatwg.org/#iteration-continue
+text to .
+row
+  link Append https://infra.spec.whatwg.org/#list-append
+  text attrElement
+  text elements
+text Otherwise:
+text Let  be the result of running 's .
+row
+  text contentAttributeValue
+  text reflectedTarget
+  link "get the content attribute" #get-the-content-attribute
+text If  is null, then return null.
+text contentAttributeValue
+text Let  be , .
+row
+  text tokens
+  text contentAttributeValue
+  link "split on ASCII whitespace" https://infra.spec.whatwg.org/#split-on-ascii-whitespace
+text of :
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  text id
+  text tokens
+text Let  be the first element, in , that meets the following criteria:
+row
+  text candidate
+  link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+text 's  is the same as 's ;
+row
+  text candidate
+  link root https://dom.spec.whatwg.org/#concept-tree-root
+  text element
+  link root https://dom.spec.whatwg.org/#concept-tree-root
+text 's  is ; and
+row
+  text candidate
+  link ID https://dom.spec.whatwg.org/#concept-id
+  text id
+text .
+row
+  text candidate
+  link implements https://webidl.spec.whatwg.org/#implements
+  text T
+text If no such element exists, then .
+link continue https://infra.spec.whatwg.org/#iteration-continue
+text to .
+row
+  link Append https://infra.spec.whatwg.org/#list-append
+  text candidate
+  text elements
+text Return .
+text elements
+text The getter steps are:
+text Let  be the result of running 's .
+row
+  text elements
+  link this https://webidl.spec.whatwg.org/#this
+  link "get the attr-associated elements" #attr-associated-elements
+text If the contents of  is equal to the contents of 's , then return 's .
+text elements
+link this https://webidl.spec.whatwg.org/#this
+link "cached attr-associated elements" #cached-attr-associated-elements
+link this https://webidl.spec.whatwg.org/#this
+link "cached attr-associated elements object" #cached-attr-associated-elements-object
+text Let  be ,  to a .
+row
+  text elementsAsFrozenArray
+  text elements
+  link converted https://webidl.spec.whatwg.org/#es-type-mapping
+  text FrozenArray<>?
+  text T
+text Set 's  to .
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "cached attr-associated elements" #cached-attr-associated-elements
+  text elements
+text Set 's  to .
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "cached attr-associated elements object" #cached-attr-associated-elements-object
+  text elementsAsFrozenArray
+text Return .
+text elementsAsFrozenArray
+text This extra caching layer is necessary to preserve the invariant that element.reflectedElements === element.reflectedElements. success
+text The setter steps are:
+text If the given value is null:
+text Set 's  to null.
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "explicitly set attr-elements" #explicitly-set-attr-elements
+text Run 's .
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "delete the content attribute" #delete-the-content-attribute
+text Return.
+text Run 's  with the empty string.
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "set the content attribute" #set-the-content-attribute
+text Let  be an empty .
+row
+  text elements
+  link list https://infra.spec.whatwg.org/#list
+text in the given value:
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  text element
+text a weak reference to  to .
+row
+  link Append https://infra.spec.whatwg.org/#list-append
+  text element
+  text elements
+text Set 's  to .
+row
+  link this https://webidl.spec.whatwg.org/#this
+  link "explicitly set attr-elements" #explicitly-set-attr-elements
+  text elements
+text For element  only: the following , given , , , , and , are used to synchronize between the content attribute and the IDL attribute:
+row
+  link "reflected targets" #reflected-target
+  link "attribute change steps" https://dom.spec.whatwg.org/#concept-element-attributes-change-ext
+  text element
+  text localName
+  text oldValue
+  text value
+  text namespace
+text If  is not  or  is not null, then return.
+row
+  text localName
+  text attr
+  text namespace
+text Set 's  to null.
+row
+  text element
+  link "explicitly set attr-elements" #explicitly-set-attr-elements
+text "of this type are strongly encouraged to have their identifier end in \"\" for consistency." success
+row
+  link "Reflected IDL attributes" #reflected-idl-attribute
+  text Elements
+h3 2.6.2 Using reflect via IDL extended attributes
+text can be used from IDL through . , , , , , and  all trigger . These must either take no arguments, or take a string; they must not appear on anything other than an interface member attribute; and only one of these can be used at a time.
+link Reflection #reflect
+link "extended attributes" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+text [Reflect]
+text [ReflectSetter]
+text [ReflectURL]
+text [ReflectNonNegative]
+text [ReflectPositive]
+text [ReflectPositiveWithFallback]
+link reflection #reflect
+text For one of these primary reflection , its  is the string value it takes, if one is provided; otherwise it is the IDL attribute name .
+link "extended attributes" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+link "reflected content attribute name" #reflected-content-attribute-name
+link "converted to ASCII lowercase" https://infra.spec.whatwg.org/#ascii-lowercase
+text IDL attributes with the   must  's .
+row
+  link [Reflect] #xattr-reflect
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+  link reflect #reflect
+  link [Reflect] #xattr-reflect
+  link "reflected content attribute name" #reflected-content-attribute-name
+text IDL attributes with the   on setting must  's .
+row
+  link [ReflectSetter] #xattr-reflectsetter
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+  link reflect #reflect
+  link [ReflectSetter] #xattr-reflectsetter
+  link "reflected content attribute name" #reflected-content-attribute-name
+text The   must only appear on attributes with a type of .
+row
+  link [ReflectURL] #xattr-reflecturl
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+  link USVString https://webidl.spec.whatwg.org/#idl-USVString
+text IDL attributes with the   must , , 's .
+row
+  link [ReflectURL] #xattr-reflecturl
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+  link reflect #reflect
+  link "as a URL" #treated-as-a-url
+  link [ReflectURL] #xattr-reflecturl
+  link "reflected content attribute name" #reflected-content-attribute-name
+text The   must only appear on attributes with a type of .
+row
+  link [ReflectNonNegative] #xattr-reflectnonnegative
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+  link long https://webidl.spec.whatwg.org/#idl-long
+text IDL attributes with the   must , , 's .
+link [ReflectNonNegative] #xattr-reflectnonnegative
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+link reflect #reflect
+link "limited to only non-negative numbers" #limited-to-only-non-negative-numbers
+link [ReflectNonNegative] #xattr-reflectnonnegative
+link "reflected content attribute name" #reflected-content-attribute-name
+text The  and   must only appear on attributes with a type of  or .
+link [ReflectPositive] #xattr-reflectpositive
+link [ReflectPositiveWithFallback] #xattr-reflectpositivewithfallback
+link "extended attributes" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+link double https://webidl.spec.whatwg.org/#idl-double
+link "unsigned long" https://webidl.spec.whatwg.org/#idl-unsigned-long
+text IDL attributes with the   must , , 's .
+link [ReflectPositive] #xattr-reflectpositive
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+link reflect #reflect
+link "limited to only positive numbers" #limited-to-only-non-negative-numbers-greater-than-zero
+link [ReflectPositive] #xattr-reflectpositive
+link "reflected content attribute name" #reflected-content-attribute-name
+text IDL attributes with the   must , , 's .
+link [ReflectPositiveWithFallback] #xattr-reflectpositivewithfallback
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+link reflect #reflect
+link "limited to only positive numbers with fallback" #limited-to-only-non-negative-numbers-greater-than-zero-with-fallback
+link [ReflectPositiveWithFallback] #xattr-reflectpositivewithfallback
+link "reflected content attribute name" #reflected-content-attribute-name
+text To supplement the above  we also introduce , and . These augment how  works and also must only appear on interface member attributes.
+row
+  link "extended attributes" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+  text [ReflectRange]
+  text [ReflectDefault]
+  link reflection #reflect
+text The   must take an integer list limited to two values. It must only be used on attributes with a type of . Additionally, it must also only appear alongside .
+link [ReflectRange] #xattr-reflectrange
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+link "unsigned long" https://webidl.spec.whatwg.org/#idl-unsigned-long
+link [Reflect] #xattr-reflect
+text IDL attributes with the   are  [, ] where  is the first, and  is the second argument to the list provided to .
+link [ReflectRange] #xattr-reflectrange
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+link "clamped to the range" #clamped-to-the-range
+text clampedMin
+text clampedMax
+text clampedMin
+text clampedMax
+link [ReflectRange] #xattr-reflectrange
+text The   must only be used on attributes with a type of , , or . When used on an attribute of type , it must take a decimal; otherwise it must take an integer. Additionally, it must also only appear alongside , , , or .
+link [ReflectDefault] #xattr-reflectdefault
+link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+link double https://webidl.spec.whatwg.org/#idl-double
+link long https://webidl.spec.whatwg.org/#idl-long
+link "unsigned long" https://webidl.spec.whatwg.org/#idl-unsigned-long
+link double https://webidl.spec.whatwg.org/#idl-double
+link [Reflect] #xattr-reflect
+link [ReflectNonNegative] #xattr-reflectnonnegative
+link [ReflectPositive] #xattr-reflectpositive
+link [ReflectPositiveWithFallback] #xattr-reflectpositivewithfallback
+text IDL attributes with the   have a  provided by the argument provided to .
+row
+  link [ReflectDefault] #xattr-reflectdefault
+  link "extended attribute" https://webidl.spec.whatwg.org/#dfn-extended-attribute
+  link "default value" #default-value
+  link [ReflectDefault] #xattr-reflectdefault
+h3 2.6.3 Using reflect in specifications
+text is primarily about improving web developer ergonomics by giving them typed access to content attributes through . The ultimate source of truth, which the web platform builds upon, is the content attributes themselves. That is, specification authors must not use the  getter or setter steps, but instead must use the content attribute presence and value. (Or an abstraction on top, such as the state of an .)
+link Reflection #reflect
+link "reflected IDL attributes" #reflected-idl-attribute
+link "reflected IDL attribute" #reflected-idl-attribute
+link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute
+text Two important exceptions to this are  whose type is one of the following:
+link "reflected IDL attributes" #reflected-idl-attribute
+text , where  is either  or an interface that inherits from
+row
+  text ?
+  text T
+  text T
+  link Element https://dom.spec.whatwg.org/#interface-element
+  link Element https://dom.spec.whatwg.org/#interface-element
+text , where  is either  or an interface that inherits from
+row
+  text FrozenArray<>?
+  text T
+  text T
+  link Element https://dom.spec.whatwg.org/#interface-element
+  link Element https://dom.spec.whatwg.org/#interface-element
+text For those, specification authors must use the 's  and , respectively. The content attribute presence and value must not be used as they cannot be fully synchronized with the .
+link "reflected target" #reflected-target
+link "get the attr-associated element" #attr-associated-element
+link "get the attr-associated elements" #attr-associated-elements
+link "reflected IDL attribute" #reflected-idl-attribute
+text A 's , , , and  are to be treated as internal implementation details and not to be built upon.
+link "reflected target" #reflected-target
+link "explicitly set attr-element" #explicitly-set-attr-element
+link "explicitly set attr-elements" #explicitly-set-attr-elements
+link "cached attr-associated elements" #cached-attr-associated-elements
+link "cached attr-associated elements object" #cached-attr-associated-elements-object
+h3 2.6.4 Collections
+text The  and  interfaces are  derived from the  interface. The  interface is a , but is not so derived.
+link HTMLFormControlsCollection #htmlformcontrolscollection
+link HTMLOptionsCollection #htmloptionscollection
+link collections https://dom.spec.whatwg.org/#concept-collection
+link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection
+link HTMLAllCollection #htmlallcollection
+link collection https://dom.spec.whatwg.org/#concept-collection
+h3 2.6.4.1 The HTMLAllCollection interface
+text The  interface is used for the legacy  attribute. It operates similarly to ; the main differences are that it allows a staggering variety of different (ab)uses of its methods to all end up returning something, and that it can be called as a function as an alternative to property access.
+row
+  link HTMLAllCollection #htmlallcollection
+  link document.all obsolete.html#dom-document-all
+  link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection
+text All  objects are rooted at a  and have a filter that matches all elements, so the elements  of an  object consist of all the descendant elements of the root . success
+link HTMLAllCollection #htmlallcollection
+link Document dom.html#document
+link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection
+link HTMLAllCollection #htmlallcollection
+link Document dom.html#document
+text Objects that implement the  interface are  with an additional [[Call]] internal method described in the . They also have an  internal slot.
+link HTMLAllCollection #htmlallcollection
+link "legacy platform objects" https://webidl.spec.whatwg.org/#dfn-legacy-platform-object
+link "section below" #HTMLAllCollection-call
+link [[IsHTMLDDA]] https://tc39.es/ecma262/#sec-IsHTMLDDA-internal-slot
+text Objects that implement the  interface have several unusual behaviors, due of the fact that they have an  internal slot: success
+row
+  link HTMLAllCollection #htmlallcollection
+  link [[IsHTMLDDA]] https://tc39.es/ecma262/#sec-IsHTMLDDA-internal-slot
+text The  abstract operation in JavaScript returns false when given objects implementing the  interface. success
+row
+  link ToBoolean https://tc39.es/ecma262/#sec-toboolean
+  link HTMLAllCollection #htmlallcollection
+text The  abstract operation, when given objects implementing the  interface, returns true when compared to the  and  values. (Comparisons using the  abstract operation, and IsLooselyEqual comparisons to other values such as strings or objects, are unaffected.) success
+link IsLooselyEqual https://tc39.es/ecma262/#sec-islooselyequal
+link HTMLAllCollection #htmlallcollection
+text undefined
+text null
+link IsStrictlyEqual https://tc39.es/ecma262/#sec-isstrictlyequal
+text The  operator in JavaScript returns the string  when applied to objects implementing the  interface. success
+row
+  link typeof https://tc39.es/ecma262/#sec-typeof-operator
+  text "\"undefined\""
+  link HTMLAllCollection #htmlallcollection
+text These special behaviors are motivated by a desire for compatibility with two classes of legacy content: one that uses the presence of  as a way to detect legacy user agents, and one that only supports those legacy user agents and uses the  object without testing for its presence first. success
+link document.all obsolete.html#dom-document-all
+link document.all obsolete.html#dom-document-all
+link [JAVASCRIPT] references.html#refsJAVASCRIPT
+text [=, ]   {     ;   (  );  (  )? ( ); (  )? (  ); // Note: HTMLAllCollection objects have a  and an  internal slot. };
+text Exposed
+text Window primary
+link LegacyUnenumerableNamedProperties https://webidl.spec.whatwg.org/#LegacyUnenumerableNamedProperties
+text interface danger
+text HTMLAllCollection
+text readonly danger
+text attribute danger
+text unsigned danger
+text long danger
+link length #dom-htmlallcollection-length
+text getter danger
+link Element https://dom.spec.whatwg.org/#interface-element
+text unsigned danger
+text long danger
+text index
+text getter danger
+link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection
+text or danger
+link Element https://dom.spec.whatwg.org/#interface-element
+link namedItem #dom-htmlallcollection-nameditem
+text DOMString danger
+text name
+link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection
+text or danger
+link Element https://dom.spec.whatwg.org/#interface-element
+link item #dom-htmlallcollection-item
+text optional danger
+text DOMString danger
+text nameOrIndex
+link "custom [[Call]] internal method" #HTMLAllCollection-call
+link [[IsHTMLDDA]] https://tc39.es/ecma262/#sec-IsHTMLDDA-internal-slot
+text The object's  are as defined for  objects.
+row
+  link "supported property indices" https://webidl.spec.whatwg.org/#dfn-supported-property-indices
+  link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection
+text The  consist of the non-empty values of all the  attributes of all the elements , and the non-empty values of all the  attributes of all the  , in , ignoring later duplicates, with the  of an element preceding its  if it contributes both, they differ from each other, and neither is the duplicate of an earlier entry.
+link "supported property names" https://webidl.spec.whatwg.org/#dfn-supported-property-names
+link id dom.html#the-id-attribute
+link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection
+text name
+link "\"all\"-named elements" #all-named-elements
+link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+link id dom.html#the-id-attribute
+text name
+text The  getter steps are to return the number of nodes .
+row
+  text length
+  link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection
+text The indexed property getter must return the result of  from  given the passed index.
+row
+  link "getting the \"all\"-indexed element" #concept-get-all-indexed
+  link this https://webidl.spec.whatwg.org/#this
+text The  method steps are to return the result of  from  given .
+row
+  text namedItem() danger
+  text name danger
+  link "getting the \"all\"-named element(s)" #concept-get-all-named
+  link this https://webidl.spec.whatwg.org/#this
+  text name
+text The  method steps are:
+text item() danger
+text nameOrIndex danger
+text If  was not provided, return null.
+text nameOrIndex
+text Return the result of  from , given .
+row
+  link "getting the \"all\"-indexed or named element(s)" #concept-get-all-indexed-or-named
+  link this https://webidl.spec.whatwg.org/#this
+  text nameOrIndex
+text The following elements are : , , , , , , , , , , , , , and
+text "\"all\"-named elements"
+link a text-level-semantics.html#the-a-element
+link button form-elements.html#the-button-element
+link embed iframe-embed-object.html#the-embed-element
+link form forms.html#the-form-element
+link frame obsolete.html#frame
+link frameset obsolete.html#frameset
+link iframe iframe-embed-object.html#the-iframe-element
+link img embedded-content.html#the-img-element
+link input input.html#the-input-element
+link map image-maps.html#the-map-element
+link meta semantics.html#the-meta-element
+link object iframe-embed-object.html#the-object-element
+link select form-elements.html#the-select-element
+link textarea form-elements.html#the-textarea-element
+text To  from an   given an index , return the  element in , or null if there is no such  element.
+text "get the \"all\"-indexed element"
+link HTMLAllCollection #htmlallcollection
+text collection
+text index
+text index
+text th
+text collection
+text index
+text th
+text To  from an   given a name , perform the following steps:
+row
+  text "get the \"all\"-named element(s)"
+  link HTMLAllCollection #htmlallcollection
+  text collection
+  text name
+text If  is the empty string, return null.
+text name
+text Let  be an  object rooted at the same  as , whose filter matches only elements that are either:
+row
+  text subCollection
+  link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection
+  link Document dom.html#document
+  text collection
+text with a  attribute equal to , or
+row
+  link "\"all\"-named elements" #all-named-elements
+  text name
+  text name
+text elements with an  equal to .
+row
+  link ID https://dom.spec.whatwg.org/#concept-id
+  text name
+text If there is exactly one element in , then return that element.
+text subCollection
+text Otherwise, if  is empty, return null.
+text subCollection
+text Otherwise, return .
+text subCollection
+text To  from an   given :
+row
+  text "get the \"all\"-indexed or named element(s)"
+  link HTMLAllCollection #htmlallcollection
+  text collection
+  text nameOrIndex
+text If ,  to a JavaScript String value, is an , return the result of  from  given the number represented by .
+text nameOrIndex
+link converted https://webidl.spec.whatwg.org/#es-type-mapping
+link "array index property name" https://webidl.spec.whatwg.org/#dfn-array-index-property-name
+link "getting the \"all\"-indexed element" #concept-get-all-indexed
+text collection
+text nameOrIndex
+text Return the result of  from  given .
+row
+  link "getting the \"all\"-named element(s)" #concept-get-all-named
+  text collection
+  text nameOrIndex
+h3 2.6.4.1.1 [[Call]] ( thisArgument, argumentsList )
+text If 's  is zero, or if [0] is undefined, return null.
+row
+  text argumentsList
+  link size https://infra.spec.whatwg.org/#list-size
+  text argumentsList
+text Let  be the result of  [0] to a .
+row
+  text nameOrIndex
+  link converting https://webidl.spec.whatwg.org/#es-type-mapping
+  text argumentsList
+  link DOMString https://webidl.spec.whatwg.org/#idl-DOMString
+text Let  be the result of  from this  given .
+row
+  text result
+  link "getting the \"all\"-indexed or named element(s)" #concept-get-all-indexed-or-named
+  link HTMLAllCollection #htmlallcollection
+  text nameOrIndex
+text Return the result of   to an ECMAScript value.
+row
+  link converting https://webidl.spec.whatwg.org/#es-type-mapping
+  text result
+text The  is ignored, and thus code such as  will still search for elements. ( does not exist, since  does not inherit from .) success
+text thisArgument success
+text "Function.prototype.call.call(document.all, null, \"x\")"
+text document.all.call
+text document.all
+text Function.prototype
+h3 2.6.4.2 The HTMLFormControlsCollection interface
+text The  interface is used for  of  in  elements.
+row
+  link HTMLFormControlsCollection #htmlformcontrolscollection
+  link collections https://dom.spec.whatwg.org/#concept-collection
+  link "listed elements" forms.html#category-listed
+  link form forms.html#the-form-element
+button ✔MDN
+text [=]   :  { // inherits  and ()  (  )? ( ); // shadows inherited  }; [=]   :  {   ; };
+text Exposed
+text Window primary
+text interface danger
+text HTMLFormControlsCollection
+link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection
+link length https://dom.spec.whatwg.org/#dom-htmlcollection-length
+link item https://dom.spec.whatwg.org/#dom-htmlcollection-item
+text getter danger
+link RadioNodeList #radionodelist
+text or danger
+link Element https://dom.spec.whatwg.org/#interface-element
+link namedItem #dom-htmlformcontrolscollection-nameditem
+text DOMString danger
+text name
+link namedItem() https://dom.spec.whatwg.org/#dom-htmlcollection-nameditem
+text Exposed
+text Window primary
+text interface danger
+text RadioNodeList
+link NodeList https://dom.spec.whatwg.org/#interface-nodelist
+text attribute danger
+text DOMString danger
+link value #dom-radionodelist-value
+text .
+row
+  text collection
+  link length https://dom.spec.whatwg.org/#dom-htmlcollection-length
+text Returns the number of elements in . success
+text collection success
+text = .()
+row
+  text element
+  text collection
+  link item https://dom.spec.whatwg.org/#dom-htmlcollection-item
+  text index
+text = []
+row
+  text element
+  text collection
+  text index
+text Returns the item at index  in . The items are sorted in . success
+row
+  text index success
+  text collection success
+  link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+row
+  text = .()
+  row
+    text element
+    text collection
+    link namedItem #dom-htmlformcontrolscollection-nameditem
+    text name
+  button ✔MDN
+text = .()
+row
+  text radioNodeList
+  text collection
+  link namedItem #dom-htmlformcontrolscollection-nameditem
+  text name
+text = []
+row
+  text element
+  text collection
+  text name
+text = []
+row
+  text radioNodeList
+  text collection
+  text name
+text Returns the item with  or   from . success
+row
+  link ID https://dom.spec.whatwg.org/#concept-id
+  link name form-control-infrastructure.html#attr-fe-name
+  text name success
+  text collection success
+text If there are multiple matching items, then a  object containing all those elements is returned. success
+link RadioNodeList #radionodelist
+text .
+row
+  text radioNodeList
+  link value #dom-radionodelist-value
+text Returns the value of the first checked radio button represented by . success
+text radioNodeList success
+text . =
+row
+  text radioNodeList
+  link value #dom-radionodelist-value
+  text value
+text Checks the first radio button represented by  that has value . success
+row
+  text radioNodeList success
+  text value success
+text The object's  are as defined for  objects.
+row
+  link "supported property indices" https://webidl.spec.whatwg.org/#dfn-supported-property-indices
+  link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection
+text The  consist of the non-empty values of all the  and  attributes of all the elements , in , ignoring later duplicates, with the  of an element preceding its  if it contributes both, they differ from each other, and neither is the duplicate of an earlier entry.
+link "supported property names" https://webidl.spec.whatwg.org/#dfn-supported-property-names
+link id dom.html#the-id-attribute
+link name form-control-infrastructure.html#attr-fe-name
+link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+link id dom.html#the-id-attribute
+link name form-control-infrastructure.html#attr-fe-name
+text The  method must act according to the following algorithm:
+text namedItem() danger
+text name danger
+text If  is the empty string, return null and stop the algorithm.
+text name
+text If, at the time the method is called, there is exactly one node in the collection that has either an  attribute or a  attribute equal to , then return that node and stop the algorithm.
+row
+  link id dom.html#the-id-attribute
+  link name form-control-infrastructure.html#attr-fe-name
+  text name
+text Otherwise, if there are no nodes in the collection that have either an  attribute or a  attribute equal to , then return null and stop the algorithm.
+row
+  link id dom.html#the-id-attribute
+  link name form-control-infrastructure.html#attr-fe-name
+  text name
+text Otherwise, create a new  object representing a  view of the  object, further filtered so that the only nodes in the  object are those that have either an  attribute or a  attribute equal to . The nodes in the  object must be sorted in .
+link RadioNodeList #radionodelist
+link live infrastructure.html#live
+link HTMLFormControlsCollection #htmlformcontrolscollection
+link RadioNodeList #radionodelist
+link id dom.html#the-id-attribute
+link name form-control-infrastructure.html#attr-fe-name
+text name
+link RadioNodeList #radionodelist
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+text Return that  object.
+link RadioNodeList #radionodelist
+text Members of the  interface inherited from the  interface must behave as they would on a  object.
+row
+  link RadioNodeList #radionodelist
+  link NodeList https://dom.spec.whatwg.org/#interface-nodelist
+  link NodeList https://dom.spec.whatwg.org/#interface-nodelist
+button ✔MDN
+text The  IDL attribute on the  object, on getting, must return the value returned by running the following steps:
+row
+  text value
+  link RadioNodeList #radionodelist
+text Let  be the first element in  represented by the  object that is an  element whose  attribute is in the  state and whose  is true. Otherwise, let it be null.
+text element
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+link RadioNodeList #radionodelist
+link input input.html#the-input-element
+link type input.html#attr-input-type
+link "Radio Button" input.html#radio-button-state-(type=radio)
+link checkedness form-control-infrastructure.html#concept-fe-checked
+text If  is null, return the empty string.
+text element
+text "If  is an element with no  attribute, return the string \"\"."
+row
+  text element
+  link value input.html#attr-input-value
+  text on
+text Otherwise, return the value of 's  attribute.
+row
+  text element
+  link value input.html#attr-input-value
+text On setting, the  IDL attribute must run the following steps:
+link value #dom-radionodelist-value
+text "If the new value is the string \"\": let  be the first element in  represented by the  object that is an  element whose  attribute is in the  state and whose  content attribute is either absent, or present and equal to the new value, if any. If no such element exists, then instead let  be null."
+text on
+text element
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+link RadioNodeList #radionodelist
+link input input.html#the-input-element
+link type input.html#attr-input-type
+link "Radio Button" input.html#radio-button-state-(type=radio)
+link value input.html#attr-input-value
+text element
+text Otherwise: let  be the first element in  represented by the  object that is an  element whose  attribute is in the  state and whose  content attribute is present and equal to the new value, if any. If no such element exists, then instead let  be null.
+text element
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+link RadioNodeList #radionodelist
+link input input.html#the-input-element
+link type input.html#attr-input-type
+link "Radio Button" input.html#radio-button-state-(type=radio)
+link value input.html#attr-input-value
+text element
+text If  is not null, then set its  to true.
+row
+  text element
+  link checkedness form-control-infrastructure.html#concept-fe-checked
+h3 2.6.4.3 The HTMLOptionsCollection interface
+button ✔MDN
+text The  interface is used for  of  elements. It is always rooted on a  element and has attributes and methods that manipulate that element's descendants.
+row
+  link HTMLOptionsCollection #htmloptionscollection
+  link collections https://dom.spec.whatwg.org/#concept-collection
+  link option form-elements.html#the-option-element
+  link select form-elements.html#the-select-element
+text [=]   :  { // inherits (), () []    ; // shadows inherited  []   (  , ? ); []  ((  ) ,  (  )?  = ); []  ( ); []   ; };
+text Exposed
+text Window primary
+text interface danger
+text HTMLOptionsCollection
+link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection
+link item https://dom.spec.whatwg.org/#dom-htmlcollection-item
+link namedItem https://dom.spec.whatwg.org/#dom-htmlcollection-nameditem
+link CEReactions custom-elements.html#cereactions
+text attribute danger
+text unsigned danger
+text long danger
+link length #dom-htmloptionscollection-length
+link length https://dom.spec.whatwg.org/#dom-htmlcollection-length
+link CEReactions custom-elements.html#cereactions
+link setter #dom-htmloptionscollection-setter
+text undefined danger
+text unsigned danger
+text long danger
+text index
+link HTMLOptionElement form-elements.html#htmloptionelement
+text option
+link CEReactions custom-elements.html#cereactions
+text undefined danger
+link add #dom-htmloptionscollection-add
+link HTMLOptionElement form-elements.html#htmloptionelement
+text or danger
+link HTMLOptGroupElement form-elements.html#htmloptgroupelement
+text element
+text optional danger
+link HTMLElement dom.html#htmlelement
+text or danger
+text long danger
+text before
+text null danger
+link CEReactions custom-elements.html#cereactions
+text undefined danger
+link remove #dom-htmloptionscollection-remove
+text long danger
+text index
+link CEReactions custom-elements.html#cereactions
+text attribute danger
+text long danger
+link selectedIndex #dom-htmloptionscollection-selectedindex
+text .
+row
+  text collection
+  link length #dom-htmloptionscollection-length
+text Returns the number of elements in . success
+text collection success
+text . =
+row
+  text collection
+  link length #dom-htmloptionscollection-length
+  text value
+text When set to a smaller number than the existing length, truncates the number of  elements in the container corresponding to . success
+link option form-elements.html#the-option-element
+text collection success
+text When set to a greater number than the existing length, if that number is less than or equal to 100000, adds new blank  elements to the container corresponding to . success
+link option form-elements.html#the-option-element
+text collection success
+text = .()
+row
+  text element
+  text collection
+  link item https://dom.spec.whatwg.org/#dom-htmlcollection-item
+  text index
+text = []
+row
+  text element
+  text collection
+  text index
+text Returns the item at index  in . The items are sorted in . success
+row
+  text index success
+  text collection success
+  link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+text [] =
+row
+  text collection
+  text index
+  text element
+text When  is a greater number than the number of items in , adds new blank  elements in the corresponding container. success
+row
+  text index success
+  text collection success
+  link option form-elements.html#the-option-element
+text When set to null, removes the item at index  from . success
+row
+  text index success
+  text collection success
+text When set to an  element, adds or replaces it at index  in . success
+row
+  link option form-elements.html#the-option-element
+  text index success
+  text collection success
+text = .()
+row
+  text element
+  text collection
+  link namedItem https://dom.spec.whatwg.org/#dom-htmlcollection-nameditem
+  text name
+text = []
+row
+  text element
+  text collection
+  text name
+text Returns the item with  or   from . success
+row
+  link ID https://dom.spec.whatwg.org/#concept-id
+  link name obsolete.html#attr-option-name
+  text name success
+  text collection success
+text If there are multiple matching items, then the first is returned. success
+text .([, ])
+row
+  text collection
+  link add #dom-htmloptionscollection-add
+  text element
+  text before
+text Inserts  before the node given by . success
+row
+  text element success
+  text before success
+text The  argument can be a number, in which case  is inserted before the item with that number, or an element from , in which case  is inserted before that element. success
+text before success
+text element success
+text collection success
+text element success
+text If  is omitted, null, or a number out of range, then  will be added at the end of the list. success
+row
+  text before success
+  text element success
+text Throws a   if  is an ancestor of the element into which it is to be inserted. success
+row
+  link "\"HierarchyRequestError\"" https://webidl.spec.whatwg.org/#hierarchyrequesterror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+  text element success
+text .()
+row
+  text collection
+  link remove #dom-htmloptionscollection-remove
+  text index
+text Removes the item with index  from . success
+row
+  text index success
+  text collection success
+text .
+row
+  text collection
+  link selectedIndex #dom-htmloptionscollection-selectedindex
+text Returns the index of the first selected item, if any, or −1 if there is no selected item. success
+text . =
+row
+  text collection
+  link selectedIndex #dom-htmloptionscollection-selectedindex
+  text index
+text Changes the selection to the  element at index  in . success
+row
+  link option form-elements.html#the-option-element
+  text index success
+  text collection success
+text The object's  are as defined for  objects.
+row
+  link "supported property indices" https://webidl.spec.whatwg.org/#dfn-supported-property-indices
+  link HTMLCollection https://dom.spec.whatwg.org/#interface-htmlcollection
+text The  getter steps are to return the number of nodes .
+row
+  text length
+  link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection
+text The  setter steps are:
+link length #dom-htmloptionscollection-length
+text Let  be the number of nodes .
+row
+  text current
+  link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection
+text If the given value is greater than :
+text current
+text If the given value is greater than 100,000, then return.
+text Let  be  − .
+row
+  text n
+  text value
+  text current
+text to the  element on which  is rooted given .
+row
+  link "Append new option elements" #append-new-option-elements
+  link select form-elements.html#the-select-element
+  link this https://webidl.spec.whatwg.org/#this
+  text n
+text If the given value is less than :
+text current
+text Let  be  − .
+row
+  text n
+  text current
+  text value
+text Remove the last  nodes in the collection from their parent nodes.
+text n
+text Setting  never removes or adds any  elements, and never adds new children to existing  elements (though it can remove children from them). success
+row
+  link length #dom-htmloptionscollection-length
+  link optgroup form-elements.html#the-optgroup-element
+  link optgroup form-elements.html#the-optgroup-element
+text The  consist of the non-empty values of all the  and  attributes of all the elements , in , ignoring later duplicates, with the  of an element preceding its  if it contributes both, they differ from each other, and neither is the duplicate of an earlier entry.
+link "supported property names" https://webidl.spec.whatwg.org/#dfn-supported-property-names
+link id dom.html#the-id-attribute
+link name obsolete.html#attr-option-name
+link "represented by the collection" https://dom.spec.whatwg.org/#represented-by-the-collection
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+link id dom.html#the-id-attribute
+link name obsolete.html#attr-option-name
+text To  to a  element  given a non-negative integer :
+row
+  text append new option elements
+  link select form-elements.html#the-select-element
+  text select
+  text count
+text Let  be the result of  given 's .
+row
+  text fragment
+  link "creating a document fragment" https://dom.spec.whatwg.org/#create-a-document-fragment
+  text select
+  link "node document" https://dom.spec.whatwg.org/#concept-node-document
+text Append  new  elements to .
+row
+  text count
+  link option form-elements.html#the-option-element
+  text fragment
+text to .
+row
+  link Append https://dom.spec.whatwg.org/#concept-node-append
+  text fragment
+  text select
+text To  or  for an  , given a property index  and a new value :
+link "set the value of a new indexed property" https://webidl.spec.whatwg.org/#dfn-set-the-value-of-a-new-indexed-property
+link "set the value of an existing indexed property" https://webidl.spec.whatwg.org/#dfn-set-the-value-of-an-existing-indexed-property
+link HTMLOptionsCollection #htmloptionscollection
+text collection
+text index
+text value
+text If  is null, then  from  given  and return.
+row
+  text value
+  link "remove an option" #htmloptionscollection-remove-an-option
+  text collection
+  text index
+text Let  be the number of nodes  by .
+row
+  text length
+  link represented https://dom.spec.whatwg.org/#represented-by-the-collection
+  text collection
+text Let  be  − .
+row
+  text delta
+  text index
+  text length
+text If  is greater than 0, then  to the  element on which  is rooted given .
+row
+  text delta
+  link "append new option elements" #append-new-option-elements
+  link select form-elements.html#the-select-element
+  text collection
+  text delta
+text If  is greater than or equal to 0, then   to the  element on which  is rooted. Otherwise,  the th element in  by .
+text delta
+link append https://dom.spec.whatwg.org/#concept-node-append
+text value
+link select form-elements.html#the-select-element
+text collection
+link replace https://dom.spec.whatwg.org/#concept-node-replace
+text index
+text collection
+text value
+text The  method steps are:
+text add(, ) danger
+row
+  text element danger
+  text before danger
+text If  is an ancestor of the  element on which  is rooted, then throw a  .
+row
+  text element
+  link select form-elements.html#the-select-element
+  link this https://webidl.spec.whatwg.org/#this
+  link "\"HierarchyRequestError\"" https://webidl.spec.whatwg.org/#hierarchyrequesterror
+  link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text If  is an element, but that element isn't a descendant of the  element on which  is rooted, then throw a  .
+text before
+link select form-elements.html#the-select-element
+link this https://webidl.spec.whatwg.org/#this
+link "\"NotFoundError\"" https://webidl.spec.whatwg.org/#notfounderror
+link DOMException https://webidl.spec.whatwg.org/#dfn-DOMException
+text If  and  are the same element, then return.
+row
+  text element
+  text before
+text Let  be null.
+text reference
+text If  is a node, then set  to . Otherwise, if  is an integer and there is a th node in , then set  to that node.
+row
+  text before
+  text reference
+  text before
+  text before
+  text before
+  link this https://webidl.spec.whatwg.org/#this
+  text reference
+text Let  be 's parent node if  is not null; otherwise the  element on which  is rooted.
+row
+  text parent
+  text reference
+  text reference
+  link select form-elements.html#the-select-element
+  link this https://webidl.spec.whatwg.org/#this
+text into  node before .
+row
+  link Pre-insert https://dom.spec.whatwg.org/#concept-node-pre-insert
+  text element
+  text parent
+  text reference
+text To  from an   given an integer :
+row
+  text remove an option
+  link HTMLOptionsCollection #htmloptionscollection
+  text collection
+  text index
+text If the number of nodes  by  is 0, then return.
+row
+  link represented https://dom.spec.whatwg.org/#represented-by-the-collection
+  text collection
+text If  is not a number greater than or equal to 0 and less than the number of nodes  by , then return.
+row
+  text index
+  link represented https://dom.spec.whatwg.org/#represented-by-the-collection
+  text collection
+text Let  be the th element in .
+row
+  text element
+  text index
+  text collection
+text Remove  from its parent node.
+text element
+text The  method steps are to  from  given .
+row
+  text remove() danger
+  text index danger
+  link "remove an option" #htmloptionscollection-remove-an-option
+  link this https://webidl.spec.whatwg.org/#this
+  text index
+text The  getter steps are to return the  of the  element on which  is rooted.
+row
+  text selectedIndex
+  link "selected index" form-elements.html#select-selected-index
+  link select form-elements.html#the-select-element
+  link this https://webidl.spec.whatwg.org/#this
+text The  setter steps are to  of the  element on which  is rooted to the given value.
+row
+  link selectedIndex #dom-htmloptionscollection-selectedindex
+  link "set the selected index" form-elements.html#set-the-selected-index
+  link select form-elements.html#the-select-element
+  link this https://webidl.spec.whatwg.org/#this
+h3 2.6.5 The DOMStringList interface
+button ✔MDN
+text The  interface is a non-fashionable retro way of representing a list of strings.
+link DOMStringList #domstringlist
+text [=(,)]   {     ;  ? (  );  ( ); };
+text Exposed
+text Window primary
+text Worker primary
+text interface danger
+text DOMStringList
+text readonly danger
+text attribute danger
+text unsigned danger
+text long danger
+link length #dom-domstringlist-length
+text getter danger
+text DOMString danger
+link item #dom-domstringlist-item
+text unsigned danger
+text long danger
+text index
+text boolean danger
+link contains #dom-domstringlist-contains
+text DOMString danger
+text string
+text New APIs must use  or equivalent rather than . danger
+row
+  text sequence<DOMString>
+  link DOMStringList #domstringlist
+text .
+row
+  text strings
+  link length #dom-domstringlist-length
+text Returns the number of strings in . success
+text strings success
+text []
+row
+  text strings
+  text index
+text .()
+row
+  text strings
+  link item #dom-domstringlist-item
+  text index
+text Returns the string with index  from . success
+row
+  text index success
+  text strings success
+text .()
+row
+  text strings
+  link contains #dom-domstringlist-contains
+  text string
+text Returns true if  contains , and false otherwise. success
+row
+  text strings success
+  text string success
+text Each  object has an associated .
+row
+  link DOMStringList #domstringlist
+  link list https://infra.spec.whatwg.org/#list
+text The  interface . The  are the  of 's associated list.
+row
+  link DOMStringList #domstringlist
+  link "supports indexed properties" https://webidl.spec.whatwg.org/#dfn-support-indexed-properties
+  link "supported property indices" https://webidl.spec.whatwg.org/#dfn-supported-property-indices
+  link indices https://infra.spec.whatwg.org/#list-get-the-indices
+  link this https://webidl.spec.whatwg.org/#this
+button ✔MDN
+text The  getter steps are to return 's associated list's .
+row
+  text length
+  link this https://webidl.spec.whatwg.org/#this
+  link size https://infra.spec.whatwg.org/#list-size
+button ✔MDN
+text The  method steps are to return the th item in 's associated list, or null if  plus one is greater than 's associated list's .
+text item() danger
+text index danger
+text index
+link this https://webidl.spec.whatwg.org/#this
+text index
+link this https://webidl.spec.whatwg.org/#this
+link size https://infra.spec.whatwg.org/#list-size
+button ✔MDN
+text The  method steps are to return true if 's associated list  , and false otherwise.
+row
+  text contains() danger
+  text string danger
+  link this https://webidl.spec.whatwg.org/#this
+  link contains https://infra.spec.whatwg.org/#list-contain
+  text string
+text —  —
+row
+  link "← 2.4 URLs" urls-and-fetching.html
+  link "Table of Contents" ./
+  link "2.7 Safe passing of structured data →" structured-data.html

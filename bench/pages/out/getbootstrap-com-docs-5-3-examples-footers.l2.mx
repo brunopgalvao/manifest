@@ -1,0 +1,84 @@
+@getbootstrap_com_docs_5_3_examples_foote rev=0 @0,0,728,616
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,21
+  text © 2025 Company, Inc @17,65,147,21
+  link Bootstrap / @176,65,65,21
+  row @253,65,269,21
+    link Home # @253,65,40,21
+    link Features # @305,65,58,21
+    link Pricing # @375,65,46,21
+    link FAQs # @433,65,37,21
+    link About # @482,65,40,21
+row @17,98,694,20
+  row @17,98,224,20
+    link Bootstrap / @17,98,65,20
+    text © 2025 Company, Inc @94,98,147,20
+  row @253,98,144,20
+    link Instagram # @253,98,66,20
+    link Facebook # @331,98,66,20
+row @17,130,694,20
+  link Home # @17,130,40,20
+  link Features # @69,130,58,20
+  link Pricing # @139,130,46,20
+  link FAQs # @197,130,37,20
+  link About # @246,130,40,20
+text © 2025 Company, Inc @17,162,694,21
+row @17,195,694,180
+  col @17,258,65,53
+    link Bootstrap / @17,258,65,21
+    text © 2025 @17,291,65,20
+  col @94,195,58,180
+    h3 Section @94,195,58,18
+    link Home # @94,225,58,21
+    link Features # @94,258,58,20
+    link Pricing # @94,290,58,20
+    link FAQs # @94,322,58,20
+    link About # @94,354,58,21
+  col @164,195,58,180
+    h3 Section @164,195,58,18
+    link Home # @164,225,58,21
+    link Features # @164,258,58,20
+    link Pricing # @164,290,58,20
+    link FAQs # @164,322,58,20
+    link About # @164,354,58,21
+  col @234,195,58,180
+    h3 Section @234,195,58,18
+    link Home # @234,225,58,21
+    link Features # @234,258,58,20
+    link Pricing # @234,290,58,20
+    link FAQs # @234,322,58,20
+    link About # @234,354,58,21
+row @17,387,694,180
+  col @17,387,58,180
+    h3 Section @17,387,58,19
+    link Home # @17,418,58,20
+    link Features # @17,450,58,20
+    link Pricing # @17,482,58,20
+    link FAQs # @17,514,58,21
+    link About # @17,547,58,20
+  col @87,387,58,180
+    h3 Section @87,387,58,19
+    link Home # @87,418,58,20
+    link Features # @87,450,58,20
+    link Pricing # @87,482,58,20
+    link FAQs # @87,514,58,21
+    link About # @87,547,58,20
+  col @157,387,58,180
+    h3 Section @157,387,58,19
+    link Home # @157,418,58,20
+    link Features # @157,450,58,20
+    link Pricing # @157,482,58,20
+    link FAQs # @157,514,58,21
+    link About # @157,547,58,20
+  col @227,417,339,120
+    h3 Subscribe to our newsletter @227,417,339,18
+    text Monthly digest of what's new and exciting from us. @227,447,339,21
+    row @227,480,339,57
+      text Email address @227,498,93,21
+      field "Email address" email @332,480,80,57
+      button Subscribe primary @424,490,99,37
+row @17,579,694,20
+  text © 2025 Company, Inc. All rights reserved. @17,579,280,20
+  row @309,579,144,20
+    link Instagram # @309,579,66,20
+    link Facebook # @387,579,66,20

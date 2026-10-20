@@ -96,8 +96,6 @@ row
     text Flag content with a ribbon, or track progress right inside the card.
     row
       col
-        region 20x20
-          path "M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873l-6.158 -3.245" fill:none stroke:#ffffff width:1.5
         h2 Card with top ribbon
         text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at consectetur culpa ducimus eum fuga fugiat, ipsa iusto, modi nostrum recusandae reiciendis saepe.
       col
@@ -388,6 +386,7 @@ row
     link "Source code" https://github.com/tabler/tabler
     link Sponsor https://github.com/sponsors/codecalm
   row
+    text Copyright © 2026 . All rights reserved.
     link Tabler .
     link v1.6.1 ./changelog.html
 button Customize primary

@@ -1,0 +1,309 @@
+@en_wikipedia_org_wiki_help_contents rev=0 @0,0,728,4478
+link "Jump to content" #bodyContent @17,17,694,20
+row @17,49,694,541
+  row @17,49,345,541
+    col @17,49,245,541
+      button "Main menu" @17,49,245,37
+      text Main menu @17,98,245,20
+      row @17,130,245,41
+        text Main menu @17,130,57,41
+        button "Move Main menu to sidebar" @86,132,176,36
+      link "Main page" /wiki/Main_Page @17,183,245,20
+      link Contents /wiki/Wikipedia:Contents @17,215,245,20
+      link "Current events" /wiki/Portal:Current_events @17,247,245,20
+      link "Random article" /wiki/Special:Random @17,279,245,21
+      link "About Wikipedia" /wiki/Wikipedia:About @17,312,245,20
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us @17,344,245,20
+      text Contribute @17,376,245,21
+      link Help /wiki/Help:Contents @17,409,245,20
+      link "Learn to edit" /wiki/Help:Introduction @17,441,245,20
+      link "Community portal" /wiki/Wikipedia:Community_portal @17,473,245,20
+      link "Recent changes" /wiki/Special:RecentChanges @17,505,245,21
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard @17,538,245,20
+      link "Special pages" /wiki/Special:SpecialPages @17,570,245,20
+    link /wiki/Main_Page /wiki/Main_Page @274,310,88,20
+  row @374,282,337,75
+    row @374,282,152,75
+      col @374,282,74,75
+        field "Search Wikipedia" search @374,282,74,75
+      button Search @460,302,66,36
+    row @538,300,173,40
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en @538,310,37,20
+      link "Create account" @587,300,80,40
+      link "Log in" @679,300,32,40
+row @17,602,694,3859
+  row @17,602,658,3859
+    row @17,2487,6,89
+      h1 Help:Contents @17,2519,0,25
+      col @29,2487,0,89
+        button "190 languages" @29,2487,30,36
+        text 190 languages primary @29,2535,0,41
+    row @35,1784,11,1495
+      row @35,2511,0,41
+        link "Help page" /wiki/Help:Contents @35,2511,0,41
+        link Talk /wiki/Help_talk:Contents @47,2521,0,21
+      row @47,1784,0,1495
+        row @47,2511,0,41
+          link Read /wiki/Help:Contents @47,2521,0,21
+          link "View source" @59,2511,0,41
+          link "View history" @71,2511,0,41
+        col @59,1784,0,1495
+          button Tools @59,1784,30,36
+          text Tools @59,1832,0,20
+          row @59,1864,0,36
+            text Tools @59,1872,0,20
+            button "Move Tools to sidebar" @71,1864,30,36
+          text General @59,1912,0,21
+          link "What links here" /wiki/Special:WhatLinksHere/Help:Contents @59,1945,0,61
+          link "Related changes" /wiki/Special:RecentChangesLinked/Help:Contents @59,2018,0,40
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Help:Contents&oldid=1374830750 @59,2070,0,41
+          link "Page information" @59,2123,0,40
+          link "Get shortened URL" @59,2175,0,61
+          link "Switch to legacy parser" @59,2248,0,82
+          button "Expand all" @59,2342,30,36
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q914807#sitelinks-wikipedia @59,2390,0,61
+          text Print/export @59,2463,0,20
+          link "Download as PDF" @59,2495,0,61
+          link "Printable version" @59,2568,0,41
+          text In other projects @59,2621,0,60
+          link "Abstract Wikipedia" https://abstract.wikipedia.org/wiki/Help:Contents @59,2693,0,41
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Help:Contents @59,2746,0,41
+          link MediaWiki https://www.mediawiki.org/wiki/Help:Contents @59,2799,0,20
+          link Meta-Wiki https://meta.wikimedia.org/wiki/Help:Contents @59,2831,0,20
+          link "Multilingual Wikisource" https://wikisource.org/wiki/Wikisource:Help @59,2863,0,41
+          link Wikispecies https://species.wikimedia.org/wiki/Help:Contents @59,2916,0,20
+          link Wikibooks https://en.wikibooks.org/wiki/Help:Contents @59,2948,0,20
+          link Wikidata https://www.wikidata.org/wiki/Help:Contents @59,2980,0,21
+          link Wikifunctions https://www.wikifunctions.org/wiki/Help:Contents @59,3013,0,20
+          link Wikinews https://en.wikinews.org/wiki/Help:Contents @59,3045,0,20
+          link Wikiquote https://en.wikiquote.org/wiki/Help:Contents @59,3077,0,21
+          link Wikisource https://en.wikisource.org/wiki/Help:Contents @59,3110,0,20
+          link Wikiversity https://en.wikiversity.org/wiki/Help:Contents @59,3142,0,20
+          link Wikivoyage https://en.wikivoyage.org/wiki/Wikivoyage:Help @59,3174,0,21
+          link Wiktionary https://en.wiktionary.org/wiki/Help:Contents @59,3207,0,20
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q914807 @59,3239,0,40
+    col @58,2336,5,391
+      row @58,2336,5,36
+        text Appearance @58,2344,0,20
+        button "Hide Appearance" @70,2336,30,36
+      text Text @58,2384,5,20
+      text Small @58,2416,5,21
+      text Standard @58,2449,5,20
+      text Large @58,2481,5,20
+      text Width @58,2513,5,20
+      text Standard @58,2545,5,21
+      text Wide @58,2578,5,20
+      text Color @58,2610,5,20
+      text Automatic @58,2642,5,21
+      text Light @58,2675,5,20
+      text Dark @58,2707,5,20
+    col @75,602,600,3859
+      row @75,602,600,21
+        link "Wikipedia Help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk @75,602,136,21
+        link "This page is semi-protected." https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#semi @223,602,190,21
+      text From Wikipedia, the free encyclopedia @75,635,600,20
+      text .mw-parser-output .helpContents-wrapper{display:flex;flex-wrap:wrap}.mw-parser-output .helpContents-header{flex:1 0 100%;padding-bottom:1em;border-bottom:1px solid .helpContents-section{position:relative;flex:1 0 50%;min-width:380px;box-sizing:border-box;margin:1em 0;padding-left:30px;padding-right:20px}.mw-parser-output .helpContents-section h2{font-size:21px;padding:0;margin-top:1em;margin-bottom:0.25em;line-height:1.5}.mw-parser-output .helpContents-section ul{margin-left:0;padding-left:0}.mw-parser-output .helpContents-icon{position:absolute;top:25px;left:0;line-height:1;opacity:0.7}.mw-parser-output .helpContents-additional-search{text-align:center;margin-bottom:1em} #a2a9b1;text-align:center}.mw-parser-output @75,667,600,203
+      row @75,882,600,2219
+        col @75,1388,37,1207
+          text This page provides . @75,1388,37,81
+          text help with the most common questions about @75,1481,37,142
+          link Wikipedia https://en.wikipedia.org/wiki/Wikipedia @75,1635,37,21
+          text You can also use the search box below @75,1668,37,162
+          row @75,1842,37,93
+            field "Search Help pages" @75,1842,0,93
+            button fulltext @87,1870,30,36
+          text Or browse the or the to find help pages. For related to using and editing Wikipedia, see the and the . @75,1947,37,406
+          link "Help menu" https://en.wikipedia.org/wiki/Help:Menu @75,2365,37,40
+          link "Help directory" https://en.wikipedia.org/wiki/Help:Directory @75,2417,37,41
+          link "interactive assistance" https://en.wikipedia.org/wiki/Wikipedia:Request_directory @75,2470,37,40
+          link "help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk @75,2522,37,41
+          link Teahouse https://en.wikipedia.org/wiki/Wikipedia:TH/Q @75,2575,37,20
+        col @124,1365,109,1254
+          h2 Read or find an article @124,1365,109,42
+          text The and our contain the most commonly sought information about Wikipedia. @124,1419,109,142
+          row @124,1573,109,41
+            link "Readers' FAQ" https://en.wikipedia.org/wiki/Wikipedia:FAQ/Readers @124,1573,54,41
+            link "about page" https://en.wikipedia.org/wiki/Wikipedia:About @190,1573,43,41
+          text For simple searches, there is a search bar at the top of every page. Type what you are looking for in the box. Suggested matches will appear in a dropdown list. Select any page in the list to go to that page. Or, select the "" button, or press , to go to a full search result. For advanced searches, see . @124,1626,109,426
+          text Search @124,2064,109,20
+          text ↵ Enter @124,2096,109,21
+          link Help:Searching https://en.wikipedia.org/wiki/Help:Searching @124,2129,109,20
+          text There are other ways to browse and explore Wikipedia articles; many can be found at . See our for cautions about Wikipedia's limitations. @124,2161,109,203
+          link Wikipedia:Contents https://en.wikipedia.org/wiki/Wikipedia:Contents @124,2376,109,20
+          link disclaimer https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer @124,2408,109,21
+          text For , press the link at the very bottom of every page. @124,2441,109,81
+          link "mobile access" https://en.wikipedia.org/wiki/Help:Mobile_access @124,2534,109,20
+          link "mobile view" https://en.wikipedia.org/w/index.php?title=Help:Contents&mobileaction=toggle_view_mobile @124,2566,109,20
+          link "desktop view" https://en.wikipedia.org/wiki/Help:Contents @124,2598,109,21
+        col @245,882,69,2219
+          h2 Edit an article @245,882,69,43
+          text Contributing is easy: see . For a quick summary on participating, see , and for a friendly tutorial, see . The outlines our key policies and guidelines, while the and can remind you of basic . @245,937,69,446
+          link "how to edit a page" https://en.wikipedia.org/wiki/Help:Editing @245,1395,69,61
+          link "contributing to Wikipedia" https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia @245,1468,69,61
+          link "our introduction" https://en.wikipedia.org/wiki/Help:Introduction @245,1541,69,41
+          link "Simplified Ruleset" https://en.wikipedia.org/wiki/Wikipedia:Simplified_ruleset @245,1594,69,40
+          link "Simplified Manual of Style" https://en.wikipedia.org/wiki/Wikipedia:SMOS @245,1646,69,61
+          link Cheatsheet https://en.wikipedia.org/wiki/Help:Cheatsheet @245,1719,69,20
+          link "wiki markup" https://en.wikipedia.org/wiki/Help:Wikitext @245,1751,69,41
+          text in improving articles! When adding facts, please so others may verify them. If you are affiliated with the article subject, please see our . @245,1804,69,365
+          link "Be bold" https://en.wikipedia.org/wiki/Wikipedia:Be_bold @245,2181,69,21
+          link "provide references" https://en.wikipedia.org/wiki/Help:Introduction_to_referencing/1 @245,2214,69,40
+          link "conflict of interest guide" https://en.wikipedia.org/wiki/Wikipedia:Plain_and_simple_conflict_of_interest_guide @245,2266,69,61
+          text The can help you undo malicious edits. @245,2339,69,102
+          link "simple guide to vandalism cleanup" https://en.wikipedia.org/wiki/Help:Simple_guide_to_vandalism_cleanup @245,2453,69,81
+          text If you're looking for places you can help out, the is the place to go, or check out what else is happening at the . You can practice editing and experiment in . @245,2546,69,386
+          link "Task Center" https://en.wikipedia.org/wiki/Wikipedia:Task_Center @245,2944,69,40
+          link "community portal" https://en.wikipedia.org/wiki/Wikipedia:Community_portal @245,2996,69,41
+          text a @245,3049,69,20
+          link sandbox https://en.wikipedia.org/wiki/Wikipedia:Sandbox @245,3081,69,20
+        col @326,1167,76,1650
+          h2 Report a problem with an article @326,1167,76,85
+          text If there is a problem with an article about yourself, a family member, a friend or a colleague, please read . @326,1264,76,243
+          link "Biographies of living persons/Help" https://en.wikipedia.org/wiki/Wikipedia:Biographies_of_living_persons/Help @326,1519,76,61
+          text If you spot a problem with an article, you can fix it directly, by clicking on the "" link at the top of that page.  for more information. @326,1592,76,264
+          text Edit @326,1868,76,20
+          link "See the \"edit an article\" section of this page" #edit-heading @326,1900,76,102
+          text If you don't feel ready to fix the article yourself, post a message on the article's . This will bring the matter to the attention of others who work on that article. There is a "" link at the beginning of  article page. @326,2014,76,467
+          link "talk page" https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines @326,2493,76,20
+          text Talk @326,2525,76,20
+          text every @326,2557,76,21
+          text You can . If it's an article about you or your organization, see . @326,2590,76,142
+          link "contact us" https://en.wikipedia.org/wiki/Wikipedia:Contact_us_-_Readers @326,2744,76,20
+          link "Contact us – Subjects" https://en.wikipedia.org/wiki/Wikipedia:Contact_us_-_Subjects @326,2776,76,41
+        col @414,1173,40,1637
+          h2 Create a new article or upload media @414,1173,40,149
+          text Check to see if your topic is appropriate, then the will walk you through creating the article. @414,1334,40,325
+          link "Your first article" https://en.wikipedia.org/wiki/Wikipedia:Your_first_article @414,1671,40,61
+          link "Article wizard" https://en.wikipedia.org/wiki/Wikipedia:Article_wizard @414,1744,40,40
+          text Once you have created an article, see for guidance on how to improve it and what to include (like reference ). @414,1796,40,406
+          link "Writing better articles" https://en.wikipedia.org/wiki/Wikipedia:Writing_better_articles @414,2214,40,61
+          link citations https://en.wikipedia.org/wiki/Wikipedia:Citing_sources @414,2287,40,20
+          text For contributing images, audio or video files, see the . Then the will guide you through that process. @414,2319,40,345
+          link "Introduction to uploading images" https://en.wikipedia.org/wiki/Help:Introduction_to_uploading_images/1 @414,2676,40,82
+          link "Upload wizard" https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard @414,2770,40,40
+        col @466,962,35,2060
+          h2 FAQ and interactive help @466,962,35,85
+          text Answers to common problems can be found at . @466,1059,35,162
+          link "frequently asked questions" https://en.wikipedia.org/wiki/Wikipedia:FAQ @466,1233,35,61
+          text Or check out . @466,1306,35,61
+          link "where to ask questions or make comments" https://en.wikipedia.org/wiki/Wikipedia:Questions @466,1379,35,142
+          text New users should seek help at the if they're having problems while editing Wikipedia. @466,1533,35,264
+          link Teahouse https://en.wikipedia.org/wiki/Wikipedia:Teahouse @466,1809,35,20
+          text More complex questions can be posed at the . Volunteers will respond as soon as they're able. @466,1841,35,325
+          link "Help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk @466,2178,35,41
+          text Or and a volunteer will visit you there! @466,2231,35,162
+          link "ask for help on your talk page" https://en.wikipedia.org/w/index.php?title=Special:MyTalk&action=edit&section=new&preload=Help:Contents/helpmepreload&preloadtitle=Help+me%21 @466,2405,35,142
+          text You can get live help with editing in the . @466,2559,35,183
+          link "help chatroom" https://en.wikipedia.org/wiki/Wikipedia:IRC_help_disclaimer @466,2754,35,41
+          text For help with technical issues, ask at the . @466,2807,35,162
+          link "Village pump" https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(technical) @466,2981,35,41
+        col @513,1551,59,882
+          h2 Factual questions @513,1551,59,42
+          text If has not answered your question (), try the . Volunteers there will attempt to answer your questions on any topic, or point you toward the information you need. @513,1605,59,487
+          link "searching Wikipedia" https://en.wikipedia.org/wiki/Special:Search @513,2104,59,41
+          text for example, questions like "Which country has the world's largest fishing fleet?" @513,2157,59,223
+          link "Reference Desk" https://en.wikipedia.org/wiki/Wikipedia:Reference_desk @513,2392,59,41
+        col @584,1026,69,1931
+          h2 Tip of the day @584,1026,69,42
+          text Linking articles: the internal link @584,1080,69,102
+          text (AKA Wikilinks) are a great way to alert users to pertinent information. However, remember that can detract from an article. Only create links that are relevant to the context of the article. @584,1194,69,467
+          link "Internal links" https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Linking @584,1673,69,40
+          link "excessive linking" https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Linking#Overlinking_and_underlinking @584,1725,69,41
+          text Internal links are created by placing double around the word you wish to link; for example: . You can by adding the # sign and the name of the section after the article name. For example: . @584,1778,69,426
+          link brackets https://en.wikipedia.org/wiki/Bracket @584,2216,69,21
+          text [[Subject X]] @584,2249,69,40
+          link "link to a specific section" https://en.wikipedia.org/wiki/Help:Section#Section_linking @584,2301,69,61
+          text [[Subject X#The beginning]] @584,2374,69,61
+          row @584,2447,69,41
+            link "Prior tip" https://en.wikipedia.org/wiki/Wikipedia:Tip_of_the_day/October_8 @584,2447,6,41
+            text – @602,2457,1,21
+            link "Tips library" https://en.wikipedia.org/wiki/Wikipedia:Tips @615,2447,8,41
+            text – @635,2457,0,21
+            link "Next tip" https://en.wikipedia.org/wiki/Wikipedia:Tip_of_the_day/October_10 @647,2447,6,41
+          text Read more: @584,2500,69,40
+          row @584,2552,69,61
+            link "Wikipedia:Manual of Style/Linking" https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Linking @584,2552,69,61
+          row @584,2625,69,41
+            link "Help:Section linking" https://en.wikipedia.org/wiki/Help:Section#Section_linking @584,2625,69,41
+          text – @584,2678,69,20
+          row @584,2710,69,81
+            link "Become a Wikipedia tipster" https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_tipster @584,2710,31,81
+            link "Tips library, by subject" https://en.wikipedia.org/wiki/Wikipedia:Tips @627,2710,26,81
+          text To add this auto-updating daily tip to your user page, use @584,2803,69,122
+          row @584,2937,69,20
+            text {{ @584,2937,11,20
+            link totd https://en.wikipedia.org/wiki/Template:Totd @607,2937,23,20
+            text }} @642,2937,11,20
+        col @665,1785,10,413
+          h2 Additional searches @665,1785,10,43
+          text Search @665,1840,10,20
+          link "Frequently Asked Questions" https://en.wikipedia.org/wiki/Wikipedia:FAQ @665,1872,10,61
+          row @665,1945,10,58
+            field Field @665,1945,0,58
+            button fulltext @677,1956,30,36
+          text Search the @665,2015,10,40
+          link "help desk archives" https://en.wikipedia.org/wiki/Wikipedia:Help_desk/Archives @665,2067,10,61
+          row @665,2140,10,58
+            field Field @665,2140,0,58
+            button fulltext @677,2151,30,36
+      text .mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:"\a0 · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}} @75,3113,600,1239
+      table "hide.mw-parser-output .navbar{display inline;font-size 88%;font-weight normal}.mw-parser-output .navbar-collapse{float left;text-align left}.mw-parser-output .navbar-boxtext{word-spacing 0}.mw-parser-output .navbar ul{display inline-block;white-space nowrap;line-height inherit}.mw-parser-output .navbar-brackets before{margin-right -0.125em;content \"[ \"}.mw-parser-output .navbar-brackets after{margin-left -0.125em;content \" ]\"}.mw-parser-output .navbar li{word-spacing -0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration inherit}.mw-parser-output .navbar-mini abbr{font-variant small-caps;border-bottom none;text-decoration none;cursor inherit}.mw-parser-output .navbar-ct-full{font-size 114%;margin 0 7em}.mw-parser-output .navbar-ct-mini{font-size 114%;margin 0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color var(--color-base)!important}@media(prefers-color-scheme dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color var(--color-base)!important}}@media print{.mw-parser-output .navbar{display none!important}}vteBasic information on Wikipedia - (Search)" @75,4364,600,0
+        Help directory menu Teahouse (interactive help for new editors)
+        About Wikipedia | Administration FAQs Purpose Who writes Wikipedia? Organization Censorship In brief General disclaimer
+        Readers' FAQ | Student help Navigation Searching Viewing media Help Mobile access Parental advice Other languages Researching with Wikipedia Citing Wikipedia Copyright
+        Introductionsto contributing | Main introduction List of tutorials and introductions The answer Dos and don'ts Learning the ropes Common mistakes Newcomer primer Newcomer onboarding Simplified ruleset The "Missing Manual" Your first article Wizard Young Wikipedians The Wikipedia Adventure Accounts Why create an account? Logging in Email confirmation Editing Toolbar Conflict VisualEditor User guide
+        Pillars, policies and guidelines | Five pillars Manual of Style Simplified Etiquette Expectations Oversight Principles Ignore all rules The rules are principles Core content policies Policies and guidelines Vandalism Appealing blocks What Wikipedia is not
+        Getting help | Help menu Help desk Reference desk Category Requests for help Disputes resolution requests IRC live chat Tutorial Contact us
+        Wikipedia community | Departments Meetups WikiProjects Overview FAQ Village pump policy technical proposals idea lab wikimedia misc Newsletters: Signpost Library Newsletter GLAM Newsletter Informational: Community portal Dashboard Noticeboards Maintenance Task Center Essays Open letters
+        Sourcing and referencing | Research Wikipedia Library Request Resources Free resources Request access to major databases WikiProject Resource Exchange Shared resources Guidelines Finding sources Combining sources Referencing Citations Citation Style 1 Citation templates Footnotes Page numbers Cite errors
+        How-to guides | Category Tools Infoboxes Writing articles Development Better writing Files Images Media files Uploading Deletion User contribution pages Editing pages Diffs Namespaces Deletion Merging Renaming Requests Redirecting Reverting Vandalism cleanup Talk pages Archiving
+        Wiki markup | Wiki markup Cheatsheet Columns HTML Lists Magic words For beginners Sections Sounds Special Characters Tables Templates Documentation Index Substitution Transclusion Image and video markup Tutorial Linking
+        Directories and glossaries | Category Abbreviations AI Contents Edit summaries Essays Glossary Index Shortcuts Tips
+      row @75,4376,600,20
+        text to this page: @75,4376,82,20
+        link Shortcuts https://en.wikipedia.org/wiki/Wikipedia:Shortcut @169,4376,64,20
+        row @245,4376,113,20
+          link WP:HELP https://en.wikipedia.org/w/index.php?title=Wikipedia:HELP&redirect=no @245,4376,63,20
+          link WP:H https://en.wikipedia.org/w/index.php?title=Wikipedia:H&redirect=no @320,4376,38,20
+      text : @75,4408,600,20
+      row @75,4440,600,21
+        link Categories /wiki/Help:Category @75,4440,73,21
+        row @160,4440,202,21
+          link Help /wiki/Category:Help @160,4440,31,21
+          link "Wikipedia help contents" /wiki/Category:Wikipedia_help_contents @203,4440,159,21
+  col @687,1818,24,1427
+    text This page was last edited on 14 September 2026, at 09:25 (UTC). @687,1818,24,243
+    text Page was rendered with . @687,2073,24,102
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid @687,2187,24,20
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the and . Wikipedia® is a registered trademark of the , a non-profit organization. @687,2219,24,589
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License @687,2820,24,101
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use @687,2933,24,61
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @687,3006,24,41
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/ @687,3059,24,61
+    row @687,3132,24,81
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @687,3152,0,41
+      link "About Wikipedia" /wiki/Wikipedia:About @699,3152,0,41
+      link Disclaimers /wiki/Wikipedia:General_disclaimer @711,3162,0,20
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us @723,3152,0,41
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information @735,3132,0,81
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct @747,3142,0,61
+      link Developers https://developer.wikimedia.org @759,3162,0,20
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org @771,3162,0,20
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement @783,3152,0,41
+      link "Mobile view" @795,3152,0,41
+    row @687,3225,24,20
+      link https://www.wikimedia.org/ https://www.wikimedia.org/ @687,3225,6,20
+      link https://www.mediawiki.org/ https://www.mediawiki.org/ @705,3225,6,20
+!overflow move 174/216px
+!overflow search2 64/76px
+!overflow 190 28/126px
+!overflow tools 28/66px
+!overflow move2 28/179px
+!overflow expand 28/98px
+!overflow hide 28/146px
+!overflow fulltext 28/76px
+!overflow fulltext2 28/76px
+!overflow fulltext3 28/76px
+!tiny search3 22x37px
+!tiny field 22x37px
+!tiny field2 22x36px

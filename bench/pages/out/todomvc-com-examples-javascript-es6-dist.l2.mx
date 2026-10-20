@@ -1,0 +1,15 @@
+@todomvc_com_examples_javascript_es6_dist rev=0 @0,0,728,552
+h3 JavaScript ES6 @17,17,694,19
+h3 Example @17,48,694,19
+link Source https://github.com/tastejs/todomvc/tree/gh-pages/examples/javascript-es6 @17,79,694,20
+card @17,111,694,123
+  text The ECMAScript 6 (ES2015) standard was ratified in 2015 following years of work standardizing improvements to ECMAScript 3. The committee introduced a wide variety of improvements such as arrow functions, const declarations, and native Promises. @34,126,660,61
+  link "JavaScript ES6" http://developer.mozilla.org/en-US/docs/JavaScript @34,199,660,20
+text If you have other helpful links to share, or find any of the links above no longer work, please . @17,246,694,20
+link "let us know" https://github.com/tastejs/todomvc/issues @17,278,694,21
+h1 todos @17,311,694,25
+field "What needs to be done?" @17,348,694,57
+text Double-click to edit a todo @17,417,694,21
+text Created by the TodoMVC Team @17,450,694,20
+text Part of @17,482,694,20
+link TodoMVC http://todomvc.com @17,514,694,21

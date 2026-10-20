@@ -1,0 +1,7 @@
+@getbootstrap_com_docs_5_3_examples_stick rev=0 @0,0,728,237
+button "Toggle theme (light)" primary @17,17,694,36
+h1 Sticky footer @17,65,694,25
+text Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. @17,102,694,21
+text Use if need be, too. @17,135,694,20
+link "the sticky footer with a fixed navbar" /docs/5.3/examples/sticky-footer-navbar/ @17,167,694,20
+text Place sticky footer content here. @17,199,694,21

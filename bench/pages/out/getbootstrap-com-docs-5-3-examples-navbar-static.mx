@@ -1,0 +1,16 @@
+@getbootstrap_com_docs_5_3_examples_navba
+button "Toggle theme (light)" primary
+row
+  link "Top navbar" #
+  row
+    row
+      link Home #
+      link Link #
+      text Disabled
+    row
+      field Search search
+      button Search
+card
+  h1 Navbar example
+  text This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.
+  button "View navbar docs »" primary

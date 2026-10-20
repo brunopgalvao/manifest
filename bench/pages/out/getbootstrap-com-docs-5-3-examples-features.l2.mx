@@ -1,0 +1,129 @@
+@getbootstrap_com_docs_5_3_examples_featu rev=0 @0,0,728,1179
+button "Toggle theme (light)" primary @17,17,694,36
+h1 Features examples @17,65,694,25
+h2 Columns with icons @17,102,694,22
+row @17,136,694,226
+  col @17,136,223,226
+    card @17,136,223,50
+      region 32x32 @34,151,189,20 [0 shapes, 0 labelled]
+    h3 Featured title @17,198,223,19
+    text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words. @17,229,223,101
+    link "Call to action" # @17,342,223,20
+  col @252,136,224,226
+    card @252,136,224,50
+      region 32x32 @269,151,190,20 [0 shapes, 0 labelled]
+    h3 Featured title @252,198,224,19
+    text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words. @252,229,224,101
+    link "Call to action" # @252,342,224,20
+  col @488,136,223,226
+    card @488,136,223,50
+      region 32x32 @505,151,189,20 [0 shapes, 0 labelled]
+    h3 Featured title @488,198,223,19
+    text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words. @488,229,223,101
+    link "Call to action" # @488,342,223,20
+h2 Hanging icons @17,374,694,22
+row @17,408,694,164
+  row @17,408,223,164
+    col @17,408,223,164
+      h3 Featured title @17,408,223,18
+      text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words. @17,438,223,102
+      link "Primary button" # @17,552,223,20
+  row @252,408,224,164
+    col @252,408,224,164
+      h3 Featured title @252,408,224,18
+      text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words. @252,438,224,102
+      link "Primary button" # @252,552,224,20
+  row @488,408,223,164
+    col @488,408,223,164
+      h3 Featured title @488,408,223,18
+      text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words. @488,438,223,102
+      link "Primary button" # @488,552,223,20
+h2 Custom cards @17,584,694,21
+row @17,617,694,70
+  col @17,627,184,51
+    h3 Short title, long jacket @17,627,184,19
+    row @17,658,184,20
+      image https://github.com/twbs.png Bootstrap @17,658,0,0
+      row @29,658,87,20
+        region Location 16x16 @29,658,47,20 [0 shapes, 0 labelled]
+        text Earth @88,658,28,20
+      row @128,658,73,20
+        region Duration 16x16 @128,658,46,20 [0 shapes, 0 labelled]
+        text 3d @186,658,15,20
+  col @213,617,278,70
+    h3 Much longer title that wraps to multiple lines @213,617,278,38
+    row @213,667,278,20
+      image https://github.com/twbs.png Bootstrap @213,667,0,0
+      row @225,667,125,20
+        region Location 16x16 @225,667,57,20 [0 shapes, 0 labelled]
+        text Pakistan @294,667,56,20
+      row @362,667,87,20
+        region Duration 16x16 @362,667,57,20 [0 shapes, 0 labelled]
+        text 4d @431,667,18,20
+  col @503,617,208,70
+    h3 Another longer title belongs here @503,617,208,38
+    row @503,667,208,20
+      image https://github.com/twbs.png Bootstrap @503,667,0,0
+      row @515,667,112,20
+        region Location 16x16 @515,667,47,20 [0 shapes, 0 labelled]
+        text California @574,667,53,20
+      row @639,667,72,20
+        region Duration 16x16 @639,667,46,20 [0 shapes, 0 labelled]
+        text 5d @697,667,14,20
+h2 Icon grid @17,699,694,22
+row @17,733,694,191
+  row @17,733,76,191
+    col @17,733,76,191
+      h3 Featured title @17,733,76,37
+      text Paragraph of text beneath the heading to explain the heading. @17,782,76,142
+  row @105,733,77,191
+    col @105,733,77,191
+      h3 Featured title @105,733,77,37
+      text Paragraph of text beneath the heading to explain the heading. @105,782,77,142
+  row @194,733,76,191
+    col @194,733,76,191
+      h3 Featured title @194,733,76,37
+      text Paragraph of text beneath the heading to explain the heading. @194,782,76,142
+  row @282,733,76,191
+    col @282,733,76,191
+      h3 Featured title @282,733,76,37
+      text Paragraph of text beneath the heading to explain the heading. @282,782,76,142
+  row @370,733,76,191
+    col @370,733,76,191
+      h3 Featured title @370,733,76,37
+      text Paragraph of text beneath the heading to explain the heading. @370,782,76,142
+  row @458,733,77,191
+    col @458,733,77,191
+      h3 Featured title @458,733,77,37
+      text Paragraph of text beneath the heading to explain the heading. @458,782,77,142
+  row @547,733,76,191
+    col @547,733,76,191
+      h3 Featured title @547,733,76,37
+      text Paragraph of text beneath the heading to explain the heading. @547,782,76,142
+  row @635,733,76,191
+    col @635,733,76,191
+      h3 Featured title @635,733,76,37
+      text Paragraph of text beneath the heading to explain the heading. @635,782,76,142
+h2 Features with title @17,936,694,21
+row @17,969,694,193
+  col @17,972,262,188
+    h2 Left-aligned title explaining these awesome features @17,972,262,42
+    text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words. @17,1026,262,102
+    link "Primary button" # @17,1140,262,20
+  row @291,969,420,193
+    col @291,969,96,193
+      card @291,969,96,30
+      h3 Featured title @291,1011,96,38
+      text Paragraph of text beneath the heading to explain the heading. @291,1061,96,101
+    col @399,969,96,193
+      card @399,969,96,30
+      h3 Featured title @399,1011,96,38
+      text Paragraph of text beneath the heading to explain the heading. @399,1061,96,101
+    col @507,969,96,193
+      card @507,969,96,30
+      h3 Featured title @507,1011,96,38
+      text Paragraph of text beneath the heading to explain the heading. @507,1061,96,101
+    col @615,969,96,193
+      card @615,969,96,30
+      h3 Featured title @615,1011,96,38
+      text Paragraph of text beneath the heading to explain the heading. @615,1061,96,101

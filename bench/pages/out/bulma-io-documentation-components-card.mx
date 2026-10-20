@@ -123,16 +123,19 @@ row
         h2 An all-around flexible and composable component
       col
         card
-          link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI653UCKSIKKJKCK7IEKJLCEYD55QMCVSI6KJWCY7IL23KC6SILKJWCYADEK3EHJNCLSIZ" https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI653UCKSIKKJKCK7IEKJLCEYD55QMCVSI6KJWCY7IL23KC6SILKJWCYADEK3EHJNCLSIZ
-          link "Architectural guidance, code that runs. Free, for all levels. Start building" https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI653UCKSIKKJKCK7IEKJLCEYD55QMCVSI6KJWCY7IL23KC6SILKJWCYADEK3EHJNCLSIZ
+          link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKCWAD42QUCWYIK53WC6BIEKQECEAIL53KC6SILKJWCA7DVK3EHJNCLSIZ" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKCWAD42QUCWYIK53WC6BIEKQECEAIL53KC6SILKJWCA7DVK3EHJNCLSIZ
+          link "Your edge case? Another builder solved it last Tuesday. Find answers." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKCWAD42QUCWYIK53WC6BIEKQECEAIL53KC6SILKJWCA7DVK3EHJNCLSIZ
         link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
     text The card component comprises several elements that you can mix and match:
+    text : the main container
     text card danger
+    text : a horizontal bar with a shadow
     text card-header danger
     text card-header-title: a left-aligned bold text
     text card-header-icon: a placeholder for an icon
     text card-image: a fullwidth container for a responsive image
     text card-content: a multi-purpose container for any other element
+    text : a horizontal list of controls
     text card-footer danger
     text card-footer-item: a repeatable list item
     text You can center the card-header-title by appending the is-centered modifier.
@@ -143,6 +146,8 @@ row
       col
         text John Smith
         text @johnsmith
+    text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. .
+    text @bulmaio primary
     link "#css" #
     link "#responsive" #
     text "11:09 PM - 1 Jan 2016"
@@ -184,6 +189,7 @@ row
     row
       text Component
       button "more options"
+    text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. .
     link "@bulmaio" #
     link "#css" #
     link "#responsive" #
@@ -199,14 +205,16 @@ row
     text “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”
     text Jeff Atwood
     row
+      text View on
       link Twitter https://twitter.com/codinghorror/status/506010907021828096
+      text Share on
       link Facebook #
     text HTML
     text "<div class=\"card\"> <div class=\"card-content\"> <p class=\"title\"> “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.” </p> <p class=\"subtitle\">Jeff Atwood</p> </div> <footer class=\"card-footer\"> <p class=\"card-footer-item\"> <span> View on <a href=\"https://twitter.com/codinghorror/status/506010907021828096\" >Twitter</a > </span> </p> <p class=\"card-footer-item\"> <span> Share on <a href=\"#\">Facebook</a> </span> </p> </footer> </div>"
     button Copy danger
     h3 "Sass and CSS variables #"
     card
-      table Sass:badge CSS:badge Value:badge
+      table "Sass Variable:badge" "CSS Variable:badge" Value:badge
         $card-colorCopy | var(--bulma-card-color)Copy | var(--bulma-text)Copy
         $card-background-colorCopy | var(--bulma-card-background-color)Copy | var(--bulma-scheme-main)Copy
         $card-shadowCopy | var(--bulma-card-shadow)Copy | var(--bulma-shadow)Copy
@@ -239,7 +247,7 @@ row
   col
     text Monthly donation
     link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
-link ".native-js { background: linear-gradient(-30deg, #1A0A2EE5, #1A0A2EE5 45%, #1A0A2E 45%) #fff; } .native-details { color: #E8E0D8 !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #E8E0D8; background-color: #E8470A; } .native-cta:hover { color: undefined; background-color: undefined; } Auth0 Auth0. Designed to help you integrate secure authentication into any language or framework, fast. Start Building" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV27UC674YKQUF67ITKJLCTSITZ3JCAAI653UCVADK27KC6SDK2QLCVYDEK3UCE7DC23YCTBI42QMHEYI55QLCESDE53ECTNCYBZ52K
+link ".native-js { background: linear-gradient(-30deg, #1A0A2EE5, #1A0A2EE5 45%, #1A0A2E 45%) #fff; } .native-details { color: #E8E0D8 !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #E8E0D8; background-color: #E8470A; } .native-cta:hover { color: undefined; background-color: undefined; } Auth0 Auth0. Designed to help you integrate secure authentication into any language or framework, fast. Start Building" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQYCESITZ3JCAAI653NF67DL5QKC67I427ICYBIP53YFTYDKK3IFTSIP27NHEYI55QLCESI623ECTNCYBZ52K
 row
   col
     h3 Bulma by Jeremy Thomas.
@@ -251,6 +259,7 @@ row
     row
       link Twitter https://twitter.com/share
       link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+text Source code licensed . Website content licensed
 row
   link MIT https://opensource.org/licenses/mit-license.php
   link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/

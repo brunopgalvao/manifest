@@ -1,0 +1,371 @@
+@adminlte_io_themes_v3_pages_ui_general_h rev=0 @0,0,728,5432
+row @17,17,694,36
+  row @17,17,191,36
+    button button @17,17,75,36
+    link Home ../../index3.html @104,25,40,20
+    link Contact # @156,25,52,20
+  row @220,17,296,36
+    button button @220,17,75,36
+    link 3 # @307,25,9,20
+    link 15 # @328,25,14,20
+    button button @354,17,75,36
+    button button @441,17,75,36
+link "AdminLTE 3" ../../index3.html @17,65,694,21
+row @17,98,694,20
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image" @17,98,0,0
+  link "Alexander Pierce" # @29,98,113,20
+row @17,130,694,58
+  field Search search @17,130,40,58
+  button button primary @69,141,75,36
+link Dashboard # @17,200,694,20
+link "Widgets New" ../widgets.html @17,232,694,20
+link "Layout Options 6" # @17,264,694,21
+link Charts # @17,297,694,20
+link "UI Elements" # @17,329,694,20
+link General ../UI/general.html @17,361,694,20
+link Icons ../UI/icons.html @17,393,694,21
+link Buttons ../UI/buttons.html @17,426,694,20
+link Sliders ../UI/sliders.html @17,458,694,20
+link "Modals & Alerts" ../UI/modals.html @17,490,694,21
+link "Navbar & Tabs" ../UI/navbar.html @17,523,694,20
+link Timeline ../UI/timeline.html @17,555,694,20
+link Ribbons ../UI/ribbons.html @17,587,694,20
+link Forms # @17,619,694,21
+link Tables # @17,652,694,20
+text EXAMPLES @17,684,694,20
+link "Calendar 2" ../calendar.html @17,716,694,21
+link Gallery ../gallery.html @17,749,694,20
+link "Kanban Board" ../kanban.html @17,781,694,20
+link Mailbox # @17,813,694,21
+link Pages # @17,846,694,20
+link Extras # @17,878,694,20
+link Search # @17,910,694,20
+text MISCELLANEOUS @17,942,694,21
+link "Tabbed IFrame Plugin" ../../iframe.html @17,975,694,20
+link Documentation https://adminlte.io/docs/3.1/ @17,1007,694,20
+text MULTI LEVEL EXAMPLE @17,1039,694,21
+link "Level 1" # @17,1072,694,20
+link "Level 1" # @17,1104,694,20
+link "Level 1" # @17,1136,694,21
+text LABELS @17,1169,694,20
+link Important # @17,1201,694,20
+link Warning # @17,1233,694,21
+link Informational # @17,1266,694,20
+row @17,1298,694,25
+  h1 Inline Charts @17,1298,124,25
+  row @153,1300,135,20
+    link Home # @153,1300,40,20
+    text Inline Charts @205,1300,83,20
+h3 Color Palette @17,1335,694,19
+h3 Theme Colors @17,1366,694,18
+row @17,1396,694,84
+  col @17,1396,58,84
+    h3 Primary @17,1396,58,19
+    text #007bff @17,1427,58,20
+    text Disabled @17,1459,58,21
+  col @87,1396,80,84
+    h3 Secondary @87,1396,80,19
+    text #6c757d @87,1427,80,20
+    text Disabled @87,1459,80,21
+  col @179,1396,58,84
+    h3 Info @179,1396,58,19
+    text #17a2b8 @179,1427,58,20
+    text Disabled @179,1459,58,21
+  col @249,1396,63,84
+    h3 Success @249,1396,63,19
+    text #28a745 @249,1427,63,20
+    text Disabled @249,1459,63,21
+  col @324,1396,63,84
+    h3 Warning @324,1396,63,19
+    text #ffc107 @324,1427,63,20
+    text Disabled @324,1459,63,21
+  col @399,1396,60,84
+    h3 Danger @399,1396,60,19
+    text #dc3545 @399,1427,60,20
+    text Disabled @399,1459,60,21
+h3 Black/White Nuances @17,1492,694,18
+row @17,1522,694,84
+  col @17,1522,62,84
+    h3 Black @17,1522,62,19
+    text #000000 @17,1553,62,20
+    text Disabled @17,1585,62,21
+  col @91,1522,74,84
+    h3 Gray Dark @91,1522,74,19
+    text #343a40 @91,1553,74,20
+    text Disabled @91,1585,74,21
+  col @177,1522,60,84
+    h3 Gray @177,1522,60,19
+    text #adb5bd @177,1553,60,20
+    text Disabled @177,1585,60,21
+  col @249,1522,58,84
+    h3 Light @249,1522,58,19
+    text #1f2d3d @249,1553,58,20
+    text Disabled @249,1585,58,21
+h3 Colors @17,1618,694,19
+row @17,1649,694,83
+  col @17,1649,51,83
+    h3 Indigo @17,1649,51,18
+    text #6610f2 @17,1679,51,21
+    text Disabled @17,1712,51,20
+  col @80,1649,60,83
+    h3 Lightblue @80,1649,60,18
+    text #3c8dbc @80,1679,60,21
+    text Disabled @80,1712,60,20
+  col @152,1649,51,83
+    h3 Navy @152,1649,51,18
+    text #001f3f @152,1679,51,21
+    text Disabled @152,1712,51,20
+  col @215,1649,52,83
+    h3 Purple @215,1649,52,18
+    text #605ca8 @215,1679,52,21
+    text Disabled @215,1712,52,20
+  col @279,1649,51,83
+    h3 Fuchsia @279,1649,51,18
+    text #f012be @279,1679,51,21
+    text Disabled @279,1712,51,20
+  col @342,1649,52,83
+    h3 Pink @342,1649,52,18
+    text #e83e8c @342,1679,52,21
+    text Disabled @342,1712,52,20
+  col @406,1649,51,83
+    h3 Maroon @406,1649,51,18
+    text #d81b60 @406,1679,51,21
+    text Disabled @406,1712,51,20
+  col @469,1649,50,83
+    h3 Orange @469,1649,50,18
+    text #ff851b @469,1679,50,21
+    text Disabled @469,1712,50,20
+  col @531,1649,51,83
+    h3 Lime @531,1649,51,18
+    text #01ff70 @531,1679,51,21
+    text Disabled @531,1712,51,20
+  col @594,1649,52,83
+    h3 Teal @594,1649,52,18
+    text #39cccc @594,1679,52,21
+    text Disabled @594,1712,52,20
+  col @658,1649,53,83
+    h3 Olive @658,1649,53,18
+    text #3d9970 @658,1679,53,21
+    text Disabled @658,1712,53,20
+h3 Alerts and Callouts @17,1744,694,19
+row @17,1775,694,645
+  col @17,1775,349,645
+    h3 Alerts @17,1775,349,18
+    text Danger alert preview. This alert is dismissable. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. @17,1805,349,82
+    card @17,1899,349,97
+      button × @34,1914,315,36
+      h3 Alert! @34,1962,315,19
+    text Info alert preview. This alert is dismissable. @17,2008,349,20
+    card @17,2040,349,97
+      button × @34,2055,315,36
+      h3 Alert! @34,2103,315,19
+    text Warning alert preview. This alert is dismissable. @17,2149,349,20
+    card @17,2181,349,97
+      button × @34,2196,315,37
+      h3 Alert! @34,2245,315,18
+    text Success alert preview. This alert is dismissable. @17,2290,349,21
+    card @17,2323,349,97
+      button × @34,2338,315,36
+      h3 Alert! @34,2386,315,19
+  col @378,1931,333,332
+    h3 Callouts @378,1931,333,19
+    h3 I am a danger callout! @378,1962,333,19
+    text There is a problem that we need to fix. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. @378,1993,333,81
+    h3 I am an info callout! @378,2086,333,19
+    text Follow the steps to continue to payment. @378,2117,333,20
+    h3 I am a warning callout! @378,2149,333,19
+    text This is a yellow callout. @378,2180,333,20
+    h3 I am a success callout! @378,2212,333,19
+    text This is a green callout. @378,2243,333,20
+h3 Tabs in Cards @17,2432,694,18
+row @17,2462,694,21
+  h3 Tabs @17,2463,37,19
+  row @66,2462,219,21
+    link "Tab 1" #tab_1 @66,2462,36,21
+    link "Tab 2" #tab_2 @114,2462,38,21
+    link "Tab 3" #tab_3 @164,2462,39,21
+    link Dropdown # @215,2462,70,21
+text A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. @17,2495,694,101
+h3 Progress Bars @17,2608,694,19
+row @17,2639,694,397
+  col @17,2639,216,397
+    h3 Progress Bars Different Sizes @17,2639,216,19
+    text .progress @17,2670,216,20
+    card @17,2702,216,50
+      text 40% Complete (success) @34,2717,182,20
+    text .progress-sm @17,2764,216,21
+    card @17,2797,216,50
+      text 20% Complete @34,2812,182,20
+    text .progress-xs @17,2859,216,20
+    card @17,2891,216,51
+      text 60% Complete (warning) @34,2906,182,21
+    text .progress-xxs @17,2954,216,20
+    card @17,2986,216,50
+      text 60% Complete (warning) @34,3001,182,20
+  col @245,2704,203,268
+    h3 Progress bars @245,2704,203,18
+    card @245,2734,203,51
+      text 40% Complete (success) @262,2749,169,21
+    card @245,2797,203,50
+      text 20% Complete @262,2812,169,20
+    card @245,2859,203,50
+      text 60% Complete (warning) @262,2874,169,20
+    card @245,2921,203,51
+      text 80% Complete @262,2936,169,21
+row @17,3048,694,321
+  col @17,3048,470,321
+    h3 Vertical Progress Bars Different Sizes @17,3048,470,19
+    text By adding the class .vertical and .progress-sm, .progress-xs or .progress-xxs we achieve: @17,3079,470,40
+    card @17,3131,470,51
+      text 40% @34,3146,436,21
+    card @17,3194,470,50
+      text 100% @34,3209,436,20
+    card @17,3256,470,50
+      text 60% @34,3271,436,20
+    card @17,3318,470,51
+      text 60% @34,3333,436,21
+  col @499,3048,212,321
+    h3 Vertical Progress bars @499,3048,212,19
+    text By adding the class .vertical we achieve: @499,3079,212,40
+    card @499,3131,212,51
+      text 40% @516,3146,178,21
+    card @499,3194,212,50
+      text 20% @516,3209,178,20
+    card @499,3256,212,50
+      text 60% @516,3271,178,20
+    card @499,3318,212,51
+      text 80% @516,3333,178,21
+h3 Bootstrap Accordion & Carousel @17,3381,694,18
+row @17,3411,694,356
+  col @17,3411,667,356
+    h3 Collapsible Accordion @17,3411,667,19
+    card @17,3442,667,49
+      h3 "Collapsible Group Item #1" @34,3457,633,19
+    text Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. @17,3503,667,142
+    card @17,3657,667,49
+      h3 Collapsible Group Danger @34,3672,633,19
+    card @17,3718,667,49
+      h3 Collapsible Group Success @34,3733,633,19
+  col @696,3519,15,140
+    h3 Carousel @696,3519,15,19
+    row @696,3550,15,0
+    image https://placehold.it/900x500/39CCCC/ffffff&text=I+Love+Bootstrap "First slide" @696,3562,0,0
+    button Previous @696,3574,30,36
+    button Next @696,3622,30,37
+h3 Typography @17,3779,694,18
+row @17,3809,694,245
+  col @17,3826,213,212
+    h3 Headlines @17,3826,213,18
+    h1 h1. Bootstrap heading @17,3856,213,25
+    h2 h2. Bootstrap heading @17,3893,213,22
+    h3 h3. Bootstrap heading @17,3927,213,18
+    h3 h4. Bootstrap heading @17,3957,213,19
+    h3 h5. Bootstrap heading @17,3988,213,19
+    h3 h6. Bootstrap heading @17,4019,213,19
+  col @242,3809,239,245
+    h3 Text Emphasis @242,3809,239,19
+    text Lead to emphasize importance @242,3840,239,20
+    text "Text green to emphasize success" success @242,3872,239,21
+    text "Text aqua to emphasize info" primary @242,3905,239,20
+    text Text light blue to emphasize info (2) primary @242,3937,239,20
+    text "Text red to emphasize danger" danger @242,3969,239,21
+    text "Text yellow to emphasize warning" warning @242,4002,239,20
+    text Text muted to emphasize general @242,4034,239,20
+row @17,4066,694,136
+  col @17,4066,341,136
+    h3 Primary Block Quotes @17,4066,341,19
+    text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. @17,4097,341,40
+    text Someone famous in @17,4149,341,21
+    text Source Title @17,4182,341,20
+  col @370,4066,341,136
+    h3 Secondary Block Quotes @370,4066,341,19
+    text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. @370,4097,341,40
+    text Someone famous in @370,4149,341,21
+    text Source Title @370,4182,341,20
+row @17,4214,694,406
+  col @17,4214,214,406
+    h3 Unordered List @17,4214,214,19
+    text Lorem ipsum dolor sit amet @17,4245,214,20
+    text Consectetur adipiscing elit @17,4277,214,20
+    text Integer molestie lorem at massa @17,4309,214,21
+    text Facilisis in pretium nisl aliquet @17,4342,214,20
+    text Nulla volutpat aliquam velit @17,4374,214,20
+    text Phasellus iaculis neque @17,4406,214,21
+    text Purus sodales ultricies @17,4439,214,20
+    text Vestibulum laoreet porttitor sem @17,4471,214,20
+    text Ac tristique libero volutpat at @17,4503,214,21
+    text Faucibus porta lacus fringilla vel @17,4536,214,20
+    text Aenean sit amet erat nunc @17,4568,214,20
+    text Eget porttitor lorem @17,4600,214,20
+  col @243,4214,214,406
+    h3 Ordered Lists @243,4214,214,19
+    text Lorem ipsum dolor sit amet @243,4245,214,20
+    text Consectetur adipiscing elit @243,4277,214,20
+    text Integer molestie lorem at massa @243,4309,214,21
+    text Facilisis in pretium nisl aliquet @243,4342,214,20
+    text Nulla volutpat aliquam velit @243,4374,214,20
+    text Phasellus iaculis neque @243,4406,214,21
+    text Purus sodales ultricies @243,4439,214,20
+    text Vestibulum laoreet porttitor sem @243,4471,214,20
+    text Ac tristique libero volutpat at @243,4503,214,21
+    text Faucibus porta lacus fringilla vel @243,4536,214,20
+    text Aenean sit amet erat nunc @243,4568,214,20
+    text Eget porttitor lorem @243,4600,214,20
+  col @469,4214,214,406
+    h3 Unstyled List @469,4214,214,19
+    text Lorem ipsum dolor sit amet @469,4245,214,20
+    text Consectetur adipiscing elit @469,4277,214,20
+    text Integer molestie lorem at massa @469,4309,214,21
+    text Facilisis in pretium nisl aliquet @469,4342,214,20
+    text Nulla volutpat aliquam velit @469,4374,214,20
+    text Phasellus iaculis neque @469,4406,214,21
+    text Purus sodales ultricies @469,4439,214,20
+    text Vestibulum laoreet porttitor sem @469,4471,214,20
+    text Ac tristique libero volutpat at @469,4503,214,21
+    text Faucibus porta lacus fringilla vel @469,4536,214,20
+    text Aenean sit amet erat nunc @469,4568,214,20
+    text Eget porttitor lorem @469,4600,214,20
+row @17,4632,694,570
+  col @17,4632,104,570
+    h3 Description @17,4632,104,19
+    text Description lists @17,4663,104,41
+    text A description list is perfect for defining terms. @17,4716,104,81
+    text Euismod @17,4809,104,20
+    text Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. @17,4841,104,122
+    text Donec id elit non mi porta gravida at eget metus. @17,4975,104,81
+    text Malesuada porta @17,5068,104,41
+    text Etiam porta sem malesuada magna mollis euismod. @17,5121,104,81
+  col @133,4821,578,193
+    h3 Description Horizontal @133,4821,578,18
+    row @133,4851,578,163
+      text Description lists @133,4912,19,41
+      text A description list is perfect for defining terms. @164,4862,53,142
+      text Euismod @229,4922,10,21
+      text Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. @251,4872,90,122
+      text Donec id elit non mi porta gravida at eget metus. @353,4862,56,142
+      text Malesuada porta @421,4912,20,41
+      text Etiam porta sem malesuada magna mollis euismod. @453,4862,59,142
+      text Felis euismod semper eget lacinia @524,4882,39,101
+      text Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. @575,4851,136,163
+h3 Pagination Month @17,5214,694,19
+row @17,5245,694,40
+  link « # @17,5255,6,20
+  link "Jan 2021" # @35,5245,43,40
+  link "Feb 2021" # @90,5245,44,40
+  link "Mar 2021" # @146,5245,45,40
+  link "Apr 2021" # @203,5245,43,40
+  link "May 2021" # @258,5245,45,40
+  link "Jun 2021" # @315,5245,44,40
+  link "Jul 2021" # @371,5245,40,40
+  link "Aug 2021" # @423,5245,45,40
+  link "Sep 2021" # @480,5245,45,40
+  link "Oct 2021" # @537,5245,42,40
+  link "Nov 2021" # @591,5245,45,40
+  link "Dec 2021" # @648,5245,45,40
+  link » # @705,5255,6,20
+text All rights reserved. @17,5297,694,21
+text Version 3.2.0 @17,5330,694,20
+text Copyright © 2014-2021 . @17,5362,694,20
+link AdminLTE.io https://adminlte.io @17,5394,694,21
+!overflow previous 28/88px
+!overflow next 28/60px

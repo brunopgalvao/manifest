@@ -1,0 +1,49 @@
+@brunopgalvao_github_io_manifest_overview
+row
+  link Manifest index.html
+  link Playground playground.html
+  link Overview overview.html
+  link Spec spec.html
+  link Benchmark results.html
+  link "A2UI proposal" a2ui-extension.html
+  link GitHub https://github.com/brunopgalvao/manifest
+h1 Manifest: an overview
+h2 What it is
+text Manifest is a way for an AI agent to put things on a screen and to see what is there, through one text tree. The agent writes MX, a compact one-node-per-line format; the engine lays it out, paints it, takes the user's input; and the agent reads the screen back as the same text, with the engine's own layout boxes and a short list of diagnostics, instead of a screenshot.
+text Three decisions make it work:
+text "One vocabulary of roles with defaults. button \"Export CSV\" disabled is nine tokens and the renderer owns the look. Any node may take a position, a size and paint children, so the same tree can draw a funnel, a floor plan or a gauge down to the pixel, and every painted thing still carries a label and a role. Use the highest level that is faithful."
+text Perception is the format. observe returns MX, so whatever the agent reads it can patch. Level 1 is the semantic tree; level 2 adds boxes; level 3 adds every shape. A since= query returns only what changed, as a patch.
+text One engine. The core, the renderer, the host with lifecycle and input, and the MCP server are one Rust codebase that runs as a native window, headless, or as WebAssembly in the browser, with no browser dependency of its own.
+h2 How it works
+text agent ──MX──▶ engine ──pixels──▶ screen ▲ │ └──MX+boxes───┘ observe, since=, look, events
+text Parse: one line per node, IDs derived from labels, errors that name the line.
+text Layout: flexbox and grid through taffy, text shaped from the bundled Inter font, sized nodes as coordinate spaces for positioned children, nested default looks for positioned nodes without paint.
+text Paint: tiny-skia, at the screen's pixel density, light and dark palettes.
+text "Host: surfaces, revisions, lifecycle (ttl, seen, until, ephemeral, residues), pointer and key input that produce action and input events, tweens for nodes marked anim:."
+text Perception: from the engine's own boxes, with !overflow, !overlap, !contrast, !tiny and !offcanvas.
+text Transport: MCP over stdio, or the same calls from JavaScript against the wasm build.
+h2 What it costs, measured
+text All counts with Claude's tokenizer; reader accuracy with fresh Haiku readers that saw only the text. Full tables in .
+link bench/results.md results.html
+table Col MX "best alternative"
+  Six everyday visuals, tokens to create | 788 | 1,762 (A2UI Atom), 4,521 (HTML)
+  Sixteen edits | 238 | 622 (HTML find and replace)
+  Read back, level 1 | 828 tokens, 30 of 30 questions | 1,544 tokens, 27 of 30 (cropped screenshots)
+  Six paint-heavy visuals | 2,685 | 6,104 (HTML + SVG + ARIA), 6,645 (A2UI paint catalog)
+  Read back, paint-heavy, level 1 and 3 | 27 and 30 of 30 | 
+  A page imported from HTML | 1,158 | 4,569 (the HTML), 1,463 (accessibility snapshot)
+  A hundred real pages imported | 736,715 | 6,510,211 (the HTML)
+h2 Where it sits
+text (Google) covers the write side: declarative components, no code, streaming. Manifest adds perception and lifecycle, and  proposes both as A2UI v1.0 extensions with MX as an inference format; the compiler exists.
+text A2UI
+link docs/a2ui-extension.md a2ui-extension.html
+text MCP Apps and browser agents give models a UI or a page and a screenshot back. Manifest gives the tree back, and the engine is the only thing that paints it.
+text HTML paints everything but tells a model nothing about what it painted. The importer (import/) reads a rendered page and writes MX with semantics first and paint where nothing semantic fits.
+h2 Limits
+text Coordinates are expensive in any text format and models place things badly. The format's answer is defaults and layout owned by the engine; the loop's answer is observe level 2 and the !overlap and !offcanvas diagnostics.
+text Level 1 drops unlabelled shapes by design, so arrows that carry meaning need labels or a flow.
+text "Buffers hold key:value numbers; each over records is not there yet."
+text The importer demotes a chart drawn with divs to paint; reading its values from an aria-label sentence is the next step.
+text No 3D, no keyframe animation, no plugin widgets.
+text Manifest is Apache-2.0.
+link "Source, issues and discussion on GitHub." https://github.com/brunopgalvao/manifest

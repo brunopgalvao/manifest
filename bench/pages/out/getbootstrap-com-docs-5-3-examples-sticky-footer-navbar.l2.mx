@@ -1,0 +1,17 @@
+@getbootstrap_com_docs_5_3_examples_stick rev=0 @0,0,728,327
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,58
+  link "Fixed navbar" # @17,84,86,20
+  row @115,65,292,58
+    row @115,84,150,20
+      link Home # @115,84,40,20
+      link Link # @167,84,28,20
+      text Disabled @207,84,58,20
+    row @277,65,130,58
+      field Search search @277,65,40,58
+      button Search @329,76,78,36
+h1 Sticky footer with fixed navbar @17,135,694,25
+text Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container. @17,172,694,41
+text Back to minus the navbar. @17,225,694,20
+link "the default sticky footer" /docs/5.3/examples/sticky-footer/ @17,257,694,20
+text Place sticky footer content here. @17,289,694,21

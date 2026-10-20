@@ -1,0 +1,75 @@
+@www_w3_org_wai_aria_apg_practices rev=0 @0,0,728,1345
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+h1 Practices @17,102,694,25
+card @17,139,694,128
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/read-this-first.svg "Illustration of a brown-skinned woman with a slight smile gesturing towards the right with her hand" @34,154,0,0
+  h2 Read This First @34,166,660,21
+  text No ARIA is better than Bad ARIA. Before using any ARIA, . @34,199,660,20
+  link "Read this to understand why no ARIA is better than bad ARIA" /WAI/content-assets/wai-aria-practices/../../ARIA/apg/practices/read-me-first/ @34,231,660,21
+row @17,279,694,479
+  col @17,340,51,357
+    link "Landmark Regions" landmark-regions/ @17,340,51,40
+    text ARIA landmark roles provide a powerful way to identify the organization and structure of a web page. @17,392,51,305
+  col @80,299,100,438
+    link "Providing Accessible Names and Descriptions" names-and-descriptions/ @80,299,100,81
+    text Providing elements with accessible names, and where appropriate, accessible descriptions, is one of the most important responsibilities authors have when developing accessible web experiences. @80,392,100,345
+  col @192,309,113,418
+    link "Developing a Keyboard Interface" keyboard-interface/ @192,309,113,61
+    text Unlike native HTML form elements, browsers do not provide keyboard support for graphical user interface (GUI) components that are made accessible with ARIA; authors have to provide the keyboard support in their code. @192,382,113,345
+  col @317,330,158,377
+    link "Grid and Table Properties" grid-and-table-properties/ @317,330,158,40
+    text To fully present and describe a grid or table, in addition to parsing the headers, rows, and cells using the roles described in the grid pattern or table pattern, assistive technologies need to be able to determine other structural and presentation characteristics, such as the number and visibility of rows and columns. @317,382,158,325
+  col @487,279,76,479
+    link "Communicating Value and Limits for Range Widgets" range-related-properties/ @487,279,76,101
+    text ARIA defines the following roles as range widgets, which means they communicate a value that is typically numeric and constrained to defined limits. @487,392,76,366
+  col @575,350,47,337
+    link "Structural Roles" structural-roles/ @575,350,47,40
+    text ARIA provides a set of roles that convey the accessibility semantics of structures on a page. @575,402,47,285
+  col @634,299,77,438
+    link "Hiding Semantics with the presentation Role" hiding-semantics/ @634,299,77,102
+    text While ARIA is primarily used to express semantics, there are some situations where hiding an element’s semantics from assistive technologies is helpful. @634,413,77,324
+row @17,770,694,21
+  h2 Help improve this page @17,770,192,21
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,803,694,20
+link public-aria-practices@w3.org @17,835,694,21
+row @17,868,694,20
+  link E-mail @17,868,42,20
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/practices/practices.html @71,868,142,20
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/practices/ @225,868,119,20
+link "Back to Top" #top @17,900,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,932,694,20
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,964,694,21
+row @17,997,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,997,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,997,57,20
+  link Mastodon https://w3c.social/@wai @218,997,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,997,61,20
+row @17,1029,694,41
+  link Home /WAI/ @17,1039,37,20
+  link Contact /WAI/about/contacting/ @66,1039,48,20
+  link "Site map" /WAI/sitemap/ @126,1029,54,41
+  link "Support WAI" /WAI/about/support/ @192,1029,78,41
+  link News /WAI/news/ @282,1039,36,20
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,1029,142,41
+  link "All Translations" /WAI/translations/ @484,1029,94,41
+  link "Resources for roles" /WAI/roles/ @590,1029,121,41
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,1082,694,20
+link "World Wide Web Consortium" https://www.w3.org/ @17,1114,694,20
+text W3C @17,1146,694,21
+text ® @17,1179,694,20
+link liability https://www.w3.org/policies/#disclaimers @17,1211,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,1243,694,20
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,1275,694,21
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,1308,694,20

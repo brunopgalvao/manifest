@@ -1,0 +1,86 @@
+@www_usa_gov_health rev=0 @0,0,728,1510
+link "Skip to main content" #skip-to-h1 @17,17,694,20
+row @17,49,694,37
+  text An official website of the United States government @17,57,342,21
+  button "Here's how you know" @371,49,177,37
+text Home Close Search 1-844-USAGOV1 Health Health insurance Help with medical expenses Mental health Substance abuse COVID-19 testing and vaccinations Health information from MedlinePlus State health departments @17,98,694,61
+row @17,171,694,20
+  region Information 300x150 @17,171,76,20 [0 shapes, 0 labelled]
+  text Visit to learn how to register to vote or to update your registration. @105,171,438,20
+  link vote.gov https://www.vote.gov @555,171,58,20
+row @17,203,694,106
+  link "USAGov Logo" / @17,246,93,20
+  col @122,203,377,106
+    button Español primary @122,203,377,36
+    row @122,251,377,58
+      link "Call us at 1-844-USAGOV1" /phone @122,270,176,20
+      row @310,251,189,58
+        text Search @310,270,47,20
+        field Search search @369,251,40,58
+        button Search primary @421,262,78,36
+row @17,321,694,40
+  link "All topics and services" /#all-topics-header @17,321,94,40
+  link "The U.S. and its government" /about-the-us @123,321,119,40
+  link "Government benefits" /benefits @254,321,89,40
+  link "Immigration and U.S. citizenship" /immigration-and-citizenship @355,321,135,40
+  link "Money and credit" /money @502,321,73,40
+  link Travel /travel @587,331,26,20
+  link "Voting and elections" /voting-and-elections @625,321,86,40
+row @17,373,694,642
+  col @17,373,674,642
+    row @17,373,674,21
+      link Home / @17,373,40,21
+      text Health @69,373,43,21
+    h1 Health @17,406,674,25
+    h2 Most popular @17,443,674,21
+    link "Learn how to apply for Medicare" /medicare @17,476,674,20
+    link "Find health plans in the Health Insurance Marketplace" /health-insurance-marketplace @17,508,674,21
+    link "How to apply for Medicaid and CHIP" /medicaid-chip-insurance @17,541,674,20
+    text Get information about health insurance. Find help for mental health and other medical conditions, testing, and paying medical bills. @17,573,674,40
+    row @17,625,674,285
+      link "Health insurance Get information about Medicaid, CHIP, Medicare, the ACA Health Insurance Marketplace, and COBRA." /health-insurance @17,625,72,285
+      link "How to get help with medical bills Find out how you can get help with medical expenses. Understand your eligibility for options like government health insurance programs and a medical debt management plan." /help-with-medical-bills @101,636,128,264
+      link "Find help for mental health Find emergency hotlines, counseling, and treatment options for help with mental health." /mental-health @241,625,69,285
+      link "Find help for substance abuse Find emergency hotlines, counseling, and treatment options for help with substance abuse." /substance-abuse @322,636,75,264
+      link "COVID-19 testing and vaccinations Learn how to get tested for COVID-19, get vaccinated, and stay healthy." /covid-tests-vaccinations @409,636,65,264
+      link "Get free or low-cost health services and information Learn how to access free and low-cost medical services offered by government agencies. Find trusted medical information on MedlinePlus" /health-information @486,636,116,264
+      link "State health departments Contact your state health department for health information, COVID-19 facts, vital records, and more." /state-health @614,636,77,264
+    row @17,922,674,20
+      text Looking for something else? @17,922,187,20
+      link "Explore all topics and services" /#all-topics-header @216,922,201,20
+    row @17,954,674,61
+      text SHARE THIS PAGE: @17,954,58,61
+      row @87,974,604,21
+        link https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/health&v=3 https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/health&v=3 @87,974,240,21
+        link https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fhealth https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fhealth @339,974,212,21
+        link mailto:?subject=https://www.usa.gov/health mailto:?subject=https://www.usa.gov/health @563,974,128,21
+  link "Back to top" #main-content @703,664,8,61
+row @17,1027,694,136
+  col @17,1027,371,136
+    h3 Government information @17,1027,371,19
+    link "All topics and services" /#all-topics-header @17,1058,371,20
+    link "Directory of U.S. government agencies and departments" /agency-index @17,1090,371,41
+    link "Branches of government" /branches-of-government @17,1143,371,20
+  col @400,1027,149,136
+    h3 About us @400,1027,149,19
+    link "About USAGov" /about @400,1058,149,20
+    link "Report a website issue" /site-issue-report-form @400,1090,149,41
+    link "Website usage data" /website-analytics/ @400,1143,149,20
+  col @561,1044,150,102
+    h3 For federal agencies @561,1044,150,37
+    link "Partner with us" /partner-with-usagov @561,1093,150,21
+    link "Read our blog" /blog @561,1126,150,20
+row @17,1175,694,83
+  col @17,1175,235,83
+    h3 USAGov Contact Center @17,1175,235,19
+    text Ask USA.gov a question at @17,1206,235,20
+    link "1-844-USAGOV1 (1-844-872-4681)" /phone @17,1238,235,20
+text USAGov is the official guide to government information and services @17,1270,694,20
+text An official website of the @17,1302,694,21
+link "U.S. General Services Administration" https://www.gsa.gov/ @17,1335,694,20
+text This website complies with Executive Order . English is the official language of the U.S. Government, and the English-language version of this website is the authoritative source for all federal information contained herein. @17,1367,694,61
+link 14224 https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states @17,1440,694,20
+row @17,1472,694,21
+  link "Accessibility policy" /accessibility-policy @17,1472,127,21
+  link "Privacy and security policies" /privacy-security @156,1472,190,21
+  link "FOIA requests" https://www.gsa.gov/reference/freedom-of-information-act-foia @358,1472,95,21

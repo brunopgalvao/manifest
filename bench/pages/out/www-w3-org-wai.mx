@@ -1,0 +1,153 @@
+@www_w3_org_wai
+row
+  link "Skip to Content" #main
+  link "Change Text Size or Colors" /WAI/meta/customize/
+  link "All Translations" /WAI/translations/
+row
+  row
+    link "W3C homepage" https://www.w3.org/
+    link "Web Accessibility Initiative (WAI) homepage" /WAI/
+    text Strategies, standards, resources to make the Web accessible to people with disabilities
+  row
+    link "Get Involved" /WAI/about/participating/
+    link "About W3C WAI" /WAI/about/
+    row
+      field Search search
+      text Search:
+      button button
+row
+  link "Accessibility Fundamentals" /WAI/fundamentals/
+  link "Planning & Policies" /WAI/planning/
+  link "Design & Develop" /WAI/design-develop/
+  link "Test & Evaluate" /WAI/test-evaluate/
+  link "Teach & Advocate" /WAI/teach-advocate/
+  link Standards/Guidelines /WAI/standards-guidelines/
+h1 W3C Web Accessibility Initiative Home
+row
+  col
+    h2 Making the Web Accessible
+    text Strategies, standards, and supporting resources to help you make the Web more accessible to people with disabilities.
+  row
+    col
+      h3 W3C
+      text The World Wide Web Consortium (W3C) develops international standards for the Web: HTML, CSS, and many more.
+    col
+      h3 WAI
+      text The W3C Web Accessibility Initiative (WAI) develops standards and support materials to help you understand and implement accessibility.
+    col
+      h3 You
+      text You can use W3C WAI resources to make your websites, applications, and other digital creations more accessible and usable to everyone.
+  button "Hide Section"
+row
+  col
+    h2 News
+    h3 Current Work
+    text (updated monthly)
+    text See
+    link "What We're Working On – Accessibility Activities and Publications" /WAI/update/
+    h3 Crafting WCAG 3 for more accessible user experiences
+    text (2026-Sep-25)
+    text In the W3C blog post , W3C WAI Director  covers some of the stakes and challenges in developing W3C Accessibility Guidelines (WCAG) 3.
+    link "Crafting WCAG 3 for more accessible user experiences" https://www.w3.org/blog/2026/crafting-wcag-3-for-more-accessible-user-experiences/
+    link "Shawn Lawton Henry" https://www.w3.org/staff/#shawn
+    h3 WCAG 2.2 and 2.1 in French — Authorized translations updated
+    text (2026-Sep-22)
+    text The French authorized translations of Web Content Accessibility Guidelines () are updated:
+    link WCAG https://www.w3.org/WAI/standards-guidelines/wcag/
+    text is now based on the 12 December 2024 publication of WCAG 2.2.
+    link "Règles pour l’accessibilité des contenus web (WCAG) 2.2" https://www.w3.org/Translations/WCAG22-fr/
+    text is now based on the 6 May 2025 publication of WCAG 2.1.
+    link "Règles pour l’accessibilité des contenus web (WCAG) 2.1" https://www.w3.org/Translations/WCAG21-fr/
+    text These translations followed the .
+    link "W3C authorized translations process" https://www.w3.org/2005/02/TranslationPolicy
+    text Other translations of WAI resources are listed in .
+    link "All WAI Translations" https://www.w3.org/WAI/translations/
+    text W3C WAI thanks all who contribute to translations, and encourages translations of W3C accessibility standards and resources in all languages. If you might be interested in translating resources, see .
+    link "Translating WAI Resources" https://www.w3.org/WAI/about/translating/
+    h3 For Review: WCAG 3 Working Draft – September 2026
+    text (2026-Sep-10)
+    text is updated. The starting place for background, timeline, and up-to-date information is the . For a list of changes in the September 2026 draft and review questions on the conformance model, see .
+    link "W3C Accessibility Guidelines (WCAG) 3.0 Working Draft" https://www.w3.org/TR/wcag-3.0/
+    link "WCAG 3 Introduction" /WAI/standards-guidelines/wcag/wcag3-intro/
+    link "Status: In-progress drafts" /WAI/standards-guidelines/wcag/wcag3-intro/#status-in-progress-drafts
+    h3 WCAG Evaluation Methodology (WCAG-EM) 2.0 — Note Published
+    text (2026-Jul-23)
+    text is published as a W3C Group Note. WCAG-EM describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Content Accessibility Guidelines (WCAG) 2. WCAG-EM 1 was specifically for testing websites and web pages. WCAG-EM 2 also applies to apps and other digital products. For an introduction to WCAG-EM, see .
+    link "WCAG Evaluation Methodology (WCAG-EM) 2.0" https://www.w3.org/TR/wcag-em-2/
+    link "WCAG-EM Overview" /WAI/test-evaluate/conformance/wcag-em/
+    h3 For Review: WCAG 3 Working Draft – March 2026
+    text (2026-Mar-03)
+    text is updated. The starting place for background, timeline, and up-to-date information is the . For a list of changes in the March 2026 draft, see .
+    link "W3C Accessibility Guidelines (WCAG) 3.0 Working Draft" https://www.w3.org/TR/wcag-3.0/
+    link "WCAG 3 Introduction" /WAI/standards-guidelines/wcag/wcag3-intro/
+    link "Status: In-progress drafts" /WAI/standards-guidelines/wcag/wcag3-intro/#status-in-progress-drafts
+    h3 For Review: W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0 — First Draft Note
+    text (2026-Feb-05)
+    text is available as a first Draft Note. WCAG-EM describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Content Accessibility Guidelines (WCAG) 2. WCAG-EM 1 is specifically for testing websites and web pages. WCAG-EM 2 also applies to apps and other digital products. For an introduction to WCAG-EM and more information about the WCAG-EM 2 draft, see .
+    link "W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0" https://www.w3.org/TR/wcag-em-2/
+    link "WCAG-EM Overview" https://www.w3.org/WAI/test-evaluate/conformance/wcag-em/
+    h3 For Review: Cognitive Accessibility Research Modules — First Draft Notes
+    text (2026-Feb-05)
+    text are available as first Draft Notes. The documents cover research on accessibility for people with cognitive and learning disabilities for , , , and . They address user needs, accessibility issues, directions for solutions, and areas for further research. We particularly seek input on what might be appropriate to add to these documents, including other relevant research, additional user needs, and the connection between research and priorities for new work in W3C groups. Information on related work is in .
+    link "Cognitive Accessibility Research Modules" https://www.w3.org/TR/coga-research-modules/
+    link "Voice Systems and Conversational Interfaces" https://www.w3.org/TR/coga-voice/
+    link "Technology Assisted Indoor Navigation / Wayfinding" https://www.w3.org/TR/coga-wayfinding/
+    link "Online Safety and Wellbeing (Algorithms and Data)" https://www.w3.org/TR/coga-safety/
+    link "Supported Decision-Making Online" https://www.w3.org/TR/coga-sdm/
+    link "Cognitive Accessibility at W3C" https://www.w3.org/WAI/cognitive/
+    link "See All News" /WAI/news/
+    link "Subscribe to WAI News" /WAI/news/subscribe/
+  col
+    h2 See what we have for you: Get Resources for…
+    link "Getting Started" /WAI/roles/new/
+    link "Content Writers" /WAI/roles/writers/
+    link Designers /WAI/roles/designers/
+    link Developers /WAI/roles/developers/
+    link "Evaluators, Testers" /WAI/roles/testers/
+    link Managers /WAI/roles/managers/
+    link "Policy Makers" /WAI/roles/policy-makers/
+    link "Trainers, Educators" /WAI/roles/trainers/
+    link "Web Users, People with Disabilities, Advocates" /WAI/roles/users/
+    link "Everyone (All WAI Resources)" /WAI/resources/
+    link "Other Languages" /WAI/translations/
+    link "Training Course: Digital Accessibility Foundations The free \"Introduction to Web Accessibility\" online course provides the foundation you need to make your digital technology accessible. It's designed for: technical and non-technical learners developers, designers, ux, writers, managers, advocates professionals, instructors, students About the Free Online Course" https://www.w3.org/WAI/fundamentals/foundations-course/
+    h2 Web Accessibility Perspectives: Video Captions
+    text "Captions are the audio information in text that is synchronized with the audio and visual content. Captions are called \"subtitles\" in some regions."
+    text Video Captions are essential for people with disabilities and benefit everyone in a variety of situations.
+    row
+      link "More About Video Captions" /WAI/perspective-videos/captions/
+      link "See All Perspectives Videos" /WAI/perspective-videos/
+    link "Featured Resource: Making Audio and Video Media Accessible This media resource helps you understand and create captions/subtitles, audio description of visual information, descriptive transcripts, and sign language for media. It introduces user experiences and benefits to organizations. Making Audio and Video Media Accessible" /WAI/media/av/
+h2 Sponsors and Funders
+text WAI is supported in part by the following organizations. Thank you!
+text ,
+row
+  link "Ford Foundation" https://www.fordfoundation.org/
+  link "Technology and Society Program" https://www.fordfoundation.org/work/challenging-inequality/technology-and-society/
+text WAI welcomes donations, sponsors, grants and other .
+link "financial support" /WAI/about/support/
+link "Back to Top" #top
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/
+text Strategies, standards, resources to make the Web accessible to people with disabilities
+row
+  link "Get News in Email" /WAI/news/subscribe/
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/
+  link Mastodon https://w3c.social/@wai
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+row
+  link Home /WAI/
+  link Contact /WAI/about/contacting/
+  link "Site map" /WAI/sitemap/
+  link "Support WAI" /WAI/about/support/
+  link News /WAI/news/
+  link "Accessibility statement" /WAI/about/accessibility-statement/
+  link "All Translations" /WAI/translations/
+  link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/software-license/
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/

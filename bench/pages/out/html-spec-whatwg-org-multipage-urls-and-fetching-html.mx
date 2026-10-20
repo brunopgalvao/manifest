@@ -1,0 +1,870 @@
+@html_spec_whatwg_org_multipage_urls_and_
+link "https://whatwg.org/" https://whatwg.org/
+h1 HTML
+text Living Standard — Last Updated 19 October 2026 success
+text —  —
+row
+  link "← 2.3 Common microsyntaxes" common-microsyntaxes.html
+  link "Table of Contents" ./
+  link "2.6 Common DOM interfaces →" common-dom-interfaces.html
+link "2.4 URLs" urls-and-fetching.html#urls
+link "2.4.1 Terminology" urls-and-fetching.html#terminology-2
+link "2.4.2 Parsing URLs" urls-and-fetching.html#resolving-urls
+link "2.4.3 Document base URLs" urls-and-fetching.html#document-base-urls
+link "2.5 Fetching resources" urls-and-fetching.html#fetching-resources
+link "2.5.1 Terminology" urls-and-fetching.html#terminology-3
+link "2.5.2 Determining the type of a resource" urls-and-fetching.html#content-type-sniffing
+link "2.5.3 Extracting character encodings from meta elements" urls-and-fetching.html#extracting-character-encodings-from-meta-elements
+link "2.5.4 CORS settings attributes" urls-and-fetching.html#cors-settings-attributes
+link "2.5.5 Referrer policy attributes" urls-and-fetching.html#referrer-policy-attributes
+link "2.5.6 Nonce attributes" urls-and-fetching.html#nonce-attributes
+link "2.5.7 Lazy loading attributes" urls-and-fetching.html#lazy-loading-attributes
+link "2.5.8 Blocking attributes" urls-and-fetching.html#blocking-attributes
+link "2.5.9 Fetch priority attributes" urls-and-fetching.html#fetch-priority-attributes
+h3 2.4 URLs
+h3 2.4.1 Terminology
+text A string is a  if it is a  but it is not the empty string.
+row
+  text valid non-empty URL
+  link "valid URL string" https://url.spec.whatwg.org/#valid-url-string
+text A string is a  if, after  from it, it is a .
+row
+  text valid URL potentially surrounded by spaces
+  link "stripping leading and trailing ASCII whitespace" https://infra.spec.whatwg.org/#strip-leading-and-trailing-ascii-whitespace
+  link "valid URL string" https://url.spec.whatwg.org/#valid-url-string
+text A string is a  if, after  from it, it is a .
+text valid non-empty URL potentially surrounded by spaces
+link "stripping leading and trailing ASCII whitespace" https://infra.spec.whatwg.org/#strip-leading-and-trailing-ascii-whitespace
+link "valid non-empty URL" #valid-non-empty-url
+text This specification defines the URL  as a reserved, though unresolvable,  URL, for use in s in  when needed for compatibility with XML tools.
+text "about:legacy-compat"
+link "about:" https://www.rfc-editor.org/rfc/rfc6694#section-2
+link DOCTYPE syntax.html#syntax-doctype
+link "HTML documents" https://dom.spec.whatwg.org/#html-document
+link [ABOUT] references.html#refsABOUT
+text This specification defines the URL  as a reserved, though unresolvable,  URL, that is used as an identifier for kinds of media tracks.
+text "about:html-kind"
+link "about:" https://www.rfc-editor.org/rfc/rfc6694#section-2
+link [ABOUT] references.html#refsABOUT
+text This specification defines the URL  as a reserved, though unresolvable,  URL, that is used as the  of .
+text "about:srcdoc"
+link "about:" https://www.rfc-editor.org/rfc/rfc6694#section-2
+link URL https://dom.spec.whatwg.org/#concept-document-url
+link "iframe srcdoc documents" iframe-embed-object.html#an-iframe-srcdoc-document
+link [ABOUT] references.html#refsABOUT
+text "A   if its  is \"\", its  contains a single string \"\", its  and  are the empty string, and its  is null."
+link URL https://url.spec.whatwg.org/#concept-url
+text "matches about:blank"
+link scheme https://url.spec.whatwg.org/#concept-url-scheme
+text about
+link path https://url.spec.whatwg.org/#concept-url-path
+text blank
+link username https://url.spec.whatwg.org/#concept-url-username
+link "password" https://url.spec.whatwg.org/#concept-url-password
+link host https://url.spec.whatwg.org/#concept-url-host
+text "Such a URL's  and  can be non-null. For example, the  created by  \"\" ." success
+link query https://url.spec.whatwg.org/#concept-url-query
+link fragment https://url.spec.whatwg.org/#concept-url-fragment
+link "URL record" https://url.spec.whatwg.org/#concept-url
+link parsing https://url.spec.whatwg.org/#concept-url-parser
+text "about:blank?foo#bar"
+link "matches about:blank" #matches-about:blank
+text "A   if its  is \"\", its  contains a single string \"\", its  is null, its  and  are the empty string, and its  is null."
+link URL https://url.spec.whatwg.org/#concept-url
+text "matches about:srcdoc"
+link scheme https://url.spec.whatwg.org/#concept-url-scheme
+text about
+link path https://url.spec.whatwg.org/#concept-url-path
+text srcdoc
+link query https://url.spec.whatwg.org/#concept-url-query
+link username https://url.spec.whatwg.org/#concept-url-username
+link "password" https://url.spec.whatwg.org/#concept-url-password
+link host https://url.spec.whatwg.org/#concept-url-host
+text The reason that  ensures that the 's  is null is because it is not possible to create  whose  has a non-null , unlike s whose  . In other words, the set of all s that  only vary in their . success
+link "matches about:srcdoc" #matches-about:srcdoc
+link URL https://url.spec.whatwg.org/#concept-url
+link query https://url.spec.whatwg.org/#concept-url-query
+link "an iframe srcdoc document" iframe-embed-object.html#an-iframe-srcdoc-document
+link URL https://dom.spec.whatwg.org/#concept-document-url
+link query https://url.spec.whatwg.org/#concept-url-query
+link Document dom.html#document
+link URL https://dom.spec.whatwg.org/#concept-document-url
+link "matches about:blank" #matches-about:blank
+link URL https://url.spec.whatwg.org/#concept-url
+link "match about:srcdoc" #matches-about:srcdoc
+link fragment https://url.spec.whatwg.org/#concept-url-fragment
+h3 2.4.2 Parsing URLs
+text Parsing a URL is the process of taking a string and obtaining the  that it represents. While this process is defined in , the HTML standard defines several wrappers to abstract base URLs and encodings.
+link "URL record" https://url.spec.whatwg.org/#concept-url
+text URL
+link [URL] references.html#refsURL
+text Most new APIs are to use . Older APIs and HTML elements might have reason to use . When a custom base URL is needed or no base URL is desired, the  can of course be used directly as well. success
+link "parse a URL" #parse-a-url
+link "encoding-parse a URL" #encoding-parsing-a-url
+link "URL parser" https://url.spec.whatwg.org/#concept-url-parser
+text To , given a string , relative to a  object or  , run these steps. They return failure or a .
+text parse a URL
+text url
+link Document dom.html#document
+link "environment settings object" webappapis.html#environment-settings-object
+text environment
+link URL https://url.spec.whatwg.org/#concept-url
+text Let  be 's , if  is a  object; otherwise 's .
+row
+  text baseURL
+  text environment
+  link "base URL" #document-base-url
+  text environment
+  link Document dom.html#document
+  text environment
+  link "API base URL" webappapis.html#api-base-url
+text Return the result of applying the  to , with .
+row
+  link "URL parser" https://url.spec.whatwg.org/#concept-url-parser
+  text url
+  text baseURL
+text To , given a string , relative to a  object or  , run these steps. They return failure or a .
+text encoding-parse a URL
+text url
+link Document dom.html#document
+link "environment settings object" webappapis.html#environment-settings-object
+text environment
+link URL https://url.spec.whatwg.org/#concept-url
+text Let  be .
+row
+  text encoding
+  link UTF-8 https://encoding.spec.whatwg.org/#utf-8
+text If  is a  object, then set  to 's .
+row
+  text environment
+  link Document dom.html#document
+  text encoding
+  text environment
+  link "character encoding" https://dom.spec.whatwg.org/#concept-document-encoding
+text Otherwise, if 's  is a  object, set  to 's 's 's .
+text environment
+link "relevant global object" webappapis.html#concept-relevant-global
+link Window nav-history-apis.html#window
+text encoding
+text environment
+link "relevant global object" webappapis.html#concept-relevant-global
+link "associated Document" nav-history-apis.html#concept-document-window
+link "character encoding" https://dom.spec.whatwg.org/#concept-document-encoding
+text Let  be 's , if  is a  object; otherwise 's .
+row
+  text baseURL
+  text environment
+  link "base URL" #document-base-url
+  text environment
+  link Document dom.html#document
+  text environment
+  link "API base URL" webappapis.html#api-base-url
+text Return the result of applying the  to , with  and .
+row
+  link "URL parser" https://url.spec.whatwg.org/#concept-url-parser
+  text url
+  text baseURL
+  text encoding
+text To , given a string , relative to a  object or  , run these steps. They return failure or a string.
+row
+  text encoding-parse-and-serialize a URL
+  text url
+  link Document dom.html#document
+  link "environment settings object" webappapis.html#environment-settings-object
+  text environment
+text Let  be the result of  given , relative to .
+row
+  text url
+  link "encoding-parsing a URL" #encoding-parsing-a-url
+  text url
+  text environment
+text If  is failure, then return failure.
+text url
+text Return the result of applying the  to .
+row
+  link "URL serializer" https://url.spec.whatwg.org/#concept-url-serializer
+  text url
+h3 2.4.3 Document base URLs
+text The  of a   is the  obtained by running these steps:
+row
+  text document base URL
+  link Document dom.html#document
+  text document
+  link "URL record" https://url.spec.whatwg.org/#concept-url
+text If  has a   element that has an  attribute, then return the  of the first such  element in .
+text document
+link descendant https://dom.spec.whatwg.org/#concept-tree-descendant
+link base semantics.html#the-base-element
+link href semantics.html#attr-base-href
+link "frozen base URL" semantics.html#frozen-base-url
+link base semantics.html#the-base-element
+link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+text If 's  is non-null, then return 's .
+row
+  text document
+  link "base URL override" https://dom.spec.whatwg.org/#document-base-url-override
+  text document
+  link "base URL override" https://dom.spec.whatwg.org/#document-base-url-override
+text Return 's .
+row
+  text document
+  link "fallback base URL" #fallback-base-url
+text A  's  algorithm returns 's .
+row
+  link Document dom.html#document
+  text document
+  link "get the base URL" https://dom.spec.whatwg.org/#get-the-base-url
+  text document
+  link "document base URL" #document-base-url
+text The  of a  object  is the  obtained by running these steps:
+row
+  text fallback base URL
+  link Document dom.html#document
+  text document
+  link "URL record" https://url.spec.whatwg.org/#concept-url
+text If 's   or , and 's  is non-null, then return 's .
+text document
+link URL https://dom.spec.whatwg.org/#concept-document-url
+link "matches about:blank" #matches-about:blank
+link "matches about:srcdoc" #matches-about:srcdoc
+text document
+link "about base URL" dom.html#concept-document-about-base-url
+text document
+link "about base URL" dom.html#concept-document-about-base-url
+text Return 's .
+row
+  text document
+  link URL https://dom.spec.whatwg.org/#concept-document-url
+text To  for a   to a  :
+row
+  text set the URL
+  link Document dom.html#document
+  text document
+  link "URL record" https://url.spec.whatwg.org/#concept-url
+  text url
+text Set 's  to .
+row
+  text document
+  link URL https://dom.spec.whatwg.org/#concept-document-url
+  text url
+text given .
+row
+  link "Respond to base URL changes" #respond-to-base-url-changes
+  text document
+text To  for a  :
+row
+  text respond to base URL changes
+  link Document dom.html#document
+  text document
+text The user agent should update any user interface elements which are displaying affected URLs, or data derived from such URLs, to the user. Examples of such user interface elements would be a status bar that displays a 's , or some user interface which displays the URL specified by a , , , or  element's  attribute.
+link hyperlink links.html#hyperlink
+link url links.html#concept-hyperlink-url
+link q text-level-semantics.html#the-q-element
+link blockquote grouping-content.html#the-blockquote-element
+link ins edits.html#the-ins-element
+link del edits.html#the-del-element
+text cite
+text Ensure that the CSS //etc.  are updated appropriately.
+row
+  link ":link" semantics-other.html#selector-link
+  link ":visited" semantics-other.html#selector-visited
+  link pseudo-classes https://drafts.csswg.org/selectors/#pseudo-class
+text of 's :
+row
+  link "For each" https://infra.spec.whatwg.org/#list-iterate
+  text descendant
+  text document
+  link "shadow-including descendants" https://dom.spec.whatwg.org/#concept-shadow-including-descendant
+text If  is a  element whose  is a :
+row
+  text descendant
+  link script scripting.html#the-script-element
+  link result scripting.html#concept-script-result
+  link "speculation rules parse result" webappapis.html#speculation-rules-parse-result
+text Let  be 's .
+row
+  text oldResult
+  text element
+  link result scripting.html#concept-script-result
+text Let  be the result of  given 's  and 's .
+text newResult
+link "creating a speculation rules parse result" webappapis.html#create-a-speculation-rules-parse-result
+text element
+link "child text content" https://dom.spec.whatwg.org/#concept-child-text-content
+text element
+link "node document" https://dom.spec.whatwg.org/#concept-node-document
+text given 's , , and .
+row
+  link "Update speculation rules" webappapis.html#update-speculation-rules
+  text element
+  link "relevant global object" webappapis.html#concept-relevant-global
+  text oldResult
+  text newResult
+text given .
+row
+  link "Consider speculative loads" speculative-loading.html#consider-speculative-loads
+  text document
+text This means that changing the base URL doesn't affect, for example, the image displayed by  elements. Thus, subsequent accesses of the  IDL attribute from script will return a new  that might no longer correspond to the image being shown.
+link img embedded-content.html#the-img-element
+link src embedded-content.html#dom-img-src
+link "absolute URL" https://url.spec.whatwg.org/#syntax-url-absolute
+h3 2.5 Fetching resources
+h3 2.5.1 Terminology
+text "A  whose  is \"\", \"\", or \"\" is ."
+row
+  link response https://fetch.spec.whatwg.org/#concept-response
+  link type https://fetch.spec.whatwg.org/#concept-response-type
+  text basic
+  text cors
+  text default
+  text CORS-same-origin
+  link [FETCH] references.html#refsFETCH
+text "A  whose  is \"\" or \"\" is ."
+row
+  link response https://fetch.spec.whatwg.org/#concept-response
+  link type https://fetch.spec.whatwg.org/#concept-response-type
+  text opaque
+  text opaqueredirect
+  text CORS-cross-origin
+text A 's  is its  if it has one, and the  itself otherwise.
+row
+  link response https://fetch.spec.whatwg.org/#concept-response
+  text unsafe response
+  link "internal response" https://fetch.spec.whatwg.org/#concept-internal-response
+  link response https://fetch.spec.whatwg.org/#concept-response
+text To , given a , , , and an optional , run these steps:
+row
+  text create a potential-CORS request
+  text url
+  text destination
+  text corsAttributeState
+  text same-origin fallback flag
+text "Let  be \"\" if  is , and \"\" otherwise."
+row
+  text mode
+  text no-cors
+  text corsAttributeState
+  link "No CORS" #attr-crossorigin-none
+  text cors
+text "If  is set and  is \"\", set  to \"\"."
+row
+  text same-origin fallback flag
+  text mode
+  text no-cors
+  text mode
+  text same-origin
+text "Let  be \"\"."
+row
+  text credentialsMode
+  text include
+text "If  is , set  to \"\"."
+row
+  text corsAttributeState
+  link Anonymous #attr-crossorigin-anonymous
+  text credentialsMode
+  text same-origin
+text Return a new  whose  is ,  is ,  is ,  is , and whose  is set.
+link request https://fetch.spec.whatwg.org/#concept-request
+link URL https://fetch.spec.whatwg.org/#concept-request-url
+text url
+link destination https://fetch.spec.whatwg.org/#concept-request-destination
+text destination
+link mode https://fetch.spec.whatwg.org/#concept-request-mode
+text mode
+link "credentials mode" https://fetch.spec.whatwg.org/#concept-request-credentials-mode
+text credentialsMode
+link "use-URL-credentials flag" https://fetch.spec.whatwg.org/#concept-request-use-url-credentials-flag
+h3 2.5.2 Determining the type of a resource
+text The  of a resource must be obtained and interpreted in a manner consistent with the requirements of .
+text Content-Type metadata
+text MIME Sniffing
+link [MIMESNIFF] references.html#refsMIMESNIFF
+text The  of a resource must be found in a manner consistent with the requirements given in .
+row
+  link "computed MIME type" https://mimesniff.spec.whatwg.org/#computed-mime-type
+  text MIME Sniffing
+  link [MIMESNIFF] references.html#refsMIMESNIFF
+text The , the , and the  are also defined in . These rules return a  as their result.
+link "rules for sniffing images specifically" https://mimesniff.spec.whatwg.org/#rules-for-sniffing-images-specifically
+link "rules for distinguishing if a resource is text or binary" https://mimesniff.spec.whatwg.org/#rules-for-text-or-binary
+link "rules for sniffing audio and video specifically" https://mimesniff.spec.whatwg.org/#rules-for-sniffing-audio-and-video-specifically
+text MIME Sniffing
+link "MIME type" https://mimesniff.spec.whatwg.org/#mime-type
+link [MIMESNIFF] references.html#refsMIMESNIFF
+text It is imperative that the rules in  be followed exactly. When a user agent uses different heuristics for content type detection than the server expects, security problems can occur. For more details, see . danger
+text MIME Sniffing danger
+text MIME Sniffing danger
+link [MIMESNIFF] references.html#refsMIMESNIFF
+h3 2.5.3 Extracting character encodings from meta elements
+text The , given a string , is as follows. It returns either a character encoding or nothing.
+row
+  text algorithm for extracting a character encoding from a meta element
+  text s
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text s
+text ": Find the first seven characters in  after  that are an  match for the word \"\". If no such match is found, return nothing."
+row
+  text Loop
+  text s
+  text position
+  link "ASCII case-insensitive" https://infra.spec.whatwg.org/#ascii-case-insensitive
+  text charset
+text "Skip any  that immediately follow the word \"\" (there might not be any)."
+row
+  link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+  text charset
+text If the next character is not a U+003D EQUALS SIGN (=), then move  to point just before that next character, and jump back to the step labeled .
+text position
+text loop
+text Skip any  that immediately follow the equals sign (there might not be any).
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text Process the next character as follows:
+text "If it is a U+0022 QUOTATION MARK character (\") and there is a later U+0022 QUOTATION MARK character (\") in"
+text s
+text If it is a U+0027 APOSTROPHE character (') and there is a later U+0027 APOSTROPHE character (') in
+text s
+text Return the result of  from the substring that is between this character and the next earliest occurrence of this character.
+link "getting an encoding" https://encoding.spec.whatwg.org/#concept-encoding-get
+text "If it is an unmatched U+0022 QUOTATION MARK character (\")"
+text If it is an unmatched U+0027 APOSTROPHE character (')
+text If there is no next character
+text Return nothing.
+text Otherwise
+text Return the result of  from the substring that consists of this character up to but not including the first  or U+003B SEMICOLON character (;), or the end of , whichever comes first.
+link "getting an encoding" https://encoding.spec.whatwg.org/#concept-encoding-get
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text s
+text This algorithm is distinct from those in the HTTP specifications (for example, HTTP doesn't allow the use of single quotes and requires supporting a backslash-escape mechanism that is not supported by this algorithm). While the algorithm is used in contexts that, historically, were related to HTTP, the syntax as supported by implementations diverged some time ago. success
+link [HTTP] references.html#refsHTTP
+h3 2.5.4 CORS settings attributes
+button ✔MDN
+text A  is an  with the following keywords and states:
+row
+  text CORS settings attribute
+  link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute
+table Keyword State "Brief description"
+  anonymous | Anonymous | Requests for the element will have their mode set to "cors" and their credentials mode set to "same-origin".
+  use-credentials | Use Credentials | Requests for the element will have their mode set to "cors" and their credentials mode set to "include".
+text The attribute's  is the  state, and its  and  are both the  state.
+row
+  link "missing value default" common-microsyntaxes.html#missing-value-default
+  text No CORS
+  link "invalid value default" common-microsyntaxes.html#invalid-value-default
+  link "empty value default" common-microsyntaxes.html#empty-value-default
+  link Anonymous #attr-crossorigin-anonymous
+text The majority of fetches governed by  will be done via the  algorithm.
+row
+  link "CORS settings attributes" #cors-settings-attribute
+  link "create a potential-CORS request" #create-a-potential-cors-request
+text "For more modern features, where the request's  is always \"\", certain  have been repurposed to have a slightly different meaning, wherein they only impact the 's . To perform this translation, we define the  for a given  to be determined by switching on the attribute's state:"
+link mode https://fetch.spec.whatwg.org/#concept-request-mode
+text cors
+link "CORS settings attributes" #cors-settings-attribute
+link request https://fetch.spec.whatwg.org/#concept-request
+link "credentials mode" https://fetch.spec.whatwg.org/#concept-request-credentials-mode
+text CORS settings attribute credentials mode
+link "CORS settings attribute" #cors-settings-attribute
+link "No CORS" #attr-crossorigin-none
+link Anonymous #attr-crossorigin-anonymous
+text "\"same-origin\""
+link "Use Credentials" #attr-crossorigin-none
+text "\"include\""
+h3 2.5.5 Referrer policy attributes
+text A  is an . Each , including the empty string, is a keyword for this attribute, mapping to a state of the same name.
+row
+  text referrer policy attribute
+  link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute
+  link "referrer policy" https://w3c.github.io/webappsec-referrer-policy/#referrer-policy
+text The attribute's  and  are both the empty string state.
+row
+  link "missing value default" common-microsyntaxes.html#missing-value-default
+  link "invalid value default" common-microsyntaxes.html#invalid-value-default
+text The impact of these states on the processing model of various  is defined in more detail throughout this specification, in , and in .
+link fetches https://fetch.spec.whatwg.org/#concept-fetch
+text Fetch
+text Referrer Policy
+link [FETCH] references.html#refsFETCH
+link [REFERRERPOLICY] references.html#refsREFERRERPOLICY
+text Several signals can contribute to which processing model is used for a given ; a  is only one of them. In general, the order in which these signals are processed are: success
+row
+  link fetch https://fetch.spec.whatwg.org/#concept-fetch
+  link "referrer policy attribute" #referrer-policy-attribute
+text First, the presence of a  link type; success
+link noreferrer links.html#link-type-noreferrer
+text Then, the value of a ; success
+link "referrer policy attribute" #referrer-policy-attribute
+text Then, the presence of any  element with  attribute set to . success
+row
+  link meta semantics.html#the-meta-element
+  link name semantics.html#attr-meta-name
+  link referrer semantics.html#meta-referrer
+text Finally, the `` HTTP header. success
+link Referrer-Policy https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-header-dfn
+h3 2.5.6 Nonce attributes
+button ✔MDN
+text "A  content attribute represents a cryptographic nonce (\"number used once\") which can be used by  to determine whether or not a given fetch will be allowed to proceed. The value is text."
+text nonce
+text Content Security Policy
+link [CSP] references.html#refsCSP
+text Elements that have a  content attribute ensure that the cryptographic nonce is only exposed to script (and not to side-channels like CSS attribute selectors) by taking the value from the content attribute, moving it into an internal slot named , exposing it to script via the  interface mixin, and setting the content attribute to the empty string. Unless otherwise specified, the slot's value is the empty string.
+link nonce #attr-nonce
+text [[CryptographicNonce]]
+link HTMLOrSVGOrMathMLElement dom.html#htmlorsvgelement
+text .
+row
+  text element
+  link nonce #dom-noncedelement-nonce
+text Returns the value set for 's cryptographic nonce. If the setter was not used, this will be the value originally found in the  content attribute. success
+row
+  text element success
+  link nonce #attr-nonce
+text . =
+row
+  text element
+  link nonce #dom-noncedelement-nonce
+  text value
+text Updates 's cryptographic nonce value. success
+text element success
+button MDN
+text The  IDL attribute must, on getting, return the value of this element's ; and on setting, set this element's  to the given value.
+text nonce
+link [[CryptographicNonce]] #cryptographicnonce
+link [[CryptographicNonce]] #cryptographicnonce
+text Note how the setter for the  IDL attribute does not update the corresponding content attribute. This, as well as the below setting of the  content attribute to the empty string when an element , is meant to prevent exfiltration of the nonce value through mechanisms that can easily read content attributes, such as selectors. Learn more in , where this behavior was introduced. success
+link nonce #dom-noncedelement-nonce
+link nonce #attr-nonce
+link "becomes browsing-context connected" infrastructure.html#becomes-browsing-context-connected
+link "issue #2369" https://github.com/whatwg/html/issues/2369
+text The following  are used for the  content attribute:
+row
+  link "attribute change steps" https://dom.spec.whatwg.org/#concept-element-attributes-change-ext
+  link nonce #attr-nonce
+text If  does not  , then return.
+row
+  text element
+  link include https://webidl.spec.whatwg.org/#include
+  link HTMLOrSVGOrMathMLElement dom.html#htmlorsvgelement
+text If  is not  or  is not null, then return.
+row
+  text localName
+  link nonce #attr-nonce
+  text namespace
+text If  is null, then set 's  to the empty string.
+row
+  text value
+  text element
+  link [[CryptographicNonce]] #cryptographicnonce
+text Otherwise, set 's  to .
+row
+  text element
+  link [[CryptographicNonce]] #cryptographicnonce
+  text value
+text Whenever an element   , the user agent must execute the following steps on the :
+link including https://webidl.spec.whatwg.org/#include
+link HTMLOrSVGOrMathMLElement dom.html#htmlorsvgelement
+link "becomes browsing-context connected" infrastructure.html#becomes-browsing-context-connected
+text element
+text Let  be 's 's 's .
+row
+  text CSP list
+  text element
+  link "shadow-including root" https://dom.spec.whatwg.org/#concept-shadow-including-root
+  link "policy container" dom.html#concept-document-policy-container
+  link "CSP list" browsers.html#policy-container-csp-list
+text If  , and  has a  content attribute whose value is not the empty string:
+row
+  text CSP list
+  link "contains a header-delivered Content Security Policy" https://w3c.github.io/webappsec-csp/#contains-a-header-delivered-content-security-policy
+  text element
+  link nonce #attr-nonce
+text Let  be 's .
+row
+  text nonce
+  text element
+  link [[CryptographicNonce]] #cryptographicnonce
+text "for  using \"\" and the empty string."
+row
+  link "Set an attribute value" https://dom.spec.whatwg.org/#concept-element-attributes-set-value
+  text element
+  link nonce #attr-nonce
+text Set 's  to .
+row
+  text element
+  link [[CryptographicNonce]] #cryptographicnonce
+  text nonce
+text If 's  were not restored it would be the empty string at this point. success
+row
+  text element success
+  link [[CryptographicNonce]] #cryptographicnonce
+text The  for elements that   given , , and  are to set 's  to 's .
+link "cloning steps" https://dom.spec.whatwg.org/#concept-node-clone-ext
+link include https://webidl.spec.whatwg.org/#include
+link HTMLOrSVGOrMathMLElement dom.html#htmlorsvgelement
+text node
+text copy
+text subtree
+text copy
+link [[CryptographicNonce]] #cryptographicnonce
+text node
+link [[CryptographicNonce]] #cryptographicnonce
+h3 2.5.7 Lazy loading attributes
+button ✔MDN
+text A  is an  with the following keywords and states:
+row
+  text lazy loading attribute
+  link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute
+table Keyword State "Brief description"
+  lazy | Lazy | Used to defer fetching a resource until some conditions are met.
+  eager | Eager | Used to fetch a resource immediately; the default state.
+text The attribute directs the user agent to fetch a resource immediately or to defer fetching until some conditions associated with the element are met, according to the attribute's current state.
+text The attribute's  and  are both the  state.
+row
+  link "missing value default" common-microsyntaxes.html#missing-value-default
+  link "invalid value default" common-microsyntaxes.html#invalid-value-default
+  link Eager #attr-loading-eager-state
+text The , given an element , are as follows:
+row
+  text will lazy load element steps
+  text element
+text If  for , then return false.
+row
+  link "scripting is disabled" webappapis.html#concept-n-noscript
+  text element
+text This is an anti-tracking measure, because if a user agent supported lazy loading when scripting is disabled, it would still be possible for a site to track a user's approximate scroll position throughout a session, by strategically placing images in a page's markup such that a server can track how many images are requested and when. success
+text If 's  is in the  state, then return true.
+row
+  text element
+  link "lazy loading attribute" #lazy-loading-attribute
+  link Lazy #attr-loading-lazy-state
+text Return false.
+text Each , , , and  element has associated , initially null.
+row
+  link img embedded-content.html#the-img-element
+  link audio media.html#the-audio-element
+  link video media.html#the-video-element
+  link iframe iframe-embed-object.html#the-iframe-element
+  text lazy load resumption steps
+text Each  element also has associated , initially null.
+row
+  link video media.html#the-video-element
+  text poster lazy load resumption steps
+text For , , , and  elements that , these steps are run from the 's callback or when their  is set to the  state. This causes the element to continue loading. For  elements,  are also run at the same time. success
+link img embedded-content.html#the-img-element
+link audio media.html#the-audio-element
+link video media.html#the-video-element
+link iframe iframe-embed-object.html#the-iframe-element
+link "will lazy load" #will-lazy-load-element-steps
+link "lazy load intersection observer" #lazy-load-intersection-observer
+link "lazy loading attribute" #lazy-loading-attribute
+link Eager #attr-loading-eager-state
+link video media.html#the-video-element
+link "poster lazy load resumption steps" #poster-lazy-load-resumption-steps
+text Each  has a , initially set to null but can be set to an  instance.
+row
+  link Document dom.html#document
+  text lazy load intersection observer
+  link IntersectionObserver https://w3c.github.io/IntersectionObserver/#intersectionobserver
+text To  , run these steps:
+row
+  text start intersection-observing a lazy loading element
+  text element
+text Let  be 's .
+row
+  text doc
+  text element
+  link "node document" https://dom.spec.whatwg.org/#concept-node-document
+text If 's  is null, set it to a new  instance, initialized as follows:
+row
+  text doc
+  link "lazy load intersection observer" #lazy-load-intersection-observer
+  link IntersectionObserver https://w3c.github.io/IntersectionObserver/#intersectionobserver
+text The intention is to use the original value of the  constructor. However, we're forced to use the JavaScript-exposed constructor in this specification, until  exposes low-level hooks for use in specifications. See bug  which tracks this. danger
+link IntersectionObserver https://w3c.github.io/IntersectionObserver/#intersectionobserver
+text Intersection Observer danger
+link w3c/IntersectionObserver#464 https://github.com/w3c/IntersectionObserver/issues/464
+link [INTERSECTIONOBSERVER] references.html#refsINTERSECTIONOBSERVER
+text The  is these steps, with arguments  and :
+row
+  text callback
+  text entries
+  text observer
+text For each  in  :
+text entry
+text entries
+text using a method of iteration which does not trigger developer-modifiable array accessors or iteration hooks danger
+text Let  be null.
+text resumptionSteps
+text If . is true, then set  to .'s .
+row
+  text entry
+  link isIntersecting https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isintersecting
+  text resumptionSteps
+  text entry
+  link target https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-target
+  link "lazy load resumption steps" #lazy-load-resumption-steps
+text Let  be null.
+text posterResumptionSteps
+text If . is true and . is a  element, then set  to the  element's .
+text entry
+link isIntersecting https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isintersecting
+text entry
+link target https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-target
+link video media.html#the-video-element
+text posterResumptionSteps
+link video media.html#the-video-element
+link "poster lazy load resumption steps" #poster-lazy-load-resumption-steps
+text If  is null and  is null, then continue.
+row
+  text resumptionSteps
+  text posterResumptionSteps
+text for ..
+row
+  link "Stop intersection-observing a lazy loading element" #stop-intersection-observing-a-lazy-loading-element
+  text entry
+  link target https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-target
+text If  is not null:
+text resumptionSteps
+text Set .'s  to null.
+row
+  text entry
+  link target https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-target
+  link "lazy load resumption steps" #lazy-load-resumption-steps
+text Invoke .
+text resumptionSteps
+text If  is not null:
+text posterResumptionSteps
+text Set the  element's  to null.
+row
+  link video media.html#the-video-element
+  link "poster lazy load resumption steps" #poster-lazy-load-resumption-steps
+text Invoke .
+text posterResumptionSteps
+text The intention is to use the original value of the  and  getters. See . danger
+link isIntersecting https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isintersecting
+link target https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-target
+link w3c/IntersectionObserver#464 https://github.com/w3c/IntersectionObserver/issues/464
+link [INTERSECTIONOBSERVER] references.html#refsINTERSECTIONOBSERVER
+text "The  is an  dictionary with the following dictionary members: «[ \"\" →  ]»"
+text options
+link IntersectionObserverInit https://w3c.github.io/IntersectionObserver/#dictdef-intersectionobserverinit
+text scrollMargin
+link "lazy load scroll margin" #lazy-load-root-margin
+text This allows for fetching the image during scrolling, when it does not yet — but is about to — intersect the viewport. success
+text The  suggestions imply dynamic changes to the value, but the  API does not support changing the scroll margin. See issue . danger
+link "lazy load scroll margin" #lazy-load-root-margin
+link IntersectionObserver https://w3c.github.io/IntersectionObserver/#intersectionobserver
+link w3c/IntersectionObserver#428 https://github.com/w3c/IntersectionObserver/issues/428
+text Call 's 's  method with  as the argument.
+row
+  text doc
+  link "lazy load intersection observer" #lazy-load-intersection-observer
+  link observe https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-observe
+  text element
+text The intention is to use the original value of the  method. See . danger
+row
+  link observe https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-observe
+  link w3c/IntersectionObserver#464 https://github.com/w3c/IntersectionObserver/issues/464
+  link [INTERSECTIONOBSERVER] references.html#refsINTERSECTIONOBSERVER
+text To  , run these steps:
+row
+  text stop intersection-observing a lazy loading element
+  text element
+text Let  be 's .
+row
+  text doc
+  text element
+  link "node document" https://dom.spec.whatwg.org/#concept-node-document
+text : 's  is not null.
+row
+  link Assert https://infra.spec.whatwg.org/#assert
+  text doc
+  link "lazy load intersection observer" #lazy-load-intersection-observer
+text Call 's 's  method with  as the argument.
+row
+  text doc
+  link "lazy load intersection observer" #lazy-load-intersection-observer
+  link unobserve https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-unobserve
+  text element
+text The intention is to use the original value of the  method. See . danger
+row
+  link unobserve https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-unobserve
+  link w3c/IntersectionObserver#464 https://github.com/w3c/IntersectionObserver/issues/464
+  link [INTERSECTIONOBSERVER] references.html#refsINTERSECTIONOBSERVER
+text The  is an  value, but with the following suggestions to consider:
+link "There is a tracking vector here." https://infra.spec.whatwg.org/#tracking-vector
+text lazy load scroll margin
+link implementation-defined https://infra.spec.whatwg.org/#implementation-defined
+text Set a minimum value that most often results in the resources being loaded before they intersect the viewport under normal usage patterns for the given device.
+text The typical scrolling speed: increase the value for devices with faster typical scrolling speeds.
+text The current scrolling speed or momentum: the UA can attempt to predict where the scrolling will likely stop, and adjust the value accordingly.
+text The network quality: increase the value for slow or high-latency connections.
+text User preferences can influence the value.
+text It is important  that the  not leak additional information. For example, the typical scrolling speed on the current device could be imprecise so as to not introduce a new fingerprinting vector. success
+row
+  link "for privacy" https://infra.spec.whatwg.org/#tracking-vector
+  link "lazy load scroll margin" #lazy-load-root-margin
+h3 2.5.8 Blocking attributes
+text A  explicitly indicates that certain operations should be blocked on the fetching of an external resource. The operations that can be blocked are represented by , which are strings listed by the following table:
+text blocking attribute
+text possible blocking tokens
+table "Possible blocking token" Description
+  "render" | The element is potentially render-blocking.
+text In the future, there might be more . success
+link "possible blocking tokens" #possible-blocking-token
+text A  must have a value that is an , each of which are . The  of a  are the . Any element can have at most one .
+link "blocking attribute" #blocking-attribute
+link "unordered set of unique space-separated tokens" common-microsyntaxes.html#unordered-set-of-unique-space-separated-tokens
+link "possible blocking tokens" #possible-blocking-token
+link "supported tokens" https://dom.spec.whatwg.org/#concept-supported-tokens
+link "blocking attribute" #blocking-attribute
+link "possible blocking tokens" #possible-blocking-token
+link "blocking attribute" #blocking-attribute
+text The  for an element  are the result of the following steps:
+row
+  text blocking tokens set
+  text el
+text Let  be the value of 's , or the empty string if no such attribute exists.
+row
+  text value
+  text el
+  link "blocking attribute" #blocking-attribute
+text Set  to , .
+row
+  text value
+  text value
+  link "converted to ASCII lowercase" https://infra.spec.whatwg.org/#ascii-lowercase
+text Let  be the result of .
+row
+  text rawTokens
+  link "splitting value on ASCII whitespace" https://infra.spec.whatwg.org/#split-on-ascii-whitespace
+text Return a set containing the elements of  that are .
+row
+  text rawTokens
+  link "possible blocking tokens" #possible-blocking-token
+text "An element is  if its  contains \"\", or if it is , which will be defined at the individual elements. By default, an element is not ."
+text potentially render-blocking
+link "blocking tokens set" #blocking-tokens-set
+link render #blocking-token-render
+text implicitly potentially render-blocking
+link "implicitly potentially render-blocking" #implicitly-potentially-render-blocking
+h3 2.5.9 Fetch priority attributes
+text A  is an  with the following keywords and states:
+row
+  text fetch priority attribute
+  link "enumerated attribute" common-microsyntaxes.html#enumerated-attribute
+table Keyword State "Brief description"
+  high | High | Signals a high-priority fetch relative to other resources with the same destination.
+  low | Low | Signals a low-priority fetch relative to other resources with the same destination.
+  auto | Auto | Signals automatic determination of fetch priority relative to other resources with the same destination.
+text The attribute's  and  are both the  state.
+row
+  link "missing value default" common-microsyntaxes.html#missing-value-default
+  link "invalid value default" common-microsyntaxes.html#invalid-value-default
+  link Auto #attr-fetchpriority-auto-state
+text —  —
+row
+  link "← 2.3 Common microsyntaxes" common-microsyntaxes.html
+  link "Table of Contents" ./
+  link "2.6 Common DOM interfaces →" common-dom-interfaces.html

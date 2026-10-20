@@ -1,0 +1,83 @@
+@getbootstrap_com rev=0 @0,0,728,870
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,37
+  row @17,57,264,21
+    link Bootstrap / @17,57,62,21
+    row @91,57,190,21
+      link Docs /docs/6.0/getting-started/install/ @91,57,32,21
+      link Examples https://github.com/twbs/examples/tree/main @135,57,60,21
+      link Icons https://icons.getbootstrap.com/ @207,57,34,21
+      link Blog https://blog.getbootstrap.com/ @253,57,28,21
+  row @293,49,418,37
+    button "Search docs…" @293,49,121,37
+    link GitHub https://github.com/twbs @426,57,43,21
+    button v6.0 @481,49,59,37
+    button "Toggle theme (auto)" @552,49,159,37
+card @17,98,694,120
+  row @34,113,660,57
+    text Search docs… @34,131,95,21
+    row @141,113,82,57
+      field "Search docs…" search @141,113,82,57
+    button Close primary @235,123,69,37
+  text Start typing to search… @34,182,660,21
+link "Security updates for Bootstrap 3 & 4" https://www.herodevs.com/support/nes-bootstrap?utm_source=Bootstrap_site&utm_medium=Banner&utm_campaign=v3and4_eol @17,230,694,20
+h1 Bootstrap is the open source design system for everyone @17,262,694,25
+text Bootstrap 6 has been rebuilt for today's web as a framework-agnostic design toolkit that anyone—human or AI, novice or pro—can use to build anything. New standards, new components, an updated visual design, CSS-first theming, and more powerful JavaScript plugins. @17,299,694,61
+link "Learn more on the blog." https://blog.getbootstrap.com/ @17,372,694,20
+row @17,404,694,36
+  row @17,404,283,36
+    text npm i bootstrap@6.0.0-alpha.1 @17,412,205,20
+    button Copy @234,404,66,36
+  button "For Agents" primary @312,404,105,36
+  link "Read the docs" /docs/6.0/getting-started/install @429,412,95,20
+row @17,452,694,21
+  text Currently v6.0.0-alpha.1 @17,452,160,21
+  text · @189,452,5,21
+  link "Bootstrap 5 docs" https://getbootstrap.com/docs/5.3/ @206,452,113,21
+  text · @331,452,5,21
+  link "All releases" /docs/versions/ @348,452,77,21
+card @17,485,694,82
+  link https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICEBDV2JKCK7D423WCKADV5QNC6SITKQYCW7IL2QKC6SILKJWCA7DVK3EHJNCLSIZ https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICEBDV2JKCK7D423WCKADV5QNC6SITKQYCW7IL2QKC6SILKJWCA7DVK3EHJNCLSIZ @34,500,660,20
+  link "Afraid of a surprise AWS bill? Not on the new Free Plan. Start for free." https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICEBDV2JKCK7D423WCKADV5QNC6SITKQYCW7IL2QKC6SILKJWCA7DVK3EHJNCLSIZ @34,532,660,20
+link "ads via Carbon" http://carbonads.net/?utm_source=getbootstrapcom&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @17,579,694,21
+row @17,612,694,241
+  col @17,631,376,202
+    link Bootstrap / @17,631,376,20
+    text Designed and built with all the love in the world by the Bootstrap team with the help of . @17,663,376,41
+    link "our contributors" https://github.com/twbs/bootstrap/graphs/contributors @17,716,376,20
+    text Code licensed , docs . @17,748,376,21
+    row @17,781,376,20
+      link MIT https://github.com/twbs/bootstrap/blob/main/LICENSE @17,781,26,20
+      link "CC BY 3.0" https://creativecommons.org/licenses/by/3.0/ @55,781,69,20
+    text Currently v6.0.0-alpha.1. @17,813,376,20
+  col @405,616,50,233
+    h3 Links @405,616,50,19
+    link Home / @405,647,50,20
+    link Docs /docs/6.0/ @405,679,50,20
+    link Examples /docs/6.0/examples @405,711,50,20
+    link Icons https://icons.getbootstrap.com/ @405,743,50,21
+    link Blog https://blog.getbootstrap.com/ @405,776,50,20
+    link "Swag Store" https://cottonbureau.com/people/bootstrap @405,808,50,41
+  col @467,622,70,221
+    h3 Guides @467,622,70,19
+    link "Getting started" /docs/6.0/getting-started @467,653,70,40
+    link "Starter template" /docs/6.0/examples/starter-template @467,705,70,41
+    link Webpack /docs/6.0/guides/webpack @467,758,70,20
+    link Parcel /docs/6.0/guides/parcel @467,790,70,20
+    link Vite /docs/6.0/guides/vite @467,822,70,21
+  col @549,628,64,209
+    h3 Projects @549,628,64,19
+    link "Bootstrap 6" https://github.com/twbs/bootstrap @549,659,64,40
+    link "Bootstrap 5" https://github.com/twbs/bootstrap/tree/v5-dev @549,711,64,41
+    link Icons https://github.com/twbs/icons @549,764,64,20
+    link "Examples repo" https://github.com/twbs/examples @549,796,64,41
+  col @625,612,86,241
+    h3 Community @625,612,86,18
+    link Issues https://github.com/twbs/bootstrap/issues @625,642,86,21
+    link Discussions https://github.com/twbs/bootstrap/discussions @625,675,86,20
+    link "Corporate sponsors" https://github.com/sponsors/twbs @625,707,86,41
+    link "Open Collective" https://opencollective.com/bootstrap @625,760,86,40
+    link "Stack Overflow" https://stackoverflow.com/questions/tagged/bootstrap-5 @625,812,86,41
+!overflow search 119/126px
+!overflow v60 57/59px
+!overflow toggle 157/166px

@@ -1,0 +1,87 @@
+@www_usa_gov_disability_services rev=0 @0,0,728,1570
+link "Skip to main content" #skip-to-h1 @17,17,694,20
+row @17,49,694,37
+  text An official website of the United States government @17,57,342,21
+  button "Here's how you know" @371,49,177,37
+text Home Close Search 1-844-USAGOV1 Disability services Find government benefits and financial help SSDI and SSI benefits for people with disabilities Disability benefits while working Get paid as a caregiver Job training and employment programs Discrimination, harassment, and retaliation Americans with Disabilities Act (ADA) Voter accessibility laws @17,98,694,81
+row @17,191,694,20
+  region Information 300x150 @17,191,76,20 [0 shapes, 0 labelled]
+  text Visit to learn how to register to vote or to update your registration. @105,191,438,20
+  link vote.gov https://www.vote.gov @555,191,58,20
+row @17,223,694,106
+  link "USAGov Logo" / @17,266,93,20
+  col @122,223,377,106
+    button Español primary @122,223,377,36
+    row @122,271,377,58
+      link "Call us at 1-844-USAGOV1" /phone @122,290,176,20
+      row @310,271,189,58
+        text Search @310,290,47,20
+        field Search search @369,271,40,58
+        button Search primary @421,282,78,36
+row @17,341,694,41
+  link "All topics and services" /#all-topics-header @17,341,94,41
+  link "The U.S. and its government" /about-the-us @123,341,119,41
+  link "Government benefits" /benefits @254,341,89,41
+  link "Immigration and U.S. citizenship" /immigration-and-citizenship @355,341,135,41
+  link "Money and credit" /money @502,341,73,41
+  link Travel /travel @587,351,26,21
+  link "Voting and elections" /voting-and-elections @625,341,86,41
+row @17,394,694,682
+  col @17,394,675,682
+    row @17,394,675,20
+      link Home / @17,394,40,20
+      text Disability services @69,394,120,20
+    h1 Disability services @17,426,675,25
+    h2 Most popular @17,463,675,21
+    link "Get paid as a caregiver for a family member or friend" /disability-caregiver @17,496,675,21
+    link "Learn how to continue benefits while working" /disability-benefits-while-working @17,529,675,20
+    link "Find disability employment programs" /disability-jobs-training @17,561,675,20
+    text Get information for people with disabilities and their families. This includes what disability benefits are available while working, and how to get paid as a caregiver and find jobs. @17,593,675,41
+    row @17,646,675,325
+      link "Find government benefits and financial help Discover government benefits that you may be eligible for and learn how to apply." /benefit-finder @17,656,69,304
+      link "SSDI and SSI benefits for people with disabilities Learn about Social Security Disability Insurance (SSDI) and Supplemental Security Income (SSI)." /social-security-disability @98,646,78,325
+      link "Continuing disability benefits while working Learn about the rules for working while receiving government disability benefits." /disability-benefits-while-working @188,666,68,284
+      link "Get paid as a caregiver for a family member Learn how friends or family can get paid for helping people with disabilities with daily activities." /disability-caregiver @268,666,76,284
+      link "Job training and employment programs for people with disabilities If you have a disability and are looking for work, these resources can help." /disability-jobs-training @356,646,76,325
+      link "Discrimination, harassment, and retaliation Learn about the federal and state laws that protect you from unfair and unwelcome treatment at work." /job-discrimination-harassment @444,666,79,284
+      link "Your rights under the Americans with Disabilities Act (ADA) The ADA protects your disability rights in employment, government services, and more." /disability-rights @535,656,80,304
+      link "Voter accessibility laws Learn about voter accessibility laws. Get accommodations for disabilities and language barriers." /voter-accessibility-laws @627,666,65,284
+    row @17,983,675,20
+      text Looking for something else? @17,983,187,20
+      link "Explore all topics and services" /#all-topics-header @216,983,201,20
+    row @17,1015,675,61
+      text SHARE THIS PAGE: @17,1015,50,61
+      row @79,1035,613,20
+        link https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/disability-services&v=3 https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/disability-services&v=3 @79,1035,236,20
+        link https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fdisability-services https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fdisability-services @327,1035,213,20
+        link mailto:?subject=https://www.usa.gov/disability-services mailto:?subject=https://www.usa.gov/disability-services @552,1035,140,20
+  link "Back to top" #main-content @704,704,7,61
+row @17,1088,694,136
+  col @17,1088,371,136
+    h3 Government information @17,1088,371,19
+    link "All topics and services" /#all-topics-header @17,1119,371,20
+    link "Directory of U.S. government agencies and departments" /agency-index @17,1151,371,40
+    link "Branches of government" /branches-of-government @17,1203,371,21
+  col @400,1088,149,136
+    h3 About us @400,1088,149,19
+    link "About USAGov" /about @400,1119,149,20
+    link "Report a website issue" /site-issue-report-form @400,1151,149,40
+    link "Website usage data" /website-analytics/ @400,1203,149,21
+  col @561,1105,150,102
+    h3 For federal agencies @561,1105,150,37
+    link "Partner with us" /partner-with-usagov @561,1154,150,20
+    link "Read our blog" /blog @561,1186,150,21
+row @17,1236,694,83
+  col @17,1236,235,83
+    h3 USAGov Contact Center @17,1236,235,18
+    text Ask USA.gov a question at @17,1266,235,21
+    link "1-844-USAGOV1 (1-844-872-4681)" /phone @17,1299,235,20
+text USAGov is the official guide to government information and services @17,1331,694,20
+text An official website of the @17,1363,694,21
+link "U.S. General Services Administration" https://www.gsa.gov/ @17,1396,694,20
+text This website complies with Executive Order . English is the official language of the U.S. Government, and the English-language version of this website is the authoritative source for all federal information contained herein. @17,1428,694,61
+link 14224 https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states @17,1501,694,20
+row @17,1533,694,20
+  link "Accessibility policy" /accessibility-policy @17,1533,127,20
+  link "Privacy and security policies" /privacy-security @156,1533,190,20
+  link "FOIA requests" https://www.gsa.gov/reference/freedom-of-information-act-foia @358,1533,95,20

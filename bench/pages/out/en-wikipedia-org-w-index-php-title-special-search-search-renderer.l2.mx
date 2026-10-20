@@ -1,0 +1,231 @@
+@en_wikipedia_org_w_index_php_title_speci rev=0 @0,0,728,4225
+link "Jump to content" #bodyContent @17,17,694,20
+row @17,49,694,541
+  row @17,49,345,541
+    col @17,49,245,541
+      button "Main menu" @17,49,245,37
+      text Main menu @17,98,245,20
+      row @17,130,245,41
+        text Main menu @17,130,57,41
+        button "Move Main menu to sidebar" @86,132,176,36
+      link "Main page" /wiki/Main_Page @17,183,245,20
+      link Contents /wiki/Wikipedia:Contents @17,215,245,20
+      link "Current events" /wiki/Portal:Current_events @17,247,245,20
+      link "Random article" /wiki/Special:Random @17,279,245,21
+      link "About Wikipedia" /wiki/Wikipedia:About @17,312,245,20
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us @17,344,245,20
+      text Contribute @17,376,245,21
+      link Help /wiki/Help:Contents @17,409,245,20
+      link "Learn to edit" /wiki/Help:Introduction @17,441,245,20
+      link "Community portal" /wiki/Wikipedia:Community_portal @17,473,245,20
+      link "Recent changes" /wiki/Special:RecentChanges @17,505,245,21
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard @17,538,245,20
+      link "Special pages" /wiki/Special:SpecialPages @17,570,245,20
+    link /wiki/Main_Page /wiki/Main_Page @274,310,88,20
+  row @374,282,337,75
+    row @374,282,152,75
+      col @374,282,74,75
+        field "Search Wikipedia" search @374,282,74,75
+      button Search @460,302,66,36
+    row @538,300,173,40
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en @538,310,37,20
+      link "Create account" @587,300,80,40
+      link "Log in" @679,300,32,40
+row @17,602,694,3606
+  col @17,2199,40,413
+    row @17,2199,40,36
+      h2 Contents @17,2206,0,22
+      button "Hide Contents" @29,2199,30,36
+    link (Top) # @17,2247,40,20
+    link "1 Computing" #Computing @17,2279,40,41
+    link "2 Arts, entertainment, and media" #Arts,_entertainment,_and_media @17,2332,40,102
+    link "3 People" #People @17,2446,40,40
+    link "4 Other uses" #Other_uses @17,2498,40,61
+    link "5 See also" #See_also @17,2571,40,41
+  row @69,602,427,3606
+    row @69,2361,33,89
+      h1 Render @69,2393,8,25
+      col @89,2361,13,89
+        button "5 languages" @89,2361,30,36
+        text 5 languages primary @89,2409,13,41
+    row @114,1918,86,975
+      row @114,2395,13,20
+        link Article /wiki/Render @114,2395,0,20
+        link Talk /wiki/Talk:Render @126,2395,1,20
+      row @139,1918,61,975
+        row @139,2385,20,41
+          link Read /wiki/Render @139,2395,0,20
+          link Edit @151,2395,0,20
+          link "View history" @163,2385,0,41
+        col @171,1918,29,975
+          button Tools @171,1918,30,36
+          text Tools @171,1966,29,20
+          row @171,1998,29,37
+            text Tools @171,2006,0,21
+            button "Move Tools to sidebar" @183,1998,30,37
+          text General @171,2047,29,20
+          link "What links here" /wiki/Special:WhatLinksHere/Render @171,2079,29,61
+          link "Related changes" /wiki/Special:RecentChangesLinked/Render @171,2152,29,40
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Render&oldid=1354000181 @171,2204,29,41
+          link "Page information" @171,2257,29,41
+          link "Cite this page" @171,2310,29,60
+          link "Get shortened URL" @171,2382,29,61
+          link "Switch to legacy parser" @171,2455,29,82
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q1901582#sitelinks-wikipedia @171,2549,29,60
+          text Print/export @171,2621,29,21
+          link "Download as PDF" @171,2654,29,61
+          link "Printable version" javascript:print(); @171,2727,29,40
+          text In other projects @171,2779,29,61
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q1901582 @171,2852,29,41
+    col @212,2209,41,392
+      row @212,2209,41,37
+        text Appearance @212,2217,0,21
+        button "Hide Appearance" @224,2209,30,37
+      text Text @212,2258,41,20
+      text Small @212,2290,41,20
+      text Standard @212,2322,41,21
+      text Large @212,2355,41,20
+      text Width @212,2387,41,20
+      text Standard @212,2419,41,21
+      text Wide @212,2452,41,20
+      text Color @212,2484,41,20
+      text Automatic @212,2516,41,20
+      text Light @212,2548,41,21
+      text Dark @212,2581,41,20
+    col @265,602,231,3606
+      text From Wikipedia, the free encyclopedia @265,602,231,41
+      text (Redirected from ) @265,655,231,20
+      link Renderer @265,687,231,21
+      row @265,720,231,101
+        link https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg @265,760,107,20
+        text Look up , , or in Wiktionary, the free dictionary. @384,720,84,101
+        col @480,728,16,85
+          link Render https://en.wiktionary.org/wiki/Render @480,728,16,20
+          link render https://en.wiktionary.org/wiki/render @480,760,16,20
+          link renderer https://en.wiktionary.org/wiki/renderer @480,793,16,20
+      text Render, rendered, or rendering may refer to: @265,833,231,41
+      row @265,886,231,21
+        h2 Computing @265,886,92,21
+        link edit @369,886,25,20
+      text , generating an image from a model by means of computer programs @265,919,231,61
+      link "Rendering (computer graphics)" https://en.wikipedia.org/wiki/Rendering_(computer_graphics) @265,992,231,20
+      text , creating two-dimensional images or animations showing the attributes of a proposed architectural design @265,1024,231,81
+      link "Architectural rendering" https://en.wikipedia.org/wiki/Architectural_rendering @265,1117,231,21
+      text , creating, shading, and texturing of an image @265,1150,231,40
+      link "Artistic rendering" https://en.wikipedia.org/wiki/Artistic_rendering @265,1202,231,21
+      text , composition of for visual display @265,1235,231,20
+      row @265,1267,231,20
+        link Typesetting https://en.wikipedia.org/wiki/Typesetting @265,1267,79,20
+        link text https://en.wikipedia.org/wiki/Written_language @356,1267,25,20
+      text Rendering engine, the software that transforms (renders) data into a picture @265,1299,231,61
+      text , generating image or motion picture from virtual 3D models @265,1372,231,41
+      link "3D rendering" https://en.wikipedia.org/wiki/3D_rendering @265,1425,231,20
+      text , component of a web browser that renders web pages @265,1457,231,41
+      link "Browser engine" https://en.wikipedia.org/wiki/Browser_engine @265,1510,231,20
+      text , allows preservation of details that may be lost due to limiting contrast ratios @265,1542,231,61
+      link "High-dynamic-range rendering" https://en.wikipedia.org/wiki/High-dynamic-range_rendering @265,1615,231,20
+      text , focuses on enabling a wide variety of expressive styles for digital art @265,1647,231,61
+      link "Non-photorealistic rendering" https://en.wikipedia.org/wiki/Non-photorealistic_rendering @265,1720,231,20
+      text , algorithm for visible surface determination @265,1752,231,41
+      link "Scanline rendering" https://en.wikipedia.org/wiki/Scanline_rendering @265,1805,231,20
+      text , used to display a 2D projection of a 3D discretely sampled data set @265,1837,231,41
+      link "Volume rendering" https://en.wikipedia.org/wiki/Volume_rendering @265,1890,231,20
+      text and , uses lighting equations based on physics for more realistic images. @265,1922,231,61
+      row @265,1995,231,41
+        link "Ray tracing (graphics)" https://en.wikipedia.org/wiki/Ray_tracing_(graphics) @265,1995,98,41
+        link "physically based rendering" https://en.wikipedia.org/wiki/Physically_based_rendering @375,1995,121,41
+      row @265,2048,231,42
+        h2 Arts, entertainment, and media @265,2048,199,42
+        link edit @476,2059,20,20
+      text , an independent radio program about the DIY (do-it-yourself) movement @265,2102,231,61
+      link "Rendered (radio program)" https://en.wikipedia.org/wiki/Rendered_(radio_program) @265,2175,231,20
+      text "Render" a song by Northlane from the album , 2017 @265,2207,231,41
+      link Mesmer https://en.wikipedia.org/wiki/Mesmer_(album) @265,2260,231,20
+      text , a composition by Luciano Berio based on sketches for Franz Schubert's tenth symphony @265,2292,231,61
+      link "Rendering (Berio)" https://en.wikipedia.org/wiki/Rendering_(Berio) @265,2365,231,20
+      row @265,2397,231,22
+        h2 People @265,2397,58,22
+        link edit @335,2398,25,20
+      text (1822–1881), German-American hunter, prospector and trader in southern Africa @265,2431,231,61
+      link "Adam Render" https://en.wikipedia.org/wiki/Adam_Render @265,2504,231,20
+      text (born 1943), American diplomat @265,2536,231,20
+      link "Arlene Render" https://en.wikipedia.org/wiki/Arlene_Render @265,2568,231,20
+      text (1887–1922), English cricketer @265,2600,231,21
+      link "George Render" https://en.wikipedia.org/wiki/George_Render @265,2633,231,20
+      text (born 1947), American sprinter @265,2665,231,20
+      link "Mattiline Render" https://en.wikipedia.org/wiki/Mattiline_Render @265,2697,231,21
+      text Michael Render (born 1975), better known as , American rapper @265,2730,231,40
+      link "Killer Mike" https://en.wikipedia.org/wiki/Killer_Mike @265,2782,231,21
+      text (1926–2014), American musician and songwriter @265,2815,231,40
+      link "Rudy Render" https://en.wikipedia.org/wiki/Rudy_Render @265,2867,231,20
+      text (born 1986), American football player @265,2899,231,41
+      link "Sergio Render" https://en.wikipedia.org/wiki/Sergio_Render @265,2952,231,20
+      text (born 1943), Canadian politician @265,2984,231,21
+      link "Shirley Render" https://en.wikipedia.org/wiki/Shirley_Render @265,3017,231,20
+      text (1913–1986), American academic and curator @265,3049,231,41
+      link "Sylvia Lyons Render" https://en.wikipedia.org/wiki/Sylvia_Lyons_Render @265,3102,231,20
+      text (born 1997), American football player @265,3134,231,40
+      link "Tyshun Render" https://en.wikipedia.org/wiki/Tyshun_Render @265,3186,231,21
+      text ( 1800), German grammarian and translator @265,3219,231,40
+      row @265,3271,231,21
+        link "William Render" https://en.wikipedia.org/wiki/William_Render @265,3271,99,21
+        text fl. @376,3271,13,21
+      row @265,3304,231,21
+        h2 Other uses @265,3304,91,21
+        link edit @368,3304,25,20
+      text , separation of animal fat from other tissues, to convert waste animal tissue into value-added materials @265,3337,231,81
+      link "Rendering (animal products)" https://en.wikipedia.org/wiki/Rendering_(animal_products) @265,3430,231,20
+      text or stucco, a surface covering to the external façade of buildings @265,3462,231,41
+      link "Cement render" https://en.wikipedia.org/wiki/Cement_render @265,3515,231,20
+      text render, raising an unfolded right hand to the forehead to show respect or subjection to senior officers @265,3547,231,81
+      link Salute https://en.wikipedia.org/wiki/Salute @265,3640,231,21
+      row @265,3673,231,21
+        h2 See also @265,3673,70,21
+        link edit @347,3673,25,21
+      link "Rendition (disambiguation)" https://en.wikipedia.org/wiki/Rendition_(disambiguation) @265,3706,231,20
+      link "Renders (surname)" https://en.wikipedia.org/wiki/Renders_(surname) @265,3738,231,21
+      link "All pages with titles containing Render" https://en.wikipedia.org/wiki/Special:Search/intitle:"Render" @265,3771,231,40
+      row @265,3823,231,260
+        link https://en.wikipedia.org/wiki/File:Disambig_gray.svg https://en.wikipedia.org/wiki/File:Disambig_gray.svg @265,3943,53,20
+        text This page lists articles associated with the title . @330,3872,49,162
+        col @391,3823,105,260
+          link disambiguation https://en.wikipedia.org/wiki/Help:Disambiguation @391,3823,105,21
+          text Render @391,3856,105,20
+          text If an incorrectly led you here, you may wish to change the link to point directly to the intended article. @391,3888,105,162
+          link "internal link" https://en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/Render&namespace=0 @391,4062,105,21
+      text : @265,4095,231,20
+      row @265,4127,231,81
+        link Categories /wiki/Help:Category @265,4157,29,21
+        row @306,4127,190,81
+          link "Disambiguation pages" /wiki/Category:Disambiguation_pages @306,4147,56,41
+          link "Disambiguation pages with surname-holder lists" /wiki/Category:Disambiguation_pages_with_surname-holder_lists @374,4127,122,81
+  col @508,2138,203,534
+    text This page was last edited on 13 May 2026, at 17:46 (UTC). @508,2138,203,41
+    text Page was rendered with . @508,2191,203,20
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid @508,2223,203,20
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the and . Wikipedia® is a registered trademark of the , a non-profit organization. @508,2255,203,122
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License @508,2389,203,61
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use @508,2462,203,20
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @508,2494,203,21
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/ @508,2527,203,20
+    row @508,2559,203,81
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @508,2579,8,41
+      link "About Wikipedia" /wiki/Wikipedia:About @528,2579,11,41
+      link Disclaimers /wiki/Wikipedia:General_disclaimer @551,2589,7,21
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us @570,2579,12,41
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information @594,2559,14,81
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct @620,2569,11,61
+      link Developers https://developer.wikimedia.org @643,2589,7,21
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org @662,2589,6,21
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement @680,2579,11,41
+      link "Mobile view" @703,2579,8,41
+    row @508,2652,203,20
+      link https://www.wikimedia.org/ https://www.wikimedia.org/ @508,2652,95,20
+      link https://www.mediawiki.org/ https://www.mediawiki.org/ @615,2652,96,20
+!overflow move 174/216px
+!overflow search2 64/76px
+!overflow hide 28/125px
+!overflow 5 28/111px
+!overflow tools 28/66px
+!overflow move2 28/179px
+!overflow hide2 28/146px

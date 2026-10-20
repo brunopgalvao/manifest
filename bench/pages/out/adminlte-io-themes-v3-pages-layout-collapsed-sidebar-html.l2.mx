@@ -1,0 +1,73 @@
+@adminlte_io_themes_v3_pages_layout_colla rev=0 @0,0,728,1706
+row @17,17,694,36
+  row @17,17,191,36
+    button button @17,17,75,36
+    link Home ../../index3.html @104,25,40,20
+    link Contact # @156,25,52,20
+  row @220,17,296,36
+    button button @220,17,75,36
+    link 3 # @307,25,9,20
+    link 15 # @328,25,14,20
+    button button @354,17,75,36
+    button button @441,17,75,36
+link "AdminLTE 3" ../../index3.html @17,65,694,21
+row @17,98,694,20
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image" @17,98,0,0
+  link "Alexander Pierce" # @29,98,113,20
+link Dashboard # @17,130,694,20
+link "Widgets New" ../widgets.html @17,162,694,21
+link "Layout Options 6" # @17,195,694,20
+link "Top Navigation" ../layout/top-nav.html @17,227,694,20
+link "Top Navigation + Sidebar" ../layout/top-nav-sidebar.html @17,259,694,20
+link Boxed ../layout/boxed.html @17,291,694,21
+link "Fixed Sidebar" ../layout/fixed-sidebar.html @17,324,694,20
+link "Fixed Sidebar + Custom Area" ../layout/fixed-sidebar-custom.html @17,356,694,20
+link "Fixed Navbar" ../layout/fixed-topnav.html @17,388,694,21
+link "Fixed Footer" ../layout/fixed-footer.html @17,421,694,20
+link "Collapsed Sidebar" ../layout/collapsed-sidebar.html @17,453,694,20
+link Charts # @17,485,694,20
+link "UI Elements" # @17,517,694,21
+link Forms # @17,550,694,20
+link Tables # @17,582,694,20
+link "Calendar 2" ../calendar.html @17,614,694,21
+link Gallery ../gallery.html @17,647,694,20
+link "Kanban Board" ../kanban.html @17,679,694,20
+link Mailbox # @17,711,694,21
+link Pages # @17,744,694,20
+link Extras # @17,776,694,20
+link "Login & Register v1" # @17,808,694,20
+link "Login & Register v2" # @17,840,694,21
+link Lockscreen ../examples/lockscreen.html @17,873,694,20
+link "Legacy User Menu" ../examples/legacy-user-menu.html @17,905,694,20
+link "Language Menu" ../examples/language-menu.html @17,937,694,21
+link "Error 404" ../examples/404.html @17,970,694,20
+link "Error 500" ../examples/500.html @17,1002,694,20
+link Pace ../examples/pace.html @17,1034,694,21
+link "Blank Page" ../examples/blank.html @17,1067,694,20
+link "Starter Page" ../../starter.html @17,1099,694,20
+link Search # @17,1131,694,20
+link "Tabbed IFrame Plugin" ../../iframe.html @17,1163,694,21
+link Documentation https://adminlte.io/docs/3.1/ @17,1196,694,20
+link "Level 1" # @17,1228,694,20
+link "Level 1" # @17,1260,694,21
+link "Level 1" # @17,1293,694,20
+link Important # @17,1325,694,20
+link Warning # @17,1357,694,21
+link Informational # @17,1390,694,20
+row @17,1422,694,25
+  h1 Collapsed Sidebar @17,1422,178,25
+  row @207,1424,230,21
+    link Home # @207,1424,40,21
+    link Layout # @259,1424,45,21
+    text Collapsed Sidebar @316,1424,121,21
+row @17,1459,694,36
+  h3 Title @17,1468,33,18
+  row @62,1459,187,36
+    button Collapse @62,1459,89,36
+    button Remove @163,1459,86,36
+text Start creating your amazing application! @17,1507,694,21
+text Footer @17,1540,694,20
+text All rights reserved. @17,1572,694,20
+text Version 3.2.0 @17,1604,694,20
+text Copyright © 2014-2021 . @17,1636,694,21
+link AdminLTE.io https://adminlte.io @17,1669,694,20

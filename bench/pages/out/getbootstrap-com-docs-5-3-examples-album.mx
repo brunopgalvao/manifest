@@ -101,6 +101,7 @@ row
       text 9 mins
 link "Back to top" #
 text Album example is © Bootstrap, but please download and customize it for yourself!
+text New to Bootstrap?  or read our .
 row
   link "Visit the homepage" /
   link "getting started guide" /docs/5.3/getting-started/introduction

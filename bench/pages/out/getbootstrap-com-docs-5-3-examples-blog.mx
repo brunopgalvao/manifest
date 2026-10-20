@@ -48,6 +48,7 @@ row
   col
     h3 From the Firehose
     h2 Sample blog post
+    text January 1, 2021 by
     link Mark #
     text This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.
     text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.
@@ -72,16 +73,20 @@ row
     text JavaScript (JS)
     text The programming language used to build advanced Web sites and applications
     h2 Inline HTML elements
+    text HTML defines a long list of available inline tags, a complete list of which can be found on the .
     link "Mozilla Developer Network" https://developer.mozilla.org/en-US/docs/Web/HTML/Element
     text To bold text, use <strong>.
     text To italicize text, use <em>.
+    text Abbreviations, like  should use , with an optional  attribute for the full phrase.
     row
       text HTML
       text <abbr> danger
       text title danger
+    text Citations, like , should use .
     row
       text — Mark Otto
       text <cite> danger
+    text text should use  and  text should use .
     row
       text Deleted
       text <del> danger
@@ -96,6 +101,7 @@ row
     text Example code block
     text This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.
     h2 Another blog post
+    text December 23, 2020 by
     link Jacob #
     text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.
     text Longer quote goes here, maybe with some emphasized text in the middle of it.
@@ -109,6 +115,7 @@ row
       Totals | 21 | 23
     text This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.
     h2 New feature
+    text December 14, 2020 by
     link Chris #
     text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.
     text First list item
@@ -117,6 +124,7 @@ row
     text This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.
     row
       link Older #
+      text Newer
   col
     card
       h3 About
@@ -142,6 +150,7 @@ row
     link GitHub #
     link Social #
     link Facebook #
+text Blog template built for  by .
 row
   link Bootstrap https://getbootstrap.com/
   link "@mdo" https://x.com/mdo

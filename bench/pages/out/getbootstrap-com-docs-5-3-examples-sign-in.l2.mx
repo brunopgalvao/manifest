@@ -1,0 +1,14 @@
+@getbootstrap_com_docs_5_3_examples_sign_ rev=0 @0,0,728,380
+row @17,17,694,346
+  button "Toggle theme (light)" primary @17,172,167,36
+  col @196,17,232,346
+    h1 Please sign in @196,17,232,25
+    field "Email address" email @196,54,232,58
+    text Email address @196,124,232,20
+    field Password password @196,156,232,58
+    text Password @196,226,232,20
+    row @196,258,232,24
+      check "Remember me" off @196,258,123,24
+      text Remember me @331,260,97,20
+    button "Sign in" primary @196,294,232,36
+    text © 2017–2025 @196,342,232,21

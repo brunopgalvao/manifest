@@ -32,7 +32,8 @@ Counted with Claude's tokenizer; read back by fresh Haiku readers that saw only 
 | Read back, level 1 | 876 tokens, 30 of 30 questions | 1,544, 27 of 30 (cropped screenshots) | 1,415, 22 of 30 (accessibility tree) |
 | Six paint-heavy visuals | 2,661 | 6,104 (HTML + SVG + ARIA) | 6,685 (A2UI, paint catalog) |
 | A page imported from HTML | 1,158 | 1,463 (accessibility snapshot) | 4,569 |
-| A hundred real pages imported | 736,715 | | 6,510,211 (8.8×) |
+| 246 real pages imported, median page | a tenth of its HTML | | |
+| Reading 8 real pages, 24 questions | 12,102 tokens, 24 and 24 of 24 | 12,288 (screenshots), 23 and 24 of 24 | |
 
 Fidelity: a screenshot comes back pixel for pixel; a photo under positioned, labelled nodes comes back with 0 differing pixels and those nodes take input; a figure drawn by another rasterizer, rebuilt from primitives, differs on 0.62% of pixels at anti-aliased edges. The engine reproduces Chromium's layout of the same stylesheet within 2 px on every box.
 
@@ -48,7 +49,7 @@ Fidelity: a screenshot comes back pixel for pixel; a photo under positioned, lab
 | `web/` | `manifest.js`, the JavaScript glue for the wasm build (browser and Node), the playground, the site build |
 | `import/` | The HTML importer and its scorer |
 | `bench/` | The corpus in every format, token accounting, reader accuracy, fidelity references, import scores, the report |
-| `bench/pages/` | A hundred real pages imported into MX: the URL list with licences, the MX files, the index and the report |
+| `bench/pages/` | Real pages imported into MX: the URL list with licences, the crawl, the MX files, the index, the report, and the reader experiment |
 | `docs/` | The overview and the A2UI v1.0 extension proposal |
 
 ## Use it from an agent

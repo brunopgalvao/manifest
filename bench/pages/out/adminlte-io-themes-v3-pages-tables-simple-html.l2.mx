@@ -1,0 +1,181 @@
+@adminlte_io_themes_v3_pages_tables_simpl rev=0 @0,0,728,3192
+row @17,17,694,36
+  row @17,17,191,36
+    button button @17,17,75,36
+    link Home ../../index3.html @104,25,40,20
+    link Contact # @156,25,52,20
+  row @220,17,296,36
+    button button @220,17,75,36
+    link 3 # @307,25,9,20
+    link 15 # @328,25,14,20
+    button button @354,17,75,36
+    button button @441,17,75,36
+link "AdminLTE 3" ../../index3.html @17,65,694,21
+row @17,98,694,20
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image" @17,98,0,0
+  link "Alexander Pierce" # @29,98,113,20
+row @17,130,694,58
+  field Search search @17,130,40,58
+  button button primary @69,141,75,36
+link Dashboard # @17,200,694,20
+link "Widgets New" ../widgets.html @17,232,694,20
+link "Layout Options 6" # @17,264,694,21
+link Charts # @17,297,694,20
+link "UI Elements" # @17,329,694,20
+link Forms # @17,361,694,20
+link Tables # @17,393,694,21
+link "Simple Tables" ../tables/simple.html @17,426,694,20
+link DataTables ../tables/data.html @17,458,694,20
+link jsGrid ../tables/jsgrid.html @17,490,694,21
+text EXAMPLES @17,523,694,20
+link "Calendar 2" ../calendar.html @17,555,694,20
+link Gallery ../gallery.html @17,587,694,20
+link "Kanban Board" ../kanban.html @17,619,694,21
+link Mailbox # @17,652,694,20
+link Pages # @17,684,694,20
+link Extras # @17,716,694,21
+link Search # @17,749,694,20
+text MISCELLANEOUS @17,781,694,20
+link "Tabbed IFrame Plugin" ../../iframe.html @17,813,694,21
+link Documentation https://adminlte.io/docs/3.1/ @17,846,694,20
+text MULTI LEVEL EXAMPLE @17,878,694,20
+link "Level 1" # @17,910,694,20
+link "Level 1" # @17,942,694,21
+link "Level 1" # @17,975,694,20
+text LABELS @17,1007,694,20
+link Important # @17,1039,694,21
+link Warning # @17,1072,694,20
+link Informational # @17,1104,694,20
+row @17,1136,694,25
+  h1 Simple Tables @17,1136,138,25
+  row @167,1139,146,20
+    link Home # @167,1139,40,20
+    text Simple Tables @219,1139,94,20
+row @17,1173,694,447
+  col @17,1173,242,447
+    h3 Bordered Table @17,1173,242,19
+    table # Task Progress Label @17,1204,242,171
+      1. | Update software |  | 55%
+      2. | Clean database |  | 70%
+      3. | Cron job running |  | 30%
+      4. | Fix and squish bugs |  | 90%
+    row @17,1387,242,20
+      link « # @17,1387,9,20
+      link 1 # @38,1387,6,20
+      link 2 # @56,1387,9,20
+      link 3 # @77,1387,9,20
+      link » # @98,1387,9,20
+    h3 Condensed Full Width Table @17,1419,242,19
+    table # Task Progress Label @17,1450,242,170
+      1. | Update software |  | 55%
+      2. | Clean database |  | 70%
+      3. | Cron job running |  | 30%
+      4. | Fix and squish bugs |  | 90%
+  col @271,1189,275,416
+    row @271,1189,275,20
+      h3 Simple Full Width Table @271,1189,173,19
+      row @456,1189,90,20
+        link « # @456,1189,9,20
+        link 1 # @477,1189,6,20
+        link 2 # @495,1189,9,20
+        link 3 # @516,1189,9,20
+        link » # @537,1189,9,20
+    table # Task Progress Label @271,1221,275,171
+      1. | Update software |  | 55%
+      2. | Clean database |  | 70%
+      3. | Cron job running |  | 30%
+      4. | Fix and squish bugs |  | 90%
+    h3 Striped Full Width Table @271,1404,275,18
+    table # Task Progress Label @271,1434,275,171
+      1. | Update software |  | 55%
+      2. | Clean database |  | 70%
+      3. | Cron job running |  | 30%
+      4. | Fix and squish bugs |  | 90%
+row @17,1632,694,58
+  h3 Responsive Hover Table @17,1652,179,19
+  row @208,1632,127,58
+    field Search @208,1632,40,58
+    button button @260,1643,75,36
+table ID User Date Status Reason @17,1702,694,171
+  183 | John Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  219 | Alexander Pierce | 11-7-2014 | Pending | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  657 | Bob Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  175 | Mike Doe | 11-7-2014 | Denied | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+row @17,1885,694,57
+  h3 Fixed Header Table @17,1904,142,19
+  row @171,1885,127,57
+    field Search @171,1885,40,57
+    button button @223,1895,75,37
+table ID User Date Status Reason @17,1954,694,312
+  183 | John Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  219 | Alexander Pierce | 11-7-2014 | Pending | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  657 | Bob Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  175 | Mike Doe | 11-7-2014 | Denied | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  134 | Jim Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  494 | Victoria Doe | 11-7-2014 | Pending | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  832 | Michael Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  982 | Rocky Doe | 11-7-2014 | Denied | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+h3 Expandable Table @17,2278,694,19
+table # User Date Status Reason @17,2309,694,382
+  183 | John Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  219 | Alexander Pierce | 11-7-2014 | Pending | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  657 | Alexander Pierce | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  175 | Mike Doe | 11-7-2014 | Denied | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  134 | Jim Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  494 | Victoria Doe | 11-7-2014 | Pending | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  832 | Michael Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  982 | Rocky Doe | 11-7-2014 | Denied | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+h3 Expandable Table Tree @17,2703,694,19
+table 183 @17,2734,694,312
+  219
+  219-1 219-1-1 219-1-2 219-1-3 219-2 219-2-1 219-2-2 219-2-3 219-3
+  657
+  175
+  134
+  494
+  832
+  982
+text All rights reserved. @17,3058,694,20
+text Version 3.2.0 @17,3090,694,20
+text Copyright © 2014-2021 . @17,3122,694,21
+link AdminLTE.io https://adminlte.io @17,3155,694,20
+!overflow table.1..Task 60/127px
+!overflow table.2..Task 60/119px
+!overflow table.3..Task 60/127px
+!overflow table.4..Task 60/148px
+!overflow table2.1..Task 60/127px
+!overflow table2.2..Task 60/119px
+!overflow table2.3..Task 60/127px
+!overflow table2.4..Task 60/148px
+!overflow table3.1..Task 69/127px
+!overflow table3.2..Task 69/119px
+!overflow table3.3..Task 69/127px
+!overflow table3.4..Task 69/148px
+!overflow table4.1..Task 69/127px
+!overflow table4.2..Task 69/119px
+!overflow table4.3..Task 69/127px
+!overflow table4.4..Task 69/148px
+!overflow table5.183.Reason 139/490px
+!overflow table5.219.Reason 139/490px
+!overflow table5.657.Reason 139/490px
+!overflow table5.175.Reason 139/490px
+!overflow table6.183.Reason 139/490px
+!overflow table6.219.Reason 139/490px
+!overflow table6.657.Reason 139/490px
+!overflow table6.175.Reason 139/490px
+!overflow table6.134.Reason 139/490px
+!overflow table6.494.Reason 139/490px
+!overflow table6.832.Reason 139/490px
+!overflow table6.982.Reason 139/490px
+!overflow table7.183.Reason 139/490px
+!overflow table7.219.Reason 139/490px
+!overflow table7.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..# 139/3865px
+!overflow table7.657.Reason 139/490px
+!overflow table7.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..# 139/3865px
+!overflow table7.175.Reason 139/490px
+!overflow table7.134.Reason 139/490px
+!overflow table7.494.Reason 139/490px
+!overflow table7.832.Reason 139/490px
+!overflow table7.982.Reason 139/490px

@@ -1,0 +1,86 @@
+@www_usa_gov_health
+link "Skip to main content" #skip-to-h1
+row
+  text An official website of the United States government
+  button "Here's how you know"
+text Home Close Search 1-844-USAGOV1 Health Health insurance Help with medical expenses Mental health Substance abuse COVID-19 testing and vaccinations Health information from MedlinePlus State health departments
+row
+  region "Information" 300x150
+  text Visit  to learn how to register to vote or to update your registration.
+  link vote.gov https://www.vote.gov
+row
+  link "USAGov Logo" /
+  col
+    button Español primary
+    row
+      link "Call us at 1-844-USAGOV1" /phone
+      row
+        text Search
+        field Search search
+        button Search primary
+row
+  link "All topics and services" /#all-topics-header
+  link "The U.S. and its government" /about-the-us
+  link "Government benefits" /benefits
+  link "Immigration and U.S. citizenship" /immigration-and-citizenship
+  link "Money and credit" /money
+  link Travel /travel
+  link "Voting and elections" /voting-and-elections
+row
+  col
+    row
+      link Home /
+      text Health
+    h1 Health
+    h2 Most popular
+    link "Learn how to apply for Medicare" /medicare
+    link "Find health plans in the Health Insurance Marketplace" /health-insurance-marketplace
+    link "How to apply for Medicaid and CHIP" /medicaid-chip-insurance
+    text Get information about health insurance. Find help for mental health and other medical conditions, testing, and paying medical bills.
+    row
+      link "Health insurance Get information about Medicaid, CHIP, Medicare, the ACA Health Insurance Marketplace, and COBRA." /health-insurance
+      link "How to get help with medical bills Find out how you can get help with medical expenses. Understand your eligibility for options like government health insurance programs and a medical debt management plan." /help-with-medical-bills
+      link "Find help for mental health Find emergency hotlines, counseling, and treatment options for help with mental health." /mental-health
+      link "Find help for substance abuse Find emergency hotlines, counseling, and treatment options for help with substance abuse." /substance-abuse
+      link "COVID-19 testing and vaccinations Learn how to get tested for COVID-19, get vaccinated, and stay healthy." /covid-tests-vaccinations
+      link "Get free or low-cost health services and information Learn how to access free and low-cost medical services offered by government agencies. Find trusted medical information on MedlinePlus" /health-information
+      link "State health departments Contact your state health department for health information, COVID-19 facts, vital records, and more." /state-health
+    row
+      text Looking for something else?
+      link "Explore all topics and services" /#all-topics-header
+    row
+      text SHARE THIS PAGE:
+      row
+        link "https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/health&v=3" https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/health&v=3
+        link "https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fhealth" https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fhealth
+        link "mailto:?subject=https://www.usa.gov/health" mailto:?subject=https://www.usa.gov/health
+  link "Back to top" #main-content
+row
+  col
+    h3 Government information
+    link "All topics and services" /#all-topics-header
+    link "Directory of U.S. government agencies and departments" /agency-index
+    link "Branches of government" /branches-of-government
+  col
+    h3 About us
+    link "About USAGov" /about
+    link "Report a website issue" /site-issue-report-form
+    link "Website usage data" /website-analytics/
+  col
+    h3 For federal agencies
+    link "Partner with us" /partner-with-usagov
+    link "Read our blog" /blog
+row
+  col
+    h3 USAGov Contact Center
+    text Ask USA.gov a question at
+    link "1-844-USAGOV1 (1-844-872-4681)" /phone
+text USAGov is the official guide to government information and services
+text An official website of the
+link "U.S. General Services Administration" https://www.gsa.gov/
+text This website complies with Executive Order . English is the official language of the U.S. Government, and the English-language version of this website is the authoritative source for all federal information contained herein.
+link 14224 https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states
+row
+  link "Accessibility policy" /accessibility-policy
+  link "Privacy and security policies" /privacy-security
+  link "FOIA requests" https://www.gsa.gov/reference/freedom-of-information-act-foia

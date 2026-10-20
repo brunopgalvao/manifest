@@ -1,0 +1,99 @@
+@picocss_com_docs_mission rev=0 @0,0,728,1337
+row @17,17,694,1303
+  button "Skip to content" primary @17,650,40,36
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @69,587,28,162
+  row @109,628,60,81
+    link "Pico CSS homepage" / @109,638,11,61
+    row @132,628,37,81
+      row @132,658,8,20
+        text v2.1.1 @132,658,0,20
+        link Examples /examples @144,658,0,20
+        link Docs /docs @156,658,0,20
+      row @152,628,17,81
+        link "GitHub repository" https://github.com/picocss/pico @152,648,0,41
+        link Twitter https://x.com/picocss @164,658,0,20
+        link "Turn on dark mode" /docs/mission @176,628,0,81
+  row @181,17,307,1303
+    col @181,403,14,530
+      text Getting started @181,403,14,41
+      text Customization @181,456,14,20
+      text Layout @181,488,14,21
+      text Content @181,521,14,20
+      text Forms @181,553,14,20
+      text Components @181,585,14,21
+      text About @181,618,14,20
+      link Maintenance /docs/maintenance @181,650,14,20
+      link "What’s new in v2?" /docs/v2 @181,682,14,81
+      link Mission /docs/mission @181,775,14,21
+      link "Usage scenarios" /docs/usage-scenarios @181,808,14,40
+      link Brand /docs/brand @181,860,14,21
+      link "Built With" /docs/built-with @181,893,14,40
+    metric About Mission "Pico CSS is a minimalist and lightweight starter kit that prioritizes semantic syntax, making every HTML element responsive and elegant by default." @207,17,30,1303
+    col @249,17,239,1303
+      text With a focus on simplicity, Pico provides a clean starting point for building websites without the need for excessive CSS classes and wrappers. @249,17,239,102
+      text Here’s our maxi-minimalist story. @249,131,239,20
+      text Pico started as a solution to two minor frustrations: @249,163,239,40
+      text “I don’t want to import a huge CSS framework only to build a landing page with a title, a description, and a small signup form.” @249,215,239,82
+      text — Frustrated frontend developer @249,309,239,20
+      text “I don’t want to use meaningless wrappers and huge classes stacking to add a simple .” @249,341,239,61
+      text <input /> @249,414,239,20
+      text — Same frustrated frontend developer @249,446,239,41
+      text This was the starting idea. Let’s call it “The epic quest for minimalism”: @249,499,239,40
+      card @249,551,239,327
+        link "Copy code" /docs/mission @266,566,205,21
+        text <main> <h1>Join the pursuit of HTML simplicity</h1> <p>Let’s avoid meaningless div and classes and make it beautiful!</p> <form> <input type="email" placeholder="Your email" /> <input type="submit">Let’s start!</input> </form> </main> <footer> This page should be fast enough to please Google's algorithm. </footer> @266,599,205,264
+      text That’s all! We believe that CSS classes are essential when building complex websites, but why use classes for the default style? And above all, why block page rendering with JavaScript for such a simple structure? @249,890,239,142
+      text From there, we added all form elements, HTML landmarks, typographic elements, and every relevant tag we could find. We made every single element responsive and elegant by default, for both light and dark mode. @249,1044,239,142
+      text As we continued to build, our community grew 🧡, and with it, the responsibility to provide a reliable CSS reset that would prevent sadness when looking at our HTML DOM. @249,1198,239,122
+  col @500,530,211,276
+    row @500,530,211,203
+      region 49.34000015258789x45 @500,630,3,3 [3 shapes, 0 labelled]
+      row @515,612,115,40
+        row @515,612,25,40
+          text About @515,622,0,20
+          link Maintenance /docs/maintenance @527,622,0,20
+          link "What’s new?" /docs/v2 @539,612,0,40
+          link Brand /docs/brand @551,622,0,20
+          link Mission /docs/mission @563,622,0,20
+          link "Usage scenarios" /docs/usage-scenarios @575,612,0,40
+        row @552,612,25,40
+          text Docs @552,622,0,20
+          link "Quick start" /docs @564,612,0,40
+          link "Version picker" /docs/version-picker @576,612,0,40
+          link "Class-less version" /docs/classless @588,612,0,40
+          link "Form elements" /docs/forms @600,612,0,40
+        row @589,622,14,20
+          text Community @589,622,0,20
+          link Issues https://github.com/picocss/pico/issues @601,622,0,20
+          link Discussions https://github.com/picocss/pico/discussions @613,622,0,20
+          link Help https://github.com/picocss/pico/discussions/categories/help @625,622,0,20
+        row @615,622,15,20
+          text Examples @615,622,0,20
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @627,622,0,20
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @639,622,0,20
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @651,622,0,20
+          link All /examples @663,622,0,20
+      text Designed and built by with the help of our . @642,530,21,203
+      col @675,595,8,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @675,595,8,41
+        link contributors https://github.com/picocss/pico/graphs/contributors @675,648,8,20
+      row @695,622,16,20
+        link GitHub https://github.com/picocss/pico @695,622,0,20
+        link Twitter https://x.com/picocss @707,622,0,20
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @719,622,0,20
+        link NPM https://www.npmjs.com/package/@picocss/pico @731,622,0,20
+    row @500,745,211,61
+      text Code licensed , docs . @500,745,71,61
+      row @583,745,64,61
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @583,766,12,20
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @607,745,40,61
+      text Currently v2.1.1. @659,755,52,41
+!overflow skip 38/130px
+!overflow about2 0/34px
+!overflow about2 0/85px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

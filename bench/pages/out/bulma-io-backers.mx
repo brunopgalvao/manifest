@@ -1,0 +1,93 @@
+@bulma_io_backers
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/
+row
+  link "https://bulma.io/" https://bulma.io/
+  row
+    link "Docs Documentation" https://bulma.io/documentation/
+    link Expo https://bulma.io/expo/
+    link Love https://bulma.io/love/
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/
+    row
+      link "Open Source on GitHub" https://github.com/jgthms/bulma
+      link "Follow me on Twitter" https://twitter.com/jgthms
+      button button
+      col
+        link "Made with Bulma" https://bulma.io/made-with-bulma/
+        link Backers https://bulma.io/backers/
+        link "Bulma Brand" https://bulma.io/brand/
+        link "Bulma Extensions" https://bulma.io/extensions/
+  col
+    button button
+    card
+      button "Light mode"
+      button "Dark mode"
+      button "System mode" success
+  col
+    button button
+    card
+      field "search input"
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip
+h1 Backers via Patreon and GitHub
+h2 Everyone who is supporting Bulma and Open Source.
+card
+  link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYILK7KCVSD42JNC6AI4K3LCYYIC2QYCKADL5QKC6SILKJWCA7DVK3EHJNCLSIZ" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYILK7KCVSD42JNC6AI4K3LCYYIC2QYCKADL5QKC6SILKJWCA7DVK3EHJNCLSIZ
+  link "Your agent. Your model. Your rules. Try it free" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653UCTYILK7KCVSD42JNC6AI4K3LCYYIC2QYCKADL5QKC6SILKJWCA7DVK3EHJNCLSIZ
+link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+row
+  link "https://www.patreon.com/jgthms" https://www.patreon.com/jgthms
+  link github https://github.com/jgthms/bulma
+row
+  text $30
+  text a month
+  text Becky
+row
+  text $11
+  text a month
+  text Jason Seminara
+row
+  text $10
+  text a month
+  text Jordan Nemrow, Ian Ebden, xvxx, Teravision Technologies
+row
+  text $5
+  text a month
+  text Greg Hale, Dave Miller
+row
+  text $3
+  text a month
+  text Ukatarap, Brooke Schreier Ganz
+row
+  text $1
+  text a month
+  text Lord , Giovanni Panozzo, Tanel Jõeäär, Eric Doversberger, James Dernie, Felipe Lujan-Bear, Steve T., Mikey, Jason Dubaniewicz, Jork, Brümmer GbR produktivbüro, Nicholas Conde, Leng M., Pierre BONNEFOI, Tom, BlocksBuilder
+h3 How to support Bulma
+row
+  col
+    text One-time donation
+    field submit
+  col
+    text Browser testing via
+    link "https://www.lambdatest.com/" https://www.lambdatest.com/
+  col
+    text Visit our Sponsors
+    link celebian https://celebian.com/
+  col
+    text Monthly donation
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
+link ".native-js { background: linear-gradient(-30deg, #f5f8fbE5, #f5f8fbE5 45%, #f5f8fb 45%) #fff; } .native-details { color: #181f25 !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #FFF; background-color: #3966d5; } .native-cta:hover { color: undefined; background-color: undefined; } BugHerd Deliver website design projects faster with BugHerd. Get 20% off your first 3 months. Try Now" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITK3YCE7IEZ3JCAAI627ICE7ITK7KC67D65QYCVYDL2JJCVYIP2JLFT7DT2JEHEYI55QLCESI623ECTNCYBZ52K
+row
+  col
+    h3 Bulma by Jeremy Thomas.
+    link "Follow @jgthms" https://twitter.com/jgthms
+  col
+    h3 Contribute on GitHub
+  col
+    h3 Share on social media
+    row
+      link Twitter https://twitter.com/share
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+text Source code licensed . Website content licensed
+row
+  link MIT https://opensource.org/licenses/mit-license.php
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer

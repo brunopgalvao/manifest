@@ -1,0 +1,267 @@
+@ui_shadcn_com_examples_rtl rev=0 @0,0,728,1462
+row @17,17,694,36
+  row @17,25,346,20
+    link Home / @17,25,26,20
+    link Docs /docs/installation @55,25,21,20
+    link Components /docs/components @88,25,55,20
+    link Blocks /blocks @155,25,28,20
+    link Charts /charts/area @195,25,29,20
+    link Directory /docs/directory @236,25,39,20
+    link Typeset /typeset @287,25,35,20
+    link Create /create @334,25,29,20
+  row @375,17,336,36
+    button "Search documentation...Search..." @375,17,172,36
+    link 126k https://github.com/shadcn-ui/ui @559,25,20,20
+    button "Toggle theme" @591,17,89,36
+    row @692,25,19,20
+      link New /create @692,25,19,20
+link "Trace, Code Block and AI Elements" /docs/changelog @17,65,694,21
+h1 The Foundation for your Design System @17,98,694,25
+text A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code. @17,135,694,40
+row @17,187,694,21
+  link "Get Started" /docs/installation @17,187,76,21
+  link "View Components" /docs/components @105,187,122,21
+row @17,220,694,36
+  row @17,228,435,20
+    link Examples / @17,228,64,20
+    link Dashboard /examples/dashboard @93,228,73,20
+    link Tasks /examples/tasks @178,228,40,20
+    link Playground /examples/playground @230,228,76,20
+    link Authentication /examples/authentication @318,228,96,20
+    link RTL /examples/rtl @426,228,26,20
+  row @464,220,225,36
+    text Theme @464,228,46,20
+    row @522,228,49,20
+      text Neutral @522,228,49,20
+    button "Copy Code" @583,220,106,36
+row @17,268,694,1048
+  row @17,772,22,40
+    text Arabic (العربية) @17,772,22,40
+  col @51,268,81,1048
+    text طريقة الدفع @51,268,81,40
+    text جميع المعاملات آمنة ومشفرة @51,320,81,82
+    text الاسم على البطاقة @51,414,81,40
+    field "الاسم على البطاقة" required @51,466,81,75
+    row @51,553,81,259
+      col @51,553,50,259
+        text رقم البطاقة @51,553,50,41
+        field "رقم البطاقة" required @51,606,50,92
+        text أدخل رقمك المكون من 16 رقمًا. @51,710,50,102
+      col @113,610,19,145
+        text رمز الأمان @113,610,19,41
+        field "رمز الأمان" required @113,663,19,92
+    row @51,824,81,83
+      col @51,824,31,83
+        text الشهر @51,824,31,20
+        card @51,856,34,51
+          text MM @68,871,0,21
+      col @94,824,38,83
+        text السنة @94,824,38,20
+        card @94,856,38,51
+          text YYYY @111,871,4,21
+    text عنوان الفواتير @51,919,81,40
+    text عنوان الفواتير المرتبط بطريقة الدفع الخاصة بك @51,971,81,122
+    row @51,1105,81,61
+      check "نفس عنوان الشحن" on @51,1105,20,61
+      check "نفس عنوان الشحن" on @83,1105,20,61
+      text نفس عنوان الشحن @115,1105,17,61
+    text تعليقات @51,1178,81,20
+    field تعليقات @51,1210,81,58
+    row @51,1280,81,36
+      button إرسال primary @51,1280,34,36
+      button إلغاء @97,1280,35,36
+  col @144,433,124,718
+    card @144,433,124,285
+      text CNLRER @161,448,90,20
+      text لا يوجد أعضاء في الفريق @161,480,90,61
+      text قم بدعوة فريقك للتعاون في هذا المشروع. @161,553,90,102
+      button "دعوة أعضاء" primary @161,667,90,36
+    row @144,730,124,40
+      text جارٍ المزامنة @144,730,16,40
+      region Loading 15.84000015258789x15.84000015258789 @172,758,6,6 [1 shapes, 0 labelled]
+      text جارٍ التحديث @190,730,15,40
+      region Loading 15.84000015258789x15.84000015258789 @217,758,6,6 [1 shapes, 0 labelled]
+      text جارٍ التحميل @235,730,15,40
+      region Loading 15.84000015258789x15.84000015258789 @262,758,6,6 [1 shapes, 0 labelled]
+    row @144,782,124,76
+      button إضافة @144,802,43,36
+      row @199,782,69,76
+        field "أرسل رسالة..." @199,782,12,76
+        button "الوضع الصوتي" @223,802,45,36
+    text نطاق السعر @144,870,124,20
+    text حدد نطاق ميزانيتك (﷼٢٠٠ - ٨٠٠). @144,902,124,61
+    row @144,975,124,2
+      region 280x4 @144,975,124,2 [1 shapes, 0 labelled]
+    row @144,989,124,162
+      row @144,1041,14,58
+        field بحث... @144,1041,1,58
+        text 12 نتيجة @157,1049,1,41
+      row @170,1041,22,58
+        field example.com @170,1041,0,58
+        button إضافة @182,1052,30,36
+      col @204,989,47,162
+        field "اسأل، ابحث أو تحدث..." @204,989,47,109
+        row @204,1110,47,41
+          button إضافة @204,1113,30,36
+          button button @246,1113,30,36
+          text 52% مستخدم @288,1110,0,41
+          button إرسال primary @300,1113,30,36
+      row @263,1041,5,58
+        field shadcn @263,1041,5,58
+  col @280,349,211,886
+    row @280,349,211,57
+      text السعر @280,367,30,21
+      row @322,349,169,57
+        field السعر @322,349,18,57
+        button معلومات @352,359,58,37
+        text ر.س @422,367,11,21
+        button مفضل @445,359,46,37
+    card @280,418,211,99
+      text المصادقة الثنائية @297,433,177,21
+      button تفعيل primary @297,466,177,36
+    card @280,529,211,71
+      text تم التحقق من ملفك الشخصي. @297,544,177,41
+    text إعدادات المظهر @280,612,211,20
+    text بيئة الحوسبة @280,644,211,20
+    text اختر بيئة الحوسبة لمجموعتك. @280,676,211,41
+    row @280,729,211,235
+      row @280,739,101,215
+        col @280,739,65,215
+          text كوبرنيتس @280,739,65,20
+          text تشغيل أحمال عمل GPU على مجموعة مُهيأة بـ K8s. هذا هو الافتراضي. @280,771,65,183
+        badge كوبرنيتس @357,836,24,20
+      row @393,729,98,235
+        col @393,729,70,235
+          text جهاز افتراضي @393,729,70,40
+          text الوصول إلى مجموعة VM مُهيأة لتشغيل أحمال العمل. (قريبًا) @393,781,70,183
+        text جهاز افتراضي @475,826,16,41
+    row @280,976,211,134
+      col @280,976,89,134
+        text عدد وحدات GPU @280,976,89,41
+        text يمكنك إضافة المزيد لاحقًا. @280,1029,89,81
+      row @381,997,110,92
+        field "عدد وحدات GPU" ="8" @381,997,13,92
+        button إنقاص @406,1025,37,36
+        button زيادة @455,1025,36,36
+    row @280,1122,211,113
+      col @280,1122,72,113
+        text تلوين الخلفية @280,1122,72,40
+        text السماح بتلوين الخلفية. @280,1174,72,61
+      toggle "تلوين الخلفية" on @364,1152,61,53
+      check "تلوين الخلفية" on @437,1158,54,41
+  col @503,361,208,862
+    text الأمر @503,361,208,20
+    card @503,393,208,184
+      field الأمر @520,408,174,58
+      button "أضف سياق" @520,478,174,36
+      row @520,526,174,36
+        button "إرفاق ملف" @520,526,35,36
+        button تلقائي @567,526,33,36
+        button "جميع المصادر" @612,526,37,36
+        button إرسال primary @661,526,33,36
+    row @503,589,208,37
+      button رجوع @503,589,44,37
+      row @559,589,61,37
+        button أرشفة @559,589,30,37
+        button إبلاغ @601,589,30,37
+      row @632,589,79,37
+        button تأجيل @632,589,32,37
+        button "خيارات أخرى" @676,589,35,37
+    card @503,638,208,111
+      row @520,653,174,81
+        check "أوافق على الشروط والأحكام" on @520,653,52,81
+        check "أوافق على الشروط والأحكام" on @584,653,52,81
+        text أوافق على الشروط والأحكام @648,653,46,81
+    row @503,761,208,36
+      row @503,761,116,36
+        row @503,761,46,36
+          button ١ @503,761,30,36
+          button ٢ @545,761,30,36
+          button ٣ @587,761,30,36
+        row @561,761,58,36
+          button السابق @561,761,30,36
+          button التالي @603,761,30,36
+      row @631,761,80,36
+        button المساعد @631,761,33,36
+        button "فتح القائمة" @676,761,35,36
+    text كيف سمعت عنا؟ @503,809,208,21
+    text اختر الخيار الذي يصف أفضل طريقة سمعت عنا من خلالها. @503,842,208,60
+    row @503,914,208,41
+      row @503,914,80,41
+        check "التواصل الاجتماعي" on @503,914,19,41
+        check "التواصل الاجتماعي" on @534,914,20,41
+        text التواصل الاجتماعي @566,914,17,41
+      row @595,923,32,24
+        check البحث off @595,923,3,24
+        check البحث off @610,923,3,24
+        text البحث @625,925,2,20
+      row @639,923,32,24
+        check إحالة off @639,923,3,24
+        check إحالة off @654,923,3,24
+        text إحالة @669,925,2,20
+      row @683,923,28,24
+        check أخرى off @683,923,1,24
+        check أخرى off @696,923,2,24
+        text أخرى @710,925,1,20
+    card @503,967,208,256
+      card @520,982,174,73
+        region Loading 21.1200008392334x21.1200008392334 @537,1018,21,22 [1 shapes, 0 labelled]
+      text جارٍ معالجة طلبك @520,1067,174,20
+      text يرجى الانتظار بينما نعالج طلبك. لا تقم بتحديث الصفحة. @520,1099,174,61
+      button إلغاء @520,1172,174,36
+text Built by at . The source code is available on . @17,1328,694,20
+row @17,1360,694,21
+  link shadcn https://twitter.com/shadcn @17,1360,49,21
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout @78,1360,43,21
+  link GitHub https://github.com/shadcn-ui/ui @133,1360,46,21
+text Notifications alt+T @17,1393,694,20
+text Notifications @17,1425,694,20
+!overflow search 170/256px
+!overflow toggle 87/122px
+!overflow button 32/74px
+!overflow button2 33/74px
+!overflow button3 88/115px
+!overflow button4 41/74px
+!overflow button5 43/133px
+!overflow button6 28/74px
+!overflow button7 28/74px
+!overflow button8 28/73px
+!overflow button9 28/74px
+!overflow button10 56/93px
+!overflow button11 44/65px
+!overflow field9 20/29px
+!overflow button13 35/74px
+!overflow button14 34/74px
+!overflow button16 33/106px
+!overflow button17 31/84px
+!overflow button18 35/133px
+!overflow button19 31/74px
+!overflow button20 42/65px
+!overflow button21 28/74px
+!overflow button22 28/74px
+!overflow button23 30/74px
+!overflow button24 33/124px
+!overflow button25 28/38px
+!overflow button26 28/38px
+!overflow button27 28/38px
+!overflow button28 28/84px
+!overflow button29 28/84px
+!overflow button30 31/93px
+!overflow button31 33/124px
+!tiny field3 22x36px
+!tiny check 20x61px
+!tiny check2 20x61px
+!tiny field5 22x37px
+!tiny field6 22x37px
+!tiny examplecom 22x37px
+!tiny shadcn 22x37px
+!tiny field8 22x36px
+!tiny field9 22x36px
+!tiny check6 19x41px
+!tiny check7 20x41px
+!tiny check8 3x24px
+!tiny check9 3x24px
+!tiny check10 3x24px
+!tiny check11 3x24px
+!tiny check12 1x24px
+!tiny check13 2x24px

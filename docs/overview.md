@@ -37,7 +37,8 @@ All counts with Claude's tokenizer; reader accuracy with fresh Haiku readers tha
 | Six paint-heavy visuals | 2,685 | 6,104 (HTML + SVG + ARIA), 6,645 (A2UI paint catalog) |
 | Read back, paint-heavy, level 1 and 3 | 27 and 30 of 30 | |
 | A page imported from HTML | 1,158 | 4,569 (the HTML), 1,463 (accessibility snapshot) |
-| A hundred real pages imported | 736,715 | 6,510,211 (the HTML) |
+| 246 real pages imported | 8,261,392 | 35,567,239 (the HTML) |
+| Reading 8 real pages, level 1 vs screenshot | 12,102 tokens, 24 and 24 of 24 | 12,288 tokens, 23 and 24 of 24 |
 
 ## Where it sits
 

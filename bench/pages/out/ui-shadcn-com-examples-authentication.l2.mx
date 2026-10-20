@@ -1,0 +1,67 @@
+@ui_shadcn_com_examples_authentication rev=0 @0,0,728,814
+row @17,17,694,36
+  row @17,25,346,20
+    link Home / @17,25,26,20
+    link Docs /docs/installation @55,25,21,20
+    link Components /docs/components @88,25,55,20
+    link Blocks /blocks @155,25,28,20
+    link Charts /charts/area @195,25,29,20
+    link Directory /docs/directory @236,25,39,20
+    link Typeset /typeset @287,25,35,20
+    link Create /create @334,25,29,20
+  row @375,17,336,36
+    button "Search documentation...Search..." @375,17,172,36
+    link 126k https://github.com/shadcn-ui/ui @559,25,20,20
+    button "Toggle theme" @591,17,89,36
+    row @692,25,19,20
+      link New /create @692,25,19,20
+link "Trace, Code Block and AI Elements" /docs/changelog @17,65,694,21
+h1 The Foundation for your Design System @17,98,694,25
+text A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code. @17,135,694,40
+row @17,187,694,21
+  link "Get Started" /docs/installation @17,187,76,21
+  link "View Components" /docs/components @105,187,122,21
+row @17,220,694,36
+  row @17,228,435,20
+    link Examples / @17,228,64,20
+    link Dashboard /examples/dashboard @93,228,73,20
+    link Tasks /examples/tasks @178,228,40,20
+    link Playground /examples/playground @230,228,76,20
+    link Authentication /examples/authentication @318,228,96,20
+    link RTL /examples/rtl @426,228,26,20
+  row @464,220,225,36
+    text Theme @464,228,46,20
+    row @522,228,49,20
+      text Neutral @522,228,49,20
+    button "Copy Code" @583,220,106,36
+card @17,268,694,400
+  row @34,283,660,370
+    link Login /examples/authentication @34,458,17,20
+    col @63,421,449,93
+      text Acme Inc @63,421,449,21
+      text “This library has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.” - Sofia Davis @63,454,449,60
+    col @524,283,170,370
+      h1 Create an account @524,283,170,50
+      text Enter your email below to create your account @524,345,170,40
+      row @524,397,170,139
+        col @524,397,57,139
+          text Email @524,397,57,21
+          field Email email @524,430,57,57
+          button "Sign In with Email" primary @524,499,57,37
+        col @593,436,41,61
+          text Or continue with @593,436,41,61
+        button GitHub @646,448,48,37
+      text By clicking continue, you agree to our and . @524,548,170,40
+      link "Terms of Service" /terms @524,600,170,21
+      link "Privacy Policy" /privacy @524,633,170,20
+text Built by at . The source code is available on . @17,680,694,20
+row @17,712,694,21
+  link shadcn https://twitter.com/shadcn @17,712,49,21
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout @78,712,43,21
+  link GitHub https://github.com/shadcn-ui/ui @133,712,46,21
+text Notifications alt+T @17,745,694,20
+text Notifications @17,777,694,20
+!overflow search 170/256px
+!overflow toggle 87/122px
+!overflow sign 55/147px
+!overflow github 46/75px

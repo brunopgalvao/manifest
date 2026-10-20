@@ -1,0 +1,44 @@
+name: Pages dataset
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: engine
+      - run: cargo build --release && cargo build --release --target wasm32-unknown-unknown -p mx-render
+        working-directory: engine
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm ci
+        working-directory: import
+      - run: npx playwright install --with-deps chromium
+        working-directory: import
+      - run: node src/batch.ts ../bench/pages/urls.txt ../bench/pages/out --crawl 10
+        working-directory: import
+      - run: pip install anthropic
+      - run: python bench/pages/report.py bench/pages/out
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - run: cat bench/pages/out/report.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pages-${{ github.run_number }}
+          path: |
+            bench/pages/out/*.mx
+            bench/pages/out/*.l2.mx
+            bench/pages/out/*.png
+            bench/pages/out/index.jsonl
+            bench/pages/out/report.*
+            bench/pages/urls.crawled.txt
+          retention-days: 30

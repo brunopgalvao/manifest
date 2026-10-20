@@ -1,0 +1,121 @@
+@getbootstrap_com_docs_5_3_examples_grid rev=0 @0,0,728,2146
+button "Toggle theme (light)" primary @17,17,694,36
+h1 Bootstrap grid examples @17,65,694,25
+text Basic grid layouts to get you familiar with building within the Bootstrap grid system. @17,102,694,21
+text In these examples the .themed-grid-col class is added to the columns to add some theming. This is not a class that is available in Bootstrap by default. @17,135,694,40
+h2 Five grid tiers @17,187,694,21
+text There are five tiers to the Bootstrap grid system, one for each range of devices we support. Each tier starts at a minimum viewport size and automatically applies to the larger devices unless overridden. @17,220,694,41
+row @17,273,694,20
+  text .col-4 @17,273,40,20
+  text .col-4 @69,273,40,20
+  text .col-4 @121,273,40,20
+row @17,305,694,21
+  text .col-sm-4 @17,305,66,21
+  text .col-sm-4 @95,305,66,21
+  text .col-sm-4 @173,305,66,21
+row @17,338,694,20
+  text .col-md-4 @17,338,67,20
+  text .col-md-4 @96,338,67,20
+  text .col-md-4 @175,338,67,20
+row @17,370,694,20
+  text .col-lg-4 @17,370,58,20
+  text .col-lg-4 @87,370,58,20
+  text .col-lg-4 @157,370,58,20
+row @17,402,694,21
+  text .col-xl-4 @17,402,57,21
+  text .col-xl-4 @86,402,57,21
+  text .col-xl-4 @155,402,57,21
+row @17,435,694,20
+  text .col-xxl-4 @17,435,65,20
+  text .col-xxl-4 @94,435,65,20
+  text .col-xxl-4 @171,435,65,20
+h2 Three equal columns @17,467,694,21
+text Get three equal-width columns starting at desktops and scaling to large desktops. On mobile devices, tablets and below, the columns will automatically stack. @17,500,694,41
+row @17,553,694,20
+  text .col-md-4 @17,553,67,20
+  text .col-md-4 @96,553,67,20
+  text .col-md-4 @175,553,67,20
+h2 Three equal columns alternative @17,585,694,21
+text By using the .row-cols-* classes, you can easily create a grid with equal columns. @17,618,694,21
+row @17,651,694,20
+  text .col child of .row-cols-md-3 @17,651,186,20
+  text .col child of .row-cols-md-3 @215,651,186,20
+  text .col child of .row-cols-md-3 @413,651,186,20
+h2 Three unequal columns @17,683,694,21
+text Get three columns starting at desktops and scaling to large desktops of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport. @17,716,694,61
+row @17,789,694,20
+  text .col-md-3 @17,789,67,20
+  text .col-md-6 @96,789,67,20
+  text .col-md-3 @175,789,67,20
+h2 Two columns @17,821,694,22
+text Get two columns starting at desktops and scaling to large desktops. @17,855,694,20
+row @17,887,694,20
+  text .col-md-8 @17,887,67,20
+  text .col-md-4 @96,887,67,20
+h2 Full width, single column @17,919,694,21
+text No grid classes are necessary for full-width elements. warning @17,952,694,21
+h2 Two columns with two nested columns @17,985,694,21
+text Per the documentation, nesting is easy—just put a row of columns within an existing column. This gives you two columns starting at desktops and scaling to large desktops, with another two (equal widths) within the larger column. @17,1018,694,61
+text At mobile device sizes, tablets and down, these columns and their nested columns will stack. @17,1091,694,20
+row @17,1123,694,53
+  col @17,1123,146,53
+    text .col-md-8 @17,1123,146,20
+    row @17,1155,146,21
+      text .col-md-6 @17,1155,67,21
+      text .col-md-6 @96,1155,67,21
+  text .col-md-4 @175,1139,67,21
+h2 Mixed: mobile and desktop @17,1188,694,21
+text The Bootstrap v5 grid system has six tiers of classes: xs (extra small, this class infix is not used), sm (small), md (medium), lg (large), xl (x-large), and xxl (xx-large). You can use nearly any combination of these classes to create more dynamic and flexible layouts. @17,1221,694,61
+text Each tier of classes scales up, meaning if you plan on setting the same widths for md, lg, xl and xxl, you only need to specify md. @17,1294,694,40
+row @17,1346,694,21
+  text .col-md-8 @17,1346,67,21
+  text .col-6 .col-md-4 @96,1346,110,21
+row @17,1379,694,20
+  text .col-6 .col-md-4 @17,1379,110,20
+  text .col-6 .col-md-4 @139,1379,110,20
+  text .col-6 .col-md-4 @261,1379,110,20
+row @17,1411,694,20
+  text .col-6 @17,1411,39,20
+  text .col-6 @68,1411,39,20
+h2 Mixed: mobile, tablet, and desktop @17,1443,694,22
+row @17,1477,694,20
+  text .col-sm-6 .col-lg-8 @17,1477,127,20
+  text .col-6 .col-lg-4 @156,1477,101,20
+row @17,1509,694,20
+  text .col-6 .col-sm-4 @17,1509,109,20
+  text .col-6 .col-sm-4 @138,1509,109,20
+  text .col-6 .col-sm-4 @259,1509,109,20
+h2 Gutters @17,1541,694,22
+text With .gx-* classes, the horizontal gutters can be adjusted. @17,1575,694,20
+row @17,1607,694,40
+  text .col with .gx-4 gutters @17,1607,106,40
+  text .col with .gx-4 gutters @135,1607,105,40
+  text .col with .gx-4 gutters @252,1607,106,40
+  text .col with .gx-4 gutters @370,1607,106,40
+  text .col with .gx-4 gutters @488,1607,105,40
+  text .col with .gx-4 gutters @605,1607,106,40
+text Use the .gy-* classes to control the vertical gutters. @17,1659,694,21
+row @17,1692,694,40
+  text .col with .gy-4 gutters @17,1692,106,40
+  text .col with .gy-4 gutters @135,1692,105,40
+  text .col with .gy-4 gutters @252,1692,106,40
+  text .col with .gy-4 gutters @370,1692,106,40
+  text .col with .gy-4 gutters @488,1692,105,40
+  text .col with .gy-4 gutters @605,1692,106,40
+text With .g-* classes, the gutters in both directions can be adjusted. @17,1744,694,21
+row @17,1777,694,40
+  text .col with .g-3 gutters @17,1777,106,40
+  text .col with .g-3 gutters @135,1777,105,40
+  text .col with .g-3 gutters @252,1777,106,40
+  text .col with .g-3 gutters @370,1777,106,40
+  text .col with .g-3 gutters @488,1777,105,40
+  text .col with .g-3 gutters @605,1777,106,40
+h2 Containers @17,1829,694,21
+text Additional classes added in Bootstrap v4.4 allow containers that are 100% wide until a particular breakpoint. v5 adds a new xxl breakpoint. @17,1862,694,41
+text .container @17,1915,694,20
+text .container-sm @17,1947,694,21
+text .container-md @17,1980,694,20
+text .container-lg @17,2012,694,20
+text .container-xl @17,2044,694,21
+text .container-xxl @17,2077,694,20
+text .container-fluid @17,2109,694,20

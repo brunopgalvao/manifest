@@ -1,0 +1,189 @@
+@www_w3_org_wai_standards_guidelines_wcag rev=0 @0,0,728,3723
+row @17,17,694,41
+  link "Skip to Content" #main @17,17,94,41
+  link "Change Text Size or Colors" /WAI/meta/customize/ @123,17,167,41
+  row @302,17,180,41
+    text This page in: @302,17,78,41
+    row @392,27,90,20
+      text English @392,27,43,20
+      link polski /WAI/standards-guidelines/wcag/docs/pl @447,27,35,20
+  link "All Translations" /WAI/translations/ @494,17,94,41
+  button "Hide Options" @600,19,111,36
+row @17,70,694,61
+  row @17,70,485,61
+    link "W3C homepage" https://www.w3.org/ @17,80,51,40
+    link "Web Accessibility Initiative (WAI) homepage" /WAI/ @80,70,138,61
+    text Strategies, standards, resources to make the Web accessible to people with disabilities @230,70,272,61
+  row @514,70,197,61
+    link "Get Involved" /WAI/about/participating/ @514,80,38,40
+    link "About W3C WAI" /WAI/about/ @564,70,49,61
+    row @625,71,86,58
+      field Search search @625,71,9,58
+      text Search: @646,90,12,20
+      button button @670,82,41,36
+row @17,143,694,40
+  link "Accessibility Fundamentals" /WAI/fundamentals/ @17,143,145,40
+  link "Planning & Policies" /WAI/planning/ @174,143,100,40
+  link "Design & Develop" /WAI/design-develop/ @286,143,95,40
+  link "Test & Evaluate" /WAI/test-evaluate/ @393,143,82,40
+  link "Teach & Advocate" /WAI/teach-advocate/ @487,143,98,40
+  link Standards/Guidelines /WAI/standards-guidelines/ @597,153,114,20
+row @17,195,694,20
+  link Home /WAI/ @17,195,40,20
+  link Standards/Guidelines /WAI/standards-guidelines/ @69,195,142,20
+  link "Web Content – WCAG 2" /WAI/standards-guidelines/wcag/ @223,195,159,20
+  link "The Documents" /WAI/standards-guidelines/wcag/docs/ @394,195,105,20
+row @17,227,694,2974
+  col @17,1014,110,1401
+    link Standards/Guidelines /WAI/standards-guidelines/ @17,1014,110,20
+    link "Web Content – WCAG 2" /WAI/standards-guidelines/wcag/ @17,1046,110,40
+    link "How to Meet WCAG 2 (Quick Reference)" https://www.w3.org/WAI/WCAG21/quickref/ @17,1098,110,61
+    link "At a Glance" /WAI/standards-guidelines/wcag/glance/ @17,1171,110,21
+    link "The Documents" /WAI/standards-guidelines/wcag/docs/ @17,1204,110,20
+    link "Applying to Non-Web ICT" /WAI/standards-guidelines/wcag/non-web-ict/ @17,1236,110,41
+    link "New in 2.2" /WAI/standards-guidelines/wcag/new-in-22/ @17,1289,110,20
+    link "New in 2.1" /WAI/standards-guidelines/wcag/new-in-21/ @17,1321,110,20
+    link Translations /WAI/standards-guidelines/wcag/translations/ @17,1353,110,20
+    link Commenting /WAI/standards-guidelines/wcag/commenting/ @17,1385,110,21
+    link "Conformance Logos" /WAI/standards-guidelines/wcag/conformance-logos/ @17,1418,110,40
+    link FAQ /WAI/standards-guidelines/wcag/faq/ @17,1470,110,21
+    link "WCAG 3 Draft" /WAI/standards-guidelines/wcag/wcag3-intro/ @17,1503,110,20
+    link "Authoring Tools – ATAG" /WAI/standards-guidelines/atag/ @17,1535,110,41
+    link "User Agents – UAAG" /WAI/standards-guidelines/uaag/ @17,1588,110,40
+    link WAI-ARIA /WAI/standards-guidelines/aria/ @17,1640,110,20
+    link "Evaluation – ACT & EARL" /WAI/standards-guidelines/evaluation/ @17,1672,110,41
+    link WAI-Adapt /WAI/adapt/ @17,1725,110,20
+    link Pronunciation /WAI/pronunciation/ @17,1757,110,21
+    link "Standards Harmonization is Essential" /WAI/standards-guidelines/harmonization/ @17,1790,110,61
+    link "W3C Process for Developing Standards" /WAI/standards-guidelines/w3c-process/ @17,1863,110,60
+    link "Referencing and Linking to Standards" /WAI/standards-guidelines/linking/ @17,1935,110,61
+    link "Cognitive Accessibility at W3C" /WAI/cognitive/ @17,2008,110,61
+    link "Mobile Accessibility at W3C" /WAI/standards-guidelines/mobile/ @17,2081,110,61
+    card @17,2154,110,261
+      text Languages/Translations @34,2169,76,20
+      text English (original) primary @34,2201,76,41
+      link polski /WAI/standards-guidelines/wcag/docs/pl @34,2254,76,20
+      link "All Translations" /WAI/translations/ @34,2286,76,41
+      link "Translating WAI Resources" /WAI/about/translating/ @34,2339,76,61
+  col @139,227,572,2974
+    h1 The WCAG 2 Documents @139,227,572,25
+    h2 Summary @139,264,572,22
+    text This page describes WCAG 2 supporting documents and supplemental guidance. It helps you know where to go for which type of information. @139,298,572,40
+    text Page Contents primary @139,350,572,21
+    link "WCAG 2 standard" #wcag-2-standard @139,383,572,20
+    link "Quick Reference / How to Meet WCAG 2 / WCAG 2 checklist" #quick-reference--how-to-meet-wcag-2--wcag-2-checklist @139,415,572,20
+    link "Supporting documents" #supporting-documents @139,447,572,20
+    link Understanding #understanding @139,479,572,21
+    link Techniques #techniques @139,512,572,20
+    link "Accessibility Conformance Testing (ACT) Rules" #accessibility-conformance-testing-act-rules @139,544,572,20
+    link "Supplemental guidance" #supplement @139,576,572,21
+    link "Resources for getting started" #resources-for-getting-started @139,609,572,20
+    link "WCAG 2 documents diagram" #wcag-2-documents-diagram @139,641,572,20
+    h2 WCAG 2 standard @139,673,572,22
+    text Web Content Accessibility Guidelines (WCAG) 2 is a stable, referenceable technical standard. Learn more about WCAG versions from the . @139,707,572,40
+    link "WCAG 2 Overview" /WAI/standards-guidelines/wcag/ @139,759,572,20
+    text When developing web content and web tools, most people will use the documents introduced below, instead of the actual technical standard document. @139,791,572,41
+    text , which are . The supporting materials below are informative; they are not normative. That means the techniques and other supporting materials: @139,844,572,41
+    row @139,897,572,20
+      text Only the WCAG technical standard includes requirements @139,897,381,20
+      link normative https://www.w3.org/TR/WCAG22/#interpreting-normative-requirements @532,897,67,20
+    text do not set or change requirements for WCAG @139,929,572,20
+    text are not required for conformance to WCAG @139,961,572,20
+    h2 Quick Reference / How to Meet WCAG 2 / WCAG 2 checklist @139,993,572,22
+    text It includes all the WCAG 2 guidelines and success criteria. It is essentially the WCAG 2 checklist. @139,1027,572,40
+    text A key resource for designers and developers using WCAG 2 is . @139,1079,572,21
+    link "How to Meet WCAG 2 (Quick Reference): A customizable quick reference to WCAG 2 requirements (Success Criteria) and techniques" https://www.w3.org/WAI/WCAG22/quickref/ @139,1112,572,40
+    text You can customize it so it shows what you are interested in at the time. There are “filters” for different roles, topics, and technologies (such as HTML, CSS, ARIA). And filters for . @139,1164,572,61
+    link "Level A, AA, or AAA success criteria" https://www.w3.org/WAI/WCAG22/Understanding/conformance#levels @139,1237,572,20
+    h2 Supporting documents @139,1269,572,22
+    text The supporting documents directly relate to WCAG guidelines and success criteria. They are not required to meet WCAG; they are “informative” or “non-normative”. @139,1303,572,40
+    h3 Understanding @139,1355,572,19
+    text is a guide to understanding and implementing WCAG. It has details for people who want to understand the guidelines and success criteria more thoroughly. It includes: @139,1386,572,41
+    text Understanding WCAG @139,1439,572,20
+    text the intent @139,1471,572,20
+    text how it helps people with different disabilities @139,1503,572,21
+    text browser and assistive technology support notes @139,1536,572,20
+    text examples @139,1568,572,20
+    text resources @139,1600,572,20
+    text More: @139,1632,572,21
+    link "About Understanding Documents" https://www.w3.org/WAI/WCAG22/Understanding/intro @139,1665,572,20
+    link "2.2 Understanding Document List" https://www.w3.org/WAI/WCAG22/Understanding/ @139,1697,572,20
+    link "2.1 Understanding Document List" https://www.w3.org/WAI/WCAG21/Understanding/ @139,1729,572,21
+    link "2.0 Understanding Document List" https://www.w3.org/TR/UNDERSTANDING-WCAG20/ @139,1762,572,20
+    h3 Techniques @139,1794,572,19
+    text give specific guidance on how to develop accessible web content. It provides general and technology-specific examples, including for HTML, CSS, scripting, multimedia, and WAI-ARIA. @139,1825,572,61
+    row @139,1898,572,20
+      text Techniques for WCAG @139,1898,149,20
+      text for developers @300,1898,97,20
+    text Sufficient techniques are examples of ways to meet success criteria. If you follow the sufficient techniques for the success criteria, then you meet the criteria. @139,1930,572,41
+    text Advisory techniques are suggested ways to improve accessibility. They are very helpful to some users, and may be the only way that some users can access some types of content. @139,1983,572,60
+    text Failures are things that cause accessibility barriers and fail specific success criteria. @139,2055,572,21
+    text More: @139,2088,572,20
+    link "About Techniques" https://www.w3.org/WAI/WCAG22/Understanding/understanding-techniques @139,2120,572,20
+    link "2.2 Techniques List" https://www.w3.org/WAI/WCAG22/Techniques/ @139,2152,572,21
+    link "2.1 Techniques List" https://www.w3.org/WAI/WCAG21/Techniques/ @139,2185,572,20
+    link "2.0 Techniques List" https://www.w3.org/TR/WCAG20-TECHS/ @139,2217,572,20
+    h3 Accessibility Conformance Testing (ACT) Rules @139,2249,572,19
+    text describe how to test conformance to WCAG success criteria. They are primarily for developing evaluation tools and test methodologies. (They are more robust than the tests in the techniques.) @139,2280,572,61
+    text Accessibility Conformance Testing (ACT) Rules @139,2353,572,20
+    link "About WCAG 2 ACT Rules" /WAI/standards-guidelines/act/rules/about/ @139,2385,572,20
+    link "All WCAG 2 ACT Rules List" /WAI/standards-guidelines/act/rules/ @139,2417,572,21
+    h2 Supplemental guidance @139,2450,572,21
+    text Supplemental guidance goes beyond the requirements of WCAG. It is not required to meet WCAG. Much of the guidance is essential for people with certain impairments, including cognitive and learning disabilities. @139,2483,572,61
+    link "About Supplemental Guidance" /WAI/WCAG2/supplemental/about/ @139,2556,572,20
+    link "All Supplemental Guidance list" /WAI/WCAG2/supplemental/ @139,2588,572,21
+    h2 Resources for getting started @139,2621,572,21
+    text Before you start working with WCAG, you probably want to read these resources: @139,2654,572,20
+    link "Introduction to Web Accessibility" /WAI/fundamentals/accessibility-intro/ @139,2686,572,20
+    link "Accessibility Principles" /WAI/fundamentals/accessibility-principles/ @139,2718,572,21
+    link "WCAG 2 Overview" /WAI/standards-guidelines/wcag/ @139,2751,572,20
+    text Other resources cover specific topics, for example: @139,2783,572,20
+    text cover page structure, menus, images, tables, carousels, forms @139,2815,572,21
+    link "Web Accessibility Tutorials" /WAI/tutorials/ @139,2848,572,20
+    text covers multimedia @139,2880,572,20
+    link "Making Audio and Video Media Accessible" /WAI/media/av/ @139,2912,572,20
+    text We encourage you to look around the W3C WAI website to find other information that you might be interested in reading or sharing with others. @139,2944,572,41
+    h2 WCAG 2 documents diagram @139,2997,572,21
+    row @139,3030,572,22
+      h2 Help improve this page @139,3030,192,22
+    text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @139,3064,572,40
+    link wai@w3.org @139,3116,572,20
+    row @139,3148,572,21
+      link E-mail @139,3148,42,21
+      link "Fork & Edit on GitHub" https://github.com/w3c/wai-website/edit/main/pages/standards-guidelines/wcag/docs.md @193,3148,142,21
+      link "New GitHub Issue" https://github.com/w3c/wai-website/issues/new?template=content-issue.yml&wai-resource-id=wai-wcag-intro&wai-url=https://www.w3.org/WAI/standards-guidelines/wcag/docs/ @347,3148,119,21
+    link "Back to Top" #top @139,3181,572,20
+text Updated: 5 May 2026. First published July 2005. @17,3213,694,20
+text . Contributors: and . @17,3245,694,21
+row @17,3278,694,20
+  text Editor: @17,3278,43,20
+  link "Shawn Lawton Henry" https://www.w3.org/People/Shawn/ @72,3278,142,20
+  link "Hidde de Vries" https://www.w3.org/People/hidde/ @226,3278,98,20
+  link "Shadi Abou-Zahra" https://www.w3.org/People/shadi/ @336,3278,121,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,3310,694,20
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,3342,694,21
+row @17,3375,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,3375,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,3375,57,20
+  link Mastodon https://w3c.social/@wai @218,3375,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,3375,61,20
+row @17,3407,694,40
+  link Home /WAI/ @17,3417,37,20
+  link Contact /WAI/about/contacting/ @66,3417,48,20
+  link "Site map" /WAI/sitemap/ @126,3407,54,40
+  link "Support WAI" /WAI/about/support/ @192,3407,78,40
+  link News /WAI/news/ @282,3417,36,20
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,3407,142,40
+  link "All Translations" /WAI/translations/ @484,3407,94,40
+  link "Resources for roles" /WAI/roles/ @590,3407,121,40
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,3459,694,21
+link "World Wide Web Consortium" https://www.w3.org/ @17,3492,694,20
+text W3C @17,3524,694,20
+text ® @17,3556,694,21
+link liability https://www.w3.org/policies/#disclaimers @17,3589,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,3621,694,20
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,3653,694,21
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,3686,694,20
+!overflow hide 109/116px
+!overflow button 39/73px
+!tiny search 22x36px

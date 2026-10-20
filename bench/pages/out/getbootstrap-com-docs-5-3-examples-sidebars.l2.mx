@@ -1,0 +1,55 @@
+@getbootstrap_com_docs_5_3_examples_sideb rev=0 @0,0,728,734
+button "Toggle theme (light)" primary @17,17,694,36
+row @17,65,694,652
+  h1 Sidebars examples @17,366,101,50
+  col @130,284,39,214
+    link Sidebar / @130,284,39,20
+    link Home # @130,316,39,21
+    link Dashboard # @130,349,39,20
+    link Orders # @130,381,39,20
+    link Products # @130,413,39,21
+    link Customers # @130,446,39,20
+    link mdo # @130,478,39,20
+  col @181,284,40,214
+    link Sidebar / @181,284,40,20
+    link Home # @181,316,40,21
+    link Dashboard # @181,349,40,20
+    link Orders # @181,381,40,20
+    link Products # @181,413,40,21
+    link Customers # @181,446,40,20
+    link mdo # @181,478,40,20
+  col @233,284,39,214
+    link Icon-only / @233,284,39,20
+    link Home # @233,316,39,21
+    link Dashboard # @233,349,39,20
+    link Orders # @233,381,39,20
+    link Products # @233,413,39,21
+    link Customers # @233,446,39,20
+    link # # @233,478,39,20
+  col @284,236,57,310
+    link Collapsible / @284,236,57,20
+    button Home @284,268,57,36
+    link Overview # @284,316,57,21
+    link Updates # @284,349,57,20
+    link Reports # @284,381,57,20
+    button Dashboard @284,413,57,37
+    button Orders @284,462,57,36
+    button Account @284,510,57,36
+  col @353,65,358,652
+    link "List group" / @353,65,358,21
+    link "List group item heading Wed Some placeholder content in a paragraph below the heading and date." # @353,98,358,40
+    link "List group item heading Tues Some placeholder content in a paragraph below the heading and date." # @353,150,358,41
+    link "List group item heading Mon Some placeholder content in a paragraph below the heading and date." # @353,203,358,40
+    link "List group item heading Wed Some placeholder content in a paragraph below the heading and date." # @353,255,358,41
+    link "List group item heading Tues Some placeholder content in a paragraph below the heading and date." # @353,308,358,41
+    link "List group item heading Mon Some placeholder content in a paragraph below the heading and date." # @353,361,358,40
+    link "List group item heading Wed Some placeholder content in a paragraph below the heading and date." # @353,413,358,41
+    link "List group item heading Tues Some placeholder content in a paragraph below the heading and date." # @353,466,358,40
+    link "List group item heading Mon Some placeholder content in a paragraph below the heading and date." # @353,518,358,41
+    link "List group item heading Wed Some placeholder content in a paragraph below the heading and date." # @353,571,358,41
+    link "List group item heading Tues Some placeholder content in a paragraph below the heading and date." # @353,624,358,40
+    link "List group item heading Mon Some placeholder content in a paragraph below the heading and date." # @353,676,358,41
+!overflow home4 55/68px
+!overflow dashboard4 55/103px
+!overflow orders4 55/75px
+!overflow account 55/86px

@@ -1,0 +1,138 @@
+@picocss_com_docs_version_picker
+row
+  button "Skip to content" primary
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance
+  row
+    link "Pico CSS homepage" /
+    row
+      row
+        text v2.1.1
+        link Examples /examples
+        link Docs /docs
+      row
+        link "GitHub repository" https://github.com/picocss/pico
+        link Twitter https://x.com/picocss
+        link "Turn on dark mode" /docs/version-picker
+  row
+    col
+      text Getting started
+      link "Quick start" /docs
+      link "Version picker New" /docs/version-picker
+      link "Color schemes" /docs/color-schemes
+      link "Class-less version" /docs/classless
+      link "Conditional styling New" /docs/conditional
+      link RTL /docs/rtl
+      text Customization
+      text Layout
+      text Content
+      text Forms
+      text Components
+      text About
+    metric "Getting started" "Version picker" "Easily select the ideal Pico CSS version variant to match your project's needs."
+    col
+      text Content
+      link Theme /docs/version-picker
+      link Configuration /docs/version-picker#configuration
+      link "Usage from CDN" /docs/version-picker#usage-from-cdn
+      link "Usage with Sass" /docs/version-picker#usage-with-sass
+      link "Starter HTML template" /docs/version-picker#starter-html-template
+    col
+      h2 Theme color
+      card
+        link Azure /docs/version-picker/red
+        link Azure /docs/version-picker/pink
+        link Azure /docs/version-picker/fuchsia
+        link Azure /docs/version-picker/purple
+        link Azure /docs/version-picker/violet
+        link Azure /docs/version-picker/indigo
+        link Azure /docs/version-picker/blue
+        link Azure /docs/version-picker
+        link Azure /docs/version-picker/cyan
+        link Azure /docs/version-picker/jade
+        link Azure /docs/version-picker/green
+        link Azure /docs/version-picker/lime
+        link Azure /docs/version-picker/yellow
+        link Azure /docs/version-picker/amber
+        link Azure /docs/version-picker/pumpkin
+        link Azure /docs/version-picker/orange
+        link Azure /docs/version-picker/sand
+        link Azure /docs/version-picker/grey
+        link Azure /docs/version-picker/zinc
+        link Azure /docs/version-picker/slate
+      h2 Azure
+      text Form example with an azure theme.
+      row
+        field Login
+        field Password password
+        button "Log in" primary
+      link "Privacy Policy" /docs/version-picker
+      toggle "I agree to the" on
+      link "Copy code" /docs/version-picker
+      text "<link rel=\"stylesheet\" href=\"css/pico.min.css\">"
+      h2 Configuration#
+      select configuration *"Regular, with classes" "Class-less, with centered viewports" "Class-less, with fluid viewport"
+      text The default version of Pico CSS, with all components and classes.
+      toggle "Conditional Styling" off
+      text The default version applies Pico styles to every HTML element.
+      h2 Usage from CDN#
+      card
+        link "Copy code" /docs/version-picker
+        text "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css\" >"
+      h2 Usage with Sass#
+      card
+        link "Copy code" /docs/version-picker
+        text "@use \"pico\";"
+      h2 Starter HTML template#
+      card
+        link "Copy code" /docs/version-picker
+        text "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <meta name=\"color-scheme\" content=\"light dark\"> <link rel=\"stylesheet\" href=\"css/pico.min.css\"> <title>Hello world!</title> </head> <body> <main class=\"container\"> <h1>Hello world!</h1> </main> </body> </html>"
+      link "Edit this page on GitHub" https://github.com/picocss/picocss.com/blob/main/app/routes/docs.version-picker.jsx
+  col
+    row
+      region 49.34x45
+        region @0,0
+          path "M355.83 57.6809a1.998 1.998 0 0 0-1.149 1.1487l-7.814 20.317c-.658 1.7094-3.076 1.7094-3.734 0l-7.814-20.317a1.998 1.998 0 0 0-1.149-1.1487l-20.317-7.8142c-1.709-.6575-1.709-3.0759 0-3.7334l20.317-7.8142a1.998 1.998 0 0 0 1.149-1.1487l7.814-20.317c.658-1.7094 3.076-1.7094 3.734 0l7.814 20.317c.203.5281.62.9455 1.149 1.1487l20.317 7.8142c1.709.6575 1.709 3.0759 0 3.7334l-20.317 7.8142Z" 
+        region @0,0
+          path "M298.867 31.1466c-.658 1.7094-3.076 1.7094-3.734 0l-2.814-7.317a1.998 1.998 0 0 0-1.149-1.1487l-7.317-2.8142c-1.709-.6575-1.709-3.0759 0-3.7334l7.317-2.8142a1.998 1.998 0 0 0 1.149-1.1487l2.814-7.317c.658-1.7094 3.076-1.7094 3.734 0l2.814 7.317c.203.5281.62.9455 1.149 1.1487l7.317 2.8142c1.709.6575 1.709 3.0759 0 3.7334l-7.317 2.8142a1.998 1.998 0 0 0-1.149 1.1487l-2.814 7.317Z" 
+        region @0,0
+          path "M314.83 82.6809a1.998 1.998 0 0 0-1.149 1.1487l-2.814 7.317c-.658 1.7094-3.076 1.7094-3.734 0l-2.814-7.317a1.998 1.998 0 0 0-1.149-1.1487l-7.317-2.8142c-1.709-.6575-1.709-3.0759 0-3.7334l7.317-2.8142a1.998 1.998 0 0 0 1.149-1.1487l2.814-7.317c.658-1.7094 3.076-1.7094 3.734 0l2.814 7.317c.203.5281.62.9455 1.149 1.1487l7.317 2.8142c1.709.6575 1.709 3.0759 0 3.7334l-7.317 2.8142Z" 
+      row
+        row
+          text About
+          link Maintenance /docs/maintenance
+          link "What’s new?" /docs/v2
+          link Brand /docs/brand
+          link Mission /docs/mission
+          link "Usage scenarios" /docs/usage-scenarios
+        row
+          text Docs
+          link "Quick start" /docs
+          link "Version picker" /docs/version-picker
+          link "Class-less version" /docs/classless
+          link "Form elements" /docs/forms
+        row
+          text Community
+          link Issues https://github.com/picocss/pico/issues
+          link Discussions https://github.com/picocss/pico/discussions
+          link Help https://github.com/picocss/pico/discussions/categories/help
+        row
+          text Examples
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss
+          link All /examples
+      text Designed and built by  with the help of our .
+      col
+        link "Lucas Larroche" https://lucaslarroche.com/
+        link contributors https://github.com/picocss/pico/graphs/contributors
+      row
+        link GitHub https://github.com/picocss/pico
+        link Twitter https://x.com/picocss
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico
+        link NPM https://www.npmjs.com/package/@picocss/pico
+    row
+      text Code licensed , docs .
+      row
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md
+      text Currently v2.1.1.

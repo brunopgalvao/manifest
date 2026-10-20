@@ -1,0 +1,521 @@
+@bulma_io_documentation_form_general rev=0 @0,0,728,15227
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/ @17,17,694,20
+row @17,49,694,212
+  link https://bulma.io/ https://bulma.io/ @17,145,55,20
+  row @84,56,424,198
+    link "Docs Documentation" https://bulma.io/documentation/ @84,135,67,40
+    link Expo https://bulma.io/expo/ @163,145,16,20
+    link Love https://bulma.io/love/ @191,145,16,20
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/ @219,145,27,20
+    row @258,56,250,198
+      link "Open Source on GitHub" https://github.com/jgthms/bulma @258,114,63,82
+      link "Follow me on Twitter" https://twitter.com/jgthms @333,124,56,61
+      button button @401,137,48,36
+      col @461,56,47,198
+        link "Made with Bulma" https://bulma.io/made-with-bulma/ @461,56,47,61
+        link Backers https://bulma.io/backers/ @461,129,47,20
+        link "Bulma Brand" https://bulma.io/brand/ @461,161,47,41
+        link "Bulma Extensions" https://bulma.io/extensions/ @461,214,47,40
+  col @520,49,80,212
+    button button @520,49,80,37
+    card @520,98,80,163
+      button "Light mode" @537,113,46,36
+      button "Dark mode" @537,161,46,36
+      button "System mode" success @537,209,46,37
+  col @612,78,53,154
+    button button @612,78,53,37
+    card @612,127,53,105
+      field "search input" @629,142,19,75
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip @677,145,34,20
+row @17,273,694,14340
+  col @17,5777,7,3331
+    h3 Start Here @17,5777,7,38
+    link Overview https://bulma.io/documentation/start/overview/ @17,5827,7,20
+    link Installation https://bulma.io/documentation/start/installation/ @17,5859,7,20
+    link "Alternative Versions" https://bulma.io/documentation/start/alternative-versions/ @17,5891,7,41
+    link Syntax https://bulma.io/documentation/start/syntax/ @17,5944,7,20
+    link Modularity https://bulma.io/documentation/start/modular/ @17,5976,7,21
+    link Responsiveness https://bulma.io/documentation/start/responsiveness/ @17,6009,7,20
+    link "Migrating to v1" https://bulma.io/documentation/start/migrating-to-v1/ @17,6041,7,61
+    h3 Features @17,6114,7,19
+    link "CSS Variables" https://bulma.io/documentation/features/css-variables/ @17,6145,7,40
+    link Themes https://bulma.io/documentation/features/themes/ @17,6197,7,21
+    link "Dark Mode" https://bulma.io/documentation/features/dark-mode/ @17,6230,7,40
+    link "Color Palettes" https://bulma.io/documentation/features/color-palettes/ @17,6282,7,41
+    link Skeletons https://bulma.io/documentation/features/skeletons/ @17,6335,7,20
+    h3 Sass Tools @17,6367,7,38
+    link Mixins https://bulma.io/documentation/sass/mixins/ @17,6417,7,20
+    link "Responsive mixins" https://bulma.io/documentation/sass/responsive-mixins/ @17,6449,7,40
+    link "Form Control mixins" https://bulma.io/documentation/sass/form-control-mixins/ @17,6501,7,61
+    link Extends https://bulma.io/documentation/sass/extends/ @17,6574,7,21
+    h3 Customization @17,6607,7,18
+    link Concepts https://bulma.io/documentation/customize/concepts/ @17,6637,7,21
+    link "With Sass" https://bulma.io/documentation/customize/with-sass/ @17,6670,7,40
+    link "With Modular Sass" https://bulma.io/documentation/customize/with-modular-sass/ @17,6722,7,61
+    link "With CSS Variables" https://bulma.io/documentation/customize/with-css-variables/ @17,6795,7,61
+    link "List of Sass variables" https://bulma.io/documentation/customize/list-of-sass-variables/ @17,6868,7,81
+    h3 CSS Library @17,6961,7,38
+    link Elements https://bulma.io/documentation/elements/ @17,7011,7,20
+    link Block https://bulma.io/documentation/elements/block/ @17,7043,7,20
+    link Box https://bulma.io/documentation/elements/box/ @17,7075,7,21
+    link Button https://bulma.io/documentation/elements/button/ @17,7108,7,20
+    link Content https://bulma.io/documentation/elements/content/ @17,7140,7,20
+    link Delete https://bulma.io/documentation/elements/delete/ @17,7172,7,21
+    link Icon https://bulma.io/documentation/elements/icon/ @17,7205,7,20
+    link Image https://bulma.io/documentation/elements/image/ @17,7237,7,20
+    link Notification https://bulma.io/documentation/elements/notification/ @17,7269,7,20
+    link "Progress bars" https://bulma.io/documentation/elements/progress/ @17,7301,7,41
+    link Table https://bulma.io/documentation/elements/table/ @17,7354,7,20
+    link Tag https://bulma.io/documentation/elements/tag/ @17,7386,7,21
+    link Title https://bulma.io/documentation/elements/title/ @17,7419,7,20
+    link Components https://bulma.io/documentation/components/ @17,7451,7,20
+    link Breadcrumb https://bulma.io/documentation/components/breadcrumb/ @17,7483,7,21
+    link Card https://bulma.io/documentation/components/card/ @17,7516,7,20
+    link Dropdown https://bulma.io/documentation/components/dropdown/ @17,7548,7,20
+    link Menu https://bulma.io/documentation/components/menu/ @17,7580,7,20
+    link Message https://bulma.io/documentation/components/message/ @17,7612,7,21
+    link Modal https://bulma.io/documentation/components/modal/ @17,7645,7,20
+    link Navbar https://bulma.io/documentation/components/navbar/ @17,7677,7,20
+    link Pagination https://bulma.io/documentation/components/pagination/ @17,7709,7,21
+    link Panel https://bulma.io/documentation/components/panel/ @17,7742,7,20
+    link Tabs https://bulma.io/documentation/components/tabs/ @17,7774,7,20
+    link Form https://bulma.io/documentation/form/ @17,7806,7,21
+    link General https://bulma.io/documentation/form/general/ @17,7839,7,20
+    link Input https://bulma.io/documentation/form/input/ @17,7871,7,20
+    link Textarea https://bulma.io/documentation/form/textarea/ @17,7903,7,20
+    link Select https://bulma.io/documentation/form/select/ @17,7935,7,21
+    link Checkbox https://bulma.io/documentation/form/checkbox/ @17,7968,7,20
+    link Radio https://bulma.io/documentation/form/radio/ @17,8000,7,20
+    link File https://bulma.io/documentation/form/file/ @17,8032,7,21
+    link Columns https://bulma.io/documentation/columns/ @17,8065,7,20
+    link Basics https://bulma.io/documentation/columns/basics/ @17,8097,7,20
+    link Sizes https://bulma.io/documentation/columns/sizes/ @17,8129,7,21
+    link Responsiveness https://bulma.io/documentation/columns/responsiveness/ @17,8162,7,20
+    link Nesting https://bulma.io/documentation/columns/nesting/ @17,8194,7,20
+    link Gap https://bulma.io/documentation/columns/gap/ @17,8226,7,20
+    link Options https://bulma.io/documentation/columns/options/ @17,8258,7,21
+    link Grid https://bulma.io/documentation/grid/ @17,8291,7,20
+    link "Smart Grid" https://bulma.io/documentation/grid/smart-grid/ @17,8323,7,41
+    link "Fixed Grid" https://bulma.io/documentation/grid/fixed-grid/ @17,8376,7,40
+    link "Grid Cells" https://bulma.io/documentation/grid/grid-cells/ @17,8428,7,41
+    link Playground https://bulma.io/documentation/grid/playground/ @17,8481,7,20
+    link Layout https://bulma.io/documentation/layout/ @17,8513,7,20
+    link Container https://bulma.io/documentation/layout/container/ @17,8545,7,21
+    link Hero https://bulma.io/documentation/layout/hero/ @17,8578,7,20
+    link Section https://bulma.io/documentation/layout/section/ @17,8610,7,20
+    link Level https://bulma.io/documentation/layout/level/ @17,8642,7,21
+    link "Media Object" https://bulma.io/documentation/layout/media-object/ @17,8675,7,40
+    link Footer https://bulma.io/documentation/layout/footer/ @17,8727,7,21
+    h3 CSS Helpers @17,8760,7,37
+    link Color https://bulma.io/documentation/helpers/color-helpers/ @17,8809,7,20
+    link "Color Palette" https://bulma.io/documentation/helpers/palette-helpers/ @17,8841,7,41
+    link Spacing https://bulma.io/documentation/helpers/spacing-helpers/ @17,8894,7,20
+    link Typography https://bulma.io/documentation/helpers/typography-helpers/ @17,8926,7,21
+    link Visibility https://bulma.io/documentation/helpers/visibility-helpers/ @17,8959,7,20
+    link Flexbox https://bulma.io/documentation/helpers/flexbox-helpers/ @17,8991,7,20
+    link Other https://bulma.io/documentation/helpers/other-helpers/ @17,9023,7,20
+    text Sponsor @17,9055,7,21
+    link https://www.route4me.com/ https://www.route4me.com/ @17,9088,7,20
+  col @36,273,675,14340
+    row @36,273,675,135
+      col @36,290,162,100
+        h1 Form controls @36,290,162,25
+        h2 All generic form controls, designed for consistency @36,327,162,63
+      col @210,273,501,135
+        card @210,273,501,102
+          link https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTADEKJKC6YD6KJECESDT23UCYADE537CYBDV53NHEYI55QLCESI623ECTNCYBZ52K https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTADEKJKC6YD6KJECESDT23UCYADE537CYBDV53NHEYI55QLCESI623ECTNCYBZ52K @227,288,467,20
+          link "Solve problems faster with builders who've already shipped. Join builders." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTADEKJKC6YD6KJECESDT23UCYADE537CYBDV53NHEYI55QLCESI623ECTNCYBZ52K @227,320,467,40
+        link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @210,387,501,21
+    text Bulma supports the following native HTML form elements: <form> <button> <input> <textarea> and <label>. @36,420,675,40
+    text The following CSS classes are supported: @36,472,675,21
+    text label @36,505,675,20
+    text input @36,537,675,20
+    text textarea @36,569,675,21
+    text select @36,602,675,20
+    text checkbox @36,634,675,20
+    text radio @36,666,675,20
+    text button @36,698,675,21
+    text help @36,731,675,20
+    text To maintain an evenly balanced design, Bulma provides a very useful control container with which you can wrap the form controls. When combining several controls in a form, use the field class as a container, to keep the spacing consistent. @36,763,675,61
+    h3 "Complete form example #" @36,836,675,19
+    text Example @36,867,675,20
+    text Name @36,899,675,20
+    field "Text input" @36,931,675,58
+    text Username @36,1001,675,20
+    field "Text input" ="bulma" @36,1033,675,58
+    text This username is available success @36,1103,675,20
+    text Email @36,1135,675,21
+    field "Email input" email ="hello@" @36,1168,675,57
+    text This email is invalid danger @36,1237,675,21
+    text Subject @36,1270,675,20
+    select Select *"Select dropdown" "With options" @36,1302,675,55
+    text Message @36,1369,675,20
+    field Textarea @36,1401,675,58
+    link "terms and conditions" # @36,1471,675,20
+    check "I agree to the" off @36,1503,675,24
+    row @36,1539,675,0
+    row @36,1551,675,36
+      button Submit primary @36,1551,78,36
+      button Cancel @126,1551,78,36
+    text HTML @36,1599,675,21
+    button "Show code" danger @36,1632,675,36
+    text <div class="field"> <label class="label">Name</label> <div class="control"> <input class="input" type="text" placeholder="Text input"> </div> </div> <div class="field"> <label class="label">Username</label> <div class="control has-icons-left has-icons-right"> <input class="input is-success" type="text" placeholder="Text input" value="bulma"> <span class="icon is-small is-left"> <i class="fas fa-user"></i> </span> <span class="icon is-small is-right"> <i class="fas fa-check"></i> </span> </div> <p class="help is-success">This username is available</p> </div> <div class="field"> <label class="label">Email</label> <div class="control has-icons-left has-icons-right"> <input class="input is-danger" type="email" placeholder="Email input" value="hello@"> <span class="icon is-small is-left"> <i class="fas fa-envelope"></i> </span> <span class="icon is-small is-right"> <i class="fas fa-exclamation-triangle"></i> </span> </div> <p class="help is-danger">This email is invalid</p> </div> <div class="field"> <label class="label">Subject</label> <div class="control"> <div class="select"> <select> <option>Select dropdown</option> <option>With options</option> </select> </div> </div> </div> <div class="field"> <label class="label">Message</label> <div class="control"> <textarea class="textarea" placeholder="Textarea"></textarea> </div> </div> <div class="field"> <div class="control"> <label class="checkbox"> <input type="checkbox"> I agree to the <a href="#">terms and conditions</a> </label> </div> </div> <div class="field"> <div class="control"> <label class="radio"> <input type="radio" name="question"> Yes </label> <label class="radio"> <input type="radio" name="question"> No </label> </div> </div> <div class="field is-grouped"> <div class="control"> <button class="button is-link">Submit</button> </div> <div class="control"> <button class="button is-link is-light">Cancel</button> </div> </div> @36,1680,675,426
+    button Copy danger @36,2118,675,37
+    text For the best results using Bulma, it's recommended to use the control element as often as possible. @36,2167,675,20
+    h3 "Form field #" @36,2199,675,19
+    text The field container is a simple container for: @36,2230,675,20
+    text a text label @36,2262,675,20
+    text a form control @36,2294,675,21
+    text an optional helptext @36,2327,675,20
+    text Example @36,2359,675,20
+    text Label @36,2391,675,21
+    field "Text input" @36,2424,675,57
+    text This is a help text @36,2493,675,21
+    text HTML @36,2526,675,20
+    text <div class="field"> <label class="label">Label</label> <div class="control"> <input class="input" type="text" placeholder="Text input"> </div> <p class="help">This is a help text</p> </div> @36,2558,675,40
+    button Copy danger @36,2610,675,37
+    text This container allows form fields to be spaced consistently. @36,2659,675,20
+    text Example @36,2691,675,20
+    text Name @36,2723,675,21
+    field "e.g Alex Smith" @36,2756,675,57
+    text Email @36,2825,675,21
+    field "e.g. alexsmith@gmail.com" email @36,2858,675,57
+    text HTML @36,2927,675,21
+    text <div class="field"> <label class="label">Name</label> <div class="control"> <input class="input" type="text" placeholder="e.g Alex Smith"> </div> </div> <div class="field"> <label class="label">Email</label> <div class="control"> <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com"> </div> </div> @36,2960,675,81
+    button Copy danger @36,3053,675,36
+    h3 "Form control #" @36,3101,675,19
+    text The Bulma control is a versatile block container meant to enhance single form controls. Because it has the same height as the element that it wraps, it can only contain the following Bulma elements: @36,3132,675,40
+    text input @36,3184,675,21
+    text select @36,3217,675,20
+    text button @36,3249,675,20
+    text icon @36,3281,675,21
+    text This container gives the ability to: @36,3314,675,20
+    text keep the spacing consistent @36,3346,675,20
+    text combine form controls into a group @36,3378,675,21
+    text combine form controls into a list @36,3411,675,20
+    text append and prepend icons to a form control @36,3443,675,20
+    text Example @36,3475,675,20
+    field "Text input" @36,3507,675,58
+    text HTML @36,3577,675,20
+    text <div class="control"> <input class="input" type="text" placeholder="Text input"> </div> @36,3609,675,21
+    button Copy danger @36,3642,675,36
+    text Example @36,3690,675,20
+    select Select *"Select dropdown" "With options" @36,3722,675,55
+    text HTML @36,3789,675,21
+    text <div class="control"> <div class="select"> <select> <option>Select dropdown</option> <option>With options</option> </select> </div> </div> @36,3822,675,40
+    button Copy danger @36,3874,675,37
+    text Example @36,3923,675,20
+    button Submit success @36,3955,675,36
+    text HTML @36,4003,675,20
+    text <div class="control"> <button class="button is-primary">Submit</button> </div> @36,4035,675,21
+    button Copy danger @36,4068,675,36
+    h3 "With icons #" @36,4116,675,19
+    text You can append one of 2 modifiers on a control: @36,4147,675,20
+    text has-icons-left @36,4179,675,20
+    text and/or has-icons-right @36,4211,675,21
+    text You also need to add a modifier on the icon: @36,4244,675,20
+    text icon is-left if has-icons-left is used @36,4276,675,20
+    text icon is-right if has-icons-right is used @36,4308,675,21
+    text Make sure the input is the control's first child, otherwise the icon may disappear when selected. The size of the input will define the size of the icon container. @36,4341,675,40
+    text Example @36,4393,675,21
+    field Email email @36,4426,675,57
+    field Password password @36,4495,675,58
+    button Login success @36,4565,675,36
+    text HTML @36,4613,675,21
+    text <div class="field"> <p class="control has-icons-left has-icons-right"> <input class="input" type="email" placeholder="Email"> <span class="icon is-small is-left"> <i class="fas fa-envelope"></i> </span> <span class="icon is-small is-right"> <i class="fas fa-check"></i> </span> </p> </div> <div class="field"> <p class="control has-icons-left"> <input class="input" type="password" placeholder="Password"> <span class="icon is-small is-left"> <i class="fas fa-lock"></i> </span> </p> </div> <div class="field"> <p class="control"> <button class="button is-success"> Login </button> </p> </div> @36,4646,675,142
+    button Copy danger @36,4800,675,36
+    text You can append icons to select dropdowns as well. @36,4848,675,20
+    text Example @36,4880,675,21
+    select Select *Country "Select dropdown" "With options" @36,4913,675,55
+    text HTML @36,4980,675,20
+    text <div class="field"> <p class="control has-icons-left"> <span class="select"> <select> <option selected>Country</option> <option>Select dropdown</option> <option>With options</option> </select> </span> <span class="icon is-small is-left"> <i class="fas fa-globe"></i> </span> </p> </div> @36,5012,675,81
+    button Copy danger @36,5105,675,36
+    text If the control contains an icon, Bulma will make sure the icon remains centered, no matter the size of the input or of the icon. @36,5153,675,41
+    text Example @36,5206,675,20
+    text Small input @36,5238,675,21
+    field Normal email @36,5271,675,57
+    text HTML @36,5340,675,21
+    text <div class="field"> <label class="label is-small">Small input</label> <div class="control has-icons-left has-icons-right"> <input class="input is-small" type="email" placeholder="Normal"> <span class="icon is-small is-left"> <i class="fas fa-envelope"></i> </span> <span class="icon is-small is-right"> <i class="fas fa-check"></i> </span> </div> </div> @36,5373,675,81
+    button Copy danger @36,5466,675,36
+    text Example @36,5514,675,20
+    text Normal input @36,5546,675,21
+    field "Extra small" email @36,5579,675,57
+    field Normal email @36,5648,675,58
+    text HTML @36,5718,675,20
+    text <div class="field"> <label class="label">Normal input</label> <div class="control has-icons-left has-icons-right"> <input class="input" type="email" placeholder="Extra small"> <span class="icon is-small is-left"> <i class="fas fa-envelope fa-xs"></i> </span> <span class="icon is-small is-right"> <i class="fas fa-check fa-xs"></i> </span> </div> </div> <div class="field"> <div class="control has-icons-left has-icons-right"> <input class="input" type="email" placeholder="Normal"> <span class="icon is-left"> <i class="fas fa-envelope"></i> </span> <span class="icon is-right"> <i class="fas fa-check"></i> </span> </div> </div> @36,5750,675,142
+    button Copy danger @36,5904,675,37
+    text Example @36,5953,675,20
+    text Medium input @36,5985,675,20
+    field "Extra small" email @36,6017,675,58
+    field Small email @36,6087,675,58
+    field Normal email @36,6157,675,57
+    text HTML @36,6226,675,21
+    text <div class="field"> <label class="label is-medium">Medium input</label> <div class="control has-icons-left has-icons-right"> <input class="input is-medium" type="email" placeholder="Extra small"> <span class="icon is-small is-left"> <i class="fas fa-envelope fa-xs"></i> </span> <span class="icon is-small is-right"> <i class="fas fa-check fa-xs"></i> </span> </div> </div> <div class="field"> <div class="control has-icons-left has-icons-right"> <input class="input is-medium" type="email" placeholder="Small"> <span class="icon is-left"> <i class="fas fa-envelope fa-sm"></i> </span> <span class="icon is-right"> <i class="fas fa-check fa-sm"></i> </span> </div> </div> <div class="field"> <div class="control has-icons-left has-icons-right"> <input class="input is-medium" type="email" placeholder="Normal"> <span class="icon is-medium is-left"> <i class="fas fa-envelope"></i> </span> <span class="icon is-medium is-right"> <i class="fas fa-check"></i> </span> </div> </div> @36,6259,675,223
+    button Copy danger @36,6494,675,36
+    text Example @36,6542,675,21
+    text Large input @36,6575,675,20
+    field "Extra small" email @36,6607,675,58
+    field Small email @36,6677,675,57
+    field Normal email @36,6746,675,58
+    field Large email @36,6816,675,58
+    text HTML @36,6886,675,20
+    text <div class="field"> <label class="label is-large">Large input</label> <div class="control has-icons-left has-icons-right"> <input class="input is-large" type="email" placeholder="Extra small"> <span class="icon is-small is-left"> <i class="fas fa-envelope fa-xs"></i> </span> <span class="icon is-small is-right"> <i class="fas fa-check fa-xs"></i> </span> </div> </div> <div class="field"> <div class="control has-icons-left has-icons-right"> <input class="input is-large" type="email" placeholder="Small"> <span class="icon is-left"> <i class="fas fa-envelope fa-sm"></i> </span> <span class="icon is-right"> <i class="fas fa-check fa-sm"></i> </span> </div> </div> <div class="field"> <div class="control has-icons-left has-icons-right"> <input class="input is-large" type="email" placeholder="Normal"> <span class="icon is-large is-left"> <i class="fas fa-envelope"></i> </span> <span class="icon is-large is-right"> <i class="fas fa-check"></i> </span> </div> </div> <div class="field"> <div class="control has-icons-left has-icons-right"> <input class="input is-large" type="email" placeholder="Large"> <span class="icon is-medium is-left"> <i class="fas fa-envelope fa-lg"></i> </span> <span class="icon is-medium is-right"> <i class="fas fa-check fa-lg"></i> </span> </div> </div> @36,6918,675,284
+    button Copy danger @36,7214,675,37
+    h3 "Form addons #" @36,7263,675,18
+    text If you want to attach controls together, use the has-addons modifier on the field container: @36,7293,675,21
+    text Example @36,7326,675,20
+    row @36,7358,675,58
+      field "Find a repository" @36,7358,96,58
+      button Search primary @144,7369,78,36
+    text HTML @36,7428,675,20
+    text <div class="field has-addons"> <div class="control"> <input class="input" type="text" placeholder="Find a repository"> </div> <div class="control"> <button class="button is-info"> Search </button> </div> </div> @36,7460,675,61
+    button Copy danger @36,7533,675,36
+    text You can attach inputs, buttons, and dropdowns only. @36,7581,675,20
+    text It can be useful to append a . @36,7613,675,21
+    link "static button" https://bulma.io/documentation/elements/button#static-button @36,7646,675,20
+    text Example @36,7678,675,20
+    row @36,7710,675,58
+      field "Your email" @36,7710,61,58
+      text @gmail.com @109,7729,82,20
+    text HTML @36,7780,675,20
+    text <div class="field has-addons"> <p class="control"> <input class="input" type="text" placeholder="Your email"> </p> <p class="control"> <a class="button is-static"> @gmail.com </a> </p> </div> @36,7812,675,61
+    button Copy danger @36,7885,675,36
+    text Use the is-expanded modifier on the element you want to fill up the remaining space (in this case, the input): @36,7933,675,41
+    text Example @36,7986,675,20
+    row @36,8018,675,58
+      select Select *$ £ € @36,8020,48,55
+      field "Amount of money" @96,8018,102,58
+      button Transfer @210,8029,89,36
+    row @36,8088,675,58
+      select Select *$ £ € @36,8089,48,55
+      field "Amount of money" @96,8088,102,58
+      button Transfer @210,8099,89,36
+    text HTML @36,8158,675,20
+    button "Show code" danger @36,8190,675,36
+    text <div class="field has-addons"> <p class="control"> <span class="select"> <select> <option>$</option> <option>£</option> <option>€</option> </select> </span> </p> <p class="control"> <input class="input" type="text" placeholder="Amount of money"> </p> <p class="control"> <button class="button"> Transfer </button> </p> </div> <div class="field has-addons"> <p class="control"> <span class="select"> <select> <option>$</option> <option>£</option> <option>€</option> </select> </span> </p> <p class="control is-expanded"> <input class="input" type="text" placeholder="Amount of money"> </p> <p class="control"> <button class="button"> Transfer </button> </p> </div> @36,8238,675,163
+    button Copy danger @36,8413,675,36
+    text If you want a full width select dropdown, pair control is-expanded with select is-fullwidth. @36,8461,675,20
+    text Example @36,8493,675,21
+    row @36,8526,675,55
+      select country *Argentina Bolivia Brazil Chile Colombia Ecuador Guyana Paraguay Peru Suriname Uruguay Venezuela @36,8526,108,55
+      button Choose success @156,8535,82,36
+    text HTML @36,8593,675,20
+    text <div class="field has-addons"> <div class="control is-expanded"> <div class="select is-fullwidth"> <select name="country"> <option value="Argentina">Argentina</option> <option value="Bolivia">Bolivia</option> <option value="Brazil">Brazil</option> <option value="Chile">Chile</option> <option value="Colombia">Colombia</option> <option value="Ecuador">Ecuador</option> <option value="Guyana">Guyana</option> <option value="Paraguay">Paraguay</option> <option value="Peru">Peru</option> <option value="Suriname">Suriname</option> <option value="Uruguay">Uruguay</option> <option value="Venezuela">Venezuela</option> </select> </div> </div> <div class="control"> <button type="submit" class="button is-primary">Choose</button> </div> </div> @36,8625,675,183
+    button Copy danger @36,8820,675,36
+    text Use the has-addons-centered or the has-addons-right modifiers to alter the alignment. @36,8868,675,20
+    text Example @36,8900,675,21
+    row @36,8933,675,57
+      select Select *$ £ € @36,8934,48,55
+      field "Amount of money" @96,8933,102,57
+      button Transfer success @210,8943,89,37
+    text HTML @36,9002,675,21
+    text <div class="field has-addons has-addons-centered"> <p class="control"> <span class="select"> <select> <option>$</option> <option>£</option> <option>€</option> </select> </span> </p> <p class="control"> <input class="input" type="text" placeholder="Amount of money"> </p> <p class="control"> <button class="button is-primary"> Transfer </button> </p> </div> @36,9035,675,81
+    button Copy danger @36,9128,675,36
+    text Example @36,9176,675,20
+    row @36,9208,675,58
+      select Select *$ £ € @36,9210,48,55
+      field "Amount of money" @96,9208,102,58
+      button Transfer success @210,9219,89,36
+    text HTML @36,9278,675,20
+    text <div class="field has-addons has-addons-right"> <p class="control"> <span class="select"> <select> <option>$</option> <option>£</option> <option>€</option> </select> </span> </p> <p class="control"> <input class="input" type="text" placeholder="Amount of money"> </p> <p class="control"> <button class="button is-primary"> Transfer </button> </p> </div> @36,9310,675,82
+    button Copy danger @36,9404,675,36
+    h3 "Form group #" @36,9452,675,19
+    text If you want to group controls together, use the is-grouped modifier on the field container. @36,9483,675,20
+    text Example @36,9515,675,20
+    row @36,9547,675,36
+      button Submit success @36,9547,78,36
+      text Cancel @126,9555,46,20
+    text HTML @36,9595,675,21
+    text <div class="field is-grouped"> <p class="control"> <button class="button is-primary"> Submit </button> </p> <p class="control"> <a class="button is-light"> Cancel </a> </p> </div> @36,9628,675,40
+    button Copy danger @36,9680,675,37
+    text Use the is-grouped-centered or the is-grouped-right modifiers to alter the alignment. @36,9729,675,20
+    text Example @36,9761,675,20
+    row @36,9793,675,37
+      button Submit success @36,9793,78,37
+      text Cancel @126,9801,46,21
+    text HTML @36,9842,675,20
+    text <div class="field is-grouped is-grouped-centered"> <p class="control"> <button class="button is-primary"> Submit </button> </p> <p class="control"> <a class="button is-light"> Cancel </a> </p> </div> @36,9874,675,61
+    button Copy danger @36,9947,675,36
+    text Example @36,9995,675,20
+    row @36,10027,675,37
+      button Submit success @36,10027,78,37
+      text Cancel @126,10035,46,21
+    text HTML @36,10076,675,20
+    text <div class="field is-grouped is-grouped-right"> <p class="control"> <button class="button is-primary"> Submit </button> </p> <p class="control"> <a class="button is-light"> Cancel </a> </p> </div> @36,10108,675,61
+    button Copy danger @36,10181,675,36
+    text Add the is-expanded modifier on the control element you want to fill up the remaining space with. @36,10229,675,20
+    text Example @36,10261,675,21
+    row @36,10294,675,57
+      field "Find a repository" @36,10294,96,57
+      button Search primary @144,10304,78,37
+    text HTML @36,10363,675,21
+    text <div class="field is-grouped"> <p class="control is-expanded"> <input class="input" type="text" placeholder="Find a repository"> </p> <p class="control"> <button class="button is-info"> Search </button> </p> </div> @36,10396,675,61
+    button Copy danger @36,10469,675,36
+    text Add the is-grouped-multiline modifier to allow controls to fill up multiple lines. This is ideal for a long list of controls. @36,10517,675,41
+    text Example @36,10570,675,20
+    row @36,10602,675,36
+      button One @36,10602,38,36
+      button Two @86,10602,39,36
+      button Three @137,10602,42,36
+      button Four @191,10602,40,36
+      button Five @243,10602,38,36
+      button Six @293,10602,37,36
+      button Seven @342,10602,43,36
+      button Eight @397,10602,40,36
+      button Nine @449,10602,40,36
+      button Ten @501,10602,38,36
+      button Eleven @551,10602,44,36
+      button Twelve @607,10602,45,36
+      button Thirteen @664,10602,47,36
+    text HTML @36,10650,675,20
+    text <div class="field is-grouped is-grouped-multiline"> <p class="control"> <button class="button"> One </button> </p> <p class="control"> <button class="button"> Two </button> </p> <p class="control"> <button class="button"> Three </button> </p> <p class="control"> <button class="button"> Four </button> </p> <p class="control"> <button class="button"> Five </button> </p> <p class="control"> <button class="button"> Six </button> </p> <p class="control"> <button class="button"> Seven </button> </p> <p class="control"> <button class="button"> Eight </button> </p> <p class="control"> <button class="button"> Nine </button> </p> <p class="control"> <button class="button"> Ten </button> </p> <p class="control"> <button class="button"> Eleven </button> </p> <p class="control"> <button class="button"> Twelve </button> </p> <p class="control"> <button class="button"> Thirteen </button> </p> </div> @36,10682,675,203
+    button Copy danger @36,10897,675,37
+    card @36,10946,675,50
+      text List of buttons @53,10961,641,20
+    text If you only need a list of , try out the new class with which you can create a . primary @36,11008,675,20
+    text buttons primary @36,11040,675,21
+    text buttons primary @36,11073,675,20
+    link "multiline list of buttons" https://bulma.io/documentation/elements/button/#list-of-buttons @36,11105,675,20
+    h3 "Horizontal form #" @36,11137,675,19
+    text If you want a horizontal form control, use the is-horizontal modifier on the field container, in which you include: @36,11168,675,41
+    text field-label for the side label @36,11221,675,20
+    text field-body for the input/select/textarea container @36,11253,675,20
+    text You can use is-grouped or has-addons for the child elements. @36,11285,675,21
+    text Example @36,11318,675,20
+    row @36,11350,675,58
+      text From @36,11369,35,20
+      row @83,11350,77,58
+        col @83,11350,34,58
+          field Name @83,11350,34,58
+        col @129,11350,31,58
+          field Email email ="alex@smith.com" @129,11350,31,58
+    row @36,11420,675,57
+      text +44 @36,11438,28,21
+      field "Your phone number" @76,11420,113,57
+    text Do not enter the first zero @36,11489,675,21
+    row @36,11522,675,55
+      text Department @36,11539,78,20
+      select Select *"Business development" Marketing Sales @126,11522,188,55
+    row @36,11589,675,20
+      text Already a member? @36,11589,129,20
+      row @177,11599,0,0
+    row @36,11621,675,90
+      text Subject @36,11656,50,20
+      col @98,11621,159,90
+        field "e.g. Partnership opportunity" @98,11621,159,58
+        text This field is required danger @98,11691,159,20
+    row @36,11723,675,58
+      text Question @36,11742,60,20
+      field "Explain how we can help you" @108,11723,165,58
+    button "Send message" success @36,11793,675,36
+    text HTML @36,11841,675,20
+    button "Show code" danger @36,11873,675,36
+    text <div class="field is-horizontal"> <div class="field-label is-normal"> <label class="label">From</label> </div> <div class="field-body"> <div class="field"> <p class="control is-expanded has-icons-left"> <input class="input" type="text" placeholder="Name"> <span class="icon is-small is-left"> <i class="fas fa-user"></i> </span> </p> </div> <div class="field"> <p class="control is-expanded has-icons-left has-icons-right"> <input class="input is-success" type="email" placeholder="Email" value="alex@smith.com"> <span class="icon is-small is-left"> <i class="fas fa-envelope"></i> </span> <span class="icon is-small is-right"> <i class="fas fa-check"></i> </span> </p> </div> </div> </div> <div class="field is-horizontal"> <div class="field-label"></div> <div class="field-body"> <div class="field is-expanded"> <div class="field has-addons"> <p class="control"> <a class="button is-static"> +44 </a> </p> <p class="control is-expanded"> <input class="input" type="tel" placeholder="Your phone number"> </p> </div> <p class="help">Do not enter the first zero</p> </div> </div> </div> <div class="field is-horizontal"> <div class="field-label is-normal"> <label class="label">Department</label> </div> <div class="field-body"> <div class="field is-narrow"> <div class="control"> <div class="select is-fullwidth"> <select> <option>Business development</option> <option>Marketing</option> <option>Sales</option> </select> </div> </div> </div> </div> </div> <div class="field is-horizontal"> <div class="field-label"> <label class="label">Already a member?</label> </div> <div class="field-body"> <div class="field is-narrow"> <div class="control"> <label class="radio"> <input type="radio" name="member"> Yes </label> <label class="radio"> <input type="radio" name="member"> No </label> </div> </div> </div> </div> <div class="field is-horizontal"> <div class="field-label is-normal"> <label class="label">Subject</label> </div> <div class="field-body"> <div class="field"> <div class="control"> <input class="input is-danger" type="text" placeholder="e.g. Partnership opportunity"> </div> <p class="help is-danger"> This field is required </p> </div> </div> </div> <div class="field is-horizontal"> <div class="field-label is-normal"> <label class="label">Question</label> </div> <div class="field-body"> <div class="field"> <div class="control"> <textarea class="textarea" placeholder="Explain how we can help you"></textarea> </div> </div> </div> </div> <div class="field is-horizontal"> <div class="field-label"> <!-- Left empty for spacing --> </div> <div class="field-body"> <div class="field"> <div class="control"> <button class="button is-primary"> Send message </button> </div> </div> </div> </div> @36,11921,675,609
+    button Copy danger @36,12542,675,37
+    text To preserve the vertical alignment of labels with each type and size of control, the field-label comes with 4 size modifiers: @36,12591,675,40
+    text is-small @36,12643,675,21
+    text is-normal for any input or button @36,12676,675,20
+    text is-medium @36,12708,675,20
+    text is-large @36,12740,675,21
+    text Example @36,12773,675,20
+    row @36,12805,675,24
+      text No padding @36,12807,77,20
+      check Checkbox off @125,12805,93,24
+    row @36,12841,675,58
+      text Small padding @36,12860,94,20
+      field "Small sized input" @142,12841,97,58
+    row @36,12911,675,57
+      text Normal label @36,12929,84,21
+      field "Normal sized input" @132,12911,107,57
+    row @36,12980,675,58
+      text Medium label @36,12999,89,20
+      field "Medium sized input" @137,12980,112,58
+    row @36,13050,675,58
+      text Large label @36,13069,74,20
+      field "Large sized input" @122,13050,98,58
+    text HTML @36,13120,675,20
+    button "Show code" danger @36,13152,675,36
+    text <div class="field is-horizontal"> <div class="field-label"> <label class="label">No padding</label> </div> <div class="field-body"> <div class="field"> <div class="control"> <label class="checkbox"> <input type="checkbox"> Checkbox </label> </div> </div> </div> </div> <div class="field is-horizontal"> <div class="field-label is-small"> <label class="label">Small padding</label> </div> <div class="field-body"> <div class="field"> <div class="control"> <input class="input is-small" type="text" placeholder="Small sized input"> </div> </div> </div> </div> <div class="field is-horizontal"> <div class="field-label is-normal"> <label class="label">Normal label</label> </div> <div class="field-body"> <div class="field"> <div class="control"> <input class="input" type="text" placeholder="Normal sized input"> </div> </div> </div> </div> <div class="field is-horizontal"> <div class="field-label is-medium"> <label class="label">Medium label</label> </div> <div class="field-body"> <div class="field"> <div class="control"> <input class="input is-medium" type="text" placeholder="Medium sized input"> </div> </div> </div> </div> <div class="field is-horizontal"> <div class="field-label is-large"> <label class="label">Large label</label> </div> <div class="field-body"> <div class="field"> <div class="control"> <input class="input is-large" type="text" placeholder="Large sized input"> </div> </div> </div> </div> @36,13200,675,305
+    button Copy danger @36,13517,675,36
+    h3 "Disabled form #" @36,13565,675,19
+    text You can disable part or a whole form by wrapping a set of controls in a fieldset with a disabled HTML attribute. @36,13596,675,40
+    text Example @36,13648,675,21
+    text Name @36,13681,675,20
+    field "e.g Alex Smith" @36,13713,675,58
+    text Email @36,13783,675,20
+    field "e.g. alexsmith@gmail.com" email @36,13815,675,58
+    text HTML @36,13885,675,20
+    text <fieldset disabled> <div class="field"> <label class="label">Name</label> <div class="control"> <input class="input" type="text" placeholder="e.g Alex Smith"> </div> </div> <div class="field"> <label class="label">Email</label> <div class="control"> <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com"> </div> </div> </fieldset> @36,13917,675,81
+    button Copy danger @36,14010,675,36
+    h3 "Sass and CSS variables #" @36,14058,675,19
+    card @36,14089,675,492
+      table "Sass Variable:badge" "CSS Variable:badge" Value:badge @53,14104,641,462
+        $control-radiusCopy | var(--bulma-control-radius)Copy | var(--bulma-radius)Copy
+        $control-radius-smallCopy | var(--bulma-control-radius-small)Copy | var(--bulma-radius-small)Copy
+        $control-border-widthCopy | var(--bulma-control-border-width)Copy | 1pxCopy
+        $control-sizeCopy | var(--bulma-control-size)Copy | var(--bulma-size-normal)Copy
+        $control-heightCopy | var(--bulma-control-height)Copy | 2.5emCopy
+        $control-line-heightCopy | var(--bulma-control-line-height)Copy | 1.5Copy
+        $control-padding-verticalCopy | var(--bulma-control-padding-vertical)Copy | calc(0.5em - 1px)Copy
+        $control-padding-horizontalCopy | var(--bulma-control-padding-horizontal)Copy | calc(0.75em - 1px)Copy
+        $control-focus-shadow-lCopy | var(--bulma-control-focus-shadow-l)Copy | 50%Copy
+        $label-colorCopy | var(--bulma-label-color)Copy | var(--bulma-text-strong)Copy
+        $label-weightCopy | var(--bulma-label-weight)Copy | var(--bulma-weight-semibold)Copy
+        $help-sizeCopy | var(--bulma-help-size)Copy | var(--bulma-size-small)Copy
+    row @36,14593,675,20
+      link "← components: Tabs" https://bulma.io/documentation/components/tabs/ @36,14593,141,20
+      link "form: Input →" https://bulma.io/documentation/form/input/ @189,14593,90,20
+h3 How to support Bulma @17,14625,694,19
+row @17,14656,694,90
+  col @17,14656,124,90
+    text One-time donation @17,14656,124,20
+    field submit @17,14688,124,58
+  col @153,14674,197,53
+    text Browser testing via @153,14674,197,21
+    link https://www.lambdatest.com/ https://www.lambdatest.com/ @153,14707,197,20
+  col @362,14674,121,53
+    text Visit our Sponsors @362,14674,121,21
+    link celebian https://celebian.com/ @362,14707,121,20
+  col @495,14674,124,53
+    text Monthly donation @495,14674,124,21
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/ @495,14707,124,20
+link ".native-js { background: linear-gradient(-30deg, #000000E5, #000000E5 45%, #000000 45%) #fff; } .native-details { color: #FFFFFF !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #000000; background-color: #FFFFFF; } .native-cta:hover { color: undefined; background-color: undefined; } Mozilla Festival MozFest is co-built by developers and creatives. Show up and build with us in Barcelona, Oct. 28-30. Get your tickets" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQWCV7DVZ3JCAAI653NF6YDEK3KC6YD453YCVBIL2JYCYYIL23UCASDPK3KC6SILKJWCA7DVK3EHJNCLSIZ @17,14758,694,101
+row @17,14871,694,51
+  col @17,14871,195,51
+    h3 Bulma by Jeremy Thomas. @17,14871,195,19
+    link "Follow @jgthms" https://twitter.com/jgthms @17,14902,195,20
+  col @224,14887,155,19
+    h3 Contribute on GitHub @224,14887,155,19
+  col @391,14871,161,51
+    h3 Share on social media @391,14871,161,19
+    row @391,14902,161,20
+      link Twitter https://twitter.com/share @391,14902,47,20
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io @450,14902,66,20
+text Source code licensed . Website content licensed @17,14934,694,21
+row @17,14967,694,20
+  link MIT https://opensource.org/licenses/mit-license.php @17,14967,26,20
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/ @55,14967,122,20
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer @17,14999,694,162
+row @17,15173,694,37
+  link "Get started for Free Get started for Free" https://cssmasterclass.io/ @17,15181,265,21
+  button close @294,15173,67,37
+!overflow button 46/73px
+!overflow light 44/104px
+!overflow dark 44/102px
+!overflow system 44/121px
+!overflow button3 51/73px
+!overflow one 36/56px
+!overflow two 37/58px
+!overflow three 40/68px
+!overflow four 38/59px
+!overflow five 36/57px
+!overflow six 35/49px
+!overflow seven 41/71px
+!overflow eight 38/63px
+!overflow nine 38/60px
+!overflow ten 36/55px
+!overflow eleven 42/74px
+!overflow twelve 43/78px
+!overflow thirteen 45/86px
+!overflow email5 29/130px
+!tiny search 22x37px

@@ -1,0 +1,221 @@
+@en_wikipedia_org_wiki_wikipedia_about rev=0 @0,0,728,4448
+link "Jump to content" #bodyContent @17,17,694,20
+row @17,49,694,541
+  row @17,49,345,541
+    col @17,49,245,541
+      button "Main menu" @17,49,245,37
+      text Main menu @17,98,245,20
+      row @17,130,245,41
+        text Main menu @17,130,57,41
+        button "Move Main menu to sidebar" @86,132,176,36
+      link "Main page" /wiki/Main_Page @17,183,245,20
+      link Contents /wiki/Wikipedia:Contents @17,215,245,20
+      link "Current events" /wiki/Portal:Current_events @17,247,245,20
+      link "Random article" /wiki/Special:Random @17,279,245,21
+      link "About Wikipedia" /wiki/Wikipedia:About @17,312,245,20
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us @17,344,245,20
+      text Contribute @17,376,245,21
+      link Help /wiki/Help:Contents @17,409,245,20
+      link "Learn to edit" /wiki/Help:Introduction @17,441,245,20
+      link "Community portal" /wiki/Wikipedia:Community_portal @17,473,245,20
+      link "Recent changes" /wiki/Special:RecentChanges @17,505,245,21
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard @17,538,245,20
+      link "Special pages" /wiki/Special:SpecialPages @17,570,245,20
+    link /wiki/Main_Page /wiki/Main_Page @274,310,88,20
+  row @374,282,337,75
+    row @374,282,152,75
+      col @374,282,74,75
+        field "Search Wikipedia" search @374,282,74,75
+      button Search @460,302,66,36
+    row @538,300,173,40
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en @538,310,37,20
+      link "Create account" @587,300,80,40
+      link "Log in" @679,300,32,40
+row @17,602,694,3829
+  row @17,602,658,3829
+    row @17,2472,6,89
+      h1 Wikipedia:About @17,2504,0,25
+      col @29,2472,0,89
+        button "141 languages" @29,2472,30,36
+        text 141 languages primary @29,2520,0,41
+    row @35,1748,12,1537
+      row @35,2496,0,41
+        link "Project page" /wiki/Wikipedia:About @35,2496,0,41
+        link Talk /wiki/Wikipedia_talk:About @47,2506,0,21
+      row @47,1748,0,1537
+        row @47,2496,0,41
+          link Read /wiki/Wikipedia:About @47,2506,0,21
+          link "View source" @59,2496,0,41
+          link "View history" @71,2496,0,41
+        col @59,1748,0,1537
+          button Tools @59,1748,30,37
+          text Tools @59,1797,0,20
+          row @59,1829,0,36
+            text Tools @59,1837,0,20
+            button "Move Tools to sidebar" @71,1829,30,36
+          text General @59,1877,0,20
+          link "What links here" /wiki/Special:WhatLinksHere/Wikipedia:About @59,1909,0,61
+          link "Related changes" /wiki/Special:RecentChangesLinked/Wikipedia:About @59,1982,0,41
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Wikipedia:About&oldid=1379990787 @59,2035,0,41
+          link "Page information" @59,2088,0,40
+          link "Get shortened URL" @59,2140,0,61
+          link "Switch to legacy parser" @59,2213,0,81
+          button "Expand all" @59,2306,30,37
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q4387616#sitelinks-wikipedia @59,2355,0,60
+          text Print/export @59,2427,0,21
+          link "Download as PDF" @59,2460,0,61
+          link "Printable version" javascript:print(); @59,2533,0,40
+          text In other projects @59,2585,0,61
+          link "Abstract Wikipedia" https://abstract.wikipedia.org/wiki/Abstract_Wikipedia:About @59,2658,0,41
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Commons:Welcome @59,2711,0,40
+          link "Wikimedia Foundation" https://foundation.wikimedia.org/wiki/Wikimedia:About @59,2763,0,41
+          link MediaWiki https://www.mediawiki.org/wiki/Project:About @59,2816,0,20
+          link Meta-Wiki https://meta.wikimedia.org/wiki/Meta:About @59,2848,0,21
+          link "Wikimedia Outreach" https://outreach.wikimedia.org/wiki/Wikimedia:About_Outreach_wiki @59,2881,0,40
+          link "Multilingual Wikisource" https://wikisource.org/wiki/Wikisource:About_Wikisource @59,2933,0,41
+          link Wikispecies https://species.wikimedia.org/wiki/Wikispecies:About @59,2986,0,20
+          link Wikidata https://www.wikidata.org/wiki/Wikidata:Introduction @59,3018,0,20
+          link Wikifunctions https://www.wikifunctions.org/wiki/Wikifunctions:About @59,3050,0,21
+          link Wikimania https://wikimania.wikimedia.org/wiki/About @59,3083,0,20
+          link Wikiquote https://en.wikiquote.org/wiki/Wikiquote:About @59,3115,0,20
+          link Wikisource https://en.wikisource.org/wiki/Wikisource:About @59,3147,0,21
+          link Wikivoyage https://en.wikivoyage.org/wiki/Wikivoyage:About @59,3180,0,20
+          link Wiktionary https://en.wiktionary.org/wiki/Wiktionary:Purpose @59,3212,0,20
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q4387616 @59,3244,0,41
+    col @59,2321,5,391
+      row @59,2321,5,36
+        text Appearance @59,2329,0,20
+        button "Hide Appearance" @71,2321,30,36
+      text Text @59,2369,5,20
+      text Small @59,2401,5,21
+      text Standard @59,2434,5,20
+      text Large @59,2466,5,20
+      text Width @59,2498,5,20
+      text Standard @59,2530,5,21
+      text Wide @59,2563,5,20
+      text Color @59,2595,5,20
+      text Automatic @59,2627,5,21
+      text Light @59,2660,5,20
+      text Dark @59,2692,5,20
+    col @76,602,599,3829
+      link "This page is semi-protected." https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#semi @76,602,599,21
+      text From Wikipedia, the free encyclopedia @76,635,599,20
+      link Shortcuts https://en.wikipedia.org/wiki/Wikipedia:Shortcut @76,667,599,20
+      link WP:ABT https://en.wikipedia.org/w/index.php?title=Wikipedia:ABT&redirect=no @76,699,599,21
+      link WP:ABOUT https://en.wikipedia.org/w/index.php?title=Wikipedia:ABOUT&redirect=no @76,732,599,20
+      link WP:WIKIPEDIA https://en.wikipedia.org/w/index.php?title=Wikipedia:WIKIPEDIA&redirect=no @76,764,599,20
+      text This is a for visitors to Wikipedia. For aspiring contributors, also see this and . For other uses, see . @76,796,599,41
+      link "general introduction" https://en.wikipedia.org/wiki/Wikipedia:INFOPAGES @76,849,599,20
+      link guide https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia @76,881,599,20
+      link tutorial https://en.wikipedia.org/wiki/Help:Introduction @76,913,599,21
+      link "Wikipedia:Wikipedia (disambiguation)" https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_(disambiguation) @76,946,599,20
+      text "Imagine a world in which every single person on the planet is given free access to the sum of all human knowledge. That's what we're doing." @76,978,599,41
+      text — @76,1031,599,20
+      link "Jimmy Wales" https://en.wikipedia.org/wiki/Jimmy_Wales @76,1063,599,20
+      text is a that , and . @76,1095,599,21
+      row @76,1128,599,20
+        link Wikipedia https://en.wikipedia.org/wiki/Wikipedia @76,1128,65,20
+        link "free online encyclopedia" https://en.wikipedia.org/wiki/Wikipedia:Free_encyclopedia @153,1128,164,20
+        link "anyone can edit" https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia @329,1128,106,20
+        link "millions already have" https://en.wikipedia.org/wiki/Wikipedia:Wikipedians#Number_of_editors @447,1128,139,20
+      text is to present information on all branches of . It consists of content, with articles that contain numerous links guiding readers to more information. Wikipedia is one of many hosted by the nonprofit . @76,1160,599,61
+      link "Wikipedia's purpose" https://en.wikipedia.org/wiki/Wikipedia:Purpose @76,1233,599,20
+      link knowledge https://en.wikipedia.org/wiki/Knowledge @76,1265,599,20
+      link "freely editable" https://en.wikipedia.org/wiki/Help:Editing @76,1297,599,21
+      link "Wikimedia projects" https://en.wikipedia.org/wiki/Wikimedia_Foundation#Projects_and_initiatives @76,1330,599,20
+      link "Wikimedia Foundation" https://en.wikipedia.org/wiki/Wikipedia:Wikimedia_Foundation @76,1362,599,20
+      text volunteers known as , . Wikipedia articles can be edited by with , except in in which editing is to prevent or . Since its creation on , it has grown into the world's reference , attracting . Wikipedia is a multilingual project, with more than in more than for almost as many languages. This includes articles in , with active contributors in the past month. @76,1394,599,81
+      link "Wikipedia is written by human" https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_is_written_by_humans,_for_humans @76,1487,599,21
+      link Wikipedians https://en.wikipedia.org/wiki/Wikipedia_community @76,1520,599,20
+      link "not artificial intelligence" https://en.wikipedia.org/wiki/Wikipedia:Editing_policy#Artificial_intelligence_additions @76,1552,599,20
+      link anyone https://en.wikipedia.org/wiki/Wikipedia:Who_writes_Wikipedia%3F @76,1584,599,21
+      link "Internet access" https://en.wikipedia.org/wiki/Internet_access @76,1617,599,20
+      link "limited cases" https://en.wikipedia.org/wiki/Wikipedia:Protection_policy @76,1649,599,20
+      link restricted https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#Edit_protection @76,1681,599,21
+      link disruption https://en.wikipedia.org/wiki/Wikipedia:Disruption @76,1714,599,20
+      link vandalism https://en.wikipedia.org/wiki/Wikipedia:VAND @76,1746,599,20
+      link "January 15, 2001" https://en.wikipedia.org/wiki/Wikipedia_Day @76,1778,599,20
+      link largest https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia @76,1810,599,21
+      link website https://en.wikipedia.org/wiki/Website @76,1843,599,20
+      link "over a billion visitors each month" https://stats.wikimedia.org/#/all-wikipedia-projects/reading/unique-devices @76,1875,599,20
+      link "sixty-eight million articles" https://meta.wikimedia.org/wiki/List%20of%20Wikipedias#All_Wikipedias_ordered_by_number_of_articles @76,1907,599,21
+      link "300 separate wikis" https://en.wikipedia.org/wiki/Special:SiteMatrix @76,1940,599,20
+      text 7,255,157 @76,1972,599,20
+      link English https://en.wikipedia.org/wiki/English_language @76,2004,599,21
+      text 270,152 @76,2037,599,20
+      button "Play video" @76,2069,599,36
+      text A short video explaining how Wikipedia works @76,2117,599,20
+      text Wikipedia's fundamental principles are summarized in its . While the has developed many , new editors do not need to be familiar with them before they start contributing. @76,2149,599,41
+      link "five pillars" https://en.wikipedia.org/wiki/Wikipedia:Five_pillars @76,2202,599,20
+      link "Wikipedia community" https://en.wikipedia.org/wiki/Wikipedia_community @76,2234,599,21
+      link "policies and guidelines" https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines @76,2267,599,20
+      text The quality of content is more important than the expertise of who contributes it. Wikipedia's content must conform with its , including being by published . Contributions based on , beliefs, or personal experiences, , libellous material, and are not allowed and will not remain. Wikipedia's software makes it easy to reverse errors, and experienced and bad edits. @76,2299,599,101
+      link policies https://en.wikipedia.org/wiki/Wikipedia:Editing_policy @76,2412,599,21
+      link verifiable https://en.wikipedia.org/wiki/Wikipedia:Verifiable @76,2445,599,20
+      link "reliable sources" https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources @76,2477,599,20
+      link "personal opinions" https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view @76,2509,599,21
+      link "unreviewed research" https://en.wikipedia.org/wiki/Wikipedia:Original_research @76,2542,599,20
+      link "copyright violations" https://en.wikipedia.org/wiki/Wikipedia:Copyright_violations @76,2574,599,20
+      link editors https://en.wikipedia.org/wiki/Wikipedia_editor @76,2606,599,21
+      link watch https://en.wikipedia.org/wiki/Wikipedia:Watchlist @76,2639,599,20
+      link patrol https://en.wikipedia.org/wiki/Wikipedia:Recent_changes_patrol @76,2671,599,20
+      text . Anyone can instantly improve it, add quality information, remove misinformation, and fix errors and . Since Wikipedia is continually updated, encyclopedic articles on major news events appear within minutes. @76,2703,599,61
+      link "Wikipedia differs from printed references in important ways" https://en.wikipedia.org/wiki/Wikipedia:NOTPAPER @76,2776,599,20
+      link vandalism https://en.wikipedia.org/wiki/Wikipedia:Vandalism @76,2808,599,21
+      text For over years, Wikipedians have volunteered their time and talents to create history's most comprehensive encyclopedia while providing references and other resources to researchers worldwide (see ). In summary, since 2001 Wikipedia has tested the and has found that it succeeds. @76,2841,599,81
+      text 25 @76,2934,599,20
+      link "Researching with Wikipedia" https://en.wikipedia.org/wiki/Wikipedia:Researching_with_Wikipedia @76,2966,599,20
+      link "wisdom of the crowd" https://en.wikipedia.org/wiki/Wisdom_of_the_crowd @76,2998,599,21
+      text To start editing, simply click the or button, or the pencil icon, at the top of any Wikipedia page or section. @76,3031,599,40
+      row @76,3083,599,21
+        text Edit @76,3083,25,21
+        text Edit source @113,3083,75,21
+        image https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Pencil_edit_icon.svg/40px-Pencil_edit_icon.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail "Simple gray pencil icon" @200,3083,0,0
+        link non-protected https://en.wikipedia.org/wiki/Wikipedia:Protection_policy @212,3083,96,21
+      text .mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:"\a0 · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}} @76,3116,599,1238
+      table "hide.mw-parser-output .navbar{display inline;font-size 88%;font-weight normal}.mw-parser-output .navbar-collapse{float left;text-align left}.mw-parser-output .navbar-boxtext{word-spacing 0}.mw-parser-output .navbar ul{display inline-block;white-space nowrap;line-height inherit}.mw-parser-output .navbar-brackets before{margin-right -0.125em;content \"[ \"}.mw-parser-output .navbar-brackets after{margin-left -0.125em;content \" ]\"}.mw-parser-output .navbar li{word-spacing -0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration inherit}.mw-parser-output .navbar-mini abbr{font-variant small-caps;border-bottom none;text-decoration none;cursor inherit}.mw-parser-output .navbar-ct-full{font-size 114%;margin 0 7em}.mw-parser-output .navbar-ct-mini{font-size 114%;margin 0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color var(--color-base)!important}@media(prefers-color-scheme dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color var(--color-base)!important}}@media print{.mw-parser-output .navbar{display none!important}}vteBasic information on Wikipedia - (Search)" @76,4366,599,0
+        Help directory menu Teahouse (interactive help for new editors)
+        About Wikipedia | Administration FAQs Purpose Who writes Wikipedia? Organization Censorship In brief General disclaimer
+        Readers' FAQ | Student help Navigation Searching Viewing media Help Mobile access Parental advice Other languages Researching with Wikipedia Citing Wikipedia Copyright
+        Introductionsto contributing | Main introduction List of tutorials and introductions The answer Dos and don'ts Learning the ropes Common mistakes Newcomer primer Newcomer onboarding Simplified ruleset The "Missing Manual" Your first article Wizard Young Wikipedians The Wikipedia Adventure Accounts Why create an account? Logging in Email confirmation Editing Toolbar Conflict VisualEditor User guide
+        Pillars, policies and guidelines | Five pillars Manual of Style Simplified Etiquette Expectations Oversight Principles Ignore all rules The rules are principles Core content policies Policies and guidelines Vandalism Appealing blocks What Wikipedia is not
+        Getting help | Help menu Help desk Reference desk Category Requests for help Disputes resolution requests IRC live chat Tutorial Contact us
+        Wikipedia community | Departments Meetups WikiProjects Overview FAQ Village pump policy technical proposals idea lab wikimedia misc Newsletters: Signpost Library Newsletter GLAM Newsletter Informational: Community portal Dashboard Noticeboards Maintenance Task Center Essays Open letters
+        Sourcing and referencing | Research Wikipedia Library Request Resources Free resources Request access to major databases WikiProject Resource Exchange Shared resources Guidelines Finding sources Combining sources Referencing Citations Citation Style 1 Citation templates Footnotes Page numbers Cite errors
+        How-to guides | Category Tools Infoboxes Writing articles Development Better writing Files Images Media files Uploading Deletion User contribution pages Editing pages Diffs Namespaces Deletion Merging Renaming Requests Redirecting Reverting Vandalism cleanup Talk pages Archiving
+        Wiki markup | Wiki markup Cheatsheet Columns HTML Lists Magic words For beginners Sections Sounds Special Characters Tables Templates Documentation Index Substitution Transclusion Image and video markup Tutorial Linking
+        Directories and glossaries | Category Abbreviations AI Contents Edit summaries Essays Glossary Index Shortcuts Tips
+      text : @76,4378,599,20
+      row @76,4410,599,21
+        link Category /wiki/Help:Category @76,4410,61,21
+        link "Wikipedia basic information" /wiki/Category:Wikipedia_basic_information @149,4410,184,21
+  col @687,1803,24,1427
+    text This page was last edited on 13 October 2026, at 03:07 (UTC). @687,1803,24,243
+    text Page was rendered with . @687,2058,24,102
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid @687,2172,24,20
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the and . Wikipedia® is a registered trademark of the , a non-profit organization. @687,2204,24,589
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License @687,2805,24,101
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use @687,2918,24,61
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @687,2991,24,41
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/ @687,3044,24,61
+    row @687,3117,24,81
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @687,3137,0,41
+      link "About Wikipedia" /wiki/Wikipedia:About @699,3137,0,41
+      link Disclaimers /wiki/Wikipedia:General_disclaimer @711,3147,0,20
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us @723,3137,0,41
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information @735,3117,0,81
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct @747,3127,0,61
+      link Developers https://developer.wikimedia.org @759,3147,0,20
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org @771,3147,0,20
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement @783,3137,0,41
+      link "Mobile view" @795,3137,0,41
+    row @687,3210,24,20
+      link https://www.wikimedia.org/ https://www.wikimedia.org/ @687,3210,6,20
+      link https://www.mediawiki.org/ https://www.mediawiki.org/ @705,3210,6,20
+!overflow move 174/216px
+!overflow search2 64/76px
+!overflow 141 28/124px
+!overflow tools 28/66px
+!overflow move2 28/179px
+!overflow expand 28/98px
+!overflow hide 28/146px

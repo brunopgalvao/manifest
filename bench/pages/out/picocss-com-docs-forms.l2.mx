@@ -1,0 +1,132 @@
+@picocss_com_docs_forms rev=0 @0,0,728,2461
+row @17,17,694,2427
+  button "Skip to content" primary @17,1212,40,37
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @69,1149,29,163
+  row @110,1190,61,81
+    link "Pico CSS homepage" / @110,1200,10,61
+    row @132,1190,39,81
+      row @132,1220,9,21
+        text v2.1.1 @132,1220,0,21
+        link Examples /examples @144,1220,0,21
+        link Docs /docs @156,1220,0,21
+      row @153,1190,18,81
+        link "GitHub repository" https://github.com/picocss/pico @153,1210,0,41
+        link Twitter https://x.com/picocss @165,1220,0,21
+        link "Turn on dark mode" /docs/forms @177,1190,0,81
+  row @183,17,302,2427
+    col @183,984,10,493
+      text Getting started @183,984,10,41
+      text Customization @183,1037,10,20
+      text Layout @183,1069,10,20
+      text Content @183,1101,10,21
+      text Forms @183,1134,10,20
+      link Overview /docs/forms @183,1166,10,20
+      link Input /docs/forms/input @183,1198,10,21
+      link Textarea /docs/forms/textarea @183,1231,10,20
+      link Select /docs/forms/select @183,1263,10,20
+      link Checkboxes /docs/forms/checkboxes @183,1295,10,20
+      link Radios /docs/forms/radios @183,1327,10,21
+      link Switch /docs/forms/switch @183,1360,10,20
+      link Range /docs/forms/range @183,1392,10,20
+      text Components @183,1424,10,21
+      text About @183,1457,10,20
+    metric Forms "Forms overview" "All form elements are fully responsive with pure semantic HTML, enabling forms to scale gracefully across devices and viewports." @205,17,30,2427
+    col @247,1105,12,251
+      text Content @247,1105,12,20
+      link Introduction /docs/forms @247,1137,12,21
+      link "Helper text" /docs/forms#helper-text @247,1170,12,40
+      link "Usage with grid" /docs/forms#usage-with-grid @247,1222,12,61
+      link "Usage with group" /docs/forms#usage-with-group @247,1295,12,61
+    col @271,17,214,2427
+      text Inputs are width: 100%; by default and are the same size as the buttons to build consistent forms. @271,17,214,81
+      field "First name" @271,110,214,58
+      field Email email @271,180,214,58
+      button button primary @271,250,214,36
+      link "Copy code" /docs/forms @271,298,214,20
+      text <form> <fieldset> <label> First name <input name="first_name" placeholder="First name" autocomplete="given-name" /> </label> <label> Email <input type="email" name="email" placeholder="Email" autocomplete="email" /> </label> </fieldset> <input type="submit" value="Subscribe" /> </form> @271,330,214,244
+      text <input> can be inside or outside <label>. @271,586,214,40
+      field "First name" @271,638,214,58
+      text Email @271,708,214,20
+      field Email email @271,740,214,58
+      link "Copy code" /docs/forms @271,810,214,20
+      text <form> <!-- Input inside label --> <label> First name <input name="first_name" placeholder="First name" autocomplete="given-name" /> </label> <!-- Input outside label --> <label for="email">Email</label> <input type="email" id="email" placeholder="Email" autocomplete="email" /> </form> @271,842,214,244
+      h2 Helper text# @271,1098,214,21
+      text <small> below form elements are muted and act as helper texts. @271,1131,214,61
+      field Email email @271,1204,214,58
+      text We’ll never share your email with anyone else. @271,1274,214,40
+      link "Copy code" /docs/forms @271,1326,214,21
+      text <input type="email" name="email" placeholder="Email" autoComplete="email" aria-label="Email" aria-describedby="email-helper" /> <small id="email-helper"> We'll never share your email with anyone else. </small> @271,1359,214,182
+      h2 Usage with grid# @271,1553,214,22
+      text You can use inside a form. See . @271,1587,214,20
+      row @271,1619,214,20
+        text .grid @271,1619,30,20
+        link Grid /docs/grid @313,1619,28,20
+      row @271,1651,214,58
+        field Login @271,1651,32,58
+        field Password password @315,1651,56,58
+        button button primary @383,1662,75,36
+      link "Copy code" /docs/forms @271,1721,214,20
+      text <form> <fieldset class="grid"> <input name="login" placeholder="Login" aria-label="Login" autocomplete="username" /> <input type="password" name="password" placeholder="Password" aria-label="Password" autocomplete="current-password" /> <input type="submit" value="Log in" /> </fieldset> </form> @271,1753,214,264
+      h2 Usage with group# @271,2029,214,21
+      text You can use with form elements. See . @271,2062,214,41
+      row @271,2115,214,20
+        text role="group" @271,2115,87,20
+        link Group /docs/group @370,2115,41,20
+      row @271,2147,214,58
+        field "Enter your email" email @271,2147,93,58
+        button button primary @376,2158,75,36
+      link "Copy code" /docs/forms @271,2217,214,20
+      text <form> <fieldset role="group"> <input type="email" name="email" placeholder="Enter your email" autocomplete="email" /> <input type="submit" value="Subscribe" /> </fieldset> </form> @271,2249,214,163
+      link "Edit this page on GitHub" https://github.com/picocss/picocss.com/blob/main/app/routes/docs.forms._index.jsx @271,2424,214,20
+  col @497,1093,214,275
+    row @497,1093,214,203
+      region 49.34000015258789x45 @497,1192,3,4 [3 shapes, 0 labelled]
+      row @512,1174,117,40
+        row @512,1174,26,40
+          text About @512,1184,0,20
+          link Maintenance /docs/maintenance @524,1184,0,20
+          link "What’s new?" /docs/v2 @536,1174,0,40
+          link Brand /docs/brand @548,1184,0,20
+          link Mission /docs/mission @560,1184,0,20
+          link "Usage scenarios" /docs/usage-scenarios @572,1174,0,40
+        row @550,1174,26,40
+          text Docs @550,1184,0,20
+          link "Quick start" /docs @562,1174,0,40
+          link "Version picker" /docs/version-picker @574,1174,0,40
+          link "Class-less version" /docs/classless @586,1174,0,40
+          link "Form elements" /docs/forms @598,1174,0,40
+        row @588,1184,14,20
+          text Community @588,1184,0,20
+          link Issues https://github.com/picocss/pico/issues @600,1184,0,20
+          link Discussions https://github.com/picocss/pico/discussions @612,1184,0,20
+          link Help https://github.com/picocss/pico/discussions/categories/help @624,1184,0,20
+        row @614,1184,15,20
+          text Examples @614,1184,0,20
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @626,1184,0,20
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @638,1184,0,20
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @650,1184,0,20
+          link All /examples @662,1184,0,20
+      text Designed and built by with the help of our . @641,1093,22,203
+      col @675,1158,8,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @675,1158,8,40
+        link contributors https://github.com/picocss/pico/graphs/contributors @675,1210,8,21
+      row @695,1184,16,20
+        link GitHub https://github.com/picocss/pico @695,1184,0,20
+        link Twitter https://x.com/picocss @707,1184,0,20
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @719,1184,0,20
+        link NPM https://www.npmjs.com/package/@picocss/pico @731,1184,0,20
+    row @497,1308,214,60
+      text Code licensed , docs . @497,1308,72,60
+      row @581,1308,66,60
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @581,1328,12,20
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @605,1308,42,60
+      text Currently v2.1.1. @659,1318,52,40
+!overflow skip 38/130px
+!overflow forms2 0/36px
+!overflow forms2 0/173px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

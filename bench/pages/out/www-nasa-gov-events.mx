@@ -1,0 +1,107 @@
+@www_nasa_gov_events
+row
+  row
+    button Explore
+    row
+      text Search
+      field Search search
+  link "https://www.nasa.gov/" https://www.nasa.gov/
+  row
+    button "News & Events"
+    button Multimedia
+    link NASA+ https://plus.nasa.gov/
+h1 Events
+row
+  col
+    text Timezone:
+    text Select Your Location or Timezone:
+    select city-location Abidjan Accra "Addis Ababa" Algiers Asmara Bamako Bangui Banjul Bissau Blantyre Brazzaville Bujumbura Cairo Casablanca Ceuta Conakry Dakar "Dar es Salaam" Djibouti Douala "El Aaiun" Freetown Gaborone Harare Johannesburg Juba Kampala Khartoum Kigali Kinshasa Lagos Libreville Lome Luanda Lubumbashi Lusaka Malabo Maputo Maseru Mbabane Mogadishu Monrovia Nairobi Ndjamena Niamey Nouakchott Ouagadougou Porto-Novo "Sao Tome" Tripoli Tunis Windhoek Adak Anchorage Anguilla Antigua Araguaina "Argentina - Buenos Aires" "Argentina - Catamarca" "Argentina - Cordoba" "Argentina - Jujuy" "Argentina - La Rioja" "Argentina - Mendoza" "Argentina - Rio Gallegos" "Argentina - Salta" "Argentina - San Juan" "Argentina - San Luis" "Argentina - Tucuman" "Argentina - Ushuaia" Aruba Asuncion Atikokan Bahia "Bahia Banderas" Barbados Belem Belize Blanc-Sablon "Boa Vista" Bogota Boise "Cambridge Bay" "Campo Grande" Cancun Caracas Cayenne Cayman Chicago Chihuahua "Ciudad Juarez" "Costa Rica" Coyhaique Creston Cuiaba Curacao Danmarkshavn Dawson "Dawson Creek" Denver Detroit Dominica Edmonton Eirunepe "El Salvador" Fortaleza "Fort Nelson" "Glace Bay" "Goose Bay" "Grand Turk" Grenada Guadeloupe Guatemala Guayaquil Guyana Halifax Havana Hermosillo "Indiana - Indianapolis" "Indiana - Knox" "Indiana - Marengo" "Indiana - Petersburg" "Indiana - Tell City" "Indiana - Vevay" "Indiana - Vincennes" "Indiana - Winamac" Inuvik Iqaluit Jamaica Juneau "Kentucky - Louisville" "Kentucky - Monticello" Kralendijk "La Paz" Lima "Los Angeles" "Lower Princes" Maceio Managua Manaus Marigot Martinique Matamoros Mazatlan Menominee Merida Metlakatla "Mexico City" Miquelon Moncton Monterrey Montevideo Montserrat Nassau *"New York" Nome Noronha "North Dakota - Beulah" "North Dakota - Center" "North Dakota - New Salem" Nuuk Ojinaga Panama Paramaribo Phoenix Port-au-Prince "Port of Spain" "Porto Velho" "Puerto Rico" "Punta Arenas" "Rankin Inlet" Recife Regina Resolute "Rio Branco" Santarem Santiago "Santo Domingo" "Sao Paulo" Scoresbysund Sitka "St Barthelemy" "St Johns" "St Kitts" "St Lucia" "St Thomas" "St Vincent" "Swift Current" Tegucigalpa Thule Tijuana Toronto Tortola Vancouver Whitehorse Winnipeg Yakutat Casey Davis DumontDUrville Macquarie Mawson McMurdo Palmer Rothera Syowa Troll Vostok Longyearbyen Aden Almaty Amman Anadyr Aqtau Aqtobe Ashgabat Atyrau Baghdad Bahrain Baku Bangkok Barnaul Beirut Bishkek Brunei Chita Colombo Damascus Dhaka Dili Dubai Dushanbe Famagusta Gaza Hebron "Ho Chi Minh" "Hong Kong" Hovd Irkutsk Jakarta Jayapura Jerusalem Kabul Kamchatka Karachi Kathmandu Khandyga Kolkata Krasnoyarsk "Kuala Lumpur" Kuching Kuwait Macau Magadan Makassar Manila Muscat Nicosia Novokuznetsk Novosibirsk Omsk Oral "Phnom Penh" Pontianak Pyongyang Qatar Qostanay Qyzylorda Riyadh Sakhalin Samarkand Seoul Shanghai Singapore Srednekolymsk Taipei Tashkent Tbilisi Tehran Thimphu Tokyo Tomsk Ulaanbaatar Urumqi Ust-Nera Vientiane Vladivostok Yakutsk Yangon Yekaterinburg Yerevan Azores Bermuda Canary "Cape Verde" Faroe Madeira Reykjavik "South Georgia" Stanley "St Helena" Adelaide Brisbane "Broken Hill" Darwin Eucla Hobart Lindeman "Lord Howe" Melbourne Perth Sydney Amsterdam Andorra Astrakhan Athens Belgrade Berlin Bratislava Brussels Bucharest Budapest Busingen Chisinau Copenhagen Dublin Gibraltar Guernsey Helsinki "Isle of Man" Istanbul Jersey Kaliningrad Kirov Kyiv Lisbon Ljubljana London Luxembourg Madrid Malta Mariehamn Minsk Monaco Moscow Oslo Paris Podgorica Prague Riga Rome Samara "San Marino" Sarajevo Saratov Simferopol Skopje Sofia Stockholm Tallinn Tirane Ulyanovsk Vaduz Vatican Vienna Vilnius Volgograd Warsaw Zagreb Zurich Antananarivo Chagos Christmas Cocos Comoro Kerguelen Mahe Maldives Mauritius Mayotte Reunion Apia Auckland Bougainville Chatham Chuuk Easter Efate Fakaofo Fiji Funafuti Galapagos Gambier Guadalcanal Guam Honolulu Kanton Kiritimati Kosrae Kwajalein Majuro Marquesas Midway Nauru Niue Norfolk Noumea "Pago Pago" Palau Pitcairn Pohnpei "Port Moresby" Rarotonga Saipan Tahiti Tarawa Tongatapu Wake Wallis UTC UTC-12 "UTC-11:30" UTC-11 "UTC-10:30" UTC-10 "UTC-9:30" UTC-9 "UTC-8:30" UTC-8 "UTC-7:30" UTC-7 "UTC-6:30" UTC-6 "UTC-5:30" UTC-5 "UTC-4:30" UTC-4 "UTC-3:30" UTC-3 "UTC-2:30" UTC-2 "UTC-1:30" UTC-1 "UTC-0:30" UTC+0 "UTC+0:30" UTC+1 "UTC+1:30" UTC+2 "UTC+2:30" UTC+3 "UTC+3:30" UTC+4 "UTC+4:30" UTC+5 "UTC+5:30" "UTC+5:45" UTC+6 "UTC+6:30" UTC+7 "UTC+7:30" UTC+8 "UTC+8:30" "UTC+8:45" UTC+9 "UTC+9:30" UTC+10 "UTC+10:30" UTC+11 "UTC+11:30" UTC+12 "UTC+12:45" UTC+13 "UTC+13:45" UTC+14
+    text Event Type:
+    link "All Events" https://www.nasa.gov/events/
+    link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+  row
+    col
+      link "No Earlier Than Fall 2026JAXA HTV-X2" https://www.nasa.gov/event/jaxa-htv-x2/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+    col
+      link "No Earlier Than Fall 2026Roscosmos Progress 97" https://www.nasa.gov/event/roscosmos-progress-97/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+    col
+      link "No Earlier Than Fall 2026NASA’s Northrop Grumman CRS-25" https://www.nasa.gov/event/nasas-northrop-grumman-crs-25/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+    col
+      link "Late 2026Moon Base: Voyager Griffin-1" https://www.nasa.gov/event/clps-flight-astrobotics-griffin-mission-one/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+    col
+      link "2026Moon Base: Intuitive Machines IM-3" https://www.nasa.gov/event/clps-flight-intuitive-machines-im-3/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+    col
+      link "2026CLPS Flight: Firefly Aerospace Blue Ghost Mission 2" https://www.nasa.gov/event/clps-flight-firefly-aerospaces-blue-ghost-mission-2/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+    col
+      link "Under ReviewNASA’s Boeing Starliner-1" https://www.nasa.gov/event/nasas-boeing-starliner-1/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+    col
+      link "January 2027Moon Base: Blue Origin Blue Moon Mark 1" https://www.nasa.gov/event/clps-flight-blue-origins-blue-moon-mark-1/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+    col
+      link "2027Artemis III" https://www.nasa.gov/event/artemis-iii-launch/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+    col
+      link "2027CLPS Flight: Intuitive Machines IM-4" https://www.nasa.gov/event/clps-flight-intuitive-machines-im-4-2/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+    col
+      link 2027SunRISE https://www.nasa.gov/event/sunrise/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+    col
+      link "2028Artemis IV" https://www.nasa.gov/event/artemis-iv/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+    col
+      link "2028Artemis V" https://www.nasa.gov/event/artemis-v/
+      link "Launch Schedule" https://www.nasa.gov/event-type/launch-schedule/
+image https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg "NASA Logo"
+row
+  col
+    h3 National Aeronautics and Space Administration
+    text NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.
+    link "About NASA's Mission" https://www.nasa.gov/about/
+    link "Join Us" https://www.nasa.gov/get-involved/
+  col
+    link Home https://www.nasa.gov/
+    link "News & Events" https://www.nasa.gov/news/
+    link Multimedia https://www.nasa.gov/multimedia/
+    link NASA+ https://plus.nasa.gov/
+    link Missions https://www.nasa.gov/nasa-missions/
+    link "Humans in Space" https://www.nasa.gov/humans-in-space/
+    link Earth https://science.nasa.gov/earth/
+    link "The Solar System" https://science.nasa.gov/solar-system/
+    link "The Universe" https://science.nasa.gov/universe/
+    link Science https://science.nasa.gov/
+    link Aeronautics https://www.nasa.gov/aeronautics/
+    link Technology https://www.nasa.gov/technology/
+    link "Learning Resources" https://www.nasa.gov/learning-resources/
+    link "About NASA" https://www.nasa.gov/about/
+    link "NASA en Español (opens in new tab)" https://www.nasa.gov/es/
+  col
+    h3 Follow NASA
+    row
+      link "NASA on Facebook (opens in new tab)" https://www.facebook.com/NASA
+      link "NASA on Instagram (opens in new tab)" https://www.instagram.com/nasa/
+      link "NASA on X (opens in new tab)" https://x.com/NASA
+      link "NASA on YouTube (opens in new tab)" https://www.youtube.com/@NASA
+    link "More NASA Social Accounts" https://www.nasa.gov/social-media/
+    link "NASA Newsletters" https://www.nasa.gov/nasa-newsletters/
+  col
+    link Sitemap https://www.nasa.gov/sitemap/
+    link "For Media" https://www.nasa.gov/news/nasa-media-contacts/
+    link "Privacy Policy" https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/
+    link FOIA https://www.nasa.gov/foia/
+    link "No FEAR Act" https://www.nasa.gov/no-fear-act/
+    link "Office of the IG (opens in new tab)" http://oig.nasa.gov/
+    link "Budget & Annual Reports" https://www.nasa.gov/budgets-plans-and-reports/
+    link "Agency Financial Reports" https://www.nasa.gov/organizations/budget-annual-reports/agency-financial-reports/
+    link "Contact NASA" https://www.nasa.gov/contact-nasa/
+    link Accessibility https://www.nasa.gov/accessibility/
+  row
+    text Responsible NASA Official:
+    text Abigail Bowman

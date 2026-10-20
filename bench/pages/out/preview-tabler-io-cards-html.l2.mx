@@ -1,0 +1,565 @@
+@preview_tabler_io_cards_html rev=0 @0,0,728,3387
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,41
+  link Tabler . @17,59,39,21
+  row @68,49,643,41
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle @68,49,71,41
+    row @151,49,448,41
+      link "Enable dark mode" @151,49,108,41
+      link "Show notifications" # @271,49,111,41
+      link "Show app menu" # @394,49,97,41
+      link "Select language" # @503,49,96,41
+    link "Open user menu" # @611,49,100,41
+row @17,102,694,36
+  row @17,102,593,36
+    button Dashboards @17,102,85,36
+    button Interface @114,102,71,36
+    button Forms @197,102,58,36
+    button Extra @267,102,54,36
+    button Layout @333,102,61,36
+    button Plugins @406,102,63,36
+    button Addons @481,102,65,36
+    button Help @558,102,52,36
+  button Customize @622,102,89,36
+row @17,150,694,25
+  h1 Cards @17,150,59,25
+  link Docs https://docs.tabler.io/ui/components/card @88,153,34,20
+row @17,187,694,1091
+  col @17,447,12,571
+    h2 Headers & body styles @17,447,12,85
+    text Combine a header, a tinted background, or drop the border for a simpler look. @17,544,12,285
+    row @17,841,12,177
+      col @17,882,0,95
+        h2 Card title @17,882,0,42
+        text Simple card @17,936,0,41
+      col @29,858,0,143
+        card "Card title" @29,858,34,50
+        text Card with header background @29,920,0,81
+      col @41,872,0,115
+        h2 Card title @41,872,0,42
+        text Card without border @41,926,0,61
+      col @53,841,0,177
+        h2 Card title Subtitle @53,841,0,63
+        text Card with title and subtitle @53,916,0,102
+  col @41,547,7,372
+    h2 Link hover effects @41,547,7,63
+    text Add motion cues when the whole card acts as a link. @41,622,7,224
+    row @41,858,7,61
+      link "Default hover effect" # @41,858,0,61
+      link "Rotate hover effect" # @53,858,0,61
+      link "Pop hover effect" # @65,858,0,61
+  col @60,506,13,453
+    h2 Rotation & state @60,506,13,64
+    text Tilt a card slightly, or mark it as active or inactive. @60,582,13,223
+    row @60,817,13,142
+      text Card rotate end @60,858,0,61
+      text Card rotate start @72,858,0,61
+      text This is a card with active state. @84,817,0,142
+      text This is some text inactive state. @96,827,0,122
+  col @85,312,64,841
+    h2 Icon & background accents @85,312,64,64
+    text Draw attention with a stamp icon or a tinted background. @85,388,64,142
+    row @85,542,64,611
+      col @85,545,13,606
+        card @85,545,34,30
+          region 97.30999755859375x97.30999755859375 @102,560,0,0 [2 shapes, 0 labelled]
+        h2 Card with icon bg @85,587,13,85
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at consectetur culpa ducimus eum fuga fugiat, ipsa iusto, modi nostrum recusandae reiciendis saepe. @85,684,13,467
+      col @110,555,14,585
+        h2 Card with primary light background @110,555,14,106
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at consectetur culpa ducimus eum fuga fugiat, ipsa iusto, modi nostrum recusandae reiciendis saepe. @110,673,14,467
+      col @136,542,13,611
+        region 97.30999755859375x97.30999755859375 @136,542,13,14 [1 shapes, 0 labelled]
+        h2 Card with background and icon @136,568,13,106
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at consectetur culpa ducimus eum fuga fugiat, ipsa iusto, modi nostrum recusandae reiciendis saepe. @136,686,13,467
+  col @161,588,21,290
+    h2 Status indicators @161,588,21,42
+    text Mark a card's state with a colored edge on any side. @161,642,21,224
+    row @161,878,21,0
+      region 344.6600036621094x162 @161,878,0,0 [3 shapes, 2 labelled]
+        text @21,33.79999923706055 fill:#171717 size:16 "Card with top status" @161,878,0,0
+        text @21,72.19999694824219 fill:#737373 size:14 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem." @161,878,0,0
+      region 344.6600036621094x162 @173,878,0,0 [3 shapes, 2 labelled]
+        text @21,33.79999923706055 fill:#171717 size:16 "Card with bottom status" @173,878,0,0
+        text @21,72.19999694824219 fill:#737373 size:14 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem." @173,878,0,0
+      region 344.6600036621094x162 @185,878,0,0 [3 shapes, 2 labelled]
+        text @21,33.79999923706055 fill:#171717 size:16 "Card with side status" @185,878,0,0
+        text @21,72.19999694824219 fill:#737373 size:14 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem." @185,878,0,0
+  col @194,305,85,855
+    h2 Ribbons & progress @194,305,85,43
+    text Flag content with a ribbon, or track progress right inside the card. @194,360,85,142
+    row @194,514,85,646
+      col @194,555,12,564
+        h2 Card with top ribbon @194,555,12,85
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at consectetur culpa ducimus eum fuga fugiat, ipsa iusto, modi nostrum recusandae reiciendis saepe. @194,652,12,467
+      col @218,539,13,596
+        text NEW @218,539,13,20
+        h2 Card with text ribbon @218,571,13,85
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at consectetur culpa ducimus eum fuga fugiat, ipsa iusto, modi nostrum recusandae reiciendis saepe. @218,668,13,467
+      col @243,514,12,646
+        h2 Card with progress bar @243,514,12,85
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @243,611,12,467
+        card @243,1090,34,70
+          text 38% Complete @260,1105,0,40
+      col @267,576,12,522
+        h2 Stacked card @267,576,12,43
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @267,631,12,467
+  col @291,346,87,773
+    h2 Card images @291,346,87,42
+    text Pair a card with an image on the left, right, top, or bottom. @291,400,87,122
+    row @291,534,87,585
+      row @291,534,13,585
+        image https://preview.tabler.io/static/photos/beautiful-blonde-woman-relaxing-with-a-can-of-coke-on-a-tree-stump-by-the-beach.jpg "Beautiful blonde woman relaxing with a can of coke on a tree stump by the beach" @291,534,0,0
+        col @303,534,1,585
+          h2 Card with left side image @303,534,1,106
+          text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @303,652,1,467
+      row @316,534,13,585
+        image https://preview.tabler.io/static/photos/finances-us-dollars-and-bitcoins-currency-money.jpg "Finances - US Dollars and Bitcoins - Currency - Money" @316,534,0,0
+        col @328,534,1,585
+          h2 Card with right side image @328,534,1,106
+          text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @328,652,1,467
+      col @341,545,12,564
+        h2 Card with top image @341,545,12,85
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @341,642,12,467
+      col @365,545,13,564
+        h2 Card with bottom image @365,545,13,85
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @365,642,13,467
+  col @390,300,86,865
+    h2 Footers @390,300,86,22
+    text Add a footer for metadata, a single action, or a group of buttons. @390,334,86,142
+    row @390,488,86,677
+      col @390,498,12,656
+        h2 Card with footer @390,498,12,64
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @390,574,12,467
+        text This is standard card footer @390,1053,12,101
+      col @414,488,13,677
+        h2 Card with transparent footer @414,488,13,85
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @414,585,13,467
+        text This is transparent card footer @414,1064,13,101
+      col @439,518,12,617
+        h2 Card with footer button @439,518,12,85
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @439,615,12,467
+        link "Go somewhere" # @439,1094,12,41
+      col @463,518,13,617
+        h2 Card with footer buttons @463,518,13,85
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @463,615,13,467
+        row @463,1094,13,41
+          link Cancel # @463,1104,0,20
+          link "Go somewhere" # @475,1094,1,41
+  col @488,328,42,809
+    h2 Footer elements @488,328,42,43
+    text Compose footer content from prebuilt elements like links, switches, or avatars. @488,383,42,223
+    row @488,618,42,519
+      col @488,618,15,519
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @488,618,15,467
+        row @488,1097,15,40
+          link "More information" # @488,1097,2,40
+          check Enable on @502,1105,1,24
+      col @515,628,15,499
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @515,628,15,467
+        text +3 @515,1107,15,20
+  col @542,284,44,897
+    h2 Header tabs & pills @542,284,44,85
+    text Navigate between panes right from the card header. @542,381,44,162
+    row @542,555,44,626
+      col @542,555,4,626
+        card @542,555,34,148
+          link Active # @559,570,0,21
+          link Link # @559,603,0,20
+          link Disabled # @559,635,0,20
+          link Settings # @559,667,0,21
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @542,715,4,466
+      col @558,619,4,499
+        row @558,619,4,20
+          link Active # @558,619,0,20
+          link Link # @570,619,0,20
+          link Disabled # @582,619,0,20
+          link Settings # @594,619,0,20
+        text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit velit vitae voluptatem. @558,651,4,467
+      col @574,868,0,1
+        tabs @574,868,0,1
+      col @586,868,0,1
+        tabs @586,868,0,1
+  col @598,187,82,1091
+    h2 Nested & grouped cards @598,187,82,64
+    text Combine cards inside a card, a full-bleed group, or a matched-height deck. @598,263,82,142
+    row @598,417,82,861
+      col @598,782,12,131
+        h2 Cards inside card @598,782,12,64
+        row @598,858,12,55
+          col @598,858,0,55
+            h2 First card @598,858,0,43
+            region 288.6600036621094x200 @598,913,0,0 [2 shapes, 0 labelled]
+          col @610,858,0,55
+            h2 Second card @610,858,0,43
+            region 288.6700134277344x200 @610,913,0,0 [2 shapes, 0 labelled]
+          col @622,858,0,55
+            h2 Third card @622,858,0,43
+            region 288.6700134277344x200 @622,913,0,0 [2 shapes, 0 labelled]
+      row @622,820,13,55
+        col @622,820,0,55
+          h2 First card @622,820,0,43
+          region 314x200 @622,875,0,0 [2 shapes, 0 labelled]
+        col @634,820,0,55
+          h2 Second card @634,820,0,43
+          region 314x200 @634,875,0,0 [2 shapes, 0 labelled]
+        col @646,820,0,55
+          h2 Third card @646,820,0,43
+          region 314x200 @646,875,0,0 [2 shapes, 0 labelled]
+      row @647,417,33,861
+        col @647,530,3,635
+          h2 Card title @647,530,3,43
+          text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. @647,585,3,467
+          text Last updated 3 mins ago @647,1064,3,101
+        col @662,632,2,432
+          h2 Card title @662,632,2,42
+          text This card has supporting text below as a natural lead-in to additional content. @662,686,2,264
+          text Last updated 3 mins ago @662,962,2,102
+        col @676,417,4,861
+          h2 Card with very long content @676,417,4,106
+          text This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action. @676,535,4,630
+          text Last updated 3 mins ago @676,1177,4,101
+  col @692,351,19,763
+    h2 Special states @692,351,19,43
+    text An empty state, a team placeholder, and a specialty credit card layout. @692,406,19,243
+    row @692,661,19,453
+      col @692,697,0,381
+        region 213.3300018310547x160 @692,697,0,0 [54 shapes, 0 labelled]
+        text No results found @692,709,0,61
+        text Try adjusting your search or filter to find what you're looking for. @692,782,0,244
+        link "Search again" . @692,1038,0,40
+      col @704,749,0,278
+        region 214.66000366210938x40 @704,749,0,0 [5 shapes, 0 labelled]
+        h2 No Team Members @704,761,0,63
+        text Invite your team tocollaborate on this project. @704,836,0,142
+        button "Invite Members" primary @704,990,30,37
+      col @716,661,0,453
+        text Card number @716,661,0,41
+        field "Card number" @716,714,0,75
+        text Card name @716,801,0,41
+        field "Card name" @716,854,0,75
+        row @716,941,0,125
+          col @716,941,0,125
+            text Expiration date @716,941,0,40
+            row @716,993,0,73
+              select "Expiration month" *1 2 3 4 5 6 7 8 9 10 11 12 @716,993,0,73
+              select "Expiration year" *2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 @728,993,0,73
+          col @728,958,0,90
+            text CVV @728,958,0,21
+            field CVV @728,991,0,57
+        button "Pay now" primary @716,1078,30,36
+row @17,1290,694,41
+  row @17,1290,325,41
+    link Documentation https://docs.tabler.io @17,1300,99,21
+    link License ./license.html @128,1300,52,21
+    link "Source code" https://github.com/tabler/tabler @192,1290,83,41
+    link Sponsor https://github.com/sponsors/codecalm @287,1300,55,21
+  row @354,1290,357,41
+    text Copyright © 2026 . All rights reserved. @354,1290,254,41
+    link Tabler . @620,1300,43,21
+    link v1.6.1 ./changelog.html @675,1300,36,21
+button Customize primary @17,1343,694,36
+card @17,1391,694,1979
+  button Close primary @34,1406,660,36
+  region 160x120 @34,1454,160,120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own @34,1586,660,22
+  text Pick the look and layout of this preview. Your choices are saved in this browser. @34,1620,660,20
+  h3 Appearance @34,1652,660,19
+  text Color scheme @34,1683,660,20
+  text The page and its navigation, in one pick. @34,1715,660,20
+  row @34,1747,660,97
+    col @34,1747,96,97
+      region 96x64 @34,1747,96,64 [8 shapes, 0 labelled]
+      text Auto @34,1823,96,21
+    col @142,1747,96,97
+      region 96x64 @142,1747,96,64 [8 shapes, 0 labelled]
+      text Light @142,1823,96,21
+    col @250,1747,96,97
+      region 96x64 @250,1747,96,64 [8 shapes, 0 labelled]
+      text Dark @250,1823,96,21
+    col @358,1747,96,97
+      region 96x64 @358,1747,96,64 [8 shapes, 0 labelled]
+      text Dark nav @358,1823,96,21
+    col @466,1747,96,97
+      region 96x64 @466,1747,96,64 [8 shapes, 0 labelled]
+      text Colored @466,1823,96,21
+  text Accent color @34,1856,660,20
+  text The accent color used across the app. @34,1888,660,20
+  row @34,1920,660,0
+  text Font family @34,1932,660,20
+  text The typeface used across the app. @34,1964,660,21
+  row @34,1997,660,20
+    text Aa Sans-serif @34,1997,90,20
+    text Aa Serif @136,1997,53,20
+    text Aa Monospace @201,1997,100,20
+    text Aa Comic @313,1997,64,20
+  text Theme base @34,2029,660,20
+  text The gray palette behind every surface. @34,2061,660,21
+  row @34,2094,660,96
+    col @34,2094,96,96
+      region 96x64 @34,2094,96,64 [6 shapes, 0 labelled]
+      text Slate @34,2170,96,20
+    col @142,2094,96,96
+      region 96x64 @142,2094,96,64 [6 shapes, 0 labelled]
+      text Gray @142,2170,96,20
+    col @250,2094,96,96
+      region 96x64 @250,2094,96,64 [6 shapes, 0 labelled]
+      text Zinc @250,2170,96,20
+    col @358,2094,96,96
+      region 96x64 @358,2094,96,64 [6 shapes, 0 labelled]
+      text Neutral @358,2170,96,20
+    col @466,2094,96,96
+      region 96x64 @466,2094,96,64 [6 shapes, 0 labelled]
+      text Stone @466,2170,96,20
+  text Corner radius @34,2202,660,20
+  text How round corners are drawn. @34,2234,660,21
+  row @34,2267,660,96
+    col @34,2267,96,96
+      region 96x64 @34,2267,96,64 [2 shapes, 0 labelled]
+      text 0 @34,2343,96,20
+    col @142,2267,96,96
+      region 96x64 @142,2267,96,64 [2 shapes, 0 labelled]
+      text 0.5 @142,2343,96,20
+    col @250,2267,96,96
+      region 96x64 @250,2267,96,64 [2 shapes, 0 labelled]
+      text 1 @250,2343,96,20
+    col @358,2267,96,96
+      region 96x64 @358,2267,96,64 [2 shapes, 0 labelled]
+      text 1.5 @358,2343,96,20
+    col @466,2267,96,96
+      region 96x64 @466,2267,96,64 [2 shapes, 0 labelled]
+      text 2 @466,2343,96,20
+  h3 Layout @34,2375,660,19
+  text Navigation @34,2406,660,20
+  text Where the main menu lives. @34,2438,660,20
+  row @34,2470,660,96
+    col @34,2470,96,96
+      region 96x64 @34,2470,96,64 [10 shapes, 0 labelled]
+      text Navbar @34,2546,96,20
+    col @142,2470,96,96
+      region 96x64 @142,2470,96,64 [11 shapes, 0 labelled]
+      text Sidebar @142,2546,96,20
+  text Container width @34,2578,660,21
+  text How wide the page content runs. @34,2611,660,20
+  row @34,2643,660,96
+    col @34,2643,96,96
+      region 96x64 @34,2643,96,64 [6 shapes, 0 labelled]
+      text Default @34,2719,96,20
+    col @142,2643,96,96
+      region 96x64 @142,2643,96,64 [6 shapes, 0 labelled]
+      text Fluid @142,2719,96,20
+    col @250,2643,96,96
+      region 96x64 @250,2643,96,64 [7 shapes, 0 labelled]
+      text Boxed @250,2719,96,20
+  text Navbar behavior @34,2751,660,21
+  text Keep the navbar visible while scrolling. @34,2784,660,20
+  row @34,2816,660,96
+    col @34,2816,96,96
+      region 96x64 @34,2816,96,64 [8 shapes, 0 labelled]
+      text Default @34,2892,96,20
+    col @142,2816,96,96
+      region 96x64 @142,2816,96,64 [10 shapes, 0 labelled]
+      text Sticky @142,2892,96,20
+  text Navigation style @34,2924,660,21
+  text Attach the navigation to the edges, or let it float. @34,2957,660,20
+  row @34,2989,660,96
+    col @34,2989,96,96
+      region 96x64 @34,2989,96,64 [10 shapes, 0 labelled]
+      text Attached @34,3065,96,20
+    col @142,2989,96,96
+      region 96x64 @142,2989,96,64 [9 shapes, 0 labelled]
+      text Floating @142,3065,96,20
+  text Offcanvas style @34,3097,660,20
+  text Attach side panels to the edges, or let them float. @34,3129,660,21
+  row @34,3162,660,96
+    col @34,3162,96,96
+      region 96x64 @34,3162,96,64 [11 shapes, 0 labelled]
+      text Attached @34,3238,96,20
+    col @142,3162,96,96
+      region 96x64 @142,3162,96,64 [10 shapes, 0 labelled]
+      text Floating @142,3238,96,20
+  button "Reset changes" @34,3270,660,36
+  button Save primary @34,3318,660,37
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!overflow invite2 28/134px
+!overflow pay 28/86px
+!tiny enable2 1x24px
+!tiny card14 22x36px
+!tiny card16 22x37px
+!tiny cvv2 22x36px
+!offcanvas region13
+!offcanvas path4
+!offcanvas region15
+!offcanvas path6
+!offcanvas region16
+!offcanvas path7
+!offcanvas region17
+!offcanvas path8
+!offcanvas region18
+!offcanvas path9
+!offcanvas region19
+!offcanvas path10
+!offcanvas region20
+!offcanvas path11
+!offcanvas region21
+!offcanvas path12
+!offcanvas region22
+!offcanvas path13
+!offcanvas region23
+!offcanvas path14
+!offcanvas region24
+!offcanvas path15
+!offcanvas region25
+!offcanvas path16
+!offcanvas region26
+!offcanvas path17
+!offcanvas region27
+!offcanvas path18
+!offcanvas region28
+!offcanvas path19
+!offcanvas region29
+!offcanvas path20
+!offcanvas region30
+!offcanvas path21
+!offcanvas region31
+!offcanvas path22
+!offcanvas region32
+!offcanvas path23
+!offcanvas region33
+!offcanvas path24
+!offcanvas region34
+!offcanvas path25
+!offcanvas region35
+!offcanvas path26
+!offcanvas region36
+!offcanvas path27
+!offcanvas region37
+!offcanvas path28
+!offcanvas region38
+!offcanvas path29
+!offcanvas region39
+!offcanvas path30
+!offcanvas region40
+!offcanvas path31
+!offcanvas region41
+!offcanvas path32
+!offcanvas region42
+!offcanvas path33
+!offcanvas region43
+!offcanvas path34
+!offcanvas region44
+!offcanvas path35
+!offcanvas region45
+!offcanvas path36
+!offcanvas region46
+!offcanvas path37
+!offcanvas region47
+!offcanvas path38
+!offcanvas region48
+!offcanvas path39
+!offcanvas region49
+!offcanvas path40
+!offcanvas region50
+!offcanvas path41
+!offcanvas region51
+!offcanvas path42
+!offcanvas region52
+!offcanvas path43
+!offcanvas region53
+!offcanvas path44
+!offcanvas region54
+!offcanvas path45
+!offcanvas region55
+!offcanvas path46
+!offcanvas region56
+!offcanvas path47
+!offcanvas region57
+!offcanvas path48
+!offcanvas region58
+!offcanvas path49
+!offcanvas region59
+!offcanvas path50
+!offcanvas region60
+!offcanvas path51
+!offcanvas region61
+!offcanvas path52
+!offcanvas region62
+!offcanvas path53
+!offcanvas region63
+!offcanvas path54
+!offcanvas region64
+!offcanvas path55
+!offcanvas region65
+!offcanvas path56
+!offcanvas region66
+!offcanvas path57
+!offcanvas region69
+!offcanvas path58
+!offcanvas region70
+!offcanvas path59
+!offcanvas region71
+!offcanvas path60
+!offcanvas region72
+!offcanvas path61
+!offcanvas region73
+!offcanvas path62
+!offcanvas region74
+!offcanvas path63
+!offcanvas region75
+!offcanvas path64
+!offcanvas region76
+!offcanvas path65
+!offcanvas region77
+!offcanvas path66
+!offcanvas region78
+!offcanvas path67
+!offcanvas region79
+!offcanvas path68
+!offcanvas region80
+!offcanvas path69
+!offcanvas region81
+!offcanvas path70
+!offcanvas region82
+!offcanvas path71
+!offcanvas region83
+!offcanvas path72
+!offcanvas region84
+!offcanvas path73
+!offcanvas region85
+!offcanvas path74
+!offcanvas region86
+!offcanvas path75
+!offcanvas region87
+!offcanvas path76
+!offcanvas region88
+!offcanvas path77
+!offcanvas region89
+!offcanvas path78
+!offcanvas region90
+!offcanvas path79
+!offcanvas region91
+!offcanvas path80
+!offcanvas region92
+!offcanvas path81
+!offcanvas region93
+!offcanvas path82
+!offcanvas region94
+!offcanvas path83
+!offcanvas region95
+!offcanvas path84
+!offcanvas region96
+!offcanvas path85
+!offcanvas region97
+!offcanvas path86
+!offcanvas region98
+!offcanvas path87
+!offcanvas region99
+!offcanvas path88

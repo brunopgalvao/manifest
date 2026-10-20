@@ -1,0 +1,1354 @@
+@doc_rust_lang_org_src_std_lib_rs_html
+row
+  link "Skip to main content" #main-content
+  col
+    h2 Files
+    text alloc
+    text core
+    text proc_macro
+    text std
+    text backtrace
+    text collections
+    text core
+    text ffi
+    text hash
+    text io
+    text net
+    text num
+    text os
+    text portable-simd
+    text prelude
+    text sync
+    text sys
+    text thread
+    link alloc.rs ../../src/std/alloc.rs.html
+    link ascii.rs ../../src/std/ascii.rs.html
+    link backtrace.rs ../../src/std/backtrace.rs.html
+    link bstr.rs ../../src/std/bstr.rs.html
+    link env.rs ../../src/std/env.rs.html
+    link error.rs ../../src/std/error.rs.html
+    link fs.rs ../../src/std/fs.rs.html
+    link lib.rs ../../src/std/lib.rs.html
+    link macros.rs ../../src/std/macros.rs.html
+    link panic.rs ../../src/std/panic.rs.html
+    link panicking.rs ../../src/std/panicking.rs.html
+    link pat.rs ../../src/std/pat.rs.html
+    link path.rs ../../src/std/path.rs.html
+    link process.rs ../../src/std/process.rs.html
+    link random.rs ../../src/std/random.rs.html
+    link rt.rs ../../src/std/rt.rs.html
+    link time.rs ../../src/std/time.rs.html
+    link view.rs ../../src/std/view.rs.html
+    text std_detect
+    text test
+  col
+    row
+      link "show sidebar" ../../std/all.html
+      h1 std/lib.rs
+      row
+        link Search https://doc.rust-lang.org/src/std/lib.rs.html?search=
+        link Settings ../../settings.html
+        link Help ../../help.html
+        button Summary
+    card
+      card
+        text "prelude;  prelude::rust_2024::;  test;  alloc alloc_crate;  libc;  unwind;  miniz_oxide;  std realstd;  macros;  rt;  core::any; core::array; core::async_iter; core::cell; core::char; core::clone; core::cmp; core::convert; core::default; core::field; core::future; core::hint; core::i8; core::i16; core::i32; core::i64; core::i128; core::intrinsics; core::isize; core::iter; core::marker; core::mem; core::ops; core::option; core::pin; core::ptr; core::range; core::result; core::u8; core::u16; core::u32; core::u64; core::u128; core::unsafe_binder; core::usize;  alloc_crate::borrow; alloc_crate::boxed; alloc_crate::fmt; alloc_crate::format; alloc_crate::rc; alloc_crate::slice; alloc_crate::str; alloc_crate::string; alloc_crate::vec;  f128; f16; f32; f64;  thread; ascii; backtrace; bstr; collections; env; error; ffi; fs; hash; io; net; num; os; panic; pat; path; process; random; sync; time; view;  std_float;  simd {  core::simd::;   ::std_float::StdFloat; }  autodiff {  core::autodiff::{autodiff_forward, autodiff_reverse}; }  offload {  core::offload::{offload, offload_kernel}; }  task {  alloc::task::;  core::task::; }  arch {  core::arch::;   std_detect::is_aarch64_feature_detected;  std_detect::is_arm_feature_detected;  std_detect::is_loongarch_feature_detected;  std_detect::is_riscv_feature_detected;  std_detect::is_s390x_feature_detected;  std_detect::is_x86_feature_detected;  std_detect::{is_mips_feature_detected, is_mips64_feature_detected};  std_detect::{is_powerpc_feature_detected, is_powerpc64_feature_detected}; }  std_detect::is_x86_feature_detected;  sys;  alloc;  panicking;  backtrace_rs;  core::cfg_select; core::concat_bytes; core::derive; core::matches; core::primitive; core::todo; core::{  assert, cfg, column, compile_error, concat, const_format_args, env, file, format_args,  format_args_nl, include, include_bytes, include_str, line, log_syntax, module_path, option_env,  stringify, trace_macros, }; core::{  assert_eq, assert_ne, debug_assert, debug_assert_eq, debug_assert_ne, r#try, unimplemented,  unreachable, write, writeln, }; core::{assert_matches, debug_assert_matches};  from {  core::from::From; }  ();  ();  ();  __restricted_std_workaround {}  () test_helpers;"
+        link 1 #1
+        text "//! # The Rust Standard Library //! //! The Rust Standard Library is the foundation of portable Rust software, a //! set of minimal and battle-tested shared abstractions for the [broader Rust //! ecosystem][crates.io]. It offers core types, like [`Vec<T>`] and //! [`Option<T>`], library-defined [operations on language //! primitives](#primitives), [standard macros](#macros), [I/O] and //! [multithreading], among [many other things][other]. //! //! `std` is available to all Rust crates by default. Therefore, the //! standard library can be accessed in [`use`] statements through the path //! `std`, as in [`use std::env`]. //! //! # How to read this documentation //! //! If you already know the name of what you are looking for, the fastest way to //! find it is to use the <a href=\"#\" onclick=\"window.searchState.focus();\">search //! button</a> at the top of the page. //! //! Otherwise, you may want to jump to one of these useful sections: //! //! * [`std::*` modules](#modules) //! * [Primitive types](#primitives) //! * [Standard macros](#macros) //! * [The Rust Prelude] //! //! If this is your first time, the documentation for the standard library is //! written to be casually perused. Clicking on interesting things should //! generally lead you to interesting places. Still, there are important bits //! you don't want to miss, so read on for a tour of the standard library and //! its documentation! //! //! Once you are familiar with the contents of the standard library you may //! begin to find the verbosity of the prose distracting. At this stage in your //! development you may want to press the //! \"<svg style=\"width:0.75rem;height:0.75rem\" viewBox=\"0 0 12 12\" stroke=\"currentColor\" fill=\"none\"><path d=\"M2,2l4,4l4,-4M2,6l4,4l4,-4\"/></svg>&nbsp;Summary\" //! button near the top of the page to collapse it into a more skimmable view. //! //! While you are looking at the top of the page, also notice the //! \"Source\" link. Rust's API documentation comes with the source //! code and you are encouraged to read it. The standard library source is //! generally high quality and a peek behind the curtains is //! often enlightening. //! //! # What is in the standard library documentation? //! //! First of all, The Rust Standard Library is divided into a number of focused //! modules, [all listed further down this page](#modules). These modules are //! the bedrock upon which all of Rust is forged, and they have mighty names //! like [`std::slice`] and [`std::cmp`]. Modules' documentation typically //! includes an overview of the module along with examples, and are a smart //! place to start familiarizing yourself with the library. //! //! Second, implicit methods on [primitive types] are documented here. This can //! be a source of confusion for two reasons: //! //! 1. While primitives are implemented by the compiler, the standard library //! implements methods directly on the primitive types (and it is the only //! library that does so), which are [documented in the section on //! primitives](#primitives). //! 2. The standard library exports many modules *with the same name as //! primitive types*. These define additional items related to the primitive //! type, but not the all-important methods. //! //! So for example there is a [page for the primitive type //! `char`](primitive::char) that lists all the methods that can be called on //! characters (very useful), and there is a [page for the module //! `std::char`](crate::char) that documents iterator and error types created by these methods //! (rarely useful). //! //! Note the documentation for the primitives [`str`] and [`[T]`][prim@slice] (also //! called 'slice'). Many method calls on [`String`] and [`Vec<T>`] are actually //! calls to methods on [`str`] and [`[T]`][prim@slice] respectively, via [deref //! coercions][deref-coercions]. //! //! Third, the standard library defines [The Rust Prelude], a small collection //! of items - mostly traits - that are imported into every module of every //! crate. The traits in the prelude are pervasive, making the prelude //! documentation a good entry point to learning about the library. //! //! And finally, the standard library exports a number of standard macros, and //! [lists them on this page](#macros) (technically, not all of the standard //! macros are defined by the standard library - some are defined by the //! compiler - but they are documented here the same). Like the prelude, the //! standard macros are imported by default into all crates. //! //! # Contributing changes to the documentation //! //! Check out the Rust contribution guidelines [here]( //! https://rustc-dev-guide.rust-lang.org/contributing.html#writing-documentation). //! The source for this documentation can be found on //! [GitHub](https://github.com/rust-lang/rust) in the 'library/std/' directory. //! To contribute changes, make sure you read the guidelines first, then submit //! pull-requests for your suggested changes. //! //! Contributions are appreciated! If you see a part of the docs that can be //! improved, submit a PR, or chat with us first on [Zulip][t-libs-zulip] //! #t-libs. //! //! # A Tour of The Rust Standard Library //! //! The rest of this crate documentation is dedicated to pointing out notable //! features of The Rust Standard Library. //! //! ## Containers and collections //! //! The [`option`] and [`result`] modules define optional and error-handling //! types, [`Option<T>`] and [`Result<T, E>`]. The [`iter`] module defines //! Rust's iterator trait, [`Iterator`], which works with the [`for`] loop to //! access collections. //! //! The standard library exposes three common ways to deal with contiguous //! regions of memory: //! //! * [`Vec<T>`] - A heap-allocated *vector* that is resizable at runtime. //! * [`[T; N]`][prim@array] - An inline *array* with a fixed size at compile time. //! * [`[T]`][prim@slice] - A dynamically sized *slice* into any other kind of contiguous //! storage, whether heap-allocated or not. //! //! Slices can only be handled through some kind of *pointer*, and as such come //! in many flavors such as: //! //! * `&[T]` - *shared slice* //! * `&mut [T]` - *mutable slice* //! * [`Box<[T]>`][owned slice] - *owned slice* //! //! [`str`], a UTF-8 string slice, is a primitive type, and the standard library //! defines many methods for it. Rust [`str`]s are typically accessed as //! immutable references: `&str`. Use the owned [`String`] for building and //! mutating strings. //! //! For converting to strings use the [`format!`] macro, and for converting from //! strings use the [`FromStr`] trait. //! //! Data may be shared by placing it in a reference-counted box or the [`Rc`] //! type, and if further contained in a [`Cell`] or [`RefCell`], may be mutated //! as well as shared. Likewise, in a concurrent setting it is common to pair an //! atomically-reference-counted box, [`Arc`], with a [`Mutex`] to get the same //! effect. //! //! The [`collections`] module defines maps, sets, linked lists and other //! typical collection types, including the common [`HashMap<K, V>`]. //! //! ## Platform abstractions and I/O //! //! Besides basic data types, the standard library is largely concerned with //! abstracting over differences in common platforms, most notably Windows and //! Unix derivatives. //! //! Common types of I/O, including [files], [TCP], and [UDP], are defined in //! the [`io`], [`fs`], and [`net`] modules. //! //! The [`thread`] module contains Rust's threading abstractions. [`sync`] //! contains further primitive shared memory types, including [`atomic`], [`mpmc`] and //! [`mpsc`], which contains the channel types for message passing. //! //! # Use before and after `main()` //! //! Many parts of the standard library are expected to work before and after `main()`; //! but this is not guaranteed or ensured by tests. It is recommended that you write your own tests //! and run them on each platform you wish to support. //! This means that use of `std` before/after main, especially of features that interact with the //! OS or global state, is exempted from stability and portability guarantees and instead only //! provided on a best-effort basis. Nevertheless bug reports are appreciated. //! //! On the other hand `core` and `alloc` are most likely to work in such environments with //! the caveat that any hookable behavior such as panics, oom handling or allocators will also //! depend on the compatibility of the hooks. //! //! Some features may also behave differently outside main, e.g. stdio could become unbuffered, //! some panics might turn into aborts, backtraces might not get symbolicated or similar. //! //! Non-exhaustive list of known limitations: //! //! - after-main use of thread-locals, which also affects additional features: //! - [`thread::current()`] //! - under UNIX, before main, file descriptors 0, 1, and 2 may be unchanged //! (they are guaranteed to be open during main, //! and are opened to /dev/null O_RDWR if they weren't open on program start) //! //! //! [I/O]: io //! [TCP]: net::TcpStream //! [The Rust Prelude]: prelude //! [UDP]: net::UdpSocket //! [`Arc`]: sync::Arc //! [owned slice]: boxed //! [`Cell`]: cell::Cell //! [`FromStr`]: str::FromStr //! [`HashMap<K, V>`]: collections::HashMap //! [`Mutex`]: sync::Mutex //! [`Option<T>`]: option::Option //! [`Rc`]: rc::Rc //! [`RefCell`]: cell::RefCell //! [`Result<T, E>`]: result::Result //! [`Vec<T>`]: vec::Vec //! [`atomic`]: sync::atomic //! [`for`]: ../book/ch03-05-control-flow.html#looping-through-a-collection-with-for //! [`str`]: prim@str //! [`mpmc`]: sync::mpmc //! [`mpsc`]: sync::mpsc //! [`std::cmp`]: cmp //! [`std::slice`]: mod@slice //! [`use std::env`]: env/index.html //! [`use`]: ../book/ch07-02-defining-modules-to-control-scope-and-privacy.html //! [crates.io]: https://crates.io //! [deref-coercions]: ../book/ch15-02-deref.html#implicit-deref-coercions-with-functions-and-methods //! [files]: fs::File //! [multithreading]: thread //! [other]: #what-is-in-the-standard-library-documentation //! [primitive types]: ../book/ch03-02-data-types.html //! [t-libs-zulip]: https://rust-lang.zulipchat.com/#narrow/channel/219381-t-libs/ //! [array]: prim@array //! [slice]: prim@slice"
+        link 2 #2
+        link 3 #3
+        link 4 #4
+        link 5 #5
+        link 6 #6
+        link 7 #7
+        link 8 #8
+        link 9 #9
+        link 10 #10
+        link 11 #11
+        link 12 #12
+        link 13 #13
+        link 14 #14
+        link 15 #15
+        link 16 #16
+        link 17 #17
+        link 18 #18
+        link 19 #19
+        link 20 #20
+        link 21 #21
+        link 22 #22
+        link 23 #23
+        link 24 #24
+        link 25 #25
+        link 26 #26
+        link 27 #27
+        link 28 #28
+        link 29 #29
+        link 30 #30
+        link 31 #31
+        link 32 #32
+        link 33 #33
+        link 34 #34
+        link 35 #35
+        link 36 #36
+        link 37 #37
+        link 38 #38
+        link 39 #39
+        link 40 #40
+        link 41 #41
+        link 42 #42
+        link 43 #43
+        link 44 #44
+        link 45 #45
+        link 46 #46
+        link 47 #47
+        link 48 #48
+        link 49 #49
+        link 50 #50
+        link 51 #51
+        link 52 #52
+        link 53 #53
+        link 54 #54
+        link 55 #55
+        link 56 #56
+        link 57 #57
+        link 58 #58
+        link 59 #59
+        link 60 #60
+        link 61 #61
+        link 62 #62
+        link 63 #63
+        link 64 #64
+        link 65 #65
+        link 66 #66
+        link 67 #67
+        link 68 #68
+        link 69 #69
+        link 70 #70
+        link 71 #71
+        link 72 #72
+        link 73 #73
+        link 74 #74
+        link 75 #75
+        link 76 #76
+        link 77 #77
+        link 78 #78
+        link 79 #79
+        link 80 #80
+        link 81 #81
+        link 82 #82
+        link 83 #83
+        link 84 #84
+        link 85 #85
+        link 86 #86
+        link 87 #87
+        link 88 #88
+        link 89 #89
+        link 90 #90
+        link 91 #91
+        link 92 #92
+        link 93 #93
+        link 94 #94
+        link 95 #95
+        link 96 #96
+        link 97 #97
+        link 98 #98
+        link 99 #99
+        link 100 #100
+        link 101 #101
+        link 102 #102
+        link 103 #103
+        link 104 #104
+        link 105 #105
+        link 106 #106
+        link 107 #107
+        link 108 #108
+        link 109 #109
+        link 110 #110
+        link 111 #111
+        link 112 #112
+        link 113 #113
+        link 114 #114
+        link 115 #115
+        link 116 #116
+        link 117 #117
+        link 118 #118
+        link 119 #119
+        link 120 #120
+        link 121 #121
+        link 122 #122
+        link 123 #123
+        link 124 #124
+        link 125 #125
+        link 126 #126
+        link 127 #127
+        link 128 #128
+        link 129 #129
+        link 130 #130
+        link 131 #131
+        link 132 #132
+        link 133 #133
+        link 134 #134
+        link 135 #135
+        link 136 #136
+        link 137 #137
+        link 138 #138
+        link 139 #139
+        link 140 #140
+        link 141 #141
+        link 142 #142
+        link 143 #143
+        link 144 #144
+        link 145 #145
+        link 146 #146
+        link 147 #147
+        link 148 #148
+        link 149 #149
+        link 150 #150
+        link 151 #151
+        link 152 #152
+        link 153 #153
+        link 154 #154
+        link 155 #155
+        link 156 #156
+        link 157 #157
+        link 158 #158
+        link 159 #159
+        link 160 #160
+        link 161 #161
+        link 162 #162
+        link 163 #163
+        link 164 #164
+        link 165 #165
+        link 166 #166
+        link 167 #167
+        link 168 #168
+        link 169 #169
+        link 170 #170
+        link 171 #171
+        link 172 #172
+        link 173 #173
+        link 174 #174
+        link 175 #175
+        link 176 #176
+        link 177 #177
+        link 178 #178
+        link 179 #179
+        link 180 #180
+        link 181 #181
+        link 182 #182
+        link 183 #183
+        link 184 #184
+        link 185 #185
+        link 186 #186
+        link 187 #187
+        link 188 #188
+        link 189 #189
+        link 190 #190
+        link 191 #191
+        link 192 #192
+        link 193 #193
+        link 194 #194
+        link 195 #195
+        link 196 #196
+        link 197 #197
+        link 198 #198
+        link 199 #199
+        link 200 #200
+        link 201 #201
+        link 202 #202
+        link 203 #203
+        link 204 #204
+        link 205 #205
+        link 206 #206
+        link 207 #207
+        link 208 #208
+        link 209 #209
+        link 210 #210
+        link 211 #211
+        link 212 #212
+        link 213 #213
+        link 214 #214
+        link 215 #215
+        link 216 #216
+        text "#![cfg_attr(not(restricted_std), stable(feature = , since = ))] #![cfg_attr(  restricted_std,  unstable(  feature = ,  issue = ,  reason = ) )] #![rustc_preserve_ub_checks] #![doc(  html_playground_url = ,  issue_tracker_base_url = ,  test(no_crate_inject, attr(deny(warnings))),  test(attr(allow(dead_code, deprecated, unused_variables, unused_mut))) )] #![doc(rust_logo)] #![doc(auto_cfg(hide(no_global_oom_handling)))]" danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 217 #217
+        link 218 #218
+        link 219 #219
+        link 220 #220
+        text "\"restricted_std\"" success
+        link 221 #221
+        text "\"none\"" success
+        link 222 #222
+        text "\"You have attempted to use a standard library built for a platform that it doesn't \\  know how to support. Consider building it for a known environment, disabling it with \\  `#![no_std]` or overriding this warning by enabling this feature.\"" success
+        link 223 #223
+        link 224 #224
+        link 225 #225
+        link 226 #226
+        link 227 #227
+        link 228 #228
+        link 229 #229
+        text "\"https://play.rust-lang.org/\"" success
+        link 230 #230
+        text "\"https://github.com/rust-lang/rust/issues/\"" success
+        link 231 #231
+        link 232 #232
+        link 233 #233
+        link 234 #234
+        link 235 #235
+        link 236 #236
+        text // Don't link to std. We are std.
+        link 237 #237
+        text "#![no_std]" danger
+        link 238 #238
+        text // Tell the compiler to link to either panic_abort or panic_unwind
+        link 239 #239
+        text "#![needs_panic_runtime]" danger
+        link 240 #240
+        text // // Lints:
+        link 241 #241
+        link 242 #242
+        text "#![warn(deprecated_in_future)] #![warn(missing_docs)] #![warn(missing_debug_implementations)] #![allow(explicit_outlives_requirements)] #![allow(unused_lifetimes)] #![allow(internal_features)] #![deny(implicit_provenance_casts)] #![deny(unsafe_op_in_unsafe_fn)] #![allow(rustdoc::redundant_explicit_links)] #![warn(rustdoc::unescaped_backticks)]" danger
+        link 243 #243
+        link 244 #244
+        link 245 #245
+        link 246 #246
+        link 247 #247
+        link 248 #248
+        link 249 #249
+        link 250 #250
+        link 251 #251
+        link 252 #252
+        text // Ensure that std can be linked against panic_abort despite compiled with `-C panic=unwind`
+        link 253 #253
+        text "#![deny(ffi_unwind_calls)]" danger
+        link 254 #254
+        text // std may use features in a platform-specific way
+        link 255 #255
+        text "#![allow(unused_features)]" danger
+        link 256 #256
+        text // // Features:
+        link 257 #257
+        link 258 #258
+        text #![cfg_attr(  test,  feature(internal_output_capture, print_internals, super_let, update_panic_count, rt) )] #![cfg_attr(  all(target_vendor = , target_env = ),  feature(slice_index_methods, coerce_unsized, sgx_platform) )] #![cfg_attr(all(test, target_os = ), feature(uefi_std))] #![cfg_attr(target_family = , feature(stdarch_wasm_atomic_wait))] #![cfg_attr(target_arch = , feature(simd_wasm64))] danger
+        link 259 #259
+        link 260 #260
+        link 261 #261
+        link 262 #262
+        link 263 #263
+        text "\"fortanix\"" success
+        text "\"sgx\"" success
+        link 264 #264
+        link 265 #265
+        link 266 #266
+        text "\"uefi\"" success
+        link 267 #267
+        text "\"wasm\"" success
+        link 268 #268
+        text "\"wasm64\"" success
+        link 269 #269
+        text // // Language features: // tidy-alphabetical-start
+        link 270 #270
+        link 271 #271
+        link 272 #272
+        text "#![feature(alloc_error_handler)] #![feature(allocator_internals)] #![feature(allow_internal_unsafe)] #![feature(allow_internal_unstable)] #![feature(asm_experimental_arch)] #![feature(autodiff)] #![feature(cfg_sanitizer_cfi)] #![feature(cfg_target_has_threads)] #![feature(cfg_target_thread_local)] #![feature(cfi_encoding)] #![feature(const_trait_impl)] #![feature(decl_macro)] #![feature(deprecated_suggestion)] #![feature(diagnostic_on_move)] #![feature(doc_cfg)] #![feature(doc_masked)] #![feature(doc_notable_trait)] #![feature(dropck_eyepatch)] #![feature(exact_div)] #![feature(f16)] #![feature(f128)] #![feature(ffi_const)] #![feature(gpu_offload)] #![feature(impl_restriction)] #![feature(intra_doc_pointers)] #![feature(lang_items)] #![feature(link_cfg)] #![feature(linkage)] #![feature(macro_metavar_expr_concat)] #![feature(min_specialization)] #![feature(must_not_suspend)] #![feature(needs_panic_runtime)] #![feature(negative_impls)] #![feature(never_type)] #![feature(optimize_attribute)] #![feature(prelude_import)] #![feature(rustc_attrs)] #![feature(rustdoc_internals)] #![feature(staged_api)] #![feature(stmt_expr_attributes)] #![feature(strict_provenance_lints)] #![feature(thread_local)] #![feature(try_blocks)] #![feature(try_trait_v2)] #![feature(type_alias_impl_trait)] #![feature(unwrap_infallible)]" danger
+        link 273 #273
+        link 274 #274
+        link 275 #275
+        link 276 #276
+        link 277 #277
+        link 278 #278
+        link 279 #279
+        link 280 #280
+        link 281 #281
+        link 282 #282
+        link 283 #283
+        link 284 #284
+        link 285 #285
+        link 286 #286
+        link 287 #287
+        link 288 #288
+        link 289 #289
+        link 290 #290
+        link 291 #291
+        link 292 #292
+        link 293 #293
+        link 294 #294
+        link 295 #295
+        link 296 #296
+        link 297 #297
+        link 298 #298
+        link 299 #299
+        link 300 #300
+        link 301 #301
+        link 302 #302
+        link 303 #303
+        link 304 #304
+        link 305 #305
+        link 306 #306
+        link 307 #307
+        link 308 #308
+        link 309 #309
+        link 310 #310
+        link 311 #311
+        link 312 #312
+        link 313 #313
+        link 314 #314
+        link 315 #315
+        link 316 #316
+        link 317 #317
+        link 318 #318
+        text // tidy-alphabetical-end // // Library features (core): // tidy-alphabetical-start
+        link 319 #319
+        link 320 #320
+        link 321 #321
+        link 322 #322
+        text "#![feature(borrowed_buf_init)] #![feature(bstr)] #![feature(bstr_internals)] #![feature(c_size_t)] #![feature(can_vector)] #![feature(cast_maybe_uninit)] #![feature(char_internals)] #![feature(clone_to_uninit)] #![feature(const_clone)] #![feature(const_convert)] #![feature(const_default)] #![feature(core_float_math)] #![feature(core_intrinsics)] #![feature(core_io)] #![feature(core_io_borrowed_buf)] #![feature(core_io_internals)] #![feature(cstr_display)] #![feature(cursor_split)] #![feature(derive_const)] #![feature(drop_guard)] #![feature(duration_constants)] #![feature(error_generic_member_access)] #![feature(error_iter)] #![feature(exact_size_is_empty)] #![feature(exclusive_wrapper)] #![feature(extend_one)] #![feature(float_gamma)] #![feature(float_minimum_maximum)] #![feature(fmt_internals)] #![feature(fn_ptr_trait)] #![feature(formatting_options)] #![feature(funnel_shifts)] #![feature(generic_atomic)] #![feature(hash_map_internals)] #![feature(hash_map_macro)] #![feature(hasher_prefixfree_extras)] #![feature(hashmap_internals)] #![feature(hint_must_use)] #![feature(int_from_ascii)] #![feature(io_error_inprogress)] #![feature(io_error_input_output_error)] #![feature(io_error_more)] #![feature(io_error_too_many_open_files)] #![feature(io_error_uncategorized)] #![feature(io_slice_as_bytes)] #![feature(ip)] #![feature(iter_advance_by)] #![feature(iter_next_chunk)] #![feature(maybe_dangling)] #![feature(maybe_uninit_array_assume_init)] #![feature(maybe_uninit_fill)] #![feature(panic_can_unwind)] #![feature(panic_internals)] #![feature(pin_coerce_unsized_trait)] #![feature(pointer_is_aligned_to)] #![feature(portable_simd)] #![feature(ptr_as_uninit)] #![feature(ptr_cast_slice)] #![feature(ptr_mask)] #![feature(random)] #![feature(raw_os_error_ty)] #![feature(seek_io_take_position)] #![feature(seek_stream_len)] #![feature(share_trait)] #![feature(slice_internals)] #![feature(slice_ptr_get)] #![feature(slice_range)] #![feature(slice_split_once)] #![feature(std_internals)] #![feature(str_internals)] #![feature(sync_unsafe_cell)] #![feature(temporary_niche_types)] #![feature(ub_checks)] #![feature(uint_carryless_mul)] #![feature(used_with_arg)] #![feature(write_all_vectored)]" danger
+        link 323 #323
+        link 324 #324
+        link 325 #325
+        link 326 #326
+        link 327 #327
+        link 328 #328
+        link 329 #329
+        link 330 #330
+        link 331 #331
+        link 332 #332
+        link 333 #333
+        link 334 #334
+        link 335 #335
+        link 336 #336
+        link 337 #337
+        link 338 #338
+        link 339 #339
+        link 340 #340
+        link 341 #341
+        link 342 #342
+        link 343 #343
+        link 344 #344
+        link 345 #345
+        link 346 #346
+        link 347 #347
+        link 348 #348
+        link 349 #349
+        link 350 #350
+        link 351 #351
+        link 352 #352
+        link 353 #353
+        link 354 #354
+        link 355 #355
+        link 356 #356
+        link 357 #357
+        link 358 #358
+        link 359 #359
+        link 360 #360
+        link 361 #361
+        link 362 #362
+        link 363 #363
+        link 364 #364
+        link 365 #365
+        link 366 #366
+        link 367 #367
+        link 368 #368
+        link 369 #369
+        link 370 #370
+        link 371 #371
+        link 372 #372
+        link 373 #373
+        link 374 #374
+        link 375 #375
+        link 376 #376
+        link 377 #377
+        link 378 #378
+        link 379 #379
+        link 380 #380
+        link 381 #381
+        link 382 #382
+        link 383 #383
+        link 384 #384
+        link 385 #385
+        link 386 #386
+        link 387 #387
+        link 388 #388
+        link 389 #389
+        link 390 #390
+        link 391 #391
+        link 392 #392
+        link 393 #393
+        link 394 #394
+        link 395 #395
+        link 396 #396
+        link 397 #397
+        link 398 #398
+        text // tidy-alphabetical-end // // Library features (alloc): // tidy-alphabetical-start
+        link 399 #399
+        link 400 #400
+        link 401 #401
+        link 402 #402
+        text "#![feature(alloc_io)] #![feature(allocator_api)] #![feature(buf_read_has_data_left)] #![feature(clone_from_ref)] #![feature(get_mut_unchecked)] #![feature(map_try_insert)] #![feature(read_buf)] #![feature(slice_concat_trait)] #![feature(thin_box)] #![feature(try_reserve_kind)] #![feature(try_with_capacity)] #![feature(unique_rc_arc)] #![feature(wtf8_internals)]" danger
+        link 403 #403
+        link 404 #404
+        link 405 #405
+        link 406 #406
+        link 407 #407
+        link 408 #408
+        link 409 #409
+        link 410 #410
+        link 411 #411
+        link 412 #412
+        link 413 #413
+        link 414 #414
+        link 415 #415
+        text // tidy-alphabetical-end // // Library features (unwind): // tidy-alphabetical-start
+        link 416 #416
+        link 417 #417
+        link 418 #418
+        link 419 #419
+        text "#![feature(panic_unwind)]" danger
+        link 420 #420
+        text // tidy-alphabetical-end // // Library features (std_detect): // tidy-alphabetical-start
+        link 421 #421
+        link 422 #422
+        link 423 #423
+        link 424 #424
+        text "#![feature(stdarch_internal)]" danger
+        link 425 #425
+        text // tidy-alphabetical-end // // Only for re-exporting: // tidy-alphabetical-start
+        link 426 #426
+        link 427 #427
+        link 428 #428
+        link 429 #429
+        text "#![feature(async_iterator)] #![feature(cfg_accessible)] #![feature(cfg_eval)] #![feature(concat_bytes)] #![feature(const_format_args)] #![feature(custom_test_frameworks)] #![feature(edition_panic)] #![feature(format_args_nl)] #![feature(log_syntax)] #![feature(test)] #![feature(trace_macros)]" danger
+        link 430 #430
+        link 431 #431
+        link 432 #432
+        link 433 #433
+        link 434 #434
+        link 435 #435
+        link 436 #436
+        link 437 #437
+        link 438 #438
+        link 439 #439
+        link 440 #440
+        text // tidy-alphabetical-end // // Only used in tests/benchmarks: // // Only for const-ness: // tidy-alphabetical-start
+        link 441 #441
+        link 442 #442
+        link 443 #443
+        link 444 #444
+        link 445 #445
+        link 446 #446
+        text "#![feature(io_const_error)]" danger
+        link 447 #447
+        text // tidy-alphabetical-end //
+        link 448 #448
+        link 449 #449
+        text "#![default_lib_allocator]" danger
+        link 450 #450
+        text // Removed features
+        link 451 #451
+        text #![unstable_removed(  feature = ,  reason = ,  link = ,  since = )] danger
+        link 452 #452
+        text "\"concat_idents\"" success
+        link 453 #453
+        text "\"Replaced by the macro_metavar_expr_concat feature\"" success
+        link 454 #454
+        text "\"https://github.com/rust-lang/rust/issues/29599#issuecomment-2986866250\"" success
+        link 455 #455
+        text "\"1.90.0\"" success
+        link 456 #456
+        link 457 #457
+        link 458 #458
+        text // The Rust prelude // The compiler expects the prelude definition to be defined before its use statement.
+        link 459 #459
+        link 460 #460
+        text pub mod primary
+        link 461 #461
+        link 462 #462
+        text // Explicitly import the prelude. The compiler uses this same unstable attribute // to import the prelude implicitly when building crates that depend on std.
+        link 463 #463
+        link 464 #464
+        text "#[prelude_import] #[allow(unused)]" danger
+        link 465 #465
+        link 466 #466
+        text use primary
+        text * primary
+        link 467 #467
+        link 468 #468
+        text // Access to Bencher, etc.
+        link 469 #469
+        text "#[cfg(test)]" danger
+        link 470 #470
+        text extern crate primary
+        link 471 #471
+        link 472 #472
+        text "#[allow(unused_imports)]" danger
+        text // macros from `alloc` are not used on all platforms
+        link 473 #473
+        text "#[macro_use]" danger
+        link 474 #474
+        text extern crate primary
+        text as primary
+        link 475 #475
+        link 476 #476
+        text // Many compiler tests depend on libc being pulled in by std // so include it here even if it's unused.
+        link 477 #477
+        link 478 #478
+        text #[doc(masked)] #[allow(unused_extern_crates)] #[cfg(not(all(windows, target_env = )))] danger
+        link 479 #479
+        link 480 #480
+        text "\"msvc\"" success
+        link 481 #481
+        text extern crate primary
+        link 482 #482
+        link 483 #483
+        text // We always need an unwinder currently for backtraces
+        link 484 #484
+        text "#[doc(masked)] #[allow(unused_extern_crates)]" danger
+        link 485 #485
+        link 486 #486
+        text extern crate primary
+        link 487 #487
+        link 488 #488
+        text // FIXME: #94122 this extern crate definition only exist here to stop // miniz_oxide docs leaking into std docs. Find better way to do it. // Remove exclusion from tidy platform check when this removed.
+        link 489 #489
+        link 490 #490
+        link 491 #491
+        text #[doc(masked)] #[allow(unused_extern_crates)] #[cfg(all(  not(all(windows, target_env = , not(target_vendor = ))),  feature = ))] danger
+        link 492 #492
+        link 493 #493
+        link 494 #494
+        text "\"msvc\"" success
+        text "\"uwp\"" success
+        link 495 #495
+        text "\"miniz_oxide\"" success
+        link 496 #496
+        link 497 #497
+        text extern crate primary
+        link 498 #498
+        link 499 #499
+        text "// During testing, this crate is not actually the \"real\" std library, but rather // it links to the real std library, which was compiled from this same source // code. So any lang items std defines are conditionally excluded (or else they // would generate duplicate lang item errors), and any globals it defines are // _not_ the globals used by \"real\" std. So this import, defined only during // testing gives test-std access to real-std lang items and globals. See #2912"
+        link 500 #500
+        link 501 #501
+        link 502 #502
+        link 503 #503
+        link 504 #504
+        link 505 #505
+        text "#[cfg(test)]" danger
+        link 506 #506
+        text extern crate primary
+        text as primary
+        link 507 #507
+        link 508 #508
+        text // The standard macros that are not built-in to the compiler.
+        link 509 #509
+        text "#[macro_use]" danger
+        link 510 #510
+        text mod primary
+        link 511 #511
+        link 512 #512
+        text // The runtime entry point and a few unstable public functions used by the // compiler
+        link 513 #513
+        link 514 #514
+        text "#[macro_use]" danger
+        link 515 #515
+        text pub mod primary
+        link 516 #516
+        link 517 #517
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 518 #518
+        text pub use primary
+        link 519 #519
+        text #[stable(feature = , since = )] danger
+        text "\"core_array\"" success
+        text "\"1.35.0\"" success
+        link 520 #520
+        text pub use primary
+        link 521 #521
+        text #[unstable(feature = , issue = )] danger
+        text "\"async_iterator\"" success
+        text "\"79024\"" success
+        link 522 #522
+        text pub use primary
+        link 523 #523
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 524 #524
+        text pub use primary
+        link 525 #525
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 526 #526
+        text pub use primary
+        link 527 #527
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 528 #528
+        text pub use primary
+        link 529 #529
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 530 #530
+        text pub use primary
+        link 531 #531
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 532 #532
+        text pub use primary
+        link 533 #533
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 534 #534
+        text pub use primary
+        link 535 #535
+        text #[unstable(feature = , issue = )] danger
+        text "\"field_projections\"" success
+        text "\"145383\"" success
+        link 536 #536
+        text pub use primary
+        link 537 #537
+        text #[stable(feature = , since = )] danger
+        text "\"futures_api\"" success
+        text "\"1.36.0\"" success
+        link 538 #538
+        text pub use primary
+        link 539 #539
+        text #[stable(feature = , since = )] danger
+        text "\"core_hint\"" success
+        text "\"1.27.0\"" success
+        link 540 #540
+        text pub use primary
+        link 541 #541
+        text "#[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future, clippy::legacy_numeric_constants)]" danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 542 #542
+        link 543 #543
+        text pub use primary
+        link 544 #544
+        text "#[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future, clippy::legacy_numeric_constants)]" danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 545 #545
+        link 546 #546
+        text pub use primary
+        link 547 #547
+        text "#[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future, clippy::legacy_numeric_constants)]" danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 548 #548
+        link 549 #549
+        text pub use primary
+        link 550 #550
+        text "#[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future, clippy::legacy_numeric_constants)]" danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 551 #551
+        link 552 #552
+        text pub use primary
+        link 553 #553
+        text "#[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future, clippy::legacy_numeric_constants)]" danger
+        text "\"i128\"" success
+        text "\"1.26.0\"" success
+        link 554 #554
+        link 555 #555
+        text pub use primary
+        link 556 #556
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 557 #557
+        text pub use primary
+        link 558 #558
+        text "#[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future, clippy::legacy_numeric_constants)]" danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 559 #559
+        link 560 #560
+        text pub use primary
+        link 561 #561
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 562 #562
+        text pub use primary
+        link 563 #563
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 564 #564
+        text pub use primary
+        link 565 #565
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 566 #566
+        text pub use primary
+        link 567 #567
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 568 #568
+        text pub use primary
+        link 569 #569
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 570 #570
+        text pub use primary
+        link 571 #571
+        text #[stable(feature = , since = )] danger
+        text "\"pin\"" success
+        text "\"1.33.0\"" success
+        link 572 #572
+        text pub use primary
+        link 573 #573
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 574 #574
+        text pub use primary
+        link 575 #575
+        text #[stable(feature = , since = )] danger
+        text "\"new_range_api\"" success
+        text "\"1.96.0\"" success
+        link 576 #576
+        text pub use primary
+        link 577 #577
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 578 #578
+        text pub use primary
+        link 579 #579
+        text "#[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future, clippy::legacy_numeric_constants)]" danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 580 #580
+        link 581 #581
+        text pub use primary
+        link 582 #582
+        text "#[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future, clippy::legacy_numeric_constants)]" danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 583 #583
+        link 584 #584
+        text pub use primary
+        link 585 #585
+        text "#[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future, clippy::legacy_numeric_constants)]" danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 586 #586
+        link 587 #587
+        text pub use primary
+        link 588 #588
+        text "#[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future, clippy::legacy_numeric_constants)]" danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 589 #589
+        link 590 #590
+        text pub use primary
+        link 591 #591
+        text "#[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future, clippy::legacy_numeric_constants)]" danger
+        text "\"i128\"" success
+        text "\"1.26.0\"" success
+        link 592 #592
+        link 593 #593
+        text pub use primary
+        link 594 #594
+        text #[unstable(feature = , issue = )] danger
+        text "\"unsafe_binders\"" success
+        text "\"130516\"" success
+        link 595 #595
+        text pub use primary
+        link 596 #596
+        text "#[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future, clippy::legacy_numeric_constants)]" danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 597 #597
+        link 598 #598
+        text pub use primary
+        link 599 #599
+        link 600 #600
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 601 #601
+        text pub use primary
+        link 602 #602
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 603 #603
+        text pub use primary
+        link 604 #604
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 605 #605
+        text pub use primary
+        link 606 #606
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 607 #607
+        text pub use primary
+        link 608 #608
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 609 #609
+        text pub use primary
+        link 610 #610
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 611 #611
+        text pub use primary
+        link 612 #612
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 613 #613
+        text pub use primary
+        link 614 #614
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 615 #615
+        text pub use primary
+        link 616 #616
+        text #[stable(feature = , since = )] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 617 #617
+        text pub use primary
+        link 618 #618
+        link 619 #619
+        text #[path = ] danger
+        text "\"num/f128.rs\"" success
+        link 620 #620
+        text pub mod primary
+        link 621 #621
+        text #[path = ] danger
+        text "\"num/f16.rs\"" success
+        link 622 #622
+        text pub mod primary
+        link 623 #623
+        text #[path = ] danger
+        text "\"num/f32.rs\"" success
+        link 624 #624
+        text pub mod primary
+        link 625 #625
+        text #[path = ] danger
+        text "\"num/f64.rs\"" success
+        link 626 #626
+        text pub mod primary
+        link 627 #627
+        link 628 #628
+        text "#[macro_use]" danger
+        link 629 #629
+        text pub mod primary
+        link 630 #630
+        text pub mod primary
+        link 631 #631
+        text pub mod primary
+        link 632 #632
+        text #[unstable(feature = , issue = )] danger
+        text "\"bstr\"" success
+        text "\"134915\"" success
+        link 633 #633
+        text pub mod primary
+        link 634 #634
+        text pub mod primary
+        link 635 #635
+        text pub mod primary
+        link 636 #636
+        text pub mod primary
+        link 637 #637
+        text pub mod primary
+        link 638 #638
+        text pub mod primary
+        link 639 #639
+        text pub mod primary
+        link 640 #640
+        text pub mod primary
+        link 641 #641
+        text pub mod primary
+        link 642 #642
+        text pub mod primary
+        link 643 #643
+        text pub mod primary
+        link 644 #644
+        text pub mod primary
+        link 645 #645
+        text #[unstable(feature = , issue = )] danger
+        text "\"pattern_type_macro\"" success
+        text "\"123646\"" success
+        link 646 #646
+        text pub mod primary
+        link 647 #647
+        text pub mod primary
+        link 648 #648
+        text pub mod primary
+        link 649 #649
+        text #[unstable(feature = , issue = )] danger
+        text "\"random\"" success
+        text "\"130703\"" success
+        link 650 #650
+        text pub mod primary
+        link 651 #651
+        text pub mod primary
+        link 652 #652
+        text pub mod primary
+        link 653 #653
+        text #[cfg_attr(feature = , not(bootstrap))] #[unstable(feature = , issue = )] danger
+        text "\"nightly\"" success
+        link 654 #654
+        text "\"view_type_macro\"" success
+        text "\"155938\"" success
+        link 655 #655
+        text pub mod primary
+        link 656 #656
+        link 657 #657
+        text // Pull in `std_float` crate into std. The contents of // `std_float` are in a different repository: rust-lang/portable-simd.
+        link 658 #658
+        link 659 #659
+        text #[path = ] #[allow(missing_debug_implementations, dead_code, unsafe_op_in_unsafe_fn)] #[allow(rustdoc::bare_urls)] #[unstable(feature = , issue = )] danger
+        text "\"../../portable-simd/crates/std_float/src/lib.rs\"" success
+        link 660 #660
+        link 661 #661
+        link 662 #662
+        text "\"portable_simd\"" success
+        text "\"86656\"" success
+        link 663 #663
+        text mod primary
+        link 664 #664
+        link 665 #665
+        text #[unstable(feature = , issue = )] danger
+        text "\"portable_simd\"" success
+        text "\"86656\"" success
+        link 666 #666
+        text pub mod primary
+        link 667 #667
+        text "#![doc = ()]   #[doc(inline)]" danger
+        text include_str! primary
+        text "\"../../portable-simd/crates/core_simd/src/core_simd_docs.md\"" success
+        link 668 #668
+        link 669 #669
+        link 670 #670
+        text pub use primary
+        text * primary
+        link 671 #671
+        link 672 #672
+        text "#[doc(inline)]" danger
+        link 673 #673
+        text pub use primary
+        text crate primary
+        link 674 #674
+        link 675 #675
+        link 676 #676
+        text #[unstable(feature = , issue = )] #[doc = ()] danger
+        text "\"autodiff\"" success
+        text "\"124509\"" success
+        link 677 #677
+        text include_str! primary
+        text "\"../../core/src/autodiff.md\"" success
+        link 678 #678
+        text pub mod primary
+        link 679 #679
+        text /// This macro handles automatic differentiation.
+        link 680 #680
+        text pub use primary
+        link 681 #681
+        link 682 #682
+        link 683 #683
+        text #[unstable(feature = , issue = )] #[doc = ()] danger
+        text "\"gpu_offload\"" success
+        text "\"131513\"" success
+        link 684 #684
+        text include_str! primary
+        text "\"../../core/src/offload.md\"" success
+        link 685 #685
+        text pub mod primary
+        link 686 #686
+        text pub use primary
+        link 687 #687
+        link 688 #688
+        link 689 #689
+        text #[stable(feature = , since = )] danger
+        text "\"futures_api\"" success
+        text "\"1.36.0\"" success
+        link 690 #690
+        text pub mod primary
+        link 691 #691
+        text //! Types and Traits for working with asynchronous tasks.
+        link 692 #692
+        link 693 #693
+        text #[doc(inline)]  #[stable(feature = , since = )] danger
+        link 694 #694
+        text "\"wake_trait\"" success
+        text "\"1.51.0\"" success
+        link 695 #695
+        text pub use primary
+        text * primary
+        link 696 #696
+        text #[doc(inline)]  #[stable(feature = , since = )] danger
+        link 697 #697
+        text "\"futures_api\"" success
+        text "\"1.36.0\"" success
+        link 698 #698
+        text pub use primary
+        text * primary
+        link 699 #699
+        link 700 #700
+        link 701 #701
+        text #[doc = ()] #[stable(feature = , since = )] danger
+        text include_str! primary
+        text "\"../../stdarch/crates/core_arch/src/core_arch_docs.md\"" success
+        link 702 #702
+        text "\"simd_arch\"" success
+        text "\"1.27.0\"" success
+        link 703 #703
+        text pub mod primary
+        link 704 #704
+        text #[stable(feature = , since = )] danger
+        text "\"simd_arch\"" success
+        text "\"1.27.0\"" success
+        link 705 #705
+        text "// The `no_inline`-attribute is required to make the documentation of all  // targets available.  // See https://github.com/rust-lang/rust/pull/57808#issuecomment-457390549 for  // more information."
+        link 706 #706
+        link 707 #707
+        link 708 #708
+        link 709 #709
+        text "#[doc(no_inline)]" danger
+        text // Note (#82861): required for correct documentation
+        link 710 #710
+        text pub use primary
+        text * primary
+        link 711 #711
+        link 712 #712
+        text #[stable(feature = , since = )] danger
+        text "\"simd_aarch64\"" success
+        text "\"1.60.0\"" success
+        link 713 #713
+        text pub use primary
+        link 714 #714
+        text #[unstable(feature = , issue = )] danger
+        text "\"stdarch_arm_feature_detection\"" success
+        text "\"111190\"" success
+        link 715 #715
+        text pub use primary
+        link 716 #716
+        text #[unstable(feature = , issue = )] danger
+        text "\"is_loongarch_feature_detected\"" success
+        text "\"117425\"" success
+        link 717 #717
+        text pub use primary
+        link 718 #718
+        text #[unstable(feature = , issue = )] danger
+        text "\"is_riscv_feature_detected\"" success
+        text "\"111192\"" success
+        link 719 #719
+        text pub use primary
+        link 720 #720
+        text #[stable(feature = , since = )] danger
+        text "\"stdarch_s390x_feature_detection\"" success
+        text "\"1.93.0\"" success
+        link 721 #721
+        text pub use primary
+        link 722 #722
+        text #[stable(feature = , since = )] danger
+        text "\"simd_x86\"" success
+        text "\"1.27.0\"" success
+        link 723 #723
+        text pub use primary
+        link 724 #724
+        text #[unstable(feature = , issue = )] danger
+        text "\"stdarch_mips_feature_detection\"" success
+        text "\"111188\"" success
+        link 725 #725
+        text pub use primary
+        link 726 #726
+        text #[unstable(feature = , issue = )] danger
+        text "\"stdarch_powerpc_feature_detection\"" success
+        text "\"111191\"" success
+        link 727 #727
+        text pub use primary
+        link 728 #728
+        link 729 #729
+        link 730 #730
+        text // This was stabilized in the crate root so we have to keep it there.
+        link 731 #731
+        text #[stable(feature = , since = )] danger
+        text "\"simd_x86\"" success
+        text "\"1.27.0\"" success
+        link 732 #732
+        text pub use primary
+        link 733 #733
+        link 734 #734
+        text mod primary
+        link 735 #735
+        link 736 #736
+        text pub mod primary
+        link 737 #737
+        link 738 #738
+        text // Private support modules
+        link 739 #739
+        text mod primary
+        link 740 #740
+        link 741 #741
+        text "#[path = ] #[allow(dead_code, unused_attributes, implicit_provenance_casts, unsafe_op_in_unsafe_fn)] #[allow(clippy::len_zero)]" danger
+        text "\"../../backtrace/src/lib.rs\"" success
+        link 742 #742
+        link 743 #743
+        text // FIXME
+        link 744 #744
+        text mod primary
+        link 745 #745
+        link 746 #746
+        text #[stable(feature = , since = )] danger
+        text "\"cfg_select\"" success
+        text "\"1.95.0\"" success
+        link 747 #747
+        text pub use primary
+        link 748 #748
+        text #[unstable(  feature = ,  issue = ,  reason = )] danger
+        link 749 #749
+        text "\"concat_bytes\"" success
+        link 750 #750
+        text "\"87555\"" success
+        link 751 #751
+        text "\"`concat_bytes` is not stable enough for use and is subject to change\"" success
+        link 752 #752
+        link 753 #753
+        text pub use primary
+        link 754 #754
+        text #[unstable(feature = , issue = )] danger
+        text "\"derive_macro_global_path\"" success
+        text "\"154645\"" success
+        link 755 #755
+        text pub use primary
+        link 756 #756
+        text #[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future)] danger
+        text "\"matches_macro\"" success
+        text "\"1.42.0\"" success
+        link 757 #757
+        link 758 #758
+        text pub use primary
+        link 759 #759
+        text #[stable(feature = , since = )] danger
+        text "\"core_primitive\"" success
+        text "\"1.43.0\"" success
+        link 760 #760
+        text pub use primary
+        link 761 #761
+        text #[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future)] danger
+        text "\"todo_macro\"" success
+        text "\"1.40.0\"" success
+        link 762 #762
+        link 763 #763
+        text pub use primary
+        link 764 #764
+        text // Re-export built-in macros defined through core.
+        link 765 #765
+        text #[stable(feature = , since = )] danger
+        text "\"builtin_macro_prelude\"" success
+        text "\"1.38.0\"" success
+        link 766 #766
+        text pub use primary
+        link 767 #767
+        link 768 #768
+        link 769 #769
+        link 770 #770
+        link 771 #771
+        text // Re-export macros defined in core.
+        link 772 #772
+        text #[stable(feature = , since = )] #[allow(deprecated, deprecated_in_future)] danger
+        text "\"rust1\"" success
+        text "\"1.0.0\"" success
+        link 773 #773
+        link 774 #774
+        text pub use primary
+        link 775 #775
+        link 776 #776
+        link 777 #777
+        link 778 #778
+        text #[stable(feature = , since = )] danger
+        text "\"assert_matches\"" success
+        text "\"1.96.0\"" success
+        link 779 #779
+        text pub use primary
+        link 780 #780
+        link 781 #781
+        text // Re-export unstable derive macro defined through core.
+        link 782 #782
+        text #[unstable(feature = , issue = )] danger
+        text "\"derive_from\"" success
+        text "\"144889\"" success
+        link 783 #783
+        text /// Unstable module containing the unstable `From` derive macro.
+        link 784 #784
+        text pub mod primary
+        link 785 #785
+        text #[unstable(feature = , issue = )] danger
+        text "\"derive_from\"" success
+        text "\"144889\"" success
+        link 786 #786
+        text pub use primary
+        link 787 #787
+        link 788 #788
+        link 789 #789
+        text // We include the following files here *again* (they are already included in libcore) // so that they show up in search results for the std crate, and to avoid breaking // existing links:  // documentation for built-in attributes. Using `include!` because rustdoc // only looks for these modules at the crate level.
+        link 790 #790
+        link 791 #791
+        link 792 #792
+        link 793 #793
+        link 794 #794
+        link 795 #795
+        text include! primary
+        text "\"../../core/src/attribute_docs.rs\"" success
+        link 796 #796
+        link 797 #797
+        text // Include a number of private modules that exist solely to provide // the rustdoc documentation for the existing keywords. Using `include!` // because rustdoc only looks for these modules at the crate level.
+        link 798 #798
+        link 799 #799
+        link 800 #800
+        text include! primary
+        text "\"../../core/src/keyword_docs.rs\"" success
+        link 801 #801
+        link 802 #802
+        text // Include a number of private modules that exist solely to provide // the rustdoc documentation for primitive types. Using `include!` // because rustdoc only looks for these modules at the crate level.
+        link 803 #803
+        link 804 #804
+        link 805 #805
+        text include! primary
+        text "\"../../core/src/primitive_docs.rs\"" success
+        link 806 #806
+        link 807 #807
+        text // This is required to avoid an unstable error when `restricted-std` is not // enabled. The use of #![feature(restricted_std)] in rustc-std-workspace-std // is unconditional, so the unstable feature needs to be defined somewhere.
+        link 808 #808
+        link 809 #809
+        link 810 #810
+        text #[unstable(feature = , issue = )] danger
+        text "\"restricted_std\"" success
+        text "\"none\"" success
+        link 811 #811
+        text mod primary
+        link 812 #812
+        link 813 #813
+        text "#[cfg(test)] #[allow(dead_code)]" danger
+        link 814 #814
+        text // Not used in all configurations.
+        link 815 #815
+        text pub primary
+        text crate primary
+        text mod primary

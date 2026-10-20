@@ -1,0 +1,292 @@
+@getbootstrap_com_docs_5_3_getting_starte rev=0 @0,0,728,5280
+row @17,17,694,20
+  link "Skip to main content" #content @17,17,136,20
+  link "Skip to docs navigation" #bd-docs-nav @165,17,155,20
+row @17,49,694,82
+  link Bootstrap / @17,80,35,20
+  row @64,49,647,82
+    row @64,80,108,20
+      link Docs /docs/5.3/getting-started/introduction/ @64,80,15,20
+      link Examples /docs/5.3/examples/ @91,80,28,20
+      link Icons https://icons.getbootstrap.com/ @131,80,16,20
+      link Blog https://blog.getbootstrap.com/ @159,80,13,20
+    row @184,49,527,82
+      link "GitHub GitHub" https://github.com/twbs @184,70,44,40
+      link "X X" https://x.com/getbootstrap @240,70,12,40
+      link "Open Collective Open Collective" https://opencollective.com/bootstrap @264,49,100,82
+      region 17x40 @376,81,8,18 [1 shapes, 0 labelled]
+      button "BootstrapBootstrap v5.3 (switch to other versions)" @396,72,189,36
+      region 17x40 @597,81,8,18 [1 shapes, 0 labelled]
+      button "Toggle theme (light)" @617,72,94,36
+row @17,143,694,4798
+  col @17,400,17,4283
+    text Getting started @17,400,17,41
+    link Introduction /docs/5.3/getting-started/introduction @17,453,17,20
+    link Download /docs/5.3/getting-started/download @17,485,17,20
+    link Contents /docs/5.3/getting-started/contents @17,517,17,21
+    link "Browsers & devices" /docs/5.3/getting-started/browsers-devices @17,550,17,60
+    link JavaScript /docs/5.3/getting-started/javascript @17,622,17,21
+    link Webpack /docs/5.3/getting-started/webpack @17,655,17,20
+    link Parcel /docs/5.3/getting-started/parcel @17,687,17,20
+    link Vite /docs/5.3/getting-started/vite @17,719,17,21
+    link Accessibility /docs/5.3/getting-started/accessibility @17,752,17,20
+    link RFS /docs/5.3/getting-started/rfs @17,784,17,20
+    link RTL /docs/5.3/getting-started/rtl @17,816,17,21
+    link Contribute /docs/5.3/getting-started/contribute @17,849,17,20
+    text Customize @17,881,17,20
+    link Overview /docs/5.3/customize/overview @17,913,17,20
+    link Sass /docs/5.3/customize/sass @17,945,17,21
+    link Options /docs/5.3/customize/options @17,978,17,20
+    link Color /docs/5.3/customize/color @17,1010,17,20
+    link "Color modes" /docs/5.3/customize/color-modes @17,1042,17,41
+    link Components /docs/5.3/customize/components @17,1095,17,20
+    link "CSS variables" /docs/5.3/customize/css-variables @17,1127,17,41
+    link Optimize /docs/5.3/customize/optimize @17,1180,17,20
+    text Layout @17,1212,17,20
+    link Breakpoints /docs/5.3/layout/breakpoints @17,1244,17,21
+    link Containers /docs/5.3/layout/containers @17,1277,17,20
+    link Grid /docs/5.3/layout/grid @17,1309,17,20
+    link Columns /docs/5.3/layout/columns @17,1341,17,21
+    link Gutters /docs/5.3/layout/gutters @17,1374,17,20
+    link Utilities /docs/5.3/layout/utilities @17,1406,17,20
+    link Z-index /docs/5.3/layout/z-index @17,1438,17,21
+    link "CSS Grid" /docs/5.3/layout/css-grid @17,1471,17,40
+    text Content @17,1523,17,20
+    link Reboot /docs/5.3/content/reboot @17,1555,17,21
+    link Typography /docs/5.3/content/typography @17,1588,17,20
+    link Images /docs/5.3/content/images @17,1620,17,20
+    link Tables /docs/5.3/content/tables @17,1652,17,21
+    link Figures /docs/5.3/content/figures @17,1685,17,20
+    text Forms @17,1717,17,20
+    link Overview /docs/5.3/forms/overview @17,1749,17,21
+    link "Form control" /docs/5.3/forms/form-control @17,1782,17,40
+    link Select /docs/5.3/forms/select @17,1834,17,20
+    link "Checks & radios" /docs/5.3/forms/checks-radios @17,1866,17,61
+    link Range /docs/5.3/forms/range @17,1939,17,21
+    link "Input group" /docs/5.3/forms/input-group @17,1972,17,40
+    link "Floating labels" /docs/5.3/forms/floating-labels @17,2024,17,41
+    link Layout /docs/5.3/forms/layout @17,2077,17,20
+    link Validation /docs/5.3/forms/validation @17,2109,17,20
+    text Components @17,2141,17,21
+    link Accordion /docs/5.3/components/accordion @17,2174,17,20
+    link Alerts /docs/5.3/components/alerts @17,2206,17,20
+    link Badge /docs/5.3/components/badge @17,2238,17,21
+    link Breadcrumb /docs/5.3/components/breadcrumb @17,2271,17,20
+    link Buttons /docs/5.3/components/buttons @17,2303,17,20
+    link "Button group" /docs/5.3/components/button-group @17,2335,17,41
+    link Card /docs/5.3/components/card @17,2388,17,20
+    link Carousel /docs/5.3/components/carousel @17,2420,17,20
+    link "Close button" /docs/5.3/components/close-button @17,2452,17,41
+    link Collapse /docs/5.3/components/collapse @17,2505,17,20
+    link Dropdowns /docs/5.3/components/dropdowns @17,2537,17,21
+    link "List group" /docs/5.3/components/list-group @17,2570,17,40
+    link Modal /docs/5.3/components/modal @17,2622,17,21
+    link Navbar /docs/5.3/components/navbar @17,2655,17,20
+    link "Navs & tabs" /docs/5.3/components/navs-tabs @17,2687,17,61
+    link Offcanvas /docs/5.3/components/offcanvas @17,2760,17,20
+    link Pagination /docs/5.3/components/pagination @17,2792,17,20
+    link Placeholders /docs/5.3/components/placeholders @17,2824,17,21
+    link Popovers /docs/5.3/components/popovers @17,2857,17,20
+    link Progress /docs/5.3/components/progress @17,2889,17,20
+    link Scrollspy /docs/5.3/components/scrollspy @17,2921,17,21
+    link Spinners /docs/5.3/components/spinners @17,2954,17,20
+    link Toasts /docs/5.3/components/toasts @17,2986,17,20
+    link Tooltips /docs/5.3/components/tooltips @17,3018,17,20
+    text Helpers @17,3050,17,21
+    link Clearfix /docs/5.3/helpers/clearfix @17,3083,17,20
+    link "Color & background" /docs/5.3/helpers/color-background @17,3115,17,61
+    link "Colored links" /docs/5.3/helpers/colored-links @17,3188,17,41
+    link "Focus ring" /docs/5.3/helpers/focus-ring @17,3241,17,40
+    link "Icon link" /docs/5.3/helpers/icon-link @17,3293,17,41
+    link Position /docs/5.3/helpers/position @17,3346,17,20
+    link Ratio /docs/5.3/helpers/ratio @17,3378,17,20
+    link Stacks /docs/5.3/helpers/stacks @17,3410,17,21
+    link "Stretched link" /docs/5.3/helpers/stretched-link @17,3443,17,40
+    link "Text truncation" /docs/5.3/helpers/text-truncation @17,3495,17,41
+    link "Vertical rule" /docs/5.3/helpers/vertical-rule @17,3548,17,40
+    link "Visually hidden" /docs/5.3/helpers/visually-hidden @17,3600,17,41
+    text Utilities @17,3653,17,20
+    link API /docs/5.3/utilities/api @17,3685,17,21
+    link Background /docs/5.3/utilities/background @17,3718,17,20
+    link Borders /docs/5.3/utilities/borders @17,3750,17,20
+    link Colors /docs/5.3/utilities/colors @17,3782,17,21
+    link Display /docs/5.3/utilities/display @17,3815,17,20
+    link Flex /docs/5.3/utilities/flex @17,3847,17,20
+    link Float /docs/5.3/utilities/float @17,3879,17,20
+    link Interactions /docs/5.3/utilities/interactions @17,3911,17,21
+    link Link /docs/5.3/utilities/link @17,3944,17,20
+    link "Object fit" /docs/5.3/utilities/object-fit @17,3976,17,41
+    link Opacity /docs/5.3/utilities/opacity @17,4029,17,20
+    link Overflow /docs/5.3/utilities/overflow @17,4061,17,20
+    link Position /docs/5.3/utilities/position @17,4093,17,21
+    link Shadows /docs/5.3/utilities/shadows @17,4126,17,20
+    link Sizing /docs/5.3/utilities/sizing @17,4158,17,20
+    link Spacing /docs/5.3/utilities/spacing @17,4190,17,20
+    link Text /docs/5.3/utilities/text @17,4222,17,21
+    link "Vertical align" /docs/5.3/utilities/vertical-align @17,4255,17,40
+    link Visibility /docs/5.3/utilities/visibility @17,4307,17,21
+    link Z-index /docs/5.3/utilities/z-index @17,4340,17,20
+    text Extend @17,4372,17,20
+    link Approach /docs/5.3/extend/approach @17,4404,17,21
+    link Icons /docs/5.3/extend/icons @17,4437,17,20
+    text About @17,4469,17,20
+    link Overview /docs/5.3/about/overview @17,4501,17,20
+    link Team /docs/5.3/about/team @17,4533,17,21
+    link Brand /docs/5.3/about/brand @17,4566,17,20
+    link License /docs/5.3/about/license @17,4598,17,20
+    link Translations /docs/5.3/about/translations @17,4630,17,21
+    link Migration /docs/5.3/migration/ @17,4663,17,20
+  row @46,143,665,4798
+    col @46,2397,91,290
+      row @46,2397,91,75
+        link "View on GitHub" https://github.com/twbs/bootstrap/blob/v5.3.8/site/src/content/docs/getting-started/parcel.mdx @46,2404,27,60
+        h1 Bootstrap and Parcel @85,2397,52,75
+      text The official guide for how to include and bundle Bootstrap’s CSS and JavaScript in your project using Parcel. @46,2484,91,203
+    col @149,2347,159,389
+      text On this page @149,2347,159,20
+      link "What is Parcel?" #what-is-parcel @149,2379,159,20
+      link Setup #setup @149,2411,159,20
+      link "Project structure" #project-structure @149,2443,159,21
+      link "Configure Parcel" #configure-parcel @149,2476,159,20
+      link "Import Bootstrap" #import-bootstrap @149,2508,159,20
+      card @149,2540,159,164
+        link https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQWCV7I5Z3JCAAI627ICEBDC5QKCK7IE5QUC6YI55QLFTBIE5Q7CVSI4KJKC6SILKJWCA7DVK3EHJNCLSIZ https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQWCV7I5Z3JCAAI627ICEBDC5QKCK7IE5QUC6YI55QLFTBIE5Q7CVSI4KJKC6SILKJWCA7DVK3EHJNCLSIZ @166,2555,125,21
+        link "AWS Training & Certification Roles change. AWS credentials travel with you." https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQWCV7I5Z3JCAAI627ICEBDC5QKCK7IE5QUC6YI55QLFTBIE5Q7CVSI4KJKC6SILKJWCA7DVK3EHJNCLSIZ @166,2588,125,101
+      link "ads via Carbon" http://carbonads.net/?utm_source=getbootstrapcom&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon @149,2716,159,20
+    col @320,143,391,4798
+      text Download the source code and working demo for this guide from the . You can also but not run it because Parcel isn’t currently supported there. primary @320,143,391,60
+      text Want to skip to the end? primary @320,215,391,21
+      link "twbs/examples repository" https://github.com/twbs/examples/tree/main/parcel @320,248,391,20
+      link "open the example in StackBlitz" https://stackblitz.com/github/twbs/examples/tree/main/parcel?file=index.html @320,280,391,20
+      h2 What is Parcel? @320,312,391,22
+      text is a web application bundler designed to simplify the development process with a zero-configuration setup out of the box. It offers features found in more advanced bundlers while focusing on ease of use, making it ideal for developers seeking a quick start. @320,346,391,101
+      link Parcel https://parceljs.org/ @320,459,391,20
+      h2 Setup @320,491,391,22
+      text We’re building a Parcel project with Bootstrap from scratch, so there are some prerequisites and upfront steps before we can really get started. This guide requires you to have Node.js installed and some familiarity with the terminal. @320,525,391,101
+      text Create a project folder and set up npm. We'll create the my-project folder and initialize npm with the -y argument to avoid it asking us all the interactive questions. @320,638,391,61
+      card @320,711,391,129
+        button Copy @337,726,357,36
+        card @337,774,357,51
+          text mkdir my-project && cd my-project npm init -y @354,789,323,21
+      text Install Parcel. Unlike our Webpack guide, there’s only a single build tool dependency here. Parcel will automatically install language transformers (like Sass) as it detects them. We use --save-dev to signal that this dependency is only for development use and not for production. @320,852,391,121
+      card @320,985,391,129
+        button Copy @337,1000,357,37
+        card @337,1049,357,50
+          text npm i --save-dev parcel @354,1064,323,20
+      text Install Bootstrap. Now we can install Bootstrap. We'll also install Popper since our dropdowns, popovers, and tooltips depend on it for their positioning. If you don’t plan on using those components, you can omit Popper here. @320,1126,391,81
+      card @320,1219,391,129
+        button Copy @337,1234,357,37
+        card @337,1283,357,50
+          text npm i --save bootstrap @popperjs/core @354,1298,323,20
+      text Now that we have all the necessary dependencies installed, we can get to work creating the project files and importing Bootstrap. @320,1360,391,61
+      h2 Project structure @320,1433,391,21
+      text We’ve already created the my-project folder and initialized npm. Now we'll also create our src folder, stylesheet, and JavaScript file to round out the project structure. Run the following from my-project, or manually create the folder and file structure shown below. @320,1466,391,101
+      card @320,1579,391,149
+        button Copy @337,1594,357,37
+        card @337,1643,357,70
+          text mkdir {src,src/js,src/scss} touch src/index.html src/js/main.js src/scss/styles.scss @354,1658,323,40
+      text When you’re done, your complete project should look like this: @320,1740,391,41
+      card @320,1793,391,189
+        button Copy @337,1808,357,36
+        card @337,1856,357,111
+          text my-project/ ├── src/ │ ├── js/ │ │ └── main.js │ ├── scss/ │ │ └── styles.scss │ └── index.html ├── package-lock.json └── package.json @354,1871,323,81
+      text At this point, everything is in the right place, but Parcel needs an HTML page and npm script to start our server. @320,1994,391,41
+      h2 Configure Parcel @320,2047,391,21
+      text With dependencies installed and our project folder ready for us to start coding, we can now configure Parcel and run our project locally. Parcel itself requires no configuration file by design, but we do need an npm script and an HTML file to start our server. @320,2080,391,102
+      text Fill in the src/index.html file. Parcel needs a page to render, so we use our index.html page to set up some basic HTML, including our CSS and JavaScript files. @320,2194,391,61
+      card @320,2267,391,352
+        button Copy @337,2282,357,36
+        card @337,2330,357,274
+          text <!doctype html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Bootstrap w/ Parcel</title> <link rel="stylesheet" href="scss/styles.scss"> <script type="module" src="js/main.js"></script> </head> <body> <div class="container py-4 px-3 mx-auto"> <h1>Hello, Bootstrap and Parcel!</h1> <button class="btn btn-primary">Primary button</button> </div> </body> </html> @354,2345,323,244
+      text We’re including a little bit of Bootstrap styling here with the div class="container" and <button> so that we see when Bootstrap’s CSS is loaded by Parcel. @320,2631,391,61
+      text Parcel will automatically detect we’re using Sass and install the to support it. However, if you wish, you can also manually run . @320,2704,391,60
+      link "Sass Parcel plugin" https://parceljs.org/languages/sass/ @320,2776,391,21
+      text npm i --save-dev @parcel/transformer-sass danger @320,2809,391,20
+      text Add the Parcel npm scripts. Open the package.json and add the following start script to the scripts object. We'll use this script to start our Parcel development server and render the HTML file we created after it’s compiled into the dist directory. @320,2841,391,102
+      card @320,2955,391,189
+        button Copy @337,2970,357,36
+        card @337,3018,357,111
+          text { // ... "scripts": { "start": "parcel serve src/index.html --public-url / --dist-dir dist", "test": "echo \"Error: no test specified\" && exit 1" }, // ... } @354,3033,323,81
+      text And finally, we can start Parcel. From the my-project folder in your terminal, run that newly added npm script: @320,3156,391,41
+      card @320,3209,391,128
+        button Copy @337,3224,357,36
+        card @337,3272,357,50
+          text npm start @354,3287,323,20
+      image https://getbootstrap.com/docs/5.3/assets/img/guides/parcel-dev-server.png "Parcel dev server running" @320,3349,0,0
+      text In the next and final section to this guide, we'll import all of Bootstrap’s CSS and JavaScript. @320,3361,391,41
+      h2 Import Bootstrap @320,3414,391,21
+      text Importing Bootstrap into Parcel requires two imports, one into our styles.scss and one into our main.js. @320,3447,391,41
+      text Import Bootstrap’s CSS. Add the following to src/scss/styles.scss to import all of Bootstrap’s source Sass. @320,3500,391,61
+      card @320,3573,391,148
+        button Copy @337,3588,357,36
+        card @337,3636,357,70
+          text // Import all of Bootstrap’s CSS @import "bootstrap/scss/bootstrap"; @354,3651,323,40
+      text You can also import our stylesheets individually if you want. for details. @320,3733,391,41
+      link "Read our Sass import docs" /docs/5.3/customize/sass#importing @320,3786,391,20
+      text Optional: You may see Sass deprecation warnings with the latest versions of Dart Sass. These can silenced by adding the following configuration in a .sassrc.js file in the root folder with the following: @320,3818,391,82
+      card @320,3912,391,169
+        button Copy @337,3927,357,36
+        card @337,3975,357,91
+          text module.exports  { silenceDeprecations: ['import', 'mixed-decls', 'color-functions', 'global-builtin'] } @354,3990,323,61
+      text Import Bootstrap’s JS. Add the following to src/js/main.js to import all of Bootstrap’s JS. Popper will be imported automatically through Bootstrap. @320,4093,391,61
+      card @320,4166,391,149
+        button Copy @337,4181,357,36
+        card @337,4229,357,71
+          text // Import all of Bootstrap’s JS import * as bootstrap from 'bootstrap' @354,4244,323,41
+      text You can also import JavaScript plugins individually as needed to keep bundle sizes down: @320,4327,391,40
+      card @320,4379,391,169
+        button Copy @337,4394,357,36
+        card @337,4442,357,91
+          text import Alert from 'bootstrap/js/dist/alert' // or, specify which plugins you need: import { Tooltip, Toast, Popover } from 'bootstrap' @354,4457,323,61
+      text for more information on how to use Bootstrap’s plugins. @320,4560,391,21
+      link "Read our JavaScript docs" /docs/5.3/getting-started/javascript/ @320,4593,391,20
+      text And you’re done! 🎉 With Bootstrap’s source Sass and JS fully loaded, your local development server should now look like this: @320,4625,391,61
+      image https://getbootstrap.com/docs/5.3/assets/img/guides/parcel-dev-server-bootstrap.png "Parcel dev server running with Bootstrap" @320,4698,0,0
+      text Now you can start adding any Bootstrap components you want to use. Be sure to for how to include additional custom Sass and optimize your build by importing only the parts of Bootstrap’s CSS and JS that you need. @320,4710,391,81
+      link "check out the complete Parcel example project" https://github.com/twbs/examples/tree/main/parcel @320,4803,391,20
+      text See something wrong or out of date here? Please . Need help troubleshooting? on GitHub. @320,4835,391,41
+      link "open an issue on GitHub" https://github.com/twbs/bootstrap/issues/new/choose @320,4888,391,20
+      link "Search or start a discussion" https://github.com/twbs/bootstrap/discussions @320,4920,391,21
+row @17,4953,694,241
+  col @17,4956,344,234
+    link Bootstrap / @17,4956,344,20
+    text Designed and built with all the love in the world by the with the help of . @17,4988,344,41
+    link "Bootstrap team" /docs/5.3/about/team @17,5041,344,20
+    link "our contributors" https://github.com/twbs/bootstrap/graphs/contributors @17,5073,344,20
+    text Code licensed , docs . @17,5105,344,21
+    row @17,5138,344,20
+      link MIT https://github.com/twbs/bootstrap/blob/main/LICENSE @17,5138,26,20
+      link "CC BY 3.0" https://creativecommons.org/licenses/by/3.0/ @55,5138,69,20
+    text Currently v5.3.8. @17,5170,344,20
+  col @373,4957,56,233
+    h3 Links @373,4957,56,18
+    link Home / @373,4987,56,21
+    link Docs /docs/5.3/ @373,5020,56,20
+    link Examples /docs/5.3/examples @373,5052,56,20
+    link Icons https://icons.getbootstrap.com/ @373,5084,56,21
+    link Blog https://blog.getbootstrap.com/ @373,5117,56,20
+    link "Swag Store" https://cottonbureau.com/people/bootstrap @373,5149,56,41
+  col @441,4963,78,221
+    h3 Guides @441,4963,78,18
+    link "Getting started" /docs/5.3/getting-started @441,4993,78,41
+    link "Starter template" /docs/5.3/examples/starter-template @441,5046,78,41
+    link Webpack /docs/5.3/getting-started/webpack @441,5099,78,20
+    link Parcel /docs/5.3/getting-started/parcel @441,5131,78,20
+    link Vite /docs/5.3/getting-started/vite @441,5163,78,21
+  col @531,4953,72,241
+    h3 Projects @531,4953,72,18
+    link "Bootstrap 5" https://github.com/twbs/bootstrap @531,4983,72,41
+    link "Bootstrap 4" https://github.com/twbs/bootstrap/tree/v4-dev @531,5036,72,41
+    link Icons https://github.com/twbs/icons @531,5089,72,20
+    link RFS https://github.com/twbs/rfs @531,5121,72,20
+    link "Examples repo" https://github.com/twbs/examples @531,5153,72,41
+  col @615,4953,96,241
+    h3 Community @615,4953,96,18
+    link Issues https://github.com/twbs/bootstrap/issues @615,4983,96,21
+    link Discussions https://github.com/twbs/bootstrap/discussions @615,5016,96,20
+    link "Corporate sponsors" https://github.com/sponsors/twbs @615,5048,96,41
+    link "Open Collective" https://opencollective.com/bootstrap @615,5101,96,40
+    link "Stack Overflow" https://stackoverflow.com/questions/tagged/bootstrap-5 @615,5153,96,41
+field Field @17,5206,694,57
+!overflow bootstrapbootstrap 187/371px
+!overflow toggle 92/165px

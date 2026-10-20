@@ -1,0 +1,75 @@
+@www_w3_org_wai_aria_apg_practices
+row
+  row
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/
+    text How to build accessibility semantics into web patterns and widgets
+  row
+    link "W3C homepage" https://www.w3.org/
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/
+row
+  link "APG Home" /WAI/ARIA/apg/
+  link Patterns /WAI/ARIA/apg/patterns/
+  link Practices /WAI/ARIA/apg/practices/
+  link Index /WAI/ARIA/apg/example-index/
+  link About /WAI/ARIA/apg/about/
+h1 Practices
+card
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/read-this-first.svg "Illustration of a brown-skinned woman with a slight smile gesturing towards the right with her hand"
+  h2 Read This First
+  text No ARIA is better than Bad ARIA. Before using any ARIA, .
+  link "Read this to understand why no ARIA is better than bad ARIA" /WAI/content-assets/wai-aria-practices/../../ARIA/apg/practices/read-me-first/
+row
+  col
+    link "Landmark Regions" landmark-regions/
+    text ARIA landmark roles provide a powerful way to identify the organization and structure of a web page.
+  col
+    link "Providing Accessible Names and Descriptions" names-and-descriptions/
+    text Providing elements with accessible names, and where appropriate, accessible descriptions, is one of the most important responsibilities authors have when developing accessible web experiences.
+  col
+    link "Developing a Keyboard Interface" keyboard-interface/
+    text Unlike native HTML form elements, browsers do not provide keyboard support for graphical user interface (GUI) components that are made accessible with ARIA; authors have to provide the keyboard support in their code.
+  col
+    link "Grid and Table Properties" grid-and-table-properties/
+    text To fully present and describe a grid or table, in addition to parsing the headers, rows, and cells using the roles described in the grid pattern or table pattern, assistive technologies need to be able to determine other structural and presentation characteristics, such as the number and visibility of rows and columns.
+  col
+    link "Communicating Value and Limits for Range Widgets" range-related-properties/
+    text ARIA defines the following roles as range widgets, which means they communicate a value that is typically numeric and constrained to defined limits.
+  col
+    link "Structural Roles" structural-roles/
+    text ARIA provides a set of roles that convey the accessibility semantics of structures on a page.
+  col
+    link "Hiding Semantics with the presentation Role" hiding-semantics/
+    text While ARIA is primarily used to express semantics, there are some situations where hiding an element’s semantics from assistive technologies is helpful.
+row
+  h2 Help improve this page
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list  or via GitHub.
+link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+row
+  link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/practices/practices.html
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/practices/
+link "Back to Top" #top
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/
+text Strategies, standards, resources to make the Web accessible to people with disabilities
+row
+  link "Get News in Email" /WAI/news/subscribe/
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/
+  link Mastodon https://w3c.social/@wai
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+row
+  link Home /WAI/
+  link Contact /WAI/about/contacting/
+  link "Site map" /WAI/sitemap/
+  link "Support WAI" /WAI/about/support/
+  link News /WAI/news/
+  link "Accessibility statement" /WAI/about/accessibility-statement/
+  link "All Translations" /WAI/translations/
+  link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/software-license/
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/

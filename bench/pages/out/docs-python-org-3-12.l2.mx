@@ -1,0 +1,83 @@
+@docs_python_org_3_12 rev=0 @0,0,728,3232
+link index genindex.html @17,17,694,20
+text | @17,49,694,21
+link modules py-modindex.html @17,82,694,20
+image https://docs.python.org/3.12/_static/py.svg "Python logo" @17,114,0,0
+text » @17,126,694,20
+link Python https://www.python.org/ @17,158,694,21
+row @17,191,694,55
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文" @17,191,320,55
+  select "Python version" "dev (3.16)" "pre (3.15)" 3.14 3.13 *3.12.15 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6 @349,191,104,55
+text » @17,258,694,20
+link "3.12.15 Documentation" # @17,290,694,20
+text | @17,322,694,20
+row @17,354,694,58
+  field "Quick search" search @17,354,75,58
+  button button @104,365,75,36
+text | @17,424,694,20
+select Theme *Auto Light Dark @17,456,694,55
+row @17,523,694,1931
+  col @17,1348,609,281
+    h1 Python 3.12.15 documentation @17,1348,609,25
+    text Welcome! This is the official documentation for Python 3.12.15. @17,1385,609,20
+    text Documentation sections: @17,1417,609,21
+    table "What's new in Python 3.12? Or all \"What's new\" documents since Python 2.0 Tutorial Start here a tour of Python's syntax and features Library reference Standard library and builtins Language reference Syntax and language elements Python setup and usage How to install, configure, and use Python Python HOWTOs In-depth topic manuals" "Installing Python modules Third-party modules and PyPI.org Distributing Python modules Publishing modules for use by other people Extending and embedding For C/C++ programmers Python's C API C API reference FAQs Frequently asked questions (with answers!) Deprecations Deprecated functionality" @17,1450,609,30
+    text Indices, glossary, and search: @17,1492,609,20
+    table "Global module index All modules and libraries General index All functions, classes, and terms Glossary Terms explained" "Search page Search this documentation Complete table of contents Lists all sections and subsections" @17,1524,609,31
+    text Project information: @17,1567,609,20
+    table "Reporting issues Contributing to Docs Download the documentation" "History and license of Python Copyright About the documentation" @17,1599,609,30
+  row @638,523,73,1931
+    col @638,523,58,1931
+      h3 Download @638,523,58,19
+      link "Download these documents" download.html @638,554,58,61
+      h3 Docs by version @638,627,58,56
+      link "Python 3.16 (in development)" https://docs.python.org/3.16/ @638,695,58,61
+      link "Python 3.15 (pre-release)" https://docs.python.org/3.15/ @638,768,58,61
+      link "Python 3.14 (stable)" https://docs.python.org/3.14/ @638,841,58,61
+      link "Python 3.13 (stable)" https://docs.python.org/3.13/ @638,914,58,61
+      link "Python 3.12 (security-fixes)" https://docs.python.org/3.12/ @638,987,58,61
+      link "Python 3.11 (security-fixes)" https://docs.python.org/3.11/ @638,1060,58,61
+      link "Python 3.10 (security-fixes)" https://docs.python.org/3.10/ @638,1133,58,61
+      link "Python 3.9 (EOL)" https://docs.python.org/3.9/ @638,1206,58,61
+      link "Python 3.8 (EOL)" https://docs.python.org/3.8/ @638,1279,58,60
+      link "Python 3.7 (EOL)" https://docs.python.org/3.7/ @638,1351,58,61
+      link "Python 3.6 (EOL)" https://docs.python.org/3.6/ @638,1424,58,61
+      link "Python 3.5 (EOL)" https://docs.python.org/3.5/ @638,1497,58,61
+      link "Python 3.4 (EOL)" https://docs.python.org/3.4/ @638,1570,58,61
+      link "Python 3.3 (EOL)" https://docs.python.org/3.3/ @638,1643,58,61
+      link "Python 3.2 (EOL)" https://docs.python.org/3.2/ @638,1716,58,61
+      link "Python 3.1 (EOL)" https://docs.python.org/3.1/ @638,1789,58,61
+      link "Python 3.0 (EOL)" https://docs.python.org/3.0/ @638,1862,58,61
+      link "Python 2.7 (EOL)" https://docs.python.org/2.7/ @638,1935,58,61
+      link "Python 2.6 (EOL)" https://docs.python.org/2.6/ @638,2008,58,60
+      link "All versions" https://www.python.org/doc/versions/ @638,2080,58,41
+      h3 Other resources @638,2133,58,38
+      link "PEP Index" https://peps.python.org/ @638,2183,58,40
+      link "Beginner's Guide" https://wiki.python.org/moin/BeginnersGuide @638,2235,58,41
+      link "Book List" https://wiki.python.org/moin/PythonBooks @638,2288,58,40
+      link "Audio/Visual Talks" https://www.python.org/doc/av/ @638,2340,58,41
+      link "Python Developer’s Guide" https://devguide.python.org/ @638,2393,58,61
+    text « @708,1478,3,21
+link index genindex.html @17,2466,694,20
+text | @17,2498,694,20
+link modules py-modindex.html @17,2530,694,21
+image https://docs.python.org/3.12/_static/py.svg "Python logo" @17,2563,0,0
+text » @17,2575,694,20
+link Python https://www.python.org/ @17,2607,694,20
+row @17,2639,694,55
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文" @17,2639,320,55
+  select "Python version" "dev (3.16)" "pre (3.15)" 3.14 3.13 *3.12.15 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6 @349,2639,104,55
+text » @17,2706,694,21
+link "3.12.15 Documentation" # @17,2739,694,20
+text | @17,2771,694,20
+row @17,2803,694,58
+  field "Quick search" search @17,2803,75,58
+  button button @104,2814,75,36
+text | @17,2873,694,20
+select Theme *Auto Light Dark @17,2905,694,55
+text © 2001-2026, Python Software Foundation. This page is licensed under the Python Software Foundation License Version 2. Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License. See for more information. The Python Software Foundation is a non-profit corporation. Last updated on Oct 01, 2026 (15:25 UTC). ? Created using 8.2.3. @17,2972,694,81
+link Copyright copyright.html @17,3065,694,21
+link "History and License" /license.html @17,3098,694,20
+link "Please donate." https://www.python.org/psf/donations/ @17,3130,694,20
+link "Found a bug" /bugs.html @17,3162,694,21
+link Sphinx https://www.sphinx-doc.org/ @17,3195,694,20

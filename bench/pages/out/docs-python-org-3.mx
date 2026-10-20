@@ -1,15 +1,20 @@
 @docs_python_org_3
 link index genindex.html
+text |
 link modules py-modindex.html
 image https://docs.python.org/3/_static/py.svg "Python logo"
+text »
 link Python https://www.python.org/
 row
   select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文"
   select "Python version" "dev (3.16)" *3.15.0 3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6
+text »
 link "3.15.0 Documentation" #
+text |
 row
   field "Quick search" search
   button button
+text |
 select Theme *Auto Light Dark
 row
   col
@@ -19,6 +24,7 @@ row
     row
       col
         link "What's new in Python 3.15?" whatsnew/3.15.html
+        text Or
         link "all \"What's new\" documents since Python 2.0" whatsnew/index.html
         link Tutorial tutorial/index.html
         text Start here: a tour of Python's syntax and features
@@ -114,17 +120,23 @@ row
       link "Python Developer’s Guide" https://devguide.python.org/
     text «
 link index genindex.html
+text |
 link modules py-modindex.html
 image https://docs.python.org/3/_static/py.svg "Python logo"
+text »
 link Python https://www.python.org/
 row
   select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文"
   select "Python version" "dev (3.16)" *3.15.0 3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6
+text »
 link "3.15.0 Documentation" #
+text |
 row
   field "Quick search" search
   button button
+text |
 select Theme *Auto Light Dark
+text ©  2001 Python Software Foundation.  This page is licensed under the Python Software Foundation License Version 2.  Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.  See  for more information.  The Python Software Foundation is a non-profit corporation.    Last updated on Oct 20, 2026 (04:53 UTC). ?  Created using  8.2.3.
 link Copyright copyright.html
 link "History and License" /license.html
 link "Please donate." https://www.python.org/psf/donations/

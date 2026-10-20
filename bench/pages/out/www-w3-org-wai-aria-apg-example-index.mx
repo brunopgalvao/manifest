@@ -1,0 +1,157 @@
+@www_w3_org_wai_aria_apg_example_index
+row
+  row
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/
+    text How to build accessibility semantics into web patterns and widgets
+  row
+    link "W3C homepage" https://www.w3.org/
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/
+row
+  link "APG Home" /WAI/ARIA/apg/
+  link Patterns /WAI/ARIA/apg/patterns/
+  link Practices /WAI/ARIA/apg/practices/
+  link Index /WAI/ARIA/apg/example-index/
+  link About /WAI/ARIA/apg/about/
+row
+  col
+    h2 Page Contents
+    link "About the Index" #abouttheindex
+    link "Examples by Role" #examples_by_role_label
+    link "Examples By Properties and States" #examples_by_props_label
+    link "Experimental Examples" #examples_experimental_label
+  col
+    h1 Index
+    h2 About the Index
+    text This page includes a list of all ARIA design pattern examples indexed either by role or by ARIA properties and states.
+    link "Examples by Role" #examples_by_role_label
+    link "Examples by Properties and States" #examples_by_props_label
+    link "Experimental Examples" #examples_experimental_label
+    h2 Examples by Role
+    text NOTE: The HC abbreviation means example has High Contrast support.
+    table Role Examples
+      alert | Alert Alert Dialog
+      alertdialog | Alert Dialog
+      article | Disclosure (Show/Hide) Card (HC) Infinite Scrolling Feed
+      banner | Navigation Menubar (HC) Navigation Treeview (HC) Banner Landmark
+      button | Button (IDL Version) Button
+      cell | Table
+      checkbox | Checkbox (Mixed-State) (HC) Checkbox (Two State) (HC)
+      columnheader | Table
+      combobox | Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Date Picker Combobox (HC) Select-Only Combobox Editable Combobox with Grid Popup
+      complementary | Complementary Landmark
+      contentinfo | Navigation Menubar (HC) Navigation Treeview (HC) Contentinfo Landmark
+      dialog | Date Picker Combobox (HC) Date Picker Dialog (HC) Modal Dialog
+      feed | Infinite Scrolling Feed
+      form | Form Landmark
+      grid | Date Picker Combobox (HC) Editable Combobox with Grid Popup Date Picker Dialog (HC) Data Grid Layout Grid
+      gridcell | Editable Combobox with Grid Popup Layout Grid Treegrid Email Inbox
+      group | Auto-Rotating Image Carousel with Buttons for Slide Control Checkbox (Two State) (HC) Listbox with Grouped Options Editor Menubar (HC) Color Viewer Slider (HC) (Deprecated) Date Picker Spin Button Switch Using HTML Button (HC) File Directory Treeview Using Computed Properties File Directory Treeview Using Declared Properties Navigation Treeview (HC)
+      link | Link
+      listbox | Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Select-Only Combobox (Deprecated) Collapsible Dropdown Listbox Listbox with Grouped Options Listboxes with Rearrangeable Options Scrollable Listbox
+      main | Main Landmark
+      menu | Actions Menu Button Using aria-activedescendant (HC) Actions Menu Button Using element.focus() (HC) Navigation Menu Button (HC) Editor Menubar (HC) Navigation Menubar (HC) Toolbar
+      menubar | Editor Menubar (HC) Navigation Menubar (HC)
+      menuitem | Actions Menu Button Using aria-activedescendant (HC) Actions Menu Button Using element.focus() (HC) Navigation Menu Button (HC) Editor Menubar (HC) Navigation Menubar (HC)
+      menuitemcheckbox | Editor Menubar
+      menuitemradio | Editor Menubar (HC) Toolbar
+      meter | Meter
+      navigation | Navigation Menubar (HC) Navigation Treeview (HC) Navigation Landmark
+      none | Navigation Menu Button (HC) Navigation Menubar (HC) Rating Radio Group (HC) Horizontal Multi-Thumb Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) Navigation Treeview (HC)
+      option | Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Select-Only Combobox (Deprecated) Collapsible Dropdown Listbox Listbox with Grouped Options Listboxes with Rearrangeable Options Scrollable Listbox
+      radio | Radio Group Using aria-activedescendant (HC) Rating Radio Group (HC) Radio Group Using Roving tabindex (HC) Toolbar
+      radiogroup | Radio Group Using aria-activedescendant (HC) Rating Radio Group (HC) Radio Group Using Roving tabindex (HC) Toolbar
+      region | Accordion Auto-Rotating Image Carousel with Buttons for Slide Control Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Navigation Menubar (HC) Navigation Treeview (HC) Region Landmark
+      row | Editable Combobox with Grid Popup Layout Grid Table Treegrid Email Inbox
+      rowgroup | Table
+      search | Search Landmark
+      separator | Editor Menubar
+      slider | Horizontal Multi-Thumb Slider (HC) Color Viewer Slider (HC) Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC)
+      spinbutton | (Deprecated) Date Picker Spin Button Quantity Spin Button Toolbar
+      switch | Switch Using HTML Button (HC) Switch Using HTML Checkbox Input (HC) Switch (HC)
+      tab | Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Tabs with Automatic Activation (HC) Tabs with Manual Activation (HC)
+      table | Table
+      tablist | Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Tabs with Automatic Activation (HC) Tabs with Manual Activation (HC)
+      tabpanel | Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Tabs with Automatic Activation (HC) Tabs with Manual Activation (HC)
+      toolbar | Toolbar
+      tree | File Directory Treeview Using Computed Properties File Directory Treeview Using Declared Properties Navigation Treeview (HC)
+      treegrid | Treegrid Email Inbox
+      treeitem | File Directory Treeview Using Computed Properties File Directory Treeview Using Declared Properties Navigation Treeview (HC)
+    h2 Examples By Properties and States
+    text NOTE: The HC abbreviation means example has High Contrast support.
+    table "Property or State" Examples
+      aria-activedescendant | Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Select-Only Combobox Editable Combobox with Grid Popup (Deprecated) Collapsible Dropdown Listbox Listbox with Grouped Options Listboxes with Rearrangeable Options Scrollable Listbox Actions Menu Button Using aria-activedescendant (HC) Radio Group Using aria-activedescendant (HC)
+      aria-atomic | Alert
+      aria-autocomplete | Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Date Picker Combobox (HC) Editable Combobox with Grid Popup
+      aria-busy | Infinite Scrolling Feed
+      aria-checked | Checkbox (Mixed-State) (HC) Checkbox (Two State) (HC) Editor Menubar (HC) Radio Group Using aria-activedescendant (HC) Rating Radio Group (HC) Radio Group Using Roving tabindex (HC) Switch Using HTML Button (HC) Switch (HC) Toolbar
+      aria-colcount | Data Grid
+      aria-colindex | Data Grid
+      aria-controls | Accordion Auto-Rotating Image Carousel with Buttons for Slide Control Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Checkbox (Mixed-State) (HC) Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Date Picker Combobox (HC) Select-Only Combobox Editable Combobox with Grid Popup Disclosure (Show/Hide) Card (HC) Disclosure (Show/Hide) for Answers to Frequently Asked Questions (HC) Disclosure (Show/Hide) for Image Description (HC) Disclosure Navigation Menu with Top-Level Links Disclosure Navigation Menu (HC) Actions Menu Button Using aria-activedescendant (HC) Actions Menu Button Using element.focus() (HC) Navigation Menu Button (HC) Quantity Spin Button Tabs with Automatic Activation (HC) Tabs with Manual Activation (HC) Toolbar
+      aria-current | Breadcrumb Disclosure Navigation Menu with Top-Level Links Disclosure Navigation Menu (HC) Navigation Menubar (HC) Navigation Treeview (HC)
+      aria-describedby | Alert Dialog Date Picker Combobox (HC) Date Picker Dialog (HC) Modal Dialog Infinite Scrolling Feed Table
+      aria-disabled | Alert Dialog Editor Menubar (HC) Quantity Spin Button Toolbar
+      aria-errormessage | Quantity Spin Button
+      aria-expanded | Accordion Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Date Picker Combobox (HC) Select-Only Combobox Editable Combobox with Grid Popup Disclosure (Show/Hide) Card (HC) Disclosure (Show/Hide) for Answers to Frequently Asked Questions (HC) Disclosure (Show/Hide) for Image Description (HC) Disclosure Navigation Menu with Top-Level Links Disclosure Navigation Menu (HC) (Deprecated) Collapsible Dropdown Listbox Actions Menu Button Using aria-activedescendant (HC) Actions Menu Button Using element.focus() (HC) Navigation Menu Button (HC) Editor Menubar (HC) Navigation Menubar (HC) Toolbar Treegrid Email Inbox File Directory Treeview Using Computed Properties File Directory Treeview Using Declared Properties Navigation Treeview (HC)
+      aria-haspopup | Date Picker Combobox (HC) Editable Combobox with Grid Popup (Deprecated) Collapsible Dropdown Listbox Actions Menu Button Using aria-activedescendant (HC) Actions Menu Button Using element.focus() (HC) Navigation Menu Button (HC) Editor Menubar (HC) Navigation Menubar (HC) Toolbar
+      aria-hidden | Button (IDL Version) Listbox with Grouped Options Listboxes with Rearrangeable Options Scrollable Listbox Editor Menubar (HC) Horizontal Multi-Thumb Slider (HC) Color Viewer Slider (HC) Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) (Deprecated) Date Picker Spin Button Quantity Spin Button Switch Using HTML Button (HC) Switch Using HTML Checkbox Input (HC) Switch (HC) Sortable Table (HC) Toolbar
+      aria-invalid | Quantity Spin Button
+      aria-label | Breadcrumb Auto-Rotating Image Carousel with Buttons for Slide Control Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Date Picker Combobox (HC) Date Picker Dialog (HC) Link Editor Menubar (HC) Navigation Menubar (HC) Rating Radio Group (HC) Horizontal Multi-Thumb Slider (HC) (Deprecated) Date Picker Spin Button Table Toolbar Treegrid Email Inbox Navigation Treeview (HC)
+      aria-labelledby | Accordion Alert Dialog Checkbox (Two State) (HC) Date Picker Combobox (HC) Select-Only Combobox Editable Combobox with Grid Popup Date Picker Dialog (HC) Modal Dialog Infinite Scrolling Feed Data Grid Layout Grid (Deprecated) Collapsible Dropdown Listbox Listbox with Grouped Options Listboxes with Rearrangeable Options Scrollable Listbox Actions Menu Button Using aria-activedescendant (HC) Actions Menu Button Using element.focus() (HC) Navigation Menu Button (HC) Navigation Menubar (HC) Meter Radio Group Using aria-activedescendant (HC) Rating Radio Group (HC) Radio Group Using Roving tabindex (HC) Color Viewer Slider (HC) Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) (Deprecated) Date Picker Spin Button Switch Using HTML Button (HC) Tabs with Automatic Activation (HC) Tabs with Manual Activation (HC) File Directory Treeview Using Computed Properties File Directory Treeview Using Declared Properties Navigation Treeview (HC) Complementary Landmark Form Landmark Main Landmark Navigation Landmark Region Landmark Search Landmark
+      aria-level | Treegrid Email Inbox File Directory Treeview Using Declared Properties
+      aria-live | Alert Auto-Rotating Image Carousel with Buttons for Slide Control Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Date Picker Combobox (HC) Date Picker Dialog (HC)
+      aria-modal | Alert Dialog Date Picker Combobox (HC) Date Picker Dialog (HC) Modal Dialog
+      aria-multiselectable | Listboxes with Rearrangeable Options
+      aria-orientation | Vertical Temperature Slider
+      aria-owns | Navigation Treeview
+      aria-posinset | Infinite Scrolling Feed Treegrid Email Inbox File Directory Treeview Using Declared Properties
+      aria-pressed | Button (IDL Version) Button Toolbar
+      aria-roledescription | Auto-Rotating Image Carousel with Buttons for Slide Control Auto-Rotating Image Carousel with Tabs for Slide Control (HC)
+      aria-rowcount | Data Grid Layout Grid
+      aria-rowindex | Data Grid Layout Grid
+      aria-selected | Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Date Picker Combobox (HC) Select-Only Combobox Editable Combobox with Grid Popup Date Picker Dialog (HC) (Deprecated) Collapsible Dropdown Listbox Listbox with Grouped Options Listboxes with Rearrangeable Options Scrollable Listbox Tabs with Automatic Activation (HC) Tabs with Manual Activation (HC) File Directory Treeview Using Computed Properties File Directory Treeview Using Declared Properties
+      aria-setsize | Infinite Scrolling Feed Treegrid Email Inbox File Directory Treeview Using Declared Properties
+      aria-sort | Data Grid Sortable Table (HC)
+      aria-valuemax | Meter Horizontal Multi-Thumb Slider (HC) Color Viewer Slider (HC) Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) (Deprecated) Date Picker Spin Button Quantity Spin Button Toolbar
+      aria-valuemin | Meter Horizontal Multi-Thumb Slider (HC) Color Viewer Slider (HC) Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) (Deprecated) Date Picker Spin Button Quantity Spin Button Toolbar
+      aria-valuenow | Meter Horizontal Multi-Thumb Slider (HC) Color Viewer Slider (HC) Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) (Deprecated) Date Picker Spin Button Quantity Spin Button Toolbar
+      aria-valuetext | Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) (Deprecated) Date Picker Spin Button Toolbar
+    h2 Experimental Examples
+    text NOTE: The HC abbreviation means example has High Contrast support.
+    link "Experimental Scrollable Listbox with Actions on Options" ../patterns/listbox/examples/listbox-actions/
+    text ()
+    row
+      link "Experimental Tabs with Action Buttons" ../patterns/tabs/examples/tabs-actions/
+      text HC
+row
+  h2 Help improve this page
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list  or via GitHub.
+link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+row
+  link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/index/index.html
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/example-index/
+link "Back to Top" #top
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/
+text Strategies, standards, resources to make the Web accessible to people with disabilities
+row
+  link "Get News in Email" /WAI/news/subscribe/
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/
+  link Mastodon https://w3c.social/@wai
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+row
+  link Home /WAI/
+  link Contact /WAI/about/contacting/
+  link "Site map" /WAI/sitemap/
+  link "Support WAI" /WAI/about/support/
+  link News /WAI/news/
+  link "Accessibility statement" /WAI/about/accessibility-statement/
+  link "All Translations" /WAI/translations/
+  link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/software-license/
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/

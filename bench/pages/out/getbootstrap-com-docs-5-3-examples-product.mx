@@ -13,7 +13,9 @@ region 1248x529.19
   text @384,195.2 "Designed for engineers" size:64 weight:700 fill:#212529
   text @384,327.99 "Build anything you want with Aperture" size:28 fill:#212529
   text @528.73,371.19 "Learn more" size:20 fill:#0d6efd
+  figure @633.7,362.69 15x15
   text @664.7,371.19 "Buy" size:20 fill:#0d6efd
+  figure @704.25,362.69 15x15
   rect @708.3,109.11 529.81x617.65 fill:#333333 radius:21
   rect @-52.51,-171.12 529.81x617.65 fill:#e5e5e5 radius:21
 row

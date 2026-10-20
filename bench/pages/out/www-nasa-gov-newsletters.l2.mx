@@ -1,0 +1,154 @@
+@www_nasa_gov_newsletters rev=0 @0,0,728,2671
+row @17,17,694,58
+  row @17,17,193,58
+    button Explore @17,28,82,36
+    row @111,17,99,58
+      text Search @111,36,47,20
+      field Search search @170,17,40,58
+  link https://www.nasa.gov/ https://www.nasa.gov/ @222,36,152,20
+  row @386,28,310,36
+    button "News & Events" @386,28,131,36
+    button Multimedia @529,28,106,36
+    link NASA+ https://plus.nasa.gov/ @647,36,49,20
+row @17,87,694,40
+  link "News Releases" https://www.nasa.gov/2026-news-releases/ @17,87,94,40
+  link "Recently Published" https://www.nasa.gov/news/recently-published/ @123,87,118,40
+  link Blogs https://www.nasa.gov/nasa-blogs/ @253,97,34,20
+  link Newsletters https://www.nasa.gov/newsletters/ @299,97,74,20
+  button "Social Media" @385,89,110,36
+  link "Budgets and Reports" https://www.nasa.gov/budgets-plans-and-reports/ @507,87,129,40
+  button More @648,89,63,36
+row @17,139,694,80
+  col @17,139,85,80
+    h2 NASA News @17,139,85,43
+    h1 Newsletters @17,194,85,25
+  row @114,159,597,40
+    link "Centers and Facilities" #centers-and-facilities @114,159,98,40
+    link Earth #earth @224,169,24,20
+    link "Humans in Space" #humans-in-space @260,159,79,40
+    link "NASA Science" #science @351,159,66,40
+    link "The Solar System" #solar-system @429,159,80,40
+    link "For Students and Teachers" #students-and-teachers @521,159,124,40
+    link Technology #technology @657,169,54,20
+h2 Explore the Universe from your Inbox @17,231,694,21
+text Stay up-to-date on the latest news from NASA–from Earth to the Moon, the Solar System and beyond. @17,264,694,20
+row @17,296,694,21
+  text We will never share your email address. @17,296,265,21
+  link "Privacy Policy" https://www.nasa.gov/privacy/ @294,296,94,21
+link "Sign Up" https://lp.constantcontactpages.com/sl/7ThAX6O/signup @17,329,694,20
+image https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?resize=1536,1199 "Space image with stars and swirls of colorful orange, red and white." @17,361,0,0
+row @17,373,694,21
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,373,0,0
+  row @29,373,516,21
+    h2 NASA Newsletter @29,373,145,21
+    text Read the latest edition of the weekly NASA Newsletter @186,373,359,21
+  link "NASA Newsletter" https://myemail.constantcontact.com/Cauldron-of-Cosmic-Creation.html?soid=1132235311104&aid=f9avzcE1fng @557,373,115,21
+row @17,406,694,43
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,406,0,0
+  row @29,406,596,43
+    h2 NASA en español @29,406,92,43
+    text Cada semana, entregamos a tu bandeja de entrada lo último en la exploración de la Tierra, el sistema solar y más allá @133,407,492,41
+  link "NASA en español" https://lp.constantcontactpages.com/su/krhMYBd/novedadesdelanasa @637,407,74,41
+row @17,461,694,42
+  image https://www.nasa.gov/wp-content/uploads/2023/12/nasainsigniargb150px.png?resize=100,100 "NASA insignia" @17,461,0,0
+  row @29,461,564,42
+    h2 Virtual Guest Program @29,461,133,42
+    text Subscribe to receive invitations to participate virtually in NASA launches and milestones @174,462,419,40
+  link "Virtual Guest Program" https://lp.constantcontactpages.com/su/fGfhswT/VirtualGuest @605,462,106,40
+h3 Centers and Facilities @17,515,694,19
+table "Armstrong Flight Research Center X-Press Sign Up" "Monthly newsletter highlighting research at Armstrong Flight Research Center in Edwards, California." @17,546,694,206
+  Goddard Space Flight Center Public Engagement NewsSign Up | A monthly newsletter highlighting research and events at Goddard Space Flight Center in Greenbelt, Maryland.
+  Goddard Visitor Center NewsSign Up | Updates on inspiring and captivating educational experiences at Goddard Visitor Center in Greenbelt, Maryland.
+  Jet Propulsion Laboratory NewsSign Up | Breaking, daily, weekly, and monthly updates from Jet Propulsion Laboratory in Southern California.
+  NASA History News and NotesSign Up | Insights into NASA’s past programs and the historical underpinnings of the agency’s current endeavors.
+   | 
+h3 Earth @17,764,694,19
+table "Earth Disasters CommunitySign Up" "A quarterly digest for those who use NASA’s Earth observations and data to understand and address disasters." @17,795,694,276
+  Earth ObserverSign Up | Published quarterly, the Earth Observer has been the authoritative source for consolidating NASA Earth Science news for over three decades.
+  Earth Observatory Daily and Weekly Natural Hazard AnnouncementsSign Up | Daily and weekly highlights from NASA’s Earth Observatory, including stunning satellite imagery and news about Earth’s environment, climate, and Earth systems.
+  Earth Observatory Image of the DaySign Up | Stunning satellite imagery from NASA’s Earth Observatory, delivered daily.
+  Health and Air Quality Applications Read Online | Quarterly updates on NASA’s Health and Air Quality Applications program.
+  Health and Air Quality Applied Sciences TeamSign Up | Monthly updates on funding opportunities, new datasets, and events from NASA’s Health and Air Quality Applied Sciences Team.
+  Postcards from NASA Earth ScienceSign Up | Monthly updates from the Earth Science Division, part of NASA’s Science Mission Directorate.
+   | 
+h3 NASA Science @17,1083,694,19
+table "AstrobiologySign Up" "The latest news, events, and funding opportunities for understanding life in the Universe, from the NASA Astrobiology Program." @17,1114,694,206
+  Citizen Science PractitionersSign Up | A roundup of funding opportunities, projects, and other resources for scientists who lead or–want to lead–citizen science projects.
+  Heliophysics UpdatesSign Up | A selection of he news and research improving our understanding of the Sun and its interactions with Earth and the Solar System.
+  Landsat Science News DigestSign Up | The latest news, images, and science from NASA’s Landsat program, delivered monthly.
+  Open Science NewsSign Up | Monthly digest of science data, information, and knowledge available to the scientific community and the wider public to accelerate scientific research and understanding.
+   | 
+h3 The Solar System @17,1332,694,19
+table "International Observe the Moon NightSign Up" "Updates on International Observe the Moon Night – an annual event that brings together Moon enthusiasts and curious people worldwide." @17,1363,694,64
+   | 
+h3 For Students and Teachers @17,1439,694,19
+table "EarthriseSign Up" "In cooperation with federal and nonfederal partners, this monthly newsletter provides resources to elevate Earth and climate science in the classroom." @17,1470,694,135
+  Minority Serving Institutions Exchange NewsSign Up | A biweekly digest of opportunities and competitive federal awards for researchers, stakeholders, and faculty of Minority Serving Institutions to engage with NASA’s missions.
+  NASA ExpressSign Up | Inspire learning and exploration with a weekly dose of the latest science experiments, at-home activities, and student challenges.
+   | 
+h3 Technology @17,1617,694,19
+table "Flight OpportunitiesSign Up" "Monthly updates on flight testing opportunities for researchers to advance space technologies." @17,1648,694,135
+  NASA SBIR/STTR ProgramSign Up | Updates on funding opportunities to help small businesses develop, mature, and commercialize technologies that advance NASA missions from the agency’s Small Business Innovation Research/Small Business Technology Transfer program.
+  Solver ConnectionSign Up | A quarterly digest of prize competitions, challenges, and solicitations open to the public to develop solutions in support of NASA missions.
+   | 
+metric "Keep Exploring" "Discover More" @17,1795,694,66
+row @17,1873,694,20
+  link "Games and Interactives" https://www.nasa.gov/interactives/ @17,1873,156,20
+  link "Mobile and Desktop Apps" https://www.nasa.gov/apps/ @185,1873,171,20
+  link Blogs https://www.nasa.gov/nasa-blogs/ @368,1873,37,20
+  link Multimedia https://www.nasa.gov/multimedia/ @417,1873,73,20
+image https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg "NASA Logo" @17,1905,0,0
+row @17,1917,694,737
+  col @17,2158,176,255
+    h3 National Aeronautics and Space Administration @17,2158,176,57
+    text NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery. @17,2227,176,121
+    link "About NASA's Mission" https://www.nasa.gov/about/ @17,2360,176,21
+    link "Join Us" https://www.nasa.gov/get-involved/ @17,2393,176,20
+  col @205,1917,51,737
+    link Home https://www.nasa.gov/ @205,1917,51,21
+    link "News & Events" https://www.nasa.gov/news/ @205,1950,51,40
+    link Multimedia https://www.nasa.gov/multimedia/ @205,2002,51,21
+    link NASA+ https://plus.nasa.gov/ @205,2035,51,20
+    link Missions https://www.nasa.gov/nasa-missions/ @205,2067,51,20
+    link "Humans in Space" https://www.nasa.gov/humans-in-space/ @205,2099,51,61
+    link Earth https://science.nasa.gov/earth/ @205,2172,51,20
+    link "The Solar System" https://science.nasa.gov/solar-system/ @205,2204,51,61
+    link "The Universe" https://science.nasa.gov/universe/ @205,2277,51,41
+    link Science https://science.nasa.gov/ @205,2330,51,20
+    link Aeronautics https://www.nasa.gov/aeronautics/ @205,2362,51,21
+    link Technology https://www.nasa.gov/technology/ @205,2395,51,20
+    link "Learning Resources" https://www.nasa.gov/learning-resources/ @205,2427,51,40
+    link "About NASA" https://www.nasa.gov/about/ @205,2479,51,41
+    link "NASA en Español (opens in new tab)" https://www.nasa.gov/es/ @205,2532,51,122
+  col @268,2177,212,217
+    h3 Follow NASA @268,2177,212,19
+    row @268,2208,212,122
+      link "NASA on Facebook (opens in new tab)" https://www.facebook.com/NASA @268,2208,47,122
+      link "NASA on Instagram (opens in new tab)" https://www.instagram.com/nasa/ @327,2208,47,122
+      link "NASA on X (opens in new tab)" https://x.com/NASA @386,2208,36,122
+      link "NASA on YouTube (opens in new tab)" https://www.youtube.com/@NASA @434,2208,46,122
+    link "More NASA Social Accounts" https://www.nasa.gov/social-media/ @268,2342,212,20
+    link "NASA Newsletters" https://www.nasa.gov/nasa-newsletters/ @268,2374,212,20
+  col @492,1978,48,615
+    link Sitemap https://www.nasa.gov/sitemap/ @492,1978,48,20
+    link "For Media" https://www.nasa.gov/news/nasa-media-contacts/ @492,2010,48,41
+    link "Privacy Policy" https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/ @492,2063,48,40
+    link FOIA https://www.nasa.gov/foia/ @492,2115,48,21
+    link "No FEAR Act" https://www.nasa.gov/no-fear-act/ @492,2148,48,61
+    link "Office of the IG (opens in new tab)" http://oig.nasa.gov/ @492,2221,48,121
+    link "Budget & Annual Reports" https://www.nasa.gov/budgets-plans-and-reports/ @492,2354,48,82
+    link "Agency Financial Reports" https://www.nasa.gov/organizations/budget-annual-reports/agency-financial-reports/ @492,2448,48,60
+    link "Contact NASA" https://www.nasa.gov/contact-nasa/ @492,2520,48,41
+    link Accessibility https://www.nasa.gov/accessibility/ @492,2573,48,20
+  row @552,2255,159,61
+    row @552,2255,42,61
+      text Page Last Updated: @552,2255,18,61
+      text Oct 14, 2026 @582,2255,12,61
+    row @606,2265,38,41
+      text Page Editor: @606,2265,11,41
+      text Dacia Massengill @629,2265,15,41
+    row @656,2255,55,61
+      text Responsible NASA Official: @656,2255,27,61
+      text Abigail Bowman @695,2265,16,41
+!overflow social 108/115px
+!overflow more 61/64px

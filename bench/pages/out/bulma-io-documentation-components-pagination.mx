@@ -123,11 +123,12 @@ row
         h2 A responsive, usable, and flexible pagination
       col
         card
-          link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI653UCKSIKK3KF67D42QYF6BIL5QUC67DPK3JCVYIT2QKC6SILKJWCYADEK3EHJNCLSIZ" https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI653UCKSIKK3KF67D42QYF6BIL5QUC67DPK3JCVYIT2QKC6SILKJWCYADEK3EHJNCLSIZ
-          link "Roles change. AWS credentials travel with you. Get certified" https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI653UCKSIKK3KF67D42QYF6BIL5QUC67DPK3JCVYIT2QKC6SILKJWCYADEK3EHJNCLSIZ
+          link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTAI5KJKC6YIVKJUCT7IT53ECAYDC23JCW7DP23IHEYI55QLCESI623ECTNCYBZ52K" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTAI5KJKC6YIVKJUCT7IT53ECAYDC23JCW7DP23IHEYI55QLCESI623ECTNCYBZ52K
+          link "$200 in credits. 6 months. Try the new Free Plan now. Start free on AWS." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTAI5KJKC6YIVKJUCT7IT53ECAYDC23JCW7DP23IHEYI55QLCESI623ECTNCYBZ52K
         link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
     text The pagination component consists of several elements:
     text pagination-previous and pagination-next for incremental navigation
+    text which displays page items:
     text pagination-list danger
     text pagination-link for the page numbers
     text pagination-ellipsis for range separators
@@ -140,6 +141,7 @@ row
         link "Goto page 1" #
         text …
         link "Goto page 45" #
+        text 46
         link "Goto page 47" #
         text …
         link "Goto page 86" #
@@ -150,8 +152,10 @@ row
     text You can disable some links if they are not active, or change the amount of page numbers available.
     text Example
     row
+      text Previous
       link "Next page" #
       row
+        text 1
         link "Goto page 2" #
         link "Goto page 3" #
     text HTML
@@ -167,6 +171,7 @@ row
         link "Goto page 1" #
         text …
         link "Goto page 45" #
+        text 46
         link "Goto page 47" #
         text …
         link "Goto page 86" #
@@ -182,6 +187,7 @@ row
         link "Goto page 1" #
         text …
         link "Goto page 45" #
+        text 46
         link "Goto page 47" #
         text …
         link "Goto page 86" #
@@ -199,6 +205,7 @@ row
         link "Goto page 1" #
         text …
         link "Goto page 45" #
+        text 46
         link "Goto page 47" #
         text …
         link "Goto page 86" #
@@ -216,6 +223,7 @@ row
         link "Goto page 1" #
         text …
         link "Goto page 45" #
+        text 46
         link "Goto page 47" #
         text …
         link "Goto page 86" #
@@ -231,6 +239,7 @@ row
         link "Goto page 1" #
         text …
         link "Goto page 45" #
+        text 46
         link "Goto page 47" #
         text …
         link "Goto page 86" #
@@ -246,6 +255,7 @@ row
         link "Goto page 1" #
         text …
         link "Goto page 45" #
+        text 46
         link "Goto page 47" #
         text …
         link "Goto page 86" #
@@ -255,7 +265,7 @@ row
     button Copy danger
     h3 "Sass and CSS variables #"
     card
-      table Sass:badge CSS:badge Value:badge
+      table "Sass Variable:badge" "CSS Variable:badge" Value:badge
         $pagination-marginCopy | var(--bulma-pagination-margin)Copy | -0.25remCopy
         $pagination-min-widthCopy | var(--bulma-pagination-min-width)Copy | var(--bulma-control-height)Copy
         $pagination-item-border-styleCopy | var(--bulma-pagination-item-border-style)Copy | solidCopy
@@ -291,7 +301,7 @@ row
   col
     text Monthly donation
     link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
-link ".native-js { background: linear-gradient(-30deg, #f5f8fbE5, #f5f8fbE5 45%, #f5f8fb 45%) #fff; } .native-details { color: #181f25 !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #FFF; background-color: #3966d5; } .native-cta:hover { color: undefined; background-color: undefined; } BugHerd Deliver website design projects faster with BugHerd. Get 20% off your first 3 months. Try Now" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV27UC674YKQUF67ITKQLCTYDKZ3JCAAI627ICTSITK7KC67I627MC67I4237CV7IK53NCVYIL2JJHEYI55QLCESDE53ECTNCYBZ52K
+link ".native-js { background: linear-gradient(-30deg, #FFFFFFE5, #FFFFFFE5 45%, #FFFFFF 45%) #fff; } .native-details { color: #000E9C !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #FFFFFF; background-color: #000E9C; } .native-cta:hover { color: undefined; background-color: undefined; } OVHcloud In Minuten bereit, mit 99,95 % SLA. Konfigurieren Sie Ihren Advance-Cluster. Jetzt entdecken" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQMCAYI5Z3JCAAI627ICEAI42JKCVYDCKQMCW7D4K3UCESDT2QEC6ADTZ3JCAAI623UCVBDTK3K2JWNABY
 row
   col
     h3 Bulma by Jeremy Thomas.
@@ -303,6 +313,7 @@ row
     row
       link Twitter https://twitter.com/share
       link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+text Source code licensed . Website content licensed
 row
   link MIT https://opensource.org/licenses/mit-license.php
   link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/

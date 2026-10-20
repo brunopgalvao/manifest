@@ -1,0 +1,88 @@
+@www_usa_gov_voting_and_elections
+link "Skip to main content" #skip-to-h1
+row
+  text An official website of the United States government
+  button "Here's how you know"
+text Home Close Search 1-844-USAGOV1 Voting and elections Voter registration How, when, and where to vote Decide who to vote for Find my state or local election office Congressional, state, and local elections Voting and election laws How the president is elected Inauguration of the president Results of past elections
+row
+  region "Information" 300x150
+  text Visit  to learn how to register to vote or to update your registration.
+  link vote.gov https://www.vote.gov
+row
+  link "USAGov Logo" /
+  col
+    button Español primary
+    row
+      link "Call us at 1-844-USAGOV1" /phone
+      row
+        text Search
+        field Search search
+        button Search primary
+row
+  link "All topics and services" /#all-topics-header
+  link "The U.S. and its government" /about-the-us
+  link "Government benefits" /benefits
+  link "Immigration and U.S. citizenship" /immigration-and-citizenship
+  link "Money and credit" /money
+  link Travel /travel
+  link "Voting and elections" /voting-and-elections
+row
+  col
+    row
+      link Home /
+      text Voting and elections
+    h1 Voting and elections
+    h2 Most popular
+    link "Learn how to update your name, address, and party affiliation on your voter registration" /change-voter-registration
+    link "Find out the requirements for presidential candidates" /requirements-for-presidential-candidates
+    link "Contact your state and local election office" /state-local-elections
+    text Find out how to register to vote, where your voting location is, how presidential elections work, and more about voting in the United States.
+    row
+      link "Voter registration Learn how and when to register to vote, get a voter card, or change your address or name on your voter registration." /voter-registration
+      link "How, when, and where to vote See how to vote absentee, early, or on Election Day. Learn about voter IDs and who you can vote for." /how-to-vote
+      link "Decide who to vote for Learn how to make informed choices by using voter guides and sample ballots to research candidates." /voter-research
+      link "State and local election offices Find and contact your state or local election office for help with registering and voting." /state-election-office
+      link "Congressional, state, and local elections Congressional elections take place every two years. A variety of local and state elections happen every year. Learn about upcoming elections near you." /midterm-state-and-local-elections
+      link "Voting and election laws Find answers to common questions about voting rules and rights in the United States." /voting-laws
+      link "How the president is elected Find out how a candidate becomes president of the United States. Learn about caucuses and primaries, political conventions, the Electoral College, and more." /election
+      link "Inauguration of the president of the United States Inauguration Day is the day when the president-elect and vice-president-elect are sworn in and take office." /inauguration
+      link "Find results from past elections Get election results from past House, Senate, and presidential elections. Learn about past Electoral College results. Find out where to get state and local election results." /election-results
+    row
+      text Looking for something else?
+      link "Explore all topics and services" /#all-topics-header
+    row
+      text SHARE THIS PAGE:
+      row
+        link "https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/voting-and-elections&v=3" https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/voting-and-elections&v=3
+        link "https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fvoting-and-elections" https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fvoting-and-elections
+        link "mailto:?subject=https://www.usa.gov/voting-and-elections" mailto:?subject=https://www.usa.gov/voting-and-elections
+  link "Back to top" #main-content
+row
+  col
+    h3 Government information
+    link "All topics and services" /#all-topics-header
+    link "Directory of U.S. government agencies and departments" /agency-index
+    link "Branches of government" /branches-of-government
+  col
+    h3 About us
+    link "About USAGov" /about
+    link "Report a website issue" /site-issue-report-form
+    link "Website usage data" /website-analytics/
+  col
+    h3 For federal agencies
+    link "Partner with us" /partner-with-usagov
+    link "Read our blog" /blog
+row
+  col
+    h3 USAGov Contact Center
+    text Ask USA.gov a question at
+    link "1-844-USAGOV1 (1-844-872-4681)" /phone
+text USAGov is the official guide to government information and services
+text An official website of the
+link "U.S. General Services Administration" https://www.gsa.gov/
+text This website complies with Executive Order . English is the official language of the U.S. Government, and the English-language version of this website is the authoritative source for all federal information contained herein.
+link 14224 https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states
+row
+  link "Accessibility policy" /accessibility-policy
+  link "Privacy and security policies" /privacy-security
+  link "FOIA requests" https://www.gsa.gov/reference/freedom-of-information-act-foia

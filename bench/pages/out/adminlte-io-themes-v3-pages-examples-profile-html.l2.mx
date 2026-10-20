@@ -1,0 +1,131 @@
+@adminlte_io_themes_v3_pages_examples_pro rev=0 @0,0,728,2377
+row @17,17,694,36
+  row @17,17,191,36
+    button button @17,17,75,36
+    link Home ../../index3.html @104,25,40,20
+    link Contact # @156,25,52,20
+  row @220,17,296,36
+    button button @220,17,75,36
+    link 3 # @307,25,9,20
+    link 15 # @328,25,14,20
+    button button @354,17,75,36
+    button button @441,17,75,36
+link "AdminLTE 3" ../../index3.html @17,65,694,21
+row @17,98,694,20
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image" @17,98,0,0
+  link "Alexander Pierce" # @29,98,113,20
+row @17,130,694,58
+  field Search search @17,130,40,58
+  button button primary @69,141,75,36
+link Dashboard # @17,200,694,20
+link "Widgets New" ../widgets.html @17,232,694,20
+link "Layout Options 6" # @17,264,694,21
+link Charts # @17,297,694,20
+link "UI Elements" # @17,329,694,20
+link Forms # @17,361,694,20
+link Tables # @17,393,694,21
+text EXAMPLES @17,426,694,20
+link "Calendar 2" ../calendar.html @17,458,694,20
+link Gallery ../gallery.html @17,490,694,21
+link "Kanban Board" ../kanban.html @17,523,694,20
+link Mailbox # @17,555,694,20
+link Pages # @17,587,694,20
+link Invoice ../examples/invoice.html @17,619,694,21
+link Profile ../examples/profile.html @17,652,694,20
+link E-commerce ../examples/e-commerce.html @17,684,694,20
+link Projects ../examples/projects.html @17,716,694,21
+link "Project Add" ../examples/project-add.html @17,749,694,20
+link "Project Edit" ../examples/project-edit.html @17,781,694,20
+link "Project Detail" ../examples/project-detail.html @17,813,694,21
+link Contacts ../examples/contacts.html @17,846,694,20
+link FAQ ../examples/faq.html @17,878,694,20
+link "Contact us" ../examples/contact-us.html @17,910,694,20
+link Extras # @17,942,694,21
+link Search # @17,975,694,20
+text MISCELLANEOUS @17,1007,694,20
+link "Tabbed IFrame Plugin" ../../iframe.html @17,1039,694,21
+link Documentation https://adminlte.io/docs/3.1/ @17,1072,694,20
+text MULTI LEVEL EXAMPLE @17,1104,694,20
+link "Level 1" # @17,1136,694,21
+link "Level 1" # @17,1169,694,20
+link "Level 1" # @17,1201,694,20
+text LABELS @17,1233,694,21
+link Important # @17,1266,694,20
+link Warning # @17,1298,694,20
+link Informational # @17,1330,694,20
+row @17,1362,694,25
+  h1 Profile @17,1362,65,25
+  row @94,1365,130,20
+    link Home # @94,1365,40,20
+    text User Profile @146,1365,78,20
+row @17,1399,694,832
+  col @17,1473,166,684
+    card @17,1473,166,222
+      image https://adminlte.io/themes/v3/dist/img/user4-128x128.jpg "User profile picture" @34,1488,0,0
+      h3 Nina Mcintire @34,1500,132,19
+      text Software Engineer @34,1531,132,20
+      row @34,1563,132,21
+        text Followers @34,1563,65,21
+        text 1,322 primary @111,1563,36,21
+      row @34,1596,132,20
+        text Following @34,1596,64,20
+        text 543 primary @110,1596,26,20
+      row @34,1628,132,20
+        text Friends @34,1628,50,20
+        text 13,287 primary @96,1628,44,20
+      link Follow # @34,1660,132,20
+    card @17,1707,166,49
+      h3 About Me @34,1722,132,19
+    text Education @17,1768,166,21
+    text B.S. in Computer Science from the University of Tennessee at Knoxville @17,1801,166,81
+    text Location @17,1894,166,20
+    text Malibu, California @17,1926,166,20
+    text Skills @17,1958,166,21
+    text UI Design Coding Javascript PHP Node.js @17,1991,166,40
+    text Notes @17,2043,166,21
+    text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque. @17,2076,166,81
+  col @195,1399,516,832
+    row @195,1399,516,21
+      link Activity #activity @195,1399,50,21
+      link Timeline #timeline @257,1399,57,21
+      link Settings #settings @326,1399,54,21
+    image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "user image" @195,1432,0,0
+    link "Jonathan Burke Jr." # @195,1444,516,20
+    link # # @195,1476,516,20
+    text Shared publicly - 7:30 PM today @195,1508,516,21
+    text Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans. @195,1541,516,81
+    row @195,1634,516,20
+      link Share # @195,1634,39,20
+      link Like # @246,1634,28,20
+      link "Comments (5)" # @286,1634,95,20
+    field "Type a comment" @195,1666,516,58
+    image https://adminlte.io/themes/v3/dist/img/user7-128x128.jpg "User Image" @195,1736,0,0
+    link "Sarah Ross" # @195,1748,516,20
+    link # # @195,1780,516,20
+    text Sent you a message - 3 days ago @195,1812,516,21
+    text Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans. @195,1845,516,81
+    row @195,1938,516,58
+      field Response @195,1938,57,58
+      button Send danger @264,1949,65,36
+    image https://adminlte.io/themes/v3/dist/img/user6-128x128.jpg "User Image" @195,2008,0,0
+    link "Adam Jones" # @195,2020,516,20
+    link # # @195,2052,516,20
+    text Posted 5 photos - 5 days ago @195,2084,516,21
+    row @195,2117,516,12
+      image https://adminlte.io/themes/v3/dist/img/photo1.png Photo @195,2117,0,0
+      row @207,2117,12,12
+        col @207,2117,0,12
+          image https://adminlte.io/themes/v3/dist/img/photo2.png Photo @207,2117,0,0
+          image https://adminlte.io/themes/v3/dist/img/photo3.jpg Photo @207,2129,0,0
+        col @219,2117,0,12
+          image https://adminlte.io/themes/v3/dist/img/photo4.jpg Photo @219,2117,0,0
+          image https://adminlte.io/themes/v3/dist/img/photo1.png Photo @219,2129,0,0
+    row @195,2141,516,20
+      link Share # @195,2141,39,20
+      link Like # @246,2141,28,20
+      link "Comments (5)" # @286,2141,95,20
+    field "Type a comment" @195,2173,516,58
+text All rights reserved. @17,2243,694,20
+text Version 3.2.0 @17,2275,694,20
+text Copyright © 2014-2021 . @17,2307,694,20
+link AdminLTE.io https://adminlte.io @17,2339,694,21

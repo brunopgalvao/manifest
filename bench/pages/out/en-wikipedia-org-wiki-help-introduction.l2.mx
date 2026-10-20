@@ -1,0 +1,169 @@
+@en_wikipedia_org_wiki_help_introduction rev=0 @0,0,728,2498
+link "Jump to content" #bodyContent @17,17,694,20
+row @17,49,694,541
+  row @17,49,345,541
+    col @17,49,245,541
+      button "Main menu" @17,49,245,37
+      text Main menu @17,98,245,20
+      row @17,130,245,41
+        text Main menu @17,130,57,41
+        button "Move Main menu to sidebar" @86,132,176,36
+      link "Main page" /wiki/Main_Page @17,183,245,20
+      link Contents /wiki/Wikipedia:Contents @17,215,245,20
+      link "Current events" /wiki/Portal:Current_events @17,247,245,20
+      link "Random article" /wiki/Special:Random @17,279,245,21
+      link "About Wikipedia" /wiki/Wikipedia:About @17,312,245,20
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us @17,344,245,20
+      text Contribute @17,376,245,21
+      link Help /wiki/Help:Contents @17,409,245,20
+      link "Learn to edit" /wiki/Help:Introduction @17,441,245,20
+      link "Community portal" /wiki/Wikipedia:Community_portal @17,473,245,20
+      link "Recent changes" /wiki/Special:RecentChanges @17,505,245,21
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard @17,538,245,20
+      link "Special pages" /wiki/Special:SpecialPages @17,570,245,20
+    link /wiki/Main_Page /wiki/Main_Page @274,310,88,20
+  row @374,282,337,75
+    row @374,282,152,75
+      col @374,282,74,75
+        field "Search Wikipedia" search @374,282,74,75
+      button Search @460,302,66,36
+    row @538,300,173,40
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en @538,310,37,20
+      link "Create account" @587,300,80,40
+      link "Log in" @679,300,32,40
+row @17,602,694,1879
+  row @17,602,635,1879
+    row @17,1497,12,89
+      h1 Help:Introduction @17,1529,0,25
+      col @29,1497,0,89
+        button "119 languages" @29,1497,30,36
+        text 119 languages primary @29,1545,0,41
+    row @41,1000,23,1084
+      row @41,1521,2,41
+        link "Help page" /wiki/Help:Introduction @41,1521,0,41
+        link Talk /wiki/Help_talk:Introduction @53,1531,0,21
+      row @55,1000,9,1084
+        row @55,1521,0,41
+          link Read /wiki/Help:Introduction @55,1531,0,21
+          link "View source" @67,1521,0,41
+          link "View history" @79,1521,0,41
+        col @67,1000,0,1084
+          button Tools @67,1000,30,36
+          text Tools @67,1048,0,20
+          row @67,1080,0,37
+            text Tools @67,1088,0,21
+            button "Move Tools to sidebar" @79,1080,30,37
+          text General @67,1129,0,20
+          link "What links here" /wiki/Special:WhatLinksHere/Help:Introduction @67,1161,0,61
+          link "Related changes" /wiki/Special:RecentChangesLinked/Help:Introduction @67,1234,0,40
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Help:Introduction&oldid=1380567590 @67,1286,0,41
+          link "Page information" @67,1339,0,41
+          link "Get shortened URL" @67,1392,0,60
+          link "Switch to legacy parser" @67,1464,0,82
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q3945#sitelinks-wikipedia @67,1558,0,61
+          text Print/export @67,1631,0,20
+          link "Download as PDF" @67,1663,0,61
+          link "Printable version" javascript:print(); @67,1736,0,40
+          text In other projects @67,1788,0,61
+          link "Multilingual Wikisource" https://wikisource.org/wiki/Help:Introduction @67,1861,0,41
+          link Wikifunctions https://www.wikifunctions.org/wiki/Wikifunctions:Introduction @67,1914,0,20
+          link Wikinews https://en.wikinews.org/wiki/Wikinews:Introduction @67,1946,0,20
+          link Wikisource https://en.wikisource.org/wiki/Help:Introduction @67,1978,0,21
+          link Wikiversity https://en.wikiversity.org/wiki/Wikiversity:Welcome @67,2011,0,20
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q3945 @67,2043,0,41
+    col @76,1346,10,391
+      row @76,1346,10,36
+        text Appearance @76,1354,0,20
+        button "Hide Appearance" @88,1346,30,36
+      text Text @76,1394,10,20
+      text Small @76,1426,10,21
+      text Standard @76,1459,10,20
+      text Large @76,1491,10,20
+      text Width @76,1523,10,21
+      text Standard @76,1556,10,20
+      text Wide @76,1588,10,20
+      text Color @76,1620,10,21
+      text Automatic @76,1653,10,20
+      text Light @76,1685,10,20
+      text Dark @76,1717,10,20
+    col @98,602,554,1879
+      link "This page is semi-protected." https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#semi @98,602,554,21
+      text From Wikipedia, the free encyclopedia @98,635,554,20
+      text .mw-parser-output .introtosingle__main{position:relative;box-sizing:border-box;box-shadow:2px 2px 2px var(--box-shadow-color-base,#AAA);max-width:100%;overflow:hidden;border:1px solid var(--border-color-emphasized,black);margin:auto;padding-bottom:20px}.mw-parser-output .introtosingle__main-withbackground{background-image:url("https://upload.wikimedia.org/wikipedia/commons/9/94/Wikipedia-logo-v2_%2810_percent_opacity%29.svg");background-position:center -500px;background-repeat:no-repeat;background-size:auto 150%}.mw-parser-output .introtosingle__main-title{font-size:250%;line-height:150%;background:var(--accent-color-base,#3366cc);color:var(--color-inverted-fixed,#FFF);text-align:center;align-items:center;justify-content:center}.mw-parser-output .introtosingle__lead{background-color:var(--background-color-progressive-subtle,rgba(232,238,255,0.8));color:var(--color-base,#202122);padding:30px 60px;margin-bottom:30px}.mw-parser-output .introtosingle__frame{padding:0 1em}.mw-parser-output .introtosingle__base{box-sizing:border-box;max-width:1100px;min-height:55px;margin:auto;padding:5px 20px;font-size:1.1em;background-color:var(--background-color-neutral,#EEE);color:var(--color-base,#202122);border:1px solid var(--border-color-base,lightgrey)}.mw-parser-output .introtosingle__columns{display:flex;flex-direction:row;flex-wrap:wrap-reverse;justify-content:center}.mw-parser-output .introtosingle__columns-left,.mw-parser-output .introtosingle__columns-left-noborder,.mw-parser-output .introtosingle__columns-right{display:inline-block;flex:1 1 0;align-self:flex-end;vertical-align:top;min-width:200px;max-width:300px;padding:10px}.mw-parser-output .introtosingle__columns-left{text-align:right;justify-content:right;border-right:solid 1px #ddd}.mw-parser-output .introtosingle__columns-left-noborder{text-align:right;justify-content:right}.mw-parser-output .introtosingle__columns-right{text-align:left;justify-content:left}@media screen and (min-width:1101px){.mw-parser-output .introtosingle__main{max-width:1100px}} @98,667,554,528
+      text Introduction to Wikipedia @98,1207,554,20
+      text This page takes you through a set of tutorials aimed at newcomers who wish to start contributing. It covers all the basics, and each tutorial takes only a few minutes, so you can become a proficient quickly. @98,1239,554,61
+      text is made by people like you. @98,1312,554,20
+      link Wikipedia https://en.wikipedia.org/wiki/Wikipedia @98,1344,554,21
+      link Wikipedian https://en.wikipedia.org/wiki/Wikipedia:Wikipedians @98,1377,554,20
+      link "Get started" https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia @98,1409,554,20
+      link "Policies and guidelines" https://en.wikipedia.org/wiki/Help:Introduction_to_policies_and_guidelines/1 @98,1441,554,21
+      text There are two methods to edit Wikipedia: @98,1474,554,20
+      row @98,1506,554,356
+        text The shows the underlying page source code. It works like a plain text file, indicating links and other items using simple code like this: . @98,1623,173,122
+        col @283,1506,60,356
+          link "Help:Introduction to editing with Wiki Markup/1" https://en.wikipedia.org/wiki/Help:Introduction_to_editing_with_Wiki_Markup/1 @283,1506,60,101
+          link "wiki markup source editor" https://en.wikipedia.org/wiki/Help:Wikitext @283,1619,60,81
+          text [[Earth]] @283,1713,60,20
+          link Editing https://en.wikipedia.org/wiki/Help:Introduction_to_editing_with_Wiki_Markup/1 @283,1745,60,20
+          link Referencing https://en.wikipedia.org/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1 @283,1777,60,20
+          link Images https://en.wikipedia.org/wiki/Help:Introduction_to_images_with_Wiki_Markup/1 @283,1809,60,21
+          link Tables https://en.wikipedia.org/wiki/Help:Introduction_to_tables_with_Wiki_Markup/1 @283,1842,60,20
+        text is the easier way of editing that works more like a word processor and hides the underlying source code. Links and other items are edited using toolbar and pop-up interfaces. @355,1623,226,122
+        col @593,1552,59,263
+          link "Help:Introduction to editing with VisualEditor/1" https://en.wikipedia.org/wiki/Help:Introduction_to_editing_with_VisualEditor/1 @593,1552,59,102
+          link VisualEditor https://en.wikipedia.org/wiki/Help:VisualEditor @593,1666,59,20
+          link Editing https://en.wikipedia.org/wiki/Help:Introduction_to_editing_with_VisualEditor/1 @593,1698,59,21
+          link Referencing https://en.wikipedia.org/wiki/Help:Introduction_to_referencing_with_VisualEditor/1 @593,1730,59,21
+          link Images https://en.wikipedia.org/wiki/Help:Introduction_to_images_with_VisualEditor/1 @593,1763,59,20
+          link Tables https://en.wikipedia.org/wiki/Help:Introduction_to_tables_with_VisualEditor/1 @593,1795,59,20
+      link "Talk pages" https://en.wikipedia.org/wiki/Help:Introduction_to_talk_pages/1 @98,1874,554,20
+      link "Navigating Wikipedia" https://en.wikipedia.org/wiki/Help:Introduction_to_navigating_Wikipedia/1 @98,1906,554,21
+      link "Manual of Style" https://en.wikipedia.org/wiki/Help:Introduction_to_the_Manual_of_Style @98,1939,554,20
+      link Conclusion https://en.wikipedia.org/wiki/Help:Introduction/Conclusion @98,1971,554,20
+      link "View all as single page" https://en.wikipedia.org/wiki/Help:Introduction/All @98,2003,554,21
+      row @98,2036,554,57
+        field "Search help and administration pages" @98,2036,214,57
+        button fulltext @324,2046,78,37
+      link Shortcuts https://en.wikipedia.org/wiki/Wikipedia:Shortcut @98,2105,554,21
+      link WP:I https://en.wikipedia.org/w/index.php?title=Wikipedia:I&redirect=no @98,2138,554,20
+      link WP:START https://en.wikipedia.org/w/index.php?title=Wikipedia:START&redirect=no @98,2170,554,20
+      text For more training information, see also: @98,2202,554,20
+      link "Full help contents page" https://en.wikipedia.org/wiki/Help:Contents @98,2234,554,21
+      link "Training for students" https://en.wikipedia.org/wiki/Wikipedia:Training/For_students @98,2267,554,20
+      link "A single-page guide to contributing" https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia @98,2299,554,20
+      link "A training adventure game" https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Adventure @98,2331,554,21
+      link "Resources for new editors" https://en.wikipedia.org/wiki/Help:Getting_started @98,2364,554,20
+      link "Please consider leaving us some feedback." https://en.wikipedia.org/w/index.php?title=Help:Introduction/feedback&action=edit&section=new&editintro=Template:Feedback_editintro/Help:Introduction&preload=Template:Feedback_preload/Help:Introduction&preloadtitle=Feedback+from+%5B%5BUser%3A%7B%7Bsubst%3AREVISIONUSER%7D%7D%7C%7B%7Bsubst%3AREVISIONUSER%7D%7D%5D%5D+%28%7B%7Bsubst%3A%23time%3Aj+F+Y%7D%7D%29 @98,2396,554,20
+      text : @98,2428,554,21
+      row @98,2461,554,20
+        link Category /wiki/Help:Category @98,2461,61,20
+        link "Wikipedia quick introductions" /wiki/Category:Wikipedia_quick_introductions @171,2461,196,20
+  col @664,909,47,1265
+    text This page was last edited on 16 October 2026, at 14:57 (UTC). @664,909,47,223
+    text Page was rendered with . @664,1144,47,82
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid @664,1238,47,20
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the and . Wikipedia® is a registered trademark of the , a non-profit organization. @664,1270,47,487
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License @664,1769,47,102
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use @664,1883,47,40
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @664,1935,47,41
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/ @664,1988,47,61
+    row @664,2061,47,81
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @664,2081,0,41
+      link "About Wikipedia" /wiki/Wikipedia:About @676,2081,0,41
+      link Disclaimers /wiki/Wikipedia:General_disclaimer @688,2091,0,20
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us @700,2081,0,41
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information @712,2061,0,81
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct @724,2071,0,61
+      link Developers https://developer.wikimedia.org @736,2091,0,20
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org @748,2091,0,20
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement @760,2081,0,41
+      link "Mobile view" @772,2081,0,41
+    row @664,2154,47,20
+      link https://www.wikimedia.org/ https://www.wikimedia.org/ @664,2154,18,20
+      link https://www.mediawiki.org/ https://www.mediawiki.org/ @694,2154,17,20
+!overflow move 174/216px
+!overflow search2 64/76px
+!overflow 119 28/123px
+!overflow tools 28/66px
+!overflow move2 28/179px
+!overflow hide 28/146px

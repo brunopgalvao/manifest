@@ -94,9 +94,11 @@ row
       text Dark
     col
       text From Wikipedia, the free encyclopedia
+      text (Redirected from )
       link Renderer /w/index.php?title=Renderer&redirect=no
       row
         link "https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg" https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg
+        text Look up , , or  in Wiktionary, the free dictionary.
         col
           link Render https://en.wiktionary.org/wiki/Render
           link render https://en.wiktionary.org/wiki/render
@@ -105,48 +107,77 @@ row
       row
         h2 Computing
         link edit /w/index.php?title=Render&action=edit&section=1
+      text , generating an image from a model by means of computer programs
       link "Rendering (computer graphics)" https://en.wikipedia.org/wiki/Rendering_(computer_graphics)
+      text , creating two-dimensional images or animations showing the attributes of a proposed architectural design
       link "Architectural rendering" https://en.wikipedia.org/wiki/Architectural_rendering
+      text , creating, shading, and texturing of an image
       link "Artistic rendering" https://en.wikipedia.org/wiki/Artistic_rendering
+      text , composition of  for visual display
       row
         link Typesetting https://en.wikipedia.org/wiki/Typesetting
         link text https://en.wikipedia.org/wiki/Written_language
+      text Rendering engine, the software that transforms (renders) data into a picture
+      text , generating image or motion picture from virtual 3D models
       link "3D rendering" https://en.wikipedia.org/wiki/3D_rendering
+      text , component of a web browser that renders web pages
       link "Browser engine" https://en.wikipedia.org/wiki/Browser_engine
+      text , allows preservation of details that may be lost due to limiting contrast ratios
       link "High-dynamic-range rendering" https://en.wikipedia.org/wiki/High-dynamic-range_rendering
+      text , focuses on enabling a wide variety of expressive styles for digital art
       link "Non-photorealistic rendering" https://en.wikipedia.org/wiki/Non-photorealistic_rendering
+      text , algorithm for visible surface determination
       link "Scanline rendering" https://en.wikipedia.org/wiki/Scanline_rendering
+      text , used to display a 2D projection of a 3D discretely sampled data set
       link "Volume rendering" https://en.wikipedia.org/wiki/Volume_rendering
+      text and , uses lighting equations based on physics for more realistic images.
       row
         link "Ray tracing (graphics)" https://en.wikipedia.org/wiki/Ray_tracing_(graphics)
         link "physically based rendering" https://en.wikipedia.org/wiki/Physically_based_rendering
       row
         h2 Arts, entertainment, and media
         link edit /w/index.php?title=Render&action=edit&section=2
+      text , an independent radio program about the DIY (do-it-yourself) movement
       link "Rendered (radio program)" https://en.wikipedia.org/wiki/Rendered_(radio_program)
+      text "\"Render\" a song by Northlane from the album , 2017"
       link Mesmer https://en.wikipedia.org/wiki/Mesmer_(album)
+      text , a composition by Luciano Berio based on sketches for Franz Schubert's tenth symphony
       link "Rendering (Berio)" https://en.wikipedia.org/wiki/Rendering_(Berio)
       row
         h2 People
         link edit /w/index.php?title=Render&action=edit&section=3
+      text (1822–1881), German-American hunter, prospector and trader in southern Africa
       link "Adam Render" https://en.wikipedia.org/wiki/Adam_Render
+      text (born 1943), American diplomat
       link "Arlene Render" https://en.wikipedia.org/wiki/Arlene_Render
+      text (1887–1922), English cricketer
       link "George Render" https://en.wikipedia.org/wiki/George_Render
+      text (born 1947), American sprinter
       link "Mattiline Render" https://en.wikipedia.org/wiki/Mattiline_Render
+      text Michael Render (born 1975), better known as , American rapper
       link "Killer Mike" https://en.wikipedia.org/wiki/Killer_Mike
+      text (1926–2014), American musician and songwriter
       link "Rudy Render" https://en.wikipedia.org/wiki/Rudy_Render
+      text (born 1986), American football player
       link "Sergio Render" https://en.wikipedia.org/wiki/Sergio_Render
+      text (born 1943), Canadian politician
       link "Shirley Render" https://en.wikipedia.org/wiki/Shirley_Render
+      text (1913–1986), American academic and curator
       link "Sylvia Lyons Render" https://en.wikipedia.org/wiki/Sylvia_Lyons_Render
+      text (born 1997), American football player
       link "Tyshun Render" https://en.wikipedia.org/wiki/Tyshun_Render
+      text ( 1800), German grammarian and translator
       row
         link "William Render" https://en.wikipedia.org/wiki/William_Render
         text fl.
       row
         h2 Other uses
         link edit /w/index.php?title=Render&action=edit&section=4
+      text , separation of animal fat from other tissues, to convert waste animal tissue into value-added materials
       link "Rendering (animal products)" https://en.wikipedia.org/wiki/Rendering_(animal_products)
+      text or stucco, a surface covering to the external façade of buildings
       link "Cement render" https://en.wikipedia.org/wiki/Cement_render
+      text render, raising an unfolded right hand to the forehead to show respect or subjection to senior officers
       link Salute https://en.wikipedia.org/wiki/Salute
       row
         h2 See also
@@ -156,10 +187,13 @@ row
       link "All pages with titles containing Render" https://en.wikipedia.org/wiki/Special:Search/intitle:"Render"
       row
         link "https://en.wikipedia.org/wiki/File:Disambig_gray.svg" https://en.wikipedia.org/wiki/File:Disambig_gray.svg
+        text This  page lists articles associated with the title .
         col
           link disambiguation https://en.wikipedia.org/wiki/Help:Disambiguation
           text Render
+          text If an  incorrectly led you here, you may wish to change the link to point directly to the intended article.
           link "internal link" https://en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/Render&namespace=0
+      text :
       row
         link Categories /wiki/Help:Category
         row
@@ -167,7 +201,9 @@ row
           link "Disambiguation pages with surname-holder lists" /wiki/Category:Disambiguation_pages_with_surname-holder_lists
   col
     text "This page was last edited on 13 May 2026, at 17:46 (UTC)."
+    text Page was rendered with .
     link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the  and . Wikipedia® is a registered trademark of the , a non-profit organization.
     link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
     link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
     link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy

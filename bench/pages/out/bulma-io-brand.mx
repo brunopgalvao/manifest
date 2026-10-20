@@ -1,0 +1,118 @@
+@bulma_io_brand
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/
+row
+  link "https://bulma.io/" https://bulma.io/
+  row
+    link "Docs Documentation" https://bulma.io/documentation/
+    link Expo https://bulma.io/expo/
+    link Love https://bulma.io/love/
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/
+    row
+      link "Open Source on GitHub" https://github.com/jgthms/bulma
+      link "Follow me on Twitter" https://twitter.com/jgthms
+      button button
+      col
+        link "Made with Bulma" https://bulma.io/made-with-bulma/
+        link Backers https://bulma.io/backers/
+        link "Bulma Brand" https://bulma.io/brand/
+        link "Bulma Extensions" https://bulma.io/extensions/
+  col
+    button button
+    card
+      button "Light mode"
+      button "Dark mode"
+      button "System mode" success
+  col
+    button button
+    card
+      field "search input"
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip
+h1 The Bulma brand
+h2 Download the official Bulma logo.
+link "#carbon-cover{all:initial;color:inherit;pointer-events:inherit;visibility:inherit}#carbon-cover :where(:not(svg,svg *)){all:revert;color:inherit;font:inherit;line-height:normal;margin:initial;padding:initial}#carbon-cover :after,#carbon-cover :before{all:revert}#carbon-cover svg{fill:none}#carbon-cover svg *{fill:inherit;stroke:inherit;stroke-width:inherit}#carbon-cover button{background:none;border:none;cursor:pointer;margin:0;outline:none;padding:0}#carbon-cover .carbon-visually-hidden{clip:rect(0 0 0 0);border:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px}#carbon-cover{--carbon-font-family:system-ui;--carbon-font-size:14px;--carbon-shadow:0 0 1px rgba(0,0,0,.085),0 0 2px rgba(0,0,0,.085),0 0 4px rgba(0,0,0,.085),0 0 8px rgba(0,0,0,.085);--carbon-icon-size:0.75em;align-items:flex-start;display:flex;flex-direction:column;font-family:var(--carbon-font-family);font-size:var(--carbon-font-size);max-inline-size:400px;z-index:10}#carbon-cover>a:first-child{align-items:flex-start;border-radius:6px;box-shadow:var(--carbon-shadow);display:flex;flex-direction:row-reverse;flex-wrap:wrap;gap:2ch;justify-content:center;overflow:hidden;padding:5%;position:relative;text-decoration:none;z-index:2}#carbon-cover>a:first-child:after,#carbon-cover>a:first-child:before{content:\"\";inset:0;position:absolute}#carbon-cover>a:before{background-position:50%;background-repeat:no-repeat;background-size:cover;z-index:0}#carbon-cover>a:after{backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);content:\"\";z-index:1}#carbon-cover>a>*{z-index:3}#carbon-cover .carbon-main{color:#fff;display:flex;flex-basis:calc(100% - 250px);flex-direction:column;flex-grow:1;row-gap:1ch}#carbon-cover .carbon-logo{display:flex;flex-direction:column;justify-content:flex-start;min-height:72px}#carbon-cover .carbon-logo img{height:auto;max-width:125px}#carbon-cover .carbon-tagline{font-weight:500;line-height:1.3;margin-top:auto;max-inline-size:16ch}#carbon-cover .carbon-text{align-items:flex-start;display:flex;flex-direction:column;height:100px}#carbon-cover .carbon-description{flex-grow:1;font-size:.9em;line-height:1.35;max-inline-size:54ch;overflow:hidden}#carbon-cover .carbon-cta{background:#fff;border-radius:3px;box-shadow:var(--carbon-shadow);color:#111;font-weight:600;padding:1ex 1ch}#carbon-cover .carbon-large-image{border-radius:5px;box-shadow:var(--carbon-shadow);display:block;max-inline-size:250px;width:50%}#carbon-cover a:hover .carbon-large-image{width:20%}#carbon-cover .carbon-footer{align-items:center;-moz-column-gap:1ch;column-gap:1ch;display:flex;justify-content:stretch;margin-block-start:.75ex;position:relative;text-decoration:none;width:100%}#carbon-cover .carbon-footer a{text-decoration:none}#carbon-cover .carbon-footer button{background-color:#f2f2f2;border-radius:3px;display:grid;padding:.5ch;place-content:center}#carbon-cover .carbon-footer button:hover{background-color:#e6e6e6;transition:background-color .2s ease-in-out}#carbon-cover button>svg{height:var(--carbon-icon-size);stroke:#b3b3b3;stroke-width:3;width:var(--carbon-icon-size)}#carbon-cover .carbon-via{font-size:.9em;margin-left:auto;opacity:.6}#carbon-cover .carbon-footer a.carbon-no-hover .carbon-share{display:none;position:relative}#carbon-cover .carbon-share-icon:not(.carbon-no-hover):hover+.carbon-share,#carbon-cover .carbon-share:hover{opacity:1;z-index:3}#carbon-cover .carbon-share-icon:not(.carbon-no-hover):hover:before{content:\"\";display:block;height:5ex;position:absolute;top:-10px;width:14ch;z-index:2}#carbon-cover .carbon-share{background-color:#fff;border:1px solid #ccc;border-radius:5px;bottom:calc(var(--carbon-icon-size) + 14px);box-shadow:var(--carbon-shadow);left:0;opacity:0;padding:.2em;position:absolute;transition:opacity .2s ease-in-out}#carbon-cover .carbon-share ul{color:#212121;font-size:12px;font-weight:500;list-style-type:none;padding:.5em}#carbon-cover .carbon-share ul>*+*{margin-top:10px}#carbon-cover .carbon-description{opacity:0;transition:opacity .1s ease-out}#carbon-cover a:hover .carbon-description{opacity:1;transition:opacity .5s ease-in .25s}#carbon-cover .carbon-large-image{transition:width .25s ease-in-out}#carbon-cover .carbon-main{transition:opacity .01s ease-in-out}@property --reveal-mask{syntax:\"<percentage>\";initial-value:0%;inherits:false}#carbon-cover .carbon-reveal{animation:var(--reveal-duration,1.5s) var(--reveal-delay,0s) carbon-reveal forwards;-webkit-mask-image:linear-gradient(var(--reveal-angle,135deg),#000 calc(var(--reveal-mask) - 100%),transparent var(--reveal-mask))}@keyframes carbon-reveal{70%,to{--reveal-mask:200%}}#carbon-cover.carbon-cover--stacked>a:first-child{aspect-ratio:unset}#carbon-cover.carbon-cover--stacked .carbon-large-image{max-width:100%;width:unset}#carbon-cover.carbon-cover--stacked a:hover .carbon-large-image{width:unset}#carbon-cover.carbon-cover--stacked .carbon-logo{min-height:unset;row-gap:1ch}#carbon-cover.carbon-cover--stacked .carbon-text{align-items:stretch;height:unset;row-gap:1ch}#carbon-cover.carbon-cover--stacked .carbon-tagline{max-inline-size:unset;min-height:unset}#carbon-cover.carbon-cover--stacked .carbon-description{flex-grow:unset;line-height:1.4;opacity:unset}#carbon-cover.carbon-cover--stacked .carbon-cta{align-self:stretch;text-align:center} #carbon-cover.creativeId-784198 > a:first-child::after { background-color: rgba(255, 87, 233, 0.8); } #carbon-cover.creativeId-784198 > a:first-child::before { background-image: url('https://srv.carbonads.net/static/30242/e796dd3f2bf267b9600988f46e94d64d0311a2f6') } #carbon-cover{text-align:left}.bd-carbon > div{height:unset;width:unset} AWS Training & Certification Prove you can build it. Not just explain it. Earn a microcredenti" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQWCV7I5Z3JCAAI653NFTADE2JKC67IP53MCK7I5K7NF6BIE27NCWSITK3MHEYI55QLCESI623ECTNCYBZ52K
+row
+  button "Share Carbon Ad Icon"
+  col
+    link "Copy Link" #
+    link "Send via email" #
+  button "Refresh Carbon Ad"
+  link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+row
+  text Icon
+  row
+    link PNG https://bulma.io/assets/brand/BulmaIcon.png
+    link SVG https://bulma.io/assets/brand/BulmaIcon.svg
+  row
+    link PNG https://bulma.io/assets/brand/BulmaIconBlack.png
+    link SVG https://bulma.io/assets/brand/BulmaIconBlack.svg
+  row
+    link PNG https://bulma.io/assets/brand/BulmaIconWhite.png
+    link SVG https://bulma.io/assets/brand/BulmaIconWhite.svg
+  text Wordmark
+  row
+    link PNG https://bulma.io/assets/brand/BulmaWordmark.png
+    link SVG https://bulma.io/assets/brand/BulmaWordmark.svg
+  row
+    link PNG https://bulma.io/assets/brand/BulmaWordmark.png
+    link SVG https://bulma.io/assets/brand/BulmaWordmark.svg
+  row
+    link PNG https://bulma.io/assets/brand/BulmaWordmarkWhite.png
+    link SVG https://bulma.io/assets/brand/BulmaWordmarkWhite.svg
+  text Logo
+  row
+    link PNG https://bulma.io/assets/brand/BulmaLogo.png
+    link SVG https://bulma.io/assets/brand/BulmaLogo.svg
+  row
+    link PNG https://bulma.io/assets/brand/BulmaLogoBlack.png
+    link SVG https://bulma.io/assets/brand/BulmaLogoBlack.svg
+  row
+    link PNG https://bulma.io/assets/brand/BulmaLogoWhite.png
+    link SVG https://bulma.io/assets/brand/BulmaLogoWhite.svg
+  text Color
+  col
+    row
+      text Hex
+      text "#00D1B2"
+      button Copy
+    row
+      text RGB
+      text rgb(0, 209, 178)
+      button Copy
+    row
+      text HSL
+      text hsl(171, 100%, 41%)
+      button Copy
+h3 How to support Bulma
+row
+  col
+    text One-time donation
+    field submit
+  col
+    text Browser testing via
+    link "https://www.lambdatest.com/" https://www.lambdatest.com/
+  col
+    text Visit our Sponsors
+    link celebian https://celebian.com/
+  col
+    text Monthly donation
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
+link ".native-js { background: linear-gradient(-30deg, #FFFFFFE5, #FFFFFFE5 45%, #FFFFFF 45%) #fff; } .native-details { color: #181A1C !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #181A1C; background-color: #32E6E2; } .native-cta:hover { color: undefined; background-color: undefined; } Netlify One gateway for every AI model Explore AI Gateway" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITK3YCE7ILZ3JCAAI627ICE7D5K7KCYYILKJYCYAI523JFTAILKQWCWSDVK3KC6SILKJWCA7DVK3EHJNCLSIZ
+row
+  col
+    h3 Bulma by Jeremy Thomas.
+    link "Follow @jgthms" https://twitter.com/jgthms
+  col
+    h3 Contribute on GitHub
+  col
+    h3 Share on social media
+    row
+      link Twitter https://twitter.com/share
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+text Source code licensed . Website content licensed
+row
+  link MIT https://opensource.org/licenses/mit-license.php
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer
+row
+  link "Get started for Free Get started for Free" https://cssmasterclass.io/
+  button close

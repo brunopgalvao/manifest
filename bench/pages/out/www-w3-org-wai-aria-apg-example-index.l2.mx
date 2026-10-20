@@ -1,0 +1,185 @@
+@www_w3_org_wai_aria_apg_example_index rev=0 @0,0,728,4203
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+row @17,102,694,3514
+  col @17,1692,58,334
+    h2 Page Contents @17,1692,58,42
+    link "About the Index" #abouttheindex @17,1746,58,61
+    link "Examples by Role" #examples_by_role_label @17,1819,58,41
+    link "Examples By Properties and States" #examples_by_props_label @17,1872,58,101
+    link "Experimental Examples" #examples_experimental_label @17,1985,58,41
+  col @87,102,624,3514
+    h1 Index @87,102,624,25
+    h2 About the Index @87,139,624,21
+    text This page includes a list of all ARIA design pattern examples indexed either by role or by ARIA properties and states. @87,172,624,41
+    link "Examples by Role" #examples_by_role_label2 @87,225,624,20
+    link "Examples by Properties and States" #examples_by_props_label2 @87,257,624,20
+    link "Experimental Examples" #examples_experimental_label2 @87,289,624,21
+    h2 Examples by Role @87,322,624,21
+    text NOTE: The HC abbreviation means example has High Contrast support. @87,355,624,20
+    table Role Examples @87,387,624,1689
+      alert | Alert Alert Dialog
+      alertdialog | Alert Dialog
+      article | Disclosure (Show/Hide) Card (HC) Infinite Scrolling Feed
+      banner | Navigation Menubar (HC) Navigation Treeview (HC) Banner Landmark
+      button | Button (IDL Version) Button
+      cell | Table
+      checkbox | Checkbox (Mixed-State) (HC) Checkbox (Two State) (HC)
+      columnheader | Table
+      combobox | Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Date Picker Combobox (HC) Select-Only Combobox Editable Combobox with Grid Popup
+      complementary | Complementary Landmark
+      contentinfo | Navigation Menubar (HC) Navigation Treeview (HC) Contentinfo Landmark
+      dialog | Date Picker Combobox (HC) Date Picker Dialog (HC) Modal Dialog
+      feed | Infinite Scrolling Feed
+      form | Form Landmark
+      grid | Date Picker Combobox (HC) Editable Combobox with Grid Popup Date Picker Dialog (HC) Data Grid Layout Grid
+      gridcell | Editable Combobox with Grid Popup Layout Grid Treegrid Email Inbox
+      group | Auto-Rotating Image Carousel with Buttons for Slide Control Checkbox (Two State) (HC) Listbox with Grouped Options Editor Menubar (HC) Color Viewer Slider (HC) (Deprecated) Date Picker Spin Button Switch Using HTML Button (HC) File Directory Treeview Using Computed Properties File Directory Treeview Using Declared Properties Navigation Treeview (HC)
+      link | Link
+      listbox | Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Select-Only Combobox (Deprecated) Collapsible Dropdown Listbox Listbox with Grouped Options Listboxes with Rearrangeable Options Scrollable Listbox
+      main | Main Landmark
+      menu | Actions Menu Button Using aria-activedescendant (HC) Actions Menu Button Using element.focus() (HC) Navigation Menu Button (HC) Editor Menubar (HC) Navigation Menubar (HC) Toolbar
+      menubar | Editor Menubar (HC) Navigation Menubar (HC)
+      menuitem | Actions Menu Button Using aria-activedescendant (HC) Actions Menu Button Using element.focus() (HC) Navigation Menu Button (HC) Editor Menubar (HC) Navigation Menubar (HC)
+      menuitemcheckbox | Editor Menubar
+      menuitemradio | Editor Menubar (HC) Toolbar
+      meter | Meter
+      navigation | Navigation Menubar (HC) Navigation Treeview (HC) Navigation Landmark
+      none | Navigation Menu Button (HC) Navigation Menubar (HC) Rating Radio Group (HC) Horizontal Multi-Thumb Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) Navigation Treeview (HC)
+      option | Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Select-Only Combobox (Deprecated) Collapsible Dropdown Listbox Listbox with Grouped Options Listboxes with Rearrangeable Options Scrollable Listbox
+      radio | Radio Group Using aria-activedescendant (HC) Rating Radio Group (HC) Radio Group Using Roving tabindex (HC) Toolbar
+      radiogroup | Radio Group Using aria-activedescendant (HC) Rating Radio Group (HC) Radio Group Using Roving tabindex (HC) Toolbar
+      region | Accordion Auto-Rotating Image Carousel with Buttons for Slide Control Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Navigation Menubar (HC) Navigation Treeview (HC) Region Landmark
+      row | Editable Combobox with Grid Popup Layout Grid Table Treegrid Email Inbox
+      rowgroup | Table
+      search | Search Landmark
+      separator | Editor Menubar
+      slider | Horizontal Multi-Thumb Slider (HC) Color Viewer Slider (HC) Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC)
+      spinbutton | (Deprecated) Date Picker Spin Button Quantity Spin Button Toolbar
+      switch | Switch Using HTML Button (HC) Switch Using HTML Checkbox Input (HC) Switch (HC)
+      tab | Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Tabs with Automatic Activation (HC) Tabs with Manual Activation (HC)
+      table | Table
+      tablist | Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Tabs with Automatic Activation (HC) Tabs with Manual Activation (HC)
+      tabpanel | Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Tabs with Automatic Activation (HC) Tabs with Manual Activation (HC)
+      toolbar | Toolbar
+      tree | File Directory Treeview Using Computed Properties File Directory Treeview Using Declared Properties Navigation Treeview (HC)
+      treegrid | Treegrid Email Inbox
+      treeitem | File Directory Treeview Using Computed Properties File Directory Treeview Using Declared Properties Navigation Treeview (HC)
+    h2 Examples By Properties and States @87,2088,624,21
+    text NOTE: The HC abbreviation means example has High Contrast support. @87,2121,624,20
+    table "Property or State" Examples @87,2153,624,1300
+      aria-activedescendant | Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Select-Only Combobox Editable Combobox with Grid Popup (Deprecated) Collapsible Dropdown Listbox Listbox with Grouped Options Listboxes with Rearrangeable Options Scrollable Listbox Actions Menu Button Using aria-activedescendant (HC) Radio Group Using aria-activedescendant (HC)
+      aria-atomic | Alert
+      aria-autocomplete | Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Date Picker Combobox (HC) Editable Combobox with Grid Popup
+      aria-busy | Infinite Scrolling Feed
+      aria-checked | Checkbox (Mixed-State) (HC) Checkbox (Two State) (HC) Editor Menubar (HC) Radio Group Using aria-activedescendant (HC) Rating Radio Group (HC) Radio Group Using Roving tabindex (HC) Switch Using HTML Button (HC) Switch (HC) Toolbar
+      aria-colcount | Data Grid
+      aria-colindex | Data Grid
+      aria-controls | Accordion Auto-Rotating Image Carousel with Buttons for Slide Control Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Checkbox (Mixed-State) (HC) Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Date Picker Combobox (HC) Select-Only Combobox Editable Combobox with Grid Popup Disclosure (Show/Hide) Card (HC) Disclosure (Show/Hide) for Answers to Frequently Asked Questions (HC) Disclosure (Show/Hide) for Image Description (HC) Disclosure Navigation Menu with Top-Level Links Disclosure Navigation Menu (HC) Actions Menu Button Using aria-activedescendant (HC) Actions Menu Button Using element.focus() (HC) Navigation Menu Button (HC) Quantity Spin Button Tabs with Automatic Activation (HC) Tabs with Manual Activation (HC) Toolbar
+      aria-current | Breadcrumb Disclosure Navigation Menu with Top-Level Links Disclosure Navigation Menu (HC) Navigation Menubar (HC) Navigation Treeview (HC)
+      aria-describedby | Alert Dialog Date Picker Combobox (HC) Date Picker Dialog (HC) Modal Dialog Infinite Scrolling Feed Table
+      aria-disabled | Alert Dialog Editor Menubar (HC) Quantity Spin Button Toolbar
+      aria-errormessage | Quantity Spin Button
+      aria-expanded | Accordion Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Date Picker Combobox (HC) Select-Only Combobox Editable Combobox with Grid Popup Disclosure (Show/Hide) Card (HC) Disclosure (Show/Hide) for Answers to Frequently Asked Questions (HC) Disclosure (Show/Hide) for Image Description (HC) Disclosure Navigation Menu with Top-Level Links Disclosure Navigation Menu (HC) (Deprecated) Collapsible Dropdown Listbox Actions Menu Button Using aria-activedescendant (HC) Actions Menu Button Using element.focus() (HC) Navigation Menu Button (HC) Editor Menubar (HC) Navigation Menubar (HC) Toolbar Treegrid Email Inbox File Directory Treeview Using Computed Properties File Directory Treeview Using Declared Properties Navigation Treeview (HC)
+      aria-haspopup | Date Picker Combobox (HC) Editable Combobox with Grid Popup (Deprecated) Collapsible Dropdown Listbox Actions Menu Button Using aria-activedescendant (HC) Actions Menu Button Using element.focus() (HC) Navigation Menu Button (HC) Editor Menubar (HC) Navigation Menubar (HC) Toolbar
+      aria-hidden | Button (IDL Version) Listbox with Grouped Options Listboxes with Rearrangeable Options Scrollable Listbox Editor Menubar (HC) Horizontal Multi-Thumb Slider (HC) Color Viewer Slider (HC) Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) (Deprecated) Date Picker Spin Button Quantity Spin Button Switch Using HTML Button (HC) Switch Using HTML Checkbox Input (HC) Switch (HC) Sortable Table (HC) Toolbar
+      aria-invalid | Quantity Spin Button
+      aria-label | Breadcrumb Auto-Rotating Image Carousel with Buttons for Slide Control Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Date Picker Combobox (HC) Date Picker Dialog (HC) Link Editor Menubar (HC) Navigation Menubar (HC) Rating Radio Group (HC) Horizontal Multi-Thumb Slider (HC) (Deprecated) Date Picker Spin Button Table Toolbar Treegrid Email Inbox Navigation Treeview (HC)
+      aria-labelledby | Accordion Alert Dialog Checkbox (Two State) (HC) Date Picker Combobox (HC) Select-Only Combobox Editable Combobox with Grid Popup Date Picker Dialog (HC) Modal Dialog Infinite Scrolling Feed Data Grid Layout Grid (Deprecated) Collapsible Dropdown Listbox Listbox with Grouped Options Listboxes with Rearrangeable Options Scrollable Listbox Actions Menu Button Using aria-activedescendant (HC) Actions Menu Button Using element.focus() (HC) Navigation Menu Button (HC) Navigation Menubar (HC) Meter Radio Group Using aria-activedescendant (HC) Rating Radio Group (HC) Radio Group Using Roving tabindex (HC) Color Viewer Slider (HC) Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) (Deprecated) Date Picker Spin Button Switch Using HTML Button (HC) Tabs with Automatic Activation (HC) Tabs with Manual Activation (HC) File Directory Treeview Using Computed Properties File Directory Treeview Using Declared Properties Navigation Treeview (HC) Complementary Landmark Form Landmark Main Landmark Navigation Landmark Region Landmark Search Landmark
+      aria-level | Treegrid Email Inbox File Directory Treeview Using Declared Properties
+      aria-live | Alert Auto-Rotating Image Carousel with Buttons for Slide Control Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Date Picker Combobox (HC) Date Picker Dialog (HC)
+      aria-modal | Alert Dialog Date Picker Combobox (HC) Date Picker Dialog (HC) Modal Dialog
+      aria-multiselectable | Listboxes with Rearrangeable Options
+      aria-orientation | Vertical Temperature Slider
+      aria-owns | Navigation Treeview
+      aria-posinset | Infinite Scrolling Feed Treegrid Email Inbox File Directory Treeview Using Declared Properties
+      aria-pressed | Button (IDL Version) Button Toolbar
+      aria-roledescription | Auto-Rotating Image Carousel with Buttons for Slide Control Auto-Rotating Image Carousel with Tabs for Slide Control (HC)
+      aria-rowcount | Data Grid Layout Grid
+      aria-rowindex | Data Grid Layout Grid
+      aria-selected | Auto-Rotating Image Carousel with Tabs for Slide Control (HC) Editable Combobox With Both List and Inline Autocomplete (HC) Editable Combobox With List Autocomplete (HC) Editable Combobox without Autocomplete (HC) Date Picker Combobox (HC) Select-Only Combobox Editable Combobox with Grid Popup Date Picker Dialog (HC) (Deprecated) Collapsible Dropdown Listbox Listbox with Grouped Options Listboxes with Rearrangeable Options Scrollable Listbox Tabs with Automatic Activation (HC) Tabs with Manual Activation (HC) File Directory Treeview Using Computed Properties File Directory Treeview Using Declared Properties
+      aria-setsize | Infinite Scrolling Feed Treegrid Email Inbox File Directory Treeview Using Declared Properties
+      aria-sort | Data Grid Sortable Table (HC)
+      aria-valuemax | Meter Horizontal Multi-Thumb Slider (HC) Color Viewer Slider (HC) Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) (Deprecated) Date Picker Spin Button Quantity Spin Button Toolbar
+      aria-valuemin | Meter Horizontal Multi-Thumb Slider (HC) Color Viewer Slider (HC) Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) (Deprecated) Date Picker Spin Button Quantity Spin Button Toolbar
+      aria-valuenow | Meter Horizontal Multi-Thumb Slider (HC) Color Viewer Slider (HC) Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) (Deprecated) Date Picker Spin Button Quantity Spin Button Toolbar
+      aria-valuetext | Rating Slider (HC) Media Seek Slider (HC) Vertical Temperature Slider (HC) (Deprecated) Date Picker Spin Button Toolbar
+    h2 Experimental Examples @87,3465,624,22
+    text NOTE: The HC abbreviation means example has High Contrast support. @87,3499,624,20
+    link "Experimental Scrollable Listbox with Actions on Options" ../patterns/listbox/examples/listbox-actions/ @87,3531,624,20
+    text () @87,3563,624,21
+    row @87,3596,624,20
+      link "Experimental Tabs with Action Buttons" ../patterns/tabs/examples/tabs-actions/ @87,3596,256,20
+      text HC @355,3596,21,20
+row @17,3628,694,21
+  h2 Help improve this page @17,3628,192,21
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,3661,694,20
+link public-aria-practices@w3.org @17,3693,694,21
+row @17,3726,694,20
+  link E-mail @17,3726,42,20
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/index/index.html @71,3726,142,20
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/example-index/ @225,3726,119,20
+link "Back to Top" #top @17,3758,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,3790,694,21
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,3823,694,20
+row @17,3855,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,3855,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,3855,57,20
+  link Mastodon https://w3c.social/@wai @218,3855,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,3855,61,20
+row @17,3887,694,41
+  link Home /WAI/ @17,3897,37,21
+  link Contact /WAI/about/contacting/ @66,3897,48,21
+  link "Site map" /WAI/sitemap/ @126,3887,54,41
+  link "Support WAI" /WAI/about/support/ @192,3887,78,41
+  link News /WAI/news/ @282,3897,36,21
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,3887,142,41
+  link "All Translations" /WAI/translations/ @484,3887,94,41
+  link "Resources for roles" /WAI/roles/ @590,3887,121,41
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,3940,694,20
+link "World Wide Web Consortium" https://www.w3.org/ @17,3972,694,20
+text W3C @17,4004,694,21
+text ® @17,4037,694,20
+link liability https://www.w3.org/policies/#disclaimers @17,4069,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,4101,694,21
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,4134,694,20
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,4166,694,20
+!overflow table.article.Examples 312/391px
+!overflow table.banner.Examples 312/481px
+!overflow table.checkbox.Examples 312/400px
+!overflow table.combobox.Examples 312/1676px
+!overflow table.contentinfo.Examples 312/511px
+!overflow table.dialog.Examples 312/455px
+!overflow table.grid.Examples 312/754px
+!overflow table.gridcell.Examples 312/476px
+!overflow table.group.Examples 312/2431px
+!overflow table.listbox.Examples 312/2111px
+!overflow table.menu.Examples 312/1277px
+!overflow table.menubar.Examples 312/325px
+!overflow table.menuitem.Examples 312/1222px
+!overflow table.navigation.Examples 312/504px
+!overflow table.none.Examples 312/1340px
+!overflow table.option.Examples 312/2111px
+!overflow table.radio.Examples 312/822px
+!overflow table.radiogroup.Examples 312/822px
+!overflow table.region.Examples 312/1371px
+!overflow table.row.Examples 312/517px
+!overflow table.slider.Examples 312/916px
+!overflow table.spinbutton.Examples 312/459px
+!overflow table.switch.Examples 312/590px
+!overflow table.tab.Examples 312/900px
+!overflow table.tablist.Examples 312/900px
+!overflow table.tabpanel.Examples 312/900px
+!overflow table.tree.Examples 312/867px
+!overflow table.treeitem.Examples 312/867px

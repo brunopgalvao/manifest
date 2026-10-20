@@ -1,0 +1,118 @@
+@picocss_com_docs_usage_scenarios rev=0 @0,0,728,581
+row @17,17,694,547
+  button "Skip to content" primary @17,272,45,37
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @74,220,45,142
+  row @131,250,94,81
+    link "Pico CSS homepage" / @131,260,18,61
+    row @161,250,64,81
+      row @161,280,17,21
+        text v2.1.1 @161,280,0,21
+        link Examples /examples @173,280,0,21
+        link Docs /docs @185,280,0,21
+      row @190,250,35,81
+        link "GitHub repository" https://github.com/picocss/pico @190,270,5,41
+        link Twitter https://x.com/picocss @207,280,2,21
+        link "Turn on dark mode" /docs/usage-scenarios @221,250,4,81
+  row @237,17,131,547
+    col @237,26,15,529
+      text Getting started @237,26,15,40
+      text Customization @237,78,15,21
+      text Layout @237,111,15,20
+      text Content @237,143,15,20
+      text Forms @237,175,15,21
+      text Components @237,208,15,20
+      text About @237,240,15,20
+      link Maintenance /docs/maintenance @237,272,15,20
+      link "What’s new in v2?" /docs/v2 @237,304,15,82
+      link Mission /docs/mission @237,398,15,20
+      link "Usage scenarios" /docs/usage-scenarios @237,430,15,41
+      link Brand /docs/brand @237,483,15,20
+      link "Built With" /docs/built-with @237,515,15,40
+    metric About "Usage scenarios" "How does Pico fit into your project?" @264,17,30,547
+    col @306,17,62,547
+      text Optimal use cases for Pico based on your CSS expertise and project type. @306,17,62,223
+      table "Project type" "CSS expertise" "Pico’s fit" Examples @306,252,62,312
+        Pure HTML pages | Low | High | Documentation, code snippets, minimalist bios
+        Simple landing pages | Low | High | Single-page web apps (SPAs), event pages, product pages, resumes
+        Minimal websites | Low | High | Personal blogs, simple static sites
+        Form funnels | Low | Medium | Contact forms, surveys, sign-up pages
+        Small web projects | Low/Medium | Medium | Small business websites, portfolios, and personal websites
+        Marketing and products landing pages | Medium | Medium | Marketing pages with complex animations or interactive elements, product demos
+        Medium web projects | Medium/High | Medium | E-commerce websites and large corporate websites
+        Large-scale projects with many components | High | Low | SASS products, web applications with complex data models, enterprise software
+  col @380,173,331,235
+    row @380,173,331,183
+      region 49.34000015258789x45 @380,261,6,6 [3 shapes, 0 labelled]
+      row @398,244,199,41
+        row @398,244,52,41
+          text About @398,254,0,20
+          link Maintenance /docs/maintenance @410,254,0,20
+          link "What’s new?" /docs/v2 @422,244,0,41
+          link Brand /docs/brand @434,254,0,20
+          link Mission /docs/mission @446,254,0,20
+          link "Usage scenarios" /docs/usage-scenarios @458,244,0,41
+        row @462,244,51,41
+          text Docs @462,254,0,20
+          link "Quick start" /docs @474,244,1,41
+          link "Version picker" /docs/version-picker @487,244,0,41
+          link "Class-less version" /docs/classless @499,244,1,41
+          link "Form elements" /docs/forms @512,244,1,41
+        row @525,254,29,20
+          text Community @525,254,0,20
+          link Issues https://github.com/picocss/pico/issues @537,254,0,20
+          link Discussions https://github.com/picocss/pico/discussions @549,254,0,20
+          link Help https://github.com/picocss/pico/discussions/categories/help @561,254,0,20
+        row @566,254,31,20
+          text Examples @566,254,0,20
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @578,254,0,20
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @590,254,0,20
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @602,254,0,20
+          link All /examples @614,254,0,20
+      text Designed and built by with the help of our . @609,173,37,183
+      col @658,228,13,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @658,228,13,40
+        link contributors https://github.com/picocss/pico/graphs/contributors @658,280,13,21
+      row @683,254,28,20
+        link GitHub https://github.com/picocss/pico @683,254,0,20
+        link Twitter https://x.com/picocss @695,254,0,20
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @707,254,0,20
+        link NPM https://www.npmjs.com/package/@picocss/pico @719,254,0,20
+    row @380,368,331,40
+      text Code licensed , docs . @380,368,117,40
+      row @509,368,105,40
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @509,378,20,20
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @541,368,73,40
+      text Currently v2.1.1. @626,368,85,40
+!overflow skip 43/130px
+!overflow about2 0/34px
+!overflow about2 0/179px
+!overflow table.Pure HTML pages.CSS expertise 21/136px
+!overflow table.Pure HTML pages.Pico’s fit 20/44px
+!overflow table.Pure HTML pages.Examples 21/47px
+!overflow table.Simple landing pages.CSS expertise 21/158px
+!overflow table.Simple landing pages.Pico’s fit 20/44px
+!overflow table.Simple landing pages.Examples 21/47px
+!overflow table.Minimal websites.CSS expertise 21/131px
+!overflow table.Minimal websites.Pico’s fit 20/44px
+!overflow table.Minimal websites.Examples 21/47px
+!overflow table.Form funnels.CSS expertise 21/104px
+!overflow table.Form funnels.Pico’s fit 20/44px
+!overflow table.Form funnels.Examples 21/70px
+!overflow table.Small web projects.CSS expertise 21/142px
+!overflow table.Small web projects.Pico’s fit 20/103px
+!overflow table.Small web projects.Examples 21/70px
+!overflow table.Marketing and products landing pages.CSS expertise 21/271px
+!overflow table.Marketing and products landing pages.Pico’s fit 20/70px
+!overflow table.Marketing and products landing pages.Examples 21/70px
+!overflow table.Medium web projects.CSS expertise 21/160px
+!overflow table.Medium web projects.Pico’s fit 20/106px
+!overflow table.Medium web projects.Examples 21/70px
+!overflow table.Large-scale projects with many components.CSS expertise 21/311px
+!overflow table.Large-scale projects with many components.Pico’s fit 20/47px
+!overflow table.Large-scale projects with many components.Examples 21/44px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

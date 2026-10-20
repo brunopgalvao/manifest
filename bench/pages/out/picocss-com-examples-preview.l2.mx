@@ -1,0 +1,110 @@
+@picocss_com_examples_preview rev=0 @0,0,728,612
+row @17,17,694,578
+  button "Skip to content" primary @17,288,41,36
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @70,235,33,142
+  row @115,265,65,82
+    link "Pico CSS homepage" / @115,275,13,61
+    row @140,265,40,82
+      row @140,296,7,20
+        link Examples /examples @140,296,0,20
+        link Docs /docs @152,296,0,20
+      row @159,265,21,82
+        link "GitHub repository" https://github.com/picocss/pico @159,286,0,40
+        link Twitter https://x.com/picocss @171,296,0,20
+        link "Turn on dark mode" /examples @183,265,0,82
+  col @192,17,261,578
+    h1 Examples @192,17,261,25
+    text Minimalist templates to discover Pico in action. @192,54,261,41
+    row @192,107,261,488
+      col @192,178,27,345
+        text HTMLJavaScript @192,178,27,20
+        h2 Preview @192,210,27,22
+        text A pure HTML example, without dependencies. @192,244,27,121
+        link Preview https://4mrnhq.csb.app/ @192,377,27,21
+        link "Edit in CodeSandbox" https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @192,410,27,61
+        link "View source" https://github.com/picocss/examples/tree/master/v2-html @192,483,27,40
+      col @231,178,26,346
+        text HTMLJavaScript @231,178,26,20
+        h2 Class-less preview @231,210,26,42
+        text A class-less example, without dependencies. @231,264,26,102
+        link Preview https://x4qtf8.csb.app/ @231,378,26,20
+        link "Edit in CodeSandbox" https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @231,410,26,61
+        link "View source" https://github.com/picocss/examples/tree/master/v2-html-classless @231,483,26,41
+      col @269,107,51,488
+        text HTMLJavaScript @269,107,51,20
+        h2 Conditional styling @269,139,51,42
+        text Example to apply Pico CSS styles selectively by wrapping elements in a .pico container @269,193,51,264
+        link Preview https://kv4lrs.csb.app/ @269,469,51,21
+        link "Edit in CodeSandbox" https://codesandbox.io/embed/kv4lrs?view=Editor+%2B+Preview&module=%2Findex.html @269,502,51,40
+        link "View source" https://github.com/picocss/examples/tree/master/v2-conditional-styling @269,554,51,41
+      col @332,137,27,428
+        text HTMLSass @332,137,27,20
+        h2 Customized design system @332,169,27,64
+        text An example to customize Pico CSS with SASS. @332,245,27,162
+        link Preview https://gddt65-3000.csb.app/ @332,419,27,20
+        link "Edit in CodeSandbox" https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-sass-customized-design-system?embed=1&file=%2Fscss%2Fmain.scss @332,451,27,61
+        link "View source" https://github.com/picocss/examples/tree/master/v2-sass-customized-design-system @332,524,27,41
+      col @371,116,40,469
+        text ReactSass @371,116,40,21
+        h2 React class-less login @371,149,40,63
+        text A minimal, class-less login page in React, with a custom primary color. @371,224,40,224
+        link Preview https://zhghzt-8080.csb.app/ @371,460,40,20
+        link "Edit in CodeSandbox" https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @371,492,40,41
+        link "View source" https://github.com/picocss/examples/tree/master/v2-react-classless-login @371,545,40,40
+      col @423,115,30,471
+        text ReactSass @423,115,30,21
+        h2 React color schemes and modal @423,148,30,106
+        text Switch color schemes and open modals with React. @423,266,30,162
+        link Preview https://jsj2d8-8080.csb.app/ @423,440,30,21
+        link "Edit in CodeSandbox" https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-color-schemes-and-modal?embed=1&file=%2Fsrc%2FApp.js @423,473,30,60
+        link "View source" https://github.com/picocss/examples/tree/master/v2-react-color-schemes-and-modal @423,545,30,41
+  col @465,168,246,276
+    row @465,168,246,203
+      region 49.34000015258789x45 @465,267,5,4 [3 shapes, 0 labelled]
+      row @482,249,138,41
+        row @482,249,32,41
+          text About @482,259,0,21
+          link Maintenance /docs/maintenance @494,259,0,21
+          link "What’s new?" /docs/v2 @506,249,0,41
+          link Brand /docs/brand @518,259,0,21
+          link Mission /docs/mission @530,259,0,21
+          link "Usage scenarios" /docs/usage-scenarios @542,249,0,41
+        row @526,249,33,41
+          text Docs @526,259,0,21
+          link "Quick start" /docs @538,249,0,41
+          link "Version picker" /docs/version-picker @550,249,0,41
+          link "Class-less version" /docs/classless @562,249,0,41
+          link "Form elements" /docs/forms @574,249,0,41
+        row @571,259,18,21
+          text Community @571,259,0,21
+          link Issues https://github.com/picocss/pico/issues @583,259,0,21
+          link Discussions https://github.com/picocss/pico/discussions @595,259,0,21
+          link Help https://github.com/picocss/pico/discussions/categories/help @607,259,0,21
+        row @601,259,19,21
+          text Examples @601,259,0,21
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @613,259,0,21
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @625,259,0,21
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @637,259,0,21
+          link All /examples @649,259,0,21
+      text Designed and built by with the help of our . @632,168,26,203
+      col @670,233,10,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @670,233,10,41
+        link contributors https://github.com/picocss/pico/graphs/contributors @670,286,10,20
+      row @692,259,19,21
+        link GitHub https://github.com/picocss/pico @692,259,0,21
+        link Twitter https://x.com/picocss @704,259,0,21
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @716,259,0,21
+        link NPM https://www.npmjs.com/package/@picocss/pico @728,259,0,21
+    row @465,383,246,61
+      text Code licensed , docs . @465,383,85,61
+      row @562,383,76,61
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @562,403,14,21
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @588,383,50,61
+      text Currently v2.1.1. @650,393,61,41
+!overflow skip 39/130px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

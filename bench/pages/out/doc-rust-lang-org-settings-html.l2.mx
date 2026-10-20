@@ -1,0 +1,31 @@
+@doc_rust_lang_org_settings_html rev=0 @0,0,728,641
+row @17,17,694,607
+  link "Skip to main content" #main-content @17,300,126,41
+  col @155,277,192,87
+    row @155,277,192,21
+      link ./index.html ./index.html @155,277,72,21
+      h2 Rustdoc1.99.1 @239,277,108,21
+    text (58cf8f9c3 2026-10-13) @155,310,192,20
+    h2 Settings @155,342,192,22
+  col @359,17,352,607
+    row @359,17,352,25
+      h1 Rustdoc settings @359,17,165,25
+      link Back javascript:void(0) @536,19,33,21
+    text Theme @359,54,352,20
+    row @359,86,352,0
+    text Preferred light theme @359,98,352,21
+    row @359,131,352,0
+    text Preferred dark theme @359,143,352,20
+    row @359,175,352,0
+    check "Auto-hide item contents for large items" on @359,187,352,24
+    check "Auto-hide item methods' documentation" off @359,223,352,24
+    check "Auto-hide trait implementation documentation" off @359,259,352,24
+    check "Directly go to item in search if there is only one result" off @359,295,352,41
+    check "Show line numbers on code examples" off @359,348,352,24
+    check "Hide persistent navigation bar" off @359,384,352,24
+    check "Hide table of contents" off @359,420,352,24
+    check "Hide module navigation" off @359,456,352,24
+    check "Disable keyboard shortcuts" off @359,492,352,24
+    check "Use sans serif fonts" off @359,528,352,24
+    check "Word wrap source code" off @359,564,352,24
+    check "Hide deprecated items" off @359,600,352,24

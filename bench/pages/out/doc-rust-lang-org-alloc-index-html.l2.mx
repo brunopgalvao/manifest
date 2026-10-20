@@ -1,0 +1,126 @@
+@doc_rust_lang_org_alloc_index_html rev=0 @0,0,728,1887
+row @17,17,694,1853
+  link "Skip to main content" #main-content @17,903,14,81
+  col @43,467,31,953
+    row @43,467,31,21
+      link ../alloc/index.html ../alloc/index.html @43,467,11,20
+      h2 alloc1.99.1 @66,467,8,21
+    text (58cf8f9c3 2026-10-13) @43,500,31,41
+    link "All Items" all.html @43,553,31,40
+    h3 Sections @43,605,31,19
+    link "The Rust core allocation and collections library" #the-rust-core-allocation-and-collections-library @43,636,31,142
+    link "Boxed values" #boxed-values @43,790,31,41
+    link "Reference counted pointers" #reference-counted-pointers @43,843,31,60
+    link "Atomically reference counted pointers" #atomically-reference-counted-pointers @43,915,31,82
+    link Collections #collections @43,1009,31,20
+    link "Heap interfaces" #heap-interfaces @43,1041,31,41
+    h3 Crate Items @43,1094,31,37
+    link Modules #modules @43,1143,31,20
+    link Macros #macros @43,1175,31,21
+    h3 Crates @43,1208,31,18
+    link alloc ../alloc/index.html @43,1238,31,21
+    link core ../core/index.html @43,1271,31,20
+    link proc_macro ../proc_macro/index.html @43,1303,31,20
+    link std ../std/index.html @43,1335,31,21
+    link std_detect ../std_detect/index.html @43,1368,31,20
+    link test ../test/index.html @43,1400,31,20
+  col @86,17,625,1853
+    row @86,17,625,50
+      h1 Crate alloc Copy item path @86,17,243,50
+      text · @341,32,5,20
+      row @358,32,94,20
+        text 1.36.0 @358,32,37,20
+        link Source ../src/alloc/lib.rs.html#1-276 @407,32,45,20
+      row @464,24,247,36
+        link Search https://doc.rust-lang.org/alloc/index.html?search= @464,32,43,20
+        link Settings ../settings.html @519,32,50,20
+        link Help ../help.html @581,32,28,20
+        button Summary @621,24,90,36
+    row @86,79,625,1396
+      text Expand description @86,757,51,40
+      col @149,79,562,1396
+        h2 §The Rust core allocation and collections library @149,79,562,21
+        text This library provides smart pointers and collections for managing heap-allocated values. @149,112,562,41
+        text This library, like core, normally doesn’t need to be used directly since its contents are re-exported in the . Crates that use the attribute however will typically not depend on , so they’d use this crate instead. @149,165,562,61
+        link "std crate" ../std/index.html @149,238,562,20
+        text #![no_std] @149,270,562,20
+        text std @149,302,562,21
+        h3 §Boxed values @149,335,562,18
+        text The type is a smart pointer type. There can only be one owner of a , and the owner can decide to mutate the contents, which live on the heap. @149,365,562,41
+        row @149,418,562,20
+          link Box boxed/index.html @149,418,26,20
+          link Box boxed/index.html @187,418,26,20
+        text This type can be sent among threads efficiently as the size of a Box value is the same as that of a pointer. Tree-like data structures are often built with boxes because each node often has only one owner, the parent. @149,450,562,61
+        h3 §Reference counted pointers @149,523,562,19
+        text The type is a non-threadsafe reference-counted pointer type intended for sharing memory within a thread. An pointer wraps a type, , and only allows access to , a shared reference. @149,554,562,61
+        link Rc rc/index.html @149,627,562,20
+        link Rc rc/index.html @149,659,562,20
+        text T @149,691,562,21
+        text &T @149,724,562,20
+        text This type is useful when inherited mutability (such as using ) is too constraining for an application, and is often paired with the or types in order to allow mutation. @149,756,562,41
+        link Box boxed/index.html @149,809,562,20
+        link Cell ../core/cell/index.html @149,841,562,20
+        link RefCell ../core/cell/index.html @149,873,562,21
+        h3 §Atomically reference counted pointers @149,906,562,18
+        text The type is the threadsafe equivalent of the type. It provides all the same functionality of , except it requires that the contained type is shareable. Additionally, is itself sendable while is not. @149,936,562,61
+        link Arc sync/index.html @149,1009,562,21
+        link Rc rc/index.html @149,1042,562,20
+        link Rc rc/index.html @149,1074,562,20
+        text T @149,1106,562,20
+        link Arc<T> sync/index.html @149,1138,562,21
+        link Rc<T> rc/index.html @149,1171,562,20
+        text This type allows for shared access to the contained data, and is often paired with synchronization primitives such as mutexes to allow mutation of shared resources. @149,1203,562,41
+        h3 §Collections @149,1256,562,18
+        text Implementations of the most common general purpose data structures are defined in this library. They are re-exported through the . @149,1286,562,41
+        link "standard collections library" ../std/collections/index.html @149,1339,562,20
+        h3 §Heap interfaces @149,1371,562,19
+        text The module defines the low-level interface to the default global allocator. It is not compatible with the libc allocator API. @149,1402,562,41
+        link alloc alloc/index.html @149,1455,562,20
+    h2 Modules§ @86,1487,625,21
+    row @86,1520,625,264
+      link alloc alloc/index.html @86,1642,2,20
+      text Memory allocation APIs @100,1622,6,61
+      link borrow borrow/index.html @118,1642,2,20
+      text A module for working with borrowed data. @132,1581,13,142
+      link boxed boxed/index.html @157,1642,1,20
+      text The Box<T> type for heap allocation. @170,1591,11,122
+      link collections collections/index.html @193,1642,3,20
+      text Collection types. @208,1632,5,40
+      link ffi ffi/index.html @225,1642,1,20
+      text Utilities related to FFI bindings. @238,1601,9,102
+      link fmt fmt/index.html @259,1642,1,20
+      text Utilities for formatting and printing Strings. @272,1591,12,122
+      link rc rc/index.html @296,1642,1,20
+      text Single-threaded reference-counting pointers. ‘Rc’ stands for ‘Reference Counted’. @309,1571,23,162
+      link slice slice/index.html @344,1642,2,20
+      text Utilities for the slice primitive type. @358,1591,10,122
+      link str str/index.html @380,1642,1,20
+      text Utilities for the str primitive type. @393,1591,9,122
+      link string string/index.html @414,1642,2,20
+      text A UTF-8–encoded, growable string. @428,1611,10,82
+      link sync sync/index.html @450,1642,1,20
+      text Thread-safe reference-counting pointers. @463,1622,12,61
+      link task task/index.html @487,1642,2,20
+      text Types and Traits for working with asynchronous tasks. @501,1571,16,162
+      link vec vec/index.html @529,1642,1,20
+      text A contiguous growable array type with heap-allocated contents, written Vec<T>. @542,1551,23,203
+      row @577,1642,5,20
+        link bstr bstr/index.html @577,1642,0,20
+        text Experimental @589,1642,0,20
+      text The ByteStr and ByteString types and trait implementations. @594,1571,18,162
+      row @624,1642,7,20
+        link intrinsics intrinsics/index.html @624,1642,0,20
+        text Experimental @636,1642,0,20
+      text Intrinsics that cannot be moved to core because they depend on alloc types. @643,1520,22,264
+      row @677,1642,4,20
+        link io io/index.html @677,1642,0,20
+        text Experimental @689,1642,0,20
+      text Traits, helpers, and type definitions for core I/O functionality. @693,1561,18,182
+    h2 Macros§ @86,1796,625,21
+    row @86,1829,625,41
+      link format macro.format.html @86,1839,35,21
+      text Creates a String using interpolation of runtime expressions. @133,1829,311,41
+      link vec macro.vec.html @456,1839,20,21
+      text Creates a containing the arguments. @488,1829,190,41
+      link Vec vec/struct.Vec.html @690,1839,21,21
+!overflow summary 88/93px

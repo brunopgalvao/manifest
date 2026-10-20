@@ -1,0 +1,46 @@
+@adminlte_io_themes_v3_pages_layout_top_n rev=0 @0,0,728,584
+row @17,17,694,58
+  link "AdminLTE 3" ../../index3.html @17,36,81,20
+  row @110,17,325,58
+    row @110,36,186,20
+      link Home index3.html @110,36,40,20
+      link Contact # @162,36,52,20
+      link Dropdown # @226,36,70,20
+    row @308,17,127,58
+      field Search search @308,17,40,58
+      button button @360,28,75,36
+  row @447,28,122,36
+    link 3 # @447,36,9,20
+    link 15 # @468,36,14,20
+    button button @494,28,75,36
+row @17,87,694,25
+  h1 Top Navigation Example 3.0 @17,87,276,25
+  row @305,89,210,20
+    link Home # @305,89,40,20
+    link Layout # @357,89,45,20
+    text Top Navigation @414,89,101,20
+row @17,124,694,314
+  col @17,124,391,314
+    h3 Card title @17,124,391,18
+    text Some quick example text to build on the card title and make up the bulk of the card's content. @17,154,391,41
+    link "Card link" # @17,207,391,20
+    link "Another link" # @17,239,391,21
+    card @17,272,391,166
+      h3 Card title @34,287,357,18
+      text Some quick example text to build on the card title and make up the bulk of the card's content. @34,317,357,41
+      link "Card link" # @34,370,357,20
+      link "Another link" # @34,402,357,21
+  col @420,125,291,311
+    h3 Featured @420,125,291,19
+    h3 Special title treatment @420,156,291,19
+    text With supporting text below as a natural lead-in to additional content. @420,187,291,40
+    link "Go somewhere" # @420,239,291,21
+    card @420,272,291,164
+      h3 Featured @437,287,257,18
+      h3 Special title treatment @437,317,257,19
+      text With supporting text below as a natural lead-in to additional content. @437,348,257,41
+      link "Go somewhere" # @437,401,257,20
+text All rights reserved. @17,450,694,20
+text Anything you want @17,482,694,20
+text Copyright © 2014-2021 . @17,514,694,21
+link AdminLTE.io https://adminlte.io @17,547,694,20

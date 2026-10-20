@@ -58,13 +58,16 @@ row
   row
     link Home #
     text Invoice
+text This page has been enhanced for printing. Click the print button at the bottom of the invoice to test.
 h3 Note:
 h3 AdminLTE, Inc. Date: 2/10/2014
 row
+  text From
   text Admin, Inc. 795 Folsom Ave, Suite 600 San Francisco, CA 94107 Phone: (804) 123-5432 Email: info@almasaeedstudio.com
+  text To
   text John Doe 795 Folsom Ave, Suite 600 San Francisco, CA 94107 Phone: (555) 539-1037 Email: john.doe@example.com
   text Invoice #007612 Order ID: 4F3S8J Payment Due: 2/22/2014 Account: 968-34567
-table Qty Product Serial Description Subtotal
+table Qty Product "Serial #" Description Subtotal
   1 | Call of Duty | 455-981-221 | El snort testosterone trophy driving gloves handsome | $64.50
   1 | Need for Speed IV | 247-925-726 | Wes Anderson umami biodiesel | $50.00
   1 | Monsters DVD | 735-845-642 | Terry Richardson helvetica tousled street art master | $10.70
@@ -79,12 +82,14 @@ row
     text Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles, weebly ning heekya handango imeem plugg dopplr jibjab, movity jajah plickers sifteo edmodo ifttt zimbra.
   col
     text Amount Due 2/22/2014
-    table Subtotal: $250.30
+    table Subtotal $250.30
       Tax (9.3%) | $10.34
       Shipping: | $5.80
       Total: | $265.24
 link Print invoice-print.html
 button "Submit Payment" success
 button "Generate PDF" primary
+text All rights reserved.
 text Version 3.2.0
+text Copyright © 2014-2021 .
 link AdminLTE.io https://adminlte.io

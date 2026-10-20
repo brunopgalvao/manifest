@@ -1,0 +1,46 @@
+@getbootstrap_com_docs_5_3_examples_dashb rev=0 @0,0,728,1058
+button "Toggle theme (light)" primary @17,17,694,36
+link "Company name" # @17,65,694,21
+row @17,98,694,943
+  col @17,316,76,507
+    link Dashboard # @17,316,76,21
+    link Orders # @17,349,76,20
+    link Products # @17,381,76,20
+    link Customers # @17,413,76,21
+    link Reports # @17,446,76,20
+    link Integrations # @17,478,76,20
+    h3 Saved reports @17,510,76,38
+    link "Current month" # @17,560,76,40
+    link "Last quarter" # @17,612,76,41
+    link "Social engagement" # @17,665,76,40
+    link "Year-end sale" # @17,717,76,41
+    link Settings # @17,770,76,20
+    link "Sign out" # @17,802,76,21
+  col @105,98,606,943
+    row @105,98,606,36
+      h1 Dashboard @105,103,107,25
+      row @224,98,268,36
+        row @224,98,157,36
+          button Share @224,98,70,36
+          button Export @306,98,75,36
+        button "This week" @393,98,99,36
+    region 1018.6599731445313x430 @105,146,606,256 [1 shapes, 1 labelled]
+      image getbootstrap_com_docs_5_3_examples_dashb-1.png @0,0 1018.6599731445313x430 "Canvas" @105,146,606,256
+    h2 Section title @105,414,606,21
+    table # Header Header Header Header @105,447,606,594
+      1,001 | random | data | placeholder | text
+      1,002 | placeholder | irrelevant | visual | layout
+      1,003 | data | rich | dashboard | tabular
+      1,003 | information | placeholder | illustrative | data
+      1,004 | text | random | layout | dashboard
+      1,005 | dashboard | irrelevant | text | placeholder
+      1,006 | dashboard | illustrative | rich | data
+      1,007 | placeholder | tabular | information | irrelevant
+      1,008 | random | data | placeholder | text
+      1,009 | placeholder | irrelevant | visual | layout
+      1,010 | data | rich | dashboard | tabular
+      1,011 | information | placeholder | illustrative | data
+      1,012 | text | placeholder | layout | dashboard
+      1,013 | dashboard | irrelevant | text | visual
+      1,014 | dashboard | illustrative | rich | data
+      1,015 | random | tabular | information | text

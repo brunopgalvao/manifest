@@ -1,0 +1,163 @@
+@en_wikipedia_org_wiki_help_introduction
+link "Jump to content" #bodyContent
+row
+  row
+    col
+      button "Main menu"
+      text Main menu
+      row
+        text Main menu
+        button "Move Main menu to sidebar"
+      link "Main page" /wiki/Main_Page
+      link Contents /wiki/Wikipedia:Contents
+      link "Current events" /wiki/Portal:Current_events
+      link "Random article" /wiki/Special:Random
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      text Contribute
+      link Help /wiki/Help:Contents
+      link "Learn to edit" /wiki/Help:Introduction
+      link "Community portal" /wiki/Wikipedia:Community_portal
+      link "Recent changes" /wiki/Special:RecentChanges
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard
+      link "Special pages" /wiki/Special:SpecialPages
+    link /wiki/Main_Page /wiki/Main_Page
+  row
+    row
+      col
+        field "Search Wikipedia" search
+      button Search
+    row
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+      link "Create account" /w/index.php?title=Special:CreateAccount&returnto=Help%3AIntroduction
+      link "Log in" /w/index.php?title=Special:UserLogin&returnto=Help%3AIntroduction
+row
+  row
+    row
+      h1 "Help:Introduction"
+      col
+        button "119 languages"
+        text 119 languages primary
+    row
+      row
+        link "Help page" /wiki/Help:Introduction
+        link Talk /wiki/Help_talk:Introduction
+      row
+        row
+          link Read /wiki/Help:Introduction
+          link "View source" /w/index.php?title=Help:Introduction&action=edit
+          link "View history" /w/index.php?title=Help:Introduction&action=history
+        col
+          button Tools
+          text Tools
+          row
+            text Tools
+            button "Move Tools to sidebar"
+          text General
+          link "What links here" /wiki/Special:WhatLinksHere/Help:Introduction
+          link "Related changes" /wiki/Special:RecentChangesLinked/Help:Introduction
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Help:Introduction&oldid=1380567590
+          link "Page information" /w/index.php?title=Help:Introduction&action=info
+          link "Get shortened URL" /w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHelp%3AIntroduction
+          link "Switch to legacy parser" /w/index.php?title=Help:Introduction&useparsoid=0
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q3945#sitelinks-wikipedia
+          text Print/export
+          link "Download as PDF" /w/index.php?title=Special:DownloadAsPdf&page=Help%3AIntroduction&action=show-download-screen
+          link "Printable version" javascript:print();
+          text In other projects
+          link "Multilingual Wikisource" https://wikisource.org/wiki/Help:Introduction
+          link Wikifunctions https://www.wikifunctions.org/wiki/Wikifunctions:Introduction
+          link Wikinews https://en.wikinews.org/wiki/Wikinews:Introduction
+          link Wikisource https://en.wikisource.org/wiki/Help:Introduction
+          link Wikiversity https://en.wikiversity.org/wiki/Wikiversity:Welcome
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q3945
+    col
+      row
+        text Appearance
+        button "Hide Appearance"
+      text Text
+      text Small
+      text Standard
+      text Large
+      text Width
+      text Standard
+      text Wide
+      text Color
+      text Automatic
+      text Light
+      text Dark
+    col
+      link "This page is semi-protected." https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#semi
+      text From Wikipedia, the free encyclopedia
+      text ".mw-parser-output .introtosingle__main{position:relative;box-sizing:border-box;box-shadow:2px 2px 2px var(--box-shadow-color-base,#AAA);max-width:100%;overflow:hidden;border:1px solid var(--border-color-emphasized,black);margin:auto;padding-bottom:20px}.mw-parser-output .introtosingle__main-withbackground{background-image:url(\"https://upload.wikimedia.org/wikipedia/commons/9/94/Wikipedia-logo-v2_%2810_percent_opacity%29.svg\");background-position:center -500px;background-repeat:no-repeat;background-size:auto 150%}.mw-parser-output .introtosingle__main-title{font-size:250%;line-height:150%;background:var(--accent-color-base,#3366cc);color:var(--color-inverted-fixed,#FFF);text-align:center;align-items:center;justify-content:center}.mw-parser-output .introtosingle__lead{background-color:var(--background-color-progressive-subtle,rgba(232,238,255,0.8));color:var(--color-base,#202122);padding:30px 60px;margin-bottom:30px}.mw-parser-output .introtosingle__frame{padding:0 1em}.mw-parser-output .introtosingle__base{box-sizing:border-box;max-width:1100px;min-height:55px;margin:auto;padding:5px 20px;font-size:1.1em;background-color:var(--background-color-neutral,#EEE);color:var(--color-base,#202122);border:1px solid var(--border-color-base,lightgrey)}.mw-parser-output .introtosingle__columns{display:flex;flex-direction:row;flex-wrap:wrap-reverse;justify-content:center}.mw-parser-output .introtosingle__columns-left,.mw-parser-output .introtosingle__columns-left-noborder,.mw-parser-output .introtosingle__columns-right{display:inline-block;flex:1 1 0;align-self:flex-end;vertical-align:top;min-width:200px;max-width:300px;padding:10px}.mw-parser-output .introtosingle__columns-left{text-align:right;justify-content:right;border-right:solid 1px #ddd}.mw-parser-output .introtosingle__columns-left-noborder{text-align:right;justify-content:right}.mw-parser-output .introtosingle__columns-right{text-align:left;justify-content:left}@media screen and (min-width:1101px){.mw-parser-output .introtosingle__main{max-width:1100px}}"
+      text Introduction to Wikipedia
+      text This page takes you through a set of tutorials aimed at newcomers who wish to start contributing. It covers all the basics, and each tutorial takes only a few minutes, so you can become a proficient  quickly.
+      text is made by people like you.
+      link Wikipedia https://en.wikipedia.org/wiki/Wikipedia
+      link Wikipedian https://en.wikipedia.org/wiki/Wikipedia:Wikipedians
+      link "Get started" https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia
+      link "Policies and guidelines" https://en.wikipedia.org/wiki/Help:Introduction_to_policies_and_guidelines/1
+      text There are two methods to edit Wikipedia:
+      row
+        text The  shows the underlying page source code. It works like a plain text file, indicating links and other items using simple code like this: .
+        col
+          link "Help:Introduction to editing with Wiki Markup/1" https://en.wikipedia.org/wiki/Help:Introduction_to_editing_with_Wiki_Markup/1
+          link "wiki markup source editor" https://en.wikipedia.org/wiki/Help:Wikitext
+          text [[Earth]]
+          link Editing https://en.wikipedia.org/wiki/Help:Introduction_to_editing_with_Wiki_Markup/1
+          link Referencing https://en.wikipedia.org/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1
+          link Images https://en.wikipedia.org/wiki/Help:Introduction_to_images_with_Wiki_Markup/1
+          link Tables https://en.wikipedia.org/wiki/Help:Introduction_to_tables_with_Wiki_Markup/1
+        text is the easier way of editing that works more like a word processor and hides the underlying source code. Links and other items are edited using toolbar and pop-up interfaces.
+        col
+          link "Help:Introduction to editing with VisualEditor/1" https://en.wikipedia.org/wiki/Help:Introduction_to_editing_with_VisualEditor/1
+          link VisualEditor https://en.wikipedia.org/wiki/Help:VisualEditor
+          link Editing https://en.wikipedia.org/wiki/Help:Introduction_to_editing_with_VisualEditor/1
+          link Referencing https://en.wikipedia.org/wiki/Help:Introduction_to_referencing_with_VisualEditor/1
+          link Images https://en.wikipedia.org/wiki/Help:Introduction_to_images_with_VisualEditor/1
+          link Tables https://en.wikipedia.org/wiki/Help:Introduction_to_tables_with_VisualEditor/1
+      link "Talk pages" https://en.wikipedia.org/wiki/Help:Introduction_to_talk_pages/1
+      link "Navigating Wikipedia" https://en.wikipedia.org/wiki/Help:Introduction_to_navigating_Wikipedia/1
+      link "Manual of Style" https://en.wikipedia.org/wiki/Help:Introduction_to_the_Manual_of_Style
+      link Conclusion https://en.wikipedia.org/wiki/Help:Introduction/Conclusion
+      link "View all as single page" https://en.wikipedia.org/wiki/Help:Introduction/All
+      row
+        field "Search help and administration pages"
+        button fulltext
+      link Shortcuts https://en.wikipedia.org/wiki/Wikipedia:Shortcut
+      link "WP:I" https://en.wikipedia.org/w/index.php?title=Wikipedia:I&redirect=no
+      link "WP:START" https://en.wikipedia.org/w/index.php?title=Wikipedia:START&redirect=no
+      text For more training information, see also:
+      link "Full help contents page" https://en.wikipedia.org/wiki/Help:Contents
+      link "Training for students" https://en.wikipedia.org/wiki/Wikipedia:Training/For_students
+      link "A single-page guide to contributing" https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia
+      link "A training adventure game" https://en.wikipedia.org/wiki/Wikipedia:The_Wikipedia_Adventure
+      link "Resources for new editors" https://en.wikipedia.org/wiki/Help:Getting_started
+      link "Please consider leaving us some feedback." https://en.wikipedia.org/w/index.php?title=Help:Introduction/feedback&action=edit&section=new&editintro=Template:Feedback_editintro/Help:Introduction&preload=Template:Feedback_preload/Help:Introduction&preloadtitle=Feedback+from+%5B%5BUser%3A%7B%7Bsubst%3AREVISIONUSER%7D%7D%7C%7B%7Bsubst%3AREVISIONUSER%7D%7D%5D%5D+%28%7B%7Bsubst%3A%23time%3Aj+F+Y%7D%7D%29
+      text :
+      row
+        link Category /wiki/Help:Category
+        link "Wikipedia quick introductions" /wiki/Category:Wikipedia_quick_introductions
+  col
+    text "This page was last edited on 16 October 2026, at 14:57 (UTC)."
+    text Page was rendered with .
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the  and . Wikipedia® is a registered trademark of the , a non-profit organization.
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/
+    row
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link Disclaimers /wiki/Wikipedia:General_disclaimer
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+      link Developers https://developer.wikimedia.org
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+      link "Mobile view" //en.wikipedia.org/w/index.php?title=Help:Introduction&mobileaction=toggle_view_mobile
+    row
+      link "https://www.wikimedia.org/" https://www.wikimedia.org/
+      link "https://www.mediawiki.org/" https://www.mediawiki.org/

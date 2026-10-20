@@ -1,0 +1,60 @@
+@doc_rust_lang_org_help_html rev=0 @0,0,728,1031
+row @17,17,694,997
+  link "Skip to main content" #main-content @17,485,70,61
+  col @99,462,108,107
+    row @99,462,108,21
+      link ./index.html ./index.html @99,462,38,21
+      h2 Rustdoc1.99.1 @149,462,58,21
+    text (58cf8f9c3 2026-10-13) @99,495,108,41
+    h2 Help @99,548,108,21
+  col @219,17,492,997
+    row @219,17,492,25
+      h1 Rustdoc help @219,17,128,25
+      link Back javascript:void(0) @359,19,33,21
+    text You can find more information in . @219,54,492,20
+    link "the rustdoc book" https://doc.rust-lang.org/1.99.1/rustdoc/ @219,86,492,21
+    row @219,119,492,862
+      col @219,119,144,862
+        h2 Keyboard Shortcuts @219,119,144,42
+        text ? @219,173,144,20
+        text Show this help dialog @219,205,144,21
+        text / @219,238,144,20
+        row @219,270,144,20
+          text S @219,270,9,20
+          text / @240,270,6,20
+        text Focus the search field @219,302,144,41
+        text ↑ @219,355,144,20
+        text Move up in search results @219,387,144,41
+        text ↓ @219,440,144,20
+        text Move down in search results @219,472,144,41
+        text / @219,525,144,20
+        row @219,557,144,20
+          text ← @219,557,14,20
+          text → @245,557,14,20
+        text Switch result tab (when results focused) @219,589,144,61
+        text ⏎ @219,662,144,21
+        text Go to active search result @219,695,144,40
+        text / @219,747,144,20
+        row @219,779,144,21
+          text + @219,779,10,21
+          text = @241,779,0,21
+        text Expand all sections @219,812,144,20
+        text - @219,844,144,20
+        text Collapse all sections @219,876,144,21
+        text _ @219,909,144,20
+        text Collapse all sections, including impl blocks @219,941,144,41
+      col @375,264,336,572
+        h2 Search Tricks @375,264,336,22
+        text For a full list of all search features, take a look . @375,298,336,20
+        link here https://doc.rust-lang.org/1.99.1/rustdoc/read-documentation/search.html @375,330,336,20
+        text Prefix searches with a type followed by a colon (e.g., fn:) to restrict the search to a given item kind. @375,362,336,61
+        text Accepted kinds are: fn, mod, struct, enum, trait, type, macro, and constant. @375,435,336,41
+        text Search functions by type signature (e.g., vec -> usize or -> vec or String, enum:Cow -> bool) @375,488,336,40
+        text You can look for items with an exact name by putting double quotes around your request: "string" @375,540,336,61
+        text Look for functions that accept or return and by writing square brackets (e.g., or ) @375,613,336,41
+        link slices https://doc.rust-lang.org/1.99.1/std/primitive.slice.html @375,666,336,20
+        link arrays https://doc.rust-lang.org/1.99.1/std/primitive.array.html @375,698,336,20
+        text -> [u8] @375,730,336,21
+        text [] -> Option @375,763,336,20
+        text Look for items inside another one by searching for a path: vec::Vec @375,795,336,41
+    text rustdoc 1.99.1 (58cf8f9c3 2026-10-13) @219,993,492,21

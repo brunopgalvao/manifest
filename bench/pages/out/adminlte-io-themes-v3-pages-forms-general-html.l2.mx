@@ -1,0 +1,264 @@
+@adminlte_io_themes_v3_pages_forms_genera rev=0 @0,0,728,3922
+row @17,17,694,36
+  row @17,17,191,36
+    button button @17,17,75,36
+    link Home ../../index3.html @104,25,40,20
+    link Contact # @156,25,52,20
+  row @220,17,296,36
+    button button @220,17,75,36
+    link 3 # @307,25,9,20
+    link 15 # @328,25,14,20
+    button button @354,17,75,36
+    button button @441,17,75,36
+link "AdminLTE 3" ../../index3.html @17,65,694,21
+row @17,98,694,20
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image" @17,98,0,0
+  link "Alexander Pierce" # @29,98,113,20
+row @17,130,694,58
+  field Search search @17,130,40,58
+  button button primary @69,141,75,36
+link Dashboard # @17,200,694,20
+link "Widgets New" ../widgets.html @17,232,694,20
+link "Layout Options 6" # @17,264,694,21
+link Charts # @17,297,694,20
+link "UI Elements" # @17,329,694,20
+link Forms # @17,361,694,20
+link "General Elements" ../forms/general.html @17,393,694,21
+link "Advanced Elements" ../forms/advanced.html @17,426,694,20
+link Editors ../forms/editors.html @17,458,694,20
+link Validation ../forms/validation.html @17,490,694,21
+link Tables # @17,523,694,20
+text EXAMPLES @17,555,694,20
+link "Calendar 2" ../calendar.html @17,587,694,20
+link Gallery ../gallery.html @17,619,694,21
+link "Kanban Board" ../kanban.html @17,652,694,20
+link Mailbox # @17,684,694,20
+link Pages # @17,716,694,21
+link Extras # @17,749,694,20
+link Search # @17,781,694,20
+text MISCELLANEOUS @17,813,694,21
+link "Tabbed IFrame Plugin" ../../iframe.html @17,846,694,20
+link Documentation https://adminlte.io/docs/3.1/ @17,878,694,20
+text MULTI LEVEL EXAMPLE @17,910,694,20
+link "Level 1" # @17,942,694,21
+link "Level 1" # @17,975,694,20
+link "Level 1" # @17,1007,694,20
+text LABELS @17,1039,694,21
+link Important # @17,1072,694,20
+link Warning # @17,1104,694,20
+link Informational # @17,1136,694,21
+row @17,1169,694,25
+  h1 General Form @17,1169,132,25
+  row @161,1171,142,20
+    link Home # @161,1171,40,20
+    text General Form @213,1171,90,20
+row @17,1206,694,2570
+  col @17,1206,216,2570
+    card @17,1206,216,48
+      h3 Quick Example @34,1221,182,18
+    text Email address @17,1266,216,21
+    field "Email address" email @17,1299,216,57
+    text Password @17,1368,216,21
+    field Password password @17,1401,216,57
+    text File input @17,1470,216,21
+    row @17,1503,216,57
+      row @17,1503,139,57
+        field "File input" @17,1503,52,57
+        text Choose file @81,1521,75,21
+      text Upload @168,1521,48,21
+    row @17,1572,216,41
+      check "Check me out" off @17,1572,115,41
+      text Check me out @144,1572,89,41
+    button Submit primary @17,1625,216,36
+    card @17,1673,216,49
+      h3 Different Styles @34,1688,182,19
+    h3 Input @17,1734,216,19
+    text Bottom Border only .form-control-border @17,1765,216,40
+    field "Bottom Border only" @17,1817,216,58
+    text Bottom Border only 2px Border .form-control-border.border-width-2 @17,1887,216,41
+    field "Bottom Border only 2px Border" @17,1940,216,57
+    text Flat .rounded-0 @17,2009,216,21
+    field Flat @17,2042,216,57
+    h3 Custom Select @17,2111,216,19
+    text Bottom Border only .form-control-border @17,2142,216,41
+    select "Bottom Border only" *"Value 1" "Value 2" "Value 3" @17,2195,216,55
+    text Bottom Border only .form-control-border.border-width-2 @17,2262,216,40
+    select "Bottom Border only" *"Value 1" "Value 2" "Value 3" @17,2314,216,55
+    text Flat .rounded-0 @17,2381,216,21
+    select Flat *"Value 1" "Value 2" "Value 3" @17,2414,216,55
+    card @17,2481,216,48
+      h3 Input Addon @34,2496,182,18
+    row @17,2541,216,58
+      text @ @17,2560,14,20
+      field Username @43,2541,59,58
+    row @17,2611,216,58
+      field Field @17,2611,28,58
+      text .00 @57,2630,22,20
+    row @17,2681,216,57
+      text $ @17,2699,9,21
+      field Field @38,2681,28,57
+      text .00 @78,2699,22,21
+    h3 With icons @17,2750,216,19
+    row @17,2781,216,58
+      field Email email @17,2781,31,58
+    row @17,2851,216,58
+      field Field @17,2851,28,58
+    row @17,2921,216,57
+      field Field @17,2921,28,57
+    h3 With checkbox and radio inputs @17,2990,216,38
+    row @17,3040,216,57
+      row @17,3040,28,57
+        field Field @17,3040,28,57
+      row @57,3040,28,57
+        field Field @57,3040,28,57
+    h3 With buttons @17,3109,216,19
+    text Large: .input-group.input-group-lg @17,3140,216,41
+    row @17,3193,216,58
+      button Action warning @17,3204,75,36
+      field Field @104,3193,28,58
+    text Normal @17,3263,216,20
+    row @17,3295,216,58
+      button Action danger @17,3306,75,36
+      field Field @104,3295,28,58
+    text Small .input-group.input-group-sm @17,3365,216,40
+    row @17,3417,216,58
+      field Field @17,3417,28,58
+      button Go! primary @57,3428,54,36
+    card @17,3487,216,49
+      h3 Horizontal Form @34,3502,182,19
+    row @17,3548,216,57
+      text Email @17,3566,36,21
+      field Email email @65,3548,31,57
+    row @17,3617,216,58
+      text Password @17,3636,66,20
+      field Password password @95,3617,56,58
+    row @17,3687,216,41
+      check "Remember me" off @17,3687,114,41
+      text Remember me @143,3687,90,41
+    row @17,3740,216,36
+      button "Sign in" primary @17,3740,76,36
+      button Cancel @105,3740,78,36
+  col @245,1336,466,2309
+    card @245,1336,466,49
+      h3 Different Height @262,1351,432,19
+    field .form-control-lg @245,1397,466,58
+    field "Default input" @245,1467,466,58
+    field .form-control-sm @245,1537,466,57
+    card @245,1606,466,49
+      h3 Different Width @262,1621,432,19
+    row @245,1667,466,58
+      field .col-3 @245,1667,34,58
+      field .col-4 @291,1667,34,58
+      field .col-5 @337,1667,34,58
+    card @245,1737,466,49
+      h3 General Elements @262,1752,432,19
+    row @245,1798,466,90
+      col @245,1798,44,90
+        text Text @245,1798,44,20
+        field "Enter ..." @245,1830,44,58
+      col @301,1798,91,90
+        text Text Disabled @301,1798,91,20
+        field "Enter ..." @301,1830,91,58
+    row @245,1900,466,90
+      col @245,1900,59,90
+        text Textarea @245,1900,59,20
+        field "Enter ..." @245,1932,59,58
+      col @316,1900,120,90
+        text Textarea Disabled @316,1900,120,20
+        field "Enter ..." @316,1932,120,58
+    text "Input with success" @245,2002,466,20
+    field "Input with\n                      success" @245,2034,466,58
+    text "Input with warning" @245,2104,466,20
+    field "Input with\n                      warning" @245,2136,466,58
+    text Input with error @245,2206,466,20
+    field "Input with\n                      error" @245,2238,466,58
+    row @245,2308,466,84
+      col @245,2308,128,84
+        text Checkbox @245,2308,128,20
+        text Checkbox checked @245,2340,128,20
+        text Checkbox disabled @245,2372,128,20
+      col @385,2308,99,84
+        row @385,2308,99,20
+          text Radio @385,2308,38,20
+        row @385,2340,99,20
+          text Radio checked @385,2340,99,20
+        text Radio disabled @385,2372,99,20
+    row @245,2404,466,88
+      col @245,2404,93,88
+        text Select @245,2404,93,21
+        select Select *"option 1" "option 2" "option 3" "option 4" "option 5" @245,2437,93,55
+      col @350,2404,103,88
+        text Select Disabled @350,2404,103,21
+        select Select *"option 1" "option 2" "option 3" "option 4" "option 5" @350,2437,103,55
+    row @245,2504,466,87
+      col @245,2504,98,87
+        text Select Multiple @245,2504,98,20
+        select Select "option 1" "option 2" "option 3" "option 4" "option 5" @245,2536,98,55
+      col @355,2504,160,87
+        text Select Multiple Disabled @355,2504,160,20
+        select Select "option 1" "option 2" "option 3" "option 4" "option 5" @355,2536,160,55
+    card @245,2603,466,49
+      h3 Custom Elements @262,2618,432,19
+    row @245,2664,466,254
+      col @245,2664,319,254
+        row @245,2664,319,24
+          check "Custom Checkbox" off @245,2664,149,24
+          text Custom Checkbox @406,2666,123,20
+        row @245,2700,319,40
+          check "Custom Checkbox checked" on @245,2700,164,40
+          text Custom Checkbox checked @421,2700,143,40
+        row @245,2752,319,41
+          check "Custom Checkbox disabled" off @245,2752,164,41
+          text Custom Checkbox disabled @421,2752,143,41
+        row @245,2805,319,41
+          check "Custom Checkbox with custom color" on @245,2805,161,41
+          text Custom Checkbox with custom color @418,2805,146,41
+        row @245,2858,319,60
+          check "Custom Checkbox with custom color outline" on @245,2858,160,60
+          text Custom Checkbox with custom color outline @417,2858,147,60
+      col @576,2666,135,251
+        row @576,2666,135,20
+          text Custom Radio @576,2666,93,20
+        row @576,2698,135,41
+          text Custom Radio checked @576,2698,135,41
+        row @576,2751,135,40
+          text Custom Radio disabled @576,2751,135,40
+        row @576,2803,135,41
+          text Custom Radio with custom color @576,2803,135,41
+        row @576,2856,135,61
+          text Custom Radio with custom color outline @576,2856,135,61
+    row @245,2930,466,88
+      col @245,2930,97,88
+        text Custom Select @245,2930,97,21
+        select Select *"option 1" "option 2" "option 3" "option 4" "option 5" @245,2963,97,55
+      col @354,2930,158,88
+        text Custom Select Disabled @354,2930,158,21
+        select Select *"option 1" "option 2" "option 3" "option 4" "option 5" @354,2963,158,55
+    row @245,3030,466,87
+      col @245,3030,153,87
+        text Custom Select Multiple @245,3030,153,20
+        select Select "option 1" "option 2" "option 3" "option 4" "option 5" @245,3062,153,55
+      col @410,3030,215,87
+        text Custom Select Multiple Disabled @410,3030,215,20
+        select Select "option 1" "option 2" "option 3" "option 4" "option 5" @410,3062,215,55
+    row @245,3129,466,41
+      check "Toggle this custom switch element" off @245,3129,239,41
+      text Toggle this custom switch element @496,3129,215,41
+    row @245,3182,466,61
+      check "Toggle this custom switch element with custom colors danger/success" off @245,3182,233,61
+      text Toggle this custom switch element with custom colors danger/success @490,3182,221,61
+    row @245,3255,466,40
+      check "Disabled custom switch element" off @245,3255,240,40
+      text Disabled custom switch element @497,3255,214,40
+    text Custom range @245,3307,466,20
+    slider "Custom range" 50 0..100 @245,3339,466,39
+    text Custom range (custom-range-danger) @245,3390,466,20
+    slider "Custom range (custom-range-danger)" 50 0..100 @245,3422,466,38
+    text Custom range (custom-range-teal) @245,3472,466,21
+    slider "Custom range (custom-range-teal)" 50 0..100 @245,3505,466,38
+    field "Choose file" @245,3555,466,58
+    text Choose file @245,3625,466,20
+text All rights reserved. @17,3788,694,20
+text Version 3.2.0 @17,3820,694,20
+text Copyright © 2014-2021 . @17,3852,694,21
+link AdminLTE.io https://adminlte.io @17,3885,694,20

@@ -1,0 +1,263 @@
+@ui_shadcn_com_docs_components rev=0 @0,0,728,5720
+row @17,17,694,36
+  row @17,25,346,20
+    link Home / @17,25,26,20
+    link Docs /docs/installation @55,25,21,20
+    link Components /docs/components @88,25,55,20
+    link Blocks /blocks @155,25,28,20
+    link Charts /charts/area @195,25,29,20
+    link Directory /docs/directory @236,25,39,20
+    link Typeset /typeset @287,25,35,20
+    link Create /create @334,25,29,20
+  row @375,17,336,36
+    button "Search documentation...Search..." @375,17,172,36
+    link 126k https://github.com/shadcn-ui/ui @559,25,20,20
+    button "Toggle theme" @591,17,89,36
+    row @692,25,19,20
+      link New /create @692,25,19,20
+row @17,65,694,5573
+  col @17,65,15,5573
+    text Sections @17,65,15,21
+    link Introduction /docs @17,98,15,20
+    link Components /docs/components @17,130,15,20
+    link "AI Elements" /docs/ai-elements @17,162,15,41
+    link Installation /docs/installation @17,215,15,20
+    link Theming /docs/theming @17,247,15,20
+    link CLI /docs/cli @17,279,15,21
+    link Typeset /docs/typeset @17,312,15,20
+    link Skills /docs/skills @17,344,15,20
+    link Registry /docs/registry @17,376,15,21
+    link Changelog /docs/changelog @17,409,15,20
+    text Components @17,441,15,20
+    link Accordion /docs/components/base/accordion @17,473,15,20
+    link Alert /docs/components/base/alert @17,505,15,21
+    link "Alert Dialog" /docs/components/base/alert-dialog @17,538,15,40
+    link "Aspect Ratio" /docs/components/base/aspect-ratio @17,590,15,41
+    link Attachment /docs/components/base/attachment @17,643,15,20
+    link Avatar /docs/components/base/avatar @17,675,15,21
+    link Badge /docs/components/base/badge @17,708,15,20
+    link Breadcrumb /docs/components/base/breadcrumb @17,740,15,20
+    link Bubble /docs/components/base/bubble @17,772,15,20
+    link Button /docs/components/base/button @17,804,15,21
+    link "Button Group" /docs/components/base/button-group @17,837,15,40
+    link Calendar /docs/components/base/calendar @17,889,15,21
+    link Card /docs/components/base/card @17,922,15,20
+    link Carousel /docs/components/base/carousel @17,954,15,20
+    link Chart /docs/components/base/chart @17,986,15,21
+    link Checkbox /docs/components/base/checkbox @17,1019,15,20
+    link "Code Block" /docs/components/base/code-block @17,1051,15,40
+    link Collapsible /docs/components/base/collapsible @17,1103,15,21
+    link Combobox /docs/components/base/combobox @17,1136,15,20
+    link Command /docs/components/base/command @17,1168,15,20
+    link "Context Menu" /docs/components/base/context-menu @17,1200,15,41
+    link "Data Table" /docs/components/base/data-table @17,1253,15,41
+    link "Date Picker" /docs/components/base/date-picker @17,1306,15,40
+    link Dialog /docs/components/base/dialog @17,1358,15,20
+    link Direction /docs/components/base/direction @17,1390,15,21
+    link Drawer /docs/components/base/drawer @17,1423,15,20
+    link "Dropdown Menu" /docs/components/base/dropdown-menu @17,1455,15,41
+    link Empty /docs/components/base/empty @17,1508,15,20
+    link Field /docs/components/base/field @17,1540,15,20
+    link "Hover Card" /docs/components/base/hover-card @17,1572,15,41
+    link Input /docs/components/base/input @17,1625,15,20
+    link "Input Group" /docs/components/base/input-group @17,1657,15,41
+    link "Input OTP" /docs/components/base/input-otp @17,1710,15,40
+    link Item /docs/components/base/item @17,1762,15,21
+    link Kbd /docs/components/base/kbd @17,1795,15,20
+    link Label /docs/components/base/label @17,1827,15,20
+    link Marker /docs/components/base/marker @17,1859,15,21
+    link Menubar /docs/components/base/menubar @17,1892,15,20
+    link Message /docs/components/base/message @17,1924,15,20
+    link "Message Scroller" /docs/components/base/message-scroller @17,1956,15,41
+    link "Native Select" /docs/components/base/native-select @17,2009,15,40
+    link "Navigation Menu" /docs/components/base/navigation-menu @17,2061,15,41
+    link Pagination /docs/components/base/pagination @17,2114,15,20
+    link Popover /docs/components/base/popover @17,2146,15,21
+    link Progress /docs/components/base/progress @17,2179,15,20
+    link Questionnaire /docs/components/base/questionnaire @17,2211,15,20
+    link "Radio Group" /docs/components/base/radio-group @17,2243,15,41
+    link Resizable /docs/components/base/resizable @17,2296,15,20
+    link "Scroll Area" /docs/components/base/scroll-area @17,2328,15,41
+    link Select /docs/components/base/select @17,2381,15,20
+    link Separator /docs/components/base/separator @17,2413,15,20
+    link Sheet /docs/components/base/sheet @17,2445,15,21
+    link Sidebar /docs/components/base/sidebar @17,2478,15,20
+    link Skeleton /docs/components/base/skeleton @17,2510,15,20
+    link Slider /docs/components/base/slider @17,2542,15,21
+    link Spinner /docs/components/base/spinner @17,2575,15,20
+    link Switch /docs/components/base/switch @17,2607,15,20
+    link Table /docs/components/base/table @17,2639,15,20
+    link Tabs /docs/components/base/tabs @17,2671,15,21
+    link Textarea /docs/components/base/textarea @17,2704,15,20
+    link Toast /docs/components/base/toast @17,2736,15,20
+    link Toggle /docs/components/base/toggle @17,2768,15,21
+    link "Toggle Group" /docs/components/base/toggle-group @17,2801,15,40
+    link Tooltip /docs/components/base/tooltip @17,2853,15,21
+    link Trace /docs/components/base/trace @17,2886,15,20
+    link Typography /docs/components/base/typography @17,2918,15,20
+    text AI Elements @17,2950,15,41
+    link Introduction /docs/ai-elements @17,3003,15,20
+    link "Chain of Thought" /docs/ai-elements/base/chain-of-thought @17,3035,15,61
+    link Chat /docs/ai-elements/base/chat @17,3108,15,20
+    link Checkpoint /docs/ai-elements/base/checkpoint @17,3140,15,21
+    link Confirmation /docs/ai-elements/base/confirmation @17,3173,15,20
+    link Context /docs/ai-elements/base/context @17,3205,15,20
+    link "File Tree" /docs/ai-elements/base/file-tree @17,3237,15,41
+    link "Inline Citation" /docs/ai-elements/base/inline-citation @17,3290,15,40
+    link Message /docs/ai-elements/base/message @17,3342,15,21
+    link "Model Selector" /docs/ai-elements/base/model-selector @17,3375,15,40
+    link Plan /docs/ai-elements/base/plan @17,3427,15,21
+    link "Prompt Input" /docs/ai-elements/base/prompt-input @17,3460,15,40
+    link Queue /docs/ai-elements/base/queue @17,3512,15,20
+    link Reasoning /docs/ai-elements/base/reasoning @17,3544,15,21
+    link Sources /docs/ai-elements/base/sources @17,3577,15,20
+    link "Stack Trace" /docs/ai-elements/base/stack-trace @17,3609,15,41
+    link Subagent /docs/ai-elements/base/subagent @17,3662,15,20
+    link Suggestion /docs/ai-elements/base/suggestion @17,3694,15,20
+    link Task /docs/ai-elements/base/task @17,3726,15,21
+    link Terminal /docs/ai-elements/base/terminal @17,3759,15,20
+    link "Test Results" /docs/ai-elements/base/test-results @17,3791,15,40
+    link Tool /docs/ai-elements/base/tool @17,3843,15,21
+    text Get Started @17,3876,15,40
+    link Installation /docs/installation @17,3928,15,21
+    link components.json /docs/components-json @17,3961,15,20
+    link "Package Imports" /docs/package-imports @17,3993,15,41
+    link Theming /docs/theming @17,4046,15,20
+    link Typeset /docs/typeset @17,4078,15,20
+    link "Dark Mode" /docs/dark-mode @17,4110,15,41
+    link CLI /docs/cli @17,4163,15,20
+    link Monorepo /docs/monorepo @17,4195,15,20
+    link Skills /docs/skills @17,4227,15,21
+    link JavaScript /docs/javascript @17,4260,15,20
+    link Figma /docs/figma @17,4292,15,20
+    link llms.txt /llms.txt @17,4324,15,21
+    link "Legacy Docs" /docs/legacy @17,4357,15,40
+    text @shadcn/react @17,4409,15,20
+    link "Message Scroller" /docs/react/message-scroller @17,4441,15,41
+    link Questionnaire /docs/react/questionnaire @17,4494,15,20
+    text @shadcn/helpers @17,4526,15,21
+    link "AI SDK" /docs/helpers/ai-sdk @17,4559,15,40
+    link "TanStack AI" /docs/helpers/tanstack-ai @17,4611,15,41
+    text Forms @17,4664,15,20
+    link "React Hook Form" /docs/forms/react-hook-form @17,4696,15,61
+    link "TanStack Form" /docs/forms/tanstack-form @17,4769,15,41
+    link Formisch /docs/forms/formisch @17,4822,15,20
+    text Utilities @17,4854,15,20
+    link scroll-fade /docs/utils/scroll-fade @17,4886,15,21
+    link shimmer /docs/utils/shimmer @17,4919,15,20
+    text Registry @17,4951,15,20
+    link Introduction /docs/registry @17,4983,15,20
+    link "Getting Started" /docs/registry/getting-started @17,5015,15,41
+    link "GitHub Registries" /docs/registry/github @17,5068,15,41
+    link "Registry Directory" /docs/registry/registry-index @17,5121,15,40
+    link "Registry Health" /docs/registry/health @17,5173,15,41
+    link Examples /docs/registry/examples @17,5226,15,20
+    link Namespaces /docs/registry/namespace @17,5258,15,20
+    link Authentication /docs/registry/authentication @17,5290,15,21
+    link "Dynamic Search" /docs/registry/dynamic-search @17,5323,15,40
+    link "MCP Server" /docs/registry/mcp @17,5375,15,41
+    link "Open in v0" /docs/registry/open-in-v0 @17,5428,15,61
+    link FAQ /docs/registry/faq @17,5501,15,20
+    link "API Reference" /docs/registry/api-reference @17,5533,15,41
+    link registry.json /docs/registry/registry-json @17,5586,15,20
+    link registry-item.json /docs/registry/registry-item-json @17,5618,15,20
+  row @44,2432,667,840
+    col @44,2683,589,337
+      row @44,2683,589,37
+        h1 Components @44,2689,126,25
+        row @182,2683,234,37
+          row @182,2683,191,37
+            button "Copy Page" @182,2683,104,37
+            button button @298,2683,75,37
+          link Next /docs/components/aria/accordion @385,2691,31,21
+      text Here you can find all the components available in the library. We are working on adding more components. @44,2732,589,40
+      h2 New Components# @44,2784,589,21
+      row @44,2817,589,21
+        link "Code Block" /docs/components/base/code-block @44,2817,76,21
+        link Trace /docs/components/base/trace @132,2817,39,21
+      h2 All Components# @44,2850,589,21
+      row @44,2883,589,41
+        link Accordion /docs/components/base/accordion @44,2893,0,20
+        link Alert /docs/components/base/alert @56,2893,0,20
+        link "Alert Dialog" /docs/components/base/alert-dialog @68,2883,0,41
+        link "Aspect Ratio" /docs/components/base/aspect-ratio @80,2883,0,41
+        link Attachment /docs/components/base/attachment @92,2893,0,20
+        link Avatar /docs/components/base/avatar @104,2893,0,20
+        link Badge /docs/components/base/badge @116,2893,0,20
+        link Breadcrumb /docs/components/base/breadcrumb @128,2893,0,20
+        link Bubble /docs/components/base/bubble @140,2893,0,20
+        link Button /docs/components/base/button @152,2893,0,20
+        link "Button Group" /docs/components/base/button-group @164,2883,0,41
+        link Calendar /docs/components/base/calendar @176,2893,0,20
+        link Card /docs/components/base/card @188,2893,0,20
+        link Carousel /docs/components/base/carousel @200,2893,0,20
+        link Chart /docs/components/base/chart @212,2893,0,20
+        link Checkbox /docs/components/base/checkbox @224,2893,0,20
+        link "Code BlockNew" /docs/components/base/code-block @236,2883,0,41
+        link Collapsible /docs/components/base/collapsible @248,2893,0,20
+        link Combobox /docs/components/base/combobox @260,2893,0,20
+        link Command /docs/components/base/command @272,2893,0,20
+        link "Context Menu" /docs/components/base/context-menu @284,2883,0,41
+        link "Data Table" /docs/components/base/data-table @296,2883,0,41
+        link "Date Picker" /docs/components/base/date-picker @308,2883,0,41
+        link Dialog /docs/components/base/dialog @320,2893,0,20
+        link Direction /docs/components/base/direction @332,2893,0,20
+        link Drawer /docs/components/base/drawer @344,2893,0,20
+        link "Dropdown Menu" /docs/components/base/dropdown-menu @356,2883,0,41
+        link Empty /docs/components/base/empty @368,2893,0,20
+        link Field /docs/components/base/field @380,2893,0,20
+        link "Hover Card" /docs/components/base/hover-card @392,2883,0,41
+        link Input /docs/components/base/input @404,2893,0,20
+        link "Input Group" /docs/components/base/input-group @416,2883,0,41
+        link "Input OTP" /docs/components/base/input-otp @428,2883,0,41
+        link Item /docs/components/base/item @440,2893,0,20
+        link Kbd /docs/components/base/kbd @452,2893,0,20
+        link Label /docs/components/base/label @464,2893,0,20
+        link Marker /docs/components/base/marker @476,2893,0,20
+        link Menubar /docs/components/base/menubar @488,2893,0,20
+        link Message /docs/components/base/message @500,2893,0,20
+        link "Message Scroller" /docs/components/base/message-scroller @512,2883,0,41
+        link "Native Select" /docs/components/base/native-select @524,2883,0,41
+        link "Navigation Menu" /docs/components/base/navigation-menu @536,2883,0,41
+        link Pagination /docs/components/base/pagination @548,2893,0,20
+        link Popover /docs/components/base/popover @560,2893,0,20
+        link Progress /docs/components/base/progress @572,2893,0,20
+        link Questionnaire /docs/components/base/questionnaire @584,2893,0,20
+        link "Radio Group" /docs/components/base/radio-group @596,2883,0,41
+        link Resizable /docs/components/base/resizable @608,2893,0,20
+        link "Scroll Area" /docs/components/base/scroll-area @620,2883,0,41
+        link Select /docs/components/base/select @632,2893,0,20
+        link Separator /docs/components/base/separator @644,2893,0,20
+        link Sheet /docs/components/base/sheet @656,2893,0,20
+        link Sidebar /docs/components/base/sidebar @668,2893,0,20
+        link Skeleton /docs/components/base/skeleton @680,2893,0,20
+        link Slider /docs/components/base/slider @692,2893,0,20
+        link Spinner /docs/components/base/spinner @704,2893,0,20
+        link Switch /docs/components/base/switch @716,2893,0,20
+        link Table /docs/components/base/table @728,2893,0,20
+        link Tabs /docs/components/base/tabs @740,2893,0,20
+        link Textarea /docs/components/base/textarea @752,2893,0,20
+        link Toast /docs/components/base/toast @764,2893,0,20
+        link Toggle /docs/components/base/toggle @776,2893,0,20
+        link "Toggle Group" /docs/components/base/toggle-group @788,2883,0,41
+        link Tooltip /docs/components/base/tooltip @800,2893,0,20
+        link TraceNew /docs/components/base/trace @812,2893,0,20
+        link Typography /docs/components/base/typography @824,2893,0,20
+      text Can't find what you need? Try the for community-maintained components. @44,2936,589,20
+      link "registry directory" /docs/directory @44,2968,589,20
+      link Accordion /docs/components/aria/accordion @44,3000,589,20
+    col @645,2432,66,840
+      text On This Page @645,2432,66,40
+      link "New Components" #new-components @645,2484,66,41
+      link "All Components" #all-components @645,2537,66,40
+      card @645,2589,66,683
+        text Deploy your shadcn/ui app on Vercel @662,2604,32,122
+        text Trusted by OpenAI, Sonos, Adobe, and more. @662,2738,32,142
+        text Vercel provides tools and infrastructure to deploy apps and features at scale. @662,2892,32,244
+        button "Deploy Now" @662,3148,32,36
+        link "Deploy to Vercel" https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout @662,3196,32,61
+text Notifications alt+T @17,5650,694,21
+text Notifications @17,5683,694,20
+!overflow search 170/256px
+!overflow toggle 87/122px
+!overflow deploy2 30/110px

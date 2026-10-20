@@ -1,0 +1,223 @@
+@ui_shadcn_com_examples_rtl
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+    row
+      link New /create
+link "Trace, Code Block and AI Elements" /docs/changelog
+h1 The Foundation for your Design System
+text A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.
+row
+  link "Get Started" /docs/installation
+  link "View Components" /docs/components
+row
+  row
+    link Examples /
+    link Dashboard /examples/dashboard
+    link Tasks /examples/tasks
+    link Playground /examples/playground
+    link Authentication /examples/authentication
+    link RTL /examples/rtl
+  row
+    text Theme
+    row
+      text Neutral
+    button "Copy Code"
+row
+  row
+    text Arabic (العربية)
+  col
+    text طريقة الدفع
+    text جميع المعاملات آمنة ومشفرة
+    text الاسم على البطاقة
+    field "الاسم على البطاقة" required
+    row
+      col
+        text رقم البطاقة
+        field "رقم البطاقة" required
+        text أدخل رقمك المكون من 16 رقمًا.
+      col
+        text رمز الأمان
+        field "رمز الأمان" required
+    row
+      col
+        text الشهر
+        card
+          text MM
+      col
+        text السنة
+        card
+          text YYYY
+    text عنوان الفواتير
+    text عنوان الفواتير المرتبط بطريقة الدفع الخاصة بك
+    row
+      check "نفس عنوان الشحن" on
+      check "نفس عنوان الشحن" on
+      text نفس عنوان الشحن
+    text تعليقات
+    field تعليقات
+    row
+      button إرسال primary
+      button إلغاء
+  col
+    card
+      text CNLRER
+      text لا يوجد أعضاء في الفريق
+      text قم بدعوة فريقك للتعاون في هذا المشروع.
+      button "دعوة أعضاء" primary
+    row
+      text جارٍ المزامنة
+      region "Loading" 15.84x15.84
+        path "M21 12a9 9 0 1 1-6.219-8.56" fill:none stroke:#fafafa width:2
+      text جارٍ التحديث
+      region "Loading" 15.84x15.84
+        path "M21 12a9 9 0 1 1-6.219-8.56" fill:none stroke:#171717 width:2
+      text جارٍ التحميل
+      region "Loading" 15.84x15.84
+        path "M21 12a9 9 0 1 1-6.219-8.56" fill:none stroke:#000000 width:2
+    row
+      button إضافة
+      row
+        field "أرسل رسالة..."
+        button "الوضع الصوتي"
+    text نطاق السعر
+    text حدد نطاق ميزانيتك (﷼٢٠٠ - ٨٠٠).
+    row
+      region 280x4
+        rect @59.61,0 160.8x4 fill:#000000
+    row
+      row
+        field بحث...
+        text 12 نتيجة
+      row
+        field example.com
+        button إضافة
+      col
+        field "اسأل، ابحث أو تحدث..."
+        row
+          button إضافة
+          button button
+          text 52% مستخدم
+          button إرسال primary
+      row
+        field shadcn
+  col
+    row
+      text السعر
+      row
+        field السعر
+        button معلومات
+        text ر.س
+        button مفضل
+    card
+      text المصادقة الثنائية
+      button تفعيل primary
+    card
+      text تم التحقق من ملفك الشخصي.
+    text إعدادات المظهر
+    text بيئة الحوسبة
+    text اختر بيئة الحوسبة لمجموعتك.
+    row
+      row
+        col
+          text كوبرنيتس
+          text تشغيل أحمال عمل GPU على مجموعة مُهيأة بـ K8s. هذا هو الافتراضي.
+        badge كوبرنيتس
+      row
+        col
+          text جهاز افتراضي
+          text الوصول إلى مجموعة VM مُهيأة لتشغيل أحمال العمل. (قريبًا)
+        text جهاز افتراضي
+    row
+      col
+        text عدد وحدات GPU
+        text يمكنك إضافة المزيد لاحقًا.
+      row
+        field "عدد وحدات GPU" =8
+        button إنقاص
+        button زيادة
+    row
+      col
+        text تلوين الخلفية
+        text السماح بتلوين الخلفية.
+      toggle "تلوين الخلفية" on
+      check "تلوين الخلفية" on
+  col
+    text الأمر
+    card
+      field الأمر
+      button "أضف سياق"
+      row
+        button "إرفاق ملف"
+        button تلقائي
+        button "جميع المصادر"
+        button إرسال primary
+    row
+      button رجوع
+      row
+        button أرشفة
+        button إبلاغ
+      row
+        button تأجيل
+        button "خيارات أخرى"
+    card
+      row
+        check "أوافق على الشروط والأحكام" on
+        check "أوافق على الشروط والأحكام" on
+        text أوافق على الشروط والأحكام
+    row
+      row
+        row
+          button ١
+          button ٢
+          button ٣
+        row
+          button السابق
+          button التالي
+      row
+        button المساعد
+        button "فتح القائمة"
+    text كيف سمعت عنا؟
+    text اختر الخيار الذي يصف أفضل طريقة سمعت عنا من خلالها.
+    row
+      row
+        check "التواصل الاجتماعي" on
+        check "التواصل الاجتماعي" on
+        text التواصل الاجتماعي
+      row
+        check البحث off
+        check البحث off
+        text البحث
+      row
+        check إحالة off
+        check إحالة off
+        text إحالة
+      row
+        check أخرى off
+        check أخرى off
+        text أخرى
+    card
+      card
+        region "Loading" 21.12x21.12
+          path "M21 12a9 9 0 1 1-6.219-8.56" fill:none stroke:#000000 width:2
+      text جارٍ معالجة طلبك
+      text يرجى الانتظار بينما نعالج طلبك. لا تقم بتحديث الصفحة.
+      button إلغاء
+text Built by  at . The source code is available on .
+row
+  link shadcn https://twitter.com/shadcn
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+  link GitHub https://github.com/shadcn-ui/ui
+text Notifications alt+T
+text Notifications

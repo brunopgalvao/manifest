@@ -10,14 +10,15 @@ C, O = B / "corpus", B / "out"
 MODELS = sys.argv[1:] or ["claude-opus-5-5", "claude-haiku-5-5"]
 NAMES = ["dash", "form", "table", "flow", "confirm", "settings"]
 client = Anthropic()
-CACHE = O / "claude_tokens_cache.json"
-_cache = {tuple(k.split("\u0000", 1)): v for k, v in json.loads(CACHE.read_text()).items()} if CACHE.exists() else {}
+CACHE = O / "claude_tokens_cache.json"  # keyed by model and a hash of the text; local, not committed
+import hashlib
+_cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
 
 
 def tok(text, model):
     if not text.strip():
         return 0
-    key = (model, text)
+    key = model + ":" + hashlib.sha256(text.encode()).hexdigest()
     if key not in _cache:
         for attempt in range(5):
             try:

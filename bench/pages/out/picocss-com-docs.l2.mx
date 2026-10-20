@@ -1,0 +1,133 @@
+@picocss_com_docs rev=0 @0,0,728,1632
+row @17,17,694,1598
+  button "Skip to content" primary @17,798,39,36
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance @68,735,28,162
+  row @108,775,58,82
+    link "Pico CSS homepage" / @108,786,10,60
+    row @130,775,36,82
+      row @130,806,8,20
+        text v2.1.1 @130,806,0,20
+        link Examples /examples @142,806,0,20
+        link Docs /docs @154,806,0,20
+      row @150,775,16,82
+        link "GitHub repository" https://github.com/picocss/pico @150,796,0,40
+        link Twitter https://x.com/picocss @162,806,0,20
+        link "Turn on dark mode" /docs @174,775,0,82
+  row @178,17,317,1598
+    col @178,531,14,570
+      text Getting started @178,531,14,40
+      link "Quick start" /docs @178,583,14,41
+      link "Version picker New" /docs/version-picker @178,636,14,61
+      link "Color schemes" /docs/color-schemes @178,709,14,41
+      link "Class-less version" /docs/classless @178,762,14,40
+      link "Conditional styling New" /docs/conditional @178,814,14,61
+      link RTL /docs/rtl @178,887,14,20
+      text Customization @178,919,14,21
+      text Layout @178,952,14,20
+      text Content @178,984,14,20
+      text Forms @178,1016,14,21
+      text Components @178,1049,14,20
+      text About @178,1081,14,20
+    metric "Getting started" "Quick start" "Link pico.css manually or via CDN for a dependency-free setup, or use NPM or Composer for advanced usage." @204,17,30,1598
+    col @246,634,14,364
+      text Content @246,634,14,20
+      link "Install manually" /docs#install-manually @246,666,14,41
+      link "Usage from CDN" /docs#usage-from-cdn @246,719,14,61
+      link "Install with NPM" /docs#install-with-npm @246,792,14,60
+      link "Install with Composer" /docs#install-with-composer @246,864,14,61
+      link "Starter HTML template" /docs#starter-html-template @246,937,14,61
+    col @272,17,223,1598
+      text There are 4 ways to get started with pico.css: @272,17,223,41
+      h2 Install manually# @272,70,223,21
+      text and link in the of your website. @272,103,223,20
+      row @272,135,223,41
+        link "Download Pico" https://github.com/picocss/pico/archive/refs/heads/main.zip @272,135,74,41
+        text /css/pico.min.css @358,145,86,21
+        text <head> @456,145,39,21
+      card @272,188,223,103
+        link "Copy code" /docs @289,203,189,20
+        text <link rel="stylesheet" href="css/pico.min.css"> @289,235,189,41
+      h2 Usage from CDN# @272,303,223,21
+      text Alternatively, you can use to link. @272,336,223,20
+      row @272,368,223,21
+        link "jsDelivr CDN" https://cdn.jsdelivr.net/npm/@picocss/pico@2/ @272,368,84,21
+        text pico.min.css @368,368,84,21
+      card @272,401,223,123
+        link "Copy code" /docs @289,416,189,20
+        text <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" > @289,448,189,61
+      h2 Install with NPM# @272,536,223,21
+      card @272,569,223,83
+        link "Copy code" /docs @289,584,189,20
+        text npm install @picocss/pico @289,616,189,21
+      text Or @272,664,223,20
+      card @272,696,223,82
+        link "Copy code" /docs @289,711,189,20
+        text yarn add @picocss/pico @289,743,189,20
+      text Then, import Pico into your SCSS file with : @272,790,223,41
+      link @use https://sass-lang.com/documentation/at-rules/use @272,843,223,20
+      card @272,875,223,83
+        link "Copy code" /docs @289,890,189,21
+        text @use "pico"; @289,923,189,20
+      text Learn more about the . @272,970,223,20
+      link "customization with Sass" /docs/sass @272,1002,223,21
+      h2 Install with Composer# @272,1035,223,21
+      card @272,1068,223,103
+        link "Copy code" /docs @289,1083,189,20
+        text composer require picocss/pico @289,1115,189,41
+      h2 Starter HTML template# @272,1183,223,21
+      card @272,1216,223,367
+        link "Copy code" /docs @289,1231,189,20
+        text <!doctype html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="color-scheme" content="light dark"> <link rel="stylesheet" href="css/pico.min.css"> <title>Hello world!</title> </head> <body> <main class="container"> <h1>Hello world!</h1> </main> </body> </html> @289,1263,189,305
+      link "Edit this page on GitHub" https://github.com/picocss/picocss.com/blob/main/app/routes/docs._index.jsx @272,1595,223,20
+  col @507,678,204,276
+    row @507,678,204,203
+      region 49.34000015258789x45 @507,778,3,3 [3 shapes, 0 labelled]
+      row @522,759,110,41
+        row @522,759,24,41
+          text About @522,769,0,21
+          link Maintenance /docs/maintenance @534,769,0,21
+          link "What’s new?" /docs/v2 @546,759,0,41
+          link Brand /docs/brand @558,769,0,21
+          link Mission /docs/mission @570,769,0,21
+          link "Usage scenarios" /docs/usage-scenarios @582,759,0,41
+        row @558,759,23,41
+          text Docs @558,769,0,21
+          link "Quick start" /docs @570,759,0,41
+          link "Version picker" /docs/version-picker @582,759,0,41
+          link "Class-less version" /docs/classless @594,759,0,41
+          link "Form elements" /docs/forms @606,759,0,41
+        row @593,769,13,21
+          text Community @593,769,0,21
+          link Issues https://github.com/picocss/pico/issues @605,769,0,21
+          link Discussions https://github.com/picocss/pico/discussions @617,769,0,21
+          link Help https://github.com/picocss/pico/discussions/categories/help @629,769,0,21
+        row @618,769,14,21
+          text Examples @618,769,0,21
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html @630,769,0,21
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html @642,769,0,21
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss @654,769,0,21
+          link All /examples @666,769,0,21
+      text Designed and built by with the help of our . @644,678,20,203
+      col @676,743,8,73
+        link "Lucas Larroche" https://lucaslarroche.com/ @676,743,8,41
+        link contributors https://github.com/picocss/pico/graphs/contributors @676,796,8,20
+      row @696,769,15,21
+        link GitHub https://github.com/picocss/pico @696,769,0,21
+        link Twitter https://x.com/picocss @708,769,0,21
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico @720,769,0,21
+        link NPM https://www.npmjs.com/package/@picocss/pico @732,769,0,21
+    row @507,893,204,61
+      text Code licensed , docs . @507,893,69,61
+      row @588,893,61,61
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md @588,913,10,21
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md @610,893,39,61
+      text Currently v2.1.1. @661,903,50,41
+!overflow skip 37/130px
+!overflow getting2 0/85px
+!overflow getting2 0/118px
+!offcanvas region2
+!offcanvas path
+!offcanvas region3
+!offcanvas path2
+!offcanvas region4
+!offcanvas path3

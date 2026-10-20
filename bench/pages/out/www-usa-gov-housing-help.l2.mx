@@ -1,0 +1,87 @@
+@www_usa_gov_housing_help rev=0 @0,0,728,1530
+link "Skip to main content" #skip-to-h1 @17,17,694,20
+row @17,49,694,37
+  text An official website of the United States government @17,57,342,21
+  button "Here's how you know" @371,49,177,37
+text Home Close Search 1-844-USAGOV1 Housing help Emergency housing assistance Eviction and foreclosure Rental assistance Home repair and energy assistance Home buying assistance Housing assistance for Native Americans How to change your address Tenant rights @17,98,694,61
+row @17,171,694,20
+  region Information 300x150 @17,171,76,20 [0 shapes, 0 labelled]
+  text Visit to learn how to register to vote or to update your registration. @105,171,438,20
+  link vote.gov https://www.vote.gov @555,171,58,20
+row @17,203,694,106
+  link "USAGov Logo" / @17,246,93,20
+  col @122,203,377,106
+    button Español primary @122,203,377,36
+    row @122,251,377,58
+      link "Call us at 1-844-USAGOV1" /phone @122,270,176,20
+      row @310,251,189,58
+        text Search @310,270,47,20
+        field Search search @369,251,40,58
+        button Search primary @421,262,78,36
+row @17,321,694,40
+  link "All topics and services" /#all-topics-header @17,321,94,40
+  link "The U.S. and its government" /about-the-us @123,321,119,40
+  link "Government benefits" /benefits @254,321,89,40
+  link "Immigration and U.S. citizenship" /immigration-and-citizenship @355,321,135,40
+  link "Money and credit" /money @502,321,73,40
+  link Travel /travel @587,331,26,20
+  link "Voting and elections" /voting-and-elections @625,321,86,40
+row @17,373,694,662
+  col @17,373,674,662
+    row @17,373,674,21
+      link Home / @17,373,40,21
+      text Housing help @69,373,88,21
+    h1 Housing help @17,406,674,25
+    h2 Most popular @17,443,674,21
+    link "Learn about Section 8 housing" /housing-voucher-section-8 @17,476,674,20
+    link "Find home repair programs" /repairing-home @17,508,674,21
+    link "How to change your address" /change-address @17,541,674,20
+    text Get information about rental, home buying, and home repair assistance programs. Learn how to find emergency housing and avoid foreclosure and eviction. @17,573,674,40
+    row @17,625,674,305
+      link "Emergency housing assistance Find emergency housing and learn how to get emergency rent assistance." /emergency-housing-assistance @17,656,63,244
+      link "Eviction and foreclosure Learn how you may be able to prevent or deal with eviction or foreclosure." /eviction-and-foreclosure @92,646,59,264
+      link "Rental assistance Learn about government programs for affordable housing and find out if you qualify." /rental-housing-programs @163,646,61,264
+      link "Home repair and energy efficiency assistance Learn about government programs that may help with repairing or making improvements to your home." /repairing-home @236,636,89,284
+      link "Home buying assistance Learn about government programs that make it easier to purchase a home." /buying-home-programs @337,656,59,244
+      link "Housing assistance for Native Americans The government offers funding to tribes and Native American individuals and families to build, buy, and renovate housing." /native-american-housing-help @408,625,97,305
+      link "How to change your address Learn how to change your address with the post office and other government services and agencies." /change-address @517,625,78,305
+      link "How to file a complaint against a landlord Find help if you cannot resolve a disagreement directly with your landlord or management company." /tenant-rights @607,646,84,264
+    row @17,942,674,20
+      text Looking for something else? @17,942,187,20
+      link "Explore all topics and services" /#all-topics-header @216,942,201,20
+    row @17,974,674,61
+      text SHARE THIS PAGE: @17,974,53,61
+      row @82,995,609,20
+        link https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/housing-help&v=3 https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/housing-help&v=3 @82,995,237,20
+        link https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fhousing-help https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fhousing-help @331,995,213,20
+        link mailto:?subject=https://www.usa.gov/housing-help mailto:?subject=https://www.usa.gov/housing-help @556,995,135,20
+  link "Back to top" #main-content @703,674,8,61
+row @17,1047,694,136
+  col @17,1047,371,136
+    h3 Government information @17,1047,371,19
+    link "All topics and services" /#all-topics-header @17,1078,371,20
+    link "Directory of U.S. government agencies and departments" /agency-index @17,1110,371,41
+    link "Branches of government" /branches-of-government @17,1163,371,20
+  col @400,1047,149,136
+    h3 About us @400,1047,149,19
+    link "About USAGov" /about @400,1078,149,20
+    link "Report a website issue" /site-issue-report-form @400,1110,149,41
+    link "Website usage data" /website-analytics/ @400,1163,149,20
+  col @561,1064,150,102
+    h3 For federal agencies @561,1064,150,38
+    link "Partner with us" /partner-with-usagov @561,1114,150,20
+    link "Read our blog" /blog @561,1146,150,20
+row @17,1195,694,83
+  col @17,1195,235,83
+    h3 USAGov Contact Center @17,1195,235,19
+    text Ask USA.gov a question at @17,1226,235,20
+    link "1-844-USAGOV1 (1-844-872-4681)" /phone @17,1258,235,20
+text USAGov is the official guide to government information and services @17,1290,694,21
+text An official website of the @17,1323,694,20
+link "U.S. General Services Administration" https://www.gsa.gov/ @17,1355,694,20
+text This website complies with Executive Order . English is the official language of the U.S. Government, and the English-language version of this website is the authoritative source for all federal information contained herein. @17,1387,694,61
+link 14224 https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states @17,1460,694,21
+row @17,1493,694,20
+  link "Accessibility policy" /accessibility-policy @17,1493,127,20
+  link "Privacy and security policies" /privacy-security @156,1493,190,20
+  link "FOIA requests" https://www.gsa.gov/reference/freedom-of-information-act-foia @358,1493,95,20

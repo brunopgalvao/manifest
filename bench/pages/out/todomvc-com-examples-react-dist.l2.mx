@@ -1,0 +1,26 @@
+@todomvc_com_examples_react_dist rev=0 @0,0,728,922
+h3 React @17,17,694,19
+text , @17,48,694,20
+h3 React @17,80,694,19
+link Source https://github.com/tastejs/todomvc/tree/gh-pages/examples/react @17,111,694,20
+h3 TypeScript + React @17,143,694,19
+link Demo https://todomvc.com/examples/typescript-react @17,174,694,20
+link Source https://github.com/tastejs/todomvc/tree/gh-pages/examples/typescript-react @17,206,694,20
+card @17,238,694,144
+  text React is a JavaScript library for building user interfaces. You compose UI from function components and describe state with hooks; React handles the rendering and keeps the UI in sync as state changes. The modern ecosystem (createRoot, Suspense, Server Components) builds on the same component model. @34,253,660,82
+  link React http://facebook.github.io/react @34,347,660,20
+h3 Official Resources @17,394,694,19
+link "Quick Start" https://react.dev/learn @17,425,694,20
+link "API Reference" https://react.dev/reference/react @17,457,694,20
+link Philosophy https://petehuntsposts.quora.com/React-Under-the-Hood @17,489,694,21
+link "React Community" https://react.dev/community @17,522,694,20
+h3 Community @17,554,694,19
+link "ReactJS on Stack Overflow" https://stackoverflow.com/questions/tagged/reactjs @17,585,694,20
+text If you have other helpful links to share, or find any of the links above no longer work, please . @17,617,694,20
+link "let us know" https://github.com/tastejs/todomvc/issues @17,649,694,21
+h1 todos @17,682,694,25
+field "New Todo Input" @17,719,694,57
+text Double-click to edit a todo @17,788,694,21
+text Created by the TodoMVC Team @17,821,694,20
+text Part of @17,853,694,20
+link TodoMVC http://todomvc.com @17,885,694,20

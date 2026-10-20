@@ -1,0 +1,153 @@
+@www_w3_org_wai_aria_apg_patterns_slider_ rev=0 @0,0,728,4290
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+row @17,102,694,3536
+  col @17,1511,14,719
+    h2 Page Contents @17,1511,14,42
+    link "Read This First" #support-notice-header @17,1565,14,61
+    link "About This Example" #aboutthisexample @17,1638,14,61
+    link Example #ex_label @17,1711,14,20
+    link "Accessibility Features" #accessibilityfeatures @17,1743,14,41
+    link "Keyboard Support" #kbd_label @17,1796,14,40
+    link "Role, Property, State, and Tabindex Attributes" #rps_label @17,1848,14,122
+    link "Assistive Technology Support" #assistivetechnologysupport @17,1982,14,61
+    link "JavaScript and CSS Source Code" #javascriptandcsssourcecode @17,2055,14,102
+    link "HTML Source Code" #sc1_label @17,2169,14,61
+  col @43,102,668,3536
+    h1 Color Viewer Slider Example @43,102,668,25
+    h2 Read This First @43,139,668,21
+    card @43,172,668,71
+      text The code in this example is not intended for production environments. Before using it for any purpose, read this to understand why. warning @60,187,634,41
+    h2 About This Example @43,255,668,21
+    h3 Warning! @43,288,668,19
+    text Some users of touch-based assistive technologies may experience difficulty utilizing widgets that implement this slider pattern because the gestures their assistive technology provides for operating sliders may not yet generate the necessary output. To change the slider value, touch-based assistive technologies need to respond to user gestures for increasing and decreasing the value by synthesizing key events. This is a new convention that may not be fully implemented by some assistive technologies. Authors should fully test slider widgets using assistive technologies on devices where touch is a primary input mechanism before considering incorporation into production systems. warning @43,319,668,162
+    text Following is an example of a color viewer that demonstrates the . Change the background of the color view box by adjusting the sliders for red, green, and blue values. The HEX and RGB values of the chosen color are displayed by the color view box. @43,493,668,61
+    link "Slider Pattern" ../../ @43,566,668,20
+    text Similar examples include: @43,598,668,21
+    text : Demonstrates using to specify vertical orientation and to communicate unit of measure for a temperature input. @43,631,668,40
+    link "Vertical Temperature Slider Example" ../slider-temperature/ @43,683,668,21
+    text aria-orientation primary @43,716,668,20
+    text aria-valuetext primary @43,748,668,20
+    text : Horizontal slider that demonstrates using to make it easy for assistive technology users to understand the meaning of the current value chosen on a ten-point satisfaction scale. @43,780,668,41
+    row @43,833,668,20
+      link "Rating Slider Example" ../slider-rating/ @43,833,144,20
+      text aria-valuetext primary @199,833,92,20
+    text : Horizontal slider that demonstrates using to communicate current and maximum values of time in media to make the values easy to understand for assistive technology users by converting the total number of seconds to minutes and seconds. @43,865,668,61
+    row @43,938,668,20
+      link "Media Seek Slider Example" ../slider-seek/ @43,938,180,20
+      text aria-valuetext primary @235,938,92,20
+    text : Demonstrates using sliders with two thumbs to provide inputs for numeric ranges, such as for searching in a price range. @43,970,668,41
+    link "Horizontal Multi-Thumb Slider Example" ../../../slider-multithumb/examples/slider-multithumb/ @43,1023,668,20
+    h2 Example @43,1055,668,21
+    button "Open In CodePen" primary @43,1088,668,37
+    text Start of @43,1137,668,20
+    h3 Color Viewer @43,1169,668,19
+    text Red @43,1200,668,20
+    slider Red 0 0..100 @43,1232,668,38
+    text Green @43,1282,668,21
+    slider Green 0 0..100 @43,1315,668,38
+    text Blue @43,1365,668,20
+    slider Blue 0 0..100 @43,1397,668,39
+    h3 Color View Box @43,1448,668,18
+    field "Color (HEX):" ="#808080" @43,1478,668,58
+    field "Color (RGB):" ="128, 128, 128" @43,1548,668,58
+    text End of @43,1618,668,20
+    h2 Accessibility Features @43,1650,668,21
+    text To help assistive technology users understand that the color viewer is made of a group of three sliders, the sliders are wrapped in a group labeled by the heading that labels the color viewer. @43,1683,668,41
+    text The placement of the slider value above the thumb makes it easier for users with low vision to see the current value while dragging the thumb. @43,1736,668,40
+    text To highlight the interactive nature of the thumb, the focus ring is drawn around the thumb and the value. @43,1788,668,41
+    text To ensure the borders of the slider rail, thumb and focus ring have sufficient contrast with the background when high contrast settings invert colors, the CSS currentcolor value for the stroke property is used for the SVG rect elements to synchronize the border color with text content. If specific colors were used to specify the stroke property, the color of these elements would remain the same in high contrast mode, which could lead to insufficient contrast between them and their background or even make them invisible if their color were to match the high contrast mode background. NOTE: The SVG elements need to be inline to use currentcolor. @43,1841,668,142
+    h2 Keyboard Support @43,1995,668,21
+    table Key Function @43,2028,668,312
+      Right Arrow | Increases slider value one step.
+      Up Arrow | Increases slider value one step.
+      Left Arrow | Decreases slider value one step.
+      Down Arrow | Decreases slider value one step.
+      Page Up | Increases slider value multiple steps. In this slider, jumps ten steps.
+      Page Down | Decreases slider value multiple steps. In this slider, jumps ten steps.
+      Home | Sets slider to its minimum value.
+      End | Sets slider to its maximum value.
+    h2 Role, Property, State, and Tabindex Attributes @43,2352,668,21
+    table Role Attribute Element Usage @43,2385,668,348
+      group |  | div | Identifies the div as a group. The group and its accessible name inform assistive technology users that the three sliders are related to one another and serve the purpose of choosing a color.
+       | aria-labelledby="IDREF" | div | Refers to the heading element that provides the accessible name for the group.
+      slider |  | div | Identifies the element as a slider. Set on the div that represents the movable thumb because it is the operable element that controls the slider value.
+       | tabindex="0" | div | Includes the slider thumb in the page tab sequence.
+       | aria-valuemax="255" | div | Specifies the maximum value of the slider.
+       | aria-valuemin="0" | div | Specifies the minimum value of the slider.
+       | aria-valuenow="NUMBER" | div | Indicates the current value of the slider.
+       | aria-labelledby="IDREF" | div | Refers to the element containing the name of the slider.
+       | aria-hidden="true" | svg | Removes the SVG elements from the accessibility tree. Some assistive technologies will describe the SVG elements, unless they are explicitly hidden.
+    h2 Assistive Technology Support @43,2745,668,21
+    link "Learn how to interpret and use assistive technology support data" ../../../../about/at-support-tables/ @43,2778,668,20
+    h2 JavaScript and CSS Source Code @43,2810,668,21
+    text CSS: @43,2843,668,21
+    link slider-color-viewer.css ../../../../../../content-assets/wai-aria-practices/patterns/slider/examples/css/slider-color-viewer.css @43,2876,668,20
+    text JavaScript: @43,2908,668,20
+    link slider-color-viewer.js ../../../../../../content-assets/wai-aria-practices/patterns/slider/examples/js/slider-color-viewer.js @43,2940,668,21
+    h2 HTML Source Code @43,2973,668,21
+    text To copy the following HTML code, please open it in CodePen. @43,3006,668,20
+    button "Open In CodePen" primary @43,3038,668,36
+    text Start of @43,3086,668,21
+    text <div class="color-viewer-sliders" role="group" aria-labelledby="id-color-viewer"> <h3 id="id-color-viewer"> Color Viewer </h3> <div id="id-red" class="color-slider-label"> Red </div> <div class="color-slider red" role="slider" tabindex="0" aria-valuemin="0" aria-valuenow="128" aria-valuemax="255" aria-labelledby="id-red"> <svg width="0" height="0" aria-hidden="true"> <text class="value" x="0" y="0"> 128 </text> <rect class="rail" x="0" y="0" rx="0" width="0" height="0"></rect> <rect class="fill" x="0" y="0" rx="0" width="0" height="0"></rect> <rect class="thumb" x="0" y="0" rx="0" width="0" height="0"></rect> <rect class="focus" x="0" y="0" rx="0" width="0" height="0"></rect> </svg> </div> <div id="id-green" class="color-slider-label"> Green </div> <div class="color-slider green" role="slider" tabindex="0" aria-valuemin="0" aria-valuenow="128" aria-valuemax="255" aria-labelledby="id-green"> <svg width="0" height="0" aria-hidden="true"> <text class="value" x="0" y="0"> 128 </text> <rect class="rail" x="0" y="0" rx="0" width="0" height="0"></rect> <rect class="fill" x="0" y="0" rx="0" width="0" height="0"></rect> <rect class="thumb" x="0" y="0" rx="0" width="0" height="0"></rect> <rect class="focus" x="0" y="0" rx="0" width="0" height="0"></rect> </svg> </div> <div id="id-blue" class="color-slider-label"> Blue </div> <div class="color-slider blue" role="slider" tabindex="0" aria-valuemin="0" aria-valuenow="128" aria-valuemax="255" aria-labelledby="id-blue"> <svg width="0" height="0" aria-hidden="true"> <text class="value" x="0" y="0"> 128 </text> <rect class="rail" x="0" y="0" rx="0" width="0" height="0"></rect> <rect class="fill" x="0" y="0" rx="0" width="0" height="0"></rect> <rect class="thumb" x="0" y="0" rx="0" width="0" height="0"></rect> <rect class="focus" x="0" y="0" rx="0" width="0" height="0"></rect> </svg> </div> <h4> Color View Box </h4> <div class="color-info"> <div class="color-box"></div> <label> Color (HEX): <input type="text" readonly="" class="color-value-hex" value=""> </label> <label> Color (RGB): <input type="text" readonly="" class="color-value-rgb" value=""> </label> </div> </div> @43,3119,668,487
+    text End of @43,3618,668,20
+row @17,3650,694,21
+  h2 Help improve this page @17,3650,192,21
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,3683,694,21
+link public-aria-practices@w3.org @17,3716,694,20
+row @17,3748,694,20
+  link E-mail @17,3748,42,20
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/slider/examples/slider-color-viewer.html @71,3748,142,20
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/slider/examples/slider-color-viewer/ @225,3748,119,20
+link "Back to Top" #top @17,3780,694,21
+link "View issues related to this example" https://github.com/orgs/w3c/projects/124 @17,3813,694,20
+text Page last updated: 20 January 2026 @17,3845,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,3877,694,21
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,3910,694,20
+row @17,3942,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,3942,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,3942,57,20
+  link Mastodon https://w3c.social/@wai @218,3942,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,3942,61,20
+row @17,3974,694,41
+  link Home /WAI/ @17,3984,37,21
+  link Contact /WAI/about/contacting/ @66,3984,48,21
+  link "Site map" /WAI/sitemap/ @126,3974,54,41
+  link "Support WAI" /WAI/about/support/ @192,3974,78,41
+  link News /WAI/news/ @282,3984,36,21
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,3974,142,41
+  link "All Translations" /WAI/translations/ @484,3974,94,41
+  link "Resources for roles" /WAI/roles/ @590,3974,121,41
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,4027,694,20
+link "World Wide Web Consortium" https://www.w3.org/ @17,4059,694,20
+text W3C @17,4091,694,21
+text ® @17,4124,694,20
+link liability https://www.w3.org/policies/#disclaimers @17,4156,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,4188,694,21
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,4221,694,20
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,4253,694,20
+!overflow table.Page Up.Function 334/461px
+!overflow table.Page Down.Function 334/467px
+!overflow table2.group.Usage 167/1270px
+!overflow table2..Attribute 167/177px
+!overflow table2..Usage 167/541px
+!overflow table2.slider.Usage 167/992px
+!overflow table2..Usage 167/359px
+!overflow table2..Usage 167/297px
+!overflow table2..Usage 167/293px
+!overflow table2..Attribute 167/194px
+!overflow table2..Usage 167/279px
+!overflow table2..Attribute 167/177px
+!overflow table2..Usage 167/384px
+!overflow table2..Usage 167/1005px

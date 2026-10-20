@@ -1,0 +1,231 @@
+@bulma_io_expo
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/
+row
+  link "https://bulma.io/" https://bulma.io/
+  row
+    link "Docs Documentation" https://bulma.io/documentation/
+    link Expo https://bulma.io/expo/
+    link Love https://bulma.io/love/
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/
+    row
+      link "Open Source on GitHub" https://github.com/jgthms/bulma
+      link "Follow me on Twitter" https://twitter.com/jgthms
+      button button
+      col
+        link "Made with Bulma" https://bulma.io/made-with-bulma/
+        link Backers https://bulma.io/backers/
+        link "Bulma Brand" https://bulma.io/brand/
+        link "Bulma Extensions" https://bulma.io/extensions/
+  col
+    button button
+    card
+      button "Light mode"
+      button "Dark mode"
+      button "System mode" success
+  col
+    button button
+    card
+      field "search input"
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip
+h1 Made with Bulma
+h2 Gorgeous websites built with Bulma.
+card
+  link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTADEKJKC6YIK2QUFTYDC27MCK7D523ECKBDPK3UHEYI55QLCESI623ECTNCYBZ52K" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTADEKJKC6YIK2QUFTYDC27MCK7D523ECKBDPK3UHEYI55QLCESI623ECTNCYBZ52K
+  link "Solve problems faster with builders who've already shipped. Join builders." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTADEKJKC6YIK2QUFTYDC27MCK7D523ECKBDPK3UHEYI55QLCESI623ECTNCYBZ52K
+link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+card
+  text Did you design a gorgeous website with Bulma too? Tell us about it! 🤗 primary
+  link "#madewithbulma" https://twitter.com/intent/tweet?text=Hereismylovelywebsite!&hashtags=madewithbulma
+row
+  col
+    h2 mullvad
+  col
+    h2 klevgrand
+  col
+    h2 Starbucks Concept
+  col
+    h2 signal
+  col
+    h2 tinystore
+  col
+    h2 searchcity
+  col
+    h2 Vinetos
+  col
+    h2 Infinity Search
+  col
+    h2 Pentos
+  col
+    h2 Vivo Hostel
+  col
+    h2 romes
+  col
+    h2 formalfounder
+  col
+    h2 klimchuk
+  col
+    h2 oneprofile
+  col
+    h2 pagespeed
+  col
+    h2 rydesignsstuff
+  col
+    h2 Divjoy
+  col
+    h2 Spike
+  col
+    h2 FTW
+  col
+    h2 Runlet
+  col
+    h2 Bulma Play
+  col
+    h2 FileGator
+  col
+    h2 Counter Network
+  col
+    h2 Sinuous
+  col
+    h2 Agilox
+  col
+    h2 Pingstack
+  col
+    h2 mynameismirko
+  col
+    h2 pwn
+  col
+    h2 SaaSHub
+  col
+    h2 Snipper App
+  col
+    h2 SME summit
+  col
+    h2 Jethro May
+  col
+    h2 GreenPeace Uncut
+  col
+    h2 Reception Halls
+  col
+    h2 Daniel FR
+  col
+    h2 faulthero
+  col
+    h2 adilmania
+  col
+    h2 mattfarley
+  col
+    h2 griko
+  col
+    h2 shecodes
+  col
+    h2 jgthms
+  col
+    h2 uigoodies
+  col
+    h2 favicon
+  col
+    h2 whiterabbitexpress
+  col
+    h2 primative
+  col
+    h2 getbedtimestories
+  col
+    h2 mod
+  col
+    h2 jobees
+  col
+    h2 mythril
+  col
+    h2 immunizationacademy
+  col
+    h2 cssninja
+  col
+    h2 planhr
+  col
+    h2 hodlfund
+  col
+    h2 cronhub
+  col
+    h2 pollygot
+  col
+    h2 reportz
+  col
+    h2 mynameismirko
+  col
+    h2 anyshortcut
+  col
+    h2 ysimplicity
+  col
+    h2 bongoutindonesia
+  col
+    h2 uploadme
+  col
+    h2 Gustav
+  col
+    h2 Penmob
+  col
+    h2 Brújula Turística
+  col
+    h2 LottieFiles
+  col
+    h2 Smileonthetiles
+  col
+    h2 Sketch for Designrs
+  col
+    h2 Bashful Birdie
+  col
+    h2 Bugcraft Studio
+  col
+    h2 Booknshelf
+  col
+    h2 MD5
+  col
+    h2 Driftrock
+  col
+    h2 Jubiwee
+  col
+    h2 Pragonauts
+  col
+    h2 Kappamon
+  col
+    h2 Elevo
+  col
+    h2 Oneday
+  col
+    h2 Buefy
+  col
+    h2 Alt Three
+h3 How to support Bulma
+row
+  col
+    text One-time donation
+    field submit
+  col
+    text Browser testing via
+    link "https://www.lambdatest.com/" https://www.lambdatest.com/
+  col
+    text Visit our Sponsors
+    link celebian https://celebian.com/
+  col
+    text Monthly donation
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
+link ".native-js { background: linear-gradient(-30deg, #FFFFFFE5, #FFFFFFE5 45%, #FFFFFF 45%) #fff; } .native-details { color: #000E9C !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #FFFFFF; background-color: #000E9C; } .native-cta:hover { color: undefined; background-color: undefined; } OVHcloud In Minuten bereit, mit 99,95 % SLA. Konfigurieren Sie Ihren Advance-Cluster. Jetzt entdecken" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQMCAYI5Z3JCAAI627ICEAI42JKFT7DE2JNCVAI423LC6ADPKQJCE7DC23KC6SILKJWCA7DVK3EHJNCLSIZ
+row
+  col
+    h3 Bulma by Jeremy Thomas.
+    link "Follow @jgthms" https://twitter.com/jgthms
+  col
+    h3 Contribute on GitHub
+  col
+    h3 Share on social media
+    row
+      link Twitter https://twitter.com/share
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+text Source code licensed . Website content licensed
+row
+  link MIT https://opensource.org/licenses/mit-license.php
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer
+row
+  link "Get started for Free Get started for Free" https://cssmasterclass.io/
+  button close

@@ -1,0 +1,61 @@
+@developer_mozilla_org_en_us_docs_web_htm rev=0 @0,0,728,1406
+row @17,17,694,1372
+  col @17,626,25,154
+    link "Skip to main content" #content @17,626,25,81
+    link "Skip to search" #mdn-search @17,719,25,61
+  region 1280x91 @54,695,236,16 [1 shapes, 0 labelled]
+  col @302,667,53,73
+    link MDN /en-US/ @302,667,53,20
+    row @302,699,53,41
+      link Web /en-US/docs/Web @302,709,2,20
+      link HTML /en-US/docs/Web/HTML @316,709,3,20
+      link Guides /en-US/docs/Web/HTML/Guides @331,709,3,20
+      link "Responsive images" /en-US/docs/Web/HTML/Guides/Responsive_images @346,699,9,41
+  col @367,17,40,1372
+    link HTML /en-US/docs/Web/HTML @367,17,40,20
+    link Guides /en-US/docs/Web/HTML/Guides @367,49,40,21
+    link Cheatsheet /en-US/docs/Web/HTML/Guides/Cheatsheet @367,82,40,20
+    link Comments /en-US/docs/Web/HTML/Guides/Comments @367,114,40,20
+    link "Constraint validation" /en-US/docs/Web/HTML/Guides/Constraint_validation @367,146,40,41
+    link "Content categories" /en-US/docs/Web/HTML/Guides/Content_categories @367,199,40,40
+    link "Date and time formats" /en-US/docs/Web/HTML/Guides/Date_and_time_formats @367,251,40,82
+    link Microdata /en-US/docs/Web/HTML/Guides/Microdata @367,345,40,20
+    link Microformats /en-US/docs/Web/HTML/Guides/Microformats @367,377,40,20
+    link "Quirks and standards modes" /en-US/docs/Web/HTML/Guides/Quirks_mode_and_standards_mode @367,409,40,81
+    link "Responsive images" /en-US/docs/Web/HTML/Guides/Responsive_images @367,502,40,41
+    link "How to" /en-US/docs/Web/HTML/How_to @367,555,40,41
+    link "Define terms with HTML" /en-US/docs/Web/HTML/How_to/Define_terms_with_HTML @367,608,40,81
+    link "Use data attributes" /en-US/docs/Web/HTML/How_to/Use_data_attributes @367,701,40,61
+    link "Use cross-origin images" /en-US/docs/Web/HTML/How_to/CORS_enabled_image @367,774,40,61
+    link "Add a hitmap on top of an image" /en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image @367,847,40,121
+    link "Author fast-loading HTML pages" /en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages @367,980,40,82
+    link "Add JavaScript" /en-US/docs/Web/HTML/How_to/Add_JavaScript_to_your_web_page @367,1074,40,40
+    link Reference /en-US/docs/Web/HTML/Reference @367,1126,40,21
+    link Elements /en-US/docs/Web/HTML/Reference/Elements @367,1159,40,20
+    link Attributes /en-US/docs/Web/HTML/Reference/Attributes @367,1191,40,20
+    link "Global attributes" /en-US/docs/Web/HTML/Reference/Global_attributes @367,1223,40,41
+    text Attributes by element @367,1276,40,61
+    text Attribute values @367,1349,40,40
+  col @419,565,292,276
+    row @419,565,292,102
+      row @419,565,70,102
+        link "MDN logo" / @419,596,13,40
+        text Your blueprint for a better internet. @444,565,45,102
+      row @501,575,133,82
+        link "MDN on GitHub" https://github.com/mdn/ @501,585,16,61
+        link "MDN on Bluesky" https://bsky.app/profile/developer.mozilla.org @529,585,18,61
+        link "MDN on X" https://x.com/mozdevnet @559,585,11,61
+        link "MDN on Mastodon" https://mastodon.social/@mdn @582,585,19,61
+        link "MDN blog RSS feed" /en-US/blog/rss.xml @613,575,21,82
+      text MDN @646,606,8,20
+      text Contribute @666,606,16,20
+      text Developers @694,606,17,20
+    row @419,679,292,162
+      link "Mozilla logo" https://www.mozilla.org/ @419,740,13,40
+      row @444,729,97,61
+        link "Website Privacy Notice" https://www.mozilla.org/privacy/websites/ @444,729,17,61
+        link "Telemetry Settings" https://www.mozilla.org/en-US/privacy/websites/data-preferences/ @473,740,14,40
+        link Legal https://www.mozilla.org/about/legal/terms/mozilla @499,750,4,20
+        link "Community Participation Guidelines" https://www.mozilla.org/about/governance/policies/participation/ @515,729,26,61
+      text Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under . @553,679,115,162
+      link "a Creative Commons license" /docs/MDN/Writing_guidelines/Attrib_copyright_license @680,719,31,81

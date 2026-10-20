@@ -1,0 +1,262 @@
+@en_wikipedia_org_wiki_special_random
+link "Jump to content" #bodyContent
+row
+  row
+    col
+      button "Main menu"
+      text Main menu
+      row
+        text Main menu
+        button "Move Main menu to sidebar"
+      link "Main page" /wiki/Main_Page
+      link Contents /wiki/Wikipedia:Contents
+      link "Current events" /wiki/Portal:Current_events
+      link "Random article" /wiki/Special:Random
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      text Contribute
+      link Help /wiki/Help:Contents
+      link "Learn to edit" /wiki/Help:Introduction
+      link "Community portal" /wiki/Wikipedia:Community_portal
+      link "Recent changes" /wiki/Special:RecentChanges
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard
+      link "Special pages" /wiki/Special:SpecialPages
+    link /wiki/Main_Page /wiki/Main_Page
+  row
+    row
+      col
+        field "Search Wikipedia" search
+      button Search
+    row
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+      link "Create account" /w/index.php?title=Special:CreateAccount&returnto=Languages+of+Kyrgyzstan
+      link "Log in" /w/index.php?title=Special:UserLogin&returnto=Languages+of+Kyrgyzstan
+row
+  col
+    row
+      h2 Contents
+      button "Hide Contents"
+    link (Top) #
+    link "1 Official languages" #Official_languages
+    button "Toggle Official languages subsection"
+    link "1.1 Education" #Education
+    link "2 Minority languages" #Minority_languages
+    link "3 Language by number of speakers" #Language_by_number_of_speakers
+    link "4 See also" #See_also
+    link "5 References" #References
+  row
+    row
+      h1 Languages of Kyrgyzstan
+      col
+        button "7 languages"
+        text 7 languages primary
+    row
+      row
+        link Article /wiki/Languages_of_Kyrgyzstan
+        link Talk /wiki/Talk:Languages_of_Kyrgyzstan
+      row
+        row
+          link Read /wiki/Languages_of_Kyrgyzstan
+          link Edit /w/index.php?title=Languages_of_Kyrgyzstan&action=edit
+          link "View history" /w/index.php?title=Languages_of_Kyrgyzstan&action=history
+        col
+          button Tools
+          text Tools
+          row
+            text Tools
+            button "Move Tools to sidebar"
+          text General
+          link "What links here" /wiki/Special:WhatLinksHere/Languages_of_Kyrgyzstan
+          link "Related changes" /wiki/Special:RecentChangesLinked/Languages_of_Kyrgyzstan
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Languages_of_Kyrgyzstan&oldid=1356173379
+          link "Page information" /w/index.php?title=Languages_of_Kyrgyzstan&action=info
+          link "Cite this page" /w/index.php?title=Special:CiteThisPage&page=Languages_of_Kyrgyzstan&id=1356173379&wpFormIdentifier=titleform
+          link "Get shortened URL" /w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLanguages_of_Kyrgyzstan
+          link "Switch to legacy parser" /w/index.php?title=Languages_of_Kyrgyzstan&useparsoid=0
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q20724894#sitelinks-wikipedia
+          button "Expand all"
+          text Print/export
+          link "Download as PDF" /w/index.php?title=Special:DownloadAsPdf&page=Languages_of_Kyrgyzstan&action=show-download-screen
+          link "Printable version" javascript:print();
+          text In other projects
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Category:Languages_of_Kyrgyzstan
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q20724894
+    col
+      row
+        text Appearance
+        button "Hide Appearance"
+      text Text
+      text Small
+      text Standard
+      text Large
+      text Width
+      text Standard
+      text Wide
+      text Color
+      text Automatic
+      text Light
+      text Dark
+    col
+      text From Wikipedia, the free encyclopedia
+      table Col "This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.Find sources \"Languages of Kyrgyzstan\" – news · newspapers · books · scholar · JSTOR (August 2018) (Learn how and when to remove this message)"
+      table "Languages of Kyrgyzstan"
+        Sign in English, Kyrgyz and Russian
+        Official | Kyrgyz (national/state language) Russian (official and interethnic)[1]
+        Main | Kyrgyz
+        Indigenous | Dialects of Kyrgyz language
+        Minority | .mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:"\a0 · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}DunganKalmykKoryo-marTajikUzbekUyghur
+        Immigrant | Turkic languages
+        Foreign | Mandarin ChineseEnglishFrenchGermanJapaneseKorean
+        Keyboard layout | ЙЦУКЕН
+        Source | [2]
+        Alphabet | Kyrgyz alphabets Kyrgyz Braille
+      text is one of four  in Central Asia to have  as a  . The  was adopted as the official language in 1991. After pressure from the Russian and other minorities in the country, the republic adopted Russian as an official language as well in 2000, to become an officially bilingual country.
+      link Kyrgyzstan https://en.wikipedia.org/wiki/Kyrgyzstan
+      link "former Soviet republics" https://en.wikipedia.org/wiki/Former_Soviet_republics
+      link Russian https://en.wikipedia.org/wiki/Russian_language
+      link "de jure" https://en.wikipedia.org/wiki/De_jure
+      link "official language" https://en.wikipedia.org/wiki/Official_language
+      link "Kyrgyz language" https://en.wikipedia.org/wiki/Kyrgyz_language
+      link [3] #cite_note-3
+      row
+        h2 Official languages
+        link edit /w/index.php?title=Languages_of_Kyrgyzstan&action=edit&section=1
+      text The languages of government in Kyrgyzstan are Russian as the official and inter-ethnic language and Kyrgyz as the state/national language.
+      row
+        text [
+        link "citation needed" https://en.wikipedia.org/wiki/Wikipedia:Citation_needed
+        text ]
+      text is a  language of the  branch, closely related to , , and . It was written in the  until the twentieth century.  was introduced and adopted in 1928, and was subsequently replaced on Stalin's orders by  in 1941. As a result of the pending language reform in neighboring , Kyrgyzstan will be the only independent  in a few years that exclusively uses the Cyrillic script.
+      link Kyrgyz https://en.wikipedia.org/wiki/Kyrgyz_language
+      link Turkic https://en.wikipedia.org/wiki/Turkic_languages
+      link Kipchak https://en.wikipedia.org/wiki/Kipchak_languages
+      link Kazakh https://en.wikipedia.org/wiki/Kazakh_language
+      link Karakalpak https://en.wikipedia.org/wiki/Karakalpak_language
+      link "Nogay Tatar" https://en.wikipedia.org/wiki/Nogay_language
+      link "Arabic alphabet" https://en.wikipedia.org/wiki/Arabic_alphabet
+      link "Latin script" https://en.wikipedia.org/wiki/Latin_alphabet
+      link "Cyrillic script" https://en.wikipedia.org/wiki/Cyrillic_script#Kyrgyz
+      link Kazakhstan https://en.wikipedia.org/wiki/Kazakhstan
+      link "Turkic-speaking country" https://en.wikipedia.org/wiki/Turkic_languages
+      link [4] #cite_note-4
+      text According to the 2009 census, 4.1 million people spoke Kyrgyz as native or second language and 2.5 million spoke Russian as native or second language, with 482,000 specifically identifying as native speakers.
+      link [5] #cite_note-5
+      link [6] #cite_note-:0-6
+      text Russian TV media enjoy enormous popularity in Kyrgyzstan, especially in Russian-speaking  and . Russian media outlets have an enormous impact on public opinion in Kyrgyzstan, especially in areas such as  and international political developments.
+      link "city of Bishkek" https://en.wikipedia.org/wiki/Bishkek
+      link "Chüy Region" https://en.wikipedia.org/wiki/Chüy_Region
+      link "human rights" https://en.wikipedia.org/wiki/Human_rights
+      link [7] #cite_note-7
+      row
+        h3 Education
+        link edit /w/index.php?title=Languages_of_Kyrgyzstan&action=edit&section=2
+      text Following the 2005 , educational reforms in 2007 required that Kyrgyz become a required subject in non-Kyrgyz-language schools, and that Russian become a required subject in schools with a language of instruction other than Russian.
+      link "Tulip Revolution" https://en.wikipedia.org/wiki/Tulip_Revolution
+      link [6] #cite_note-:0-6
+      row
+        h2 Minority languages
+        link edit /w/index.php?title=Languages_of_Kyrgyzstan&action=edit&section=3
+      text is spoken by approximately 850 thousand residents of Kyrgyzstan and is the second most spoken native language, ahead of Russian and behind Kyrgyz.
+      link Uzbek https://en.wikipedia.org/wiki/Uzbek_language
+      row
+        text [
+        link "citation needed" https://en.wikipedia.org/wiki/Wikipedia:Citation_needed
+        text ]
+      text In 2011,  won a highly contested election marked by irregularities by the  (OSEC). The Atambayev government subsequently banned graduating high school students from taking  in Uzbek, or any language other than Kyrgyz or Russian.
+      link "Almazbek Atambayev" https://en.wikipedia.org/wiki/Almazbek_Atambayev
+      link "Organization for Security and Co-operation in Europe" https://en.wikipedia.org/wiki/Organization_for_Security_and_Co-operation_in_Europe
+      link "exit examinations" https://en.wikipedia.org/wiki/Exit_examination
+      link [6] #cite_note-:0-6
+      row
+        h2 Language by number of speakers
+        link edit /w/index.php?title=Languages_of_Kyrgyzstan&action=edit&section=4
+      table Col "This section does not cite any sources. Please help improve this section by adding citations to reliable sources. Unsourced material may be challenged and removed. (September 2024) (Learn how and when to remove this message)"
+      table "Language name" "Native speakers" "Second-language speakers" "Total speakers"
+        Kyrgyz | 3,830,556 | 271,187 | 4,121,743
+        Russian | 482,243 | 2,109,393 | 2,591,636
+        Uzbek | 772,561 | 97,753 | 870,314
+        English |  | 28,416 | 28,416
+        French |  | 641 | 641
+        Other | 277,433 | 31,411 | 308,844
+      row
+        h2 See also
+        link edit /w/index.php?title=Languages_of_Kyrgyzstan&action=edit&section=5
+      link "Demographics of Kyrgyzstan" https://en.wikipedia.org/wiki/Demographics_of_Kyrgyzstan
+      row
+        h2 References
+        link edit /w/index.php?title=Languages_of_Kyrgyzstan&action=edit&section=6
+      link "Jump up" #cite_ref-1
+      text . .
+      link "\"Kyrgyzstan's Constitution of 2010 with Amendments through 2016\"" https://www.constituteproject.org/constitution/Kyrgyz_Republic_2016.pdf?lang=en
+      text (PDF)
+      text Constitute Project
+      text . Retrieved 2 September 2020
+      link "Jump up" #cite_ref-2
+      text . .
+      link "\"To hear the world through the sign language, to see the world through the finger tips | United Nations Development Programme\"" https://www.undp.org/kyrgyzstan/news/hear-world-through-sign-language-see-world-through-finger-tips
+      text UNDP
+      row
+        text [
+        link "permanent dead link" https://en.wikipedia.org/wiki/Wikipedia:Link_rot
+        text ]
+      link "Jump up" #cite_ref-3
+      text . .
+      link "\"Закон КР от 29 мая 2000 года № 52 Об официальном языке Кыргызской Республики\"" https://cbd.minjust.gov.kg/443/edition/427547/ru
+      text Централизованный банк данных правовой информации Кыргызской Республики
+      row
+        link "Jump up" #cite_ref-4
+        text .
+        link "\"'Only Kyrgyzstan in Central Asia insists on Cyrillic' — Tokayev - News of Kyrgyzstan, press and media\"" https://www.for.kg/news-626083-en.html
+      link "Jump up" #cite_ref-5
+      text . NSC of Kyrgyzstan. Archived from  on 21 January 2013.
+      link "\"Перепись населения и жилищного фонда Кыргызской Республики (Population and Housing Census of the Kyrgyz Republic), 2009\"" https://web.archive.org/web/20130121143551/http://212.42.101.100:8088/nacstat/node/23
+      link "the original" http://212.42.101.100:8088/nacstat/node/23
+      text . Retrieved 9 October 2012
+      row
+        link "Jump up to: 1" #cite_ref-:0_6-0
+        link 2 #cite_ref-:0_6-1
+        link 3 #cite_ref-:0_6-2
+      text McDermott, Ashley (2019). . .  (2): 256. .
+      link "\"The Linguistic Landscape of Post-Soviet Bishkek\"" https://www.jstor.org/stable/26899266
+      text Region
+      text 8
+      text 227–
+      link ISSN https://en.wikipedia.org/wiki/ISSN_(identifier)
+      link 2166-4307 https://search.worldcat.org/issn/2166-4307
+      row
+        link "Jump up" #cite_ref-7
+        text .
+        link "\"Major Russian TV Channel Sidelined in Kyrgyzstan - Jamestown\"" https://jamestown.org/program/major-russian-tv-channel-sidelined-in-kyrgyzstan/
+      text .mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}}
+      table "hide.mw-parser-output .navbar{display inline;font-size 88%;font-weight normal}.mw-parser-output .navbar-collapse{float left;text-align left}.mw-parser-output .navbar-boxtext{word-spacing 0}.mw-parser-output .navbar ul{display inline-block;white-space nowrap;line-height inherit}.mw-parser-output .navbar-brackets before{margin-right -0.125em;content \"[ \"}.mw-parser-output .navbar-brackets after{margin-left -0.125em;content \" ]\"}.mw-parser-output .navbar li{word-spacing -0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration inherit}.mw-parser-output .navbar-mini abbr{font-variant small-caps;border-bottom none;text-decoration none;cursor inherit}.mw-parser-output .navbar-ct-full{font-size 114%;margin 0 7em}.mw-parser-output .navbar-ct-mini{font-size 114%;margin 0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color var(--color-base)!important}@media(prefers-color-scheme dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color var(--color-base)!important}}@media print{.mw-parser-output .navbar{display none!important}}vteLanguages of Asia"
+        Sovereign states | Afghanistan Armenia Azerbaijan Bahrain Bangladesh Bhutan Brunei Cambodia China Cyprus Egypt Georgia India Indonesia Iran Iraq Israel Japan Jordan Kazakhstan North Korea South Korea Kuwait Kyrgyzstan Laos Lebanon Malaysia Maldives Mongolia Myanmar Nepal Oman Pakistan Palestine Philippines Qatar Russia Saudi Arabia Singapore Sri Lanka Syria Tajikistan Thailand Timor-Leste (East Timor) Turkey Turkmenistan United Arab Emirates Uzbekistan Vietnam Yemen
+        States withlimited recognition | Abkhazia Northern Cyprus South Ossetia Taiwan
+        Dependencies andother territories | British Indian Ocean Territory Christmas Island Cocos (Keeling) Islands Hong Kong Macau
+        Category Asia portal
+      text :
+      row
+        link Category /wiki/Help:Category
+        link "Languages of Kyrgyzstan" /wiki/Category:Languages_of_Kyrgyzstan
+  col
+    text "This page was last edited on 26 May 2026, at 03:34 (UTC)."
+    text Page was rendered with .
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the  and . Wikipedia® is a registered trademark of the , a non-profit organization.
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/
+    row
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link Disclaimers /wiki/Wikipedia:General_disclaimer
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+      link Developers https://developer.wikimedia.org
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+      link "Mobile view" //en.wikipedia.org/w/index.php?title=Languages_of_Kyrgyzstan&mobileaction=toggle_view_mobile
+    row
+      link "https://www.wikimedia.org/" https://www.wikimedia.org/
+      link "https://www.mediawiki.org/" https://www.mediawiki.org/

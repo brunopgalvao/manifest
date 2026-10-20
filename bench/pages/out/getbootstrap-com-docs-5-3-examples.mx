@@ -1,0 +1,263 @@
+@getbootstrap_com_docs_5_3_examples
+link "Skip to main content" #content
+row
+  link Bootstrap /
+  row
+    row
+      link Docs /docs/5.3/getting-started/introduction/
+      link Examples /docs/5.3/examples/
+      link Icons https://icons.getbootstrap.com/
+      link Blog https://blog.getbootstrap.com/
+    row
+      link "GitHub GitHub" https://github.com/twbs
+      link "X X" https://x.com/getbootstrap
+      link "Open Collective Open Collective" https://opencollective.com/bootstrap
+      region 17x40
+        rect @8,4 1x32 fill:#ffffff
+      button "BootstrapBootstrap v5.3 (switch to other versions)"
+      region 17x40
+        rect @8,4 1x32 fill:#ffffff
+      button "Toggle theme (light)"
+row
+  col
+    h1 Examples
+    text Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.
+    row
+      link "Download examples" https://github.com/twbs/bootstrap/releases/download/v5.3.8/bootstrap-5.3.8-examples.zip
+      link "Download source code" https://github.com/twbs/bootstrap/archive/v5.3.8.zip
+  col
+    card
+      link "https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKCWAIE2JWCVSD5K7UCTSIVK3NCTBD6K7KC6SILKJWCA7DVK3EHJNCLSIZ" https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKCWAIE2JWCVSD5K7UCTSIVK3NCTBD6K7KC6SILKJWCA7DVK3EHJNCLSIZ
+      link "Your edge case? Another builder solved it last Tuesday. Find answers." https://srv.carbonads.net/ads/click/x/GTND4277CVBDV2JJCYS4YKQUF67ITKQYCWSDTZ3JCAAI627ICE7IK2QKCWAIE2JWCVSD5K7UCTSIVK3NCTBD6K7KC6SILKJWCA7DVK3EHJNCLSIZ
+    link "ads via Carbon" http://carbonads.net/?utm_source=getbootstrapcom&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+h2 Starters
+text Functional examples of using Bootstrap in common JS frameworks like Webpack, Parcel, Vite, and more you can edit in StackBlitz.
+row
+  row
+    col
+      h3 CDN starter
+      text Instantly include Bootstrap's compiled CSS and JavaScript via the jsDelivr CDN.
+      link "https://stackblitz.com/github/twbs/examples/tree/main/starter?file=index.html" https://stackblitz.com/github/twbs/examples/tree/main/starter?file=index.html
+  row
+    col
+      h3 Sass & JS
+      text Use npm to import and compile Bootstrap's Sass with Autoprefixer and Stylelint, plus our bundled JavaScript.
+      link "https://stackblitz.com/github/twbs/examples/tree/main/sass-js?file=index.html" https://stackblitz.com/github/twbs/examples/tree/main/sass-js?file=index.html
+  row
+    col
+      h3 Sass & ESM JS
+      text Import and compile Bootstrap's Sass with Autoprefixer and Stylelint, and compile our source JavaScript with an ESM shim.
+      link "https://stackblitz.com/github/twbs/examples/tree/main/sass-js-esm?file=index.html" https://stackblitz.com/github/twbs/examples/tree/main/sass-js-esm?file=index.html
+  row
+    col
+      h3 Bootstrap color modes
+      text Import and compile Bootstrap's Sass with Stylelint, and the Bootstrap color modes.
+      link "https://stackblitz.com/github/twbs/examples/tree/main/color-modes?file=index.html" https://stackblitz.com/github/twbs/examples/tree/main/color-modes?file=index.html
+  row
+    col
+      h3 Bootstrap Icons
+      text Import and compile Bootstrap's Sass with Stylelint, PurgeCSS, and the Bootstrap Icons web font.
+      link "https://stackblitz.com/github/twbs/examples/tree/main/icons-font?file=index.html" https://stackblitz.com/github/twbs/examples/tree/main/icons-font?file=index.html
+  row
+    col
+      h3 Parcel
+      text Import and bundle Bootstrap's source Sass and JavaScript via Parcel.
+      link "https://stackblitz.com/github/twbs/examples/tree/main/parcel?file=src/index.html" https://stackblitz.com/github/twbs/examples/tree/main/parcel?file=src/index.html
+  row
+    col
+      h3 React
+      text Import and bundle Bootstrap's source Sass and JavaScript with React, Next.js, and React Bootstrap.
+      link "https://stackblitz.com/github/twbs/examples/tree/main/react-nextjs?file=src/pages/index.tsx" https://stackblitz.com/github/twbs/examples/tree/main/react-nextjs?file=src/pages/index.tsx
+  row
+    col
+      h3 Vite
+      text Import and bundle Bootstrap's source Sass and JavaScript with Vite.
+      link "https://stackblitz.com/github/twbs/examples/tree/main/vite?file=index.html" https://stackblitz.com/github/twbs/examples/tree/main/vite?file=index.html
+  row
+    col
+      h3 Vue
+      text Import and bundle Bootstrap's source Sass and JavaScript with Vue and Vite.
+      link "https://stackblitz.com/github/twbs/examples/tree/main/vue?file=index.html" https://stackblitz.com/github/twbs/examples/tree/main/vue?file=index.html
+  row
+    col
+      h3 Webpack
+      text Import and bundle Bootstrap's source Sass and JavaScript with Webpack.
+      link "https://stackblitz.com/github/twbs/examples/tree/main/webpack?file=src/index.html" https://stackblitz.com/github/twbs/examples/tree/main/webpack?file=src/index.html
+h2 Snippets
+text Common patterns for building sites and apps that build on existing components and utilities with custom CSS and more.
+row
+  col
+    link Headers /docs/5.3/examples/headers/
+    text Display your branding, navigation, search, and more with these header components
+  col
+    link Heroes /docs/5.3/examples/heroes/
+    text Set the stage on your homepage with heroes that feature clear calls to action.
+  col
+    link Features /docs/5.3/examples/features/
+    text Explain the features, benefits, or other details in your marketing content.
+  col
+    link Sidebars /docs/5.3/examples/sidebars/
+    text Common navigation patterns ideal for offcanvas or multi-column layouts.
+  col
+    link Footers /docs/5.3/examples/footers/
+    text Finish every page strong with an awesome footer, big or small.
+  col
+    link Dropdowns /docs/5.3/examples/dropdowns/
+    text Enhance your dropdowns with filters, icons, custom styles, and more.
+  col
+    link "List groups" /docs/5.3/examples/list-groups/
+    text Extend list groups with utilities and custom styles for any content.
+  col
+    link Modals /docs/5.3/examples/modals/
+    text Transform modals to serve any purpose, from feature tours to dialogs.
+  col
+    link Badges /docs/5.3/examples/badges/
+    text Make badges work with custom inner HTML and new looks.
+  col
+    link Breadcrumbs /docs/5.3/examples/breadcrumbs/
+    text Integrate custom icons and create stepper components.
+  col
+    link Buttons /docs/5.3/examples/buttons/
+    text Create custom buttons for just about any use case with utilities.
+  col
+    link Jumbotrons /docs/5.3/examples/jumbotrons/
+    text Create modernized versions of the classic Bootstrap component.
+h2 Custom Components
+text Brand-new components and templates to help folks quickly get started with Bootstrap and demonstrate best practices for adding onto the framework.
+row
+  col
+    link Album /docs/5.3/examples/album/
+    text Simple one-page template for photo galleries, portfolios, and more.
+  col
+    link Pricing /docs/5.3/examples/pricing/
+    text Example pricing page built with Cards and featuring a custom header and footer.
+  col
+    link Checkout /docs/5.3/examples/checkout/
+    text Custom checkout form showing our form components and their validation features.
+  col
+    link Product /docs/5.3/examples/product/
+    text Lean product-focused marketing page with extensive grid and image work.
+  col
+    link Cover /docs/5.3/examples/cover/
+    text A one-page template for building simple and beautiful home pages.
+  col
+    link Carousel /docs/5.3/examples/carousel/
+    text Customize the navbar and carousel, then add some new components.
+  col
+    link Blog /docs/5.3/examples/blog/
+    text Magazine like blog template with header, navigation, featured content.
+  col
+    link Dashboard /docs/5.3/examples/dashboard/
+    text Basic admin dashboard shell with fixed sidebar and navbar.
+  col
+    link Sign-in /docs/5.3/examples/sign-in/
+    text Custom form layout and design for a simple sign in form.
+  col
+    link "Sticky footer" /docs/5.3/examples/sticky-footer/
+    text Attach a footer to the bottom of the viewport when page content is short.
+  col
+    link "Sticky footer navbar" /docs/5.3/examples/sticky-footer-navbar/
+    text Attach a footer to the bottom of the viewport with a fixed top navbar.
+  col
+    link Jumbotron /docs/5.3/examples/jumbotron/
+    text Use utilities to recreate and enhance Bootstrap 4's jumbotron.
+h2 Framework
+text Examples that focus on implementing uses of built-in components provided by Bootstrap.
+row
+  col
+    link "Starter template" /docs/5.3/examples/starter-template/
+    text Nothing but the basics: compiled CSS and JavaScript.
+  col
+    link Grid /docs/5.3/examples/grid/
+    text Multiple examples of grid layouts with all four tiers, nesting, and more.
+  col
+    link Cheatsheet /docs/5.3/examples/cheatsheet/
+    text Kitchen sink of Bootstrap components.
+h2 Navbars
+text Taking the default navbar component and showing how it can be moved, placed, and extended.
+row
+  col
+    link Navbars /docs/5.3/examples/navbars/
+    text Demonstration of all responsive and container options for the navbar.
+  col
+    link "Navbars offcanvas" /docs/5.3/examples/navbars-offcanvas/
+    text Same as the Navbars example, but with our offcanvas component.
+  col
+    link "Navbar static" /docs/5.3/examples/navbar-static/
+    text Single navbar example of a static top navbar along with some additional content.
+  col
+    link "Navbar fixed" /docs/5.3/examples/navbar-fixed/
+    text Single navbar example with a fixed top navbar along with some additional content.
+  col
+    link "Navbar bottom" /docs/5.3/examples/navbar-bottom/
+    text Single navbar example with a bottom navbar along with some additional content.
+  col
+    link "Offcanvas navbar" /docs/5.3/examples/offcanvas-navbar/
+    text Turn your expandable navbar into a sliding offcanvas menu (doesn't use our offcanvas component).
+h2 RTL
+text See Bootstrap's RTL version in action with these modified examples from various categories.
+text RTL is still experimental and will evolve with feedback. Spotted something or have an improvement to suggest? warning
+link "Please open an issue." https://github.com/twbs/bootstrap/issues/new/choose
+row
+  col
+    link "Album RTL" /docs/5.3/examples/album-rtl/
+    text Simple one-page template for photo galleries, portfolios, and more.
+  col
+    link "Checkout RTL" /docs/5.3/examples/checkout-rtl/
+    text Custom checkout form showing our form components and their validation features.
+  col
+    link "Carousel RTL" /docs/5.3/examples/carousel-rtl/
+    text Customize the navbar and carousel, then add some new components.
+  col
+    link "Blog RTL" /docs/5.3/examples/blog-rtl/
+    text Magazine like blog template with header, navigation, featured content.
+  col
+    link "Dashboard RTL" /docs/5.3/examples/dashboard-rtl/
+    text Basic admin dashboard shell with fixed sidebar and navbar.
+  col
+    link "Cheatsheet RTL" /docs/5.3/examples/cheatsheet-rtl/
+    text Kitchen sink of Bootstrap components, RTL.
+h2 Integrations
+text Integrations with external libraries.
+link Masonry /docs/5.3/examples/masonry/
+text Combine the powers of the Bootstrap grid and the Masonry layout.
+row
+  col
+    link Bootstrap /
+    text Designed and built with all the love in the world by the  with the help of .
+    link "Bootstrap team" /docs/5.3/about/team
+    link "our contributors" https://github.com/twbs/bootstrap/graphs/contributors
+    text Code licensed , docs .
+    row
+      link MIT https://github.com/twbs/bootstrap/blob/main/LICENSE
+      link "CC BY 3.0" https://creativecommons.org/licenses/by/3.0/
+    text Currently v5.3.8.
+  col
+    h3 Links
+    link Home /
+    link Docs /docs/5.3/
+    link Examples /docs/5.3/examples
+    link Icons https://icons.getbootstrap.com/
+    link Blog https://blog.getbootstrap.com/
+    link "Swag Store" https://cottonbureau.com/people/bootstrap
+  col
+    h3 Guides
+    link "Getting started" /docs/5.3/getting-started
+    link "Starter template" /docs/5.3/examples/starter-template
+    link Webpack /docs/5.3/getting-started/webpack
+    link Parcel /docs/5.3/getting-started/parcel
+    link Vite /docs/5.3/getting-started/vite
+  col
+    h3 Projects
+    link "Bootstrap 5" https://github.com/twbs/bootstrap
+    link "Bootstrap 4" https://github.com/twbs/bootstrap/tree/v4-dev
+    link Icons https://github.com/twbs/icons
+    link RFS https://github.com/twbs/rfs
+    link "Examples repo" https://github.com/twbs/examples
+  col
+    h3 Community
+    link Issues https://github.com/twbs/bootstrap/issues
+    link Discussions https://github.com/twbs/bootstrap/discussions
+    link "Corporate sponsors" https://github.com/sponsors/twbs
+    link "Open Collective" https://opencollective.com/bootstrap
+    link "Stack Overflow" https://stackoverflow.com/questions/tagged/bootstrap-5

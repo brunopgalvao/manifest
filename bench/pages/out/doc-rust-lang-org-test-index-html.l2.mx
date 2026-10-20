@@ -1,0 +1,186 @@
+@doc_rust_lang_org_test_index_html rev=0 @0,0,728,1408
+row @17,17,694,1374
+  link "Skip to main content" #main-content @17,663,14,81
+  col @43,407,22,594
+    row @43,407,22,21
+      link ../test/index.html ../test/index.html @43,407,6,20
+      h2 test1.99.1 @61,407,4,21
+    text (58cf8f9c3 2026-10-13) @43,440,22,41
+    link "All Items" all.html @43,493,22,40
+    h3 Crate Items @43,545,22,38
+    link Re-exports #reexports @43,595,22,20
+    link Modules #modules @43,627,22,20
+    link Structs #structs @43,659,22,21
+    link Enums #enums @43,692,22,20
+    link Constants #constants @43,724,22,20
+    link Functions #functions @43,756,22,20
+    h3 Crates @43,788,22,19
+    link alloc ../alloc/index.html @43,819,22,20
+    link core ../core/index.html @43,851,22,21
+    link proc_macro ../proc_macro/index.html @43,884,22,20
+    link std ../std/index.html @43,916,22,20
+    link std_detect ../std_detect/index.html @43,948,22,21
+    link test ../test/index.html @43,981,22,20
+  col @77,17,634,1374
+    row @77,17,634,36
+      h1 Crate test Copy item path @77,23,250,25
+      link Source ../src/test/lib.rs.html#1-865 @339,25,48,20
+      row @399,17,263,36
+        link Search https://doc.rust-lang.org/test/index.html?search= @399,25,47,20
+        link Settings ../settings.html @458,25,54,20
+        link Help ../help.html @524,25,31,20
+        button Summary @567,17,95,36
+    text 🔬This is a nightly-only experimental API. (test) @77,65,634,21
+    row @77,98,634,157
+      text Expand description @77,156,60,41
+      col @149,98,562,157
+        text Support code for rustc’s built in unit-test and micro-benchmarking framework. @149,98,562,20
+        text Almost all user code will only be interested in Bencher and black_box. All other interactions (such as writing tests and benchmarks themselves) should be done via the and attributes. #[bench] @149,130,562,61
+        text See the of the book for more details. @149,203,562,20
+        link "Testing Chapter" ../book/ch11-00-testing.html @149,235,562,20
+    h2 Re-exports§ @77,267,634,22
+    row @77,301,634,20
+      text pub use self::bench::; @77,301,143,20
+      link Bencher bench/struct.Bencher.html @232,301,56,20
+      text Experimental @300,301,86,20
+    row @77,333,634,20
+      text pub use self::bench::; @77,333,143,20
+      link black_box bench/fn.black_box.html @232,333,67,20
+      text Experimental @311,333,86,20
+    row @77,365,634,21
+      text pub use self::::*; @77,365,109,21
+      link ColorConfig enum.ColorConfig.html @198,365,80,21
+      text Experimental @290,365,86,21
+    row @77,398,634,20
+      text pub use self::types::::*; @77,398,154,20
+      link TestName enum.TestName.html @243,398,69,20
+      text Experimental @324,398,86,20
+    row @77,430,634,20
+      text pub use ::*; @77,430,77,20
+      link NamePadding enum.NamePadding.html @166,430,94,20
+      text Experimental @272,430,86,20
+    row @77,462,634,20
+      text pub use ::*; @77,462,77,20
+      link TestFn enum.TestFn.html @166,462,46,20
+      text Experimental @224,462,86,20
+    row @77,494,634,21
+      text pub use ::*; @77,494,77,21
+      link TestName enum.TestName.html @166,494,69,21
+      text Experimental @247,494,86,21
+    h2 Modules§ @77,527,634,21
+    row @77,560,634,20
+      row @77,560,140,20
+        link bench bench/index.html @77,560,42,20
+        text Experimental @131,560,86,20
+      text Benchmarking module. @229,560,153,20
+      row @394,560,130,20
+        link stats stats/index.html @394,560,32,20
+        text Experimental @438,560,86,20
+      row @536,560,123,20
+        link test test/index.html @536,560,25,20
+        text Experimental @573,560,86,20
+    h2 Structs§ @77,592,634,22
+    row @77,626,634,101
+      row @77,666,36,20
+        link Options struct.Options.html @77,666,9,20
+        text Experimental @98,666,15,20
+      text Options for the test run defined by the caller (instead of CLI arguments). In case we want to add other options as well, just add them in this struct. @125,626,227,101
+      row @364,666,38,20
+        link TestDesc struct.TestDesc.html @364,666,11,20
+        text Experimental @387,666,15,20
+      row @414,666,48,20
+        link TestDescAndFn struct.TestDescAndFn.html @414,666,20,20
+        text Experimental @446,666,16,20
+      row @474,666,33,20
+        link TestId struct.TestId.html @474,666,7,20
+        text Experimental @493,666,14,20
+      row @519,666,36,20
+        link TestList struct.TestList.html @519,666,9,20
+        text Experimental @540,666,15,20
+      text A list of tests, tagged with whether they are sorted by name. @567,626,94,101
+      row @673,666,38,20
+        link TestOpts struct.TestOpts.html @673,666,11,20
+        text Experimental @696,666,15,20
+    h2 Enums§ @77,739,634,21
+    row @77,772,634,183
+      row @77,853,23,21
+        link ColorConfig enum.ColorConfig.html @77,853,5,21
+        text Experimental @94,853,6,21
+      text Whether should console output be colored or not @112,793,42,142
+      row @166,853,25,21
+        link NamePadding enum.NamePadding.html @166,853,7,21
+        text Experimental @185,853,6,21
+      row @203,853,24,21
+        link OutputFormat enum.OutputFormat.html @203,853,6,21
+        text Experimental @221,853,6,21
+      text Format of the test results output @239,803,28,122
+      row @279,853,22,21
+        link RunIgnored enum.RunIgnored.html @279,853,5,21
+        text Experimental @296,853,5,21
+      text Whether ignored test should be run or not @313,782,36,163
+      row @361,853,23,21
+        link ShouldPanic enum.ShouldPanic.html @361,853,6,21
+        text Experimental @379,853,5,21
+      text Whether test is expected to panic or not @396,782,35,163
+      row @443,853,18,21
+        link TestFn enum.TestFn.html @443,853,2,21
+        text Experimental @457,853,4,21
+      row @473,853,25,21
+        link TestListOrder enum.TestListOrder.html @473,853,7,21
+        text Experimental @492,853,6,21
+      text Whether a ’s tests are known to be sorted by name. @510,772,44,183
+      link TestList struct.TestList.html @566,853,7,21
+      row @585,853,21,21
+        link TestName enum.TestName.html @585,853,4,21
+        text Experimental @601,853,5,21
+      row @618,853,21,21
+        link TestType enum.TestType.html @618,853,4,21
+        text Experimental @634,853,5,21
+      text Type of the test according to the conventions. @651,803,39,122
+      link "Rust book" https://doc.rust-lang.org/cargo/guide/tests.html @702,843,9,41
+    h2 Constants§ @77,967,634,21
+    row @77,1000,634,21
+      row @77,1000,228,21
+        link ERROR_EXIT_CODE constant.ERROR_EXIT_CODE.html @77,1000,130,21
+        text Experimental @219,1000,86,21
+      text Process exit code to be used to indicate test failures. @317,1000,351,21
+    h2 Functions§ @77,1033,634,21
+    row @77,1066,634,325
+      row @77,1218,17,20
+        link assert_test_result fn.assert_test_result.html @77,1218,3,20
+        text Experimental @92,1218,2,20
+      text Invoked when unit tests terminate. Returns Result::Err if the test is considered a failure. By default, invokes report() and checks for a 0 result. @106,1066,73,325
+      col @191,1202,15,52
+        link convert_benchmarks_to_tests fn.convert_benchmarks_to_tests.html @191,1202,15,20
+        text Experimental @191,1234,15,21
+      row @218,1218,13,20
+        link filter_tests fn.filter_tests.html @218,1218,1,20
+        text Experimental @231,1218,0,20
+      col @243,1202,15,52
+        link print_merged_doctests_times fn.print_merged_doctests_times.html @243,1202,15,20
+        text Experimental @243,1234,15,21
+      text Public API used by rustdoc to display the total and compilation times in the expected format. @270,1076,48,304
+      row @330,1218,12,20
+        link run_test fn.run_test.html @330,1218,0,20
+        text Experimental @342,1218,0,20
+      row @354,1218,12,20
+        link run_tests fn.run_tests.html @354,1218,0,20
+        text Experimental @366,1218,0,20
+      row @378,1218,17,20
+        link run_tests_console fn.run_tests_console.html @378,1218,3,20
+        text Experimental @393,1218,2,20
+      text A simple console test runner. Runs provided tests reporting process and results to the stdout. @407,1086,49,284
+      row @468,1218,12,20
+        link test_main fn.test_main.html @468,1218,0,20
+        text Experimental @480,1218,0,20
+      row @492,1218,16,20
+        link test_main_static fn.test_main_static.html @492,1218,3,20
+        text Experimental @507,1218,1,20
+      text A variant optimized for invocation with a static test vector. This will panic (intentionally) when fed any dynamic tests. @520,1076,61,304
+      row @593,1218,19,20
+        link test_main_static_abort fn.test_main_static_abort.html @593,1218,4,20
+        text Experimental @609,1218,3,20
+      text A variant optimized for invocation with a static test vector. This will panic (intentionally) when fed any dynamic tests. @624,1076,60,304
+      col @696,1202,15,52
+        link test_main_with_exit_callback fn.test_main_with_exit_callback.html @696,1202,15,20
+        text Experimental @696,1234,15,21

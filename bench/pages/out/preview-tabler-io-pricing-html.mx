@@ -27,61 +27,54 @@ row
     text Free
     text $0
     text 3 Users
-    region 20x20
-      path "M5 12l5 5l10 -10" fill:none stroke:#2fb344 width:1.5
-    region 20x20
-      path "M18 6l-12 12" fill:none stroke:#d63939 width:1.5
-      path "M6 6l12 12" fill:none stroke:#d63939 width:1.5
-    region 20x20
-      path "M18 6l-12 12" fill:none stroke:#d63939 width:1.5
-      path "M6 6l12 12" fill:none stroke:#d63939 width:1.5
-    region 20x20
-      path "M18 6l-12 12" fill:none stroke:#d63939 width:1.5
-      path "M6 6l12 12" fill:none stroke:#d63939 width:1.5
+    text Sharing Tools
+    figure check
+    text Design Tools
+    figure x
+    text Private Messages
+    figure x
+    text Twitter API
+    figure x
     link "Choose plan" #
   col
-    region 20x20
-      path "M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873l-6.158 -3.245" fill:none stroke:#ffffff width:1.5
+    figure star
     text Premium
     text $49
     text 10 Users
-    region 20x20
-      path "M5 12l5 5l10 -10" fill:none stroke:#2fb344 width:1.5
-    region 20x20
-      path "M5 12l5 5l10 -10" fill:none stroke:#2fb344 width:1.5
-    region 20x20
-      path "M18 6l-12 12" fill:none stroke:#d63939 width:1.5
-      path "M6 6l12 12" fill:none stroke:#d63939 width:1.5
-    region 20x20
-      path "M18 6l-12 12" fill:none stroke:#d63939 width:1.5
-      path "M6 6l12 12" fill:none stroke:#d63939 width:1.5
+    text Sharing Tools
+    figure check
+    text Design Tools
+    figure check
+    text Private Messages
+    figure x
+    text Twitter API
+    figure x
     link "Choose plan" #
   col
     text Enterprise
     text $99
     text 100 Users
-    region 20x20
-      path "M5 12l5 5l10 -10" fill:none stroke:#2fb344 width:1.5
-    region 20x20
-      path "M5 12l5 5l10 -10" fill:none stroke:#2fb344 width:1.5
-    region 20x20
-      path "M5 12l5 5l10 -10" fill:none stroke:#2fb344 width:1.5
-    region 20x20
-      path "M18 6l-12 12" fill:none stroke:#d63939 width:1.5
-      path "M6 6l12 12" fill:none stroke:#d63939 width:1.5
+    text Sharing Tools
+    figure check
+    text Design Tools
+    figure check
+    text Private Messages
+    figure check
+    text Twitter API
+    figure x
     link "Choose plan" #
   col
     text Unlimited
     text $139
     text Unlimited Users
-    region 20x20
-      path "M5 12l5 5l10 -10" fill:none stroke:#2fb344 width:1.5
-    region 20x20
-      path "M5 12l5 5l10 -10" fill:none stroke:#2fb344 width:1.5
-    region 20x20
-      path "M5 12l5 5l10 -10" fill:none stroke:#2fb344 width:1.5
-    region 20x20
-      path "M5 12l5 5l10 -10" fill:none stroke:#2fb344 width:1.5
+    text Sharing Tools
+    figure check
+    text Design Tools
+    figure check
+    text Private Messages
+    figure check
+    text Twitter API
+    figure check
     link "Choose plan" #
   row
     col
@@ -95,6 +88,7 @@ row
     link "Source code" https://github.com/tabler/tabler
     link Sponsor https://github.com/sponsors/codecalm
   row
+    text Copyright © 2026 . All rights reserved.
     link Tabler .
     link v1.6.1 ./changelog.html
 button Customize primary

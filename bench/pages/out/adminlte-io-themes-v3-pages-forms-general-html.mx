@@ -258,5 +258,7 @@ row
     slider "Custom range (custom-range-teal)" 50 0..100
     field "Choose file"
     text Choose file
+text All rights reserved.
 text Version 3.2.0
+text Copyright © 2014-2021 .
 link AdminLTE.io https://adminlte.io

@@ -1,0 +1,640 @@
+@en_wikipedia_org_wiki_wikipedia_communit
+link "Jump to content" #bodyContent
+row
+  row
+    col
+      button "Main menu"
+      text Main menu
+      row
+        text Main menu
+        button "Move Main menu to sidebar"
+      link "Main page" /wiki/Main_Page
+      link Contents /wiki/Wikipedia:Contents
+      link "Current events" /wiki/Portal:Current_events
+      link "Random article" /wiki/Special:Random
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      text Contribute
+      link Help /wiki/Help:Contents
+      link "Learn to edit" /wiki/Help:Introduction
+      link "Community portal" /wiki/Wikipedia:Community_portal
+      link "Recent changes" /wiki/Special:RecentChanges
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard
+      link "Special pages" /wiki/Special:SpecialPages
+    link /wiki/Main_Page /wiki/Main_Page
+  row
+    row
+      col
+        field "Search Wikipedia" search
+      button Search
+    row
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+      link "Create account" /w/index.php?title=Special:CreateAccount&returnto=Wikipedia%3ACommunity+portal
+      link "Log in" /w/index.php?title=Special:UserLogin&returnto=Wikipedia%3ACommunity+portal
+row
+  row
+    row
+      h1 "Wikipedia:Community portal"
+      col
+        button "221 languages"
+        text 221 languages primary
+    row
+      row
+        link "Project page" /wiki/Wikipedia:Community_portal
+        link Talk /wiki/Wikipedia_talk:Community_portal
+      row
+        row
+          link Read /wiki/Wikipedia:Community_portal
+          link "View source" /w/index.php?title=Wikipedia:Community_portal&action=edit
+          link "View history" /w/index.php?title=Wikipedia:Community_portal&action=history
+        col
+          button Tools
+          text Tools
+          row
+            text Tools
+            button "Move Tools to sidebar"
+          text General
+          link "What links here" /wiki/Special:WhatLinksHere/Wikipedia:Community_portal
+          link "Related changes" /wiki/Special:RecentChangesLinked/Wikipedia:Community_portal
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Wikipedia:Community_portal&oldid=1368513901
+          link "Page information" /w/index.php?title=Wikipedia:Community_portal&action=info
+          link "Get shortened URL" /w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3ACommunity_portal
+          link "Switch to legacy parser" /w/index.php?title=Wikipedia:Community_portal&useparsoid=0
+          button "Expand all"
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q4654925#sitelinks-wikipedia
+          text Print/export
+          link "Download as PDF" /w/index.php?title=Special:DownloadAsPdf&page=Wikipedia%3ACommunity_portal&action=show-download-screen
+          link "Printable version" javascript:print();
+          text In other projects
+          link "Abstract Wikipedia" https://abstract.wikipedia.org/wiki/Abstract_Wikipedia:Community_portal
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Commons:Community_portal
+          link MediaWiki https://www.mediawiki.org/wiki/Project:Help
+          link "Multilingual Wikisource" https://wikisource.org/wiki/Wikisource:Community_Portal
+          link Wikispecies https://species.wikimedia.org/wiki/Wikispecies:Community_Portal
+          link Wikibooks https://en.wikibooks.org/wiki/Wikibooks:Community_Portal
+          link Wikidata https://www.wikidata.org/wiki/Wikidata:Community_portal
+          link Wikifunctions https://www.wikifunctions.org/wiki/Wikifunctions:Community_portal
+          link Wikimania https://wikimania.wikimedia.org/wiki/Wikimania:Community_portal
+          link Wikinews https://en.wikinews.org/wiki/Wikinews:Newsroom
+          link Wikiquote https://en.wikiquote.org/wiki/Wikiquote:Community_Portal
+          link Wikisource https://en.wikisource.org/wiki/Wikisource:Community_portal
+          link Wikiversity https://en.wikiversity.org/wiki/Wikiversity:Community_Portal
+          link Wikivoyage https://en.wikivoyage.org/wiki/Wikivoyage:Community_portal
+          link Wiktionary https://en.wiktionary.org/wiki/Wiktionary:Community_Portal
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q4654925
+    col
+      row
+        text Appearance
+        button "Hide Appearance"
+      text Text
+      text Small
+      text Standard
+      text Large
+      text Width
+      text Standard
+      text Wide
+      text Color
+      text Automatic
+      text Light
+      text Dark
+    col
+      link "This page is semi-protected." https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#semi
+      text From Wikipedia, the free encyclopedia
+      text Latest comment:  by Catfurball in topic
+      row
+        link "1 month ago" #c-Catfurball-20260901152100-Community_bulletin_board
+        link "Community bulletin board" #Community_bulletin_board
+      text "\"WP:COM\" redirects here. For the explanation about Wikimedia Commons, see ."
+      link "Wikipedia:Wikimedia Commons" https://en.wikipedia.org/wiki/Wikipedia:Wikimedia_Commons
+      table Col ".mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin 0;padding 0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin 0;display inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display inline}.mw-parser-output .hlist .mw-empty-li{display none}.mw-parser-output .hlist dt after{content \" \"}.mw-parser-output .hlist dd after,.mw-parser-output .hlist li after{content \"\\a0 · \";font-weight bold}.mw-parser-output .hlist dd last-child after,.mw-parser-output .hlist dt last-child after,.mw-parser-output .hlist li last-child after{content none}.mw-parser-output .hlist dd dd first-child before,.mw-parser-output .hlist dd dt first-child before,.mw-parser-output .hlist dd li first-child before,.mw-parser-output .hlist dt dd first-child before,.mw-parser-output .hlist dt dt first-child before,.mw-parser-output .hlist dt li first-child before,.mw-parser-output .hlist li dd first-child before,.mw-parser-output .hlist li dt first-child before,.mw-parser-output .hlist li li first-child before{content \" (\";font-weight normal}.mw-parser-output .hlist dd dd last-child after,.mw-parser-output .hlist dd dt last-child after,.mw-parser-output .hlist dd li last-child after,.mw-parser-output .hlist dt dd last-child after,.mw-parser-output .hlist dt dt last-child after,.mw-parser-output .hlist dt li last-child after,.mw-parser-output .hlist li dd last-child after,.mw-parser-output .hlist li dt last-child after,.mw-parser-output .hlist li li last-child after{content \")\";font-weight normal}.mw-parser-output .hlist ol{counter-reset listitem}.mw-parser-output .hlist ol>li{counter-increment listitem}.mw-parser-output .hlist ol>li before{content \" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li first-child before,.mw-parser-output .hlist dt ol>li first-child before,.mw-parser-output .hlist li ol>li first-child before{content \" (\"counter(listitem)\"\\a0 \"} Community portal Dashboard Departments Maintenance Tasks Discord IRC Matrix.org Meetups Directories (Protocols Essays How-to Index Noticeboards AI WikiProjects)"
+      h2 Welcome to the community portal!
+      link Shortcuts https://en.wikipedia.org/wiki/Wikipedia:Shortcut
+      link "P:WP" https://en.wikipedia.org/w/index.php?title=P:WP&redirect=no
+      link "WP:COM" https://en.wikipedia.org/w/index.php?title=Wikipedia:COM&redirect=no
+      text This page provides a listing of current collaborations, tasks, and news about English Wikipedia. New to ? See the  page or  for everything you need to know to get started. For a listing of  of interest, see the .
+      link Wikipedia https://en.wikipedia.org/wiki/Wikipedia
+      link "contributing to Wikipedia" https://en.wikipedia.org/wiki/Wikipedia:Contributing_to_Wikipedia
+      link "our tutorial" https://en.wikipedia.org/wiki/Help:Introduction
+      link "internal project pages" https://en.wikipedia.org/wiki/Wikipedia:ADMINP
+      link "department directory" https://en.wikipedia.org/wiki/Wikipedia:Department_directory
+      h2 Interact more
+      text For a listing of ongoing discussions and current requests, see the .
+      link Dashboard https://en.wikipedia.org/wiki/Wikipedia:Dashboard
+      row
+        col
+          link "Wikipedia:Help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk
+          link "Help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk
+          text Ask questions about how to use or edit Wikipedia
+        col
+          link "Wikipedia:Teahouse" https://en.wikipedia.org/wiki/Wikipedia:Teahouse
+          link Teahouse https://en.wikipedia.org/wiki/Wikipedia:Teahouse
+          text Friendly help for newcomers
+        col
+          link "Wikipedia:Reference desk" https://en.wikipedia.org/wiki/Wikipedia:Reference_desk
+          link "Reference desk" https://en.wikipedia.org/wiki/Wikipedia:Reference_desk
+          text Ask research questions about topics other than Wikipedia
+        col
+          link "Wikipedia:WikiProject Council/Directory" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Council/Directory
+          link WikiProjects https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Council/Directory
+          text Work with other editors on a shared area of interest
+        col
+          link "Wikipedia:Dispute resolution" https://en.wikipedia.org/wiki/Wikipedia:Dispute_resolution
+          link "Dispute resolution" https://en.wikipedia.org/wiki/Wikipedia:Dispute_resolution
+          text Get help resolving disputes
+      row
+        link "Village pumps" https://en.wikipedia.org/wiki/Wikipedia:Village_pump
+        text ()
+        link "view all" https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(all)
+      row
+        col
+          link "Wikipedia:Village pump (policy)" https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(policy)
+          link Policy https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(policy)
+          text Discuss existing and proposed policies
+        col
+          link "Wikipedia:Village pump (technical)" https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(technical)
+          link Technical https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(technical)
+          text Discuss technical issues about Wikipedia
+        col
+          link "Wikipedia:Village pump (proposals)" https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(proposals)
+          link Proposals https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(proposals)
+          text Discuss new proposals that are not policy-related
+        col
+          link "Wikipedia:Village pump (idea lab)" https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(idea_lab)
+          link "Idea lab" https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(idea_lab)
+          text Incubate new ideas before formally proposing them
+        col
+          link "Wikipedia:Village pump (WMF)" https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(WMF)
+          link WMF https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(WMF)
+          text Discuss matters involving the Wikimedia Foundation
+        col
+          link "Wikipedia:Village pump (miscellaneous)" https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(miscellaneous)
+          link Miscellaneous https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(miscellaneous)
+          text Post messages that do not fit into any other category
+      row
+        field "Search all village pumps & archives"
+        button fulltext
+      h2 Community bulletin board
+      text This section is  from .
+      row
+        link transcluded https://en.wikipedia.org/wiki/Help:Transclusion
+        link "Wikipedia:Community bulletin board" https://en.wikipedia.org/wiki/Wikipedia:Community_bulletin_board
+        text (  )
+        row
+          link edit https://en.wikipedia.org/w/index.php?title=Wikipedia:Community_bulletin_board&action=edit
+          text |
+          link history https://en.wikipedia.org/w/index.php?title=Wikipedia:Community_bulletin_board&action=history
+      text The  is used for announcements from  and other groups.
+      row
+        text community bulletin board
+        link WikiProjects https://en.wikipedia.org/wiki/Wikipedia:WikiProject
+      row
+        link Dashboard https://en.wikipedia.org/wiki/Wikipedia:Dashboard
+        link News https://en.wikipedia.org/wiki/Wikipedia:News
+        link "Task Center" https://en.wikipedia.org/wiki/Wikipedia:Task_Center
+        link Goings-on https://en.wikipedia.org/wiki/Wikipedia:Goings-on
+        link Meetups https://en.wikipedia.org/wiki/Wikipedia:Meetups
+        link "In the media" https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_in_the_media
+        link "Mailing lists" https://en.wikipedia.org/wiki/Wikipedia:Mailing_lists
+      row
+        col
+          text General notices
+          text "Community-wide noticeshtml.client-js body.mw-special-Watchlist .mw-parser-output #watchlist-message{display:none}.mw-parser-output #watchlist-message{margin-bottom:0.5em}"
+          link "Administrator elections voting phase" https://en.wikipedia.org/wiki/Wikipedia:Administrator_elections/October_2026/Voting_phase
+          link "Adding page mover–specific move protection" https://en.wikipedia.org/wiki/Wikipedia:Village_pump_(proposals)#Page_mover-specific_move_protection
+          link "Proposed eligibility criteria for WMF Board elections" https://meta.wikimedia.org/wiki/Wikimedia%20Foundation%20elections/2027/Proposed%20eligibility%20criteria
+          link "Volunteer Response Team (VRT) reform" https://meta.wikimedia.org/wiki/Requests%20for%20comment/VRT%20reform%20(part%201)
+          text WikiProject notices
+          text is trying to clear the , please help to lower the number of unreferenced articles below 30,000. Come contribute!  ()
+          link "WikiProject Unreferenced articles" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Unreferenced_articles
+          link "decades-long backlog of unreferenced articles" https://en.wikipedia.org/wiki/Category:Articles_lacking_sources
+          link Catfurball https://en.wikipedia.org/wiki/User:Catfurball
+          link talk https://en.wikipedia.org/wiki/User_talk:Catfurball
+          link "15:21, 1 September 2026 (UTC)" https://en.wikipedia.org/wiki/Wikipedia:Community_portal#c-Catfurball-20260901152100-Community_bulletin_board
+          text news:
+          link "WikiProject Outlines" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Outlines
+          text New outline:
+          link "Wikipedia:Artificial intelligence resources" https://en.wikipedia.org/wiki/Wikipedia:Artificial_intelligence_resources
+          text The following outline covers an ongoing situation, please help keep it updated:
+          link "Outline of the Russo-Ukrainian war" https://en.wikipedia.org/wiki/Outline_of_the_Russo-Ukrainian_war
+          text The  is .
+          row
+            link "Outline of the week" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Outlines#Outline_of_the_week!
+            link "Outline of biochemistry" https://en.wikipedia.org/wiki/Outline_of_biochemistry
+          text Please help improve them.
+          row
+            text —
+            link "The Transhumanist" https://en.wikipedia.org/wiki/User:The_Transhumanist
+          link "09:46, 25 March 2026 (UTC)" https://en.wikipedia.org/wiki/Wikipedia:Community_portal#c-The_Transhumanist-20260325094600-Catfurball-20260901152100
+        col
+          text Events
+          text ()
+          link "+" https://en.wikipedia.org/wiki/Special:EditPage/Wikipedia:Community_bulletin_board
+          text Yearly or infrequent events
+          text is helping organise a month-long multi-language editing campaign in solidarity with , including about the history of trade union and current developments.
+          link "WikiProject Organized Labour" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Organized_Labour
+          link "meta:Wiki Workers United" https://meta.wikimedia.org/wiki/Wiki%20Workers%20United
+          link "Sign up on meta" https://meta.wikimedia.org/wiki/Event:WikiProject%20Organized%20Labour%20Month%20Online%20Campaign
+          text Monthly or continuous events
+          text The contest department of the Military history WikiProject aims to motivate increased quality in military history articles by offering a form of friendly competition for project members making improvements to them. The primary contest available is a simple rolling competition that awards points for improving articles. The contest runs from the first to last day of each month.
+          text .
+          link "Monthly contest, WikiProject Military history" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Military_history/Contest
+          text . The  is a one-week-long effort by the  to reduce its backlog. The themes are: all articles on the , and articles on the backlog from , , and  2025.
+          text Guild of Copy Editors: blitz
+          link "October 2026 editing blitz" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Guild_of_Copy_Editors/Blitzes/October_2026
+          link "Guild of Copy Editors" https://en.wikipedia.org/wiki/Wikipedia:GOCE
+          link "GOCE Requests page" https://en.wikipedia.org/wiki/Wikipedia:GOCE/REQ
+          link July https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_copy_edit_from_July_2025
+          link August https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_copy_edit_from_August_2025
+          link September https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_copy_edit_from_September_2025
+          text "It began on 18 October, 00:00 (UTC), and will end on 24 October, 23:59 (UTC)."
+          text :
+          text 2026 Events
+          link "Wikipedia:WikiProject Women in Red" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Women_in_Red
+          table "Recently completed" "Women writers & their works Alphabet run Countries starting with P, Q & R Labour activists"
+            New this month: | Women in STEM Alphabet run: Countries starting with S Award winners
+            Ongoing initiatives: | #1day1woman: 2026 Sports
+            Upcoming events: | 16 Days of Activism against Gender-based Violence Ideas
+        col
+          link "Requests for comment" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment
+          text Discussions in the following areas have requested wider attention:
+          link Biographies https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Biographies
+          link "Economy and trade" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Economy,_trade,_and_companies
+          link "History and geography" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/History_and_geography
+          link "Language and linguistics" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Language_and_linguistics
+          link "Media, the arts, and architecture" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Media,_the_arts,_and_architecture
+          link "Politics, government, and law" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Politics,_government,_and_law
+          link "Religion and philosophy" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Religion_and_philosophy
+          link "Science and mathematics" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Maths,_science,_and_technology
+          link "Society, sports, and culture" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Society,_sports,_and_culture
+          link "Wikipedia policies and guidelines" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Wikipedia_policies_and_guidelines
+          link "Wikipedia style and naming" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Wikipedia_style_and_naming
+          link "WikiProjects and collaborations" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/WikiProjects_and_collaborations
+          link "Wikipedia technical issues and templates" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Wikipedia_technical_issues_and_templates
+          link "Wikipedia proposals" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Wikipedia_proposals
+          link Unsorted https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/Unsorted
+          link "View all" https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/All
+        col
+          link Meetups https://en.wikipedia.org/wiki/Wikipedia:Meetup
+          table "Portland, Oregon" "October 3, 2026 (2026-10-03)"
+            Minnesota | October 4, 2026 (2026-10-04)
+            Kitchener, Ontario | October 10, 2026 (2026-10-10)
+            Philadelphia WikiSalon (online) | October 10, 2026 (2026-10-10)
+            London 233 | October 11, 2026 (2026-10-11)
+            Bay Area WikiSalon | October 13, 2026 (2026-10-13)
+            Dumaguete 1 | October 16, 2026 (2026-10-16)
+            Bacolod 1 | October 17, 2026 (2026-10-17)
+            San Diego 140 | October 17, 2026 (2026-10-17)
+            Johannesburg 33 | October 17, 2026 (2026-10-17)
+            Wiki Café in Oakland | October 17, 2026 (2026-10-17)
+            Oxford 127 | October 18, 2026 (2026-10-18)
+            Seattle meetup | October 20, 2026 (2026-10-20)
+            Auckland 52 | October 31, 2026 (2026-10-31)
+            Brighton 9 | October 31, 2026 (2026-10-31)
+          table Col
+            Bay Area WikiSalon | November 4, 2026 (2026-11-04)
+            Los Angeles | November 7, 2026 (2026-11-07)
+            US Mountain West online | November 10, 2026 (2026-11-10)
+            Boston Coffee Chat | November 14, 2026 (2026-11-14)
+            Philadelphia WikiSalon (online) | November 14, 2026 (2026-11-14)
+            Toronto | November 15, 2026 (2026-11-15)
+            Cascadia Wikimedians membership meeting online & in person | November 15, 2026 (2026-11-15)
+            Auckland 53 | November 28, 2026 (2026-11-28)
+            San Diego 141 | November 29, 2026 (2026-11-29)
+        col
+          link "Technical news" https://en.wikipedia.org/wiki/Wikipedia:Tech_news
+          text Latest  from the Wikimedia technical community. Please tell other users about these changes. Not all changes will affect you.  are available.
+          link "tech news" https://meta.wikimedia.org/wiki/Special:MyLanguage/Tech/News
+          link Translations https://meta.wikimedia.org/wiki/Special:MyLanguage/Tech/News/2026/43
+          text Updates for editors
+          text To measure the impact of incorporating some  on logged-out reader retention, a test for  will be pushed to logged-out readers. With the Image Carousel feature, readers browse community-uploaded images, selected by editors as relevant to specific articles. The test starts on November 20.
+          link "community-requested features" https://www.mediawiki.org/wiki/Special:MyLanguage/Readers/Reader_Growth/Image_Browsing#November_2025:_Ideas_and_feedback
+          link "Image Carousel" https://www.mediawiki.org/wiki/Special:MyLanguage/Readers/Reader_Growth/Image_Browsing
+          text An experimental notice will be pushed to 0.5% of logged-out mobile readers who come to English Wikipedia from Google, asking them to add Wikipedia as a . The test is to see if this notice increases reader retention and encourages people who use Google Search to visit Wikipedia more often. It will run from October 15–29 and will be assessed for its impact on retention and referrals.
+          link "Google Preferred Source" https://blog.google/products-and-platforms/products/search/preferred-sources/
+          text View all 26 community-submitted tasks that were . For example, an issue where  returned an “Access denied” error when users tried to run SQL queries, preventing queries from running normally, has now been fixed.
+          image https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Reload_icon_with_two_arrows.svg/20px-Reload_icon_with_two_arrows.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail "Recurrent item"
+          link "resolved last week" https://meta.wikimedia.org/wiki/Special:MyLanguage/Tech/News/Recently%20resolved%20community%20tasks
+          link Quarry https://quarry.wmcloud.org/
+          text Updates for technical contributors
+          text Due to a long-standing bug, applications that use the  client credentials flow to act on their owners’ behalf are treated as if they are logged out. This will be fixed for new applications registered on or after Monday, October 19. Some affected applications need to re-register.
+          image https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Cog-icon-grey.svg/20px-Cog-icon-grey.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail "Advanced item"
+          link "OAuth 2" https://www.mediawiki.org/wiki/Special:MyLanguage/OAuth/For_Developers
+          text Detailed code updates later this week:
+          row
+            image https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Reload_icon_with_two_arrows.svg/20px-Reload_icon_with_two_arrows.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail "Recurrent item"
+            link MediaWiki https://www.mediawiki.org/wiki/MediaWiki%201.48/wmf.1
+          text Meetings and events
+          text A proposal to hold the Wikimedia Hackathon every three years, with regional hackathons in between, . It explores making the event more accessible to technical communities in different regions. Share your feedback on the proposal’s  before November 6.
+          link "has been shared" https://www.mediawiki.org/wiki/Wikimedia%20Hackathon/Community%20Proposal%202026
+          link "talk page" https://www.mediawiki.org/wiki/Talk:Wikimedia%20Hackathon/Community%20Proposal%202026
+          text prepared by  and posted by • • • • • .
+          link "Tech news" https://meta.wikimedia.org/wiki/Special:MyLanguage/Tech/News
+          link "Tech News writers" https://meta.wikimedia.org/wiki/Special:MyLanguage/Tech/News/Writers
+          link bot https://meta.wikimedia.org/wiki/Special:MyLanguage/User:MediaWiki%20message%20delivery
+          link Contribute https://meta.wikimedia.org/wiki/Special:MyLanguage/Tech/News#contribute
+          link Translate https://meta.wikimedia.org/wiki/Special:MyLanguage/Tech/News/2026/43
+          link "Get help" https://meta.wikimedia.org/wiki/Tech
+          link "Give feedback" https://meta.wikimedia.org/wiki/Talk:Tech/News
+          link "Subscribe or unsubscribe" https://meta.wikimedia.org/wiki/Global%20message%20delivery/Targets/Tech%20ambassadors
+        text ".mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid var(--border-color-base,#a2a9b1);border-bottom:1px solid var(--border-color-base,#a2a9b1)}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}.mw-parser-output .signpost-subscription{box-shadow:0 2px 4px rgba(0,0,0,0.1);font-family:Georgia,Palatino,\"Palatino Linotype\",Times,\"Times New Roman\",serif;background-color:var(--background-color-base,#fff);font-size:100%;border:1px solid #ccc;position:relative}.mw-parser-output .signpost-subscription .sidebar-title{padding-top:10px}.mw-parser-output .signpost-subscription .sidebar-above{border-top:none;font-size:15px;line-height:15px;padding:0;padding-bottom:10px;border-bottom:none}.mw-parser-output .signpost-subscription .sidebar-content{text-align:left;font-size:95%;border-top:1px solid #ccc}.mw-parser-output .signpost-subscription .sidebar-below{font-size:90%;font-weight:normal;border-bottom:none;border-top:none;padding:0}.mw-parser-output .signpost-subscription .sidebar-below a{color:var(--color-subtle,#777)}.mw-parser-output .signpost-subscription-general{border-top:1px solid #ddd;padding:5px 0;margin-top:5px;font-size:95%}@media(min-width:720px){.mw-parser-output .signpost-subscription{width:23em}.mw-parser-output .signpost-subscription-left{float:left}.mw-parser-output .signpost-subscription-none{float:none}} 13 October 2026 hide News and notes: AELECT returns, Jimbo gives a union update, VisualEditor is now defaultPlus a survey for North Americans, proposed changes to BoT elections, and developments in the Puerto Rican editing community. Serendipity: From a rare portrait of a female millionaire in Nancy to a Japanese painter in LyonImages from Leuven Libraries popular on Wiki. Obituary: Doug WellerTwenty-year editor, long-term admin, dearly missed. In the media: A(I)pocalypses afootCannibals, freeloaders, rogue agents, scams ... the usual. WikiConference Report: WikiConference 2026 & the importance of in-person communityCelebrating 12 years of WikiConference North America. By the numbers: Does the country of birth affect the likelihood of having a Wikipedia biography?A cross-country and cross-wikipedia comparison of the likelihood of having a biography in Wikipedia. News from Diff: OpenAI \"rogue\" agent activities found on Wikimedia projectsCPO/CTO Selena Deckelmann explains the recent detection of AI agent activities on Wikimedia projects. On the bright side: Good peopleNice comments and real-life rescuers. Op-ed: Who are our readers?The movement makes progress when we know what our scope is. Traffic report: This world is big and wild and half insaneCriminals, 9/11 25 years later, artists expelled for politics... we lived in troubled times. Comix: Fudging the numbersTake 'em away, officers! Single page Front page About Subscribe Suggestions Archives"
+      h2 Help out
+      text You can help improve the articles listed below! This list updates frequently, so check back here for more tasks to try. (See  or the  for further information.)
+      row
+        link "Wikipedia:Maintenance" https://en.wikipedia.org/wiki/Wikipedia:Maintenance
+        link "Task Center" https://en.wikipedia.org/wiki/Wikipedia:Task_Center
+      row
+        col
+          text Fix spelling and grammar
+          link Teespring https://en.wikipedia.org/wiki/Teespring
+          link "Alpha Group (Ukraine)" https://en.wikipedia.org/wiki/Alpha_Group_(Ukraine)
+          link "Athlitiki Enosi Larissa F.C." https://en.wikipedia.org/wiki/Athlitiki_Enosi_Larissa_F.C.
+          link Guavaween https://en.wikipedia.org/wiki/Guavaween
+          link "Yape (payment)" https://en.wikipedia.org/wiki/Yape_(payment)
+          text •
+          row
+            link More... https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_copy_edit
+            link "Learn how" https://en.wikipedia.org/wiki/Wikipedia:Basic_copyediting
+        col
+          text Fix wikilinks
+          link "List of districts of Central Java" https://en.wikipedia.org/wiki/List_of_districts_of_Central_Java
+          link "Wireless Power Consortium" https://en.wikipedia.org/wiki/Wireless_Power_Consortium
+          link Vêti https://en.wikipedia.org/wiki/Vêti
+          link "Elyce Arons" https://en.wikipedia.org/wiki/Elyce_Arons
+          link "Corporate venturing" https://en.wikipedia.org/wiki/Corporate_venturing
+          text •
+          row
+            link More... https://en.wikipedia.org/wiki/Category:All_articles_with_too_few_wikilinks
+            link "Learn how" https://en.wikipedia.org/wiki/Help:Wikitext#Wikilinks
+        col
+          text Update with new information
+          link "Telecommunications in India" https://en.wikipedia.org/wiki/Telecommunications_in_India
+          link "Symbiosis Institute of Business Management, Pune" https://en.wikipedia.org/wiki/Symbiosis_Institute_of_Business_Management,_Pune
+          link "Krishnadhan Das" https://en.wikipedia.org/wiki/Krishnadhan_Das
+          link "Renesis Player" https://en.wikipedia.org/wiki/Renesis_Player
+          link "Samantha Chapman" https://en.wikipedia.org/wiki/Samantha_Chapman
+          text •
+          row
+            link More... https://en.wikipedia.org/wiki/Category:Wikipedia_articles_in_need_of_updating
+            link "Learn how" https://en.wikipedia.org/wiki/Wikipedia:As_of
+        col
+          text Expand short articles
+          link "Viktoriya Leleka" https://en.wikipedia.org/wiki/Viktoriya_Leleka
+          link "Olena Zhyrko" https://en.wikipedia.org/wiki/Olena_Zhyrko
+          link "Volodymyr Koniev" https://en.wikipedia.org/wiki/Volodymyr_Koniev
+          link "Ruslana Kyrychenko" https://en.wikipedia.org/wiki/Ruslana_Kyrychenko
+          link "Sergiy Gorbenko" https://en.wikipedia.org/wiki/Sergiy_Gorbenko
+          text •
+          row
+            link More... https://en.wikipedia.org/wiki/Category:All_stub_articles
+            link "Learn how" https://en.wikipedia.org/wiki/Wikipedia:Writing_better_articles#Layout
+        col
+          text Check and add references
+          link "Nicholas Colasanto" https://en.wikipedia.org/wiki/Nicholas_Colasanto
+          link "Gabriel Medina" https://en.wikipedia.org/wiki/Gabriel_Medina
+          link "Adaptive mentalization-based integrative treatment" https://en.wikipedia.org/wiki/Adaptive_mentalization-based_integrative_treatment
+          link "Australian raven" https://en.wikipedia.org/wiki/Australian_raven
+          link "James Markusen" https://en.wikipedia.org/wiki/James_Markusen
+          text •
+          row
+            link More... https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_factual_verification
+            link "Learn how" https://en.wikipedia.org/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1
+        col
+          text Fix original research issues
+          link Christadelphians https://en.wikipedia.org/wiki/Christadelphians
+          link "Milan metropolitan area" https://en.wikipedia.org/wiki/Milan_metropolitan_area
+          link "Nian Rebellion" https://en.wikipedia.org/wiki/Nian_Rebellion
+          link "Carrickmacross Emmets GAC" https://en.wikipedia.org/wiki/Carrickmacross_Emmets_GAC
+          link Ewu https://en.wikipedia.org/wiki/Ewu
+          text •
+          row
+            link More... https://en.wikipedia.org/wiki/Category:Articles_that_may_contain_original_research
+            link "Learn how" https://en.wikipedia.org/wiki/Wikipedia:No_original_research#Synthesis_of_published_material_that_advances_a_position
+        col
+          text Improve lead sections
+          link "Student cap" https://en.wikipedia.org/wiki/Student_cap
+          link "2019 Dubai Tennis Championships – Women's singles" https://en.wikipedia.org/wiki/2019_Dubai_Tennis_Championships_–_Women's_singles
+          link "2nd Global Indian Film Awards" https://en.wikipedia.org/wiki/2nd_Global_Indian_Film_Awards
+          link "129th Rescue Squadron" https://en.wikipedia.org/wiki/129th_Rescue_Squadron
+          link "Greig Smith" https://en.wikipedia.org/wiki/Greig_Smith
+          text •
+          row
+            link More... https://en.wikipedia.org/wiki/Category:Wikipedia_introduction_cleanup
+            link "Learn how" https://en.wikipedia.org/wiki/Wikipedia:Writing_better_articles#Lead_section
+        col
+          text Add an image
+          link "Brechfa Forest Wind Farm" https://en.wikipedia.org/wiki/Brechfa_Forest_Wind_Farm
+          link "Boutan's whiting" https://en.wikipedia.org/wiki/Boutan's_whiting
+          link "Bonny Island" https://en.wikipedia.org/wiki/Bonny_Island
+          link "Baháʼí Faith in Mexico" https://en.wikipedia.org/wiki/Baháʼí_Faith_in_Mexico
+          link "Botany Downs" https://en.wikipedia.org/wiki/Botany_Downs
+          text •
+          row
+            link More... https://en.wikipedia.org/wiki/Category:Wikipedia_requested_images
+            link "Learn how" https://commons.wikimedia.org/wiki/Commons:First%20steps/Reuse
+        col
+          text Translate and clean up
+          link "Turgut Cansever" https://en.wikipedia.org/wiki/Turgut_Cansever
+          link "Keitai–Kinmei Civil War" https://en.wikipedia.org/wiki/Keitai–Kinmei_Civil_War
+          link "La Cosiata" https://en.wikipedia.org/wiki/La_Cosiata
+          link "Habib Bourguiba" https://en.wikipedia.org/wiki/Habib_Bourguiba
+          link "Strășeni District" https://en.wikipedia.org/wiki/Strășeni_District
+          text •
+          row
+            link More... https://en.wikipedia.org/wiki/Category:All_Wikipedia_articles_needing_cleanup_after_translation
+            link "Learn how" https://en.wikipedia.org/wiki/Wikipedia:Pages_needing_translation_into_English#Standard_procedures
+      text Help counter  by creating .
+      row
+        link "systemic bias" https://en.wikipedia.org/wiki/Wikipedia:Systemic_bias
+        link "new articles on important women" https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Women_in_Red/Redlist_index
+      text Help improve , especially .
+      row
+        link "popular pages" https://en.wikipedia.org/wiki/Category:Lists_of_popular_pages_by_WikiProject
+        link "those of low quality" https://en.wikipedia.org/wiki/User:DataflowBot/output/Popular_low_quality_articles_(id-2)
+      text This section is  from .
+      row
+        link transcluded https://en.wikipedia.org/wiki/Help:Transclusion
+        link "Wikipedia:Community portal/Open tasks" https://en.wikipedia.org/wiki/Wikipedia:Community_portal/Open_tasks
+        text (  )
+        row
+          link edit https://en.wikipedia.org/w/index.php?title=Wikipedia:Community_portal/Open_tasks&action=edit
+          text |
+          link history https://en.wikipedia.org/w/index.php?title=Wikipedia:Community_portal/Open_tasks&action=history
+      table ".mw-parser-output div.twafi-box{text-align center;max-width 700px;border 2px solid #CEE0F2;border-radius 1em;padding 0.1em;background-color #F5FAFF;margin 1em auto;color inherit}@media screen{html.skin-theme-clientpref-night .mw-parser-output div.twafi-box{border-color #1b223d;background-color #0D1A27}}@media screen and (prefers-color-scheme dark){html.skin-theme-clientpref-os .mw-parser-output div.twafi-box{border-color #1b223d;background-color #0D1A27}} This week's article for improvement is Confectionery store Previous selections General officer · Split of Christianity and Judaism · Geographic information system" ".mw-parser-output .improvement-of-the-week{max-width 700px;margin 1em auto;border 2px solid var(--accent-color-base,#CEE0F2);border-radius 1em;background-color var(--background-color-neutral-subtle,#F5FAFF);color var(--color-base,#202122);text-align center}.mw-parser-output .improvement-of-the-week>p>span{font-weight bold} The backlog of the week is Category Images with watermarks" Col
+      h2 Newest featured content
+      row
+        col
+          row
+            link Articles https://en.wikipedia.org/wiki/Wikipedia:Featured_articles
+            link "Featured article" https://en.wikipedia.org/wiki/File:Featured_article_star.svg
+          link "Joe Hill (activist)" https://en.wikipedia.org/wiki/Joe_Hill_(activist)
+          link "Infancy Gospel of Thomas" https://en.wikipedia.org/wiki/Infancy_Gospel_of_Thomas
+          link "History of education in Wales (1870–1939)" https://en.wikipedia.org/wiki/History_of_education_in_Wales_(1870–1939)
+          link "Tabancale language" https://en.wikipedia.org/wiki/Tabancale_language
+          link Aucanquilcha https://en.wikipedia.org/wiki/Aucanquilcha
+          link Semiotics https://en.wikipedia.org/wiki/Semiotics
+          link "Daher al-Umar" https://en.wikipedia.org/wiki/Daher_al-Umar
+          link "Christopher Morcom" https://en.wikipedia.org/wiki/Christopher_Morcom
+          link "New Zealand red admiral" https://en.wikipedia.org/wiki/New_Zealand_red_admiral
+          link "1936 Liechtenstein general election" https://en.wikipedia.org/wiki/1936_Liechtenstein_general_election
+          link "Urtica ferox" https://en.wikipedia.org/wiki/Urtica_ferox
+          link Map https://en.wikipedia.org/wiki/Map
+          link China https://en.wikipedia.org/wiki/China
+          link Chimpanzee https://en.wikipedia.org/wiki/Chimpanzee
+          link "The Lion Sleeps Tonight" https://en.wikipedia.org/wiki/The_Lion_Sleeps_Tonight
+        col
+          row
+            link Topics https://en.wikipedia.org/wiki/Wikipedia:Featured_topics
+            link "Featured topic" https://en.wikipedia.org/wiki/File:Cscr-featuredtopic.svg
+          link "2026 Men's T20 World Cup" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/2026_Men's_T20_World_Cup
+          link "2024 Men's T20 World Cup" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/2024_Men's_T20_World_Cup
+          link "Figure skating at the 2022 Winter Olympics" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/Figure_skating_at_the_2022_Winter_Olympics
+          link "Metroid Prime: Trilogy" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/Metroid_Prime:_Trilogy
+          link "British monarchs" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/British_monarchs
+          link "Kristen Bell" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/Kristen_Bell
+          link "Chimamanda Ngozi Adichie" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/Chimamanda_Ngozi_Adichie
+          link "No. 86 Wing RAAF" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/No._86_Wing_RAAF
+          link "Overview of Lecrae" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/Overview_of_Lecrae
+          link "Roman invasion of Africa (204–201 BC)" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/Roman_invasion_of_Africa_(204–201_BC)
+          link "Scottish invasion of England (1648)" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/Scottish_invasion_of_England_(1648)
+          link "Line of Duty" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/Line_of_Duty
+          link "Overview of SZA" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/Overview_of_SZA
+          link "Green Bay Packers players" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/Green_Bay_Packers_players
+          link "History of the National Hockey League" https://en.wikipedia.org/wiki/Wikipedia:Featured_topics/History_of_the_National_Hockey_League
+        col
+          row
+            link Lists https://en.wikipedia.org/wiki/Wikipedia:Featured_lists
+            link "Featured list" https://en.wikipedia.org/wiki/File:Featured_article_star.svg
+          link "List of paintings of George Washington" https://en.wikipedia.org/wiki/List_of_paintings_of_George_Washington
+          link "List of EFL Cup–winning managers" https://en.wikipedia.org/wiki/List_of_EFL_Cup–winning_managers
+          link "List of consorts and children of the Jiajing Emperor" https://en.wikipedia.org/wiki/List_of_consorts_and_children_of_the_Jiajing_Emperor
+          link "List of awards and nominations received by My Chemical Romance" https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_My_Chemical_Romance
+          link "Jane Remover discography" https://en.wikipedia.org/wiki/Jane_Remover_discography
+          link "List of Billboard Hot 100 number ones of 1976" https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_1976
+          link "Timeline of the 2001 Pacific hurricane season" https://en.wikipedia.org/wiki/Timeline_of_the_2001_Pacific_hurricane_season
+          link "Monuments of national significance in Donetsk Oblast" https://en.wikipedia.org/wiki/Monuments_of_national_significance_in_Donetsk_Oblast
+          link "List of Copa del Rey finals" https://en.wikipedia.org/wiki/List_of_Copa_del_Rey_finals
+          link "2026 Lanka Premier League players' draft" https://en.wikipedia.org/wiki/2026_Lanka_Premier_League_players'_draft
+          link "List of recovering species" https://en.wikipedia.org/wiki/List_of_recovering_species
+          link "List of World Heritage Sites in Latin America and the Caribbean" https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_in_Latin_America_and_the_Caribbean
+          link "List of winners of Japanese Thoroughbred Triple Crown races" https://en.wikipedia.org/wiki/List_of_winners_of_Japanese_Thoroughbred_Triple_Crown_races
+          link "List of presidents of the University of Chicago" https://en.wikipedia.org/wiki/List_of_presidents_of_the_University_of_Chicago
+          link "20th-Century Architecture of Frank Lloyd Wright" https://en.wikipedia.org/wiki/20th-Century_Architecture_of_Frank_Lloyd_Wright
+        col
+          row
+            link Pictures https://en.wikipedia.org/wiki/Wikipedia:Featured_pictures
+            link "Featured picture" https://en.wikipedia.org/wiki/File:Cscr-featured.svg
+          link "Charlie Chaplin" https://en.wikipedia.org/wiki/File:Charlie_Chaplin_portrait_Getty_1739411952.jpg
+          link "Booted warbler" https://en.wikipedia.org/wiki/File:Booted_Warbler_in_Baruipur_January_2026_by_Tisha_Mukherjee_08.jpg
+          link "Russian peasant girls" https://en.wikipedia.org/wiki/File:Russian_peasant_girls_in_front_of_a_traditional_wooden_house_in_Kirillov.jpg
+          link "Hinckley 42 Daysailor" https://en.wikipedia.org/wiki/File:Hinckley_42_Daysailor_by_Don_Ramey_Logan.jpg
+          link "Bombus vosnesenskii" https://en.wikipedia.org/wiki/File:Yellow-faced_bumblebee_(Bombus_vosnesenskii)_on_lavender_(Lavandula_sp.)_Mt_Washington.jpg
+          link "Grey-chinned minivet" https://en.wikipedia.org/wiki/File:Grey-chinned_minivet_(Pericrocotus_solaris_griseogularis)_male_Xindian.jpg
+          link "Steller sea lions" https://en.wikipedia.org/wiki/File:Steller_sea_lions_(Eumetopias_jubatus_monteriensis)_females_Tofino.jpg
+          link "Houses buried after the Eldfell eruption" https://en.wikipedia.org/wiki/File:Vestmannaeyjar_Vulkanasche_1.jpg
+          link "Mating European robins" https://en.wikipedia.org/wiki/File:Erithacus_rubecula_mating_628463898.jpg
+          link "Edmund Hillary" https://en.wikipedia.org/wiki/File:Edmund_Hillary,_c._1953,_autograph_removed.jpg
+          link "Dresses of the Mondrian Collection" https://en.wikipedia.org/wiki/File:Mondriaanmode_door_Yves_St_Laurent_(1966).jpg
+          link "Wat Pariwat" https://en.wikipedia.org/wiki/File:Wat_Pariwat_Ratchasongkram_ubosot_Bangkok_Thailand_by_Don_Ramey_Logan.jpg
+          link "Alice Glass" https://en.wikipedia.org/wiki/File:Alice_Glass_-_Rock_am_Ring_2019-2742.jpg
+          link "Nursultan Mosque" https://en.wikipedia.org/wiki/File:Астана,_центральная_мечеть_с_угла.jpg
+          link "Golden-mantled ground squirrel" https://en.wikipedia.org/wiki/File:Rocky_Mountain_golden-mantled_ground_squirrel_(Callospermophilus_lateralis_tescorum)_Hwy_93_2.jpg
+      h2 Tip of the day
+      card
+        link "Tip of the day..." https://en.wikipedia.org/wiki/Wikipedia:Tip_of_the_day
+        text The five pillars
+        text All of 's  are based on  that define Wikipedia's character:
+        row
+          link Wikipedia https://en.wikipedia.org/wiki/Wikipedia
+          link "official policies and guidelines" https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines
+          link "five pillars" https://en.wikipedia.org/wiki/Wikipedia:Five_pillars
+        table "Wikipedia is an encyclopedia." "Wikipedia has a neutral point of view." "Wikipedia is free content."
+          Wikipedia has a code of conduct. | Wikipedia does not have firm rules. | 
+        row
+          link "Prior tip" https://en.wikipedia.org/wiki/Wikipedia:Tip_of_the_day/October_19
+          text –
+          link "Tips library" https://en.wikipedia.org/wiki/Wikipedia:Tips
+          text –
+          link "Next tip" https://en.wikipedia.org/wiki/Wikipedia:Tip_of_the_day/October_21
+        text Read more:
+        row
+          link "Wikipedia:Policies and guidelines" https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines
+        link "Become a Wikipedia tipster" https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_tipster
+        text To add this auto-updating template to your user page, use
+        row
+          text {{
+          link totd https://en.wikipedia.org/wiki/Template:Totd
+          text }}
+      row
+        text at Wikipedia's :
+        row
+          text "Wikipedia:Community portal"
+          link "sister projects" https://en.wikipedia.org/wiki/Wikipedia:Wikimedia_sister_projects
+        row
+          row
+            link "https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg" https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg
+            text from Wiktionary
+            link Definitions https://en.wiktionary.org/wiki/Wiktionary:Community%20Portal
+          row
+            link "https://en.wikipedia.org/wiki/File:Commons-logo.svg" https://en.wikipedia.org/wiki/File:Commons-logo.svg
+            text from Commons
+            link Media https://commons.wikimedia.org/wiki/Commons:Community%20portal
+          row
+            text from Wikiquote
+            link Quotations https://en.wikiquote.org/wiki/Wikiquote:Community%20Portal
+          row
+            link "https://en.wikipedia.org/wiki/File:Wikisource-logo.svg" https://en.wikipedia.org/wiki/File:Wikisource-logo.svg
+            text from Wikisource
+            link Texts https://en.wikisource.org/wiki/Wikisource:Community%20portal
+          row
+            link "https://en.wikipedia.org/wiki/File:Wikibooks-logo.svg" https://en.wikipedia.org/wiki/File:Wikibooks-logo.svg
+            text from Wikibooks
+            link Textbooks https://en.wikibooks.org/wiki/Wikibooks:Community%20Portal
+          row
+            link "https://en.wikipedia.org/wiki/File:Wikiversity_logo_2017.svg" https://en.wikipedia.org/wiki/File:Wikiversity_logo_2017.svg
+            text from Wikiversity
+            link Resources https://en.wikiversity.org/wiki/Wikiversity:Community%20Portal
+          row
+            link "https://en.wikipedia.org/wiki/File:Wikivoyage-Logo-v3-icon.svg" https://en.wikipedia.org/wiki/File:Wikivoyage-Logo-v3-icon.svg
+            text from Wikivoyage
+            link "Travel guides" https://en.wikivoyage.org/wiki/Wikivoyage:Community%20portal
+          row
+            link "https://en.wikipedia.org/wiki/File:Wikispecies-logo.svg" https://en.wikipedia.org/wiki/File:Wikispecies-logo.svg
+            text from Wikispecies
+            link Taxa https://species.wikimedia.org/wiki/Wikispecies:Community%20Portal
+          row
+            text from Wikidata
+            link Data https://www.wikidata.org/wiki/Wikidata:Community%20portal
+      text ".mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}}.mw-parser-output .tooltip-dotted{border-bottom:1px dotted;cursor:help}.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}"
+      table "showvteWikipedia editor navigation"
+      text :
+      row
+        link Categories /wiki/Help:Category
+        row
+          link "Wikipedia basic information" /wiki/Category:Wikipedia_basic_information
+          link "Wikipedia discussion" /wiki/Category:Wikipedia_discussion
+          link "Wikipedia directories" /wiki/Category:Wikipedia_directories
+          link "Wikipedia news" /wiki/Category:Wikipedia_news
+          link "Wikipedia noticeboards" /wiki/Category:Wikipedia_noticeboards
+  col
+    text "This page was last edited on 9 August 2026, at 14:07 (UTC)."
+    text Page was rendered with .
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the  and . Wikipedia® is a registered trademark of the , a non-profit organization.
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/
+    row
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link Disclaimers /wiki/Wikipedia:General_disclaimer
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+      link Developers https://developer.wikimedia.org
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+      link "Mobile view" //en.wikipedia.org/w/index.php?title=Wikipedia:Community_portal&mobileaction=toggle_view_mobile
+    row
+      link "https://www.wikimedia.org/" https://www.wikimedia.org/
+      link "https://www.mediawiki.org/" https://www.mediawiki.org/

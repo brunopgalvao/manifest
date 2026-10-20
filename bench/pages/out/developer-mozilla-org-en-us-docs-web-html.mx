@@ -1,0 +1,51 @@
+@developer_mozilla_org_en_us_docs_web_htm
+row
+  col
+    link "Skip to main content" #content
+    link "Skip to search" #mdn-search
+  region 1280x91
+    rect @0,0 1280x57 fill:#f7f7f8
+  col
+    link MDN /en-US/
+    row
+      link Web /en-US/docs/Web
+      link HTML /en-US/docs/Web/HTML
+  col
+    link HTML /en-US/docs/Web/HTML
+    link Guides /en-US/docs/Web/HTML/Guides
+    link "How to" /en-US/docs/Web/HTML/How_to
+    link "Define terms with HTML" /en-US/docs/Web/HTML/How_to/Define_terms_with_HTML
+    link "Use data attributes" /en-US/docs/Web/HTML/How_to/Use_data_attributes
+    link "Use cross-origin images" /en-US/docs/Web/HTML/How_to/CORS_enabled_image
+    link "Add a hitmap on top of an image" /en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image
+    link "Author fast-loading HTML pages" /en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages
+    link "Add JavaScript" /en-US/docs/Web/HTML/How_to/Add_JavaScript_to_your_web_page
+    link Reference /en-US/docs/Web/HTML/Reference
+    link Elements /en-US/docs/Web/HTML/Reference/Elements
+    link Attributes /en-US/docs/Web/HTML/Reference/Attributes
+    link "Global attributes" /en-US/docs/Web/HTML/Reference/Global_attributes
+    text Attributes by element
+    text Attribute values
+  col
+    row
+      row
+        link "MDN logo" /
+        text Your blueprint for a better internet.
+      row
+        link "MDN on GitHub" https://github.com/mdn/
+        link "MDN on Bluesky" https://bsky.app/profile/developer.mozilla.org
+        link "MDN on X" https://x.com/mozdevnet
+        link "MDN on Mastodon" https://mastodon.social/@mdn
+        link "MDN blog RSS feed" /en-US/blog/rss.xml
+      text MDN
+      text Contribute
+      text Developers
+    row
+      link "Mozilla logo" https://www.mozilla.org/
+      row
+        link "Website Privacy Notice" https://www.mozilla.org/privacy/websites/
+        link "Telemetry Settings" https://www.mozilla.org/en-US/privacy/websites/data-preferences/
+        link Legal https://www.mozilla.org/about/legal/terms/mozilla
+        link "Community Participation Guidelines" https://www.mozilla.org/about/governance/policies/participation/
+      text Portions of this content are ©1998–2026 by individual mozilla.org contributors. Content available under .
+      link "a Creative Commons license" /docs/MDN/Writing_guidelines/Attrib_copyright_license

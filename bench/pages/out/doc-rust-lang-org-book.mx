@@ -116,8 +116,7 @@ row
   col
     row
       row
-        region 16x16
-          path "M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" fill:#747474
+        text Toggle Table of Contents
         button "Change theme"
         button "Toggle Searchbar"
       h1 The Rust Programming Language
@@ -126,15 +125,20 @@ row
         link "Git repository" https://github.com/rust-lang/book
     h1 The Rust Programming Language
     text by Steve Klabnik, Carol Nichols, and Chris Krycho, with contributions from the Rust Community
+    text This version of the text assumes you’re using Rust 1.97.0 (released 2026-07-09) or later with  in the  file of all projects to configure them to use Rust 2024 Edition idioms. See the  for instructions on installing or updating Rust, and see  for information on editions.
     text "edition = \"2024\""
     text Cargo.toml
     link "“Installation” section of Chapter 1" ch01-01-installation.html
     link "Appendix E" appendix-05-editions.html
+    text The HTML format is available online at  and offline with installations of Rust made with ; run  to open.
     link "https://doc.rust-lang.org/stable/book/" https://doc.rust-lang.org/stable/book/
     text rustup
     text rustup doc --book
+    text Several community  are also available.
     link translations appendix-06-translation.html
+    text This text is available in .
     link "paperback and ebook format from No Starch Press" https://nostarch.com/rust-programming-language-3rd-edition
+    text :
     text 🚨 Want a more interactive learning experience? Try out a different version of the Rust Book, featuring: quizzes, highlighting, visualizations, and more
     link "https://rust-book.cs.brown.edu" https://rust-book.cs.brown.edu
     link "Next chapter" foreword.html

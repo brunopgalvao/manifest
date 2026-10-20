@@ -1,0 +1,6 @@
+@ui_shadcn_com_examples_mail rev=0 @0,0,728,124
+row @17,17,694,25
+  h1 404 @17,17,41,25
+  h2 This page could not be found. @70,19,247,21
+text Notifications alt+T @17,54,694,20
+text Notifications @17,86,694,21

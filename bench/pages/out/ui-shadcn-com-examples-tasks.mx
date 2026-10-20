@@ -33,8 +33,6 @@ row
     text Theme
     row
       text Neutral
-      region 16x16
-        path "m6 9 6 6 6-6" fill:none stroke:#737373 width:2
     button "Copy Code"
 card
   row
@@ -84,14 +82,13 @@ card
         text Rows per page
         row
           text 25
-          region 16x16
-            path "m6 9 6 6 6-6" fill:none stroke:#737373 width:2
       text Page 1 of 4
       row
         button "Go to first page" disabled
         button "Go to previous page" disabled
         button "Go to next page"
         button "Go to last page"
+text Built by  at . The source code is available on .
 row
   link shadcn https://twitter.com/shadcn
   link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout

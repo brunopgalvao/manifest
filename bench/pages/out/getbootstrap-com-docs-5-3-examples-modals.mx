@@ -18,12 +18,15 @@ card
   row
     row
       region 48x48
+      text Not into lists? Try the new grid view.
       h3 Grid view
     row
       region 48x48
+      text Save items you love for easy access later.
       h3 Bookmarks
     row
       region 48x48
+      text Share videos wherever you go.
       h3 Video embeds
   button "Great, thanks!" primary
 card

@@ -1,0 +1,82 @@
+@www_usa_gov_complaints rev=0 @0,0,728,1426
+link "Skip to main content" #skip-to-h1 @17,17,694,20
+row @17,49,694,37
+  text An official website of the United States government @17,57,342,21
+  button "Here's how you know" @371,49,177,37
+text Home Close Search 1-844-USAGOV1 Complaints Complaints against the government Consumer product and service complaints Bank, credit, and securities complaints Housing complaints Complaints about travel State consumer protection offices @17,98,694,61
+row @17,171,694,20
+  region Information 300x150 @17,171,76,20 [0 shapes, 0 labelled]
+  text Visit to learn how to register to vote or to update your registration. @105,171,438,20
+  link vote.gov https://www.vote.gov @555,171,58,20
+row @17,203,694,106
+  link "USAGov Logo" / @17,246,93,20
+  col @122,203,377,106
+    button Español primary @122,203,377,36
+    row @122,251,377,58
+      text Call us at 1-844-USAGOV1 @122,270,176,20
+      row @310,251,189,58
+        text Search @310,270,47,20
+        field Search search @369,251,40,58
+        button Search primary @421,262,78,36
+row @17,321,694,40
+  link "All topics and services" /#all-topics-header @17,321,94,40
+  link "The U.S. and its government" /about-the-us @123,321,119,40
+  link "Government benefits" /benefits @254,321,89,40
+  link "Immigration and U.S. citizenship" /immigration-and-citizenship @355,321,135,40
+  link "Money and credit" /money @502,321,73,40
+  link Travel /travel @587,331,26,20
+  link "Voting and elections" /voting-and-elections @625,321,86,40
+row @17,373,694,622
+  col @17,373,674,622
+    row @17,373,674,21
+      link Home / @17,373,40,21
+      text Complaints @69,373,75,21
+    h1 Complaints @17,406,674,25
+    h2 Most popular @17,443,674,21
+    link "File a complaint about a company's products or services" /company-product-service-complaints @17,476,674,20
+    link "File a U.S. Postal Service complaint" /postal-service-complaints @17,508,674,21
+    link "File a housing complaint" /housing-complaints @17,541,674,20
+    text File complaints involving government agencies, telemarketers, products and services, travel, housing, and banking. @17,573,674,40
+    row @17,625,674,264
+      link "Complaints against the government Learn how to file a complaint against the U.S. Postal Service, government agencies, and prisons." /complaints-against-government @17,636,89,243
+      link "Complaints about consumer products and services Learn how to file complaints about online purchases, companies, and telemarketers. Know where to file complaints about products and services." /consumer-complaints @118,636,132,243
+      link "Bank, credit, and securities complaints Learn where to report problems with banks, investments, or retirement plans. Also, file complaints abut companies or people who offer these services." /bank-credit-complaints @262,625,127,264
+      link "Housing complaints Find out how to file a complaint about a landlord, mortgage company, or housing discrimination." /housing-complaints @401,646,78,223
+      link "Complaints about travel If you have a complaint about travel by air, land, or sea, find out where to share your complaint to get the problem resolved." /travel-complaints @491,636,99,243
+      link "State consumer protection offices Find your state's consumer protection office for help with business complaints, scams, and more." /state-consumer @602,625,89,264
+    row @17,901,674,21
+      text Looking for something else? @17,901,187,21
+      link "Explore all topics and services" /#all-topics-header @216,901,201,21
+    row @17,934,674,61
+      text SHARE THIS PAGE: @17,934,54,61
+      row @83,954,608,20
+        link https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/complaints&v=3 https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/complaints&v=3 @83,954,238,20
+        link https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fcomplaints https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fcomplaints @333,954,212,20
+        link mailto:?subject=https://www.usa.gov/complaints mailto:?subject=https://www.usa.gov/complaints @557,954,134,20
+  link "Back to top" #main-content @703,654,8,60
+row @17,1007,694,136
+  col @17,1007,371,136
+    h3 Government information @17,1007,371,18
+    link "All topics and services" /#all-topics-header @17,1037,371,21
+    link "Directory of U.S. government agencies and departments" /agency-index @17,1070,371,40
+    link "Branches of government" /branches-of-government @17,1122,371,21
+  col @400,1007,149,136
+    h3 About us @400,1007,149,18
+    link "About USAGov" /about @400,1037,149,21
+    link "Report a website issue" /site-issue-report-form @400,1070,149,40
+    link "Website usage data" /website-analytics/ @400,1122,149,21
+  col @561,1023,150,103
+    h3 For federal agencies @561,1023,150,38
+    link "Partner with us" /partner-with-usagov @561,1073,150,20
+    link "Read our blog" /blog @561,1105,150,21
+row @17,1155,694,20
+  text USAGov Contact Center Ask USA.gov a question at 1-844-USAGOV1 (1-844-872-4681) @17,1155,578,20
+text USAGov is the official guide to government information and services @17,1187,694,20
+text An official website of the @17,1219,694,20
+link "U.S. General Services Administration" https://www.gsa.gov/ @17,1251,694,21
+text This website complies with Executive Order . English is the official language of the U.S. Government, and the English-language version of this website is the authoritative source for all federal information contained herein. @17,1284,694,61
+link 14224 https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states @17,1357,694,20
+row @17,1389,694,20
+  link "Accessibility policy" /accessibility-policy @17,1389,127,20
+  link "Privacy and security policies" /privacy-security @156,1389,190,20
+  link "FOIA requests" https://www.gsa.gov/reference/freedom-of-information-act-foia @358,1389,95,20

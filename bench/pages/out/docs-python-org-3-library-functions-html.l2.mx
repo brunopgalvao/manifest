@@ -1,0 +1,2372 @@
+@docs_python_org_3_library_functions_html rev=0 @0,0,728,59738
+link index ../genindex.html @17,17,694,20
+text | @17,49,694,21
+link modules ../py-modindex.html @17,82,694,20
+text | @17,114,694,20
+link next exceptions.html @17,146,694,21
+text | @17,179,694,20
+link previous constants.html @17,211,694,20
+image https://docs.python.org/3/_static/py.svg "Python logo" @17,243,0,0
+text » @17,255,694,20
+link Python https://www.python.org/ @17,287,694,21
+row @17,320,694,55
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文" @17,320,320,55
+  select "Python version" "dev (3.16)" *3.15.0 3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6 @349,320,104,55
+text » @17,387,694,20
+link "3.15.0 Documentation" ../index.html @17,419,694,20
+text » @17,451,694,21
+link "Python built-ins reference" index.html @17,484,694,20
+link "Built-in functions" # @17,516,694,20
+text | @17,548,694,20
+row @17,580,694,58
+  field "Quick search" search @17,580,75,58
+  button button @104,591,75,36
+text | @17,650,694,20
+select Theme *Auto Light Dark @17,682,694,55
+row @17,749,694,57985
+  col @17,749,663,57985
+    h1 Built-in functions¶ @17,749,663,25
+    text The Python interpreter has a number of functions and types built into it that are always available. They are listed here in alphabetical order. @17,786,663,41
+    table "Built-in Functions" @17,839,663,0
+      A abs() aiter() all() anext() any() ascii() B bin() bool() breakpoint() bytearray() bytes() C callable() chr() classmethod() compile() complex() D delattr() dict() dir() divmod() | E enumerate() eval() exec() F filter() float() format() frozendict() frozenset() G getattr() globals() H hasattr() hash() help() hex() I id() input() int() isinstance() issubclass() iter() | L len() list() locals() M map() max() memoryview() min() N next() O object() oct() open() ord() P pow() print() property() | R range() repr() reversed() round() S set() setattr() sentinel() slice() sorted() staticmethod() str() sum() super() T tuple() type() V vars() Z zip() _ __import__()
+    text , @17,851,663,20
+    row @17,883,663,21
+      text abs @17,883,24,21
+      text ( @53,883,6,21
+      text number @71,883,51,21
+      text / @134,883,6,21
+      text ) @152,883,6,21
+      link ¶ #abs2 @170,883,9,21
+    text Return the absolute value of a number. The argument may be an integer, a floating-point number, or an object implementing . If the argument is a complex number, its magnitude is returned. @17,916,663,40
+    link __abs__() ../reference/datamodel.html#object.__abs__ @17,968,663,21
+    text , @17,1001,663,20
+    row @17,1033,663,20
+      text aiter @17,1033,30,20
+      text ( @59,1033,6,20
+      text async_iterable @77,1033,96,20
+      text / @185,1033,6,20
+      text ) @203,1033,6,20
+      link ¶ #aiter2 @221,1033,9,20
+    text Return an for an . Equivalent to calling . @17,1065,663,21
+    row @17,1098,663,20
+      link "asynchronous iterator" ../glossary.html#term-asynchronous-iterator @17,1098,146,20
+      link "asynchronous iterable" ../glossary.html#term-asynchronous-iterable @175,1098,147,20
+      text x.__aiter__() @334,1098,77,20
+    text Note: Unlike , has no 2-argument variant. @17,1130,663,20
+    row @17,1162,663,20
+      link iter() #iter @17,1162,32,20
+      text aiter() @61,1162,40,20
+    text Added in version 3.10. @17,1194,663,21
+    text , @17,1227,663,20
+    row @17,1259,663,20
+      text all @17,1259,15,20
+      text ( @44,1259,6,20
+      text iterable @62,1259,50,20
+      text / @124,1259,6,20
+      text ) @142,1259,6,20
+      link ¶ #all2 @160,1259,9,20
+    text Return True if all elements of the iterable are true (or if the iterable is empty). Equivalent to: @17,1291,663,21
+    text def all(iterable): for element in iterable: if not element: return False return True @17,1324,663,20
+    text , @17,1356,663,20
+    row @17,1388,663,20
+      text awaitable @17,1388,64,20
+      text anext @93,1388,37,20
+      text ( @142,1388,6,20
+      text async_iterator @160,1388,94,20
+      text / @266,1388,6,20
+      text ) @284,1388,6,20
+      link ¶ #anext2 @302,1388,9,20
+    text , , @17,1420,663,21
+    row @17,1453,663,20
+      text awaitable @17,1453,64,20
+      text anext @93,1453,37,20
+      text ( @142,1453,6,20
+      text async_iterator @160,1453,94,20
+      text default @266,1453,47,20
+      text / @325,1453,6,20
+      text ) @343,1453,6,20
+    text When awaited, return the next item from the given , or if given and the iterator is . @17,1485,663,20
+    link "asynchronous iterator" ../glossary.html#term-asynchronous-iterator @17,1517,663,21
+    text default @17,1550,663,20
+    link exhausted ../glossary.html#term-exhausted @17,1582,663,20
+    text This is the async variant of the builtin, and behaves similarly. @17,1614,663,21
+    link next() #next2 @17,1647,663,20
+    text This calls the method of , returning an . Awaiting this returns the next value of the iterator. If is given, it is returned if the iterator is exhausted, otherwise is raised. @17,1679,663,40
+    link __anext__() ../reference/datamodel.html#object.__anext__ @17,1731,663,21
+    text async_iterator @17,1764,663,20
+    link awaitable ../glossary.html#term-awaitable @17,1796,663,20
+    text default @17,1828,663,21
+    link StopAsyncIteration exceptions.html#StopAsyncIteration @17,1861,663,20
+    text Added in version 3.10. @17,1893,663,20
+    text , @17,1925,663,21
+    row @17,1958,663,20
+      text any @17,1958,25,20
+      text ( @54,1958,6,20
+      text iterable @72,1958,50,20
+      text / @134,1958,6,20
+      text ) @152,1958,6,20
+      link ¶ #any2 @170,1958,9,20
+    text Return True if any element of the iterable is true. If the iterable is empty, return False. Equivalent to: @17,1990,663,20
+    text def any(iterable): for element in iterable: if element: return True return False @17,2022,663,21
+    text , @17,2055,663,20
+    row @17,2087,663,20
+      text ascii @17,2087,31,20
+      text ( @60,2087,6,20
+      text object @78,2087,42,20
+      text / @132,2087,6,20
+      text ) @150,2087,6,20
+      link ¶ #ascii2 @168,2087,9,20
+    text As , return a string containing a printable representation of an object, but escape the non-ASCII characters in the string returned by using , , or escapes. This generates a string similar to that returned by in Python 2. @17,2119,663,61
+    link repr() #repr @17,2192,663,20
+    text repr() @17,2224,663,21
+    text \x @17,2257,663,20
+    text \u @17,2289,663,20
+    text \U @17,2321,663,21
+    text repr() @17,2354,663,20
+    text , @17,2386,663,20
+    row @17,2418,663,20
+      text bin @17,2418,21,20
+      text ( @50,2418,6,20
+      text integer @68,2418,47,20
+      text / @127,2418,6,20
+      text ) @145,2418,6,20
+      link ¶ #bin2 @163,2418,9,20
+    text Convert an integer number to a binary string prefixed with “0b”. The result is a valid Python expression. If is not a Python object, it has to define an method that returns an integer. Some examples: @17,2450,663,61
+    row @17,2523,663,21
+      text integer @17,2523,47,21
+      link int #int @76,2523,17,21
+      link __index__() ../reference/datamodel.html#object.__index__ @105,2523,72,21
+    text >>> bin(3) '0b11' >>> bin(-10) '-0b1010' @17,2556,663,20
+    text If the prefix “0b” is desired or not, you can use either of the following ways. @17,2588,663,20
+    text >>> format(14, '#b'), format(14, 'b') ('0b1110', '1110') >>> f'{14:#b}', f'{14:b}' ('0b1110', '1110') @17,2620,663,21
+    text See also to represent negative values as twos-complement. @17,2653,663,20
+    link enum.bin() ../library/enum.html#enum.bin @17,2685,663,20
+    text See also for more information. @17,2717,663,20
+    link format() #format @17,2749,663,21
+    text , @17,2782,663,20
+    row @17,2814,663,20
+      text class @17,2814,35,20
+      text bool @64,2814,29,20
+      text ( @105,2814,6,20
+      text @123,2814,0,20
+      text / @135,2814,6,20
+      text ) @153,2814,6,20
+      link ¶ #bool2 @171,2814,9,20
+    text Return a Boolean value, i.e. one of or . The argument is converted using the standard . If the argument is false or omitted, this returns ; otherwise, it returns . The class is a subclass of (see ). It cannot be subclassed further. Its only instances are and (see ). @17,2846,663,61
+    text True @17,2919,663,21
+    text False @17,2952,663,20
+    link "truth testing procedure" stdtypes.html#truth @17,2984,663,20
+    text False @17,3016,663,20
+    text True @17,3048,663,21
+    text bool @17,3081,663,20
+    link int #int2 @17,3113,663,20
+    link "Numeric Types — int, float, complex" stdtypes.html#typesnumeric @17,3145,663,21
+    text False @17,3178,663,20
+    text True @17,3210,663,20
+    link "Boolean Type - bool" stdtypes.html#typebool @17,3242,663,21
+    text Changed in version 3.7: The parameter is now positional-only. @17,3275,663,20
+    text , @17,3307,663,20
+    row @17,3339,663,20
+      text breakpoint @17,3339,71,20
+      text ( @100,3339,6,20
+      text *args @118,3339,37,20
+      text **kws @167,3339,41,20
+      text ) @220,3339,6,20
+      link ¶ #breakpoint2 @238,3339,9,20
+    text This function drops you into the debugger at the call site. Specifically, it calls , passing and straight through. By default, calls expecting no arguments. In this case, it is purely a convenience function so you don’t have to explicitly import or type as much code to enter the debugger. However, can be set to some other function and will automatically call that, allowing you to drop into the debugger of choice. If is not accessible, this function will raise . @17,3371,663,102
+    link sys.breakpointhook() ../library/sys.html#sys.breakpointhook @17,3485,663,20
+    text args @17,3517,663,21
+    text kws @17,3550,663,20
+    text sys.breakpointhook() @17,3582,663,20
+    link pdb.set_trace() ../library/pdb.html#pdb.set_trace @17,3614,663,20
+    link pdb ../library/pdb.html#module-pdb @17,3646,663,21
+    text sys.breakpointhook() @17,3679,663,20
+    text breakpoint() @17,3711,663,20
+    text sys.breakpointhook() @17,3743,663,21
+    link RuntimeError exceptions.html#RuntimeError @17,3776,663,20
+    text By default, the behavior of can be changed with the environment variable. See for usage details. @17,3808,663,20
+    text breakpoint() @17,3840,663,21
+    link PYTHONBREAKPOINT ../using/cmdline.html#envvar-PYTHONBREAKPOINT @17,3873,663,20
+    link sys.breakpointhook() ../library/sys.html#sys.breakpointhook @17,3905,663,20
+    text Note that this is not guaranteed if has been replaced. @17,3937,663,20
+    link sys.breakpointhook() ../library/sys.html#sys.breakpointhook @17,3969,663,21
+    text Raises an with argument . @17,4002,663,20
+    row @17,4034,663,20
+      link "auditing event" ../library/sys.html#auditing @17,4034,94,20
+      text builtins.breakpoint @123,4034,123,20
+      text breakpointhook @258,4034,104,20
+    text Added in version 3.7. @17,4066,663,21
+    text class @17,4099,663,20
+    text class bytearray(source, encoding, @17,4131,663,20
+    text Return a new array of bytes. The class is a mutable sequence of integers in the range 0 x < 256. It has most of the usual methods of mutable sequences, described in , as well as most methods that the type has, see . @17,4163,663,61
+    link bytearray stdtypes.html#bytearray @17,4236,663,20
+    link "Mutable Sequence Types" stdtypes.html#typesseq-mutable @17,4268,663,21
+    link bytes stdtypes.html#bytes @17,4301,663,20
+    link "Bytes and Bytearray Operations" stdtypes.html#bytes-methods @17,4333,663,20
+    text The optional source parameter can be used to initialize the array in a few different ways: @17,4365,663,21
+    text If it is a , you must also give the (and optionally, ) parameters; then converts the string to bytes using . @17,4398,663,40
+    text string @17,4450,663,21
+    text encoding @17,4483,663,20
+    text errors @17,4515,663,20
+    link bytearray() stdtypes.html#bytearray @17,4547,663,20
+    link str.encode() stdtypes.html#str.encode @17,4579,663,21
+    text If it is an integer, the array will have that size and will be initialized with null bytes. @17,4612,663,20
+    text If it is an object conforming to the , a read-only buffer of the object will be used to initialize the bytes array. @17,4644,663,41
+    link "buffer interface" ../c-api/buffer.html#bufferobjects @17,4697,663,20
+    text If it is an iterable, it must be an iterable of integers in the range 0 x < 256, which are used as the initial contents of the array. @17,4729,663,41
+    text Without an argument, an array of size 0 is created. @17,4782,663,20
+    text See also and . @17,4814,663,20
+    row @17,4846,663,20
+      link "Binary Sequence Types — bytes, bytearray, memoryview" stdtypes.html#binaryseq @17,4846,381,20
+      link "Bytearray Objects" stdtypes.html#typebytearray @410,4846,119,20
+    text class @17,4878,663,21
+    text class bytes(source, encoding, @17,4911,663,20
+    text Return a new “bytes” object which is an immutable sequence of integers in the range . is an immutable version of – it has the same non-mutating methods and the same indexing and slicing behavior. @17,4943,663,61
+    text 0 x < 256 @17,5016,663,20
+    link bytes stdtypes.html#bytes @17,5048,663,21
+    link bytearray stdtypes.html#bytearray @17,5081,663,20
+    text Accordingly, constructor arguments are interpreted as for . @17,5113,663,20
+    link bytearray() stdtypes.html#bytearray @17,5145,663,20
+    text Bytes objects can also be created with literals, see . @17,5177,663,21
+    link "String and Bytes literals" ../reference/lexical_analysis.html#strings @17,5210,663,20
+    text See also , , and . @17,5242,663,20
+    link "Binary Sequence Types — bytes, bytearray, memoryview" stdtypes.html#binaryseq @17,5274,663,21
+    link "Bytes Objects" stdtypes.html#typebytes @17,5307,663,20
+    link "Bytes and Bytearray Operations" stdtypes.html#bytes-methods @17,5339,663,20
+    text , @17,5371,663,21
+    row @17,5404,663,20
+      text callable @17,5404,51,20
+      text ( @80,5404,6,20
+      text object @98,5404,42,20
+      text / @152,5404,6,20
+      text ) @170,5404,6,20
+      link ¶ #callable2 @188,5404,9,20
+    text Return if the argument appears callable, if not. If this returns , it is still possible that a call fails, but if it is , calling will never succeed. Note that classes are callable (calling a class returns a new instance); instances are callable if their class has a method. @17,5436,663,61
+    link True constants.html#True @17,5509,663,20
+    text object @17,5541,663,20
+    link False constants.html#False @17,5573,663,21
+    text True @17,5606,663,20
+    text False @17,5638,663,20
+    text object @17,5670,663,20
+    link __call__() ../reference/datamodel.html#object.__call__ @17,5702,663,21
+    text Added in version 3.2: This function was first removed in Python 3.0 and then brought back in Python 3.2. @17,5735,663,40
+    text , @17,5787,663,21
+    row @17,5820,663,20
+      text chr @17,5820,22,20
+      text ( @51,5820,6,20
+      text codepoint @69,5820,67,20
+      text / @148,5820,6,20
+      text ) @166,5820,6,20
+      link ¶ #chr2 @184,5820,9,20
+    text Return the string representing a character with the specified Unicode code point. For example, returns the string , while returns the string . This is the inverse of . @17,5852,663,41
+    text chr(97) @17,5905,663,20
+    text 'a' @17,5937,663,20
+    text chr(8364) @17,5969,663,20
+    text '€' @17,6001,663,21
+    link ord() #ord @17,6034,663,20
+    text The valid range for the argument is from 0 through 1,114,111 (0x10FFFF in base 16). will be raised if it is outside that range. @17,6066,663,41
+    link ValueError exceptions.html#ValueError @17,6119,663,20
+    row @17,6151,663,20
+      text @ @17,6151,14,20
+      text classmethod @43,6151,85,20
+      link ¶ #classmethod2 @140,6151,9,20
+    text Transform a method into a class method. @17,6183,663,21
+    text A class method receives the class as an implicit first argument, just like an instance method receives the instance. To declare a class method, use this idiom: @17,6216,663,40
+    text class C: @classmethod def f(cls, arg1, arg2): ... @17,6268,663,20
+    text The form is a function – see for details. @17,6300,663,21
+    row @17,6333,663,20
+      text @classmethod @17,6333,98,20
+      link decorator ../glossary.html#term-decorator @127,6333,65,20
+      link "Function definitions" ../reference/compound_stmts.html#function @204,6333,131,20
+    text A class method can be called either on the class (such as C.f()) or on an instance (such as C().f()). The instance is ignored except for its class. If a class method is called for a derived class, the derived class object is passed as the implied first argument. @17,6365,663,61
+    text Class methods are different than C++ or Java static methods. If you want those, see in this section. For more information on class methods, see . @17,6438,663,41
+    link staticmethod() #staticmethod @17,6491,663,20
+    link "The standard type hierarchy" ../reference/datamodel.html#types @17,6523,663,20
+    text Class methods can now wrap other such as . @17,6555,663,20
+    row @17,6587,663,21
+      text Changed in version 3.9: danger @17,6587,158,21
+      link descriptors ../glossary.html#term-descriptor @187,6587,75,21
+      link property() #property @274,6587,67,21
+    text Class methods now inherit the method attributes (, , , and ) and have a new attribute. @17,6620,663,20
+    text Changed in version 3.10: danger @17,6652,663,20
+    link __module__ ../reference/datamodel.html#function.__module__ @17,6684,663,21
+    link __name__ ../reference/datamodel.html#function.__name__ @17,6717,663,20
+    link __qualname__ ../reference/datamodel.html#function.__qualname__ @17,6749,663,20
+    link __doc__ ../reference/datamodel.html#function.__doc__ @17,6781,663,21
+    link __annotations__ ../reference/datamodel.html#function.__annotations__ @17,6814,663,20
+    text __wrapped__ @17,6846,663,20
+    text Class methods can no longer wrap other such as . @17,6878,663,20
+    text Deprecated since version 3.11, removed in version 3.13: danger @17,6910,663,21
+    link descriptors ../glossary.html#term-descriptor @17,6943,663,20
+    link property() #property2 @17,6975,663,20
+    text , , , , , , , @17,7007,663,21
+    text compile @17,7040,663,20
+    text ( @17,7072,663,20
+    text source @17,7104,663,21
+    text filename @17,7137,663,20
+    text mode @17,7169,663,20
+    text @17,7201,663,20
+    text @17,7233,663,21
+    text @17,7266,663,20
+    text * @17,7298,663,20
+    text @17,7330,663,21
+    text ) @17,7363,663,20
+    link ¶ #compile2 @17,7395,663,20
+    text Compile the into a code or AST object. Code objects can be executed by or . can either be a normal string, a byte string, or an AST object. Refer to the module documentation for information on how to work with AST objects. @17,7427,663,61
+    text source @17,7500,663,20
+    link exec() #exec @17,7532,663,21
+    link eval() #eval @17,7565,663,20
+    text source @17,7597,663,20
+    link ast ../library/ast.html#module-ast @17,7629,663,21
+    text The filename argument should give the file from which the code was read; pass some recognizable value if it wasn’t read from a file ('<string>' is commonly used). @17,7662,663,40
+    text The mode argument specifies what kind of code must be compiled; it can be 'exec' if source consists of a sequence of statements, 'eval' if it consists of a single expression, or 'single' if it consists of a single interactive statement (in the latter case, expression statements that evaluate to something other than None will be printed). @17,7714,663,81
+    text The optional arguments and control which should be activated and which should be allowed. If neither is present (or both are zero) the code is compiled with the same flags that affect the code that is calling . If the argument is given and is not (or is zero) then the compiler options and the future statements specified by the argument are used in addition to those that would be used anyway. If is a non-zero integer then the argument is it – the flags (future features and compiler options) in the surrounding code are ignored. @17,7807,663,122
+    text flags @17,7941,663,21
+    text dont_inherit @17,7974,663,20
+    link "compiler options" ../library/ast.html#ast-compiler-flags @17,8006,663,20
+    link "future features" ../reference/simple_stmts.html#future @17,8038,663,20
+    text compile() @17,8070,663,21
+    text flags @17,8103,663,20
+    text dont_inherit @17,8135,663,20
+    text flags @17,8167,663,21
+    text dont_inherit @17,8200,663,20
+    text flags @17,8232,663,20
+    text Compiler options and future statements are specified by bits which can be bitwise ORed together to specify multiple options. The bitfield required to specify a given future feature can be found as the attribute on the instance in the module. can be found in module, with prefix. @17,8264,663,61
+    link compiler_flag ../library/__future__.html#future__._Feature.compiler_flag @17,8337,663,20
+    link _Feature ../library/__future__.html#future__._Feature @17,8369,663,21
+    link __future__ ../library/__future__.html#module-__future__ @17,8402,663,20
+    link "Compiler flags" ../library/ast.html#ast-compiler-flags @17,8434,663,20
+    link ast ../library/ast.html#module-ast @17,8466,663,21
+    text PyCF_ @17,8499,663,20
+    text The argument specifies the optimization level of the compiler; the default value of selects the optimization level of the interpreter as given by options. Explicit levels are (no optimization; is true), (asserts are removed, is false) or (docstrings are removed too). @17,8531,663,61
+    text optimize @17,8604,663,20
+    text -1 @17,8636,663,20
+    link -O ../using/cmdline.html#cmdoption-O @17,8668,663,21
+    text 0 @17,8701,663,20
+    text __debug__ @17,8733,663,20
+    text 1 @17,8765,663,21
+    text __debug__ @17,8798,663,20
+    text 2 @17,8830,663,20
+    text The optional argument specifies the module name. It is needed to unambiguous syntax warnings by module name. @17,8862,663,41
+    row @17,8915,663,20
+      text module @17,8915,50,20
+      link filter ../library/warnings.html#warning-filter @79,8915,30,20
+    text This function raises if the compiled source is invalid, including a containing a null character or that cannot be decoded; if or is invalid, or if a string contains surrogate characters; or if is too complex to parse or compile, for example an expression with many thousands of nested operators; and if is too large. @17,8947,663,81
+    link SyntaxError exceptions.html#SyntaxError @17,9040,663,21
+    text source @17,9073,663,20
+    link ValueError exceptions.html#ValueError @17,9105,663,20
+    text mode @17,9137,663,21
+    text flags @17,9170,663,20
+    text source @17,9202,663,20
+    link MemoryError exceptions.html#MemoryError @17,9234,663,20
+    link RecursionError exceptions.html#RecursionError @17,9266,663,21
+    text source @17,9299,663,20
+    link OverflowError exceptions.html#OverflowError @17,9331,663,20
+    text source @17,9363,663,21
+    text If you want to parse Python code into its AST representation, see . @17,9396,663,20
+    link ast.parse() ../library/ast.html#ast.parse @17,9428,663,20
+    text Raises an with arguments and . This event may also be raised by implicit compilation. @17,9460,663,21
+    row @17,9493,663,20
+      link "auditing event" ../library/sys.html#auditing @17,9493,94,20
+      text compile @123,9493,53,20
+      text source @188,9493,46,20
+      text filename @246,9493,57,20
+    card @17,9525,663,220
+      text Note @34,9540,629,20
+      text When compiling a string with multi-line code in or mode, input must be terminated by at least one newline character. This is to facilitate detection of incomplete and complete statements in the module. @34,9572,629,61
+      text 'single' @34,9645,629,20
+      text 'eval' @34,9677,629,21
+      link code ../library/code.html#module-code @34,9710,629,20
+    card @17,9757,663,103
+      text Warning @34,9772,629,20
+      text It is possible to crash the Python interpreter with a sufficiently large/complex string when compiling to an AST object due to stack depth limitations in Python’s AST compiler. @34,9804,629,41
+    text Changed in version 3.2: Allowed use of Windows and Mac newlines. Also, input in 'exec' mode does not have to end in a newline anymore. Added the optimize parameter. @17,9872,663,40
+    text Previously, was raised when null bytes were encountered in . @17,9924,663,21
+    text Changed in version 3.5: danger @17,9957,663,20
+    link TypeError exceptions.html#TypeError @17,9989,663,20
+    text source @17,10021,663,21
+    text Changed in version 3.8: ast.PyCF_ALLOW_TOP_LEVEL_AWAIT can now be passed in flags to enable support for top-level await, async for, and async with. @17,10054,663,40
+    text is raised instead of when null bytes are encountered in . @17,10106,663,21
+    text Changed in version 3.12: danger @17,10139,663,20
+    link SyntaxError exceptions.html#SyntaxError @17,10171,663,20
+    link ValueError exceptions.html#ValueError @17,10203,663,20
+    text source @17,10235,663,21
+    text Changed in version 3.15: Added the module parameter. @17,10268,663,20
+    text , @17,10300,663,20
+    row @17,10332,663,21
+      text class @17,10332,35,21
+      text complex @64,10332,57,21
+      text ( @133,10332,6,21
+      text @151,10332,0,21
+      text / @163,10332,6,21
+      text ) @181,10332,6,21
+      link ¶ #complex2 @199,10332,9,21
+    text , @17,10365,663,20
+    row @17,10397,663,20
+      text class @17,10397,35,20
+      text complex @64,10397,57,20
+      text ( @133,10397,6,20
+      text string @151,10397,38,20
+      text / @201,10397,6,20
+      text ) @219,10397,6,20
+    text class @17,10429,663,21
+    text Convert a single string or number to a complex number, or create a complex number from real and imaginary parts. @17,10462,663,40
+    text Examples: @17,10514,663,20
+    text >>> complex('+1.23') (1.23+0j) >>> complex('-4.5j') -4.5j >>> complex('-1.23+4.5j') (-1.23+4.5j) >>> complex('\t( -1.23+4.5J )\n') (-1.23+4.5j) >>> complex('-Infinity+NaNj') (-inf+nanj) >>> complex(1.23) (1.23+0j) >>> -4.5j >>> complex(-1.23, 4.5) (-1.23+4.5j) @17,10546,663,61
+    text If the argument is a string, it must contain either a real part (in the same format as for ) or an imaginary part (in the same format but with a or suffix), or both real and imaginary parts (the sign of the imaginary part is mandatory in this case). The string can optionally be surrounded by whitespaces and the round parentheses and , which are ignored. The string must not contain whitespace between , , the or suffix, and the decimal number. For example, is fine, but raises . More precisely, the input must conform to the production rule in the following grammar, after parentheses and leading and trailing whitespace characters are removed: @17,10619,663,142
+    link float() #float @17,10773,663,21
+    text 'j' @17,10806,663,20
+    text 'J' @17,10838,663,20
+    text '(' @17,10870,663,21
+    text ')' @17,10903,663,20
+    text '+' @17,10935,663,20
+    text '-' @17,10967,663,21
+    text 'j' @17,11000,663,20
+    text 'J' @17,11032,663,20
+    text complex('1+2j') @17,11064,663,20
+    text complex('1 + 2j') @17,11096,663,21
+    link ValueError exceptions.html#ValueError @17,11129,663,20
+    link complexvalue #grammar-token-float-complexvalue @17,11161,663,20
+    text : | ( | ) | ( | ) @17,11193,663,21
+    card @17,11226,663,341
+      text complexvalue @34,11241,629,20
+      link floatvalue #grammar-token-float-floatvalue @34,11273,629,20
+      link floatvalue #grammar-token-float-floatvalue2 @34,11305,629,21
+      text "j" success @34,11338,629,20
+      text "J" success @34,11370,629,20
+      link floatvalue #grammar-token-float-floatvalue3 @34,11402,629,20
+      link sign #grammar-token-float-sign @34,11434,629,21
+      link absfloatvalue #grammar-token-float-absfloatvalue @34,11467,629,20
+      text "j" success @34,11499,629,20
+      text "J" success @34,11531,629,21
+    text If the argument is a number, the constructor serves as a numeric conversion like and . For a general Python object , delegates to . If is not defined then it falls back to . If is not defined then it falls back to . @17,11579,663,61
+    link int #int3 @17,11652,663,20
+    link float #float2 @17,11684,663,20
+    text x @17,11716,663,20
+    text complex(x) @17,11748,663,21
+    text x.__complex__() @17,11781,663,20
+    link __complex__() ../reference/datamodel.html#object.__complex__ @17,11813,663,20
+    link __float__() ../reference/datamodel.html#object.__float__ @17,11845,663,21
+    text __float__() @17,11878,663,20
+    link __index__() ../reference/datamodel.html#object.__index__ @17,11910,663,20
+    text If two arguments are provided or keyword arguments are used, each argument may be any numeric type (including complex). If both arguments are real numbers, return a complex number with the real component real and the imaginary component imag. If both arguments are complex numbers, return a complex number with the real component real.real-imag.imag and the imaginary component real.imag+imag.real. If one of arguments is a real number, only its real component is used in the above expressions. @17,11942,663,122
+    text See also which only accepts a single numeric argument. @17,12076,663,20
+    link complex.from_number() stdtypes.html#complex.from_number @17,12108,663,21
+    text If all arguments are omitted, returns 0j. @17,12141,663,20
+    text The complex type is described in . @17,12173,663,20
+    link "Numeric Types — int, float, complex" stdtypes.html#typesnumeric @17,12205,663,21
+    text Changed in version 3.6: Grouping digits with underscores as in code literals is allowed. @17,12238,663,20
+    text Falls back to if and are not defined. @17,12270,663,20
+    row @17,12302,663,20
+      text Changed in version 3.8: danger @17,12302,158,20
+      link __index__() ../reference/datamodel.html#object.__index__ @187,12302,72,20
+      link __complex__() ../reference/datamodel.html#object.__complex__ @271,12302,93,20
+      link __float__() ../reference/datamodel.html#object.__float__ @376,12302,66,20
+    text Deprecated since version 3.14: Passing a complex number as the real or imag argument is now deprecated; it should only be passed as a single positional argument. @17,12334,663,41
+    text , , @17,12387,663,20
+    row @17,12419,663,21
+      text delattr @17,12419,43,21
+      text ( @72,12419,6,21
+      text object @90,12419,42,21
+      text name @144,12419,37,21
+      text / @193,12419,6,21
+      text ) @211,12419,6,21
+      link ¶ #delattr2 @229,12419,9,21
+    text This is a relative of . The arguments are an object and a string. The string must be the name of one of the object’s attributes. The function deletes the named attribute, provided the object allows it. For example, is equivalent to . need not be a Python identifier (see ). @17,12452,663,61
+    link setattr() #setattr @17,12525,663,20
+    text delattr(x, 'foobar') @17,12557,663,20
+    text del x.foobar @17,12589,663,20
+    text name @17,12621,663,21
+    text setattr() @17,12654,663,20
+    text class dict(**kwargs) @17,12686,663,20
+    text , , @17,12718,663,21
+    row @17,12751,663,20
+      text class @17,12751,35,20
+      text dict @64,12751,25,20
+      text ( @101,12751,6,20
+      text mapping @119,12751,58,20
+      text / @189,12751,6,20
+      text **kwargs @207,12751,63,20
+      text ) @282,12751,6,20
+    text , , @17,12783,663,20
+    row @17,12815,663,21
+      text class @17,12815,35,21
+      text dict @64,12815,25,21
+      text ( @101,12815,6,21
+      text iterable @119,12815,50,21
+      text / @181,12815,6,21
+      text **kwargs @199,12815,63,21
+      text ) @274,12815,6,21
+    text Create a new dictionary. The object is the dictionary class. See also for documentation about this class. @17,12848,663,40
+    link dict stdtypes.html#dict @17,12900,663,20
+    link "Mapping types — dict, frozendict" stdtypes.html#typesmapping @17,12932,663,21
+    text For other containers see the built-in , , , and classes, as well as the module. @17,12965,663,20
+    link frozendict stdtypes.html#frozendict @17,12997,663,20
+    link list stdtypes.html#list @17,13029,663,21
+    link set stdtypes.html#set @17,13062,663,20
+    link tuple stdtypes.html#tuple @17,13094,663,20
+    link collections ../library/collections.html#module-collections @17,13126,663,21
+    row @17,13159,663,20
+      text dir @17,13159,18,20
+      text ( @47,13159,6,20
+      text ) @65,13159,6,20
+      link ¶ #dir2 @83,13159,9,20
+    text , @17,13191,663,20
+    row @17,13223,663,20
+      text dir @17,13223,18,20
+      text ( @47,13223,6,20
+      text object @65,13223,42,20
+      text / @119,13223,6,20
+      text ) @137,13223,6,20
+    text Without arguments, return the list of names in the current local scope. With an argument, attempt to return a list of valid attributes for that object. @17,13255,663,41
+    text If the object has a method named , this method will be called and must return the list of attributes. This allows objects that implement a custom or function to customize the way reports their attributes. @17,13308,663,61
+    link __dir__() ../reference/datamodel.html#object.__dir__ @17,13381,663,20
+    link __getattr__() ../reference/datamodel.html#object.__getattr__ @17,13413,663,21
+    link __getattribute__() ../reference/datamodel.html#object.__getattribute__ @17,13446,663,20
+    text dir() @17,13478,663,20
+    text If the object does not provide , the function tries its best to gather information from the object’s attribute, if defined, and from its type object. The resulting list is not necessarily complete and may be inaccurate when the object has a custom . @17,13510,663,61
+    link __dir__() ../reference/datamodel.html#object.__dir__ @17,13583,663,20
+    link __dict__ ../reference/datamodel.html#object.__dict__ @17,13615,663,21
+    link __getattr__() ../reference/datamodel.html#object.__getattr__ @17,13648,663,20
+    text The default dir() mechanism behaves differently with different types of objects, as it attempts to produce the most relevant, rather than complete, information: @17,13680,663,41
+    text If the object is a module object, the list contains the names of the module’s attributes. @17,13733,663,20
+    text If the object is a type or class object, the list contains the names of its attributes, and recursively of the attributes of its bases. @17,13765,663,40
+    text Otherwise, the list contains the object’s attributes’ names, the names of its class’s attributes, and recursively of the attributes of its class’s base classes. @17,13817,663,41
+    text The resulting list is sorted alphabetically. For example: @17,13870,663,20
+    text >>> import struct >>> dir() # show the names in the module namespace ['__builtins__', '__name__', 'struct'] >>> dir(struct) # show the names in the struct module ['Struct', '__all__', '__builtins__', '__doc__', '__file__', '__initializing__', '__loader__', '__name__', '__package__', '_clearcache', 'calcsize', 'error', 'pack', 'pack_into', 'unpack', 'unpack_from'] >>> class Shape: ... def __dir__(self): ... return ['area', 'perimeter', 'location'] ... >>> s  Shape() >>> dir(s) ['area', 'location', 'perimeter'] @17,13902,663,102
+    card @17,14016,663,143
+      text Note @34,14031,629,20
+      text Because dir() is supplied primarily as a convenience for use at an interactive prompt, it tries to supply an interesting set of names more than it tries to supply a rigorously or consistently defined set of names, and its detailed behavior may change across releases. For example, metaclass attributes are not in the result list when the argument is a class. @34,14063,629,81
+    text , , @17,14171,663,21
+    row @17,14204,663,20
+      text divmod @17,14204,50,20
+      text ( @79,14204,6,20
+      text a @97,14204,8,20
+      text b @117,14204,9,20
+      text / @138,14204,6,20
+      text ) @156,14204,6,20
+      link ¶ #divmod2 @174,14204,9,20
+    text Take two (non-complex) numbers as arguments and return a pair of numbers consisting of their quotient and remainder when using integer division. With mixed operand types, the rules for binary arithmetic operators apply. For integers, the result is the same as (a // b, a % b). For floating-point numbers the result is (q, a % b), where q is usually math.floor(a / b) but may be 1 less than that. In any case q * b + a % b is very close to a, if a % b is non-zero it has the same sign as b, and 0 abs(a % b) < abs(b). @17,14236,663,122
+    text , @17,14370,663,20
+    row @17,14402,663,20
+      text enumerate @17,14402,72,20
+      text ( @101,14402,6,20
+      text iterable @119,14402,50,20
+      text @181,14402,0,20
+      text ) @193,14402,6,20
+      link ¶ #enumerate2 @211,14402,9,20
+    text Return an enumerate object. must be a sequence, an , or some other object which supports iteration. The method of the iterator returned by returns a tuple containing a count (from which defaults to 0) and the values obtained from iterating over . @17,14434,663,61
+    text iterable @17,14507,663,21
+    link iterator ../glossary.html#term-iterator @17,14540,663,20
+    link __next__() stdtypes.html#iterator.__next__ @17,14572,663,20
+    text enumerate() @17,14604,663,20
+    text start @17,14636,663,21
+    text iterable @17,14669,663,20
+    text >>> seasons  ['Spring', 'Summer', 'Fall', 'Winter'] >>> list(enumerate(seasons)) [(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')] >>> list(enumerate(seasons, [(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')] @17,14701,663,61
+    text Equivalent to: @17,14774,663,20
+    text def enumerate(iterable, n  start for elem in iterable: yield n, elem n 1 @17,14806,663,21
+    text , , , @17,14839,663,20
+    row @17,14871,663,20
+      text eval @17,14871,28,20
+      text ( @57,14871,6,20
+      text source @75,14871,46,20
+      text / @133,14871,6,20
+      text @151,14871,0,20
+      text @163,14871,0,20
+      text ) @175,14871,6,20
+      link ¶ #eval4 @193,14871,9,20
+    row @17,14903,663,263
+      text Parameters: @17,15025,49,20
+      col @78,14903,164,263
+        text ( | ) – A Python expression. @78,14903,164,41
+        row @78,14956,164,40
+          text source @78,14966,45,20
+          link str stdtypes.html#str @135,14966,18,20
+          link "code object" ../reference/datamodel.html#code-objects @165,14956,77,40
+        text ( | | ) – The global namespace (default: ). @78,15008,164,41
+        row @78,15061,164,20
+          text globals @78,15061,26,20
+          link dict stdtypes.html#dict @116,15061,14,20
+          link frozendict stdtypes.html#frozendict @142,15061,37,20
+          text None @191,15061,20,20
+          text None @223,15061,19,20
+        text ( | ) – The local namespace (default: ). @78,15093,164,41
+        row @78,15146,164,20
+          text locals @78,15146,30,20
+          link mapping ../glossary.html#term-mapping @120,15146,44,20
+          text None @176,15146,27,20
+          text None @215,15146,27,20
+      text Returns: @254,15025,34,20
+      text The result of the evaluated expression. @300,15014,158,41
+      text Raises: @470,15025,30,20
+      text Syntax errors are reported as exceptions. @512,15014,168,41
+    card @17,15178,663,103
+      text Warning @34,15193,629,20
+      text This function executes arbitrary code. Calling it with untrusted user-supplied input will lead to security vulnerabilities. @34,15225,629,41
+    text The argument is parsed and evaluated as a Python expression (technically speaking, an ) using the and mappings as global and local namespace. If the dictionary is present and does not contain a value for the key , a reference to the dictionary of the built-in module is inserted under that key before is parsed. Overriding can be used to restrict or change the available names, but this is a security mechanism: the executed code can still access all builtins. If the mapping is omitted it defaults to the dictionary. If both mappings are omitted, the source is executed with the and in the environment where is called. Note, will only have access to the (non-locals) in the enclosing environment if they are already referenced in the scope that is calling (e.g. via a statement). @17,15293,663,162
+    text source @17,15467,663,21
+    link "expression list" ../reference/expressions.html#exprlists @17,15500,663,20
+    text globals @17,15532,663,20
+    text locals @17,15564,663,21
+    text globals @17,15597,663,20
+    text __builtins__ @17,15629,663,20
+    link builtins ../library/builtins.html#module-builtins @17,15661,663,21
+    text source @17,15694,663,20
+    text __builtins__ @17,15726,663,20
+    text not @17,15758,663,20
+    text locals @17,15790,663,21
+    text globals @17,15823,663,20
+    text globals @17,15855,663,20
+    text locals @17,15887,663,21
+    text eval() @17,15920,663,20
+    text eval() @17,15952,663,20
+    link "nested scopes" ../glossary.html#term-nested-scope @17,15984,663,21
+    text eval() @17,16017,663,20
+    link nonlocal ../reference/simple_stmts.html#nonlocal @17,16049,663,20
+    text Example: @17,16081,663,20
+    text >>> x  1 >>> eval('x+1') 2 @17,16113,663,21
+    text >>> eval("1, 2") (1, 2) @17,16146,663,20
+    text This function can also be used to execute arbitrary code objects (such as those created by ). In this case, pass a code object instead of a string. If the code object has been compiled with as the argument, 's return value will be . @17,16178,663,61
+    link compile() #compile6 @17,16251,663,20
+    text 'exec' @17,16283,663,21
+    text mode @17,16316,663,20
+    text eval() @17,16348,663,20
+    text None @17,16380,663,20
+    text Hints: dynamic execution of statements is supported by the function. The and functions return the current global and local dictionary, respectively, which may be useful to pass around for use by or . @17,16412,663,41
+    link exec() #exec3 @17,16465,663,20
+    link globals() #globals6 @17,16497,663,21
+    link locals() #locals5 @17,16530,663,20
+    text eval() @17,16562,663,20
+    text exec() @17,16594,663,21
+    text If the given source is a string, then leading and trailing spaces and tabs are stripped. @17,16627,663,20
+    text See for a function to evaluate strings with expressions containing only literals. @17,16659,663,20
+    link ast.literal_eval() ../library/ast.html#ast.literal_eval @17,16691,663,20
+    text Raises an with the code object as the argument. Code compilation events may also be raised. @17,16723,663,21
+    row @17,16756,663,20
+      link "auditing event" ../library/sys.html#auditing @17,16756,94,20
+      text exec @123,16756,32,20
+    text Changed in version 3.13: The globals and locals arguments can now be passed as keywords. @17,16788,663,20
+    text The semantics of the default namespace have been adjusted as described for the builtin. @17,16820,663,21
+    text Changed in version 3.13: danger @17,16853,663,20
+    text locals @17,16885,663,20
+    link locals() #locals7 @17,16917,663,21
+    text can now be a . @17,16950,663,20
+    row @17,16982,663,20
+      text Changed in version 3.15: danger @17,16982,163,20
+      text globals @192,16982,48,20
+      link frozendict stdtypes.html#frozendict @252,16982,68,20
+    text , , , , , @17,17014,663,20
+    row @17,17046,663,21
+      text exec @17,17046,32,21
+      text ( @61,17046,6,21
+      text source @79,17046,46,21
+      text / @137,17046,6,21
+      text @155,17046,0,21
+      text @167,17046,0,21
+      text * @179,17046,8,21
+      text @199,17046,0,21
+      text ) @211,17046,6,21
+      link ¶ #exec7 @229,17046,9,21
+    card @17,17079,663,103
+      text Warning @34,17094,629,20
+      text This function executes arbitrary code. Calling it with untrusted user-supplied input will lead to security vulnerabilities. @34,17126,629,41
+    text This function supports dynamic execution of Python code. must be either a string or a code object. If it is a string, the string is parsed as a suite of Python statements which is then executed (unless a syntax error occurs). If it is a code object, it is simply executed. In all cases, the code that’s executed is expected to be valid as file input (see the section in the Reference Manual). Be aware that the , , and statements may not be used outside of function definitions even within the context of code passed to the function. The return value is . @17,17194,663,121
+    text source @17,17327,663,21
+    text 1 primary @17,17360,663,20
+    row @17,17392,663,20
+      text [ primary @17,17392,6,20
+      text ] primary @35,17392,6,20
+    link "File input" ../reference/toplevel_components.html#file-input @17,17424,663,21
+    link nonlocal ../reference/simple_stmts.html#nonlocal @17,17457,663,20
+    link yield ../reference/simple_stmts.html#yield @17,17489,663,20
+    link return ../reference/simple_stmts.html#return @17,17521,663,21
+    text exec() @17,17554,663,20
+    text None @17,17586,663,20
+    text In all cases, if the optional parts are omitted, the code is executed in the current scope. If only globals is provided, it must be a dictionary (and not a subclass of dictionary), which will be used for both the global and the local variables. If globals and locals are given, they are used for the global and local variables, respectively. If provided, locals can be any mapping object. Remember that at the module level, globals and locals are the same dictionary. @17,17618,663,102
+    card @17,17732,663,143
+      text Note @34,17747,629,20
+      text When exec gets two separate objects as globals and locals, the code will be executed as if it were embedded in a class definition. This means functions and classes defined in the executed code will not be able to access variables assigned at the top level (as the “top level” variables are treated as class variables in a class definition). @34,17779,629,81
+    text If the dictionary does not contain a value for the key , a reference to the dictionary of the built-in module is inserted under that key. Overriding can be used to restrict or change the available names, but this is a security mechanism: the executed code can still access all builtins. @17,17887,663,61
+    text globals @17,17960,663,20
+    text __builtins__ @17,17992,663,21
+    link builtins ../library/builtins.html#module-builtins @17,18025,663,20
+    text __builtins__ @17,18057,663,20
+    text not @17,18089,663,21
+    text The argument specifies a closure–a tuple of cellvars. It’s only valid when the is a code object containing . The length of the tuple must exactly match the length of the code object’s attribute. @17,18122,663,40
+    text closure @17,18174,663,20
+    text object @17,18206,663,21
+    link "free (closure) variables" ../glossary.html#term-closure-variable @17,18239,663,20
+    link co_freevars ../reference/datamodel.html#codeobject.co_freevars @17,18271,663,20
+    text Raises an with the code object as the argument. Code compilation events may also be raised. @17,18303,663,21
+    row @17,18336,663,20
+      link "auditing event" ../library/sys.html#auditing @17,18336,94,20
+      text exec @123,18336,32,20
+    card @17,18368,663,200
+      text Note @34,18383,629,20
+      text The built-in functions and return the current global and local namespace, respectively, which may be useful to pass around for use as the second and third argument to . @34,18415,629,41
+      link globals() #globals9 @34,18468,629,20
+      link locals() #locals8 @34,18500,629,20
+      text exec() @34,18532,629,21
+    card @17,18580,663,264
+      text Note @34,18595,629,20
+      text The default act as described for function below. Pass an explicit dictionary if you need to see effects of the code on after function returns. @34,18627,629,41
+      text locals @34,18680,629,20
+      link locals() #locals10 @34,18712,629,20
+      text locals @34,18744,629,21
+      text locals @34,18777,629,20
+      text exec() @34,18809,629,20
+    text Changed in version 3.11: Added the closure parameter. @17,18856,663,20
+    text Changed in version 3.13: The globals and locals arguments can now be passed as keywords. @17,18888,663,21
+    text The semantics of the default namespace have been adjusted as described for the builtin. @17,18921,663,20
+    text Changed in version 3.13: danger @17,18953,663,20
+    text locals @17,18985,663,21
+    link locals() #locals14 @17,19018,663,20
+    text can now be a . @17,19050,663,20
+    row @17,19082,663,21
+      text Changed in version 3.15: danger @17,19082,163,21
+      text globals @192,19082,48,21
+      link frozendict stdtypes.html#frozendict @252,19082,68,21
+    text , , @17,19115,663,20
+    row @17,19147,663,20
+      text filter @17,19147,30,20
+      text ( @59,19147,6,20
+      text function @77,19147,55,20
+      text iterable @144,19147,50,20
+      text / @206,19147,6,20
+      text ) @224,19147,6,20
+      link ¶ #filter3 @242,19147,9,20
+    text Construct an iterator from those elements of iterable for which function is true. iterable may be either a sequence, a container which supports iteration, or an iterator. If function is None, the identity function is assumed, that is, all elements of iterable that are false are removed. @17,19179,663,61
+    text Note that filter(function, iterable) is equivalent to the generator expression (item for item in iterable if function(item)) if function is not None and (item for item in iterable if item) if function is None. @17,19252,663,41
+    text See for the complementary function that returns elements of for which is false. @17,19305,663,20
+    link itertools.filterfalse() ../library/itertools.html#itertools.filterfalse @17,19337,663,20
+    text iterable @17,19369,663,21
+    text function @17,19402,663,20
+    text , @17,19434,663,20
+    row @17,19466,663,20
+      text class @17,19466,35,20
+      text float @64,19466,30,20
+      text ( @106,19466,6,20
+      text @124,19466,0,20
+      text / @136,19466,6,20
+      text ) @154,19466,6,20
+      link ¶ #float7 @172,19466,9,20
+    text , @17,19498,663,21
+    row @17,19531,663,20
+      text class @17,19531,35,20
+      text float @64,19531,30,20
+      text ( @106,19531,6,20
+      text string @124,19531,38,20
+      text / @174,19531,6,20
+      text ) @192,19531,6,20
+    text Return a floating-point number constructed from a number or a string. @17,19563,663,20
+    text Examples: @17,19595,663,21
+    text >>> float('+1.23') 1.23 >>> float(' -12345\n') -12345.0 >>> float('1e-003') 0.001 >>> float('+1E6') 1000000.0 >>> float('-Infinity') -inf @17,19628,663,40
+    text If the argument is a string, it should contain a decimal number, optionally preceded by a sign, and optionally embedded in whitespace. The optional sign may be or ; a sign has no effect on the value produced. The argument may also be a string representing a NaN (not-a-number), or positive or negative infinity. More precisely, the input must conform to the production rule in the following grammar, after leading and trailing whitespace characters are removed: @17,19680,663,102
+    text '+' @17,19794,663,20
+    text '-' @17,19826,663,20
+    text '+' @17,19858,663,21
+    link floatvalue #grammar-token-float-floatvalue4 @17,19891,663,20
+    text : | : | : : <a Unicode decimal digit, i.e. characters in Unicode general category Nd> : ([] )* : [] | [] : ( | ) [] : [] : | | : [] @17,19923,663,41
+    card @17,19976,663,1116
+      text sign @34,19991,629,20
+      text "+" success @34,20023,629,20
+      text "-" success @34,20055,629,20
+      text infinity @34,20087,629,21
+      text "Infinity" success @34,20120,629,20
+      text "inf" success @34,20152,629,20
+      text nan @34,20184,629,21
+      text "nan" success @34,20217,629,20
+      text digit @34,20249,629,20
+      text digitpart @34,20281,629,21
+      link digit #grammar-token-float-digit @34,20314,629,20
+      text "_" success @34,20346,629,20
+      link digit #grammar-token-float-digit2 @34,20378,629,20
+      text number @34,20410,629,21
+      link digitpart #grammar-token-float-digitpart @34,20443,629,20
+      text "." success @34,20475,629,20
+      link digitpart #grammar-token-float-digitpart2 @34,20507,629,21
+      link digitpart #grammar-token-float-digitpart3 @34,20540,629,20
+      text "." success @34,20572,629,20
+      text exponent @34,20604,629,21
+      text "e" success @34,20637,629,20
+      text "E" success @34,20669,629,20
+      link sign #grammar-token-float-sign2 @34,20701,629,20
+      link digitpart #grammar-token-float-digitpart4 @34,20733,629,21
+      text floatnumber @34,20766,629,20
+      link number #grammar-token-float-number @34,20798,629,20
+      link exponent #grammar-token-float-exponent @34,20830,629,21
+      text absfloatvalue @34,20863,629,20
+      link floatnumber #grammar-token-float-floatnumber @34,20895,629,20
+      link infinity #grammar-token-float-infinity @34,20927,629,21
+      link nan #grammar-token-float-nan @34,20960,629,20
+      text floatvalue @34,20992,629,20
+      link sign #grammar-token-float-sign3 @34,21024,629,20
+      link absfloatvalue #grammar-token-float-absfloatvalue2 @34,21056,629,21
+    text Case is not significant, so, for example, “inf”, “Inf”, “INFINITY”, and “iNfINity” are all acceptable spellings for positive infinity. @17,21104,663,40
+    text Otherwise, if the argument is an integer or a floating-point number, a floating-point number with the same value (within Python’s floating-point precision) is returned. If the argument is outside the range of a Python float, an will be raised. @17,21156,663,61
+    link OverflowError exceptions.html#OverflowError @17,21229,663,21
+    text For a general Python object , delegates to . If is not defined then it falls back to . @17,21262,663,20
+    text x @17,21294,663,20
+    text float(x) @17,21326,663,20
+    text x.__float__() @17,21358,663,21
+    link __float__() ../reference/datamodel.html#object.__float__ @17,21391,663,20
+    link __index__() ../reference/datamodel.html#object.__index__ @17,21423,663,20
+    text See also which only accepts a numeric argument. @17,21455,663,21
+    link float.from_number() stdtypes.html#float.from_number @17,21488,663,20
+    text If no argument is given, 0.0 is returned. @17,21520,663,20
+    text The float type is described in . @17,21552,663,21
+    link "Numeric Types — int, float, complex" stdtypes.html#typesnumeric @17,21585,663,20
+    text Changed in version 3.6: Grouping digits with underscores as in code literals is allowed. @17,21617,663,20
+    text Changed in version 3.7: The parameter is now positional-only. @17,21649,663,21
+    text Falls back to if is not defined. @17,21682,663,20
+    row @17,21714,663,20
+      text Changed in version 3.8: danger @17,21714,158,20
+      link __index__() ../reference/datamodel.html#object.__index__ @187,21714,72,20
+      link __float__() ../reference/datamodel.html#object.__float__ @271,21714,66,20
+    text , , @17,21746,663,20
+    row @17,21778,663,21
+      text format @17,21778,44,21
+      text ( @73,21778,6,21
+      text value @91,21778,36,21
+      text @139,21778,0,21
+      text / @151,21778,6,21
+      text ) @169,21778,6,21
+      link ¶ #format3 @187,21778,9,21
+    text Convert a to a “formatted” representation, as controlled by . The interpretation of will depend on the type of the argument; however, there is a standard formatting syntax that is used by most built-in types: . @17,21811,663,61
+    text value @17,21884,663,20
+    text format_spec @17,21916,663,20
+    text format_spec @17,21948,663,21
+    text value @17,21981,663,20
+    link "Format specification mini-language" ../library/string.html#formatspec @17,22013,663,20
+    text The default is an empty string which usually gives the same effect as calling . @17,22045,663,20
+    row @17,22077,663,21
+      text format_spec @17,22077,83,21
+      link str(value) stdtypes.html#str @112,22077,64,21
+    text A call to is translated to which bypasses the instance dictionary when searching for the value’s method. A exception is raised if the method search reaches and the is non-empty, or if either the or the return value are not strings. @17,22110,663,61
+    text format(value, format_spec) @17,22183,663,20
+    text type(value).__format__(value, format_spec) @17,22215,663,20
+    link __format__() ../reference/datamodel.html#object.__format__ @17,22247,663,21
+    link TypeError exceptions.html#TypeError @17,22280,663,20
+    link object #object8 @17,22312,663,20
+    text format_spec @17,22344,663,20
+    text format_spec @17,22376,663,21
+    text raises if is not an empty string. @17,22409,663,20
+    row @17,22441,663,20
+      text Changed in version 3.4: danger @17,22441,158,20
+      text object().__format__(format_spec) @187,22441,217,20
+      link TypeError exceptions.html#TypeError @416,22441,67,20
+      text format_spec @495,22441,83,20
+    text class frozendict(**kwargs) @17,22473,663,21
+    text , , @17,22506,663,20
+    row @17,22538,663,20
+      text class @17,22538,35,20
+      text frozendict @64,22538,68,20
+      text ( @144,22538,6,20
+      text mapping @162,22538,58,20
+      text / @232,22538,6,20
+      text **kwargs @250,22538,63,20
+      text ) @325,22538,6,20
+    text , , @17,22570,663,21
+    row @17,22603,663,20
+      text class @17,22603,35,20
+      text frozendict @64,22603,68,20
+      text ( @144,22603,6,20
+      text iterable @162,22603,50,20
+      text / @224,22603,6,20
+      text **kwargs @242,22603,63,20
+      text ) @317,22603,6,20
+    text Create a new frozen dictionary. The object is a built-in class. See also for documentation about this class. @17,22635,663,40
+    link frozendict stdtypes.html#frozendict @17,22687,663,21
+    link "Mapping types — dict, frozendict" stdtypes.html#typesmapping @17,22720,663,20
+    text For other containers see the built-in , , , and classes, as well as the module. @17,22752,663,20
+    row @17,22784,663,21
+      link dict stdtypes.html#dict @17,22784,25,21
+      link list stdtypes.html#list @54,22784,19,21
+      link set stdtypes.html#set @85,22784,21,21
+      link tuple stdtypes.html#tuple @118,22784,33,21
+      link collections ../library/collections.html#module-collections @163,22784,72,21
+    text Added in version 3.15. @17,22817,663,20
+    text , @17,22849,663,20
+    row @17,22881,663,21
+      text class @17,22881,35,21
+      text frozenset @64,22881,64,21
+      text ( @140,22881,6,21
+      text @158,22881,0,21
+      text / @170,22881,6,21
+      text ) @188,22881,6,21
+    text Return a new object, optionally with elements taken from . is a built-in class. See also for documentation about this class. @17,22914,663,40
+    link frozenset stdtypes.html#frozenset @17,22966,663,20
+    text iterable @17,22998,663,21
+    text frozenset @17,23031,663,20
+    link "Set Types — set, frozenset" stdtypes.html#types-set @17,23063,663,20
+    text For other containers see the built-in , , , and classes, as well as the module. @17,23095,663,21
+    row @17,23128,663,20
+      link set stdtypes.html#set @17,23128,21,20
+      link list stdtypes.html#list @50,23128,19,20
+      link tuple stdtypes.html#tuple @81,23128,33,20
+      link dict stdtypes.html#dict @126,23128,25,20
+      link collections ../library/collections.html#module-collections @163,23128,72,20
+    text , , @17,23160,663,20
+    row @17,23192,663,21
+      text getattr @17,23192,44,21
+      text ( @73,23192,6,21
+      text object @91,23192,42,21
+      text name @145,23192,37,21
+      text / @194,23192,6,21
+      text ) @212,23192,6,21
+      link ¶ #getattr4 @230,23192,9,21
+    text , , , @17,23225,663,20
+    row @17,23257,663,20
+      text getattr @17,23257,44,20
+      text ( @73,23257,6,20
+      text object @91,23257,42,20
+      text name @145,23257,37,20
+      text default @194,23257,47,20
+      text / @253,23257,6,20
+      text ) @271,23257,6,20
+    text Return the value of the named attribute of . must be a string. If the string is the name of one of the object’s attributes, the result is the value of that attribute. For example, is equivalent to . If the named attribute does not exist, is returned if provided, otherwise is raised. need not be a Python identifier (see ). @17,23289,663,81
+    text object @17,23382,663,21
+    text name @17,23415,663,20
+    text getattr(x, 'foobar') @17,23447,663,20
+    text x.foobar @17,23479,663,21
+    text default @17,23512,663,20
+    link AttributeError exceptions.html#AttributeError @17,23544,663,20
+    text name @17,23576,663,20
+    link setattr() #setattr3 @17,23608,663,21
+    card @17,23641,663,167
+      text Note @34,23656,629,20
+      text Since happens at compilation time, one must manually mangle a private attribute’s (attributes with two leading underscores) name in order to retrieve it with . @34,23688,629,41
+      link "private name mangling" ../reference/expressions.html#private-name-mangling @34,23741,629,20
+      text getattr() @34,23773,629,20
+    row @17,23820,663,21
+      text globals @17,23820,48,21
+      text ( @77,23820,6,21
+      text ) @95,23820,6,21
+      link ¶ #globals12 @113,23820,9,21
+    text Return the dictionary implementing the current module namespace. For code within functions, this is set when the function is defined and remains the same regardless of where the function is called. @17,23853,663,40
+    text , , @17,23905,663,20
+    row @17,23937,663,21
+      text hasattr @17,23937,46,21
+      text ( @75,23937,6,21
+      text object @93,23937,42,21
+      text name @147,23937,37,21
+      text / @196,23937,6,21
+      text ) @214,23937,6,21
+      link ¶ #hasattr2 @232,23937,9,21
+    text The arguments are an object and a string. The result is if the string is the name of one of the object’s attributes, if not. (This is implemented by calling and seeing whether it raises an or not.) @17,23970,663,40
+    text True @17,24022,663,21
+    text False @17,24055,663,20
+    text getattr(object, name) @17,24087,663,20
+    link AttributeError exceptions.html#AttributeError @17,24119,663,21
+    text , @17,24152,663,20
+    row @17,24184,663,20
+      text hash @17,24184,32,20
+      text ( @61,24184,6,20
+      text object @79,24184,42,20
+      text / @133,24184,6,20
+      text ) @151,24184,6,20
+      link ¶ #hash2 @169,24184,9,20
+    text Return the hash value of the object (if it has one). Hash values are integers. They are used to quickly compare dictionary keys during a dictionary lookup. Numeric values that compare equal have the same hash value (even if they are of different types, as is the case for 1 and 1.0). @17,24216,663,61
+    card @17,24289,663,135
+      text Note @34,24304,629,20
+      text For objects with custom methods, note that truncates the return value based on the bit width of the host machine. @34,24336,629,41
+      row @34,24389,629,20
+        link __hash__() ../reference/datamodel.html#object.__hash__ @34,24389,68,20
+        text hash() @114,24389,43,20
+    row @17,24436,663,21
+      text help @17,24436,29,21
+      text ( @58,24436,6,21
+      text ) @76,24436,6,21
+      link ¶ #help2 @94,24436,9,21
+    text help(request) @17,24469,663,20
+    text Invoke the built-in help system. (This function is intended for interactive use.) If no argument is given, the interactive help system starts on the interpreter console. If the argument is a string, then the string is looked up as the name of a module, function, class, method, keyword, or documentation topic, and a help page is printed on the console. If the argument is any other kind of object, a help page on the object is generated. @17,24501,663,101
+    text Note that if a slash(/) appears in the parameter list of a function when invoking , it means that the parameters prior to the slash are positional-only. For more info, see . @17,24614,663,41
+    text help() @17,24667,663,20
+    link "the FAQ entry on positional-only parameters" ../faq/programming.html#faq-positional-only-arguments @17,24699,663,21
+    text This function is added to the built-in namespace by the module. @17,24732,663,20
+    link site ../library/site.html#module-site @17,24764,663,20
+    text Changes to and mean that the reported signatures for callables are now more comprehensive and consistent. @17,24796,663,41
+    row @17,24849,663,20
+      text Changed in version 3.4: danger @17,24849,158,20
+      link pydoc ../library/pydoc.html#module-pydoc @187,24849,42,20
+      link inspect ../library/inspect.html#module-inspect @241,24849,49,20
+    text , @17,24881,663,20
+    row @17,24913,663,21
+      text hex @17,24913,25,21
+      text ( @54,24913,6,21
+      text integer @72,24913,47,21
+      text / @131,24913,6,21
+      text ) @149,24913,6,21
+      link ¶ #hex2 @167,24913,9,21
+    text Convert an integer number to a lowercase hexadecimal string prefixed with “0x”. If is not a Python object, it has to define an method that returns an integer. Some examples: @17,24946,663,40
+    text integer @17,24998,663,21
+    link int #int4 @17,25031,663,20
+    link __index__() ../reference/datamodel.html#object.__index__ @17,25063,663,20
+    text >>> hex(255) '0xff' >>> hex(-42) '-0x2a' @17,25095,663,20
+    text If you want to convert an integer number to an uppercase or lower hexadecimal string with prefix or not, you can use either of the following ways: @17,25127,663,41
+    text >>> '%#x' % 255, '%x' % 255, '%X' % 255 ('0xff', 'ff', 'FF') >>> format(255, '#x'), format(255, 'x'), format(255, 'X') ('0xff', 'ff', 'FF') >>> f'{255:#x}', f'{255:x}', f'{255:X}' ('0xff', 'ff', 'FF') @17,25180,663,41
+    text See also for more information. @17,25233,663,20
+    link format() #format6 @17,25265,663,20
+    text See also for converting a hexadecimal string to an integer using a base of 16. @17,25297,663,21
+    link int() #int5 @17,25330,663,20
+    card @17,25362,663,115
+      text Note @34,25377,629,20
+      text To obtain a hexadecimal string representation for a float, use the method. @34,25409,629,20
+      link float.hex() stdtypes.html#float.hex @34,25441,629,21
+    text , @17,25489,663,20
+    row @17,25521,663,20
+      text id @17,25521,12,20
+      text ( @41,25521,6,20
+      text object @59,25521,42,20
+      text / @113,25521,6,20
+      text ) @131,25521,6,20
+      link ¶ #id2 @149,25521,9,20
+    text Return the “identity” of an object. This is an integer which is guaranteed to be unique and constant for this object during its lifetime. Two objects with non-overlapping lifetimes may have the same id() value. @17,25553,663,61
+    text CPython implementation detail: This is the address of the object in memory. @17,25626,663,21
+    text Raises an with argument . @17,25659,663,20
+    row @17,25691,663,20
+      link "auditing event" ../library/sys.html#auditing @17,25691,94,20
+      text builtins.id @123,25691,64,20
+      text id @199,25691,12,20
+    row @17,25723,663,20
+      text input @17,25723,34,20
+      text ( @63,25723,6,20
+      text ) @81,25723,6,20
+      link ¶ #input2 @99,25723,9,20
+    text , @17,25755,663,21
+    row @17,25788,663,20
+      text input @17,25788,34,20
+      text ( @63,25788,6,20
+      text prompt @81,25788,48,20
+      text / @141,25788,6,20
+      text ) @159,25788,6,20
+    text If the argument is present, it is written to standard output without a trailing newline. The function then reads a line from input, converts it to a string (stripping a trailing newline), and returns that. When EOF is read, is raised. Example: @17,25820,663,61
+    text prompt @17,25893,663,20
+    link EOFError exceptions.html#EOFError @17,25925,663,21
+    text >>> s = input('--> ') --> Monty Python's Flying Circus >>> s "Monty Python's Flying Circus" @17,25958,663,20
+    text If the module was loaded, then will use it to provide elaborate line editing and history features. @17,25990,663,20
+    row @17,26022,663,20
+      link readline ../library/readline.html#module-readline @17,26022,54,20
+      text input() @83,26022,44,20
+    text Raises an with argument before reading input @17,26054,663,21
+    row @17,26087,663,20
+      link "auditing event" ../library/sys.html#auditing @17,26087,94,20
+      text builtins.input @123,26087,85,20
+      text prompt @220,26087,48,20
+    text Raises an with the result after successfully reading input. @17,26119,663,20
+    row @17,26151,663,21
+      link "auditing event" ../library/sys.html#auditing @17,26151,94,21
+      text builtins.input/result @123,26151,127,21
+    text , @17,26184,663,20
+    row @17,26216,663,20
+      text class @17,26216,35,20
+      text int @64,26216,17,20
+      text ( @93,26216,6,20
+      text @111,26216,0,20
+      text / @123,26216,6,20
+      text ) @141,26216,6,20
+      link ¶ #int7 @159,26216,9,20
+    text , , @17,26248,663,21
+    row @17,26281,663,20
+      text class @17,26281,35,20
+      text int @64,26281,17,20
+      text ( @93,26281,6,20
+      text string @111,26281,38,20
+      text / @161,26281,6,20
+      text @179,26281,0,20
+      text ) @191,26281,6,20
+    text Return an integer object constructed from a number or a string, or return 0 if no arguments are given. @17,26313,663,40
+    text Examples: @17,26365,663,21
+    text >>> int(123.45) 123 >>> int('123') 123 >>> int(' -12_345\n') -12345 >>> int('FACE', 16) 64206 >>> int('0xface', 0) 64206 >>> int('01110011', 115 @17,26398,663,40
+    text If the argument defines , returns . If the argument defines , it returns . For floating-point numbers, this truncates towards zero. @17,26450,663,41
+    link __int__() ../reference/datamodel.html#object.__int__ @17,26503,663,20
+    text int(x) @17,26535,663,21
+    text x.__int__() @17,26568,663,20
+    link __index__() ../reference/datamodel.html#object.__index__ @17,26600,663,20
+    text x.__index__() @17,26632,663,20
+    text If the argument is not a number or if is given, then it must be a string, , or instance representing an integer in radix . Optionally, the string can be preceded by or (with no space in between), have leading zeros, be surrounded by whitespace, and have single underscores interspersed between digits. @17,26664,663,82
+    text base @17,26758,663,20
+    link bytes stdtypes.html#bytes @17,26790,663,20
+    link bytearray stdtypes.html#bytearray @17,26822,663,21
+    text base @17,26855,663,20
+    text + @17,26887,663,20
+    text - @17,26919,663,20
+    text A base-n integer string contains digits, each representing a value from 0 to n-1. The values 0–9 can be represented by any Unicode decimal digit. The values 10–35 can be represented by to (or to ). The default is 10. The allowed bases are 0 and 2–36. Base-2, -8, and -16 strings can be optionally prefixed with /, /, or /, as with integer literals in code. For base 0, the string is interpreted in a similar way to an , in that the actual base is 2, 8, 10, or 16 as determined by the prefix. Base 0 also disallows leading zeros: is not legal, while and are. @17,26951,663,122
+    text a @17,27085,663,21
+    text z @17,27118,663,20
+    text A @17,27150,663,20
+    text Z @17,27182,663,20
+    text base @17,27214,663,21
+    text 0b @17,27247,663,20
+    text 0B @17,27279,663,20
+    text 0o @17,27311,663,21
+    text 0O @17,27344,663,20
+    text 0x @17,27376,663,20
+    text 0X @17,27408,663,21
+    link "integer literal in code" ../reference/lexical_analysis.html#integers @17,27441,663,20
+    text int('010', 0) @17,27473,663,20
+    text int('010') @17,27505,663,20
+    text int('010', 8) @17,27537,663,21
+    text The integer type is described in . @17,27570,663,20
+    link "Numeric Types — int, float, complex" stdtypes.html#typesnumeric @17,27602,663,20
+    text If is not an instance of and the object has a method, that method is called to obtain an integer for the base. Previous versions used instead of . @17,27634,663,41
+    text Changed in version 3.4: danger @17,27687,663,20
+    text base @17,27719,663,21
+    text int @17,27752,663,20
+    text base @17,27784,663,20
+    link base.__index__ ../reference/datamodel.html#object.__index__ @17,27816,663,20
+    link base.__int__ ../reference/datamodel.html#object.__int__ @17,27848,663,21
+    text base.__index__ @17,27881,663,20
+    text Changed in version 3.6: Grouping digits with underscores as in code literals is allowed. @17,27913,663,20
+    text Changed in version 3.7: The first parameter is now positional-only. @17,27945,663,21
+    text Falls back to if is not defined. @17,27978,663,20
+    row @17,28010,663,20
+      text Changed in version 3.8: danger @17,28010,158,20
+      link __index__() ../reference/datamodel.html#object.__index__ @187,28010,72,20
+      link __int__() ../reference/datamodel.html#object.__int__ @271,28010,52,20
+    text string inputs and string representations can be limited to help avoid denial of service attacks. A is raised when the limit is exceeded while converting a string to an or when converting an into a string would exceed the limit. See the documentation. @17,28042,663,61
+    text Changed in version 3.11: danger @17,28115,663,21
+    text int @17,28148,663,20
+    link ValueError exceptions.html#ValueError @17,28180,663,20
+    text int @17,28212,663,20
+    text int @17,28244,663,21
+    link "integer string conversion length limitation" stdtypes.html#int-max-str-digits @17,28277,663,20
+    text no longer delegates to the method. @17,28309,663,20
+    row @17,28341,663,21
+      text Changed in version 3.14: danger @17,28341,164,21
+      link int() #int15 @193,28341,27,21
+      link __trunc__() ../reference/datamodel.html#object.__trunc__ @232,28341,71,21
+    text , , @17,28374,663,20
+    row @17,28406,663,20
+      text isinstance @17,28406,67,20
+      text ( @96,28406,6,20
+      text object @114,28406,42,20
+      text classinfo @168,28406,60,20
+      text / @240,28406,6,20
+      text ) @258,28406,6,20
+      link ¶ #isinstance2 @276,28406,9,20
+    text Return if the argument is an instance of the argument, or of a (direct, indirect, or ) subclass thereof. If is not an object of the given type, the function always returns . If is a tuple of type objects (or recursively, other such tuples) or a of multiple types, return if is an instance of any of the types. If is not a type or tuple of types and such tuples, a exception is raised. may not be raised for an invalid type if an earlier check succeeds. @17,28438,663,102
+    text True @17,28552,663,20
+    text object @17,28584,663,20
+    text classinfo @17,28616,663,21
+    link virtual ../glossary.html#term-abstract-base-class @17,28649,663,20
+    text object @17,28681,663,20
+    text False @17,28713,663,21
+    text classinfo @17,28746,663,20
+    link "Union Type" stdtypes.html#types-union @17,28778,663,20
+    text True @17,28810,663,20
+    text object @17,28842,663,21
+    text classinfo @17,28875,663,20
+    link TypeError exceptions.html#TypeError @17,28907,663,20
+    text TypeError @17,28939,663,21
+    text can be a . @17,28972,663,20
+    row @17,29004,663,20
+      text Changed in version 3.10: danger @17,29004,164,20
+      text classinfo @193,29004,60,20
+      link "Union Type" stdtypes.html#types-union @265,29004,77,20
+    text , , @17,29036,663,21
+    row @17,29069,663,20
+      text issubclass @17,29069,70,20
+      text ( @99,29069,6,20
+      text cls @117,29069,19,20
+      text classinfo @148,29069,60,20
+      text / @220,29069,6,20
+      text ) @238,29069,6,20
+      link ¶ #issubclass2 @256,29069,9,20
+    text Return if is a subclass (direct, indirect, or ) of . A class is considered a subclass of itself. may be a tuple of class objects (or recursively, other such tuples) or a , in which case return if is a subclass of any entry in . In any other case, a exception is raised. @17,29101,663,61
+    text True @17,29174,663,20
+    text cls @17,29206,663,20
+    link virtual ../glossary.html#term-abstract-base-class @17,29238,663,21
+    text classinfo @17,29271,663,20
+    text classinfo @17,29303,663,20
+    link "Union Type" stdtypes.html#types-union @17,29335,663,21
+    text True @17,29368,663,20
+    text cls @17,29400,663,20
+    text classinfo @17,29432,663,20
+    link TypeError exceptions.html#TypeError @17,29464,663,21
+    text can be a . @17,29497,663,20
+    row @17,29529,663,20
+      text Changed in version 3.10: danger @17,29529,164,20
+      text classinfo @193,29529,60,20
+      link "Union Type" stdtypes.html#types-union @265,29529,77,20
+    text , @17,29561,663,21
+    row @17,29594,663,20
+      text iter @17,29594,22,20
+      text ( @51,29594,6,20
+      text iterable @69,29594,50,20
+      text / @131,29594,6,20
+      text ) @149,29594,6,20
+      link ¶ #iter3 @167,29594,9,20
+    text , , @17,29626,663,20
+    row @17,29658,663,21
+      text iter @17,29658,22,21
+      text ( @51,29658,6,21
+      text callable @69,29658,51,21
+      text sentinel @132,29658,52,21
+      text / @196,29658,6,21
+      text ) @214,29658,6,21
+    text Return an object. The first argument is interpreted very differently depending on the presence of the second argument. Without a second argument, the single argument must be a collection object which supports the protocol (the method), or it must support the sequence protocol (the method with integer arguments starting at ). If it does not support either of those protocols, is raised. If the second argument, , is given, then the first argument must be a callable object. The iterator created in this case will call with no arguments for each call to its method; if the value returned is equal to , will be raised, otherwise the value will be returned. @17,29691,663,142
+    link iterator ../glossary.html#term-iterator @17,29845,663,20
+    link iterable ../glossary.html#term-iterable @17,29877,663,20
+    link __iter__() ../reference/datamodel.html#object.__iter__ @17,29909,663,21
+    link __getitem__() ../reference/datamodel.html#object.__getitem__ @17,29942,663,20
+    text 0 @17,29974,663,20
+    link TypeError exceptions.html#TypeError @17,30006,663,20
+    text sentinel @17,30038,663,21
+    text callable @17,30071,663,20
+    link __next__() stdtypes.html#iterator.__next__ @17,30103,663,20
+    text sentinel @17,30135,663,21
+    link StopIteration exceptions.html#StopIteration @17,30168,663,20
+    text See also . @17,30200,663,20
+    link "Iteration-related types" stdtypes.html#typeiter @17,30232,663,21
+    text One useful application of the second form of iter() is to build a block-reader. For example, reading fixed-width blocks from a binary database file until the end of file is reached: @17,30265,663,40
+    text from functools import partial with open('mydata.db', 'rb') as f: for block in iter(partial(f.read, 64), b''): process_block(block) @17,30317,663,41
+    text , @17,30370,663,20
+    row @17,30402,663,20
+      text len @17,30402,20,20
+      text ( @49,30402,6,20
+      text object @67,30402,42,20
+      text / @121,30402,6,20
+      text ) @139,30402,6,20
+      link ¶ #len2 @157,30402,9,20
+    text Return the length (the number of items) of an object. The argument may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a dictionary, set, or frozen set). @17,30434,663,41
+    text raises on lengths larger than , such as . @17,30487,663,20
+    text CPython implementation detail: @17,30519,663,21
+    text len @17,30552,663,20
+    link OverflowError exceptions.html#OverflowError @17,30584,663,20
+    link sys.maxsize ../library/sys.html#sys.maxsize @17,30616,663,20
+    link "range(2 ** 100)" stdtypes.html#range @17,30648,663,21
+    text , @17,30681,663,20
+    row @17,30713,663,20
+      text class @17,30713,35,20
+      text list @64,30713,19,20
+      text ( @95,30713,6,20
+      text @113,30713,0,20
+      text / @125,30713,6,20
+      text ) @143,30713,6,20
+    text Rather than being a function, is actually a mutable sequence type, as documented in and . @17,30745,663,21
+    link list stdtypes.html#list @17,30778,663,20
+    link Lists stdtypes.html#typesseq-list @17,30810,663,20
+    link "Sequence Types — list, tuple, range" stdtypes.html#typesseq @17,30842,663,21
+    row @17,30875,663,20
+      text locals @17,30875,39,20
+      text ( @68,30875,6,20
+      text ) @86,30875,6,20
+      link ¶ #locals16 @104,30875,9,20
+    text Return a mapping object representing the current local symbol table, with variable names as the keys, and their currently bound references as the values. @17,30907,663,40
+    text At module scope, as well as when using or with a single namespace, this function returns the same namespace as . @17,30959,663,41
+    link exec() #exec12 @17,31012,663,20
+    link eval() #eval10 @17,31044,663,21
+    link globals() #globals13 @17,31077,663,20
+    text At class scope, it returns the namespace that will be passed to the metaclass constructor. @17,31109,663,20
+    text When using exec() or eval() with separate local and global arguments, it returns the local namespace passed in to the function call. @17,31141,663,41
+    text In all of the above cases, each call to locals() in a given frame of execution will return the same mapping object. Changes made through the mapping object returned from locals() will be visible as assigned, reassigned, or deleted local variables, and assigning, reassigning, or deleting local variables will immediately affect the contents of the returned mapping object. @17,31194,663,81
+    text In an (including functions, generators, and coroutines), each call to instead returns a fresh dictionary containing the current bindings of the function’s local variables and any nonlocal cell references. In this case, name binding changes made via the returned dict are written back to the corresponding local variables or nonlocal cell references, and assigning, reassigning, or deleting local variables and nonlocal cell references does affect the contents of previously returned dictionaries. @17,31287,663,122
+    link "optimized scope" ../glossary.html#term-optimized-scope @17,31421,663,20
+    text locals() @17,31453,663,20
+    text not @17,31485,663,21
+    text not @17,31518,663,20
+    text Calling locals() as part of a comprehension in a function, generator, or coroutine is equivalent to calling it in the containing scope, except that the comprehension’s initialised iteration variables will be included. In other scopes, it behaves as if the comprehension were running as a nested function. @17,31550,663,61
+    text Calling locals() as part of a generator expression is equivalent to calling it in a nested generator function. @17,31623,663,41
+    text The behaviour of in a comprehension has been updated as described in . @17,31676,663,20
+    text Changed in version 3.12: danger @17,31708,663,20
+    text locals() @17,31740,663,20
+    link "PEP 709" https://peps.python.org/pep-0709/ @17,31772,663,21
+    text As part of , the semantics of mutating the mapping objects returned from this function are now defined. The behavior in is now as described above. Aside from being defined, the behaviour in other scopes remains unchanged from previous versions. @17,31805,663,61
+    text Changed in version 3.13: danger @17,31878,663,20
+    link "PEP 667" https://peps.python.org/pep-0667/ @17,31910,663,20
+    link "optimized scopes" ../glossary.html#term-optimized-scope @17,31942,663,21
+    text , , , , @17,31975,663,20
+    row @17,32007,663,20
+      text map @17,32007,29,20
+      text ( @58,32007,6,20
+      text function @76,32007,55,20
+      text iterable @143,32007,50,20
+      text / @205,32007,6,20
+      text *iterables @223,32007,64,20
+      text @299,32007,0,20
+      text ) @311,32007,6,20
+      link ¶ #map2 @329,32007,9,20
+    text Return an iterator that applies to every item of , yielding the results. If additional arguments are passed, must take that many arguments and is applied to the items from all iterables in parallel. With multiple iterables, the iterator stops when the shortest iterable is . If is and one of the iterables is exhausted before the others, a is raised. For cases where the function inputs are already arranged into argument tuples, see . @17,32039,663,102
+    text function @17,32153,663,20
+    text iterable @17,32185,663,20
+    text iterables @17,32217,663,21
+    text function @17,32250,663,20
+    link exhausted ../glossary.html#term-exhausted @17,32282,663,20
+    text strict @17,32314,663,20
+    text True @17,32346,663,21
+    link ValueError exceptions.html#ValueError @17,32379,663,20
+    link itertools.starmap() ../library/itertools.html#itertools.starmap @17,32411,663,20
+    text Changed in version 3.14: Added the strict parameter. @17,32443,663,21
+    text , , , @17,32476,663,20
+    row @17,32508,663,20
+      text max @17,32508,28,20
+      text ( @57,32508,6,20
+      text iterable @75,32508,50,20
+      text / @137,32508,6,20
+      text * @155,32508,8,20
+      text @175,32508,0,20
+      text ) @187,32508,6,20
+      link ¶ #max2 @205,32508,9,20
+    text , , , , @17,32540,663,21
+    row @17,32573,663,20
+      text max @17,32573,28,20
+      text ( @57,32573,6,20
+      text iterable @75,32573,50,20
+      text / @137,32573,6,20
+      text * @155,32573,8,20
+      text default @175,32573,47,20
+      text @234,32573,0,20
+      text ) @246,32573,6,20
+    text , , , , @17,32605,663,20
+    row @17,32637,663,20
+      text max @17,32637,28,20
+      text ( @57,32637,6,20
+      text arg1 @75,32637,28,20
+      text arg2 @115,32637,31,20
+      text / @158,32637,6,20
+      text *args @176,32637,37,20
+      text @225,32637,0,20
+      text ) @237,32637,6,20
+    text Return the largest item in an iterable or the largest of two or more arguments. @17,32669,663,21
+    text If one positional argument is provided, it should be an . The largest item in the iterable is returned. If two or more positional arguments are provided, the largest of the positional arguments is returned. @17,32702,663,40
+    link iterable ../glossary.html#term-iterable @17,32754,663,21
+    text There are two optional keyword-only arguments. The argument specifies a one-argument ordering function like that used for . The argument specifies an object to return if the provided iterable is empty. If the iterable is empty and is not provided, a is raised. @17,32787,663,61
+    text key @17,32860,663,20
+    link list.sort() stdtypes.html#list.sort @17,32892,663,20
+    text default @17,32924,663,20
+    text default @17,32956,663,21
+    link ValueError exceptions.html#ValueError @17,32989,663,20
+    text If multiple items are maximal, the function returns the first one encountered. This is consistent with other sort-stability preserving tools such as sorted(iterable, and heapq.nlargest(1, iterable, @17,33021,663,41
+    text Changed in version 3.4: Added the default keyword-only parameter. @17,33074,663,20
+    text Changed in version 3.8: The key can be None. @17,33106,663,20
+    text class memoryview(object) @17,33138,663,21
+    text Return a “memory view” object created from the given argument. See for more information. @17,33171,663,20
+    link "Memory Views" stdtypes.html#typememoryview @17,33203,663,20
+    text , , , @17,33235,663,20
+    row @17,33267,663,21
+      text min @17,33267,24,21
+      text ( @53,33267,6,21
+      text iterable @71,33267,50,21
+      text / @133,33267,6,21
+      text * @151,33267,8,21
+      text @171,33267,0,21
+      text ) @183,33267,6,21
+      link ¶ #min2 @201,33267,9,21
+    text , , , , @17,33300,663,20
+    row @17,33332,663,20
+      text min @17,33332,24,20
+      text ( @53,33332,6,20
+      text iterable @71,33332,50,20
+      text / @133,33332,6,20
+      text * @151,33332,8,20
+      text default @171,33332,47,20
+      text @230,33332,0,20
+      text ) @242,33332,6,20
+    text , , , , @17,33364,663,21
+    row @17,33397,663,20
+      text min @17,33397,24,20
+      text ( @53,33397,6,20
+      text arg1 @71,33397,28,20
+      text arg2 @111,33397,31,20
+      text / @154,33397,6,20
+      text *args @172,33397,37,20
+      text @221,33397,0,20
+      text ) @233,33397,6,20
+    text Return the smallest item in an iterable or the smallest of two or more arguments. @17,33429,663,20
+    text If one positional argument is provided, it should be an . The smallest item in the iterable is returned. If two or more positional arguments are provided, the smallest of the positional arguments is returned. @17,33461,663,61
+    link iterable ../glossary.html#term-iterable @17,33534,663,20
+    text There are two optional keyword-only arguments. The argument specifies a one-argument ordering function like that used for . The argument specifies an object to return if the provided iterable is empty. If the iterable is empty and is not provided, a is raised. @17,33566,663,61
+    text key @17,33639,663,21
+    link list.sort() stdtypes.html#list.sort @17,33672,663,20
+    text default @17,33704,663,20
+    text default @17,33736,663,21
+    link ValueError exceptions.html#ValueError @17,33769,663,20
+    text If multiple items are minimal, the function returns the first one encountered. This is consistent with other sort-stability preserving tools such as sorted(iterable, and heapq.nsmallest(1, iterable, @17,33801,663,41
+    text Changed in version 3.4: Added the default keyword-only parameter. @17,33854,663,20
+    text Changed in version 3.8: The key can be None. @17,33886,663,20
+    text , @17,33918,663,20
+    row @17,33950,663,21
+      text next @17,33950,29,21
+      text ( @58,33950,6,21
+      text iterator @76,33950,48,21
+      text / @136,33950,6,21
+      text ) @154,33950,6,21
+      link ¶ #next6 @172,33950,9,21
+    text , , @17,33983,663,20
+    row @17,34015,663,20
+      text next @17,34015,29,20
+      text ( @58,34015,6,20
+      text iterator @76,34015,48,20
+      text default @136,34015,47,20
+      text / @195,34015,6,20
+      text ) @213,34015,6,20
+    text Retrieve the next item from the by calling its method. If is given, it is returned if the iterator is , otherwise is raised. @17,34047,663,41
+    link iterator ../glossary.html#term-iterator @17,34100,663,20
+    link __next__() stdtypes.html#iterator.__next__ @17,34132,663,21
+    text default @17,34165,663,20
+    link exhausted ../glossary.html#term-exhausted @17,34197,663,20
+    link StopIteration exceptions.html#StopIteration @17,34229,663,20
+    row @17,34261,663,21
+      text class @17,34261,35,21
+      text object @64,34261,42,21
+      link ¶ #object21 @118,34261,9,21
+    text This is the ultimate base class of all other classes. It has methods that are common to all instances of Python classes. When the constructor is called, it returns a new featureless object. The constructor does not accept any arguments. @17,34294,663,61
+    card @17,34367,663,211
+      text Note @34,34382,629,20
+      text instances do have attributes, so you can’t assign arbitrary attributes to an instance of . @34,34414,629,20
+      text object @34,34446,629,21
+      text not @34,34479,629,20
+      link __dict__ ../reference/datamodel.html#object.__dict__ @34,34511,629,20
+      text object @34,34543,629,20
+    text , @17,34590,663,21
+    row @17,34623,663,20
+      text oct @17,34623,21,20
+      text ( @50,34623,6,20
+      text integer @68,34623,47,20
+      text / @127,34623,6,20
+      text ) @145,34623,6,20
+      link ¶ #oct2 @163,34623,9,20
+    text Convert an integer number to an octal string prefixed with “0o”. The result is a valid Python expression. If is not a Python object, it has to define an method that returns an integer. For example: @17,34655,663,41
+    row @17,34708,663,20
+      text integer @17,34708,47,20
+      link int #int16 @76,34708,17,20
+      link __index__() ../reference/datamodel.html#object.__index__ @105,34708,72,20
+    text >>> oct(8) '0o10' >>> oct(-56) '-0o70' @17,34740,663,20
+    text If you want to convert an integer number to an octal string either with the prefix “0o” or not, you can use either of the following ways. @17,34772,663,41
+    text >>> '%#o' % 10, '%o' % 10 ('0o12', '12') >>> format(10, '#o'), format(10, 'o') ('0o12', '12') >>> f'{10:#o}', f'{10:o}' ('0o12', '12') @17,34825,663,40
+    text See also for more information. @17,34877,663,21
+    link format() #format7 @17,34910,663,20
+    text , , , , , , , @17,34942,663,20
+    text open @17,34974,663,21
+    text ( @17,35007,663,20
+    text file @17,35039,663,20
+    text @17,35071,663,21
+    text @17,35104,663,20
+    text @17,35136,663,20
+    text @17,35168,663,20
+    text @17,35200,663,21
+    text @17,35233,663,20
+    text @17,35265,663,20
+    text ) @17,35297,663,21
+    link ¶ #open2 @17,35330,663,20
+    text Open and return a corresponding . If the file cannot be opened, an is raised. See for more examples of how to use this function. @17,35362,663,41
+    text file @17,35415,663,20
+    link "file object" ../glossary.html#term-file-object @17,35447,663,20
+    link OSError exceptions.html#OSError @17,35479,663,20
+    link "Reading and writing files" ../tutorial/inputoutput.html#tut-files @17,35511,663,21
+    text is a giving the pathname (absolute or relative to the current working directory) of the file to be opened or an integer file descriptor of the file to be wrapped. (If a file descriptor is given, it is closed when the returned I/O object is closed unless is set to .) @17,35544,663,61
+    text file @17,35617,663,20
+    link "path-like object" ../glossary.html#term-path-like-object @17,35649,663,20
+    text closefd @17,35681,663,21
+    text False @17,35714,663,20
+    text is an optional string that specifies the mode in which the file is opened. It defaults to which means open for reading in text mode. Other common values are for writing (truncating the file if it already exists), for exclusive creation, and for appending (which on Unix systems, means that writes append to the end of the file regardless of the current seek position). In text mode, if is not specified, UTF-8 is used by default; if is disabled, is called to get the current locale encoding. (For reading and writing raw bytes use binary mode and leave unspecified.) The available modes are: @17,35746,663,122
+    text mode @17,35880,663,20
+    text 'r' @17,35912,663,20
+    text 'w' @17,35944,663,21
+    text 'x' @17,35977,663,20
+    text 'a' @17,36009,663,20
+    text some @17,36041,663,20
+    text all @17,36073,663,21
+    text encoding @17,36106,663,20
+    link "Python UTF-8 Mode" ../library/os.html#utf8-mode @17,36138,663,20
+    link locale.getencoding() ../library/locale.html#locale.getencoding @17,36170,663,21
+    text encoding @17,36203,663,20
+    table Character Meaning @17,36235,663,276
+      'r' | open for reading (default)
+      'w' | open for writing, truncating the file first
+      'x' | open for exclusive creation, failing if the file already exists
+      'a' | open for writing, appending to the end of file if it exists
+      'b' | binary mode
+      't' | text mode (default)
+      '+' | open for updating (reading and writing)
+    text The default mode is 'r' (open for reading text, a synonym of 'rt'). Modes 'w+' and 'w+b' open and truncate the file. Modes 'r+' and 'r+b' open the file with no truncation. @17,36523,663,41
+    text As mentioned in the , Python distinguishes between binary and text I/O. Files opened in binary mode (including in the argument) return contents as objects without any decoding. In text mode (the default, or when is included in the argument), the contents of the file are returned as , the bytes having been first decoded using the default encoding or using the specified if given. @17,36576,663,81
+    link Overview ../library/io.html#io-overview @17,36669,663,21
+    text 'b' @17,36702,663,20
+    text mode @17,36734,663,20
+    link bytes stdtypes.html#bytes @17,36766,663,20
+    text 't' @17,36798,663,21
+    text mode @17,36831,663,20
+    link str stdtypes.html#str @17,36863,663,20
+    text encoding @17,36895,663,21
+    card @17,36928,663,103
+      text Note @34,36943,629,20
+      text Python doesn’t depend on the underlying operating system’s notion of text files; all the processing is done by Python itself, and is therefore platform-independent. @34,36975,629,41
+    text is an optional integer used to set the buffering policy. Pass 0 to switch buffering off (only allowed in binary mode), 1 to select line buffering (only usable when writing in text mode), and an integer > 1 to indicate the size in bytes of a fixed-size chunk buffer. Note that specifying a buffer size this way applies for binary buffered I/O, but (i.e., files opened with ) would have another buffering. To disable buffering in , consider using the flag for . When no argument is given, the default buffering policy works as follows: @17,37043,663,121
+    text buffering @17,37176,663,21
+    text TextIOWrapper @17,37209,663,20
+    text @17,37241,663,20
+    text TextIOWrapper @17,37273,663,21
+    text write_through @17,37306,663,20
+    link io.TextIOWrapper.reconfigure() ../library/io.html#io.TextIOWrapper.reconfigure @17,37338,663,20
+    text buffering @17,37370,663,20
+    text Binary files are buffered in fixed-size chunks; the size of the buffer is max(min(blocksize, 8 MiB), DEFAULT_BUFFER_SIZE) when the device block size is available. On most systems, the buffer will typically be 128 kilobytes long. @17,37402,663,61
+    text “Interactive” text files (files for which returns ) use line buffering. Other text files use the policy described above for binary files. @17,37475,663,41
+    row @17,37528,663,20
+      link isatty() ../library/io.html#io.IOBase.isatty @17,37528,46,20
+      text True @75,37528,31,20
+    text is the name of the encoding used to decode or encode the file. This should only be used in text mode. The default encoding is UTF-8; if is disabled, the default is platform-dependent (whatever returns). Any supported by Python can be used, and specifies the current locale encoding explicitly. See the module for the list of supported encodings. @17,37560,663,81
+    text encoding @17,37653,663,21
+    link "Python UTF-8 Mode" ../library/os.html#utf8-mode @17,37686,663,20
+    link locale.getencoding() ../library/locale.html#locale.getencoding @17,37718,663,20
+    link "text encoding" ../glossary.html#term-text-encoding @17,37750,663,21
+    text encoding="locale" @17,37783,663,20
+    link codecs ../library/codecs.html#module-codecs @17,37815,663,20
+    text is an optional string that specifies how encoding and decoding errors are to be handled—this cannot be used in binary mode. A variety of standard error handlers are available, though any error handling name that has been registered with is also valid. The standard names can be found in . @17,37847,663,61
+    text errors @17,37920,663,20
+    link codecs.register_error() ../library/codecs.html#codecs.register_error @17,37952,663,21
+    link "Error Handlers" ../library/codecs.html#error-handlers @17,37985,663,20
+    text newline determines how to parse newline characters from the stream. It can be None, '', '\n', '\r', and '\r\n'. It works as follows: @17,38017,663,41
+    text When reading input from the stream, if newline is None, universal newlines mode is enabled. Lines in the input can end in '\n', '\r', or '\r\n', and these are translated into '\n' before being returned to the caller. If it is '', universal newlines mode is enabled, but line endings are returned to the caller untranslated. If it has any of the other legal values, input lines are only terminated by the given string, and the line ending is returned to the caller untranslated. @17,38070,663,101
+    text When writing output to the stream, if is , any characters written are translated to the system default line separator, . If is or , no translation takes place. If is any of the other legal values, any characters written are translated to the given string. @17,38183,663,61
+    text newline @17,38256,663,20
+    text None @17,38288,663,21
+    text '\n' @17,38321,663,20
+    link os.linesep ../library/os.html#os.linesep @17,38353,663,20
+    text newline @17,38385,663,21
+    text '' @17,38418,663,20
+    text '\n' @17,38450,663,20
+    text newline @17,38482,663,20
+    text '\n' @17,38514,663,21
+    text If closefd is False and a file descriptor rather than a filename was given, the underlying file descriptor will be kept open when the file is closed. If a filename is given closefd must be True (the default); otherwise, an error will be raised. @17,38547,663,61
+    text A custom opener can be used by passing a callable as . The underlying file descriptor for the file object is then obtained by calling with (, ). must return an open file descriptor (passing as results in functionality similar to passing ). @17,38620,663,61
+    text opener @17,38693,663,20
+    text opener @17,38725,663,20
+    text file @17,38757,663,20
+    text flags @17,38789,663,21
+    text opener @17,38822,663,20
+    link os.open ../library/os.html#os.open @17,38854,663,20
+    text opener @17,38886,663,21
+    text None @17,38919,663,20
+    text The newly created file is . @17,38951,663,20
+    link non-inheritable ../library/os.html#fd-inheritance @17,38983,663,21
+    text The following example uses the parameter of the function to open a file relative to a given directory: @17,39016,663,20
+    row @17,39048,663,20
+      link dir_fd ../library/os.html#dir-fd @17,39048,38,20
+      link os.open() ../library/os.html#os.open @67,39048,64,20
+    text >>> import os >>> dir_fd  os.open('somedir', os.O_RDONLY) >>> def opener(path, flags): ... return os.open(path, flags, ... >>> with open('spamspam.txt', 'w', as f: ... print('This will be written to somedir/spamspam.txt', ... >>> os.close(dir_fd) # don't leak a file descriptor @17,39080,663,61
+    text The type of returned by the function depends on the mode. When is used to open a file in a text mode (, , , , etc.), it returns a subclass of (specifically ). When used to open a file in a binary mode with buffering, the returned class is a subclass of . The exact class varies: in read binary mode, it returns an ; in write binary and append binary modes, it returns an , and in read/write mode, it returns an . When buffering is disabled, the raw stream, a subclass of , , is returned. @17,39153,663,102
+    link "file object" ../glossary.html#term-file-object @17,39267,663,20
+    text open() @17,39299,663,20
+    text open() @17,39331,663,20
+    text 'w' @17,39363,663,21
+    text 'r' @17,39396,663,20
+    text 'wt' @17,39428,663,20
+    text 'rt' @17,39460,663,21
+    link io.TextIOBase ../library/io.html#io.TextIOBase @17,39493,663,20
+    link io.TextIOWrapper ../library/io.html#io.TextIOWrapper @17,39525,663,20
+    link io.BufferedIOBase ../library/io.html#io.BufferedIOBase @17,39557,663,21
+    link io.BufferedReader ../library/io.html#io.BufferedReader @17,39590,663,20
+    link io.BufferedWriter ../library/io.html#io.BufferedWriter @17,39622,663,20
+    link io.BufferedRandom ../library/io.html#io.BufferedRandom @17,39654,663,20
+    link io.RawIOBase ../library/io.html#io.RawIOBase @17,39686,663,21
+    link io.FileIO ../library/io.html#io.FileIO @17,39719,663,20
+    text See also the file handling modules, such as , (where is declared), , , , and . @17,39751,663,20
+    link fileinput ../library/fileinput.html#module-fileinput @17,39783,663,21
+    link io ../library/io.html#module-io @17,39816,663,20
+    text open() @17,39848,663,20
+    link os ../library/os.html#module-os @17,39880,663,21
+    link os.path ../library/os.path.html#module-os.path @17,39913,663,20
+    link tempfile ../library/tempfile.html#module-tempfile @17,39945,663,20
+    link shutil ../library/shutil.html#module-shutil @17,39977,663,20
+    text Raises an with arguments , , . @17,40009,663,21
+    row @17,40042,663,20
+      link "auditing event" ../library/sys.html#auditing @17,40042,94,20
+      text open @123,40042,34,20
+      text path @169,40042,30,20
+      text mode @211,40042,38,20
+      text flags @261,40042,33,20
+    text The mode and flags arguments may have been modified or inferred from the original call. @17,40074,663,20
+    text Changed in version 3.3: @17,40106,663,21
+    text The opener parameter was added. @17,40139,663,20
+    text The 'x' mode was added. @17,40171,663,20
+    text used to be raised, it is now an alias of . @17,40203,663,21
+    row @17,40236,663,20
+      link IOError exceptions.html#IOError @17,40236,48,20
+      link OSError exceptions.html#OSError @77,40236,53,20
+    text is now raised if the file opened in exclusive creation mode () already exists. @17,40268,663,20
+    row @17,40300,663,21
+      link FileExistsError exceptions.html#FileExistsError @17,40300,95,21
+      text 'x' @124,40300,17,21
+    text Changed in version 3.4: @17,40333,663,20
+    text The file is now non-inheritable. @17,40365,663,20
+    text Changed in version 3.5: @17,40397,663,20
+    text If the system call is interrupted and the signal handler does not raise an exception, the function now retries the system call instead of raising an exception (see for the rationale). @17,40429,663,41
+    row @17,40482,663,20
+      link InterruptedError exceptions.html#InterruptedError @17,40482,107,20
+      link "PEP 475" https://peps.python.org/pep-0475/ @136,40482,56,20
+    text The 'namereplace' error handler was added. @17,40514,663,21
+    text Changed in version 3.6: @17,40547,663,20
+    text Support added to accept objects implementing . @17,40579,663,20
+    link os.PathLike ../library/os.html#os.PathLike @17,40611,663,21
+    text On Windows, opening a console buffer may return a subclass of other than . @17,40644,663,20
+    link io.RawIOBase ../library/io.html#io.RawIOBase @17,40676,663,20
+    link io.FileIO ../library/io.html#io.FileIO @17,40708,663,20
+    text Changed in version 3.11: The 'U' mode has been removed. @17,40740,663,21
+    text UTF-8 is now the default encoding, instead of the platform-dependent locale encoding (). @17,40773,663,20
+    text Changed in version 3.15: danger @17,40805,663,20
+    link "PEP 686" https://peps.python.org/pep-0686/ @17,40837,663,21
+    text , @17,40870,663,20
+    row @17,40902,663,20
+      text ord @17,40902,23,20
+      text ( @52,40902,6,20
+      text character @70,40902,64,20
+      text / @146,40902,6,20
+      text ) @164,40902,6,20
+      link ¶ #ord3 @182,40902,9,20
+    text Return the ordinal value of a character. @17,40934,663,21
+    text If the argument is a one-character string, return the Unicode code point of that character. For example, returns the integer and (Euro sign) returns . This is the inverse of . @17,40967,663,40
+    row @17,41019,663,20
+      text ord('a') @17,41019,49,20
+      text 97 @78,41019,17,20
+      text ord('€') @107,41019,51,20
+      text 8364 @170,41019,36,20
+      link chr() #chr3 @218,41019,32,20
+    text If the argument is a or object of length 1, return its single byte value. For example, returns the integer . @17,41051,663,41
+    link bytes stdtypes.html#bytes @17,41104,663,20
+    link bytearray stdtypes.html#bytearray @17,41136,663,21
+    text ord(b'a') @17,41169,663,20
+    text 97 @17,41201,663,20
+    text , , @17,41233,663,21
+    row @17,41266,663,20
+      text pow @17,41266,29,20
+      text ( @58,41266,6,20
+      text base @76,41266,32,20
+      text exp @120,41266,25,20
+      text @157,41266,0,20
+      text ) @169,41266,6,20
+      link ¶ #pow2 @187,41266,9,20
+    text Return base to the power exp; if mod is present, return base to the power exp, modulo mod (computed more efficiently than pow(base, exp) % mod). The two-argument form pow(base, exp) is equivalent to using the power operator: base**exp. @17,41298,663,61
+    text When arguments are builtin numeric types with mixed operand types, the coercion rules for binary arithmetic operators apply. For operands, the result has the same type as the operands (after coercion) unless the second argument is negative; in that case, all arguments are converted to float and a float result is delivered. For example, returns , but returns . For a negative base of type or and a non-integral exponent, a complex result is delivered. For example, returns a value close to . Whereas, for a negative base of type or with an integral exponent, a float result is delivered. For example, returns . @17,41371,663,142
+    link int #int17 @17,41525,663,20
+    text pow(10, 2) @17,41557,663,20
+    text 100 @17,41589,663,21
+    text pow(10, -2) @17,41622,663,20
+    text 0.01 @17,41654,663,20
+    text int @17,41686,663,21
+    link float #float11 @17,41719,663,20
+    text pow(-9, 0.5) @17,41751,663,20
+    text 3j @17,41783,663,21
+    text int @17,41816,663,20
+    text float @17,41848,663,20
+    text pow(-9, 2.0) @17,41880,663,20
+    text 81.0 @17,41912,663,21
+    text For operands and , if is present, must also be of integer type and must be nonzero. If is present and is negative, must be relatively prime to . In that case, is returned, where is an inverse to modulo . @17,41945,663,40
+    link int #int20 @17,41997,663,21
+    text base @17,42030,663,20
+    text exp @17,42062,663,20
+    text mod @17,42094,663,21
+    text mod @17,42127,663,20
+    text mod @17,42159,663,20
+    text mod @17,42191,663,20
+    text exp @17,42223,663,21
+    text base @17,42256,663,20
+    text mod @17,42288,663,20
+    text pow(inv_base, -exp, mod) @17,42320,663,21
+    text inv_base @17,42353,663,20
+    text base @17,42385,663,20
+    text mod @17,42417,663,21
+    text Here’s an example of computing an inverse for 38 modulo 97: @17,42450,663,20
+    text >>> pow(38, -1, 23 >>> 23 * 38 % 97 = 1 True @17,42482,663,20
+    text For operands, the three-argument form of now allows the second argument to be negative, permitting computation of modular inverses. @17,42514,663,41
+    row @17,42567,663,20
+      text Changed in version 3.8: danger @17,42567,158,20
+      link int #int21 @187,42567,17,20
+      text pow @216,42567,29,20
+    text Changed in version 3.8: Allow keyword arguments. Formerly, only positional arguments were supported. @17,42599,663,41
+    text , , , , @17,42652,663,20
+    row @17,42684,663,20
+      text print @17,42684,31,20
+      text ( @60,42684,6,20
+      text *objects @78,42684,56,20
+      text ' @146,42684,5,20
+      text @163,42684,0,20
+      text @175,42684,0,20
+      text @187,42684,0,20
+      text ) @199,42684,6,20
+      link ¶ #print2 @217,42684,9,20
+    text Print objects to the text stream file, separated by sep and followed by end. sep, end, file, and flush, if present, must be given as keyword arguments. @17,42716,663,41
+    text All non-keyword arguments are converted to strings like does and written to the stream, separated by and followed by . Both and must be strings; they can also be , which means to use the default values. If no are given, will just write . @17,42769,663,61
+    link str() stdtypes.html#str @17,42842,663,20
+    text sep @17,42874,663,20
+    text end @17,42906,663,21
+    text sep @17,42939,663,20
+    text end @17,42971,663,20
+    text None @17,43003,663,21
+    text objects @17,43036,663,20
+    text print() @17,43068,663,20
+    text end @17,43100,663,20
+    text The argument must be an object with a method; if it is not present or , will be used. Since printed arguments are converted to text strings, cannot be used with binary mode file objects. For these, use instead. @17,43132,663,61
+    text file @17,43205,663,21
+    text write(string) @17,43238,663,20
+    text None @17,43270,663,20
+    link sys.stdout ../library/sys.html#sys.stdout @17,43302,663,21
+    text print() @17,43335,663,20
+    text file.write(...) @17,43367,663,20
+    text Output buffering is usually determined by file. However, if flush is true, the stream is forcibly flushed. @17,43399,663,41
+    text Changed in version 3.3: Added the flush keyword argument. @17,43452,663,20
+    text , , , @17,43484,663,20
+    row @17,43516,663,21
+      text class @17,43516,35,21
+      text property @64,43516,57,21
+      text ( @133,43516,6,21
+      text @151,43516,0,21
+      text @163,43516,0,21
+      text @175,43516,0,21
+      text @187,43516,0,21
+      text ) @199,43516,6,21
+      link ¶ #property4 @217,43516,9,21
+    text Return a property attribute. @17,43549,663,20
+    text fget is a function for getting an attribute value. fset is a function for setting an attribute value. fdel is a function for deleting an attribute value. And doc creates a docstring for the attribute. @17,43581,663,41
+    text A typical use is to define a managed attribute x: @17,43634,663,20
+    text class C: def __init__(self): self._x = None def getx(self): return self._x def setx(self, value): self._x = value def delx(self): del self._x x = property(getx, setx, delx, "I'm the 'x' property.") @17,43666,663,40
+    text If c is an instance of C, c.x will invoke the getter, c.x  value will invoke the setter, and del c.x the deleter. @17,43718,663,41
+    text If given, will be the docstring of the property attribute. Otherwise, the property will copy ’s docstring (if it exists). This makes it possible to create read-only properties easily using as a : @17,43771,663,41
+    text doc @17,43824,663,20
+    text fget @17,43856,663,20
+    link @property #property5 @17,43888,663,21
+    link decorator ../glossary.html#term-decorator @17,43921,663,20
+    text class Parrot: def __init__(self): self._voltage = 100000 @property def voltage(self): """Get the current voltage.""" return self._voltage @17,43953,663,40
+    text The @property decorator turns the voltage() method into a “getter” for a read-only attribute with the same name, and it sets the docstring for voltage to “Get the current voltage.” @17,44005,663,41
+    row @17,44058,663,20
+      text @ @17,44058,14,20
+      text getter @43,44058,40,20
+      link ¶ #property.getter @95,44058,9,20
+    row @17,44090,663,21
+      text @ @17,44090,14,21
+      text setter @43,44090,39,21
+      link ¶ #property.setter @94,44090,9,21
+    row @17,44123,663,20
+      text @ @17,44123,14,20
+      text deleter @43,44123,47,20
+      link ¶ #property.deleter @102,44123,9,20
+    text A property object has getter, setter, and deleter methods usable as decorators that create a copy of the property with the corresponding accessor function set to the decorated function. This is best explained with an example: @17,44155,663,61
+    text class C: def __init__(self): self._x = None @property def x(self): """I'm the 'x' property.""" return self._x @x.setter def x(self, value): self._x = value @x.deleter def x(self): del self._x @17,44228,663,40
+    text This code is exactly equivalent to the first example. Be sure to give the additional functions the same name as the original property (x in this case.) @17,44280,663,41
+    text The returned property object also has the attributes fget, fset, and fdel corresponding to the constructor arguments. @17,44333,663,41
+    text Changed in version 3.5: The docstrings of property objects are now writeable. @17,44386,663,20
+    row @17,44418,663,20
+      text __name__ @17,44418,63,20
+      link ¶ #property.__name__ @92,44418,9,20
+    text Attribute holding the name of the property. The name of the property can be changed at runtime. @17,44450,663,21
+    text Added in version 3.13. @17,44483,663,20
+    text , @17,44515,663,20
+    row @17,44547,663,20
+      text class @17,44547,35,20
+      text range @64,44547,39,20
+      text ( @115,44547,6,20
+      text stop @133,44547,29,20
+      text / @174,44547,6,20
+      text ) @192,44547,6,20
+    text , , , @17,44579,663,21
+    row @17,44612,663,20
+      text class @17,44612,35,20
+      text range @64,44612,39,20
+      text ( @115,44612,6,20
+      text start @133,44612,30,20
+      text stop @175,44612,29,20
+      text @216,44612,0,20
+      text / @228,44612,6,20
+      text ) @246,44612,6,20
+    text Rather than being a function, is actually an immutable sequence type, as documented in and . @17,44644,663,20
+    link range stdtypes.html#range @17,44676,663,21
+    link Ranges stdtypes.html#typesseq-range @17,44709,663,20
+    link "Sequence Types — list, tuple, range" stdtypes.html#typesseq @17,44741,663,20
+    text , @17,44773,663,21
+    row @17,44806,663,20
+      text repr @17,44806,28,20
+      text ( @57,44806,6,20
+      text object @75,44806,42,20
+      text / @129,44806,6,20
+      text ) @147,44806,6,20
+      link ¶ #repr5 @165,44806,9,20
+    text Return a string containing a printable representation of an object. For many types, this function makes an attempt to return a string that would yield an object with the same value when passed to ; otherwise, the representation is a string enclosed in angle brackets that contains the name of the type of the object together with additional information often including the name and address of the object. A class can control what this function returns for its instances by defining a method. If is not accessible, this function will raise . @17,44838,663,122
+    link eval() #eval11 @17,44972,663,20
+    link __repr__() ../reference/datamodel.html#object.__repr__ @17,45004,663,20
+    link sys.displayhook() ../library/sys.html#sys.displayhook @17,45036,663,21
+    link RuntimeError exceptions.html#RuntimeError @17,45069,663,20
+    text This class has a custom representation that can be evaluated: @17,45101,663,20
+    text class Person: def __init__(self, name, age): self.name = name self.age = age def __repr__(self): return f"Person({self.name!r}, {self.age!r})" @17,45133,663,41
+    text , @17,45186,663,20
+    row @17,45218,663,20
+      text reversed @17,45218,59,20
+      text ( @88,45218,6,20
+      text object @106,45218,42,20
+      text / @160,45218,6,20
+      text ) @178,45218,6,20
+      link ¶ #reversed2 @196,45218,9,20
+    text Return a reverse . The argument must be an object which has a method or supports the sequence protocol (the method and the method with integer arguments starting at ). @17,45250,663,41
+    link iterator ../glossary.html#term-iterator @17,45303,663,20
+    link __reversed__() ../reference/datamodel.html#object.__reversed__ @17,45335,663,21
+    link __len__() ../reference/datamodel.html#object.__len__ @17,45368,663,20
+    link __getitem__() ../reference/datamodel.html#object.__getitem__ @17,45400,663,20
+    text 0 @17,45432,663,21
+    text , @17,45465,663,20
+    row @17,45497,663,20
+      text round @17,45497,39,20
+      text ( @68,45497,6,20
+      text number @86,45497,51,20
+      text @149,45497,0,20
+      text ) @161,45497,6,20
+      link ¶ #round2 @179,45497,9,20
+    text Return number rounded to ndigits precision after the decimal point. If ndigits is omitted or is None, it returns the nearest integer to its input. @17,45529,663,41
+    text For the built-in types supporting round(), values are rounded to the closest multiple of 10 to the power minus ndigits; if two multiples are equally close, rounding is done toward the even choice (so, for example, both round(0.5) and round(-0.5) are 0, and round(1.5) is 2). Any integer value is valid for ndigits (positive, zero, or negative). The return value is an integer if ndigits is omitted or None. Otherwise, the return value has the same type as number. @17,45582,663,101
+    text For a general Python object number, round delegates to number.__round__. @17,45695,663,21
+    card @17,45728,663,284
+      text Note @34,45743,629,20
+      text The behavior of for floats can be surprising: for example, gives instead of the expected . This is not a bug: it’s a result of the fact that most decimal fractions can’t be represented exactly as a float. See for more information. @34,45775,629,61
+      text round() @34,45848,629,20
+      text round(2.675, 2) @34,45880,629,20
+      text 2.67 @34,45912,629,21
+      text 2.68 @34,45945,629,20
+      link "Floating-Point Arithmetic: Issues and Limitations" ../tutorial/floatingpoint.html#tut-fp-issues @34,45977,629,20
+    text , @17,46024,663,21
+    row @17,46057,663,20
+      text class @17,46057,35,20
+      text set @64,46057,21,20
+      text ( @97,46057,6,20
+      text @115,46057,0,20
+      text / @127,46057,6,20
+      text ) @145,46057,6,20
+    text Return a new object, optionally with elements taken from . is a built-in class. See also for documentation about this class. @17,46089,663,40
+    link set stdtypes.html#set @17,46141,663,21
+    text iterable @17,46174,663,20
+    text set @17,46206,663,20
+    link "Set Types — set, frozenset" stdtypes.html#types-set @17,46238,663,21
+    text For other containers see the built-in , , , and classes, as well as the module. @17,46271,663,20
+    link frozenset stdtypes.html#frozenset @17,46303,663,20
+    link list stdtypes.html#list @17,46335,663,21
+    link tuple stdtypes.html#tuple @17,46368,663,20
+    link dict stdtypes.html#dict @17,46400,663,20
+    link collections ../library/collections.html#module-collections @17,46432,663,20
+    text , , , @17,46464,663,21
+    row @17,46497,663,20
+      text setattr @17,46497,43,20
+      text ( @72,46497,6,20
+      text object @90,46497,42,20
+      text name @144,46497,37,20
+      text value @193,46497,36,20
+      text / @241,46497,6,20
+      text ) @259,46497,6,20
+      link ¶ #setattr5 @277,46497,9,20
+    text This is the counterpart of . The arguments are an object, a string, and an arbitrary value. The string may name an existing attribute or a new attribute. The function assigns the value to the attribute, provided the object allows it. For example, is equivalent to . @17,46529,663,61
+    link getattr() #getattr7 @17,46602,663,20
+    text setattr(x, 'foobar', 123) @17,46634,663,21
+    text x.foobar  123 @17,46667,663,20
+    text need not be a Python identifier as defined in unless the object chooses to enforce that, for example in a custom or via . An attribute whose name is not an identifier will not be accessible using the dot notation, but is accessible through etc.. @17,46699,663,61
+    text name @17,46772,663,20
+    link "Names (identifiers and keywords)" ../reference/lexical_analysis.html#identifiers @17,46804,663,20
+    link __getattribute__() ../reference/datamodel.html#object.__getattribute__ @17,46836,663,21
+    link __slots__ ../reference/datamodel.html#object.__slots__ @17,46869,663,20
+    link getattr() #getattr8 @17,46901,663,20
+    card @17,46933,663,168
+      text Note @34,46948,629,21
+      text Since happens at compilation time, one must manually mangle a private attribute’s (attributes with two leading underscores) name in order to set it with . @34,46981,629,40
+      link "private name mangling" ../reference/expressions.html#private-name-mangling @34,47033,629,20
+      text setattr() @34,47065,629,21
+    text , , , @17,47113,663,20
+    row @17,47145,663,20
+      text class @17,47145,35,20
+      text sentinel @64,47145,52,20
+      text ( @128,47145,6,20
+      text name @146,47145,37,20
+      text / @195,47145,6,20
+      text * @213,47145,8,20
+      text @233,47145,0,20
+      text ) @245,47145,6,20
+      link ¶ #sentinel5 @263,47145,9,20
+    text Return a new unique sentinel object. must be a , and is used by default as the returned object’s representation: @17,47177,663,41
+    row @17,47230,663,20
+      text name @17,47230,37,20
+      link str stdtypes.html#str @66,47230,18,20
+    text >>> MISSING = sentinel("MISSING") >>> MISSING MISSING @17,47262,663,21
+    text The optional repr argument can be used to specify a different representation: @17,47295,663,20
+    text >>> MISSING = sentinel("MISSING", repr="<MISSING>") >>> MISSING <MISSING> @17,47327,663,20
+    text Sentinel objects are truthy and compare equal only to themselves. They are intended to be compared with the operator. @17,47359,663,41
+    link is ../reference/expressions.html#is @17,47412,663,20
+    text sentinel does not support subclassing. @17,47444,663,20
+    text Shallow and deep copies of a sentinel object return the object itself. @17,47476,663,21
+    text Sentinels are conventionally assigned to a variable with a matching name. Sentinels defined in this way can be used in : @17,47509,663,40
+    link "type hints" ../glossary.html#term-type-hint @17,47561,663,21
+    text MISSING = sentinel("MISSING") def next_value(default: int | MISSING = MISSING): ... @17,47594,663,20
+    text Sentinel objects support the operator for use in type expressions. @17,47626,663,20
+    link | ../reference/expressions.html#bitwise @17,47658,663,20
+    text is supported for sentinel objects that are placed in the global scope of a module under a name matching the sentinel’s name, and for sentinels placed in class scopes with a name matching the of the sentinel. Other sentinels, such as those defined in a function scope, are not picklable. The identity of the sentinel is preserved after pickling: @17,47690,663,82
+    link Pickling ../library/pickle.html#module-pickle @17,47784,663,20
+    link "qualified name" ../glossary.html#term-qualified-name @17,47816,663,20
+    text import pickle PICKLABLE = sentinel("PICKLABLE") assert pickle.loads(pickle.dumps(PICKLABLE)) is PICKLABLE class Cls: PICKLABLE = sentinel("Cls.PICKLABLE") assert pickle.loads(pickle.dumps(Cls.PICKLABLE)) is Cls.PICKLABLE @17,47848,663,61
+    text Sentinel objects have the following attributes: @17,47921,663,20
+    row @17,47953,663,21
+      text __name__ @17,47953,63,21
+      link ¶ #sentinel.__name__ @92,47953,9,21
+    text The sentinel’s name. @17,47986,663,20
+    row @17,48018,663,20
+      text __module__ @17,48018,75,20
+      link ¶ #sentinel.__module__ @104,48018,9,20
+    text The name of the module where the sentinel was created. This attribute is writable. @17,48050,663,21
+    text Added in version 3.15. @17,48083,663,20
+    text , @17,48115,663,20
+    row @17,48147,663,21
+      text class @17,48147,35,21
+      text slice @64,48147,31,21
+      text ( @107,48147,6,21
+      text stop @125,48147,29,21
+      text / @166,48147,6,21
+      text ) @184,48147,6,21
+      link ¶ #slice2 @202,48147,9,21
+    text , , , @17,48180,663,20
+    row @17,48212,663,20
+      text class @17,48212,35,20
+      text slice @64,48212,31,20
+      text ( @107,48212,6,20
+      text start @125,48212,30,20
+      text stop @167,48212,29,20
+      text @208,48212,0,20
+      text / @220,48212,6,20
+      text ) @238,48212,6,20
+    text Return a object representing the set of indices specified by . The and arguments default to . @17,48244,663,20
+    link slice ../glossary.html#term-slice @17,48276,663,21
+    text range(start, stop, step) @17,48309,663,20
+    text start @17,48341,663,20
+    text step @17,48373,663,21
+    text None @17,48406,663,20
+    text Slice objects are also generated when is used. For example: or . @17,48438,663,20
+    link "slicing syntax" ../reference/expressions.html#slicings @17,48470,663,21
+    text a[start:stop:step] @17,48503,663,20
+    text a[start:stop, i] @17,48535,663,20
+    text See for an alternate version that returns an . @17,48567,663,20
+    row @17,48599,663,21
+      link itertools.islice() ../library/itertools.html#itertools.islice @17,48599,102,21
+      link iterator ../glossary.html#term-iterator @131,48599,48,21
+    row @17,48632,663,20
+      text start @17,48632,30,20
+      link ¶ #slice.start @59,48632,9,20
+    row @17,48664,663,20
+      text stop @17,48664,29,20
+      link ¶ #slice.stop @58,48664,9,20
+    row @17,48696,663,21
+      text step @17,48696,29,21
+      link ¶ #slice.step @58,48696,9,21
+    text These read-only attributes are set to the argument values (or their default). They have no other explicit functionality; however, they are used by NumPy and other third-party packages. @17,48729,663,40
+    text Slice objects are now (provided , , and are hashable). @17,48781,663,21
+    row @17,48814,663,20
+      text Changed in version 3.12: danger @17,48814,164,20
+      link hashable ../glossary.html#term-hashable @193,48814,60,20
+      link start #slice.start2 @265,48814,30,20
+      link stop #slice.stop2 @307,48814,29,20
+      link step #slice.step2 @348,48814,29,20
+    text , , , , @17,48846,663,20
+    row @17,48878,663,20
+      text sorted @17,48878,43,20
+      text ( @72,48878,6,20
+      text iterable @90,48878,50,20
+      text / @152,48878,6,20
+      text * @170,48878,8,20
+      text @190,48878,0,20
+      text @202,48878,0,20
+      text ) @214,48878,6,20
+      link ¶ #sorted2 @232,48878,9,20
+    text Return a new sorted list from the items in iterable. @17,48910,663,21
+    text Has two optional arguments which must be specified as keyword arguments. @17,48943,663,20
+    text key specifies a function of one argument that is used to extract a comparison key from each element in iterable (for example, The default value is None (compare the elements directly). @17,48975,663,41
+    text reverse is a boolean value. If set to True, then the list elements are sorted as if each comparison were reversed. @17,49028,663,40
+    text Use to convert an old-style function to a function. @17,49080,663,21
+    row @17,49113,663,20
+      link functools.cmp_to_key() ../library/functools.html#functools.cmp_to_key @17,49113,155,20
+      text cmp @184,49113,29,20
+      text key @225,49113,24,20
+    text The built-in sorted() function is guaranteed to be stable. A sort is stable if it guarantees not to change the relative order of elements that compare equal — this is helpful for sorting in multiple passes (for example, sort by department, then by salary grade). @17,49145,663,61
+    text The sort algorithm uses only comparisons between items. While defining an method will suffice for sorting, recommends that all six be implemented. This will help avoid bugs when using the same data with other ordering tools such as that rely on a different underlying method. Implementing all six comparisons also helps avoid confusion for mixed type comparisons which can call the reflected method. @17,49218,663,101
+    text < @17,49331,663,21
+    link __lt__() ../reference/datamodel.html#object.__lt__ @17,49364,663,20
+    link "PEP 8" https://peps.python.org/pep-0008/ @17,49396,663,20
+    link "rich comparisons" ../reference/expressions.html#comparisons @17,49428,663,20
+    link max() #max5 @17,49460,663,21
+    link __gt__() ../reference/datamodel.html#object.__gt__ @17,49493,663,20
+    text For sorting examples and a brief sorting tutorial, see . @17,49525,663,20
+    link "Sorting Techniques" ../howto/sorting.html#sortinghowto @17,49557,663,21
+    row @17,49590,663,20
+      text @ @17,49590,14,20
+      text staticmethod @43,49590,87,20
+      link ¶ #staticmethod3 @142,49590,9,20
+    text Transform a method into a static method. @17,49622,663,20
+    text A static method does not receive an implicit first argument. To declare a static method, use this idiom: @17,49654,663,41
+    text class C: @staticmethod def f(arg1, arg2, argN): ... @17,49707,663,20
+    text The form is a function – see for details. @17,49739,663,20
+    row @17,49771,663,21
+      text @staticmethod @17,49771,100,21
+      link decorator ../glossary.html#term-decorator @129,49771,65,21
+      link "Function definitions" ../reference/compound_stmts.html#function @206,49771,131,21
+    text A static method can be called either on the class (such as ) or on an instance (such as ). Moreover, the static method is also callable, so it can be used in the class definition (such as ). @17,49804,663,40
+    text C.f() @17,49856,663,21
+    text C().f() @17,49889,663,20
+    link descriptor ../glossary.html#term-descriptor @17,49921,663,20
+    text f() @17,49953,663,21
+    text Static methods in Python are similar to those found in Java or C++. Also, see for a variant that is useful for creating alternate class constructors. @17,49986,663,40
+    link @classmethod #classmethod4 @17,50038,663,20
+    text Like all decorators, it is also possible to call staticmethod as a regular function and do something with its result. This is needed in some cases where you need a reference to a function from a class body and you want to avoid the automatic transformation to instance method. For these cases, use this idiom: @17,50070,663,82
+    text def regular_function(): ... class C: method  staticmethod(regular_function) @17,50164,663,20
+    text For more information on static methods, see . @17,50196,663,20
+    link "The standard type hierarchy" ../reference/datamodel.html#types @17,50228,663,21
+    text Static methods now inherit the method attributes (, , , and ), have a new attribute, and are now callable as regular functions. @17,50261,663,40
+    text Changed in version 3.10: danger @17,50313,663,20
+    link __module__ ../reference/datamodel.html#function.__module__ @17,50345,663,21
+    link __name__ ../reference/datamodel.html#function.__name__ @17,50378,663,20
+    link __qualname__ ../reference/datamodel.html#function.__qualname__ @17,50410,663,20
+    link __doc__ ../reference/datamodel.html#function.__doc__ @17,50442,663,21
+    link __annotations__ ../reference/datamodel.html#function.__annotations__ @17,50475,663,20
+    text __wrapped__ @17,50507,663,20
+    text , , @17,50539,663,21
+    row @17,50572,663,20
+      text class @17,50572,35,20
+      text str @64,50572,18,20
+      text ( @94,50572,6,20
+      text * @112,50572,8,20
+      text @132,50572,0,20
+      text @144,50572,0,20
+      text ) @156,50572,6,20
+    text class str(object) @17,50604,663,20
+    text class str(object, encoding, @17,50636,663,21
+    text , , @17,50669,663,20
+    row @17,50701,663,20
+      text class @17,50701,35,20
+      text str @64,50701,18,20
+      text ( @94,50701,6,20
+      text object @112,50701,42,20
+      text * @166,50701,8,20
+      text errors @186,50701,40,20
+      text ) @238,50701,6,20
+    text Return a version of . See for details. @17,50733,663,20
+    row @17,50765,663,21
+      link str stdtypes.html#str @17,50765,18,21
+      text object @47,50765,42,21
+      link str() stdtypes.html#str @101,50765,28,21
+    text is the built-in string . For general information about strings, see . @17,50798,663,20
+    row @17,50830,663,20
+      text str @17,50830,18,20
+      link class ../glossary.html#term-class @47,50830,35,20
+      link "Text Sequence Type — str" stdtypes.html#textseq @94,50830,177,20
+    text , , @17,50862,663,21
+    row @17,50895,663,20
+      text sum @17,50895,28,20
+      text ( @57,50895,6,20
+      text iterable @75,50895,50,20
+      text / @137,50895,6,20
+      text @155,50895,0,20
+      text ) @167,50895,6,20
+      link ¶ #sum2 @185,50895,9,20
+    text Sums start and the items of an iterable from left to right and returns the total. The iterable’s items are normally numbers, and the start value is not allowed to be a string. @17,50927,663,41
+    text For some use cases, there are good alternatives to . The preferred, fast way to concatenate a sequence of strings is by calling . To add floating-point values with extended precision, see . To concatenate a series of iterables, consider using . @17,50980,663,60
+    text sum() @17,51052,663,21
+    text ''.join(sequence) @17,51085,663,20
+    link math.fsum() ../library/math.html#math.fsum @17,51117,663,20
+    link itertools.chain() ../library/itertools.html#itertools.chain @17,51149,663,21
+    text Changed in version 3.8: The start parameter can be specified as a keyword argument. @17,51182,663,20
+    text Changed in version 3.12: Summation of floats switched to an algorithm that gives higher accuracy and better commutativity on most builds. @17,51214,663,41
+    text Changed in version 3.14: Added specialization for summation of complexes, using same algorithm as for summation of floats. @17,51267,663,40
+    row @17,51319,663,20
+      text class @17,51319,35,20
+      text super @64,51319,38,20
+      link ¶ #super2 @114,51319,9,20
+    text , , @17,51351,663,21
+    row @17,51384,663,20
+      text class @17,51384,35,20
+      text super @64,51384,38,20
+      text ( @114,51384,6,20
+      text type @132,51384,30,20
+      text @174,51384,0,20
+      text / @186,51384,6,20
+      text ) @204,51384,6,20
+    text Return a proxy object that delegates method calls to a parent or sibling class of type. This is useful for accessing inherited methods that have been overridden in a class. @17,51416,663,41
+    text The determines the to be searched. The search starts from the class right after the . @17,51469,663,20
+    text object_or_type @17,51501,663,20
+    link "method resolution order" ../glossary.html#term-method-resolution-order @17,51533,663,21
+    text type @17,51566,663,20
+    text For example, if of is and the value of is , then searches . @17,51598,663,20
+    link __mro__ ../reference/datamodel.html#type.__mro__ @17,51630,663,20
+    text object_or_type @17,51662,663,21
+    text D -> B -> C -> A -> object @17,51695,663,20
+    text type @17,51727,663,20
+    text B @17,51759,663,21
+    link super() #super4 @17,51792,663,20
+    text C -> A -> object @17,51824,663,20
+    text The attribute of the class corresponding to lists the method resolution search order used by both and . The attribute is dynamic and can change whenever the inheritance hierarchy is updated. @17,51856,663,41
+    link __mro__ ../reference/datamodel.html#type.__mro__ @17,51909,663,20
+    text object_or_type @17,51941,663,20
+    link getattr() #getattr9 @17,51973,663,21
+    link super() #super5 @17,52006,663,20
+    text If the second argument is omitted, the super object returned is unbound. If the second argument is an object, isinstance(obj, type) must be true. If the second argument is a type, issubclass(type2, type) must be true (this is useful for classmethods). @17,52038,663,61
+    text When called directly within an ordinary method of a class, both arguments may be omitted (“zero-argument super()”). In this case, type will be the enclosing class, and obj will be the first argument of the immediately enclosing function (typically self). (This means that zero-argument super() will not work as expected within nested functions, including generator expressions, which implicitly create nested functions.) @17,52111,663,101
+    text There are two typical use cases for super. In a class hierarchy with single inheritance, super can be used to refer to parent classes without naming them explicitly, thus making the code more maintainable. This use closely parallels the use of super in other programming languages. @17,52224,663,61
+    text The second use case is to support cooperative multiple inheritance in a dynamic execution environment. This use case is unique to Python and is not found in statically compiled languages or languages that only support single inheritance. This makes it possible to implement “diamond diagrams” where multiple base classes implement the same method. Good design dictates that such implementations have the same calling signature in every case (because the order of calls is determined at runtime, because that order adapts to changes in the class hierarchy, and because that order can include sibling classes that are unknown prior to runtime). @17,52297,663,142
+    text For both use cases, a typical superclass call looks like this: @17,52451,663,21
+    text class C(B): def method(self, arg): super().method(arg) # This does the same thing as: # super(C, self).method(arg) @17,52484,663,40
+    text In addition to method lookups, also works for attribute lookups. One possible use case for this is calling in a parent or sibling class. @17,52536,663,41
+    link super() #super6 @17,52589,663,20
+    link descriptors ../glossary.html#term-descriptor @17,52621,663,21
+    text Note that is implemented as part of the binding process for explicit dotted attribute lookups such as . It does so by implementing its own method for searching classes in a predictable order that supports cooperative multiple inheritance. Accordingly, is undefined for implicit lookups using statements or operators such as . @17,52654,663,81
+    link super() #super7 @17,52747,663,20
+    text super().__getitem__(name) @17,52779,663,20
+    link __getattribute__() ../reference/datamodel.html#object.__getattribute__ @17,52811,663,21
+    text super() @17,52844,663,20
+    text super()[name] @17,52876,663,20
+    text Also note that, aside from the zero argument form, is not limited to use inside methods. The two argument form specifies the arguments exactly and makes the appropriate references. The zero argument form only works inside a class definition, as the compiler fills in the necessary details to correctly retrieve the class being defined, as well as accessing the current instance for ordinary methods. @17,52908,663,102
+    link super() #super9 @17,53022,663,20
+    text For practical suggestions on how to design cooperative classes using , see . @17,53054,663,20
+    link super() #super10 @17,53086,663,21
+    link "guide to using super()" https://rhettinger.wordpress.com/2011/05/26/super-considered-super/ @17,53119,663,20
+    text objects are now and . @17,53151,663,20
+    row @17,53183,663,21
+      text Changed in version 3.14: danger @17,53183,164,21
+      text super @193,53183,38,21
+      link pickleable ../library/pickle.html#module-pickle @243,53183,68,21
+      link copyable ../library/copy.html#module-copy @323,53183,61,21
+    text , @17,53216,663,20
+    row @17,53248,663,20
+      text class @17,53248,35,20
+      text tuple @64,53248,33,20
+      text ( @109,53248,6,20
+      text @127,53248,0,20
+      text / @139,53248,6,20
+      text ) @157,53248,6,20
+    text Rather than being a function, is actually an immutable sequence type, as documented in and . @17,53280,663,20
+    link tuple stdtypes.html#tuple @17,53312,663,21
+    link Tuples stdtypes.html#typesseq-tuple @17,53345,663,20
+    link "Sequence Types — list, tuple, range" stdtypes.html#typesseq @17,53377,663,20
+    text , @17,53409,663,21
+    row @17,53442,663,20
+      text class @17,53442,35,20
+      text type @64,53442,30,20
+      text ( @106,53442,6,20
+      text object @124,53442,42,20
+      text / @178,53442,6,20
+      text ) @196,53442,6,20
+      link ¶ #type6 @214,53442,9,20
+    text , , , , @17,53474,663,20
+    row @17,53506,663,21
+      text class @17,53506,35,21
+      text type @64,53506,30,21
+      text ( @106,53506,6,21
+      text name @124,53506,37,21
+      text bases @173,53506,40,21
+      text dict @225,53506,25,21
+      text / @262,53506,6,21
+      text **kwargs @280,53506,63,21
+      text ) @355,53506,6,21
+    text With one argument, return the type of an . The return value is a type object and generally the same object as returned by . @17,53539,663,40
+    text object @17,53591,663,20
+    link object.__class__ ../reference/datamodel.html#object.__class__ @17,53623,663,21
+    text The built-in function is recommended for testing the type of an object, because it takes subclasses into account. @17,53656,663,40
+    link isinstance() #isinstance3 @17,53708,663,21
+    text With three arguments, return a new type object. This is essentially a dynamic form of the statement. The string is the class name and becomes the attribute. The tuple contains the base classes and becomes the attribute; if empty, , the ultimate base of all classes, is added. The dictionary contains attribute and method definitions for the class body; it may be copied or wrapped before becoming the attribute. The following two statements create identical objects: @17,53741,663,101
+    link class ../reference/compound_stmts.html#class @17,53854,663,20
+    text name @17,53886,663,21
+    link __name__ ../reference/datamodel.html#type.__name__ @17,53919,663,20
+    text bases @17,53951,663,20
+    link __bases__ ../reference/datamodel.html#type.__bases__ @17,53983,663,21
+    link object #object31 @17,54016,663,20
+    text dict @17,54048,663,20
+    link __dict__ ../reference/datamodel.html#type.__dict__ @17,54080,663,21
+    text type @17,54113,663,20
+    text >>> class X: ... a  1 ... >>> X  type('X', (), @17,54145,663,20
+    text See also: @17,54177,663,20
+    text . @17,54209,663,21
+    link "Documentation on attributes and methods on classes" ../reference/datamodel.html#class-attrs-and-methods @17,54242,663,20
+    link "Type Objects" stdtypes.html#bltin-type-objects @17,54274,663,20
+    text Keyword arguments provided to the three argument form are passed to the appropriate metaclass machinery (usually ) in the same way that keywords in a class definition (besides ) would. @17,54306,663,41
+    link __init_subclass__() ../reference/datamodel.html#object.__init_subclass__ @17,54359,663,20
+    text metaclass @17,54391,663,21
+    text Unlike a statement, the three argument form does not call the metaclass method (see ). Use to dynamically create a class using the appropriate metaclass. @17,54424,663,40
+    link class ../reference/compound_stmts.html#class @17,54476,663,20
+    text __prepare__ @17,54508,663,21
+    link "Preparing the class namespace" ../reference/datamodel.html#prepare @17,54541,663,20
+    link types.new_class() ../library/types.html#types.new_class @17,54573,663,20
+    text See also . @17,54605,663,21
+    link "Customizing class creation" ../reference/datamodel.html#class-customization @17,54638,663,20
+    text Changed in version 3.6: Subclasses of type which don’t override type.__new__ may no longer use the one-argument form to get the type of an object. @17,54670,663,41
+    text can now be a . @17,54723,663,20
+    row @17,54755,663,20
+      text Changed in version 3.15: danger @17,54755,163,20
+      text dict @192,54755,25,20
+      link frozendict stdtypes.html#frozendict @229,54755,68,20
+    row @17,54787,663,20
+      text vars @17,54787,29,20
+      text ( @58,54787,6,20
+      text ) @76,54787,6,20
+      link ¶ #vars2 @94,54787,9,20
+    text , @17,54819,663,21
+    row @17,54852,663,20
+      text vars @17,54852,29,20
+      text ( @58,54852,6,20
+      text object @76,54852,42,20
+      text / @130,54852,6,20
+      text ) @148,54852,6,20
+    text Return the attribute for a module, class, instance, or any other object with a attribute. @17,54884,663,20
+    row @17,54916,663,21
+      link __dict__ ../reference/datamodel.html#object.__dict__ @17,54916,51,21
+      text __dict__ @80,54916,51,21
+    text Objects such as modules and instances have an updateable attribute; however, other objects may have write restrictions on their attributes (for example, classes use a to prevent direct dictionary updates). @17,54949,663,61
+    link __dict__ ../reference/datamodel.html#object.__dict__ @17,55022,663,20
+    text __dict__ @17,55054,663,20
+    link types.MappingProxyType ../library/types.html#types.MappingProxyType @17,55086,663,20
+    text Without an argument, acts like . @17,55118,663,21
+    row @17,55151,663,20
+      text vars() @17,55151,39,20
+      link locals() #locals19 @68,55151,49,20
+    text A exception is raised if an object is specified but it doesn’t have a attribute (for example, if its class defines the attribute). @17,55183,663,41
+    link TypeError exceptions.html#TypeError @17,55236,663,20
+    link __dict__ ../reference/datamodel.html#object.__dict__ @17,55268,663,20
+    link __slots__ ../reference/datamodel.html#object.__slots__ @17,55300,663,21
+    text The result of calling this function without an argument has been updated as described for the builtin. @17,55333,663,40
+    text Changed in version 3.13: danger @17,55385,663,20
+    link locals() #locals20 @17,55417,663,21
+    text , @17,55450,663,20
+    row @17,55482,663,20
+      text zip @17,55482,20,20
+      text ( @49,55482,6,20
+      text *iterables @67,55482,64,20
+      text @143,55482,0,20
+      text ) @155,55482,6,20
+      link ¶ #zip2 @173,55482,9,20
+    text Iterate over several iterables in parallel, producing tuples with an item from each one. @17,55514,663,21
+    text Example: @17,55547,663,20
+    text >>> for item in zip([1, 2, 3], ['sugar', 'spice', 'everything nice']): ... print(item) ... (1, 'sugar') (2, 'spice') (3, 'everything nice') @17,55579,663,41
+    text More formally: zip() returns an iterator of tuples, where the i-th tuple contains the i-th element from each of the argument iterables. @17,55632,663,40
+    text Another way to think of is that it turns rows into columns, and columns into rows. This is similar to . @17,55684,663,21
+    text zip() @17,55717,663,20
+    link "transposing a matrix" https://en.wikipedia.org/wiki/Transpose @17,55749,663,20
+    text is lazy: The elements won’t be processed until the iterable is iterated on, e.g. by a loop or by wrapping in a . @17,55781,663,41
+    text zip() @17,55834,663,20
+    text for @17,55866,663,20
+    link list stdtypes.html#list @17,55898,663,21
+    text One thing to consider is that the iterables passed to zip() could have different lengths; sometimes by design, and sometimes because of a bug in the code that prepared these iterables. Python offers three different approaches to dealing with this issue: @17,55931,663,61
+    text By default, stops when the shortest iterable is . It will ignore the remaining items in the longer iterables, cutting off the result to the length of the shortest iterable: @17,56004,663,40
+    row @17,56056,663,20
+      text zip() @17,56056,30,20
+      link exhausted ../glossary.html#term-exhausted @59,56056,69,20
+    text >>> list(zip(range(3), ['fee', 'fi', 'fo', 'fum'])) [(0, 'fee'), (1, 'fi'), (2, 'fo')] @17,56088,663,21
+    text zip() is often used in cases where the iterables are assumed to be of equal length. In such cases, it’s recommended to use the option. Its output is the same as regular zip(): @17,56121,663,40
+    text >>> list(zip(('a', 'b', 'c'), (1, 2, 3), [('a', 1), ('b', 2), ('c', 3)] @17,56173,663,21
+    text Unlike the default behavior, it raises a if one iterable is before the others: @17,56206,663,20
+    row @17,56238,663,20
+      link ValueError exceptions.html#ValueError @17,56238,70,20
+      link exhausted ../glossary.html#term-exhausted @99,56238,69,20
+    text >>> for item in zip(range(3), ['fee', 'fi', 'fo', 'fum'], ... print(item) ... (0, 'fee') (1, 'fi') (2, 'fo') Traceback (most recent call last): ... ValueError: zip() argument 2 is longer than argument 1 @17,56270,663,41
+    text Without the argument, any bug that results in iterables of different lengths will be silenced, possibly manifesting as a hard-to-find bug in another part of the program. @17,56323,663,40
+    text Shorter iterables can be padded with a constant value to make all the iterables have the same length. This is done by . @17,56375,663,41
+    link itertools.zip_longest() ../library/itertools.html#itertools.zip_longest @17,56428,663,20
+    text Edge cases: With a single iterable argument, zip() returns an iterator of 1-tuples. With no arguments, it returns an empty iterator. @17,56460,663,41
+    text Tips and tricks: @17,56513,663,20
+    text The left-to-right evaluation order of the iterables is guaranteed. This makes possible an idiom for clustering a data series into n-length groups using zip(*[iter(s)]*n, This repeats the same iterator n times so that each output tuple has the result of n calls to the iterator. This has the effect of dividing the input into n-length chunks. @17,56545,663,81
+    text zip() in conjunction with the * operator can be used to unzip a list: @17,56638,663,21
+    text >>> x  [1, 2, 3] >>> y  [4, 5, 6] >>> list(zip(x, y)) [(1, 4), (2, 5), (3, 6)] >>> x2, y2  zip(*zip(x, y)) >>> x = list(x2) and y = list(y2) True @17,56671,663,40
+    text Changed in version 3.10: Added the strict argument. @17,56723,663,21
+    text , , , , @17,56756,663,20
+    row @17,56788,663,20
+      text __import__ @17,56788,69,20
+      text ( @98,56788,6,20
+      text name @116,56788,37,20
+      text @165,56788,0,20
+      text @177,56788,0,20
+      text @189,56788,0,20
+      text @201,56788,0,20
+      text ) @213,56788,6,20
+      link ¶ #import__ @231,56788,9,20
+    card @17,56820,663,115
+      text Note @34,56835,629,21
+      text This is an advanced function that is not needed in everyday Python programming, unlike . @34,56868,629,20
+      link importlib.import_module() ../library/importlib.html#importlib.import_module @34,56900,629,20
+    text This function is invoked by the statement. It can be replaced (by importing the module and assigning to ) in order to change semantics of the statement, but doing so is discouraged as it is usually simpler to use import hooks (see ) to attain the same goals and does not cause issues with code which assumes the default import implementation is in use. Direct use of is also discouraged in favor of . @17,56947,663,102
+    link import ../reference/simple_stmts.html#import @17,57061,663,20
+    link builtins ../library/builtins.html#module-builtins @17,57093,663,20
+    text builtins.__import__ @17,57125,663,21
+    text import @17,57158,663,20
+    text strongly @17,57190,663,20
+    link "PEP 302" https://peps.python.org/pep-0302/ @17,57222,663,20
+    text __import__() @17,57254,663,21
+    link importlib.import_module() ../library/importlib.html#importlib.import_module @17,57287,663,20
+    text The function imports the module , potentially using the given and to determine how to interpret the name in a package context. The gives the names of objects or submodules that should be imported from the module given by . The standard implementation does not use its argument at all and uses its only to determine the package context of the statement. @17,57319,663,81
+    text name @17,57412,663,21
+    text globals @17,57445,663,20
+    text locals @17,57477,663,20
+    text fromlist @17,57509,663,20
+    text name @17,57541,663,21
+    text locals @17,57574,663,20
+    text globals @17,57606,663,20
+    link import ../reference/simple_stmts.html#import @17,57638,663,21
+    text specifies whether to use absolute or relative imports. (the default) means only perform absolute imports. Positive values for indicate the number of parent directories to search relative to the directory of the module calling (see for the details). @17,57671,663,61
+    text level @17,57744,663,20
+    text 0 @17,57776,663,20
+    text level @17,57808,663,20
+    text __import__() @17,57840,663,21
+    link "PEP 328" https://peps.python.org/pep-0328/ @17,57873,663,20
+    text When the name variable is of the form package.module, normally, the top-level package (the name up till the first dot) is returned, not the module named by name. However, when a non-empty fromlist argument is given, the module named by name is returned. @17,57905,663,61
+    text For example, the statement import spam results in bytecode resembling the following code: @17,57978,663,20
+    text spam  __import__('spam', globals(), locals(), [], 0) @17,58010,663,21
+    text The statement import spam.ham results in this call: @17,58043,663,20
+    text spam  __import__('spam.ham', globals(), locals(), [], 0) @17,58075,663,20
+    text Note how returns the toplevel module here because this is the object that is bound to a name by the statement. @17,58107,663,41
+    text __import__() @17,58160,663,20
+    link import ../reference/simple_stmts.html#import @17,58192,663,20
+    text On the other hand, the statement from spam.ham import eggs, sausage as saus results in @17,58224,663,21
+    text _temp  __import__('spam.ham', globals(), locals(), ['eggs', 'sausage'], 0) eggs  _temp.eggs saus  _temp.sausage @17,58257,663,40
+    text Here, the spam.ham module is returned from __import__(). From this object, the names to import are retrieved and assigned to their respective names. @17,58309,663,41
+    text If you simply want to import a module (potentially within a package) by name, use . @17,58362,663,20
+    link importlib.import_module() ../library/importlib.html#importlib.import_module @17,58394,663,20
+    text Changed in version 3.3: Negative values for level are no longer supported (which also changes the default value to 0). @17,58426,663,41
+    text When the command line options or are being used, the environment variable is now ignored. @17,58479,663,20
+    text Changed in version 3.9: danger @17,58511,663,21
+    link -E ../using/cmdline.html#cmdoption-E @17,58544,663,20
+    link -I ../using/cmdline.html#cmdoption-I @17,58576,663,20
+    link PYTHONCASEOK ../using/cmdline.html#envvar-PYTHONCASEOK @17,58608,663,21
+    text Footnotes @17,58641,663,20
+    row @17,58673,663,61
+      row @17,58693,20,20
+        text [ @17,58693,0,20
+        text 1 primary @29,58693,0,20
+        text ] @41,58693,0,20
+      text Note that the parser only accepts the Unix-style end of line convention. If you are reading the code from a file, make sure to use newline conversion mode to convert Windows or Mac-style newlines. @49,58673,631,61
+  row @692,29522,19,440
+    col @692,29522,7,440
+      h3 Previous topic @692,29522,7,37
+      link "Built-in Constants" constants.html @692,29571,7,41
+      h3 Next topic @692,29624,7,37
+      link "Built-in Exceptions" exceptions.html @692,29673,7,41
+      h3 This page @692,29726,7,37
+      link "Report a bug" ../bugs.html @692,29775,7,61
+      link "Improve this page" https://docs.python.org/3/improve-page.html?pagetitle=Built-in+functions&pageurl=https%3A%2F%2Fdocs.python.org%2F3%2Fbuiltins%2Ffunctions.html&pagesource=builtins%2Ffunctions.rst @692,29848,7,61
+      link "Show source" https://github.com/python/cpython/blob/3.15/Doc/builtins/functions.rst?plain=1 @692,29921,7,41
+    text « @711,29731,0,21
+link index ../genindex.html @17,58746,694,20
+text | @17,58778,694,20
+link modules ../py-modindex.html @17,58810,694,21
+text | @17,58843,694,20
+link next exceptions.html @17,58875,694,20
+text | @17,58907,694,20
+link previous constants.html @17,58939,694,21
+image https://docs.python.org/3/_static/py.svg "Python logo" @17,58972,0,0
+text » @17,58984,694,20
+link Python https://www.python.org/ @17,59016,694,20
+row @17,59048,694,55
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文" @17,59048,320,55
+  select "Python version" "dev (3.16)" *3.15.0 3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6 @349,59048,104,55
+text » @17,59115,694,21
+link "3.15.0 Documentation" ../index.html @17,59148,694,20
+text » @17,59180,694,20
+link "Python built-ins reference" index.html @17,59212,694,21
+link "Built-in functions" # @17,59245,694,20
+text | @17,59277,694,20
+row @17,59309,694,58
+  field "Quick search" search @17,59309,75,58
+  button button @104,59320,75,36
+text | @17,59379,694,20
+select Theme *Auto Light Dark @17,59411,694,55
+text © 2001 Python Software Foundation. This page is licensed under the Python Software Foundation License Version 2. Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License. See for more information. The Python Software Foundation is a non-profit corporation. Last updated on Oct 20, 2026 (04:53 UTC). ? Created using 8.2.3. @17,59478,694,81
+link Copyright ../copyright.html @17,59571,694,21
+link "History and License" /license.html @17,59604,694,20
+link "Please donate." https://www.python.org/psf/donations/ @17,59636,694,20
+link "Found a bug" /bugs.html @17,59668,694,21
+link Sphinx https://www.sphinx-doc.org/ @17,59701,694,20
+!overflow table2.'x'.Meaning 331/402px
+!overflow table2.'a'.Meaning 331/379px

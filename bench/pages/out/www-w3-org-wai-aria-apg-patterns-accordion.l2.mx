@@ -1,0 +1,114 @@
+@www_w3_org_wai_aria_apg_patterns_accordi rev=0 @0,0,728,2934
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+row @17,102,694,2244
+  col @17,1067,64,314
+    h2 Page Contents @17,1067,64,43
+    link "About This Pattern" #aboutthispattern @17,1122,64,61
+    link Example #example @17,1195,64,20
+    link "Keyboard Interaction" #keyboardinteraction @17,1227,64,41
+    link "WAI-ARIA Roles, States, and Properties" #wai-ariaroles,states,andproperties @17,1280,64,101
+  col @93,102,618,2244
+    h1 Accordion Pattern (Sections With Show/Hide Functionality) @93,102,618,25
+    card @93,139,618,116
+      h2 Read This First @110,154,584,21
+      text No ARIA is better than Bad ARIA. Before using any ARIA, . @110,187,584,20
+      link "Read this to understand why no ARIA is better than bad ARIA" /WAI/content-assets/wai-aria-practices/../../ARIA/apg/practices/read-me-first/ @110,219,584,21
+    h2 About This Pattern @93,267,618,21
+    text An accordion is a vertically stacked set of interactive headings that each contain a title, content snippet, or thumbnail representing a section of content. The headings function as controls that enable users to reveal or hide their associated sections of content. Accordions are commonly used to reduce the need to scroll when presenting multiple sections of content on a single page. @93,300,618,102
+    text Terms for understanding accordions include: @93,414,618,20
+    text Accordion Header: @93,446,618,20
+    text Label for or thumbnail representing a section of content that also serves as a control for showing, and in some implementations, hiding the section of content. @93,478,618,41
+    text Accordion Panel: @93,531,618,20
+    text Section of content associated with an accordion header. @93,563,618,20
+    text In some accordions, there are additional elements that are always visible adjacent to the accordion header. For instance, a menubutton may accompany each accordion header to provide access to actions that apply to that section. And, in some cases, a snippet of the hidden content may also be visually persistent. @93,595,618,82
+    card @93,689,618,115
+      h2 Example @110,704,584,21
+      text : demonstrates using an accordion to divide a form into three expandable sections. @110,737,584,20
+      link "Accordion Example" examples/accordion/ @110,769,584,20
+    h2 Keyboard Interaction @93,816,618,22
+    text or : @93,850,618,20
+    text Enter @93,882,618,20
+    text Space @93,914,618,21
+    text When focus is on the accordion header for a collapsed panel, expands the associated panel. If the implementation allows only one panel to be expanded, and if another panel is expanded, collapses that panel. @93,947,618,60
+    text When focus is on the accordion header for an expanded panel, collapses the panel if the implementation supports collapsing. Some implementations require one panel to be expanded at all times and allow only one panel to be expanded; so, they do not support a collapse function. @93,1019,618,82
+    text : Moves focus to the next focusable element; all focusable elements in the accordion are included in the page sequence. @93,1113,618,40
+    text Tab @93,1165,618,21
+    text Tab @93,1198,618,20
+    text + : Moves focus to the previous focusable element; all focusable elements in the accordion are included in the page sequence. @93,1230,618,40
+    text Shift @93,1282,618,21
+    text Tab @93,1315,618,20
+    text Tab @93,1347,618,20
+    h2 WAI-ARIA Roles, States, and Properties @93,1379,618,22
+    text The title of each accordion header is contained in an element with role . @93,1413,618,20
+    link button https://w3c.github.io/aria/#button @93,1445,618,20
+    text Each accordion header is wrapped in an element with role that has a value set for that is appropriate for the information architecture of the page. @93,1477,618,41
+    text button primary @93,1530,618,20
+    link heading https://w3c.github.io/aria/#heading @93,1562,618,20
+    link aria-level https://w3c.github.io/aria/#aria-level @93,1594,618,21
+    text If the native host language has an element with an implicit heading and aria-level, such as an HTML heading tag, a native host language element may be used. @93,1627,618,40
+    text The button element is the only element inside the heading element. That is, if there are other visually persistent elements, they are not included inside the heading element. @93,1679,618,41
+    text If the accordion panel associated with an accordion header is visible, the header element has set to . If the panel is not visible, is set to . @93,1732,618,40
+    text button primary @93,1784,618,21
+    link aria-expanded https://w3c.github.io/aria/#aria-expanded @93,1817,618,20
+    text true primary @93,1849,618,20
+    link aria-expanded https://w3c.github.io/aria/#aria-expanded @93,1881,618,21
+    text false primary @93,1914,618,20
+    text The accordion header element has set to the ID of the element containing the accordion panel content. @93,1946,618,41
+    row @93,1999,618,20
+      text button primary @93,1999,43,20
+      link aria-controls https://w3c.github.io/aria/#aria-controls @148,1999,85,20
+    text If the accordion panel associated with an accordion header is visible, and if the accordion does not permit the panel to be collapsed, the header element has set to . @93,2031,618,40
+    row @93,2083,618,21
+      text button primary @93,2083,43,21
+      link aria-disabled https://w3c.github.io/aria/#aria-disabled @148,2083,87,21
+      text true primary @247,2083,27,21
+    text Optionally, each element that serves as a container for panel content has role and with a value that refers to the button that controls display of the panel. @93,2116,618,40
+    link region https://w3c.github.io/aria/#region @93,2168,618,21
+    link aria-labelledby https://w3c.github.io/aria/#aria-labelledby @93,2201,618,20
+    text Avoid using the region role in circumstances that create landmark region proliferation, e.g., in an accordion that contains more than approximately 6 panels that can be expanded at the same time. @93,2233,618,61
+    text Role region is especially helpful to the perception of structure by screen reader users when panels contain heading elements or a nested accordion. @93,2306,618,40
+row @17,2358,694,22
+  h2 Help improve this page @17,2358,192,22
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,2392,694,20
+link public-aria-practices@w3.org @17,2424,694,20
+row @17,2456,694,21
+  link E-mail @17,2456,42,21
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/accordion/accordion-pattern.html @71,2456,142,21
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/accordion/ @225,2456,119,21
+link "Back to Top" #top @17,2489,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,2521,694,20
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,2553,694,21
+row @17,2586,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,2586,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,2586,57,20
+  link Mastodon https://w3c.social/@wai @218,2586,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,2586,61,20
+row @17,2618,694,40
+  link Home /WAI/ @17,2628,37,20
+  link Contact /WAI/about/contacting/ @66,2628,48,20
+  link "Site map" /WAI/sitemap/ @126,2618,54,40
+  link "Support WAI" /WAI/about/support/ @192,2618,78,40
+  link News /WAI/news/ @282,2628,36,20
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,2618,142,40
+  link "All Translations" /WAI/translations/ @484,2618,94,40
+  link "Resources for roles" /WAI/roles/ @590,2618,121,40
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,2670,694,21
+link "World Wide Web Consortium" https://www.w3.org/ @17,2703,694,20
+text W3C @17,2735,694,20
+text ® @17,2767,694,21
+link liability https://www.w3.org/policies/#disclaimers @17,2800,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,2832,694,20
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,2864,694,21
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,2897,694,20

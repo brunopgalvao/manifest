@@ -1,0 +1,84 @@
+@www_usa_gov_education rev=0 @0,0,728,1388
+link "Skip to main content" #skip-to-h1 @17,17,694,20
+row @17,49,694,37
+  text An official website of the United States government @17,57,342,21
+  button "Here's how you know" @371,49,177,37
+text Home Close Search 1-844-USAGOV1 Education Financial aid and loans Get help with child care costs and learn about Head Start Study in the U.S. Libraries and archives Early intervention and special education services for children @17,98,694,61
+row @17,171,694,20
+  region Information 300x150 @17,171,76,20 [0 shapes, 0 labelled]
+  text Visit to learn how to register to vote or to update your registration. @105,171,438,20
+  link vote.gov https://www.vote.gov @555,171,58,20
+row @17,203,694,106
+  link "USAGov Logo" / @17,246,93,20
+  col @122,203,377,106
+    button Español primary @122,203,377,36
+    row @122,251,377,58
+      link "Call us at 1-844-USAGOV1" /phone @122,270,176,20
+      row @310,251,189,58
+        text Search @310,270,47,20
+        field Search search @369,251,40,58
+        button Search primary @421,262,78,36
+row @17,321,694,40
+  link "All topics and services" /#all-topics-header @17,321,94,40
+  link "The U.S. and its government" /about-the-us @123,321,119,40
+  link "Government benefits" /benefits @254,321,89,40
+  link "Immigration and U.S. citizenship" /immigration-and-citizenship @355,321,135,40
+  link "Money and credit" /money @502,321,73,40
+  link Travel /travel @587,331,26,20
+  link "Voting and elections" /voting-and-elections @625,321,86,40
+row @17,373,694,520
+  col @17,373,670,520
+    row @17,373,670,21
+      link Home / @17,373,40,21
+      text Education @69,373,66,21
+    h1 Education @17,406,670,25
+    h2 Most popular @17,443,670,21
+    link "Apply for Federal Student Aid" /fafsa @17,476,670,20
+    link "Learn about the types of student financial aid" /student-aid @17,508,670,21
+    link "Find free and low-cost courses to learn English" /learn-english @17,541,670,20
+    text Learn about Federal Student Aid and studying in the U.S. Find early intervention, special education, and Head Start programs. Get help with child care costs. Find a library. @17,573,670,40
+    row @17,625,670,163
+      link "Financial aid and student loans Learn about programs that help you pay for college." /financial-aid @17,625,84,163
+      link "Get help with child care costs and learn about Head Start Learn how to find child care financial assistance and Head Start programs." /child-care-head-start @113,625,134,163
+      link "Study in the U.S. Find ESL classes to study English as a second language. Learn about applying for, financing, and attending college or university in the U.S." /study-in-us @259,636,158,142
+      link "Find libraries and archives Find a local or federal library to explore the services they offer." /libraries-and-archives @429,625,91,163
+      link "Early intervention and special education services for children Learn how to get your child evaluated for early intervention and special education services." /special-education @532,625,155,163
+    row @17,800,670,20
+      text Looking for something else? @17,800,187,20
+      link "Explore all topics and services" /#all-topics-header @216,800,201,20
+    row @17,832,670,61
+      text SHARE THIS PAGE: @17,832,55,61
+      row @84,852,603,21
+        link https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/education&v=3 https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/education&v=3 @84,852,236,21
+        link https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Feducation https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Feducation @332,852,211,21
+        link mailto:?subject=https://www.usa.gov/education mailto:?subject=https://www.usa.gov/education @555,852,132,21
+  link "Back to top" #main-content @699,603,12,61
+row @17,905,694,136
+  col @17,905,371,136
+    h3 Government information @17,905,371,19
+    link "All topics and services" /#all-topics-header @17,936,371,20
+    link "Directory of U.S. government agencies and departments" /agency-index @17,968,371,41
+    link "Branches of government" /branches-of-government @17,1021,371,20
+  col @400,905,149,136
+    h3 About us @400,905,149,19
+    link "About USAGov" /about @400,936,149,20
+    link "Report a website issue" /site-issue-report-form @400,968,149,41
+    link "Website usage data" /website-analytics/ @400,1021,149,20
+  col @561,922,150,102
+    h3 For federal agencies @561,922,150,37
+    link "Partner with us" /partner-with-usagov @561,971,150,21
+    link "Read our blog" /blog @561,1004,150,20
+row @17,1053,694,83
+  col @17,1053,235,83
+    h3 USAGov Contact Center @17,1053,235,19
+    text Ask USA.gov a question at @17,1084,235,20
+    link "1-844-USAGOV1 (1-844-872-4681)" /phone @17,1116,235,20
+text USAGov is the official guide to government information and services @17,1148,694,21
+text An official website of the @17,1181,694,20
+link "U.S. General Services Administration" https://www.gsa.gov/ @17,1213,694,20
+text This website complies with Executive Order . English is the official language of the U.S. Government, and the English-language version of this website is the authoritative source for all federal information contained herein. @17,1245,694,61
+link 14224 https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states @17,1318,694,20
+row @17,1350,694,21
+  link "Accessibility policy" /accessibility-policy @17,1350,127,21
+  link "Privacy and security policies" /privacy-security @156,1350,190,21
+  link "FOIA requests" https://www.gsa.gov/reference/freedom-of-information-act-foia @358,1350,95,21

@@ -1,5 +1,6 @@
 @todomvc_com_examples_react_dist
 h3 React
+text ,
 h3 React
 link Source https://github.com/tastejs/todomvc/tree/gh-pages/examples/react
 h3 TypeScript + React
@@ -15,9 +16,11 @@ link Philosophy https://petehuntsposts.quora.com/React-Under-the-Hood
 link "React Community" https://react.dev/community
 h3 Community
 link "ReactJS on Stack Overflow" https://stackoverflow.com/questions/tagged/reactjs
+text If you have other helpful links to share, or find any of the links above no longer work, please .
 link "let us know" https://github.com/tastejs/todomvc/issues
 h1 todos
 field "New Todo Input"
 text Double-click to edit a todo
 text Created by the TodoMVC Team
+text Part of
 link TodoMVC http://todomvc.com

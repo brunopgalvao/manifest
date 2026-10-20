@@ -1,0 +1,144 @@
+@docs_python_org_3_15 rev=0 @0,0,728,2453
+link index genindex.html @17,17,694,20
+text | @17,49,694,21
+link modules py-modindex.html @17,82,694,20
+image https://docs.python.org/3.15/_static/py.svg "Python logo" @17,114,0,0
+text » @17,126,694,20
+link Python https://www.python.org/ @17,158,694,21
+row @17,191,694,55
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文" @17,191,320,55
+  select "Python version" "dev (3.16)" *3.15.0 3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6 @349,191,104,55
+text » @17,258,694,20
+link "3.15.0 Documentation" # @17,290,694,20
+text | @17,322,694,20
+row @17,354,694,58
+  field "Quick search" search @17,354,75,58
+  button button @104,365,75,36
+text | @17,424,694,20
+select Theme *Auto Light Dark @17,456,694,55
+row @17,523,694,1152
+  col @17,523,528,1152
+    h1 Python 3.15.0 documentation @17,523,528,25
+    text Welcome! This is the official documentation for Python 3.15.0. @17,560,528,21
+    text Documentation sections: @17,593,528,20
+    row @17,625,528,449
+      col @17,625,274,449
+        link "What's new in Python 3.15?" whatsnew/3.15.html @17,625,274,20
+        text Or @17,657,274,21
+        link "all \"What's new\" documents since Python 2.0" whatsnew/index.html @17,690,274,40
+        link Tutorial tutorial/index.html @17,742,274,21
+        text Start here: a tour of Python's syntax and features @17,775,274,40
+        link "Built-ins reference" builtins/index.html @17,827,274,20
+        text Built-in functions and classes @17,859,274,21
+        link "Library reference" library/index.html @17,892,274,20
+        text Standard library modules @17,924,274,20
+        link "Language reference" reference/index.html @17,956,274,21
+        text Syntax and language elements @17,989,274,20
+        link "Python setup and usage" using/index.html @17,1021,274,20
+        text How to install, configure, and use Python @17,1053,274,21
+      col @303,651,242,396
+        link "Python HOWTOs" howto/index.html @303,651,242,21
+        text In-depth topic manuals @303,684,242,20
+        link "Installing Python modules" installing/index.html @303,716,242,20
+        text Third-party modules and PyPI.org @303,748,242,21
+        link "Extending and embedding" extending/index.html @303,781,242,20
+        text For C/C++ programmers @303,813,242,20
+        link "Python's C API" c-api/index.html @303,845,242,20
+        text C API reference @303,877,242,21
+        link FAQs faq/index.html @303,910,242,20
+        text Frequently asked questions (with answers!) @303,942,242,41
+        link Deprecations deprecations/index.html @303,995,242,20
+        text Deprecated functionality @303,1027,242,20
+    text Other resources: @17,1086,528,20
+    row @17,1118,528,202
+      col @17,1118,287,202
+        link "Python developer's guide" https://devguide.python.org @17,1118,287,20
+        text Information on contributing to Python @17,1150,287,20
+        link "Python Packaging User Guide" https://packaging.python.org @17,1182,287,21
+        text Resources relating to Python packaging @17,1215,287,20
+        link "Audio/visual talks" https://www.python.org/doc/av/ @17,1247,287,20
+        text Podcasts, talks, and video presentations from the community @17,1279,287,41
+      col @316,1140,229,158
+        link "Python Enhancement Proposals" https://peps.python.org/ @316,1140,229,20
+        text Index of proposed improvements to Python @316,1172,229,41
+        link "Static Typing with Python" https://typing.python.org @316,1225,229,20
+        text Information and guides about Python type safety @316,1257,229,41
+    text Indices, glossary, and search: @17,1332,528,20
+    row @17,1364,528,182
+      col @17,1364,214,182
+        link "Global module index" py-modindex.html @17,1364,214,21
+        text All modules and libraries @17,1397,214,20
+        link "General index" genindex.html @17,1429,214,20
+        text All functions, classes, and terms @17,1461,214,20
+        link Glossary glossary.html @17,1493,214,21
+        text Terms explained @17,1526,214,20
+      col @243,1397,189,117
+        link "Search page" search.html @243,1397,189,20
+        text Search this documentation @243,1429,189,20
+        link "Complete table of contents" contents.html @243,1461,189,20
+        text All sections and subsections @243,1493,189,21
+    text Project information: @17,1558,528,20
+    row @17,1590,528,85
+      col @17,1590,195,85
+        link "Reporting issues" bugs.html @17,1590,195,21
+        link "Contributing to docs" https://devguide.python.org/documentation/help-documenting/ @17,1623,195,20
+        link "Download the documentation" download.html @17,1655,195,20
+      col @224,1590,195,85
+        link "History and license of Python" license.html @224,1590,195,21
+        link Copyright copyright.html @224,1623,195,20
+        link "About the documentation" about.html @224,1655,195,20
+  row @557,578,154,1042
+    col @557,578,136,1042
+      h3 Download @557,578,136,19
+      link "Download these documents" download.html @557,609,136,41
+      h3 Docs by version @557,662,136,18
+      link "Python 3.16 (in development)" https://docs.python.org/3.16/ @557,692,136,41
+      link "Python 3.15 (stable)" https://docs.python.org/3.15/ @557,745,136,20
+      link "Python 3.14 (stable)" https://docs.python.org/3.14/ @557,777,136,21
+      link "Python 3.13 (security-fixes)" https://docs.python.org/3.13/ @557,810,136,40
+      link "Python 3.12 (security-fixes)" https://docs.python.org/3.12/ @557,862,136,41
+      link "Python 3.11 (security-fixes)" https://docs.python.org/3.11/ @557,915,136,40
+      link "Python 3.10 (EOL)" https://docs.python.org/3.10/ @557,967,136,21
+      link "Python 3.9 (EOL)" https://docs.python.org/3.9/ @557,1000,136,20
+      link "Python 3.8 (EOL)" https://docs.python.org/3.8/ @557,1032,136,20
+      link "Python 3.7 (EOL)" https://docs.python.org/3.7/ @557,1064,136,21
+      link "Python 3.6 (EOL)" https://docs.python.org/3.6/ @557,1097,136,20
+      link "Python 3.5 (EOL)" https://docs.python.org/3.5/ @557,1129,136,20
+      link "Python 3.4 (EOL)" https://docs.python.org/3.4/ @557,1161,136,21
+      link "Python 3.3 (EOL)" https://docs.python.org/3.3/ @557,1194,136,20
+      link "Python 3.2 (EOL)" https://docs.python.org/3.2/ @557,1226,136,20
+      link "Python 3.1 (EOL)" https://docs.python.org/3.1/ @557,1258,136,20
+      link "Python 3.0 (EOL)" https://docs.python.org/3.0/ @557,1290,136,21
+      link "Python 2.7 (EOL)" https://docs.python.org/2.7/ @557,1323,136,20
+      link "Python 2.6 (EOL)" https://docs.python.org/2.6/ @557,1355,136,20
+      link "All versions" https://www.python.org/doc/versions/ @557,1387,136,21
+      h3 Other resources @557,1420,136,18
+      link "PEP Index" https://peps.python.org/ @557,1450,136,21
+      link "Beginner's Guide" https://wiki.python.org/moin/BeginnersGuide @557,1483,136,20
+      link "Book List" https://wiki.python.org/moin/PythonBooks @557,1515,136,20
+      link "Audio/Visual Talks" https://www.python.org/doc/av/ @557,1547,136,21
+      link "Python Developer’s Guide" https://devguide.python.org/ @557,1580,136,40
+    text « @705,1089,6,20
+link index genindex.html @17,1687,694,21
+text | @17,1720,694,20
+link modules py-modindex.html @17,1752,694,20
+image https://docs.python.org/3.15/_static/py.svg "Python logo" @17,1784,0,0
+text » @17,1796,694,20
+link Python https://www.python.org/ @17,1828,694,21
+row @17,1861,694,55
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文" @17,1861,320,55
+  select "Python version" "dev (3.16)" *3.15.0 3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6 @349,1861,104,55
+text » @17,1928,694,20
+link "3.15.0 Documentation" # @17,1960,694,20
+text | @17,1992,694,21
+row @17,2025,694,57
+  field "Quick search" search @17,2025,75,57
+  button button @104,2035,75,37
+text | @17,2094,694,21
+select Theme *Auto Light Dark @17,2127,694,55
+text © 2001 Python Software Foundation. This page is licensed under the Python Software Foundation License Version 2. Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License. See for more information. The Python Software Foundation is a non-profit corporation. Last updated on Oct 20, 2026 (04:53 UTC). ? Created using 8.2.3. @17,2194,694,81
+link Copyright copyright.html @17,2287,694,20
+link "History and License" /license.html @17,2319,694,20
+link "Please donate." https://www.python.org/psf/donations/ @17,2351,694,21
+link "Found a bug" /bugs.html @17,2384,694,20
+link Sphinx https://www.sphinx-doc.org/ @17,2416,694,20

@@ -1,0 +1,384 @@
+@preview_tabler_io_job_listing_html rev=0 @0,0,728,3350
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,41
+  link Tabler . @17,59,39,21
+  row @68,49,643,41
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle @68,49,71,41
+    row @151,49,448,41
+      link "Enable dark mode" @151,49,108,41
+      link "Show notifications" # @271,49,111,41
+      link "Show app menu" # @394,49,97,41
+      link "Select language" # @503,49,96,41
+    link "Open user menu" # @611,49,100,41
+row @17,102,694,36
+  row @17,102,593,36
+    button Dashboards @17,102,85,36
+    button Interface @114,102,71,36
+    button Forms @197,102,58,36
+    button Extra @267,102,54,36
+    button Layout @333,102,61,36
+    button Plugins @406,102,63,36
+    button Addons @481,102,65,36
+    button Help @558,102,52,36
+  button Customize @622,102,89,36
+row @17,150,694,37
+  h1 Search for Jobs @17,156,155,25
+  button "Post a job" primary @184,150,97,37
+row @17,199,694,1042
+  col @17,419,198,602
+    text Job Types @17,419,198,20
+    check Programming on @17,451,198,24
+    check Design on @17,487,198,24
+    check "Management / Finance" off @17,523,198,24
+    check "Customer Support" off @17,559,198,24
+    check "Sales / Marketing" off @17,595,198,24
+    text Remote @17,631,198,21
+    check "On\n                      Off" off @17,664,198,24
+    text Salary Range @17,700,198,20
+    text Immigration @17,732,198,20
+    check "On\n                      Off" off @17,764,198,24
+    text Only show companies that can sponsor a visa @17,800,198,41
+    text Location @17,853,198,20
+    select Location *Anywhere London "San Francisco" "New York" Berlin @17,885,198,55
+    button "Confirm changes" primary @17,952,198,36
+    link "Reset to defaults" # @17,1000,198,21
+  col @227,199,484,1042
+    card @227,199,484,101
+      row @244,214,450,71
+        region 80x80 @244,214,70,70 [1 shapes, 0 labelled]
+        col @326,214,368,71
+          h3 Lead Tailwind Developer @326,214,368,18
+          row @326,244,368,41
+            row @326,244,208,41
+              text CMS Max @326,244,54,41
+              text Full-time @392,254,51,21
+              text Remote / USA @455,244,79,41
+            row @546,254,148,21
+              link PHP # @546,254,24,21
+              link Laravel # @582,254,41,21
+              link CSS # @635,254,24,21
+              link Vue # @671,254,23,21
+    card @227,312,484,103
+      row @244,327,450,73
+        region 80x80 @244,337,52,52 [1 shapes, 0 labelled]
+        col @308,327,386,73
+          row @308,327,386,20
+            h3 Frontend Web Engineer @308,328,174,18
+            text $140,000 - $180,000 success @494,327,141,20
+          row @308,359,386,41
+            row @308,359,270,41
+              text Center Pixel, Inc @308,359,68,41
+              text Full-time or Contract @388,359,85,41
+              text Remote / Palo Alto, CA @485,359,93,41
+            row @590,369,104,21
+              link HTML # @590,369,22,21
+              link CSS # @624,369,16,21
+              link React # @652,369,20,21
+              link +3 # @684,369,10,21
+    card @227,427,484,121
+      row @244,442,450,91
+        region 80x80 @244,462,50,51 [1 shapes, 0 labelled]
+        col @306,442,388,91
+          h3 Principal Web Application Developer @306,442,388,19
+          row @306,473,388,60
+            row @306,473,287,60
+              text Chicago Botanic Garden @306,473,97,60
+              text Full-time @415,493,35,20
+              text Hybrid / Chicago Botanic Garden @462,483,131,40
+            row @605,493,89,20
+              link HTML # @605,493,23,20
+              link PHP # @640,493,15,20
+              link Laravel # @667,493,27,20
+    card @227,560,484,102
+      row @244,575,450,72
+        region 80x80 @244,577,69,68 [1 shapes, 0 labelled]
+        col @325,575,369,72
+          h3 Front-End Developer @325,575,369,19
+          row @325,606,369,41
+            row @325,606,226,41
+              text Simple Focus @325,606,75,41
+              text Full-time @412,616,50,21
+              text Remote / USA @474,606,77,41
+            row @563,616,131,21
+              link HTML # @563,616,34,21
+              link PHP # @609,616,23,21
+              link CSS # @644,616,23,21
+              link +2 # @679,616,15,21
+    card @227,674,484,104
+      row @244,689,450,74
+        region 80x80 @244,689,74,74 [1 shapes, 0 labelled]
+        col @330,690,364,71
+          h3 Senior Front-End Engineer @330,690,364,19
+          row @330,721,364,40
+            row @330,721,210,40
+              text Infinia ML @330,721,59,40
+              text Full-time @401,731,54,20
+              text Durham, NC @467,721,73,40
+            row @552,731,142,20
+              link HTML # @552,731,37,20
+              link PHP # @601,731,26,20
+              link CSS # @639,731,26,20
+              link +4 # @677,731,17,20
+    card @227,790,484,101
+      row @244,805,450,71
+        region 80x80 @244,809,62,62 [1 shapes, 0 labelled]
+        col @318,805,376,71
+          h3 Senior Web Developer, Open Source @318,805,376,18
+          row @318,835,376,41
+            row @318,835,214,41
+              text Crowd Favorite @318,835,76,41
+              text Full-time @406,845,44,21
+              text Remote / USA @462,835,70,41
+            row @544,845,150,21
+              link HTML # @544,845,29,21
+              link JavaScript # @585,845,51,21
+              link CSS # @648,845,21,21
+              link +8 # @681,845,13,21
+    card @227,903,484,103
+      row @244,918,450,73
+        region 80x80 @244,922,65,65 [1 shapes, 0 labelled]
+        col @321,918,373,73
+          row @321,918,373,20
+            h3 Frontend Engineer @321,919,136,18
+            text $95,000 – $145,000 USD success @469,918,168,20
+          row @321,950,373,41
+            row @321,950,204,41
+              text Spear AI @321,950,45,41
+              text Full-time @378,960,46,21
+              text Washington D.C. @436,950,89,41
+            row @537,960,157,21
+              link HTML # @537,960,31,21
+              link JavaScript # @580,960,54,21
+              link CSS # @646,960,22,21
+              link +3 # @680,960,14,21
+    card @227,1018,484,101
+      row @244,1033,450,71
+        region 80x80 @244,1040,56,56 [1 shapes, 0 labelled]
+        col @312,1033,382,71
+          h3 Web Developer @312,1033,382,19
+          row @312,1064,382,40
+            row @312,1064,252,40
+              text Third Time Games @312,1064,82,40
+              text Full-time @406,1074,39,20
+              text Remote / North America @457,1064,107,40
+            row @576,1074,118,20
+              link PHP # @576,1074,18,20
+              link Laravel # @606,1074,30,20
+              link React # @648,1074,23,20
+              link +8 # @683,1074,11,20
+    card @227,1131,484,110
+      row @244,1146,450,80
+        region 80x80 @244,1146,80,80 [1 shapes, 0 labelled]
+        col @336,1161,338,51
+          h3 Laravel Developer @336,1161,338,18
+          row @336,1191,338,21
+            row @336,1191,236,21
+              text Mindsize @336,1191,60,21
+              text Full-time @408,1191,59,21
+              text Remote / USA @479,1191,93,21
+            row @584,1191,90,21
+              link PHP # @584,1191,29,21
+              link Laravel # @625,1191,49,21
+row @17,1253,694,41
+  row @17,1253,325,41
+    link Documentation https://docs.tabler.io @17,1263,99,21
+    link License ./license.html @128,1263,52,21
+    link "Source code" https://github.com/tabler/tabler @192,1253,83,41
+    link Sponsor https://github.com/sponsors/codecalm @287,1263,55,21
+  row @354,1253,357,41
+    text Copyright © 2026 . All rights reserved. @354,1253,254,41
+    link Tabler . @620,1263,43,21
+    link v1.6.1 ./changelog.html @675,1263,36,21
+button Customize primary @17,1306,694,36
+card @17,1354,694,1979
+  button Close primary @34,1369,660,36
+  region 160x120 @34,1417,160,120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own @34,1549,660,22
+  text Pick the look and layout of this preview. Your choices are saved in this browser. @34,1583,660,20
+  h3 Appearance @34,1615,660,19
+  text Color scheme @34,1646,660,20
+  text The page and its navigation, in one pick. @34,1678,660,20
+  row @34,1710,660,97
+    col @34,1710,96,97
+      region 96x64 @34,1710,96,64 [8 shapes, 0 labelled]
+      text Auto @34,1786,96,21
+    col @142,1710,96,97
+      region 96x64 @142,1710,96,64 [8 shapes, 0 labelled]
+      text Light @142,1786,96,21
+    col @250,1710,96,97
+      region 96x64 @250,1710,96,64 [8 shapes, 0 labelled]
+      text Dark @250,1786,96,21
+    col @358,1710,96,97
+      region 96x64 @358,1710,96,64 [8 shapes, 0 labelled]
+      text Dark nav @358,1786,96,21
+    col @466,1710,96,97
+      region 96x64 @466,1710,96,64 [8 shapes, 0 labelled]
+      text Colored @466,1786,96,21
+  text Accent color @34,1819,660,20
+  text The accent color used across the app. @34,1851,660,20
+  row @34,1883,660,0
+  text Font family @34,1895,660,20
+  text The typeface used across the app. @34,1927,660,21
+  row @34,1960,660,20
+    text Aa Sans-serif @34,1960,90,20
+    text Aa Serif @136,1960,53,20
+    text Aa Monospace @201,1960,100,20
+    text Aa Comic @313,1960,64,20
+  text Theme base @34,1992,660,20
+  text The gray palette behind every surface. @34,2024,660,21
+  row @34,2057,660,96
+    col @34,2057,96,96
+      region 96x64 @34,2057,96,64 [6 shapes, 0 labelled]
+      text Slate @34,2133,96,20
+    col @142,2057,96,96
+      region 96x64 @142,2057,96,64 [6 shapes, 0 labelled]
+      text Gray @142,2133,96,20
+    col @250,2057,96,96
+      region 96x64 @250,2057,96,64 [6 shapes, 0 labelled]
+      text Zinc @250,2133,96,20
+    col @358,2057,96,96
+      region 96x64 @358,2057,96,64 [6 shapes, 0 labelled]
+      text Neutral @358,2133,96,20
+    col @466,2057,96,96
+      region 96x64 @466,2057,96,64 [6 shapes, 0 labelled]
+      text Stone @466,2133,96,20
+  text Corner radius @34,2165,660,20
+  text How round corners are drawn. @34,2197,660,21
+  row @34,2230,660,96
+    col @34,2230,96,96
+      region 96x64 @34,2230,96,64 [2 shapes, 0 labelled]
+      text 0 @34,2306,96,20
+    col @142,2230,96,96
+      region 96x64 @142,2230,96,64 [2 shapes, 0 labelled]
+      text 0.5 @142,2306,96,20
+    col @250,2230,96,96
+      region 96x64 @250,2230,96,64 [2 shapes, 0 labelled]
+      text 1 @250,2306,96,20
+    col @358,2230,96,96
+      region 96x64 @358,2230,96,64 [2 shapes, 0 labelled]
+      text 1.5 @358,2306,96,20
+    col @466,2230,96,96
+      region 96x64 @466,2230,96,64 [2 shapes, 0 labelled]
+      text 2 @466,2306,96,20
+  h3 Layout @34,2338,660,19
+  text Navigation @34,2369,660,20
+  text Where the main menu lives. @34,2401,660,20
+  row @34,2433,660,96
+    col @34,2433,96,96
+      region 96x64 @34,2433,96,64 [10 shapes, 0 labelled]
+      text Navbar @34,2509,96,20
+    col @142,2433,96,96
+      region 96x64 @142,2433,96,64 [11 shapes, 0 labelled]
+      text Sidebar @142,2509,96,20
+  text Container width @34,2541,660,21
+  text How wide the page content runs. @34,2574,660,20
+  row @34,2606,660,96
+    col @34,2606,96,96
+      region 96x64 @34,2606,96,64 [6 shapes, 0 labelled]
+      text Default @34,2682,96,20
+    col @142,2606,96,96
+      region 96x64 @142,2606,96,64 [6 shapes, 0 labelled]
+      text Fluid @142,2682,96,20
+    col @250,2606,96,96
+      region 96x64 @250,2606,96,64 [7 shapes, 0 labelled]
+      text Boxed @250,2682,96,20
+  text Navbar behavior @34,2714,660,21
+  text Keep the navbar visible while scrolling. @34,2747,660,20
+  row @34,2779,660,96
+    col @34,2779,96,96
+      region 96x64 @34,2779,96,64 [8 shapes, 0 labelled]
+      text Default @34,2855,96,20
+    col @142,2779,96,96
+      region 96x64 @142,2779,96,64 [10 shapes, 0 labelled]
+      text Sticky @142,2855,96,20
+  text Navigation style @34,2887,660,21
+  text Attach the navigation to the edges, or let it float. @34,2920,660,20
+  row @34,2952,660,96
+    col @34,2952,96,96
+      region 96x64 @34,2952,96,64 [10 shapes, 0 labelled]
+      text Attached @34,3028,96,20
+    col @142,2952,96,96
+      region 96x64 @142,2952,96,64 [9 shapes, 0 labelled]
+      text Floating @142,3028,96,20
+  text Offcanvas style @34,3060,660,20
+  text Attach side panels to the edges, or let them float. @34,3092,660,21
+  row @34,3125,660,96
+    col @34,3125,96,96
+      region 96x64 @34,3125,96,64 [11 shapes, 0 labelled]
+      text Attached @34,3201,96,20
+    col @142,3125,96,96
+      region 96x64 @142,3125,96,64 [10 shapes, 0 labelled]
+      text Floating @142,3201,96,20
+  button "Reset changes" @34,3233,660,36
+  button Save primary @34,3281,660,37
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!offcanvas region11
+!offcanvas path
+!offcanvas region12
+!offcanvas path2
+!offcanvas region13
+!offcanvas path3
+!offcanvas region14
+!offcanvas path4
+!offcanvas region15
+!offcanvas path5
+!offcanvas region16
+!offcanvas path6
+!offcanvas region17
+!offcanvas path7
+!offcanvas region18
+!offcanvas path8
+!offcanvas region19
+!offcanvas path9
+!offcanvas region20
+!offcanvas path10
+!offcanvas region21
+!offcanvas path11
+!offcanvas region22
+!offcanvas path12
+!offcanvas region23
+!offcanvas path13
+!offcanvas region24
+!offcanvas path14
+!offcanvas region25
+!offcanvas path15
+!offcanvas region26
+!offcanvas path16
+!offcanvas region27
+!offcanvas path17
+!offcanvas region28
+!offcanvas path18
+!offcanvas region29
+!offcanvas path19
+!offcanvas region30
+!offcanvas path20
+!offcanvas region31
+!offcanvas path21
+!offcanvas region32
+!offcanvas path22
+!offcanvas region33
+!offcanvas path23
+!offcanvas region34
+!offcanvas path24
+!offcanvas region35
+!offcanvas path25
+!offcanvas region36
+!offcanvas path26
+!offcanvas region37
+!offcanvas path27
+!offcanvas region38
+!offcanvas path28
+!offcanvas region39
+!offcanvas path29
+!offcanvas region40
+!offcanvas path30
+!offcanvas region41
+!offcanvas path31

@@ -1,0 +1,76 @@
+@www_w3_org_wai_aria_apg_patterns_alert
+row
+  row
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/
+    text How to build accessibility semantics into web patterns and widgets
+  row
+    link "W3C homepage" https://www.w3.org/
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/
+row
+  link "APG Home" /WAI/ARIA/apg/
+  link Patterns /WAI/ARIA/apg/patterns/
+  link Practices /WAI/ARIA/apg/practices/
+  link Index /WAI/ARIA/apg/example-index/
+  link About /WAI/ARIA/apg/about/
+row
+  col
+    h2 Page Contents
+    link "About This Pattern" #aboutthispattern
+    link Example #example
+    link "Keyboard Interaction" #keyboardinteraction
+    link "WAI-ARIA Roles, States, and Properties" #wai-ariaroles,states,andproperties
+  col
+    h1 Alert Pattern
+    card
+      h2 Read This First
+      text No ARIA is better than Bad ARIA. Before using any ARIA, .
+      link "Read this to understand why no ARIA is better than bad ARIA" /WAI/content-assets/wai-aria-practices/../../ARIA/apg/practices/read-me-first/
+    h2 About This Pattern
+    text An  is an element that displays a brief, important message in a way that attracts the user's attention without interrupting the user's task. Dynamically rendered alerts are automatically announced by most screen readers, and in some operating systems, they may trigger an alert sound. It is important to note that, at this time, screen readers do not inform users of alerts that are present on the page before page load completes.
+    link alert https://w3c.github.io/aria/#alert
+    text Because alerts are intended to provide important and potentially time-sensitive information without interfering with the user's ability to continue working, it is crucial they do not affect keyboard focus. The  is designed for situations where interrupting work flow is necessary.
+    link "Alert Dialog Pattern" ../alertdialog/
+    text It is also important to avoid designing alerts that disappear automatically. An alert that disappears too quickly can lead to failure to meet . Another critical design consideration is the frequency of interruption caused by alerts. Frequent interruptions inhibit usability for people with visual and cognitive disabilities, which makes meeting the requirements of  more difficult.
+    link "WCAG 2.0 success criterion 2.2.3" https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-no-exceptions.html
+    link "WCAG 2.0 success criterion 2.2.4" https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-postponed.html
+    card
+      h2 Example
+      link "Alert Example" examples/alert/
+    h2 Keyboard Interaction
+    text Not applicable.
+    h2 WAI-ARIA Roles, States, and Properties
+    text The widget has a role of .
+    link alert https://w3c.github.io/aria/#alert
+row
+  h2 Help improve this page
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list  or via GitHub.
+link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+row
+  link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/alert/alert-pattern.html
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/alert/
+link "Back to Top" #top
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/
+text Strategies, standards, resources to make the Web accessible to people with disabilities
+row
+  link "Get News in Email" /WAI/news/subscribe/
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/
+  link Mastodon https://w3c.social/@wai
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+row
+  link Home /WAI/
+  link Contact /WAI/about/contacting/
+  link "Site map" /WAI/sitemap/
+  link "Support WAI" /WAI/about/support/
+  link News /WAI/news/
+  link "Accessibility statement" /WAI/about/accessibility-statement/
+  link "All Translations" /WAI/translations/
+  link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/software-license/
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/

@@ -1,0 +1,147 @@
+@picocss_com_docs_classless
+row
+  button "Skip to content" primary
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance
+  row
+    link "Pico CSS homepage" /
+    row
+      row
+        text v2.1.1
+        link Examples /examples
+        link Docs /docs
+      row
+        link "GitHub repository" https://github.com/picocss/pico
+        link Twitter https://x.com/picocss
+        link "Turn on dark mode" /docs/classless
+  row
+    col
+      text Getting started
+      link "Quick start" /docs
+      link "Version picker New" /docs/version-picker
+      link "Color schemes" /docs/color-schemes
+      link "Class-less version" /docs/classless
+      link "Conditional styling New" /docs/conditional
+      link RTL /docs/rtl
+      text Customization
+      text Layout
+      text Content
+      text Forms
+      text Components
+      text About
+    col
+      text Getting started danger
+      h1 Class-less version
+      text Embrace minimalism with Pico’s .classless version, a semantic option for wild HTML purists who prefer a stripped-down approach.
+    col
+      text Content
+      link "Semantic containers" /docs/classless
+      link Usage /docs/classless#usage
+      link "Custom root container" /docs/classless#root-container
+    col
+      text Pico provides a  version ().
+      row
+        text .classless
+        link example https://x4qtf8.csb.app/
+      text In this version, , , and  inside  act as  to define a centered or a fluid viewport.
+      text <header>
+      text <main>
+      text <footer>
+      text <body>
+      link containers /docs/container
+      card
+        link "Copy code" /docs/classless
+        text /* Containers */ body > header, body > main, body > footer { ... }
+      text These 2 pages have the same style:
+      card
+        link "Copy code" /docs/classless
+        text "<!-- With pico.min.css --> <body> <main class=\"container\"> <h1>Hello, world!</h1> </main> </body>"
+      card
+        link "Copy code" /docs/classless
+        text <!-- With pico.classless.min.css --> <body> <main> <h1>Hello, world!</h1> </main> </body>
+      text See the  to easily select the ideal Pico CSS version variant to match your project's needs.
+      link "version picker" /docs/version-picker
+      h2 Usage#
+      text Use the default .classless version if you need centered viewports:
+      card
+        link "Copy code" /docs/classless
+        text "<link rel=\"stylesheet\" href=\"css/pico.classless.min.css\">"
+      text Or use the .fluid.classless version if you need a fluid container:
+      card
+        link "Copy code" /docs/classless
+        text "<link rel=\"stylesheet\" href=\"css/pico.fluid.classless.min.css\">"
+      text These  versions are also available on :
+      row
+        text .classless
+        link "jsDelivr CDN" https://cdn.jsdelivr.net/npm/@picocss/pico@2/
+      card
+        link "Copy code" /docs/classless
+        text "<!-- Centered viewport --> <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css\" >"
+      card
+        link "Copy code" /docs/classless
+        text "<!-- Fluid viewport --> <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.min.css\" >"
+      h2 Root container#
+      text If you need to customize the default root container for <header>, <main>, and <footer>, you can recompile Pico with another CSS selector.
+      text Useful for , , or .
+      row
+        link React https://reactjs.org/
+        link Gatsby https://www.gatsbyjs.com/
+        link Next.js https://nextjs.org/
+      card
+        link "Copy code" /docs/classless
+        text "/* Custom Class-less version for React */ @use \"pico\" with ( // Define the root element used to target <header>, <main>, <footer> // with $enable-semantic-container and $enable-responsive-spacings $semantic-root-element: \"#root\", // Enable <header>, <main>, <footer> inside $semantic-root-element as containers $enable-semantic-container: true, // Enable .classes $enable-classes: false )"
+      text The code above will compile Pico with the containers defined like this:
+      card
+        link "Copy code" /docs/classless
+        text /* Containers */ #root > header, #root > main, #root > footer { ... }
+      text Learn more about .
+      link "compiling a custom version of Pico with SASS" /docs/sass
+      link "Edit this page on GitHub" https://github.com/picocss/picocss.com/blob/main/app/routes/docs.classless.jsx
+  col
+    row
+      region 49.34x45
+        region @0,0
+          path "M355.83 57.6809a1.998 1.998 0 0 0-1.149 1.1487l-7.814 20.317c-.658 1.7094-3.076 1.7094-3.734 0l-7.814-20.317a1.998 1.998 0 0 0-1.149-1.1487l-20.317-7.8142c-1.709-.6575-1.709-3.0759 0-3.7334l20.317-7.8142a1.998 1.998 0 0 0 1.149-1.1487l7.814-20.317c.658-1.7094 3.076-1.7094 3.734 0l7.814 20.317c.203.5281.62.9455 1.149 1.1487l20.317 7.8142c1.709.6575 1.709 3.0759 0 3.7334l-20.317 7.8142Z" 
+        region @0,0
+          path "M298.867 31.1466c-.658 1.7094-3.076 1.7094-3.734 0l-2.814-7.317a1.998 1.998 0 0 0-1.149-1.1487l-7.317-2.8142c-1.709-.6575-1.709-3.0759 0-3.7334l7.317-2.8142a1.998 1.998 0 0 0 1.149-1.1487l2.814-7.317c.658-1.7094 3.076-1.7094 3.734 0l2.814 7.317c.203.5281.62.9455 1.149 1.1487l7.317 2.8142c1.709.6575 1.709 3.0759 0 3.7334l-7.317 2.8142a1.998 1.998 0 0 0-1.149 1.1487l-2.814 7.317Z" 
+        region @0,0
+          path "M314.83 82.6809a1.998 1.998 0 0 0-1.149 1.1487l-2.814 7.317c-.658 1.7094-3.076 1.7094-3.734 0l-2.814-7.317a1.998 1.998 0 0 0-1.149-1.1487l-7.317-2.8142c-1.709-.6575-1.709-3.0759 0-3.7334l7.317-2.8142a1.998 1.998 0 0 0 1.149-1.1487l2.814-7.317c.658-1.7094 3.076-1.7094 3.734 0l2.814 7.317c.203.5281.62.9455 1.149 1.1487l7.317 2.8142c1.709.6575 1.709 3.0759 0 3.7334l-7.317 2.8142Z" 
+      row
+        row
+          text About
+          link Maintenance /docs/maintenance
+          link "What’s new?" /docs/v2
+          link Brand /docs/brand
+          link Mission /docs/mission
+          link "Usage scenarios" /docs/usage-scenarios
+        row
+          text Docs
+          link "Quick start" /docs
+          link "Version picker" /docs/version-picker
+          link "Class-less version" /docs/classless
+          link "Form elements" /docs/forms
+        row
+          text Community
+          link Issues https://github.com/picocss/pico/issues
+          link Discussions https://github.com/picocss/pico/discussions
+          link Help https://github.com/picocss/pico/discussions/categories/help
+        row
+          text Examples
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss
+          link All /examples
+      text Designed and built by  with the help of our .
+      col
+        link "Lucas Larroche" https://lucaslarroche.com/
+        link contributors https://github.com/picocss/pico/graphs/contributors
+      row
+        link GitHub https://github.com/picocss/pico
+        link Twitter https://x.com/picocss
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico
+        link NPM https://www.npmjs.com/package/@picocss/pico
+    row
+      text Code licensed , docs .
+      row
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md
+      text Currently v2.1.1.

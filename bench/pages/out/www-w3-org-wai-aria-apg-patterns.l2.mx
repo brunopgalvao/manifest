@@ -1,0 +1,154 @@
+@www_w3_org_wai_aria_apg_patterns rev=0 @0,0,728,1742
+row @17,17,694,41
+  row @17,17,431,41
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/ @17,17,152,41
+    text How to build accessibility semantics into web patterns and widgets @181,17,267,41
+  row @460,17,251,41
+    link "W3C homepage" https://www.w3.org/ @460,17,64,41
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/ @536,17,175,41
+row @17,70,694,20
+  link "APG Home" /WAI/ARIA/apg/ @17,70,73,20
+  link Patterns /WAI/ARIA/apg/patterns/ @102,70,56,20
+  link Practices /WAI/ARIA/apg/practices/ @170,70,62,20
+  link Index /WAI/ARIA/apg/example-index/ @244,70,37,20
+  link About /WAI/ARIA/apg/about/ @293,70,40,20
+h1 Patterns @17,102,694,25
+card @17,139,694,128
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/read-this-first.svg "Illustration of a brown-skinned woman with a slight smile gesturing towards the right with her hand" @34,154,0,0
+  h2 Read This First @34,166,660,21
+  text No ARIA is better than Bad ARIA. Before using any ARIA, . @34,199,660,20
+  link "Read this to understand why no ARIA is better than bad ARIA" /WAI/content-assets/wai-aria-practices/../../ARIA/apg/practices/read-me-first/ @34,231,660,21
+card @17,279,694,121
+  h2 Filter Patterns @34,294,660,21
+  row @34,327,660,58
+    row @34,327,290,58
+      region 33x33 @34,339,33,33 [2 shapes, 0 labelled]
+      field "Filter patterns" @79,327,79,58
+      button "Clear pattern filter" @170,338,154,36
+    row @336,338,275,36
+      button "Show list view" @336,338,127,36
+      button "Show tiles view" @475,338,136,36
+row @17,412,694,743
+  col @17,483,16,600
+    link "Accordion (Sections With Show/Hide Functionality)" accordion/ @17,483,16,101
+    text An accordion is a vertically stacked set of interactive headings that each contain a title, content snippet, or thumbnail representing a section of content. @17,596,16,487
+  col @45,523,14,520
+    link Alert alert/ @45,523,14,21
+    text An alert is an element that displays a brief, important message in a way that attracts the user's attention without interrupting the user's task. @45,556,14,487
+  col @71,523,13,520
+    link "Alert and Message Dialogs" alertdialog/ @71,523,13,82
+    text An alert dialog is a modal dialog that interrupts the user's workflow to communicate an important message and acquire a response. @71,617,13,426
+  col @96,564,11,438
+    link Breadcrumb breadcrumb/ @96,564,11,20
+    text A breadcrumb trail consists of a list of links to the parent pages of the current page in hierarchical order. @96,596,11,406
+  col @119,462,17,642
+    link Button button/ @119,462,17,21
+    text A button is a widget that enables users to trigger an action or event, such as submitting a form, opening a dialog, canceling an action, or performing a delete operation. @119,495,17,609
+  col @148,503,12,560
+    link "Carousel (Slide Show or Image Rotator)" carousel/ @148,503,12,122
+    text A carousel presents a set of items, referred to as slides, by sequentially displaying a subset of one or more slides. @148,637,12,426
+  col @172,442,23,682
+    link Checkbox checkbox/ @172,442,23,20
+    text WAI-ARIA supports two types of checkbox widgets: dual-state checkboxes toggle between two choices -- checked and not checked -- and tri-state checkboxes, which allow an additional third state known as partially checked. @172,474,23,650
+  col @207,655,7,256
+    link Combobox combobox/ @207,655,7,21
+    text A combobox is an input widget that has an associated popup. @207,688,7,223
+  col @226,605,8,357
+    link "Dialog (Modal)" dialog-modal/ @226,605,8,40
+    text A dialog is a window overlaid on either the primary window or another dialog window. @226,657,8,305
+  col @246,594,10,378
+    link "Disclosure (Show/Hide)" disclosure/ @246,594,10,41
+    text A disclosure is a widget that enables content to be either collapsed (hidden) or expanded (visible). @246,647,10,325
+  col @268,574,10,418
+    link Feed feed/ @268,574,10,20
+    text A feed is a section of a page that automatically loads new sections of content as the user scrolls. @268,606,10,386
+  col @290,412,19,743
+    link "Grid (Interactive Tabular Data and Layout Containers)" grid/ @290,412,19,142
+    text A grid widget is a container that enables users to navigate the information or interactive elements it contains using directional navigation keys, such as arrow keys, Home, and End. @290,566,19,589
+  col @321,615,8,337
+    link Landmarks landmarks/ @321,615,8,20
+    text Landmarks are a set of eight roles that identify the major sections of a page. @321,647,8,305
+  col @341,665,6,236
+    link Link link/ @341,665,6,21
+    text A link widget provides an interactive reference to a resource. @341,698,6,203
+  col @359,574,9,418
+    link Listbox listbox/ @359,574,9,20
+    text A listbox widget presents a list of options and allows a user to select one or more of them. @359,606,9,386
+  col @380,523,10,520
+    link "Menu and Menubar" menubar/ @380,523,10,61
+    text A menu is a widget that offers a list of choices to the user, such as a set of actions or functions. @380,596,10,447
+  col @402,574,9,418
+    link "Menu Button" menu-button/ @402,574,9,41
+    text A menu button is a button that opens a menu as described in the Menu and Menubar Pattern. @402,627,9,365
+  col @423,605,9,357
+    link Meter meter/ @423,605,9,20
+    text A meter is a graphical display of a numeric value that varies within a defined range. @423,637,9,325
+  col @444,483,14,600
+    link "Radio Group" radio/ @444,483,14,40
+    text A radio group is a set of checkable buttons, known as radio buttons, where no more than one of the buttons can be checked at a time. @444,535,14,548
+  col @470,605,8,357
+    link Slider slider/ @470,605,8,20
+    text A slider is an input where the user selects a value from within a given range. @470,637,8,325
+  col @490,574,11,418
+    link "Slider (Multi-Thumb)" slider-multithumb/ @490,574,11,41
+    text A multi-thumb slider implements the Slider Pattern but includes two or more thumbs, often on a single rail. @490,627,11,365
+  col @513,584,9,398
+    link Spinbutton spinbutton/ @513,584,9,21
+    text A spinbutton is an input widget that restricts its value to a set or range of discrete values. @513,617,9,365
+  col @534,584,8,398
+    link Switch switch/ @534,584,8,21
+    text A switch is an input widget that allows users to choose one of two values: on or off. @534,617,8,365
+  col @554,452,18,662
+    link Table table/ @554,452,18,21
+    text Like an HTML table element, a WAI-ARIA table is a static tabular structure containing one or more rows that each contain one or more cells; it is not an interactive widget. @554,485,18,629
+  col @584,544,11,479
+    link Tabs tabs/ @584,544,11,20
+    text Tabs are a set of layered sections of content, known as tab panels, that display one panel of content at a time. @584,576,11,447
+  col @607,594,10,378
+    link Toolbar toolbar/ @607,594,10,21
+    text A toolbar is a container for grouping a set of controls, such as buttons, menubuttons, or checkboxes. @607,627,10,345
+  col @629,523,15,520
+    link Tooltip tooltip/ @629,523,15,21
+    text A tooltip is a popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it. @629,556,15,487
+  col @656,676,4,215
+    link "Tree View" treeview/ @656,676,4,40
+    text A tree view widget presents a hierarchical list. @656,728,4,163
+  col @672,594,12,378
+    link Treegrid treegrid/ @672,594,12,21
+    text A treegrid widget presents a hierarchical data grid consisting of tabular information that is editable or interactive. @672,627,12,345
+  col @696,493,15,580
+    link "Window Splitter" windowsplitter/ @696,493,15,41
+    text A window splitter is a moveable separator between two sections, or panes, of a window that enables users to change the relative size of the panes. @696,546,15,527
+row @17,1167,694,21
+  h2 Help improve this page @17,1167,192,21
+text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list or via GitHub. @17,1200,694,20
+link public-aria-practices@w3.org @17,1232,694,20
+row @17,1264,694,21
+  link E-mail @17,1264,42,21
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/patterns.html @71,1264,142,21
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/ @225,1264,119,21
+link "Back to Top" #top @17,1297,694,20
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/ @17,1329,694,20
+text Strategies, standards, resources to make the Web accessible to people with disabilities @17,1361,694,21
+row @17,1394,694,20
+  link "Get News in Email" /WAI/news/subscribe/ @17,1394,120,20
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/ @149,1394,57,20
+  link Mastodon https://w3c.social/@wai @218,1394,67,20
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/ @297,1394,61,20
+row @17,1426,694,40
+  link Home /WAI/ @17,1436,37,20
+  link Contact /WAI/about/contacting/ @66,1436,48,20
+  link "Site map" /WAI/sitemap/ @126,1426,54,40
+  link "Support WAI" /WAI/about/support/ @192,1426,78,40
+  link News /WAI/news/ @282,1436,36,20
+  link "Accessibility statement" /WAI/about/accessibility-statement/ @330,1426,142,40
+  link "All Translations" /WAI/translations/ @484,1426,94,40
+  link "Resources for roles" /WAI/roles/ @590,1426,121,40
+text Copyright © 2026 . , and rules apply unless otherwise noted. See . @17,1478,694,21
+link "World Wide Web Consortium" https://www.w3.org/ @17,1511,694,20
+text W3C @17,1543,694,20
+text ® @17,1575,694,21
+link liability https://www.w3.org/policies/#disclaimers @17,1608,694,20
+link trademark https://www.w3.org/policies/#trademarks @17,1640,694,20
+link "permissive license" https://www.w3.org/copyright/software-license/ @17,1672,694,21
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/ @17,1705,694,20

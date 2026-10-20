@@ -33,6 +33,7 @@ row
   col
     row
       h1 Crate std Copy item path
+      text ·
       row
         text 1.0.0
         link Source ../src/std/lib.rs.html#1-815
@@ -45,6 +46,7 @@ row
       text Expand description
       col
         h2 §The Rust Standard Library
+        text The Rust Standard Library is the foundation of portable Rust software, a set of minimal and battle-tested shared abstractions for the . It offers core types, like  and , library-defined , ,  and , among .
         link "broader Rust ecosystem" https://crates.io
         link Vec<T> vec/struct.Vec.html
         link Option<T> option/enum.Option.html
@@ -53,11 +55,13 @@ row
         link I/O io/index.html
         link multithreading thread/index.html
         link "many other things" #what-is-in-the-standard-library-documentation
+        text is available to all Rust crates by default. Therefore, the standard library can be accessed in  statements through the path , as in .
         text std
         link use ../book/ch07-02-defining-modules-to-control-scope-and-privacy.html
         text std
         link "use std::env" env/index.html
         h2 §How to read this documentation
+        text If you already know the name of what you are looking for, the fastest way to find it is to use the  at the top of the page.
         link "search button" #
         text Otherwise, you may want to jump to one of these useful sections:
         link "std::* modules" #modules
@@ -65,18 +69,22 @@ row
         link "Standard macros" #macros
         link "The Rust Prelude" prelude/index.html
         text If this is your first time, the documentation for the standard library is written to be casually perused. Clicking on interesting things should generally lead you to interesting places. Still, there are important bits you don’t want to miss, so read on for a tour of the standard library and its documentation!
-        region 12x12
-          path "M2,2l4,4l4,-4M2,6l4,4l4,-4" fill:none stroke:#000000
+        text Once you are familiar with the contents of the standard library you may begin to find the verbosity of the prose distracting. At this stage in your development you may want to press the “ Summary” button near the top of the page to collapse it into a more skimmable view.
         text While you are looking at the top of the page, also notice the “Source” link. Rust’s API documentation comes with the source code and you are encouraged to read it. The standard library source is generally high quality and a peek behind the curtains is often enlightening.
         h2 §What is in the standard library documentation?
+        text First of all, The Rust Standard Library is divided into a number of focused modules, . These modules are the bedrock upon which all of Rust is forged, and they have mighty names like  and . Modules’ documentation typically includes an overview of the module along with examples, and are a smart place to start familiarizing yourself with the library.
         link "all listed further down this page" #modules
         link "std::slice" slice/index.html
         link "std::cmp" cmp/index.html
+        text Second, implicit methods on  are documented here. This can be a source of confusion for two reasons:
         link "primitive types" ../book/ch03-02-data-types.html
+        text While primitives are implemented by the compiler, the standard library implements methods directly on the primitive types (and it is the only library that does so), which are .
         link "documented in the section on primitives" #primitives
         text The standard library exports many modules with the same name as primitive types. These define additional items related to the primitive type, but not the all-important methods.
+        text So for example there is a  that lists all the methods that can be called on characters (very useful), and there is a  that documents iterator and error types created by these methods (rarely useful).
         link "page for the primitive type char" primitive.char.html
         link "page for the module std::char" char/index.html
+        text Note the documentation for the primitives  and  (also called ‘slice’). Many method calls on  and  are actually calls to methods on  and  respectively, via .
         link str primitive.str.html
         link [T] primitive.slice.html
         link String string/struct.String.html
@@ -84,16 +92,21 @@ row
         link str primitive.str.html
         link [T] primitive.slice.html
         link "deref coercions" ../book/ch15-02-deref.html#implicit-deref-coercions-with-functions-and-methods
+        text Third, the standard library defines , a small collection of items - mostly traits - that are imported into every module of every crate. The traits in the prelude are pervasive, making the prelude documentation a good entry point to learning about the library.
         link "The Rust Prelude" prelude/index.html
+        text And finally, the standard library exports a number of standard macros, and  (technically, not all of the standard macros are defined by the standard library - some are defined by the compiler - but they are documented here the same). Like the prelude, the standard macros are imported by default into all crates.
         link "lists them on this page" #macros
         h2 §Contributing changes to the documentation
+        text Check out the Rust contribution guidelines . The source for this documentation can be found on  in the ‘library/std/’ directory. To contribute changes, make sure you read the guidelines first, then submit pull-requests for your suggested changes.
         row
           link here https://rustc-dev-guide.rust-lang.org/contributing.html#writing-documentation
           link GitHub https://github.com/rust-lang/rust
+        text "Contributions are appreciated! If you see a part of the docs that can be improved, submit a PR, or chat with us first on  #t-libs."
         link Zulip https://rust-lang.zulipchat.com/#narrow/channel/219381-t-libs/
         h2 §A Tour of The Rust Standard Library
         text The rest of this crate documentation is dedicated to pointing out notable features of The Rust Standard Library.
         h3 §Containers and collections
+        text The  and  modules define optional and error-handling types,  and . The  module defines Rust’s iterator trait, , which works with the  loop to access collections.
         link option option/index.html
         link result result/index.html
         link Option<T> option/enum.Option.html
@@ -102,37 +115,46 @@ row
         link Iterator iter/trait.Iterator.html
         link for ../book/ch03-05-control-flow.html#looping-through-a-collection-with-for
         text The standard library exposes three common ways to deal with contiguous regions of memory:
+        text - A heap-allocated  that is resizable at runtime.
         row
           link Vec<T> vec/struct.Vec.html
           text vector
+        text - An inline  with a fixed size at compile time.
         row
           link "[T; N]" primitive.array.html
           text array
+        text - A dynamically sized  into any other kind of contiguous storage, whether heap-allocated or not.
         row
           link [T] primitive.slice.html
           text slice
         text Slices can only be handled through some kind of pointer, and as such come in many flavors such as:
         text &[T] - shared slice
         text &mut [T] - mutable slice
+        text -
         row
           link Box<[T]> boxed/index.html
           text owned slice
+        text , a UTF-8 string slice, is a primitive type, and the standard library defines many methods for it. Rust s are typically accessed as immutable references: . Use the owned  for building and mutating strings.
         link str primitive.str.html
         link str primitive.str.html
         text &str
         link String string/struct.String.html
+        text For converting to strings use the  macro, and for converting from strings use the  trait.
         row
           link format! macro.format.html
           link FromStr str/trait.FromStr.html
+        text Data may be shared by placing it in a reference-counted box or the  type, and if further contained in a  or , may be mutated as well as shared. Likewise, in a concurrent setting it is common to pair an atomically-reference-counted box, , with a  to get the same effect.
         link Rc rc/struct.Rc.html
         link Cell cell/struct.Cell.html
         link RefCell cell/struct.RefCell.html
         link Arc sync/struct.Arc.html
         link Mutex sync/struct.Mutex.html
+        text The  module defines maps, sets, linked lists and other typical collection types, including the common .
         link collections collections/index.html
         link "HashMap<K, V>" collections/struct.HashMap.html
         h3 §Platform abstractions and I/O
         text Besides basic data types, the standard library is largely concerned with abstracting over differences in common platforms, most notably Windows and Unix derivatives.
+        text Common types of I/O, including , , and , are defined in the , , and  modules.
         row
           link files fs/struct.File.html
           link TCP net/struct.TcpStream.html
@@ -140,6 +162,7 @@ row
           link io io/index.html
           link fs fs/index.html
           link net net/index.html
+        text The  module contains Rust’s threading abstractions.  contains further primitive shared memory types, including ,  and , which contains the channel types for message passing.
         link thread thread/index.html
         link sync sync/index.html
         link atomic sync/atomic/index.html
@@ -150,6 +173,7 @@ row
         text On the other hand core and alloc are most likely to work in such environments with the caveat that any hookable behavior such as panics, oom handling or allocators will also depend on the compatibility of the hooks.
         text Some features may also behave differently outside main, e.g. stdio could become unbuffered, some panics might turn into aborts, backtraces might not get symbolicated or similar.
         text Non-exhaustive list of known limitations:
+        text after-main use of thread-locals, which also affects additional features:
         link "thread::current()" thread/fn.current.html
         text under UNIX, before main, file descriptors 0, 1, and 2 may be unchanged (they are guaranteed to be open during main, and are opened to /dev/null O_RDWR if they weren’t open on program start)
     h2 Primitive Types§
@@ -269,28 +293,34 @@ row
       row
         link i8 i8/index.html
         text Deprecated
+      text Redundant constants module for the .
       link "i8 primitive type" primitive.i8.html
       row
         link i16 i16/index.html
         text Deprecated
+      text Redundant constants module for the .
       link "i16 primitive type" primitive.i16.html
       row
         link i32 i32/index.html
         text Deprecated
+      text Redundant constants module for the .
       link "i32 primitive type" primitive.i32.html
       row
         link i64 i64/index.html
         text Deprecated
+      text Redundant constants module for the .
       link "i64 primitive type" primitive.i64.html
       row
         link i128 i128/index.html
         text Deprecated
+      text Redundant constants module for the .
       link "i128 primitive type" primitive.i128.html
       link io io/index.html
       text Traits, helpers, and type definitions for core I/O functionality.
       row
         link isize isize/index.html
         text Deprecated
+      text Redundant constants module for the .
       link "isize primitive type" primitive.isize.html
       link iter iter/index.html
       text Composable external iteration.
@@ -345,26 +375,32 @@ row
       row
         link u8 u8/index.html
         text Deprecated
+      text Redundant constants module for the .
       link "u8 primitive type" primitive.u8.html
       row
         link u16 u16/index.html
         text Deprecated
+      text Redundant constants module for the .
       link "u16 primitive type" primitive.u16.html
       row
         link u32 u32/index.html
         text Deprecated
+      text Redundant constants module for the .
       link "u32 primitive type" primitive.u32.html
       row
         link u64 u64/index.html
         text Deprecated
+      text Redundant constants module for the .
       link "u64 primitive type" primitive.u64.html
       row
         link u128 u128/index.html
         text Deprecated
+      text Redundant constants module for the .
       link "u128 primitive type" primitive.u128.html
       row
         link usize usize/index.html
         text Deprecated
+      text Redundant constants module for the .
       link "usize primitive type" primitive.usize.html
       link vec vec/index.html
       text A contiguous growable array type with heap-allocated contents, written Vec<T>.
@@ -429,10 +465,12 @@ row
       link assert macro.assert.html
       text Asserts that a boolean expression is true at runtime.
       link assert_eq macro.assert_eq.html
+      text Asserts that two expressions are equal to each other (using ).
       link PartialEq cmp/trait.PartialEq.html
       link assert_matches macro.assert_matches.html
       text Asserts that an expression matches the provided pattern.
       link assert_ne macro.assert_ne.html
+      text Asserts that two expressions are not equal to each other (using ).
       link PartialEq cmp/trait.PartialEq.html
       link cfg macro.cfg.html
       text Evaluates boolean combinations of configuration flags at compile-time.
@@ -491,6 +529,7 @@ row
       link stringify macro.stringify.html
       text Stringifies its arguments.
       link thread_local macro.thread_local.html
+      text Declare a new thread local storage key of type .
       link "std::thread::LocalKey" thread/struct.LocalKey.html
       link todo macro.todo.html
       text Indicates unfinished code.
@@ -503,6 +542,7 @@ row
       link unreachable macro.unreachable.html
       text Indicates unreachable code.
       link vec macro.vec.html
+      text Creates a  containing the arguments.
       link Vec vec/struct.Vec.html
       link write macro.write.html
       text Writes formatted data into a buffer.
@@ -515,10 +555,12 @@ row
       row
         link const_format_args macro.const_format_args.html
         text Experimental
+      text Same as , but can be used in some const contexts.
       link format_args macro.format_args.html
       row
         link hash_map macro.hash_map.html
         text Experimental
+      text Creates a  containing the arguments.
       link HashMap collections/struct.HashMap.html
       row
         link log_syntax macro.log_syntax.html
@@ -531,14 +573,17 @@ row
     h2 Keywords§
     row
       link SelfTy keyword.SelfTy.html
+      text The implementing type within a  or  block, or the current type within a type definition.
       row
         link trait keyword.trait.html
         link impl keyword.impl.html
       link as keyword.as.html
       text Cast between types, rename an import, or qualify paths to associated items.
       link async keyword.async.html
+      text Returns a  instead of blocking the current thread.
       link Future future/trait.Future.html
       link await keyword.await.html
+      text Suspend execution until the result of a  is ready.
       link Future future/trait.Future.html
       link become keyword.become.html
       text Perform a tail-call of a function.
@@ -551,10 +596,12 @@ row
       link crate keyword.crate.html
       text A Rust binary or library.
       link dyn keyword.dyn.html
+      text is a prefix of a ’s type.
       row
         text dyn
         link "trait object" ../book/ch17-02-trait-objects.html
       link else keyword.else.html
+      text What expression to evaluate when an  condition evaluates to .
       row
         link if keyword.if.html
         link false keyword.false.html
@@ -563,12 +610,14 @@ row
       link extern keyword.extern.html
       text Link to or import external code.
       link false keyword.false.html
+      text A value of type  representing logical .
       row
         link bool primitive.bool.html
         text false
       link fn keyword.fn.html
       text A function or function pointer.
       link for keyword.for.html
+      text Iteration with , trait implementation with , or  ().
       col
         link in keyword.in.html
         link impl keyword.impl.html
@@ -579,6 +628,7 @@ row
       link impl keyword.impl.html
       text Implementations of functionality for a type, or a type implementing some functionality.
       link in keyword.in.html
+      text Iterate over a series of values with .
       link for keyword.for.html
       link let keyword.let.html
       text Bind a value to a variable.
@@ -587,8 +637,10 @@ row
       link match keyword.match.html
       text Control flow based on pattern matching.
       link mod keyword.mod.html
+      text Organize code into .
       link modules ../reference/items/modules.html
       link move keyword.move.html
+      text Capture a ’s environment by value.
       link closure ../book/ch13-01-closures.html
       link mut keyword.mut.html
       text A mutable variable, reference, or pointer.
@@ -605,18 +657,23 @@ row
       link struct keyword.struct.html
       text A type that is composed of other types.
       link super keyword.super.html
+      text The parent of the current .
       link module ../reference/items/modules.html
       link trait keyword.trait.html
       text A common interface for a group of types.
       link true keyword.true.html
+      text A value of type  representing logical .
       row
         link bool primitive.bool.html
         text true
       link type keyword.type.html
+      text Define an  for an existing type.
       link alias ../reference/items/type-aliases.html
       link union keyword.union.html
+      text The .
       link "Rust equivalent of a C-style union" ../reference/items/unions.html
       link unsafe keyword.unsafe.html
+      text Code or interfaces whose  cannot be verified by the type system.
       link "memory safety" ../book/ch19-01-unsafe-rust.html
       link use keyword.use.html
       text Import or rename items from other crates or modules, use values under ergonomic clones semantic, or specify precise capturing with use<..>.
@@ -631,6 +688,7 @@ row
     h2 Attributes§
     row
       link allow attribute.allow.html
+      text The  attribute suppresses lint diagnostics that would otherwise produce warnings or errors. It can be used on any lint or lint group (except those set to ).
       col
         text allow
         link forbid ./attribute.forbid.html

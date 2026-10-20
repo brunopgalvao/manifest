@@ -1,0 +1,88 @@
+@www_usa_gov_voting_and_elections rev=0 @0,0,728,1652
+link "Skip to main content" #skip-to-h1 @17,17,694,20
+row @17,49,694,37
+  text An official website of the United States government @17,57,342,21
+  button "Here's how you know" @371,49,177,37
+text Home Close Search 1-844-USAGOV1 Voting and elections Voter registration How, when, and where to vote Decide who to vote for Find my state or local election office Congressional, state, and local elections Voting and election laws How the president is elected Inauguration of the president Results of past elections @17,98,694,81
+row @17,191,694,20
+  region Information 300x150 @17,191,76,20 [0 shapes, 0 labelled]
+  text Visit to learn how to register to vote or to update your registration. @105,191,438,20
+  link vote.gov https://www.vote.gov @555,191,58,20
+row @17,223,694,106
+  link "USAGov Logo" / @17,266,93,20
+  col @122,223,377,106
+    button Español primary @122,223,377,36
+    row @122,271,377,58
+      link "Call us at 1-844-USAGOV1" /phone @122,290,176,20
+      row @310,271,189,58
+        text Search @310,290,47,20
+        field Search search @369,271,40,58
+        button Search primary @421,282,78,36
+row @17,341,694,41
+  link "All topics and services" /#all-topics-header @17,341,94,41
+  link "The U.S. and its government" /about-the-us @123,341,119,41
+  link "Government benefits" /benefits @254,341,89,41
+  link "Immigration and U.S. citizenship" /immigration-and-citizenship @355,341,135,41
+  link "Money and credit" /money @502,341,73,41
+  link Travel /travel @587,351,26,21
+  link "Voting and elections" /voting-and-elections @625,341,86,41
+row @17,394,694,763
+  col @17,394,676,763
+    row @17,394,676,20
+      link Home / @17,394,40,20
+      text Voting and elections @69,394,136,20
+    h1 Voting and elections @17,426,676,25
+    h2 Most popular @17,463,676,21
+    link "Learn how to update your name, address, and party affiliation on your voter registration" /change-voter-registration @17,496,676,21
+    link "Find out the requirements for presidential candidates" /requirements-for-presidential-candidates @17,529,676,20
+    link "Contact your state and local election office" /state-local-elections @17,561,676,20
+    text Find out how to register to vote, where your voting location is, how presidential elections work, and more about voting in the United States. @17,593,676,41
+    row @17,646,676,406
+      link "Voter registration Learn how and when to register to vote, get a voter card, or change your address or name on your voter registration." /voter-registration @17,676,58,345
+      link "How, when, and where to vote See how to vote absentee, early, or on Election Day. Learn about voter IDs and who you can vote for." /how-to-vote @87,646,56,406
+      link "Decide who to vote for Learn how to make informed choices by using voter guides and sample ballots to research candidates." /voter-research @155,666,54,365
+      link "State and local election offices Find and contact your state or local election office for help with registering and voting." /state-election-office @221,656,50,386
+      link "Congressional, state, and local elections Congressional elections take place every two years. A variety of local and state elections happen every year. Learn about upcoming elections near you." /midterm-state-and-local-elections @283,656,82,386
+      link "Voting and election laws Find answers to common questions about voting rules and rights in the United States." /voting-laws @377,676,48,345
+      link "How the president is elected Find out how a candidate becomes president of the United States. Learn about caucuses and primaries, political conventions, the Electoral College, and more." /election @437,646,80,406
+      link "Inauguration of the president of the United States Inauguration Day is the day when the president-elect and vice-president-elect are sworn in and take office." /inauguration @529,676,67,345
+      link "Find results from past elections Get election results from past House, Senate, and presidential elections. Learn about past Electoral College results. Find out where to get state and local election results." /election-results @608,656,85,386
+    row @17,1064,676,20
+      text Looking for something else? @17,1064,187,20
+      link "Explore all topics and services" /#all-topics-header @216,1064,201,20
+    row @17,1096,676,61
+      text SHARE THIS PAGE: @17,1096,48,61
+      row @77,1116,616,21
+        link https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/voting-and-elections&v=3 https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/voting-and-elections&v=3 @77,1116,236,21
+        link https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fvoting-and-elections https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fvoting-and-elections @325,1116,214,21
+        link mailto:?subject=https://www.usa.gov/voting-and-elections mailto:?subject=https://www.usa.gov/voting-and-elections @551,1116,142,21
+  link "Back to top" #main-content @705,745,6,61
+row @17,1169,694,136
+  col @17,1169,371,136
+    h3 Government information @17,1169,371,19
+    link "All topics and services" /#all-topics-header @17,1200,371,20
+    link "Directory of U.S. government agencies and departments" /agency-index @17,1232,371,41
+    link "Branches of government" /branches-of-government @17,1285,371,20
+  col @400,1169,149,136
+    h3 About us @400,1169,149,19
+    link "About USAGov" /about @400,1200,149,20
+    link "Report a website issue" /site-issue-report-form @400,1232,149,41
+    link "Website usage data" /website-analytics/ @400,1285,149,20
+  col @561,1186,150,102
+    h3 For federal agencies @561,1186,150,37
+    link "Partner with us" /partner-with-usagov @561,1235,150,21
+    link "Read our blog" /blog @561,1268,150,20
+row @17,1317,694,83
+  col @17,1317,235,83
+    h3 USAGov Contact Center @17,1317,235,19
+    text Ask USA.gov a question at @17,1348,235,20
+    link "1-844-USAGOV1 (1-844-872-4681)" /phone @17,1380,235,20
+text USAGov is the official guide to government information and services @17,1412,694,21
+text An official website of the @17,1445,694,20
+link "U.S. General Services Administration" https://www.gsa.gov/ @17,1477,694,20
+text This website complies with Executive Order . English is the official language of the U.S. Government, and the English-language version of this website is the authoritative source for all federal information contained herein. @17,1509,694,61
+link 14224 https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states @17,1582,694,20
+row @17,1614,694,21
+  link "Accessibility policy" /accessibility-policy @17,1614,127,21
+  link "Privacy and security policies" /privacy-security @156,1614,190,21
+  link "FOIA requests" https://www.gsa.gov/reference/freedom-of-information-act-foia @358,1614,95,21

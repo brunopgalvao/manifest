@@ -1,0 +1,925 @@
+@en_wikipedia_org_wiki_special_recentchan
+link "Jump to content" #bodyContent
+row
+  row
+    col
+      button "Main menu"
+      text Main menu
+      row
+        text Main menu
+        button "Move Main menu to sidebar"
+      link "Main page" /wiki/Main_Page
+      link Contents /wiki/Wikipedia:Contents
+      link "Current events" /wiki/Portal:Current_events
+      link "Random article" /wiki/Special:Random
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      text Contribute
+      link Help /wiki/Help:Contents
+      link "Learn to edit" /wiki/Help:Introduction
+      link "Community portal" /wiki/Wikipedia:Community_portal
+      link "Recent changes" /wiki/Special:RecentChanges
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard
+      link "Special pages" /wiki/Special:SpecialPages
+    link /wiki/Main_Page /wiki/Main_Page
+  row
+    row
+      col
+        field "Search Wikipedia" search
+      button Search
+    row
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+      link "Create account" /w/index.php?title=Special:CreateAccount&returnto=Special%3ARecentChanges
+      link "Log in" /w/index.php?title=Special:UserLogin&returnto=Special%3ARecentChanges
+row
+  row
+    row
+      h1 Recent changes
+      link Help https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Recent_changes
+    col
+      text English
+      button Tools
+      text Tools
+      row
+        text Tools
+        button "Move Tools to sidebar"
+      text General
+      link Atom /w/api.php?hidebots=1&hidecategorization=1&hideWikibase=1&urlversion=1&days=1&limit=50&action=feedrecentchanges&feedformat=atom
+      link "Printable version" javascript:print();
+      link "Get shortened URL" /w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpecial%3ARecentChanges
+    col
+      row
+        text Appearance
+        button "Hide Appearance"
+      text Text
+      text Small
+      text Standard
+      text Large
+      text This page always uses small font size
+      text Width
+      text Standard
+      text Wide
+      text Color
+      text Automatic
+      text Light
+      text Dark
+    col
+      text This is a list of recent changes to Wikipedia.
+      button "Other review tools"
+      card
+        row
+          text Active filters
+          button Hide
+        row
+          row
+            row
+              text Human (not bot)
+              button "Remove 'Human (not bot)'"
+            row
+              text Page edits
+              button "Remove 'Page edits'"
+            row
+              text Page creations
+              button "Remove 'Page creations'"
+            row
+              text Logged actions
+              button "Remove 'Logged actions'"
+            row
+              text Account creations
+              button "Remove 'Account creations'"
+          button "Clear all filters"
+      row
+        field "Filter changes (use menu or search for filter name)"
+        row
+          button "Filter results by namespace"
+          button "Filter results using edit tags"
+      row
+        button "Live updates"
+        button "50 changes, 1 day"
+      text List of abbreviations ():
+      link help /wiki/Help:Watchlist#How_to_read_a_watchlist_(or_Recent_Changes)
+      text D
+      text Edit made at
+      link Wikidata /wiki/Wikipedia:Wikidata
+      text r
+      text Edit flagged by
+      link ORES https://www.mediawiki.org/wiki/Special:MyLanguage/ORES_review_tool
+      text N
+      link "New page" /wiki/Special:NewPages
+      text m
+      link "Minor edit" /wiki/Help:Minor_edit
+      text b
+      link "Bot edit" /wiki/Wikipedia:Bots
+      text (±123) success
+      text Page byte size change
+      region 20x13
+      text Temporarily watched page
+      h3 20 October 2026
+      row
+        text diff
+        link hist /w/index.php?title=Category_talk:Olympic_bronze_medalists_in_baseball&curid=84571777&action=history
+      text N
+      link "Category talk:Olympic bronze medalists in baseball" /wiki/Category_talk:Olympic_bronze_medalists_in_baseball
+      text "05:10"
+      text +151 success
+      link Jevansen /wiki/User:Jevansen
+      row
+        link talk /wiki/User_talk:Jevansen
+        link contribs /wiki/Special:Contributions/Jevansen
+      text (added WikiProject/s)
+      text :
+      row
+        link Tag /wiki/Special:Tags
+        link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        text diff
+        link hist /w/index.php?title=Category_talk:21st-century_Canadian_male_novelists&curid=84571776&action=history
+      text N
+      link "Category talk:21st-century Canadian male novelists" /wiki/Category_talk:21st-century_Canadian_male_novelists
+      text "05:10"
+      text +143 success
+      link Jevansen /wiki/User:Jevansen
+      row
+        link talk /wiki/User_talk:Jevansen
+        link contribs /wiki/Special:Contributions/Jevansen
+      text (added WikiProject/s)
+      text :
+      row
+        link Tag /wiki/Special:Tags
+        link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        link diff /w/index.php?title=2008%E2%80%9309_British_Basketball_League_season&curid=25128921&diff=1381129911&oldid=1369359435
+        link hist /w/index.php?title=2008%E2%80%9309_British_Basketball_League_season&curid=25128921&action=history
+      link "2008–09 British Basketball League season" /wiki/2008%E2%80%9309_British_Basketball_League_season
+      text "05:10"
+      text −28 danger
+      link Michaelwallace22 /wiki/User:Michaelwallace22
+      row
+        link talk /wiki/User_talk:Michaelwallace22
+        link contribs /wiki/Special:Contributions/Michaelwallace22
+      text ()
+      link "→First leg" /wiki/2008%E2%80%9309_British_Basketball_League_season#First_leg
+      text :
+      row
+        link Tags /wiki/Special:Tags
+        text Mobile edit
+        text Mobile web edit
+        link "Advanced mobile edit" https://www.mediawiki.org/wiki/Special:MyLanguage/Reading/Web/Advanced_mobile_contributions
+      row
+        text diff
+        link hist /w/index.php?title=Category_talk:Basketball_players_from_Kansas_by_populated_place&curid=84571775&action=history
+      text N
+      link "Category talk:Basketball players from Kansas by populated place" /wiki/Category_talk:Basketball_players_from_Kansas_by_populated_place
+      text "05:10"
+      text +151 success
+      link Jevansen /wiki/User:Jevansen
+      row
+        link talk /wiki/User_talk:Jevansen
+        link contribs /wiki/Special:Contributions/Jevansen
+      text (added WikiProject/s)
+      text :
+      row
+        link Tag /wiki/Special:Tags
+        link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        row
+          text diff
+          link hist /w/index.php?title=Wojtera&curid=84571774&action=history
+        text N
+        link Wojtera /w/index.php?title=Wojtera&redirect=no
+        text "05:10"
+        text +27 success
+        link Altenmann /wiki/User:Altenmann
+        row
+          link talk /wiki/User_talk:Altenmann
+          link contribs /wiki/Special:Contributions/Altenmann
+        text (Redirected page to )
+        row
+          link ← /wiki/Wikipedia:AES
+          link "Marek Wojtera" /wiki/Marek_Wojtera
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          text New redirect
+      row
+        link diff /w/index.php?title=Tree_Aid&curid=27015678&diff=1381129904&oldid=1381129874
+        link hist /w/index.php?title=Tree_Aid&curid=27015678&action=history
+      link "Tree Aid" /wiki/Tree_Aid
+      text "05:10"
+      text +9 success
+      link RJFJR /wiki/User:RJFJR
+      row
+        link talk /wiki/User_talk:RJFJR
+        link contribs /wiki/Special:Contributions/RJFJR
+      text ( move re out of heading)
+      text :
+      link "→Restoring Land with Dryland Development{{Cite web |title=Restoring land with Dryland Development |url=https://www.treeaid.org/projects/burkina-faso/dryland-development/ |access-date=2021-06-22 |website=Tree Aid}}" /wiki/Tree_Aid#Restoring_Land_with_Dryland_Development{{Cite_web_|title=Restoring_land_with_Dryland_Development_|url=https://www.treeaid.org/projects/burkina-faso/dryland-development/_|access-date=2021-06-22_|website=Tree_Aid}}
+      row
+        row
+          text diff
+          link hist /w/index.php?title=Category_talk:French_women_photographers_by_century&curid=84571772&action=history
+        text N
+        link "Category talk:French women photographers by century" /wiki/Category_talk:French_women_photographers_by_century
+        text "05:10"
+        text +125 success
+        link Jevansen /wiki/User:Jevansen
+        row
+          link talk /wiki/User_talk:Jevansen
+          link contribs /wiki/Special:Contributions/Jevansen
+        text (added WikiProject/s)
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        text diff
+        link hist /w/index.php?title=Prophetstown_Lyndon_CUSD_3&curid=84571773&action=history
+      text N
+      link "Prophetstown Lyndon CUSD 3" /w/index.php?title=Prophetstown_Lyndon_CUSD_3&redirect=no
+      text "05:10"
+      text +152 success
+      link WhisperToMe /wiki/User:WhisperToMe
+      row
+        link talk /wiki/User_talk:WhisperToMe
+        link contribs /wiki/Special:Contributions/WhisperToMe
+      text "(Stated in https://www.isbe.net/Documents/reorg_history.pdf PDF p. 9/20)"
+      text :
+      row
+        link Tag /wiki/Special:Tags
+        text New redirect
+      row
+        row
+          link diff /w/index.php?title=Melbourne_International_Jazz_Festival&curid=13545909&diff=1381129902&oldid=1340285888
+          link hist /w/index.php?title=Melbourne_International_Jazz_Festival&curid=13545909&action=history
+        link "Melbourne International Jazz Festival" /wiki/Melbourne_International_Jazz_Festival
+        text "05:10"
+        text −3 danger
+        link Wamalotpark /wiki/User:Wamalotpark
+        row
+          link talk /wiki/User_talk:Wamalotpark
+          link contribs /wiki/Special:Contributions/Wamalotpark
+        text ()
+        link "MOS:GEOLINK" /wiki/MOS:GEOLINK
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link "Visual edit" /wiki/Wikipedia:VisualEditor
+      row
+        row
+          link diff /w/index.php?title=Cormac_Izuchukwu&curid=64342014&diff=1381129903&oldid=1380749044
+          link hist /w/index.php?title=Cormac_Izuchukwu&curid=64342014&action=history
+        link "Cormac Izuchukwu" /wiki/Cormac_Izuchukwu
+        text "05:10"
+        text +12 success
+        link Stonecold415 /wiki/User:Stonecold415
+        row
+          link talk /wiki/User_talk:Stonecold415
+          link contribs /wiki/Special:Contributions/Stonecold415
+        text ()
+        link →(top) /wiki/Cormac_Izuchukwu
+        text :
+        row
+          link Tags /wiki/Special:Tags
+          text Mobile edit
+          text Mobile web edit
+      row
+        text diff
+        link hist /w/index.php?title=Category_talk:Mediterranean_Games_bronze_medalists_in_tennis&curid=84571771&action=history
+      text N
+      link "Category talk:Mediterranean Games bronze medalists in tennis" /wiki/Category_talk:Mediterranean_Games_bronze_medalists_in_tennis
+      text "05:10"
+      text +159 success
+      link Jevansen /wiki/User:Jevansen
+      row
+        link talk /wiki/User_talk:Jevansen
+        link contribs /wiki/Special:Contributions/Jevansen
+      text (added WikiProject/s)
+      text :
+      row
+        link Tag /wiki/Special:Tags
+        link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        row
+          link diff /w/index.php?title=Mayberry_(song)&curid=13153666&diff=1381129899&oldid=1353303073
+          link hist /w/index.php?title=Mayberry_(song)&curid=13153666&action=history
+        link "Mayberry (song)" /wiki/Mayberry_(song)
+        text "05:10"
+        text +2 success
+        link "Hayden Clay" /w/index.php?title=User:Hayden_Clay&action=edit&redlink=1
+        row
+          link talk /wiki/User_talk:Hayden_Clay
+          link contribs /wiki/Special:Contributions/Hayden_Clay
+        text ()
+        link →top /wiki/Mayberry_(song)#top
+        text :
+        row
+          link Tags /wiki/Special:Tags
+          text Mobile edit
+          text Mobile app edit
+          text Android app edit
+          link "App full source" https://www.mediawiki.org/wiki/Wikimedia_Apps/Mobile_App_Edits_Revision_Tags#app-full-source
+      row
+        text diff
+        link hist /w/index.php?title=Category_talk:19th-century_Polish_Roman_Catholic_theologians&curid=84571770&action=history
+      text N
+      link "Category talk:19th-century Polish Roman Catholic theologians" /wiki/Category_talk:19th-century_Polish_Roman_Catholic_theologians
+      text "05:10"
+      text +148 success
+      link Jevansen /wiki/User:Jevansen
+      row
+        link talk /wiki/User_talk:Jevansen
+        link contribs /wiki/Special:Contributions/Jevansen
+      text (added WikiProject/s)
+      text :
+      row
+        link Tag /wiki/Special:Tags
+        link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        link diff /w/index.php?title=User_talk:Draggwiki&curid=84557799&diff=1381129896&oldid=1380971932
+        link hist /w/index.php?title=User_talk:Draggwiki&curid=84557799&action=history
+      link "User talk:Draggwiki" /wiki/User_talk:Draggwiki
+      text "05:10"
+      text +4,404 success
+      link "Silvers Rayleigh" /wiki/User:Silvers_Rayleigh
+      row
+        link talk /wiki/User_talk:Silvers_Rayleigh
+        link contribs /wiki/Special:Contributions/Silvers_Rayleigh
+      text (Notification: Your  has been declined)
+      link "Articles for Creation submission" /wiki/Draft:Bloxdio
+      text :
+      row
+        link Tag /wiki/Special:Tags
+        link AFCH /wiki/Wikipedia:AFCH
+      row
+        link diff /w/index.php?title=Draft:Bloxdio&curid=84571606&diff=1381129897&oldid=1381129590
+        link hist /w/index.php?title=Draft:Bloxdio&curid=84571606&action=history
+      link "Draft:Bloxdio" /wiki/Draft:Bloxdio
+      text "05:10"
+      text +21 success
+      link "Silvers Rayleigh" /wiki/User:Silvers_Rayleigh
+      row
+        link talk /wiki/User_talk:Silvers_Rayleigh
+        link contribs /wiki/Special:Contributions/Silvers_Rayleigh
+      text (Declining submission: nn - Submission is about a topic not yet shown to meet general notability guidelines (be more specific if possible))
+      text :
+      row
+        link Tag /wiki/Special:Tags
+        link AFCH /wiki/Wikipedia:AFCH
+      row
+        row
+          link diff /w/index.php?title=User:Bleff/sandboxbombing&curid=84561230&diff=1381129894&oldid=1381129177
+          link hist /w/index.php?title=User:Bleff/sandboxbombing&curid=84561230&action=history
+        link "User:Bleff/sandboxbombing" /wiki/User:Bleff/sandboxbombing
+        text "05:10"
+        text +715 success
+        link Bleff /wiki/User:Bleff
+        row
+          link talk /wiki/User_talk:Bleff
+          link contribs /wiki/Special:Contributions/Bleff
+        text ()
+        link →Bibliography /wiki/User:Bleff/sandboxbombing#Bibliography
+      row
+        row
+          link diff /w/index.php?title=Talk:Animated_object&curid=84547153&diff=1381129895&oldid=1381129124
+          link hist /w/index.php?title=Talk:Animated_object&curid=84547153&action=history
+        link "Talk:Animated object" /wiki/Talk:Animated_object
+        text "05:10"
+        text +480 success
+        link T.Ludovicianus /wiki/User:T.Ludovicianus
+        row
+          link talk /wiki/User_talk:T.Ludovicianus
+          link contribs /wiki/Special:Contributions/T.Ludovicianus
+        text ( Reply)
+        text :
+        link "→Feedback on your article draft" /wiki/Talk:Animated_object#Feedback_on_your_article_draft
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link Reply https://www.mediawiki.org/wiki/Special:MyLanguage/Help:DiscussionTools
+      row
+        row
+          text diff
+          link hist /w/index.php?title=Category_talk:1998_mass_shootings_in_Asia&curid=84571769&action=history
+        text N
+        link "Category talk:1998 mass shootings in Asia" /wiki/Category_talk:1998_mass_shootings_in_Asia
+        text "05:10"
+        text +143 success
+        link Jevansen /wiki/User:Jevansen
+        row
+          link talk /wiki/User_talk:Jevansen
+          link contribs /wiki/Special:Contributions/Jevansen
+        text (added WikiProject/s)
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        link diff /w/index.php?title=Purcell_School_for_Young_Musicians&curid=2916394&diff=1381129891&oldid=1370687791
+        link hist /w/index.php?title=Purcell_School_for_Young_Musicians&curid=2916394&action=history
+      link "Purcell School for Young Musicians" /wiki/Purcell_School_for_Young_Musicians
+      text "05:10"
+      text +47 success
+      link "Ser Amantio di Nicolao" /wiki/User:Ser_Amantio_di_Nicolao
+      row
+        link talk /wiki/User_talk:Ser_Amantio_di_Nicolao
+        link contribs /wiki/Special:Contributions/Ser_Amantio_di_Nicolao
+      text (added  using )
+      link "Category:People educated at Purcell School" /wiki/Category:People_educated_at_Purcell_School
+      link HotCat /wiki/Wikipedia:HC
+      row
+        link "User creation log" /wiki/Special:Log/newusers
+        text "05:10"
+        text User account   was created
+        row
+          link "El mundo de los autos" /w/index.php?title=User:El_mundo_de_los_autos&action=edit&redlink=1
+          row
+            link talk /w/index.php?title=User_talk:El_mundo_de_los_autos&action=edit&redlink=1
+            link contribs /wiki/Special:Contributions/El_mundo_de_los_autos
+        text :
+        row
+          link Tags /wiki/Special:Tags
+          text Mobile edit
+          text Mobile web edit
+      row
+        text diff
+        link hist /w/index.php?title=Prophetstown-Lyndon_CUSD_3&curid=84571768&action=history
+      text N
+      link "Prophetstown-Lyndon CUSD 3" /w/index.php?title=Prophetstown-Lyndon_CUSD_3&redirect=no
+      text "05:10"
+      text +152 success
+      link WhisperToMe /wiki/User:WhisperToMe
+      row
+        link talk /wiki/User_talk:WhisperToMe
+        link contribs /wiki/Special:Contributions/WhisperToMe
+      text "(Stated in https://www.isbe.net/Documents/reorg_history.pdf PDF p. 9/20)"
+      text :
+      row
+        link Tag /wiki/Special:Tags
+        text New redirect
+      row
+        row
+          link diff /w/index.php?title=Jack_Murphy_(rugby_union)&curid=78649606&diff=1381129888&oldid=1380749395
+          link hist /w/index.php?title=Jack_Murphy_(rugby_union)&curid=78649606&action=history
+        link "Jack Murphy (rugby union)" /wiki/Jack_Murphy_(rugby_union)
+        text "05:10"
+        text +59 success
+        link Stonecold415 /wiki/User:Stonecold415
+        row
+          link talk /wiki/User_talk:Stonecold415
+          link contribs /wiki/Special:Contributions/Stonecold415
+        text ()
+        link →(top) /wiki/Jack_Murphy_(rugby_union)
+        text :
+        row
+          link Tags /wiki/Special:Tags
+          text Mobile edit
+          text Mobile web edit
+      row
+        row
+          text diff
+          link hist /w/index.php?title=Category_talk:Olympic_silver_medalists_in_basketball&curid=84571767&action=history
+        text N
+        link "Category talk:Olympic silver medalists in basketball" /wiki/Category_talk:Olympic_silver_medalists_in_basketball
+        text "05:10"
+        text +153 success
+        link Jevansen /wiki/User:Jevansen
+        row
+          link talk /wiki/User_talk:Jevansen
+          link contribs /wiki/Special:Contributions/Jevansen
+        text (added WikiProject/s)
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        row
+          text diff
+          link hist /w/index.php?title=Category_talk:18th-century_Italian_male_painters&curid=84571766&action=history
+        text N
+        link "Category talk:18th-century Italian male painters" /wiki/Category_talk:18th-century_Italian_male_painters
+        text "05:10"
+        text +147 success
+        link Jevansen /wiki/User:Jevansen
+        row
+          link talk /wiki/User_talk:Jevansen
+          link contribs /wiki/Special:Contributions/Jevansen
+        text (added WikiProject/s)
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        row
+          link diff /w/index.php?title=Melbourne_International_Flower_and_Garden_Show&curid=1651394&diff=1381129886&oldid=1381123636
+          link hist /w/index.php?title=Melbourne_International_Flower_and_Garden_Show&curid=1651394&action=history
+        link "Melbourne International Flower and Garden Show" /wiki/Melbourne_International_Flower_and_Garden_Show
+        text "05:10"
+        text −4 danger
+        link Wamalotpark /wiki/User:Wamalotpark
+        row
+          link talk /wiki/User_talk:Wamalotpark
+          link contribs /wiki/Special:Contributions/Wamalotpark
+        text ()
+        link "MOS:GEOLINK" /wiki/MOS:GEOLINK
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link "Visual edit" /wiki/Wikipedia:VisualEditor
+      row
+        row
+          link diff /w/index.php?title=2026_Alberta_independence_referendum&curid=83239775&diff=1381129885&oldid=1381129829
+          link hist /w/index.php?title=2026_Alberta_independence_referendum&curid=83239775&action=history
+        link "2026 Alberta independence referendum" /wiki/2026_Alberta_independence_referendum
+        text "05:10"
+        text 0
+        link "Allan Nonymous" /wiki/User:Allan_Nonymous
+        row
+          link talk /wiki/User_talk:Allan_Nonymous
+          link contribs /wiki/Special:Contributions/Allan_Nonymous
+        text (Oops.)
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link "Visual edit" /wiki/Wikipedia:VisualEditor
+      row
+        row
+          link diff /w/index.php?title=List_of_GMA_Network_original_programming&curid=2574542&diff=1381129884&oldid=1381129495
+          link hist /w/index.php?title=List_of_GMA_Network_original_programming&curid=2574542&action=history
+        link "List of GMA Network original programming" /wiki/List_of_GMA_Network_original_programming
+        text "05:10"
+        text −202 danger
+        link Hotwiki /wiki/User:Hotwiki
+        row
+          link talk /wiki/User_talk:Hotwiki
+          link contribs /wiki/Special:Contributions/Hotwiki
+        text ( updated count)
+        text :
+        link "→Current original programming" /wiki/List_of_GMA_Network_original_programming#Current_original_programming
+      row
+        row
+          text diff
+          link hist /w/index.php?title=Category_talk:Asian_Games_swimmers_for_Palestine&curid=84571765&action=history
+        text N
+        link "Category talk:Asian Games swimmers for Palestine" /wiki/Category_talk:Asian_Games_swimmers_for_Palestine
+        text "05:10"
+        text +164 success
+        link Jevansen /wiki/User:Jevansen
+        row
+          link talk /wiki/User_talk:Jevansen
+          link contribs /wiki/Special:Contributions/Jevansen
+        text (added WikiProject/s)
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        row
+          link diff /w/index.php?title=List_of_female_members_of_the_Parliament_of_the_United_Kingdom&curid=46370477&diff=1381129881&oldid=1380978147
+          link hist /w/index.php?title=List_of_female_members_of_the_Parliament_of_the_United_Kingdom&curid=46370477&action=history
+        link "List of female members of the Parliament of the United Kingdom" /wiki/List_of_female_members_of_the_Parliament_of_the_United_Kingdom
+        text "05:10"
+        text +176 success
+        link PiaLily /w/index.php?title=User:PiaLily&action=edit&redlink=1
+        row
+          link talk /wiki/User_talk:PiaLily
+          link contribs /wiki/Special:Contributions/PiaLily
+        text (Rectification)
+      row
+        row
+          text diff
+          link hist /w/index.php?title=Category_talk:Olympic_bronze_medalists_in_football&curid=84571764&action=history
+        text N
+        link "Category talk:Olympic bronze medalists in football" /wiki/Category_talk:Olympic_bronze_medalists_in_football
+        text "05:10"
+        text +151 success
+        link Jevansen /wiki/User:Jevansen
+        row
+          link talk /wiki/User_talk:Jevansen
+          link contribs /wiki/Special:Contributions/Jevansen
+        text (added WikiProject/s)
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        row
+          link diff /w/index.php?title=Melbourne_International_Comedy_Festival&curid=762992&diff=1381129872&oldid=1377971799
+          link hist /w/index.php?title=Melbourne_International_Comedy_Festival&curid=762992&action=history
+        link "Melbourne International Comedy Festival" /wiki/Melbourne_International_Comedy_Festival
+        text "05:10"
+        text +85 success
+        link Wamalotpark /wiki/User:Wamalotpark
+        row
+          link talk /wiki/User_talk:Wamalotpark
+          link contribs /wiki/Special:Contributions/Wamalotpark
+        text ()
+        link "MOS:GEOLINK" /wiki/MOS:GEOLINK
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link "Visual edit" /wiki/Wikipedia:VisualEditor
+      row
+        row
+          text diff
+          link hist /w/index.php?title=Category_talk:Legal_scholars_of_King%27s_College_London&curid=84571763&action=history
+        text N
+        link "Category talk:Legal scholars of King's College London" /wiki/Category_talk:Legal_scholars_of_King%27s_College_London
+        text "05:10"
+        text +151 success
+        link Jevansen /wiki/User:Jevansen
+        row
+          link talk /wiki/User_talk:Jevansen
+          link contribs /wiki/Special:Contributions/Jevansen
+        text (added WikiProject/s)
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        link diff /w/index.php?title=Tree_Aid&curid=27015678&diff=1381129874&oldid=1378446877
+        link hist /w/index.php?title=Tree_Aid&curid=27015678&action=history
+      link "Tree Aid" /wiki/Tree_Aid
+      text "05:10"
+      text +9 success
+      link RJFJR /wiki/User:RJFJR
+      row
+        link talk /wiki/User_talk:RJFJR
+        link contribs /wiki/Special:Contributions/RJFJR
+      text ( move ref out of heading)
+      text :
+      link "→Forest Governance Phase 1 – started 2007{{Cite web |title=Protecting forests through forest governance phase one |url=https://www.treeaid.org/projects/burkina-faso/forest-governance-phase-one/ |access-date=2021-06-22 |website=Tree Aid}}" /wiki/Tree_Aid#Forest_Governance_Phase_1_–_started_2007{{Cite_web_|title=Protecting_forests_through_forest_governance_phase_one_|url=https://www.treeaid.org/projects/burkina-faso/forest-governance-phase-one/_|access-date=2021-06-22_|website=Tree_Aid}}
+      row
+        text diff
+        link hist /w/index.php?title=Category_talk:South_African_businesspeople_by_populated_place&curid=84571762&action=history
+      text N
+      link "Category talk:South African businesspeople by populated place" /wiki/Category_talk:South_African_businesspeople_by_populated_place
+      text "05:10"
+      text +133 success
+      link Jevansen /wiki/User:Jevansen
+      row
+        link talk /wiki/User_talk:Jevansen
+        link contribs /wiki/Special:Contributions/Jevansen
+      text (added WikiProject/s)
+      text :
+      row
+        link Tag /wiki/Special:Tags
+        link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        link "User creation log" /wiki/Special:Log/newusers
+        text "05:10"
+        text User account   was created
+        row
+          link Zhengjian19900510 /w/index.php?title=User:Zhengjian19900510&action=edit&redlink=1
+          row
+            link talk /w/index.php?title=User_talk:Zhengjian19900510&action=edit&redlink=1
+            link contribs /wiki/Special:Contributions/Zhengjian19900510
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          text Mobile edit
+      row
+        link "User creation log" /wiki/Special:Log/newusers
+        text "05:10"
+        text User account   was created
+        row
+          link Sighhed7 /w/index.php?title=User:Sighhed7&action=edit&redlink=1
+          row
+            link talk /w/index.php?title=User_talk:Sighhed7&action=edit&redlink=1
+            link contribs /wiki/Special:Contributions/Sighhed7
+      row
+        row
+          text diff
+          link hist /w/index.php?title=Category_talk:Suicide_bombings_in_the_1940s&curid=84571761&action=history
+        text N
+        link "Category talk:Suicide bombings in the 1940s" /wiki/Category_talk:Suicide_bombings_in_the_1940s
+        text "05:10"
+        text +158 success
+        link Jevansen /wiki/User:Jevansen
+        row
+          link talk /wiki/User_talk:Jevansen
+          link contribs /wiki/Special:Contributions/Jevansen
+        text (added WikiProject/s)
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        row
+          link diff /w/index.php?title=German_invasion_of_Hungary_(1944)&curid=579508&diff=1381129866&oldid=1381129801
+          link hist /w/index.php?title=German_invasion_of_Hungary_(1944)&curid=579508&action=history
+        link "German invasion of Hungary (1944)" /wiki/German_invasion_of_Hungary_(1944)
+        text "05:10"
+        text +187 success
+        link "A.S. Brown" /wiki/User:A.S._Brown
+        row
+          link talk /wiki/User_talk:A.S._Brown
+          link contribs /wiki/Special:Contributions/A.S._Brown
+        text ( Add book)
+        text :
+        link "→Books and articles" /wiki/German_invasion_of_Hungary_(1944)#Books_and_articles
+      row
+        row
+          text diff
+          link hist /w/index.php?title=User_talk:~2026-56041-71&curid=84571760&action=history
+        text N
+        link "User talk:~2026-56041-71" /wiki/User_talk:~2026-56041-71
+        text "05:10"
+        text +671 success
+        link Cannolis /wiki/User:Cannolis
+        row
+          link talk /wiki/User_talk:Cannolis
+          link contribs /wiki/Special:Contributions/Cannolis
+        text (Note: Adding spam links )
+        link "(RW 16.1)" /wiki/Wikipedia:RW
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link RW /wiki/Wikipedia:RW
+      row
+        link diff /w/index.php?title=List_of_Water_Margin_characters&curid=21296504&diff=1381129868&oldid=1381129506
+        link hist /w/index.php?title=List_of_Water_Margin_characters&curid=21296504&action=history
+      link "List of Water Margin characters" /wiki/List_of_Water_Margin_characters
+      text "05:10"
+      text −60 danger
+      link SKBNK /w/index.php?title=User:SKBNK&action=edit&redlink=1
+      row
+        link talk /wiki/User_talk:SKBNK
+        link contribs /wiki/Special:Contributions/SKBNK
+      text ()
+      link "→Song government" /wiki/List_of_Water_Margin_characters#Song_government
+      text :
+      link Tags /wiki/Special:Tags
+      text Mobile edit
+      text Mobile web edit
+      link "Advanced mobile edit" https://www.mediawiki.org/wiki/Special:MyLanguage/Reading/Web/Advanced_mobile_contributions
+      row
+        row
+          text diff
+          link hist /w/index.php?title=Category_talk:2026_mass_shootings_in_Asia&curid=84571759&action=history
+        text N
+        link "Category talk:2026 mass shootings in Asia" /wiki/Category_talk:2026_mass_shootings_in_Asia
+        text "05:10"
+        text +143 success
+        link Jevansen /wiki/User:Jevansen
+        row
+          link talk /wiki/User_talk:Jevansen
+          link contribs /wiki/Special:Contributions/Jevansen
+        text (added WikiProject/s)
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        link diff /w/index.php?title=Andrew_Johnson_Jr.&curid=74135325&diff=1381129863&oldid=1336339901
+        link hist /w/index.php?title=Andrew_Johnson_Jr.&curid=74135325&action=history
+      link "Andrew Johnson Jr." /wiki/Andrew_Johnson_Jr.
+      text "05:10"
+      text +223 success
+      link Jengod /wiki/User:Jengod
+      row
+        link talk /wiki/User_talk:Jengod
+        link contribs /wiki/Special:Contributions/Jengod
+      text ( Adding/improving reference(s))
+      text :
+      link →Death /wiki/Andrew_Johnson_Jr.#Death
+      text :
+      link Tags /wiki/Special:Tags
+      link "Visual edit" /wiki/Wikipedia:VisualEditor
+      text Mobile edit
+      text Mobile web edit
+      link "Advanced mobile edit" https://www.mediawiki.org/wiki/Special:MyLanguage/Reading/Web/Advanced_mobile_contributions
+      row
+        link "User creation log" /wiki/Special:Log/newusers
+        text "05:10"
+        text User account   was created
+        row
+          link "Amrik singh 14" /w/index.php?title=User:Amrik_singh_14&action=edit&redlink=1
+          row
+            link talk /w/index.php?title=User_talk:Amrik_singh_14&action=edit&redlink=1
+            link contribs /wiki/Special:Contributions/Amrik_singh_14
+        text :
+        row
+          link Tags /wiki/Special:Tags
+          text Mobile edit
+          text Mobile web edit
+      row
+        link diff /w/index.php?title=Payload&curid=41495&diff=1381129862&oldid=1381129796
+        link hist /w/index.php?title=Payload&curid=41495&action=history
+      link Payload /wiki/Payload
+      text "05:10"
+      text −21 danger
+      link Cannolis /wiki/User:Cannolis
+      row
+        link talk /wiki/User_talk:Cannolis
+        link contribs /wiki/Special:Contributions/Cannolis
+      text (Reverting edit(s) by  () to rev. 1370890690 by Comp.arch: Addition of unnecessary/inappropriate  )
+      link "~2026-56041-71" /wiki/Special:Contributions/~2026-56041-71
+      link talk /wiki/User_talk:~2026-56041-71
+      link "external links" /wiki/Wikipedia:EL
+      link "(RW 16.1)" /wiki/Wikipedia:RW
+      text :
+      row
+        link Tags /wiki/Special:Tags
+        link RW /wiki/Wikipedia:RW
+        link Undo /wiki/Wikipedia:Undo
+      row
+        row
+          text diff
+          link hist /w/index.php?title=Category_talk:21st-century_Canadian_male_sculptors&curid=84571758&action=history
+        text N
+        link "Category talk:21st-century Canadian male sculptors" /wiki/Category_talk:21st-century_Canadian_male_sculptors
+        text "05:10"
+        text +146 success
+        link Jevansen /wiki/User:Jevansen
+        row
+          link talk /wiki/User_talk:Jevansen
+          link contribs /wiki/Special:Contributions/Jevansen
+        text (added WikiProject/s)
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        row
+          link diff /w/index.php?title=Miss_Puerto_Rico&curid=497671&diff=1381129859&oldid=1379878822
+          link hist /w/index.php?title=Miss_Puerto_Rico&curid=497671&action=history
+        link "Miss Puerto Rico" /wiki/Miss_Puerto_Rico
+        text "05:10"
+        text 0
+        link Bri /wiki/User:Bri
+        row
+          link talk /wiki/User_talk:Bri
+          link contribs /wiki/Special:Contributions/Bri
+        text ( P.R. is not a nation)
+        text :
+        link "→Miss Universe, Miss World and Miss International" /wiki/Miss_Puerto_Rico#Miss_Universe,_Miss_World_and_Miss_International
+      row
+        row
+          link diff /w/index.php?title=Template:Korean_traditional_handicrafts&curid=84218842&diff=1381129858&oldid=1381129777
+          link hist /w/index.php?title=Template:Korean_traditional_handicrafts&curid=84218842&action=history
+        link "Template:Korean traditional handicrafts" /wiki/Template:Korean_traditional_handicrafts
+        text "05:10"
+        text +19 success
+        link KimYubin /wiki/User:KimYubin
+        row
+          link talk /wiki/User_talk:KimYubin
+          link contribs /wiki/Special:Contributions/KimYubin
+      row
+        link diff /w/index.php?title=Kevin_Cooper_(prisoner)&curid=1391891&diff=1381129856&oldid=1381081549
+        link hist /w/index.php?title=Kevin_Cooper_(prisoner)&curid=1391891&action=history
+      link "Kevin Cooper (prisoner)" /wiki/Kevin_Cooper_(prisoner)
+      text "05:10"
+      text +1,163 success
+      link ButteyFelicity /wiki/User:ButteyFelicity
+      row
+        link talk /wiki/User_talk:ButteyFelicity
+        link contribs /wiki/Special:Contributions/ButteyFelicity
+      text (Added a more descriptive lead. Was missing some info.)
+      text :
+      row
+        link Tag /wiki/Special:Tags
+        link "Visual edit" /wiki/Wikipedia:VisualEditor
+      row
+        row
+          text diff
+          link hist /w/index.php?title=Category_talk:Geologists_of_King%27s_College_London&curid=84571757&action=history
+        text N
+        link "Category talk:Geologists of King's College London" /wiki/Category_talk:Geologists_of_King%27s_College_London
+        text "05:10"
+        text +155 success
+        link Jevansen /wiki/User:Jevansen
+        row
+          link talk /wiki/User_talk:Jevansen
+          link contribs /wiki/Special:Contributions/Jevansen
+        text (added WikiProject/s)
+        text :
+        row
+          link Tag /wiki/Special:Tags
+          link AWB /wiki/Wikipedia:AutoWikiBrowser
+      row
+        row
+          link diff /w/index.php?title=Wikipedia:Main_Page/sandbox&curid=39359150&diff=1381129855&oldid=1380669427
+          link hist /w/index.php?title=Wikipedia:Main_Page/sandbox&curid=39359150&action=history
+        link "Wikipedia:Main Page/sandbox" /wiki/Wikipedia:Main_Page/sandbox
+        text "05:10"
+        text +40 success
+        link Axolitl /wiki/User:Axolitl
+        row
+          link talk /wiki/User_talk:Axolitl
+          link contribs /wiki/Special:Contributions/Axolitl
+        text (Preview next week's AFI here)
+  col
+    row
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link Disclaimers /wiki/Wikipedia:General_disclaimer
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+      link Developers https://developer.wikimedia.org
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+      link "Mobile view" //en.wikipedia.org/w/index.php?title=Special:RecentChanges&mobileaction=toggle_view_mobile
+    row
+      link "https://www.wikimedia.org/" https://www.wikimedia.org/
+      link "https://www.mediawiki.org/" https://www.mediawiki.org/

@@ -1,0 +1,911 @@
+@preview_tabler_io rev=0 @0,0,728,11668
+link "Skip to main content" #content @17,17,694,20
+row @17,49,694,41
+  link Tabler . @17,59,39,21
+  row @68,49,643,41
+    link "All Package" https://tabler.io/pricing?ref=tabler-preview-navbar#bundle @68,49,71,41
+    row @151,49,448,41
+      link "Enable dark mode" @151,49,108,41
+      link "Show notifications" # @271,49,111,41
+      link "Show app menu" # @394,49,97,41
+      link "Select language" # @503,49,96,41
+    link "Open user menu" # @611,49,100,41
+row @17,102,694,36
+  row @17,102,593,36
+    button Dashboards @17,102,85,36
+    button Interface @114,102,71,36
+    button Forms @197,102,58,36
+    button Extra @267,102,54,36
+    button Layout @333,102,61,36
+    button Plugins @406,102,63,36
+    button Addons @481,102,65,36
+    button Help @558,102,52,36
+  button Customize @622,102,89,36
+row @17,150,694,66
+  metric Overview Dashboard @17,150,452,66
+  row @481,165,230,36
+    button "New view" @481,165,97,36
+    link "Create new report" # @590,173,121,20
+row @17,228,694,9332
+  row @17,4664,27,459
+    col @17,4664,13,459
+      h3 Welcome back, Paweł @17,4664,13,57
+      text You have 5 new messages and 2 new notifications. @17,4733,13,182
+      row @17,4927,13,196
+        col @17,4927,0,196
+          text Today's Sales @17,4927,0,41
+          row @17,4980,0,61
+            text 6,782 @17,5000,0,21
+            text Increased by 7% @29,4980,0,61
+          card @17,5053,34,70
+            text 75% Complete @34,5068,0,40
+        col @29,4927,1,196
+          text Growth Rate @29,4927,1,41
+          row @29,4980,1,61
+            text 78,4% @29,5000,0,21
+            text Decreased by -1% @41,4980,0,61
+          card @29,5053,34,70
+            text 78% Complete @46,5068,0,40
+    link Illustrations ./illustrations.html @42,4884,2,20
+  col @56,4742,17,304
+    text Total Users @56,4742,17,41
+    row @56,4795,17,60
+      text 75,782 @56,4815,2,20
+      text Increased by 2% @70,4795,3,60
+    text 24,635 users increased from last month @56,4867,17,122
+    region "Total users" 263x96 @56,5040,17,6 [13 shapes, 1 labelled]
+      figure "line chart with 2 data series: Visitors, Visitors last month" @0,0 263x96 @56,5040,17,6
+  col @85,4807,13,174
+    text Active Users @85,4807,13,40
+    row @85,4859,13,61
+      text 25,782 @85,4880,0,20
+      text Decreased by -1% @97,4859,1,61
+    region "Active users" 223x164 @85,4971,13,10 [7 shapes, 3 labelled]
+      figure "radialBar chart with 1 data series" @0,0 223x164 @85,4971,13,10
+        text @111.5,80 anchor:middle size:14 "ACTIVE USERS" @89,4975,6,1
+        text @111.5,116 anchor:middle size:30 weight:700 "58%" @89,4976,4,2
+  col @110,4782,15,224
+    row @110,4782,15,36
+      text Sales @110,4790,0,20
+      button "Last 7 days" @122,4782,30,36
+    text 75% @110,4830,15,21
+    row @110,4863,15,60
+      text Conversion rate @110,4873,2,40
+      text Increased by 7% @124,4863,1,60
+    card @110,4935,34,71
+      text 75% Complete @127,4950,0,41
+  col @137,4821,16,145
+    row @137,4821,16,37
+      text Revenue @137,4829,0,21
+      button "Last 7 days" @149,4821,30,37
+    row @137,4870,16,61
+      text $4,300 @137,4890,1,20
+      text Increased by 8% @150,4870,3,61
+    region Revenue 263x40 @137,4964,16,2 [14 shapes, 1 labelled]
+      figure "area chart with 1 data series: Profits" @0,0 263x40 @137,4964,16,2
+  col @165,4811,14,166
+    row @165,4811,14,40
+      text New clients @165,4811,0,40
+      button "Last 7 days" @177,4813,30,36
+    row @165,4863,14,61
+      text 6,782 @165,4883,0,21
+      text No change, 0% @177,4863,2,61
+    region "New clients" 223x40 @165,4975,14,2 [14 shapes, 1 labelled]
+      figure "line chart with 2 data series: May, April" @0,0 223x40 @165,4975,14,3
+  col @191,4810,16,168
+    row @191,4810,16,41
+      text Active subscriptions @191,4810,0,41
+      button "Last 7 days" @203,4813,30,36
+    row @191,4863,16,61
+      text 2,986 @191,4883,1,21
+      text Increased by 4% @204,4863,3,61
+    region "Active subscriptions" 223x40 @191,4975,16,3 [41 shapes, 1 labelled]
+      figure "bar chart with 1 data series: Profits" @0,0 223x40 @191,4975,16,3
+  row @219,4837,23,114
+    row @219,4837,0,114
+      col @219,4837,0,114
+        text 132 Sales @219,4837,0,41
+        text 12 waiting payments @219,4890,0,61
+    row @231,4847,0,94
+      col @231,4847,0,94
+        text 78 Orders @231,4847,0,41
+        text 32 shipped @231,4900,0,41
+    row @243,4847,0,94
+      col @243,4847,0,94
+        text 623 Shares @243,4847,0,41
+        text 16 today @243,4900,0,41
+    row @255,4847,0,94
+      col @255,4847,0,94
+        text 132 Likes @255,4847,0,41
+        text 21 today @255,4900,0,41
+  col @254,4840,31,108
+    row @254,4840,31,42
+      h2 Traffic summary @254,4840,8,42
+      row @274,4843,11,36
+        button Web @274,4843,30,36
+        button Social @316,4843,30,36
+        button Other @358,4843,30,36
+    region "Traffic summary" 504x240 @254,4933,31,15 [160 shapes, 16 labelled]
+      figure "bar chart with 3 data series: Web, Social, Other" @0,0 504x240 @254,4933,31,15
+        text @20.15999984741211,13.670000076293945 anchor:end size:11 "100" @254,4933,1,1
+        text @20.15999984741211,53.869998931884766 anchor:end size:11 "80" @254,4936,1,1
+        text @20.15999984741211,94.06999969482422 anchor:end size:11 "60" @254,4938,1,1
+        text @20.15999984741211,134.27000427246094 anchor:end size:11 "40" @254,4941,1,1
+        text @20.15999984741211,174.47000122070313 anchor:end size:11 "20" @254,4943,1,1
+        text @20.15999984741211,214.6699981689453 anchor:end size:11 "0" @255,4946,0,1
+        text @36.7400016784668,235 anchor:middle size:12 "20 Jun" @255,4947,2,1
+        text @87.91999816894531,235 anchor:middle size:12 "24 Jun" @258,4947,2,1
+        text @139.11000061035156,235 anchor:middle size:12 "28 Jun" @261,4947,2,1
+        text @190.3000030517578,235 anchor:middle size:12 "02 Jul" @265,4947,2,1
+        text @241.47999572753906,235 anchor:middle size:12 "06 Jul" @268,4947,2,1
+        text @292.6700134277344,235 anchor:middle size:12 "10 Jul" @271,4947,2,1
+        text @343.8599853515625,235 anchor:middle size:12 "14 Jul" @274,4947,2,1
+        text @395.04998779296875,235 anchor:middle size:12 "18 Jul" @277,4947,2,1
+        text @446.2300109863281,235 anchor:middle size:12 "22 Jul" @280,4947,2,1
+  col @297,4851,32,86
+    h2 Locations @297,4851,32,21
+    region "World map" 504x216 @297,4923,32,14 [176 shapes, 0 labelled]
+  row @341,228,63,9332
+    col @341,4672,21,444
+      text Using Storage 5760 MB of 8 GB @341,4672,21,142
+      card @341,4826,34,115
+        text Regular @358,4841,0,21
+        text System @358,4874,0,20
+        text Shared @358,4906,0,20
+      text Regular 3520MB System 1520MB Shared 720MB Free 2240MB @341,4953,21,163
+    col @374,228,30,9332
+      row @374,228,30,317
+        region 56x40 @374,386,0,0 [1 shapes, 0 labelled]
+        col @386,228,6,317
+          text Jeffie Lewzey commented on your post: Not everything is what it seems @386,228,6,244
+          text 1 day ago @386,484,6,61
+        region 24x20 @404,386,0,0 [1 shapes, 0 labelled]
+      row @374,557,30,133
+        region 56x40 @374,623,1,1 [1 shapes, 0 labelled]
+        col @387,557,4,133
+          text It's Mallory Hulme's birthday today @387,557,4,101
+          text now @387,670,4,20
+        region 24x20 @403,623,1,1 [1 shapes, 0 labelled]
+      row @374,702,30,337
+        region 56x40 @374,870,0,1 [1 shapes, 0 labelled]
+        col @386,702,6,337
+          text Dunn Slane posted a status: Trying to figure things out one step at a time. @386,702,6,305
+          text now @386,1019,6,20
+        region 24x20 @404,871,0,0 [1 shapes, 0 labelled]
+      row @374,1051,30,256
+        region 56x40 @374,1179,1,0 [1 shapes, 0 labelled]
+        col @387,1051,5,256
+          text Emmy Levet created a new project: Smart Morning Alarm @387,1051,5,183
+          text 4 days ago @387,1246,5,61
+        region 24x20 @404,1179,0,0 [1 shapes, 0 labelled]
+      row @374,1319,30,134
+        region 56x40 @374,1384,4,3 [1 shapes, 0 labelled]
+        col @390,1319,14,134
+          text Maryjo Lebarree liked your photo @390,1319,14,101
+          text now @390,1432,14,21
+      row @374,1465,30,235
+        region 56x40 @374,1581,2,2 [1 shapes, 0 labelled]
+        col @388,1465,16,235
+          text Egan Poetz registered a new client: Trilia Solutions @388,1465,16,162
+          text 1 day ago @388,1639,16,61
+      row @374,1712,30,296
+        region 56x40 @374,1859,2,2 [1 shapes, 0 labelled]
+        col @388,1712,16,296
+          text Kellie Skingley closed a new deal on project: PPAP Campaign Strategy @388,1712,16,223
+          text 2 days ago @388,1947,16,61
+      row @374,2020,30,256
+        region 56x40 @374,2147,2,1 [1 shapes, 0 labelled]
+        col @388,2020,16,256
+          text Christabel Charlwood created a new project: Wikibox Knowledge Platform @388,2020,16,183
+          text 4 days ago @388,2215,16,61
+      row @374,2288,30,276
+        region 56x40 @374,2425,2,1 [1 shapes, 0 labelled]
+        col @388,2288,16,276
+          text Haskel Shelper changed project status of Tabler Icons from open to closed @388,2288,16,243
+          text now @388,2543,16,21
+      row @374,2576,30,174
+        region 56x40 @374,2661,4,3 [1 shapes, 0 labelled]
+        col @390,2576,14,174
+          text Lorry Mion liked the Tabler UI Kit @390,2576,14,142
+          text now @390,2730,14,20
+      row @374,2762,30,296
+        region 56x40 @374,2909,2,2 [1 shapes, 0 labelled]
+        col @388,2762,16,296
+          text Leesa Beaty shared a new video: Design Tips for Busy Creators @388,2762,16,223
+          text 2 days ago @388,2997,16,61
+      row @374,3070,30,175
+        region 56x40 @374,3156,3,2 [1 shapes, 0 labelled]
+        col @389,3070,15,175
+          text Perren Keemar and 3 others followed you @389,3070,15,142
+          text now @389,3224,15,21
+      row @374,3257,30,275
+        text SA @374,3384,1,21
+        col @387,3257,17,275
+          text Sunny Airey uploaded 3 new photos to category: Creative Inspirations @387,3257,17,203
+          text 2 days ago @387,3472,17,60
+      row @374,3544,30,195
+        region 56x40 @374,3641,3,2 [1 shapes, 0 labelled]
+        col @389,3544,15,195
+          text Geoffry Flaunders made a $10 donation @389,3544,15,122
+          text 2 days ago @389,3678,15,61
+      row @374,3751,30,174
+        region 56x40 @374,3837,4,3 [1 shapes, 0 labelled]
+        col @390,3751,14,174
+          text Thatcher Keel created a profile @390,3751,14,102
+          text 3 days ago @390,3865,14,60
+      row @374,3937,30,236
+        region 56x40 @374,4054,2,2 [1 shapes, 0 labelled]
+        col @388,3937,16,236
+          text Dyann Escala hosted the event: Tabler UI Anniversary @388,3937,16,163
+          text 4 days ago @388,4112,16,61
+      row @374,4185,30,215
+        region 56x40 @374,4292,2,1 [1 shapes, 0 labelled]
+        col @388,4185,16,215
+          text Avivah Mugleston mentioned you in Best of 2020 Highlights @388,4185,16,183
+          text now @388,4380,16,20
+      row @374,4412,30,255
+        text AA @374,4529,1,21
+        col @387,4412,17,255
+          text Arlie Armstead sent a review request to Amanda Blake @387,4412,17,183
+          text 2 days ago @387,4607,17,60
+      row @374,4679,30,236
+        region 56x40 @374,4796,2,2 [1 shapes, 0 labelled]
+        col @388,4679,16,236
+          text Tessie Curzon posted a photo from her vacation in Tuscany @388,4679,16,203
+          text now @388,4894,16,21
+      row @374,4927,30,215
+        region 56x40 @374,5033,2,2 [1 shapes, 0 labelled]
+        col @388,4927,16,215
+          text Flossi Uttley shared an article: Top 10 productivity hacks @388,4927,16,182
+          text now @388,5121,16,21
+      row @374,5154,30,194
+        region 56x40 @374,5250,3,2 [1 shapes, 0 labelled]
+        col @389,5154,15,194
+          text Cesya Spritt commented on your photo @389,5154,15,121
+          text 2 days ago @389,5287,15,61
+      row @374,5360,30,195
+        region 56x40 @374,5457,2,2 [1 shapes, 0 labelled]
+        col @388,5360,16,195
+          text Johnnie Gilby joined the group: UX Designers Hub @388,5360,16,163
+          text now @388,5535,16,20
+      row @374,5567,30,154
+        region 56x40 @374,5643,3,2 [1 shapes, 0 labelled]
+        col @389,5567,15,154
+          text Ban Rzehor uploaded new design mockups @389,5567,15,122
+          text now @389,5701,15,20
+      row @374,5733,30,236
+        region 56x40 @374,5850,3,2 [1 shapes, 0 labelled]
+        col @389,5733,15,236
+          text Carroll Erat reacted with ❤️ to your story @389,5733,15,163
+          text 3 days ago @389,5908,15,61
+      row @374,5981,30,235
+        region 56x40 @374,6097,2,2 [1 shapes, 0 labelled]
+        col @388,5981,16,235
+          text Marsha Labat posted a video: Building Better Dashboards @388,5981,16,162
+          text 3 days ago @388,6155,16,61
+      row @374,6228,30,195
+        region 56x40 @374,6324,2,2 [1 shapes, 0 labelled]
+        col @388,6228,16,195
+          text Elston Muffett joined your webinar: Intro to TypeScript @388,6228,16,162
+          text now @388,6402,16,20
+      row @374,6435,30,215
+        region 56x40 @374,6541,3,2 [1 shapes, 0 labelled]
+        col @389,6435,15,215
+          text Leigha Gorce commented: This is so helpful! @389,6435,15,142
+          text 4 days ago @389,6589,15,61
+      row @374,6662,30,194
+        text TB @374,6749,1,20
+        col @387,6662,17,194
+          text Tallie Bettis updated her profile photo @387,6662,17,121
+          text 3 days ago @387,6795,17,61
+      row @374,6868,30,195
+        region 56x40 @374,6965,2,1 [1 shapes, 0 labelled]
+        col @388,6868,16,195
+          text Merrily Garforth posted a job listing: Frontend Developer @388,6868,16,163
+          text now @388,7043,16,20
+      row @374,7075,30,215
+        text EB @374,7172,1,21
+        col @387,7075,17,215
+          text Errol Blackley started following your project: Clean Code Patterns @387,7075,17,183
+          text now @387,7270,17,20
+      row @374,7302,30,195
+        region 56x40 @374,7398,3,2 [1 shapes, 0 labelled]
+        col @389,7302,15,195
+          text Ninon Don gave feedback on your latest design @389,7302,15,162
+          text now @389,7476,15,21
+      row @374,7509,30,215
+        region 56x40 @374,7615,3,2 [1 shapes, 0 labelled]
+        col @389,7509,15,215
+          text Delaney Cairney shared a playlist: Coding Flow @389,7509,15,142
+          text 4 days ago @389,7663,15,61
+      row @374,7736,30,194
+        region 56x40 @374,7832,3,2 [1 shapes, 0 labelled]
+        col @389,7736,15,194
+          text Gratia Gooley joined the event: Night UI Meetup @389,7736,15,162
+          text now @389,7910,15,20
+      row @374,7942,30,256
+        region 56x40 @374,8069,2,2 [1 shapes, 0 labelled]
+        col @388,7942,16,256
+          text Odelinda McCosh shared a memory: 2 years at Tabler! @388,7942,16,183
+          text 3 days ago @388,8137,16,61
+      row @374,8210,30,154
+        region 56x40 @374,8286,3,2 [1 shapes, 0 labelled]
+        col @389,8210,15,154
+          text Wilburt Siegertsz retweeted your latest post @389,8210,15,122
+          text now @389,8344,15,20
+      row @374,8376,30,235
+        region 56x40 @374,8493,3,2 [1 shapes, 0 labelled]
+        col @389,8376,15,235
+          text Julietta Coke shared your story to their network @389,8376,15,162
+          text 3 days ago @389,8550,15,61
+      row @374,8623,30,215
+        region 56x40 @374,8730,2,2 [1 shapes, 0 labelled]
+        col @388,8623,16,215
+          text Portie Christou invited you to collaborate on her workspace @388,8623,16,183
+          text now @388,8818,16,20
+      row @374,8850,30,297
+        region 56x40 @374,8998,2,1 [1 shapes, 0 labelled]
+        col @388,8850,16,297
+          text Emmott Dowsett published a new blog post: Dark Mode for All @388,8850,16,224
+          text 2 days ago @388,9086,16,61
+      row @374,9159,30,174
+        region 56x40 @374,9245,3,2 [1 shapes, 0 labelled]
+        col @389,9159,15,174
+          text Rooney Cassy mentioned you in a comment @389,9159,15,142
+          text now @389,9313,15,20
+      row @374,9345,30,215
+        region 56x40 @374,9452,2,1 [1 shapes, 0 labelled]
+        col @388,9345,16,215
+          text Haze Hubbert shared a new design: Modern Dashboard UI @388,9345,16,183
+          text now @388,9540,16,20
+  col @416,4647,37,494
+    h2 Development activity @416,4647,37,42
+    row @416,4701,37,155
+      region "35% of today's goal" 40x40 @416,4811,10,9 [3 shapes, 1 labelled]
+        text @0,8 fill:#404040 size:10 "35%" @416,4811,5,3
+      col @438,4701,15,155
+        text Today's Earning: $4,262.40 @438,4701,15,61
+        text +5% more than yesterday @438,4774,15,82
+    region "Development activity" 544x192 @416,4906,37,14 [16 shapes, 1 labelled]
+      figure "area chart with 1 data series: Purchases" @0,0 544x192 @416,4906,37,13
+    table User:badge Commit Date @416,4932,37,209
+       | Fix dart Sass compatibility (#29755) | 28 Nov 2025
+       | Change deprecated html tags to text decoration classes (#29604) | 27 Nov 2025
+       | justify-content:between ⇒ justify-content:space-between (#29734) | 26 Nov 2025
+       | Update change-version.js (#29736) | 26 Nov 2025
+       | Regenerate package-lock.json (#29730) | 25 Nov 2025
+  col @465,4563,69,662
+    card @465,4563,69,64
+      region 180.72000122070313x180.72000122070313 @482,4578,35,34 [4 shapes, 0 labelled]
+    h2 Tabler Icons @465,4639,69,43
+    text All icons come from the Tabler Icons set and are MIT-licensed. Visit , download any of the 5166 icons in SVG, PNG or React and use them in your favourite design tools. @465,4694,69,406
+    link "Tabler Icons Website" https://tabler.io/icons @465,5112,69,61
+    link "Download icons" https://tabler.io/icons @465,5185,69,40
+  col @546,4735,16,317
+    h2 Most Visited Pages @546,4735,16,64
+    table "Page name" Visitors Unique "Bounce rate" @546,4811,16,241
+      / | 4,896 | 3,654 | 82.54% | 
+      /form-elements.html | 3,652 | 3,215 | 76.29% | 
+      /index.html | 3,256 | 2,865 | 72.65% | 
+      /icons.html | 986 | 865 | 44.89% | 
+      /docs/ | 912 | 822 | 41.12% | 
+      /accordion.html | 855 | 798 | 32.65% | 
+  link "Sponsor Tabler!" https://github.com/sponsors/codecalm @574,4874,6,40
+  col @592,4718,11,352
+    h2 Social Media Traffic @592,4718,11,64
+    table Network Visitors @592,4794,11,276
+      Instagram | 3,550 | 
+      Twitter | 1,798 | 
+      Facebook | 1,245 | 
+      TikTok | 986 | 
+      Pinterest | 854 | 
+      VK | 650 | 
+      LinkedIn | 420 | 
+  col @615,4773,32,242
+    h2 Tasks @615,4773,32,21
+    table Col "Extend the data model." "December 08, 2024" 2/7 3 Col:badge @615,4806,32,209
+       | Verify the event flow. | January 01, 2024 | 0/5 | 0 | 
+       | Database backup and maintenance | January 01, 2024 | 0/5 | 0 | 
+       | Identify the implementation team. | September 01, 2024 | 6/10 | 12 | 
+       | Define users and workflow | January 01, 2024 | 0/5 | 0 | 
+       | Check Pull Requests | July 17, 2024 | 2/9 | 3 | 
+  col @659,4598,52,592
+    h2 Invoices @659,4598,52,21
+    row @659,4631,52,75
+      text Show entries @659,4649,4,40
+      field "Invoices count" ="8" @675,4631,5,75
+      text Search: @692,4659,2,20
+      field "Search invoice" @706,4631,5,75
+    table Col No. "Invoice Subject" Client "VAT No." Created Status:badge Price Col @659,4718,52,318
+       | 001401 | Design Works | Carlson Limited | 87956621 | 15 Dec 2017 | Paid | $887 | Actions Action Another action
+       | 001402 | UX Wireframes | Adobe | 87956421 | 12 Apr 2017 | Pending | $1200 | Actions Action Another action
+       | 001403 | New Dashboard | Bluewolf | 87952621 | 23 Oct 2017 | Pending | $534 | Actions Action Another action
+       | 001404 | Landing Page | Salesforce | 87953421 | 2 Sep 2017 | Due in 2 Weeks | $1500 | Actions Action Another action
+       | 001405 | Marketing Templates | Printic | 87956621 | 29 Jan 2018 | Paid Today | $648 | Actions Action Another action
+       | 001406 | Sales Presentation | Tabdaq | 87956621 | 4 Feb 2018 | Due in 3 Weeks | $300 | Actions Action Another action
+       | 001407 | Logo & Print | Apple | 87956621 | 22 Mar 2018 | Paid Today | $2500 | Actions Action Another action
+       | 001408 | Icons | Tookapic | 87956621 | 13 May 2018 | Paid Today | $940 | Actions Action Another action
+    row @659,5048,52,142
+      text Showing 1 to 8 of 16 entries @659,5048,11,142
+      row @682,5099,29,40
+        link "Previous page" # @682,5099,0,40
+        link "Page 1" # @694,5099,0,40
+        link "Page 2" # @706,5099,0,40
+        link "Page 3" # @718,5099,0,40
+        link "Page 4" # @730,5099,0,40
+        link "Page 5" # @742,5099,0,40
+        link "Next page" # @754,5099,0,40
+row @17,9572,694,41
+  row @17,9572,325,41
+    link Documentation https://docs.tabler.io @17,9582,99,20
+    link License ./license.html @128,9582,52,20
+    link "Source code" https://github.com/tabler/tabler @192,9572,83,41
+    link Sponsor https://github.com/sponsors/codecalm @287,9582,55,20
+  row @354,9572,357,41
+    text Copyright © 2026 . All rights reserved. @354,9572,254,41
+    link Tabler . @620,9582,43,20
+    link v1.6.1 ./changelog.html @675,9582,36,20
+button Customize primary @17,9625,694,36
+card @17,9673,694,1978
+  button Close primary @34,9688,660,36
+  region 160x120 @34,9736,160,120 [31 shapes, 0 labelled]
+  h2 Make Tabler your own @34,9868,660,21
+  text Pick the look and layout of this preview. Your choices are saved in this browser. @34,9901,660,21
+  h3 Appearance @34,9934,660,18
+  text Color scheme @34,9964,660,21
+  text The page and its navigation, in one pick. @34,9997,660,20
+  row @34,10029,660,96
+    col @34,10029,96,96
+      region 96x64 @34,10029,96,64 [8 shapes, 0 labelled]
+      text Auto @34,10105,96,20
+    col @142,10029,96,96
+      region 96x64 @142,10029,96,64 [8 shapes, 0 labelled]
+      text Light @142,10105,96,20
+    col @250,10029,96,96
+      region 96x64 @250,10029,96,64 [8 shapes, 0 labelled]
+      text Dark @250,10105,96,20
+    col @358,10029,96,96
+      region 96x64 @358,10029,96,64 [8 shapes, 0 labelled]
+      text Dark nav @358,10105,96,20
+    col @466,10029,96,96
+      region 96x64 @466,10029,96,64 [8 shapes, 0 labelled]
+      text Colored @466,10105,96,20
+  text Accent color @34,10137,660,21
+  text The accent color used across the app. @34,10170,660,20
+  row @34,10202,660,0
+  text Font family @34,10214,660,20
+  text The typeface used across the app. @34,10246,660,21
+  row @34,10279,660,20
+    text Aa Sans-serif @34,10279,90,20
+    text Aa Serif @136,10279,53,20
+    text Aa Monospace @201,10279,100,20
+    text Aa Comic @313,10279,64,20
+  text Theme base @34,10311,660,20
+  text The gray palette behind every surface. @34,10343,660,20
+  row @34,10375,660,97
+    col @34,10375,96,97
+      region 96x64 @34,10375,96,64 [6 shapes, 0 labelled]
+      text Slate @34,10451,96,21
+    col @142,10375,96,97
+      region 96x64 @142,10375,96,64 [6 shapes, 0 labelled]
+      text Gray @142,10451,96,21
+    col @250,10375,96,97
+      region 96x64 @250,10375,96,64 [6 shapes, 0 labelled]
+      text Zinc @250,10451,96,21
+    col @358,10375,96,97
+      region 96x64 @358,10375,96,64 [6 shapes, 0 labelled]
+      text Neutral @358,10451,96,21
+    col @466,10375,96,97
+      region 96x64 @466,10375,96,64 [6 shapes, 0 labelled]
+      text Stone @466,10451,96,21
+  text Corner radius @34,10484,660,20
+  text How round corners are drawn. @34,10516,660,20
+  row @34,10548,660,97
+    col @34,10548,96,97
+      region 96x64 @34,10548,96,64 [2 shapes, 0 labelled]
+      text 0 @34,10624,96,21
+    col @142,10548,96,97
+      region 96x64 @142,10548,96,64 [2 shapes, 0 labelled]
+      text 0.5 @142,10624,96,21
+    col @250,10548,96,97
+      region 96x64 @250,10548,96,64 [2 shapes, 0 labelled]
+      text 1 @250,10624,96,21
+    col @358,10548,96,97
+      region 96x64 @358,10548,96,64 [2 shapes, 0 labelled]
+      text 1.5 @358,10624,96,21
+    col @466,10548,96,97
+      region 96x64 @466,10548,96,64 [2 shapes, 0 labelled]
+      text 2 @466,10624,96,21
+  h3 Layout @34,10657,660,18
+  text Navigation @34,10687,660,21
+  text Where the main menu lives. @34,10720,660,20
+  row @34,10752,660,96
+    col @34,10752,96,96
+      region 96x64 @34,10752,96,64 [10 shapes, 0 labelled]
+      text Navbar @34,10828,96,20
+    col @142,10752,96,96
+      region 96x64 @142,10752,96,64 [11 shapes, 0 labelled]
+      text Sidebar @142,10828,96,20
+  text Container width @34,10860,660,21
+  text How wide the page content runs. @34,10893,660,20
+  row @34,10925,660,96
+    col @34,10925,96,96
+      region 96x64 @34,10925,96,64 [6 shapes, 0 labelled]
+      text Default @34,11001,96,20
+    col @142,10925,96,96
+      region 96x64 @142,10925,96,64 [6 shapes, 0 labelled]
+      text Fluid @142,11001,96,20
+    col @250,10925,96,96
+      region 96x64 @250,10925,96,64 [7 shapes, 0 labelled]
+      text Boxed @250,11001,96,20
+  text Navbar behavior @34,11033,660,20
+  text Keep the navbar visible while scrolling. @34,11065,660,21
+  row @34,11098,660,96
+    col @34,11098,96,96
+      region 96x64 @34,11098,96,64 [8 shapes, 0 labelled]
+      text Default @34,11174,96,20
+    col @142,11098,96,96
+      region 96x64 @142,11098,96,64 [10 shapes, 0 labelled]
+      text Sticky @142,11174,96,20
+  text Navigation style @34,11206,660,20
+  text Attach the navigation to the edges, or let it float. @34,11238,660,21
+  row @34,11271,660,96
+    col @34,11271,96,96
+      region 96x64 @34,11271,96,64 [10 shapes, 0 labelled]
+      text Attached @34,11347,96,20
+    col @142,11271,96,96
+      region 96x64 @142,11271,96,64 [9 shapes, 0 labelled]
+      text Floating @142,11347,96,20
+  text Offcanvas style @34,11379,660,20
+  text Attach side panels to the edges, or let them float. @34,11411,660,21
+  row @34,11444,660,96
+    col @34,11444,96,96
+      region 96x64 @34,11444,96,64 [11 shapes, 0 labelled]
+      text Attached @34,11520,96,20
+    col @142,11444,96,96
+      region 96x64 @142,11444,96,64 [10 shapes, 0 labelled]
+      text Floating @142,11520,96,20
+  button "Reset changes" @34,11552,660,36
+  button Save primary @34,11600,660,36
+!overflow dashboards 83/110px
+!overflow interface 69/90px
+!overflow forms 56/71px
+!overflow extra 52/63px
+!overflow layout 59/75px
+!overflow plugins 61/78px
+!overflow addons 63/81px
+!overflow help 50/60px
+!overflow customize 87/101px
+!overflow last 28/105px
+!overflow last2 28/105px
+!overflow last3 28/105px
+!overflow last4 28/105px
+!overflow web 28/60px
+!overflow social 28/70px
+!overflow other 28/67px
+!overflow table..Commit 16/255px
+!overflow table..Date 16/103px
+!overflow table..Commit 16/454px
+!overflow table..Date 16/102px
+!overflow table..Commit 16/466px
+!overflow table..Date 16/103px
+!overflow table..Commit 16/253px
+!overflow table..Date 16/103px
+!overflow table..Commit 16/284px
+!overflow table..Date 16/102px
+!overflow table2./.Visitors 16/22px
+!overflow table2./.Unique 16/56px
+!overflow table2./.Bounce rate 16/55px
+!overflow table2./form-elements.html.Visitors 16/152px
+!overflow table2./form-elements.html.Unique 16/55px
+!overflow table2./form-elements.html.Bounce rate 16/52px
+!overflow table2./index.html.Visitors 16/90px
+!overflow table2./index.html.Unique 16/55px
+!overflow table2./index.html.Bounce rate 16/55px
+!overflow table2./icons.html.Visitors 16/90px
+!overflow table2./icons.html.Unique 16/43px
+!overflow table2./icons.html.Bounce rate 16/42px
+!overflow table2./docs/.Visitors 16/59px
+!overflow table2./docs/.Unique 16/39px
+!overflow table2./docs/.Bounce rate 16/42px
+!overflow table2./accordion.html.Visitors 16/120px
+!overflow table2./accordion.html.Unique 16/42px
+!overflow table2./accordion.html.Bounce rate 16/42px
+!overflow table3.Instagram.Network 16/82px
+!overflow table3.Instagram.Visitors 16/55px
+!overflow table3.Twitter.Network 16/63px
+!overflow table3.Twitter.Visitors 16/51px
+!overflow table3.Facebook.Network 16/82px
+!overflow table3.Facebook.Visitors 16/52px
+!overflow table3.TikTok.Network 16/62px
+!overflow table3.TikTok.Visitors 16/43px
+!overflow table3.Pinterest.Network 16/75px
+!overflow table3.Pinterest.Visitors 16/43px
+!overflow table3.VK.Network 16/36px
+!overflow table3.VK.Visitors 16/42px
+!overflow table3.LinkedIn.Network 16/73px
+!overflow table3.LinkedIn.Visitors 16/43px
+!overflow table4..Extend the data model. 16/158px
+!overflow table4..December 08, 2024 16/131px
+!overflow table4..2/7 16/39px
+!overflow table4..3 16/25px
+!overflow table4..Extend the data model. 16/249px
+!overflow table4..December 08, 2024 16/131px
+!overflow table4..2/7 16/39px
+!overflow table4..3 16/25px
+!overflow table4..Extend the data model. 16/238px
+!overflow table4..December 08, 2024 16/151px
+!overflow table4..2/7 16/45px
+!overflow table4..3 16/31px
+!overflow table4..Extend the data model. 16/194px
+!overflow table4..December 08, 2024 16/131px
+!overflow table4..2/7 16/39px
+!overflow table4..3 16/25px
+!overflow table4..Extend the data model. 16/152px
+!overflow table4..December 08, 2024 16/105px
+!overflow table4..2/7 16/39px
+!overflow table4..3 16/25px
+!overflow invoices 20/29px
+!overflow table5..No. 16/63px
+!overflow table5..Invoice Subject 16/109px
+!overflow table5..Client 16/120px
+!overflow table5..VAT No. 16/82px
+!overflow table5..Created 16/96px
+!overflow table5..Price 16/51px
+!overflow table5..Col 16/213px
+!overflow table5..No. 16/66px
+!overflow table5..Invoice Subject 16/117px
+!overflow table5..Client 16/60px
+!overflow table5..VAT No. 16/82px
+!overflow table5..Created 16/93px
+!overflow table5..Price 16/57px
+!overflow table5..Col 16/213px
+!overflow table5..No. 16/66px
+!overflow table5..Invoice Subject 16/123px
+!overflow table5..Client 16/74px
+!overflow table5..VAT No. 16/82px
+!overflow table5..Created 16/96px
+!overflow table5..Price 16/51px
+!overflow table5..Col 16/213px
+!overflow table5..No. 16/67px
+!overflow table5..Invoice Subject 16/107px
+!overflow table5..Client 16/87px
+!overflow table5..VAT No. 16/82px
+!overflow table5..Created 16/90px
+!overflow table5..Price 16/57px
+!overflow table5..Col 16/213px
+!overflow table5..No. 16/66px
+!overflow table5..Invoice Subject 16/156px
+!overflow table5..Client 16/58px
+!overflow table5..VAT No. 16/82px
+!overflow table5..Created 16/97px
+!overflow table5..Price 16/52px
+!overflow table5..Col 16/213px
+!overflow table5..No. 16/66px
+!overflow table5..Invoice Subject 16/139px
+!overflow table5..Client 16/67px
+!overflow table5..VAT No. 16/82px
+!overflow table5..Created 16/90px
+!overflow table5..Price 16/52px
+!overflow table5..Col 16/213px
+!overflow table5..No. 16/66px
+!overflow table5..Invoice Subject 16/97px
+!overflow table5..Client 16/55px
+!overflow table5..VAT No. 16/82px
+!overflow table5..Created 16/99px
+!overflow table5..Price 16/60px
+!overflow table5..Col 16/213px
+!overflow table5..No. 16/66px
+!overflow table5..Invoice Subject 16/52px
+!overflow table5..Client 16/78px
+!overflow table5..VAT No. 16/82px
+!overflow table5..Created 16/99px
+!overflow table5..Price 16/52px
+!overflow table5..Col 16/213px
+!tiny invoices 22x36px
+!tiny search2 22x36px
+!offcanvas rect
+!offcanvas rect3
+!offcanvas rect4
+!offcanvas rect6
+!offcanvas rect10
+!offcanvas world.region
+!offcanvas region142
+!offcanvas region143
+!offcanvas region145
+!offcanvas region146
+!offcanvas region147
+!offcanvas region148
+!offcanvas region149
+!offcanvas region150
+!offcanvas region151
+!offcanvas region152
+!offcanvas region153
+!offcanvas region154
+!offcanvas region155
+!offcanvas region156
+!offcanvas region158
+!offcanvas region160
+!offcanvas region162
+!offcanvas region164
+!offcanvas region165
+!offcanvas region167
+!offcanvas region168
+!offcanvas region169
+!offcanvas region171
+!offcanvas region172
+!offcanvas region173
+!offcanvas region175
+!offcanvas region176
+!offcanvas region177
+!offcanvas region178
+!offcanvas region180
+!offcanvas region181
+!offcanvas region183
+!offcanvas region185
+!offcanvas region186
+!offcanvas region187
+!offcanvas region189
+!offcanvas region190
+!offcanvas region191
+!offcanvas region192
+!offcanvas region193
+!offcanvas region194
+!offcanvas region196
+!offcanvas region198
+!offcanvas region199
+!offcanvas region200
+!offcanvas region201
+!offcanvas region203
+!offcanvas region204
+!offcanvas region205
+!offcanvas region206
+!offcanvas region208
+!offcanvas region210
+!offcanvas region211
+!offcanvas region213
+!offcanvas region214
+!offcanvas region215
+!offcanvas region216
+!offcanvas region217
+!offcanvas region218
+!offcanvas region220
+!offcanvas region221
+!offcanvas region223
+!offcanvas region225
+!offcanvas region226
+!offcanvas region227
+!offcanvas region228
+!offcanvas region231
+!offcanvas region232
+!offcanvas region233
+!offcanvas region234
+!offcanvas region235
+!offcanvas region236
+!offcanvas region237
+!offcanvas region239
+!offcanvas region240
+!offcanvas region241
+!offcanvas region242
+!offcanvas region244
+!offcanvas region245
+!offcanvas region246
+!offcanvas region248
+!offcanvas region249
+!offcanvas region250
+!offcanvas region251
+!offcanvas region252
+!offcanvas region253
+!offcanvas region254
+!offcanvas region255
+!offcanvas region256
+!offcanvas region257
+!offcanvas region258
+!offcanvas region260
+!offcanvas region262
+!offcanvas region263
+!offcanvas region264
+!offcanvas region265
+!offcanvas region266
+!offcanvas region267
+!offcanvas region269
+!offcanvas region270
+!offcanvas region271
+!offcanvas region274
+!offcanvas region278
+!offcanvas region279
+!offcanvas region280
+!offcanvas region281
+!offcanvas region282
+!offcanvas region283
+!offcanvas region284
+!offcanvas region285
+!offcanvas region287
+!offcanvas region288
+!offcanvas region289
+!offcanvas region290
+!offcanvas region291
+!offcanvas region292
+!offcanvas region293
+!offcanvas region294
+!offcanvas region296
+!offcanvas region297
+!offcanvas region298
+!offcanvas region299
+!offcanvas region301
+!offcanvas region302
+!offcanvas region304
+!offcanvas region305
+!offcanvas region306
+!offcanvas region307
+!offcanvas region308
+!offcanvas region309
+!offcanvas region310
+!offcanvas region312
+!offcanvas region313
+!offcanvas region314
+!offcanvas region315
+!offcanvas circle
+!offcanvas rect52
+!offcanvas region358
+!offcanvas path330
+!offcanvas region359
+!offcanvas path331
+!offcanvas region360
+!offcanvas path332
+!offcanvas region361
+!offcanvas path333
+!offcanvas region362
+!offcanvas path334
+!offcanvas region363
+!offcanvas path335
+!offcanvas region364
+!offcanvas path336
+!offcanvas region365
+!offcanvas path337
+!offcanvas region366
+!offcanvas path338
+!offcanvas region367
+!offcanvas path339
+!offcanvas region368
+!offcanvas path340
+!offcanvas region369
+!offcanvas path341
+!offcanvas region370
+!offcanvas path342
+!offcanvas region371
+!offcanvas path343
+!offcanvas region372
+!offcanvas path344
+!offcanvas region373
+!offcanvas path345
+!offcanvas region374
+!offcanvas path346
+!offcanvas region375
+!offcanvas path347
+!offcanvas region376
+!offcanvas path348
+!offcanvas region377
+!offcanvas path349
+!offcanvas region378
+!offcanvas path350
+!offcanvas region379
+!offcanvas path351
+!offcanvas region380
+!offcanvas path352
+!offcanvas region381
+!offcanvas path353
+!offcanvas region382
+!offcanvas path354
+!offcanvas region383
+!offcanvas path355
+!offcanvas region384
+!offcanvas path356
+!offcanvas region385
+!offcanvas path357
+!offcanvas region386
+!offcanvas path358
+!offcanvas region387
+!offcanvas path359
+!offcanvas region388
+!offcanvas path360

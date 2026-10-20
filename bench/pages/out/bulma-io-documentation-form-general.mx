@@ -123,8 +123,8 @@ row
         h2 All generic form controls, designed for consistency
       col
         card
-          link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI627ICTSI52JKF67DC2QYCKYDLKQJCKSD6KJJF6YDT27KC6SILKJWCYADEK3EHJNCLSIZ" https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI627ICTSI52JKF67DC2QYCKYDLKQJCKSD6KJJF6YDT27KC6SILKJWCYADEK3EHJNCLSIZ
-          link "100% agent accuracy with steering hooks. Learn how." https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI627ICTSI52JKF67DC2QYCKYDLKQJCKSD6KJJF6YDT27KC6SILKJWCYADEK3EHJNCLSIZ
+          link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTADEKJKC6YD6KJECESDT23UCYADE537CYBDV53NHEYI55QLCESI623ECTNCYBZ52K" https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTADEKJKC6YD6KJECESDT23UCYADE537CYBDV53NHEYI55QLCESI623ECTNCYBZ52K
+          link "Solve problems faster with builders who've already shipped. Join builders." https://srv.carbonads.net/ads/click/x/GTND4277CVBD62Q7CEBLYKQUF67ITKQYCWSDTZ3JCAAI653NFTADEKJKC6YD6KJECESDT23UCYADE537CYBDV53NHEYI55QLCESI623ECTNCYBZ52K
         link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
     text Bulma supports the following native HTML form elements: <form> <button> <input> <textarea> and <label>.
     text The following CSS classes are supported:
@@ -271,10 +271,12 @@ row
     text "<div class=\"field has-addons\"> <div class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"Find a repository\"> </div> <div class=\"control\"> <button class=\"button is-info\"> Search </button> </div> </div>"
     button Copy danger
     text You can attach inputs, buttons, and dropdowns only.
+    text It can be useful to append a .
     link "static button" https://bulma.io/documentation/elements/button#static-button
     text Example
     row
       field "Your email"
+      text @gmail.com
     text HTML
     text "<div class=\"field has-addons\"> <p class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"Your email\"> </p> <p class=\"control\"> <a class=\"button is-static\"> @gmail.com </a> </p> </div>"
     button Copy danger
@@ -322,6 +324,7 @@ row
     text Example
     row
       button Submit success
+      text Cancel
     text HTML
     text "<div class=\"field is-grouped\"> <p class=\"control\"> <button class=\"button is-primary\"> Submit </button> </p> <p class=\"control\"> <a class=\"button is-light\"> Cancel </a> </p> </div>"
     button Copy danger
@@ -329,12 +332,14 @@ row
     text Example
     row
       button Submit success
+      text Cancel
     text HTML
     text "<div class=\"field is-grouped is-grouped-centered\"> <p class=\"control\"> <button class=\"button is-primary\"> Submit </button> </p> <p class=\"control\"> <a class=\"button is-light\"> Cancel </a> </p> </div>"
     button Copy danger
     text Example
     row
       button Submit success
+      text Cancel
     text HTML
     text "<div class=\"field is-grouped is-grouped-right\"> <p class=\"control\"> <button class=\"button is-primary\"> Submit </button> </p> <p class=\"control\"> <a class=\"button is-light\"> Cancel </a> </p> </div>"
     button Copy danger
@@ -367,6 +372,7 @@ row
     button Copy danger
     card
       text List of buttons
+    text If you only need a list of , try out the new  class with which you can create a . primary
     text buttons primary
     text buttons primary
     link "multiline list of buttons" https://bulma.io/documentation/elements/button/#list-of-buttons
@@ -384,6 +390,7 @@ row
         col
           field Email email =alex@smith.com
     row
+      text +44
       field "Your phone number"
     text Do not enter the first zero
     row
@@ -442,7 +449,7 @@ row
     button Copy danger
     h3 "Sass and CSS variables #"
     card
-      table Sass:badge CSS:badge Value:badge
+      table "Sass Variable:badge" "CSS Variable:badge" Value:badge
         $control-radiusCopy | var(--bulma-control-radius)Copy | var(--bulma-radius)Copy
         $control-radius-smallCopy | var(--bulma-control-radius-small)Copy | var(--bulma-radius-small)Copy
         $control-border-widthCopy | var(--bulma-control-border-width)Copy | 1pxCopy
@@ -472,7 +479,7 @@ row
   col
     text Monthly donation
     link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
-link ".native-js { background: linear-gradient(-30deg, #FFFFFFE5, #FFFFFFE5 45%, #FFFFFF 45%) #fff; } .native-details { color: #181A1C !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #181A1C; background-color: #32E6E2; } .native-cta:hover { color: undefined; background-color: undefined; } Netlify One gateway for every AI model Explore AI Gateway" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV27UC674YKQUF67ITKQLCTYD5Z3JCAAI627ICTSIT2QKCWYDVKJMCWSDT23ICASIP2QJCTADC23KC6SILKJWCYADEK3EHJNCLSIZ
+link ".native-js { background: linear-gradient(-30deg, #000000E5, #000000E5 45%, #000000 45%) #fff; } .native-details { color: #FFFFFF !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #000000; background-color: #FFFFFF; } .native-cta:hover { color: undefined; background-color: undefined; } Mozilla Festival MozFest is co-built by developers and creatives. Show up and build with us in Barcelona, Oct. 28-30. Get your tickets" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV23JCEB4YKQUF67ITKQWCV7DVZ3JCAAI653NF6YDEK3KC6YD453YCVBIL2JYCYYIL23UCASDPK3KC6SILKJWCA7DVK3EHJNCLSIZ
 row
   col
     h3 Bulma by Jeremy Thomas.
@@ -484,6 +491,7 @@ row
     row
       link Twitter https://twitter.com/share
       link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+text Source code licensed . Website content licensed
 row
   link MIT https://opensource.org/licenses/mit-license.php
   link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/

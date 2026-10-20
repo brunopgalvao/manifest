@@ -542,6 +542,7 @@ row
       image https://adminlte.io/themes/v3/dist/img/photo1.png "Attachment Image"
       col
         h3 Lorem ipsum text generator
+        text Description about the attachment can be placed here. Lorem Ipsum is simply dummy text of the printing and typesetting industry...
         link more #
     button Share
     button Like
@@ -613,5 +614,7 @@ row
     text Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.
     link "Last update 3 days ago" #
 button "Scroll to top" primary
+text All rights reserved.
 text Version 3.2.0
+text Copyright © 2014-2021 .
 link AdminLTE.io https://adminlte.io

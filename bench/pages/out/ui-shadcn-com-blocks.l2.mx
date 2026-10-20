@@ -1,0 +1,125 @@
+@ui_shadcn_com_blocks rev=0 @0,0,728,3547
+row @17,17,694,36
+  row @17,25,346,20
+    link Home / @17,25,26,20
+    link Docs /docs/installation @55,25,21,20
+    link Components /docs/components @88,25,55,20
+    link Blocks /blocks @155,25,28,20
+    link Charts /charts/area @195,25,29,20
+    link Directory /docs/directory @236,25,39,20
+    link Typeset /typeset @287,25,35,20
+    link Create /create @334,25,29,20
+  row @375,17,336,36
+    button "Search documentation...Search..." @375,17,172,36
+    link 126k https://github.com/shadcn-ui/ui @559,25,20,20
+    button "Toggle theme" @591,17,89,36
+    row @692,25,19,20
+      link New /create @692,25,19,20
+link "Trace, Code Block and AI Elements" /docs/changelog @17,65,694,21
+h1 Building Blocks for the Web @17,98,694,25
+text Clean, modern building blocks. Copy and paste into your apps. Works with all React frameworks. Open Source. Free forever. @17,135,694,40
+row @17,187,694,21
+  link "Browse Blocks" #blocks2 @17,187,98,21
+  link "View Components" /docs/components @127,187,122,21
+row @17,220,694,20
+  row @17,220,231,20
+    link Featured /blocks @17,220,60,20
+    link Sidebar /blocks/sidebar @89,220,51,20
+    link Login /blocks/login @152,220,37,20
+    link Signup /blocks/signup @201,220,47,20
+  link "Browse all blocks" /blocks/sidebar @260,220,116,20
+row @17,252,694,50
+  tabs @17,252,92,50
+    tab *Preview @17,252,48,38
+    tab Code @69,252,40,38 [0 hidden]
+  link "A dashboard with sidebar, charts and data table" #dashboard-01 @121,257,204,40
+  row @337,257,374,40
+    row @337,257,163,40
+      link "Open in New Tab" /view/new-york-v4/dashboard-01 @337,257,62,40
+      button "Refresh Preview" @411,259,89,36
+    button "npx shadcn add dashboard-01" @512,259,155,36
+    link "Open in" https://v0.dev/chat/api/open?url=https://ui.shadcn.com/r/styles/new-york-v4/dashboard-01.json @679,257,32,40
+row @17,314,694,584
+  region 1188x1000 @17,314,694,584 [1 shapes, 0 labelled]
+row @17,910,694,51
+  tabs @17,910,104,51
+    tab *Preview @17,910,56,39
+    tab Code @77,910,44,39 [0 hidden]
+  link "A sidebar that collapses to icons" #sidebar-07 @133,915,157,41
+  row @302,915,409,41
+    row @302,915,188,41
+      link "Open in New Tab" /view/new-york-v4/sidebar-07 @302,915,74,41
+      button "Refresh Preview" @388,917,102,37
+    button "npx shadcn add sidebar-07" @502,917,161,37
+    link "Open in" https://v0.dev/chat/api/open?url=https://ui.shadcn.com/r/styles/new-york-v4/sidebar-07.json @675,915,36,41
+row @17,973,694,543
+  region 1188x930 @17,973,694,543 [1 shapes, 0 labelled]
+row @17,1528,694,50
+  tabs @17,1528,110,50
+    tab *Preview @17,1528,59,38
+    tab Code @80,1528,47,38 [0 hidden]
+  link "A sidebar with submenus" #sidebar-03 @139,1533,129,40
+  row @280,1533,431,40
+    row @280,1533,199,40
+      link "Open in New Tab" /view/new-york-v4/sidebar-03 @280,1533,80,40
+      button "Refresh Preview" @372,1535,107,36
+    button "npx shadcn add sidebar-03" @491,1535,169,36
+    link "Open in" https://v0.dev/chat/api/open?url=https://ui.shadcn.com/r/styles/new-york-v4/sidebar-03.json @672,1533,39,40
+row @17,1590,694,543
+  region 1188x930 @17,1590,694,543 [1 shapes, 0 labelled]
+row @17,2145,694,51
+  tabs @17,2145,98,51
+    tab *Preview @17,2145,52,39
+    tab Code @73,2145,42,39 [0 hidden]
+  link "A login page with a muted background color" #login-03 @127,2150,200,41
+  row @339,2150,372,41
+    row @339,2150,175,41
+      link "Open in New Tab" /view/new-york-v4/login-03 @339,2150,67,41
+      button "Refresh Preview" @418,2152,96,37
+    button "npx shadcn add login-03" @526,2152,139,37
+    link "Open in" https://v0.dev/chat/api/open?url=https://ui.shadcn.com/r/styles/new-york-v4/login-03.json @677,2150,34,41
+row @17,2208,694,543
+  region 1188x930 @17,2208,694,543 [1 shapes, 0 labelled]
+row @17,2763,694,50
+  tabs @17,2763,105,50
+    tab *Preview @17,2763,56,38
+    tab Code @77,2763,45,38 [0 hidden]
+  link "A login page with form and image" #login-04 @134,2768,164,40
+  row @310,2768,401,40
+    row @310,2768,190,40
+      link "Open in New Tab" /view/new-york-v4/login-04 @310,2768,75,40
+      button "Refresh Preview" @397,2770,103,36
+    button "npx shadcn add login-04" @512,2770,150,36
+    link "Open in" https://v0.dev/chat/api/open?url=https://ui.shadcn.com/r/styles/new-york-v4/login-04.json @674,2768,37,40
+row @17,2825,694,544
+  region 1188x930 @17,2825,694,544 [1 shapes, 0 labelled]
+link "Browse more blocks" /blocks/sidebar @17,3381,694,20
+text Built by at . The source code is available on . @17,3413,694,20
+row @17,3445,694,21
+  link shadcn https://twitter.com/shadcn @17,3445,49,21
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout @78,3445,43,21
+  link GitHub https://github.com/shadcn-ui/ui @133,3445,46,21
+text Notifications alt+T @17,3478,694,20
+text Notifications @17,3510,694,20
+!overflow search 170/256px
+!overflow toggle 87/122px
+!overflow preview 48/79px
+!overflow code 40/60px
+!overflow refresh 87/140px
+!overflow npx 153/234px
+!overflow preview2 56/79px
+!overflow code2 44/60px
+!overflow refresh2 100/140px
+!overflow npx2 159/214px
+!overflow preview3 59/79px
+!overflow code3 47/60px
+!overflow refresh3 105/140px
+!overflow npx3 167/215px
+!overflow preview4 52/79px
+!overflow code4 42/60px
+!overflow refresh4 94/140px
+!overflow npx4 137/197px
+!overflow preview5 56/79px
+!overflow code5 45/60px
+!overflow refresh5 101/140px
+!overflow npx5 148/198px

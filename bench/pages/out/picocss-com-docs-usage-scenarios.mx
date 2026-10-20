@@ -1,0 +1,91 @@
+@picocss_com_docs_usage_scenarios
+row
+  button "Skip to content" primary
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance
+  row
+    link "Pico CSS homepage" /
+    row
+      row
+        text v2.1.1
+        link Examples /examples
+        link Docs /docs
+      row
+        link "GitHub repository" https://github.com/picocss/pico
+        link Twitter https://x.com/picocss
+        link "Turn on dark mode" /docs/usage-scenarios
+  row
+    col
+      text Getting started
+      text Customization
+      text Layout
+      text Content
+      text Forms
+      text Components
+      text About
+      link Maintenance /docs/maintenance
+      link "What’s new in v2?" /docs/v2
+      link Mission /docs/mission
+      link "Usage scenarios" /docs/usage-scenarios
+      link Brand /docs/brand
+      link "Built With" /docs/built-with
+    metric About "Usage scenarios" "How does Pico fit into your project?"
+    col
+      text Optimal use cases for Pico based on your CSS expertise and project type.
+      table "Project type" "CSS expertise" "Pico’s fit" Examples
+        Pure HTML pages | Low | High | Documentation, code snippets, minimalist bios
+        Simple landing pages | Low | High | Single-page web apps (SPAs), event pages, product pages, resumes
+        Minimal websites | Low | High | Personal blogs, simple static sites
+        Form funnels | Low | Medium | Contact forms, surveys, sign-up pages
+        Small web projects | Low/Medium | Medium | Small business websites, portfolios, and personal websites
+        Marketing and products landing pages | Medium | Medium | Marketing pages with complex animations or interactive elements, product demos
+        Medium web projects | Medium/High | Medium | E-commerce websites and large corporate websites
+        Large-scale projects with many components | High | Low | SASS products, web applications with complex data models, enterprise software
+  col
+    row
+      region 49.34x45
+        region @0,0
+          path "M355.83 57.6809a1.998 1.998 0 0 0-1.149 1.1487l-7.814 20.317c-.658 1.7094-3.076 1.7094-3.734 0l-7.814-20.317a1.998 1.998 0 0 0-1.149-1.1487l-20.317-7.8142c-1.709-.6575-1.709-3.0759 0-3.7334l20.317-7.8142a1.998 1.998 0 0 0 1.149-1.1487l7.814-20.317c.658-1.7094 3.076-1.7094 3.734 0l7.814 20.317c.203.5281.62.9455 1.149 1.1487l20.317 7.8142c1.709.6575 1.709 3.0759 0 3.7334l-20.317 7.8142Z" 
+        region @0,0
+          path "M298.867 31.1466c-.658 1.7094-3.076 1.7094-3.734 0l-2.814-7.317a1.998 1.998 0 0 0-1.149-1.1487l-7.317-2.8142c-1.709-.6575-1.709-3.0759 0-3.7334l7.317-2.8142a1.998 1.998 0 0 0 1.149-1.1487l2.814-7.317c.658-1.7094 3.076-1.7094 3.734 0l2.814 7.317c.203.5281.62.9455 1.149 1.1487l7.317 2.8142c1.709.6575 1.709 3.0759 0 3.7334l-7.317 2.8142a1.998 1.998 0 0 0-1.149 1.1487l-2.814 7.317Z" 
+        region @0,0
+          path "M314.83 82.6809a1.998 1.998 0 0 0-1.149 1.1487l-2.814 7.317c-.658 1.7094-3.076 1.7094-3.734 0l-2.814-7.317a1.998 1.998 0 0 0-1.149-1.1487l-7.317-2.8142c-1.709-.6575-1.709-3.0759 0-3.7334l7.317-2.8142a1.998 1.998 0 0 0 1.149-1.1487l2.814-7.317c.658-1.7094 3.076-1.7094 3.734 0l2.814 7.317c.203.5281.62.9455 1.149 1.1487l7.317 2.8142c1.709.6575 1.709 3.0759 0 3.7334l-7.317 2.8142Z" 
+      row
+        row
+          text About
+          link Maintenance /docs/maintenance
+          link "What’s new?" /docs/v2
+          link Brand /docs/brand
+          link Mission /docs/mission
+          link "Usage scenarios" /docs/usage-scenarios
+        row
+          text Docs
+          link "Quick start" /docs
+          link "Version picker" /docs/version-picker
+          link "Class-less version" /docs/classless
+          link "Form elements" /docs/forms
+        row
+          text Community
+          link Issues https://github.com/picocss/pico/issues
+          link Discussions https://github.com/picocss/pico/discussions
+          link Help https://github.com/picocss/pico/discussions/categories/help
+        row
+          text Examples
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss
+          link All /examples
+      text Designed and built by  with the help of our .
+      col
+        link "Lucas Larroche" https://lucaslarroche.com/
+        link contributors https://github.com/picocss/pico/graphs/contributors
+      row
+        link GitHub https://github.com/picocss/pico
+        link Twitter https://x.com/picocss
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico
+        link NPM https://www.npmjs.com/package/@picocss/pico
+    row
+      text Code licensed , docs .
+      row
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md
+      text Currently v2.1.1.

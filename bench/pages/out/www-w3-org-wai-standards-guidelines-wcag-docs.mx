@@ -1,0 +1,186 @@
+@www_w3_org_wai_standards_guidelines_wcag
+row
+  link "Skip to Content" #main
+  link "Change Text Size or Colors" /WAI/meta/customize/
+  row
+    text This page in:
+    row
+      text English
+      link polski /WAI/standards-guidelines/wcag/docs/pl
+  link "All Translations" /WAI/translations/
+  button "Hide Options"
+row
+  row
+    link "W3C homepage" https://www.w3.org/
+    link "Web Accessibility Initiative (WAI) homepage" /WAI/
+    text Strategies, standards, resources to make the Web accessible to people with disabilities
+  row
+    link "Get Involved" /WAI/about/participating/
+    link "About W3C WAI" /WAI/about/
+    row
+      field Search search
+      text Search:
+      button button
+row
+  link "Accessibility Fundamentals" /WAI/fundamentals/
+  link "Planning & Policies" /WAI/planning/
+  link "Design & Develop" /WAI/design-develop/
+  link "Test & Evaluate" /WAI/test-evaluate/
+  link "Teach & Advocate" /WAI/teach-advocate/
+  link Standards/Guidelines /WAI/standards-guidelines/
+row
+  link Home /WAI/
+  link Standards/Guidelines /WAI/standards-guidelines/
+  link "Web Content – WCAG 2" /WAI/standards-guidelines/wcag/
+  link "The Documents" /WAI/standards-guidelines/wcag/docs/
+row
+  col
+    link Standards/Guidelines /WAI/standards-guidelines/
+    link "Web Content – WCAG 2" /WAI/standards-guidelines/wcag/
+    link "How to Meet WCAG 2 (Quick Reference)" https://www.w3.org/WAI/WCAG21/quickref/
+    link "At a Glance" /WAI/standards-guidelines/wcag/glance/
+    link "The Documents" /WAI/standards-guidelines/wcag/docs/
+    link "Applying to Non-Web ICT" /WAI/standards-guidelines/wcag/non-web-ict/
+    link "New in 2.2" /WAI/standards-guidelines/wcag/new-in-22/
+    link "New in 2.1" /WAI/standards-guidelines/wcag/new-in-21/
+    link Translations /WAI/standards-guidelines/wcag/translations/
+    link Commenting /WAI/standards-guidelines/wcag/commenting/
+    link "Conformance Logos" /WAI/standards-guidelines/wcag/conformance-logos/
+    link FAQ /WAI/standards-guidelines/wcag/faq/
+    link "WCAG 3 Draft" /WAI/standards-guidelines/wcag/wcag3-intro/
+    link "Authoring Tools – ATAG" /WAI/standards-guidelines/atag/
+    link "User Agents – UAAG" /WAI/standards-guidelines/uaag/
+    link WAI-ARIA /WAI/standards-guidelines/aria/
+    link "Evaluation – ACT & EARL" /WAI/standards-guidelines/evaluation/
+    link WAI-Adapt /WAI/adapt/
+    link Pronunciation /WAI/pronunciation/
+    link "Standards Harmonization is Essential" /WAI/standards-guidelines/harmonization/
+    link "W3C Process for Developing Standards" /WAI/standards-guidelines/w3c-process/
+    link "Referencing and Linking to Standards" /WAI/standards-guidelines/linking/
+    link "Cognitive Accessibility at W3C" /WAI/cognitive/
+    link "Mobile Accessibility at W3C" /WAI/standards-guidelines/mobile/
+    card
+      text Languages/Translations
+      text English (original) primary
+      link polski /WAI/standards-guidelines/wcag/docs/pl
+      link "All Translations" /WAI/translations/
+      link "Translating WAI Resources" /WAI/about/translating/
+  col
+    h1 The WCAG 2 Documents
+    h2 Summary
+    text This page describes WCAG 2 supporting documents and supplemental guidance. It helps you know where to go for which type of information.
+    text Page Contents primary
+    link "WCAG 2 standard" #wcag-2-standard
+    link "Quick Reference / How to Meet WCAG 2 / WCAG 2 checklist" #quick-reference--how-to-meet-wcag-2--wcag-2-checklist
+    link "Supporting documents" #supporting-documents
+    link Understanding #understanding
+    link Techniques #techniques
+    link "Accessibility Conformance Testing (ACT) Rules" #accessibility-conformance-testing-act-rules
+    link "Supplemental guidance" #supplement
+    link "Resources for getting started" #resources-for-getting-started
+    link "WCAG 2 documents diagram" #wcag-2-documents-diagram
+    h2 WCAG 2 standard
+    text Web Content Accessibility Guidelines (WCAG) 2 is a stable, referenceable technical standard. Learn more about WCAG versions from the .
+    link "WCAG 2 Overview" /WAI/standards-guidelines/wcag/
+    text When developing web content and web tools, most people will use the documents introduced below, instead of the actual technical standard document.
+    text , which are . The supporting materials below are informative; they are not normative. That means the techniques and other supporting materials:
+    row
+      text Only the WCAG technical standard includes requirements
+      link normative https://www.w3.org/TR/WCAG22/#interpreting-normative-requirements
+    text do not set or change requirements for WCAG
+    text are not required for conformance to WCAG
+    h2 Quick Reference / How to Meet WCAG 2 / WCAG 2 checklist
+    text It includes all the WCAG 2 guidelines and success criteria. It is essentially the WCAG 2 checklist.
+    text A key resource for designers and developers using WCAG 2 is .
+    link "How to Meet WCAG 2 (Quick Reference): A customizable quick reference to WCAG 2 requirements (Success Criteria) and techniques" https://www.w3.org/WAI/WCAG22/quickref/
+    text You can customize it so it shows what you are interested in at the time. There are “filters” for different roles, topics, and technologies (such as HTML, CSS, ARIA). And filters for .
+    link "Level A, AA, or AAA success criteria" https://www.w3.org/WAI/WCAG22/Understanding/conformance#levels
+    h2 Supporting documents
+    text The supporting documents directly relate to WCAG guidelines and success criteria. They are not required to meet WCAG; they are “informative” or “non-normative”.
+    h3 Understanding
+    text is a guide to understanding and implementing WCAG. It has details for people who want to understand the guidelines and success criteria more thoroughly. It includes:
+    text Understanding WCAG
+    text the intent
+    text how it helps people with different disabilities
+    text browser and assistive technology support notes
+    text examples
+    text resources
+    text More:
+    link "About Understanding Documents" https://www.w3.org/WAI/WCAG22/Understanding/intro
+    link "2.2 Understanding Document List" https://www.w3.org/WAI/WCAG22/Understanding/
+    link "2.1 Understanding Document List" https://www.w3.org/WAI/WCAG21/Understanding/
+    link "2.0 Understanding Document List" https://www.w3.org/TR/UNDERSTANDING-WCAG20/
+    h3 Techniques
+    text give specific guidance  on how to develop accessible web content. It provides general and technology-specific examples, including for HTML, CSS, scripting, multimedia, and WAI-ARIA.
+    row
+      text Techniques for WCAG
+      text for developers
+    text Sufficient techniques are examples of ways to meet success criteria. If you follow the sufficient techniques for the success criteria, then you meet the criteria.
+    text Advisory techniques are suggested ways to improve accessibility. They are very helpful to some users, and may be the only way that some users can access some types of content.
+    text Failures are things that cause accessibility barriers and fail specific success criteria.
+    text More:
+    link "About Techniques" https://www.w3.org/WAI/WCAG22/Understanding/understanding-techniques
+    link "2.2 Techniques List" https://www.w3.org/WAI/WCAG22/Techniques/
+    link "2.1 Techniques List" https://www.w3.org/WAI/WCAG21/Techniques/
+    link "2.0 Techniques List" https://www.w3.org/TR/WCAG20-TECHS/
+    h3 Accessibility Conformance Testing (ACT) Rules
+    text describe how to test conformance to WCAG success criteria. They are primarily for developing evaluation tools and test methodologies. (They are more robust than the tests in the techniques.)
+    text Accessibility Conformance Testing (ACT) Rules
+    link "About WCAG 2 ACT Rules" /WAI/standards-guidelines/act/rules/about/
+    link "All WCAG 2 ACT Rules List" /WAI/standards-guidelines/act/rules/
+    h2 Supplemental guidance
+    text Supplemental guidance goes beyond the requirements of WCAG. It is not required to meet WCAG. Much of the guidance is essential for people with certain impairments, including cognitive and learning disabilities.
+    link "About Supplemental Guidance" /WAI/WCAG2/supplemental/about/
+    link "All Supplemental Guidance list" /WAI/WCAG2/supplemental/
+    h2 Resources for getting started
+    text Before you start working with WCAG, you probably want to read these resources:
+    link "Introduction to Web Accessibility" /WAI/fundamentals/accessibility-intro/
+    link "Accessibility Principles" /WAI/fundamentals/accessibility-principles/
+    link "WCAG 2 Overview" /WAI/standards-guidelines/wcag/
+    text Other resources cover specific topics, for example:
+    text cover page structure, menus, images, tables, carousels, forms
+    link "Web Accessibility Tutorials" /WAI/tutorials/
+    text covers multimedia
+    link "Making Audio and Video Media Accessible" /WAI/media/av/
+    text We encourage you to look around the W3C WAI website to find other information that you might be interested in reading or sharing with others.
+    h2 WCAG 2 documents diagram
+    row
+      h2 Help improve this page
+    text Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list  or via GitHub.
+    link wai@w3.org mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list.
+    row
+      link E-mail mailto:wai@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0AI%20give%20permission%20to%20share%20this%20to%20a%20publicly-archived%20e-mail%20list.
+      link "Fork & Edit on GitHub" https://github.com/w3c/wai-website/edit/main/pages/standards-guidelines/wcag/docs.md
+      link "New GitHub Issue" https://github.com/w3c/wai-website/issues/new?template=content-issue.yml&wai-resource-id=wai-wcag-intro&wai-url=https://www.w3.org/WAI/standards-guidelines/wcag/docs/
+    link "Back to Top" #top
+text Updated: 5 May 2026. First published July 2005.
+text . Contributors:  and .
+row
+  text Editor:
+  link "Shawn Lawton Henry" https://www.w3.org/People/Shawn/
+  link "Hidde de Vries" https://www.w3.org/People/hidde/
+  link "Shadi Abou-Zahra" https://www.w3.org/People/shadi/
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/
+text Strategies, standards, resources to make the Web accessible to people with disabilities
+row
+  link "Get News in Email" /WAI/news/subscribe/
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/
+  link Mastodon https://w3c.social/@wai
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+row
+  link Home /WAI/
+  link Contact /WAI/about/contacting/
+  link "Site map" /WAI/sitemap/
+  link "Support WAI" /WAI/about/support/
+  link News /WAI/news/
+  link "Accessibility statement" /WAI/about/accessibility-statement/
+  link "All Translations" /WAI/translations/
+  link "Resources for roles" /WAI/roles/
+text Copyright © 2026 .  ,  and  rules apply unless otherwise noted. See .
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/software-license/
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/

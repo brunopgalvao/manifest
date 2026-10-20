@@ -1,0 +1,271 @@
+@en_wikipedia_org_wiki_special_random rev=0 @0,0,728,4772
+link "Jump to content" #bodyContent @17,17,694,20
+row @17,49,694,541
+  row @17,49,345,541
+    col @17,49,245,541
+      button "Main menu" @17,49,245,37
+      text Main menu @17,98,245,20
+      row @17,130,245,41
+        text Main menu @17,130,57,41
+        button "Move Main menu to sidebar" @86,132,176,36
+      link "Main page" /wiki/Main_Page @17,183,245,20
+      link Contents /wiki/Wikipedia:Contents @17,215,245,20
+      link "Current events" /wiki/Portal:Current_events @17,247,245,20
+      link "Random article" /wiki/Special:Random @17,279,245,21
+      link "About Wikipedia" /wiki/Wikipedia:About @17,312,245,20
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us @17,344,245,20
+      text Contribute @17,376,245,21
+      link Help /wiki/Help:Contents @17,409,245,20
+      link "Learn to edit" /wiki/Help:Introduction @17,441,245,20
+      link "Community portal" /wiki/Wikipedia:Community_portal @17,473,245,20
+      link "Recent changes" /wiki/Special:RecentChanges @17,505,245,21
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard @17,538,245,20
+      link "Special pages" /wiki/Special:SpecialPages @17,570,245,20
+    link /wiki/Main_Page /wiki/Main_Page @274,310,88,20
+  row @374,282,337,75
+    row @374,282,152,75
+      col @374,282,74,75
+        field "Search Wikipedia" search @374,282,74,75
+      button Search @460,302,66,36
+    row @538,300,173,40
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en @538,310,37,20
+      link "Create account" @587,300,80,40
+      link "Log in" @679,300,32,40
+row @17,602,694,4153
+  col @17,2391,11,575
+    row @17,2391,11,36
+      h2 Contents @17,2399,0,21
+      button "Hide Contents" @29,2391,30,36
+    link (Top) # @17,2439,11,21
+    link "1 Official languages" #Official_languages @17,2472,11,61
+    button "Toggle Official languages subsection" @17,2545,30,36
+    link "1.1 Education" #Education @17,2593,11,41
+    link "2 Minority languages" #Minority_languages @17,2646,11,60
+    link "3 Language by number of speakers" #Language_by_number_of_speakers @17,2718,11,122
+    link "4 See also" #See_also @17,2852,11,61
+    link "5 References" #References @17,2925,11,41
+  row @40,602,615,4153
+    row @40,2634,14,89
+      h1 Languages of Kyrgyzstan @40,2641,2,75
+      col @54,2634,0,89
+        button "7 languages" @54,2634,30,36
+        text 7 languages primary @54,2682,0,41
+    row @66,2140,19,1076
+      row @66,2668,1,21
+        link Article /wiki/Languages_of_Kyrgyzstan @66,2668,0,21
+        link Talk /wiki/Talk:Languages_of_Kyrgyzstan @78,2668,0,21
+      row @79,2140,6,1076
+        row @79,2658,0,41
+          link Read /wiki/Languages_of_Kyrgyzstan @79,2668,0,21
+          link Edit @91,2668,0,21
+          link "View history" @103,2658,0,41
+        col @91,2140,0,1076
+          button Tools @91,2140,30,37
+          text Tools @91,2189,0,20
+          row @91,2221,0,36
+            text Tools @91,2229,0,20
+            button "Move Tools to sidebar" @103,2221,30,36
+          text General @91,2269,0,21
+          link "What links here" /wiki/Special:WhatLinksHere/Languages_of_Kyrgyzstan @91,2302,0,61
+          link "Related changes" /wiki/Special:RecentChangesLinked/Languages_of_Kyrgyzstan @91,2375,0,40
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Languages_of_Kyrgyzstan&oldid=1356173379 @91,2427,0,41
+          link "Page information" @91,2480,0,40
+          link "Cite this page" @91,2532,0,61
+          link "Get shortened URL" @91,2605,0,61
+          link "Switch to legacy parser" @91,2678,0,81
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q20724894#sitelinks-wikipedia @91,2771,0,61
+          button "Expand all" @91,2844,30,37
+          text Print/export @91,2893,0,20
+          link "Download as PDF" @91,2925,0,61
+          link "Printable version" javascript:print(); @91,2998,0,40
+          text In other projects @91,3050,0,61
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Category:Languages_of_Kyrgyzstan @91,3123,0,41
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q20724894 @91,3176,0,40
+    col @97,2483,9,391
+      row @97,2483,9,36
+        text Appearance @97,2491,0,20
+        button "Hide Appearance" @109,2483,30,36
+      text Text @97,2531,9,20
+      text Small @97,2563,9,21
+      text Standard @97,2596,9,20
+      text Large @97,2628,9,20
+      text Width @97,2660,9,20
+      text Standard @97,2692,9,21
+      text Wide @97,2725,9,20
+      text Color @97,2757,9,20
+      text Automatic @97,2789,9,21
+      text Light @97,2822,9,20
+      text Dark @97,2854,9,20
+    col @118,602,537,4153
+      text From Wikipedia, the free encyclopedia @118,602,537,21
+      table Col "This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.Find sources \"Languages of Kyrgyzstan\" – news · newspapers · books · scholar · JSTOR (August 2018) (Learn how and when to remove this message)" @118,635,537,30
+      table "Languages of Kyrgyzstan" @118,677,537,0
+        Sign in English, Kyrgyz and Russian
+        Official | Kyrgyz (national/state language) Russian (official and interethnic)[1]
+        Main | Kyrgyz
+        Indigenous | Dialects of Kyrgyz language
+        Minority | .mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:"\a0 · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}DunganKalmykKoryo-marTajikUzbekUyghur
+        Immigrant | Turkic languages
+        Foreign | Mandarin ChineseEnglishFrenchGermanJapaneseKorean
+        Keyboard layout | ЙЦУКЕН
+        Source | [2]
+        Alphabet | Kyrgyz alphabets Kyrgyz Braille
+      text is one of four in Central Asia to have as a . The was adopted as the official language in 1991. After pressure from the Russian and other minorities in the country, the republic adopted Russian as an official language as well in 2000, to become an officially bilingual country. @118,689,537,81
+      link Kyrgyzstan https://en.wikipedia.org/wiki/Kyrgyzstan @118,782,537,21
+      link "former Soviet republics" https://en.wikipedia.org/wiki/Former_Soviet_republics @118,815,537,20
+      link Russian https://en.wikipedia.org/wiki/Russian_language @118,847,537,20
+      link "de jure" https://en.wikipedia.org/wiki/De_jure @118,879,537,20
+      link "official language" https://en.wikipedia.org/wiki/Official_language @118,912,537,20
+      link "Kyrgyz language" https://en.wikipedia.org/wiki/Kyrgyz_language @118,944,537,20
+      link [3] #cite_note-3 @118,976,537,20
+      row @118,1008,537,22
+        h2 Official languages @118,1008,151,22
+        link edit @281,1009,25,20
+      text The languages of government in Kyrgyzstan are Russian as the official and inter-ethnic language and Kyrgyz as the state/national language. @118,1042,537,40
+      row @118,1094,537,21
+        text [ @118,1094,6,21
+        link "citation needed" https://en.wikipedia.org/wiki/Wikipedia:Citation_needed @136,1094,103,21
+        text ] @251,1094,6,21
+      text is a language of the branch, closely related to , , and . It was written in the until the twentieth century. was introduced and adopted in 1928, and was subsequently replaced on Stalin's orders by in 1941. As a result of the pending language reform in neighboring , Kyrgyzstan will be the only independent in a few years that exclusively uses the Cyrillic script. @118,1127,537,101
+      link Kyrgyz https://en.wikipedia.org/wiki/Kyrgyz_language @118,1240,537,20
+      link Turkic https://en.wikipedia.org/wiki/Turkic_languages @118,1272,537,21
+      link Kipchak https://en.wikipedia.org/wiki/Kipchak_languages @118,1305,537,20
+      link Kazakh https://en.wikipedia.org/wiki/Kazakh_language @118,1337,537,20
+      link Karakalpak https://en.wikipedia.org/wiki/Karakalpak_language @118,1369,537,21
+      link "Nogay Tatar" https://en.wikipedia.org/wiki/Nogay_language @118,1402,537,20
+      link "Arabic alphabet" https://en.wikipedia.org/wiki/Arabic_alphabet @118,1434,537,20
+      link "Latin script" https://en.wikipedia.org/wiki/Latin_alphabet @118,1466,537,20
+      link "Cyrillic script" https://en.wikipedia.org/wiki/Cyrillic_script#Kyrgyz @118,1498,537,21
+      link Kazakhstan https://en.wikipedia.org/wiki/Kazakhstan @118,1531,537,20
+      link "Turkic-speaking country" https://en.wikipedia.org/wiki/Turkic_languages @118,1563,537,20
+      link [4] #cite_note-4 @118,1595,537,21
+      text According to the 2009 census, 4.1 million people spoke Kyrgyz as native or second language and 2.5 million spoke Russian as native or second language, with 482,000 specifically identifying as native speakers. @118,1628,537,61
+      link [5] #cite_note-5 @118,1701,537,20
+      link [6] #cite_note-:0-6 @118,1733,537,20
+      text Russian TV media enjoy enormous popularity in Kyrgyzstan, especially in Russian-speaking and . Russian media outlets have an enormous impact on public opinion in Kyrgyzstan, especially in areas such as and international political developments. @118,1765,537,81
+      link "city of Bishkek" https://en.wikipedia.org/wiki/Bishkek @118,1858,537,21
+      link "Chüy Region" https://en.wikipedia.org/wiki/Chüy_Region @118,1891,537,20
+      link "human rights" https://en.wikipedia.org/wiki/Human_rights @118,1923,537,20
+      link [7] #cite_note-7 @118,1955,537,21
+      row @118,1988,537,20
+        h3 Education @118,1988,74,19
+        link edit @204,1988,25,20
+      text Following the 2005 , educational reforms in 2007 required that Kyrgyz become a required subject in non-Kyrgyz-language schools, and that Russian become a required subject in schools with a language of instruction other than Russian. @118,2020,537,61
+      link "Tulip Revolution" https://en.wikipedia.org/wiki/Tulip_Revolution @118,2093,537,20
+      link [6] #cite_note-:0-62 @118,2125,537,20
+      row @118,2157,537,22
+        h2 Minority languages @118,2157,161,22
+        link edit @291,2158,25,20
+      text is spoken by approximately 850 thousand residents of Kyrgyzstan and is the second most spoken native language, ahead of Russian and behind Kyrgyz. @118,2191,537,40
+      link Uzbek https://en.wikipedia.org/wiki/Uzbek_language @118,2243,537,21
+      row @118,2276,537,20
+        text [ @118,2276,6,20
+        link "citation needed" https://en.wikipedia.org/wiki/Wikipedia:Citation_needed @136,2276,103,20
+        text ] @251,2276,6,20
+      text In 2011, won a highly contested election marked by irregularities by the (OSEC). The Atambayev government subsequently banned graduating high school students from taking in Uzbek, or any language other than Kyrgyz or Russian. @118,2308,537,61
+      link "Almazbek Atambayev" https://en.wikipedia.org/wiki/Almazbek_Atambayev @118,2381,537,20
+      link "Organization for Security and Co-operation in Europe" https://en.wikipedia.org/wiki/Organization_for_Security_and_Co-operation_in_Europe @118,2413,537,20
+      link "exit examinations" https://en.wikipedia.org/wiki/Exit_examination @118,2445,537,21
+      link [6] #cite_note-:0-63 @118,2478,537,20
+      row @118,2510,537,21
+        h2 Language by number of speakers @118,2510,278,21
+        link edit @408,2510,25,21
+      table Col "This section does not cite any sources. Please help improve this section by adding citations to reliable sources. Unsourced material may be challenged and removed. (September 2024) (Learn how and when to remove this message)" @118,2543,537,31
+      table "Language name" "Native speakers" "Second-language speakers" "Total speakers" @118,2586,537,241
+        Kyrgyz | 3,830,556 | 271,187 | 4,121,743
+        Russian | 482,243 | 2,109,393 | 2,591,636
+        Uzbek | 772,561 | 97,753 | 870,314
+        English |  | 28,416 | 28,416
+        French |  | 641 | 641
+        Other | 277,433 | 31,411 | 308,844
+      row @118,2839,537,21
+        h2 See also @118,2839,70,21
+        link edit @200,2839,25,21
+      link "Demographics of Kyrgyzstan" https://en.wikipedia.org/wiki/Demographics_of_Kyrgyzstan @118,2872,537,20
+      row @118,2904,537,22
+        h2 References @118,2904,96,22
+        link edit @226,2905,25,20
+      link "Jump up" #cite_ref-1 @118,2938,537,20
+      text . . @118,2970,537,20
+      link "\"Kyrgyzstan's Constitution of 2010 with Amendments through 2016\"" https://www.constituteproject.org/constitution/Kyrgyz_Republic_2016.pdf?lang=en @118,3002,537,20
+      text (PDF) @118,3034,537,21
+      text Constitute Project @118,3067,537,20
+      text . Retrieved 2 September 2020 @118,3099,537,20
+      link "Jump up" #cite_ref-2 @118,3131,537,21
+      text . . @118,3164,537,20
+      link "\"To hear the world through the sign language, to see the world through the finger tips | United Nations Development Programme\"" https://www.undp.org/kyrgyzstan/news/hear-world-through-sign-language-see-world-through-finger-tips @118,3196,537,41
+      text UNDP @118,3249,537,20
+      row @118,3281,537,20
+        text [ @118,3281,6,20
+        link "permanent dead link" https://en.wikipedia.org/wiki/Wikipedia:Link_rot @136,3281,136,20
+        text ] @284,3281,6,20
+      link "Jump up" #cite_ref-3 @118,3313,537,20
+      text . . @118,3345,537,21
+      link "\"Закон КР от 29 мая 2000 года № 52 Об официальном языке Кыргызской Республики\"" https://cbd.minjust.gov.kg/443/edition/427547/ru @118,3378,537,40
+      text Централизованный банк данных правовой информации Кыргызской Республики @118,3430,537,41
+      row @118,3483,537,41
+        link "Jump up" #cite_ref-4 @118,3483,40,41
+        text . @170,3493,3,20
+        link "\"'Only Kyrgyzstan in Central Asia insists on Cyrillic' — Tokayev - News of Kyrgyzstan, press and media\"" https://www.for.kg/news-626083-en.html @185,3483,470,41
+      link "Jump up" #cite_ref-5 @118,3536,537,20
+      text . NSC of Kyrgyzstan. Archived from on 21 January 2013. @118,3568,537,20
+      link "\"Перепись населения и жилищного фонда Кыргызской Республики (Population and Housing Census of the Kyrgyz Republic), 2009\"" https://web.archive.org/web/20130121143551/http://212.42.101.100:8088/nacstat/node/23 @118,3600,537,41
+      link "the original" http://212.42.101.100:8088/nacstat/node/23 @118,3653,537,20
+      text . Retrieved 9 October 2012 @118,3685,537,20
+      row @118,3717,537,21
+        link "Jump up to: 1" #cite_ref-:0_6-0 @118,3717,89,21
+        link 2 #cite_ref-:0_6-1 @219,3717,9,21
+        link 3 #cite_ref-:0_6-2 @240,3717,9,21
+      text McDermott, Ashley (2019). . . (2): 256. . @118,3750,537,20
+      link "\"The Linguistic Landscape of Post-Soviet Bishkek\"" https://www.jstor.org/stable/26899266 @118,3782,537,20
+      text Region @118,3814,537,21
+      text 8 @118,3847,537,20
+      text 227– @118,3879,537,20
+      link ISSN https://en.wikipedia.org/wiki/ISSN_(identifier) @118,3911,537,20
+      link 2166-4307 https://search.worldcat.org/issn/2166-4307 @118,3943,537,21
+      row @118,3976,537,20
+        link "Jump up" #cite_ref-7 @118,3976,58,20
+        text . @188,3976,5,20
+        link "\"Major Russian TV Channel Sidelined in Kyrgyzstan - Jamestown\"" https://jamestown.org/program/major-russian-tv-channel-sidelined-in-kyrgyzstan/ @205,3976,438,20
+      text .mw-parser-output .navbox{box-sizing:border-box;border:1px solid auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}} #fdfdfd}.mw-parser-output @118,4008,537,670
+      table "hide.mw-parser-output .navbar{display inline;font-size 88%;font-weight normal}.mw-parser-output .navbar-collapse{float left;text-align left}.mw-parser-output .navbar-boxtext{word-spacing 0}.mw-parser-output .navbar ul{display inline-block;white-space nowrap;line-height inherit}.mw-parser-output .navbar-brackets before{margin-right -0.125em;content \"[ \"}.mw-parser-output .navbar-brackets after{margin-left -0.125em;content \" ]\"}.mw-parser-output .navbar li{word-spacing -0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration inherit}.mw-parser-output .navbar-mini abbr{font-variant small-caps;border-bottom none;text-decoration none;cursor inherit}.mw-parser-output .navbar-ct-full{font-size 114%;margin 0 7em}.mw-parser-output .navbar-ct-mini{font-size 114%;margin 0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color var(--color-base)!important}@media(prefers-color-scheme dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color var(--color-base)!important}}@media print{.mw-parser-output .navbar{display none!important}}vteLanguages of Asia" @118,4690,537,0
+        Sovereign states | Afghanistan Armenia Azerbaijan Bahrain Bangladesh Bhutan Brunei Cambodia China Cyprus Egypt Georgia India Indonesia Iran Iraq Israel Japan Jordan Kazakhstan North Korea South Korea Kuwait Kyrgyzstan Laos Lebanon Malaysia Maldives Mongolia Myanmar Nepal Oman Pakistan Palestine Philippines Qatar Russia Saudi Arabia Singapore Sri Lanka Syria Tajikistan Thailand Timor-Leste (East Timor) Turkey Turkmenistan United Arab Emirates Uzbekistan Vietnam Yemen
+        States withlimited recognition | Abkhazia Northern Cyprus South Ossetia Taiwan
+        Dependencies andother territories | British Indian Ocean Territory Christmas Island Cocos (Keeling) Islands Hong Kong Macau
+        Category Asia portal
+      text : @118,4702,537,20
+      row @118,4734,537,21
+        link Category /wiki/Help:Category @118,4734,61,21
+        link "Languages of Kyrgyzstan" /wiki/Category:Languages_of_Kyrgyzstan @191,4734,170,21
+  col @667,2046,44,1265
+    text This page was last edited on 26 May 2026, at 03:34 (UTC). @667,2046,44,223
+    text Page was rendered with . @667,2281,44,81
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid @667,2374,44,21
+    text Text is available under the ; additional terms may apply. By using this site, you agree to the and . Wikipedia® is a registered trademark of the , a non-profit organization. @667,2407,44,487
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License @667,2906,44,101
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use @667,3019,44,41
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @667,3072,44,41
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/ @667,3125,44,61
+    row @667,3198,44,81
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy @667,3218,0,40
+      link "About Wikipedia" /wiki/Wikipedia:About @679,3218,0,40
+      link Disclaimers /wiki/Wikipedia:General_disclaimer @691,3228,0,20
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us @703,3218,0,40
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information @715,3198,0,81
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct @727,3208,0,61
+      link Developers https://developer.wikimedia.org @739,3228,0,20
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org @751,3228,0,20
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement @763,3218,0,40
+      link "Mobile view" @775,3218,0,40
+    row @667,3291,44,20
+      link https://www.wikimedia.org/ https://www.wikimedia.org/ @667,3291,16,20
+      link https://www.mediawiki.org/ https://www.mediawiki.org/ @695,3291,16,20
+!overflow move 174/216px
+!overflow search2 64/76px
+!overflow hide 28/125px
+!overflow toggle 28/280px
+!overflow 7 28/110px
+!overflow tools 28/66px
+!overflow move2 28/179px
+!overflow expand 28/98px
+!overflow hide2 28/146px

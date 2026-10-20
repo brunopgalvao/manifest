@@ -1,0 +1,2129 @@
+@html_spec_whatwg_org_multipage_common_mi
+link "https://whatwg.org/" https://whatwg.org/
+h1 HTML
+text Living Standard — Last Updated 19 October 2026 success
+text —  —
+row
+  link "← 2 Common infrastructure" infrastructure.html
+  link "Table of Contents" ./
+  link "2.4 URLs →" urls-and-fetching.html
+link "2.3 Common microsyntaxes" common-microsyntaxes.html#common-microsyntaxes
+link "2.3.1 Common parser idioms" common-microsyntaxes.html#common-parser-idioms
+link "2.3.2 Boolean attributes" common-microsyntaxes.html#boolean-attributes
+link "2.3.3 Keywords and enumerated attributes" common-microsyntaxes.html#keywords-and-enumerated-attributes
+link "2.3.4 Numbers" common-microsyntaxes.html#numbers
+link "2.3.4.1 Signed integers" common-microsyntaxes.html#signed-integers
+link "2.3.4.2 Non-negative integers" common-microsyntaxes.html#non-negative-integers
+link "2.3.4.3 Floating-point numbers" common-microsyntaxes.html#floating-point-numbers
+link "2.3.4.4 Percentages and lengths" common-microsyntaxes.html#percentages-and-dimensions
+link "2.3.4.5 Nonzero percentages and lengths" common-microsyntaxes.html#nonzero-percentages-and-lengths
+link "2.3.4.6 Lists of floating-point numbers" common-microsyntaxes.html#lists-of-floating-point-numbers
+link "2.3.4.7 Lists of dimensions" common-microsyntaxes.html#lists-of-dimensions
+link "2.3.5 Dates and times" common-microsyntaxes.html#dates-and-times
+link "2.3.5.1 Months" common-microsyntaxes.html#months
+link "2.3.5.2 Dates" common-microsyntaxes.html#dates
+link "2.3.5.3 Yearless dates" common-microsyntaxes.html#yearless-dates
+link "2.3.5.4 Times" common-microsyntaxes.html#times
+link "2.3.5.5 Local dates and times" common-microsyntaxes.html#local-dates-and-times
+link "2.3.5.6 Time zones" common-microsyntaxes.html#time-zones
+link "2.3.5.7 Global dates and times" common-microsyntaxes.html#global-dates-and-times
+link "2.3.5.8 Weeks" common-microsyntaxes.html#weeks
+link "2.3.5.9 Durations" common-microsyntaxes.html#durations
+link "2.3.5.10 Vaguer moments in time" common-microsyntaxes.html#vaguer-moments-in-time
+link "2.3.6 Legacy colors" common-microsyntaxes.html#colours
+link "2.3.7 Space-separated tokens" common-microsyntaxes.html#space-separated-tokens
+link "2.3.8 Comma-separated tokens" common-microsyntaxes.html#comma-separated-tokens
+link "2.3.9 References" common-microsyntaxes.html#syntax-references
+link "2.3.10 Media queries" common-microsyntaxes.html#mq
+link "2.3.11 Unique internal values" common-microsyntaxes.html#unique-values
+h3 2.3 Common microsyntaxes
+text There are various places in HTML that accept particular data types, such as dates or numbers. This section describes what the conformance criteria for content in those formats is, and how to parse them.
+text Implementers are strongly urged to carefully examine any third-party libraries they might consider using to implement the parsing of syntaxes described below. For example, date libraries are likely to implement error handling behavior that differs from what is required in this specification, since error-handling behavior is often not defined in specifications that describe date syntaxes similar to those used in this specification, and thus implementations tend to vary greatly in how they handle errors. success
+h3 2.3.1 Common parser idioms
+text Some of the micro-parsers described below follow the pattern of having an  variable that holds the string being parsed, and having a  variable pointing at the next character to parse in .
+text input
+text position
+text input
+h3 2.3.2 Boolean attributes
+text A number of attributes are . The presence of a boolean attribute on an element represents the true value, and the absence of the attribute represents the false value.
+text boolean attributes
+text If the attribute is present, its value must either be the empty string or a value that is an  match for the attribute's canonical name, with no leading or trailing whitespace.
+link "ASCII case-insensitive" https://infra.spec.whatwg.org/#ascii-case-insensitive
+text "The values \"true\" and \"false\" are not allowed on boolean attributes. To represent a false value, the attribute has to be omitted altogether." success
+text Here is an example of a checkbox that is checked and disabled. The  and  attributes are the boolean attributes.
+row
+  link checked input.html#attr-input-checked
+  link "disabled" form-control-infrastructure.html#attr-fe-disabled
+text Cheese
+card
+  text <
+  text label success
+  text ><
+  text input success
+  text type primary
+  text =
+  text checkbox warning
+  text checked primary
+  text name primary
+  text =
+  text cheese warning
+  text "disabled" primary
+  text >
+  text </
+  text label success
+  text >
+text This could be equivalently written as this:
+text Cheese
+card
+  text <
+  text label success
+  text ><
+  text input success
+  text type primary
+  text =
+  text checkbox warning
+  text checked primary
+  text =
+  text checked warning
+  text name primary
+  text =
+  text cheese warning
+  text "disabled" primary
+  text =
+  text "disabled" warning
+  text >
+  text </
+  text label success
+  text >
+text You can also mix styles; the following is still equivalent:
+text Cheese
+card
+  text <
+  text label success
+  text ><
+  text input success
+  text type primary
+  text =
+  text 'checkbox' warning
+  text checked primary
+  text name primary
+  text =
+  text cheese warning
+  text "disabled" primary
+  text =
+  text "\"\"" warning
+  text >
+  text </
+  text label success
+  text >
+h3 2.3.3 Keywords and enumerated attributes
+text Some attributes, called , take on a finite set of states. The state for such an attribute is derived by combining the attribute's value, a set of keyword/state mappings, and three possible special states that can also be given in the specification of the attribute. These special states are the , the , and the .
+text enumerated attributes
+text invalid value default
+text missing value default
+text empty value default
+text Multiple keywords can map to the same state. success
+text To determine the state of an attribute, use the following steps:
+text If the attribute is not specified:
+text If the attribute has a  state defined, then return that  state.
+row
+  link "missing value default" #missing-value-default
+  link "missing value default" #missing-value-default
+text Otherwise, return no state.
+text If the attribute's value is an  match for one of the keywords defined for the attribute, then return the state represented by that keyword.
+link "ASCII case-insensitive" https://infra.spec.whatwg.org/#ascii-case-insensitive
+text If the attribute has an  state defined and the attribute's value is the empty string, then return that  state.
+row
+  link "empty value default" #empty-value-default
+  link "empty value default" #empty-value-default
+text If the attribute has an  state defined, then return that  state.
+row
+  link "invalid value default" #invalid-value-default
+  link "invalid value default" #invalid-value-default
+text Return no state.
+text For authoring conformance purposes, if an enumerated attribute is specified, the attribute's value must be one of:
+text An  match for one of the conforming keywords for that attribute, with no leading or trailing whitespace.
+link "ASCII case-insensitive" https://infra.spec.whatwg.org/#ascii-case-insensitive
+text The empty string and the attribute must have an  defined.
+link "empty value default" #empty-value-default
+text For  purposes, states which have any keywords mapping to them are said to have a . This is determined as follows:
+row
+  link reflection common-dom-interfaces.html#reflect
+  text canonical keyword
+text If there is only one keyword mapping to the given state, then it is that keyword.
+text If there is only one conforming keyword mapping to the given state, then it is that conforming keyword.
+text If there are two conforming keywords mapping to the given state, and one is the empty string, then the canonical keyword will be the conforming keyword that is not the empty string.
+text Otherwise, the canonical keyword for the state will be explicitly given in the specification for the attribute.
+h3 2.3.4 Numbers
+h3 2.3.4.1 Signed integers
+text A string is a  if it consists of one or more , optionally prefixed with a U+002D HYPHEN-MINUS character (-).
+row
+  text valid integer
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text A  without a U+002D HYPHEN-MINUS (-) prefix represents the number that is represented in base ten by that string of digits. A   a U+002D HYPHEN-MINUS (-) prefix represents the number represented in base ten by the string of digits that follows the U+002D HYPHEN-MINUS, subtracted from zero.
+link "valid integer" #valid-integer
+link "valid integer" #valid-integer
+text with
+text The  are as given in the following algorithm. When invoked, the steps must be followed in the order given, aborting at the first step that returns a value. This algorithm will return either an integer or an error.
+text rules for parsing integers
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text "Let  have the value \"positive\"."
+text sign
+text within  given .
+row
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace
+  text input
+  text position
+text If  is past the end of , return an error.
+row
+  text position
+  text input
+text If the character indicated by  (the first character) is a U+002D HYPHEN-MINUS character (-):
+text position
+text "Let  be \"negative\"."
+text sign
+text Advance  to the next character.
+text position
+text If  is past the end of , return an error.
+row
+  text position
+  text input
+text Otherwise, if the character indicated by  (the first character) is a U+002B PLUS SIGN character (+):
+text position
+text "Advance  to the next character. (The \"\" is ignored, but it is not conforming.)"
+row
+  text position
+  text +
+text If  is past the end of , return an error.
+row
+  text position
+  text input
+text If the character indicated by  is not an , then return an error.
+row
+  text position
+  link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit
+text that are  from  given , and interpret the resulting sequence as a base-ten integer. Let  be that integer.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text value
+text "If  is \"positive\", return , otherwise return the result of subtracting  from zero."
+row
+  text sign
+  text value
+  text value
+h3 2.3.4.2 Non-negative integers
+text A string is a  if it consists of one or more .
+row
+  text valid non-negative integer
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text A  represents the number that is represented in base ten by that string of digits.
+link "valid non-negative integer" #valid-non-negative-integer
+text The  are as given in the following algorithm. When invoked, the steps must be followed in the order given, aborting at the first step that returns a value. This algorithm will return either zero, a positive integer, or an error.
+text rules for parsing non-negative integers
+text Let  be the string being parsed.
+text input
+text Let  be the result of parsing  using the .
+row
+  text value
+  text input
+  link "rules for parsing integers" #rules-for-parsing-integers
+text If  is an error, return an error.
+text value
+text If  is less than zero, return an error.
+text value
+text Return .
+text value
+h3 2.3.4.3 Floating-point numbers
+text A string is a  if it consists of:
+text valid floating-point number
+text Optionally, a U+002D HYPHEN-MINUS character (-).
+text One or both of the following, in the given order:
+text A series of one or more .
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text Both of the following, in the given order:
+text A single U+002E FULL STOP character (.).
+text A series of one or more .
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text Optionally:
+text Either a U+0065 LATIN SMALL LETTER E character (e) or a U+0045 LATIN CAPITAL LETTER E character (E).
+text Optionally, a U+002D HYPHEN-MINUS character (-) or U+002B PLUS SIGN character (+).
+text A series of one or more .
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text A  represents the number obtained by multiplying the significand by ten raised to the power of the exponent, where the significand is the first number, interpreted as base ten (including the decimal point and the number after the decimal point, if any, and interpreting the significand as a negative number if the whole string starts with a U+002D HYPHEN-MINUS character (-) and the number is not zero), and where the exponent is the number after the E, if any (interpreted as a negative number if there is a U+002D HYPHEN-MINUS character (-) between the E and the number and the number is not zero, or else ignoring a U+002B PLUS SIGN character (+) between the E and the number if there is one). If there is no E, then the exponent is treated as zero.
+link "valid floating-point number" #valid-floating-point-number
+text The Infinity and Not-a-Number (NaN) values are not . success
+link "valid floating-point numbers" #valid-floating-point-number
+text The  concept is typically only used to restrict what is allowed for authors, while the user agent requirements use the  below (e.g., the  attribute of the  element). However, in some cases the user agent requirements include checking if a string is a  (e.g., the  for the  state of the  element, or the  algorithm). success
+link "valid floating-point number" #valid-floating-point-number
+link "rules for parsing floating-point number values" #rules-for-parsing-floating-point-number-values
+link max form-elements.html#attr-progress-max
+link progress form-elements.html#the-progress-element
+link "valid floating-point number" #valid-floating-point-number
+link "value sanitization algorithm" input.html#value-sanitization-algorithm
+link Number input.html#number-state-(type=number)
+link input input.html#the-input-element
+link "parse a srcset attribute" images.html#parse-a-srcset-attribute
+text The  is the string obtained from running (). The abstract operation  is not uniquely determined. When there are multiple possible strings that could be obtained from  for a particular value, the user agent must always return the same string for that value (though it may differ from the value used by other user agents).
+text best representation of the number  as a floating-point number
+text n
+link ToString https://tc39.es/ecma262/#sec-tostring
+text n
+link ToString https://tc39.es/ecma262/#sec-tostring
+link ToString https://tc39.es/ecma262/#sec-tostring
+text The  are as given in the following algorithm. This algorithm must be aborted at the first step that returns something. This algorithm will return either a number or an error.
+text rules for parsing floating-point number values
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text Let  have the value 1.
+text value
+text Let  have the value 1.
+text divisor
+text Let  have the value 1.
+text exponent
+text within  given .
+row
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace
+  text input
+  text position
+text If  is past the end of , return an error.
+row
+  text position
+  text input
+text If the character indicated by  is a U+002D HYPHEN-MINUS character (-):
+text position
+text Change  and  to −1.
+row
+  text value
+  text divisor
+text Advance  to the next character.
+text position
+text If  is past the end of , return an error.
+row
+  text position
+  text input
+text Otherwise, if the character indicated by  (the first character) is a U+002B PLUS SIGN character (+):
+text position
+text "Advance  to the next character. (The \"\" is ignored, but it is not conforming.)"
+row
+  text position
+  text +
+text If  is past the end of , return an error.
+row
+  text position
+  text input
+text If the character indicated by  is a U+002E FULL STOP (.), and that is not the last character in , and the character after the character indicated by  is an , then set  to zero and jump to the step labeled .
+text position
+text input
+text position
+link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit
+text value
+text fraction
+text If the character indicated by  is not an , then return an error.
+row
+  text position
+  link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit
+text that are  from  given , and interpret the resulting sequence as a base-ten integer. Multiply  by that integer.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text value
+text If  is past the end of , jump to the step labeled .
+row
+  text position
+  text input
+  text conversion
+text : If the character indicated by  is a U+002E FULL STOP (.), run these substeps:
+row
+  text Fraction
+  text position
+text Advance  to the next character.
+text position
+text If  is past the end of , or if the character indicated by  is not an , U+0065 LATIN SMALL LETTER E (e), or U+0045 LATIN CAPITAL LETTER E (E), then jump to the step labeled .
+text position
+text input
+text position
+link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit
+text conversion
+text If the character indicated by  is a U+0065 LATIN SMALL LETTER E character (e) or a U+0045 LATIN CAPITAL LETTER E character (E), skip the remainder of these substeps.
+text position
+text : Multiply  by ten.
+row
+  text Fraction loop
+  text divisor
+text Add the value of the character indicated by , interpreted as a base-ten digit (0..9) and divided by , to .
+row
+  text position
+  text divisor
+  text value
+text Advance  to the next character.
+text position
+text If  is past the end of , then jump to the step labeled .
+row
+  text position
+  text input
+  text conversion
+text If the character indicated by  is an , jump back to the step labeled  in these substeps.
+row
+  text position
+  link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit
+  text fraction loop
+text If the character indicated by  is U+0065 (e) or a U+0045 (E):
+text position
+text Advance  to the next character.
+text position
+text If  is past the end of , then jump to the step labeled .
+row
+  text position
+  text input
+  text conversion
+text If the character indicated by  is a U+002D HYPHEN-MINUS character (-):
+text position
+text Change  to −1.
+text exponent
+text Advance  to the next character.
+text position
+text If  is past the end of , then jump to the step labeled .
+row
+  text position
+  text input
+  text conversion
+text Otherwise, if the character indicated by  is a U+002B PLUS SIGN character (+):
+text position
+text Advance  to the next character.
+text position
+text If  is past the end of , then jump to the step labeled .
+row
+  text position
+  text input
+  text conversion
+text If the character indicated by  is not an , then jump to the step labeled .
+row
+  text position
+  link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit
+  text conversion
+text that are  from  given , and interpret the resulting sequence as a base-ten integer. Multiply  by that integer.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text exponent
+text Multiply  by ten raised to the th power.
+row
+  text value
+  text exponent
+text : Let  be the set of finite IEEE 754 double-precision floating-point values except −0, but with two special values added: 2 and −2.
+text Conversion
+text S
+text 1024
+text 1024
+text Let  be the number in  that is closest to , selecting the number with an even significand if there are two equally close values. (The two special values 2 and −2 are considered to have even significands for this purpose.)
+text rounded-value
+text S
+text value
+text 1024
+text 1024
+text If  is 2 or −2, return an error.
+row
+  text rounded-value
+  text 1024
+  text 1024
+text Return .
+text rounded-value
+h3 2.3.4.4 Percentages and lengths
+text The  are as given in the following algorithm. When invoked, the steps must be followed in the order given, aborting at the first step that returns a value. This algorithm will return either a number greater than or equal to 0.0, or failure; if a number is returned, then it is further categorized as either a percentage or a length.
+text rules for parsing dimension values
+text Let  be the string being parsed.
+text input
+text Let  be a  for , initially pointing at the start of .
+row
+  text position
+  link "position variable" https://infra.spec.whatwg.org/#string-position-variable
+  text input
+  text input
+text within  given .
+row
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace
+  text input
+  text position
+text If  is past the end of  or the code point at  within  is not an , then return failure.
+row
+  text position
+  text input
+  text position
+  text input
+  link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit
+text that are  from  given , and interpret the resulting sequence as a base-ten integer. Let  be that number.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text value
+text If  is past the end of , then return  as a length.
+row
+  text position
+  text input
+  text value
+text If the code point at  within  is U+002E (.):
+row
+  text position
+  text input
+text Advance  by 1.
+text position
+text If  is past the end of  or the code point at  within  is not an , then return the  with , , and .
+text position
+text input
+text position
+text input
+link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit
+link "current dimension value" #current-dimension-value
+text value
+text input
+text position
+text Let  have the value 1.
+text divisor
+text While true:
+text Multiply  by ten.
+text divisor
+text Add the value of the code point at  within , interpreted as a base-ten digit (0..9) and divided by , to .
+row
+  text position
+  text input
+  text divisor
+  text value
+text Advance  by 1.
+text position
+text If  is past the end of , then return  as a length.
+row
+  text position
+  text input
+  text value
+text If the code point at  within  is not an , then .
+row
+  text position
+  text input
+  link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit
+  link break https://infra.spec.whatwg.org/#iteration-break
+text Return the  with , , and .
+row
+  link "current dimension value" #current-dimension-value
+  text value
+  text input
+  text position
+text The , given , , and , is determined as follows:
+row
+  text current dimension value
+  text value
+  text input
+  text position
+text If  is past the end of , then return  as a length.
+row
+  text position
+  text input
+  text value
+text If the code point at  within  is U+0025 (%), then return  as a percentage.
+row
+  text position
+  text input
+  text value
+text Return  as a length.
+text value
+h3 2.3.4.5 Nonzero percentages and lengths
+text The  are as given in the following algorithm. When invoked, the steps must be followed in the order given, aborting at the first step that returns a value. This algorithm will return either a number greater than 0.0, or an error; if a number is returned, then it is further categorized as either a percentage or a length.
+text rules for parsing nonzero dimension values
+text Let  be the string being parsed.
+text input
+text Let  be the result of parsing  using the .
+row
+  text value
+  text input
+  link "rules for parsing dimension values" #rules-for-parsing-dimension-values
+text If  is an error, return an error.
+text value
+text If  is zero, return an error.
+text value
+text If  is a percentage, return  as a percentage.
+row
+  text value
+  text value
+text Return  as a length.
+text value
+h3 2.3.4.6 Lists of floating-point numbers
+text A  is a number of  separated by U+002C COMMA characters, with no other characters (e.g. no ). In addition, there might be restrictions on the number of floating-point numbers that can be given, or on the range of values allowed.
+text valid list of floating-point numbers
+link "valid floating-point numbers" #valid-floating-point-number
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text The  are as follows:
+text rules for parsing a list of floating-point numbers
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text Let  be an initially empty list of floating-point numbers. This list will be the result of this algorithm.
+text numbers
+text that are , U+002C COMMA, or U+003B SEMICOLON characters from  given . This skips past any leading delimiters.
+row
+  link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+  link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+  text input
+  text position
+text While  is not past the end of :
+row
+  text position
+  text input
+text that are not , U+002C COMMA, U+003B SEMICOLON, , U+002E FULL STOP, or U+002D HYPHEN-MINUS characters from  given . This skips past leading garbage.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text that are not , U+002C COMMA, or U+003B SEMICOLON characters from  given , and let  be the result.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text input
+text position
+text unparsed number
+text Let  be the result of parsing  using the .
+row
+  text number
+  text unparsed number
+  link "rules for parsing floating-point number values" #rules-for-parsing-floating-point-number-values
+text If  is an error, set  to zero.
+row
+  text number
+  text number
+text Append  to .
+row
+  text number
+  text numbers
+text that are , U+002C COMMA, or U+003B SEMICOLON characters from  given . This skips past the delimiter.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text input
+text position
+text Return .
+text numbers
+h3 2.3.4.7 Lists of dimensions
+text The  are as follows. These rules return a list of zero or more pairs consisting of a number and a unit, the unit being one of , , and .
+text rules for parsing a list of dimensions
+text percentage
+text relative
+text absolute
+text Let  be the string being parsed.
+text raw input
+text If the last character in  is a U+002C COMMA character (,), then remove that character from .
+row
+  text raw input
+  text raw input
+text . Let  be the resulting list of tokens.
+row
+  link "Split the string raw input on commas" https://infra.spec.whatwg.org/#split-on-commas
+  text raw tokens
+text Let  be an empty list of number/unit pairs.
+text result
+text For each token in , run the following substeps:
+text raw tokens
+text Let  be the token.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text Let  be the number 0.
+text value
+text Let  be .
+row
+  text unit
+  text absolute
+text If  is past the end of , set  to  and jump to the last substep.
+row
+  text position
+  text input
+  text unit
+  text relative
+text If the character at  is an ,  that are  from  given , interpret the resulting sequence as an integer in base ten, and increment  by that integer.
+text position
+link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit
+link "collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text value
+text If the character at  is U+002E (.):
+text position
+text consisting of  and  from  given . Let  be the resulting sequence.
+row
+  link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+  link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text input
+  text position
+  text s
+text Remove all  in .
+row
+  link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+  text s
+text If  is not the empty string:
+text s
+text Let  be the number of characters in  (after the spaces were removed).
+row
+  text length
+  text s
+text Let  be the result of interpreting  as a base-ten integer, and then dividing that number by .
+row
+  text fraction
+  text s
+  text 10
+  text length
+text Increment  by .
+row
+  text value
+  text fraction
+text within  given .
+row
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace
+  text input
+  text position
+text If the character at  is a U+0025 PERCENT SIGN character (%), then set  to .
+row
+  text position
+  text unit
+  text percentage
+text Otherwise, if the character at  is a U+002A ASTERISK character (*), then set  to .
+row
+  text position
+  text unit
+  text relative
+text Add an entry to  consisting of the number given by  and the unit given by .
+row
+  text result
+  text value
+  text unit
+text Return the list .
+text result
+h3 2.3.5 Dates and times
+text In the algorithms below, the  is:  if  is 1, 3, 5, 7, 8, 10, or 12;  if  is 4, 6, 9, or 11;  if  is 2 and  is a number divisible by 400, or if  is a number divisible by 4 but not by 100; and  otherwise. This takes into account leap years in the Gregorian calendar.
+text number of days in month  of year
+row
+  text month
+  text year
+text 31
+text month
+text 30
+text month
+text 29
+text month
+text year
+text year
+text 28
+link [GREGORIAN] references.html#refsGREGORIAN
+text When  are used in the date and time syntaxes defined in this section, they express numbers in base ten.
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text While the formats described here are intended to be subsets of the corresponding ISO8601 formats, this specification defines parsing rules in much more detail than ISO8601. Implementers are therefore encouraged to carefully examine any date parsing libraries before using them to implement the parsing rules described below; ISO8601 libraries might not parse dates and times in exactly the same manner. success
+link [ISO8601] references.html#refsISO8601
+text Where this specification refers to the , it means the modern Gregorian calendar, extrapolated backwards to year 1. A date in the , sometimes explicitly referred to as a , is one that is described using that calendar even if that calendar was not in use at the time (or place) in question.
+text proleptic Gregorian calendar
+link "proleptic Gregorian calendar" #proleptic-gregorian-calendar
+text proleptic-Gregorian date
+link [GREGORIAN] references.html#refsGREGORIAN
+text The use of the Gregorian calendar as the wire format in this specification is an arbitrary choice resulting from the cultural biases of those involved in the decision. See also the section discussing  in forms (for authors), , and the  element. success
+link "date, time, and number formats" forms.html#input-author-notes
+link "implementation notes regarding localization of form controls" input.html#input-impl-notes
+link time text-level-semantics.html#the-time-element
+h3 2.3.5.1 Months
+text A  consists of a specific  with no time-zone information and no date information beyond a year and a month.
+text month
+link "proleptic-Gregorian date" #proleptic-gregorian-date
+link [GREGORIAN] references.html#refsGREGORIAN
+text A string is a  representing a year  and month  if it consists of the following components in the given order:
+row
+  text valid month string
+  text year
+  text month
+text Four or more , representing , where  > 0
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text year
+  text year
+text A U+002D HYPHEN-MINUS character (-)
+text Two , representing the month , in the range 1 ≤  ≤ 12
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text month
+  text month
+text "The rules to  are as follows. This will return either a year and month, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+text parse a month string
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text to obtain  and . If this returns nothing, then fail.
+row
+  link "Parse a month component" #parse-a-month-component
+  text year
+  text month
+text If  is  beyond the end of , then fail.
+row
+  text position
+  text not
+  text input
+text Return  and .
+row
+  text year
+  text month
+text "The rules to , given an  string and a , are as follows. This will return either a year and a month, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+row
+  text parse a month component
+  text input
+  text position
+text that are  from  given . If the collected sequence is not at least four characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let  be that number.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text year
+text If  is not a number greater than zero, then fail.
+text year
+text If  is beyond the end of  or if the character at  is not a U+002D HYPHEN-MINUS character, then fail. Otherwise, move  forwards one character.
+text position
+text input
+text position
+text position
+text that are  from  given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let  be that number.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text month
+text If  is not a number in the range 1 ≤  ≤ 12, then fail.
+row
+  text month
+  text month
+text Return  and .
+row
+  text year
+  text month
+h3 2.3.5.2 Dates
+text A  consists of a specific  with no time-zone information, consisting of a year, a month, and a day.
+row
+  text date
+  link "proleptic-Gregorian date" #proleptic-gregorian-date
+  link [GREGORIAN] references.html#refsGREGORIAN
+text A string is a  representing a year , month , and day  if it consists of the following components in the given order:
+row
+  text valid date string
+  text year
+  text month
+  text day
+text A , representing  and
+row
+  link "valid month string" #valid-month-string
+  text year
+  text month
+text A U+002D HYPHEN-MINUS character (-)
+text Two , representing , in the range 1 ≤  ≤  where  is the
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text day
+  text day
+  text maxday
+  text maxday
+  link "number of days in the month month and year year" #number-of-days-in-month-month-of-year-year
+text "The rules to  are as follows. This will return either a date, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+text parse a date string
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text to obtain , , and . If this returns nothing, then fail.
+row
+  link "Parse a date component" #parse-a-date-component
+  text year
+  text month
+  text day
+text If  is  beyond the end of , then fail.
+row
+  text position
+  text not
+  text input
+text Let  be the date with year , month , and day .
+row
+  text date
+  text year
+  text month
+  text day
+text Return .
+text date
+text "The rules to , given an  string and a , are as follows. This will return either a year, a month, and a day, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+row
+  text parse a date component
+  text input
+  text position
+text to obtain  and . If this returns nothing, then fail.
+row
+  link "Parse a month component" #parse-a-month-component
+  text year
+  text month
+text Let  be the .
+row
+  text maxday
+  link "number of days in month month of year year" #number-of-days-in-month-month-of-year-year
+text If  is beyond the end of  or if the character at  is not a U+002D HYPHEN-MINUS character, then fail. Otherwise, move  forwards one character.
+text position
+text input
+text position
+text position
+text that are  from  given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let  be that number.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text day
+text If  is not a number in the range 1 ≤  ≤ , then fail.
+row
+  text day
+  text day
+  text maxday
+text Return , , and .
+row
+  text year
+  text month
+  text day
+h3 2.3.5.3 Yearless dates
+text A  consists of a Gregorian month and a day within that month, but with no associated year.
+row
+  text yearless date
+  link [GREGORIAN] references.html#refsGREGORIAN
+text A string is a  representing a month  and a day  if it consists of the following components in the given order:
+row
+  text valid yearless date string
+  text month
+  text day
+text Optionally, two U+002D HYPHEN-MINUS characters (-)
+text Two , representing the month , in the range 1 ≤  ≤ 12
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text month
+  text month
+text A U+002D HYPHEN-MINUS character (-)
+text Two , representing , in the range 1 ≤  ≤  where  is the  in the month  and any arbitrary leap year (e.g. 4 or 2000)
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text day
+  text day
+  text maxday
+  text maxday
+  link "number of days" #number-of-days-in-month-month-of-year-year
+  text month
+text "In other words, if the  is \"\", meaning February, then the day can be 29, as if the year was a leap year." success
+row
+  text month success
+  text 02
+text "The rules to  are as follows. This will return either a month and a day, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+text parse a yearless date string
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text to obtain  and . If this returns nothing, then fail.
+row
+  link "Parse a yearless date component" #parse-a-yearless-date-component
+  text month
+  text day
+text If  is  beyond the end of , then fail.
+row
+  text position
+  text not
+  text input
+text Return  and .
+row
+  text month
+  text day
+text "The rules to , given an  string and a , are as follows. This will return either a month and a day, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+row
+  text parse a yearless date component
+  text input
+  text position
+text that are U+002D HYPHEN-MINUS characters (-) from  given . If the collected sequence is not exactly zero or two characters long, then fail.
+row
+  link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+  text input
+  text position
+text that are  from  given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let  be that number.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text month
+text If  is not a number in the range 1 ≤  ≤ 12, then fail.
+row
+  text month
+  text month
+text Let  be the  in month  of any arbitrary leap year (e.g. 4 or 2000).
+row
+  text maxday
+  link "number of days" #number-of-days-in-month-month-of-year-year
+  text month
+text If  is beyond the end of  or if the character at  is not a U+002D HYPHEN-MINUS character, then fail. Otherwise, move  forwards one character.
+text position
+text input
+text position
+text position
+text that are  from  given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let  be that number.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text day
+text If  is not a number in the range 1 ≤  ≤ , then fail.
+row
+  text day
+  text day
+  text maxday
+text Return  and .
+row
+  text month
+  text day
+h3 2.3.5.4 Times
+text A  consists of a specific time with no time-zone information, consisting of an hour, a minute, a second, and a fraction of a second.
+text time
+text A string is a  representing an hour , a minute , and a second  if it consists of the following components in the given order:
+row
+  text valid time string
+  text hour
+  text minute
+  text second
+text Two , representing , in the range 0 ≤  ≤ 23
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text hour
+  text hour
+text A U+003A COLON character (:)
+text Two , representing , in the range 0 ≤  ≤ 59
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text minute
+  text minute
+text If  is nonzero, or optionally if  is zero:
+text second
+text second
+text A U+003A COLON character (:)
+text Two , representing the integer part of , in the range 0 ≤  ≤ 59
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text second
+  text s
+text If  is not an integer, or optionally if  is an integer:
+text second
+text second
+text A U+002E FULL STOP character (.)
+text One, two, or three , representing the fractional part of
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text second
+text The  component cannot be 60 or 61; leap seconds cannot be represented. success
+text second success
+text "The rules to  are as follows. This will return either a time, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+text parse a time string
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text to obtain , , and . If this returns nothing, then fail.
+row
+  link "Parse a time component" #parse-a-time-component
+  text hour
+  text minute
+  text second
+text If  is  beyond the end of , then fail.
+row
+  text position
+  text not
+  text input
+text Let  be the time with hour , minute , and second .
+row
+  text time
+  text hour
+  text minute
+  text second
+text Return .
+text time
+text "The rules to , given an  string and a , are as follows. This will return either an hour, a minute, and a second, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+row
+  text parse a time component
+  text input
+  text position
+text that are  from  given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let  be that number.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text hour
+text If  is not a number in the range 0 ≤  ≤ 23, then fail.
+row
+  text hour
+  text hour
+text If  is beyond the end of  or if the character at  is not a U+003A COLON character, then fail. Otherwise, move  forwards one character.
+row
+  text position
+  text input
+  text position
+  text position
+text that are  from  given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let  be that number.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text minute
+text If  is not a number in the range 0 ≤  ≤ 59, then fail.
+row
+  text minute
+  text minute
+text Let  be 0.
+text second
+text If  is not beyond the end of  and the character at  is U+003A (:):
+row
+  text position
+  text input
+  text position
+text Advance  to the next character in .
+row
+  text position
+  text input
+text If  is beyond the end of , or at the last character in , or if the next  characters in  starting at  are not both , then fail.
+text position
+text input
+text input
+text two
+text input
+text position
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text that are either  or U+002E FULL STOP characters from  given . If the collected sequence is three characters long, or if it is longer than three characters long and the third character is not a U+002E FULL STOP character, or if it has more than one U+002E FULL STOP character, then fail. Otherwise, interpret the resulting sequence as a base-ten number (possibly with a fractional part). Set  to that number.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text second
+text If  is not a number in the range 0 ≤  < 60, then fail.
+row
+  text second
+  text second
+text Return , , and .
+row
+  text hour
+  text minute
+  text second
+h3 2.3.5.5 Local dates and times
+text A  consists of a specific , consisting of a year, a month, and a day, and a time, consisting of an hour, a minute, a second, and a fraction of a second, but expressed without a time zone.
+text local date and time
+link "proleptic-Gregorian date" #proleptic-gregorian-date
+link [GREGORIAN] references.html#refsGREGORIAN
+text A string is a  representing a date and time if it consists of the following components in the given order:
+text valid local date and time string
+text A  representing the date
+link "valid date string" #valid-date-string
+text A U+0054 LATIN CAPITAL LETTER T character (T) or a U+0020 SPACE character
+text A  representing the time
+link "valid time string" #valid-time-string
+text A string is a  representing a date and time if it consists of the following components in the given order:
+text valid normalized local date and time string
+text A  representing the date
+link "valid date string" #valid-date-string
+text A U+0054 LATIN CAPITAL LETTER T character (T)
+text A  representing the time, expressed as the shortest possible string for the given time (e.g. omitting the seconds component entirely if the given time is zero seconds past the minute)
+link "valid time string" #valid-time-string
+text "The rules to  are as follows. This will return either a date and time, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+text parse a local date and time string
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text to obtain , , and . If this returns nothing, then fail.
+row
+  link "Parse a date component" #parse-a-date-component
+  text year
+  text month
+  text day
+text If  is beyond the end of  or if the character at  is neither a U+0054 LATIN CAPITAL LETTER T character (T) nor a U+0020 SPACE character, then fail. Otherwise, move  forwards one character.
+text position
+text input
+text position
+text position
+text to obtain , , and . If this returns nothing, then fail.
+row
+  link "Parse a time component" #parse-a-time-component
+  text hour
+  text minute
+  text second
+text If  is  beyond the end of , then fail.
+row
+  text position
+  text not
+  text input
+text Let  be the date with year , month , and day .
+row
+  text date
+  text year
+  text month
+  text day
+text Let  be the time with hour , minute , and second .
+row
+  text time
+  text hour
+  text minute
+  text second
+text Return  and .
+row
+  text date
+  text time
+h3 2.3.5.6 Time zones
+text A  consists of a signed number of hours and minutes.
+text time-zone offset
+text A string is a  representing a time-zone offset if it consists of either:
+text valid time-zone offset string
+text A U+005A LATIN CAPITAL LETTER Z character (Z), allowed only if the time zone is UTC
+text Or, the following components, in the given order:
+text Either a U+002B PLUS SIGN character (+) or, if the time-zone offset is not zero, a U+002D HYPHEN-MINUS character (-), representing the sign of the time-zone offset
+text Two , representing the hours component  of the time-zone offset, in the range 0 ≤  ≤ 23
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text hour
+  text hour
+text Optionally, a U+003A COLON character (:)
+text Two , representing the minutes component  of the time-zone offset, in the range 0 ≤  ≤ 59
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text minute
+  text minute
+text This format allows for time-zone offsets from -23:59 to +23:59. Right now, in practice, the range of offsets of actual time zones is -12:00 to +14:00, and the minutes component of offsets of actual time zones is always either 00, 30, or 45. There is no guarantee that this will remain so forever, however, since time zones are used as political footballs and are thus subject to very whimsical policy decisions. success
+text See also the usage notes and examples in the  section below for details on using time-zone offsets with historical times that predate the formation of formal time zones. success
+link "global date and time" #concept-datetime
+text "The rules to  are as follows. This will return either a time-zone offset, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+text parse a time-zone offset string
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text to obtain  and . If this returns nothing, then fail.
+row
+  link "Parse a time-zone offset component" #parse-a-time-zone-offset-component
+  text timezonehours
+  text timezoneminutes
+text If  is  beyond the end of , then fail.
+row
+  text position
+  text not
+  text input
+text Return the time-zone offset that is  hours and  minutes from UTC.
+row
+  text timezonehours
+  text timezoneminutes
+text "The rules to , given an  string and a , are as follows. This will return either time-zone hours and time-zone minutes, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+row
+  text parse a time-zone offset component
+  text input
+  text position
+text If the character at  is a U+005A LATIN CAPITAL LETTER Z character (Z):
+text position
+text Let  be 0.
+text timezonehours
+text Let  be 0.
+text timezoneminutes
+text Advance  to the next character in .
+row
+  text position
+  text input
+text Otherwise, if the character at  is either a U+002B PLUS SIGN (+) or a U+002D HYPHEN-MINUS (-):
+text position
+text "If the character at  is a U+002B PLUS SIGN (+), let  be \"positive\". Otherwise, it's a U+002D HYPHEN-MINUS (-); let  be \"negative\"."
+row
+  text position
+  text sign
+  text sign
+text Advance  to the next character in .
+row
+  text position
+  text input
+text that are  from  given . Let  be the collected sequence.
+row
+  link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text input
+  text position
+  text s
+text If  is exactly two characters long:
+text s
+text Interpret  as a base-ten integer. Let  be that number.
+row
+  text s
+  text timezonehours
+text If  is beyond the end of  or if the character at  is not a U+003A COLON character, then fail. Otherwise, move  forwards one character.
+text position
+text input
+text position
+text position
+text that are  from  given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let  be that number.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text timezoneminutes
+text If  is exactly four characters long:
+text s
+text Interpret the first two characters of  as a base-ten integer. Let  be that number.
+row
+  text s
+  text timezonehours
+text Interpret the last two characters of  as a base-ten integer. Let  be that number.
+row
+  text s
+  text timezoneminutes
+text Otherwise, fail.
+text If  is not a number in the range 0 ≤  ≤ 23, then fail.
+row
+  text timezonehours
+  text timezonehours
+text "If  is \"negative\", then negate ."
+row
+  text sign
+  text timezonehours
+text If  is not a number in the range 0 ≤  ≤ 59, then fail.
+row
+  text timezoneminutes
+  text timezoneminutes
+text "If  is \"negative\", then negate ."
+row
+  text sign
+  text timezoneminutes
+text Otherwise, fail.
+text Return  and .
+row
+  text timezonehours
+  text timezoneminutes
+h3 2.3.5.7 Global dates and times
+text A  consists of a specific , consisting of a year, a month, and a day, and a time, consisting of an hour, a minute, a second, and a fraction of a second, expressed with a time-zone offset, consisting of a signed number of hours and minutes.
+text global date and time
+link "proleptic-Gregorian date" #proleptic-gregorian-date
+link [GREGORIAN] references.html#refsGREGORIAN
+text A string is a  representing a date, time, and a time-zone offset if it consists of the following components in the given order:
+text valid global date and time string
+text A  representing the date
+link "valid date string" #valid-date-string
+text A U+0054 LATIN CAPITAL LETTER T character (T) or a U+0020 SPACE character
+text A  representing the time
+link "valid time string" #valid-time-string
+text A  representing the time-zone offset
+link "valid time-zone offset string" #valid-time-zone-offset-string
+text Times in dates before the formation of UTC in the mid-twentieth century must be expressed and interpreted in terms of UT1 (contemporary Earth solar time at the 0° longitude), not UTC (the approximation of UT1 that ticks in SI seconds). Time before the formation of time zones must be expressed and interpreted as UT1 times with explicit time zones that approximate the contemporary difference between the appropriate local time and the time observed at the location of Greenwich, London.
+text The following are some examples of dates written as .
+link "valid global date and time strings" #valid-global-date-and-time-string
+text "\"0037-12-13 00:00Z\""
+text Midnight in areas using London time on the birthday of Nero (the Roman Emperor). See below for further discussion on which date this actually corresponds to.
+text "\"1979-10-14T12:00:00.001-04:00\""
+text One millisecond after noon on October 14th 1979, in the time zone in use on the east coast of the USA during daylight saving time.
+text "\"8592-01-01T02:09+02:09\""
+text Midnight UTC on the 1st of January, 8592. The time zone associated with that time is two hours and nine minutes ahead of UTC, which is not currently a real time zone, but is nonetheless allowed.
+text Several things are notable about these dates:
+text "Years with fewer than four digits have to be zero-padded. The date \"37-12-13\" would not be a valid date."
+text "If the \"T\" is replaced by a space, it must be a single space character. The string \"2001-12-21 12:00Z\" (with two spaces between the components) would not be parsed successfully."
+text To unambiguously identify a moment in time prior to the introduction of the Gregorian calendar (insofar as moments in time before the formation of UTC can be unambiguously identified), the date has to be first converted to the Gregorian calendar from the calendar in use at the time (e.g. from the Julian calendar). The date of Nero's birth is the 15th of December 37, in the Julian Calendar, which is the 13th of December 37 in the .
+link "proleptic Gregorian calendar" #proleptic-gregorian-calendar
+text The time and time-zone offset components are not optional.
+text Dates before the year one can't be represented as a datetime in this version of HTML.
+text Times of specific events in ancient times are, at best, approximations, since time was not well coordinated or measured until relatively recent decades.
+text Time-zone offsets differ based on daylight saving time.
+text "The rules to  are as follows. This will return either a time in UTC, with associated time-zone offset information for roundtripping or display purposes, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+text parse a global date and time string
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text to obtain , , and . If this returns nothing, then fail.
+row
+  link "Parse a date component" #parse-a-date-component
+  text year
+  text month
+  text day
+text If  is beyond the end of  or if the character at  is neither a U+0054 LATIN CAPITAL LETTER T character (T) nor a U+0020 SPACE character, then fail. Otherwise, move  forwards one character.
+text position
+text input
+text position
+text position
+text to obtain , , and . If this returns nothing, then fail.
+row
+  link "Parse a time component" #parse-a-time-component
+  text hour
+  text minute
+  text second
+text If  is beyond the end of , then fail.
+row
+  text position
+  text input
+text to obtain  and . If this returns nothing, then fail.
+row
+  link "Parse a time-zone offset component" #parse-a-time-zone-offset-component
+  text timezonehours
+  text timezoneminutes
+text If  is  beyond the end of , then fail.
+row
+  text position
+  text not
+  text input
+text Let  be the moment in time at year , month , day , hours , minute , second , subtracting  hours and  minutes. That moment in time is a moment in the UTC time zone.
+text time
+text year
+text month
+text day
+text hour
+text minute
+text second
+text timezonehours
+text timezoneminutes
+text Let  be  hours and  minutes from UTC.
+row
+  text timezone
+  text timezonehours
+  text timezoneminutes
+text Return  and .
+row
+  text time
+  text timezone
+h3 2.3.5.8 Weeks
+text A  consists of a week-year number and a week number representing a seven-day period starting on a Monday. Each week-year in this calendaring system has either 52 or 53 such seven-day periods, as defined below. The seven-day period starting on the Gregorian date Monday December 29th 1969 (1969-12-29) is defined as week number 1 in week-year 1970. Consecutive weeks are numbered sequentially. The week before the number 1 week in a week-year is the last week in the previous week-year, and vice versa.
+text week
+link [GREGORIAN] references.html#refsGREGORIAN
+text A week-year with a number  has 53 weeks if it corresponds to either a year  in the  that has a Thursday as its first day (January 1st), or a year  in the  that has a Wednesday as its first day (January 1st) and where  is a number divisible by 400, or a number divisible by 4 but not by 100. All other week-years have 52 weeks.
+text year
+text year
+link "proleptic Gregorian calendar" #proleptic-gregorian-calendar
+text year
+link "proleptic Gregorian calendar" #proleptic-gregorian-calendar
+text year
+text The  of a week-year with 53 weeks is 53; the week number of the last day of a week-year with 52 weeks is 52.
+text week number of the last day
+text The week-year number of a particular day can be different than the number of the year that contains that day in the . The first week in a week-year  is the week that contains the first Thursday of the Gregorian year . success
+link "proleptic Gregorian calendar" #proleptic-gregorian-calendar
+text y success
+text y success
+text For modern purposes, a  as defined here is equivalent to ISO weeks as defined in ISO 8601. success
+row
+  link week #concept-week
+  link [ISO8601] references.html#refsISO8601
+text A string is a  representing a week-year  and week  if it consists of the following components in the given order:
+row
+  text valid week string
+  text year
+  text week
+text Four or more , representing , where  > 0
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text year
+  text year
+text A U+002D HYPHEN-MINUS character (-)
+text A U+0057 LATIN CAPITAL LETTER W character (W)
+text Two , representing the week , in the range 1 ≤  ≤ , where  is the  of week-year
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text week
+text week
+text maxweek
+text maxweek
+link "week number of the last day" #week-number-of-the-last-day
+text year
+text "The rules to  are as follows. This will return either a week-year number and week number, or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+text parse a week string
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text that are  from  given . If the collected sequence is not at least four characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let  be that number.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text year
+text If  is not a number greater than zero, then fail.
+text year
+text If  is beyond the end of  or if the character at  is not a U+002D HYPHEN-MINUS character, then fail. Otherwise, move  forwards one character.
+text position
+text input
+text position
+text position
+text If  is beyond the end of  or if the character at  is not a U+0057 LATIN CAPITAL LETTER W character (W), then fail. Otherwise, move  forwards one character.
+text position
+text input
+text position
+text position
+text that are  from  given . If the collected sequence is not exactly two characters long, then fail. Otherwise, interpret the resulting sequence as a base-ten integer. Let  be that number.
+link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text week
+text Let  be the  of year .
+row
+  text maxweek
+  link "week number of the last day" #week-number-of-the-last-day
+  text year
+text If  is not a number in the range 1 ≤  ≤ , then fail.
+row
+  text week
+  text week
+  text maxweek
+text If  is  beyond the end of , then fail.
+row
+  text position
+  text not
+  text input
+text Return the week-year number  and the week number .
+row
+  text year
+  text week
+h3 2.3.5.9 Durations
+text A  consists of a number of seconds.
+text duration
+text Since months and seconds are not comparable (a month is not a precise number of seconds, but is instead a period whose exact length depends on the precise day from which it is measured) a  as defined in this specification cannot include months (or years, which are equivalent to twelve months). Only durations that describe a specific number of seconds can be described. success
+link duration #concept-duration
+text A string is a  representing a   if it consists of either of the following:
+row
+  text valid duration string
+  link duration #concept-duration
+  text t
+text A literal U+0050 LATIN CAPITAL LETTER P character followed by one or more of the following subcomponents, in the order given, where the number of days, hours, minutes, and seconds corresponds to the same number of seconds as in :
+text t
+text One or more  followed by a U+0044 LATIN CAPITAL LETTER D character, representing a number of days.
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text A U+0054 LATIN CAPITAL LETTER T character followed by one or more of the following subcomponents, in the order given:
+text One or more  followed by a U+0048 LATIN CAPITAL LETTER H character, representing a number of hours.
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text One or more  followed by a U+004D LATIN CAPITAL LETTER M character, representing a number of minutes.
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text The following components:
+text One or more , representing a number of seconds.
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text Optionally, a U+002E FULL STOP character (.) followed by one, two, or three , representing a fraction of a second.
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text A U+0053 LATIN CAPITAL LETTER S character.
+text This, as with a number of other date- and time-related microsyntaxes defined in this specification, is based on one of the formats defined in ISO 8601. success
+link [ISO8601] references.html#refsISO8601
+text One or more , each with a different , in any order; the sum of the represented seconds being equal to the number of seconds in .
+link "duration time components" #duration-time-component
+link "duration time component scale" #duration-time-component-scale
+text t
+text A  is a string consisting of the following components:
+text duration time component
+text Zero or more .
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text One or more , representing a number of time units, scaled by the  specified (see below) to represent a number of seconds.
+row
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  link "duration time component scale" #duration-time-component-scale
+text If the  specified is 1 (i.e. the units are seconds), then, optionally, a U+002E FULL STOP character (.) followed by one, two, or three , representing a fraction of a second.
+link "duration time component scale" #duration-time-component-scale
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text Zero or more .
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text One of the following characters, representing the  of the time unit used in the numeric part of the :
+text duration time component scale
+link "duration time component" #duration-time-component
+text U+0057 LATIN CAPITAL LETTER W character
+text U+0077 LATIN SMALL LETTER W character
+text Weeks. The scale is 604800.
+text U+0044 LATIN CAPITAL LETTER D character
+text U+0064 LATIN SMALL LETTER D character
+text Days. The scale is 86400.
+text U+0048 LATIN CAPITAL LETTER H character
+text U+0068 LATIN SMALL LETTER H character
+text Hours. The scale is 3600.
+text U+004D LATIN CAPITAL LETTER M character
+text U+006D LATIN SMALL LETTER M character
+text Minutes. The scale is 60.
+text U+0053 LATIN CAPITAL LETTER S character
+text U+0073 LATIN SMALL LETTER S character
+text Seconds. The scale is 1.
+text Zero or more .
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text This is not based on any of the formats in ISO 8601. It is intended to be a more human-readable alternative to the ISO 8601 duration format. success
+text "The rules to  are as follows. This will return either a  or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+row
+  text parse a duration string
+  link duration #concept-duration
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text Let , , and  all be zero.
+row
+  text months
+  text seconds
+  text component count
+text Let  be .
+row
+  text M-disambiguator
+  text minutes
+text "This flag's other value is months. It is used to disambiguate the \"M\" unit in ISO8601 durations, which use the same unit for months and minutes. Months are not allowed, but are parsed for future compatibility and to avoid misinterpreting ISO8601 durations that would be valid in other contexts." success
+text within  given .
+row
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace
+  text input
+  text position
+text If  is past the end of , then fail.
+row
+  text position
+  text input
+text If the character in  pointed to by  is a U+0050 LATIN CAPITAL LETTER P character, then advance  to the next character, set  to , and  within  given .
+text input
+text position
+text position
+text M-disambiguator
+text months
+link "skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace
+text input
+text position
+text While true:
+text Let  be undefined. It will be assigned one of the following values: , , , , , , and .
+row
+  text units
+  text years
+  text months
+  text weeks
+  text days
+  text hours
+  text minutes
+  text seconds
+text Let  be undefined. It is used to process characters from the .
+row
+  text next character
+  text input
+text If  is past the end of , then break.
+row
+  text position
+  text input
+text If the character in  pointed to by  is a U+0054 LATIN CAPITAL LETTER T character, then advance  to the next character, set  to ,  within  given , and .
+text input
+text position
+text position
+text M-disambiguator
+text minutes
+link "skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace
+text input
+text position
+link continue https://infra.spec.whatwg.org/#iteration-continue
+text Set  to the character in  pointed to by .
+row
+  text next character
+  text input
+  text position
+text If  is a U+002E FULL STOP character (.), then let  be 0. (Do not advance . That is taken care of below.)
+row
+  text next character
+  text N
+  text position
+text Otherwise, if  is an , then  that are  from  given , interpret the resulting sequence as a base-ten integer, and let  be that number.
+text next character
+link "ASCII digit" https://infra.spec.whatwg.org/#ascii-digit
+link "collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+text input
+text position
+text N
+text Otherwise,  is not part of a number; fail.
+text next character
+text If  is past the end of , then fail.
+row
+  text position
+  text input
+text Set  to the character in  pointed to by , and this time advance  to the next character. (If  was a U+002E FULL STOP character (.) before, it will still be that character this time.)
+row
+  text next character
+  text input
+  text position
+  text position
+  text next character
+text If  is U+002E (.):
+text next character
+text that are  from  given . Let  be the resulting sequence.
+row
+  link "Collect a sequence of code points" https://infra.spec.whatwg.org/#collect-a-sequence-of-code-points
+  link "ASCII digits" https://infra.spec.whatwg.org/#ascii-digit
+  text input
+  text position
+  text s
+text If  is the empty string, then fail.
+text s
+text Let  be the number of characters in .
+row
+  text length
+  text s
+text Let  be the result of interpreting  as a base-ten integer, and then dividing that number by .
+row
+  text fraction
+  text s
+  text 10
+  text length
+text Increment  by .
+row
+  text N
+  text fraction
+text within  given .
+row
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace
+  text input
+  text position
+text If  is past the end of , then fail.
+row
+  text position
+  text input
+text Set  to the character in  pointed to by , and advance  to the next character.
+row
+  text next character
+  text input
+  text position
+  text position
+text If  is neither a U+0053 LATIN CAPITAL LETTER S character nor a U+0073 LATIN SMALL LETTER S character, then fail.
+text next character
+text Set  to .
+row
+  text units
+  text seconds
+text Otherwise:
+text If  is , then  within  given , set  to the character in  pointed to by , and advance  to the next character.
+text next character
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+link "skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace
+text input
+text position
+text next character
+text input
+text position
+text position
+text If  is a U+0059 LATIN CAPITAL LETTER Y character, or a U+0079 LATIN SMALL LETTER Y character, set  to  and set  to .
+text next character
+text units
+text years
+text M-disambiguator
+text months
+text If  is a U+004D LATIN CAPITAL LETTER M character or a U+006D LATIN SMALL LETTER M character, and  is , then set  to .
+text next character
+text M-disambiguator
+text months
+text units
+text months
+text If  is a U+0057 LATIN CAPITAL LETTER W character or a U+0077 LATIN SMALL LETTER W character, set  to  and set  to .
+text next character
+text units
+text weeks
+text M-disambiguator
+text minutes
+text If  is a U+0044 LATIN CAPITAL LETTER D character or a U+0064 LATIN SMALL LETTER D character, set  to  and set  to .
+text next character
+text units
+text days
+text M-disambiguator
+text minutes
+text If  is a U+0048 LATIN CAPITAL LETTER H character or a U+0068 LATIN SMALL LETTER H character, set  to  and set  to .
+text next character
+text units
+text hours
+text M-disambiguator
+text minutes
+text If  is a U+004D LATIN CAPITAL LETTER M character or a U+006D LATIN SMALL LETTER M character, and  is , then set  to .
+text next character
+text M-disambiguator
+text minutes
+text units
+text minutes
+text If  is a U+0053 LATIN CAPITAL LETTER S character or a U+0073 LATIN SMALL LETTER S character, set  to  and set  to .
+text next character
+text units
+text seconds
+text M-disambiguator
+text minutes
+text Otherwise, if  is none of the above characters, then fail.
+text next character
+text Increment .
+text component count
+text Let  be 1.
+text multiplier
+text If  is , multiply  by 12 and set  to .
+row
+  text units
+  text years
+  text multiplier
+  text units
+  text months
+text If  is , add the product of  and  to .
+row
+  text units
+  text months
+  text N
+  text multiplier
+  text months
+text Otherwise:
+text If  is , multiply  by 7 and set  to .
+row
+  text units
+  text weeks
+  text multiplier
+  text units
+  text days
+text If  is , multiply  by 24 and set  to .
+row
+  text units
+  text days
+  text multiplier
+  text units
+  text hours
+text If  is , multiply  by 60 and set  to .
+row
+  text units
+  text hours
+  text multiplier
+  text units
+  text minutes
+text If  is , multiply  by 60 and set  to .
+row
+  text units
+  text minutes
+  text multiplier
+  text units
+  text seconds
+text Forcibly,  is now . Add the product of  and  to .
+row
+  text units
+  text seconds
+  text N
+  text multiplier
+  text seconds
+text within  given .
+row
+  link "Skip ASCII whitespace" https://infra.spec.whatwg.org/#skip-ascii-whitespace
+  text input
+  text position
+text If  is zero, fail.
+text component count
+text If  is not zero, fail.
+text months
+text Return the  consisting of  seconds.
+row
+  link duration #concept-duration
+  text seconds
+h3 2.3.5.10 Vaguer moments in time
+text A string is a  if it is also one of the following:
+text valid date string with optional time
+text A
+link "valid date string" #valid-date-string
+text A
+link "valid global date and time string" #valid-global-date-and-time-string
+text "The rules to  are as follows. The algorithm will return either a , a , a , or nothing. If at any point the algorithm says that it \"fails\", this means that it is aborted at that point and returns nothing."
+row
+  text parse a date or time string
+  link "date" #concept-date
+  link time #concept-time
+  link "global date and time" #concept-datetime
+text Let  be the string being parsed.
+text input
+text Let  be a pointer into , initially pointing at the start of the string.
+row
+  text position
+  text input
+text Set  to the same position as .
+row
+  text start position
+  text position
+text Set the  and  flags to true.
+row
+  text date present
+  text time present
+text to obtain , , and . If this fails, then set the  flag to false.
+row
+  link "Parse a date component" #parse-a-date-component
+  text year
+  text month
+  text day
+  text date present
+text If  is true, and  is not beyond the end of , and the character at  is either a U+0054 LATIN CAPITAL LETTER T character (T) or a U+0020 SPACE character, then advance  to the next character in .
+text date present
+text position
+text input
+text position
+text position
+text input
+text Otherwise, if  is true, and either  is beyond the end of  or the character at  is neither a U+0054 LATIN CAPITAL LETTER T character (T) nor a U+0020 SPACE character, then set  to false.
+text date present
+text position
+text input
+text position
+text time present
+text Otherwise, if  is false, set  back to the same position as .
+row
+  text date present
+  text position
+  text start position
+text If the  flag is true, then  to obtain , , and . If this returns nothing, then fail.
+row
+  text time present
+  link "parse a time component" #parse-a-time-component
+  text hour
+  text minute
+  text second
+text If the  and  flags are both true, but  is beyond the end of , then fail.
+row
+  text date present
+  text time present
+  text position
+  text input
+text If the  and  flags are both true,  to obtain  and . If this returns nothing, then fail.
+row
+  text date present
+  text time present
+  link "parse a time-zone offset component" #parse-a-time-zone-offset-component
+  text timezonehours
+  text timezoneminutes
+text If  is  beyond the end of , then fail.
+row
+  text position
+  text not
+  text input
+text If the  flag is true and the  flag is false, then let  be the date with year , month , and day , and return .
+text date present
+text time present
+text date
+text year
+text month
+text day
+text date
+text Otherwise, if the  flag is true and the  flag is false, then let  be the time with hour , minute , and second , and return .
+text time present
+text date present
+text time
+text hour
+text minute
+text second
+text time
+text Otherwise, let  be the moment in time at year , month , day , hours , minute , second , subtracting  hours and  minutes, that moment in time being a moment in the UTC time zone; let  be  hours and  minutes from UTC; and return  and .
+text time
+text year
+text month
+text day
+text hour
+text minute
+text second
+text timezonehours
+text timezoneminutes
+text timezone
+text timezonehours
+text timezoneminutes
+text time
+text timezone
+h3 2.3.6 Legacy colors
+text Some obsolete legacy attributes parse colors using the , given a string . They will return either a CSS color or failure.
+row
+  text rules for parsing a legacy color value
+  text input
+text If  is the empty string, then return failure.
+text input
+text from .
+row
+  link "Strip leading and trailing ASCII whitespace" https://infra.spec.whatwg.org/#strip-leading-and-trailing-ascii-whitespace
+  text input
+text "If  is an  match for \"\", then return failure."
+row
+  text input
+  link "ASCII case-insensitive" https://infra.spec.whatwg.org/#ascii-case-insensitive
+  text transparent
+text If  is an  match for one of the , then return the CSS color corresponding to that keyword.
+row
+  text input
+  link "ASCII case-insensitive" https://infra.spec.whatwg.org/#ascii-case-insensitive
+  link "named colors" https://drafts.csswg.org/css-color/#named-color
+  link [CSSCOLOR] references.html#refsCSSCOLOR
+text are not recognized. success
+link "CSS2 System Colors" https://www.w3.org/TR/css3-color/#css2-system
+text If 's  is four, and the first character in  is U+0023 (#), and the last three characters of  are all :
+row
+  text input
+  link "code point length" https://infra.spec.whatwg.org/#string-code-point-length
+  text input
+  text input
+  link "ASCII hex digits" https://infra.spec.whatwg.org/#ascii-hex-digit
+text Let  be a CSS color.
+text result
+text Interpret the second character of  as a hexadecimal digit; let the red component of  be the resulting number multiplied by 17.
+row
+  text input
+  text result
+text Interpret the third character of  as a hexadecimal digit; let the green component of  be the resulting number multiplied by 17.
+row
+  text input
+  text result
+text Interpret the fourth character of  as a hexadecimal digit; let the blue component of  be the resulting number multiplied by 17.
+row
+  text input
+  text result
+text Return .
+text result
+text "Replace any  greater than U+FFFF in  (i.e., any characters that are not in the basic multilingual plane) with \"\"."
+row
+  link "code points" https://infra.spec.whatwg.org/#code-point
+  text input
+  text 00
+text If 's  is greater than 128, truncate , leaving only the first 128 characters.
+row
+  text input
+  link "code point length" https://infra.spec.whatwg.org/#string-code-point-length
+  text input
+text If the first character in  is U+0023 (#), then remove it.
+text input
+text Replace any character in  that is not an  with U+0030 (0).
+row
+  text input
+  link "ASCII hex digit" https://infra.spec.whatwg.org/#ascii-hex-digit
+text While 's  is zero or not a multiple of three, append U+0030 (0) to .
+row
+  text input
+  link "code point length" https://infra.spec.whatwg.org/#string-code-point-length
+  text input
+text Split  into three strings of equal , to obtain three components. Let  be the  that all of those components have (one third the  of ).
+text input
+link "code point length" https://infra.spec.whatwg.org/#string-code-point-length
+text length
+link "code point length" https://infra.spec.whatwg.org/#string-code-point-length
+link "code point length" https://infra.spec.whatwg.org/#string-code-point-length
+text input
+text If  is greater than 8, then remove the leading  characters in each component, and let  be 8.
+row
+  text length
+  text -8
+  text length
+  text length
+text While  is greater than two and the first character in each component is U+0030 (0), remove that character and reduce  by one.
+row
+  text length
+  text length
+text If  is  greater than two, truncate each component, leaving only the first two characters in each.
+row
+  text length
+  text still
+text Let  be a CSS color.
+text result
+text Interpret the first component as a hexadecimal number; let the red component of  be the resulting number.
+text result
+text Interpret the second component as a hexadecimal number; let the green component of  be the resulting number.
+text result
+text Interpret the third component as a hexadecimal number; let the blue component of  be the resulting number.
+text result
+text Return .
+text result
+h3 2.3.7 Space-separated tokens
+text A  is a string containing zero or more words (known as tokens) separated by one or more , where words consist of any string of one or more characters, none of which are .
+text set of space-separated tokens
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text A string containing a  may have leading or trailing .
+row
+  link "set of space-separated tokens" #set-of-space-separated-tokens
+  link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text An  is a  where none of the tokens are duplicated.
+row
+  text unordered set of unique space-separated tokens
+  link "set of space-separated tokens" #set-of-space-separated-tokens
+text An  is a  where none of the tokens are duplicated but where the order of the tokens is meaningful.
+row
+  text ordered set of unique space-separated tokens
+  link "set of space-separated tokens" #set-of-space-separated-tokens
+text sometimes have a defined set of allowed values. When a set of allowed values is defined, the tokens must all be from that list of allowed values; other values are non-conforming. If no such set of allowed values is provided, then all values are conforming.
+link "Sets of space-separated tokens" #set-of-space-separated-tokens
+text How tokens in a  are to be compared (e.g. case-sensitively or not) is defined on a per-set basis. success
+link "set of space-separated tokens" #set-of-space-separated-tokens
+h3 2.3.8 Comma-separated tokens
+text A  is a string containing zero or more tokens each separated from the next by a single U+002C COMMA character (,), where tokens consist of any string of zero or more characters, neither beginning nor ending with , nor containing any U+002C COMMA characters (,), and optionally surrounded by .
+text set of comma-separated tokens
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text "For instance, the string \" a ,b,,d d \" consists of four tokens: \"a\", \"b\", the empty string, and \"d d\". Leading and trailing whitespace around each token doesn't count as part of the token, and the empty string can be a token."
+text sometimes have further restrictions on what consists a valid token. When such restrictions are defined, the tokens must all fit within those restrictions; other values are non-conforming. If no such restrictions are specified, then all values are conforming.
+link "Sets of comma-separated tokens" #set-of-comma-separated-tokens
+h3 2.3.9 References
+text A  to an element of type  is a string consisting of a U+0023 NUMBER SIGN character (#) followed by a string which exactly matches the value of the  attribute of an element with type  in the same .
+text valid hash-name reference
+text type
+text name
+text type
+link tree https://dom.spec.whatwg.org/#concept-tree
+text The  to an element of type , given a context node , are as follows:
+row
+  text rules for parsing a hash-name reference
+  text type
+  text scope
+text If the string being parsed does not contain a U+0023 NUMBER SIGN character, or if the first such character in the string is the last character in the string, then return null.
+text Let  be the string from the character immediately after the first U+0023 NUMBER SIGN character in the string being parsed up to the end of that string.
+text s
+text Return the first element of type  in 's , in , that has an  or  attribute whose value is , or null if there is no such element.
+row
+  text type
+  text scope
+  link tree https://dom.spec.whatwg.org/#concept-tree
+  link "tree order" https://dom.spec.whatwg.org/#concept-tree-order
+  link id dom.html#the-id-attribute
+  text name
+  text s
+text Although  attributes are accounted for when parsing, they are not used in determining whether a value is a . That is, a hash-name reference that refers to an element based on  is a conformance error (unless that element also has a  attribute with the same value). success
+link id dom.html#the-id-attribute
+link "valid hash-name reference" #valid-hash-name-reference
+link id dom.html#the-id-attribute
+text name
+h3 2.3.10 Media queries
+text A string is a  if it matches the  production of .
+row
+  text valid media query list
+  text <media-query-list>
+  text Media Queries
+  link [MQ] references.html#refsMQ
+text A string  of the user if it is the empty string, a string consisting of only , or is a media query list that matches the user's environment according to the definitions given in .
+text matches the environment
+link "ASCII whitespace" https://infra.spec.whatwg.org/#ascii-whitespace
+text Media Queries
+link [MQ] references.html#refsMQ
+h3 2.3.11 Unique internal values
+text A  is a value that is serializable, comparable by value, and never exposed to script.
+text unique internal value
+text To create a , return a  that has never previously been returned by this algorithm.
+row
+  text new unique internal value
+  link "unique internal value" #unique-internal-value
+text —  —
+row
+  link "← 2 Common infrastructure" infrastructure.html
+  link "Table of Contents" ./
+  link "2.4 URLs →" urls-and-fetching.html
