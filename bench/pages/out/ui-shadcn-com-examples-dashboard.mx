@@ -1,0 +1,132 @@
+@ui_shadcn_com_examples_dashboard
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+    row
+      link New /create
+link "Trace, Code Block and AI Elements" /docs/changelog
+h1 The Foundation for your Design System
+text A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.
+row
+  link "Get Started" /docs/installation
+  link "View Components" /docs/components
+row
+  row
+    link Examples /
+    link Dashboard /examples/dashboard
+    link Tasks /examples/tasks
+    link Playground /examples/playground
+    link Authentication /examples/authentication
+    link RTL /examples/rtl
+  row
+    text Theme
+    row
+      text Neutral
+      region 16x16
+        path "m6 9 6 6 6-6" fill:none stroke:#737373 width:2
+    button "Copy Code"
+card
+  row
+    col
+      link "Acme Inc." #
+      text Home
+      button Dashboard
+      button Lifecycle
+      button Analytics
+      button Projects
+      button Team
+      text Documents
+      link "Data Library" #
+      button More
+      link Reports #
+      button More
+      link "Word Assistant" #
+      button More
+      button More
+      link Settings #
+      link "Get Help" #
+      link Search #
+      button shadcnm@example.com
+    col
+      row
+        h1 Documents
+        button "Quick Create" primary
+      row
+        col
+          row
+            text Total Revenue
+            text $1,250.00
+            region 12x12
+              path "M3 17l6 -6l4 4l8 -8" fill:none stroke:#000000 width:2
+              path "M14 7l7 0l0 7" fill:none stroke:#000000 width:2
+          region 16x16
+            path "M3 17l6 -6l4 4l8 -8" fill:none stroke:#000000 width:2
+            path "M14 7l7 0l0 7" fill:none stroke:#000000 width:2
+          text Visitors for the last 6 months
+        col
+          row
+            text New Customers
+            text 1,234
+            region 12x12
+              path "M3 7l6 6l4 -4l8 8" fill:none stroke:#000000 width:2
+              path "M21 10l0 7l-7 0" fill:none stroke:#000000 width:2
+          region 16x16
+            path "M3 7l6 6l4 -4l8 8" fill:none stroke:#000000 width:2
+            path "M21 10l0 7l-7 0" fill:none stroke:#000000 width:2
+          text Acquisition needs attention
+        col
+          row
+            text Active Accounts
+            text 45,678
+            region 12x12
+              path "M3 17l6 -6l4 4l8 -8" fill:none stroke:#000000 width:2
+              path "M14 7l7 0l0 7" fill:none stroke:#000000 width:2
+          region 16x16
+            path "M3 17l6 -6l4 4l8 -8" fill:none stroke:#000000 width:2
+            path "M14 7l7 0l0 7" fill:none stroke:#000000 width:2
+          text Engagement exceed targets
+        col
+          row
+            text Growth Rate
+            text 4.5%
+            region 12x12
+              path "M3 17l6 -6l4 4l8 -8" fill:none stroke:#000000 width:2
+              path "M14 7l7 0l0 7" fill:none stroke:#000000 width:2
+          region 16x16
+            path "M3 17l6 -6l4 4l8 -8" fill:none stroke:#000000 width:2
+            path "M14 7l7 0l0 7" fill:none stroke:#000000 width:2
+          text Meets growth projections
+      card
+        row
+          text Total Visitors
+          text Total for the last 3 monthsLast 3 months
+          row
+        text Jun 30Mobile400Desktop446Jun 24Jun 25Jun 26Jun 27Jun 28Jun 29Jun 30
+      row
+        text View
+        tabs
+          tab *Outline
+          tab "Past Performance 3"
+          tab "Key Personnel 2"
+          tab "Focus Documents"
+        row
+          button "Customize ColumnsColumns"
+          button "Add Section"
+row
+  link shadcn https://twitter.com/shadcn
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+  link GitHub https://github.com/shadcn-ui/ui
+text Notifications alt+T
+text Jun 23
+text Notifications

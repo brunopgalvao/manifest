@@ -1,0 +1,97 @@
+@getbootstrap_com_docs_5_3_examples_navba
+button "Toggle theme (light)" primary
+row
+  link "Never expand" #
+  button "Toggle navigation"
+row
+  link "Always expand" #
+  row
+    row
+      link Home #
+      link Link #
+    field Search search
+row
+  link "Expand at sm" #
+  row
+    row
+      link Home #
+      link Link #
+      link Dropdown #
+    field Search search
+row
+  link "Expand at md" #
+  row
+    row
+      link Home #
+      link Link #
+      link Dropdown #
+    field Search search
+row
+  link "Expand at lg" #
+  row
+    row
+      link Home #
+      link Link #
+      link Dropdown #
+    field Search search
+row
+  link "Expand at xl" #
+  row
+    row
+      link Home #
+      link Link #
+      link Dropdown #
+    field Search search
+row
+  link "Expand at xxl" #
+  button "Toggle navigation"
+row
+  link Container #
+  row
+    row
+      link Home #
+      link Link #
+      link Dropdown #
+    field Search search
+row
+  link "Container XL" #
+  row
+    row
+      link Home #
+      link Link #
+      link Dropdown #
+    field Search search
+text Matching .container-xl...
+row
+  link "Centered nav only" #
+  link Link #
+  link Dropdown #
+card
+  row
+    link Navbar #
+    row
+      row
+        link Home #
+        link Link #
+        link Dropdown #
+      field Search search
+card
+  row
+    link "Centered nav only" #
+    link Link #
+    link Dropdown #
+card
+  row
+    link "Centered nav" #
+    row
+      link Home #
+      link Link #
+      link Dropdown #
+    button Button primary
+card
+  h1 Navbar examples
+  text .container danger
+  link top /docs/5.3/examples/navbar-static/
+  link "fixed top" /docs/5.3/examples/navbar-fixed/
+  text At the smallest breakpoint, the collapse plugin is used to hide the links and show a menu button to toggle the collapsed content.
+  button "View navbar docs »" primary

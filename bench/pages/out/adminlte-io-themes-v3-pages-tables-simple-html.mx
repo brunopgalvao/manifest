@@ -1,0 +1,141 @@
+@adminlte_io_themes_v3_pages_tables_simpl
+row
+  row
+    button button
+    link Home ../../index3.html
+    link Contact #
+  row
+    button button
+    link 3 #
+    link 15 #
+    button button
+    button button
+link "AdminLTE 3" ../../index3.html
+row
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image"
+  link "Alexander Pierce" #
+row
+  field Search search
+  button button primary
+link Dashboard #
+link "Widgets New" ../widgets.html
+link "Layout Options 6" #
+link Charts #
+link "UI Elements" #
+link Forms #
+link Tables #
+link "Simple Tables" ../tables/simple.html
+link DataTables ../tables/data.html
+link jsGrid ../tables/jsgrid.html
+text EXAMPLES
+link "Calendar 2" ../calendar.html
+link Gallery ../gallery.html
+link "Kanban Board" ../kanban.html
+link Mailbox #
+link Pages #
+link Extras #
+link Search #
+text MISCELLANEOUS
+link "Tabbed IFrame Plugin" ../../iframe.html
+link Documentation https://adminlte.io/docs/3.1/
+text MULTI LEVEL EXAMPLE
+link "Level 1" #
+link "Level 1" #
+link "Level 1" #
+text LABELS
+link Important #
+link Warning #
+link Informational #
+row
+  h1 Simple Tables
+  row
+    link Home #
+    text Simple Tables
+row
+  col
+    h3 Bordered Table
+    table # Task Progress Label
+      1. | Update software |  | 55%
+      2. | Clean database |  | 70%
+      3. | Cron job running |  | 30%
+      4. | Fix and squish bugs |  | 90%
+    row
+      link « #
+      link 1 #
+      link 2 #
+      link 3 #
+      link » #
+    h3 Condensed Full Width Table
+    table # Task Progress Label
+      1. | Update software |  | 55%
+      2. | Clean database |  | 70%
+      3. | Cron job running |  | 30%
+      4. | Fix and squish bugs |  | 90%
+  col
+    row
+      h3 Simple Full Width Table
+      row
+        link « #
+        link 1 #
+        link 2 #
+        link 3 #
+        link » #
+    table # Task Progress Label
+      1. | Update software |  | 55%
+      2. | Clean database |  | 70%
+      3. | Cron job running |  | 30%
+      4. | Fix and squish bugs |  | 90%
+    h3 Striped Full Width Table
+    table # Task Progress Label
+      1. | Update software |  | 55%
+      2. | Clean database |  | 70%
+      3. | Cron job running |  | 30%
+      4. | Fix and squish bugs |  | 90%
+row
+  h3 Responsive Hover Table
+  row
+    field Search
+    button button
+table ID User Date Status Reason
+  183 | John Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  219 | Alexander Pierce | 11-7-2014 | Pending | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  657 | Bob Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  175 | Mike Doe | 11-7-2014 | Denied | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+row
+  h3 Fixed Header Table
+  row
+    field Search
+    button button
+table ID User Date Status Reason
+  183 | John Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  219 | Alexander Pierce | 11-7-2014 | Pending | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  657 | Bob Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  175 | Mike Doe | 11-7-2014 | Denied | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  134 | Jim Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  494 | Victoria Doe | 11-7-2014 | Pending | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  832 | Michael Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  982 | Rocky Doe | 11-7-2014 | Denied | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+h3 Expandable Table
+table # User Date Status Reason
+  183 | John Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  219 | Alexander Pierce | 11-7-2014 | Pending | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  657 | Alexander Pierce | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  175 | Mike Doe | 11-7-2014 | Denied | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  134 | Jim Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  494 | Victoria Doe | 11-7-2014 | Pending | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  832 | Michael Doe | 11-7-2014 | Approved | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+  982 | Rocky Doe | 11-7-2014 | Denied | Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.
+h3 Expandable Table Tree
+table 183
+  219
+  219-1 219-1-1 219-1-2 219-1-3 219-2 219-2-1 219-2-2 219-2-3 219-3
+  657
+  175
+  134
+  494
+  832
+  982
+text Version 3.2.0
+link AdminLTE.io https://adminlte.io

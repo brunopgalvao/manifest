@@ -1,0 +1,144 @@
+@getbootstrap_com_docs_5_3_examples_featu
+button "Toggle theme (light)" primary
+h1 Features examples
+h2 Columns with icons
+row
+  col
+    card
+      region 32x32
+    h3 Featured title
+    text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.
+    link "Call to action" #
+  col
+    card
+      region 32x32
+    h3 Featured title
+    text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.
+    link "Call to action" #
+  col
+    card
+      region 32x32
+    h3 Featured title
+    text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.
+    link "Call to action" #
+h2 Hanging icons
+row
+  row
+    region 24x24
+    col
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.
+      link "Primary button" #
+  row
+    region 24x24
+    col
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.
+      link "Primary button" #
+  row
+    region 24x24
+    col
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.
+      link "Primary button" #
+h2 Custom cards
+row
+  col
+    h3 Short title, long jacket
+    row
+      image https://github.com/twbs.png "Bootstrap"
+      row
+        region "Location" 16x16
+        text Earth
+      row
+        region "Duration" 16x16
+        text 3d
+  col
+    h3 Much longer title that wraps to multiple lines
+    row
+      image https://github.com/twbs.png "Bootstrap"
+      row
+        region "Location" 16x16
+        text Pakistan
+      row
+        region "Duration" 16x16
+        text 4d
+  col
+    h3 Another longer title belongs here
+    row
+      image https://github.com/twbs.png "Bootstrap"
+      row
+        region "Location" 16x16
+        text California
+      row
+        region "Duration" 16x16
+        text 5d
+h2 Icon grid
+row
+  row
+    region 28x28
+    col
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading.
+  row
+    region 28x28
+    col
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading.
+  row
+    region 28x28
+    col
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading.
+  row
+    region 28x28
+    col
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading.
+  row
+    region 28x28
+    col
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading.
+  row
+    region 28x28
+    col
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading.
+  row
+    region 28x28
+    col
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading.
+  row
+    region 28x28
+    col
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading.
+h2 Features with title
+row
+  col
+    h2 Left-aligned title explaining these awesome features
+    text Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.
+    link "Primary button" #
+  row
+    col
+      card
+        region 24x24
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading.
+    col
+      card
+        region 24x24
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading.
+    col
+      card
+        region 24x24
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading.
+    col
+      card
+        region 24x24
+      h3 Featured title
+      text Paragraph of text beneath the heading to explain the heading.

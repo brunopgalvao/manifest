@@ -1,0 +1,493 @@
+@bulma_io_documentation_form_general
+link "Learn CSS with 🎓 online interactive courses,📺 educational videos, and 🧑🏻‍💻project-building tutorials." https://cssmasterclass.io/
+row
+  link "https://bulma.io/" https://bulma.io/
+  row
+    link "Docs Documentation" https://bulma.io/documentation/
+    link Expo https://bulma.io/expo/
+    link Love https://bulma.io/love/
+    link Sponsor https://bulma.io/become-a-bulma-sponsor/
+    row
+      link "Open Source on GitHub" https://github.com/jgthms/bulma
+      link "Follow me on Twitter" https://twitter.com/jgthms
+      button button
+      col
+        link "Made with Bulma" https://bulma.io/made-with-bulma/
+        link Backers https://bulma.io/backers/
+        link "Bulma Brand" https://bulma.io/brand/
+        link "Bulma Extensions" https://bulma.io/extensions/
+  col
+    button button
+    card
+      button "Light mode"
+      button "Dark mode"
+      button "System mode" success
+  col
+    button button
+    card
+      field "search input"
+  link Download https://github.com/jgthms/bulma/releases/download/1.0.4/bulma-1.0.4.zip
+row
+  col
+    h3 Start Here
+    link Overview https://bulma.io/documentation/start/overview/
+    link Installation https://bulma.io/documentation/start/installation/
+    link "Alternative Versions" https://bulma.io/documentation/start/alternative-versions/
+    link Syntax https://bulma.io/documentation/start/syntax/
+    link Modularity https://bulma.io/documentation/start/modular/
+    link Responsiveness https://bulma.io/documentation/start/responsiveness/
+    link "Migrating to v1" https://bulma.io/documentation/start/migrating-to-v1/
+    h3 Features
+    link "CSS Variables" https://bulma.io/documentation/features/css-variables/
+    link Themes https://bulma.io/documentation/features/themes/
+    link "Dark Mode" https://bulma.io/documentation/features/dark-mode/
+    link "Color Palettes" https://bulma.io/documentation/features/color-palettes/
+    link Skeletons https://bulma.io/documentation/features/skeletons/
+    h3 Sass Tools
+    link Mixins https://bulma.io/documentation/sass/mixins/
+    link "Responsive mixins" https://bulma.io/documentation/sass/responsive-mixins/
+    link "Form Control mixins" https://bulma.io/documentation/sass/form-control-mixins/
+    link Extends https://bulma.io/documentation/sass/extends/
+    h3 Customization
+    link Concepts https://bulma.io/documentation/customize/concepts/
+    link "With Sass" https://bulma.io/documentation/customize/with-sass/
+    link "With Modular Sass" https://bulma.io/documentation/customize/with-modular-sass/
+    link "With CSS Variables" https://bulma.io/documentation/customize/with-css-variables/
+    link "List of Sass variables" https://bulma.io/documentation/customize/list-of-sass-variables/
+    h3 CSS Library
+    link Elements https://bulma.io/documentation/elements/
+    link Block https://bulma.io/documentation/elements/block/
+    link Box https://bulma.io/documentation/elements/box/
+    link Button https://bulma.io/documentation/elements/button/
+    link Content https://bulma.io/documentation/elements/content/
+    link Delete https://bulma.io/documentation/elements/delete/
+    link Icon https://bulma.io/documentation/elements/icon/
+    link Image https://bulma.io/documentation/elements/image/
+    link Notification https://bulma.io/documentation/elements/notification/
+    link "Progress bars" https://bulma.io/documentation/elements/progress/
+    link Table https://bulma.io/documentation/elements/table/
+    link Tag https://bulma.io/documentation/elements/tag/
+    link Title https://bulma.io/documentation/elements/title/
+    link Components https://bulma.io/documentation/components/
+    link Breadcrumb https://bulma.io/documentation/components/breadcrumb/
+    link Card https://bulma.io/documentation/components/card/
+    link Dropdown https://bulma.io/documentation/components/dropdown/
+    link Menu https://bulma.io/documentation/components/menu/
+    link Message https://bulma.io/documentation/components/message/
+    link Modal https://bulma.io/documentation/components/modal/
+    link Navbar https://bulma.io/documentation/components/navbar/
+    link Pagination https://bulma.io/documentation/components/pagination/
+    link Panel https://bulma.io/documentation/components/panel/
+    link Tabs https://bulma.io/documentation/components/tabs/
+    link Form https://bulma.io/documentation/form/
+    link General https://bulma.io/documentation/form/general/
+    link Input https://bulma.io/documentation/form/input/
+    link Textarea https://bulma.io/documentation/form/textarea/
+    link Select https://bulma.io/documentation/form/select/
+    link Checkbox https://bulma.io/documentation/form/checkbox/
+    link Radio https://bulma.io/documentation/form/radio/
+    link File https://bulma.io/documentation/form/file/
+    link Columns https://bulma.io/documentation/columns/
+    link Basics https://bulma.io/documentation/columns/basics/
+    link Sizes https://bulma.io/documentation/columns/sizes/
+    link Responsiveness https://bulma.io/documentation/columns/responsiveness/
+    link Nesting https://bulma.io/documentation/columns/nesting/
+    link Gap https://bulma.io/documentation/columns/gap/
+    link Options https://bulma.io/documentation/columns/options/
+    link Grid https://bulma.io/documentation/grid/
+    link "Smart Grid" https://bulma.io/documentation/grid/smart-grid/
+    link "Fixed Grid" https://bulma.io/documentation/grid/fixed-grid/
+    link "Grid Cells" https://bulma.io/documentation/grid/grid-cells/
+    link Playground https://bulma.io/documentation/grid/playground/
+    link Layout https://bulma.io/documentation/layout/
+    link Container https://bulma.io/documentation/layout/container/
+    link Hero https://bulma.io/documentation/layout/hero/
+    link Section https://bulma.io/documentation/layout/section/
+    link Level https://bulma.io/documentation/layout/level/
+    link "Media Object" https://bulma.io/documentation/layout/media-object/
+    link Footer https://bulma.io/documentation/layout/footer/
+    h3 CSS Helpers
+    link Color https://bulma.io/documentation/helpers/color-helpers/
+    link "Color Palette" https://bulma.io/documentation/helpers/palette-helpers/
+    link Spacing https://bulma.io/documentation/helpers/spacing-helpers/
+    link Typography https://bulma.io/documentation/helpers/typography-helpers/
+    link Visibility https://bulma.io/documentation/helpers/visibility-helpers/
+    link Flexbox https://bulma.io/documentation/helpers/flexbox-helpers/
+    link Other https://bulma.io/documentation/helpers/other-helpers/
+    text Sponsor
+    link "https://www.route4me.com/" https://www.route4me.com/
+  col
+    row
+      col
+        h1 Form controls
+        h2 All generic form controls, designed for consistency
+      col
+        card
+          link "https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI627ICTSI52JKF67DC2QYCKYDLKQJCKSD6KJJF6YDT27KC6SILKJWCYADEK3EHJNCLSIZ" https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI627ICTSI52JKF67DC2QYCKYDLKQJCKSD6KJJF6YDT27KC6SILKJWCYADEK3EHJNCLSIZ
+          link "100% agent accuracy with steering hooks. Learn how." https://srv.carbonads.net/ads/click/x/GTND4277CVBD6KQICVYLYKQUF67ITKJLC6SDTZ3JCAAI627ICTSI52JKF67DC2QYCKYDLKQJCKSD6KJJF6YDT27KC6SILKJWCYADEK3EHJNCLSIZ
+        link "ads via Carbon" http://carbonads.net/?utm_source=bulmaio&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+    text Bulma supports the following native HTML form elements: <form> <button> <input> <textarea> and <label>.
+    text The following CSS classes are supported:
+    text label
+    text input
+    text textarea
+    text select
+    text checkbox
+    text radio
+    text button
+    text help
+    text To maintain an evenly balanced design, Bulma provides a very useful control container with which you can wrap the form controls. When combining several controls in a form, use the field class as a container, to keep the spacing consistent.
+    h3 "Complete form example #"
+    text Example
+    text Name
+    field "Text input"
+    text Username
+    field "Text input" =bulma
+    text This username is available success
+    text Email
+    field "Email input" email =hello@
+    text This email is invalid danger
+    text Subject
+    select Select *"Select dropdown" "With options"
+    text Message
+    field Textarea
+    link "terms and conditions" #
+    check "I agree to the" off
+    row
+    row
+      button Submit primary
+      button Cancel
+    text HTML
+    button "Show code" danger
+    text "<div class=\"field\"> <label class=\"label\">Name</label> <div class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"Text input\"> </div> </div> <div class=\"field\"> <label class=\"label\">Username</label> <div class=\"control has-icons-left has-icons-right\"> <input class=\"input is-success\" type=\"text\" placeholder=\"Text input\" value=\"bulma\"> <span class=\"icon is-small is-left\"> <i class=\"fas fa-user\"></i> </span> <span class=\"icon is-small is-right\"> <i class=\"fas fa-check\"></i> </span> </div> <p class=\"help is-success\">This username is available</p> </div> <div class=\"field\"> <label class=\"label\">Email</label> <div class=\"control has-icons-left has-icons-right\"> <input class=\"input is-danger\" type=\"email\" placeholder=\"Email input\" value=\"hello@\"> <span class=\"icon is-small is-left\"> <i class=\"fas fa-envelope\"></i> </span> <span class=\"icon is-small is-right\"> <i class=\"fas fa-exclamation-triangle\"></i> </span> </div> <p class=\"help is-danger\">This email is invalid</p> </div> <div class=\"field\"> <label class=\"label\">Subject</label> <div class=\"control\"> <div class=\"select\"> <select> <option>Select dropdown</option> <option>With options</option> </select> </div> </div> </div> <div class=\"field\"> <label class=\"label\">Message</label> <div class=\"control\"> <textarea class=\"textarea\" placeholder=\"Textarea\"></textarea> </div> </div> <div class=\"field\"> <div class=\"control\"> <label class=\"checkbox\"> <input type=\"checkbox\"> I agree to the <a href=\"#\">terms and conditions</a> </label> </div> </div> <div class=\"field\"> <div class=\"control\"> <label class=\"radio\"> <input type=\"radio\" name=\"question\"> Yes </label> <label class=\"radio\"> <input type=\"radio\" name=\"question\"> No </label> </div> </div> <div class=\"field is-grouped\"> <div class=\"control\"> <button class=\"button is-link\">Submit</button> </div> <div class=\"control\"> <button class=\"button is-link is-light\">Cancel</button> </div> </div>"
+    button Copy danger
+    text For the best results using Bulma, it's recommended to use the control element as often as possible.
+    h3 "Form field #"
+    text The field container is a simple container for:
+    text a text label
+    text a form control
+    text an optional helptext
+    text Example
+    text Label
+    field "Text input"
+    text This is a help text
+    text HTML
+    text "<div class=\"field\"> <label class=\"label\">Label</label> <div class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"Text input\"> </div> <p class=\"help\">This is a help text</p> </div>"
+    button Copy danger
+    text This container allows form fields to be spaced consistently.
+    text Example
+    text Name
+    field "e.g Alex Smith"
+    text Email
+    field "e.g. alexsmith@gmail.com" email
+    text HTML
+    text "<div class=\"field\"> <label class=\"label\">Name</label> <div class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"e.g Alex Smith\"> </div> </div> <div class=\"field\"> <label class=\"label\">Email</label> <div class=\"control\"> <input class=\"input\" type=\"email\" placeholder=\"e.g. alexsmith@gmail.com\"> </div> </div>"
+    button Copy danger
+    h3 "Form control #"
+    text The Bulma control is a versatile block container meant to enhance single form controls. Because it has the same height as the element that it wraps, it can only contain the following Bulma elements:
+    text input
+    text select
+    text button
+    text icon
+    text This container gives the ability to:
+    text keep the spacing consistent
+    text combine form controls into a group
+    text combine form controls into a list
+    text append and prepend icons to a form control
+    text Example
+    field "Text input"
+    text HTML
+    text "<div class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"Text input\"> </div>"
+    button Copy danger
+    text Example
+    select Select *"Select dropdown" "With options"
+    text HTML
+    text "<div class=\"control\"> <div class=\"select\"> <select> <option>Select dropdown</option> <option>With options</option> </select> </div> </div>"
+    button Copy danger
+    text Example
+    button Submit success
+    text HTML
+    text "<div class=\"control\"> <button class=\"button is-primary\">Submit</button> </div>"
+    button Copy danger
+    h3 "With icons #"
+    text You can append one of 2 modifiers on a control:
+    text has-icons-left
+    text and/or has-icons-right
+    text You also need to add a modifier on the icon:
+    text icon is-left if has-icons-left is used
+    text icon is-right if has-icons-right is used
+    text Make sure the input is the control's first child, otherwise the icon may disappear when selected. The size of the input will define the size of the icon container.
+    text Example
+    field Email email
+    field Password password
+    button Login success
+    text HTML
+    text "<div class=\"field\"> <p class=\"control has-icons-left has-icons-right\"> <input class=\"input\" type=\"email\" placeholder=\"Email\"> <span class=\"icon is-small is-left\"> <i class=\"fas fa-envelope\"></i> </span> <span class=\"icon is-small is-right\"> <i class=\"fas fa-check\"></i> </span> </p> </div> <div class=\"field\"> <p class=\"control has-icons-left\"> <input class=\"input\" type=\"password\" placeholder=\"Password\"> <span class=\"icon is-small is-left\"> <i class=\"fas fa-lock\"></i> </span> </p> </div> <div class=\"field\"> <p class=\"control\"> <button class=\"button is-success\"> Login </button> </p> </div>"
+    button Copy danger
+    text You can append icons to select dropdowns as well.
+    text Example
+    select Select *Country "Select dropdown" "With options"
+    text HTML
+    text "<div class=\"field\"> <p class=\"control has-icons-left\"> <span class=\"select\"> <select> <option selected>Country</option> <option>Select dropdown</option> <option>With options</option> </select> </span> <span class=\"icon is-small is-left\"> <i class=\"fas fa-globe\"></i> </span> </p> </div>"
+    button Copy danger
+    text If the control contains an icon, Bulma will make sure the icon remains centered, no matter the size of the input or of the icon.
+    text Example
+    text Small input
+    field Normal email
+    text HTML
+    text "<div class=\"field\"> <label class=\"label is-small\">Small input</label> <div class=\"control has-icons-left has-icons-right\"> <input class=\"input is-small\" type=\"email\" placeholder=\"Normal\"> <span class=\"icon is-small is-left\"> <i class=\"fas fa-envelope\"></i> </span> <span class=\"icon is-small is-right\"> <i class=\"fas fa-check\"></i> </span> </div> </div>"
+    button Copy danger
+    text Example
+    text Normal input
+    field "Extra small" email
+    field Normal email
+    text HTML
+    text "<div class=\"field\"> <label class=\"label\">Normal input</label> <div class=\"control has-icons-left has-icons-right\"> <input class=\"input\" type=\"email\" placeholder=\"Extra small\"> <span class=\"icon is-small is-left\"> <i class=\"fas fa-envelope fa-xs\"></i> </span> <span class=\"icon is-small is-right\"> <i class=\"fas fa-check fa-xs\"></i> </span> </div> </div> <div class=\"field\"> <div class=\"control has-icons-left has-icons-right\"> <input class=\"input\" type=\"email\" placeholder=\"Normal\"> <span class=\"icon is-left\"> <i class=\"fas fa-envelope\"></i> </span> <span class=\"icon is-right\"> <i class=\"fas fa-check\"></i> </span> </div> </div>"
+    button Copy danger
+    text Example
+    text Medium input
+    field "Extra small" email
+    field Small email
+    field Normal email
+    text HTML
+    text "<div class=\"field\"> <label class=\"label is-medium\">Medium input</label> <div class=\"control has-icons-left has-icons-right\"> <input class=\"input is-medium\" type=\"email\" placeholder=\"Extra small\"> <span class=\"icon is-small is-left\"> <i class=\"fas fa-envelope fa-xs\"></i> </span> <span class=\"icon is-small is-right\"> <i class=\"fas fa-check fa-xs\"></i> </span> </div> </div> <div class=\"field\"> <div class=\"control has-icons-left has-icons-right\"> <input class=\"input is-medium\" type=\"email\" placeholder=\"Small\"> <span class=\"icon is-left\"> <i class=\"fas fa-envelope fa-sm\"></i> </span> <span class=\"icon is-right\"> <i class=\"fas fa-check fa-sm\"></i> </span> </div> </div> <div class=\"field\"> <div class=\"control has-icons-left has-icons-right\"> <input class=\"input is-medium\" type=\"email\" placeholder=\"Normal\"> <span class=\"icon is-medium is-left\"> <i class=\"fas fa-envelope\"></i> </span> <span class=\"icon is-medium is-right\"> <i class=\"fas fa-check\"></i> </span> </div> </div>"
+    button Copy danger
+    text Example
+    text Large input
+    field "Extra small" email
+    field Small email
+    field Normal email
+    field Large email
+    text HTML
+    text "<div class=\"field\"> <label class=\"label is-large\">Large input</label> <div class=\"control has-icons-left has-icons-right\"> <input class=\"input is-large\" type=\"email\" placeholder=\"Extra small\"> <span class=\"icon is-small is-left\"> <i class=\"fas fa-envelope fa-xs\"></i> </span> <span class=\"icon is-small is-right\"> <i class=\"fas fa-check fa-xs\"></i> </span> </div> </div> <div class=\"field\"> <div class=\"control has-icons-left has-icons-right\"> <input class=\"input is-large\" type=\"email\" placeholder=\"Small\"> <span class=\"icon is-left\"> <i class=\"fas fa-envelope fa-sm\"></i> </span> <span class=\"icon is-right\"> <i class=\"fas fa-check fa-sm\"></i> </span> </div> </div> <div class=\"field\"> <div class=\"control has-icons-left has-icons-right\"> <input class=\"input is-large\" type=\"email\" placeholder=\"Normal\"> <span class=\"icon is-large is-left\"> <i class=\"fas fa-envelope\"></i> </span> <span class=\"icon is-large is-right\"> <i class=\"fas fa-check\"></i> </span> </div> </div> <div class=\"field\"> <div class=\"control has-icons-left has-icons-right\"> <input class=\"input is-large\" type=\"email\" placeholder=\"Large\"> <span class=\"icon is-medium is-left\"> <i class=\"fas fa-envelope fa-lg\"></i> </span> <span class=\"icon is-medium is-right\"> <i class=\"fas fa-check fa-lg\"></i> </span> </div> </div>"
+    button Copy danger
+    h3 "Form addons #"
+    text If you want to attach controls together, use the has-addons modifier on the field container:
+    text Example
+    row
+      field "Find a repository"
+      button Search primary
+    text HTML
+    text "<div class=\"field has-addons\"> <div class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"Find a repository\"> </div> <div class=\"control\"> <button class=\"button is-info\"> Search </button> </div> </div>"
+    button Copy danger
+    text You can attach inputs, buttons, and dropdowns only.
+    link "static button" https://bulma.io/documentation/elements/button#static-button
+    text Example
+    row
+      field "Your email"
+    text HTML
+    text "<div class=\"field has-addons\"> <p class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"Your email\"> </p> <p class=\"control\"> <a class=\"button is-static\"> @gmail.com </a> </p> </div>"
+    button Copy danger
+    text Use the is-expanded modifier on the element you want to fill up the remaining space (in this case, the input):
+    text Example
+    row
+      select Select *$ £ €
+      field "Amount of money"
+      button Transfer
+    row
+      select Select *$ £ €
+      field "Amount of money"
+      button Transfer
+    text HTML
+    button "Show code" danger
+    text "<div class=\"field has-addons\"> <p class=\"control\"> <span class=\"select\"> <select> <option>$</option> <option>£</option> <option>€</option> </select> </span> </p> <p class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"Amount of money\"> </p> <p class=\"control\"> <button class=\"button\"> Transfer </button> </p> </div> <div class=\"field has-addons\"> <p class=\"control\"> <span class=\"select\"> <select> <option>$</option> <option>£</option> <option>€</option> </select> </span> </p> <p class=\"control is-expanded\"> <input class=\"input\" type=\"text\" placeholder=\"Amount of money\"> </p> <p class=\"control\"> <button class=\"button\"> Transfer </button> </p> </div>"
+    button Copy danger
+    text If you want a full width select dropdown, pair control is-expanded with select is-fullwidth.
+    text Example
+    row
+      select country *Argentina Bolivia Brazil Chile Colombia Ecuador Guyana Paraguay Peru Suriname Uruguay Venezuela
+      button Choose success
+    text HTML
+    text "<div class=\"field has-addons\"> <div class=\"control is-expanded\"> <div class=\"select is-fullwidth\"> <select name=\"country\"> <option value=\"Argentina\">Argentina</option> <option value=\"Bolivia\">Bolivia</option> <option value=\"Brazil\">Brazil</option> <option value=\"Chile\">Chile</option> <option value=\"Colombia\">Colombia</option> <option value=\"Ecuador\">Ecuador</option> <option value=\"Guyana\">Guyana</option> <option value=\"Paraguay\">Paraguay</option> <option value=\"Peru\">Peru</option> <option value=\"Suriname\">Suriname</option> <option value=\"Uruguay\">Uruguay</option> <option value=\"Venezuela\">Venezuela</option> </select> </div> </div> <div class=\"control\"> <button type=\"submit\" class=\"button is-primary\">Choose</button> </div> </div>"
+    button Copy danger
+    text Use the has-addons-centered or the has-addons-right modifiers to alter the alignment.
+    text Example
+    row
+      select Select *$ £ €
+      field "Amount of money"
+      button Transfer success
+    text HTML
+    text "<div class=\"field has-addons has-addons-centered\"> <p class=\"control\"> <span class=\"select\"> <select> <option>$</option> <option>£</option> <option>€</option> </select> </span> </p> <p class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"Amount of money\"> </p> <p class=\"control\"> <button class=\"button is-primary\"> Transfer </button> </p> </div>"
+    button Copy danger
+    text Example
+    row
+      select Select *$ £ €
+      field "Amount of money"
+      button Transfer success
+    text HTML
+    text "<div class=\"field has-addons has-addons-right\"> <p class=\"control\"> <span class=\"select\"> <select> <option>$</option> <option>£</option> <option>€</option> </select> </span> </p> <p class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"Amount of money\"> </p> <p class=\"control\"> <button class=\"button is-primary\"> Transfer </button> </p> </div>"
+    button Copy danger
+    h3 "Form group #"
+    text If you want to group controls together, use the is-grouped modifier on the field container.
+    text Example
+    row
+      button Submit success
+    text HTML
+    text "<div class=\"field is-grouped\"> <p class=\"control\"> <button class=\"button is-primary\"> Submit </button> </p> <p class=\"control\"> <a class=\"button is-light\"> Cancel </a> </p> </div>"
+    button Copy danger
+    text Use the is-grouped-centered or the is-grouped-right modifiers to alter the alignment.
+    text Example
+    row
+      button Submit success
+    text HTML
+    text "<div class=\"field is-grouped is-grouped-centered\"> <p class=\"control\"> <button class=\"button is-primary\"> Submit </button> </p> <p class=\"control\"> <a class=\"button is-light\"> Cancel </a> </p> </div>"
+    button Copy danger
+    text Example
+    row
+      button Submit success
+    text HTML
+    text "<div class=\"field is-grouped is-grouped-right\"> <p class=\"control\"> <button class=\"button is-primary\"> Submit </button> </p> <p class=\"control\"> <a class=\"button is-light\"> Cancel </a> </p> </div>"
+    button Copy danger
+    text Add the is-expanded modifier on the control element you want to fill up the remaining space with.
+    text Example
+    row
+      field "Find a repository"
+      button Search primary
+    text HTML
+    text "<div class=\"field is-grouped\"> <p class=\"control is-expanded\"> <input class=\"input\" type=\"text\" placeholder=\"Find a repository\"> </p> <p class=\"control\"> <button class=\"button is-info\"> Search </button> </p> </div>"
+    button Copy danger
+    text Add the is-grouped-multiline modifier to allow controls to fill up multiple lines. This is ideal for a long list of controls.
+    text Example
+    row
+      button One
+      button Two
+      button Three
+      button Four
+      button Five
+      button Six
+      button Seven
+      button Eight
+      button Nine
+      button Ten
+      button Eleven
+      button Twelve
+      button Thirteen
+    text HTML
+    text "<div class=\"field is-grouped is-grouped-multiline\"> <p class=\"control\"> <button class=\"button\"> One </button> </p> <p class=\"control\"> <button class=\"button\"> Two </button> </p> <p class=\"control\"> <button class=\"button\"> Three </button> </p> <p class=\"control\"> <button class=\"button\"> Four </button> </p> <p class=\"control\"> <button class=\"button\"> Five </button> </p> <p class=\"control\"> <button class=\"button\"> Six </button> </p> <p class=\"control\"> <button class=\"button\"> Seven </button> </p> <p class=\"control\"> <button class=\"button\"> Eight </button> </p> <p class=\"control\"> <button class=\"button\"> Nine </button> </p> <p class=\"control\"> <button class=\"button\"> Ten </button> </p> <p class=\"control\"> <button class=\"button\"> Eleven </button> </p> <p class=\"control\"> <button class=\"button\"> Twelve </button> </p> <p class=\"control\"> <button class=\"button\"> Thirteen </button> </p> </div>"
+    button Copy danger
+    card
+      text List of buttons
+    text buttons primary
+    text buttons primary
+    link "multiline list of buttons" https://bulma.io/documentation/elements/button/#list-of-buttons
+    h3 "Horizontal form #"
+    text If you want a horizontal form control, use the is-horizontal modifier on the field container, in which you include:
+    text field-label for the side label
+    text field-body for the input/select/textarea container
+    text You can use is-grouped or has-addons for the child elements.
+    text Example
+    row
+      text From
+      row
+        col
+          field Name
+        col
+          field Email email =alex@smith.com
+    row
+      field "Your phone number"
+    text Do not enter the first zero
+    row
+      text Department
+      select Select *"Business development" Marketing Sales
+    row
+      text Already a member?
+      row
+    row
+      text Subject
+      col
+        field "e.g. Partnership opportunity"
+        text This field is required danger
+    row
+      text Question
+      field "Explain how we can help you"
+    button "Send message" success
+    text HTML
+    button "Show code" danger
+    text "<div class=\"field is-horizontal\"> <div class=\"field-label is-normal\"> <label class=\"label\">From</label> </div> <div class=\"field-body\"> <div class=\"field\"> <p class=\"control is-expanded has-icons-left\"> <input class=\"input\" type=\"text\" placeholder=\"Name\"> <span class=\"icon is-small is-left\"> <i class=\"fas fa-user\"></i> </span> </p> </div> <div class=\"field\"> <p class=\"control is-expanded has-icons-left has-icons-right\"> <input class=\"input is-success\" type=\"email\" placeholder=\"Email\" value=\"alex@smith.com\"> <span class=\"icon is-small is-left\"> <i class=\"fas fa-envelope\"></i> </span> <span class=\"icon is-small is-right\"> <i class=\"fas fa-check\"></i> </span> </p> </div> </div> </div> <div class=\"field is-horizontal\"> <div class=\"field-label\"></div> <div class=\"field-body\"> <div class=\"field is-expanded\"> <div class=\"field has-addons\"> <p class=\"control\"> <a class=\"button is-static\"> +44 </a> </p> <p class=\"control is-expanded\"> <input class=\"input\" type=\"tel\" placeholder=\"Your phone number\"> </p> </div> <p class=\"help\">Do not enter the first zero</p> </div> </div> </div> <div class=\"field is-horizontal\"> <div class=\"field-label is-normal\"> <label class=\"label\">Department</label> </div> <div class=\"field-body\"> <div class=\"field is-narrow\"> <div class=\"control\"> <div class=\"select is-fullwidth\"> <select> <option>Business development</option> <option>Marketing</option> <option>Sales</option> </select> </div> </div> </div> </div> </div> <div class=\"field is-horizontal\"> <div class=\"field-label\"> <label class=\"label\">Already a member?</label> </div> <div class=\"field-body\"> <div class=\"field is-narrow\"> <div class=\"control\"> <label class=\"radio\"> <input type=\"radio\" name=\"member\"> Yes </label> <label class=\"radio\"> <input type=\"radio\" name=\"member\"> No </label> </div> </div> </div> </div> <div class=\"field is-horizontal\"> <div class=\"field-label is-normal\"> <label class=\"label\">Subject</label> </div> <div class=\"field-body\"> <div class=\"field\"> <div class=\"control\"> <input class=\"input is-danger\" type=\"text\" placeholder=\"e.g. Partnership opportunity\"> </div> <p class=\"help is-danger\"> This field is required </p> </div> </div> </div> <div class=\"field is-horizontal\"> <div class=\"field-label is-normal\"> <label class=\"label\">Question</label> </div> <div class=\"field-body\"> <div class=\"field\"> <div class=\"control\"> <textarea class=\"textarea\" placeholder=\"Explain how we can help you\"></textarea> </div> </div> </div> </div> <div class=\"field is-horizontal\"> <div class=\"field-label\"> <!-- Left empty for spacing --> </div> <div class=\"field-body\"> <div class=\"field\"> <div class=\"control\"> <button class=\"button is-primary\"> Send message </button> </div> </div> </div> </div>"
+    button Copy danger
+    text To preserve the vertical alignment of labels with each type and size of control, the field-label comes with 4 size modifiers:
+    text is-small
+    text is-normal for any input or button
+    text is-medium
+    text is-large
+    text Example
+    row
+      text No padding
+      check Checkbox off
+    row
+      text Small padding
+      field "Small sized input"
+    row
+      text Normal label
+      field "Normal sized input"
+    row
+      text Medium label
+      field "Medium sized input"
+    row
+      text Large label
+      field "Large sized input"
+    text HTML
+    button "Show code" danger
+    text "<div class=\"field is-horizontal\"> <div class=\"field-label\"> <label class=\"label\">No padding</label> </div> <div class=\"field-body\"> <div class=\"field\"> <div class=\"control\"> <label class=\"checkbox\"> <input type=\"checkbox\"> Checkbox </label> </div> </div> </div> </div> <div class=\"field is-horizontal\"> <div class=\"field-label is-small\"> <label class=\"label\">Small padding</label> </div> <div class=\"field-body\"> <div class=\"field\"> <div class=\"control\"> <input class=\"input is-small\" type=\"text\" placeholder=\"Small sized input\"> </div> </div> </div> </div> <div class=\"field is-horizontal\"> <div class=\"field-label is-normal\"> <label class=\"label\">Normal label</label> </div> <div class=\"field-body\"> <div class=\"field\"> <div class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"Normal sized input\"> </div> </div> </div> </div> <div class=\"field is-horizontal\"> <div class=\"field-label is-medium\"> <label class=\"label\">Medium label</label> </div> <div class=\"field-body\"> <div class=\"field\"> <div class=\"control\"> <input class=\"input is-medium\" type=\"text\" placeholder=\"Medium sized input\"> </div> </div> </div> </div> <div class=\"field is-horizontal\"> <div class=\"field-label is-large\"> <label class=\"label\">Large label</label> </div> <div class=\"field-body\"> <div class=\"field\"> <div class=\"control\"> <input class=\"input is-large\" type=\"text\" placeholder=\"Large sized input\"> </div> </div> </div> </div>"
+    button Copy danger
+    h3 "Disabled form #"
+    text You can disable part or a whole form by wrapping a set of controls in a fieldset with a disabled HTML attribute.
+    text Example
+    text Name
+    field "e.g Alex Smith"
+    text Email
+    field "e.g. alexsmith@gmail.com" email
+    text HTML
+    text "<fieldset disabled> <div class=\"field\"> <label class=\"label\">Name</label> <div class=\"control\"> <input class=\"input\" type=\"text\" placeholder=\"e.g Alex Smith\"> </div> </div> <div class=\"field\"> <label class=\"label\">Email</label> <div class=\"control\"> <input class=\"input\" type=\"email\" placeholder=\"e.g. alexsmith@gmail.com\"> </div> </div> </fieldset>"
+    button Copy danger
+    h3 "Sass and CSS variables #"
+    card
+      table Sass:badge CSS:badge Value:badge
+        $control-radiusCopy | var(--bulma-control-radius)Copy | var(--bulma-radius)Copy
+        $control-radius-smallCopy | var(--bulma-control-radius-small)Copy | var(--bulma-radius-small)Copy
+        $control-border-widthCopy | var(--bulma-control-border-width)Copy | 1pxCopy
+        $control-sizeCopy | var(--bulma-control-size)Copy | var(--bulma-size-normal)Copy
+        $control-heightCopy | var(--bulma-control-height)Copy | 2.5emCopy
+        $control-line-heightCopy | var(--bulma-control-line-height)Copy | 1.5Copy
+        $control-padding-verticalCopy | var(--bulma-control-padding-vertical)Copy | calc(0.5em - 1px)Copy
+        $control-padding-horizontalCopy | var(--bulma-control-padding-horizontal)Copy | calc(0.75em - 1px)Copy
+        $control-focus-shadow-lCopy | var(--bulma-control-focus-shadow-l)Copy | 50%Copy
+        $label-colorCopy | var(--bulma-label-color)Copy | var(--bulma-text-strong)Copy
+        $label-weightCopy | var(--bulma-label-weight)Copy | var(--bulma-weight-semibold)Copy
+        $help-sizeCopy | var(--bulma-help-size)Copy | var(--bulma-size-small)Copy
+    row
+      link "← components: Tabs" https://bulma.io/documentation/components/tabs/
+      link "form: Input →" https://bulma.io/documentation/form/input/
+h3 How to support Bulma
+row
+  col
+    text One-time donation
+    field submit
+  col
+    text Browser testing via
+    link "https://www.lambdatest.com/" https://www.lambdatest.com/
+  col
+    text Visit our Sponsors
+    link celebian https://celebian.com/
+  col
+    text Monthly donation
+    link "Become a sponsor" https://bulma.io/become-a-bulma-sponsor/
+link ".native-js { background: linear-gradient(-30deg, #FFFFFFE5, #FFFFFFE5 45%, #FFFFFF 45%) #fff; } .native-details { color: #181A1C !important; } .native-details:hover { color: undefined !important; } .native-cta { color: #181A1C; background-color: #32E6E2; } .native-cta:hover { color: undefined; background-color: undefined; } Netlify One gateway for every AI model Explore AI Gateway" https://srv.buysellads.com/ads/click/x/GTND4277CVBDV27UC674YKQUF67ITKQLCTYD5Z3JCAAI627ICTSIT2QKCWYDVKJMCWSDT23ICASIP2QJCTADC23KC6SILKJWCYADEK3EHJNCLSIZ
+row
+  col
+    h3 Bulma by Jeremy Thomas.
+    link "Follow @jgthms" https://twitter.com/jgthms
+  col
+    h3 Contribute on GitHub
+  col
+    h3 Share on social media
+    row
+      link Twitter https://twitter.com/share
+      link Facebook https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbulma.io
+row
+  link MIT https://opensource.org/licenses/mit-license.php
+  link "CC BY-NC-SA 4.0" https://creativecommons.org/licenses/by-nc-sa/4.0/
+text Global VariablesComponentsElementsFormGridLayoutExportColorsSchemeTypographyOtherGenericSkeletonEnter a Hex codeResetPrimaryHuedegSaturation%Lightness%PrimaryEnter a Hex codeResetLinkHuedegSaturation%Lightness%LinkEnter a Hex codeResetInfoHuedegSaturation%Lightness%InfoEnter a Hex codeResetSuccessHuedegSaturation%Lightness%SuccessEnter a Hex codeResetWarningHuedegSaturation%Lightness%WarningEnter a Hex codeResetDangerHuedegSaturation%Lightness%DangerExportOpen Customizer
+row
+  link "Get started for Free Get started for Free" https://cssmasterclass.io/
+  button close

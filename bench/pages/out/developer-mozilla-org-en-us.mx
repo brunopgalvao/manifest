@@ -1,0 +1,96 @@
+@developer_mozilla_org_en_us
+row
+  col
+    link "Skip to main content" #content
+    link "Skip to search" #mdn-search
+  region 1280x91
+    rect @0,0 1280x57 fill:#212426
+  col
+    link MDN /en-US/
+    link MDN /en-US/
+  col
+    row
+      col
+        h1 Resources for Developers, by Developers
+        row
+          link CSS /en-US/docs/Web/CSS
+          link HTML /en-US/docs/Web/HTML
+          link JavaScript /en-US/docs/Web/JavaScript
+      region "Mandala" 560x560
+        text @0,0 "/\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n    /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n    /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n    /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n    /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n    /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n    /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /\n /" fill:#51565d size:24
+        text @0,0 "+\n +\n +\n +\n +\n +\n   +\n +\n +\n +\n +\n +\n   +\n +\n +\n +\n +\n +\n   +\n +\n +\n +\n +\n +\n   +\n +\n +\n +\n +\n +\n   +\n +\n +\n +\n +\n +\n   +\n +\n +\n +\n +\n +" fill:#51565d size:24
+        text @0,0 "{\n {\n {\n { \n }\n }\n }\n }  \n {\n {\n {\n { \n }\n }\n }\n }  \n {\n {\n {\n { \n }\n }\n }\n }  \n {\n {\n {\n { \n }\n }\n }\n }  \n {\n {\n {\n { \n }\n }\n }\n }  \n {\n {\n {\n { \n }\n }\n }\n }" fill:#51565d size:24
+        text @0,0 "../../    ../../\n    ../../    ../../\n    ../../    ../../\n    ../../" fill:#51565d size:24
+        text @0,0 "<>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>\n <>\n </>" fill:#51565d size:24
+    h2 Featured articles
+    text Blog Celebrating 20 years of MDN MDN turns 20! Let's look at how we started, how MDN became the most trusted resource for web developers, the impact it's had on the open web, and yes, there's cake, too. Web APIs Navigation API The Navigation API provides the ability to initiate, intercept, and manage browser navigation actions. It can also examine an application's history entries. This is a successor to previous web platform features such as the History API and window.location, which solves their shortcomings and is specifically aimed at the needs of single-page applications (SPAs). Web APIs Trusted Types API The Trusted Types API gives web developers a way to ensure that input has been passed through a user-specified transformation function before being passed to an API that might execute that input. This can help to protect against client-side cross-site scripting (XSS) attacks. Most commonly the transformation function sanitizes the input. CSS Using CSS anchor positioning The CSS anchor positioning module defines features that allow you to tether elements together. Elements can be defined as anchor elements and anchor-positioned elements. Anchor-positioned elements can be bound to anchor elements. The anchor-positioned elements can then have their size and position set relative to the size and location of the anchor elements to which they are bound.
+    h2 Latest news
+    text developer.mozilla.org Introducing the MDN MCP server 4 months ago MDN's MCP server brings MDN's documentation and browser compatibility data directly into your editor or IDE, giving your LLM or coding agent access to accurate, up-to-date web platform information. developer.mozilla.org Under the hood of MDN's new frontend 6 months ago You may have spotted that MDN has a new frontend. There's plenty happening under the surface, so let's unpack the technologies we chose, the architectural decisions we made, and why we did a rebuild at all. developer.mozilla.org Image formats: Codecs and compression tools 11 months ago Image compression involves countless trade-offs between quality, size, and speed. In this final part of the series, we experiment with codecs, metrics, and tools to find practical ways to balance efficiency and visual fidelity. developer.mozilla.org A beginner-friendly guide to view transitions in CSS 1 year ago Learn how to bring smooth, animated navigation to multi-page apps with view transitions. With just one line of CSS, you can enable seamless transitions between pages.
+    h2 Recent contributions
+    card
+      row
+        link mdn/content https://github.com/mdn/content
+        text 4 days ago
+        link "Fix URL casing for CORSMissingAllowCredentials" https://github.com/mdn/content/pull/46173
+      row
+        link mdn/content https://github.com/mdn/content
+        text 3 days ago
+        link "Docs: improve <details> usage and styling notes" https://github.com/mdn/content/pull/45952
+      row
+        link mdn/content https://github.com/mdn/content
+        text 2 days ago
+        link "Correct documentation of context in JSON.parse's reviver" https://github.com/mdn/content/pull/46186
+      row
+        link mdn/content https://github.com/mdn/content
+        text 7 hours ago
+        link "[Editorial review] BiDi script module - `disown`, `addPreloadScript`, `removePreloadScript`" https://github.com/mdn/content/pull/46094
+      row
+        link mdn/content https://github.com/mdn/content
+        text 4 hours ago
+        link "Fix CSSNumericValue.equals() description and example" https://github.com/mdn/content/pull/46062
+      row
+        link mdn/translated-content https://github.com/mdn/translated-content
+        text 3 hours ago
+        link "chore(fr): update of `Web/HTTP/Guides/Range_requests`" https://github.com/mdn/translated-content/pull/39591
+      row
+        link mdn/translated-content https://github.com/mdn/translated-content
+        text 3 hours ago
+        link "chore(fr): update of `Web/HTTP/Guides/Redirections`" https://github.com/mdn/translated-content/pull/39592
+      row
+        link mdn/translated-content https://github.com/mdn/translated-content
+        text 3 hours ago
+        link "chore(fr): update of `Web/HTTP/Guides/Session`" https://github.com/mdn/translated-content/pull/39593
+      row
+        link mdn/translated-content https://github.com/mdn/translated-content
+        text 3 hours ago
+        link "chore(fr): translation of `Web/HTTP/Guides/User-agent_reduction`" https://github.com/mdn/translated-content/pull/39594
+      row
+        link mdn/translated-content https://github.com/mdn/translated-content
+        text 2 hours ago
+        link "chore(fr): cleanup and sync properly Games pages" https://github.com/mdn/translated-content/pull/39595
+    h2 Contributor Spotlight
+    link "Shrinivass Arunachalam Balasubramanian" /en-US/community/spotlight/shrinivass-arunachalam-balasubramanian
+    text MDN closely follows W3C standards which helps me keep up with important topics. It's a complete package as it caters to everything; complex APIs, new browser functionalities, and best practices. MDN serves as a truly valuable resource and continues to assist me in my everyday development.
+    link "Get involved" /en-US/community
+  col
+    row
+      row
+        link "MDN logo" /
+        text Your blueprint for a better internet.
+      row
+        link "MDN on GitHub" https://github.com/mdn/
+        link "MDN on Bluesky" https://bsky.app/profile/developer.mozilla.org
+        link "MDN on X" https://x.com/mozdevnet
+        link "MDN on Mastodon" https://mastodon.social/@mdn
+        link "MDN blog RSS feed" /en-US/blog/rss.xml
+      text MDN
+      text Contribute
+      text Developers
+    row
+      link "Mozilla logo" https://www.mozilla.org/
+      row
+        link "Website Privacy Notice" https://www.mozilla.org/privacy/websites/
+        link "Telemetry Settings" https://www.mozilla.org/en-US/privacy/websites/data-preferences/
+        link Legal https://www.mozilla.org/about/legal/terms/mozilla
+        link "Community Participation Guidelines" https://www.mozilla.org/about/governance/policies/participation/
+      link "a Creative Commons license" /docs/MDN/Writing_guidelines/Attrib_copyright_license

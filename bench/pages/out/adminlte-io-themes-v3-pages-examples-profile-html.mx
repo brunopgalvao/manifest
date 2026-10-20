@@ -1,0 +1,126 @@
+@adminlte_io_themes_v3_pages_examples_pro
+row
+  row
+    button button
+    link Home ../../index3.html
+    link Contact #
+  row
+    button button
+    link 3 #
+    link 15 #
+    button button
+    button button
+link "AdminLTE 3" ../../index3.html
+row
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image"
+  link "Alexander Pierce" #
+row
+  field Search search
+  button button primary
+link Dashboard #
+link "Widgets New" ../widgets.html
+link "Layout Options 6" #
+link Charts #
+link "UI Elements" #
+link Forms #
+link Tables #
+text EXAMPLES
+link "Calendar 2" ../calendar.html
+link Gallery ../gallery.html
+link "Kanban Board" ../kanban.html
+link Mailbox #
+link Pages #
+link Invoice ../examples/invoice.html
+link Profile ../examples/profile.html
+link E-commerce ../examples/e-commerce.html
+link Projects ../examples/projects.html
+link "Project Add" ../examples/project-add.html
+link "Project Edit" ../examples/project-edit.html
+link "Project Detail" ../examples/project-detail.html
+link Contacts ../examples/contacts.html
+link FAQ ../examples/faq.html
+link "Contact us" ../examples/contact-us.html
+link Extras #
+link Search #
+text MISCELLANEOUS
+link "Tabbed IFrame Plugin" ../../iframe.html
+link Documentation https://adminlte.io/docs/3.1/
+text MULTI LEVEL EXAMPLE
+link "Level 1" #
+link "Level 1" #
+link "Level 1" #
+text LABELS
+link Important #
+link Warning #
+link Informational #
+row
+  h1 Profile
+  row
+    link Home #
+    text User Profile
+row
+  col
+    card
+      image https://adminlte.io/themes/v3/dist/img/user4-128x128.jpg "User profile picture"
+      h3 Nina Mcintire
+      text Software Engineer
+      row
+        text Followers
+      row
+        text Following
+      row
+        text Friends
+      link Follow #
+    card
+      h3 About Me
+    text Education
+    text B.S. in Computer Science from the University of Tennessee at Knoxville
+    text Location
+    text Malibu, California
+    text Skills
+    text UI Design Coding Javascript PHP Node.js
+    text Notes
+    text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.
+  col
+    row
+      link Activity #activity
+      link Timeline #timeline
+      link Settings #settings
+    image https://adminlte.io/themes/v3/dist/img/user1-128x128.jpg "user image"
+    link "Jonathan Burke Jr." #
+    link "#" #
+    text "Shared publicly - 7:30 PM today"
+    text Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans.
+    row
+      link Share #
+      link Like #
+      link "Comments (5)" #
+    field "Type a comment"
+    image https://adminlte.io/themes/v3/dist/img/user7-128x128.jpg "User Image"
+    link "Sarah Ross" #
+    link "#" #
+    text Sent you a message - 3 days ago
+    text Lorem ipsum represents a long-held tradition for designers, typographers and the like. Some people hate it and argue for its demise, but others ignore the hate as they create awesome tools to help create filler text for everyone from bacon lovers to Charlie Sheen fans.
+    row
+      field Response
+      button Send danger
+    image https://adminlte.io/themes/v3/dist/img/user6-128x128.jpg "User Image"
+    link "Adam Jones" #
+    link "#" #
+    text Posted 5 photos - 5 days ago
+    row
+      image https://adminlte.io/themes/v3/dist/img/photo1.png "Photo"
+      row
+        col
+          image https://adminlte.io/themes/v3/dist/img/photo2.png "Photo"
+          image https://adminlte.io/themes/v3/dist/img/photo3.jpg "Photo"
+        col
+          image https://adminlte.io/themes/v3/dist/img/photo4.jpg "Photo"
+          image https://adminlte.io/themes/v3/dist/img/photo1.png "Photo"
+    row
+      link Share #
+      link Like #
+      link "Comments (5)" #
+    field "Type a comment"
+text Version 3.2.0
+link AdminLTE.io https://adminlte.io

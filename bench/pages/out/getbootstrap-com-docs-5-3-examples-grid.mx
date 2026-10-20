@@ -1,0 +1,121 @@
+@getbootstrap_com_docs_5_3_examples_grid
+button "Toggle theme (light)" primary
+h1 Bootstrap grid examples
+text Basic grid layouts to get you familiar with building within the Bootstrap grid system.
+text In these examples the .themed-grid-col class is added to the columns to add some theming. This is not a class that is available in Bootstrap by default.
+h2 Five grid tiers
+text There are five tiers to the Bootstrap grid system, one for each range of devices we support. Each tier starts at a minimum viewport size and automatically applies to the larger devices unless overridden.
+row
+  text .col-4
+  text .col-4
+  text .col-4
+row
+  text .col-sm-4
+  text .col-sm-4
+  text .col-sm-4
+row
+  text .col-md-4
+  text .col-md-4
+  text .col-md-4
+row
+  text .col-lg-4
+  text .col-lg-4
+  text .col-lg-4
+row
+  text .col-xl-4
+  text .col-xl-4
+  text .col-xl-4
+row
+  text .col-xxl-4
+  text .col-xxl-4
+  text .col-xxl-4
+h2 Three equal columns
+text Get three equal-width columns starting at desktops and scaling to large desktops. On mobile devices, tablets and below, the columns will automatically stack.
+row
+  text .col-md-4
+  text .col-md-4
+  text .col-md-4
+h2 Three equal columns alternative
+text By using the .row-cols-* classes, you can easily create a grid with equal columns.
+row
+  text .col child of .row-cols-md-3
+  text .col child of .row-cols-md-3
+  text .col child of .row-cols-md-3
+h2 Three unequal columns
+text Get three columns starting at desktops and scaling to large desktops of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.
+row
+  text .col-md-3
+  text .col-md-6
+  text .col-md-3
+h2 Two columns
+text Get two columns starting at desktops and scaling to large desktops.
+row
+  text .col-md-8
+  text .col-md-4
+h2 Full width, single column
+text No grid classes are necessary for full-width elements. warning
+h2 Two columns with two nested columns
+text Per the documentation, nesting is easy—just put a row of columns within an existing column. This gives you two columns starting at desktops and scaling to large desktops, with another two (equal widths) within the larger column.
+text At mobile device sizes, tablets and down, these columns and their nested columns will stack.
+row
+  col
+    text .col-md-8
+    row
+      text .col-md-6
+      text .col-md-6
+  text .col-md-4
+h2 Mixed: mobile and desktop
+text The Bootstrap v5 grid system has six tiers of classes: xs (extra small, this class infix is not used), sm (small), md (medium), lg (large), xl (x-large), and xxl (xx-large). You can use nearly any combination of these classes to create more dynamic and flexible layouts.
+text Each tier of classes scales up, meaning if you plan on setting the same widths for md, lg, xl and xxl, you only need to specify md.
+row
+  text .col-md-8
+  text .col-6 .col-md-4
+row
+  text .col-6 .col-md-4
+  text .col-6 .col-md-4
+  text .col-6 .col-md-4
+row
+  text .col-6
+  text .col-6
+h2 Mixed: mobile, tablet, and desktop
+row
+  text .col-sm-6 .col-lg-8
+  text .col-6 .col-lg-4
+row
+  text .col-6 .col-sm-4
+  text .col-6 .col-sm-4
+  text .col-6 .col-sm-4
+h2 Gutters
+text With .gx-* classes, the horizontal gutters can be adjusted.
+row
+  text .col with .gx-4 gutters
+  text .col with .gx-4 gutters
+  text .col with .gx-4 gutters
+  text .col with .gx-4 gutters
+  text .col with .gx-4 gutters
+  text .col with .gx-4 gutters
+text Use the .gy-* classes to control the vertical gutters.
+row
+  text .col with .gy-4 gutters
+  text .col with .gy-4 gutters
+  text .col with .gy-4 gutters
+  text .col with .gy-4 gutters
+  text .col with .gy-4 gutters
+  text .col with .gy-4 gutters
+text With .g-* classes, the gutters in both directions can be adjusted.
+row
+  text .col with .g-3 gutters
+  text .col with .g-3 gutters
+  text .col with .g-3 gutters
+  text .col with .g-3 gutters
+  text .col with .g-3 gutters
+  text .col with .g-3 gutters
+h2 Containers
+text Additional classes added in Bootstrap v4.4 allow containers that are 100% wide until a particular breakpoint. v5 adds a new xxl breakpoint.
+text .container
+text .container-sm
+text .container-md
+text .container-lg
+text .container-xl
+text .container-xxl
+text .container-fluid

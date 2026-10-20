@@ -1,0 +1,358 @@
+@adminlte_io_themes_v3_pages_ui_general_h
+row
+  row
+    button button
+    link Home ../../index3.html
+    link Contact #
+  row
+    button button
+    link 3 #
+    link 15 #
+    button button
+    button button
+link "AdminLTE 3" ../../index3.html
+row
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image"
+  link "Alexander Pierce" #
+row
+  field Search search
+  button button primary
+link Dashboard #
+link "Widgets New" ../widgets.html
+link "Layout Options 6" #
+link Charts #
+link "UI Elements" #
+link General ../UI/general.html
+link Icons ../UI/icons.html
+link Buttons ../UI/buttons.html
+link Sliders ../UI/sliders.html
+link "Modals & Alerts" ../UI/modals.html
+link "Navbar & Tabs" ../UI/navbar.html
+link Timeline ../UI/timeline.html
+link Ribbons ../UI/ribbons.html
+link Forms #
+link Tables #
+text EXAMPLES
+link "Calendar 2" ../calendar.html
+link Gallery ../gallery.html
+link "Kanban Board" ../kanban.html
+link Mailbox #
+link Pages #
+link Extras #
+link Search #
+text MISCELLANEOUS
+link "Tabbed IFrame Plugin" ../../iframe.html
+link Documentation https://adminlte.io/docs/3.1/
+text MULTI LEVEL EXAMPLE
+link "Level 1" #
+link "Level 1" #
+link "Level 1" #
+text LABELS
+link Important #
+link Warning #
+link Informational #
+row
+  h1 Inline Charts
+  row
+    link Home #
+    text Inline Charts
+h3 Color Palette
+h3 Theme Colors
+row
+  col
+    h3 Primary
+    text "#007bff"
+    text Disabled
+  col
+    h3 Secondary
+    text "#6c757d"
+    text Disabled
+  col
+    h3 Info
+    text "#17a2b8"
+    text Disabled
+  col
+    h3 Success
+    text "#28a745"
+    text Disabled
+  col
+    h3 Warning
+    text "#ffc107"
+    text Disabled
+  col
+    h3 Danger
+    text "#dc3545"
+    text Disabled
+h3 Black/White Nuances
+row
+  col
+    h3 Black
+    text "#000000"
+    text Disabled
+  col
+    h3 Gray Dark
+    text "#343a40"
+    text Disabled
+  col
+    h3 Gray
+    text "#adb5bd"
+    text Disabled
+  col
+    h3 Light
+    text "#1f2d3d"
+    text Disabled
+h3 Colors
+row
+  col
+    h3 Indigo
+    text "#6610f2"
+    text Disabled
+  col
+    h3 Lightblue
+    text "#3c8dbc"
+    text Disabled
+  col
+    h3 Navy
+    text "#001f3f"
+    text Disabled
+  col
+    h3 Purple
+    text "#605ca8"
+    text Disabled
+  col
+    h3 Fuchsia
+    text "#f012be"
+    text Disabled
+  col
+    h3 Pink
+    text "#e83e8c"
+    text Disabled
+  col
+    h3 Maroon
+    text "#d81b60"
+    text Disabled
+  col
+    h3 Orange
+    text "#ff851b"
+    text Disabled
+  col
+    h3 Lime
+    text "#01ff70"
+    text Disabled
+  col
+    h3 Teal
+    text "#39cccc"
+    text Disabled
+  col
+    h3 Olive
+    text "#3d9970"
+    text Disabled
+h3 Alerts and Callouts
+row
+  col
+    h3 Alerts
+    card
+      button ×
+      h3 Alert!
+    card
+      button ×
+      h3 Alert!
+    card
+      button ×
+      h3 Alert!
+    card
+      button ×
+      h3 Alert!
+  col
+    h3 Callouts
+    h3 I am a danger callout!
+    text There is a problem that we need to fix. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+    h3 I am an info callout!
+    text Follow the steps to continue to payment.
+    h3 I am a warning callout!
+    text This is a yellow callout.
+    h3 I am a success callout!
+    text This is a green callout.
+h3 Tabs in Cards
+row
+  h3 Tabs
+  row
+    link "Tab 1" #tab_1
+    link "Tab 2" #tab_2
+    link "Tab 3" #tab_3
+    link Dropdown #
+text A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.
+h3 Progress Bars
+row
+  col
+    h3 Progress Bars Different Sizes
+    text .progress
+    card
+      text 40% Complete (success)
+    text .progress-sm
+    card
+      text 20% Complete
+    text .progress-xs
+    card
+      text 60% Complete (warning)
+    text .progress-xxs
+    card
+      text 60% Complete (warning)
+  col
+    h3 Progress bars
+    card
+      text 40% Complete (success)
+    card
+      text 20% Complete
+    card
+      text 60% Complete (warning)
+    card
+      text 80% Complete
+row
+  col
+    h3 Vertical Progress Bars Different Sizes
+    text By adding the class .vertical and .progress-sm, .progress-xs or .progress-xxs we achieve:
+    card
+      text 40%
+    card
+      text 100%
+    card
+      text 60%
+    card
+      text 60%
+  col
+    h3 Vertical Progress bars
+    text By adding the class .vertical we achieve:
+    card
+      text 40%
+    card
+      text 20%
+    card
+      text 60%
+    card
+      text 80%
+h3 Bootstrap Accordion & Carousel
+row
+  col
+    h3 Collapsible Accordion
+    card
+      h3 "Collapsible Group Item #1"
+    text Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+    card
+      h3 Collapsible Group Danger
+    card
+      h3 Collapsible Group Success
+  col
+    h3 Carousel
+    row
+    image https://placehold.it/900x500/39CCCC/ffffff&text=I+Love+Bootstrap "First slide"
+    button Previous
+    button Next
+h3 Typography
+row
+  col
+    h3 Headlines
+    h1 h1. Bootstrap heading
+    h2 h2. Bootstrap heading
+    h3 h3. Bootstrap heading
+    h3 h4. Bootstrap heading
+    h3 h5. Bootstrap heading
+    h3 h6. Bootstrap heading
+  col
+    h3 Text Emphasis
+    text Lead to emphasize importance
+    text "Text green to emphasize success" success
+    text "Text aqua to emphasize info" primary
+    text Text light blue to emphasize info (2) primary
+    text "Text red to emphasize danger" danger
+    text "Text yellow to emphasize warning" warning
+    text Text muted to emphasize general
+row
+  col
+    h3 Primary Block Quotes
+    text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+    text Source Title
+  col
+    h3 Secondary Block Quotes
+    text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+    text Source Title
+row
+  col
+    h3 Unordered List
+    text Lorem ipsum dolor sit amet
+    text Consectetur adipiscing elit
+    text Integer molestie lorem at massa
+    text Facilisis in pretium nisl aliquet
+    text Phasellus iaculis neque
+    text Purus sodales ultricies
+    text Vestibulum laoreet porttitor sem
+    text Ac tristique libero volutpat at
+    text Faucibus porta lacus fringilla vel
+    text Aenean sit amet erat nunc
+    text Eget porttitor lorem
+  col
+    h3 Ordered Lists
+    text Lorem ipsum dolor sit amet
+    text Consectetur adipiscing elit
+    text Integer molestie lorem at massa
+    text Facilisis in pretium nisl aliquet
+    text Phasellus iaculis neque
+    text Purus sodales ultricies
+    text Vestibulum laoreet porttitor sem
+    text Ac tristique libero volutpat at
+    text Faucibus porta lacus fringilla vel
+    text Aenean sit amet erat nunc
+    text Eget porttitor lorem
+  col
+    h3 Unstyled List
+    text Lorem ipsum dolor sit amet
+    text Consectetur adipiscing elit
+    text Integer molestie lorem at massa
+    text Facilisis in pretium nisl aliquet
+    text Phasellus iaculis neque
+    text Purus sodales ultricies
+    text Vestibulum laoreet porttitor sem
+    text Ac tristique libero volutpat at
+    text Faucibus porta lacus fringilla vel
+    text Aenean sit amet erat nunc
+    text Eget porttitor lorem
+row
+  col
+    h3 Description
+    text Description lists
+    text A description list is perfect for defining terms.
+    text Euismod
+    text Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+    text Donec id elit non mi porta gravida at eget metus.
+    text Malesuada porta
+    text Etiam porta sem malesuada magna mollis euismod.
+  col
+    h3 Description Horizontal
+    row
+      text Description lists
+      text A description list is perfect for defining terms.
+      text Euismod
+      text Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+      text Donec id elit non mi porta gravida at eget metus.
+      text Malesuada porta
+      text Etiam porta sem malesuada magna mollis euismod.
+      text Felis euismod semper eget lacinia
+      text Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+h3 Pagination Month
+row
+  link « #
+  link "Jan 2021" #
+  link "Feb 2021" #
+  link "Mar 2021" #
+  link "Apr 2021" #
+  link "May 2021" #
+  link "Jun 2021" #
+  link "Jul 2021" #
+  link "Aug 2021" #
+  link "Sep 2021" #
+  link "Oct 2021" #
+  link "Nov 2021" #
+  link "Dec 2021" #
+  link » #
+text Version 3.2.0
+link AdminLTE.io https://adminlte.io

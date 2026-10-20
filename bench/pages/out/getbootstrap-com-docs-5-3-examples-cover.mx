@@ -1,0 +1,16 @@
+@getbootstrap_com_docs_5_3_examples_cover
+row
+  button "Toggle theme (light)" primary
+  col
+    row
+      h3 Cover
+      row
+        link Home #
+        link Features #
+        link Contact #
+    h1 Cover your page.
+    text Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.
+    link "Learn more" #
+    row
+      link Bootstrap https://getbootstrap.com/
+      link "@mdo" https://x.com/mdo

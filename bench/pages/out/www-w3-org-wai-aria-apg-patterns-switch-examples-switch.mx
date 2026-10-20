@@ -1,0 +1,115 @@
+@www_w3_org_wai_aria_apg_patterns_switch_
+row
+  row
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/
+    text How to build accessibility semantics into web patterns and widgets
+  row
+    link "W3C homepage" https://www.w3.org/
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/
+row
+  link "APG Home" /WAI/ARIA/apg/
+  link Patterns /WAI/ARIA/apg/patterns/
+  link Practices /WAI/ARIA/apg/practices/
+  link Index /WAI/ARIA/apg/example-index/
+  link About /WAI/ARIA/apg/about/
+row
+  col
+    h2 Page Contents
+    link "Read This First" #support-notice-header
+    link "About This Example" #aboutthisexample
+    link Example #ex_label
+    link "Accessibility Features" #accessibilityfeatures
+    link "Keyboard Support" #kbd_label
+    link "Role, Property, State, and Tabindex Attributes" #rps_label
+    link "Assistive Technology Support" #assistivetechnologysupport
+    link "JavaScript and CSS Source Code" #javascriptandcsssourcecode
+    link "HTML Source Code" #sc1_label
+  col
+    h1 Switch Example
+    h2 Read This First
+    card
+      text The code in this example is not intended for production environments. Before using it for any purpose, read this to understand why. warning
+    h2 About This Example
+    link "Switch Pattern" ../../
+    text div primary
+    text Similar examples include:
+    row
+      link "Switch Example Using HTML Button" ../switch-button/
+      text button primary
+    link "Switch Example Using HTML Checkbox Input" ../switch-checkbox/
+    text "input[type=\"checkbox\"]" primary
+    h2 Example
+    button "Open In CodePen" primary
+    text Start of
+    toggle "Notifications On Off" off
+    text End of
+    h2 Accessibility Features
+    text on
+    text off
+    text aria-checked primary
+    text NOTE:
+    text aria-hidden primary
+    text To make the graphical representation of the state of a switch readily perceivable, two pixel borders are used for the switch state container and a solid color is used for the fill of the circles indicating the on and off states.
+    text To ensure users can perceive the difference between the container and the circles used to indicate the state of the switch, there are two pixels of space between the container border and the circles.
+    text :hover primary
+    text :focus primary
+    text To make it easier to perceive focus and the relationship between a label and its associated switch, focus creates a border around both the switch and the label and also changes the background color.
+    text To make it easier to perceive that clicking either the label or switch will activate the switch, the hover indicator is the same as the focus indicator.
+    text To help people with visual impairments identify the switch as an interactive element, the cursor is changed to a pointer when hovering over the switch.
+    text Note: Because transparent borders are visible on some systems with operating system high contrast settings enabled, transparency cannot be used to create a visual difference between the element that is focused and other elements. Instead of using transparency, the focused element has a thicker border and less padding. When an element receives focus, its border changes from zero to two pixels and padding is reduced by two pixels. When an element loses focus, its border changes from two pixels to two and padding is increased by two pixels.
+    h2 Keyboard Support
+    table Key Function
+      Tab | Moves keyboard focus to the switch.
+      SpaceEnter | Toggle switch between on and off.
+    h2 Role, Property, State, and Tabindex Attributes
+    table Role Attribute Element Usage
+      switch |  | div | Identifies the div element as a switch.
+       | tabindex="0" | div | Includes the switch in the page Tab sequence.
+       | aria-checked="false" | div | Indicates the switch is off. CSS attribute selectors (e.g. [aria-checked="false"]) are used to synchronize the visual states with the value of the aria-checked attribute.
+       | aria-checked="true" | div | Indicates the switch is on. CSS attribute selectors (e.g. [aria-checked="true"]) are used to synchronize the visual states with the value of the aria-checked attribute.
+       | aria-hidden="true" | span.on and span.off | Removes the strings on and off that appear to the right of the switch from the accessible name of the switch. These strings are included only for enhancing visual comprehension of the state; element states are not permitted in accessible names.
+    h2 Assistive Technology Support
+    link "Learn how to interpret and use assistive technology support data" ../../../../about/at-support-tables/
+    h2 JavaScript and CSS Source Code
+    link switch.css ../../../../../../content-assets/wai-aria-practices/patterns/switch/examples/css/switch.css
+    link switch.js ../../../../../../content-assets/wai-aria-practices/patterns/switch/examples/js/switch.js
+    h2 HTML Source Code
+    text To copy the following HTML code, please open it in CodePen.
+    button "Open In CodePen" primary
+    text Start of
+    text "<div role=\"switch\" aria-checked=\"false\" tabindex=\"0\"> <span class=\"label\"> Notifications </span> <span class=\"switch\"> <span></span> </span> <span class=\"on\" aria-hidden=\"true\"> On </span> <span class=\"off\" aria-hidden=\"true\"> Off </span> </div>"
+    text End of
+row
+  region 16x16
+  h2 Help improve this page
+link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+row
+  link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/switch/examples/switch.html
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/switch/examples/switch/
+link "Back to Top" #top
+link "View issues related to this example" https://github.com/orgs/w3c/projects/123
+text Page last updated: 20 January 2026
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/
+text Strategies, standards, resources to make the Web accessible to people with disabilities
+row
+  link "Get News in Email" /WAI/news/subscribe/
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/
+  link Mastodon https://w3c.social/@wai
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+row
+  link Home /WAI/
+  link Contact /WAI/about/contacting/
+  link "Site map" /WAI/sitemap/
+  link "Support WAI" /WAI/about/support/
+  link News /WAI/news/
+  link "Accessibility statement" /WAI/about/accessibility-statement/
+  link "All Translations" /WAI/translations/
+  link "Resources for roles" /WAI/roles/
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/software-license/
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/

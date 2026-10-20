@@ -1,0 +1,14 @@
+@getbootstrap_com_docs_5_3_examples_sign_
+row
+  button "Toggle theme (light)" primary
+  col
+    h1 Please sign in
+    field "Email address" email
+    text Email address
+    field Password password
+    text Password
+    row
+      check "Remember me" off
+      text Remember me
+    button "Sign in" primary
+    text © 2017–2025

@@ -1,0 +1,100 @@
+@ui_shadcn_com_examples_tasks
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+    row
+      link New /create
+link "Trace, Code Block and AI Elements" /docs/changelog
+h1 The Foundation for your Design System
+text A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.
+row
+  link "Get Started" /docs/installation
+  link "View Components" /docs/components
+row
+  row
+    link Examples /
+    link Dashboard /examples/dashboard
+    link Tasks /examples/tasks
+    link Playground /examples/playground
+    link Authentication /examples/authentication
+    link RTL /examples/rtl
+  row
+    text Theme
+    row
+      text Neutral
+      region 16x16
+        path "m6 9 6 6 6-6" fill:none stroke:#737373 width:2
+    button "Copy Code"
+card
+  row
+    col
+      h2 Welcome back!
+      text Here's a list of your tasks for this month.
+    button button
+  row
+    row
+      field "Filter tasks..."
+      button Status
+      button Priority
+    row
+      button View
+      button "Add Task" primary
+  card
+    table Col Task Title Status Priority Col:badge
+       | TASK-8782 | DocumentationYou can't compress the program without quantifying the open-source SSD pixel! | In Progress | Medium | Open menu
+       | TASK-7878 | DocumentationTry to calculate the EXE feed, maybe it will index the multi-byte pixel! | Backlog | Medium | Open menu
+       | TASK-7839 | BugWe need to bypass the neural TCP card! | Todo | High | Open menu
+       | TASK-5562 | FeatureThe SAS interface is down, bypass the open-source pixel so we can back up the PNG bandwidth! | Backlog | Medium | Open menu
+       | TASK-8686 | FeatureI'll parse the wireless SSL protocol, that should driver the API panel! | Canceled | Medium | Open menu
+       | TASK-1280 | BugUse the digital TLS panel, then you can transmit the haptic system! | Done | High | Open menu
+       | TASK-7262 | FeatureThe UTF8 application is down, parse the neural bandwidth so we can back up the PNG firewall! | Done | High | Open menu
+       | TASK-1138 | FeatureGenerating the driver won't do anything, we need to quantify the 1080p SMTP bandwidth! | In Progress | Medium | Open menu
+       | TASK-7184 | FeatureWe need to program the back-end THX pixel! | Todo | Low | Open menu
+       | TASK-5160 | DocumentationCalculating the bus won't do anything, we need to navigate the back-end JSON protocol! | In Progress | High | Open menu
+       | TASK-5618 | DocumentationGenerating the driver won't do anything, we need to index the online SSL application! | Done | Medium | Open menu
+       | TASK-6699 | DocumentationI'll transmit the wireless JBOD capacitor, that should hard drive the SSD feed! | Backlog | Medium | Open menu
+       | TASK-2858 | BugWe need to override the online UDP bus! | Backlog | Medium | Open menu
+       | TASK-9864 | BugI'll reboot the 1080p FTP panel, that should matrix the HEX hard drive! | Done | High | Open menu
+       | TASK-8404 | BugWe need to generate the virtual HEX alarm! | In Progress | Low | Open menu
+       | TASK-5365 | DocumentationBacking up the pixel won't do anything, we need to transmit the primary IB array! | In Progress | Low | Open menu
+       | TASK-1780 | DocumentationThe CSS feed is down, index the bluetooth transmitter so we can compress the CLI protocol! | Todo | High | Open menu
+       | TASK-6938 | DocumentationUse the redundant SCSI application, then you can hack the optical alarm! | Todo | High | Open menu
+       | TASK-9885 | BugWe need to compress the auxiliary VGA driver! | Backlog | High | Open menu
+       | TASK-3216 | DocumentationTransmitting the transmitter won't do anything, we need to compress the virtual HDD sensor! | Backlog | Medium | Open menu
+       | TASK-9285 | BugThe IP monitor is down, copy the haptic alarm so we can generate the HTTP transmitter! | Todo | High | Open menu
+       | TASK-1024 | DocumentationOverriding the microchip won't do anything, we need to transmit the digital OCR transmitter! | In Progress | Low | Open menu
+       | TASK-7068 | BugYou can't generate the capacitor without indexing the wireless HEX pixel! | Canceled | Low | Open menu
+       | TASK-6502 | BugNavigating the microchip won't do anything, we need to bypass the back-end SQL bus! | Todo | High | Open menu
+       | TASK-5326 | BugWe need to hack the redundant UTF8 transmitter! | Todo | Low | Open menu
+  row
+    text 0 of 100 row(s) selected.
+    row
+      row
+        text Rows per page
+        row
+          text 25
+          region 16x16
+            path "m6 9 6 6 6-6" fill:none stroke:#737373 width:2
+      text Page 1 of 4
+      row
+        button "Go to first page" disabled
+        button "Go to previous page" disabled
+        button "Go to next page"
+        button "Go to last page"
+row
+  link shadcn https://twitter.com/shadcn
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+  link GitHub https://github.com/shadcn-ui/ui
+text Notifications alt+T
+text Notifications

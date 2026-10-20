@@ -1,0 +1,73 @@
+@getbootstrap_com_docs_5_3_examples_offca
+button "Toggle theme (light)" primary
+row
+  link "Offcanvas navbar" #
+  row
+    row
+      link Dashboard #
+      link Notifications #
+      link Profile #
+      link "Switch account" #
+      link Settings #
+    row
+      field Search search
+      button Search
+row
+  link Dashboard #
+  link "Friends 27" #
+  link Explore #
+  link Suggestions #
+  link Link #
+  link Link #
+  link Link #
+  link Link #
+  link Link #
+card
+  h1 Bootstrap
+  text Since 2011
+h3 Recent updates
+row
+  region "Placeholder: 32x32" 32x32
+    rect @0,0 100x100 fill:#007bff
+    text @50,50 "32x32" fill:#007bff size:18 anchor:middle
+  text @username Some representative placeholder content, with some information about this user. Imagine this being some sort of status update, perhaps?
+row
+  region "Placeholder: 32x32" 32x32
+    rect @0,0 100x100 fill:#e83e8c
+    text @50,50 "32x32" fill:#e83e8c size:18 anchor:middle
+  text @username Some more representative placeholder content, related to this other user. Another status update, perhaps.
+row
+  region "Placeholder: 32x32" 32x32
+    rect @0,0 100x100 fill:#6f42c1
+    text @50,50 "32x32" fill:#6f42c1 size:18 anchor:middle
+  text @username This user also gets some representative placeholder content. Maybe they did something interesting, and you really want to highlight this in the recent updates.
+link "All updates" #
+h3 Suggestions
+row
+  region "Placeholder: 32x32" 32x32
+    rect @0,0 100x100 fill:#007bff
+    text @50,50 "32x32" fill:#007bff size:18 anchor:middle
+  col
+    row
+      text Full Name
+      link Follow #
+    text @username
+row
+  region "Placeholder: 32x32" 32x32
+    rect @0,0 100x100 fill:#007bff
+    text @50,50 "32x32" fill:#007bff size:18 anchor:middle
+  col
+    row
+      text Full Name
+      link Follow #
+    text @username
+row
+  region "Placeholder: 32x32" 32x32
+    rect @0,0 100x100 fill:#007bff
+    text @50,50 "32x32" fill:#007bff size:18 anchor:middle
+  col
+    row
+      text Full Name
+      link Follow #
+    text @username
+link "All suggestions" #

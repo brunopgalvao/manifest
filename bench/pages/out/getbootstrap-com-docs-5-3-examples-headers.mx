@@ -1,0 +1,81 @@
+@getbootstrap_com_docs_5_3_examples_heade
+button "Toggle theme (light)" primary
+h1 Headers examples
+row
+  link "Simple header" /
+  row
+    link Home #
+    link Features #
+    link Pricing #
+    link FAQs #
+    link About #
+row
+  link Home #
+  link Features #
+  link Pricing #
+  link FAQs #
+  link About #
+row
+  link / /
+  row
+    link Home #
+    link Features #
+    link Pricing #
+    link FAQs #
+    link About #
+  row
+    button Login
+    button Sign-up primary
+row
+  link / /
+  row
+    link Home #
+    link Features #
+    link Pricing #
+    link FAQs #
+    link About #
+  field Search search
+  row
+    button Login
+    button Sign-up warning
+row
+  link / /
+  row
+    link Overview #
+    link Inventory #
+    link Customers #
+    link Products #
+  field Search search
+  link "#" #
+row
+  link "Bootstrap menu" #
+  row
+    field Search search
+    link "#" #
+row
+row
+  row
+    link Home #
+    link Features #
+    link Pricing #
+    link FAQs #
+    link About #
+  row
+    link Login #
+    link "Sign up" #
+row
+  link "Double header" /
+  field Search search
+row
+  link / /
+  row
+    link Home #
+    link Dashboard #
+    link Orders #
+    link Products #
+    link Customers #
+row
+  field Search search
+  row
+    button Login
+    button Sign-up primary

@@ -1,0 +1,23 @@
+@getbootstrap_com_docs_5_3_examples_start
+button "Toggle theme (light)" primary
+link "Starter template" /
+h1 Get started with Bootstrap
+text Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started.
+link "Download examples" /docs/5.3/examples
+row
+  col
+    h2 Starter projects
+    text Ready to go beyond the starter template? Check out these open source projects that you can quickly duplicate to a new GitHub repository.
+    link "Bootstrap npm starter" https://github.com/twbs/examples/tree/main/icons-font
+    link "Bootstrap Parcel starter" https://github.com/twbs/examples/tree/main/parcel
+    link "Bootstrap Vite starter" https://github.com/twbs/examples/tree/main/vite
+    link "Bootstrap Webpack starter" https://github.com/twbs/examples/tree/main/webpack
+  col
+    h2 Guides
+    text Read more detailed instructions and documentation on using or contributing to Bootstrap.
+    link "Bootstrap quick start guide" /docs/5.3/getting-started/introduction
+    link "Bootstrap Webpack guide" /docs/5.3/getting-started/webpack
+    link "Bootstrap Parcel guide" /docs/5.3/getting-started/parcel
+    link "Bootstrap Vite guide" /docs/5.3/getting-started/vite
+    link "Contributing to Bootstrap" /docs/5.3/getting-started/contribute
+text Created by the Bootstrap team · © 2025

@@ -1,0 +1,51 @@
+@getbootstrap_com_docs_5_3_examples_sideb
+button "Toggle theme (light)" primary
+row
+  h1 Sidebars examples
+  col
+    link Sidebar /
+    link Home #
+    link Dashboard #
+    link Orders #
+    link Products #
+    link Customers #
+    link mdo #
+  col
+    link Sidebar /
+    link Home #
+    link Dashboard #
+    link Orders #
+    link Products #
+    link Customers #
+    link mdo #
+  col
+    link Icon-only /
+    link Home #
+    link Dashboard #
+    link Orders #
+    link Products #
+    link Customers #
+    link "#" #
+  col
+    link Collapsible /
+    button Home
+    link Overview #
+    link Updates #
+    link Reports #
+    button Dashboard
+    button Orders
+    button Account
+  col
+    link "List group" /
+    link "List group item heading Wed Some placeholder content in a paragraph below the heading and date." #
+    link "List group item heading Tues Some placeholder content in a paragraph below the heading and date." #
+    link "List group item heading Mon Some placeholder content in a paragraph below the heading and date." #
+    link "List group item heading Wed Some placeholder content in a paragraph below the heading and date." #
+    link "List group item heading Tues Some placeholder content in a paragraph below the heading and date." #
+    link "List group item heading Mon Some placeholder content in a paragraph below the heading and date." #
+    link "List group item heading Wed Some placeholder content in a paragraph below the heading and date." #
+    link "List group item heading Tues Some placeholder content in a paragraph below the heading and date." #
+    link "List group item heading Mon Some placeholder content in a paragraph below the heading and date." #
+    link "List group item heading Wed Some placeholder content in a paragraph below the heading and date." #
+    link "List group item heading Tues Some placeholder content in a paragraph below the heading and date." #
+    link "List group item heading Mon Some placeholder content in a paragraph below the heading and date." #

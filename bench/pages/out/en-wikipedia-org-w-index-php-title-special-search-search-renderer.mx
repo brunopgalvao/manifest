@@ -1,0 +1,188 @@
+@en_wikipedia_org_w_index_php_title_speci
+link "Jump to content" #bodyContent
+row
+  row
+    col
+      button "Main menu"
+      text Main menu
+      row
+        text Main menu
+        button "Move Main menu to sidebar"
+      link "Main page" /wiki/Main_Page
+      link Contents /wiki/Wikipedia:Contents
+      link "Current events" /wiki/Portal:Current_events
+      link "Random article" /wiki/Special:Random
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      text Contribute
+      link Help /wiki/Help:Contents
+      link "Learn to edit" /wiki/Help:Introduction
+      link "Community portal" /wiki/Wikipedia:Community_portal
+      link "Recent changes" /wiki/Special:RecentChanges
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard
+      link "Special pages" /wiki/Special:SpecialPages
+    link /wiki/Main_Page /wiki/Main_Page
+  row
+    row
+      col
+        field "Search Wikipedia" search
+      button Search
+    row
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+      link "Create account" /w/index.php?title=Special:CreateAccount&returnto=Render
+      link "Log in" /w/index.php?title=Special:UserLogin&returnto=Render
+row
+  col
+    row
+      h2 Contents
+      button "Hide Contents"
+    link (Top) #
+    link "1 Computing" #Computing
+    link "2 Arts, entertainment, and media" #Arts,_entertainment,_and_media
+    link "3 People" #People
+    link "4 Other uses" #Other_uses
+    link "5 See also" #See_also
+  row
+    row
+      h1 Render
+      col
+        button "5 languages"
+        text 5 languages primary
+    row
+      row
+        link Article /wiki/Render
+        link Talk /wiki/Talk:Render
+      row
+        row
+          link Read /wiki/Render
+          link Edit /w/index.php?title=Render&action=edit
+          link "View history" /w/index.php?title=Render&action=history
+        col
+          button Tools
+          text Tools
+          row
+            text Tools
+            button "Move Tools to sidebar"
+          text General
+          link "What links here" /wiki/Special:WhatLinksHere/Render
+          link "Related changes" /wiki/Special:RecentChangesLinked/Render
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Render&oldid=1354000181
+          link "Page information" /w/index.php?title=Render&action=info
+          link "Cite this page" /w/index.php?title=Special:CiteThisPage&page=Render&id=1354000181&wpFormIdentifier=titleform
+          link "Get shortened URL" /w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRender
+          link "Switch to legacy parser" /w/index.php?title=Render&useparsoid=0
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q1901582#sitelinks-wikipedia
+          text Print/export
+          link "Download as PDF" /w/index.php?title=Special:DownloadAsPdf&page=Render&action=show-download-screen
+          link "Printable version" javascript:print();
+          text In other projects
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q1901582
+    col
+      row
+        text Appearance
+        button "Hide Appearance"
+      text Text
+      text Small
+      text Standard
+      text Large
+      text Width
+      text Standard
+      text Wide
+      text Color
+      text Automatic
+      text Light
+      text Dark
+    col
+      text From Wikipedia, the free encyclopedia
+      link Renderer /w/index.php?title=Renderer&redirect=no
+      row
+        link "https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg" https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg
+        col
+          link Render https://en.wiktionary.org/wiki/Render
+          link render https://en.wiktionary.org/wiki/render
+          link renderer https://en.wiktionary.org/wiki/renderer
+      text Render, rendered, or rendering may refer to:
+      row
+        h2 Computing
+        link edit /w/index.php?title=Render&action=edit&section=1
+      link "Rendering (computer graphics)" https://en.wikipedia.org/wiki/Rendering_(computer_graphics)
+      link "Architectural rendering" https://en.wikipedia.org/wiki/Architectural_rendering
+      link "Artistic rendering" https://en.wikipedia.org/wiki/Artistic_rendering
+      row
+        link Typesetting https://en.wikipedia.org/wiki/Typesetting
+        link text https://en.wikipedia.org/wiki/Written_language
+      link "3D rendering" https://en.wikipedia.org/wiki/3D_rendering
+      link "Browser engine" https://en.wikipedia.org/wiki/Browser_engine
+      link "High-dynamic-range rendering" https://en.wikipedia.org/wiki/High-dynamic-range_rendering
+      link "Non-photorealistic rendering" https://en.wikipedia.org/wiki/Non-photorealistic_rendering
+      link "Scanline rendering" https://en.wikipedia.org/wiki/Scanline_rendering
+      link "Volume rendering" https://en.wikipedia.org/wiki/Volume_rendering
+      row
+        link "Ray tracing (graphics)" https://en.wikipedia.org/wiki/Ray_tracing_(graphics)
+        link "physically based rendering" https://en.wikipedia.org/wiki/Physically_based_rendering
+      row
+        h2 Arts, entertainment, and media
+        link edit /w/index.php?title=Render&action=edit&section=2
+      link "Rendered (radio program)" https://en.wikipedia.org/wiki/Rendered_(radio_program)
+      link Mesmer https://en.wikipedia.org/wiki/Mesmer_(album)
+      link "Rendering (Berio)" https://en.wikipedia.org/wiki/Rendering_(Berio)
+      row
+        h2 People
+        link edit /w/index.php?title=Render&action=edit&section=3
+      link "Adam Render" https://en.wikipedia.org/wiki/Adam_Render
+      link "Arlene Render" https://en.wikipedia.org/wiki/Arlene_Render
+      link "George Render" https://en.wikipedia.org/wiki/George_Render
+      link "Mattiline Render" https://en.wikipedia.org/wiki/Mattiline_Render
+      link "Killer Mike" https://en.wikipedia.org/wiki/Killer_Mike
+      link "Rudy Render" https://en.wikipedia.org/wiki/Rudy_Render
+      link "Sergio Render" https://en.wikipedia.org/wiki/Sergio_Render
+      link "Shirley Render" https://en.wikipedia.org/wiki/Shirley_Render
+      link "Sylvia Lyons Render" https://en.wikipedia.org/wiki/Sylvia_Lyons_Render
+      link "Tyshun Render" https://en.wikipedia.org/wiki/Tyshun_Render
+      row
+        link "William Render" https://en.wikipedia.org/wiki/William_Render
+        text fl.
+      row
+        h2 Other uses
+        link edit /w/index.php?title=Render&action=edit&section=4
+      link "Rendering (animal products)" https://en.wikipedia.org/wiki/Rendering_(animal_products)
+      link "Cement render" https://en.wikipedia.org/wiki/Cement_render
+      link Salute https://en.wikipedia.org/wiki/Salute
+      row
+        h2 See also
+        link edit /w/index.php?title=Render&action=edit&section=5
+      link "Rendition (disambiguation)" https://en.wikipedia.org/wiki/Rendition_(disambiguation)
+      link "Renders (surname)" https://en.wikipedia.org/wiki/Renders_(surname)
+      link "All pages with titles containing Render" https://en.wikipedia.org/wiki/Special:Search/intitle:"Render"
+      row
+        link "https://en.wikipedia.org/wiki/File:Disambig_gray.svg" https://en.wikipedia.org/wiki/File:Disambig_gray.svg
+        col
+          link disambiguation https://en.wikipedia.org/wiki/Help:Disambiguation
+          text Render
+          link "internal link" https://en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/Render&namespace=0
+      row
+        link Categories /wiki/Help:Category
+        row
+          link "Disambiguation pages" /wiki/Category:Disambiguation_pages
+          link "Disambiguation pages with surname-holder lists" /wiki/Category:Disambiguation_pages_with_surname-holder_lists
+  col
+    text "This page was last edited on 13 May 2026, at 17:46 (UTC)."
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/
+    row
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link Disclaimers /wiki/Wikipedia:General_disclaimer
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+      link Developers https://developer.wikimedia.org
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+      link "Mobile view" //en.wikipedia.org/w/index.php?title=Render&mobileaction=toggle_view_mobile
+    row
+      link "https://www.wikimedia.org/" https://www.wikimedia.org/
+      link "https://www.mediawiki.org/" https://www.mediawiki.org/

@@ -1,0 +1,528 @@
+@en_wikipedia_org_wiki_table_information
+link "Jump to content" #bodyContent
+row
+  row
+    col
+      button "Main menu"
+      text Main menu
+      row
+        text Main menu
+        button "Move Main menu to sidebar"
+      link "Main page" /wiki/Main_Page
+      link Contents /wiki/Wikipedia:Contents
+      link "Current events" /wiki/Portal:Current_events
+      link "Random article" /wiki/Special:Random
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      text Contribute
+      link Help /wiki/Help:Contents
+      link "Learn to edit" /wiki/Help:Introduction
+      link "Community portal" /wiki/Wikipedia:Community_portal
+      link "Recent changes" /wiki/Special:RecentChanges
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard
+      link "Special pages" /wiki/Special:SpecialPages
+    link /wiki/Main_Page /wiki/Main_Page
+  row
+    row
+      col
+        field "Search Wikipedia" search
+      button Search
+    row
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+      link "Create account" /w/index.php?title=Special:CreateAccount&returnto=Table+%28format%29
+      link "Log in" /w/index.php?title=Special:UserLogin&returnto=Table+%28format%29
+row
+  col
+    row
+      h2 Contents
+      button "Hide Contents"
+    link (Top) #
+    link "1 Basic description" #Basic_description
+    button "Toggle Basic description subsection"
+    link "1.1 Simple table" #Simple_table
+    link "1.2 Multi-dimensional table" #Multi-dimensional_table
+    link "2 Generic representation" #Generic_representation
+    link "3 Information technology" #Information_technology
+    button "Toggle Information technology subsection"
+    link "3.1 Software applications" #Software_applications
+    link "3.1.1 HTML" #HTML
+    link "3.2 Software development" #Software_development
+    link "3.3 Databases" #Databases
+    link "4 Other uses" #Other_uses
+    button "Toggle Other uses subsection"
+    link "4.1 Publishing" #Publishing
+    link "4.2 Mathematics" #Mathematics
+    link "4.3 Natural sciences" #Natural_sciences
+    link "4.3.1 Periodic table" #Periodic_table
+    link "4.3.2 Tide table" #Tide_table
+    link "5 Historical relationship to furniture" #Historical_relationship_to_furniture
+    link "6 See also" #See_also
+    link "7 References" #References
+    link "8 External links" #External_links
+  row
+    row
+      h1 Table (format)
+      col
+        button "42 languages"
+        text 42 languages primary
+    row
+      row
+        link Article /wiki/Table_(format)
+        link Talk /wiki/Talk:Table_(format)
+      row
+        row
+          link Read /wiki/Table_(format)
+          link Edit /w/index.php?title=Table_(format)&action=edit
+          link "View history" /w/index.php?title=Table_(format)&action=history
+        col
+          button Tools
+          text Tools
+          row
+            text Tools
+            button "Move Tools to sidebar"
+          text General
+          link "What links here" /wiki/Special:WhatLinksHere/Table_(format)
+          link "Related changes" /wiki/Special:RecentChangesLinked/Table_(format)
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Table_(format)&oldid=1376468081
+          link "Page information" /w/index.php?title=Table_(format)&action=info
+          link "Cite this page" /w/index.php?title=Special:CiteThisPage&page=Table_%28format%29&id=1376468081&wpFormIdentifier=titleform
+          link "Get shortened URL" /w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTable_%28format%29
+          link "Switch to legacy parser" /w/index.php?title=Table_(format)&useparsoid=0
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q496946#sitelinks-wikipedia
+          button "Expand all"
+          text Print/export
+          link "Download as PDF" /w/index.php?title=Special:DownloadAsPdf&page=Table_%28format%29&action=show-download-screen
+          link "Printable version" javascript:print();
+          text In other projects
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Category:Tables_(information)
+          link Wikibooks https://en.wikibooks.org/wiki/HyperText_Markup_Language/Tables
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q496946
+    col
+      row
+        text Appearance
+        button "Hide Appearance"
+      text Text
+      text Small
+      text Standard
+      text Large
+      text Width
+      text Standard
+      text Wide
+      text Color
+      text Automatic
+      text Light
+      text Dark
+    col
+      text From Wikipedia, the free encyclopedia
+      link "Table (information)" /w/index.php?title=Table_(information)&redirect=no
+      link "https://en.wikipedia.org/wiki/File:Table-sample-appearance-default-params-values-01.gif" https://en.wikipedia.org/wiki/File:Table-sample-appearance-default-params-values-01.gif
+      link rendered https://en.wikipedia.org/wiki/Browser_engine#Layout_and_rendering
+      link "web browser" https://en.wikipedia.org/wiki/Web_browser
+      link HTML https://en.wikipedia.org/wiki/HTML
+      text table
+      link information https://en.wikipedia.org/wiki/Information
+      link data https://en.wikipedia.org/wiki/Data
+      link communication https://en.wikipedia.org/wiki/Communication
+      link research https://en.wikipedia.org/wiki/Research
+      link "data analysis" https://en.wikipedia.org/wiki/Data_analysis
+      link [1] #cite_note-Fink000-1
+      link [2] #cite_note-Mcnabb000-2
+      link [3] #cite_note-Morgan000-3
+      link [4] #cite_note-Robey000-4
+      link [5] #cite_note-Zielinski000-5
+      text tabular
+      link adjective https://en.wiktionary.org/wiki/tabular#Adjective
+      link "floating blocks" https://en.wikipedia.org/wiki/Floating_block
+      text A table cell is one grouping within a chart table used for storing information or data. Cells are grouped horizontally (rows of cells) and vertically (columns of cells). Each cell contains information relating to the combination of the row and column headings it is collinear with.
+      row
+        h2 Basic description
+        link edit /w/index.php?title=Table_(format)&action=edit&section=1
+      text A table consists of an ordered arrangement of rows and columns. This is a simplified description of the most basic kind of table. Certain considerations follow from this simplified description:
+      row
+        link "row" https://en.wikipedia.org/wiki/Row_(database)
+        link record https://en.wikipedia.org/wiki/Record_(computer_science)
+        link tuple https://en.wikipedia.org/wiki/Tuple
+      link column https://en.wikipedia.org/wiki/Column_(database)
+      text a column is usually identified by a name;
+      text a column name can consist of a word, phrase or a numerical index;
+      link cell https://en.wikipedia.org/wiki/Table_cell
+      link recursively https://en.wikipedia.org/wiki/Recursion
+      link metadata https://en.wikipedia.org/wiki/Metadata
+      link annotations https://en.wikipedia.org/wiki/Annotations
+      link [6] #cite_note-header-6
+      link footer https://en.wikipedia.org/wiki/Page_footer
+      link [5] #cite_note-Zielinski000-5
+      row
+        h3 Simple table
+        link edit /w/index.php?title=Table_(format)&action=edit&section=2
+      text "The following illustrates a simple table with four columns and nine rows. The first row is not counted, because it is only used to display the column names. This is called a \"header row\". .mw-parser-output .defaultleft,.mw-parser-output .col1left td:nth-child(1),.mw-parser-output .col2left td:nth-child(2),.mw-parser-output .col3left td:nth-child(3),.mw-parser-output .col4left td:nth-child(4),.mw-parser-output .col5left td:nth-child(5),.mw-parser-output .col6left td:nth-child(6),.mw-parser-output .col7left td:nth-child(7),.mw-parser-output .col8left td:nth-child(8),.mw-parser-output .col9left td:nth-child(9),.mw-parser-output .col10left td:nth-child(10),.mw-parser-output .col11left td:nth-child(11),.mw-parser-output .col12left td:nth-child(12),.mw-parser-output .col13left td:nth-child(13),.mw-parser-output .col14left td:nth-child(14),.mw-parser-output .col15left td:nth-child(15),.mw-parser-output .col16left td:nth-child(16),.mw-parser-output .col17left td:nth-child(17),.mw-parser-output .col18left td:nth-child(18),.mw-parser-output .col19left td:nth-child(19),.mw-parser-output .col20left td:nth-child(20),.mw-parser-output .col21left td:nth-child(21),.mw-parser-output .col22left td:nth-child(22),.mw-parser-output .col23left td:nth-child(23),.mw-parser-output .col24left td:nth-child(24),.mw-parser-output .col25left td:nth-child(25),.mw-parser-output .col26left td:nth-child(26),.mw-parser-output .col27left td:nth-child(27),.mw-parser-output .col28left td:nth-child(28),.mw-parser-output .col29left td:nth-child(29),.mw-parser-output .col-1left td:nth-last-child(1),.mw-parser-output .col-2left td:nth-last-child(2),.mw-parser-output .col-3left td:nth-last-child(3),.mw-parser-output .col-4left td:nth-last-child(4),.mw-parser-output .col-5left td:nth-last-child(5),.mw-parser-output .col-6left td:nth-last-child(6),.mw-parser-output .col-7left td:nth-last-child(7),.mw-parser-output .col-8left td:nth-last-child(8),.mw-parser-output .col-9left td:nth-last-child(9){text-align:left}.mw-parser-output .defaultcenter,.mw-parser-output .col1center td:nth-child(1),.mw-parser-output .col2center td:nth-child(2),.mw-parser-output .col3center td:nth-child(3),.mw-parser-output .col4center td:nth-child(4),.mw-parser-output .col5center td:nth-child(5),.mw-parser-output .col6center td:nth-child(6),.mw-parser-output .col7center td:nth-child(7),.mw-parser-output .col8center td:nth-child(8),.mw-parser-output .col9center td:nth-child(9),.mw-parser-output .col10center td:nth-child(10),.mw-parser-output .col11center td:nth-child(11),.mw-parser-output .col12center td:nth-child(12),.mw-parser-output .col13center td:nth-child(13),.mw-parser-output .col14center td:nth-child(14),.mw-parser-output .col15center td:nth-child(15),.mw-parser-output .col16center td:nth-child(16),.mw-parser-output .col17center td:nth-child(17),.mw-parser-output .col18center td:nth-child(18),.mw-parser-output .col19center td:nth-child(19),.mw-parser-output .col20center td:nth-child(20),.mw-parser-output .col21center td:nth-child(21),.mw-parser-output .col22center td:nth-child(22),.mw-parser-output .col23center td:nth-child(23),.mw-parser-output .col24center td:nth-child(24),.mw-parser-output .col25center td:nth-child(25),.mw-parser-output .col26center td:nth-child(26),.mw-parser-output .col27center td:nth-child(27),.mw-parser-output .col28center td:nth-child(28),.mw-parser-output .col29center td:nth-child(29),.mw-parser-output .col-1center td:nth-last-child(1),.mw-parser-output .col-2center td:nth-last-child(2),.mw-parser-output .col-3center td:nth-last-child(3),.mw-parser-output .col-4center td:nth-last-child(4),.mw-parser-output .col-5center td:nth-last-child(5),.mw-parser-output .col-6center td:nth-last-child(6),.mw-parser-output .col-7center td:nth-last-child(7),.mw-parser-output .col-8center td:nth-last-child(8),.mw-parser-output .col-9center td:nth-last-child(9){text-align:center}.mw-parser-output .defaultright,.mw-parser-output .col1right td:nth-child(1),.mw-parser-output .col2right td:nth-child(2),.mw-parser-output .col3right td:nth-child(3),.mw-parser-output .col4right td:nth-child(4),.mw-parser-output .col5right td:nth-child(5),.mw-parser-output .col6right td:nth-child(6),.mw-parser-output .col7right td:nth-child(7),.mw-parser-output .col8right td:nth-child(8),.mw-parser-output .col9right td:nth-child(9),.mw-parser-output .col10right td:nth-child(10),.mw-parser-output .col11right td:nth-child(11),.mw-parser-output .col12right td:nth-child(12),.mw-parser-output .col13right td:nth-child(13),.mw-parser-output .col14right td:nth-child(14),.mw-parser-output .col15right td:nth-child(15),.mw-parser-output .col16right td:nth-child(16),.mw-parser-output .col17right td:nth-child(17),.mw-parser-output .col18right td:nth-child(18),.mw-parser-output .col19right td:nth-child(19),.mw-parser-output .col20right td:nth-child(20),.mw-parser-output .col21right td:nth-child(21),.mw-parser-output .col22right td:nth-child(22),.mw-parser-output .col23right td:nth-child(23),.mw-parser-output .col24right td:nth-child(24),.mw-parser-output .col25right td:nth-child(25),.mw-parser-output .col26right td:nth-child(26),.mw-parser-output .col27right td:nth-child(27),.mw-parser-output .col28right td:nth-child(28),.mw-parser-output .col29right td:nth-child(29),.mw-parser-output .col-1right td:nth-last-child(1),.mw-parser-output .col-2right td:nth-last-child(2),.mw-parser-output .col-3right td:nth-last-child(3),.mw-parser-output .col-4right td:nth-last-child(4),.mw-parser-output .col-5right td:nth-last-child(5),.mw-parser-output .col-6right td:nth-last-child(6),.mw-parser-output .col-7right td:nth-last-child(7),.mw-parser-output .col-8right td:nth-last-child(8),.mw-parser-output .col-9right td:nth-last-child(9){text-align:right}"
+      table First Last Age Gender
+        Tinu | Elejogun | 14 | F
+        Javier | Zapata | 28 | M
+        Lily | McGarrett | 18 | F
+        Olatunkbo | Chijiaku | 22 | M
+        Adrienne | Anthoula | 22 | M
+        Axelia | Athanasios | 22 | M
+        Jon-Kabat | Zinn | 22 | M
+        Thabang | Mosoa | 15 | F
+        Rhian | Ellis | 12 | M
+      row
+        h3 Multi-dimensional table
+        link edit /w/index.php?title=Table_(format)&action=edit&section=3
+      link "https://en.wikipedia.org/wiki/File:Rollup_table.png" https://en.wikipedia.org/wiki/File:Rollup_table.png
+      text An example of a table containing rows with summary information. The summary information consists of subtotals that are combined from previous rows within the same column.
+      text dimension
+      link [7] #cite_note-7
+      link normalizing https://en.wikipedia.org/wiki/Database_normalization
+      link hierarchies https://en.wikipedia.org/wiki/Hierarchies
+      link "multiplication table" https://en.wikipedia.org/wiki/Multiplication_table
+      table × 1 2 3
+        1 | 1 | 2 | 3
+        2 | 2 | 4 | 6
+        3 | 3 | 6 | 9
+      link "injective relation" https://en.wikipedia.org/wiki/Injective_function
+      text Column 1 and row 1 will only correspond to cell (1,1);
+      text Column 1 and row 2 will only correspond to cell (2,1) etc.
+      link [8] #cite_note-8
+      link [9] #cite_note-9
+      link "https://en.wikipedia.org/wiki/File:Philosophical_Transactions_-_Volume_001.djvu?page=60" https://en.wikipedia.org/wiki/File:Philosophical_Transactions_-_Volume_001.djvu?page=60
+      link "Adrien Auzout" https://en.wikipedia.org/wiki/Adrien_Auzout
+      link "a 1665 article" https://en.wikisource.org/wiki/Philosophical%20Transactions/Volume%201/Number%204#56
+      link "Philosophical Transactions" https://en.wikipedia.org/wiki/Philosophical_Transactions
+      row
+        h2 Generic representation
+        link edit /w/index.php?title=Table_(format)&action=edit&section=4
+      link generalization https://en.wikipedia.org/wiki/Generalization
+      link "fire diamond" https://en.wikipedia.org/wiki/Fire_diamond
+      table Standard Tabular
+        .mw-parser-output .nfpa-704-diamond-ref{float:right;padding:1px;text-align:right}.mw-parser-output .nfpa-704-diamond-container{width:82px;font-family:sans-serif;margin:0 auto}.mw-parser-output .nfpa-704-diamond-container-ref{float:left;margin-left:1em}.mw-parser-output .nfpa-704-diamond-images{float:left;font-size:20px;text-align:center;position:relative;height:80px;width:80px;padding:1px}.mw-parser-output .nfpa-704-diamond-map{position:absolute;height:80px;width:80px}.mw-parser-output .nfpa-704-diamond .noresize{margin:0 auto}.mw-parser-output .nfpa-704-diamond-code{line-height:1em;text-align:center;position:absolute}.mw-parser-output .nfpa-704-diamond-code>a{color:black}.mw-parser-output .nfpa-704-diamond-blue{width:13px;top:31px;left:15px}.mw-parser-output .nfpa-704-diamond-red{width:12px;top:12px;left:35px}.mw-parser-output .nfpa-704-diamond-yellow{width:13px;top:31px;left:54px}.mw-parser-output .nfpa-704-diamond-white-image{position:relative;top:51px;left:0}.mw-parser-output .nfpa-704-diamond-white-text{vertical-align:middle;text-align:center;line-height:80%;position:absolute;top:52px}.mw-parser-output .nfpa-704-diamond-white-text a>span{position:absolute;color:black}.mw-parser-output .nfpa-704-diamond-white-wors{font-size:15px;width:23px;left:29px}.mw-parser-output .nfpa-704-diamond-white-wox{font-size:15px;font-stretch:condensed;width:21px;line-height:80%;top:-4px;left:29px}.mw-parser-output .nfpa-704-diamond-white-abcp{font-size:13.5px;font-stretch:condensed;width:28px;left:26px}.mw-parser-output .nfpa-704-diamond-white-ac{font-size:10px;width:30px;left:25px}.mw-parser-output .nfpa-704-diamond-white-strike{text-decoration:line-through} 3 2 1 | Risk levels of hazardous materials in this facility Health RiskFlammabilityReactivitySpecial Level 3Level 2Level 1
+      row
+        h2 Information technology
+        link edit /w/index.php?title=Table_(format)&action=edit&section=5
+      row
+        h3 Software applications
+        link edit /w/index.php?title=Table_(format)&action=edit&section=6
+      link "word processing" https://en.wikipedia.org/wiki/Word_processing
+      link spreadsheet https://en.wikipedia.org/wiki/Spreadsheet
+      link "presentation software" https://en.wikipedia.org/wiki/Presentation_software
+      link HTML https://en.wikipedia.org/wiki/HTML
+      link "markup language" https://en.wikipedia.org/wiki/Markup_language
+      row
+        h3 HTML
+        link edit /w/index.php?title=Table_(format)&action=edit&section=7
+      link component https://en.wikipedia.org/wiki/Software_component
+      link HTML https://en.wikipedia.org/wiki/HTML
+      link webpage https://en.wikipedia.org/wiki/Webpage
+      text <table>
+      link [10] #cite_note-10
+      text <td>
+      text <th>
+      text <table>
+      text and
+      text <tr>
+      text <tr>
+      text colspan
+      text rowspan
+      text colspan
+      link [11] #cite_note-11
+      text The following table illustrates usage of colspan and rowspan:
+      table Col Col Col <--
+         |  | <-- This row has two. The first uses colspan="2"
+         |  |  | <-- This row has three table data cells, but one spans two rows because it uses rowspan="2"
+         |  | <-- This row has only two table data cells, because its first is being taken up
+      text The following is an example of an HTML table containing 4 cells:
+      table Cell Cell
+        Cell 3 | Cell 4
+      text HTML source:
+      text "<table border=\"1\"> <tr> <td> Cell 1 </td> <td> Cell 2 </td> </tr> <tr> <td> Cell 3 </td> <td> Cell 4 </td> </tr> </table>"
+      row
+        h3 Software development
+        link edit /w/index.php?title=Table_(format)&action=edit&section=8
+      link "decision tables" https://en.wikipedia.org/wiki/Decision_table
+      link [12] #cite_note-Heitmeyer000-12
+      link [13] #cite_note-Breen000-13
+      link "David Parnas" https://en.wikipedia.org/wiki/David_Parnas
+      link [14] #cite_note-Janicki000-14
+      link [13] #cite_note-Breen000-13
+      link [15] #cite_note-Leveson000-15
+      link memoize https://en.wikipedia.org/wiki/Memoization
+      link arrays https://en.wikipedia.org/wiki/Array_data_structure
+      link "hash tables" https://en.wikipedia.org/wiki/Hash_table
+      link "control tables" https://en.wikipedia.org/wiki/Control_table
+      row
+        h3 Databases
+        link edit /w/index.php?title=Table_(format)&action=edit&section=9
+      row
+        link columns https://en.wikipedia.org/wiki/Column_(database)
+        link rows https://en.wikipedia.org/wiki/Row_(database)
+      row
+        h2 Other uses
+        link edit /w/index.php?title=Table_(format)&action=edit&section=10
+      text There are several specific situations in which tables are routinely used as a matter of custom or formal convention.
+      row
+        h3 Publishing
+        link edit /w/index.php?title=Table_(format)&action=edit&section=11
+      row
+        link "Table of contents" https://en.wikipedia.org/wiki/Table_of_contents
+        link edit https://en.wikipedia.org/w/index.php?title=Table_of_contents&action=edit
+      row
+        link "table of contents" https://en.wikipedia.org/wiki/Table_of_contents
+        link "front matter" https://en.wikipedia.org/wiki/Book_design#Front_matter
+      row
+        h3 Mathematics
+        link edit /w/index.php?title=Table_(format)&action=edit&section=12
+      row
+        link "Mathematical table" https://en.wikipedia.org/wiki/Mathematical_table
+        link edit https://en.wikipedia.org/w/index.php?title=Mathematical_table&action=edit
+      row
+        link "https://en.wikipedia.org/wiki/File:Bernegger_Manuale_136.jpg" https://en.wikipedia.org/wiki/File:Bernegger_Manuale_136.jpg
+        link "https://en.wikipedia.org/wiki/File:Bernegger_Manuale_137.jpg" https://en.wikipedia.org/wiki/File:Bernegger_Manuale_137.jpg
+      link "Matthias Bernegger" https://en.wikipedia.org/wiki/Matthias_Bernegger
+      link "trigonometric functions" https://en.wikipedia.org/wiki/Trigonometric_function
+      link "Mathematical tables" https://en.wikipedia.org/wiki/Mathematical_table
+      link tables https://en.wikipedia.org/wiki/Table_(information)
+      link "Trigonometric tables" https://en.wikipedia.org/wiki/Trigonometric_tables
+      link astronomy https://en.wikipedia.org/wiki/Astronomy
+      link "celestial navigation" https://en.wikipedia.org/wiki/Celestial_navigation
+      link "electronic calculators" https://en.wikipedia.org/wiki/Electronic_calculator
+      link computation https://en.wikipedia.org/wiki/Computation
+      link logarithms https://en.wikipedia.org/wiki/Logarithm
+      link "trigonometric functions" https://en.wikipedia.org/wiki/Trigonometric_functions
+      text Examples include:
+      link "Multiplication table" https://en.wikipedia.org/wiki/Multiplication_table
+      link "Truth table" https://en.wikipedia.org/wiki/Truth_table
+      row
+        h3 Natural sciences
+        link edit /w/index.php?title=Table_(format)&action=edit&section=13
+      row
+        link "periodic table" https://en.wikipedia.org/wiki/Periodic_table
+        link chemistry https://en.wikipedia.org/wiki/Chemistry
+        link "tide tables" https://en.wikipedia.org/wiki/Tide_table
+        link oceanography https://en.wikipedia.org/wiki/Oceanography
+      row
+        h3 Periodic table
+        link edit /w/index.php?title=Table_(format)&action=edit&section=14
+      row
+        link "Periodic table" https://en.wikipedia.org/wiki/Periodic_table
+        link edit https://en.wikipedia.org/w/index.php?title=Periodic_table&action=edit
+      link "https://en.wikipedia.org/wiki/File:Colour_18-col_PT_with_labels.svg" https://en.wikipedia.org/wiki/File:Colour_18-col_PT_with_labels.svg
+      link "sets of elements" https://en.wikipedia.org/wiki/Names_for_sets_of_chemical_elements
+      link "dividing line between metals and nonmetals" https://en.wikipedia.org/wiki/Dividing_line_between_metals_and_nonmetals
+      link f-block https://en.wikipedia.org/wiki/Block_(periodic_table)#f-block
+      link "groups 2" https://en.wikipedia.org/wiki/Alkaline_earth_metals
+      link 3 https://en.wikipedia.org/wiki/Scandium_group
+      link "periodic table" https://en.wikipedia.org/wiki/Periodic_table
+      link "chemical elements" https://en.wikipedia.org/wiki/Chemical_element
+      link periods https://en.wikipedia.org/wiki/Period_(periodic_table)
+      link groups https://en.wikipedia.org/wiki/Group_(periodic_table)
+      link icon https://en.wikipedia.org/wiki/Cultural_icon
+      link chemistry https://en.wikipedia.org/wiki/Chemistry
+      link physics https://en.wikipedia.org/wiki/Physics
+      link "periodic law" https://en.wikipedia.org/wiki/Periodic_trends
+      link "atomic numbers" https://en.wikipedia.org/wiki/Atomic_number
+      link "recurrence of their properties" https://en.wikipedia.org/wiki/Periodic_function
+      link blocks https://en.wikipedia.org/wiki/Block_(periodic_table)
+      row
+        h3 Tide table
+        link edit /w/index.php?title=Table_(format)&action=edit&section=15
+      row
+        link "Tide table" https://en.wikipedia.org/wiki/Tide_table
+        link edit https://en.wikipedia.org/w/index.php?title=Tide_table&action=edit
+      link "Tide tables" https://en.wikipedia.org/wiki/Tide_table
+      link "tidal prediction" https://en.wikipedia.org/wiki/Tidal_prediction
+      link [16] #cite_note-16
+      link "rule of twelfths" https://en.wikipedia.org/wiki/Rule_of_twelfths
+      link "vertical datum" https://en.wikipedia.org/wiki/Vertical_datum
+      link "mean lower low water" https://en.wikipedia.org/wiki/Mean_lower_low_water
+      link [17] #cite_note-17
+      row
+        h2 Historical relationship to furniture
+        link edit /w/index.php?title=Table_(format)&action=edit&section=16
+      link "counting houses" https://en.wikipedia.org/wiki/Counting_house
+      link tables https://en.wikipedia.org/wiki/Table_(furniture)
+      link checkered https://en.wikipedia.org/wiki/Check_(fabric)
+      link [18] #cite_note-18
+      link [19] #cite_note-19
+      link Exchequer https://en.wikipedia.org/wiki/Exchequer
+      link monarch https://en.wikipedia.org/wiki/Monarch
+      link checkerboard https://en.wikipedia.org/wiki/Checkerboard
+      link information https://en.wikipedia.org/wiki/Information
+      row
+        text [
+        link "citation needed" https://en.wikipedia.org/wiki/Wikipedia:Citation_needed
+        text ]
+      row
+        h2 See also
+        link edit /w/index.php?title=Table_(format)&action=edit&section=17
+      link Chart https://en.wikipedia.org/wiki/Chart
+      link Diagram https://en.wikipedia.org/wiki/Diagram
+      link "Abstract data type" https://en.wikipedia.org/wiki/Abstract_data_type
+      link "Column (database)" https://en.wikipedia.org/wiki/Column_(database)
+      link "Information graphics" https://en.wikipedia.org/wiki/Information_graphics
+      link "Periodic table" https://en.wikipedia.org/wiki/Periodic_table
+      link "Reference table" https://en.wikipedia.org/wiki/Reference_table
+      link "Row (database)" https://en.wikipedia.org/wiki/Row_(database)
+      link "Table (database)" https://en.wikipedia.org/wiki/Table_(database)
+      link "Table (HTML)" https://en.wikipedia.org/wiki/HTML_element#Tables
+      link Tensor https://en.wikipedia.org/wiki/Tensor
+      link "Dependent and independent variables" https://en.wikipedia.org/wiki/Dependent_and_independent_variables
+      link "Zebra striping" https://en.wikipedia.org/wiki/Zebra_striping
+      row
+        h2 References
+        link edit /w/index.php?title=Table_(format)&action=edit&section=18
+      row
+        link "Jump up" #cite_ref-Fink000_1-0
+        row
+          text How to Conduct Surveys
+          link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier)
+          link 1-4129-1423-X https://en.wikipedia.org/wiki/Special:BookSources/1-4129-1423-X
+      link "Jump up" #cite_ref-Mcnabb000_2-0
+      text Research Methods in Public Administration and Nonprofit Management
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier)
+      link 0-7656-0957-6 https://en.wikipedia.org/wiki/Special:BookSources/0-7656-0957-6
+      link "Jump up" #cite_ref-Morgan000_3-0
+      link "Spss for Introductory Statistics" https://archive.org/details/spssforintroduct0000unse
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier)
+      link 0-8058-4789-8 https://en.wikipedia.org/wiki/Special:BookSources/0-8058-4789-8
+      link "Jump up" #cite_ref-Robey000_4-0
+      text Sound and Structure in the Divine Comedy
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier)
+      link 0-19-818498-0 https://en.wikipedia.org/wiki/Special:BookSources/0-19-818498-0
+      row
+        link "Jump up to: 1" #cite_ref-Zielinski000_5-0
+        link 2 #cite_ref-Zielinski000_5-1
+      text Software Engineering: Evolution and Emerging Technologies
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier)
+      link 1-58603-559-2 https://en.wikipedia.org/wiki/Special:BookSources/1-58603-559-2
+      row
+        link "Jump up" #cite_ref-header_6-0
+        row
+          link "Page header" https://en.wikipedia.org/wiki/Page_header
+          link "Header (computing)" https://en.wikipedia.org/wiki/Header_(computing)
+      link "Jump up" #cite_ref-7
+      text "The concept of \"dimension\" is often applied to tables in different contexts and with different meanings. For example, what is described as a \"Simple Table\" in this article is alternatively described as a \"two dimensional array\". This is distinct from \"multi-dimensional table\" as presented in this article."
+      link "Jump up" #cite_ref-8
+      link "\"Disentangling the Structure of Tables in Scientific Literature\"" https://www.research.manchester.ac.uk/portal/files/41051279/Disentangling_the_Structure_of_Tables_in_Scientific_Literature.pdf
+      text (PDF)
+      text Proceedings of 21st International Conference on Applications of Natural Language to Information Systems (NLDB 2016)
+      text 162–
+      link doi https://en.wikipedia.org/wiki/Doi_(identifier)
+      link 10.1007/978-3-319-41754-7_14 https://doi.org/10.1007%2F978-3-319-41754-7_14
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier)
+      link 978-3-319-41753-0 https://en.wikipedia.org/wiki/Special:BookSources/978-3-319-41753-0
+      link S2CID https://en.wikipedia.org/wiki/S2CID_(identifier)
+      link 19538141 https://api.semanticscholar.org/CorpusID:19538141
+      link "Jump up" #cite_ref-9
+      text International Journal on Document Analysis and Recognition
+      text 22
+      text 55–
+      link arXiv https://en.wikipedia.org/wiki/ArXiv_(identifier)
+      link 1902.10031 https://arxiv.org/abs/1902.10031
+      link doi https://en.wikipedia.org/wiki/Doi_(identifier)
+      link 10.1007/s10032-019-00317-0 https://doi.org/10.1007%2Fs10032-019-00317-0
+      link S2CID https://en.wikipedia.org/wiki/S2CID_(identifier)
+      link 62880746 https://api.semanticscholar.org/CorpusID:62880746
+      row
+        link "Jump up" #cite_ref-10
+        row
+          link "\"<table>: The Table element\"" https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/table
+          text MDN Web Docs
+          text . Retrieved 18 September 2025
+      row
+        link "Jump up" #cite_ref-11
+        row
+          link "\"How to Use the Table Tag in HTML: Explained with Examples\"" https://www.ccbp.in/blog/articles/table-tag-in-html
+          text www.ccbp.in
+          text . Retrieved 2025-11-14
+      link "Jump up" #cite_ref-Heitmeyer000_12-0
+      link "\"Software Cost Reduction\"" https://web.archive.org/web/20120312075923/http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADA465161
+      link "the original" http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADA465161
+      row
+        link "Jump up to: 1" #cite_ref-Breen000_13-0
+        link 2 #cite_ref-Breen000_13-1
+      link "\"Experience of using a lightweight formal specification method for a commercial embedded system product line\"" http://mbreen.com/experience.pdf
+      text (PDF)
+      text Requirements Engineering Journal
+      text 10
+      text 161–
+      link doi https://en.wikipedia.org/wiki/Doi_(identifier)
+      link 10.1007/s00766-004-0209-1 https://doi.org/10.1007%2Fs00766-004-0209-1
+      link S2CID https://en.wikipedia.org/wiki/S2CID_(identifier)
+      link 16928695 https://api.semanticscholar.org/CorpusID:16928695
+      link "Jump up" #cite_ref-Janicki000_14-0
+      text Relational Methods in Computer Science
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier)
+      link 3-211-82971-7 https://en.wikipedia.org/wiki/Special:BookSources/3-211-82971-7
+      link "Jump up" #cite_ref-Leveson000_15-0
+      link "Seventh ACM SIGSOFT Symposium on the Foundations on Software Engineering" http://www.umsec.umn.edu/sites/all/files/publications/draft4.pdf
+      text (PDF)
+      text 127–
+      link doi https://en.wikipedia.org/wiki/Doi_(identifier)
+      link 10.1007/3-540-48166-4_9 https://doi.org/10.1007%2F3-540-48166-4_9
+      link hdl https://en.wikipedia.org/wiki/Hdl_(identifier)
+      link 11299/217294 https://hdl.handle.net/11299%2F217294
+      link ISBN https://en.wikipedia.org/wiki/ISBN_(identifier)
+      link 978-3-540-66538-0 https://en.wikipedia.org/wiki/Special:BookSources/978-3-540-66538-0
+      link "Jump up" #cite_ref-16
+      link "\"What are tide tables?\"" https://science.howstuffworks.com/environmental/earth/oceanography/tide-table.htm
+      link Archived https://web.archive.org/web/20190811003600/https://science.howstuffworks.com/environmental/earth/oceanography/tide-table.htm
+      text . Retrieved 2020-04-02
+      link "Jump up" #cite_ref-17
+      link "Tidal Datums And Their Applications" https://tidesandcurrents.noaa.gov/publications/tidal_datums_and_their_applications.pdf
+      link "Jump up" #cite_ref-18
+      link "\"Early Accounting: The Tally and Checkerboard\"" https://www.jstor.org/stable/40697984
+      text The Accounting Historians Journal
+      text 16
+      text 43–
+      link doi https://en.wikipedia.org/wiki/Doi_(identifier)
+      link 10.2308/0148-4184.16.2.43 https://doi.org/10.2308%2F0148-4184.16.2.43
+      link ISSN https://en.wikipedia.org/wiki/ISSN_(identifier)
+      link 0148-4184 https://search.worldcat.org/issn/0148-4184
+      link JSTOR https://en.wikipedia.org/wiki/JSTOR_(identifier)
+      link 40697984 https://www.jstor.org/stable/40697984
+      link "Jump up" #cite_ref-19
+      link "\"The Exchequer: a chequered history? - History of government\"" https://history.blog.gov.uk/2013/08/14/the-exchequer-a-chequered-history/
+      text history.blog.gov.uk
+      text . Retrieved 2023-04-13
+      row
+        h2 External links
+        link edit /w/index.php?title=Table_(format)&action=edit&section=19
+      row
+        link "https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg" https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg
+        link table https://en.wiktionary.org/wiki/table
+      row
+        link "https://en.wikipedia.org/wiki/File:Commons-logo.svg" https://en.wikipedia.org/wiki/File:Commons-logo.svg
+        text Media related to
+        link "Tables (information)" https://commons.wikimedia.org/wiki/Category:Tables%20(information)
+        text at Wikimedia Commons
+      text ".mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}}"
+      table show.mw-parser-output
+      text .mw-parser-output .tooltip-dotted{border-bottom:1px dotted;cursor:help}
+      table showAuthority
+      row
+        link Categories /wiki/Help:Category
+        row
+          link Infographics /wiki/Category:Infographics
+          link "Data modeling" /wiki/Category:Data_modeling
+          link "Tables (information)" /wiki/Category:Tables_(information)
+  col
+    text "This page was last edited on 24 September 2026, at 08:48 (UTC)."
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/
+    row
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link Disclaimers /wiki/Wikipedia:General_disclaimer
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+      link Developers https://developer.wikimedia.org
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+      link "Mobile view" //en.wikipedia.org/w/index.php?title=Table_(format)&mobileaction=toggle_view_mobile
+    row
+      link "https://www.wikimedia.org/" https://www.wikimedia.org/
+      link "https://www.mediawiki.org/" https://www.mediawiki.org/
