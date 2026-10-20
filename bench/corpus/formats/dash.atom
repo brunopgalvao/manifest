@@ -1,0 +1,13 @@
+<a2ui>
+(data $/range ["YTD"])
+(Column
+  (Text "Revenue overview" "h1")
+  (Row
+    (Metric "Revenue" "$308k" "+14%" "positive")
+    (Metric "Orders" "1,284" "+6%" "positive")
+    (Metric "Churn" "2.1%" "+0.4pt" "negative"))
+  (BarChart "Monthly revenue (k$)" :labels ["Apr" "May" "Jun" "Jul" "Aug" "Sep"] :values [38 42 51 47 57 73] :highlight 5)
+  (Row :align "center"
+    (ChoicePicker "Range" :options ["Q3" "YTD" "12m"] :value $/range)
+    (Button :action (Event "export") :checks [(required $/exportReady "No data to export")] (Text "Export CSV"))))
+</a2ui>

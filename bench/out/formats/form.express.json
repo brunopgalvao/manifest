@@ -1,0 +1,141 @@
+[
+ {
+  "version": "v1.0",
+  "createSurface": {
+   "surfaceId": "form",
+   "catalogId": "https://manifest.dev/bench/catalog.json",
+   "components": [
+    {
+     "id": "root",
+     "component": "Column",
+     "children": [
+      "title",
+      "name",
+      "email",
+      "date",
+      "class",
+      "news",
+      "submit"
+     ]
+    },
+    {
+     "id": "title",
+     "component": "Text",
+     "text": "Book a class",
+     "variant": "h1"
+    },
+    {
+     "id": "name",
+     "component": "TextField",
+     "label": "Full name",
+     "value": {
+      "@path": "/name"
+     },
+     "checks": [
+      {
+       "condition": {
+        "@call": "required",
+        "args": {
+         "value": {
+          "@path": "/name"
+         }
+        }
+       },
+       "message": "Required"
+      }
+     ]
+    },
+    {
+     "id": "email",
+     "component": "TextField",
+     "label": "Email",
+     "value": {
+      "@path": "/email"
+     },
+     "checks": [
+      {
+       "condition": {
+        "@call": "email",
+        "args": {
+         "value": {
+          "@path": "/email"
+         }
+        }
+       },
+       "message": "Enter a valid email"
+      }
+     ]
+    },
+    {
+     "id": "date",
+     "component": "DateTimeInput",
+     "value": {
+      "@path": "/date"
+     },
+     "enableDate": true,
+     "label": "Date"
+    },
+    {
+     "id": "class",
+     "component": "ChoicePicker",
+     "label": "Class",
+     "options": [
+      {
+       "label": "Vinyasa",
+       "value": "vinyasa"
+      },
+      {
+       "label": "Yin",
+       "value": "yin"
+      },
+      {
+       "label": "Ashtanga",
+       "value": "ashtanga"
+      }
+     ],
+     "value": {
+      "@path": "/class"
+     }
+    },
+    {
+     "id": "news",
+     "component": "CheckBox",
+     "label": "Send me the weekly schedule",
+     "value": {
+      "@path": "/news"
+     }
+    },
+    {
+     "id": "submit",
+     "component": "Button",
+     "child": "submit_t",
+     "variant": "primary",
+     "action": {
+      "event": {
+       "name": "book",
+       "context": {
+        "form": {
+         "@path": "/"
+        }
+       }
+      }
+     }
+    },
+    {
+     "id": "submit_t",
+     "component": "Text",
+     "text": "Book"
+    }
+   ],
+   "dataModel": {
+    "name": "Sam Lee",
+    "email": "sam@",
+    "date": "2026-10-21",
+    "class": [
+     "yin"
+    ],
+    "news": true
+   }
+  }
+ }
+]

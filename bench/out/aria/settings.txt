@@ -1,0 +1,13 @@
+- heading "Settings" [level=1]
+- tablist:
+  - tab "General"
+  - tab "Notifications" [selected]
+- tabpanel:
+  - text: Push notifications
+  - switch "Push notifications" [checked]
+  - text: Email digest
+  - switch "Email digest"
+  - text: Sounds
+  - switch "Sounds" [checked]
+  - text: Volume
+  - slider "Volume": "70"

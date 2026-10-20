@@ -1,0 +1,548 @@
+{
+ "corpus": {
+  "confirm": {
+   "mx": "@confirm until:action ttl:60s residue:line\ncard\n  h2 \"Delete 3 files?\" #title\n  text \"report.pdf, notes.md and draft.docx will be moved to Trash.\" #body\n  row end\n    button Cancel\n    button Delete danger\n",
+   "boxes": {
+    "card": {
+     "x": 16,
+     "y": 16,
+     "w": 402,
+     "h": 156
+    },
+    "title": {
+     "x": 37,
+     "y": 37,
+     "w": 360,
+     "h": 21
+    },
+    "body": {
+     "x": 37,
+     "y": 70,
+     "w": 360,
+     "h": 34
+    },
+    "row": {
+     "x": 37,
+     "y": 116,
+     "w": 360,
+     "h": 35
+    },
+    "cancel": {
+     "x": 243,
+     "y": 116,
+     "w": 74,
+     "h": 35
+    },
+    "delete": {
+     "x": 325,
+     "y": 116,
+     "w": 72,
+     "h": 35
+    },
+    "root": {
+     "x": 16,
+     "y": 16,
+     "w": 402,
+     "h": 156
+    }
+   },
+   "diags": [],
+   "ids": [
+    "body",
+    "cancel",
+    "card",
+    "delete",
+    "root",
+    "row",
+    "title"
+   ],
+   "L0": "@confirm until:action ttl:60s residue:line rev=0 nodes=6",
+   "L1": "@confirm until:action ttl:60s residue:line rev=0\ncard\n  h2 Delete 3 files? #title\n  text report.pdf, notes.md and draft.docx will be moved to Trash. #body\n  row end\n    button Cancel\n    button Delete danger",
+   "L2": "@confirm until:action ttl:60s residue:line rev=0 @0,0,402,156\ncard @16,16,402,156\n  h2 Delete 3 files? #title @37,37,360,21\n  text report.pdf, notes.md and draft.docx will be moved to Trash. #body @37,70,360,34\n  row end @37,116,360,35\n    button Cancel @243,116,74,35\n    button Delete danger @325,116,72,35",
+   "data": {}
+  },
+  "dash": {
+   "mx": "@dash\nh1 \"Revenue overview\"\nrow\n  metric Revenue $308k +14%\n  metric Orders 1,284 +6%\n  metric Churn 2.1% +0.4pt danger\nbar \"Monthly revenue (k$)\" Apr:38 May:42 Jun:51 Jul:47 Aug:57 *Sep:73\nrow\n  select Range Q3 *YTD 12m\n  button \"Export CSV\" disabled\n",
+   "boxes": {
+    "root": {
+     "x": 0,
+     "y": 0,
+     "w": 720,
+     "h": 437
+    },
+    "title": {
+     "x": 16,
+     "y": 16,
+     "w": 688,
+     "h": 23
+    },
+    "row": {
+     "x": 16,
+     "y": 55,
+     "w": 688,
+     "h": 84
+    },
+    "revenue": {
+     "x": 16,
+     "y": 55,
+     "w": 221,
+     "h": 84
+    },
+    "orders": {
+     "x": 249,
+     "y": 55,
+     "w": 221,
+     "h": 84
+    },
+    "churn": {
+     "x": 483,
+     "y": 55,
+     "w": 221,
+     "h": 84
+    },
+    "bar": {
+     "x": 16,
+     "y": 155,
+     "w": 688,
+     "h": 201
+    },
+    "row2": {
+     "x": 16,
+     "y": 388,
+     "w": 688,
+     "h": 33
+    },
+    "range": {
+     "x": 61,
+     "y": 388,
+     "w": 70,
+     "h": 33
+    },
+    "export": {
+     "x": 139,
+     "y": 389,
+     "w": 100,
+     "h": 31
+    }
+   },
+   "diags": [],
+   "ids": [
+    "bar",
+    "churn",
+    "export",
+    "orders",
+    "range",
+    "revenue",
+    "root",
+    "row",
+    "row2",
+    "title"
+   ],
+   "L0": "@dash rev=0 nodes=9",
+   "L1": "@dash rev=0\nh1 Revenue overview\nrow\n  metric Revenue $308k +14%\n  metric Orders 1,284 +6%\n  metric Churn 2.1% +0.4pt danger\nbar \"Monthly revenue (k$)\" Apr:38 May:42 Jun:51 Jul:47 Aug:57 *Sep:73\nrow\n  select Range Q3 *YTD 12m\n  button \"Export CSV\" disabled",
+   "L2": "@dash rev=0 @0,0,720,437\nh1 Revenue overview @16,16,688,23\nrow @16,55,688,84\n  metric Revenue $308k +14% @16,55,221,84\n  metric Orders 1,284 +6% @249,55,221,84\n  metric Churn 2.1% +0.4pt danger @483,55,221,84\nbar \"Monthly revenue (k$)\" Apr:38 May:42 Jun:51 Jul:47 Aug:57 *Sep:73 @16,155,688,201\nrow @16,388,688,33\n  select Range Q3 *YTD 12m @61,388,70,33\n  button \"Export CSV\" disabled @139,389,100,31",
+   "data": {
+    "range": "YTD"
+   }
+  },
+  "flow": {
+   "mx": "@flow\nh1 \"How Manifest works\"\nflow \"Agent writes MX, Renderer draws it, Perception reads back to Agent\"\n  Agent >writes MX >draws Renderer >reads Perception:success\n  Perception >\"tree, boxes, diagnostics\" Agent dashed below\n",
+   "boxes": {
+    "root": {
+     "x": 0,
+     "y": 0,
+     "w": 720,
+     "h": 290
+    },
+    "title": {
+     "x": 16,
+     "y": 16,
+     "w": 688,
+     "h": 23
+    },
+    "flow": {
+     "x": 16,
+     "y": 51,
+     "w": 688,
+     "h": 220
+    },
+    "agent": {
+     "x": 16,
+     "y": 91,
+     "w": 130,
+     "h": 56
+    },
+    "mx": {
+     "x": 202,
+     "y": 91,
+     "w": 130,
+     "h": 56
+    },
+    "renderer": {
+     "x": 388,
+     "y": 91,
+     "w": 130,
+     "h": 56
+    },
+    "perception": {
+     "x": 574,
+     "y": 91,
+     "w": 130,
+     "h": 56
+    }
+   },
+   "diags": [],
+   "ids": [
+    "agent",
+    "flow",
+    "mx",
+    "perception",
+    "renderer",
+    "root",
+    "title"
+   ],
+   "L0": "@flow rev=0 nodes=6",
+   "L1": "@flow rev=0\nh1 How Manifest works\nflow \"Agent writes MX, Renderer draws it, Perception reads back to Agent\" [4 nodes]\n  Agent >writes MX >draws Renderer >reads Perception:success\n  Perception >\"tree, boxes, diagnostics\" Agent below dashed",
+   "L2": "@flow rev=0 @0,0,720,290\nh1 How Manifest works @16,16,688,23\nflow \"Agent writes MX, Renderer draws it, Perception reads back to Agent\" [4 nodes] @16,51,688,220\n  Agent >writes MX >draws Renderer >reads Perception:success\n  Perception >\"tree, boxes, diagnostics\" Agent below dashed\n  agent @16,91,130,56\n  mx @202,91,130,56\n  renderer @388,91,130,56\n  perception @574,91,130,56",
+   "data": {}
+  },
+  "form": {
+   "mx": "@form\nh1 \"Book a class\"\nfield \"Full name\" =\"Sam Lee\" required\nfield Email email =\"sam@\" required\nfield Date date =2026-10-21\nselect Class Vinyasa *Yin Ashtanga\ncheck \"Send me the weekly schedule\" on\nbutton Book primary\n",
+   "boxes": {
+    "root": {
+     "x": 0,
+     "y": 0,
+     "w": 452,
+     "h": 422
+    },
+    "title": {
+     "x": 16,
+     "y": 16,
+     "w": 420,
+     "h": 23
+    },
+    "full": {
+     "x": 16,
+     "y": 51,
+     "w": 420,
+     "h": 54
+    },
+    "email": {
+     "x": 16,
+     "y": 117,
+     "w": 420,
+     "h": 73
+    },
+    "date": {
+     "x": 16,
+     "y": 202,
+     "w": 420,
+     "h": 56
+    },
+    "class": {
+     "x": 16,
+     "y": 270,
+     "w": 420,
+     "h": 56
+    },
+    "send": {
+     "x": 16,
+     "y": 338,
+     "w": 420,
+     "h": 19
+    },
+    "book": {
+     "x": 16,
+     "y": 369,
+     "w": 420,
+     "h": 37
+    }
+   },
+   "diags": [],
+   "ids": [
+    "book",
+    "class",
+    "date",
+    "email",
+    "full",
+    "root",
+    "send",
+    "title"
+   ],
+   "L0": "@form rev=0 nodes=7",
+   "L1": "@form rev=0\nh1 Book a class\nfield \"Full name\" =\"Sam Lee\" required\nfield Email email =\"sam@\" required\nfield Date date =\"2026-10-21\"\nselect Class Vinyasa *Yin Ashtanga\ncheck \"Send me the weekly schedule\" on\nbutton Book primary",
+   "L2": "@form rev=0 @0,0,452,422\nh1 Book a class @16,16,420,23\nfield \"Full name\" =\"Sam Lee\" required @16,51,420,54\nfield Email email =\"sam@\" required @16,117,420,73\nfield Date date =\"2026-10-21\" @16,202,420,56\nselect Class Vinyasa *Yin Ashtanga @16,270,420,56\ncheck \"Send me the weekly schedule\" on @16,338,420,19\nbutton Book primary @16,369,420,37",
+   "data": {
+    "full": "Sam Lee",
+    "email": "sam@",
+    "date": "2026-10-21",
+    "class": "Yin",
+    "send": true
+   }
+  },
+  "settings": {
+   "mx": "@settings\nh1 Settings\ntabs\n  tab General\n    toggle \"Dark mode\" off\n  tab *Notifications\n    toggle \"Push notifications\" on\n    toggle \"Email digest\" off\n    toggle Sounds on\n    slider Volume 70 0..100\n",
+   "boxes": {
+    "root": {
+     "x": 0,
+     "y": 0,
+     "w": 452,
+     "h": 240
+    },
+    "title": {
+     "x": 16,
+     "y": 16,
+     "w": 420,
+     "h": 23
+    },
+    "tabs": {
+     "x": 16,
+     "y": 51,
+     "w": 420,
+     "h": 36
+    },
+    "general": {
+     "x": 16,
+     "y": 51,
+     "w": 74,
+     "h": 35
+    },
+    "notifications": {
+     "x": 94,
+     "y": 51,
+     "w": 106,
+     "h": 35
+    },
+    "push": {
+     "x": 16,
+     "y": 99,
+     "w": 420,
+     "h": 31
+    },
+    "email": {
+     "x": 16,
+     "y": 130,
+     "w": 420,
+     "h": 31
+    },
+    "sounds": {
+     "x": 16,
+     "y": 161,
+     "w": 420,
+     "h": 31
+    },
+    "volume": {
+     "x": 16,
+     "y": 192,
+     "w": 420,
+     "h": 32
+    }
+   },
+   "diags": [],
+   "ids": [
+    "dark",
+    "email",
+    "general",
+    "notifications",
+    "push",
+    "root",
+    "sounds",
+    "tabs",
+    "title",
+    "volume"
+   ],
+   "L0": "@settings rev=0 nodes=9",
+   "L1": "@settings rev=0\nh1 Settings\ntabs\n  tab General [hidden: Dark mode]\n  tab *Notifications\n    toggle \"Push notifications\" on\n    toggle \"Email digest\" off\n    toggle Sounds on\n    slider Volume 70 0..100",
+   "L2": "@settings rev=0 @0,0,452,240\nh1 Settings @16,16,420,23\ntabs @16,51,420,36\n  tab General @16,51,74,35 [hidden: Dark mode]\n  tab *Notifications @94,51,106,35\n    toggle \"Push notifications\" on @16,99,420,31\n    toggle \"Email digest\" off @16,130,420,31\n    toggle Sounds on @16,161,420,31\n    slider Volume 70 0..100 @16,192,420,32",
+   "data": {
+    "dark": false,
+    "push": true,
+    "email": false,
+    "sounds": true,
+    "volume": 70
+   }
+  },
+  "table": {
+   "mx": "@table\nh1 Orders\nfield \"Search orders\" search\ntable Order Customer Total Status:badge\n  #1041 | Ana Souza | $84.00 | Paid\n  #1042 | Oluwaseun Adebayo-Whitfield Consulting Partners | $1,920.00 | Pending\n  #1043 | Kenji Mori | $36.50 | Paid\n  #1044 | Priya Nair | $210.00 | Refunded\n  #1045 | Tom Becker | $58.00 | Paid\n  #1046 | Lina Haddad | $142.75 | Pending\n  #1047 | Marco Rossi | $19.99 | Paid\n  #1048 | Chloe Martin | $305.00 | Paid\nrow end\n  button Previous disabled\n  text \"Page 1 of 4\" #page\n  button Next\n",
+   "boxes": {
+    "root": {
+     "x": 0,
+     "y": 0,
+     "w": 592,
+     "h": 457
+    },
+    "title": {
+     "x": 16,
+     "y": 16,
+     "w": 560,
+     "h": 23
+    },
+    "search": {
+     "x": 16,
+     "y": 51,
+     "w": 560,
+     "h": 31
+    },
+    "table": {
+     "x": 16,
+     "y": 94,
+     "w": 560,
+     "h": 304
+    },
+    "row": {
+     "x": 16,
+     "y": 410,
+     "w": 560,
+     "h": 31
+    },
+    "previous": {
+     "x": 359,
+     "y": 410,
+     "w": 78,
+     "h": 31
+    },
+    "page": {
+     "x": 444,
+     "y": 417,
+     "w": 72,
+     "h": 17
+    },
+    "next": {
+     "x": 524,
+     "y": 410,
+     "w": 52,
+     "h": 31
+    }
+   },
+   "diags": [
+    {
+     "kind": "overflow",
+     "addr": "table.#1042.Customer",
+     "shown": 216,
+     "needed": 342
+    }
+   ],
+   "ids": [
+    "next",
+    "page",
+    "previous",
+    "root",
+    "row",
+    "search",
+    "table",
+    "title"
+   ],
+   "L0": "@table rev=0 nodes=7 diags=1",
+   "L1": "@table rev=0\nh1 Orders\nfield \"Search orders\" search\ntable Order Customer Total Status:badge\n  #1041 | Ana Souza | $84.00 | Paid\n  #1042 | Oluwaseun Adebayo-Whitfield Consulting Partners | $1,920.00 | Pending\n  #1043 | Kenji Mori | $36.50 | Paid\n  #1044 | Priya Nair | $210.00 | Refunded\n  #1045 | Tom Becker | $58.00 | Paid\n  #1046 | Lina Haddad | $142.75 | Pending\n  #1047 | Marco Rossi | $19.99 | Paid\n  #1048 | Chloe Martin | $305.00 | Paid\nrow end\n  button Previous disabled\n  text Page 1 of 4 #page\n  button Next\n!overflow table.#1042.Customer 216/342px",
+   "L2": "@table rev=0 @0,0,592,457\nh1 Orders @16,16,560,23\nfield \"Search orders\" search @16,51,560,31\ntable Order Customer Total Status:badge @16,94,560,304\n  #1041 | Ana Souza | $84.00 | Paid\n  #1042 | Oluwaseun Adebayo-Whitfield Consulting Partners | $1,920.00 | Pending\n  #1043 | Kenji Mori | $36.50 | Paid\n  #1044 | Priya Nair | $210.00 | Refunded\n  #1045 | Tom Becker | $58.00 | Paid\n  #1046 | Lina Haddad | $142.75 | Pending\n  #1047 | Marco Rossi | $19.99 | Paid\n  #1048 | Chloe Martin | $305.00 | Paid\nrow end @16,410,560,31\n  button Previous disabled @359,410,78,31\n  text Page 1 of 4 #page @444,417,72,17\n  button Next @524,410,52,31\n!overflow table.#1042.Customer 216/342px",
+   "data": {
+    "search": ""
+   }
+  }
+ },
+ "edits": {
+  "confirm": [
+   {
+    "patch": "~1\n*title \"Delete 4 files?\"\n*body \"report.pdf, notes.md, draft.docx and photo.png will be moved to Trash.\"",
+    "L1": "@confirm until:action ttl:60s residue:line rev=1\ncard\n  h2 Delete 4 files? #title\n  text report.pdf, notes.md, draft.docx and photo.png will be moved to Trash. #body\n  row end\n    button Cancel\n    button Delete danger"
+   },
+   {
+    "patch": "~2\n*delete \"Move to Trash\"",
+    "L1": "@confirm until:action ttl:60s residue:line rev=2\ncard\n  h2 Delete 4 files? #title\n  text report.pdf, notes.md, draft.docx and photo.png will be moved to Trash. #body\n  row end\n    button Cancel\n    button \"Move to Trash\" danger #delete"
+   }
+  ],
+  "dash": [
+   {
+    "patch": "~1\n*revenue $315k +16%\n*bar.Sep 80",
+    "L1": "@dash rev=1\nh1 Revenue overview\nrow\n  metric Revenue $315k +16%\n  metric Orders 1,284 +6%\n  metric Churn 2.1% +0.4pt danger\nbar \"Monthly revenue (k$)\" Apr:38 May:42 Jun:51 Jul:47 Aug:57 *Sep:80\nrow\n  select Range Q3 *YTD 12m\n  button \"Export CSV\" disabled"
+   },
+   {
+    "patch": "~2\n*export enabled",
+    "L1": "@dash rev=2\nh1 Revenue overview\nrow\n  metric Revenue $315k +16%\n  metric Orders 1,284 +6%\n  metric Churn 2.1% +0.4pt danger\nbar \"Monthly revenue (k$)\" Apr:38 May:42 Jun:51 Jul:47 Aug:57 *Sep:80\nrow\n  select Range Q3 *YTD 12m\n  button \"Export CSV\""
+   },
+   {
+    "patch": "~3\n+bar text \"September is a record month\" success",
+    "L1": "@dash rev=3\nh1 Revenue overview\nrow\n  metric Revenue $315k +16%\n  metric Orders 1,284 +6%\n  metric Churn 2.1% +0.4pt danger\nbar \"Monthly revenue (k$)\" Apr:38 May:42 Jun:51 Jul:47 Aug:57 *Sep:80\ntext September is a record month success\nrow\n  select Range Q3 *YTD 12m\n  button \"Export CSV\""
+   }
+  ],
+  "flow": [
+   {
+    "patch": "~1\n*mx \"MX text\"",
+    "L1": "@flow rev=1\nh1 How Manifest works\nflow \"Agent writes MX, Renderer draws it, Perception reads back to Agent\" [4 nodes]\n  Agent >writes \"MX text\" >draws Renderer >reads Perception:success\n  Perception >\"tree, boxes, diagnostics\" Agent below dashed"
+   },
+   {
+    "patch": "~2\n*perception>agent solid",
+    "L1": "@flow rev=2\nh1 How Manifest works\nflow \"Agent writes MX, Renderer draws it, Perception reads back to Agent\" [4 nodes]\n  Agent >writes \"MX text\" >draws Renderer >reads Perception:success\n  Perception >\"tree, boxes, diagnostics\" Agent below"
+   },
+   {
+    "patch": "~3\n*perception primary",
+    "L1": "@flow rev=3\nh1 How Manifest works\nflow \"Agent writes MX, Renderer draws it, Perception reads back to Agent\" [4 nodes]\n  Agent >writes \"MX text\" >draws Renderer >reads Perception:primary\n  Perception >\"tree, boxes, diagnostics\" Agent below"
+   }
+  ],
+  "form": [
+   {
+    "patch": "~1\n*email =\"sam@lee.dev\"",
+    "L1": "@form rev=1\nh1 Book a class\nfield \"Full name\" =\"Sam Lee\" required\nfield Email email =\"sam@lee.dev\" required\nfield Date date =\"2026-10-21\"\nselect Class Vinyasa *Yin Ashtanga\ncheck \"Send me the weekly schedule\" on\nbutton Book primary"
+   },
+   {
+    "patch": "~2\n*class +Hatha",
+    "L1": "@form rev=2\nh1 Book a class\nfield \"Full name\" =\"Sam Lee\" required\nfield Email email =\"sam@lee.dev\" required\nfield Date date =\"2026-10-21\"\nselect Class Vinyasa *Yin Ashtanga Hatha\ncheck \"Send me the weekly schedule\" on\nbutton Book primary"
+   },
+   {
+    "patch": "~3\n*book \"Book Yin class\"",
+    "L1": "@form rev=3\nh1 Book a class\nfield \"Full name\" =\"Sam Lee\" required\nfield Email email =\"sam@lee.dev\" required\nfield Date date =\"2026-10-21\"\nselect Class Vinyasa *Yin Ashtanga Hatha\ncheck \"Send me the weekly schedule\" on\nbutton \"Book Yin class\" primary"
+   }
+  ],
+  "settings": [
+   {
+    "patch": "~1\n*tabs General",
+    "L1": "@settings rev=1\nh1 Settings\ntabs\n  tab *General\n    toggle \"Dark mode\" off\n  tab Notifications [hidden: Push notifications, Email digest, Sounds, +1]"
+   },
+   {
+    "patch": "~2\n*email on",
+    "L1": "@settings rev=2\nh1 Settings\ntabs\n  tab *General\n    toggle \"Dark mode\" off\n  tab Notifications [hidden: Push notifications, Email digest, Sounds, +1]"
+   },
+   {
+    "patch": "~3\n*volume 40",
+    "L1": "@settings rev=3\nh1 Settings\ntabs\n  tab *General\n    toggle \"Dark mode\" off\n  tab Notifications [hidden: Push notifications, Email digest, Sounds, +1]"
+   }
+  ],
+  "table": [
+   {
+    "patch": "~1\n*table.#1044.Status Paid",
+    "L1": "@table rev=1\nh1 Orders\nfield \"Search orders\" search\ntable Order Customer Total Status:badge\n  #1041 | Ana Souza | $84.00 | Paid\n  #1042 | Oluwaseun Adebayo-Whitfield Consulting Partners | $1,920.00 | Pending\n  #1043 | Kenji Mori | $36.50 | Paid\n  #1044 | Priya Nair | $210.00 | Paid\n  #1045 | Tom Becker | $58.00 | Paid\n  #1046 | Lina Haddad | $142.75 | Pending\n  #1047 | Marco Rossi | $19.99 | Paid\n  #1048 | Chloe Martin | $305.00 | Paid\nrow end\n  button Previous disabled\n  text Page 1 of 4 #page\n  button Next"
+   },
+   {
+    "patch": "~2\n*previous enabled\n*page \"Page 2 of 4\"",
+    "L1": "@table rev=2\nh1 Orders\nfield \"Search orders\" search\ntable Order Customer Total Status:badge\n  #1041 | Ana Souza | $84.00 | Paid\n  #1042 | Oluwaseun Adebayo-Whitfield Consulting Partners | $1,920.00 | Pending\n  #1043 | Kenji Mori | $36.50 | Paid\n  #1044 | Priya Nair | $210.00 | Paid\n  #1045 | Tom Becker | $58.00 | Paid\n  #1046 | Lina Haddad | $142.75 | Pending\n  #1047 | Marco Rossi | $19.99 | Paid\n  #1048 | Chloe Martin | $305.00 | Paid\nrow end\n  button Previous\n  text Page 2 of 4 #page\n  button Next"
+   },
+   {
+    "patch": "~3\n-table.#1047",
+    "L1": "@table rev=3\nh1 Orders\nfield \"Search orders\" search\ntable Order Customer Total Status:badge\n  #1041 | Ana Souza | $84.00 | Paid\n  #1042 | Oluwaseun Adebayo-Whitfield Consulting Partners | $1,920.00 | Pending\n  #1043 | Kenji Mori | $36.50 | Paid\n  #1044 | Priya Nair | $210.00 | Paid\n  #1045 | Tom Becker | $58.00 | Paid\n  #1046 | Lina Haddad | $142.75 | Pending\n  #1048 | Chloe Martin | $305.00 | Paid\nrow end\n  button Previous\n  text Page 2 of 4 #page\n  button Next"
+   }
+  ]
+ },
+ "pricing": {
+  "mx": "@pricing\nh1 Choose a plan\nrow\n  card \"Starter\"\n    metric Monthly $0\n    text For individuals getting started\n    button \"Current plan\" disabled\n  card \"Pro\"\n    metric Monthly $12\n    text For growing teams that need more\n    button Upgrade primary\n  card \"Team\"\n    metric Monthly $40\n    text For larger organizations\n    button \"Contact sales\"\n",
+  "ids": [
+   "contact",
+   "current",
+   "pro",
+   "pro.for",
+   "pro.monthly",
+   "root",
+   "row",
+   "starter",
+   "starter.for",
+   "starter.monthly",
+   "team",
+   "team.for",
+   "team.monthly",
+   "title",
+   "upgrade"
+  ],
+  "L1": "@pricing rev=0\nh1 Choose a plan\nrow\n  card Starter\n    metric Monthly $0\n    text For individuals getting started\n    button \"Current plan\" disabled\n  card Pro\n    metric Monthly $12\n    text For growing teams that need more\n    button Upgrade primary\n  card Team\n    metric Monthly $40\n    text For larger organizations\n    button \"Contact sales\"",
+  "patch": "~1\n*pro.monthly $10\n*contact primary\n+pro/ text \"Most popular\" success",
+  "after": "@pricing rev=1\nh1 Choose a plan\nrow\n  card Starter\n    metric Monthly $0\n    text For individuals getting started\n    button \"Current plan\" disabled\n  card Pro\n    metric Monthly $10\n    text For growing teams that need more\n    button Upgrade primary\n    text Most popular success\n  card Team\n    metric Monthly $40\n    text For larger organizations\n    button \"Contact sales\" primary"
+ }
+}

@@ -1,0 +1,22 @@
+@dash
+h1 Revenue overview
+row
+  metric Revenue $308k "+14%"
+  metric Orders 1,284 "+6%"
+  metric Churn 2.1% "+0.4pt" danger
+region "Monthly revenue, Apr to Sep: 38, 42, 51, 47, 57, 73 thousand dollars" 688x201
+  rect @8,96 98.66x104 fill:#4f6bed radius:4
+  text @8,214.6 "Apr" size:12 fill:#666666
+  rect @122.66,84 98.67x116 fill:#4f6bed radius:4
+  text @122.66,214.6 "May" size:12 fill:#666666
+  rect @237.33,60 98.66x140 fill:#4f6bed radius:4
+  text @237.33,214.6 "Jun" size:12 fill:#666666
+  rect @351.98,72 98.67x128 fill:#4f6bed radius:4
+  text @351.98,214.6 "Jul" size:12 fill:#666666
+  rect @466.66,44 98.67x156 fill:#4f6bed radius:4
+  text @466.66,214.6 "Aug" size:12 fill:#666666
+  rect @581.33,0 98.67x200 fill:#1f3fd1 radius:4
+  text @581.33,214.6 "Sep" size:12 fill:#666666
+row
+  select Range Q3 *YTD 12m
+  button "Export CSV" disabled

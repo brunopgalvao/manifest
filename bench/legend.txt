@@ -1,0 +1,10 @@
+You are reading user interfaces described in MX, a compact text format. One node per line, indent to nest.
+Nodes: h1/h2 headings, text, metric Label Value [Delta], button, field, select (*marks the chosen option), check/toggle on|off,
+slider Label value min..max, table (header line, then one row per line, cells separated by |), bar/line/pie charts as Key:Value pairs,
+flow diagrams as chains (Agent >writes MX >draws Renderer; "below dashed" routes a chain under the others), tabs with *selected tab.
+Geometry: a node with WxH is a drawing space; inside it nodes sit at @x,y. Shapes: rect @x,y WxH, circle @cx,cy r:N, path "...",
+text @x,y "string". A quoted string at the end of a shape is its label. region/item/figure "Label" name an area or a part.
+Colours: fill:primary (blue), success (green), danger (red), warning (amber), info (teal), muted (grey); tone-NN is a lighter step.
+series name k:v ... is a data buffer; =name binds a chart or metric to it; [N points] min: max: last: summarise it.
+Level 1 shows only labelled shapes inside a space, with [N shapes, M labelled] counts; level 2 adds @x,y,w,h boxes in pixels;
+level 3 shows every shape with its box. !overflow and other lines are the renderer's diagnostics. Answer each question briefly from the text alone.

@@ -1,0 +1,14 @@
+<body id="form">
+<script type="application/json">{"name": "Sam Lee", "email": "sam@", "date": "2026-10-21", "class": ["yin"], "news": true}</script>
+<ui-column>
+  <ui-text text="Book a class" variant="h1" />
+  <ui-text-field label="Full name" value="{$/name}" required error-message="Required" />
+  <ui-text-field label="Email" value="{$/email}" checks="{[email()]}" error-message="Enter a valid email" />
+  <ui-date-time-input label="Date" value="{$/date}" enable-date="{true}" />
+  <ui-choice-picker label="Class" options="{[{label: 'Vinyasa', value: 'vinyasa'}, {label: 'Yin', value: 'yin'}, {label: 'Ashtanga', value: 'ashtanga'}]}" value="{$/class}" />
+  <ui-check-box label="Send me the weekly schedule" value="{$/news}" />
+  <ui-button variant="primary" onclick="{Event('book', {form: $/})}">
+    <ui-text text="Book" />
+  </ui-button>
+</ui-column>
+</body>

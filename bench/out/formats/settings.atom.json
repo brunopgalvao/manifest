@@ -1,0 +1,105 @@
+[
+ {
+  "version": "v1.0",
+  "createSurface": {
+   "surfaceId": "settings",
+   "catalogId": "https://manifest.dev/bench/catalog.json",
+   "components": [
+    {
+     "id": "root",
+     "component": "Column",
+     "children": [
+      "node_0",
+      "node_1"
+     ]
+    },
+    {
+     "id": "node_1",
+     "component": "Tabs",
+     "tabs": [
+      {
+       "title": "General",
+       "child": "node_2"
+      },
+      {
+       "title": "Notifications",
+       "child": "node_4"
+      }
+     ]
+    },
+    {
+     "id": "node_4",
+     "component": "Column",
+     "children": [
+      "node_5",
+      "node_6",
+      "node_7",
+      "node_8"
+     ]
+    },
+    {
+     "id": "node_8",
+     "component": "Slider",
+     "label": "Volume",
+     "min": 0,
+     "max": 100,
+     "value": {
+      "@path": "/volume"
+     }
+    },
+    {
+     "id": "node_7",
+     "component": "CheckBox",
+     "label": "Sounds",
+     "value": {
+      "@path": "/sound"
+     }
+    },
+    {
+     "id": "node_6",
+     "component": "CheckBox",
+     "label": "Email digest",
+     "value": {
+      "@path": "/email"
+     }
+    },
+    {
+     "id": "node_5",
+     "component": "CheckBox",
+     "label": "Push notifications",
+     "value": {
+      "@path": "/push"
+     }
+    },
+    {
+     "id": "node_2",
+     "component": "Column",
+     "children": [
+      "node_3"
+     ]
+    },
+    {
+     "id": "node_3",
+     "component": "CheckBox",
+     "label": "Dark mode",
+     "value": {
+      "@path": "/dark"
+     }
+    },
+    {
+     "id": "node_0",
+     "component": "Text",
+     "text": "Settings",
+     "variant": "h1"
+    }
+   ],
+   "dataModel": {
+    "dark": false,
+    "push": true,
+    "email": false,
+    "sound": true,
+    "volume": 70
+   }
+  }
+ }
+]

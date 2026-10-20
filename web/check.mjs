@@ -1,0 +1,51 @@
+// Drives web/dist/playground.html (serve web/dist on :8765) through a real browser: render, click a tab, a toggle, type into a field, since=.
+import { chromium } from "playwright";
+const out = process.argv[2];
+const browser = await chromium.launch();
+const page = await browser.newPage({ viewport: { width: 1400, height: 1000 }, deviceScaleFactor: 2 });
+const errors = [];
+page.on("pageerror", (e) => errors.push(String(e)));
+page.on("console", (m) => { if (m.type() === "error") errors.push(m.text()); });
+await page.goto("http://localhost:8765/playground.html");
+await page.waitForFunction(() => document.getElementById("out").textContent.startsWith("@dash"), null, { timeout: 15000 });
+console.log("render:", await page.locator("#out").textContent());
+console.log(await page.locator("#size").textContent(), "|", await page.locator("#timing").textContent());
+// switch to the settings example, render, click the Notifications tab and the first toggle in the canvas
+await page.selectOption("#example", "settings");
+await page.click("#render");
+await page.waitForFunction(() => document.getElementById("out").textContent.includes("@settings rev=0"));
+const canvas = page.locator("#screen");
+const box = await canvas.boundingBox();
+const cssW = box.width;
+const x0 = (cssW - Math.min(760, cssW)) / 2 + 16;
+// L2 to find boxes
+await page.click("button[data-level='2']");
+const l2 = await page.locator("#out").textContent();
+const bx = (id) => { const m = l2.match(new RegExp(`^\\s*(?:tab |toggle |slider |select |field |button )[^\\n]*? @(\\d+),(\\d+),(\\d+),(\\d+)$`, "m")); return m; };
+const find = (re) => { const m = l2.match(re); return m ? [+m[1], +m[2], +m[3], +m[4]] : null; };
+const notif = find(/tab General @(\d+),(\d+),(\d+),(\d+)/);
+console.log("general tab box:", notif);
+await page.mouse.click(box.x + x0 + notif[0] + notif[2] / 2, box.y + 16 + notif[1] + notif[3] / 2);
+console.log("after tab click:", (await page.locator("#out").textContent()).split("\n")[0]);
+await page.click("button[data-level='2']");
+const l2b = await page.locator("#out").textContent();
+const push = l2b.match(/toggle "Dark mode" (\w+) @(\d+),(\d+),(\d+),(\d+)/);
+console.log("dark mode toggle:", push.slice(1));
+await page.mouse.click(box.x + x0 + +push[2] + +push[4] / 2, box.y + 16 + +push[3] + +push[5] / 2);
+console.log("after toggle click:", (await page.locator("#out").textContent()).split("\n")[0]);
+// form: type into a field
+await page.selectOption("#example", "form");
+await page.click("#render");
+await page.waitForFunction(() => document.getElementById("out").textContent.includes("@form rev=0"));
+await page.click("button[data-level='2']");
+const l2c = await page.locator("#out").textContent();
+const email = l2c.match(/field Email[^\n]*@(\d+),(\d+),(\d+),(\d+)/);
+await page.mouse.click(box.x + x0 + +email[1] + 40, box.y + 16 + +email[2] + +email[4] - 12);
+await page.keyboard.type("lee.dev");
+await page.keyboard.press("Enter");
+console.log("after typing:", (await page.locator("#out").textContent()).split("\n")[0]);
+await page.click("#since");
+console.log("since:", await page.locator("#out").textContent());
+await page.screenshot({ path: out, fullPage: false });
+console.log("errors:", errors);
+await browser.close();

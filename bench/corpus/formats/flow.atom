@@ -1,0 +1,13 @@
+<a2ui>
+(Column
+  (Text "How Manifest works" "h1")
+  (Canvas 688 220 "Pipeline: Agent writes MX, Renderer draws it, Perception reads back to Agent"
+    (Box :id "agent" 0 40 130 56 "Agent" "accent")
+    (Box :id "mx" 186 40 130 56 "MX" "accent")
+    (Box :id "renderer" 372 40 130 56 "Renderer" "accent")
+    (Box :id "perception" 558 40 130 56 "Perception" "positive")
+    (Arrow "agent" "mx" "writes")
+    (Arrow "mx" "renderer" "draws")
+    (Arrow "renderer" "perception" "reads")
+    (Arrow "perception" "agent" "tree, boxes, diagnostics" "below" true)))
+</a2ui>

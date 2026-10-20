@@ -1,0 +1,15 @@
+<body id="flow">
+<ui-column>
+  <ui-text text="How Manifest works" variant="h1" />
+  <ui-canvas width="{688}" height="{220}" description="Pipeline: Agent writes MX, Renderer draws it, Perception reads back to Agent">
+    <ui-box id="agent" x="{0}" y="{40}" w="{130}" h="{56}" label="Agent" tone="accent" />
+    <ui-box id="mx" x="{186}" y="{40}" w="{130}" h="{56}" label="MX" tone="accent" />
+    <ui-box id="renderer" x="{372}" y="{40}" w="{130}" h="{56}" label="Renderer" tone="accent" />
+    <ui-box id="perception" x="{558}" y="{40}" w="{130}" h="{56}" label="Perception" tone="positive" />
+    <ui-arrow from="agent" to="mx" label="writes" />
+    <ui-arrow from="mx" to="renderer" label="draws" />
+    <ui-arrow from="renderer" to="perception" label="reads" />
+    <ui-arrow from="perception" to="agent" label="tree, boxes, diagnostics" route="below" dashed="{true}" />
+  </ui-canvas>
+</ui-column>
+</body>

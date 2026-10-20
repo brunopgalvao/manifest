@@ -1,0 +1,21 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Book a class</title>
+<style>
+body{margin:0;font:14px system-ui,sans-serif;color:#1a1a1a;background:#fff}
+form{padding:16px;display:flex;flex-direction:column;gap:12px;width:420px}
+h1{font-size:20px;margin:0}
+label{display:flex;flex-direction:column;gap:4px;font-size:13px;color:#444}
+input,select{font:inherit;padding:8px;border:1px solid #ccc;border-radius:6px}
+.check{flex-direction:row;align-items:center;gap:8px}
+button{font:inherit;padding:10px;border:0;border-radius:6px;background:#1f3fd1;color:#fff}
+.hint{font-size:12px;color:#b42318}
+</style></head>
+<body><form data-mx="root">
+<h1 data-mx="title">Book a class</h1>
+<label data-mx="name">Full name<input name="name" required value="Sam Lee"></label>
+<label data-mx="email">Email<input type="email" name="email" required value="sam@"><span class="hint">Enter a valid email</span></label>
+<label data-mx="date">Date<input type="date" name="date" value="2026-10-21"></label>
+<label data-mx="class">Class<select name="class"><option>Vinyasa</option><option selected>Yin</option><option>Ashtanga</option></select></label>
+<label class="check" data-mx="news"><input type="checkbox" name="news" checked>Send me the weekly schedule</label>
+<button type="submit" data-mx="submit">Book</button>
+</form></body></html>

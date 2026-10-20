@@ -1,0 +1,128 @@
+[
+ {
+  "version": "v1.0",
+  "createSurface": {
+   "surfaceId": "form",
+   "catalogId": "https://manifest.dev/bench/catalog.json",
+   "components": [
+    {
+     "id": "comp_2",
+     "component": "Text",
+     "text": "Book a class",
+     "variant": "h1"
+    },
+    {
+     "id": "comp_3",
+     "component": "TextField",
+     "label": "Full name",
+     "value": {
+      "@path": "/name"
+     }
+    },
+    {
+     "id": "comp_4",
+     "component": "TextField",
+     "label": "Email",
+     "value": {
+      "@path": "/email"
+     },
+     "checks": [
+      {
+       "condition": {
+        "@call": "email",
+        "args": {
+         "value": {
+          "@path": "/email"
+         }
+        }
+       },
+       "message": "Invalid input"
+      }
+     ]
+    },
+    {
+     "id": "comp_5",
+     "component": "DateTimeInput",
+     "label": "Date",
+     "value": {
+      "@path": "/date"
+     },
+     "enableDate": true
+    },
+    {
+     "id": "comp_6",
+     "component": "ChoicePicker",
+     "label": "Class",
+     "options": [
+      {
+       "label": "Vinyasa",
+       "value": "vinyasa"
+      },
+      {
+       "label": "Yin",
+       "value": "yin"
+      },
+      {
+       "label": "Ashtanga",
+       "value": "ashtanga"
+      }
+     ],
+     "value": {
+      "@path": "/class"
+     }
+    },
+    {
+     "id": "comp_7",
+     "component": "CheckBox",
+     "label": "Send me the weekly schedule",
+     "value": {
+      "@path": "/news"
+     }
+    },
+    {
+     "id": "comp_9",
+     "component": "Text",
+     "text": "Book"
+    },
+    {
+     "id": "comp_8",
+     "component": "Button",
+     "variant": "primary",
+     "action": {
+      "event": {
+       "name": "book",
+       "context": {
+        "form": {
+         "@path": "/"
+        }
+       }
+      }
+     },
+     "child": "comp_9"
+    },
+    {
+     "id": "comp_1",
+     "component": "Column",
+     "children": [
+      "comp_2",
+      "comp_3",
+      "comp_4",
+      "comp_5",
+      "comp_6",
+      "comp_7",
+      "comp_8"
+     ]
+    }
+   ],
+   "dataModel": {
+    "name": "Sam Lee",
+    "email": "sam@",
+    "date": "2026-10-21",
+    "class": [
+     "yin"
+    ],
+    "news": true
+   }
+  }
+ }
+]

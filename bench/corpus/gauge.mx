@@ -1,0 +1,10 @@
+@gauge
+region "CPU" 320x200
+  figure "Gauge" @160,160
+    path "M -120 0 A 120 120 0 0 1 120 0" stroke:line width:16
+    path "M -120 0 A 120 120 0 0 1 36 -114" stroke:warning width:16
+    text @0,-30 "72%" size:36 weight:650 anchor:middle
+    text @0,-4 "of 8 cores" size:12 anchor:middle fill:fg2
+  button "Details" @236,164 72x28 #details
+    rect @0,0 72x28 stroke:line radius:14 fill:card
+    text @36,18 "Details" anchor:middle size:12 weight:600

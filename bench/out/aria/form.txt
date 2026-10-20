@@ -1,0 +1,15 @@
+- heading "Book a class" [level=1]
+- text: Full name
+- textbox "Full name": Sam Lee
+- text: Email
+- textbox "Email Enter a valid email": sam@
+- text: Enter a valid email Date
+- textbox "Date": 2026-10-21
+- text: Class
+- combobox "Class":
+  - option "Vinyasa"
+  - option "Yin" [selected]
+  - option "Ashtanga"
+- checkbox "Send me the weekly schedule" [checked]
+- text: Send me the weekly schedule
+- button "Book"

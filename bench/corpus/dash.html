@@ -1,0 +1,38 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Revenue</title>
+<style>
+body{margin:0;font:14px system-ui,sans-serif;color:#1a1a1a;background:#fff}
+.wrap{padding:16px;display:flex;flex-direction:column;gap:16px;width:688px}
+h1{font-size:20px;margin:0}
+.kpis{display:flex;gap:12px}
+.kpi{flex:1;border:1px solid #e5e5e5;border-radius:8px;padding:12px}
+.kpi .l{font-size:12px;color:#666}.kpi .v{font-size:22px;font-weight:600}
+.up{color:#0a7a3d}.down{color:#b42318}
+.chart{display:flex;align-items:flex-end;gap:16px;height:200px;border-bottom:1px solid #ccc;padding:0 8px}
+.bar{flex:1;background:#4f6bed;border-radius:4px 4px 0 0;position:relative}
+.bar span{position:absolute;bottom:-20px;left:0;right:0;text-align:center;font-size:12px;color:#666}
+.bar.hi{background:#1f3fd1}
+.row{display:flex;gap:8px;align-items:center;margin-top:16px}
+select,button{font:inherit;padding:6px 12px;border-radius:6px;border:1px solid #ccc;background:#fff}
+button:disabled{opacity:.5}
+</style></head>
+<body><div class="wrap" data-mx="root">
+<h1 data-mx="title">Revenue overview</h1>
+<div class="kpis" data-mx="kpis">
+ <div class="kpi" data-mx="rev"><div class="l">Revenue</div><div class="v">$308k</div><div class="up">+14%</div></div>
+ <div class="kpi" data-mx="orders"><div class="l">Orders</div><div class="v">1,284</div><div class="up">+6%</div></div>
+ <div class="kpi" data-mx="churn"><div class="l">Churn</div><div class="v">2.1%</div><div class="down">+0.4pt</div></div>
+</div>
+<div class="chart" role="img" aria-label="Monthly revenue, Apr to Sep: 38, 42, 51, 47, 57, 73 thousand dollars" data-mx="chart">
+ <div class="bar" style="height:52%"><span>Apr</span></div>
+ <div class="bar" style="height:58%"><span>May</span></div>
+ <div class="bar" style="height:70%"><span>Jun</span></div>
+ <div class="bar" style="height:64%"><span>Jul</span></div>
+ <div class="bar" style="height:78%"><span>Aug</span></div>
+ <div class="bar hi" style="height:100%"><span>Sep</span></div>
+</div>
+<div class="row" data-mx="controls">
+ <label>Range <select data-mx="range"><option>Q3</option><option selected>YTD</option><option>12m</option></select></label>
+ <button disabled data-mx="export">Export CSV</button>
+</div>
+</div></body></html>

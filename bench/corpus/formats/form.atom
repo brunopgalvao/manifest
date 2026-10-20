@@ -1,0 +1,16 @@
+<a2ui>
+(data
+  $/name "Sam Lee"
+  $/email "sam@"
+  $/date "2026-10-21"
+  $/class ["yin"]
+  $/news true)
+(Column
+  (Text "Book a class" "h1")
+  (TextField "Full name" $/name :checks [(required "Required")])
+  (TextField "Email" $/email :checks [(email "Enter a valid email")])
+  (DateTimeInput :label "Date" :value $/date :enableDate true)
+  (ChoicePicker "Class" :options [(:label "Vinyasa" :value "vinyasa") (:label "Yin" :value "yin") (:label "Ashtanga" :value "ashtanga")] :value $/class)
+  (CheckBox "Send me the weekly schedule" $/news)
+  (Button :variant "primary" :action (Event "book" (:form $/)) (Text "Book")))
+</a2ui>

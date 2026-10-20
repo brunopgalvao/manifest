@@ -1,0 +1,9 @@
+<a2ui>
+(Card
+  (Column
+    (Text "Delete 3 files?" "h2")
+    (Text "report.pdf, notes.md and draft.docx will be moved to Trash.")
+    (Row :justify "end"
+      (Button :action (Event "cancel") (Text "Cancel"))
+      (Button :variant "primary" :action (Event "delete") (Text "Delete")))))
+</a2ui>

@@ -1,0 +1,14 @@
+$/name = "Sam Lee"
+$/email = "sam@"
+$/date = "2026-10-21"
+$/class = ["yin"]
+$/news = true
+root = Column([title, name, email, date, class, news, submit])
+title = Text("Book a class", "h1")
+name = TextField("Full name", $/name, [?required("Required")])
+email = TextField("Email", $/email, [?email("Enter a valid email")])
+date = DateTimeInput($/date, true, _, _, _, "Date")
+class = ChoicePicker("Class", _, [{label: "Vinyasa", value: "vinyasa"}, {label: "Yin", value: "yin"}, {label: "Ashtanga", value: "ashtanga"}], $/class)
+news = CheckBox("Send me the weekly schedule", $/news)
+submit = Button(submit_t, "primary", Event("book", {form: $/}))
+submit_t = Text("Book")

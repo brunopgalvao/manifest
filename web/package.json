@@ -1,0 +1,8 @@
+{
+  "name": "manifest-web",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build.mjs", "check": "node check.mjs" },
+  "dependencies": { "marked": "^18.1.1" },
+  "devDependencies": { "playwright": "^1.64.1" }
+}

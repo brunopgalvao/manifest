@@ -1,0 +1,18 @@
+<body id="dash">
+<script type="application/json">{"range": ["YTD"]}</script>
+<ui-column>
+  <ui-text text="Revenue overview" variant="h1" />
+  <ui-row>
+    <ui-metric label="Revenue" value="$308k" delta="+14%" tone="positive" />
+    <ui-metric label="Orders" value="1,284" delta="+6%" tone="positive" />
+    <ui-metric label="Churn" value="2.1%" delta="+0.4pt" tone="negative" />
+  </ui-row>
+  <ui-bar-chart description="Monthly revenue (k$)" labels="{['Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep']}" values="{[38, 42, 51, 47, 57, 73]}" highlight="{5}" />
+  <ui-row align="center">
+    <ui-choice-picker label="Range" options="{['Q3', 'YTD', '12m']}" value="{$/range}" />
+    <ui-button onclick="{Event('export')}" checks="{[required(value: $/exportReady)]}" error-message="No data to export">
+      <ui-text text="Export CSV" />
+    </ui-button>
+  </ui-row>
+</ui-column>
+</body>

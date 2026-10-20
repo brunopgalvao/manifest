@@ -1,0 +1,19 @@
+@funnel
+h2 "Q3 pipeline"
+region 640x320 #pipe
+  rect @0,0 640x320 fill:muted-30 radius:8 #bg
+  region "Funnel" @40,20
+    rect @0,0 560x48 fill:primary radius:6 #leads "Leads 1,240"
+    text @280,30 "Leads 1,240" fill:white anchor:middle size:14 weight:600
+    rect @40,64 480x48 fill:primary-70 radius:6 #qualified "Qualified 610"
+    text @280,94 "Qualified 610" fill:white anchor:middle size:14 weight:600
+    rect @120,128 320x48 fill:success radius:6 #won "Won 95"
+    text @280,158 "Won 95" fill:white anchor:middle size:14 weight:600
+    text @280,210 "7.7% conversion" size:14 anchor:middle fill:fg2
+  path "M 300 220 L 300 250" stroke:muted dashed
+  circle @300,252 r:4 fill:danger #marker "Target"
+  button "Export PNG" @520,272 100x32
+    rect @0,0 100x32 fill:primary radius:16
+    text @50,21 "Export PNG" fill:white anchor:middle size:13 weight:600
+row end
+  button Reset

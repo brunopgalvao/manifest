@@ -1,0 +1,641 @@
+{
+ "tree": {
+  "tag": "body",
+  "role": "",
+  "name": "How Manifest works Agent MX Renderer Perception writes draws reads tree, boxes, diagnostics",
+  "text": "",
+  "box": {
+   "x": 0,
+   "y": 0,
+   "w": 760,
+   "h": 290
+  },
+  "style": {
+   "bg": "#ffffff",
+   "border": "",
+   "borderW": 0,
+   "color": "#1a1a1a",
+   "fs": 14,
+   "fw": 400,
+   "radius": 0,
+   "display": "block",
+   "dir": "row",
+   "opacity": 1
+  },
+  "attrs": {},
+  "children": [
+   {
+    "tag": "div",
+    "role": "",
+    "name": "How Manifest works Agent MX Renderer Perception writes draws reads tree, boxes, diagnostics",
+    "text": "",
+    "box": {
+     "x": 0,
+     "y": 0,
+     "w": 720,
+     "h": 290
+    },
+    "style": {
+     "bg": "",
+     "border": "",
+     "borderW": 0,
+     "color": "#1a1a1a",
+     "fs": 14,
+     "fw": 400,
+     "radius": 0,
+     "display": "block",
+     "dir": "row",
+     "opacity": 1
+    },
+    "attrs": {},
+    "children": [
+     {
+      "tag": "h1",
+      "role": "heading",
+      "name": "How Manifest works",
+      "text": "How Manifest works",
+      "box": {
+       "x": 16,
+       "y": 16,
+       "w": 688,
+       "h": 23
+      },
+      "style": {
+       "bg": "",
+       "border": "",
+       "borderW": 0,
+       "color": "#1a1a1a",
+       "fs": 20,
+       "fw": 700,
+       "radius": 0,
+       "display": "block",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {},
+      "children": []
+     },
+     {
+      "tag": "svg",
+      "role": "img",
+      "name": "Pipeline: Agent writes MX, Renderer draws it, Perception reads back to Agent",
+      "text": "",
+      "box": {
+       "x": 16,
+       "y": 51,
+       "w": 688,
+       "h": 220
+      },
+      "style": {
+       "bg": "",
+       "border": "",
+       "borderW": 0,
+       "color": "#1a1a1a",
+       "fs": 14,
+       "fw": 400,
+       "radius": 0,
+       "display": "inline",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {
+       "aria-label": "Pipeline: Agent writes MX, Renderer draws it, Perception reads back to Agent"
+      },
+      "children": [],
+      "svg": [
+       {
+        "tag": "g",
+        "attrs": {
+         "data-mx": "agent",
+         "fill": "rgb(0, 0, 0)",
+         "stroke-width": "1px",
+         "font-size": "14px",
+         "font-weight": "400",
+         "text-anchor": "start",
+         "opacity": "1"
+        },
+        "text": "",
+        "tx": 0,
+        "ty": 0,
+        "sc": 1,
+        "box": {
+         "x": 0,
+         "y": 40,
+         "w": 130,
+         "h": 56
+        },
+        "children": [
+         {
+          "tag": "rect",
+          "attrs": {
+           "x": "0",
+           "y": "40",
+           "width": "130",
+           "height": "56",
+           "rx": "8",
+           "fill": "#eef1fd",
+           "stroke": "#4f6bed",
+           "stroke-width": "1px",
+           "font-size": "14px",
+           "font-weight": "400",
+           "text-anchor": "start",
+           "opacity": "1"
+          },
+          "text": "",
+          "tx": 0,
+          "ty": 0,
+          "sc": 1,
+          "box": {
+           "x": 0,
+           "y": 40,
+           "w": 130,
+           "h": 56
+          },
+          "children": []
+         },
+         {
+          "tag": "text",
+          "attrs": {
+           "x": "65",
+           "y": "73",
+           "text-anchor": "middle",
+           "fill": "rgb(0, 0, 0)",
+           "stroke-width": "1px",
+           "font-size": "14px",
+           "font-weight": "400",
+           "opacity": "1"
+          },
+          "text": "Agent",
+          "tx": 0,
+          "ty": 0,
+          "sc": 1,
+          "box": {
+           "x": 45.96875,
+           "y": 59,
+           "w": 38.0625,
+           "h": 17
+          },
+          "children": []
+         }
+        ]
+       },
+       {
+        "tag": "g",
+        "attrs": {
+         "data-mx": "mx",
+         "fill": "rgb(0, 0, 0)",
+         "stroke-width": "1px",
+         "font-size": "14px",
+         "font-weight": "400",
+         "text-anchor": "start",
+         "opacity": "1"
+        },
+        "text": "",
+        "tx": 0,
+        "ty": 0,
+        "sc": 1,
+        "box": {
+         "x": 186,
+         "y": 40,
+         "w": 130,
+         "h": 56
+        },
+        "children": [
+         {
+          "tag": "rect",
+          "attrs": {
+           "x": "186",
+           "y": "40",
+           "width": "130",
+           "height": "56",
+           "rx": "8",
+           "fill": "#eef1fd",
+           "stroke": "#4f6bed",
+           "stroke-width": "1px",
+           "font-size": "14px",
+           "font-weight": "400",
+           "text-anchor": "start",
+           "opacity": "1"
+          },
+          "text": "",
+          "tx": 0,
+          "ty": 0,
+          "sc": 1,
+          "box": {
+           "x": 186,
+           "y": 40,
+           "w": 130,
+           "h": 56
+          },
+          "children": []
+         },
+         {
+          "tag": "text",
+          "attrs": {
+           "x": "251",
+           "y": "73",
+           "text-anchor": "middle",
+           "fill": "rgb(0, 0, 0)",
+           "stroke-width": "1px",
+           "font-size": "14px",
+           "font-weight": "400",
+           "opacity": "1"
+          },
+          "text": "MX",
+          "tx": 0,
+          "ty": 0,
+          "sc": 1,
+          "box": {
+           "x": 240.28125,
+           "y": 59,
+           "w": 21.4375,
+           "h": 17
+          },
+          "children": []
+         }
+        ]
+       },
+       {
+        "tag": "g",
+        "attrs": {
+         "data-mx": "renderer",
+         "fill": "rgb(0, 0, 0)",
+         "stroke-width": "1px",
+         "font-size": "14px",
+         "font-weight": "400",
+         "text-anchor": "start",
+         "opacity": "1"
+        },
+        "text": "",
+        "tx": 0,
+        "ty": 0,
+        "sc": 1,
+        "box": {
+         "x": 372,
+         "y": 40,
+         "w": 130,
+         "h": 56
+        },
+        "children": [
+         {
+          "tag": "rect",
+          "attrs": {
+           "x": "372",
+           "y": "40",
+           "width": "130",
+           "height": "56",
+           "rx": "8",
+           "fill": "#eef1fd",
+           "stroke": "#4f6bed",
+           "stroke-width": "1px",
+           "font-size": "14px",
+           "font-weight": "400",
+           "text-anchor": "start",
+           "opacity": "1"
+          },
+          "text": "",
+          "tx": 0,
+          "ty": 0,
+          "sc": 1,
+          "box": {
+           "x": 372,
+           "y": 40,
+           "w": 130,
+           "h": 56
+          },
+          "children": []
+         },
+         {
+          "tag": "text",
+          "attrs": {
+           "x": "437",
+           "y": "73",
+           "text-anchor": "middle",
+           "fill": "rgb(0, 0, 0)",
+           "stroke-width": "1px",
+           "font-size": "14px",
+           "font-weight": "400",
+           "opacity": "1"
+          },
+          "text": "Renderer",
+          "tx": 0,
+          "ty": 0,
+          "sc": 1,
+          "box": {
+           "x": 407.515625,
+           "y": 59,
+           "w": 58.96875,
+           "h": 17
+          },
+          "children": []
+         }
+        ]
+       },
+       {
+        "tag": "g",
+        "attrs": {
+         "data-mx": "perception",
+         "fill": "rgb(0, 0, 0)",
+         "stroke-width": "1px",
+         "font-size": "14px",
+         "font-weight": "400",
+         "text-anchor": "start",
+         "opacity": "1"
+        },
+        "text": "",
+        "tx": 0,
+        "ty": 0,
+        "sc": 1,
+        "box": {
+         "x": 558,
+         "y": 40,
+         "w": 130,
+         "h": 56
+        },
+        "children": [
+         {
+          "tag": "rect",
+          "attrs": {
+           "x": "558",
+           "y": "40",
+           "width": "130",
+           "height": "56",
+           "rx": "8",
+           "fill": "#e3f6ea",
+           "stroke": "#0a7a3d",
+           "stroke-width": "1px",
+           "font-size": "14px",
+           "font-weight": "400",
+           "text-anchor": "start",
+           "opacity": "1"
+          },
+          "text": "",
+          "tx": 0,
+          "ty": 0,
+          "sc": 1,
+          "box": {
+           "x": 558,
+           "y": 40,
+           "w": 130,
+           "h": 56
+          },
+          "children": []
+         },
+         {
+          "tag": "text",
+          "attrs": {
+           "x": "623",
+           "y": "73",
+           "text-anchor": "middle",
+           "fill": "rgb(0, 0, 0)",
+           "stroke-width": "1px",
+           "font-size": "14px",
+           "font-weight": "400",
+           "opacity": "1"
+          },
+          "text": "Perception",
+          "tx": 0,
+          "ty": 0,
+          "sc": 1,
+          "box": {
+           "x": 588.1640625,
+           "y": 59,
+           "w": 69.671875,
+           "h": 17
+          },
+          "children": []
+         }
+        ]
+       },
+       {
+        "tag": "path",
+        "attrs": {
+         "d": "M130 68H184",
+         "stroke": "#555",
+         "marker-end": "url(#a)",
+         "fill": "rgb(0, 0, 0)",
+         "stroke-width": "1px",
+         "font-size": "14px",
+         "font-weight": "400",
+         "text-anchor": "start",
+         "opacity": "1"
+        },
+        "text": "",
+        "tx": 0,
+        "ty": 0,
+        "sc": 1,
+        "box": {
+         "x": 130,
+         "y": 68,
+         "w": 54,
+         "h": 0
+        },
+        "children": []
+       },
+       {
+        "tag": "text",
+        "attrs": {
+         "x": "157",
+         "y": "60",
+         "text-anchor": "middle",
+         "font-size": "12",
+         "fill": "rgb(0, 0, 0)",
+         "stroke-width": "1px",
+         "font-weight": "400",
+         "opacity": "1"
+        },
+        "text": "writes",
+        "tx": 0,
+        "ty": 0,
+        "sc": 1,
+        "box": {
+         "x": 137.4765625,
+         "y": 46,
+         "w": 39.046875,
+         "h": 17
+        },
+        "children": []
+       },
+       {
+        "tag": "path",
+        "attrs": {
+         "d": "M316 68H370",
+         "stroke": "#555",
+         "marker-end": "url(#a)",
+         "fill": "rgb(0, 0, 0)",
+         "stroke-width": "1px",
+         "font-size": "14px",
+         "font-weight": "400",
+         "text-anchor": "start",
+         "opacity": "1"
+        },
+        "text": "",
+        "tx": 0,
+        "ty": 0,
+        "sc": 1,
+        "box": {
+         "x": 316,
+         "y": 68,
+         "w": 54,
+         "h": 0
+        },
+        "children": []
+       },
+       {
+        "tag": "text",
+        "attrs": {
+         "x": "343",
+         "y": "60",
+         "text-anchor": "middle",
+         "font-size": "12",
+         "fill": "rgb(0, 0, 0)",
+         "stroke-width": "1px",
+         "font-weight": "400",
+         "opacity": "1"
+        },
+        "text": "draws",
+        "tx": 0,
+        "ty": 0,
+        "sc": 1,
+        "box": {
+         "x": 323.734375,
+         "y": 46,
+         "w": 38.53125,
+         "h": 17
+        },
+        "children": []
+       },
+       {
+        "tag": "path",
+        "attrs": {
+         "d": "M502 68H556",
+         "stroke": "#555",
+         "marker-end": "url(#a)",
+         "fill": "rgb(0, 0, 0)",
+         "stroke-width": "1px",
+         "font-size": "14px",
+         "font-weight": "400",
+         "text-anchor": "start",
+         "opacity": "1"
+        },
+        "text": "",
+        "tx": 0,
+        "ty": 0,
+        "sc": 1,
+        "box": {
+         "x": 502,
+         "y": 68,
+         "w": 54,
+         "h": 0
+        },
+        "children": []
+       },
+       {
+        "tag": "text",
+        "attrs": {
+         "x": "529",
+         "y": "60",
+         "text-anchor": "middle",
+         "font-size": "12",
+         "fill": "rgb(0, 0, 0)",
+         "stroke-width": "1px",
+         "font-weight": "400",
+         "opacity": "1"
+        },
+        "text": "reads",
+        "tx": 0,
+        "ty": 0,
+        "sc": 1,
+        "box": {
+         "x": 510.984375,
+         "y": 46,
+         "w": 36.03125,
+         "h": 17
+        },
+        "children": []
+       },
+       {
+        "tag": "path",
+        "attrs": {
+         "d": "M623 96V170H65V98",
+         "fill": "none",
+         "stroke": "#555",
+         "stroke-dasharray": "4 4",
+         "marker-end": "url(#a)",
+         "stroke-width": "1px",
+         "font-size": "14px",
+         "font-weight": "400",
+         "text-anchor": "start",
+         "opacity": "1"
+        },
+        "text": "",
+        "tx": 0,
+        "ty": 0,
+        "sc": 1,
+        "box": {
+         "x": 65,
+         "y": 96,
+         "w": 558,
+         "h": 74
+        },
+        "children": []
+       },
+       {
+        "tag": "text",
+        "attrs": {
+         "x": "344",
+         "y": "190",
+         "text-anchor": "middle",
+         "font-size": "12",
+         "fill": "rgb(0, 0, 0)",
+         "stroke-width": "1px",
+         "font-weight": "400",
+         "opacity": "1"
+        },
+        "text": "tree, boxes, diagnostics",
+        "tx": 0,
+        "ty": 0,
+        "sc": 1,
+        "box": {
+         "x": 267.3125,
+         "y": 176,
+         "w": 153.375,
+         "h": 17
+        },
+        "children": []
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "boxes": [
+  {
+   "line": 1,
+   "box": {
+    "x": 16,
+    "y": 16,
+    "w": 688,
+    "h": 23
+   },
+   "text": "How Manifest works"
+  },
+  {
+   "line": 2,
+   "box": {
+    "x": 16,
+    "y": 51,
+    "w": 688,
+    "h": 220
+   },
+   "text": "Pipeline: Agent writes MX, Renderer draws it, Perception reads back to Agent"
+  }
+ ],
+ "stats": {
+  "semantic": 6,
+  "painted": 0,
+  "demoted": 0,
+  "textRuns": 0
+ }
+}

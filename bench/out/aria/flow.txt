@@ -1,0 +1,2 @@
+- heading "How Manifest works" [level=1]
+- 'img "Pipeline: Agent writes MX, Renderer draws it, Perception reads back to Agent"': Agent MX Renderer Perception writes draws reads tree, boxes, diagnostics

@@ -1,0 +1,500 @@
+{
+ "claude-opus-5-5": {
+  "overhead": 8,
+  "create": {
+   "dash": {
+    "html": 979,
+    "a2ui": 671,
+    "mx0": 280,
+    "mx1": 147
+   },
+   "form": {
+    "html": 508,
+    "a2ui": 654,
+    "mx0": 208,
+    "mx1": 94
+   },
+   "table": {
+    "html": 1060,
+    "a2ui": 824,
+    "mx0": 358,
+    "mx1": 274
+   },
+   "flow": {
+    "html": 917,
+    "a2ui": 595,
+    "mx0": 339,
+    "mx1": 98
+   },
+   "confirm": {
+    "html": 472,
+    "a2ui": 394,
+    "mx0": 134,
+    "mx1": 86
+   },
+   "settings": {
+    "html": 585,
+    "a2ui": 520,
+    "mx0": 196,
+    "mx1": 89
+   }
+  },
+  "update": {
+   "dash": [
+    {
+     "what": "Sep revenue 73 -> 80 and KPI to $315k",
+     "html_regen": 979,
+     "html_replace": 68,
+     "a2ui": 161,
+     "mx0": 41,
+     "mx1": 23
+    },
+    {
+     "what": "Enable Export",
+     "html_regen": 979,
+     "html_replace": 21,
+     "a2ui": 43,
+     "mx0": 13,
+     "mx1": 8
+    },
+    {
+     "what": "Add a note after the chart",
+     "html_regen": 979,
+     "html_replace": 43,
+     "a2ui": 89,
+     "mx0": 29,
+     "mx1": 15
+    }
+   ],
+   "form": [
+    {
+     "what": "Fix email value",
+     "html_regen": 508,
+     "html_replace": 34,
+     "a2ui": 48,
+     "mx0": 19,
+     "mx1": 16
+    },
+    {
+     "what": "Add Hatha option",
+     "html_regen": 508,
+     "html_replace": 33,
+     "a2ui": 152,
+     "mx0": 34,
+     "mx1": 10
+    },
+    {
+     "what": "Relabel submit",
+     "html_regen": 508,
+     "html_replace": 26,
+     "a2ui": 60,
+     "mx0": 16,
+     "mx1": 13
+    }
+   ],
+   "table": [
+    {
+     "what": "Mark #1044 paid",
+     "html_regen": 1060,
+     "html_replace": 40,
+     "a2ui": 48,
+     "mx0": 20,
+     "mx1": 15
+    },
+    {
+     "what": "Go to page 2",
+     "html_regen": 1060,
+     "html_replace": 67,
+     "a2ui": 59,
+     "mx0": 26,
+     "mx1": 22
+    },
+    {
+     "what": "Remove row #1047",
+     "html_regen": 1060,
+     "html_replace": 53,
+     "a2ui": 39,
+     "mx0": 12,
+     "mx1": 9
+    }
+   ],
+   "flow": [
+    {
+     "what": "Rename MX box",
+     "html_regen": 917,
+     "html_replace": 29,
+     "a2ui": 83,
+     "mx0": 14,
+     "mx1": 11
+    },
+    {
+     "what": "Make the loop arrow solid",
+     "html_regen": 917,
+     "html_replace": 27,
+     "a2ui": 84,
+     "mx0": 14,
+     "mx1": 11
+    },
+    {
+     "what": "Recolour Perception box",
+     "html_regen": 917,
+     "html_replace": 44,
+     "a2ui": 83,
+     "mx0": 14,
+     "mx1": 8
+    }
+   ],
+   "confirm": [
+    {
+     "what": "Change body to 4 files",
+     "html_regen": 472,
+     "html_replace": 55,
+     "a2ui": 115,
+     "mx0": 53,
+     "mx1": 49
+    },
+    {
+     "what": "Relabel Delete",
+     "html_regen": 472,
+     "html_replace": 27,
+     "a2ui": 62,
+     "mx0": 18,
+     "mx1": 14
+    },
+    {
+     "what": "Dismiss after the user answers",
+     "html_regen": 472,
+     "html_replace": null,
+     "a2ui": 32,
+     "mx0": 0,
+     "mx1": 0
+    }
+   ],
+   "settings": [
+    {
+     "what": "Switch to General tab",
+     "html_regen": 585,
+     "html_replace": 140,
+     "a2ui": null,
+     "mx0": 14,
+     "mx1": 8
+    },
+    {
+     "what": "Turn email digest on",
+     "html_regen": 585,
+     "html_replace": 39,
+     "a2ui": 40,
+     "mx0": 11,
+     "mx1": 6
+    },
+    {
+     "what": "Volume 70 -> 40",
+     "html_regen": 585,
+     "html_replace": 16,
+     "a2ui": 41,
+     "mx0": 13,
+     "mx1": 8
+    }
+   ]
+  },
+  "perceive": {
+   "dash": {
+    "aria": 179,
+    "mx1_L0": 13,
+    "mx1_L1": 149,
+    "mx1_L2": 231,
+    "native_L1": 149,
+    "native_L2": 231
+   },
+   "form": {
+    "aria": 186,
+    "mx1_L0": 12,
+    "mx1_L1": 98,
+    "mx1_L2": 163,
+    "native_L1": 98,
+    "native_L2": 163
+   },
+   "table": {
+    "aria": 735,
+    "mx1_L0": 17,
+    "mx1_L1": 296,
+    "mx1_L2": 361,
+    "native_L1": 296,
+    "native_L2": 361
+   },
+   "flow": {
+    "aria": 86,
+    "mx1_L0": 13,
+    "mx1_L1": 107,
+    "mx1_L2": 181,
+    "native_L1": 107,
+    "native_L2": 181
+   },
+   "confirm": {
+    "aria": 88,
+    "mx1_L0": 27,
+    "mx1_L1": 87,
+    "mx1_L2": 144,
+    "native_L1": 87,
+    "native_L2": 144
+   },
+   "settings": {
+    "aria": 141,
+    "mx1_L0": 13,
+    "mx1_L1": 91,
+    "mx1_L2": 166,
+    "native_L1": 91,
+    "native_L2": 166
+   }
+  }
+ },
+ "claude-haiku-5-5": {
+  "overhead": 8,
+  "create": {
+   "dash": {
+    "html": 979,
+    "a2ui": 671,
+    "mx0": 280,
+    "mx1": 147
+   },
+   "form": {
+    "html": 508,
+    "a2ui": 654,
+    "mx0": 208,
+    "mx1": 94
+   },
+   "table": {
+    "html": 1060,
+    "a2ui": 824,
+    "mx0": 358,
+    "mx1": 274
+   },
+   "flow": {
+    "html": 917,
+    "a2ui": 595,
+    "mx0": 339,
+    "mx1": 98
+   },
+   "confirm": {
+    "html": 472,
+    "a2ui": 394,
+    "mx0": 134,
+    "mx1": 86
+   },
+   "settings": {
+    "html": 585,
+    "a2ui": 520,
+    "mx0": 196,
+    "mx1": 89
+   }
+  },
+  "update": {
+   "dash": [
+    {
+     "what": "Sep revenue 73 -> 80 and KPI to $315k",
+     "html_regen": 979,
+     "html_replace": 68,
+     "a2ui": 161,
+     "mx0": 41,
+     "mx1": 23
+    },
+    {
+     "what": "Enable Export",
+     "html_regen": 979,
+     "html_replace": 21,
+     "a2ui": 43,
+     "mx0": 13,
+     "mx1": 8
+    },
+    {
+     "what": "Add a note after the chart",
+     "html_regen": 979,
+     "html_replace": 43,
+     "a2ui": 89,
+     "mx0": 29,
+     "mx1": 15
+    }
+   ],
+   "form": [
+    {
+     "what": "Fix email value",
+     "html_regen": 508,
+     "html_replace": 34,
+     "a2ui": 48,
+     "mx0": 19,
+     "mx1": 16
+    },
+    {
+     "what": "Add Hatha option",
+     "html_regen": 508,
+     "html_replace": 33,
+     "a2ui": 152,
+     "mx0": 34,
+     "mx1": 10
+    },
+    {
+     "what": "Relabel submit",
+     "html_regen": 508,
+     "html_replace": 26,
+     "a2ui": 60,
+     "mx0": 16,
+     "mx1": 13
+    }
+   ],
+   "table": [
+    {
+     "what": "Mark #1044 paid",
+     "html_regen": 1060,
+     "html_replace": 40,
+     "a2ui": 48,
+     "mx0": 20,
+     "mx1": 15
+    },
+    {
+     "what": "Go to page 2",
+     "html_regen": 1060,
+     "html_replace": 67,
+     "a2ui": 59,
+     "mx0": 26,
+     "mx1": 22
+    },
+    {
+     "what": "Remove row #1047",
+     "html_regen": 1060,
+     "html_replace": 53,
+     "a2ui": 39,
+     "mx0": 12,
+     "mx1": 9
+    }
+   ],
+   "flow": [
+    {
+     "what": "Rename MX box",
+     "html_regen": 917,
+     "html_replace": 29,
+     "a2ui": 83,
+     "mx0": 14,
+     "mx1": 11
+    },
+    {
+     "what": "Make the loop arrow solid",
+     "html_regen": 917,
+     "html_replace": 27,
+     "a2ui": 84,
+     "mx0": 14,
+     "mx1": 11
+    },
+    {
+     "what": "Recolour Perception box",
+     "html_regen": 917,
+     "html_replace": 44,
+     "a2ui": 83,
+     "mx0": 14,
+     "mx1": 8
+    }
+   ],
+   "confirm": [
+    {
+     "what": "Change body to 4 files",
+     "html_regen": 472,
+     "html_replace": 55,
+     "a2ui": 115,
+     "mx0": 53,
+     "mx1": 49
+    },
+    {
+     "what": "Relabel Delete",
+     "html_regen": 472,
+     "html_replace": 27,
+     "a2ui": 62,
+     "mx0": 18,
+     "mx1": 14
+    },
+    {
+     "what": "Dismiss after the user answers",
+     "html_regen": 472,
+     "html_replace": null,
+     "a2ui": 32,
+     "mx0": 0,
+     "mx1": 0
+    }
+   ],
+   "settings": [
+    {
+     "what": "Switch to General tab",
+     "html_regen": 585,
+     "html_replace": 140,
+     "a2ui": null,
+     "mx0": 14,
+     "mx1": 8
+    },
+    {
+     "what": "Turn email digest on",
+     "html_regen": 585,
+     "html_replace": 39,
+     "a2ui": 40,
+     "mx0": 11,
+     "mx1": 6
+    },
+    {
+     "what": "Volume 70 -> 40",
+     "html_regen": 585,
+     "html_replace": 16,
+     "a2ui": 41,
+     "mx0": 13,
+     "mx1": 8
+    }
+   ]
+  },
+  "perceive": {
+   "dash": {
+    "aria": 179,
+    "mx1_L0": 13,
+    "mx1_L1": 149,
+    "mx1_L2": 231,
+    "native_L1": 149,
+    "native_L2": 231
+   },
+   "form": {
+    "aria": 186,
+    "mx1_L0": 12,
+    "mx1_L1": 98,
+    "mx1_L2": 163,
+    "native_L1": 98,
+    "native_L2": 163
+   },
+   "table": {
+    "aria": 735,
+    "mx1_L0": 17,
+    "mx1_L1": 296,
+    "mx1_L2": 361,
+    "native_L1": 296,
+    "native_L2": 361
+   },
+   "flow": {
+    "aria": 86,
+    "mx1_L0": 13,
+    "mx1_L1": 107,
+    "mx1_L2": 181,
+    "native_L1": 107,
+    "native_L2": 181
+   },
+   "confirm": {
+    "aria": 88,
+    "mx1_L0": 27,
+    "mx1_L1": 87,
+    "mx1_L2": 144,
+    "native_L1": 87,
+    "native_L2": 144
+   },
+   "settings": {
+    "aria": 141,
+    "mx1_L0": 13,
+    "mx1_L1": 91,
+    "mx1_L2": 166,
+    "native_L1": 91,
+    "native_L2": 166
+   }
+  }
+ }
+}

@@ -1,0 +1,53 @@
+- heading "Orders" [level=1]
+- searchbox "Search orders"
+- table:
+  - rowgroup:
+    - row "Order Customer Total Status":
+      - columnheader "Order"
+      - columnheader "Customer"
+      - columnheader "Total"
+      - columnheader "Status"
+  - rowgroup:
+    - row "#1041 Ana Souza $84.00 Paid":
+      - cell "#1041"
+      - cell "Ana Souza"
+      - cell "$84.00"
+      - cell "Paid"
+    - row "#1042 Oluwaseun Adebayo-Whitfield Consulting Partners $1,920.00 Pending":
+      - cell "#1042"
+      - cell "Oluwaseun Adebayo-Whitfield Consulting Partners"
+      - cell "$1,920.00"
+      - cell "Pending"
+    - row "#1043 Kenji Mori $36.50 Paid":
+      - cell "#1043"
+      - cell "Kenji Mori"
+      - cell "$36.50"
+      - cell "Paid"
+    - row "#1044 Priya Nair $210.00 Refunded":
+      - cell "#1044"
+      - cell "Priya Nair"
+      - cell "$210.00"
+      - cell "Refunded"
+    - row "#1045 Tom Becker $58.00 Paid":
+      - cell "#1045"
+      - cell "Tom Becker"
+      - cell "$58.00"
+      - cell "Paid"
+    - row "#1046 Lina Haddad $142.75 Pending":
+      - cell "#1046"
+      - cell "Lina Haddad"
+      - cell "$142.75"
+      - cell "Pending"
+    - row "#1047 Marco Rossi $19.99 Paid":
+      - cell "#1047"
+      - cell "Marco Rossi"
+      - cell "$19.99"
+      - cell "Paid"
+    - row "#1048 Chloe Martin $305.00 Paid":
+      - cell "#1048"
+      - cell "Chloe Martin"
+      - cell "$305.00"
+      - cell "Paid"
+- button "Previous" [disabled]
+- text: Page 1 of 4
+- button "Next"

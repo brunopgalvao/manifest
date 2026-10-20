@@ -1,0 +1,116 @@
+[
+ {
+  "version": "v1.0",
+  "createSurface": {
+   "surfaceId": "flow",
+   "catalogId": "https://manifest.dev/bench/catalog.json",
+   "components": [
+    {
+     "id": "root",
+     "component": "Column",
+     "children": [
+      "node_0",
+      "node_1"
+     ]
+    },
+    {
+     "id": "node_1",
+     "component": "Canvas",
+     "children": [
+      "node_2",
+      "agent",
+      "mx",
+      "renderer",
+      "perception",
+      "node_3",
+      "node_4",
+      "node_5",
+      "node_6"
+     ]
+    },
+    {
+     "id": "node_6",
+     "component": "Arrow",
+     "from": "perception",
+     "to": "agent",
+     "label": "tree, boxes, diagnostics",
+     "route": "below",
+     "dashed": true
+    },
+    {
+     "id": "node_5",
+     "component": "Arrow",
+     "from": "renderer",
+     "to": "perception",
+     "label": "reads"
+    },
+    {
+     "id": "node_4",
+     "component": "Arrow",
+     "from": "mx",
+     "to": "renderer",
+     "label": "draws"
+    },
+    {
+     "id": "node_3",
+     "component": "Arrow",
+     "from": "agent",
+     "to": "mx",
+     "label": "writes"
+    },
+    {
+     "id": "perception",
+     "component": "Box",
+     "x": 558,
+     "y": 40,
+     "w": 130,
+     "h": 56,
+     "label": "Perception",
+     "tone": "positive"
+    },
+    {
+     "id": "renderer",
+     "component": "Box",
+     "x": 372,
+     "y": 40,
+     "w": 130,
+     "h": 56,
+     "label": "Renderer",
+     "tone": "accent"
+    },
+    {
+     "id": "mx",
+     "component": "Box",
+     "x": 186,
+     "y": 40,
+     "w": 130,
+     "h": 56,
+     "label": "MX",
+     "tone": "accent"
+    },
+    {
+     "id": "agent",
+     "component": "Box",
+     "x": 0,
+     "y": 40,
+     "w": 130,
+     "h": 56,
+     "label": "Agent",
+     "tone": "accent"
+    },
+    {
+     "id": "node_2",
+     "component": "Text",
+     "text": "Pipeline: Agent writes MX, Renderer draws it, Perception reads back to Agent"
+    },
+    {
+     "id": "node_0",
+     "component": "Text",
+     "text": "How Manifest works",
+     "variant": "h1"
+    }
+   ],
+   "dataModel": {}
+  }
+ }
+]

@@ -1,0 +1,44 @@
+{
+ "dash": [
+  ["What was June revenue, in thousands of dollars?", "51"],
+  ["Is the Export CSV button enabled?", "no"],
+  ["Which KPI is shown as bad/negative?", "Churn"],
+  ["What range is currently selected?", "YTD"],
+  ["What control is directly to the right of the Range selector?", "Export CSV button"]
+ ],
+ "form": [
+  ["What is the current value of the Email field?", "sam@"],
+  ["Which class is selected?", "Yin"],
+  ["Is the weekly-schedule checkbox checked?", "yes"],
+  ["What date is entered?", "2026-10-21"],
+  ["What does the submit button say?", "Book"]
+ ],
+ "table": [
+  ["What is the status of order #1044?", "Refunded"],
+  ["Is any text visibly truncated? If so, which?", "yes, the customer name on #1042"],
+  ["What is the total of order #1046?", "$142.75"],
+  ["Is the Previous button enabled?", "no"],
+  ["Which page is shown, out of how many?", "1 of 4"]
+ ],
+ "flow": [
+  ["How many boxes are in the diagram?", "4"],
+  ["What label is on the arrow from Renderer to Perception?", "reads"],
+  ["Which box is coloured differently from the others?", "Perception"],
+  ["Is the arrow from Perception back to Agent dashed or solid?", "dashed"],
+  ["Which box is left-most?", "Agent"]
+ ],
+ "confirm": [
+  ["How many files will be deleted?", "3"],
+  ["Which button is styled as destructive?", "Delete"],
+  ["Which button is on the right?", "Delete"],
+  ["Will this dialog go away on its own? If so, when?", "yes: when the user answers, or after 60 seconds"],
+  ["Name one of the files.", "report.pdf / notes.md / draft.docx"]
+ ],
+ "settings": [
+  ["Which tab is selected?", "Notifications"],
+  ["Is Email digest on?", "no"],
+  ["What is the volume set to?", "70"],
+  ["Is a Dark mode option visible right now?", "no (it is in the hidden General tab)"],
+  ["How many toggles/switches are visible?", "3"]
+ ]
+}

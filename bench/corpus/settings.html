@@ -1,0 +1,26 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Settings</title>
+<style>
+body{margin:0;font:14px system-ui,sans-serif;color:#1a1a1a;background:#fff}
+.wrap{padding:16px;width:420px;display:flex;flex-direction:column;gap:12px}
+h1{font-size:20px;margin:0}
+.tabs{display:flex;gap:4px;border-bottom:1px solid #e5e5e5}
+.tabs button{font:inherit;padding:8px 12px;border:0;background:none;border-bottom:2px solid transparent}
+.tabs button[aria-selected=true]{border-color:#1f3fd1;color:#1f3fd1}
+.opt{display:flex;justify-content:space-between;align-items:center;padding:6px 0}
+.panel[hidden]{display:none}
+</style></head>
+<body><div class="wrap" data-mx="root">
+<h1 data-mx="title">Settings</h1>
+<div class="tabs" role="tablist" data-mx="tabs">
+ <button role="tab" aria-selected="false" data-mx="general">General</button>
+ <button role="tab" aria-selected="true" data-mx="notif">Notifications</button>
+</div>
+<div class="panel" role="tabpanel" hidden data-mx="general-panel"><label class="opt">Dark mode<input type="checkbox"></label></div>
+<div class="panel" role="tabpanel" data-mx="notif-panel">
+ <label class="opt" data-mx="push">Push notifications<input type="checkbox" role="switch" checked></label>
+ <label class="opt" data-mx="email">Email digest<input type="checkbox" role="switch"></label>
+ <label class="opt" data-mx="sound">Sounds<input type="checkbox" role="switch" checked></label>
+ <label class="opt" data-mx="volume">Volume<input type="range" min="0" max="100" value="70"></label>
+</div>
+</div></body></html>

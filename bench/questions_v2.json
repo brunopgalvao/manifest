@@ -1,0 +1,44 @@
+{
+ "funnel": [
+  ["How many leads are in the funnel?", "1,240"],
+  ["What is the conversion rate shown?", "7.7%"],
+  ["Which stage is painted green?", "Won"],
+  ["Is there a button inside the drawing, and what does it say?", "Export PNG"],
+  ["What is the width of the Qualified bar, in pixels?", "480"]
+ ],
+ "gantt": [
+  ["Which task is in progress on the today line (week of 11 Nov)?", "Build"],
+  ["Which task is the shortest?", "Launch"],
+  ["Which task runs the whole quarter?", "Hiring"],
+  ["What colour or tone is the Beta bar?", "warning"],
+  ["How many tasks are listed?", "5"]
+ ],
+ "map": [
+  ["Which dock is occupied?", "Dock C"],
+  ["Which aisle is blocked?", "Aisle 6"],
+  ["How many trucks are in Shipping and what is each doing?", "2: Truck 1 loading, Truck 2 waiting"],
+  ["How many aisles are there in Storage?", "6"],
+  ["What does the button in the top right do?", "Locate pallet"]
+ ],
+ "kpi": [
+  ["How many active users are there?", "48,210"],
+  ["How did active users change versus last month?", "+12%"],
+  ["How many weeks does the sparkline cover?", "12"],
+  ["What can the user click?", "View report"],
+  ["Is the trend going up or down?", "up"]
+ ],
+ "live": [
+  ["What is the latest revenue value?", "73"],
+  ["How many points does the sales series have?", "6"],
+  ["What is the minimum value in the series?", "38"],
+  ["Which nodes are bound to the sales series?", "Latest metric, Peak metric, Revenue line chart"],
+  ["What is the peak value?", "73"]
+ ],
+ "diagram": [
+  ["Where does a request go from the Edge on a cache miss?", "API"],
+  ["What protocol is on the arrow from Client to Edge?", "HTTPS"],
+  ["Which component talks to the Database?", "API"],
+  ["What does the dashed arrow between API and Cache mean?", "fill"],
+  ["How many components are in the diagram?", "5"]
+ ]
+}

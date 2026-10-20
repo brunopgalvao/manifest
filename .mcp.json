@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "manifest": {
+      "command": "engine/target/release/manifest-mcp"
+    }
+  }
+}

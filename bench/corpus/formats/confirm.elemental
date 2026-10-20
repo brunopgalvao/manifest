@@ -1,0 +1,12 @@
+<body id="confirm">
+<ui-card>
+  <ui-column>
+    <ui-text text="Delete 3 files?" variant="h2" />
+    <ui-text text="report.pdf, notes.md and draft.docx will be moved to Trash." />
+    <ui-row justify="end">
+      <ui-button onclick="{Event('cancel')}"><ui-text text="Cancel" /></ui-button>
+      <ui-button variant="primary" onclick="{Event('delete')}"><ui-text text="Delete" /></ui-button>
+    </ui-row>
+  </ui-column>
+</ui-card>
+</body>

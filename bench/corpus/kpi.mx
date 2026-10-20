@@ -1,0 +1,13 @@
+@kpi
+region "Monthly active users" 320x140
+  rect @0,0 320x140 fill:card stroke:line radius:12 #bg
+  metric "Active users" @20,16
+    text @0,14 "Active users" size:12 fill:fg2
+    text @0,52 "48,210" size:32 weight:650
+    text @130,52 "+12% vs last month" size:12 fill:success
+  figure "Sparkline, 12 weeks" @20,90
+    path "M 0 30 L 25 26 L 50 28 L 75 20 L 100 22 L 125 15 L 150 18 L 175 12 L 200 14 L 225 8 L 250 10 L 280 4" stroke:primary width:2
+    circle @280,4 r:3 fill:primary "Latest"
+  button "View report" @216,100 84x24
+    rect @0,0 84x24 stroke:line radius:12 fill:card
+    text @42,16 "View report" anchor:middle size:11 weight:600

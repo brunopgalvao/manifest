@@ -1,0 +1,8 @@
+@form
+h1 "Book a class"
+field "Full name" ="Sam Lee" required
+field Email email ="sam@" required
+field Date date =2026-10-21
+select Class Vinyasa *Yin Ashtanga
+check "Send me the weekly schedule" on
+button Book primary

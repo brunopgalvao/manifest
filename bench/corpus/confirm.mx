@@ -1,0 +1,7 @@
+@confirm until:action ttl:60s residue:line
+card
+  h2 "Delete 3 files?" #title
+  text "report.pdf, notes.md and draft.docx will be moved to Trash." #body
+  row end
+    button Cancel
+    button Delete danger

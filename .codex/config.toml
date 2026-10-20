@@ -1,0 +1,3 @@
+[mcp_servers.manifest]
+command = "node"
+args = ["packages/mcp/dist/server.js"]

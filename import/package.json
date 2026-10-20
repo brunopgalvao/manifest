@@ -1,0 +1,11 @@
+{
+  "name": "manifest-import",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.64.1"
+  }
+}

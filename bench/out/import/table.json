@@ -1,0 +1,1774 @@
+{
+ "tree": {
+  "tag": "body",
+  "role": "",
+  "name": "Orders OrderCustomerTotalStatus #1041Ana Souza$84.00Paid #1042Oluwaseun Adebayo-Whitfield Consulting Partners$1,920.00Pending #1043Kenji Mori$36.50Paid #1044Priya Nair$210.00Refunded #1045Tom Becker$58.00Paid #1046Lina Haddad$142.75Pending #1047Marco Rossi$19.99Paid #1048Chloe Martin$305.00Paid PreviousPage 1 of 4Next",
+  "text": "",
+  "box": {
+   "x": 0,
+   "y": 0,
+   "w": 760,
+   "h": 457
+  },
+  "style": {
+   "bg": "#ffffff",
+   "border": "",
+   "borderW": 0,
+   "color": "#1a1a1a",
+   "fs": 14,
+   "fw": 400,
+   "radius": 0,
+   "display": "block",
+   "dir": "row",
+   "opacity": 1
+  },
+  "attrs": {},
+  "children": [
+   {
+    "tag": "div",
+    "role": "",
+    "name": "Orders OrderCustomerTotalStatus #1041Ana Souza$84.00Paid #1042Oluwaseun Adebayo-Whitfield Consulting Partners$1,920.00Pending #1043Kenji Mori$36.50Paid #1044Priya Nair$210.00Refunded #1045Tom Becker$58.00Paid #1046Lina Haddad$142.75Pending #1047Marco Rossi$19.99Paid #1048Chloe Martin$305.00Paid PreviousPage 1 of 4Next",
+    "text": "",
+    "box": {
+     "x": 0,
+     "y": 0,
+     "w": 592,
+     "h": 457
+    },
+    "style": {
+     "bg": "",
+     "border": "",
+     "borderW": 0,
+     "color": "#1a1a1a",
+     "fs": 14,
+     "fw": 400,
+     "radius": 0,
+     "display": "flex",
+     "dir": "column",
+     "opacity": 1
+    },
+    "attrs": {},
+    "children": [
+     {
+      "tag": "h1",
+      "role": "heading",
+      "name": "Orders",
+      "text": "Orders",
+      "box": {
+       "x": 16,
+       "y": 16,
+       "w": 560,
+       "h": 23
+      },
+      "style": {
+       "bg": "",
+       "border": "",
+       "borderW": 0,
+       "color": "#1a1a1a",
+       "fs": 20,
+       "fw": 700,
+       "radius": 0,
+       "display": "block",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {},
+      "children": []
+     },
+     {
+      "tag": "input",
+      "role": "textbox",
+      "name": "Search orders",
+      "text": "",
+      "box": {
+       "x": 16,
+       "y": 51,
+       "w": 560,
+       "h": 31
+      },
+      "style": {
+       "bg": "#ffffff",
+       "border": "#cccccc",
+       "borderW": 1,
+       "color": "#000000",
+       "fs": 14,
+       "fw": 400,
+       "radius": 6,
+       "display": "block",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {
+       "type": "search",
+       "placeholder": "Search orders",
+       "aria-label": "Search orders",
+       "value": ""
+      },
+      "children": []
+     },
+     {
+      "tag": "table",
+      "role": "table",
+      "name": "OrderCustomerTotalStatus #1041Ana Souza$84.00Paid #1042Oluwaseun Adebayo-Whitfield Consulting Partners$1,920.00Pending #1043Kenji Mori$36.50Paid #1044Priya Nair$210.00Refunded #1045Tom Becker$58.00Paid #1046Lina Haddad$142.75Pending #1047Marco Rossi$19.99Paid #1048Chloe Martin$305.00Paid",
+      "text": "",
+      "box": {
+       "x": 16,
+       "y": 94,
+       "w": 560,
+       "h": 304
+      },
+      "style": {
+       "bg": "",
+       "border": "",
+       "borderW": 0,
+       "color": "#1a1a1a",
+       "fs": 14,
+       "fw": 400,
+       "radius": 0,
+       "display": "table",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {},
+      "children": [
+       {
+        "tag": "thead",
+        "role": "",
+        "name": "OrderCustomerTotalStatus",
+        "text": "",
+        "box": {
+         "x": 16,
+         "y": 94,
+         "w": 560,
+         "h": 31.5
+        },
+        "style": {
+         "bg": "",
+         "border": "",
+         "borderW": 0,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 0,
+         "display": "table-header-group",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": [
+         {
+          "tag": "tr",
+          "role": "",
+          "name": "OrderCustomerTotalStatus",
+          "text": "",
+          "box": {
+           "x": 16,
+           "y": 94,
+           "w": 560,
+           "h": 31.5
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#1a1a1a",
+           "fs": 14,
+           "fw": 400,
+           "radius": 0,
+           "display": "table-row",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": [
+           {
+            "tag": "th",
+            "role": "",
+            "name": "Order",
+            "text": "Order",
+            "box": {
+             "x": 16,
+             "y": 94,
+             "w": 96,
+             "h": 31.5
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#666666",
+             "fs": 12,
+             "fw": 700,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "th",
+            "role": "",
+            "name": "Customer",
+            "text": "Customer",
+            "box": {
+             "x": 112,
+             "y": 94,
+             "w": 216,
+             "h": 31.5
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#666666",
+             "fs": 12,
+             "fw": 700,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "th",
+            "role": "",
+            "name": "Total",
+            "text": "Total",
+            "box": {
+             "x": 328,
+             "y": 94,
+             "w": 106,
+             "h": 31.5
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#666666",
+             "fs": 12,
+             "fw": 700,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "th",
+            "role": "",
+            "name": "Status",
+            "text": "Status",
+            "box": {
+             "x": 434,
+             "y": 94,
+             "w": 142,
+             "h": 31.5
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#666666",
+             "fs": 12,
+             "fw": 700,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "tag": "tbody",
+        "role": "",
+        "name": "#1041Ana Souza$84.00Paid #1042Oluwaseun Adebayo-Whitfield Consulting Partners$1,920.00Pending #1043Kenji Mori$36.50Paid #1044Priya Nair$210.00Refunded #1045Tom Becker$58.00Paid #1046Lina Haddad$142.75Pending #1047Marco Rossi$19.99Paid #1048Chloe Martin$305.00Paid",
+        "text": "",
+        "box": {
+         "x": 16,
+         "y": 125.5,
+         "w": 560,
+         "h": 272
+        },
+        "style": {
+         "bg": "",
+         "border": "",
+         "borderW": 0,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 0,
+         "display": "table-row-group",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": [
+         {
+          "tag": "tr",
+          "role": "",
+          "name": "#1041Ana Souza$84.00Paid",
+          "text": "",
+          "box": {
+           "x": 16,
+           "y": 125.5,
+           "w": 560,
+           "h": 34
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#1a1a1a",
+           "fs": 14,
+           "fw": 400,
+           "radius": 0,
+           "display": "table-row",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": [
+           {
+            "tag": "td",
+            "role": "",
+            "name": "#1041",
+            "text": "#1041",
+            "box": {
+             "x": 16,
+             "y": 125.5,
+             "w": 96,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Ana Souza",
+            "text": "Ana Souza",
+            "box": {
+             "x": 112,
+             "y": 125.5,
+             "w": 216,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "$84.00",
+            "text": "$84.00",
+            "box": {
+             "x": 328,
+             "y": 125.5,
+             "w": 106,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Paid",
+            "text": "",
+            "box": {
+             "x": 434,
+             "y": 125.5,
+             "w": 142,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": [
+             {
+              "tag": "span",
+              "role": "",
+              "name": "Paid",
+              "text": "Paid",
+              "box": {
+               "x": 442,
+               "y": 134,
+               "w": 40.359375,
+               "h": 19
+              },
+              "style": {
+               "bg": "#e3f6ea",
+               "border": "",
+               "borderW": 0,
+               "color": "#0a7a3d",
+               "fs": 12,
+               "fw": 400,
+               "radius": 10,
+               "display": "inline",
+               "dir": "row",
+               "opacity": 1
+              },
+              "attrs": {},
+              "children": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "tr",
+          "role": "",
+          "name": "#1042Oluwaseun Adebayo-Whitfield Consulting Partners$1,920.00Pending",
+          "text": "",
+          "box": {
+           "x": 16,
+           "y": 159.5,
+           "w": 560,
+           "h": 34
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#1a1a1a",
+           "fs": 14,
+           "fw": 400,
+           "radius": 0,
+           "display": "table-row",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": [
+           {
+            "tag": "td",
+            "role": "",
+            "name": "#1042",
+            "text": "#1042",
+            "box": {
+             "x": 16,
+             "y": 159.5,
+             "w": 96,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Oluwaseun Adebayo-Whitfield Consulting Partners",
+            "text": "Oluwaseun Adebayo-Whitfield Consulting Partners",
+            "box": {
+             "x": 112,
+             "y": 159.5,
+             "w": 216,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "$1,920.00",
+            "text": "$1,920.00",
+            "box": {
+             "x": 328,
+             "y": 159.5,
+             "w": 106,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Pending",
+            "text": "",
+            "box": {
+             "x": 434,
+             "y": 159.5,
+             "w": 142,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": [
+             {
+              "tag": "span",
+              "role": "",
+              "name": "Pending",
+              "text": "Pending",
+              "box": {
+               "x": 442,
+               "y": 168,
+               "w": 61.96875,
+               "h": 19
+              },
+              "style": {
+               "bg": "#fff4d6",
+               "border": "",
+               "borderW": 0,
+               "color": "#8a5a00",
+               "fs": 12,
+               "fw": 400,
+               "radius": 10,
+               "display": "inline",
+               "dir": "row",
+               "opacity": 1
+              },
+              "attrs": {},
+              "children": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "tr",
+          "role": "",
+          "name": "#1043Kenji Mori$36.50Paid",
+          "text": "",
+          "box": {
+           "x": 16,
+           "y": 193.5,
+           "w": 560,
+           "h": 34
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#1a1a1a",
+           "fs": 14,
+           "fw": 400,
+           "radius": 0,
+           "display": "table-row",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": [
+           {
+            "tag": "td",
+            "role": "",
+            "name": "#1043",
+            "text": "#1043",
+            "box": {
+             "x": 16,
+             "y": 193.5,
+             "w": 96,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Kenji Mori",
+            "text": "Kenji Mori",
+            "box": {
+             "x": 112,
+             "y": 193.5,
+             "w": 216,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "$36.50",
+            "text": "$36.50",
+            "box": {
+             "x": 328,
+             "y": 193.5,
+             "w": 106,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Paid",
+            "text": "",
+            "box": {
+             "x": 434,
+             "y": 193.5,
+             "w": 142,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": [
+             {
+              "tag": "span",
+              "role": "",
+              "name": "Paid",
+              "text": "Paid",
+              "box": {
+               "x": 442,
+               "y": 202,
+               "w": 40.359375,
+               "h": 19
+              },
+              "style": {
+               "bg": "#e3f6ea",
+               "border": "",
+               "borderW": 0,
+               "color": "#0a7a3d",
+               "fs": 12,
+               "fw": 400,
+               "radius": 10,
+               "display": "inline",
+               "dir": "row",
+               "opacity": 1
+              },
+              "attrs": {},
+              "children": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "tr",
+          "role": "",
+          "name": "#1044Priya Nair$210.00Refunded",
+          "text": "",
+          "box": {
+           "x": 16,
+           "y": 227.5,
+           "w": 560,
+           "h": 34
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#1a1a1a",
+           "fs": 14,
+           "fw": 400,
+           "radius": 0,
+           "display": "table-row",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": [
+           {
+            "tag": "td",
+            "role": "",
+            "name": "#1044",
+            "text": "#1044",
+            "box": {
+             "x": 16,
+             "y": 227.5,
+             "w": 96,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Priya Nair",
+            "text": "Priya Nair",
+            "box": {
+             "x": 112,
+             "y": 227.5,
+             "w": 216,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "$210.00",
+            "text": "$210.00",
+            "box": {
+             "x": 328,
+             "y": 227.5,
+             "w": 106,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Refunded",
+            "text": "",
+            "box": {
+             "x": 434,
+             "y": 227.5,
+             "w": 142,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": [
+             {
+              "tag": "span",
+              "role": "",
+              "name": "Refunded",
+              "text": "Refunded",
+              "box": {
+               "x": 442,
+               "y": 236,
+               "w": 70.46875,
+               "h": 19
+              },
+              "style": {
+               "bg": "#fde7e7",
+               "border": "",
+               "borderW": 0,
+               "color": "#b42318",
+               "fs": 12,
+               "fw": 400,
+               "radius": 10,
+               "display": "inline",
+               "dir": "row",
+               "opacity": 1
+              },
+              "attrs": {},
+              "children": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "tr",
+          "role": "",
+          "name": "#1045Tom Becker$58.00Paid",
+          "text": "",
+          "box": {
+           "x": 16,
+           "y": 261.5,
+           "w": 560,
+           "h": 34
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#1a1a1a",
+           "fs": 14,
+           "fw": 400,
+           "radius": 0,
+           "display": "table-row",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": [
+           {
+            "tag": "td",
+            "role": "",
+            "name": "#1045",
+            "text": "#1045",
+            "box": {
+             "x": 16,
+             "y": 261.5,
+             "w": 96,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Tom Becker",
+            "text": "Tom Becker",
+            "box": {
+             "x": 112,
+             "y": 261.5,
+             "w": 216,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "$58.00",
+            "text": "$58.00",
+            "box": {
+             "x": 328,
+             "y": 261.5,
+             "w": 106,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Paid",
+            "text": "",
+            "box": {
+             "x": 434,
+             "y": 261.5,
+             "w": 142,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": [
+             {
+              "tag": "span",
+              "role": "",
+              "name": "Paid",
+              "text": "Paid",
+              "box": {
+               "x": 442,
+               "y": 270,
+               "w": 40.359375,
+               "h": 19
+              },
+              "style": {
+               "bg": "#e3f6ea",
+               "border": "",
+               "borderW": 0,
+               "color": "#0a7a3d",
+               "fs": 12,
+               "fw": 400,
+               "radius": 10,
+               "display": "inline",
+               "dir": "row",
+               "opacity": 1
+              },
+              "attrs": {},
+              "children": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "tr",
+          "role": "",
+          "name": "#1046Lina Haddad$142.75Pending",
+          "text": "",
+          "box": {
+           "x": 16,
+           "y": 295.5,
+           "w": 560,
+           "h": 34
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#1a1a1a",
+           "fs": 14,
+           "fw": 400,
+           "radius": 0,
+           "display": "table-row",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": [
+           {
+            "tag": "td",
+            "role": "",
+            "name": "#1046",
+            "text": "#1046",
+            "box": {
+             "x": 16,
+             "y": 295.5,
+             "w": 96,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Lina Haddad",
+            "text": "Lina Haddad",
+            "box": {
+             "x": 112,
+             "y": 295.5,
+             "w": 216,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "$142.75",
+            "text": "$142.75",
+            "box": {
+             "x": 328,
+             "y": 295.5,
+             "w": 106,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Pending",
+            "text": "",
+            "box": {
+             "x": 434,
+             "y": 295.5,
+             "w": 142,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": [
+             {
+              "tag": "span",
+              "role": "",
+              "name": "Pending",
+              "text": "Pending",
+              "box": {
+               "x": 442,
+               "y": 304,
+               "w": 61.96875,
+               "h": 19
+              },
+              "style": {
+               "bg": "#fff4d6",
+               "border": "",
+               "borderW": 0,
+               "color": "#8a5a00",
+               "fs": 12,
+               "fw": 400,
+               "radius": 10,
+               "display": "inline",
+               "dir": "row",
+               "opacity": 1
+              },
+              "attrs": {},
+              "children": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "tr",
+          "role": "",
+          "name": "#1047Marco Rossi$19.99Paid",
+          "text": "",
+          "box": {
+           "x": 16,
+           "y": 329.5,
+           "w": 560,
+           "h": 34
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#1a1a1a",
+           "fs": 14,
+           "fw": 400,
+           "radius": 0,
+           "display": "table-row",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": [
+           {
+            "tag": "td",
+            "role": "",
+            "name": "#1047",
+            "text": "#1047",
+            "box": {
+             "x": 16,
+             "y": 329.5,
+             "w": 96,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Marco Rossi",
+            "text": "Marco Rossi",
+            "box": {
+             "x": 112,
+             "y": 329.5,
+             "w": 216,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "$19.99",
+            "text": "$19.99",
+            "box": {
+             "x": 328,
+             "y": 329.5,
+             "w": 106,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Paid",
+            "text": "",
+            "box": {
+             "x": 434,
+             "y": 329.5,
+             "w": 142,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": [
+             {
+              "tag": "span",
+              "role": "",
+              "name": "Paid",
+              "text": "Paid",
+              "box": {
+               "x": 442,
+               "y": 338,
+               "w": 40.359375,
+               "h": 19
+              },
+              "style": {
+               "bg": "#e3f6ea",
+               "border": "",
+               "borderW": 0,
+               "color": "#0a7a3d",
+               "fs": 12,
+               "fw": 400,
+               "radius": 10,
+               "display": "inline",
+               "dir": "row",
+               "opacity": 1
+              },
+              "attrs": {},
+              "children": []
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "tr",
+          "role": "",
+          "name": "#1048Chloe Martin$305.00Paid",
+          "text": "",
+          "box": {
+           "x": 16,
+           "y": 363.5,
+           "w": 560,
+           "h": 34
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#1a1a1a",
+           "fs": 14,
+           "fw": 400,
+           "radius": 0,
+           "display": "table-row",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": [
+           {
+            "tag": "td",
+            "role": "",
+            "name": "#1048",
+            "text": "#1048",
+            "box": {
+             "x": 16,
+             "y": 363.5,
+             "w": 96,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Chloe Martin",
+            "text": "Chloe Martin",
+            "box": {
+             "x": 112,
+             "y": 363.5,
+             "w": 216,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "$305.00",
+            "text": "$305.00",
+            "box": {
+             "x": 328,
+             "y": 363.5,
+             "w": 106,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": []
+           },
+           {
+            "tag": "td",
+            "role": "",
+            "name": "Paid",
+            "text": "",
+            "box": {
+             "x": 434,
+             "y": 363.5,
+             "w": 142,
+             "h": 34
+            },
+            "style": {
+             "bg": "",
+             "border": "",
+             "borderW": 0,
+             "color": "#1a1a1a",
+             "fs": 14,
+             "fw": 400,
+             "radius": 0,
+             "display": "table-cell",
+             "dir": "row",
+             "opacity": 1
+            },
+            "attrs": {},
+            "children": [
+             {
+              "tag": "span",
+              "role": "",
+              "name": "Paid",
+              "text": "Paid",
+              "box": {
+               "x": 442,
+               "y": 372,
+               "w": 40.359375,
+               "h": 19
+              },
+              "style": {
+               "bg": "#e3f6ea",
+               "border": "",
+               "borderW": 0,
+               "color": "#0a7a3d",
+               "fs": 12,
+               "fw": 400,
+               "radius": 10,
+               "display": "inline",
+               "dir": "row",
+               "opacity": 1
+              },
+              "attrs": {},
+              "children": []
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "role": "",
+      "name": "PreviousPage 1 of 4Next",
+      "text": "",
+      "box": {
+       "x": 16,
+       "y": 410,
+       "w": 560,
+       "h": 31
+      },
+      "style": {
+       "bg": "",
+       "border": "",
+       "borderW": 0,
+       "color": "#1a1a1a",
+       "fs": 14,
+       "fw": 400,
+       "radius": 0,
+       "display": "flex",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {},
+      "children": [
+       {
+        "tag": "button",
+        "role": "button",
+        "name": "Previous",
+        "text": "Previous",
+        "box": {
+         "x": 358.671875,
+         "y": 410,
+         "w": 77.5,
+         "h": 31
+        },
+        "style": {
+         "bg": "#ffffff",
+         "border": "#cccccc",
+         "borderW": 1,
+         "color": "#101010",
+         "fs": 14,
+         "fw": 400,
+         "radius": 6,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {
+         "disabled": "1"
+        },
+        "children": []
+       },
+       {
+        "tag": "span",
+        "role": "",
+        "name": "Page 1 of 4",
+        "text": "Page 1 of 4",
+        "box": {
+         "x": 444.171875,
+         "y": 417,
+         "w": 71.875,
+         "h": 17
+        },
+        "style": {
+         "bg": "",
+         "border": "",
+         "borderW": 0,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 0,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": []
+       },
+       {
+        "tag": "button",
+        "role": "button",
+        "name": "Next",
+        "text": "Next",
+        "box": {
+         "x": 524.046875,
+         "y": 410,
+         "w": 51.953125,
+         "h": 31
+        },
+        "style": {
+         "bg": "#ffffff",
+         "border": "#cccccc",
+         "borderW": 1,
+         "color": "#000000",
+         "fs": 14,
+         "fw": 400,
+         "radius": 6,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": []
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "boxes": [
+  {
+   "line": 1,
+   "box": {
+    "x": 16,
+    "y": 16,
+    "w": 560,
+    "h": 23
+   },
+   "text": "Orders"
+  },
+  {
+   "line": 2,
+   "box": {
+    "x": 16,
+    "y": 51,
+    "w": 560,
+    "h": 31
+   },
+   "text": "Search orders"
+  },
+  {
+   "line": 3,
+   "box": {
+    "x": 16,
+    "y": 94,
+    "w": 560,
+    "h": 304
+   },
+   "text": "OrderCustomerTotalStatus #1041Ana Souza$84.00Paid #1042Oluwaseun Adebayo-Whitfield Consulting Partners$1,920.00Pending #1043Kenji Mori$36.50Paid #1044Priya Nair$210.00Refunded #1045Tom Becker$58.00Paid #1046Lina Haddad$142.75Pending #1047Marco Rossi$19.99Paid #1048Chloe Martin$305.00Paid"
+  },
+  {
+   "line": 12,
+   "box": {
+    "x": 16,
+    "y": 410,
+    "w": 560,
+    "h": 31
+   },
+   "text": "PreviousPage 1 of 4Next"
+  },
+  {
+   "line": 13,
+   "box": {
+    "x": 358.671875,
+    "y": 410,
+    "w": 77.5,
+    "h": 31
+   },
+   "text": "Previous"
+  },
+  {
+   "line": 14,
+   "box": {
+    "x": 444.171875,
+    "y": 417,
+    "w": 71.875,
+    "h": 17
+   },
+   "text": "Page 1 of 4"
+  },
+  {
+   "line": 15,
+   "box": {
+    "x": 524.046875,
+    "y": 410,
+    "w": 51.953125,
+    "h": 31
+   },
+   "text": "Next"
+  }
+ ],
+ "stats": {
+  "semantic": 14,
+  "painted": 0,
+  "demoted": 0,
+  "textRuns": 1
+ }
+}

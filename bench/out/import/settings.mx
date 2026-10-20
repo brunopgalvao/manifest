@@ -1,0 +1,9 @@
+@settings
+h1 Settings
+tabs
+  tab General
+  tab *Notifications
+    toggle "Push notifications" on
+    toggle "Email digest" off
+    toggle Sounds on
+    slider Volume 70 0..100

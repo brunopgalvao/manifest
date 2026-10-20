@@ -1,0 +1,7 @@
+@confirm
+card
+  h2 Delete 3 files?
+  text report.pdf, notes.md and draft.docx will be moved to Trash.
+  row
+    button Cancel
+    button Delete danger

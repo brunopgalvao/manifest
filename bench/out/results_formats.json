@@ -1,0 +1,54 @@
+{
+ "model": "claude-haiku-5-5",
+ "overhead": 8,
+ "create": {
+  "dash": {
+   "a2ui": 671,
+   "a2ui1": 610,
+   "express": 319,
+   "atom": 300,
+   "elemental": 426,
+   "mx1": 147
+  },
+  "form": {
+   "a2ui": 654,
+   "a2ui1": 602,
+   "express": 309,
+   "atom": 308,
+   "elemental": 393,
+   "mx1": 94
+  },
+  "table": {
+   "a2ui": 824,
+   "a2ui1": 764,
+   "express": 548,
+   "atom": 514,
+   "elemental": 675,
+   "mx1": 274
+  },
+  "flow": {
+   "a2ui": 595,
+   "a2ui1": 564,
+   "express": 313,
+   "atom": 291,
+   "elemental": 435,
+   "mx1": 98
+  },
+  "confirm": {
+   "a2ui": 394,
+   "a2ui1": 362,
+   "express": 163,
+   "atom": 140,
+   "elemental": 206,
+   "mx1": 86
+  },
+  "settings": {
+   "a2ui": 520,
+   "a2ui1": 461,
+   "express": 222,
+   "atom": 209,
+   "elemental": 341,
+   "mx1": 89
+  }
+ }
+}

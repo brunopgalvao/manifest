@@ -1,0 +1,28 @@
+{
+ "confirm": {
+  "nodes": 6,
+  "diags": []
+ },
+ "dash": {
+  "nodes": 9,
+  "diags": []
+ },
+ "flow": {
+  "nodes": 6,
+  "diags": []
+ },
+ "form": {
+  "nodes": 7,
+  "diags": []
+ },
+ "settings": {
+  "nodes": 8,
+  "diags": []
+ },
+ "table": {
+  "nodes": 7,
+  "diags": [
+   "overflow table.#1042.Customer"
+  ]
+ }
+}

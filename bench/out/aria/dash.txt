@@ -1,0 +1,9 @@
+- heading "Revenue overview" [level=1]
+- text: Revenue $308k +14% Orders 1,284 +6% Churn 2.1% +0.4pt
+- 'img "Monthly revenue, Apr to Sep: 38, 42, 51, 47, 57, 73 thousand dollars"': Apr May Jun Jul Aug Sep
+- text: Range
+- combobox "Range":
+  - option "Q3"
+  - option "YTD" [selected]
+  - option "12m"
+- button "Export CSV" [disabled]

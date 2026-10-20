@@ -1,0 +1,1111 @@
+{
+ "tree": {
+  "tag": "body",
+  "role": "",
+  "name": "Revenue overview Revenue$308k+14% Orders1,284+6% Churn2.1%+0.4pt Apr May Jun Jul Aug Sep Range Q3YTD12m Export CSV",
+  "text": "",
+  "box": {
+   "x": 0,
+   "y": 0,
+   "w": 760,
+   "h": 437
+  },
+  "style": {
+   "bg": "#ffffff",
+   "border": "",
+   "borderW": 0,
+   "color": "#1a1a1a",
+   "fs": 14,
+   "fw": 400,
+   "radius": 0,
+   "display": "block",
+   "dir": "row",
+   "opacity": 1
+  },
+  "attrs": {},
+  "children": [
+   {
+    "tag": "div",
+    "role": "",
+    "name": "Revenue overview Revenue$308k+14% Orders1,284+6% Churn2.1%+0.4pt Apr May Jun Jul Aug Sep Range Q3YTD12m Export CSV",
+    "text": "",
+    "box": {
+     "x": 0,
+     "y": 0,
+     "w": 720,
+     "h": 437
+    },
+    "style": {
+     "bg": "",
+     "border": "",
+     "borderW": 0,
+     "color": "#1a1a1a",
+     "fs": 14,
+     "fw": 400,
+     "radius": 0,
+     "display": "flex",
+     "dir": "column",
+     "opacity": 1
+    },
+    "attrs": {},
+    "children": [
+     {
+      "tag": "h1",
+      "role": "heading",
+      "name": "Revenue overview",
+      "text": "Revenue overview",
+      "box": {
+       "x": 16,
+       "y": 16,
+       "w": 688,
+       "h": 23
+      },
+      "style": {
+       "bg": "",
+       "border": "",
+       "borderW": 0,
+       "color": "#1a1a1a",
+       "fs": 20,
+       "fw": 700,
+       "radius": 0,
+       "display": "block",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {},
+      "children": []
+     },
+     {
+      "tag": "div",
+      "role": "",
+      "name": "Revenue$308k+14% Orders1,284+6% Churn2.1%+0.4pt",
+      "text": "",
+      "box": {
+       "x": 16,
+       "y": 55,
+       "w": 688,
+       "h": 84
+      },
+      "style": {
+       "bg": "",
+       "border": "",
+       "borderW": 0,
+       "color": "#1a1a1a",
+       "fs": 14,
+       "fw": 400,
+       "radius": 0,
+       "display": "flex",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {},
+      "children": [
+       {
+        "tag": "div",
+        "role": "",
+        "name": "Revenue$308k+14%",
+        "text": "",
+        "box": {
+         "x": 16,
+         "y": 55,
+         "w": 221.328125,
+         "h": 84
+        },
+        "style": {
+         "bg": "",
+         "border": "#e5e5e5",
+         "borderW": 1,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 8,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": [
+         {
+          "tag": "div",
+          "role": "",
+          "name": "Revenue",
+          "text": "Revenue",
+          "box": {
+           "x": 29,
+           "y": 68,
+           "w": 195.328125,
+           "h": 15
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#666666",
+           "fs": 12,
+           "fw": 400,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         },
+         {
+          "tag": "div",
+          "role": "",
+          "name": "$308k",
+          "text": "$308k",
+          "box": {
+           "x": 29,
+           "y": 83,
+           "w": 195.328125,
+           "h": 26
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#1a1a1a",
+           "fs": 22,
+           "fw": 600,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         },
+         {
+          "tag": "div",
+          "role": "",
+          "name": "+14%",
+          "text": "+14%",
+          "box": {
+           "x": 29,
+           "y": 109,
+           "w": 195.328125,
+           "h": 17
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#0a7a3d",
+           "fs": 14,
+           "fw": 400,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "role": "",
+        "name": "Orders1,284+6%",
+        "text": "",
+        "box": {
+         "x": 249.328125,
+         "y": 55,
+         "w": 221.34375,
+         "h": 84
+        },
+        "style": {
+         "bg": "",
+         "border": "#e5e5e5",
+         "borderW": 1,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 8,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": [
+         {
+          "tag": "div",
+          "role": "",
+          "name": "Orders",
+          "text": "Orders",
+          "box": {
+           "x": 262.328125,
+           "y": 68,
+           "w": 195.34375,
+           "h": 15
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#666666",
+           "fs": 12,
+           "fw": 400,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         },
+         {
+          "tag": "div",
+          "role": "",
+          "name": "1,284",
+          "text": "1,284",
+          "box": {
+           "x": 262.328125,
+           "y": 83,
+           "w": 195.34375,
+           "h": 26
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#1a1a1a",
+           "fs": 22,
+           "fw": 600,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         },
+         {
+          "tag": "div",
+          "role": "",
+          "name": "+6%",
+          "text": "+6%",
+          "box": {
+           "x": 262.328125,
+           "y": 109,
+           "w": 195.34375,
+           "h": 17
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#0a7a3d",
+           "fs": 14,
+           "fw": 400,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "role": "",
+        "name": "Churn2.1%+0.4pt",
+        "text": "",
+        "box": {
+         "x": 482.671875,
+         "y": 55,
+         "w": 221.328125,
+         "h": 84
+        },
+        "style": {
+         "bg": "",
+         "border": "#e5e5e5",
+         "borderW": 1,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 8,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": [
+         {
+          "tag": "div",
+          "role": "",
+          "name": "Churn",
+          "text": "Churn",
+          "box": {
+           "x": 495.671875,
+           "y": 68,
+           "w": 195.328125,
+           "h": 15
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#666666",
+           "fs": 12,
+           "fw": 400,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         },
+         {
+          "tag": "div",
+          "role": "",
+          "name": "2.1%",
+          "text": "2.1%",
+          "box": {
+           "x": 495.671875,
+           "y": 83,
+           "w": 195.328125,
+           "h": 26
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#1a1a1a",
+           "fs": 22,
+           "fw": 600,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         },
+         {
+          "tag": "div",
+          "role": "",
+          "name": "+0.4pt",
+          "text": "+0.4pt",
+          "box": {
+           "x": 495.671875,
+           "y": 109,
+           "w": 195.328125,
+           "h": 17
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#b42318",
+           "fs": 14,
+           "fw": 400,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "role": "img",
+      "name": "",
+      "text": "",
+      "box": {
+       "x": 16,
+       "y": 155,
+       "w": 688,
+       "h": 201
+      },
+      "style": {
+       "bg": "",
+       "border": "",
+       "borderW": 0,
+       "color": "#1a1a1a",
+       "fs": 14,
+       "fw": 400,
+       "radius": 0,
+       "display": "flex",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {
+       "aria-label": "Monthly revenue, Apr to Sep: 38, 42, 51, 47, 57, 73 thousand dollars"
+      },
+      "children": [
+       {
+        "tag": "div",
+        "role": "",
+        "name": "Apr",
+        "text": "",
+        "box": {
+         "x": 24,
+         "y": 251,
+         "w": 98.65625,
+         "h": 104
+        },
+        "style": {
+         "bg": "#4f6bed",
+         "border": "",
+         "borderW": 0,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 4,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": [
+         {
+          "tag": "span",
+          "role": "",
+          "name": "Apr",
+          "text": "Apr",
+          "box": {
+           "x": 24,
+           "y": 360,
+           "w": 98.65625,
+           "h": 15
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#666666",
+           "fs": 12,
+           "fw": 400,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "role": "",
+        "name": "May",
+        "text": "",
+        "box": {
+         "x": 138.65625,
+         "y": 239,
+         "w": 98.671875,
+         "h": 116
+        },
+        "style": {
+         "bg": "#4f6bed",
+         "border": "",
+         "borderW": 0,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 4,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": [
+         {
+          "tag": "span",
+          "role": "",
+          "name": "May",
+          "text": "May",
+          "box": {
+           "x": 138.65625,
+           "y": 360,
+           "w": 98.671875,
+           "h": 15
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#666666",
+           "fs": 12,
+           "fw": 400,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "role": "",
+        "name": "Jun",
+        "text": "",
+        "box": {
+         "x": 253.328125,
+         "y": 215,
+         "w": 98.65625,
+         "h": 140
+        },
+        "style": {
+         "bg": "#4f6bed",
+         "border": "",
+         "borderW": 0,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 4,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": [
+         {
+          "tag": "span",
+          "role": "",
+          "name": "Jun",
+          "text": "Jun",
+          "box": {
+           "x": 253.328125,
+           "y": 360,
+           "w": 98.65625,
+           "h": 15
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#666666",
+           "fs": 12,
+           "fw": 400,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "role": "",
+        "name": "Jul",
+        "text": "",
+        "box": {
+         "x": 367.984375,
+         "y": 227,
+         "w": 98.671875,
+         "h": 128
+        },
+        "style": {
+         "bg": "#4f6bed",
+         "border": "",
+         "borderW": 0,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 4,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": [
+         {
+          "tag": "span",
+          "role": "",
+          "name": "Jul",
+          "text": "Jul",
+          "box": {
+           "x": 367.984375,
+           "y": 360,
+           "w": 98.671875,
+           "h": 15
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#666666",
+           "fs": 12,
+           "fw": 400,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "role": "",
+        "name": "Aug",
+        "text": "",
+        "box": {
+         "x": 482.65625,
+         "y": 199,
+         "w": 98.671875,
+         "h": 156
+        },
+        "style": {
+         "bg": "#4f6bed",
+         "border": "",
+         "borderW": 0,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 4,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": [
+         {
+          "tag": "span",
+          "role": "",
+          "name": "Aug",
+          "text": "Aug",
+          "box": {
+           "x": 482.65625,
+           "y": 360,
+           "w": 98.671875,
+           "h": 15
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#666666",
+           "fs": 12,
+           "fw": 400,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         }
+        ]
+       },
+       {
+        "tag": "div",
+        "role": "",
+        "name": "Sep",
+        "text": "",
+        "box": {
+         "x": 597.328125,
+         "y": 155,
+         "w": 98.671875,
+         "h": 200
+        },
+        "style": {
+         "bg": "#1f3fd1",
+         "border": "",
+         "borderW": 0,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 4,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": [
+         {
+          "tag": "span",
+          "role": "",
+          "name": "Sep",
+          "text": "Sep",
+          "box": {
+           "x": 597.328125,
+           "y": 360,
+           "w": 98.671875,
+           "h": 15
+          },
+          "style": {
+           "bg": "",
+           "border": "",
+           "borderW": 0,
+           "color": "#666666",
+           "fs": 12,
+           "fw": 400,
+           "radius": 0,
+           "display": "block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "role": "",
+      "name": "Range Q3YTD12m Export CSV",
+      "text": "",
+      "box": {
+       "x": 16,
+       "y": 388,
+       "w": 688,
+       "h": 33
+      },
+      "style": {
+       "bg": "",
+       "border": "",
+       "borderW": 0,
+       "color": "#1a1a1a",
+       "fs": 14,
+       "fw": 400,
+       "radius": 0,
+       "display": "flex",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {},
+      "children": [
+       {
+        "tag": "label",
+        "role": "label",
+        "name": "Range Q3YTD12m",
+        "text": "Range",
+        "box": {
+         "x": 16,
+         "y": 388,
+         "w": 114.609375,
+         "h": 33
+        },
+        "style": {
+         "bg": "",
+         "border": "",
+         "borderW": 0,
+         "color": "#1a1a1a",
+         "fs": 14,
+         "fw": 400,
+         "radius": 0,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": [
+         {
+          "tag": "select",
+          "role": "combobox",
+          "name": "Range",
+          "text": "",
+          "box": {
+           "x": 60.609375,
+           "y": 388,
+           "w": 70,
+           "h": 33
+          },
+          "style": {
+           "bg": "#ffffff",
+           "border": "#cccccc",
+           "borderW": 1,
+           "color": "#000000",
+           "fs": 14,
+           "fw": 400,
+           "radius": 6,
+           "display": "inline-block",
+           "dir": "row",
+           "opacity": 1
+          },
+          "attrs": {},
+          "children": [],
+          "options": [
+           {
+            "label": "Q3",
+            "selected": false
+           },
+           {
+            "label": "YTD",
+            "selected": true
+           },
+           {
+            "label": "12m",
+            "selected": false
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "tag": "button",
+        "role": "button",
+        "name": "Export CSV",
+        "text": "Export CSV",
+        "box": {
+         "x": 138.609375,
+         "y": 389,
+         "w": 99.734375,
+         "h": 31
+        },
+        "style": {
+         "bg": "#ffffff",
+         "border": "#cccccc",
+         "borderW": 1,
+         "color": "#101010",
+         "fs": 14,
+         "fw": 400,
+         "radius": 6,
+         "display": "block",
+         "dir": "row",
+         "opacity": 0.5
+        },
+        "attrs": {
+         "disabled": "1"
+        },
+        "children": []
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "boxes": [
+  {
+   "line": 1,
+   "box": {
+    "x": 16,
+    "y": 16,
+    "w": 688,
+    "h": 23
+   },
+   "text": "Revenue overview"
+  },
+  {
+   "line": 2,
+   "box": {
+    "x": 16,
+    "y": 55,
+    "w": 688,
+    "h": 84
+   },
+   "text": "Revenue$308k+14% Orders1,284+6% Churn2.1%+0.4pt"
+  },
+  {
+   "line": 3,
+   "box": {
+    "x": 16,
+    "y": 55,
+    "w": 221.328125,
+    "h": 84
+   },
+   "text": "Revenue$308k+14%"
+  },
+  {
+   "line": 4,
+   "box": {
+    "x": 249.328125,
+    "y": 55,
+    "w": 221.34375,
+    "h": 84
+   },
+   "text": "Orders1,284+6%"
+  },
+  {
+   "line": 5,
+   "box": {
+    "x": 482.671875,
+    "y": 55,
+    "w": 221.328125,
+    "h": 84
+   },
+   "text": "Churn2.1%+0.4pt"
+  },
+  {
+   "line": 6,
+   "box": {
+    "x": 16,
+    "y": 155,
+    "w": 688,
+    "h": 201
+   },
+   "text": ""
+  },
+  {
+   "line": 7,
+   "box": {
+    "x": 24,
+    "y": 251,
+    "w": 98.65625,
+    "h": 104
+   },
+   "text": "Apr"
+  },
+  {
+   "line": 8,
+   "box": {
+    "x": 24,
+    "y": 360,
+    "w": 98.65625,
+    "h": 15
+   },
+   "text": "Apr"
+  },
+  {
+   "line": 9,
+   "box": {
+    "x": 138.65625,
+    "y": 239,
+    "w": 98.671875,
+    "h": 116
+   },
+   "text": "May"
+  },
+  {
+   "line": 10,
+   "box": {
+    "x": 138.65625,
+    "y": 360,
+    "w": 98.671875,
+    "h": 15
+   },
+   "text": "May"
+  },
+  {
+   "line": 11,
+   "box": {
+    "x": 253.328125,
+    "y": 215,
+    "w": 98.65625,
+    "h": 140
+   },
+   "text": "Jun"
+  },
+  {
+   "line": 12,
+   "box": {
+    "x": 253.328125,
+    "y": 360,
+    "w": 98.65625,
+    "h": 15
+   },
+   "text": "Jun"
+  },
+  {
+   "line": 13,
+   "box": {
+    "x": 367.984375,
+    "y": 227,
+    "w": 98.671875,
+    "h": 128
+   },
+   "text": "Jul"
+  },
+  {
+   "line": 14,
+   "box": {
+    "x": 367.984375,
+    "y": 360,
+    "w": 98.671875,
+    "h": 15
+   },
+   "text": "Jul"
+  },
+  {
+   "line": 15,
+   "box": {
+    "x": 482.65625,
+    "y": 199,
+    "w": 98.671875,
+    "h": 156
+   },
+   "text": "Aug"
+  },
+  {
+   "line": 16,
+   "box": {
+    "x": 482.65625,
+    "y": 360,
+    "w": 98.671875,
+    "h": 15
+   },
+   "text": "Aug"
+  },
+  {
+   "line": 17,
+   "box": {
+    "x": 597.328125,
+    "y": 155,
+    "w": 98.671875,
+    "h": 200
+   },
+   "text": "Sep"
+  },
+  {
+   "line": 18,
+   "box": {
+    "x": 597.328125,
+    "y": 360,
+    "w": 98.671875,
+    "h": 15
+   },
+   "text": "Sep"
+  },
+  {
+   "line": 19,
+   "box": {
+    "x": 16,
+    "y": 388,
+    "w": 688,
+    "h": 33
+   },
+   "text": "Range Q3YTD12m Export CSV"
+  },
+  {
+   "line": 20,
+   "box": {
+    "x": 60.609375,
+    "y": 388,
+    "w": 70,
+    "h": 33
+   },
+   "text": "Range"
+  },
+  {
+   "line": 21,
+   "box": {
+    "x": 138.609375,
+    "y": 389,
+    "w": 99.734375,
+    "h": 31
+   },
+   "text": "Export CSV"
+  }
+ ],
+ "stats": {
+  "semantic": 6,
+  "painted": 12,
+  "demoted": 1,
+  "textRuns": 6
+ }
+}

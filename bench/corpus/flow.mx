@@ -1,0 +1,5 @@
+@flow
+h1 "How Manifest works"
+flow "Agent writes MX, Renderer draws it, Perception reads back to Agent"
+  Agent >writes MX >draws Renderer >reads Perception:success
+  Perception >"tree, boxes, diagnostics" Agent dashed below

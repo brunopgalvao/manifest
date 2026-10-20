@@ -1,0 +1,17 @@
+<a2ui>
+(data
+  $/dark false
+  $/push true
+  $/email false
+  $/sound true
+  $/volume 70)
+(Column
+  (Text "Settings" "h1")
+  (Tabs :tabs [
+    (:title "General" :child (Column (CheckBox "Dark mode" $/dark)))
+    (:title "Notifications" :child (Column
+      (CheckBox "Push notifications" $/push)
+      (CheckBox "Email digest" $/email)
+      (CheckBox "Sounds" $/sound)
+      (Slider "Volume" 0 100 $/volume)))]))
+</a2ui>

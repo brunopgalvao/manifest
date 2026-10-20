@@ -1,0 +1,150 @@
+You are reading user interfaces described in MX, a compact text format. One node per line, indent to nest.
+Nodes: h1/h2 headings, text, metric Label Value [Delta], button, field, select (*marks the chosen option), check/toggle on|off,
+slider Label value min..max, table (header line, then one row per line, cells separated by |), bar/line/pie charts as Key:Value pairs,
+flow diagrams as chains (Agent >writes MX >draws Renderer; "below dashed" routes a chain under the others), tabs with *selected tab.
+Geometry: a node with WxH is a drawing space; inside it nodes sit at @x,y. Shapes: rect @x,y WxH, circle @cx,cy r:N, path "...",
+text @x,y "string". A quoted string at the end of a shape is its label. region/item/figure "Label" name an area or a part.
+Colours: fill:primary (blue), success (green), danger (red), warning (amber), info (teal), muted (grey); tone-NN is a lighter step.
+series name k:v ... is a data buffer; =name binds a chart or metric to it; [N points] min: max: last: summarise it.
+Level 1 shows only labelled shapes inside a space, with [N shapes, M labelled] counts; level 2 adds @x,y,w,h boxes in pixels;
+level 3 shows every shape with its box. !overflow and other lines are the renderer's diagnostics. Answer each question briefly from the text alone.
+
+=== UI "funnel" ===
+@funnel rev=0
+h2 Q3 pipeline
+region 640x320 #pipe [12 shapes, 11 labelled]
+  region Funnel @40,20
+    rect @0,0 560x48 fill:primary radius:6 "Leads 1,240" #leads
+    text @280,30 anchor:middle fill:white size:14 weight:600 "Leads 1,240"
+    rect @40,64 480x48 fill:primary-70 radius:6 "Qualified 610" #qualified
+    text @280,94 anchor:middle fill:white size:14 weight:600 "Qualified 610"
+    rect @120,128 320x48 fill:success radius:6 "Won 95" #won
+    text @280,158 anchor:middle fill:white size:14 weight:600 "Won 95"
+    text @280,210 anchor:middle fill:fg2 size:14 "7.7% conversion"
+  circle @300,252 r:4 fill:danger "Target" #marker
+  button "Export PNG" @520,272 100x32
+    text @50,21 anchor:middle fill:white size:13 weight:600 "Export PNG"
+row end
+  button Reset
+--- questions ---
+funnel.1 How many leads are in the funnel?
+funnel.2 What is the conversion rate shown?
+funnel.3 Which stage is painted green?
+funnel.4 Is there a button inside the drawing, and what does it say?
+funnel.5 What is the width of the Qualified bar, in pixels?
+
+=== UI "gantt" ===
+@gantt rev=0
+h2 Release plan, Q4
+region 640x200 #plan [17 shapes, 16 labelled]
+  region Weeks @120,0
+    text @0,14 fill:fg2 size:11 "Oct"
+    text @130,14 fill:fg2 size:11 "Nov"
+    text @260,14 fill:fg2 size:11 "Dec"
+  region Tasks @0,30
+    text @0,20 size:13 "Design"
+    rect @120,6 110x20 fill:primary radius:4 "Design, 2 to 4 Oct"
+    text @0,56 size:13 "Build"
+    rect @200,42 200x20 fill:primary radius:4 "Build, 20 Oct to 8 Nov"
+    text @0,92 size:13 "Beta"
+    rect @380,78 90x20 fill:warning radius:4 "Beta, 10 to 20 Nov"
+    text @0,128 size:13 "Launch"
+    rect @470,114 24x20 fill:success radius:4 "Launch, 24 Nov"
+    text @0,164 size:13 "Hiring"
+    rect @120,150 350x20 fill:muted-40 radius:4 "Hiring, ongoing"
+  line @352,20 @352,200 stroke:danger width:2 "Today" dashed #today
+--- questions ---
+gantt.1 Which task is in progress on the today line (week of 11 Nov)?
+gantt.2 Which task is the shortest?
+gantt.3 Which task runs the whole quarter?
+gantt.4 What colour or tone is the Beta bar?
+gantt.5 How many tasks are listed?
+
+=== UI "map" ===
+@map rev=0
+h2 Warehouse, floor 2
+region 640x360 #floor [17 shapes, 19 labelled]
+  region Receiving @20,20 200x120 fill:info-30 radius:6
+    text @12,24 size:13 weight:600 "Receiving"
+    rect @20,50 40x40 fill:info radius:4 "Dock A"
+    rect @80,50 40x40 fill:info radius:4 "Dock B"
+    rect @140,50 40x40 fill:warning radius:4 "Dock C, occupied"
+  region Storage @240,20 380x200 fill:muted-30 radius:6
+    text @12,24 size:13 weight:600 "Storage"
+    rect @20,40 100x60 fill:card stroke:line "Aisle 1"
+    rect @140,40 100x60 fill:card stroke:line "Aisle 2"
+    rect @260,40 100x60 fill:card stroke:line "Aisle 3"
+    rect @20,120 100x60 fill:card stroke:line "Aisle 4"
+    rect @140,120 100x60 fill:card stroke:line "Aisle 5"
+    rect @260,120 100x60 fill:danger-40 stroke:danger "Aisle 6, blocked"
+  region Shipping @20,240 600x100 fill:success-30 radius:6
+    text @12,24 size:13 weight:600 "Shipping"
+    circle @80,60 r:14 fill:success "Truck 1, loading"
+    circle @140,60 r:14 fill:muted "Truck 2, waiting"
+  button "Locate pallet" @500,10 120x28
+    text @60,18 anchor:middle fill:white size:12 weight:600 "Locate pallet"
+--- questions ---
+map.1 Which dock is occupied?
+map.2 Which aisle is blocked?
+map.3 How many trucks are in Shipping and what is each doing?
+map.4 How many aisles are there in Storage?
+map.5 What does the button in the top right do?
+
+=== UI "kpi" ===
+@kpi rev=0
+region "Monthly active users" 320x140 [8 shapes, 8 labelled]
+  metric "Active users" null @20,16
+    text @0,14 fill:fg2 size:12 "Active users"
+    text @0,52 size:32 weight:650 "48,210"
+    text @130,52 fill:success size:12 "+12% vs last month"
+  figure "Sparkline, 12 weeks" @20,90
+    circle @280,4 r:3 fill:primary "Latest"
+  button "View report" @216,100 84x24
+    text @42,16 anchor:middle size:11 weight:600 "View report"
+--- questions ---
+kpi.1 How many active users are there?
+kpi.2 How did active users change versus last month?
+kpi.3 How many weeks does the sparkline cover?
+kpi.4 What can the user click?
+kpi.5 Is the trend going up or down?
+
+=== UI "live" ===
+@live rev=0
+h2 Live revenue
+series sales [6 points] min:38 max:73 last:73
+row
+  metric Latest =sales.last
+  metric Peak =sales.max
+line "Revenue (k$)" =sales
+text Patch the series (+sales Oct:80, *sales.Sep 75, -sales.Apr) and every bound node follows.
+--- questions ---
+live.1 What is the latest revenue value?
+live.2 How many points does the sales series have?
+live.3 What is the minimum value in the series?
+live.4 Which nodes are bound to the sales series?
+live.5 What is the peak value?
+
+=== UI "diagram" ===
+@diagram rev=0
+h2 Request path
+region 640x260 #arch [19 shapes, 14 labelled]
+  item Client @20,100
+    text @60,33 anchor:middle size:13 "Client"
+  item Edge @200,100
+    text @60,33 anchor:middle size:13 "Edge"
+  item API @380,30
+    text @60,33 anchor:middle size:13 "API"
+  item Cache @380,170
+    text @60,33 anchor:middle size:13 "Cache"
+  item Database @540,30
+    text @45,33 anchor:middle size:13 "Database"
+  text @170,120 anchor:middle fill:fg2 size:11 "HTTPS"
+  text @350,80 anchor:middle fill:fg2 size:11 "miss"
+  text @350,178 anchor:middle fill:fg2 size:11 "hit"
+  text @452,130 fill:fg2 size:11 "fill"
+--- questions ---
+diagram.1 Where does a request go from the Edge on a cache miss?
+diagram.2 What protocol is on the arrow from Client to Edge?
+diagram.3 Which component talks to the Database?
+diagram.4 What does the dashed arrow between API and Cache mean?
+diagram.5 How many components are in the diagram?

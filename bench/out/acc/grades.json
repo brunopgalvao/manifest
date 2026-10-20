@@ -1,0 +1,79 @@
+{
+ "aria": {
+  "correct": 22,
+  "of": 30,
+  "wrong": {
+   "table.2": "unknown",
+   "flow.1": "unknown",
+   "flow.2": "unknown",
+   "flow.3": "unknown",
+   "flow.4": "unknown",
+   "flow.5": "unknown",
+   "confirm.2": "unknown",
+   "confirm.4": "unknown"
+  }
+ },
+ "mx0_L1": {
+  "correct": 27,
+  "of": 30,
+  "wrong": {
+   "table.1": "Paid",
+   "table.2": "unknown",
+   "flow.5": "unknown"
+  }
+ },
+ "mx0_L2": {
+  "correct": 30,
+  "of": 30,
+  "wrong": {}
+ },
+ "mx11_L1": {
+  "correct": 28,
+  "of": 30,
+  "wrong": {
+   "flow.3": "unknown",
+   "settings.4": "unknown"
+  }
+ },
+ "mx11_L2": {
+  "correct": 29,
+  "of": 30,
+  "wrong": {
+   "flow.3": "unknown"
+  }
+ },
+ "mx12_L1": {
+  "correct": 30,
+  "of": 30,
+  "wrong": {}
+ },
+ "mx12_L2": {
+  "correct": 30,
+  "of": 30,
+  "wrong": {}
+ },
+ "mx1_L1": {
+  "correct": 28,
+  "of": 30,
+  "wrong": {
+   "table.2": "unknown",
+   "flow.1": "3"
+  }
+ },
+ "mx1_L2": {
+  "correct": 29,
+  "of": 30,
+  "wrong": {
+   "flow.3": "unknown"
+  }
+ },
+ "shot": {
+  "correct": 27,
+  "of": 30,
+  "wrong": {
+   "dash.1": "unknown",
+   "confirm.4": "No, no timer is shown; it stays until a button is clicked",
+   "settings.3": "unknown (slider with no numeric value shown, roughly three-quarters)"
+  }
+ }
+}

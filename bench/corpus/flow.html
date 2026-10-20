@@ -1,0 +1,22 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Pipeline</title>
+<style>
+body{margin:0;font:14px system-ui,sans-serif;color:#1a1a1a;background:#fff}
+.wrap{padding:16px;width:688px}
+h1{font-size:20px;margin:0 0 12px}
+svg text{font:14px system-ui,sans-serif}
+</style></head>
+<body><div class="wrap" data-mx="root">
+<h1 data-mx="title">How Manifest works</h1>
+<svg width="688" height="220" viewBox="0 0 688 220" role="img" aria-label="Pipeline: Agent writes MX, Renderer draws it, Perception reads back to Agent" data-mx="diagram">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#555"/></marker></defs>
+<g data-mx="agent"><rect x="0" y="40" width="130" height="56" rx="8" fill="#eef1fd" stroke="#4f6bed"/><text x="65" y="73" text-anchor="middle">Agent</text></g>
+<g data-mx="mx"><rect x="186" y="40" width="130" height="56" rx="8" fill="#eef1fd" stroke="#4f6bed"/><text x="251" y="73" text-anchor="middle">MX</text></g>
+<g data-mx="renderer"><rect x="372" y="40" width="130" height="56" rx="8" fill="#eef1fd" stroke="#4f6bed"/><text x="437" y="73" text-anchor="middle">Renderer</text></g>
+<g data-mx="perception"><rect x="558" y="40" width="130" height="56" rx="8" fill="#e3f6ea" stroke="#0a7a3d"/><text x="623" y="73" text-anchor="middle">Perception</text></g>
+<path d="M130 68H184" stroke="#555" marker-end="url(#a)"/><text x="157" y="60" text-anchor="middle" font-size="12">writes</text>
+<path d="M316 68H370" stroke="#555" marker-end="url(#a)"/><text x="343" y="60" text-anchor="middle" font-size="12">draws</text>
+<path d="M502 68H556" stroke="#555" marker-end="url(#a)"/><text x="529" y="60" text-anchor="middle" font-size="12">reads</text>
+<path d="M623 96V170H65V98" fill="none" stroke="#555" stroke-dasharray="4 4" marker-end="url(#a)"/><text x="344" y="190" text-anchor="middle" font-size="12">tree, boxes, diagnostics</text>
+</svg>
+</div></body></html>

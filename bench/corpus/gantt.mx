@@ -1,0 +1,22 @@
+@gantt
+h2 "Release plan, Q4"
+region 640x200 #plan
+  region "Weeks" @120,0
+    text @0,14 "Oct" size:11 fill:fg2
+    text @130,14 "Nov" size:11 fill:fg2
+    text @260,14 "Dec" size:11 fill:fg2
+    line @0,20 @0,200 stroke:line
+    line @130,20 @130,200 stroke:line
+    line @260,20 @260,200 stroke:line
+  region "Tasks" @0,30
+    text @0,20 "Design" size:13
+    rect @120,6 110x20 fill:primary radius:4 "Design, 2 to 4 Oct"
+    text @0,56 "Build" size:13
+    rect @200,42 200x20 fill:primary radius:4 "Build, 20 Oct to 8 Nov"
+    text @0,92 "Beta" size:13
+    rect @380,78 90x20 fill:warning radius:4 "Beta, 10 to 20 Nov"
+    text @0,128 "Launch" size:13
+    rect @470,114 24x20 fill:success radius:4 "Launch, 24 Nov"
+    text @0,164 "Hiring" size:13
+    rect @120,150 350x20 fill:muted-40 radius:4 "Hiring, ongoing"
+  line @352,20 @352,200 stroke:danger width:2 dashed #today "Today"

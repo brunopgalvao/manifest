@@ -1,0 +1,77 @@
+[
+ {
+  "version": "v1.0",
+  "createSurface": {
+   "surfaceId": "confirm",
+   "catalogId": "https://manifest.dev/bench/catalog.json",
+   "components": [
+    {
+     "id": "root",
+     "component": "Card",
+     "child": "node_0"
+    },
+    {
+     "id": "node_0",
+     "component": "Column",
+     "children": [
+      "node_1",
+      "node_2",
+      "node_3"
+     ]
+    },
+    {
+     "id": "node_3",
+     "component": "Row",
+     "justify": "end",
+     "children": [
+      "node_4",
+      "node_6"
+     ]
+    },
+    {
+     "id": "node_6",
+     "component": "Button",
+     "variant": "primary",
+     "action": {
+      "event": {
+       "name": "delete"
+      }
+     },
+     "child": "node_7"
+    },
+    {
+     "id": "node_7",
+     "component": "Text",
+     "text": "Delete"
+    },
+    {
+     "id": "node_4",
+     "component": "Button",
+     "action": {
+      "event": {
+       "name": "cancel"
+      }
+     },
+     "child": "node_5"
+    },
+    {
+     "id": "node_5",
+     "component": "Text",
+     "text": "Cancel"
+    },
+    {
+     "id": "node_2",
+     "component": "Text",
+     "text": "report.pdf, notes.md and draft.docx will be moved to Trash."
+    },
+    {
+     "id": "node_1",
+     "component": "Text",
+     "text": "Delete 3 files?",
+     "variant": "h2"
+    }
+   ],
+   "dataModel": {}
+  }
+ }
+]

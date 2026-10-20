@@ -1,0 +1,10 @@
+@dash
+h1 "Revenue overview"
+row
+  metric Revenue $308k +14%
+  metric Orders 1,284 +6%
+  metric Churn 2.1% +0.4pt danger
+bar "Monthly revenue (k$)" Apr:38 May:42 Jun:51 Jul:47 Aug:57 *Sep:73
+row
+  select Range Q3 *YTD 12m
+  button "Export CSV" disabled

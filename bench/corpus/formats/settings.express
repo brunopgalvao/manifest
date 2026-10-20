@@ -1,0 +1,15 @@
+$/dark = false
+$/push = true
+$/email = false
+$/sound = true
+$/volume = 70
+root = Column([title, tabs])
+title = Text("Settings", "h1")
+tabs = Tabs([{title: "General", child: general}, {title: "Notifications", child: notif}])
+general = Column([dark])
+dark = CheckBox("Dark mode", $/dark)
+notif = Column([push, email, sound, volume])
+push = CheckBox("Push notifications", $/push)
+email = CheckBox("Email digest", $/email)
+sound = CheckBox("Sounds", $/sound)
+volume = Slider("Volume", 0, 100, $/volume)

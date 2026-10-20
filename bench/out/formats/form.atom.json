@@ -1,0 +1,143 @@
+[
+ {
+  "version": "v1.0",
+  "createSurface": {
+   "surfaceId": "form",
+   "catalogId": "https://manifest.dev/bench/catalog.json",
+   "components": [
+    {
+     "id": "root",
+     "component": "Column",
+     "children": [
+      "node_0",
+      "node_1",
+      "node_2",
+      "node_3",
+      "node_4",
+      "node_5",
+      "node_6"
+     ]
+    },
+    {
+     "id": "node_6",
+     "component": "Button",
+     "variant": "primary",
+     "action": {
+      "event": {
+       "name": "book",
+       "context": {
+        "value": {
+         "form": {
+          "@path": "/"
+         }
+        }
+       }
+      }
+     },
+     "child": "node_7"
+    },
+    {
+     "id": "node_7",
+     "component": "Text",
+     "text": "Book"
+    },
+    {
+     "id": "node_5",
+     "component": "CheckBox",
+     "label": "Send me the weekly schedule",
+     "value": {
+      "@path": "/news"
+     }
+    },
+    {
+     "id": "node_4",
+     "component": "ChoicePicker",
+     "label": "Class",
+     "options": [
+      {
+       "label": "Vinyasa",
+       "value": "vinyasa"
+      },
+      {
+       "label": "Yin",
+       "value": "yin"
+      },
+      {
+       "label": "Ashtanga",
+       "value": "ashtanga"
+      }
+     ],
+     "value": {
+      "@path": "/class"
+     }
+    },
+    {
+     "id": "node_3",
+     "component": "DateTimeInput",
+     "label": "Date",
+     "value": {
+      "@path": "/date"
+     },
+     "enableDate": true
+    },
+    {
+     "id": "node_2",
+     "component": "TextField",
+     "label": "Email",
+     "value": {
+      "@path": "/email"
+     },
+     "checks": [
+      {
+       "condition": {
+        "@call": "email",
+        "args": {
+         "value": {
+          "@path": "/email"
+         }
+        }
+       },
+       "message": "Enter a valid email"
+      }
+     ]
+    },
+    {
+     "id": "node_1",
+     "component": "TextField",
+     "label": "Full name",
+     "value": {
+      "@path": "/name"
+     },
+     "checks": [
+      {
+       "condition": {
+        "@call": "required",
+        "args": {
+         "value": {
+          "@path": "/name"
+         }
+        }
+       },
+       "message": "Required"
+      }
+     ]
+    },
+    {
+     "id": "node_0",
+     "component": "Text",
+     "text": "Book a class",
+     "variant": "h1"
+    }
+   ],
+   "dataModel": {
+    "name": "Sam Lee",
+    "email": "sam@",
+    "date": "2026-10-21",
+    "class": [
+     "yin"
+    ],
+    "news": true
+   }
+  }
+ }
+]

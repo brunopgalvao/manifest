@@ -1,0 +1,8 @@
+@live
+h2 "Live revenue"
+series sales Apr:38 May:42 Jun:51 Jul:47 Aug:57 Sep:73
+row
+  metric Latest =sales.last
+  metric Peak =sales.max
+line "Revenue (k$)" =sales
+text "Patch the series (+sales Oct:80, *sales.Sep 75, -sales.Apr) and every bound node follows."

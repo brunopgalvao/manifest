@@ -1,0 +1,27 @@
+@diagram
+h2 "Request path"
+region 640x260 #arch
+  item "Client" @20,100
+    rect @0,0 120x56 fill:primary-20 stroke:primary radius:8
+    text @60,33 "Client" anchor:middle size:13
+  item "Edge" @200,100
+    rect @0,0 120x56 fill:primary-20 stroke:primary radius:8
+    text @60,33 "Edge" anchor:middle size:13
+  item "API" @380,30
+    rect @0,0 120x56 fill:primary-20 stroke:primary radius:8
+    text @60,33 "API" anchor:middle size:13
+  item "Cache" @380,170
+    rect @0,0 120x56 fill:success-20 stroke:success radius:8
+    text @60,33 "Cache" anchor:middle size:13
+  item "Database" @540,30
+    rect @0,0 90x56 fill:warning-20 stroke:warning radius:8
+    text @45,33 "Database" anchor:middle size:13
+  path "M 140 128 L 200 128" stroke:fg2 width:1.5
+  text @170,120 "HTTPS" size:11 fill:fg2 anchor:middle
+  path "M 320 118 C 350 118 350 58 380 58" stroke:fg2 width:1.5
+  text @350,80 "miss" size:11 fill:fg2 anchor:middle
+  path "M 320 138 C 350 138 350 198 380 198" stroke:fg2 width:1.5
+  text @350,178 "hit" size:11 fill:fg2 anchor:middle
+  path "M 500 58 L 540 58" stroke:fg2 width:1.5
+  path "M 440 86 L 440 170" stroke:fg2 width:1.5 dashed
+  text @452,130 "fill" size:11 fill:fg2

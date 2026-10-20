@@ -1,0 +1,12 @@
+$/range = ["YTD"]
+root = Column([title, kpis, chart, controls])
+title = Text("Revenue overview", "h1")
+kpis = Row([rev, orders, churn])
+rev = Metric("Revenue", "$308k", "+14%", "positive")
+orders = Metric("Orders", "1,284", "+6%", "positive")
+churn = Metric("Churn", "2.1%", "+0.4pt", "negative")
+chart = BarChart("Monthly revenue (k$)", ["Apr", "May", "Jun", "Jul", "Aug", "Sep"], [38, 42, 51, 47, 57, 73], 5)
+controls = Row([range, export], _, "center")
+range = ChoicePicker("Range", _, ["Q3", "YTD", "12m"], $/range)
+export = Button(export_t, _, Event("export"), [?required($/exportReady, "No data to export")])
+export_t = Text("Export CSV")

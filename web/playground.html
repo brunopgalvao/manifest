@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manifest playground</title>
+<style>/*CSS*/</style>
+<style>
+#screen { display: block; width: 100%; border: 1px dashed var(--line); border-radius: 8px; cursor: default; }
+#screen.pointer { cursor: pointer; } #screen.text { cursor: text; }
+</style>
+</head>
+<body>
+<nav><!--NAV--></nav>
+<div class="play">
+  <section>
+    <h2>Write MX</h2>
+    <p style="color:var(--muted);font-size:14px;margin:0 0 8px">The engine, compiled to WebAssembly: layout, painting, perception and input happen in it; the browser only shows pixels. <span id="size"></span></p>
+    <div class="bar">
+      <select id="example"></select>
+      <button class="primary" id="render">Render</button>
+      <label style="font-size:14px;color:var(--muted)"><input type="checkbox" id="dark"> dark</label>
+      <span id="status" style="color:var(--muted);font-size:14px"></span>
+    </div>
+    <textarea id="src" spellcheck="false"></textarea>
+    <h2 style="margin-top:16px">Patch it</h2>
+    <div class="bar"><button id="apply">Apply patch</button></div>
+    <textarea id="patch" class="patch" spellcheck="false">~1
+*revenue $315k +16%
+*bar.Sep 80</textarea>
+    <h2 style="margin-top:16px">Read it back</h2>
+    <div class="bar">
+      <button data-level="0">observe L0</button>
+      <button data-level="1">observe L1</button>
+      <button data-level="2">observe L2</button>
+      <button id="since">since last</button>
+      <button id="events">events</button>
+      <button id="dissolve">dissolve</button>
+      <span id="timing" style="color:var(--muted);font-size:14px"></span>
+    </div>
+    <pre id="out">Loading the engine…</pre>
+    <details><summary>Cheat sheet</summary><pre><!--CHEAT--></pre></details>
+  </section>
+  <section>
+    <h2>Rendered</h2>
+    <canvas id="screen" width="760" height="900" tabindex="0"></canvas>
+  </section>
+</div>
+<script type="module">
+import { loadManifest } from "./manifest.js";
+const EXAMPLES = /*EXAMPLES*/;
+const $ = (id) => document.getElementById(id);
+const src = $("src"), patch = $("patch"), out = $("out"), status = $("status"), sel = $("example"), canvas = $("screen"), ctx = canvas.getContext("2d");
+for (const name of Object.keys(EXAMPLES)) sel.appendChild(Object.assign(document.createElement("option"), { value: name, textContent: name }));
+sel.addEventListener("change", () => { src.value = EXAMPLES[sel.value]; });
+src.value = EXAMPLES[sel.value = "dash"];
+const show = (t) => { out.textContent = t; };
+let m, current = null, lastRev = 0, placed = [], scroll = 0;
+const dpr = () => window.devicePixelRatio || 1;
+const cssW = () => canvas.clientWidth || 760;
+function paint() {
+  const w = Math.round(cssW() * dpr()), h = Math.round(900 * dpr());
+  if (canvas.width !== w || canvas.height !== h) { canvas.width = w; canvas.height = h; }
+  const t0 = performance.now();
+  m.tick();
+  const r = m.compose(w, h, dpr(), scroll);
+  ctx.putImageData(r.img, 0, 0);
+  placed = r.placed;
+  $("timing").textContent = `screen in ${(performance.now() - t0).toFixed(1)} ms`;
+}
+const idOf = (mx) => (mx.match(/^@(\S+)/m) || [])[1];
+const drain = () => { const ev = m.drain(); return ev.length ? ev.join("\n") + "\n" : ""; };
+const revOf = (id) => +(m.observe(id, 0).match(/rev=(\d+)/) || [0, 0])[1];
+const run = (fn) => { try { show(drain() + fn()); status.textContent = ""; } catch (e) { show(String(e.message || e)); status.textContent = "error"; } paint(); };
+function under(x, y) {
+  const x0 = m.columnX(cssW());
+  for (const p of placed) if (p.live && x >= x0 && x < x0 + p.w && y >= p.y && y < p.y + p.h) return [p, x - x0, y - p.y];
+  return null;
+}
+canvas.addEventListener("mousemove", (e) => {
+  const u = under(e.offsetX, e.offsetY);
+  const kind = u ? (u[1] > u[0].w - 28 && u[2] < 28 ? "button" : m.hit(u[0].id, u[1], u[2])) : "";
+  canvas.className = kind === "field" ? "text" : kind ? "pointer" : "";
+});
+canvas.addEventListener("mousedown", (e) => {
+  const u = under(e.offsetX, e.offsetY);
+  if (!u) return;
+  canvas.focus();
+  if (u[1] > u[0].w - 28 && u[2] < 28) { m.dissolve(u[0].id, "user"); current = null; }
+  else { const ev = m.click(u[0].id, u[1], u[2]); if (ev) show(ev); }
+  paint();
+});
+canvas.addEventListener("keydown", (e) => {
+  if (!current) return;
+  const t = e.key === "Backspace" ? "\b" : e.key === "Enter" ? "\n" : e.key.length === 1 ? e.key : null;
+  if (t === null) return;
+  e.preventDefault();
+  const ev = m.key(current, t);
+  if (ev) show(ev);
+  paint();
+});
+canvas.addEventListener("wheel", (e) => {
+  const total = placed.reduce((a, p) => a + p.h + 16, 16);
+  scroll = Math.max(0, Math.min(scroll + e.deltaY, Math.max(0, total - 900)));
+  if (total > 900) e.preventDefault();
+  paint();
+}, { passive: false });
+$("dark").addEventListener("change", () => { m.setDark($("dark").checked); paint(); });
+$("render").addEventListener("click", () => run(() => {
+  const id = idOf(src.value);
+  m.turn();
+  if (current && current !== id) m.dissolve(current, "playground");
+  const t0 = performance.now();
+  const l0 = m.render(src.value);
+  const dt = performance.now() - t0;
+  current = id; lastRev = 0;
+  patch.value = `~1\n${id === "dash" ? "*revenue $315k +16%\n*bar.Sep 80" : ""}`;
+  return `${l0}\n(parsed, laid out and painted in ${dt.toFixed(1)} ms)`;
+}));
+$("apply").addEventListener("click", () => run(() => {
+  if (!current) return "Render first.";
+  const r = m.patch(current, patch.value);
+  patch.value = `~${revOf(current) + 1}\n`;
+  return r;
+}));
+for (const b of document.querySelectorAll("button[data-level]")) b.addEventListener("click", () => run(() => {
+  if (!current) return "Render first.";
+  const txt = m.observe(current, +b.dataset.level); lastRev = revOf(current);
+  patch.value = `~${lastRev + 1}\n`;
+  return txt;
+}));
+$("since").addEventListener("click", () => run(() => { if (!current) return "Render first."; const t = m.observe(current, 1, lastRev); lastRev = revOf(current); return t; }));
+$("events").addEventListener("click", () => run(() => drain() || "(no events since last call)"));
+$("dissolve").addEventListener("click", () => run(() => { if (!current) return "Render first."; m.dissolve(current, "model"); current = null; return m.list(); }));
+const t0 = performance.now();
+const resp = await fetch("mx_render.wasm", { method: "HEAD" }).catch(() => null);
+m = await loadManifest("mx_render.wasm", { dark: $("dark").checked = matchMedia("(prefers-color-scheme: dark)").matches });
+m.setScale(dpr());
+$("size").textContent = `Engine: ${resp?.headers.get("content-length") ? (resp.headers.get("content-length") / 1048576).toFixed(1) + " MB" : "loaded"} in ${(performance.now() - t0).toFixed(0)} ms, fonts included.`;
+setInterval(() => { const before = m.list(); m.tick(); if (m.list() !== before) paint(); }, 250);
+window.manifestEngine = { engine: m, placed: () => placed, under };
+$("render").click();
+</script>
+</body>
+</html>

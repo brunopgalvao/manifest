@@ -1,0 +1,18 @@
+<body id="settings">
+<script type="application/json">{"dark": false, "push": true, "email": false, "sound": true, "volume": 70}</script>
+<ui-column>
+  <ui-text text="Settings" variant="h1" />
+  <ui-tabs>
+    <script type="application/json" slot="tabs">[{"title": "General", "child": "general"}, {"title": "Notifications", "child": "notif"}]</script>
+    <ui-column id="general">
+      <ui-check-box label="Dark mode" value="{$/dark}" />
+    </ui-column>
+    <ui-column id="notif">
+      <ui-check-box label="Push notifications" value="{$/push}" />
+      <ui-check-box label="Email digest" value="{$/email}" />
+      <ui-check-box label="Sounds" value="{$/sound}" />
+      <ui-slider label="Volume" min="{0}" max="{100}" value="{$/volume}" />
+    </ui-column>
+  </ui-tabs>
+</ui-column>
+</body>

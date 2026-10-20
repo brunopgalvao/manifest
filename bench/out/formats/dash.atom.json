@@ -1,0 +1,146 @@
+[
+ {
+  "version": "v1.0",
+  "createSurface": {
+   "surfaceId": "dash",
+   "catalogId": "https://manifest.dev/bench/catalog.json",
+   "components": [
+    {
+     "id": "root",
+     "component": "Column",
+     "children": [
+      "node_0",
+      "node_1",
+      "node_5",
+      "node_6"
+     ]
+    },
+    {
+     "id": "node_6",
+     "component": "Row",
+     "align": "center",
+     "children": [
+      "node_7",
+      "node_8"
+     ]
+    },
+    {
+     "id": "node_8",
+     "component": "Button",
+     "action": {
+      "event": {
+       "name": "export"
+      }
+     },
+     "checks": [
+      {
+       "condition": {
+        "@call": "required",
+        "args": {
+         "value": {
+          "@path": "/exportReady"
+         }
+        }
+       },
+       "message": "No data to export"
+      }
+     ],
+     "child": "node_9"
+    },
+    {
+     "id": "node_9",
+     "component": "Text",
+     "text": "Export CSV"
+    },
+    {
+     "id": "node_7",
+     "component": "ChoicePicker",
+     "label": "Range",
+     "options": [
+      {
+       "label": "Q3",
+       "value": "Q3"
+      },
+      {
+       "label": "YTD",
+       "value": "YTD"
+      },
+      {
+       "label": "12m",
+       "value": "12m"
+      }
+     ],
+     "value": {
+      "@path": "/range"
+     }
+    },
+    {
+     "id": "node_5",
+     "component": "BarChart",
+     "description": "Monthly revenue (k$)",
+     "labels": [
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep"
+     ],
+     "values": [
+      38,
+      42,
+      51,
+      47,
+      57,
+      73
+     ],
+     "highlight": 5
+    },
+    {
+     "id": "node_1",
+     "component": "Row",
+     "children": [
+      "node_2",
+      "node_3",
+      "node_4"
+     ]
+    },
+    {
+     "id": "node_4",
+     "component": "Metric",
+     "label": "Churn",
+     "value": "2.1%",
+     "delta": "+0.4pt",
+     "tone": "negative"
+    },
+    {
+     "id": "node_3",
+     "component": "Metric",
+     "label": "Orders",
+     "value": "1,284",
+     "delta": "+6%",
+     "tone": "positive"
+    },
+    {
+     "id": "node_2",
+     "component": "Metric",
+     "label": "Revenue",
+     "value": "$308k",
+     "delta": "+14%",
+     "tone": "positive"
+    },
+    {
+     "id": "node_0",
+     "component": "Text",
+     "text": "Revenue overview",
+     "variant": "h1"
+    }
+   ],
+   "dataModel": {
+    "range": [
+     "YTD"
+    ]
+   }
+  }
+ }
+]

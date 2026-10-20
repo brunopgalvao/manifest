@@ -1,0 +1,5 @@
+@flow
+h1 How Manifest works
+flow "Pipeline: Agent writes MX, Renderer draws it, Perception reads back to Agent"
+  Agent:primary >writes MX:primary >draws Renderer:primary >reads Perception:success
+  Perception >"tree, boxes, diagnostics" Agent below dashed

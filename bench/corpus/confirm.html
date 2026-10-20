@@ -1,0 +1,18 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Confirm</title>
+<style>
+body{margin:0;font:14px system-ui,sans-serif;color:#1a1a1a;background:#fff}
+.dlg{margin:16px;width:360px;border:1px solid #e5e5e5;border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:12px;box-shadow:0 4px 16px rgba(0,0,0,.08)}
+h2{font-size:18px;margin:0}
+p{margin:0;color:#444}
+.acts{display:flex;justify-content:flex-end;gap:8px}
+button{font:inherit;padding:8px 14px;border-radius:6px;border:1px solid #ccc;background:#fff}
+.danger{background:#b42318;border-color:#b42318;color:#fff}
+</style></head>
+<body><div class="dlg" role="alertdialog" aria-labelledby="t" data-mx="root">
+<h2 id="t" data-mx="title">Delete 3 files?</h2>
+<p data-mx="body">report.pdf, notes.md and draft.docx will be moved to Trash.</p>
+<div class="acts" data-mx="acts"><button data-mx="cancel">Cancel</button><button class="danger" data-mx="delete">Delete</button></div>
+</div>
+<script>/* dismiss after an answer or 60s */setTimeout(()=>document.querySelector('.dlg').remove(),60000)</script>
+</body></html>

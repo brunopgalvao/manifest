@@ -1,0 +1,24 @@
+@map
+h2 "Warehouse, floor 2"
+region 640x360 #floor
+  rect @0,0 640x360 fill:muted-20 stroke:line #outline
+  region "Receiving" @20,20 200x120 fill:info-30 radius:6
+    text @12,24 "Receiving" size:13 weight:600
+    rect @20,50 40x40 fill:info radius:4 "Dock A"
+    rect @80,50 40x40 fill:info radius:4 "Dock B"
+    rect @140,50 40x40 fill:warning radius:4 "Dock C, occupied"
+  region "Storage" @240,20 380x200 fill:muted-30 radius:6
+    text @12,24 "Storage" size:13 weight:600
+    rect @20,40 100x60 fill:card stroke:line "Aisle 1"
+    rect @140,40 100x60 fill:card stroke:line "Aisle 2"
+    rect @260,40 100x60 fill:card stroke:line "Aisle 3"
+    rect @20,120 100x60 fill:card stroke:line "Aisle 4"
+    rect @140,120 100x60 fill:card stroke:line "Aisle 5"
+    rect @260,120 100x60 fill:danger-40 stroke:danger "Aisle 6, blocked"
+  region "Shipping" @20,240 600x100 fill:success-30 radius:6
+    text @12,24 "Shipping" size:13 weight:600
+    circle @80,60 r:14 fill:success "Truck 1, loading"
+    circle @140,60 r:14 fill:muted "Truck 2, waiting"
+  button "Locate pallet" @500,10 120x28
+    rect @0,0 120x28 fill:primary radius:14
+    text @60,18 "Locate pallet" fill:white anchor:middle size:12 weight:600

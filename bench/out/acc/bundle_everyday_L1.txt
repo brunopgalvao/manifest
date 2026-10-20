@@ -1,0 +1,114 @@
+You are reading user interfaces described in MX, a compact text format. One node per line, indent to nest.
+Nodes: h1/h2 headings, text, metric Label Value [Delta], button, field, select (*marks the chosen option), check/toggle on|off,
+slider Label value min..max, table (header line, then one row per line, cells separated by |), bar/line/pie charts as Key:Value pairs,
+flow diagrams as chains (Agent >writes MX >draws Renderer; "below dashed" routes a chain under the others), tabs with *selected tab.
+Geometry: a node with WxH is a drawing space; inside it nodes sit at @x,y. Shapes: rect @x,y WxH, circle @cx,cy r:N, path "...",
+text @x,y "string". A quoted string at the end of a shape is its label. region/item/figure "Label" name an area or a part.
+Colours: fill:primary (blue), success (green), danger (red), warning (amber), info (teal), muted (grey); tone-NN is a lighter step.
+series name k:v ... is a data buffer; =name binds a chart or metric to it; [N points] min: max: last: summarise it.
+Level 1 shows only labelled shapes inside a space, with [N shapes, M labelled] counts; level 2 adds @x,y,w,h boxes in pixels;
+level 3 shows every shape with its box. !overflow and other lines are the renderer's diagnostics. Answer each question briefly from the text alone.
+
+=== UI "dash" ===
+@dash rev=0
+h1 Revenue overview
+row
+  metric Revenue $308k +14%
+  metric Orders 1,284 +6%
+  metric Churn 2.1% +0.4pt danger
+bar "Monthly revenue (k$)" Apr:38 May:42 Jun:51 Jul:47 Aug:57 *Sep:73
+row
+  select Range Q3 *YTD 12m
+  button "Export CSV" disabled
+--- questions ---
+dash.1 What was June revenue, in thousands of dollars?
+dash.2 Is the Export CSV button enabled?
+dash.3 Which KPI is shown as bad/negative?
+dash.4 What range is currently selected?
+dash.5 What control is directly to the right of the Range selector?
+
+=== UI "form" ===
+@form rev=0
+h1 Book a class
+field "Full name" ="Sam Lee" required
+field Email email ="sam@" required
+field Date date ="2026-10-21"
+select Class Vinyasa *Yin Ashtanga
+check "Send me the weekly schedule" on
+button Book primary
+--- questions ---
+form.1 What is the current value of the Email field?
+form.2 Which class is selected?
+form.3 Is the weekly-schedule checkbox checked?
+form.4 What date is entered?
+form.5 What does the submit button say?
+
+=== UI "table" ===
+@table rev=0
+h1 Orders
+field "Search orders" search
+table Order Customer Total Status:badge
+  #1041 | Ana Souza | $84.00 | Paid
+  #1042 | Oluwaseun Adebayo-Whitfield Consulting Partners | $1,920.00 | Pending
+  #1043 | Kenji Mori | $36.50 | Paid
+  #1044 | Priya Nair | $210.00 | Refunded
+  #1045 | Tom Becker | $58.00 | Paid
+  #1046 | Lina Haddad | $142.75 | Pending
+  #1047 | Marco Rossi | $19.99 | Paid
+  #1048 | Chloe Martin | $305.00 | Paid
+row end
+  button Previous disabled
+  text Page 1 of 4 #page
+  button Next
+!overflow table.#1042.Customer 173/353px
+--- questions ---
+table.1 What is the status of order #1044?
+table.2 Is any text visibly truncated? If so, which?
+table.3 What is the total of order #1046?
+table.4 Is the Previous button enabled?
+table.5 Which page is shown, out of how many?
+
+=== UI "flow" ===
+@flow rev=0
+h1 How Manifest works
+flow "Agent writes MX, Renderer draws it, Perception reads back to Agent" [4 nodes]
+  Agent >writes MX >draws Renderer >reads Perception:success
+  Perception >"tree, boxes, diagnostics" Agent below dashed
+--- questions ---
+flow.1 How many boxes are in the diagram?
+flow.2 What label is on the arrow from Renderer to Perception?
+flow.3 Which box is coloured differently from the others?
+flow.4 Is the arrow from Perception back to Agent dashed or solid?
+flow.5 Which box is left-most?
+
+=== UI "confirm" ===
+@confirm until:action ttl:60s residue:line rev=0
+card
+  h2 Delete 3 files? #title
+  text report.pdf, notes.md and draft.docx will be moved to Trash. #body
+  row end
+    button Cancel
+    button Delete danger
+--- questions ---
+confirm.1 How many files will be deleted?
+confirm.2 Which button is styled as destructive?
+confirm.3 Which button is on the right?
+confirm.4 Will this dialog go away on its own? If so, when?
+confirm.5 Name one of the files.
+
+=== UI "settings" ===
+@settings rev=0
+h1 Settings
+tabs
+  tab General [hidden: Dark mode]
+  tab *Notifications
+    toggle "Push notifications" on
+    toggle "Email digest" off
+    toggle Sounds on
+    slider Volume 70 0..100
+--- questions ---
+settings.1 Which tab is selected?
+settings.2 Is Email digest on?
+settings.3 What is the volume set to?
+settings.4 Is a Dark mode option visible right now?
+settings.5 How many toggles/switches are visible?

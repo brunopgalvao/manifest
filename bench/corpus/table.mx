@@ -1,0 +1,16 @@
+@table
+h1 Orders
+field "Search orders" search
+table Order Customer Total Status:badge
+  #1041 | Ana Souza | $84.00 | Paid
+  #1042 | Oluwaseun Adebayo-Whitfield Consulting Partners | $1,920.00 | Pending
+  #1043 | Kenji Mori | $36.50 | Paid
+  #1044 | Priya Nair | $210.00 | Refunded
+  #1045 | Tom Becker | $58.00 | Paid
+  #1046 | Lina Haddad | $142.75 | Pending
+  #1047 | Marco Rossi | $19.99 | Paid
+  #1048 | Chloe Martin | $305.00 | Paid
+row end
+  button Previous disabled
+  text "Page 1 of 4" #page
+  button Next

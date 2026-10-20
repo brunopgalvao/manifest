@@ -1,0 +1,5 @@
+- alertdialog "Delete 3 files?":
+  - heading "Delete 3 files?" [level=2]
+  - paragraph: report.pdf, notes.md and draft.docx will be moved to Trash.
+  - button "Cancel"
+  - button "Delete"

@@ -1,0 +1,255 @@
+{
+ "tree": {
+  "tag": "body",
+  "role": "",
+  "name": "Delete 3 files? report.pdf, notes.md and draft.docx will be moved to Trash. CancelDelete /* dismiss after an answer or 60s */setTimeout(()=>document.querySelector('.dlg').remove(),60000)",
+  "text": "",
+  "box": {
+   "x": 0,
+   "y": 16,
+   "w": 760,
+   "h": 156
+  },
+  "style": {
+   "bg": "#ffffff",
+   "border": "",
+   "borderW": 0,
+   "color": "#1a1a1a",
+   "fs": 14,
+   "fw": 400,
+   "radius": 0,
+   "display": "block",
+   "dir": "row",
+   "opacity": 1
+  },
+  "attrs": {},
+  "children": [
+   {
+    "tag": "div",
+    "role": "alertdialog",
+    "name": "Delete 3 files?",
+    "text": "",
+    "box": {
+     "x": 16,
+     "y": 16,
+     "w": 402,
+     "h": 156
+    },
+    "style": {
+     "bg": "",
+     "border": "#e5e5e5",
+     "borderW": 1,
+     "color": "#1a1a1a",
+     "fs": 14,
+     "fw": 400,
+     "radius": 10,
+     "display": "flex",
+     "dir": "column",
+     "opacity": 1
+    },
+    "attrs": {},
+    "children": [
+     {
+      "tag": "h2",
+      "role": "heading",
+      "name": "Delete 3 files?",
+      "text": "Delete 3 files?",
+      "box": {
+       "x": 37,
+       "y": 37,
+       "w": 360,
+       "h": 21
+      },
+      "style": {
+       "bg": "",
+       "border": "",
+       "borderW": 0,
+       "color": "#1a1a1a",
+       "fs": 18,
+       "fw": 700,
+       "radius": 0,
+       "display": "block",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {},
+      "children": []
+     },
+     {
+      "tag": "p",
+      "role": "paragraph",
+      "name": "report.pdf, notes.md and draft.docx will be moved to Trash.",
+      "text": "report.pdf, notes.md and draft.docx will be moved to Trash.",
+      "box": {
+       "x": 37,
+       "y": 70,
+       "w": 360,
+       "h": 34
+      },
+      "style": {
+       "bg": "",
+       "border": "",
+       "borderW": 0,
+       "color": "#444444",
+       "fs": 14,
+       "fw": 400,
+       "radius": 0,
+       "display": "block",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {},
+      "children": []
+     },
+     {
+      "tag": "div",
+      "role": "",
+      "name": "CancelDelete",
+      "text": "",
+      "box": {
+       "x": 37,
+       "y": 116,
+       "w": 360,
+       "h": 35
+      },
+      "style": {
+       "bg": "",
+       "border": "",
+       "borderW": 0,
+       "color": "#1a1a1a",
+       "fs": 14,
+       "fw": 400,
+       "radius": 0,
+       "display": "flex",
+       "dir": "row",
+       "opacity": 1
+      },
+      "attrs": {},
+      "children": [
+       {
+        "tag": "button",
+        "role": "button",
+        "name": "Cancel",
+        "text": "Cancel",
+        "box": {
+         "x": 242.8125,
+         "y": 116,
+         "w": 74.390625,
+         "h": 35
+        },
+        "style": {
+         "bg": "#ffffff",
+         "border": "#cccccc",
+         "borderW": 1,
+         "color": "#000000",
+         "fs": 14,
+         "fw": 400,
+         "radius": 6,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": []
+       },
+       {
+        "tag": "button",
+        "role": "button",
+        "name": "Delete",
+        "text": "Delete",
+        "box": {
+         "x": 325.203125,
+         "y": 116,
+         "w": 71.796875,
+         "h": 35
+        },
+        "style": {
+         "bg": "#b42318",
+         "border": "#b42318",
+         "borderW": 1,
+         "color": "#ffffff",
+         "fs": 14,
+         "fw": 400,
+         "radius": 6,
+         "display": "block",
+         "dir": "row",
+         "opacity": 1
+        },
+        "attrs": {},
+        "children": []
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "boxes": [
+  {
+   "line": 1,
+   "box": {
+    "x": 16,
+    "y": 16,
+    "w": 402,
+    "h": 156
+   },
+   "text": "Delete 3 files?"
+  },
+  {
+   "line": 2,
+   "box": {
+    "x": 37,
+    "y": 37,
+    "w": 360,
+    "h": 21
+   },
+   "text": "Delete 3 files?"
+  },
+  {
+   "line": 3,
+   "box": {
+    "x": 37,
+    "y": 70,
+    "w": 360,
+    "h": 34
+   },
+   "text": "report.pdf, notes.md and draft.docx will be moved to Trash."
+  },
+  {
+   "line": 4,
+   "box": {
+    "x": 37,
+    "y": 116,
+    "w": 360,
+    "h": 35
+   },
+   "text": "CancelDelete"
+  },
+  {
+   "line": 5,
+   "box": {
+    "x": 242.8125,
+    "y": 116,
+    "w": 74.390625,
+    "h": 35
+   },
+   "text": "Cancel"
+  },
+  {
+   "line": 6,
+   "box": {
+    "x": 325.203125,
+    "y": 116,
+    "w": 71.796875,
+    "h": 35
+   },
+   "text": "Delete"
+  }
+ ],
+ "stats": {
+  "semantic": 5,
+  "painted": 0,
+  "demoted": 0,
+  "textRuns": 1
+ }
+}

@@ -1,0 +1,144 @@
+=== UI "dash" ===
+- heading "Revenue overview" [level=1]
+- text: Revenue $308k +14% Orders 1,284 +6% Churn 2.1% +0.4pt
+- 'img "Monthly revenue, Apr to Sep: 38, 42, 51, 47, 57, 73 thousand dollars"': Apr May Jun Jul Aug Sep
+- text: Range
+- combobox "Range":
+  - option "Q3"
+  - option "YTD" [selected]
+  - option "12m"
+- button "Export CSV" [disabled]
+--- questions ---
+dash.1 What was June revenue, in thousands of dollars?
+dash.2 Is the Export CSV button enabled?
+dash.3 Which KPI is shown as bad/negative?
+dash.4 What range is currently selected?
+dash.5 What control is directly to the right of the Range selector?
+
+=== UI "form" ===
+- heading "Book a class" [level=1]
+- text: Full name
+- textbox "Full name": Sam Lee
+- text: Email
+- textbox "Email Enter a valid email": sam@
+- text: Enter a valid email Date
+- textbox "Date": 2026-10-21
+- text: Class
+- combobox "Class":
+  - option "Vinyasa"
+  - option "Yin" [selected]
+  - option "Ashtanga"
+- checkbox "Send me the weekly schedule" [checked]
+- text: Send me the weekly schedule
+- button "Book"
+--- questions ---
+form.1 What is the current value of the Email field?
+form.2 Which class is selected?
+form.3 Is the weekly-schedule checkbox checked?
+form.4 What date is entered?
+form.5 What does the submit button say?
+
+=== UI "table" ===
+- heading "Orders" [level=1]
+- searchbox "Search orders"
+- table:
+  - rowgroup:
+    - row "Order Customer Total Status":
+      - columnheader "Order"
+      - columnheader "Customer"
+      - columnheader "Total"
+      - columnheader "Status"
+  - rowgroup:
+    - row "#1041 Ana Souza $84.00 Paid":
+      - cell "#1041"
+      - cell "Ana Souza"
+      - cell "$84.00"
+      - cell "Paid"
+    - row "#1042 Oluwaseun Adebayo-Whitfield Consulting Partners $1,920.00 Pending":
+      - cell "#1042"
+      - cell "Oluwaseun Adebayo-Whitfield Consulting Partners"
+      - cell "$1,920.00"
+      - cell "Pending"
+    - row "#1043 Kenji Mori $36.50 Paid":
+      - cell "#1043"
+      - cell "Kenji Mori"
+      - cell "$36.50"
+      - cell "Paid"
+    - row "#1044 Priya Nair $210.00 Refunded":
+      - cell "#1044"
+      - cell "Priya Nair"
+      - cell "$210.00"
+      - cell "Refunded"
+    - row "#1045 Tom Becker $58.00 Paid":
+      - cell "#1045"
+      - cell "Tom Becker"
+      - cell "$58.00"
+      - cell "Paid"
+    - row "#1046 Lina Haddad $142.75 Pending":
+      - cell "#1046"
+      - cell "Lina Haddad"
+      - cell "$142.75"
+      - cell "Pending"
+    - row "#1047 Marco Rossi $19.99 Paid":
+      - cell "#1047"
+      - cell "Marco Rossi"
+      - cell "$19.99"
+      - cell "Paid"
+    - row "#1048 Chloe Martin $305.00 Paid":
+      - cell "#1048"
+      - cell "Chloe Martin"
+      - cell "$305.00"
+      - cell "Paid"
+- button "Previous" [disabled]
+- text: Page 1 of 4
+- button "Next"
+--- questions ---
+table.1 What is the status of order #1044?
+table.2 Is any text visibly truncated? If so, which?
+table.3 What is the total of order #1046?
+table.4 Is the Previous button enabled?
+table.5 Which page is shown, out of how many?
+
+=== UI "flow" ===
+- heading "How Manifest works" [level=1]
+- 'img "Pipeline: Agent writes MX, Renderer draws it, Perception reads back to Agent"': Agent MX Renderer Perception writes draws reads tree, boxes, diagnostics
+--- questions ---
+flow.1 How many boxes are in the diagram?
+flow.2 What label is on the arrow from Renderer to Perception?
+flow.3 Which box is coloured differently from the others?
+flow.4 Is the arrow from Perception back to Agent dashed or solid?
+flow.5 Which box is left-most?
+
+=== UI "confirm" ===
+- alertdialog "Delete 3 files?":
+  - heading "Delete 3 files?" [level=2]
+  - paragraph: report.pdf, notes.md and draft.docx will be moved to Trash.
+  - button "Cancel"
+  - button "Delete"
+--- questions ---
+confirm.1 How many files will be deleted?
+confirm.2 Which button is styled as destructive?
+confirm.3 Which button is on the right?
+confirm.4 Will this dialog go away on its own? If so, when?
+confirm.5 Name one of the files.
+
+=== UI "settings" ===
+- heading "Settings" [level=1]
+- tablist:
+  - tab "General"
+  - tab "Notifications" [selected]
+- tabpanel:
+  - text: Push notifications
+  - switch "Push notifications" [checked]
+  - text: Email digest
+  - switch "Email digest"
+  - text: Sounds
+  - switch "Sounds" [checked]
+  - text: Volume
+  - slider "Volume": "70"
+--- questions ---
+settings.1 Which tab is selected?
+settings.2 Is Email digest on?
+settings.3 What is the volume set to?
+settings.4 Is a Dark mode option visible right now?
+settings.5 How many toggles/switches are visible?

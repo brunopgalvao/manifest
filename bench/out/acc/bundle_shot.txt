@@ -1,0 +1,53 @@
+=== UI "dash" ===
+[image: out/shots/dash.png]
+--- questions ---
+dash.1 What was June revenue, in thousands of dollars?
+dash.2 Is the Export CSV button enabled?
+dash.3 Which KPI is shown as bad/negative?
+dash.4 What range is currently selected?
+dash.5 What control is directly to the right of the Range selector?
+
+=== UI "form" ===
+[image: out/shots/form.png]
+--- questions ---
+form.1 What is the current value of the Email field?
+form.2 Which class is selected?
+form.3 Is the weekly-schedule checkbox checked?
+form.4 What date is entered?
+form.5 What does the submit button say?
+
+=== UI "table" ===
+[image: out/shots/table.png]
+--- questions ---
+table.1 What is the status of order #1044?
+table.2 Is any text visibly truncated? If so, which?
+table.3 What is the total of order #1046?
+table.4 Is the Previous button enabled?
+table.5 Which page is shown, out of how many?
+
+=== UI "flow" ===
+[image: out/shots/flow.png]
+--- questions ---
+flow.1 How many boxes are in the diagram?
+flow.2 What label is on the arrow from Renderer to Perception?
+flow.3 Which box is coloured differently from the others?
+flow.4 Is the arrow from Perception back to Agent dashed or solid?
+flow.5 Which box is left-most?
+
+=== UI "confirm" ===
+[image: out/shots/confirm.png]
+--- questions ---
+confirm.1 How many files will be deleted?
+confirm.2 Which button is styled as destructive?
+confirm.3 Which button is on the right?
+confirm.4 Will this dialog go away on its own? If so, when?
+confirm.5 Name one of the files.
+
+=== UI "settings" ===
+[image: out/shots/settings.png]
+--- questions ---
+settings.1 Which tab is selected?
+settings.2 Is Email digest on?
+settings.3 What is the volume set to?
+settings.4 Is a Dark mode option visible right now?
+settings.5 How many toggles/switches are visible?

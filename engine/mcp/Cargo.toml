@@ -1,0 +1,19 @@
+[package]
+name = "mx-mcp"
+description = "Manifest MCP server on the Rust renderer: manifest.render/patch/observe/look/dissolve over stdio, with a native window or headless."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "manifest-mcp"
+path = "src/main.rs"
+
+[dependencies]
+mx = { path = "../mx" }
+mx-render = { path = "../render" }
+serde_json = { version = "1", features = ["preserve_order"] }
+tiny-skia = "0.12.0"
+winit = "0.30"
+softbuffer = "0.4"
