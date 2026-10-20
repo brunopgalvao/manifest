@@ -59,7 +59,7 @@ def main():
             r["perceive"][n] = p
             print(model, n, r["create"][n], file=sys.stderr)
         res[model] = r
-    CACHE.write_text(json.dumps({"\u0000".join(k): v for k, v in _cache.items()}))
+    CACHE.write_text(json.dumps(_cache))
     (O / "results_claude.json").write_text(json.dumps(res, indent=1))
     (O / "tables_claude.md").write_text(tables(res))
     print(tables(res))
