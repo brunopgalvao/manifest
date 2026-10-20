@@ -7,3 +7,9 @@ web/dist/
 design/
 engine/target/
 bench/out/rust/
+bench/pages/out/*.html
+bench/pages/out/*.png
+bench/pages/out/*.jpg
+bench/pages/out/*.json
+!bench/pages/out/report.json
+bench/pages/out/batch.log

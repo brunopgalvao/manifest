@@ -1,0 +1,86 @@
+@getbootstrap_com_docs_5_3_examples_produ
+button "Toggle theme (light)" primary
+row
+  link Aperture #
+  link Tour #
+  link Product #
+  link Features #
+  link Enterprise #
+  link Support #
+  link Pricing #
+  link Cart #
+region 1248x529.19
+  text @384,195.2 "Designed for engineers" size:64 weight:700 fill:#212529
+  text @384,327.99 "Build anything you want with Aperture" size:28 fill:#212529
+  text @528.73,371.19 "Learn more" size:20 fill:#0d6efd
+  text @664.7,371.19 "Buy" size:20 fill:#0d6efd
+  rect @708.3,109.11 529.81x617.65 fill:#333333 radius:21
+  rect @-52.51,-171.12 529.81x617.65 fill:#e5e5e5 radius:21
+row
+  region 616x523.59
+    text @48,118.4 "Another headline" size:48 fill:#ffffff
+    text @48,161.59 "And an even wittier subheading." size:20 fill:#ffffff
+    rect @100,223.59 416x300 fill:#f8f9fa radius:21
+  region 616x523.59
+    text @64,118.4 "Another headline" size:48 fill:#212529
+    text @64,161.59 "And an even wittier subheading." size:20 fill:#212529
+    rect @100,223.59 416x300 fill:#212529 radius:21
+row
+  region 616x523.59
+    text @64,118.4 "Another headline" size:48 fill:#212529
+    text @64,161.59 "And an even wittier subheading." size:20 fill:#212529
+    rect @100,223.59 416x300 fill:#212529 radius:21
+  region 616x523.59
+    text @48,118.4 "Another headline" size:48 fill:#ffffff
+    text @48,161.59 "And an even wittier subheading." size:20 fill:#ffffff
+    rect @100,223.59 416x300 fill:#f8f9fa radius:21
+row
+  region 616x523.59
+    text @64,118.4 "Another headline" size:48 fill:#212529
+    text @64,161.59 "And an even wittier subheading." size:20 fill:#212529
+    rect @100,223.59 416x300 fill:#ffffff radius:21
+  region 616x523.59
+    text @48,118.4 "Another headline" size:48 fill:#212529
+    text @48,161.59 "And an even wittier subheading." size:20 fill:#212529
+    rect @100,223.59 416x300 fill:#ffffff radius:21
+row
+  region 616x523.59
+    text @64,118.4 "Another headline" size:48 fill:#212529
+    text @64,161.59 "And an even wittier subheading." size:20 fill:#212529
+    rect @100,223.59 416x300 fill:#ffffff radius:21
+  region 616x523.59
+    text @48,118.4 "Another headline" size:48 fill:#212529
+    text @48,161.59 "And an even wittier subheading." size:20 fill:#212529
+    rect @100,223.59 416x300 fill:#ffffff radius:21
+row
+  col
+    region "Product" 24x24
+      circle @12,12 r:10 fill:none stroke:#212529 width:2
+      path "M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" fill:none stroke:#212529 width:2
+    text © 2017–2025
+  col
+    h3 Features
+    link "Cool stuff" #
+    link "Random feature" #
+    link "Team feature" #
+    link "Stuff for developers" #
+    link "Another one" #
+    link "Last time" #
+  col
+    h3 Resources
+    link "Resource name" #
+    link Resource #
+    link "Another resource" #
+    link "Final resource" #
+  col
+    h3 Resources
+    link Business #
+    link Education #
+    link Government #
+    link Gaming #
+  col
+    h3 About
+    link Team #
+    link Locations #
+    link Privacy #
+    link Terms #

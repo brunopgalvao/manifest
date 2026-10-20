@@ -1,0 +1,106 @@
+@getbootstrap_com_docs_5_3_examples_album
+button "Toggle theme (light)" primary
+row
+  link Album #
+  button "Toggle navigation"
+h1 Album example
+text Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.
+row
+  link "Main call to action" #
+  link "Secondary action" #
+row
+  col
+    region "Placeholder: Thumbnail" 359.33x225
+      rect @0,0 100x100 fill:#55595c
+      text @50,50 "Thumbnail" fill:#eceeef size:18 anchor:middle
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.33x225
+      rect @0,0 100x100 fill:#55595c
+      text @50,50 "Thumbnail" fill:#eceeef size:18 anchor:middle
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.33x225
+      rect @0,0 100x100 fill:#55595c
+      text @50,50 "Thumbnail" fill:#eceeef size:18 anchor:middle
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.33x225
+      rect @0,0 100x100 fill:#55595c
+      text @50,50 "Thumbnail" fill:#eceeef size:18 anchor:middle
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.33x225
+      rect @0,0 100x100 fill:#55595c
+      text @50,50 "Thumbnail" fill:#eceeef size:18 anchor:middle
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.33x225
+      rect @0,0 100x100 fill:#55595c
+      text @50,50 "Thumbnail" fill:#eceeef size:18 anchor:middle
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.33x225
+      rect @0,0 100x100 fill:#55595c
+      text @50,50 "Thumbnail" fill:#eceeef size:18 anchor:middle
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.33x225
+      rect @0,0 100x100 fill:#55595c
+      text @50,50 "Thumbnail" fill:#eceeef size:18 anchor:middle
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+  col
+    region "Placeholder: Thumbnail" 359.33x225
+      rect @0,0 100x100 fill:#55595c
+      text @50,50 "Thumbnail" fill:#eceeef size:18 anchor:middle
+    text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+    row
+      row
+        button View
+        button Edit
+      text 9 mins
+link "Back to top" #
+text Album example is © Bootstrap, but please download and customize it for yourself!
+row
+  link "Visit the homepage" /
+  link "getting started guide" /docs/5.3/getting-started/introduction

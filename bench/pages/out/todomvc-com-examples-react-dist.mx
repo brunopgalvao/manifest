@@ -1,0 +1,23 @@
+@todomvc_com_examples_react_dist
+h3 React
+h3 React
+link Source https://github.com/tastejs/todomvc/tree/gh-pages/examples/react
+h3 TypeScript + React
+link Demo https://todomvc.com/examples/typescript-react
+link Source https://github.com/tastejs/todomvc/tree/gh-pages/examples/typescript-react
+card
+  text React is a JavaScript library for building user interfaces. You compose UI from function components and describe state with hooks; React handles the rendering and keeps the UI in sync as state changes. The modern ecosystem (createRoot, Suspense, Server Components) builds on the same component model.
+  link React http://facebook.github.io/react
+h3 Official Resources
+link "Quick Start" https://react.dev/learn
+link "API Reference" https://react.dev/reference/react
+link Philosophy https://petehuntsposts.quora.com/React-Under-the-Hood
+link "React Community" https://react.dev/community
+h3 Community
+link "ReactJS on Stack Overflow" https://stackoverflow.com/questions/tagged/reactjs
+link "let us know" https://github.com/tastejs/todomvc/issues
+h1 todos
+field "New Todo Input"
+text Double-click to edit a todo
+text Created by the TodoMVC Team
+link TodoMVC http://todomvc.com

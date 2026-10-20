@@ -1,0 +1,148 @@
+@getbootstrap_com_docs_5_3_examples_blog
+button "Toggle theme (light)" primary
+row
+  link Subscribe #
+  link Large #
+  row
+    link Search #
+    link "Sign up" #
+row
+  link World #
+  link U.S. #
+  link Technology #
+  link Design #
+  link Culture #
+  link Business #
+  link Politics #
+  link Opinion #
+  link Science #
+  link Health #
+  link Style #
+  link Travel #
+card
+  h1 Title of a longer featured blog post
+  text Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.
+  link "Continue reading..." #
+row
+  row
+    col
+      text World primary
+      h3 Featured post
+      text Nov 12
+      text This is a wider card with supporting text below as a natural lead-in to additional content.
+      link "Continue reading" #
+    region "Placeholder: Thumbnail" 200x250
+      rect @0,0 100x100 fill:#55595c
+      text @50,50 "Thumbnail" fill:#eceeef size:18 anchor:middle
+  row
+    col
+      text Design
+      h3 Post title
+      text Nov 11
+      text This is a wider card with supporting text below as a natural lead-in to additional content.
+      link "Continue reading" #
+    region "Placeholder: Thumbnail" 200x250
+      rect @0,0 100x100 fill:#55595c
+      text @50,50 "Thumbnail" fill:#eceeef size:18 anchor:middle
+row
+  col
+    h3 From the Firehose
+    h2 Sample blog post
+    link Mark #
+    text This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.
+    h2 Blockquotes
+    text This is an example blockquote in action:
+    text Quoted text goes here.
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.
+    h3 Example lists
+    text This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout. This is an example unordered list:
+    text First list item
+    text Second list item with a longer description
+    text Third list item to close it out
+    text And this is an ordered list:
+    text First list item
+    text Second list item with a longer description
+    text Third list item to close it out
+    text And this is a definition list:
+    text HyperText Markup Language (HTML)
+    text The language used to describe and define the content of a Web page
+    text Cascading Style Sheets (CSS)
+    text Used to describe the appearance of Web content
+    text JavaScript (JS)
+    text The programming language used to build advanced Web sites and applications
+    h2 Inline HTML elements
+    link "Mozilla Developer Network" https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+    text To bold text, use <strong>.
+    text To italicize text, use <em>.
+    row
+      text HTML
+      text <abbr> danger
+      text title danger
+    row
+      text — Mark Otto
+      text <cite> danger
+    row
+      text Deleted
+      text <del> danger
+      text inserted
+      text <ins> danger
+    text Superscript text uses <sup> and subscript text uses <sub>.
+    text Most of these elements are styled by browsers with few modifications on our part.
+    h2 Heading
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.
+    h3 Sub-heading
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.
+    text Example code block
+    text This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.
+    h2 Another blog post
+    link Jacob #
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.
+    text Longer quote goes here, maybe with some emphasized text in the middle of it.
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.
+    h3 Example table
+    text And don't forget about tables in these posts:
+    table Name Upvotes Downvotes
+      Alice | 10 | 11
+      Bob | 4 | 3
+      Charlie | 7 | 9
+      Totals | 21 | 23
+    text This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.
+    h2 New feature
+    link Chris #
+    text This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.
+    text First list item
+    text Second list item with a longer description
+    text Third list item to close it out
+    text This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.
+    row
+      link Older #
+  col
+    card
+      h3 About
+      text Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.
+    h3 Recent posts
+    link "Example blog post title January 15, 2024" #
+    link "This is another blog post title January 14, 2024" #
+    link "Longer blog post title: This one has multiple lines! January 13, 2024" #
+    h3 Archives
+    link "March 2021" #
+    link "February 2021" #
+    link "January 2021" #
+    link "December 2020" #
+    link "November 2020" #
+    link "October 2020" #
+    link "September 2020" #
+    link "August 2020" #
+    link "July 2020" #
+    link "June 2020" #
+    link "May 2020" #
+    link "April 2020" #
+    h3 Elsewhere
+    link GitHub #
+    link Social #
+    link Facebook #
+row
+  link Bootstrap https://getbootstrap.com/
+  link "@mdo" https://x.com/mdo
+link "Back to top" #

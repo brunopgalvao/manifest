@@ -32,6 +32,7 @@ Counted with Claude's tokenizer; read back by fresh Haiku readers that saw only 
 | Read back, level 1 | 876 tokens, 30 of 30 questions | 1,544, 27 of 30 (cropped screenshots) | 1,415, 22 of 30 (accessibility tree) |
 | Six paint-heavy visuals | 2,661 | 6,104 (HTML + SVG + ARIA) | 6,685 (A2UI, paint catalog) |
 | A page imported from HTML | 1,158 | 1,463 (accessibility snapshot) | 4,569 |
+| A hundred real pages imported | 736,715 | | 6,510,211 (8.8×) |
 
 Fidelity: a screenshot comes back pixel for pixel; a photo under positioned, labelled nodes comes back with 0 differing pixels and those nodes take input; a figure drawn by another rasterizer, rebuilt from primitives, differs on 0.62% of pixels at anti-aliased edges. The engine reproduces Chromium's layout of the same stylesheet within 2 px on every box.
 
@@ -47,6 +48,7 @@ Fidelity: a screenshot comes back pixel for pixel; a photo under positioned, lab
 | `web/` | `manifest.js`, the JavaScript glue for the wasm build (browser and Node), the playground, the site build |
 | `import/` | The HTML importer and its scorer |
 | `bench/` | The corpus in every format, token accounting, reader accuracy, fidelity references, import scores, the report |
+| `bench/pages/` | A hundred real pages imported into MX: the URL list with licences, the MX files, the index and the report |
 | `docs/` | The overview and the A2UI v1.0 extension proposal |
 
 ## Use it from an agent
@@ -90,6 +92,7 @@ m.render(mx); m.observe("dash", 2); m.compose(w, h, devicePixelRatio); m.click("
 cd import && npm install
 node src/import.ts ../bench/corpus/dash.html --id dash                 # MX on stdout
 node src/score.ts imported.mx reference.mx import.json                  # recall, text runs, round trip
+node src/batch.ts ../bench/pages/urls.txt ../bench/pages/out            # the dataset: a page record per URL
 ```
 
 ## Documents

@@ -127,6 +127,27 @@ Widths follow Manifest's column rather than the page's CSS, which is the point o
 
 The dash page shows the cost of demotion: twelve rects and labels at explicit coordinates are 498 tokens where `bar "Monthly revenue" Apr:38 ...` would be 30. Reading a chart's values from the page's `aria-label` sentence is the obvious next step.
 
+## 9. A hundred real pages
+
+`bench/pages/` runs the importer over a hundred UI-heavy pages under permissive licences (Bootstrap, shadcn, Tabler, AdminLTE, TodoMVC, Pico and Bulma examples; Wikipedia, MDN, the Python and Rust docs, US government pages, the HTML standard, W3C's ARIA practices, this site) at a desktop width, and scores every import without a hand-written reference (`import/src/batch.ts`, `bench/pages/report.py`; the MX files and the index are committed, the snapshots and screenshots are not).
+
+| | |
+|---|---|
+| pages fetched | 100 of 100 |
+| imports that parse in the engine | 100 of 100 |
+| visible text runs kept, median | 96.4% (lowest 43.9%, a chart page whose SVG tick labels the capture drops) |
+| nodes with a default look, median share | 100.0% |
+| heights within 20% or 8 px of the page's, median | 45.2% |
+| HTML tokens, all pages | 6,510,211 |
+| MX tokens, all pages | 736,715 |
+| HTML to MX, total and median page | 8.84× and 9.35× |
+
+The first run parsed 42 of 100; the rest were importer bugs the pages exposed (computed colours in `lab()` and `oklab()`, SVG names taken from embedded stylesheets, hrefs with line breaks, icon-only buttons, image sources with query strings read as `key=value`, text that looked like geometry) and all were fixed in the importer or the parser, so the corpus did its job. The gap to the everyday twins (3.9×) is that real pages carry far more markup per visible thing: a Bootstrap dashboard is 45 lines of MX.
+
+What the heights number says: the engine lays the page out with Manifest's own defaults, so about half the nodes change height; that is a re-layout, not a trace, and widths change more. What the text number says: the import keeps almost everything a reader could see; the losses are chart tick labels and text inside controls the capture does not open.
+
+The dataset is the start of the volume a model would need to read and write MX natively: a hundred paired examples of a rendered page, its snapshot, its screenshot and its MX, reproducible from `urls.txt`, with licences checked. Growing it is a matter of URLs.
+
 ## Reproduce
 
 ```bash
@@ -136,4 +157,5 @@ node render.js                                                       # screensho
 .venv/bin/python count_claude.py                                     # §1 to §3 token tables (ANTHROPIC_API_KEY)
 .venv/bin/python count_v2.py && .venv/bin/python count_import.py     # paint and import tables
 .venv/bin/python bundle.py paint 1 questions_v2.json                 # a reader bundle; give it to a fresh model, grade with grade_v2.py
+node ../import/src/batch.ts pages/urls.txt pages/out && .venv/bin/python pages/report.py pages/out   # §9
 ```

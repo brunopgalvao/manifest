@@ -1,0 +1,13 @@
+@todomvc_com_examples_javascript_es6_dist
+h3 JavaScript ES6
+h3 Example
+link Source https://github.com/tastejs/todomvc/tree/gh-pages/examples/javascript-es6
+card
+  text The ECMAScript 6 (ES2015) standard was ratified in 2015 following years of work standardizing improvements to ECMAScript 3. The committee introduced a wide variety of improvements such as arrow functions, const declarations, and native Promises.
+  link "JavaScript ES6" http://developer.mozilla.org/en-US/docs/JavaScript
+link "let us know" https://github.com/tastejs/todomvc/issues
+h1 todos
+field "What needs to be done?"
+text Double-click to edit a todo
+text Created by the TodoMVC Team
+link TodoMVC http://todomvc.com

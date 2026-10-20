@@ -157,6 +157,8 @@ pub fn paint_words(nd: &mut Node, ws: &[String]) -> Result<Vec<String>> {
             let (k, v) = (&w[..i], &w[i + 1..]);
             if STYLE_WORDS.contains(&k) {
                 nd.args.style.insert(k.to_string(), unq(v));
+            } else if nd.ty == "image" && (w.starts_with("http") || w.starts_with("data:") || w.starts_with("file:")) {
+                rest.push(w.clone()); // a URL source
             } else {
                 return Err(MXError::new(format!("unknown style word {} on {}", jstr(w), nd.ty)));
             }
@@ -576,7 +578,8 @@ pub fn parse_node(line: &str) -> Result<Node> {
         }
     } else if ["h1", "h2", "h3", "text", "badge", "button", "link", "image"].contains(&ts) {
         let allowed = |w: &str| is_tone(w) || w == "disabled" || w == "enabled";
-        let kv: Vec<&String> = rest.iter().filter(|w| w.contains('=') && !w.starts_with('=') && !w.starts_with('"')).collect();
+        // key=value extras; a URL with a query string is not one
+        let kv: Vec<&String> = rest.iter().filter(|w| w.contains('=') && !w.starts_with('=') && !w.starts_with('"') && !w.contains("://") && !w.starts_with("data:")).collect();
         for w in &kv {
             let i = w.find('=').unwrap();
             nd.args.kv.insert(w[..i].to_string(), unq(&w[i + 1..]));

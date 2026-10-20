@@ -1,0 +1,17 @@
+@getbootstrap_com_docs_5_3_examples_jumbo
+button "Toggle theme (light)" primary
+link "Bootstrap Jumbotron example" /
+card
+  h1 Custom jumbotron
+  text Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
+  button "Example button" primary
+row
+  col
+    h2 Change the background
+    text Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.
+    button "Example button"
+  col
+    h2 Add borders
+    text Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.
+    button "Example button"
+text © 2025

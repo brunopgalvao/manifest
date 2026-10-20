@@ -1,0 +1,17 @@
+@adminlte_io_themes_v3_pages_examples_log
+link AdminLTE ../../index2.html
+text Sign in to start your session
+row
+  field Email email
+row
+  field Password password
+row
+  col
+    check "Remember Me" off
+    text Remember Me
+  button "Sign In" primary
+text - OR -
+link "Sign in using Facebook" #
+link "Sign in using Google+" #
+link "I forgot my password" forgot-password.html
+link "Register a new membership" register.html

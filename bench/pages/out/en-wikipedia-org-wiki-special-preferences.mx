@@ -1,0 +1,93 @@
+@en_wikipedia_org_wiki_special_preference
+link "Jump to content" #bodyContent
+row
+  row
+    col
+      button "Main menu"
+      text Main menu
+      row
+        text Main menu
+        button "Move Main menu to sidebar"
+      link "Main page" https://en.wikipedia.org/wiki/Main_Page
+      link Contents https://en.wikipedia.org/wiki/Wikipedia:Contents
+      link "Current events" https://en.wikipedia.org/wiki/Portal:Current_events
+      link "Random article" https://en.wikipedia.org/wiki/Special:Random
+      link "About Wikipedia" https://en.wikipedia.org/wiki/Wikipedia:About
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      text Contribute
+      link Help https://en.wikipedia.org/wiki/Help:Contents
+      link "Learn to edit" https://en.wikipedia.org/wiki/Help:Introduction
+      link "Community portal" https://en.wikipedia.org/wiki/Wikipedia:Community_portal
+      link "Recent changes" https://en.wikipedia.org/wiki/Special:RecentChanges
+      link "Upload file" https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard
+      link "Special pages" https://en.wikipedia.org/wiki/Special:SpecialPages
+    link "https://en.wikipedia.org/wiki/Main_Page" https://en.wikipedia.org/wiki/Main_Page
+  row
+    row
+      col
+        field "Search Wikipedia" search
+      button Search
+    row
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=auth.wikimedia.org&uselang=en
+      link "Create account" /enwiki/w/index.php?title=Special:CreateAccount&returnto=Special%3APreferences&returntoquery=&centralauthLoginToken=6c22fe1d87cb101fe868d24a73a0b9f1&usesul3=1&useformat=desktop
+      link "Log in" /enwiki/w/index.php?title=Special:UserLogin&returnto=Special%3APreferences&returntoquery=&centralauthLoginToken=6c22fe1d87cb101fe868d24a73a0b9f1&usesul3=1&useformat=desktop
+row
+  row
+    h1 Log in
+    col
+      text English
+      button Tools
+      text Tools
+      row
+        text Tools
+        button "Move Tools to sidebar"
+      text General
+      link "Upload file" //en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard
+      link "Printable version" javascript:print();
+      link "Get shortened URL" https://en.wikipedia.org/wiki/Special:UrlShortener?url=https%3A%2F%2Fauth.wikimedia.org%2Fenwiki%2Fw%2Findex.php%3Ftitle%3DSpecial%3AUserLogin%26centralauthLoginToken%3D6c22fe1d87cb101fe868d24a73a0b9f1%26returnto%3DSpecial%253APreferences%26returntoquery%3D%26useformat%3Ddesktop%26usesul3%3D1%26warning%3Dprefsnologintext2
+    col
+      row
+        text Appearance
+        button "Hide Appearance"
+      text Text
+      text Small
+      text Standard
+      text Large
+      text This page always uses small font size
+      text Width
+      text Standard
+      text Wide
+      text Color
+      text Automatic
+      text Light
+      text Dark
+    col
+      region 448x52
+        rect @13,13 18x26 fill:#ab7f2a
+        text @39,26.2 "Please log in to change your preferences." size:14 fill:#202122
+      text Username
+      field Username
+      text Password
+      field Password password
+      check "Keep me logged in (for up to one year)" off
+      text Keep me logged in (for up to one year)
+      text "<input type=\"hidden\" value=\"1\" name=\"wmevents_userlogin_noscript\">"
+      button "Log in" primary
+      link "Help with logging in" https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Logging_in
+      link "Forgot your password?" /enwiki/w/index.php?title=Special:PasswordReset&returnto=Special%3APreferences&returntoquery=&centralauthLoginToken=6c22fe1d87cb101fe868d24a73a0b9f1&usesul3=1&useformat=desktop
+      link "Join Wikipedia" /enwiki/w/index.php?title=Special:CreateAccount&returnto=Special%3APreferences&returntoquery=&centralauthLoginToken=6c22fe1d87cb101fe868d24a73a0b9f1&usesul3=1&useformat=desktop&campaign=loginCTA
+  col
+    row
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      link "About Wikipedia" https://en.wikipedia.org/wiki/Wikipedia:About
+      link Disclaimers https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+      link Developers https://developer.wikimedia.org
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+      link "Mobile view" //auth.wikimedia.org/enwiki/w/index.php?title=Special:UserLogin&centralauthLoginToken=6c22fe1d87cb101fe868d24a73a0b9f1&returnto=Special%3APreferences&returntoquery=&usesul3=1&warning=prefsnologintext2&mobileaction=toggle_view_mobile
+    row
+      link "https://www.wikimedia.org/" https://www.wikimedia.org/
+      link "https://www.mediawiki.org/" https://www.mediawiki.org/

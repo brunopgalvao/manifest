@@ -1,0 +1,97 @@
+@getbootstrap_com_docs_5_3_examples_check
+button "Toggle theme (light)" primary
+h1 Checkout form
+text Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.
+row
+  col
+    h3 Your cart 3
+    card
+      col
+        h3 Product name
+        text Brief description
+      text $12
+    row
+      col
+        h3 Second product
+        text Brief description
+      text $8
+    row
+      col
+        h3 Third item
+        text Brief description
+      text $5
+    row
+      col
+        h3 Promo code
+        text EXAMPLECODE success
+      text −$5 success
+    text Total (USD) $20
+    card
+      row
+        field "Promo code"
+        button Redeem primary
+  col
+    h3 Billing address
+    row
+      col
+        text First name
+        field "First name" required
+      col
+        text Last name
+        field "Last name" required
+      col
+        text Username
+        row
+          text @
+          field Username required
+      col
+        text Email (Optional)
+        field Email email
+      col
+        text Address
+        field Address required
+      col
+        text Address 2 (Optional)
+        field "Address 2"
+      col
+        text Country
+        select Country *Choose... "United States"
+      col
+        text State
+        select State *Choose... California
+      col
+        text Zip
+        field Zip required
+    row
+      check "Shipping address is the same as my billing address" off
+      text Shipping address is the same as my billing address
+    row
+      check "Save this information for next time" off
+      text Save this information for next time
+    h3 Payment
+    row
+      text Credit card
+    row
+      text Debit card
+    row
+      text PayPal
+    row
+      col
+        text Name on card
+        field "Name on card" required
+        text Full name as displayed on card
+      col
+        text Credit card number
+        field "Credit card number" required
+      col
+        text Expiration
+        field Expiration required
+      col
+        text CVV
+        field CVV required
+    button "Continue to checkout" primary
+text © 2017–2025 Company Name
+row
+  link Privacy #
+  link Terms #
+  link Support #

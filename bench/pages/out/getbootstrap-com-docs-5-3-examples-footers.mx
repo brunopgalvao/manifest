@@ -1,0 +1,84 @@
+@getbootstrap_com_docs_5_3_examples_foote
+button "Toggle theme (light)" primary
+row
+  text © 2025 Company, Inc
+  link Bootstrap /
+  row
+    link Home #
+    link Features #
+    link Pricing #
+    link FAQs #
+    link About #
+row
+  row
+    link Bootstrap /
+    text © 2025 Company, Inc
+  row
+    link Instagram #
+    link Facebook #
+row
+  link Home #
+  link Features #
+  link Pricing #
+  link FAQs #
+  link About #
+text © 2025 Company, Inc
+row
+  col
+    link Bootstrap /
+    text © 2025
+  col
+    h3 Section
+    link Home #
+    link Features #
+    link Pricing #
+    link FAQs #
+    link About #
+  col
+    h3 Section
+    link Home #
+    link Features #
+    link Pricing #
+    link FAQs #
+    link About #
+  col
+    h3 Section
+    link Home #
+    link Features #
+    link Pricing #
+    link FAQs #
+    link About #
+row
+  col
+    h3 Section
+    link Home #
+    link Features #
+    link Pricing #
+    link FAQs #
+    link About #
+  col
+    h3 Section
+    link Home #
+    link Features #
+    link Pricing #
+    link FAQs #
+    link About #
+  col
+    h3 Section
+    link Home #
+    link Features #
+    link Pricing #
+    link FAQs #
+    link About #
+  col
+    h3 Subscribe to our newsletter
+    text Monthly digest of what's new and exciting from us.
+    row
+      text Email address
+      field "Email address" email
+      button Subscribe primary
+row
+  text © 2025 Company, Inc. All rights reserved.
+  row
+    link Instagram #
+    link Facebook #

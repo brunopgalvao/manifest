@@ -1,0 +1,64 @@
+@ui_shadcn_com_examples_authentication
+row
+  row
+    link Home /
+    link Docs /docs/installation
+    link Components /docs/components
+    link Blocks /blocks
+    link Charts /charts/area
+    link Directory /docs/directory
+    link Typeset /typeset
+    link Create /create
+  row
+    button "Search documentation...Search..."
+    link 126k https://github.com/shadcn-ui/ui
+    button "Toggle theme"
+    row
+      link New /create
+link "Trace, Code Block and AI Elements" /docs/changelog
+h1 The Foundation for your Design System
+text A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.
+row
+  link "Get Started" /docs/installation
+  link "View Components" /docs/components
+row
+  row
+    link Examples /
+    link Dashboard /examples/dashboard
+    link Tasks /examples/tasks
+    link Playground /examples/playground
+    link Authentication /examples/authentication
+    link RTL /examples/rtl
+  row
+    text Theme
+    row
+      text Neutral
+      region 16x16
+        path "m6 9 6 6 6-6" fill:none stroke:#737373 width:2
+    button "Copy Code"
+card
+  row
+    link Login /examples/authentication
+    col
+      region 24x24
+        path "M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3" fill:none stroke:#000000 width:2
+      text “This library has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.” - Sofia Davis
+    col
+      h1 Create an account
+      text Enter your email below to create your account
+      row
+        col
+          text Email
+          field Email email
+          button "Sign In with Email" primary
+        col
+          text Or continue with
+        button GitHub
+      link "Terms of Service" /terms
+      link "Privacy Policy" /privacy
+row
+  link shadcn https://twitter.com/shadcn
+  link Vercel https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout
+  link GitHub https://github.com/shadcn-ui/ui
+text Notifications alt+T
+text Notifications

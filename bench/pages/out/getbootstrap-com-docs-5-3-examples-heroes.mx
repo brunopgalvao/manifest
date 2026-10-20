@@ -1,0 +1,46 @@
+@getbootstrap_com_docs_5_3_examples_heroe
+button "Toggle theme (light)" primary
+h1 Heroes examples
+h1 Centered hero
+text Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+row
+  button "Primary button" primary
+  button Secondary
+h1 Centered screenshot
+text Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+row
+  button "Primary button" primary
+  button Secondary
+image https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-docs.png "Example image"
+row
+  image https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-themes.png "Bootstrap Themes"
+  col
+    h1 Responsive left-aligned hero with image
+    text Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+    row
+      button Primary primary
+      button Default
+row
+  col
+    h1 Vertically centered hero sign-up form
+    text Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.
+  col
+    field "Email address" email
+    text Email address
+    field Password password
+    text Password
+    check "Remember me" off
+    button "Sign up" primary
+    text By clicking Sign up, you agree to the terms of use.
+card
+  col
+    h1 Border hero with cropped image and shadows
+    text Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+    row
+      button Primary primary
+      button Default
+h1 Dark color hero
+text Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+row
+  button "Custom button"
+  button Secondary

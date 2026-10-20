@@ -1,0 +1,156 @@
+@www_w3_org_wai_aria_apg_patterns
+row
+  row
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/
+    text How to build accessibility semantics into web patterns and widgets
+  row
+    link "W3C homepage" https://www.w3.org/
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/
+row
+  link "APG Home" /WAI/ARIA/apg/
+  link Patterns /WAI/ARIA/apg/patterns/
+  link Practices /WAI/ARIA/apg/practices/
+  link Index /WAI/ARIA/apg/example-index/
+  link About /WAI/ARIA/apg/about/
+h1 Patterns
+card
+  image https://www.w3.org/WAI/content-images/wai-aria-practices/images/read-this-first.svg "Illustration of a brown-skinned woman with a slight smile gesturing towards the right with her hand"
+  h2 Read This First
+  link "Read this to understand why no ARIA is better than bad ARIA" /WAI/content-assets/wai-aria-practices/../../ARIA/apg/practices/read-me-first/
+card
+  h2 Filter Patterns
+  row
+    row
+      region 33x33
+        region @-3.5,-3.5
+          path "M20.5,12.5a8,8,0,1,1-8-8,8,8,0,0,1,8,8Z" fill:none stroke:#686868 width:2
+        region @-10.32,-10.32
+          path "M29.325,29.325l-4.35-4.35" fill:none stroke:#686868 width:2
+      field "Filter patterns"
+      button "Clear pattern filter"
+    row
+      button "Show list view"
+      button "Show tiles view"
+row
+  col
+    link "Accordion (Sections With Show/Hide Functionality)" accordion/
+    text An accordion is a vertically stacked set of interactive headings that each contain a title, content snippet, or thumbnail representing a section of content.
+  col
+    link Alert alert/
+    text An alert is an element that displays a brief, important message in a way that attracts the user's attention without interrupting the user's task.
+  col
+    link "Alert and Message Dialogs" alertdialog/
+    text An alert dialog is a modal dialog that interrupts the user's workflow to communicate an important message and acquire a response.
+  col
+    link Breadcrumb breadcrumb/
+    text A breadcrumb trail consists of a list of links to the parent pages of the current page in hierarchical order.
+  col
+    link Button button/
+    text A button is a widget that enables users to trigger an action or event, such as submitting a form, opening a dialog, canceling an action, or performing a delete operation.
+  col
+    link "Carousel (Slide Show or Image Rotator)" carousel/
+    text A carousel presents a set of items, referred to as slides, by sequentially displaying a subset of one or more slides.
+  col
+    link Checkbox checkbox/
+    text WAI-ARIA supports two types of checkbox widgets: dual-state checkboxes toggle between two choices -- checked and not checked -- and tri-state checkboxes, which allow an additional third state known as partially checked.
+  col
+    link Combobox combobox/
+    text A combobox is an input widget that has an associated popup.
+  col
+    link "Dialog (Modal)" dialog-modal/
+    text A dialog is a window overlaid on either the primary window or another dialog window.
+  col
+    link "Disclosure (Show/Hide)" disclosure/
+    text A disclosure is a widget that enables content to be either collapsed (hidden) or expanded (visible).
+  col
+    link Feed feed/
+    text A feed is a section of a page that automatically loads new sections of content as the user scrolls.
+  col
+    link "Grid (Interactive Tabular Data and Layout Containers)" grid/
+    text A grid widget is a container that enables users to navigate the information or interactive elements it contains using directional navigation keys, such as arrow keys, Home, and End.
+  col
+    link Landmarks landmarks/
+    text Landmarks are a set of eight roles that identify the major sections of a page.
+  col
+    link Link link/
+    text A link widget provides an interactive reference to a resource.
+  col
+    link Listbox listbox/
+    text A listbox widget presents a list of options and allows a user to select one or more of them.
+  col
+    link "Menu and Menubar" menubar/
+    text A menu is a widget that offers a list of choices to the user, such as a set of actions or functions.
+  col
+    link "Menu Button" menu-button/
+    text A menu button is a button that opens a menu as described in the Menu and Menubar Pattern.
+  col
+    link Meter meter/
+    text A meter is a graphical display of a numeric value that varies within a defined range.
+  col
+    link "Radio Group" radio/
+    text A radio group is a set of checkable buttons, known as radio buttons, where no more than one of the buttons can be checked at a time.
+  col
+    link Slider slider/
+    text A slider is an input where the user selects a value from within a given range.
+  col
+    link "Slider (Multi-Thumb)" slider-multithumb/
+    text A multi-thumb slider implements the Slider Pattern but includes two or more thumbs, often on a single rail.
+  col
+    link Spinbutton spinbutton/
+    text A spinbutton is an input widget that restricts its value to a set or range of discrete values.
+  col
+    link Switch switch/
+    text A switch is an input widget that allows users to choose one of two values: on or off.
+  col
+    link Table table/
+    text Like an HTML table element, a WAI-ARIA table is a static tabular structure containing one or more rows that each contain one or more cells; it is not an interactive widget.
+  col
+    link Tabs tabs/
+    text Tabs are a set of layered sections of content, known as tab panels, that display one panel of content at a time.
+  col
+    link Toolbar toolbar/
+    text A toolbar is a container for grouping a set of controls, such as buttons, menubuttons, or checkboxes.
+  col
+    link Tooltip tooltip/
+    text A tooltip is a popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.
+  col
+    link "Tree View" treeview/
+    text A tree view widget presents a hierarchical list.
+  col
+    link Treegrid treegrid/
+    text A treegrid widget presents a hierarchical data grid consisting of tabular information that is editable or interactive.
+  col
+    link "Window Splitter" windowsplitter/
+    text A window splitter is a moveable separator between two sections, or panes, of a window that enables users to change the relative size of the panes.
+row
+  region 16x16
+  h2 Help improve this page
+link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+row
+  link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/patterns.html
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/
+link "Back to Top" #top
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/
+text Strategies, standards, resources to make the Web accessible to people with disabilities
+row
+  link "Get News in Email" /WAI/news/subscribe/
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/
+  link Mastodon https://w3c.social/@wai
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+row
+  link Home /WAI/
+  link Contact /WAI/about/contacting/
+  link "Site map" /WAI/sitemap/
+  link "Support WAI" /WAI/about/support/
+  link News /WAI/news/
+  link "Accessibility statement" /WAI/about/accessibility-statement/
+  link "All Translations" /WAI/translations/
+  link "Resources for roles" /WAI/roles/
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/software-license/
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/

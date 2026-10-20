@@ -1,0 +1,46 @@
+@getbootstrap_com_docs_5_3_examples_dashb
+button "Toggle theme (light)" primary
+link "Company name" #
+row
+  col
+    link Dashboard #
+    link Orders #
+    link Products #
+    link Customers #
+    link Reports #
+    link Integrations #
+    h3 Saved reports
+    link "Current month" #
+    link "Last quarter" #
+    link "Social engagement" #
+    link "Year-end sale" #
+    link Settings #
+    link "Sign out" #
+  col
+    row
+      h1 Dashboard
+      row
+        row
+          button Share
+          button Export
+        button "This week"
+    region 1018.66x430
+      image @0,0 1018.66x430 getbootstrap_com_docs_5_3_examples_dashb-1.png "Canvas"
+    h2 Section title
+    table # Header Header Header Header
+      1,001 | random | data | placeholder | text
+      1,002 | placeholder | irrelevant | visual | layout
+      1,003 | data | rich | dashboard | tabular
+      1,003 | information | placeholder | illustrative | data
+      1,004 | text | random | layout | dashboard
+      1,005 | dashboard | irrelevant | text | placeholder
+      1,006 | dashboard | illustrative | rich | data
+      1,007 | placeholder | tabular | information | irrelevant
+      1,008 | random | data | placeholder | text
+      1,009 | placeholder | irrelevant | visual | layout
+      1,010 | data | rich | dashboard | tabular
+      1,011 | information | placeholder | illustrative | data
+      1,012 | text | placeholder | layout | dashboard
+      1,013 | dashboard | irrelevant | text | visual
+      1,014 | dashboard | illustrative | rich | data
+      1,015 | random | tabular | information | text

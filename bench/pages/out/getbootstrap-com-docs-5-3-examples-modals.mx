@@ -1,0 +1,42 @@
+@getbootstrap_com_docs_5_3_examples_modal
+button "Toggle theme (light)" primary
+card
+  row
+    h1 Modal title
+    button Close
+  text This is a modal sheet, a variation of the modal that docs itself to the bottom of the viewport like the newer share sheets in iOS.
+  button "Save changes" primary
+  button Close primary
+card
+  h3 Enable this setting?
+  text You can always change your mind in your account settings.
+  row
+    button "Yes, enable"
+    button "No thanks"
+card
+  h2 What's new
+  row
+    row
+      region 48x48
+      h3 Grid view
+    row
+      region 48x48
+      h3 Bookmarks
+    row
+      region 48x48
+      h3 Video embeds
+  button "Great, thanks!" primary
+card
+  row
+    h1 Sign up for free
+    button Close
+  field "Email address" email
+  text Email address
+  field Password password
+  text Password
+  button "Sign up" primary
+  text By clicking Sign up, you agree to the terms of use.
+  h2 Or use a third-party
+  button "Sign up with Google"
+  button "Sign up with Facebook"
+  button "Sign up with GitHub"

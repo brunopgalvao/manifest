@@ -1,0 +1,88 @@
+@www_usa_gov_benefits
+link "Skip to main content" #skip-to-h1
+row
+  text An official website of the United States government
+  button "Here's how you know"
+text Home Close Search 1-844-USAGOV1 Government benefits Find government benefits and financial help Food assistance Health insurance Housing help Help with utility bills Welfare and financial assistance Social Security Government checks and payments State social service agencies Government death benefits Report incorrect benefit payments Government grants and loans
+row
+  region "Information" 300x150
+  link vote.gov https://www.vote.gov
+row
+  link "USAGov Logo" /
+  col
+    button Español primary
+    row
+      link "Call us at 1-844-USAGOV1" /phone
+      row
+        text Search
+        field Search search
+        button Search primary
+row
+  link "All topics and services" /#all-topics-header
+  link "The U.S. and its government" /about-the-us
+  link "Government benefits" /benefits
+  link "Immigration and U.S. citizenship" /immigration-and-citizenship
+  link "Money and credit" /money
+  link Travel /travel
+  link "Voting and elections" /voting-and-elections
+row
+  col
+    row
+      link Home /
+      text Government benefits
+    h1 Government benefits
+    h2 Most popular
+    link "Learn about food assistance programs like SNAP (food stamps)" /food-help
+    link "Find out about Social Security and how to apply if you are eligible" /what-is-social-security
+    link "Get help with your utility bills" /help-with-utility-bills
+    text Get information on government programs that may help you pay for food, housing, health care, and other basic living expenses. Learn about Social Security and government checks.
+    row
+      link "Find government benefits and financial help Discover government benefits that you may be eligible for and learn how to apply." /benefit-finder
+      link "Food assistance Get nutritious food through SNAP (food stamps), WIC for women, infants, and children, and emergency food assistance." /food-help
+      link "Health insurance Get information about Medicaid, CHIP, Medicare, the ACA Health Insurance Marketplace, and COBRA." /health-insurance
+      link "Housing help Learn about rental and buyer assistance programs. Find emergency housing and avoid eviction." /housing-help
+      link "Help with utility bills Learn about government programs to help pay for phone, internet, and energy bills." /help-with-utility-bills
+      link "Welfare and financial assistance Learn about welfare benefits, financial assistance, and more." /welfare-and-financial-assistance
+      link "Social Security Learn about Social Security, including retirement and disability benefits, how to get or replace your Social Security card, and more." /social-security
+      link "Government checks and payments Report missing government checks. Trace unexpected payments. Make a payment to the government." /government-checks-payments
+      link "State social service agencies Contact your state social service agency for information about state benefit programs and more." /state-social-services
+      link "Government death benefits Find government survivor benefits for housing, education, military, and more." /government-death-benefits
+      link "Where to report incorrect benefit payments Get contact information for reporting missing or incorrect federal benefit payments." /report-incorrect-benefit-payments
+      link "Government grants and loans Learn about federal grants for states and organizations and federal loans for individuals." /government-grants-and-loans
+    row
+      text Looking for something else?
+      link "Explore all topics and services" /#all-topics-header
+    row
+      text SHARE THIS PAGE:
+      row
+        link "https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/benefits&v=3" https://www.facebook.com/sharer/sharer.php?u=https://www.usa.gov/benefits&v=3
+        link "https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fbenefits" https://x.com/intent/post?url=https%3A%2F%2Fwww.usa.gov%2Fbenefits
+        link "mailto:?subject=https://www.usa.gov/benefits" mailto:?subject=https://www.usa.gov/benefits
+  link "Back to top" #main-content
+row
+  col
+    h3 Government information
+    link "All topics and services" /#all-topics-header
+    link "Directory of U.S. government agencies and departments" /agency-index
+    link "Branches of government" /branches-of-government
+  col
+    h3 About us
+    link "About USAGov" /about
+    link "Report a website issue" /site-issue-report-form
+    link "Website usage data" /website-analytics/
+  col
+    h3 For federal agencies
+    link "Partner with us" /partner-with-usagov
+    link "Read our blog" /blog
+row
+  col
+    h3 USAGov Contact Center
+    text Ask USA.gov a question at
+    link "1-844-USAGOV1 (1-844-872-4681)" /phone
+text USAGov is the official guide to government information and services
+link "U.S. General Services Administration" https://www.gsa.gov/
+link 14224 https://www.federalregister.gov/documents/2025/03/06/2025-03694/designating-english-as-the-official-language-of-the-united-states
+row
+  link "Accessibility policy" /accessibility-policy
+  link "Privacy and security policies" /privacy-security
+  link "FOIA requests" https://www.gsa.gov/reference/freedom-of-information-act-foia

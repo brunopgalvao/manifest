@@ -1,0 +1,85 @@
+@adminlte_io_themes_v3_pages_calendar_htm
+row
+  row
+    button button
+    link Home ../index3.html
+    link Contact #
+  row
+    button button
+    link 3 #
+    link 15 #
+    button button
+    button button
+link "AdminLTE 3" ../index3.html
+row
+  image https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg "User Image"
+  link "Alexander Pierce" #
+row
+  field Search search
+  button button primary
+link Dashboard #
+link "Widgets New" widgets.html
+link "Layout Options 6" #
+link Charts #
+link "UI Elements" #
+link Forms #
+link Tables #
+text EXAMPLES
+link "Calendar 2" calendar.html
+link Gallery gallery.html
+link "Kanban Board" kanban.html
+link Mailbox #
+link Pages #
+link Extras #
+link Search #
+text MISCELLANEOUS
+link "Tabbed IFrame Plugin" ../iframe.html
+link Documentation https://adminlte.io/docs/3.1/
+text MULTI LEVEL EXAMPLE
+link "Level 1" #
+link "Level 1" #
+link "Level 1" #
+text LABELS
+link Important #
+link Warning #
+link Informational #
+row
+  h1 Calendar
+  row
+    link Home #
+    text Calendar
+row
+  col
+    h3 Draggable Events
+    text Lunch
+    text Go home
+    text Do homework
+    text Work on UI design
+    text Sleep tight
+    check "remove after drop" off
+    h3 Create Event
+    row
+      link "#" #
+      link "#" #
+      link "#" #
+      link "#" #
+      link "#" #
+    row
+      field "Event Title"
+      button Add primary
+  col
+    row
+      row
+        row
+          button "Previous month" primary
+          button "Next month" primary
+        button today primary disabled
+      h2 October 2026
+      row
+        button month primary
+        button week primary
+        button day primary
+    table SunMonTueWedThuFriSat
+      272829301All Day Event2345678910111213141512aLong Event161718192010:30aMeeting12pLunch217pBirthday Party2223242526272812aClick for Google2930311234567
+text Version 3.2.0
+link AdminLTE.io https://adminlte.io

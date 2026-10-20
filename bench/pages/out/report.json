@@ -1,0 +1,15 @@
+{
+ "pages": 100,
+ "imported": 100,
+ "parsed": 100,
+ "errors": [],
+ "bad_parse": [],
+ "tokens_html": 6510211,
+ "tokens_mx": 736715,
+ "ratio_total": 8.84,
+ "ratio_median": 9.35,
+ "text_kept_median_pct": 96.4,
+ "text_kept_min_pct": 43.9,
+ "semantic_share_median_pct": 100.0,
+ "heights_within_tolerance_median_pct": 45.2
+}

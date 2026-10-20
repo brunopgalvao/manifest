@@ -1,0 +1,181 @@
+@developer_mozilla_org_en_us_docs_web_htm
+row
+  col
+    link "Skip to main content" #content
+    link "Skip to search" #mdn-search
+  region 1280x91
+    rect @0,0 1280x57 fill:#f7f7f8
+  col
+    link MDN /en-US/
+    row
+      link Web /en-US/docs/Web
+      link HTML /en-US/docs/Web/HTML
+      link Reference /en-US/docs/Web/HTML/Reference
+      link Elements /en-US/docs/Web/HTML/Reference/Elements
+      link <form> /en-US/docs/Web/HTML/Reference/Elements/form
+  col
+    link HTML /en-US/docs/Web/HTML
+    link Guides /en-US/docs/Web/HTML/Guides
+    link "How to" /en-US/docs/Web/HTML/How_to
+    link "Define terms with HTML" /en-US/docs/Web/HTML/How_to/Define_terms_with_HTML
+    link "Use data attributes" /en-US/docs/Web/HTML/How_to/Use_data_attributes
+    link "Use cross-origin images" /en-US/docs/Web/HTML/How_to/CORS_enabled_image
+    link "Add a hitmap on top of an image" /en-US/docs/Web/HTML/How_to/Add_a_hit_map_on_top_of_an_image
+    link "Author fast-loading HTML pages" /en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages
+    link "Add JavaScript" /en-US/docs/Web/HTML/How_to/Add_JavaScript_to_your_web_page
+    link Reference /en-US/docs/Web/HTML/Reference
+    link Elements /en-US/docs/Web/HTML/Reference/Elements
+    link <a> /en-US/docs/Web/HTML/Reference/Elements/a
+    link <abbr> /en-US/docs/Web/HTML/Reference/Elements/abbr
+    link <acronym> /en-US/docs/Web/HTML/Reference/Elements/acronym
+    link <address> /en-US/docs/Web/HTML/Reference/Elements/address
+    link <area> /en-US/docs/Web/HTML/Reference/Elements/area
+    link <article> /en-US/docs/Web/HTML/Reference/Elements/article
+    link <aside> /en-US/docs/Web/HTML/Reference/Elements/aside
+    link <audio> /en-US/docs/Web/HTML/Reference/Elements/audio
+    link <b> /en-US/docs/Web/HTML/Reference/Elements/b
+    link <base> /en-US/docs/Web/HTML/Reference/Elements/base
+    link <bdi> /en-US/docs/Web/HTML/Reference/Elements/bdi
+    link <bdo> /en-US/docs/Web/HTML/Reference/Elements/bdo
+    link <big> /en-US/docs/Web/HTML/Reference/Elements/big
+    link <blockquote> /en-US/docs/Web/HTML/Reference/Elements/blockquote
+    link <body> /en-US/docs/Web/HTML/Reference/Elements/body
+    link <br> /en-US/docs/Web/HTML/Reference/Elements/br
+    link <button> /en-US/docs/Web/HTML/Reference/Elements/button
+    link <canvas> /en-US/docs/Web/HTML/Reference/Elements/canvas
+    link <caption> /en-US/docs/Web/HTML/Reference/Elements/caption
+    link <center> /en-US/docs/Web/HTML/Reference/Elements/center
+    link <cite> /en-US/docs/Web/HTML/Reference/Elements/cite
+    link <code> /en-US/docs/Web/HTML/Reference/Elements/code
+    link <col> /en-US/docs/Web/HTML/Reference/Elements/col
+    link <colgroup> /en-US/docs/Web/HTML/Reference/Elements/colgroup
+    link <data> /en-US/docs/Web/HTML/Reference/Elements/data
+    link <datalist> /en-US/docs/Web/HTML/Reference/Elements/datalist
+    link <dd> /en-US/docs/Web/HTML/Reference/Elements/dd
+    link <del> /en-US/docs/Web/HTML/Reference/Elements/del
+    link <details> /en-US/docs/Web/HTML/Reference/Elements/details
+    link <dfn> /en-US/docs/Web/HTML/Reference/Elements/dfn
+    link <dialog> /en-US/docs/Web/HTML/Reference/Elements/dialog
+    link <dir> /en-US/docs/Web/HTML/Reference/Elements/dir
+    link <div> /en-US/docs/Web/HTML/Reference/Elements/div
+    link <dl> /en-US/docs/Web/HTML/Reference/Elements/dl
+    link <dt> /en-US/docs/Web/HTML/Reference/Elements/dt
+    link <em> /en-US/docs/Web/HTML/Reference/Elements/em
+    link <embed> /en-US/docs/Web/HTML/Reference/Elements/embed
+    link <fencedframe> /en-US/docs/Web/HTML/Reference/Elements/fencedframe
+    link <fieldset> /en-US/docs/Web/HTML/Reference/Elements/fieldset
+    link <figcaption> /en-US/docs/Web/HTML/Reference/Elements/figcaption
+    link <figure> /en-US/docs/Web/HTML/Reference/Elements/figure
+    link <font> /en-US/docs/Web/HTML/Reference/Elements/font
+    link <footer> /en-US/docs/Web/HTML/Reference/Elements/footer
+    link <form> /en-US/docs/Web/HTML/Reference/Elements/form
+    link <frame> /en-US/docs/Web/HTML/Reference/Elements/frame
+    link <frameset> /en-US/docs/Web/HTML/Reference/Elements/frameset
+    link <geolocation> /en-US/docs/Web/HTML/Reference/Elements/geolocation
+    link <h1>–<h6> /en-US/docs/Web/HTML/Reference/Elements/Heading_Elements
+    link <head> /en-US/docs/Web/HTML/Reference/Elements/head
+    link <header> /en-US/docs/Web/HTML/Reference/Elements/header
+    link <hgroup> /en-US/docs/Web/HTML/Reference/Elements/hgroup
+    link <hr> /en-US/docs/Web/HTML/Reference/Elements/hr
+    link <html> /en-US/docs/Web/HTML/Reference/Elements/html
+    link <i> /en-US/docs/Web/HTML/Reference/Elements/i
+    link <iframe> /en-US/docs/Web/HTML/Reference/Elements/iframe
+    link <img> /en-US/docs/Web/HTML/Reference/Elements/img
+    link <input> /en-US/docs/Web/HTML/Reference/Elements/input
+    link <ins> /en-US/docs/Web/HTML/Reference/Elements/ins
+    link <kbd> /en-US/docs/Web/HTML/Reference/Elements/kbd
+    link <label> /en-US/docs/Web/HTML/Reference/Elements/label
+    link <legend> /en-US/docs/Web/HTML/Reference/Elements/legend
+    link <li> /en-US/docs/Web/HTML/Reference/Elements/li
+    link <link> /en-US/docs/Web/HTML/Reference/Elements/link
+    link <main> /en-US/docs/Web/HTML/Reference/Elements/main
+    link <map> /en-US/docs/Web/HTML/Reference/Elements/map
+    link <mark> /en-US/docs/Web/HTML/Reference/Elements/mark
+    link <marquee> /en-US/docs/Web/HTML/Reference/Elements/marquee
+    link <menu> /en-US/docs/Web/HTML/Reference/Elements/menu
+    link <meta> /en-US/docs/Web/HTML/Reference/Elements/meta
+    link <meter> /en-US/docs/Web/HTML/Reference/Elements/meter
+    link <nav> /en-US/docs/Web/HTML/Reference/Elements/nav
+    link <nobr> /en-US/docs/Web/HTML/Reference/Elements/nobr
+    link <noembed> /en-US/docs/Web/HTML/Reference/Elements/noembed
+    link <noframes> /en-US/docs/Web/HTML/Reference/Elements/noframes
+    link <noscript> /en-US/docs/Web/HTML/Reference/Elements/noscript
+    link <object> /en-US/docs/Web/HTML/Reference/Elements/object
+    link <ol> /en-US/docs/Web/HTML/Reference/Elements/ol
+    link <optgroup> /en-US/docs/Web/HTML/Reference/Elements/optgroup
+    link <option> /en-US/docs/Web/HTML/Reference/Elements/option
+    link <output> /en-US/docs/Web/HTML/Reference/Elements/output
+    link <p> /en-US/docs/Web/HTML/Reference/Elements/p
+    link <param> /en-US/docs/Web/HTML/Reference/Elements/param
+    link <picture> /en-US/docs/Web/HTML/Reference/Elements/picture
+    link <plaintext> /en-US/docs/Web/HTML/Reference/Elements/plaintext
+    link <pre> /en-US/docs/Web/HTML/Reference/Elements/pre
+    link <progress> /en-US/docs/Web/HTML/Reference/Elements/progress
+    link <q> /en-US/docs/Web/HTML/Reference/Elements/q
+    link <rb> /en-US/docs/Web/HTML/Reference/Elements/rb
+    link <rp> /en-US/docs/Web/HTML/Reference/Elements/rp
+    link <rt> /en-US/docs/Web/HTML/Reference/Elements/rt
+    link <rtc> /en-US/docs/Web/HTML/Reference/Elements/rtc
+    link <ruby> /en-US/docs/Web/HTML/Reference/Elements/ruby
+    link <s> /en-US/docs/Web/HTML/Reference/Elements/s
+    link <samp> /en-US/docs/Web/HTML/Reference/Elements/samp
+    link <script> /en-US/docs/Web/HTML/Reference/Elements/script
+    link <search> /en-US/docs/Web/HTML/Reference/Elements/search
+    link <section> /en-US/docs/Web/HTML/Reference/Elements/section
+    link <select> /en-US/docs/Web/HTML/Reference/Elements/select
+    link <selectedcontent> /en-US/docs/Web/HTML/Reference/Elements/selectedcontent
+    link <slot> /en-US/docs/Web/HTML/Reference/Elements/slot
+    link <small> /en-US/docs/Web/HTML/Reference/Elements/small
+    link <source> /en-US/docs/Web/HTML/Reference/Elements/source
+    link <span> /en-US/docs/Web/HTML/Reference/Elements/span
+    link <strike> /en-US/docs/Web/HTML/Reference/Elements/strike
+    link <strong> /en-US/docs/Web/HTML/Reference/Elements/strong
+    link <style> /en-US/docs/Web/HTML/Reference/Elements/style
+    link <sub> /en-US/docs/Web/HTML/Reference/Elements/sub
+    link <summary> /en-US/docs/Web/HTML/Reference/Elements/summary
+    link <sup> /en-US/docs/Web/HTML/Reference/Elements/sup
+    link <table> /en-US/docs/Web/HTML/Reference/Elements/table
+    link <tbody> /en-US/docs/Web/HTML/Reference/Elements/tbody
+    link <td> /en-US/docs/Web/HTML/Reference/Elements/td
+    link <template> /en-US/docs/Web/HTML/Reference/Elements/template
+    link <textarea> /en-US/docs/Web/HTML/Reference/Elements/textarea
+    link <tfoot> /en-US/docs/Web/HTML/Reference/Elements/tfoot
+    link <th> /en-US/docs/Web/HTML/Reference/Elements/th
+    link <thead> /en-US/docs/Web/HTML/Reference/Elements/thead
+    link <time> /en-US/docs/Web/HTML/Reference/Elements/time
+    link <title> /en-US/docs/Web/HTML/Reference/Elements/title
+    link <tr> /en-US/docs/Web/HTML/Reference/Elements/tr
+    link <track> /en-US/docs/Web/HTML/Reference/Elements/track
+    link <tt> /en-US/docs/Web/HTML/Reference/Elements/tt
+    link <u> /en-US/docs/Web/HTML/Reference/Elements/u
+    link <ul> /en-US/docs/Web/HTML/Reference/Elements/ul
+    link <var> /en-US/docs/Web/HTML/Reference/Elements/var
+    link <video> /en-US/docs/Web/HTML/Reference/Elements/video
+    link <wbr> /en-US/docs/Web/HTML/Reference/Elements/wbr
+    link <xmp> /en-US/docs/Web/HTML/Reference/Elements/xmp
+    link Attributes /en-US/docs/Web/HTML/Reference/Attributes
+    link "Global attributes" /en-US/docs/Web/HTML/Reference/Global_attributes
+    text Attributes by element
+    text Attribute values
+  col
+    row
+      row
+        link "MDN logo" /
+        text Your blueprint for a better internet.
+      row
+        link "MDN on GitHub" https://github.com/mdn/
+        link "MDN on Bluesky" https://bsky.app/profile/developer.mozilla.org
+        link "MDN on X" https://x.com/mozdevnet
+        link "MDN on Mastodon" https://mastodon.social/@mdn
+        link "MDN blog RSS feed" /en-US/blog/rss.xml
+      text MDN
+      text Contribute
+      text Developers
+    row
+      link "Mozilla logo" https://www.mozilla.org/
+      row
+        link "Website Privacy Notice" https://www.mozilla.org/privacy/websites/
+        link "Telemetry Settings" https://www.mozilla.org/en-US/privacy/websites/data-preferences/
+        link Legal https://www.mozilla.org/about/legal/terms/mozilla
+        link "Community Participation Guidelines" https://www.mozilla.org/about/governance/policies/participation/
+      link "a Creative Commons license" /docs/MDN/Writing_guidelines/Attrib_copyright_license

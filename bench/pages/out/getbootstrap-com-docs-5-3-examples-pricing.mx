@@ -1,0 +1,69 @@
+@getbootstrap_com_docs_5_3_examples_prici
+button "Toggle theme (light)" primary
+row
+  link "Bootstrap Pricing example" /
+  row
+    link Features #
+    link Enterprise #
+    link Support #
+    link Pricing #
+h1 Pricing
+text Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.
+row
+  col
+    card
+      h3 Free
+    h1 $0/mo
+    text 10 users included
+    text 2 GB of storage
+    text Email support
+    text Help center access
+    button "Sign up for free"
+  col
+    card
+      h3 Pro
+    h1 $15/mo
+    text 20 users included
+    text 10 GB of storage
+    text Priority email support
+    text Help center access
+    button "Get started" primary
+  col
+    card
+      h3 Enterprise
+    h1 $29/mo
+    text 30 users included
+    text 15 GB of storage
+    text Phone and email support
+    text Help center access
+    button "Contact us" primary
+h2 Compare plans
+table Col Free Pro Enterprise
+  Public |  |  | 
+  Private |  |  | 
+  Permissions |  |  | 
+  Sharing |  |  | 
+  Unlimited members |  |  | 
+  Extra security |  |  | 
+row
+  text © 2017–2025
+  col
+    h3 Features
+    link "Cool stuff" #
+    link "Random feature" #
+    link "Team feature" #
+    link "Stuff for developers" #
+    link "Another one" #
+    link "Last time" #
+  col
+    h3 Resources
+    link Resource #
+    link "Resource name" #
+    link "Another resource" #
+    link "Final resource" #
+  col
+    h3 About
+    link Team #
+    link Locations #
+    link Privacy #
+    link Terms #

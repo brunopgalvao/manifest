@@ -1,0 +1,145 @@
+@www_w3_org_wai_aria_apg_patterns_combobo
+row
+  row
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/
+    text How to build accessibility semantics into web patterns and widgets
+  row
+    link "W3C homepage" https://www.w3.org/
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/
+row
+  link "APG Home" /WAI/ARIA/apg/
+  link Patterns /WAI/ARIA/apg/patterns/
+  link Practices /WAI/ARIA/apg/practices/
+  link Index /WAI/ARIA/apg/example-index/
+  link About /WAI/ARIA/apg/about/
+row
+  col
+    h2 Page Contents
+    link "Read This First" #support-notice-header
+    link "About This Example" #aboutthisexample
+    link Example #ex_label
+    link "Accessibility Features" #accessibilityfeatures
+    link "Keyboard Support" #kbd_label
+    link "Role, Property, State, and Tabindex Attributes" #rps_label
+    link "JavaScript and CSS Source Code" #javascriptandcsssourcecode
+    link "HTML Source Code" #sc1_label
+  col
+    h1 Select-Only Combobox Example
+    h2 Read This First
+    card
+      text The code in this example is not intended for production environments. Before using it for any purpose, read this to understand why. warning
+    h2 About This Example
+    link "Combobox Pattern" ../../
+    text select primary
+    text <input> primary
+    text <select> primary
+    text Similar examples include:
+    link "Editable Combobox with Both List and Inline Autocomplete" ../combobox-autocomplete-both/
+    text list with inline autocomplete
+    link "Editable Combobox with List Autocomplete" ../combobox-autocomplete-list/
+    text list with manual selection
+    link "Editable Combobox Without Autocomplete" ../combobox-autocomplete-none/
+    text aria-autocomplete=none primary
+    link "Editable Combobox with Grid Popup" ../grid-combo/
+    link "Date Picker Combobox" ../combobox-datepicker/
+    h2 Example
+    button "Open In CodePen" primary
+    text Start of
+    text Favorite Fruit
+    text Favorite Fruit
+    text End of
+    h2 Accessibility Features
+    text "While the functionality and user experience of this example are nearly equivalent to an HTML select element with the attribute size=\"1\", the following differences in behavior are implemented to improve both accessibility and general usability."
+    text If the combobox is collapsed and the user types printable characters, the listbox is displayed and receives accessibility focus via aria-activedescendant. This enables users to perceive the presence of the options, and enables assistive technology users to comprehend the size of the list of options.
+    text Space
+    text Enter
+    text Tab
+    text Escape
+    text Browsers do not manage visibility of elements referenced by aria-activedescendant like they do for elements with focus. When a keyboard event changes the active option in the listbox, the JavaScript scrolls the option referenced by aria-activedescendant into view. Managing aria-activedescendant visibility is essential to accessibility for people who use a browser's zoom feature to increase the size of content.
+    h2 Keyboard Support
+    link "Keyboard Interaction section of the combobox pattern." ../../#keyboard_interaction
+    h3 Closed Combobox
+    table Key Function
+      Down Arrow | Opens the listbox if it is not already displayed without moving focus or changing selection. DOM focus remains on the combobox.
+      Alt + Down Arrow | Opens the listbox without moving focus or changing selection.
+      Up Arrow | First opens the listbox if it is not already displayed and then moves visual focus to the first option. DOM focus remains on the combobox.
+      Enter | Opens the listbox without moving focus or changing selection.
+      Space | Opens the listbox without moving focus or changing selection.
+      Home | Opens the listbox and moves visual focus to the first option.
+      End | Opens the listbox and moves visual focus to the last option.
+      Printable Characters | First opens the listbox if it is not already displayed and then moves visual focus to the first option that matches the typed character. If multiple keys are typed in quick succession, visual focus moves to the first option that matches the full string. If the same character is typed in succession, visual focus cycles among the options starting with that character.
+    h3 Listbox Popup
+    text NOTE:
+    text aria-activedescendant primary
+    link "Managing Focus in Composites Using aria-activedescendant" ../../../../practices/keyboard-interface/#kbd_focus_activedescendant
+    table Key Function
+      Enter | Sets the value to the content of the focused option in the listbox. Closes the listbox. Sets visual focus on the combobox.
+      Space | Sets the value to the content of the focused option in the listbox. Closes the listbox. Sets visual focus on the combobox.
+      Tab | Sets the value to the content of the focused option in the listbox. Closes the listbox. Performs the default action, moving focus to the next focusable element. Note: the native <select> element closes the listbox but does not move focus on tab. This pattern matches the behavior of the other comboboxes rather than the native element in this case.
+      Escape | Closes the listbox. Sets visual focus on the combobox.
+      Down Arrow | Moves visual focus to the next option. If visual focus is on the last option, visual focus does not move.
+      Up Arrow | Moves visual focus to the previous option. If visual focus is on the first option, visual focus does not move.
+      Alt + Up Arrow | Sets the value to the content of the focused option in the listbox. Closes the listbox. Sets visual focus on the combobox.
+      Home | Moves visual focus to the first option.
+      End | Moves visual focus to the last option.
+      PageUp | Jumps visual focus up 10 options (or to first option).
+      PageDown | Jumps visual focus down 10 options (or to last option).
+      Printable Characters | First opens the listbox if it is not already displayed and then moves visual focus to the first option that matches the typed character. If multiple keys are typed in quick succession, visual focus moves to the first option that matches the full string. If the same character is typed in succession, visual focus cycles among the options starting with that character.
+    h2 Role, Property, State, and Tabindex Attributes
+    link "Roles, States, and Properties section of the Combobox Pattern" ../../#roles_states_properties
+    h3 Combobox
+    table Role Attribute Element Usage
+      combobox |  | div | Identifies the input as a combobox.
+       | aria-labelledby="#IDREF" | div | Identifies the element that labels the combobox.
+       | aria-controls="#IDREF" | div | Identifies the element that serves as the popup.
+       | aria-expanded="false" | div | Indicates that the popup element is not displayed.
+       | aria-expanded="true" | div | Indicates that the popup element is displayed.
+       | aria-activedescendant="IDREF" | div | When an option in the listbox is visually indicated as having keyboard focus, refers to that option. When navigation keys, such as Down Arrow, are pressed, the JavaScript changes the value. Enables assistive technologies to know which element the application regards as focused while DOM focus remains on the input element. For more information about this focus management technique, see Managing Focus in Composites Using aria-activedescendant.
+    h3 Listbox Popup
+    table Role Attribute Element Usage
+      listbox |  | div | Identifies the element as a listbox.
+      option |  | div | Identifies the element as a listbox option. The text content of the element provides the accessible name of the option.
+       | aria-selected="true" | li | Specified on an option in the listbox when it is visually highlighted as selected. Occurs only when an option in the list is referenced by aria-activedescendant.
+    h2 JavaScript and CSS Source Code
+    link select-only.css ../../../../../../content-assets/wai-aria-practices/patterns/combobox/examples/css/select-only.css
+    link select-only.js ../../../../../../content-assets/wai-aria-practices/patterns/combobox/examples/js/select-only.js
+    h2 HTML Source Code
+    text To copy the following HTML code, please open it in CodePen.
+    button "Open In CodePen" primary
+    text Start of
+    text "<div class=\"combo js-select\"> <div id=\"combo1-label\" class=\"combo-label\"> Favorite Fruit </div> <div aria-controls=\"listbox1\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-labelledby=\"combo1-label\" id=\"combo1\" class=\"combo-input\" role=\"combobox\" tabindex=\"0\"></div> <div class=\"combo-menu\" role=\"listbox\" id=\"listbox1\" aria-labelledby=\"combo1-label\" tabindex=\"-1\"> </div> </div>"
+    text End of
+row
+  region 16x16
+  h2 Help improve this page
+link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+row
+  link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/combobox/examples/combobox-select-only.html
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-select-only/
+link "Back to Top" #top
+link "View issues related to this example" https://github.com/orgs/w3c/projects/118
+text Page last updated: 12 August 2025
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/
+text Strategies, standards, resources to make the Web accessible to people with disabilities
+row
+  link "Get News in Email" /WAI/news/subscribe/
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/
+  link Mastodon https://w3c.social/@wai
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+row
+  link Home /WAI/
+  link Contact /WAI/about/contacting/
+  link "Site map" /WAI/sitemap/
+  link "Support WAI" /WAI/about/support/
+  link News /WAI/news/
+  link "Accessibility statement" /WAI/about/accessibility-statement/
+  link "All Translations" /WAI/translations/
+  link "Resources for roles" /WAI/roles/
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/software-license/
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/

@@ -1,0 +1,43 @@
+@getbootstrap_com_docs_5_3_examples_list_
+button "Toggle theme (light)" primary
+link "List group item heading Some placeholder content in a paragraph. now" #
+link "Another title here Some placeholder content in a paragraph that goes a little longer so it wraps to a new line. 3d" #
+link "Third heading Some placeholder content in a paragraph. 1w" #
+row
+  col
+    check "First checkbox\nWith support text underneath to add more detail" on
+    text First checkbox With support text underneath to add more detail
+    check "Second checkbox\nSome other text goes here" off
+    text Second checkbox Some other text goes here
+    check "Third checkbox\nAnd we end with another snippet of text" off
+    text Third checkbox And we end with another snippet of text
+  col
+    text First radio With support text underneath to add more detail
+    text Second radio Some other text goes here
+    text Third radio And we end with another snippet of text
+text Finish sales report
+region "Schedule" 14x14
+check "Finish sales report  \n1:00–2:00pm" on
+text Weekly All Hands
+region "Schedule" 14x14
+check "Weekly All Hands  \n2:00–2:30pm" off
+text Out of office
+region "Reminder" 14x14
+check "Out of office  \nTomorrow" off
+text Add new task...
+region 14x14
+check "Add new task...  \nChoose list..." off
+row
+  text First radio With support text underneath to add more detail
+  text Second radio Some other text goes here
+  text Third radio And we end with another snippet of text
+  text "Fourth disabled radio This option is disabled"
+row
+  col
+    text First radio With support text underneath to add more detail
+  col
+    text Second radio Some other text goes here
+  col
+    text Third radio And we end with another snippet of text
+  col
+    text "Fourth disabled radio This option is disabled"

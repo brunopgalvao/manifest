@@ -1,0 +1,159 @@
+@getbootstrap_com_docs_5_3_examples_dropd
+button "Toggle theme (light)" primary
+row
+  row
+    link Action #
+    link "Another action" #
+    link "Something else here" #
+    link "Separated link" #
+  row
+    link Action #
+    link "Another action" #
+    link "Something else here" #
+    link "Separated link" #
+row
+  col
+    field "Type to filter..." search
+    link Action #
+    link "Another action" #
+    link "Something else here" #
+    link "Separated link" #
+  col
+    field "Type to filter..." search
+    link Action #
+    link "Another action" #
+    link "Something else here" #
+    link "Separated link" #
+row
+  col
+    link Documents #
+    link Photos #
+    link Movies #
+    link Music #
+    link Games #
+    link Trash #
+  col
+    link Documents #
+    link Photos #
+    link Movies #
+    link Music #
+    link Games #
+    link Trash #
+row
+  col
+    row
+      button "previous month"
+      text June
+      button "next month"
+    row
+      text Sun
+      text Mon
+      text Tue
+      text Wed
+      text Thu
+      text Fri
+      text Sat
+    row
+      button 30 disabled
+      button 31 disabled
+      button 1
+      button 2
+      button 3
+      button 4
+      button 5
+      button 6
+      button 7
+      button 8
+      button 9
+      button 10
+      button 11
+      button 12
+      button 13
+      button 14
+      button 15
+      button 16
+      button 17
+      button 18
+      button 19
+      button 20
+      button 21
+      button 22
+      button 23
+      button 24
+      button 25
+      button 26
+      button 27
+      button 28
+      button 29
+      button 30
+      button 31
+  col
+    row
+      button "previous month"
+      text June
+      button "next month"
+    row
+      text Sun
+      text Mon
+      text Tue
+      text Wed
+      text Thu
+      text Fri
+      text Sat
+    row
+      button 30 disabled
+      button 31 disabled
+      button 1
+      button 2
+      button 3
+      button 4
+      button 5
+      button 6
+      button 7
+      button 8
+      button 9
+      button 10
+      button 11
+      button 12
+      button 13
+      button 14
+      button 15
+      button 16
+      button 17
+      button 18
+      button 19
+      button 20
+      button 21
+      button 22
+      button 23
+      button 24
+      button 25
+      button 26
+      button 27
+      button 28
+      button 29
+      button 30
+      button 31
+row
+  row
+    col
+      link "Main product Take a tour through the product" #
+      link "Another product Explore this other product we offer" #
+      link "Support Get help from our support crew" #
+    col
+      link Documentation #
+      link "Use cases" #
+      link "API status" #
+      link Partners #
+      link Resources #
+  row
+    col
+      link "Main product Take a tour through the product" #
+      link "Another product Explore this other product we offer" #
+      link "Support Get help from our support crew" #
+    col
+      link Documentation #
+      link "Use cases" #
+      link "API status" #
+      link Partners #
+      link Resources #

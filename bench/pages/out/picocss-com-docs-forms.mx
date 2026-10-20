@@ -1,0 +1,125 @@
+@picocss_com_docs_forms
+row
+  button "Skip to content" primary
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance
+  row
+    link "Pico CSS homepage" /
+    row
+      row
+        text v2.1.1
+        link Examples /examples
+        link Docs /docs
+      row
+        link "GitHub repository" https://github.com/picocss/pico
+        link Twitter https://x.com/picocss
+        link "Turn on dark mode" /docs/forms
+  row
+    col
+      text Getting started
+      text Customization
+      text Layout
+      text Content
+      text Forms
+      link Overview /docs/forms
+      link Input /docs/forms/input
+      link Textarea /docs/forms/textarea
+      link Select /docs/forms/select
+      link Checkboxes /docs/forms/checkboxes
+      link Radios /docs/forms/radios
+      link Switch /docs/forms/switch
+      link Range /docs/forms/range
+      text Components
+      text About
+    metric Forms "Forms overview" "All form elements are fully responsive with pure semantic HTML, enabling forms to scale gracefully across devices and viewports."
+    col
+      text Content
+      link Introduction /docs/forms
+      link "Helper text" /docs/forms#helper-text
+      link "Usage with grid" /docs/forms#usage-with-grid
+      link "Usage with group" /docs/forms#usage-with-group
+    col
+      text Inputs are width: 100%; by default and are the same size as the buttons to build consistent forms.
+      field "First name"
+      field Email email
+      button button primary
+      link "Copy code" /docs/forms
+      text "<form> <fieldset> <label> First name <input name=\"first_name\" placeholder=\"First name\" autocomplete=\"given-name\" /> </label> <label> Email <input type=\"email\" name=\"email\" placeholder=\"Email\" autocomplete=\"email\" /> </label> </fieldset> <input type=\"submit\" value=\"Subscribe\" /> </form>"
+      text <input> can be inside or outside <label>.
+      field "First name"
+      text Email
+      field Email email
+      link "Copy code" /docs/forms
+      text "<form> <!-- Input inside label --> <label> First name <input name=\"first_name\" placeholder=\"First name\" autocomplete=\"given-name\" /> </label> <!-- Input outside label --> <label for=\"email\">Email</label> <input type=\"email\" id=\"email\" placeholder=\"Email\" autocomplete=\"email\" /> </form>"
+      h2 Helper text#
+      text <small> below form elements are muted and act as helper texts.
+      field Email email
+      text We’ll never share your email with anyone else.
+      link "Copy code" /docs/forms
+      text "<input type=\"email\" name=\"email\" placeholder=\"Email\" autoComplete=\"email\" aria-label=\"Email\" aria-describedby=\"email-helper\" /> <small id=\"email-helper\"> We'll never share your email with anyone else. </small>"
+      h2 Usage with grid#
+      row
+        text .grid
+        link Grid /docs/grid
+      row
+        field Login
+        field Password password
+        button button primary
+      link "Copy code" /docs/forms
+      text "<form> <fieldset class=\"grid\"> <input name=\"login\" placeholder=\"Login\" aria-label=\"Login\" autocomplete=\"username\" /> <input type=\"password\" name=\"password\" placeholder=\"Password\" aria-label=\"Password\" autocomplete=\"current-password\" /> <input type=\"submit\" value=\"Log in\" /> </fieldset> </form>"
+      h2 Usage with group#
+      row
+        text "role=\"group\""
+        link Group /docs/group
+      row
+        field "Enter your email" email
+        button button primary
+      link "Copy code" /docs/forms
+      text "<form> <fieldset role=\"group\"> <input type=\"email\" name=\"email\" placeholder=\"Enter your email\" autocomplete=\"email\" /> <input type=\"submit\" value=\"Subscribe\" /> </fieldset> </form>"
+      link "Edit this page on GitHub" https://github.com/picocss/picocss.com/blob/main/app/routes/docs.forms._index.jsx
+  col
+    row
+      region 49.34x45
+        region @0,0
+          path "M355.83 57.6809a1.998 1.998 0 0 0-1.149 1.1487l-7.814 20.317c-.658 1.7094-3.076 1.7094-3.734 0l-7.814-20.317a1.998 1.998 0 0 0-1.149-1.1487l-20.317-7.8142c-1.709-.6575-1.709-3.0759 0-3.7334l20.317-7.8142a1.998 1.998 0 0 0 1.149-1.1487l7.814-20.317c.658-1.7094 3.076-1.7094 3.734 0l7.814 20.317c.203.5281.62.9455 1.149 1.1487l20.317 7.8142c1.709.6575 1.709 3.0759 0 3.7334l-20.317 7.8142Z" 
+        region @0,0
+          path "M298.867 31.1466c-.658 1.7094-3.076 1.7094-3.734 0l-2.814-7.317a1.998 1.998 0 0 0-1.149-1.1487l-7.317-2.8142c-1.709-.6575-1.709-3.0759 0-3.7334l7.317-2.8142a1.998 1.998 0 0 0 1.149-1.1487l2.814-7.317c.658-1.7094 3.076-1.7094 3.734 0l2.814 7.317c.203.5281.62.9455 1.149 1.1487l7.317 2.8142c1.709.6575 1.709 3.0759 0 3.7334l-7.317 2.8142a1.998 1.998 0 0 0-1.149 1.1487l-2.814 7.317Z" 
+        region @0,0
+          path "M314.83 82.6809a1.998 1.998 0 0 0-1.149 1.1487l-2.814 7.317c-.658 1.7094-3.076 1.7094-3.734 0l-2.814-7.317a1.998 1.998 0 0 0-1.149-1.1487l-7.317-2.8142c-1.709-.6575-1.709-3.0759 0-3.7334l7.317-2.8142a1.998 1.998 0 0 0 1.149-1.1487l2.814-7.317c.658-1.7094 3.076-1.7094 3.734 0l2.814 7.317c.203.5281.62.9455 1.149 1.1487l7.317 2.8142c1.709.6575 1.709 3.0759 0 3.7334l-7.317 2.8142Z" 
+      row
+        row
+          text About
+          link Maintenance /docs/maintenance
+          link "What’s new?" /docs/v2
+          link Brand /docs/brand
+          link Mission /docs/mission
+          link "Usage scenarios" /docs/usage-scenarios
+        row
+          text Docs
+          link "Quick start" /docs
+          link "Version picker" /docs/version-picker
+          link "Class-less version" /docs/classless
+          link "Form elements" /docs/forms
+        row
+          text Community
+          link Issues https://github.com/picocss/pico/issues
+          link Discussions https://github.com/picocss/pico/discussions
+          link Help https://github.com/picocss/pico/discussions/categories/help
+        row
+          text Examples
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss
+          link All /examples
+      col
+        link "Lucas Larroche" https://lucaslarroche.com/
+        link contributors https://github.com/picocss/pico/graphs/contributors
+      row
+        link GitHub https://github.com/picocss/pico
+        link Twitter https://x.com/picocss
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico
+        link NPM https://www.npmjs.com/package/@picocss/pico
+    row
+      row
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md
+      text Currently v2.1.1.

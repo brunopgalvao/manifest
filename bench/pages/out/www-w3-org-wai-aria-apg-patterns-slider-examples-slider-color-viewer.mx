@@ -1,0 +1,131 @@
+@www_w3_org_wai_aria_apg_patterns_slider_
+row
+  row
+    link "ARIA Authoring Practices Guide (APG)" /WAI/ARIA/apg/
+    text How to build accessibility semantics into web patterns and widgets
+  row
+    link "W3C homepage" https://www.w3.org/
+    link "Web Accessibility Initiative (WAI) homepage" https://www.w3.org/WAI/
+row
+  link "APG Home" /WAI/ARIA/apg/
+  link Patterns /WAI/ARIA/apg/patterns/
+  link Practices /WAI/ARIA/apg/practices/
+  link Index /WAI/ARIA/apg/example-index/
+  link About /WAI/ARIA/apg/about/
+row
+  col
+    h2 Page Contents
+    link "Read This First" #support-notice-header
+    link "About This Example" #aboutthisexample
+    link Example #ex_label
+    link "Accessibility Features" #accessibilityfeatures
+    link "Keyboard Support" #kbd_label
+    link "Role, Property, State, and Tabindex Attributes" #rps_label
+    link "Assistive Technology Support" #assistivetechnologysupport
+    link "JavaScript and CSS Source Code" #javascriptandcsssourcecode
+    link "HTML Source Code" #sc1_label
+  col
+    h1 Color Viewer Slider Example
+    h2 Read This First
+    card
+      text The code in this example is not intended for production environments. Before using it for any purpose, read this to understand why. warning
+    h2 About This Example
+    h3 Warning!
+    text Some users of touch-based assistive technologies may experience difficulty utilizing widgets that implement this slider pattern because the gestures their assistive technology provides for operating sliders may not yet generate the necessary output. To change the slider value, touch-based assistive technologies need to respond to user gestures for increasing and decreasing the value by synthesizing key events. This is a new convention that may not be fully implemented by some assistive technologies. Authors should fully test slider widgets using assistive technologies on devices where touch is a primary input mechanism before considering incorporation into production systems. warning
+    link "Slider Pattern" ../../
+    text Similar examples include:
+    link "Vertical Temperature Slider Example" ../slider-temperature/
+    text aria-orientation primary
+    text aria-valuetext primary
+    row
+      link "Rating Slider Example" ../slider-rating/
+      text aria-valuetext primary
+    row
+      link "Media Seek Slider Example" ../slider-seek/
+      text aria-valuetext primary
+    link "Horizontal Multi-Thumb Slider Example" ../../../slider-multithumb/examples/slider-multithumb/
+    h2 Example
+    button "Open In CodePen" primary
+    text Start of
+    h3 Color Viewer
+    text Red
+    slider Red 0 0..100
+    text Green
+    slider Green 0 0..100
+    text Blue
+    slider Blue 0 0..100
+    h3 Color View Box
+    field "Color (HEX):" ="#808080"
+    field "Color (RGB):" ="128, 128, 128"
+    text End of
+    h2 Accessibility Features
+    text To help assistive technology users understand that the color viewer is made of a group of three sliders, the sliders are wrapped in a group labeled by the heading that labels the color viewer.
+    text The placement of the slider value above the thumb makes it easier for users with low vision to see the current value while dragging the thumb.
+    text To highlight the interactive nature of the thumb, the focus ring is drawn around the thumb and the value.
+    text To ensure the borders of the slider rail, thumb and focus ring have sufficient contrast with the background when high contrast settings invert colors, the CSS currentcolor value for the stroke property is used for the SVG rect elements to synchronize the border color with text content. If specific colors were used to specify the stroke property, the color of these elements would remain the same in high contrast mode, which could lead to insufficient contrast between them and their background or even make them invisible if their color were to match the high contrast mode background. NOTE: The SVG elements need to be inline to use currentcolor.
+    h2 Keyboard Support
+    table Key Function
+      Right Arrow | Increases slider value one step.
+      Up Arrow | Increases slider value one step.
+      Left Arrow | Decreases slider value one step.
+      Down Arrow | Decreases slider value one step.
+      Page Up | Increases slider value multiple steps. In this slider, jumps ten steps.
+      Page Down | Decreases slider value multiple steps. In this slider, jumps ten steps.
+      Home | Sets slider to its minimum value.
+      End | Sets slider to its maximum value.
+    h2 Role, Property, State, and Tabindex Attributes
+    table Role Attribute Element Usage
+      group |  | div | Identifies the div as a group. The group and its accessible name inform assistive technology users that the three sliders are related to one another and serve the purpose of choosing a color.
+       | aria-labelledby="IDREF" | div | Refers to the heading element that provides the accessible name for the group.
+      slider |  | div | Identifies the element as a slider. Set on the div that represents the movable thumb because it is the operable element that controls the slider value.
+       | tabindex="0" | div | Includes the slider thumb in the page tab sequence.
+       | aria-valuemax="255" | div | Specifies the maximum value of the slider.
+       | aria-valuemin="0" | div | Specifies the minimum value of the slider.
+       | aria-valuenow="NUMBER" | div | Indicates the current value of the slider.
+       | aria-labelledby="IDREF" | div | Refers to the element containing the name of the slider.
+       | aria-hidden="true" | svg | Removes the SVG elements from the accessibility tree. Some assistive technologies will describe the SVG elements, unless they are explicitly hidden.
+    h2 Assistive Technology Support
+    link "Learn how to interpret and use assistive technology support data" ../../../../about/at-support-tables/
+    h2 JavaScript and CSS Source Code
+    link slider-color-viewer.css ../../../../../../content-assets/wai-aria-practices/patterns/slider/examples/css/slider-color-viewer.css
+    link slider-color-viewer.js ../../../../../../content-assets/wai-aria-practices/patterns/slider/examples/js/slider-color-viewer.js
+    h2 HTML Source Code
+    text To copy the following HTML code, please open it in CodePen.
+    button "Open In CodePen" primary
+    text Start of
+    text "<div class=\"color-viewer-sliders\" role=\"group\" aria-labelledby=\"id-color-viewer\"> <h3 id=\"id-color-viewer\"> Color Viewer </h3> <div id=\"id-red\" class=\"color-slider-label\"> Red </div> <div class=\"color-slider red\" role=\"slider\" tabindex=\"0\" aria-valuemin=\"0\" aria-valuenow=\"128\" aria-valuemax=\"255\" aria-labelledby=\"id-red\"> <svg width=\"0\" height=\"0\" aria-hidden=\"true\"> <text class=\"value\" x=\"0\" y=\"0\"> 128 </text> <rect class=\"rail\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"fill\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"thumb\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"focus\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> </svg> </div> <div id=\"id-green\" class=\"color-slider-label\"> Green </div> <div class=\"color-slider green\" role=\"slider\" tabindex=\"0\" aria-valuemin=\"0\" aria-valuenow=\"128\" aria-valuemax=\"255\" aria-labelledby=\"id-green\"> <svg width=\"0\" height=\"0\" aria-hidden=\"true\"> <text class=\"value\" x=\"0\" y=\"0\"> 128 </text> <rect class=\"rail\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"fill\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"thumb\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"focus\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> </svg> </div> <div id=\"id-blue\" class=\"color-slider-label\"> Blue </div> <div class=\"color-slider blue\" role=\"slider\" tabindex=\"0\" aria-valuemin=\"0\" aria-valuenow=\"128\" aria-valuemax=\"255\" aria-labelledby=\"id-blue\"> <svg width=\"0\" height=\"0\" aria-hidden=\"true\"> <text class=\"value\" x=\"0\" y=\"0\"> 128 </text> <rect class=\"rail\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"fill\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"thumb\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> <rect class=\"focus\" x=\"0\" y=\"0\" rx=\"0\" width=\"0\" height=\"0\"></rect> </svg> </div> <h4> Color View Box </h4> <div class=\"color-info\"> <div class=\"color-box\"></div> <label> Color (HEX): <input type=\"text\" readonly=\"\" class=\"color-value-hex\" value=\"\"> </label> <label> Color (RGB): <input type=\"text\" readonly=\"\" class=\"color-value-rgb\" value=\"\"> </label> </div> </div>"
+    text End of
+row
+  region 16x16
+  h2 Help improve this page
+link public-aria-practices@w3.org mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+row
+  link E-mail mailto:public-aria-practices@w3.org?body=%5Binclude%20a%20relevant%20email%20Subject%5D%0A%0A%5Bput%20comment%20here...%5D%0A%0A
+  link "Fork & Edit on GitHub" https://github.com/w3c/aria-practices/edit/main/content/patterns/slider/examples/slider-color-viewer.html
+  link "New GitHub Issue" https://github.com/w3c/aria-practices/issues/new?template=content-issue.yml&wai-url=https://www.w3.org/WAI/ARIA/apg/patterns/slider/examples/slider-color-viewer/
+link "Back to Top" #top
+link "View issues related to this example" https://github.com/orgs/w3c/projects/124
+text Page last updated: 20 January 2026
+link "W3C Web Accessibility Initiative (WAI)" https://www.w3.org/WAI/
+text Strategies, standards, resources to make the Web accessible to people with disabilities
+row
+  link "Get News in Email" /WAI/news/subscribe/
+  link LinkedIn https://www.linkedin.com/company/w3c-wai/
+  link Mastodon https://w3c.social/@wai
+  link YouTube https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/playlists/
+row
+  link Home /WAI/
+  link Contact /WAI/about/contacting/
+  link "Site map" /WAI/sitemap/
+  link "Support WAI" /WAI/about/support/
+  link News /WAI/news/
+  link "Accessibility statement" /WAI/about/accessibility-statement/
+  link "All Translations" /WAI/translations/
+  link "Resources for roles" /WAI/roles/
+link "World Wide Web Consortium" https://www.w3.org/
+text W3C
+text ®
+link liability https://www.w3.org/policies/#disclaimers
+link trademark https://www.w3.org/policies/#trademarks
+link "permissive license" https://www.w3.org/copyright/software-license/
+link "Permission to Use WAI Material" /WAI/about/using-wai-material/

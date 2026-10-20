@@ -1,0 +1,391 @@
+@en_wikipedia_org_wiki_main_page
+link "Jump to content" #bodyContent
+row
+  row
+    col
+      button "Main menu"
+      text Main menu
+      row
+        text Main menu
+        button "Move Main menu to sidebar"
+      link "Main page" /wiki/Main_Page
+      link Contents /wiki/Wikipedia:Contents
+      link "Current events" /wiki/Portal:Current_events
+      link "Random article" /wiki/Special:Random
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link "Contact us" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      text Contribute
+      link Help /wiki/Help:Contents
+      link "Learn to edit" /wiki/Help:Introduction
+      link "Community portal" /wiki/Wikipedia:Community_portal
+      link "Recent changes" /wiki/Special:RecentChanges
+      link "Upload file" /wiki/Wikipedia:File_upload_wizard
+      link "Special pages" /wiki/Special:SpecialPages
+    link /wiki/Main_Page /wiki/Main_Page
+  row
+    row
+      col
+        field "Search Wikipedia" search
+      button Search
+    row
+      link Donate https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+      link "Create account" /w/index.php?title=Special:CreateAccount&returnto=Main+Page
+      link "Log in" /w/index.php?title=Special:UserLogin&returnto=Main+Page
+row
+  row
+    text Main Page
+    row
+      row
+        link "Main Page" /wiki/Main_Page
+        link Talk /wiki/Talk:Main_Page
+      row
+        row
+          link Read /wiki/Main_Page
+          link "View source" /w/index.php?title=Main_Page&action=edit
+          link "View history" /w/index.php?title=Main_Page&action=history
+        col
+          button Tools
+          text Tools
+          row
+            text Tools
+            button "Move Tools to sidebar"
+          text General
+          link "What links here" /wiki/Special:WhatLinksHere/Main_Page
+          link "Related changes" /wiki/Special:RecentChangesLinked/Main_Page
+          link "Permanent link" https://en.wikipedia.org/w/index.php?title=Main_Page&oldid=1380977360
+          link "Page information" /w/index.php?title=Main_Page&action=info
+          link "Get shortened URL" /w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMain_Page
+          link "Switch to legacy parser" /w/index.php?title=Main_Page&useparsoid=0
+          link "Edit interlanguage links" https://www.wikidata.org/wiki/Special:EntityPage/Q5296#sitelinks-wikipedia
+          text Print/export
+          link "Download as PDF" /w/index.php?title=Special:DownloadAsPdf&page=Main_Page&action=show-download-screen
+          link "Printable version" javascript:print();
+          text In other projects
+          link "Abstract Wikipedia" https://abstract.wikipedia.org/wiki/Abstract_Wikipedia:Main_page
+          link "Wikimedia Commons" https://commons.wikimedia.org/wiki/Main_Page
+          link "Wikimedia Foundation" https://foundation.wikimedia.org/wiki/Home
+          link MediaWiki https://www.mediawiki.org/wiki/MediaWiki
+          link Meta-Wiki https://meta.wikimedia.org/wiki/Main_Page
+          link "Wikimedia Outreach" https://outreach.wikimedia.org/wiki/Main_Page
+          link "Multilingual Wikisource" https://wikisource.org/wiki/Wikisource:Main_Page
+          link Wikispecies https://species.wikimedia.org/wiki/Main_Page
+          link Wikibooks https://en.wikibooks.org/wiki/Main_Page
+          link Wikidata https://www.wikidata.org/wiki/Wikidata:Main_Page
+          link Wikifunctions https://www.wikifunctions.org/wiki/Wikifunctions:Main_Page
+          link Wikimania https://wikimania.wikimedia.org/wiki/Wikimania
+          link Wikinews https://en.wikinews.org/wiki/Main_Page
+          link Wikiquote https://en.wikiquote.org/wiki/Main_Page
+          link Wikisource https://en.wikisource.org/wiki/Main_Page
+          link Wikiversity https://en.wikiversity.org/wiki/Wikiversity:Main_Page
+          link Wikivoyage https://en.wikivoyage.org/wiki/Main_Page
+          link Wiktionary https://en.wiktionary.org/wiki/Wiktionary:Main_Page
+          link "Wikidata item" https://www.wikidata.org/wiki/Special:EntityPage/Q5296
+    col
+      row
+        text Appearance
+        button "Hide Appearance"
+      text Text
+      text Small
+      text Standard
+      text Large
+      text Width
+      text Standard
+      text Wide
+      text Color
+      text Automatic
+      text Light
+      text Dark
+    col
+      text From Wikipedia, the free encyclopedia
+      h1 Welcome to Wikipedia
+      row
+        link free https://en.wikipedia.org/wiki/Free_content
+        link "anyone can edit" https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia
+      row
+        link 270,152 https://en.wikipedia.org/wiki/Special:Statistics
+        row
+          link 7,255,155 https://en.wikipedia.org/wiki/Special:Statistics
+          link English https://en.wikipedia.org/wiki/English_language
+      row
+        col
+          h2 From today's featured article
+          link "Cartoon of the London Monster" https://en.wikipedia.org/wiki/File:The_monster_cutting_a_lady.jpg
+          text Cartoon of the London Monster
+          link "London Monster" https://en.wikipedia.org/wiki/London_Monster
+          link "modus operandi" https://en.wikipedia.org/wiki/Modus_operandi
+          text (cartoon pictured)
+          link "John Julius Angerstein" https://en.wikipedia.org/wiki/John_Julius_Angerstein
+          link "Bow Street Magistrates' Court" https://en.wikipedia.org/wiki/Bow_Street_Magistrates'_Court_and_Police_Station
+          link alibi https://en.wikipedia.org/wiki/Alibi
+          link "copycat attacks" https://en.wikipedia.org/wiki/Copycat_crime
+          link "Full article..." https://en.wikipedia.org/wiki/London_Monster
+          link "Ancient Cappadocian language" https://en.wikipedia.org/wiki/Ancient_Cappadocian_language
+          link "The Demi-Virgin" https://en.wikipedia.org/wiki/The_Demi-Virgin
+          link "French battleship Brennus" https://en.wikipedia.org/wiki/French_battleship_Brennus
+          row
+            link Archive https://en.wikipedia.org/wiki/Wikipedia:Today's_featured_article/October_2026
+            link "By email" https://lists.wikimedia.org/postorius/lists/daily-article-l.lists.wikimedia.org/
+            link "More featured articles" https://en.wikipedia.org/wiki/Wikipedia:Featured_articles_(linked_from_TFAfooter)
+            link About https://en.wikipedia.org/wiki/Wikipedia:About_Today's_featured_article
+          h2 Did you know ...
+          link "Sanda Island Lighthouse" https://en.wikipedia.org/wiki/File:Sandalighthouse.jpg
+          text Sanda Island Lighthouse
+          link "Sanda Island Lighthouse" https://en.wikipedia.org/wiki/Sanda_Island_Lighthouse
+          text (pictured)
+          link "Bert Matter" https://en.wikipedia.org/wiki/Bert_Matter
+          link "Walburgiskerk in Zutphen" https://en.wikipedia.org/wiki/Walburgiskerk,_Zutphen
+          link "minimal music" https://en.wikipedia.org/wiki/Minimal_music
+          link "a Michigan TV station" https://en.wikipedia.org/wiki/WKAR-TV
+          link "Stephan Steinlein" https://en.wikipedia.org/wiki/Stephan_Steinlein
+          link "Battle of Satala" https://en.wikipedia.org/wiki/Battle_of_Satala_(530)
+          link "Ben Streff" https://en.wikipedia.org/wiki/Ben_Streff
+          link "Luxembourg Socialist Workers' Party" https://en.wikipedia.org/wiki/Luxembourg_Socialist_Workers'_Party
+          link "Chamber of Deputies" https://en.wikipedia.org/wiki/Chamber_of_Deputies_(Luxembourg)
+          link "Interstate 65 Tennessee River Bridge" https://en.wikipedia.org/wiki/Interstate_65_Tennessee_River_Bridge
+          link "Jadwiga Szmidt" https://en.wikipedia.org/wiki/Jadwiga_Szmidt
+          link "Ernest Rutherford" https://en.wikipedia.org/wiki/Ernest_Rutherford
+          link "University of Manchester" https://en.wikipedia.org/wiki/University_of_Manchester
+          link "assembly halls" https://en.wikipedia.org/wiki/Huiguan
+          row
+            link Archive https://en.wikipedia.org/wiki/Wikipedia:Did_you_know_archive
+            link "Start a new article" https://en.wikipedia.org/wiki/Help:Your_first_article
+            link "Nominate an article" https://en.wikipedia.org/wiki/Template_talk:Did_you_know
+        col
+          h2 Help us improve this article!
+          link "Candy store in Maryland, United States" https://en.wikipedia.org/wiki/File:Colorful_and_Inviting_Candy_Store_(14867133277).jpg
+          text Candy store in Maryland, United States
+          link "Confectionery store" https://en.wikipedia.org/wiki/Confectionery_store
+          text You can improve this article by:
+          text Adding information about early confectioners and the development in the modern age
+          link "reliable sources" https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources
+          text "Expanding the \"History\" and \"Offerings\" sections"
+          link "be bold" https://en.wikipedia.org/wiki/Wikipedia:Be_bold
+          link "start editing the article" https://en.wikipedia.org/w/index.php?title=Confectionery_store&action=edit
+          link "the article's talk page" https://en.wikipedia.org/wiki/Talk:Confectionery_store
+          link Teahouse https://en.wikipedia.org/wiki/Wikipedia:Teahouse
+          row
+            link "For new editors" https://en.wikipedia.org/wiki/Help:Introduction
+            link Archive https://en.wikipedia.org/wiki/Wikipedia:Articles_for_improvement/Archives/Schedule
+            link "What is this?" https://en.wikipedia.org/wiki/Wikipedia:Articles_for_improvement
+          h2 In the news
+          region 143x184.66
+            text @0,149.31 "Hôtel de Ville the day after the fire" size:14.14 fill:#202122
+          link "Hôtel de Ville" https://en.wikipedia.org/wiki/Hôtel_de_Ville,_Limoges
+          link Limoges https://en.wikipedia.org/wiki/Limoges
+          text (damage pictured)
+          link "student protests" https://en.wikipedia.org/wiki/2026_French_student_protests
+          link "International Bureau of Weights and Measures" https://en.wikipedia.org/wiki/International_Bureau_of_Weights_and_Measures
+          link "leap second" https://en.wikipedia.org/wiki/Leap_second
+          link Houthis https://en.wikipedia.org/wiki/Houthis
+          link "a series of attacks on Saudi Arabian airports" https://en.wikipedia.org/wiki/October_2026_Houthi_attacks_on_Saudi_Arabian_airports
+          row
+            link "Navi Pillay" https://en.wikipedia.org/wiki/Navi_Pillay
+            link "the Nobel Peace Prize" https://en.wikipedia.org/wiki/2026_Nobel_Peace_Prize
+          text Ongoing
+          link "Ethiopian offensive" https://en.wikipedia.org/wiki/2026_Ethiopian_offensive
+          link "Iran war" https://en.wikipedia.org/wiki/2026_Iran_war
+          link "Russo-Ukrainian war" https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022–present)
+          link timeline https://en.wikipedia.org/wiki/Timeline_of_the_Russo-Ukrainian_war_(1_September_2026_–_present)
+          link "Yemen offensives" https://en.wikipedia.org/wiki/2026_Yemen_offensives
+          link "Recent deaths" https://en.wikipedia.org/wiki/Deaths_in_2026
+          text :
+          link "Napoleon Bonaparte" https://en.wikipedia.org/wiki/Napoleon_Bonaparte_(police_officer)
+          link "Jack Hearn" https://en.wikipedia.org/wiki/Jack_Hearn
+          link "Martina Arroyo" https://en.wikipedia.org/wiki/Martina_Arroyo
+          link "Helen Branswell" https://en.wikipedia.org/wiki/Helen_Branswell
+          link "Ken Friar" https://en.wikipedia.org/wiki/Ken_Friar
+          link "Lucian Piane" https://en.wikipedia.org/wiki/Lucian_Piane
+          row
+            link "More current events" https://en.wikipedia.org/wiki/Portal:Current_events
+            link "Nominate an article" https://en.wikipedia.org/wiki/Wikipedia:In_the_news/Candidates
+          h2 On this day
+          link "October 20" https://en.wikipedia.org/wiki/October_20
+          link "Mahamat Déby" https://en.wikipedia.org/wiki/File:Mahamat_Déby.jpg
+          text Mahamat Déby
+          row
+            link 1936 https://en.wikipedia.org/wiki/1936
+            link "Mabel Freer" https://en.wikipedia.org/wiki/Mabel_Freer
+          link 1944 https://en.wikipedia.org/wiki/1944
+          link "World War II" https://en.wikipedia.org/wiki/World_War_II
+          link "two years previously" https://en.wikipedia.org/wiki/Douglas_MacArthur's_escape_from_the_Philippines
+          link "Douglas MacArthur" https://en.wikipedia.org/wiki/Douglas_MacArthur
+          link "landed on Leyte" https://en.wikipedia.org/wiki/Battle_of_Leyte
+          link "recapture of the Philippines" https://en.wikipedia.org/wiki/Philippines_campaign_(1944–1945)
+          link 1973 https://en.wikipedia.org/wiki/1973
+          link "Watergate scandal" https://en.wikipedia.org/wiki/Watergate_scandal
+          link "Elliot Richardson" https://en.wikipedia.org/wiki/Elliot_Richardson
+          link "William Ruckelshaus" https://en.wikipedia.org/wiki/William_Ruckelshaus
+          link resigned https://en.wikipedia.org/wiki/Saturday_Night_Massacre
+          link "Richard Nixon" https://en.wikipedia.org/wiki/Richard_Nixon
+          link "Archibald Cox" https://en.wikipedia.org/wiki/Archibald_Cox
+          link 1986 https://en.wikipedia.org/wiki/1986
+          link "Aeroflot Flight 6502" https://en.wikipedia.org/wiki/Aeroflot_Flight_6502
+          link "overrunning the runway" https://en.wikipedia.org/wiki/Runway_excursion
+          link "Kuibyshev Airport" https://en.wikipedia.org/wiki/Kurumoch_International_Airport
+          link 2022 https://en.wikipedia.org/wiki/2022
+          link Protests https://en.wikipedia.org/wiki/2022_Chadian_protests
+          link "Mahamat Déby" https://en.wikipedia.org/wiki/Mahamat_Déby
+          text (pictured)
+          row
+            link Sennacherib https://en.wikipedia.org/wiki/Sennacherib
+            text d.
+          row
+            link "Luo Yixiu" https://en.wikipedia.org/wiki/Luo_Yixiu
+            text b.
+          link "Hun Manet" https://en.wikipedia.org/wiki/Hun_Manet
+          text b.
+          row
+            link "Rui Pinto" https://en.wikipedia.org/wiki/Rui_Pinto
+            text b.
+          row
+            link "October 19" https://en.wikipedia.org/wiki/October_19
+            link "October 20" https://en.wikipedia.org/wiki/October_20
+            link "October 21" https://en.wikipedia.org/wiki/October_21
+          row
+            link Archive https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries/October
+            link "By email" https://lists.wikimedia.org/postorius/lists/daily-article-l.lists.wikimedia.org/
+            link "List of days of the year" https://en.wikipedia.org/wiki/List_of_days_of_the_year
+            link About https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries
+      h2 Today's featured picture
+      table Col
+        The Fog Warning is an oil painting on canvas completed in 1885 by the American artist Winslow Homer. It is one of several works in which Homer depicts the dangerous lives of fishermen in Maine. The painting depicts a lone fisherman in a dory who has caught several halibut, rowing towards his ship as a bank of fog approaches. The catch weighs down his boat, while increasingly rough seas make his return more difficult. The work is now in the Museum of Fine Arts in Boston. Painting credit: Winslow Homer Recently featured: Edmund Beecher Wilson Lithobius forficatus Alexander Gardner Archive More featured pictures
+      h2 Other areas of Wikipedia
+      link "Community portal" https://en.wikipedia.org/wiki/Wikipedia:Community_portal
+      link "Village pump" https://en.wikipedia.org/wiki/Wikipedia:Village_pump
+      link "Site news" https://en.wikipedia.org/wiki/Wikipedia:News
+      link Teahouse https://en.wikipedia.org/wiki/Wikipedia:Teahouse
+      link "Help desk" https://en.wikipedia.org/wiki/Wikipedia:Help_desk
+      link "Reference desk" https://en.wikipedia.org/wiki/Wikipedia:Reference_desk
+      link "Content portals" https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals
+      h2 Wikipedia's sister projects
+      link "Wikimedia Foundation" https://en.wikipedia.org/wiki/Wikimedia_Foundation
+      link projects https://wikimediafoundation.org/what-we-do/wikimedia-projects/
+      row
+        row
+          link "https://en.wikipedia.org/wiki/File:Commons-logo.svg" https://en.wikipedia.org/wiki/File:Commons-logo.svg
+          link Commons https://commons.wikimedia.org/wiki/
+        row
+          link "https://en.wikipedia.org/wiki/File:MediaWiki-2020-icon.svg" https://en.wikipedia.org/wiki/File:MediaWiki-2020-icon.svg
+          link MediaWiki https://www.mediawiki.org/wiki/
+        row
+          link Meta-Wiki https://meta.wikimedia.org/wiki/
+        row
+          link "https://en.wikipedia.org/wiki/File:Wikibooks-logo.svg" https://en.wikipedia.org/wiki/File:Wikibooks-logo.svg
+          link Wikibooks https://en.wikibooks.org/wiki/
+        row
+          link Wikidata https://www.wikidata.org/wiki/
+        row
+          link "https://en.wikipedia.org/wiki/File:Wikifunctions-logo.svg" https://en.wikipedia.org/wiki/File:Wikifunctions-logo.svg
+          link Wikifunctions https://www.wikifunctions.org/wiki/
+        row
+          link Wikiquote https://en.wikiquote.org/wiki/
+        row
+          link "https://en.wikipedia.org/wiki/File:Wikisource-logo.svg" https://en.wikipedia.org/wiki/File:Wikisource-logo.svg
+          link Wikisource https://en.wikisource.org/wiki/
+        row
+          link "https://en.wikipedia.org/wiki/File:Wikispecies-logo.svg" https://en.wikipedia.org/wiki/File:Wikispecies-logo.svg
+          link Wikispecies https://species.wikimedia.org/wiki/
+        row
+          link "https://en.wikipedia.org/wiki/File:Wikiversity_logo_2017.svg" https://en.wikipedia.org/wiki/File:Wikiversity_logo_2017.svg
+          link Wikiversity https://en.wikiversity.org/wiki/
+        row
+          link "https://en.wikipedia.org/wiki/File:Wikivoyage-Logo-v3-icon.svg" https://en.wikipedia.org/wiki/File:Wikivoyage-Logo-v3-icon.svg
+          link Wikivoyage https://en.wikivoyage.org/wiki/
+        row
+          link "https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg" https://en.wikipedia.org/wiki/File:Wiktionary-logo-en-v2.svg
+          link Wiktionary https://en.wiktionary.org/wiki/
+      h2 Wikipedia languages
+      row
+        link English https://en.wikipedia.org/wiki/English_language
+        link "other Wikipedias are available" https://meta.wikimedia.org/wiki/List%20of%20Wikipedias
+      row
+        h2 1,000,000+ articles
+      link العربية https://ar.wikipedia.org/wiki/
+      link Deutsch https://de.wikipedia.org/wiki/
+      link Español https://es.wikipedia.org/wiki/
+      link فارسی https://fa.wikipedia.org/wiki/
+      text ‎
+      link Français https://fr.wikipedia.org/wiki/
+      link Italiano https://it.wikipedia.org/wiki/
+      link Nederlands https://nl.wikipedia.org/wiki/
+      link 日本語 https://ja.wikipedia.org/wiki/
+      link Polski https://pl.wikipedia.org/wiki/
+      link Português https://pt.wikipedia.org/wiki/
+      link Русский https://ru.wikipedia.org/wiki/
+      link Svenska https://sv.wikipedia.org/wiki/
+      link Українська https://uk.wikipedia.org/wiki/
+      link "Tiếng Việt" https://vi.wikipedia.org/wiki/
+      link 中文 https://zh.wikipedia.org/wiki/
+      row
+        h2 250,000+ articles
+      link "Bahasa Indonesia" https://id.wikipedia.org/wiki/
+      link "Bahasa Melayu" https://ms.wikipedia.org/wiki/
+      link Bân-lâm-gú https://zh-min-nan.wikipedia.org/wiki/
+      link Български https://bg.wikipedia.org/wiki/
+      link Català https://ca.wikipedia.org/wiki/
+      link Čeština https://cs.wikipedia.org/wiki/
+      link Dansk https://da.wikipedia.org/wiki/
+      link Eesti https://et.wikipedia.org/wiki/
+      link Ελληνικά https://el.wikipedia.org/wiki/
+      link Esperanto https://eo.wikipedia.org/wiki/
+      link Euskara https://eu.wikipedia.org/wiki/
+      link עברית https://he.wikipedia.org/wiki/
+      link Հայերեն https://hy.wikipedia.org/wiki/
+      link 한국어 https://ko.wikipedia.org/wiki/
+      link Magyar https://hu.wikipedia.org/wiki/
+      link "Norsk bokmål" https://no.wikipedia.org/wiki/
+      link Română https://ro.wikipedia.org/wiki/
+      link "Simple English" https://simple.wikipedia.org/wiki/
+      link Slovenčina https://sk.wikipedia.org/wiki/
+      link Srpski https://sr.wikipedia.org/wiki/
+      link Srpskohrvatski https://sh.wikipedia.org/wiki/
+      link Suomi https://fi.wikipedia.org/wiki/
+      link Türkçe https://tr.wikipedia.org/wiki/
+      link Oʻzbekcha https://uz.wikipedia.org/wiki/
+      row
+        h2 50,000+ articles
+      link Asturianu https://ast.wikipedia.org/wiki/
+      link Azərbaycanca https://az.wikipedia.org/wiki/
+      link বাংলা https://bn.wikipedia.org/wiki/
+      link Bosanski https://bs.wikipedia.org/wiki/
+      link کوردی https://ckb.wikipedia.org/wiki/
+      link Frysk https://fy.wikipedia.org/wiki/
+      link Gaeilge https://ga.wikipedia.org/wiki/
+      link Galego https://gl.wikipedia.org/wiki/
+      link Hrvatski https://hr.wikipedia.org/wiki/
+      link ქართული https://ka.wikipedia.org/wiki/
+      link Kurdî https://ku.wikipedia.org/wiki/
+      link Latviešu https://lv.wikipedia.org/wiki/
+      link Lietuvių https://lt.wikipedia.org/wiki/
+      link മലയാളം https://ml.wikipedia.org/wiki/
+      link Македонски https://mk.wikipedia.org/wiki/
+      link မြန်မာဘာသာ https://my.wikipedia.org/wiki/
+      link "Norsk nynorsk" https://nn.wikipedia.org/wiki/
+      link ਪੰਜਾਬੀ https://pa.wikipedia.org/wiki/
+      link Shqip https://sq.wikipedia.org/wiki/
+      link Slovenščina https://sl.wikipedia.org/wiki/
+      link ไทย https://th.wikipedia.org/wiki/
+      link తెలుగు https://te.wikipedia.org/wiki/
+      link اردو https://ur.wikipedia.org/wiki/
+      button "349 languages"
+      text 349 languages primary
+  col
+    link Parsoid https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid
+    link "Creative Commons Attribution-ShareAlike 4.0 License" /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+    link "Terms of Use" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+    link "Privacy Policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+    link "Wikimedia Foundation, Inc." https://wikimediafoundation.org/
+    row
+      link "Privacy policy" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+      link "About Wikipedia" /wiki/Wikipedia:About
+      link Disclaimers /wiki/Wikipedia:General_disclaimer
+      link "Contact Wikipedia" //en.wikipedia.org/wiki/Wikipedia:Contact_us
+      link "Legal & safety contacts" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+      link "Code of Conduct" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+      link Developers https://developer.wikimedia.org
+      link Statistics https://stats.wikimedia.org/#/en.wikipedia.org
+      link "Cookie statement" https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+      link "Mobile view" //en.wikipedia.org/w/index.php?title=Main_Page&mobileaction=toggle_view_mobile
+    row
+      link "https://www.wikimedia.org/" https://www.wikimedia.org/
+      link "https://www.mediawiki.org/" https://www.mediawiki.org/

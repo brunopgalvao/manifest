@@ -1,0 +1,35 @@
+@brunopgalvao_github_io_manifest_playgrou
+row
+  link Manifest index.html
+  link Playground playground.html
+  link Overview overview.html
+  link Spec spec.html
+  link Benchmark results.html
+  link "A2UI proposal" a2ui-extension.html
+  link GitHub https://github.com/brunopgalvao/manifest
+row
+  col
+    h2 Write MX
+    text The engine, compiled to WebAssembly: layout, painting, perception and input happen in it; the browser only shows pixels.
+    row
+      select Select confirm *dash diagram flow form funnel gantt gauge kpi live map settings table
+      button Render primary
+      check dark off
+    field Field
+    h2 Patch it
+    button "Apply patch"
+    field Field
+    h2 Read it back
+    row
+      button "observe L0"
+      button "observe L1"
+      button "observe L2"
+      button "since last"
+      button events
+      button dissolve
+    text Loading the engine…
+    text Cheat sheet
+  col
+    h2 Rendered
+    region 672x795.41
+      image @0,0 672x795.41 brunopgalvao_github_io_manifest_playgrou-1.png "Canvas"

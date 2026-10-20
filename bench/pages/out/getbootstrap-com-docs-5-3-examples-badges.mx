@@ -1,0 +1,33 @@
+@getbootstrap_com_docs_5_3_examples_badge
+button "Toggle theme (light)" primary
+text Primary Secondary Success Danger Warning Info Light Dark
+text Primary Secondary Success Danger Warning Info Light Dark
+text Primary Secondary Success Danger Warning Info Light Dark
+row
+row
+  row
+    text Primary 1
+    link "Delete primary 1" #
+  row
+    text Primary 2 primary
+    link "Delete primary 2" #
+  row
+    text Primary 3 primary
+    link "Delete primary 3" #
+row
+  row
+    link "Delete primary" #
+  row
+    link "Delete secondary" #
+  row
+    link "Delete success" #
+  row
+    link "Delete danger" #
+  row
+    link "Delete warning" #
+  row
+    link "Delete info" #
+  row
+    link "Delete light" #
+  row
+    link "Delete dark" #

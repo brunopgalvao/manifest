@@ -1,0 +1,133 @@
+@picocss_com_docs_modal
+row
+  button "Skip to content" primary
+  link "Pico CSS is no longer maintained. Read more" /docs/maintenance
+  row
+    link "Pico CSS homepage" /
+    row
+      row
+        text v2.1.1
+        link Examples /examples
+        link Docs /docs
+      row
+        link "GitHub repository" https://github.com/picocss/pico
+        link Twitter https://x.com/picocss
+        link "Turn on dark mode" /docs/modal
+  row
+    col
+      text Getting started
+      text Customization
+      text Layout
+      text Content
+      text Forms
+      text Components
+      link Accordion /docs/accordion
+      link Card /docs/card
+      link Dropdown /docs/dropdown
+      link "Group New" /docs/group
+      link Loading /docs/loading
+      link Modal /docs/modal
+      link Nav /docs/nav
+      link Progress /docs/progress
+      link Tooltip /docs/tooltip
+      text About
+    metric Components Modal "The classic modal component with graceful spacings across devices and viewports, using the semantic HTML tag <dialog>."
+    col
+      text Content
+      link Syntax /docs/modal
+      link Demo /docs/modal#demo
+      link Utilities /docs/modal#utilities
+    col
+      text Modals are built with <dialog> as a wrapper and <article> for the modal content.
+      text "Inside <header> <button rel=\"prev\"> is defined to float: right; allowing a close icon to be top aligned with a title."
+      card
+        button Close
+        text 🗓️ Thank You for Registering!
+      text We’re excited to have you join us for our upcoming event. Please arrive at the museum on time to check in and get started.
+      text Date: Saturday, April 15
+      text "Time: 10:00am - 12:00pm"
+      card
+        link "Copy code" /docs/modal
+        text "<dialog open> <article> <header> <button aria-label=\"Close\" rel=\"prev\"></button> <p> <strong>🗓️ Thank You for Registering!</strong> </p> </header> <p> We're excited to have you join us for our upcoming event. Please arrive at the museum on time to check in and get started. </p> <ul> <li>Date: Saturday, April 15</li> <li>Time: 10:00am - 12:00pm</li> </ul> </article> </dialog>"
+      text Inside <footer>, the content is right aligned by default.
+      h2 Confirm Your Membership
+      text Thank you for signing up for a membership! Please review the membership details below:
+      text Membership: Individual
+      text Price: $10
+      row
+        button Cancel primary
+        button Confirm primary
+      card
+        link "Copy code" /docs/modal
+        text "<dialog open> <article> <h2>Confirm Your Membership</h2> <p> Thank you for signing up for a membership! Please review the membership details below: </p> <ul> <li>Membership: Individual</li> <li>Price: $10</li> </ul> <footer> <button class=\"secondary\"> Cancel </button> <button>Confirm</button> </footer> </article> </dialog>"
+      h2 Demo#
+      text Toggle a modal by clicking the button below.
+      button "Open modal" primary
+      text Pico does not include JavaScript code. You need to implement your JS to interact with modals.
+      link HTMLDialogElement https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement
+      link "Vanilla JavaScript" https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Fjs%2Fmodal.js
+      link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-color-schemes-and-modal?embed=1&file=%2Fsrc%2Fcomponents%2FModal.js
+      text To open a modal, add the open attribute to the<dialog> container.
+      h2 Utilities#
+      text Modals come with 3 utility classes.
+      link "class-less version" /docs/classless
+      text .modal-is-open prevents any scrolling and interactions below the modal.
+      card
+        link "Copy code" /docs/modal
+        text "<!doctype html> <html class=\"modal-is-open\"> ... </html>"
+      text .modal-is-opening brings an opening animation.
+      card
+        link "Copy code" /docs/modal
+        text "<!doctype html> <html class=\"modal-is-open modal-is-opening\"> ... </html>"
+      text .modal-is-closing brings a closing animation.
+      card
+        link "Copy code" /docs/modal
+        text "<!doctype html> <html class=\"modal-is-open modal-is-closing\"> ... </html>"
+      link "Edit this page on GitHub" https://github.com/picocss/picocss.com/blob/main/app/routes/docs.modal.jsx
+  col
+    row
+      region 49.34x45
+        region @0,0
+          path "M355.83 57.6809a1.998 1.998 0 0 0-1.149 1.1487l-7.814 20.317c-.658 1.7094-3.076 1.7094-3.734 0l-7.814-20.317a1.998 1.998 0 0 0-1.149-1.1487l-20.317-7.8142c-1.709-.6575-1.709-3.0759 0-3.7334l20.317-7.8142a1.998 1.998 0 0 0 1.149-1.1487l7.814-20.317c.658-1.7094 3.076-1.7094 3.734 0l7.814 20.317c.203.5281.62.9455 1.149 1.1487l20.317 7.8142c1.709.6575 1.709 3.0759 0 3.7334l-20.317 7.8142Z" 
+        region @0,0
+          path "M298.867 31.1466c-.658 1.7094-3.076 1.7094-3.734 0l-2.814-7.317a1.998 1.998 0 0 0-1.149-1.1487l-7.317-2.8142c-1.709-.6575-1.709-3.0759 0-3.7334l7.317-2.8142a1.998 1.998 0 0 0 1.149-1.1487l2.814-7.317c.658-1.7094 3.076-1.7094 3.734 0l2.814 7.317c.203.5281.62.9455 1.149 1.1487l7.317 2.8142c1.709.6575 1.709 3.0759 0 3.7334l-7.317 2.8142a1.998 1.998 0 0 0-1.149 1.1487l-2.814 7.317Z" 
+        region @0,0
+          path "M314.83 82.6809a1.998 1.998 0 0 0-1.149 1.1487l-2.814 7.317c-.658 1.7094-3.076 1.7094-3.734 0l-2.814-7.317a1.998 1.998 0 0 0-1.149-1.1487l-7.317-2.8142c-1.709-.6575-1.709-3.0759 0-3.7334l7.317-2.8142a1.998 1.998 0 0 0 1.149-1.1487l2.814-7.317c.658-1.7094 3.076-1.7094 3.734 0l2.814 7.317c.203.5281.62.9455 1.149 1.1487l7.317 2.8142c1.709.6575 1.709 3.0759 0 3.7334l-7.317 2.8142Z" 
+      row
+        row
+          text About
+          link Maintenance /docs/maintenance
+          link "What’s new?" /docs/v2
+          link Brand /docs/brand
+          link Mission /docs/mission
+          link "Usage scenarios" /docs/usage-scenarios
+        row
+          text Docs
+          link "Quick start" /docs
+          link "Version picker" /docs/version-picker
+          link "Class-less version" /docs/classless
+          link "Form elements" /docs/forms
+        row
+          text Community
+          link Issues https://github.com/picocss/pico/issues
+          link Discussions https://github.com/picocss/pico/discussions
+          link Help https://github.com/picocss/pico/discussions/categories/help
+        row
+          text Examples
+          link HTML https://codesandbox.io/embed/4mrnhq?view=Editor+%2B+Preview&module=%2Findex.html
+          link Class-less https://codesandbox.io/embed/x4qtf8?view=Editor+%2B+Preview&module=%2Findex.html
+          link React https://codesandbox.io/p/devbox/github/picocss/examples/tree/master/v2-react-classless-login?embed=1&file=%2Fsrc%2Fmain.scss
+          link All /examples
+      col
+        link "Lucas Larroche" https://lucaslarroche.com/
+        link contributors https://github.com/picocss/pico/graphs/contributors
+      row
+        link GitHub https://github.com/picocss/pico
+        link Twitter https://x.com/picocss
+        link jsDelivr https://www.jsdelivr.com/package/npm/@picocss/pico
+        link NPM https://www.npmjs.com/package/@picocss/pico
+    row
+      row
+        link MIT https://github.com/picocss/pico/blob/master/LICENSE.md
+        link "CC BY-SA 4.0" https://github.com/picocss/picocss.com/blob/main/LICENSE.md
+      text Currently v2.1.1.

@@ -1,0 +1,153 @@
+@www_nasa_gov
+row
+  row
+    button Explore
+    row
+      text Search
+      field Search search
+  link "https://www.nasa.gov/" https://www.nasa.gov/
+  row
+    button "News & Events"
+    button Multimedia
+    link NASA+ https://plus.nasa.gov/
+h2 NASA's CHAPEA Mission 2
+text After a year living and working inside a simulated Mars habitat, the CHAPEA Mission 2 crew is preparing to conclude their 365-day mission. During their stay, they lived as if on Mars, growing crops, managing limited resources, and navigating communication delays. The crew will exit the habitat on Oct. 31.
+link "Mars Exploration" https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/
+row
+  col
+    h3 JAXA’s Martian Moons eXploration
+    link "NASA Contributions" https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/
+  col
+    h3 NASA’s Perseverance
+    link "Off-World Driving Record" https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/
+  col
+    h3 NASA’s SkyFall
+    link "Mars Helicopters" https://science.nasa.gov/mission/skyfall/
+row
+  button "Change Slide to NASA's CHAPEA Mission 2"
+  button "Pause slideshow" primary
+row
+  h2 Featured News
+  link "Recently Published" https://www.nasa.gov/news/recently-published/
+row
+  link "Blog3 Min ReadSpacewalk Preps and Advanced Biomedical Research Begin Week" https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/
+  row
+    link "Article2 Min ReadNASA’s Hubble Spies Spiral’s Edge" https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/
+    col
+      link "Article1 Min ReadNASA to Conduct Low-Altitude Flights Over Texas Farmland" https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/
+      link "Article4 Min ReadNASA Welcomes All Ages, Experience Levels for Space Apps Challenge" https://science.nasa.gov/universe/nasa-welcomes-all-ages-experience-levels-for-space-apps-challenge/
+row
+  link "5 Min ReadRigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance Article" https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/
+  link "1 Min ReadTIME Best Inventions of 2026Blog" https://science.nasa.gov/blogs/honors/2026/10/15/time-best-inventions-of-2026/
+  link "3 Min ReadAutumn Paints Poland’s Bieszczady MountainsArticle" https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/
+  link "3 Min ReadWhat’s Up: October 2026 Skywatching Tips from NASAArticle" https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/
+row
+  col
+    text FEATURED VIDEO
+    h3 This is Not an Exercise
+    text When a newly discovered asteroid looked like it could threaten Earth, NASA and scientists worldwide sprang into action. “Planetary Defenders: This Is Not an Exercise” reveals how experts around the globe worked together to track the asteroid, model its future path, assess the risks, and eventually determine it posed no danger.
+    link "NASA+ Original Series" https://plus.nasa.gov/video/planetary-defenders-documentary-official-nasa-trailer/
+row
+  h2 Solar System Exploration
+  link "Discover More" https://science.nasa.gov/solar-system/
+row
+  link "Asteroids, Comets & Meteors" https://science.nasa.gov/asteroids-comets-meteors/
+  link "Asteroids: Exploration" https://science.nasa.gov/solar-system/asteroids/exploration/
+  link "Planetary Defense at NASA" https://science.nasa.gov/planetary-defense/
+  link Eyes https://science.nasa.gov/eyes/
+row
+  col
+    metric Today "Image Of The Day"
+    text Martian Dawn
+    text The captivating shapes of wind-carved crags called yardangs are revealed in this zoomed-in crop of a broader panorama captured by NASA’s Curiosity Mars rover. Scientists are eager to learn more about how the yardang layer formed.
+    link "Browse Image Archive" https://www.nasa.gov/image-of-the-day/
+  col
+    link "View full image page" https://www.nasa.gov/image-detail/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs-2/
+    link "Download Image of the Day" https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs.webp
+    link "View full image page" https://www.nasa.gov/image-detail/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs-2/
+h2 More NASA Images
+row
+  link "Great Observatories: Hubble Space Telescope Gallery422 Images" https://www.nasa.gov/gallery/hubble/
+  link "Great Observatories: James Webb Space Telescope Gallery39 Images" https://www.nasa.gov/gallery/james-webb-space-telescope/
+  link "Great Observatories: Chandra X-ray Observatory Gallery24 Images" https://www.nasa.gov/gallery/great-observatories-chandra-x-ray-observatory/
+h2 Explore the Universe from your Inbox
+text Stay up-to-date on the latest news from NASA–from Earth to the Moon, the Solar System and beyond.
+row
+  text We will never share your email address.
+  link "Privacy Policy" https://www.nasa.gov/privacy/
+link "Sign Up" https://lp.constantcontactpages.com/sl/7ThAX6O/signup
+image https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?w=1536 "Space image with stars and swirls of colorful orange, red and white."
+row
+  col
+    h3 Two-Day Aerospace Festival
+    h2 MAX POWER
+    text Celebrate the spirit of American innovation at MAX POWER—an exposition of air and space technologies at Kennedy Space Center in Florida, Nov. 7-8.
+    text The two-day event will feature immersive experiences for all ages to enjoy, including air shows, technology demonstrations, spaceflight hardware, military aircraft, and behind‑the‑scenes access to America’s spaceport.In collaboration with Air Dot Show, UP Summit, Space Florida, Delaware North, and Purpose Entertainment, MAX POWER blends history, exploration, and the cutting edge of aerospace into an unforgettable experience.
+    link "Learn More about MAX POWER" https://www.nasa.gov/maxpower/
+  col
+    image https://images-assets.nasa.gov/image/AFRC2026-0146-13/AFRC2026-0146-13~large.jpg?w=1920&h=1280&fit=clip&crop=faces%2Cfocalpoint "A red, white, and blue NASA F‑15 is shown beside another jet aircraft during a cross‑country flight. The full F‑15 is visible, while only a portion of the F/A‑18’s red‑and‑white wing appears in the frame."
+    text A NASA F‑15 aircraft is shown flying next to a NASA F/A‑18 during a cross‑country flight from Spokane, Washington, to Washington, D.C., on July 2, 2026.
+    text NASA/Jim Ross
+h2 More Topics from NASA
+row
+  link Missions https://www.nasa.gov/nasa-missions/
+  link "Humans In Space" https://www.nasa.gov/humans-in-space/
+  link Earth https://science.nasa.gov/earth/
+  link "Our Solar System" https://science.nasa.gov/solar-system/overview/
+  link Universe https://science.nasa.gov/universe/
+  link "Science Missions" https://science.nasa.gov/science-missions/
+  link Aeronautics https://www.nasa.gov/aeronautics/
+  link Technology https://www.nasa.gov/technology/
+image https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg "NASA Logo"
+row
+  col
+    h3 National Aeronautics and Space Administration
+    text NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.
+    link "About NASA's Mission" https://www.nasa.gov/about/
+    link "Join Us" https://www.nasa.gov/get-involved/
+  col
+    link Home https://www.nasa.gov/
+    link "News & Events" https://www.nasa.gov/news/
+    link Multimedia https://www.nasa.gov/multimedia/
+    link NASA+ https://plus.nasa.gov/
+    link Missions https://www.nasa.gov/nasa-missions/
+    link "Humans in Space" https://www.nasa.gov/humans-in-space/
+    link Earth https://science.nasa.gov/earth/
+    link "The Solar System" https://science.nasa.gov/solar-system/
+    link "The Universe" https://science.nasa.gov/universe/
+    link Science https://science.nasa.gov/
+    link Aeronautics https://www.nasa.gov/aeronautics/
+    link Technology https://www.nasa.gov/technology/
+    link "Learning Resources" https://www.nasa.gov/learning-resources/
+    link "About NASA" https://www.nasa.gov/about/
+    link "NASA en Español (opens in new tab)" https://www.nasa.gov/es/
+  col
+    h3 Follow NASA
+    row
+      link "NASA on Facebook (opens in new tab)" https://www.facebook.com/NASA
+      link "NASA on Instagram (opens in new tab)" https://www.instagram.com/nasa/
+      link "NASA on X (opens in new tab)" https://x.com/NASA
+      link "NASA on YouTube (opens in new tab)" https://www.youtube.com/@NASA
+    link "More NASA Social Accounts" https://www.nasa.gov/social-media/
+    link "NASA Newsletters" https://www.nasa.gov/nasa-newsletters/
+  col
+    link Sitemap https://www.nasa.gov/sitemap/
+    link "For Media" https://www.nasa.gov/news/nasa-media-contacts/
+    link "Privacy Policy" https://www.nasa.gov/nasa-web-privacy-policy-and-important-notices/
+    link FOIA https://www.nasa.gov/foia/
+    link "No FEAR Act" https://www.nasa.gov/no-fear-act/
+    link "Office of the IG (opens in new tab)" http://oig.nasa.gov/
+    link "Budget & Annual Reports" https://www.nasa.gov/budgets-plans-and-reports/
+    link "Agency Financial Reports" https://www.nasa.gov/organizations/budget-annual-reports/agency-financial-reports/
+    link "Contact NASA" https://www.nasa.gov/contact-nasa/
+    link Accessibility https://www.nasa.gov/accessibility/
+  row
+    row
+      text Page Last Updated:
+      text Oct 19, 2026
+    row
+      text Page Editor:
+      text Dacia Massengill
+    row
+      text Responsible NASA Official:
+      text Abigail Bowman

@@ -1,0 +1,2044 @@
+@docs_python_org_3_library_functions_html
+link index ../genindex.html
+link modules ../py-modindex.html
+link next exceptions.html
+link previous constants.html
+image https://docs.python.org/3/_static/py.svg "Python logo"
+link Python https://www.python.org/
+row
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文"
+  select "Python version" "dev (3.16)" *3.15.0 3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6
+link "3.15.0 Documentation" ../index.html
+link "Python built-ins reference" index.html
+link "Built-in functions" #
+row
+  field "Quick search" search
+  button button
+select Theme *Auto Light Dark
+row
+  col
+    h1 Built-in functions¶
+    text The Python interpreter has a number of functions and types built into it that are always available. They are listed here in alphabetical order.
+    table Built-in
+      A abs() aiter() all() anext() any() ascii() B bin() bool() breakpoint() bytearray() bytes() C callable() chr() classmethod() compile() complex() D delattr() dict() dir() divmod() | E enumerate() eval() exec() F filter() float() format() frozendict() frozenset() G getattr() globals() H hasattr() hash() help() hex() I id() input() int() isinstance() issubclass() iter() | L len() list() locals() M map() max() memoryview() min() N next() O object() oct() open() ord() P pow() print() property() | R range() repr() reversed() round() S set() setattr() sentinel() slice() sorted() staticmethod() str() sum() super() T tuple() type() V vars() Z zip() _ __import__()
+    row
+      text abs
+      text (
+      text number
+      text /
+      text )
+      link ¶ #abs
+    link __abs__() ../reference/datamodel.html#object.__abs__
+    row
+      text aiter
+      text (
+      text async_iterable
+      text /
+      text )
+      link ¶ #aiter
+    row
+      link "asynchronous iterator" ../glossary.html#term-asynchronous-iterator
+      link "asynchronous iterable" ../glossary.html#term-asynchronous-iterable
+      text x.__aiter__()
+    row
+      link iter() #iter
+      text aiter()
+    text Added in version 3.10.
+    row
+      text all
+      text (
+      text iterable
+      text /
+      text )
+      link ¶ #all
+    text Return True if all elements of the iterable are true (or if the iterable is empty). Equivalent to:
+    text def all(iterable): for element in iterable: if not element: return False return True
+    row
+      text awaitable
+      text anext
+      text (
+      text async_iterator
+      text /
+      text )
+      link ¶ #anext
+    row
+      text awaitable
+      text anext
+      text (
+      text async_iterator
+      text default
+      text /
+      text )
+    link "asynchronous iterator" ../glossary.html#term-asynchronous-iterator
+    text default
+    link exhausted ../glossary.html#term-exhausted
+    link next() #next
+    link __anext__() ../reference/datamodel.html#object.__anext__
+    text async_iterator
+    link awaitable ../glossary.html#term-awaitable
+    text default
+    link StopAsyncIteration exceptions.html#StopAsyncIteration
+    text Added in version 3.10.
+    row
+      text any
+      text (
+      text iterable
+      text /
+      text )
+      link ¶ #any
+    text Return True if any element of the iterable is true. If the iterable is empty, return False. Equivalent to:
+    text def any(iterable): for element in iterable: if element: return True return False
+    row
+      text ascii
+      text (
+      text object
+      text /
+      text )
+      link ¶ #ascii
+    link repr() #repr
+    text repr()
+    text \x
+    text \u
+    text \U
+    text repr()
+    row
+      text bin
+      text (
+      text integer
+      text /
+      text )
+      link ¶ #bin
+    row
+      text integer
+      link int #int
+      link __index__() ../reference/datamodel.html#object.__index__
+    text >>> bin(3) '0b11' >>> bin(-10) '-0b1010'
+    text If the prefix “0b” is desired or not, you can use either of the following ways.
+    text >>> format(14, '#b'), format(14, 'b') ('0b1110', '1110') >>> f'{14:#b}', f'{14:b}' ('0b1110', '1110')
+    link enum.bin() ../library/enum.html#enum.bin
+    link format() #format
+    row
+      text class
+      text bool
+      text (
+      text object=False
+      text /
+      text )
+      link ¶ #bool
+    text True
+    text False
+    link "truth testing procedure" stdtypes.html#truth
+    text False
+    text True
+    text bool
+    link int #int
+    link "Numeric Types — int, float, complex" stdtypes.html#typesnumeric
+    text False
+    text True
+    link "Boolean Type - bool" stdtypes.html#typebool
+    text Changed in version 3.7: The parameter is now positional-only.
+    row
+      text breakpoint
+      text (
+      text *args
+      text **kws
+      text )
+      link ¶ #breakpoint
+    link sys.breakpointhook() ../library/sys.html#sys.breakpointhook
+    text args
+    text kws
+    text sys.breakpointhook()
+    link pdb.set_trace() ../library/pdb.html#pdb.set_trace
+    link pdb ../library/pdb.html#module-pdb
+    text sys.breakpointhook()
+    text breakpoint()
+    text sys.breakpointhook()
+    link RuntimeError exceptions.html#RuntimeError
+    text breakpoint()
+    link PYTHONBREAKPOINT ../using/cmdline.html#envvar-PYTHONBREAKPOINT
+    link sys.breakpointhook() ../library/sys.html#sys.breakpointhook
+    link sys.breakpointhook() ../library/sys.html#sys.breakpointhook
+    row
+      link "auditing event" ../library/sys.html#auditing
+      text builtins.breakpoint
+      text breakpointhook
+    text Added in version 3.7.
+    text class bytearray(source=b'')
+    text class bytearray(source, encoding, errors='strict')
+    link bytearray stdtypes.html#bytearray
+    link "Mutable Sequence Types" stdtypes.html#typesseq-mutable
+    link bytes stdtypes.html#bytes
+    link "Bytes and Bytearray Operations" stdtypes.html#bytes-methods
+    text The optional source parameter can be used to initialize the array in a few different ways:
+    text string
+    text encoding
+    text errors
+    link bytearray() stdtypes.html#bytearray
+    link str.encode() stdtypes.html#str.encode
+    text If it is an integer, the array will have that size and will be initialized with null bytes.
+    link "buffer interface" ../c-api/buffer.html#bufferobjects
+    text If it is an iterable, it must be an iterable of integers in the range 0 <= x < 256, which are used as the initial contents of the array.
+    text Without an argument, an array of size 0 is created.
+    row
+      link "Binary Sequence Types — bytes, bytearray, memoryview" stdtypes.html#binaryseq
+      link "Bytearray Objects" stdtypes.html#typebytearray
+    text class bytes(source=b'')
+    text class bytes(source, encoding, errors='strict')
+    text 0 <= x < 256
+    link bytes stdtypes.html#bytes
+    link bytearray stdtypes.html#bytearray
+    link bytearray() stdtypes.html#bytearray
+    link "String and Bytes literals" ../reference/lexical_analysis.html#strings
+    link "Binary Sequence Types — bytes, bytearray, memoryview" stdtypes.html#binaryseq
+    link "Bytes Objects" stdtypes.html#typebytes
+    link "Bytes and Bytearray Operations" stdtypes.html#bytes-methods
+    row
+      text callable
+      text (
+      text object
+      text /
+      text )
+      link ¶ #callable
+    link True constants.html#True
+    text object
+    link False constants.html#False
+    text True
+    text False
+    text object
+    link __call__() ../reference/datamodel.html#object.__call__
+    text Added in version 3.2: This function was first removed in Python 3.0 and then brought back in Python 3.2.
+    row
+      text chr
+      text (
+      text codepoint
+      text /
+      text )
+      link ¶ #chr
+    text chr(97)
+    text 'a'
+    text chr(8364)
+    text '€'
+    link ord() #ord
+    link ValueError exceptions.html#ValueError
+    row
+      text @
+      text classmethod
+      link ¶ #classmethod
+    text Transform a method into a class method.
+    text A class method receives the class as an implicit first argument, just like an instance method receives the instance. To declare a class method, use this idiom:
+    text class C: @classmethod def f(cls, arg1, arg2): ...
+    row
+      text @classmethod
+      link decorator ../glossary.html#term-decorator
+      link "Function definitions" ../reference/compound_stmts.html#function
+    text A class method can be called either on the class (such as C.f()) or on an instance (such as C().f()). The instance is ignored except for its class. If a class method is called for a derived class, the derived class object is passed as the implied first argument.
+    link staticmethod() #staticmethod
+    link "The standard type hierarchy" ../reference/datamodel.html#types
+    row
+      text Changed in version 3.9: danger
+      link descriptors ../glossary.html#term-descriptor
+      link property() #property
+    text Changed in version 3.10: danger
+    link __module__ ../reference/datamodel.html#function.__module__
+    link __name__ ../reference/datamodel.html#function.__name__
+    link __qualname__ ../reference/datamodel.html#function.__qualname__
+    link __doc__ ../reference/datamodel.html#function.__doc__
+    link __annotations__ ../reference/datamodel.html#function.__annotations__
+    text __wrapped__
+    text Deprecated since version 3.11, removed in version 3.13: danger
+    link descriptors ../glossary.html#term-descriptor
+    link property() #property
+    text compile
+    text (
+    text source
+    text filename
+    text mode
+    text flags=0
+    text dont_inherit=False
+    text optimize=-1
+    text *
+    text module=None
+    text )
+    link ¶ #compile
+    text source
+    link exec() #exec
+    link eval() #eval
+    text source
+    link ast ../library/ast.html#module-ast
+    text The filename argument should give the file from which the code was read; pass some recognizable value if it wasn’t read from a file ('<string>' is commonly used).
+    text The mode argument specifies what kind of code must be compiled; it can be 'exec' if source consists of a sequence of statements, 'eval' if it consists of a single expression, or 'single' if it consists of a single interactive statement (in the latter case, expression statements that evaluate to something other than None will be printed).
+    text flags
+    text dont_inherit
+    link "compiler options" ../library/ast.html#ast-compiler-flags
+    link "future features" ../reference/simple_stmts.html#future
+    text compile()
+    text flags
+    text dont_inherit
+    text flags
+    text dont_inherit
+    text flags
+    link compiler_flag ../library/__future__.html#future__._Feature.compiler_flag
+    link _Feature ../library/__future__.html#future__._Feature
+    link __future__ ../library/__future__.html#module-__future__
+    link "Compiler flags" ../library/ast.html#ast-compiler-flags
+    link ast ../library/ast.html#module-ast
+    text PyCF_
+    text optimize
+    text -1
+    link "-O" ../using/cmdline.html#cmdoption-O
+    text 0
+    text __debug__
+    text 1
+    text __debug__
+    text 2
+    row
+      text module
+      link filter ../library/warnings.html#warning-filter
+    link SyntaxError exceptions.html#SyntaxError
+    text source
+    link ValueError exceptions.html#ValueError
+    text mode
+    text flags
+    text source
+    link MemoryError exceptions.html#MemoryError
+    link RecursionError exceptions.html#RecursionError
+    text source
+    link OverflowError exceptions.html#OverflowError
+    text source
+    link ast.parse() ../library/ast.html#ast.parse
+    row
+      link "auditing event" ../library/sys.html#auditing
+      text compile
+      text source
+      text filename
+    card
+      text Note
+      text 'single'
+      text 'eval'
+      link code ../library/code.html#module-code
+    card
+      text Warning
+      text It is possible to crash the Python interpreter with a sufficiently large/complex string when compiling to an AST object due to stack depth limitations in Python’s AST compiler.
+    text Changed in version 3.2: Allowed use of Windows and Mac newlines. Also, input in 'exec' mode does not have to end in a newline anymore. Added the optimize parameter.
+    text Changed in version 3.5: danger
+    link TypeError exceptions.html#TypeError
+    text source
+    text Changed in version 3.8: ast.PyCF_ALLOW_TOP_LEVEL_AWAIT can now be passed in flags to enable support for top-level await, async for, and async with.
+    text Changed in version 3.12: danger
+    link SyntaxError exceptions.html#SyntaxError
+    link ValueError exceptions.html#ValueError
+    text source
+    text Changed in version 3.15: Added the module parameter.
+    row
+      text class
+      text complex
+      text (
+      text number=0
+      text /
+      text )
+      link ¶ #complex
+    row
+      text class
+      text complex
+      text (
+      text string
+      text /
+      text )
+    text class complex(real=0, imag=0)
+    text Convert a single string or number to a complex number, or create a complex number from real and imaginary parts.
+    text Examples:
+    text >>> complex('+1.23') (1.23+0j) >>> complex('-4.5j') -4.5j >>> complex('-1.23+4.5j') (-1.23+4.5j) >>> complex('\t( -1.23+4.5J )\n') (-1.23+4.5j) >>> complex('-Infinity+NaNj') (-inf+nanj) >>> complex(1.23) (1.23+0j) >>> complex(imag=-4.5) -4.5j >>> complex(-1.23, 4.5) (-1.23+4.5j)
+    link float() #float
+    text 'j'
+    text 'J'
+    text '('
+    text ')'
+    text '+'
+    text '-'
+    text 'j'
+    text 'J'
+    text complex('1+2j')
+    text complex('1 + 2j')
+    link ValueError exceptions.html#ValueError
+    link complexvalue #grammar-token-float-complexvalue
+    card
+      text complexvalue
+      link floatvalue #grammar-token-float-floatvalue
+      link floatvalue #grammar-token-float-floatvalue
+      text "\"j\"" success
+      text "\"J\"" success
+      link floatvalue #grammar-token-float-floatvalue
+      link sign #grammar-token-float-sign
+      link absfloatvalue #grammar-token-float-absfloatvalue
+      text "\"j\"" success
+      text "\"J\"" success
+    link int #int
+    link float #float
+    text x
+    text complex(x)
+    text x.__complex__()
+    link __complex__() ../reference/datamodel.html#object.__complex__
+    link __float__() ../reference/datamodel.html#object.__float__
+    text __float__()
+    link __index__() ../reference/datamodel.html#object.__index__
+    text If two arguments are provided or keyword arguments are used, each argument may be any numeric type (including complex). If both arguments are real numbers, return a complex number with the real component real and the imaginary component imag. If both arguments are complex numbers, return a complex number with the real component real.real-imag.imag and the imaginary component real.imag+imag.real. If one of arguments is a real number, only its real component is used in the above expressions.
+    link complex.from_number() stdtypes.html#complex.from_number
+    text If all arguments are omitted, returns 0j.
+    link "Numeric Types — int, float, complex" stdtypes.html#typesnumeric
+    text Changed in version 3.6: Grouping digits with underscores as in code literals is allowed.
+    row
+      text Changed in version 3.8: danger
+      link __index__() ../reference/datamodel.html#object.__index__
+      link __complex__() ../reference/datamodel.html#object.__complex__
+      link __float__() ../reference/datamodel.html#object.__float__
+    text Deprecated since version 3.14: Passing a complex number as the real or imag argument is now deprecated; it should only be passed as a single positional argument.
+    row
+      text delattr
+      text (
+      text object
+      text name
+      text /
+      text )
+      link ¶ #delattr
+    link setattr() #setattr
+    text delattr(x, 'foobar')
+    text del x.foobar
+    text name
+    text setattr()
+    text class dict(**kwargs)
+    row
+      text class
+      text dict
+      text (
+      text mapping
+      text /
+      text **kwargs
+      text )
+    row
+      text class
+      text dict
+      text (
+      text iterable
+      text /
+      text **kwargs
+      text )
+    link dict stdtypes.html#dict
+    link "Mapping types — dict, frozendict" stdtypes.html#typesmapping
+    link frozendict stdtypes.html#frozendict
+    link list stdtypes.html#list
+    link set stdtypes.html#set
+    link tuple stdtypes.html#tuple
+    link collections ../library/collections.html#module-collections
+    row
+      text dir
+      text (
+      text )
+      link ¶ #dir
+    row
+      text dir
+      text (
+      text object
+      text /
+      text )
+    text Without arguments, return the list of names in the current local scope. With an argument, attempt to return a list of valid attributes for that object.
+    link __dir__() ../reference/datamodel.html#object.__dir__
+    link __getattr__() ../reference/datamodel.html#object.__getattr__
+    link __getattribute__() ../reference/datamodel.html#object.__getattribute__
+    text dir()
+    link __dir__() ../reference/datamodel.html#object.__dir__
+    link __dict__ ../reference/datamodel.html#object.__dict__
+    link __getattr__() ../reference/datamodel.html#object.__getattr__
+    text The default dir() mechanism behaves differently with different types of objects, as it attempts to produce the most relevant, rather than complete, information:
+    text If the object is a module object, the list contains the names of the module’s attributes.
+    text If the object is a type or class object, the list contains the names of its attributes, and recursively of the attributes of its bases.
+    text Otherwise, the list contains the object’s attributes’ names, the names of its class’s attributes, and recursively of the attributes of its class’s base classes.
+    text The resulting list is sorted alphabetically. For example:
+    text >>> import struct >>> dir() # show the names in the module namespace ['__builtins__', '__name__', 'struct'] >>> dir(struct) # show the names in the struct module ['Struct', '__all__', '__builtins__', '__doc__', '__file__', '__initializing__', '__loader__', '__name__', '__package__', '_clearcache', 'calcsize', 'error', 'pack', 'pack_into', 'unpack', 'unpack_from'] >>> class Shape: ... def __dir__(self): ... return ['area', 'perimeter', 'location'] ... >>> s = Shape() >>> dir(s) ['area', 'location', 'perimeter']
+    card
+      text Note
+      text Because dir() is supplied primarily as a convenience for use at an interactive prompt, it tries to supply an interesting set of names more than it tries to supply a rigorously or consistently defined set of names, and its detailed behavior may change across releases. For example, metaclass attributes are not in the result list when the argument is a class.
+    row
+      text divmod
+      text (
+      text a
+      text b
+      text /
+      text )
+      link ¶ #divmod
+    text Take two (non-complex) numbers as arguments and return a pair of numbers consisting of their quotient and remainder when using integer division. With mixed operand types, the rules for binary arithmetic operators apply. For integers, the result is the same as (a // b, a % b). For floating-point numbers the result is (q, a % b), where q is usually math.floor(a / b) but may be 1 less than that. In any case q * b + a % b is very close to a, if a % b is non-zero it has the same sign as b, and 0 <= abs(a % b) < abs(b).
+    row
+      text enumerate
+      text (
+      text iterable
+      text start=0
+      text )
+      link ¶ #enumerate
+    text iterable
+    link iterator ../glossary.html#term-iterator
+    link __next__() stdtypes.html#iterator.__next__
+    text enumerate()
+    text start
+    text iterable
+    text >>> seasons = ['Spring', 'Summer', 'Fall', 'Winter'] >>> list(enumerate(seasons)) [(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')] >>> list(enumerate(seasons, start=1)) [(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')]
+    text Equivalent to:
+    text def enumerate(iterable, start=0): n = start for elem in iterable: yield n, elem n += 1
+    row
+      text eval
+      text (
+      text source
+      text /
+      text globals=None
+      text locals=None
+      text )
+      link ¶ #eval
+    row
+      text Parameters:
+      col
+        row
+          text source
+          link str stdtypes.html#str
+          link "code object" ../reference/datamodel.html#code-objects
+        row
+          text globals
+          link dict stdtypes.html#dict
+          link frozendict stdtypes.html#frozendict
+          text None
+          text None
+        row
+          text locals
+          link mapping ../glossary.html#term-mapping
+          text None
+          text None
+      text Returns:
+      text The result of the evaluated expression.
+      text Raises:
+      text Syntax errors are reported as exceptions.
+    card
+      text Warning
+      text This function executes arbitrary code. Calling it with untrusted user-supplied input will lead to security vulnerabilities.
+    text source
+    link "expression list" ../reference/expressions.html#exprlists
+    text globals
+    text locals
+    text globals
+    text __builtins__
+    link builtins ../library/builtins.html#module-builtins
+    text source
+    text __builtins__
+    text not
+    text locals
+    text globals
+    text globals
+    text locals
+    text eval()
+    text eval()
+    link "nested scopes" ../glossary.html#term-nested-scope
+    text eval()
+    link nonlocal ../reference/simple_stmts.html#nonlocal
+    text Example:
+    text >>> x = 1 >>> eval('x+1') 2
+    text ">>> eval(\"1, 2\") (1, 2)"
+    link compile() #compile
+    text 'exec'
+    text mode
+    text eval()
+    text None
+    link exec() #exec
+    link globals() #globals
+    link locals() #locals
+    text eval()
+    text exec()
+    text If the given source is a string, then leading and trailing spaces and tabs are stripped.
+    link ast.literal_eval() ../library/ast.html#ast.literal_eval
+    row
+      link "auditing event" ../library/sys.html#auditing
+      text exec
+    text Changed in version 3.13: The globals and locals arguments can now be passed as keywords.
+    text Changed in version 3.13: danger
+    text locals
+    link locals() #locals
+    row
+      text Changed in version 3.15: danger
+      text globals
+      link frozendict stdtypes.html#frozendict
+    row
+      text exec
+      text (
+      text source
+      text /
+      text globals=None
+      text locals=None
+      text *
+      text closure=None
+      text )
+      link ¶ #exec
+    card
+      text Warning
+      text This function executes arbitrary code. Calling it with untrusted user-supplied input will lead to security vulnerabilities.
+    text source
+    row
+      text [ primary
+      text ] primary
+    link "File input" ../reference/toplevel_components.html#file-input
+    link nonlocal ../reference/simple_stmts.html#nonlocal
+    link yield ../reference/simple_stmts.html#yield
+    link return ../reference/simple_stmts.html#return
+    text exec()
+    text None
+    text In all cases, if the optional parts are omitted, the code is executed in the current scope. If only globals is provided, it must be a dictionary (and not a subclass of dictionary), which will be used for both the global and the local variables. If globals and locals are given, they are used for the global and local variables, respectively. If provided, locals can be any mapping object. Remember that at the module level, globals and locals are the same dictionary.
+    card
+      text Note
+      text When exec gets two separate objects as globals and locals, the code will be executed as if it were embedded in a class definition. This means functions and classes defined in the executed code will not be able to access variables assigned at the top level (as the “top level” variables are treated as class variables in a class definition).
+    text globals
+    text __builtins__
+    link builtins ../library/builtins.html#module-builtins
+    text __builtins__
+    text not
+    text closure
+    text object
+    link "free (closure) variables" ../glossary.html#term-closure-variable
+    link co_freevars ../reference/datamodel.html#codeobject.co_freevars
+    row
+      link "auditing event" ../library/sys.html#auditing
+      text exec
+    card
+      text Note
+      link globals() #globals
+      link locals() #locals
+      text exec()
+    card
+      text Note
+      text locals
+      link locals() #locals
+      text locals
+      text locals
+      text exec()
+    text Changed in version 3.11: Added the closure parameter.
+    text Changed in version 3.13: The globals and locals arguments can now be passed as keywords.
+    text Changed in version 3.13: danger
+    text locals
+    link locals() #locals
+    row
+      text Changed in version 3.15: danger
+      text globals
+      link frozendict stdtypes.html#frozendict
+    row
+      text filter
+      text (
+      text function
+      text iterable
+      text /
+      text )
+      link ¶ #filter
+    text Construct an iterator from those elements of iterable for which function is true. iterable may be either a sequence, a container which supports iteration, or an iterator. If function is None, the identity function is assumed, that is, all elements of iterable that are false are removed.
+    text Note that filter(function, iterable) is equivalent to the generator expression (item for item in iterable if function(item)) if function is not None and (item for item in iterable if item) if function is None.
+    link itertools.filterfalse() ../library/itertools.html#itertools.filterfalse
+    text iterable
+    text function
+    row
+      text class
+      text float
+      text (
+      text number=0.0
+      text /
+      text )
+      link ¶ #float
+    row
+      text class
+      text float
+      text (
+      text string
+      text /
+      text )
+    text Return a floating-point number constructed from a number or a string.
+    text Examples:
+    text >>> float('+1.23') 1.23 >>> float(' -12345\n') -12345.0 >>> float('1e-003') 0.001 >>> float('+1E6') 1000000.0 >>> float('-Infinity') -inf
+    text '+'
+    text '-'
+    text '+'
+    link floatvalue #grammar-token-float-floatvalue
+    card
+      text sign
+      text "\"+\"" success
+      text "\"-\"" success
+      text infinity
+      text "\"Infinity\"" success
+      text "\"inf\"" success
+      text nan
+      text "\"nan\"" success
+      text digit
+      text digitpart
+      link digit #grammar-token-float-digit
+      text "\"_\"" success
+      link digit #grammar-token-float-digit
+      text number
+      link digitpart #grammar-token-float-digitpart
+      text "\".\"" success
+      link digitpart #grammar-token-float-digitpart
+      link digitpart #grammar-token-float-digitpart
+      text "\".\"" success
+      text exponent
+      text "\"e\"" success
+      text "\"E\"" success
+      link sign #grammar-token-float-sign
+      link digitpart #grammar-token-float-digitpart
+      text floatnumber
+      link "number" #grammar-token-float-number
+      link exponent #grammar-token-float-exponent
+      text absfloatvalue
+      link floatnumber #grammar-token-float-floatnumber
+      link infinity #grammar-token-float-infinity
+      link nan #grammar-token-float-nan
+      text floatvalue
+      link sign #grammar-token-float-sign
+      link absfloatvalue #grammar-token-float-absfloatvalue
+    text Case is not significant, so, for example, “inf”, “Inf”, “INFINITY”, and “iNfINity” are all acceptable spellings for positive infinity.
+    link OverflowError exceptions.html#OverflowError
+    text x
+    text float(x)
+    text x.__float__()
+    link __float__() ../reference/datamodel.html#object.__float__
+    link __index__() ../reference/datamodel.html#object.__index__
+    link float.from_number() stdtypes.html#float.from_number
+    text If no argument is given, 0.0 is returned.
+    link "Numeric Types — int, float, complex" stdtypes.html#typesnumeric
+    text Changed in version 3.6: Grouping digits with underscores as in code literals is allowed.
+    text Changed in version 3.7: The parameter is now positional-only.
+    row
+      text Changed in version 3.8: danger
+      link __index__() ../reference/datamodel.html#object.__index__
+      link __float__() ../reference/datamodel.html#object.__float__
+    row
+      text format
+      text (
+      text value
+      text format_spec=''
+      text /
+      text )
+      link ¶ #format
+    text value
+    text format_spec
+    text format_spec
+    text value
+    link "Format specification mini-language" ../library/string.html#formatspec
+    row
+      text format_spec
+      link str(value) stdtypes.html#str
+    text format(value, format_spec)
+    text type(value).__format__(value, format_spec)
+    link __format__() ../reference/datamodel.html#object.__format__
+    link TypeError exceptions.html#TypeError
+    link object #object
+    text format_spec
+    text format_spec
+    row
+      text Changed in version 3.4: danger
+      text object().__format__(format_spec)
+      link TypeError exceptions.html#TypeError
+      text format_spec
+    text class frozendict(**kwargs)
+    row
+      text class
+      text frozendict
+      text (
+      text mapping
+      text /
+      text **kwargs
+      text )
+    row
+      text class
+      text frozendict
+      text (
+      text iterable
+      text /
+      text **kwargs
+      text )
+    link frozendict stdtypes.html#frozendict
+    link "Mapping types — dict, frozendict" stdtypes.html#typesmapping
+    row
+      link dict stdtypes.html#dict
+      link list stdtypes.html#list
+      link set stdtypes.html#set
+      link tuple stdtypes.html#tuple
+      link collections ../library/collections.html#module-collections
+    text Added in version 3.15.
+    row
+      text class
+      text frozenset
+      text (
+      text iterable=()
+      text /
+      text )
+    link frozenset stdtypes.html#frozenset
+    text iterable
+    text frozenset
+    link "Set Types — set, frozenset" stdtypes.html#types-set
+    row
+      link set stdtypes.html#set
+      link list stdtypes.html#list
+      link tuple stdtypes.html#tuple
+      link dict stdtypes.html#dict
+      link collections ../library/collections.html#module-collections
+    row
+      text getattr
+      text (
+      text object
+      text name
+      text /
+      text )
+      link ¶ #getattr
+    row
+      text getattr
+      text (
+      text object
+      text name
+      text default
+      text /
+      text )
+    text object
+    text name
+    text getattr(x, 'foobar')
+    text x.foobar
+    text default
+    link AttributeError exceptions.html#AttributeError
+    text name
+    link setattr() #setattr
+    card
+      text Note
+      link "private name mangling" ../reference/expressions.html#private-name-mangling
+      text getattr()
+    row
+      text globals
+      text (
+      text )
+      link ¶ #globals
+    text Return the dictionary implementing the current module namespace. For code within functions, this is set when the function is defined and remains the same regardless of where the function is called.
+    row
+      text hasattr
+      text (
+      text object
+      text name
+      text /
+      text )
+      link ¶ #hasattr
+    text True
+    text False
+    text getattr(object, name)
+    link AttributeError exceptions.html#AttributeError
+    row
+      text hash
+      text (
+      text object
+      text /
+      text )
+      link ¶ #hash
+    text Return the hash value of the object (if it has one). Hash values are integers. They are used to quickly compare dictionary keys during a dictionary lookup. Numeric values that compare equal have the same hash value (even if they are of different types, as is the case for 1 and 1.0).
+    card
+      text Note
+      row
+        link __hash__() ../reference/datamodel.html#object.__hash__
+        text hash()
+    row
+      text help
+      text (
+      text )
+      link ¶ #help
+    text help(request)
+    text Invoke the built-in help system. (This function is intended for interactive use.) If no argument is given, the interactive help system starts on the interpreter console. If the argument is a string, then the string is looked up as the name of a module, function, class, method, keyword, or documentation topic, and a help page is printed on the console. If the argument is any other kind of object, a help page on the object is generated.
+    text help()
+    link "the FAQ entry on positional-only parameters" ../faq/programming.html#faq-positional-only-arguments
+    link site ../library/site.html#module-site
+    row
+      text Changed in version 3.4: danger
+      link pydoc ../library/pydoc.html#module-pydoc
+      link inspect ../library/inspect.html#module-inspect
+    row
+      text hex
+      text (
+      text integer
+      text /
+      text )
+      link ¶ #hex
+    text integer
+    link int #int
+    link __index__() ../reference/datamodel.html#object.__index__
+    text >>> hex(255) '0xff' >>> hex(-42) '-0x2a'
+    text If you want to convert an integer number to an uppercase or lower hexadecimal string with prefix or not, you can use either of the following ways:
+    text >>> '%#x' % 255, '%x' % 255, '%X' % 255 ('0xff', 'ff', 'FF') >>> format(255, '#x'), format(255, 'x'), format(255, 'X') ('0xff', 'ff', 'FF') >>> f'{255:#x}', f'{255:x}', f'{255:X}' ('0xff', 'ff', 'FF')
+    link format() #format
+    link int() #int
+    card
+      text Note
+      link float.hex() stdtypes.html#float.hex
+    row
+      text id
+      text (
+      text object
+      text /
+      text )
+      link ¶ #id
+    text Return the “identity” of an object. This is an integer which is guaranteed to be unique and constant for this object during its lifetime. Two objects with non-overlapping lifetimes may have the same id() value.
+    text CPython implementation detail: This is the address of the object in memory.
+    row
+      link "auditing event" ../library/sys.html#auditing
+      text builtins.id
+      text id
+    row
+      text input
+      text (
+      text )
+      link ¶ #input
+    row
+      text input
+      text (
+      text prompt
+      text /
+      text )
+    text prompt
+    link EOFError exceptions.html#EOFError
+    text ">>> s = input('--> ') --> Monty Python's Flying Circus >>> s \"Monty Python's Flying Circus\""
+    row
+      link readline ../library/readline.html#module-readline
+      text input()
+    row
+      link "auditing event" ../library/sys.html#auditing
+      text builtins.input
+      text prompt
+    row
+      link "auditing event" ../library/sys.html#auditing
+      text builtins.input/result
+    row
+      text class
+      text int
+      text (
+      text number=0
+      text /
+      text )
+      link ¶ #int
+    row
+      text class
+      text int
+      text (
+      text string
+      text /
+      text base=10
+      text )
+    text Return an integer object constructed from a number or a string, or return 0 if no arguments are given.
+    text Examples:
+    text >>> int(123.45) 123 >>> int('123') 123 >>> int(' -12_345\n') -12345 >>> int('FACE', 16) 64206 >>> int('0xface', 0) 64206 >>> int('01110011', base=2) 115
+    link __int__() ../reference/datamodel.html#object.__int__
+    text int(x)
+    text x.__int__()
+    link __index__() ../reference/datamodel.html#object.__index__
+    text x.__index__()
+    text base
+    link bytes stdtypes.html#bytes
+    link bytearray stdtypes.html#bytearray
+    text base
+    text +
+    text -
+    text a
+    text z
+    text A
+    text Z
+    text base
+    text 0b
+    text 0B
+    text 0o
+    text 0O
+    text 0x
+    text 0X
+    link "integer literal in code" ../reference/lexical_analysis.html#integers
+    text int('010', 0)
+    text int('010')
+    text int('010', 8)
+    link "Numeric Types — int, float, complex" stdtypes.html#typesnumeric
+    text Changed in version 3.4: danger
+    text base
+    text int
+    text base
+    link base.__index__ ../reference/datamodel.html#object.__index__
+    link base.__int__ ../reference/datamodel.html#object.__int__
+    text base.__index__
+    text Changed in version 3.6: Grouping digits with underscores as in code literals is allowed.
+    text Changed in version 3.7: The first parameter is now positional-only.
+    row
+      text Changed in version 3.8: danger
+      link __index__() ../reference/datamodel.html#object.__index__
+      link __int__() ../reference/datamodel.html#object.__int__
+    text Changed in version 3.11: danger
+    text int
+    link ValueError exceptions.html#ValueError
+    text int
+    text int
+    link "integer string conversion length limitation" stdtypes.html#int-max-str-digits
+    row
+      text Changed in version 3.14: danger
+      link int() #int
+      link __trunc__() ../reference/datamodel.html#object.__trunc__
+    row
+      text isinstance
+      text (
+      text object
+      text classinfo
+      text /
+      text )
+      link ¶ #isinstance
+    text True
+    text object
+    text classinfo
+    link virtual ../glossary.html#term-abstract-base-class
+    text object
+    text False
+    text classinfo
+    link "Union Type" stdtypes.html#types-union
+    text True
+    text object
+    text classinfo
+    link TypeError exceptions.html#TypeError
+    text TypeError
+    row
+      text Changed in version 3.10: danger
+      text classinfo
+      link "Union Type" stdtypes.html#types-union
+    row
+      text issubclass
+      text (
+      text cls
+      text classinfo
+      text /
+      text )
+      link ¶ #issubclass
+    text True
+    text cls
+    link virtual ../glossary.html#term-abstract-base-class
+    text classinfo
+    text classinfo
+    link "Union Type" stdtypes.html#types-union
+    text True
+    text cls
+    text classinfo
+    link TypeError exceptions.html#TypeError
+    row
+      text Changed in version 3.10: danger
+      text classinfo
+      link "Union Type" stdtypes.html#types-union
+    row
+      text iter
+      text (
+      text iterable
+      text /
+      text )
+      link ¶ #iter
+    row
+      text iter
+      text (
+      text callable
+      text sentinel
+      text /
+      text )
+    link iterator ../glossary.html#term-iterator
+    link iterable ../glossary.html#term-iterable
+    link __iter__() ../reference/datamodel.html#object.__iter__
+    link __getitem__() ../reference/datamodel.html#object.__getitem__
+    text 0
+    link TypeError exceptions.html#TypeError
+    text sentinel
+    text callable
+    link __next__() stdtypes.html#iterator.__next__
+    text sentinel
+    link StopIteration exceptions.html#StopIteration
+    link "Iteration-related types" stdtypes.html#typeiter
+    text One useful application of the second form of iter() is to build a block-reader. For example, reading fixed-width blocks from a binary database file until the end of file is reached:
+    text from functools import partial with open('mydata.db', 'rb') as f: for block in iter(partial(f.read, 64), b''): process_block(block)
+    row
+      text len
+      text (
+      text object
+      text /
+      text )
+      link ¶ #len
+    text Return the length (the number of items) of an object. The argument may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a dictionary, set, or frozen set).
+    text CPython implementation detail:
+    text len
+    link OverflowError exceptions.html#OverflowError
+    link sys.maxsize ../library/sys.html#sys.maxsize
+    link "range(2 ** 100)" stdtypes.html#range
+    row
+      text class
+      text list
+      text (
+      text iterable=()
+      text /
+      text )
+    link list stdtypes.html#list
+    link Lists stdtypes.html#typesseq-list
+    link "Sequence Types — list, tuple, range" stdtypes.html#typesseq
+    row
+      text locals
+      text (
+      text )
+      link ¶ #locals
+    text Return a mapping object representing the current local symbol table, with variable names as the keys, and their currently bound references as the values.
+    link exec() #exec
+    link eval() #eval
+    link globals() #globals
+    text At class scope, it returns the namespace that will be passed to the metaclass constructor.
+    text When using exec() or eval() with separate local and global arguments, it returns the local namespace passed in to the function call.
+    text In all of the above cases, each call to locals() in a given frame of execution will return the same mapping object. Changes made through the mapping object returned from locals() will be visible as assigned, reassigned, or deleted local variables, and assigning, reassigning, or deleting local variables will immediately affect the contents of the returned mapping object.
+    link "optimized scope" ../glossary.html#term-optimized-scope
+    text locals()
+    text not
+    text not
+    text Calling locals() as part of a comprehension in a function, generator, or coroutine is equivalent to calling it in the containing scope, except that the comprehension’s initialised iteration variables will be included. In other scopes, it behaves as if the comprehension were running as a nested function.
+    text Calling locals() as part of a generator expression is equivalent to calling it in a nested generator function.
+    text Changed in version 3.12: danger
+    text locals()
+    link "PEP 709" https://peps.python.org/pep-0709/
+    text Changed in version 3.13: danger
+    link "PEP 667" https://peps.python.org/pep-0667/
+    link "optimized scopes" ../glossary.html#term-optimized-scope
+    row
+      text map
+      text (
+      text function
+      text iterable
+      text /
+      text *iterables
+      text strict=False
+      text )
+      link ¶ #map
+    text function
+    text iterable
+    text iterables
+    text function
+    link exhausted ../glossary.html#term-exhausted
+    text strict
+    text True
+    link ValueError exceptions.html#ValueError
+    link itertools.starmap() ../library/itertools.html#itertools.starmap
+    text Changed in version 3.14: Added the strict parameter.
+    row
+      text max
+      text (
+      text iterable
+      text /
+      text *
+      text key=None
+      text )
+      link ¶ #max
+    row
+      text max
+      text (
+      text iterable
+      text /
+      text *
+      text default
+      text key=None
+      text )
+    row
+      text max
+      text (
+      text arg1
+      text arg2
+      text /
+      text *args
+      text key=None
+      text )
+    text Return the largest item in an iterable or the largest of two or more arguments.
+    link iterable ../glossary.html#term-iterable
+    text key
+    link list.sort() stdtypes.html#list.sort
+    text default
+    text default
+    link ValueError exceptions.html#ValueError
+    text If multiple items are maximal, the function returns the first one encountered. This is consistent with other sort-stability preserving tools such as sorted(iterable, key=keyfunc, reverse=True)[0] and heapq.nlargest(1, iterable, key=keyfunc).
+    text Changed in version 3.4: Added the default keyword-only parameter.
+    text Changed in version 3.8: The key can be None.
+    text class memoryview(object)
+    link "Memory Views" stdtypes.html#typememoryview
+    row
+      text min
+      text (
+      text iterable
+      text /
+      text *
+      text key=None
+      text )
+      link ¶ #min
+    row
+      text min
+      text (
+      text iterable
+      text /
+      text *
+      text default
+      text key=None
+      text )
+    row
+      text min
+      text (
+      text arg1
+      text arg2
+      text /
+      text *args
+      text key=None
+      text )
+    text Return the smallest item in an iterable or the smallest of two or more arguments.
+    link iterable ../glossary.html#term-iterable
+    text key
+    link list.sort() stdtypes.html#list.sort
+    text default
+    text default
+    link ValueError exceptions.html#ValueError
+    text If multiple items are minimal, the function returns the first one encountered. This is consistent with other sort-stability preserving tools such as sorted(iterable, key=keyfunc)[0] and heapq.nsmallest(1, iterable, key=keyfunc).
+    text Changed in version 3.4: Added the default keyword-only parameter.
+    text Changed in version 3.8: The key can be None.
+    row
+      text next
+      text (
+      text iterator
+      text /
+      text )
+      link ¶ #next
+    row
+      text next
+      text (
+      text iterator
+      text default
+      text /
+      text )
+    link iterator ../glossary.html#term-iterator
+    link __next__() stdtypes.html#iterator.__next__
+    text default
+    link exhausted ../glossary.html#term-exhausted
+    link StopIteration exceptions.html#StopIteration
+    row
+      text class
+      text object
+      link ¶ #object
+    text This is the ultimate base class of all other classes. It has methods that are common to all instances of Python classes. When the constructor is called, it returns a new featureless object. The constructor does not accept any arguments.
+    card
+      text Note
+      text object
+      text not
+      link __dict__ ../reference/datamodel.html#object.__dict__
+      text object
+    row
+      text oct
+      text (
+      text integer
+      text /
+      text )
+      link ¶ #oct
+    row
+      text integer
+      link int #int
+      link __index__() ../reference/datamodel.html#object.__index__
+    text >>> oct(8) '0o10' >>> oct(-56) '-0o70'
+    text If you want to convert an integer number to an octal string either with the prefix “0o” or not, you can use either of the following ways.
+    text >>> '%#o' % 10, '%o' % 10 ('0o12', '12') >>> format(10, '#o'), format(10, 'o') ('0o12', '12') >>> f'{10:#o}', f'{10:o}' ('0o12', '12')
+    link format() #format
+    text open
+    text (
+    text file
+    text mode='r'
+    text buffering=-1
+    text encoding=None
+    text errors=None
+    text newline=None
+    text closefd=True
+    text opener=None
+    text )
+    link ¶ #open
+    text file
+    link "file object" ../glossary.html#term-file-object
+    link OSError exceptions.html#OSError
+    link "Reading and writing files" ../tutorial/inputoutput.html#tut-files
+    text file
+    link "path-like object" ../glossary.html#term-path-like-object
+    text closefd
+    text False
+    text mode
+    text 'r'
+    text 'w'
+    text 'x'
+    text 'a'
+    text some
+    text all
+    text encoding
+    link "Python UTF-8 Mode" ../library/os.html#utf8-mode
+    link locale.getencoding() ../library/locale.html#locale.getencoding
+    text encoding
+    table Character Meaning
+      'r' | open for reading (default)
+      'w' | open for writing, truncating the file first
+      'x' | open for exclusive creation, failing if the file already exists
+      'a' | open for writing, appending to the end of file if it exists
+      'b' | binary mode
+      't' | text mode (default)
+      '+' | open for updating (reading and writing)
+    text The default mode is 'r' (open for reading text, a synonym of 'rt'). Modes 'w+' and 'w+b' open and truncate the file. Modes 'r+' and 'r+b' open the file with no truncation.
+    link Overview ../library/io.html#io-overview
+    text 'b'
+    text mode
+    link bytes stdtypes.html#bytes
+    text 't'
+    text mode
+    link str stdtypes.html#str
+    text encoding
+    card
+      text Note
+      text Python doesn’t depend on the underlying operating system’s notion of text files; all the processing is done by Python itself, and is therefore platform-independent.
+    text buffering
+    text TextIOWrapper
+    text mode='r+'
+    text TextIOWrapper
+    text write_through
+    link io.TextIOWrapper.reconfigure() ../library/io.html#io.TextIOWrapper.reconfigure
+    text buffering
+    text Binary files are buffered in fixed-size chunks; the size of the buffer is max(min(blocksize, 8 MiB), DEFAULT_BUFFER_SIZE) when the device block size is available. On most systems, the buffer will typically be 128 kilobytes long.
+    row
+      link isatty() ../library/io.html#io.IOBase.isatty
+      text True
+    text encoding
+    link "Python UTF-8 Mode" ../library/os.html#utf8-mode
+    link locale.getencoding() ../library/locale.html#locale.getencoding
+    link "text encoding" ../glossary.html#term-text-encoding
+    text "encoding=\"locale\""
+    link codecs ../library/codecs.html#module-codecs
+    text errors
+    link codecs.register_error() ../library/codecs.html#codecs.register_error
+    link "Error Handlers" ../library/codecs.html#error-handlers
+    text newline determines how to parse newline characters from the stream. It can be None, '', '\n', '\r', and '\r\n'. It works as follows:
+    text When reading input from the stream, if newline is None, universal newlines mode is enabled. Lines in the input can end in '\n', '\r', or '\r\n', and these are translated into '\n' before being returned to the caller. If it is '', universal newlines mode is enabled, but line endings are returned to the caller untranslated. If it has any of the other legal values, input lines are only terminated by the given string, and the line ending is returned to the caller untranslated.
+    text newline
+    text None
+    text '\n'
+    link os.linesep ../library/os.html#os.linesep
+    text newline
+    text ''
+    text '\n'
+    text newline
+    text '\n'
+    text If closefd is False and a file descriptor rather than a filename was given, the underlying file descriptor will be kept open when the file is closed. If a filename is given closefd must be True (the default); otherwise, an error will be raised.
+    text opener
+    text opener
+    text file
+    text flags
+    text opener
+    link os.open ../library/os.html#os.open
+    text opener
+    text None
+    link non-inheritable ../library/os.html#fd-inheritance
+    row
+      link dir_fd ../library/os.html#dir-fd
+      link os.open() ../library/os.html#os.open
+    text >>> import os >>> dir_fd = os.open('somedir', os.O_RDONLY) >>> def opener(path, flags): ... return os.open(path, flags, dir_fd=dir_fd) ... >>> with open('spamspam.txt', 'w', opener=opener) as f: ... print('This will be written to somedir/spamspam.txt', file=f) ... >>> os.close(dir_fd) # don't leak a file descriptor
+    link "file object" ../glossary.html#term-file-object
+    text open()
+    text open()
+    text 'w'
+    text 'r'
+    text 'wt'
+    text 'rt'
+    link io.TextIOBase ../library/io.html#io.TextIOBase
+    link io.TextIOWrapper ../library/io.html#io.TextIOWrapper
+    link io.BufferedIOBase ../library/io.html#io.BufferedIOBase
+    link io.BufferedReader ../library/io.html#io.BufferedReader
+    link io.BufferedWriter ../library/io.html#io.BufferedWriter
+    link io.BufferedRandom ../library/io.html#io.BufferedRandom
+    link io.RawIOBase ../library/io.html#io.RawIOBase
+    link io.FileIO ../library/io.html#io.FileIO
+    link fileinput ../library/fileinput.html#module-fileinput
+    link io ../library/io.html#module-io
+    text open()
+    link os ../library/os.html#module-os
+    link os.path ../library/os.path.html#module-os.path
+    link tempfile ../library/tempfile.html#module-tempfile
+    link shutil ../library/shutil.html#module-shutil
+    row
+      link "auditing event" ../library/sys.html#auditing
+      text open
+      text path
+      text mode
+      text flags
+    text The mode and flags arguments may have been modified or inferred from the original call.
+    text Changed in version 3.3:
+    text The opener parameter was added.
+    text The 'x' mode was added.
+    row
+      link IOError exceptions.html#IOError
+      link OSError exceptions.html#OSError
+    row
+      link FileExistsError exceptions.html#FileExistsError
+      text 'x'
+    text Changed in version 3.4:
+    text The file is now non-inheritable.
+    text Changed in version 3.5:
+    row
+      link InterruptedError exceptions.html#InterruptedError
+      link "PEP 475" https://peps.python.org/pep-0475/
+    text The 'namereplace' error handler was added.
+    text Changed in version 3.6:
+    link os.PathLike ../library/os.html#os.PathLike
+    link io.RawIOBase ../library/io.html#io.RawIOBase
+    link io.FileIO ../library/io.html#io.FileIO
+    text Changed in version 3.11: The 'U' mode has been removed.
+    text Changed in version 3.15: danger
+    link "PEP 686" https://peps.python.org/pep-0686/
+    row
+      text ord
+      text (
+      text character
+      text /
+      text )
+      link ¶ #ord
+    text Return the ordinal value of a character.
+    row
+      text ord('a')
+      text 97
+      text ord('€')
+      text 8364
+      link chr() #chr
+    link bytes stdtypes.html#bytes
+    link bytearray stdtypes.html#bytearray
+    text ord(b'a')
+    text 97
+    row
+      text pow
+      text (
+      text base
+      text exp
+      text mod=None
+      text )
+      link ¶ #pow
+    text Return base to the power exp; if mod is present, return base to the power exp, modulo mod (computed more efficiently than pow(base, exp) % mod). The two-argument form pow(base, exp) is equivalent to using the power operator: base**exp.
+    link int #int
+    text pow(10, 2)
+    text 100
+    text pow(10, -2)
+    text 0.01
+    text int
+    link float #float
+    text pow(-9, 0.5)
+    text 3j
+    text int
+    text float
+    text pow(-9, 2.0)
+    text 81.0
+    link int #int
+    text base
+    text exp
+    text mod
+    text mod
+    text mod
+    text mod
+    text exp
+    text base
+    text mod
+    text pow(inv_base, -exp, mod)
+    text inv_base
+    text base
+    text mod
+    text Here’s an example of computing an inverse for 38 modulo 97:
+    text >>> pow(38, -1, mod=97) 23 >>> 23 * 38 % 97 == 1 True
+    row
+      text Changed in version 3.8: danger
+      link int #int
+      text pow
+    text Changed in version 3.8: Allow keyword arguments. Formerly, only positional arguments were supported.
+    row
+      text print
+      text (
+      text *objects
+      text sep=' '
+      text end='\n'
+      text file=None
+      text flush=False
+      text )
+      link ¶ #print
+    text Print objects to the text stream file, separated by sep and followed by end. sep, end, file, and flush, if present, must be given as keyword arguments.
+    link str() stdtypes.html#str
+    text sep
+    text end
+    text sep
+    text end
+    text None
+    text objects
+    text print()
+    text end
+    text file
+    text write(string)
+    text None
+    link sys.stdout ../library/sys.html#sys.stdout
+    text print()
+    text file.write(...)
+    text Output buffering is usually determined by file. However, if flush is true, the stream is forcibly flushed.
+    text Changed in version 3.3: Added the flush keyword argument.
+    row
+      text class
+      text property
+      text (
+      text fget=None
+      text fset=None
+      text fdel=None
+      text doc=None
+      text )
+      link ¶ #property
+    text Return a property attribute.
+    text fget is a function for getting an attribute value. fset is a function for setting an attribute value. fdel is a function for deleting an attribute value. And doc creates a docstring for the attribute.
+    text A typical use is to define a managed attribute x:
+    text "class C: def __init__(self): self._x = None def getx(self): return self._x def setx(self, value): self._x = value def delx(self): del self._x x = property(getx, setx, delx, \"I'm the 'x' property.\")"
+    text If c is an instance of C, c.x will invoke the getter, c.x = value will invoke the setter, and del c.x the deleter.
+    text doc
+    text fget
+    link "@property" #property
+    link decorator ../glossary.html#term-decorator
+    text "class Parrot: def __init__(self): self._voltage = 100000 @property def voltage(self): \"\"\"Get the current voltage.\"\"\" return self._voltage"
+    text The @property decorator turns the voltage() method into a “getter” for a read-only attribute with the same name, and it sets the docstring for voltage to “Get the current voltage.”
+    row
+      text @
+      text getter
+      link ¶ #property.getter
+    row
+      text @
+      text setter
+      link ¶ #property.setter
+    row
+      text @
+      text deleter
+      link ¶ #property.deleter
+    text A property object has getter, setter, and deleter methods usable as decorators that create a copy of the property with the corresponding accessor function set to the decorated function. This is best explained with an example:
+    text "class C: def __init__(self): self._x = None @property def x(self): \"\"\"I'm the 'x' property.\"\"\" return self._x @x.setter def x(self, value): self._x = value @x.deleter def x(self): del self._x"
+    text This code is exactly equivalent to the first example. Be sure to give the additional functions the same name as the original property (x in this case.)
+    text The returned property object also has the attributes fget, fset, and fdel corresponding to the constructor arguments.
+    text Changed in version 3.5: The docstrings of property objects are now writeable.
+    row
+      text __name__
+      link ¶ #property.__name__
+    text Attribute holding the name of the property. The name of the property can be changed at runtime.
+    text Added in version 3.13.
+    row
+      text class
+      text range
+      text (
+      text stop
+      text /
+      text )
+    row
+      text class
+      text range
+      text (
+      text start
+      text stop
+      text step=1
+      text /
+      text )
+    link range stdtypes.html#range
+    link Ranges stdtypes.html#typesseq-range
+    link "Sequence Types — list, tuple, range" stdtypes.html#typesseq
+    row
+      text repr
+      text (
+      text object
+      text /
+      text )
+      link ¶ #repr
+    link eval() #eval
+    link __repr__() ../reference/datamodel.html#object.__repr__
+    link sys.displayhook() ../library/sys.html#sys.displayhook
+    link RuntimeError exceptions.html#RuntimeError
+    text This class has a custom representation that can be evaluated:
+    text "class Person: def __init__(self, name, age): self.name = name self.age = age def __repr__(self): return f\"Person({self.name!r}, {self.age!r})\""
+    row
+      text reversed
+      text (
+      text object
+      text /
+      text )
+      link ¶ #reversed
+    link iterator ../glossary.html#term-iterator
+    link __reversed__() ../reference/datamodel.html#object.__reversed__
+    link __len__() ../reference/datamodel.html#object.__len__
+    link __getitem__() ../reference/datamodel.html#object.__getitem__
+    text 0
+    row
+      text round
+      text (
+      text number
+      text ndigits=None
+      text )
+      link ¶ #round
+    text Return number rounded to ndigits precision after the decimal point. If ndigits is omitted or is None, it returns the nearest integer to its input.
+    text For the built-in types supporting round(), values are rounded to the closest multiple of 10 to the power minus ndigits; if two multiples are equally close, rounding is done toward the even choice (so, for example, both round(0.5) and round(-0.5) are 0, and round(1.5) is 2). Any integer value is valid for ndigits (positive, zero, or negative). The return value is an integer if ndigits is omitted or None. Otherwise, the return value has the same type as number.
+    text For a general Python object number, round delegates to number.__round__.
+    card
+      text Note
+      text round()
+      text round(2.675, 2)
+      text 2.67
+      text 2.68
+      link "Floating-Point Arithmetic: Issues and Limitations" ../tutorial/floatingpoint.html#tut-fp-issues
+    row
+      text class
+      text set
+      text (
+      text iterable=()
+      text /
+      text )
+    link set stdtypes.html#set
+    text iterable
+    text set
+    link "Set Types — set, frozenset" stdtypes.html#types-set
+    link frozenset stdtypes.html#frozenset
+    link list stdtypes.html#list
+    link tuple stdtypes.html#tuple
+    link dict stdtypes.html#dict
+    link collections ../library/collections.html#module-collections
+    row
+      text setattr
+      text (
+      text object
+      text name
+      text value
+      text /
+      text )
+      link ¶ #setattr
+    link getattr() #getattr
+    text setattr(x, 'foobar', 123)
+    text x.foobar = 123
+    text name
+    link "Names (identifiers and keywords)" ../reference/lexical_analysis.html#identifiers
+    link __getattribute__() ../reference/datamodel.html#object.__getattribute__
+    link __slots__ ../reference/datamodel.html#object.__slots__
+    link getattr() #getattr
+    card
+      text Note
+      link "private name mangling" ../reference/expressions.html#private-name-mangling
+      text setattr()
+    row
+      text class
+      text sentinel
+      text (
+      text name
+      text /
+      text *
+      text repr=None
+      text )
+      link ¶ #sentinel
+    row
+      text name
+      link str stdtypes.html#str
+    text ">>> MISSING = sentinel(\"MISSING\") >>> MISSING MISSING"
+    text The optional repr argument can be used to specify a different representation:
+    text ">>> MISSING = sentinel(\"MISSING\", repr=\"<MISSING>\") >>> MISSING <MISSING>"
+    link is ../reference/expressions.html#is
+    text sentinel does not support subclassing.
+    text Shallow and deep copies of a sentinel object return the object itself.
+    link "type hints" ../glossary.html#term-type-hint
+    text "MISSING = sentinel(\"MISSING\") def next_value(default: int | MISSING = MISSING): ..."
+    link | ../reference/expressions.html#bitwise
+    link Pickling ../library/pickle.html#module-pickle
+    link "qualified name" ../glossary.html#term-qualified-name
+    text "import pickle PICKLABLE = sentinel(\"PICKLABLE\") assert pickle.loads(pickle.dumps(PICKLABLE)) is PICKLABLE class Cls: PICKLABLE = sentinel(\"Cls.PICKLABLE\") assert pickle.loads(pickle.dumps(Cls.PICKLABLE)) is Cls.PICKLABLE"
+    text Sentinel objects have the following attributes:
+    row
+      text __name__
+      link ¶ #sentinel.__name__
+    text The sentinel’s name.
+    row
+      text __module__
+      link ¶ #sentinel.__module__
+    text The name of the module where the sentinel was created. This attribute is writable.
+    text Added in version 3.15.
+    row
+      text class
+      text slice
+      text (
+      text stop
+      text /
+      text )
+      link ¶ #slice
+    row
+      text class
+      text slice
+      text (
+      text start
+      text stop
+      text step=None
+      text /
+      text )
+    link slice ../glossary.html#term-slice
+    text range(start, stop, step)
+    text start
+    text step
+    text None
+    link "slicing syntax" ../reference/expressions.html#slicings
+    text a[start:stop:step]
+    text a[start:stop, i]
+    row
+      link itertools.islice() ../library/itertools.html#itertools.islice
+      link iterator ../glossary.html#term-iterator
+    row
+      text start
+      link ¶ #slice.start
+    row
+      text stop
+      link ¶ #slice.stop
+    row
+      text step
+      link ¶ #slice.step
+    text These read-only attributes are set to the argument values (or their default). They have no other explicit functionality; however, they are used by NumPy and other third-party packages.
+    row
+      text Changed in version 3.12: danger
+      link hashable ../glossary.html#term-hashable
+      link start #slice.start
+      link stop #slice.stop
+      link step #slice.step
+    row
+      text sorted
+      text (
+      text iterable
+      text /
+      text *
+      text key=None
+      text reverse=False
+      text )
+      link ¶ #sorted
+    text Return a new sorted list from the items in iterable.
+    text Has two optional arguments which must be specified as keyword arguments.
+    text key specifies a function of one argument that is used to extract a comparison key from each element in iterable (for example, key=str.lower). The default value is None (compare the elements directly).
+    text reverse is a boolean value. If set to True, then the list elements are sorted as if each comparison were reversed.
+    row
+      link functools.cmp_to_key() ../library/functools.html#functools.cmp_to_key
+      text cmp
+      text key
+    text The built-in sorted() function is guaranteed to be stable. A sort is stable if it guarantees not to change the relative order of elements that compare equal — this is helpful for sorting in multiple passes (for example, sort by department, then by salary grade).
+    text <
+    link __lt__() ../reference/datamodel.html#object.__lt__
+    link "PEP 8" https://peps.python.org/pep-0008/
+    link "rich comparisons" ../reference/expressions.html#comparisons
+    link max() #max
+    link __gt__() ../reference/datamodel.html#object.__gt__
+    link "Sorting Techniques" ../howto/sorting.html#sortinghowto
+    row
+      text @
+      text staticmethod
+      link ¶ #staticmethod
+    text Transform a method into a static method.
+    text A static method does not receive an implicit first argument. To declare a static method, use this idiom:
+    text class C: @staticmethod def f(arg1, arg2, argN): ...
+    row
+      text @staticmethod
+      link decorator ../glossary.html#term-decorator
+      link "Function definitions" ../reference/compound_stmts.html#function
+    text C.f()
+    text C().f()
+    link descriptor ../glossary.html#term-descriptor
+    text f()
+    link "@classmethod" #classmethod
+    text Like all decorators, it is also possible to call staticmethod as a regular function and do something with its result. This is needed in some cases where you need a reference to a function from a class body and you want to avoid the automatic transformation to instance method. For these cases, use this idiom:
+    text def regular_function(): ... class C: method = staticmethod(regular_function)
+    link "The standard type hierarchy" ../reference/datamodel.html#types
+    text Changed in version 3.10: danger
+    link __module__ ../reference/datamodel.html#function.__module__
+    link __name__ ../reference/datamodel.html#function.__name__
+    link __qualname__ ../reference/datamodel.html#function.__qualname__
+    link __doc__ ../reference/datamodel.html#function.__doc__
+    link __annotations__ ../reference/datamodel.html#function.__annotations__
+    text __wrapped__
+    row
+      text class
+      text str
+      text (
+      text *
+      text encoding='utf-8'
+      text errors='strict'
+      text )
+    text class str(object)
+    text class str(object, encoding, errors='strict')
+    row
+      text class
+      text str
+      text (
+      text object
+      text *
+      text errors
+      text )
+    row
+      link str stdtypes.html#str
+      text object
+      link str() stdtypes.html#str
+    row
+      text str
+      link class ../glossary.html#term-class
+      link "Text Sequence Type — str" stdtypes.html#textseq
+    row
+      text sum
+      text (
+      text iterable
+      text /
+      text start=0
+      text )
+      link ¶ #sum
+    text Sums start and the items of an iterable from left to right and returns the total. The iterable’s items are normally numbers, and the start value is not allowed to be a string.
+    text sum()
+    text ''.join(sequence)
+    link math.fsum() ../library/math.html#math.fsum
+    link itertools.chain() ../library/itertools.html#itertools.chain
+    text Changed in version 3.8: The start parameter can be specified as a keyword argument.
+    text Changed in version 3.12: Summation of floats switched to an algorithm that gives higher accuracy and better commutativity on most builds.
+    text Changed in version 3.14: Added specialization for summation of complexes, using same algorithm as for summation of floats.
+    row
+      text class
+      text super
+      link ¶ #super
+    row
+      text class
+      text super
+      text (
+      text type
+      text object_or_type=None
+      text /
+      text )
+    text Return a proxy object that delegates method calls to a parent or sibling class of type. This is useful for accessing inherited methods that have been overridden in a class.
+    text object_or_type
+    link "method resolution order" ../glossary.html#term-method-resolution-order
+    text type
+    link __mro__ ../reference/datamodel.html#type.__mro__
+    text object_or_type
+    text D -> B -> C -> A -> object
+    text type
+    text B
+    link super() #super
+    text C -> A -> object
+    link __mro__ ../reference/datamodel.html#type.__mro__
+    text object_or_type
+    link getattr() #getattr
+    link super() #super
+    text If the second argument is omitted, the super object returned is unbound. If the second argument is an object, isinstance(obj, type) must be true. If the second argument is a type, issubclass(type2, type) must be true (this is useful for classmethods).
+    text When called directly within an ordinary method of a class, both arguments may be omitted (“zero-argument super()”). In this case, type will be the enclosing class, and obj will be the first argument of the immediately enclosing function (typically self). (This means that zero-argument super() will not work as expected within nested functions, including generator expressions, which implicitly create nested functions.)
+    text There are two typical use cases for super. In a class hierarchy with single inheritance, super can be used to refer to parent classes without naming them explicitly, thus making the code more maintainable. This use closely parallels the use of super in other programming languages.
+    text The second use case is to support cooperative multiple inheritance in a dynamic execution environment. This use case is unique to Python and is not found in statically compiled languages or languages that only support single inheritance. This makes it possible to implement “diamond diagrams” where multiple base classes implement the same method. Good design dictates that such implementations have the same calling signature in every case (because the order of calls is determined at runtime, because that order adapts to changes in the class hierarchy, and because that order can include sibling classes that are unknown prior to runtime).
+    text For both use cases, a typical superclass call looks like this:
+    text class C(B): def method(self, arg): super().method(arg) # This does the same thing as: # super(C, self).method(arg)
+    link super() #super
+    link descriptors ../glossary.html#term-descriptor
+    link super() #super
+    text super().__getitem__(name)
+    link __getattribute__() ../reference/datamodel.html#object.__getattribute__
+    text super()
+    text super()[name]
+    link super() #super
+    link super() #super
+    link "guide to using super()" https://rhettinger.wordpress.com/2011/05/26/super-considered-super/
+    row
+      text Changed in version 3.14: danger
+      text super
+      link pickleable ../library/pickle.html#module-pickle
+      link copyable ../library/copy.html#module-copy
+    row
+      text class
+      text tuple
+      text (
+      text iterable=()
+      text /
+      text )
+    link tuple stdtypes.html#tuple
+    link Tuples stdtypes.html#typesseq-tuple
+    link "Sequence Types — list, tuple, range" stdtypes.html#typesseq
+    row
+      text class
+      text type
+      text (
+      text object
+      text /
+      text )
+      link ¶ #type
+    row
+      text class
+      text type
+      text (
+      text name
+      text bases
+      text dict
+      text /
+      text **kwargs
+      text )
+    text object
+    link object.__class__ ../reference/datamodel.html#object.__class__
+    link isinstance() #isinstance
+    link class ../reference/compound_stmts.html#class
+    text name
+    link __name__ ../reference/datamodel.html#type.__name__
+    text bases
+    link __bases__ ../reference/datamodel.html#type.__bases__
+    link object #object
+    text dict
+    link __dict__ ../reference/datamodel.html#type.__dict__
+    text type
+    text >>> class X: ... a = 1 ... >>> X = type('X', (), dict(a=1))
+    text See also:
+    link "Documentation on attributes and methods on classes" ../reference/datamodel.html#class-attrs-and-methods
+    link "Type Objects" stdtypes.html#bltin-type-objects
+    link __init_subclass__() ../reference/datamodel.html#object.__init_subclass__
+    text metaclass
+    link class ../reference/compound_stmts.html#class
+    text __prepare__
+    link "Preparing the class namespace" ../reference/datamodel.html#prepare
+    link types.new_class() ../library/types.html#types.new_class
+    link "Customizing class creation" ../reference/datamodel.html#class-customization
+    text Changed in version 3.6: Subclasses of type which don’t override type.__new__ may no longer use the one-argument form to get the type of an object.
+    row
+      text Changed in version 3.15: danger
+      text dict
+      link frozendict stdtypes.html#frozendict
+    row
+      text vars
+      text (
+      text )
+      link ¶ #vars
+    row
+      text vars
+      text (
+      text object
+      text /
+      text )
+    row
+      link __dict__ ../reference/datamodel.html#object.__dict__
+      text __dict__
+    link __dict__ ../reference/datamodel.html#object.__dict__
+    text __dict__
+    link types.MappingProxyType ../library/types.html#types.MappingProxyType
+    row
+      text vars()
+      link locals() #locals
+    link TypeError exceptions.html#TypeError
+    link __dict__ ../reference/datamodel.html#object.__dict__
+    link __slots__ ../reference/datamodel.html#object.__slots__
+    text Changed in version 3.13: danger
+    link locals() #locals
+    row
+      text zip
+      text (
+      text *iterables
+      text strict=False
+      text )
+      link ¶ #zip
+    text Iterate over several iterables in parallel, producing tuples with an item from each one.
+    text Example:
+    text >>> for item in zip([1, 2, 3], ['sugar', 'spice', 'everything nice']): ... print(item) ... (1, 'sugar') (2, 'spice') (3, 'everything nice')
+    text More formally: zip() returns an iterator of tuples, where the i-th tuple contains the i-th element from each of the argument iterables.
+    text zip()
+    link "transposing a matrix" https://en.wikipedia.org/wiki/Transpose
+    text zip()
+    text for
+    link list stdtypes.html#list
+    text One thing to consider is that the iterables passed to zip() could have different lengths; sometimes by design, and sometimes because of a bug in the code that prepared these iterables. Python offers three different approaches to dealing with this issue:
+    row
+      text zip()
+      link exhausted ../glossary.html#term-exhausted
+    text >>> list(zip(range(3), ['fee', 'fi', 'fo', 'fum'])) [(0, 'fee'), (1, 'fi'), (2, 'fo')]
+    text zip() is often used in cases where the iterables are assumed to be of equal length. In such cases, it’s recommended to use the strict=True option. Its output is the same as regular zip():
+    text >>> list(zip(('a', 'b', 'c'), (1, 2, 3), strict=True)) [('a', 1), ('b', 2), ('c', 3)]
+    row
+      link ValueError exceptions.html#ValueError
+      link exhausted ../glossary.html#term-exhausted
+    text >>> for item in zip(range(3), ['fee', 'fi', 'fo', 'fum'], strict=True): ... print(item) ... (0, 'fee') (1, 'fi') (2, 'fo') Traceback (most recent call last): ... ValueError: zip() argument 2 is longer than argument 1
+    text Without the strict=True argument, any bug that results in iterables of different lengths will be silenced, possibly manifesting as a hard-to-find bug in another part of the program.
+    link itertools.zip_longest() ../library/itertools.html#itertools.zip_longest
+    text Edge cases: With a single iterable argument, zip() returns an iterator of 1-tuples. With no arguments, it returns an empty iterator.
+    text Tips and tricks:
+    text The left-to-right evaluation order of the iterables is guaranteed. This makes possible an idiom for clustering a data series into n-length groups using zip(*[iter(s)]*n, strict=True). This repeats the same iterator n times so that each output tuple has the result of n calls to the iterator. This has the effect of dividing the input into n-length chunks.
+    text zip() in conjunction with the * operator can be used to unzip a list:
+    text >>> x = [1, 2, 3] >>> y = [4, 5, 6] >>> list(zip(x, y)) [(1, 4), (2, 5), (3, 6)] >>> x2, y2 = zip(*zip(x, y)) >>> x == list(x2) and y == list(y2) True
+    text Changed in version 3.10: Added the strict argument.
+    row
+      text __import__
+      text (
+      text name
+      text globals=None
+      text locals=None
+      text fromlist=()
+      text level=0
+      text )
+      link ¶ #import__
+    card
+      text Note
+      link importlib.import_module() ../library/importlib.html#importlib.import_module
+    link import ../reference/simple_stmts.html#import
+    link builtins ../library/builtins.html#module-builtins
+    text builtins.__import__
+    text import
+    text strongly
+    link "PEP 302" https://peps.python.org/pep-0302/
+    text __import__()
+    link importlib.import_module() ../library/importlib.html#importlib.import_module
+    text name
+    text globals
+    text locals
+    text fromlist
+    text name
+    text locals
+    text globals
+    link import ../reference/simple_stmts.html#import
+    text level
+    text 0
+    text level
+    text __import__()
+    link "PEP 328" https://peps.python.org/pep-0328/
+    text When the name variable is of the form package.module, normally, the top-level package (the name up till the first dot) is returned, not the module named by name. However, when a non-empty fromlist argument is given, the module named by name is returned.
+    text For example, the statement import spam results in bytecode resembling the following code:
+    text spam = __import__('spam', globals(), locals(), [], 0)
+    text The statement import spam.ham results in this call:
+    text spam = __import__('spam.ham', globals(), locals(), [], 0)
+    text __import__()
+    link import ../reference/simple_stmts.html#import
+    text On the other hand, the statement from spam.ham import eggs, sausage as saus results in
+    text _temp = __import__('spam.ham', globals(), locals(), ['eggs', 'sausage'], 0) eggs = _temp.eggs saus = _temp.sausage
+    text Here, the spam.ham module is returned from __import__(). From this object, the names to import are retrieved and assigned to their respective names.
+    link importlib.import_module() ../library/importlib.html#importlib.import_module
+    text Changed in version 3.3: Negative values for level are no longer supported (which also changes the default value to 0).
+    text Changed in version 3.9: danger
+    link "-E" ../using/cmdline.html#cmdoption-E
+    link "-I" ../using/cmdline.html#cmdoption-I
+    link PYTHONCASEOK ../using/cmdline.html#envvar-PYTHONCASEOK
+    text Footnotes
+    row
+      row
+        text [
+        text ]
+      text Note that the parser only accepts the Unix-style end of line convention. If you are reading the code from a file, make sure to use newline conversion mode to convert Windows or Mac-style newlines.
+  row
+    col
+      h3 Previous topic
+      link "Built-in Constants" constants.html
+      h3 Next topic
+      link "Built-in Exceptions" exceptions.html
+      h3 This page
+      link "Report a bug" ../bugs.html
+      link "Improve this page" https://docs.python.org/3/improve-page.html?pagetitle=Built-in+functions&pageurl=https%3A%2F%2Fdocs.python.org%2F3%2Fbuiltins%2Ffunctions.html&pagesource=builtins%2Ffunctions.rst
+      link "Show source" https://github.com/python/cpython/blob/3.15/Doc/builtins/functions.rst?plain=1
+    text «
+link index ../genindex.html
+link modules ../py-modindex.html
+link next exceptions.html
+link previous constants.html
+image https://docs.python.org/3/_static/py.svg "Python logo"
+link Python https://www.python.org/
+row
+  select Language "German | Deutsch" "Greek | Ελληνικά" *English "Spanish | español" "Persian | فارسی" "French | français" "Italian | italiano" "Japanese | 日本語" "Korean | 한국어" "Polish | polski" "Brazilian Portuguese | Português brasileiro" "Romanian | Românește" "Russian | Русский" "Turkish | Türkçe" "Simplified Chinese | 简体中文" "Traditional Chinese | 繁體中文"
+  select "Python version" "dev (3.16)" *3.15.0 3.14 3.13 3.12 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0 2.7 2.6
+link "3.15.0 Documentation" ../index.html
+link "Python built-ins reference" index.html
+link "Built-in functions" #
+row
+  field "Quick search" search
+  button button
+select Theme *Auto Light Dark
+link Copyright ../copyright.html
+link "History and License" /license.html
+link "Please donate." https://www.python.org/psf/donations/
+link "Found a bug" /bugs.html
+link Sphinx https://www.sphinx-doc.org/

@@ -1,0 +1,662 @@
+@doc_rust_lang_org_std
+row
+  link "Skip to main content" #main-content
+  col
+    row
+      link ../std/index.html ../std/index.html
+      h2 std1.99.1
+    text (58cf8f9c3 2026-10-13)
+    link "All Items" all.html
+    h3 Sections
+    link "The Rust Standard Library" #the-rust-standard-library
+    link "How to read this documentation" #how-to-read-this-documentation
+    link "What is in the standard library documentation?" #what-is-in-the-standard-library-documentation
+    link "Contributing changes to the documentation" #contributing-changes-to-the-documentation
+    link "A Tour of The Rust Standard Library" #a-tour-of-the-rust-standard-library
+    link "Containers and collections" #containers-and-collections
+    link "Platform abstractions and I/O" #platform-abstractions-and-io
+    link "Use before and after main()" #use-before-and-after-main
+    h3 Crate Items
+    link "Primitive Types" #primitives
+    link Modules #modules
+    link Macros #macros
+    link Keywords #keywords
+    link Attributes #attribute-docs
+    link "Attribute Macros" #attributes
+    h3 Crates
+    link alloc ../alloc/index.html
+    link core ../core/index.html
+    link proc_macro ../proc_macro/index.html
+    link std ../std/index.html
+    link std_detect ../std_detect/index.html
+    link test ../test/index.html
+  col
+    row
+      h1 Crate std Copy item path
+      row
+        text 1.0.0
+        link Source ../src/std/lib.rs.html#1-815
+      row
+        link Search https://doc.rust-lang.org/std/?search=
+        link Settings ../settings.html
+        link Help ../help.html
+        button Summary
+    row
+      text Expand description
+      col
+        h2 §The Rust Standard Library
+        link "broader Rust ecosystem" https://crates.io
+        link Vec<T> vec/struct.Vec.html
+        link Option<T> option/enum.Option.html
+        link "operations on language primitives" #primitives
+        link "standard macros" #macros
+        link I/O io/index.html
+        link multithreading thread/index.html
+        link "many other things" #what-is-in-the-standard-library-documentation
+        text std
+        link use ../book/ch07-02-defining-modules-to-control-scope-and-privacy.html
+        text std
+        link "use std::env" env/index.html
+        h2 §How to read this documentation
+        link "search button" #
+        text Otherwise, you may want to jump to one of these useful sections:
+        link "std::* modules" #modules
+        link "Primitive types" #primitives
+        link "Standard macros" #macros
+        link "The Rust Prelude" prelude/index.html
+        text If this is your first time, the documentation for the standard library is written to be casually perused. Clicking on interesting things should generally lead you to interesting places. Still, there are important bits you don’t want to miss, so read on for a tour of the standard library and its documentation!
+        region 12x12
+          path "M2,2l4,4l4,-4M2,6l4,4l4,-4" fill:none stroke:#000000
+        text While you are looking at the top of the page, also notice the “Source” link. Rust’s API documentation comes with the source code and you are encouraged to read it. The standard library source is generally high quality and a peek behind the curtains is often enlightening.
+        h2 §What is in the standard library documentation?
+        link "all listed further down this page" #modules
+        link "std::slice" slice/index.html
+        link "std::cmp" cmp/index.html
+        link "primitive types" ../book/ch03-02-data-types.html
+        link "documented in the section on primitives" #primitives
+        text The standard library exports many modules with the same name as primitive types. These define additional items related to the primitive type, but not the all-important methods.
+        link "page for the primitive type char" primitive.char.html
+        link "page for the module std::char" char/index.html
+        link str primitive.str.html
+        link [T] primitive.slice.html
+        link String string/struct.String.html
+        link Vec<T> vec/struct.Vec.html
+        link str primitive.str.html
+        link [T] primitive.slice.html
+        link "deref coercions" ../book/ch15-02-deref.html#implicit-deref-coercions-with-functions-and-methods
+        link "The Rust Prelude" prelude/index.html
+        link "lists them on this page" #macros
+        h2 §Contributing changes to the documentation
+        row
+          link here https://rustc-dev-guide.rust-lang.org/contributing.html#writing-documentation
+          link GitHub https://github.com/rust-lang/rust
+        link Zulip https://rust-lang.zulipchat.com/#narrow/channel/219381-t-libs/
+        h2 §A Tour of The Rust Standard Library
+        text The rest of this crate documentation is dedicated to pointing out notable features of The Rust Standard Library.
+        h3 §Containers and collections
+        link option option/index.html
+        link result result/index.html
+        link Option<T> option/enum.Option.html
+        link "Result<T, E>" result/enum.Result.html
+        link iter iter/index.html
+        link Iterator iter/trait.Iterator.html
+        link for ../book/ch03-05-control-flow.html#looping-through-a-collection-with-for
+        text The standard library exposes three common ways to deal with contiguous regions of memory:
+        row
+          link Vec<T> vec/struct.Vec.html
+          text vector
+        row
+          link "[T; N]" primitive.array.html
+          text array
+        row
+          link [T] primitive.slice.html
+          text slice
+        text Slices can only be handled through some kind of pointer, and as such come in many flavors such as:
+        text &[T] - shared slice
+        text &mut [T] - mutable slice
+        row
+          link Box<[T]> boxed/index.html
+          text owned slice
+        link str primitive.str.html
+        link str primitive.str.html
+        text &str
+        link String string/struct.String.html
+        row
+          link format! macro.format.html
+          link FromStr str/trait.FromStr.html
+        link Rc rc/struct.Rc.html
+        link Cell cell/struct.Cell.html
+        link RefCell cell/struct.RefCell.html
+        link Arc sync/struct.Arc.html
+        link Mutex sync/struct.Mutex.html
+        link collections collections/index.html
+        link "HashMap<K, V>" collections/struct.HashMap.html
+        h3 §Platform abstractions and I/O
+        text Besides basic data types, the standard library is largely concerned with abstracting over differences in common platforms, most notably Windows and Unix derivatives.
+        row
+          link files fs/struct.File.html
+          link TCP net/struct.TcpStream.html
+          link UDP net/struct.UdpSocket.html
+          link io io/index.html
+          link fs fs/index.html
+          link net net/index.html
+        link thread thread/index.html
+        link sync sync/index.html
+        link atomic sync/atomic/index.html
+        link mpmc sync/mpmc/index.html
+        link mpsc sync/mpsc/index.html
+        h2 §Use before and after main()
+        text Many parts of the standard library are expected to work before and after main(); but this is not guaranteed or ensured by tests. It is recommended that you write your own tests and run them on each platform you wish to support. This means that use of std before/after main, especially of features that interact with the OS or global state, is exempted from stability and portability guarantees and instead only provided on a best-effort basis. Nevertheless bug reports are appreciated.
+        text On the other hand core and alloc are most likely to work in such environments with the caveat that any hookable behavior such as panics, oom handling or allocators will also depend on the compatibility of the hooks.
+        text Some features may also behave differently outside main, e.g. stdio could become unbuffered, some panics might turn into aborts, backtraces might not get symbolicated or similar.
+        text Non-exhaustive list of known limitations:
+        link "thread::current()" thread/fn.current.html
+        text under UNIX, before main, file descriptors 0, 1, and 2 may be unchanged (they are guaranteed to be open during main, and are opened to /dev/null O_RDWR if they weren’t open on program start)
+    h2 Primitive Types§
+    row
+      link array primitive.array.html
+      text A fixed-size array, denoted [T; N], for the element type, T, and the non-negative compile-time constant size, N.
+      link bool primitive.bool.html
+      text The boolean type.
+      link char primitive.char.html
+      text A character type.
+      link f32 primitive.f32.html
+      text A 32-bit floating-point type (specifically, the “binary32” type defined in IEEE 754-2008).
+      link f64 primitive.f64.html
+      text A 64-bit floating-point type (specifically, the “binary64” type defined in IEEE 754-2008).
+      link fn primitive.fn.html
+      text Function pointers, like fn(usize) -> bool.
+      link i8 primitive.i8.html
+      text The 8-bit signed integer type.
+      link i16 primitive.i16.html
+      text The 16-bit signed integer type.
+      link i32 primitive.i32.html
+      text The 32-bit signed integer type.
+      link i64 primitive.i64.html
+      text The 64-bit signed integer type.
+      link i128 primitive.i128.html
+      text The 128-bit signed integer type.
+      link isize primitive.isize.html
+      text The pointer-sized signed integer type.
+      link pointer primitive.pointer.html
+      text Raw, unsafe pointers, *const T, and *mut T.
+      link reference primitive.reference.html
+      text References, &T and &mut T.
+      link slice primitive.slice.html
+      text A dynamically-sized view into a contiguous sequence, [T].
+      link str primitive.str.html
+      text String slices.
+      link tuple primitive.tuple.html
+      text A finite heterogeneous sequence, (T, U, ..).
+      link u8 primitive.u8.html
+      text The 8-bit unsigned integer type.
+      link u16 primitive.u16.html
+      text The 16-bit unsigned integer type.
+      link u32 primitive.u32.html
+      text The 32-bit unsigned integer type.
+      link u64 primitive.u64.html
+      text The 64-bit unsigned integer type.
+      link u128 primitive.u128.html
+      text The 128-bit unsigned integer type.
+      link unit primitive.unit.html
+      text The () type, also called “unit”.
+      link usize primitive.usize.html
+      text The pointer-sized unsigned integer type.
+      row
+        link f16 primitive.f16.html
+        text Experimental
+      text A 16-bit floating-point type (specifically, the “binary16” type defined in IEEE 754-2008).
+      row
+        link f128 primitive.f128.html
+        text Experimental
+      text A 128-bit floating-point type (specifically, the “binary128” type defined in IEEE 754-2008).
+      row
+        link never primitive.never.html
+        text Experimental
+      text The ! type, also called “never”.
+    h2 Modules§
+    row
+      link alloc alloc/index.html
+      text Memory allocation APIs.
+      link any any/index.html
+      text Utilities for dynamic typing or type reflection.
+      link arch arch/index.html
+      text SIMD and vendor intrinsics module.
+      link array array/index.html
+      text Utilities for the array primitive type.
+      link ascii ascii/index.html
+      text Operations on ASCII strings and characters.
+      link backtrace backtrace/index.html
+      text Support for capturing a stack backtrace of an OS thread
+      link borrow borrow/index.html
+      text A module for working with borrowed data.
+      link boxed boxed/index.html
+      text The Box<T> type for heap allocation.
+      link cell cell/index.html
+      text Shareable mutable containers.
+      link char char/index.html
+      text Utilities for the char primitive type.
+      link clone clone/index.html
+      text The Clone trait for types that cannot be ‘implicitly copied’.
+      link cmp cmp/index.html
+      text Utilities for comparing and ordering values.
+      link collections collections/index.html
+      text Collection types.
+      link convert convert/index.html
+      text Traits for conversions between types.
+      link default default/index.html
+      text The Default trait for types with a default value.
+      link env env/index.html
+      text Inspection and manipulation of the process’s environment.
+      link error error/index.html
+      text Interfaces for working with Errors.
+      link f32 f32/index.html
+      text Constants for the f32 single-precision floating point type.
+      link f64 f64/index.html
+      text Constants for the f64 double-precision floating point type.
+      link ffi ffi/index.html
+      text Utilities related to FFI bindings.
+      link fmt fmt/index.html
+      text Utilities for formatting and printing Strings.
+      link fs fs/index.html
+      text Filesystem manipulation operations.
+      link future future/index.html
+      text Asynchronous basic functionality.
+      link hash hash/index.html
+      text Generic hashing support.
+      link hint hint/index.html
+      text Hints to compiler that affects how code should be emitted or optimized.
+      row
+        link i8 i8/index.html
+        text Deprecated
+      link "i8 primitive type" primitive.i8.html
+      row
+        link i16 i16/index.html
+        text Deprecated
+      link "i16 primitive type" primitive.i16.html
+      row
+        link i32 i32/index.html
+        text Deprecated
+      link "i32 primitive type" primitive.i32.html
+      row
+        link i64 i64/index.html
+        text Deprecated
+      link "i64 primitive type" primitive.i64.html
+      row
+        link i128 i128/index.html
+        text Deprecated
+      link "i128 primitive type" primitive.i128.html
+      link io io/index.html
+      text Traits, helpers, and type definitions for core I/O functionality.
+      row
+        link isize isize/index.html
+        text Deprecated
+      link "isize primitive type" primitive.isize.html
+      link iter iter/index.html
+      text Composable external iteration.
+      link marker marker/index.html
+      text Primitive traits and types representing basic properties of types.
+      link mem mem/index.html
+      text Basic functions for dealing with memory, values, and types.
+      link net net/index.html
+      text Networking primitives for TCP/UDP communication.
+      link num num/index.html
+      text Additional functionality for numerics.
+      link ops ops/index.html
+      text Overloadable operators.
+      link option option/index.html
+      text Optional values.
+      link os os/index.html
+      text OS-specific functionality.
+      link panic panic/index.html
+      text Panic support in the standard library.
+      link path path/index.html
+      text Cross-platform path manipulation.
+      link pin pin/index.html
+      text Types that pin data to a location in memory.
+      link prelude prelude/index.html
+      text The Rust Prelude
+      link primitive primitive/index.html
+      text This module reexports the primitive types to allow usage that is not possibly shadowed by other declared types.
+      link process process/index.html
+      text A module for working with processes.
+      link ptr ptr/index.html
+      text Manually manage memory through raw pointers.
+      link range range/index.html
+      text Replacement range types
+      link rc rc/index.html
+      text Single-threaded reference-counting pointers. ‘Rc’ stands for ‘Reference Counted’.
+      link result result/index.html
+      text Error handling with the Result type.
+      link slice slice/index.html
+      text Utilities for the slice primitive type.
+      link str str/index.html
+      text Utilities for the str primitive type.
+      link string string/index.html
+      text A UTF-8–encoded, growable string.
+      link sync sync/index.html
+      text Useful synchronization primitives.
+      link task task/index.html
+      text Types and Traits for working with asynchronous tasks.
+      link thread thread/index.html
+      text Native threads.
+      link time time/index.html
+      text Temporal quantification.
+      row
+        link u8 u8/index.html
+        text Deprecated
+      link "u8 primitive type" primitive.u8.html
+      row
+        link u16 u16/index.html
+        text Deprecated
+      link "u16 primitive type" primitive.u16.html
+      row
+        link u32 u32/index.html
+        text Deprecated
+      link "u32 primitive type" primitive.u32.html
+      row
+        link u64 u64/index.html
+        text Deprecated
+      link "u64 primitive type" primitive.u64.html
+      row
+        link u128 u128/index.html
+        text Deprecated
+      link "u128 primitive type" primitive.u128.html
+      row
+        link usize usize/index.html
+        text Deprecated
+      link "usize primitive type" primitive.usize.html
+      link vec vec/index.html
+      text A contiguous growable array type with heap-allocated contents, written Vec<T>.
+      row
+        link async_iter async_iter/index.html
+        text Experimental
+      text Composable asynchronous iteration.
+      row
+        link autodiff autodiff/index.html
+        text Experimental
+      text This module provides support for automatic differentiation. For precise information on differences between the autodiff_forward and autodiff_reverse macros and how to use them, see their respective documentation.
+      row
+        link bstr bstr/index.html
+        text Experimental
+      text The ByteStr and ByteString types and trait implementations.
+      row
+        link f16 f16/index.html
+        text Experimental
+      text Constants for the f16 half-precision floating point type.
+      row
+        link f128 f128/index.html
+        text Experimental
+      text Constants for the f128 quadruple-precision floating point type.
+      row
+        link field field/index.html
+        text Experimental
+      text Field Reflection
+      row
+        link from from/index.html
+        text Experimental
+      text Unstable module containing the unstable From derive macro.
+      row
+        link intrinsics intrinsics/index.html
+        text Experimental
+      text Compiler intrinsics.
+      row
+        link offload offload/index.html
+        text Experimental
+      text This module provides support for gpu offloading. For technical details regarding the offload_kernel and offload! macros, see their respective documentation.
+      row
+        link pat pat/index.html
+        text Experimental
+      text Helper module for exporting the pattern_type macro
+      row
+        link random random/index.html
+        text Experimental
+      text Random value generation.
+      row
+        link simd simd/index.html
+        text Experimental
+      text Portable SIMD module.
+      row
+        link unsafe_binder unsafe_binder/index.html
+        text Experimental
+      text Operators used to turn types into unsafe binders and back.
+      row
+        link view view/index.html
+        text Experimental
+      text Helper module for exporting the view_types macro.
+    h2 Macros§
+    row
+      link assert macro.assert.html
+      text Asserts that a boolean expression is true at runtime.
+      link assert_eq macro.assert_eq.html
+      link PartialEq cmp/trait.PartialEq.html
+      link assert_matches macro.assert_matches.html
+      text Asserts that an expression matches the provided pattern.
+      link assert_ne macro.assert_ne.html
+      link PartialEq cmp/trait.PartialEq.html
+      link cfg macro.cfg.html
+      text Evaluates boolean combinations of configuration flags at compile-time.
+      link cfg_select macro.cfg_select.html
+      text Selects code at compile-time based on cfg predicates.
+      link column macro.column.html
+      text Expands to the column number at which it was invoked.
+      link compile_error macro.compile_error.html
+      text Causes compilation to fail with the given error message when encountered.
+      link concat macro.concat.html
+      text Concatenates literals into a static string slice.
+      link dbg macro.dbg.html
+      text Prints and returns the value of a given expression for quick and dirty debugging.
+      link debug_assert macro.debug_assert.html
+      text Asserts that a boolean expression is true at runtime.
+      link debug_assert_eq macro.debug_assert_eq.html
+      text Asserts that two expressions are equal to each other.
+      link debug_assert_matches macro.debug_assert_matches.html
+      text Asserts that an expression matches the provided pattern.
+      link debug_assert_ne macro.debug_assert_ne.html
+      text Asserts that two expressions are not equal to each other.
+      link env macro.env.html
+      text Inspects an environment variable at compile time.
+      link eprint macro.eprint.html
+      text Prints to the standard error.
+      link eprintln macro.eprintln.html
+      text Prints to the standard error, with a newline.
+      link file macro.file.html
+      text Expands to the file name in which it was invoked.
+      link format macro.format.html
+      text Creates a String using interpolation of runtime expressions.
+      link format_args macro.format_args.html
+      text Constructs parameters for the other string-formatting macros.
+      link include macro.include.html
+      text Parses a file as an expression or an item according to the context.
+      link include_bytes macro.include_bytes.html
+      text Includes a file as a reference to a byte array.
+      link include_str macro.include_str.html
+      text Includes a UTF-8 encoded file as a string.
+      link is_x86_feature_detected macro.is_x86_feature_detected.html
+      text Check for the presence of a CPU feature at runtime.
+      link line macro.line.html
+      text Expands to the line number on which it was invoked.
+      link matches macro.matches.html
+      text Returns whether the given expression matches the provided pattern.
+      link module_path macro.module_path.html
+      text Expands to a string that represents the current module path.
+      link option_env macro.option_env.html
+      text Optionally inspects an environment variable at compile time.
+      link panic macro.panic.html
+      text Panics the current thread.
+      link print macro.print.html
+      text Prints to the standard output.
+      link println macro.println.html
+      text Prints to the standard output, with a newline.
+      link stringify macro.stringify.html
+      text Stringifies its arguments.
+      link thread_local macro.thread_local.html
+      link "std::thread::LocalKey" thread/struct.LocalKey.html
+      link todo macro.todo.html
+      text Indicates unfinished code.
+      row
+        link try macro.try.html
+        text Deprecated
+      text Unwraps a result or propagates its error.
+      link unimplemented macro.unimplemented.html
+      text Indicates unimplemented code by panicking with a message of “not implemented”.
+      link unreachable macro.unreachable.html
+      text Indicates unreachable code.
+      link vec macro.vec.html
+      link Vec vec/struct.Vec.html
+      link write macro.write.html
+      text Writes formatted data into a buffer.
+      link writeln macro.writeln.html
+      text Writes formatted data into a buffer, with a newline appended.
+      row
+        link concat_bytes macro.concat_bytes.html
+        text Experimental
+      text Concatenates literals into a byte slice.
+      row
+        link const_format_args macro.const_format_args.html
+        text Experimental
+      link format_args macro.format_args.html
+      row
+        link hash_map macro.hash_map.html
+        text Experimental
+      link HashMap collections/struct.HashMap.html
+      row
+        link log_syntax macro.log_syntax.html
+        text Experimental
+      text Prints passed tokens into the standard output.
+      row
+        link trace_macros macro.trace_macros.html
+        text Experimental
+      text Enables or disables tracing functionality used for debugging other macros.
+    h2 Keywords§
+    row
+      link SelfTy keyword.SelfTy.html
+      row
+        link trait keyword.trait.html
+        link impl keyword.impl.html
+      link as keyword.as.html
+      text Cast between types, rename an import, or qualify paths to associated items.
+      link async keyword.async.html
+      link Future future/trait.Future.html
+      link await keyword.await.html
+      link Future future/trait.Future.html
+      link become keyword.become.html
+      text Perform a tail-call of a function.
+      link break keyword.break.html
+      text Exit early from a loop or labelled block.
+      link const keyword.const.html
+      text Compile-time constants, compile-time blocks, compile-time evaluable functions, and raw pointers.
+      link continue keyword.continue.html
+      text Skip to the next iteration of a loop.
+      link crate keyword.crate.html
+      text A Rust binary or library.
+      link dyn keyword.dyn.html
+      row
+        text dyn
+        link "trait object" ../book/ch17-02-trait-objects.html
+      link else keyword.else.html
+      row
+        link if keyword.if.html
+        link false keyword.false.html
+      link enum keyword.enum.html
+      text A type that can be any one of several variants.
+      link extern keyword.extern.html
+      text Link to or import external code.
+      link false keyword.false.html
+      row
+        link bool primitive.bool.html
+        text false
+      link fn keyword.fn.html
+      text A function or function pointer.
+      link for keyword.for.html
+      col
+        link in keyword.in.html
+        link impl keyword.impl.html
+        link "higher-ranked trait bounds" ../reference/trait-bounds.html#higher-ranked-trait-bounds
+        text for<'a>
+      link if keyword.if.html
+      text Evaluate a block if a condition holds.
+      link impl keyword.impl.html
+      text Implementations of functionality for a type, or a type implementing some functionality.
+      link in keyword.in.html
+      link for keyword.for.html
+      link let keyword.let.html
+      text Bind a value to a variable.
+      link loop keyword.loop.html
+      text Loop indefinitely.
+      link match keyword.match.html
+      text Control flow based on pattern matching.
+      link mod keyword.mod.html
+      link modules ../reference/items/modules.html
+      link move keyword.move.html
+      link closure ../book/ch13-01-closures.html
+      link mut keyword.mut.html
+      text A mutable variable, reference, or pointer.
+      link pub keyword.pub.html
+      text Make an item visible to others.
+      link ref keyword.ref.html
+      text Bind by reference during pattern matching.
+      link return keyword.return.html
+      text Returns a value from a function.
+      link self keyword.self.html
+      text The receiver of a method, or the current module.
+      link static keyword.static.html
+      text A static item is a value which is valid for the entire duration of your program (a 'static lifetime).
+      link struct keyword.struct.html
+      text A type that is composed of other types.
+      link super keyword.super.html
+      link module ../reference/items/modules.html
+      link trait keyword.trait.html
+      text A common interface for a group of types.
+      link true keyword.true.html
+      row
+        link bool primitive.bool.html
+        text true
+      link type keyword.type.html
+      link alias ../reference/items/type-aliases.html
+      link union keyword.union.html
+      link "Rust equivalent of a C-style union" ../reference/items/unions.html
+      link unsafe keyword.unsafe.html
+      link "memory safety" ../book/ch19-01-unsafe-rust.html
+      link use keyword.use.html
+      text Import or rename items from other crates or modules, use values under ergonomic clones semantic, or specify precise capturing with use<..>.
+      link where keyword.where.html
+      text Add constraints that must be upheld to use an item.
+      link while keyword.while.html
+      text Loop while a condition is upheld.
+    h2 Attribute Macros§
+    row
+      link derive attr.derive.html
+      text Attribute macro used to apply derive macros.
+    h2 Attributes§
+    row
+      link allow attribute.allow.html
+      col
+        text allow
+        link forbid ./attribute.forbid.html
+      link cfg attribute.cfg.html
+      text Used for conditional compilation.
+      link cold attribute.cold.html
+      text Hint to the compiler that a function is unlikely to be called.
+      link deny attribute.deny.html
+      text Emits an error, preventing the compilation from finishing, when a lint check has failed. This is useful for enforcing rules or preventing certain patterns:
+      link deprecated attribute.deprecated.html
+      text Emits a warning during compilation when an item with this attribute is used. since and note are optional fields giving more detail about why the item is deprecated.
+      link forbid attribute.forbid.html
+      text Emits an error, preventing the compilation from finishing, when a lint check has failed.
+      link inline attribute.inline.html
+      text Suggest that the compiler inline a function at its call sites.
+      link link_section attribute.link_section.html
+      text Places a function or static in a specific object-file section.
+      link must_use attribute.must_use.html
+      text Warn when a value is ignored.
+      link no_std attribute.no_std.html
+      text Prevents automatically linking the standard library.
+      link non_exhaustive attribute.non_exhaustive.html
+      text Indicates that a type might have more fields or variants added in the future.
+      link proc_macro attribute.proc_macro.html
+      text Defines a function-like procedural macro.
+      link track_caller attribute.track_caller.html
+      text Make a function report the location of its caller instead of its own.
+      link warn attribute.warn.html
+      text Emits a warning during compilation when a lint check failed.
